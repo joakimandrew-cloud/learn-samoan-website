@@ -14,8 +14,9 @@
     ],
     "example": {
       "samoan": "Sā ʻou alu.",
-      "english": "I went. (Lit. \"Past I go.\")"
-    }
+      "english": "I went."
+    },
+    "quiz": true
   },
   {
     "chapter": 2,
@@ -30,9 +31,10 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā ʻou alu.",
-      "english": "I went."
-    }
+      "samoan": "Sā lātou alu.",
+      "english": "They went."
+    },
+    "quiz": true
   },
   {
     "chapter": 3,
@@ -49,7 +51,8 @@
     "example": {
       "samoan": "Sā ʻou foi.",
       "english": "I returned."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 4,
@@ -66,9 +69,10 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā ʻou alu.",
-      "english": "I went."
-    }
+      "samoan": "ʻOleʻā ʻou alu.",
+      "english": "I will go."
+    },
+    "quiz": true
   },
   {
     "chapter": 5,
@@ -86,7 +90,8 @@
     "example": {
       "samoan": "Nofo.",
       "english": "Sit down."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 6,
@@ -102,7 +107,11 @@
       "Words to Learn",
       "Exercises"
     ],
-    "example": null
+    "example": {
+      "samoan": "Sā alu le teine.",
+      "english": "The girl went."
+    },
+    "quiz": true
   },
   {
     "chapter": 7,
@@ -119,8 +128,9 @@
     ],
     "example": {
       "samoan": "ʻO se uō le tama.",
-      "english": "The boy is a friend. (Lit. \"a friend, the boy\")"
-    }
+      "english": "The boy is a friend."
+    },
+    "quiz": true
   },
   {
     "chapter": 8,
@@ -139,7 +149,8 @@
     "example": {
       "samoan": "ʻO ai ʻoe?",
       "english": "Who are you?"
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 9,
@@ -160,8 +171,9 @@
     ],
     "example": {
       "samoan": "Mānaia le meaʻai!",
-      "english": "The food is nice! (Lit. \"Nice the food!\")"
-    }
+      "english": "The food is nice!"
+    },
+    "quiz": true
   },
   {
     "chapter": 10,
@@ -179,7 +191,8 @@
     "example": {
       "samoan": "ʻO le fale o le aliʻi.",
       "english": "The house of the chief."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 11,
@@ -196,7 +209,8 @@
     "example": {
       "samoan": "Sā ʻou alu i le nuʻu.",
       "english": "I went to the village."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 12,
@@ -215,7 +229,8 @@
     "example": {
       "samoan": "Sā vaʻai le teine i le iʻa.",
       "english": "The girl saw the fish."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 13,
@@ -234,7 +249,8 @@
     "example": {
       "samoan": "E malosi le tama.",
       "english": "The boy is strong."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 14,
@@ -252,7 +268,8 @@
     "example": {
       "samoan": "E iai sina vai?",
       "english": "Is there any water?"
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 15,
@@ -272,7 +289,8 @@
     "example": {
       "samoan": "Sā siva le teine.",
       "english": "The girl danced."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 16,
@@ -290,7 +308,8 @@
     "example": {
       "samoan": "Sā nofo le teine i le nuʻu.",
       "english": "The girl lived in the village."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 17,
@@ -309,8 +328,9 @@
     ],
     "example": {
       "samoan": "Sā i le fale le teine.",
-      "english": "The girl was in the house. (Lit. \"Past at the house the girl.\")"
-    }
+      "english": "The girl was in the house."
+    },
+    "quiz": true
   },
   {
     "chapter": 18,
@@ -328,7 +348,8 @@
     "example": {
       "samoan": "Na fānau le pepe anapō.",
       "english": "The baby was born last night."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 19,
@@ -348,7 +369,8 @@
     "example": {
       "samoan": "Sā nofo le teine.",
       "english": "The girl stayed."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 20,
@@ -367,7 +389,8 @@
     "example": {
       "samoan": "Sā fāgota le tama ma le vaʻa.",
       "english": "The boy went fishing with the canoe."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 21,
@@ -387,7 +410,8 @@
     "example": {
       "samoan": "ʻO ai na alu?",
       "english": "Who went?"
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 22,
@@ -404,9 +428,10 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "E malosi le tama.",
-      "english": "The boy is strong."
-    }
+      "samoan": "E tolu tama.",
+      "english": "There are three boys."
+    },
+    "quiz": true
   },
   {
     "chapter": 23,
@@ -425,7 +450,8 @@
     "example": {
       "samoan": "Sā ʻou alu.",
       "english": "I went."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 24,
@@ -444,7 +470,8 @@
     "example": {
       "samoan": "ʻAua ʻe te faʻasāunoa i mea ola.",
       "english": "Do not torture animals."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 25,
@@ -465,7 +492,8 @@
     "example": {
       "samoan": "ʻO le leitiō a le aliʻi.",
       "english": "The radio of the chief."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 26,
@@ -483,8 +511,9 @@
     ],
     "example": {
       "samoan": "ʻO le laau i tua o le fale.",
-      "english": "The tree behind the house. (Lit. \"The tree in the back of the house.\")"
-    }
+      "english": "The tree behind the house."
+    },
+    "quiz": true
   },
   {
     "chapter": 27,
@@ -503,9 +532,10 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā alu le teine.",
-      "english": "The girl went."
-    }
+      "samoan": "Sā fafaga e le tama le moa.",
+      "english": "The boy fed the hen."
+    },
+    "quiz": true
   },
   {
     "chapter": 28,
@@ -524,7 +554,11 @@
       "Words to Learn",
       "Exercises"
     ],
-    "example": null
+    "example": {
+      "samoan": "Sā faʻamoe e le teine le pepe.",
+      "english": "The girl put the baby to sleep."
+    },
+    "quiz": true
   },
   {
     "chapter": 29,
@@ -544,8 +578,9 @@
     ],
     "example": {
       "samoan": "Faʻatali mai.",
-      "english": "Wait for me. (Lit. \"Wait, toward me.\")"
-    }
+      "english": "Wait for me."
+    },
+    "quiz": true
   },
   {
     "chapter": 30,
@@ -565,7 +600,8 @@
     "example": {
       "samoan": "E sā ona ulaula.",
       "english": "It is forbidden to smoke."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 31,
@@ -582,9 +618,10 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "E malosi le tama.",
-      "english": "The boy is strong."
-    }
+      "samoan": "E malosi atu le tama.",
+      "english": "The boy is stronger."
+    },
+    "quiz": true
   },
   {
     "chapter": 32,
@@ -603,7 +640,8 @@
     "example": {
       "samoan": "Sā fasi le tama e le teine.",
       "english": "The girl hit the boy."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 33,
@@ -621,8 +659,9 @@
     ],
     "example": {
       "samoan": "ʻUa iloa e le tama ʻua sau le teine.",
-      "english": "The boy knows that the girl has come. (Lit. \"Now know, doer the boy, now come the girl.\")"
-    }
+      "english": "The boy knows that the girl has come."
+    },
+    "quiz": true
   },
   {
     "chapter": 34,
@@ -643,7 +682,8 @@
     "example": {
       "samoan": "Sā gālue le tama i le faʻatoʻaga.",
       "english": "The boy worked in the plantation."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 35,
@@ -662,7 +702,8 @@
     "example": {
       "samoan": "ʻOu te lē fia manatu i le mea lea.",
       "english": "I do not want to think about that."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 36,
@@ -682,7 +723,8 @@
     "example": {
       "samoan": "Sā timu ma sā lolo le vai.",
       "english": "It rained and the water overflowed."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 37,
@@ -700,8 +742,9 @@
     ],
     "example": {
       "samoan": "Ona alu lea ʻo le tama.",
-      "english": "Then the boy went. (Lit. \"Then go that, the boy.\")"
-    }
+      "english": "Then the boy went."
+    },
+    "quiz": true
   },
   {
     "chapter": 38,
@@ -721,8 +764,9 @@
     ],
     "example": {
       "samoan": "Sā taatia le teine i le fale ʻauā ʻua vaivai.",
-      "english": "The girl lay down in the house because she was tired. (Lit. \"...because has become tired.\")"
-    }
+      "english": "The girl lay down in the house because she was tired."
+    },
+    "quiz": true
   },
   {
     "chapter": 39,
@@ -741,7 +785,8 @@
     "example": {
       "samoan": "ʻĀfai e timu taeao, e lē alu le malaga.",
       "english": "If it rains tomorrow, the trip will not go."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 40,
@@ -762,7 +807,8 @@
     "example": {
       "samoan": "E uliuli le taʻavale.",
       "english": "The car is black."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 41,
@@ -783,7 +829,8 @@
     "example": {
       "samoan": "Sā tatala e le teine le pusa.",
       "english": "The girl opened the box."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 42,
@@ -804,8 +851,9 @@
     ],
     "example": {
       "samoan": "E a mātou le taʻavale.",
-      "english": "The car is ours. (Lit. \"Ours the car.\")"
-    }
+      "english": "The car is ours."
+    },
+    "quiz": true
   },
   {
     "chapter": 43,
@@ -826,7 +874,11 @@
       "Words to Learn",
       "Exercises"
     ],
-    "example": null
+    "example": {
+      "samoan": "ʻO le fafine sā alu i le nuʻu.",
+      "english": "The woman who went to the village."
+    },
+    "quiz": true
   },
   {
     "chapter": 44,
@@ -846,8 +898,9 @@
     ],
     "example": {
       "samoan": "Talu ona ʻou sau ʻou te leʻi maua se mea lelei.",
-      "english": "Since I came, I have not got anything good. (Lit. \"Since that I come, I have not yet got a good thing.\")"
-    }
+      "english": "Since I came, I have not got anything good."
+    },
+    "quiz": true
   },
   {
     "chapter": 45,
@@ -868,7 +921,11 @@
       "Words to Learn",
       "Exercises"
     ],
-    "example": null
+    "example": {
+      "samoan": "ʻO le taliga o le tama.",
+      "english": "The boy's ear."
+    },
+    "quiz": true
   },
   {
     "chapter": 46,
@@ -885,8 +942,9 @@
     ],
     "example": {
       "samoan": "Sā ʻou nofo ma le lē fiafia.",
-      "english": "I stayed and was unhappy. (Lit. \"I stayed with the not being happy.\")"
-    }
+      "english": "I stayed and was unhappy."
+    },
+    "quiz": true
   },
   {
     "chapter": 47,
@@ -905,7 +963,8 @@
     "example": {
       "samoan": "E alofa le tama i le teine.",
       "english": "The boy loves the girl."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 48,
@@ -925,7 +984,8 @@
     "example": {
       "samoan": "ʻIa tātou onosaʻi.",
       "english": "Let's be patient."
-    }
+    },
+    "quiz": true
   },
   {
     "chapter": 49,
@@ -944,8 +1004,9 @@
     ],
     "example": {
       "samoan": "ʻĀfai ʻe te lē sau, ʻou te alu atu.",
-      "english": "If you do not come, I will go and see you. (Lit. \"If you not come, I go away.\")"
-    }
+      "english": "If you do not come, I will go and see you."
+    },
+    "quiz": true
   },
   {
     "chapter": 50,
@@ -967,7 +1028,11 @@
       "Words to Learn",
       "Exercises"
     ],
-    "example": null
+    "example": {
+      "samoan": "Sā nonofo teine.",
+      "english": "The girls stayed."
+    },
+    "quiz": true
   },
   {
     "chapter": 51,
@@ -983,6 +1048,10 @@
       "Words to Learn",
       "Exercises"
     ],
-    "example": null
+    "example": {
+      "samoan": "Sau si aʻu tama.",
+      "english": "Come, my dear boy."
+    },
+    "quiz": true
   }
 ]

@@ -1,0 +1,165 @@
+/* Scale figure: printed forms on a line (time, distance, degree) or on a
+   small map. Sits in the light .fig panel; the panel under it is the
+   inherited .cb-out sentence panel (lesson.css). Every rule is scoped under
+   .ix-scale, because lesson.css loads after this file. Scale.jsx keeps three
+   numbers in step with this file: the rail's insets (18px at the left, 34px
+   at the arrowhead end) and the 12px between the rail and an end label. */
+
+.ix-scale { position: relative; font-family: var(--f-ui); container: ixscale / inline-size; }
+.ix-scale p { margin: 0; }
+
+/* ---- The line, left to right ---- */
+.ix-scale .ix-scale-axis { display: flex; align-items: flex-start; gap: 12px; }
+.ix-scale .ix-scale-end {
+  flex: none; margin-top: 70px; /* level with the line, which runs at 78px */
+  font-family: var(--f-display); font-weight: 700; font-size: 12.5px; line-height: 1.2;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--muted);
+}
+.ix-scale .ix-scale-end-t { display: inline-block; white-space: nowrap; }
+.ix-scale .ix-scale-end .to { font-family: var(--f-serif); font-size: 15px; letter-spacing: 0; text-transform: none; color: var(--ink-2) !important; }
+.ix-scale .ix-scale-rail { position: relative; flex: 1; min-width: 0; height: 142px; }
+.ix-scale .ix-scale-line { position: absolute; left: 0; right: 12px; top: 77px; height: 2px; border-radius: 2px; background: var(--faint); }
+.ix-scale .ix-scale-line::after {
+  content: ''; position: absolute; left: 100%; top: 50%; translate: 0 -50%;
+  border-left: 12px solid var(--faint); border-top: 6.5px solid transparent; border-bottom: 6.5px solid transparent;
+}
+.ix-scale .ix-scale-gap { display: none; }
+
+/* A marker: the Samoan form above the line, its dot on it, the gloss below.
+   The whole column is the button. */
+.ix-scale .ix-scale-pt {
+  position: absolute; top: 0; height: 100%;
+  left: calc(18px + (100% - 52px) * var(--x) / 100); /* 18px in from the left, 34px clear of the arrowhead */
+  translate: -50% 0;
+  display: grid; grid-template-rows: 64px 28px auto; justify-items: center;
+  width: max-content; min-width: 44px; padding: 0;
+  border: 0; border-radius: 12px; background: none; color: var(--ink);
+  -webkit-tap-highlight-color: transparent;
+}
+.ix-scale .ix-scale-pt.is-start { justify-items: start; translate: -8px 0; }
+.ix-scale .ix-scale-pt.is-end { justify-items: end; translate: calc(-100% + 8px) 0; }
+.ix-scale .ix-scale-chip {
+  align-self: end; margin-bottom: 6px;
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px 2px;
+  border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--paper);
+  white-space: nowrap; transition: background-color .2s, border-color .2s;
+}
+.ix-scale .ix-scale-chip .to { font-size: clamp(22px, 2.4vw, 27px); line-height: 1.15; color: var(--ink) !important; transition: color .2s; }
+.ix-scale .ix-scale-dot {
+  position: relative; align-self: center;
+  width: 16px; height: 16px; border-radius: 50%;
+  background: var(--paper); border: 2px solid var(--faint);
+}
+.ix-scale .ix-scale-fill {
+  position: absolute; inset: -6px; border-radius: 50%;
+  background: var(--red); box-shadow: 0 0 0 5px color-mix(in srgb, var(--red) 16%, transparent);
+}
+.ix-scale .ix-scale-gloss {
+  display: inline-block; margin-top: 4px;
+  font-family: var(--f-display); font-weight: 700; font-size: 12.5px; line-height: 1.25;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--muted); white-space: nowrap;
+  transition: color .2s;
+}
+.ix-scale .ix-scale-pt.is-on .ix-scale-chip { background: var(--red); border-color: var(--red); }
+.ix-scale .ix-scale-pt.is-on .ix-scale-chip .to { color: #fff !important; }
+.ix-scale .ix-scale-pt.is-on .ix-scale-gloss { color: var(--red); }
+@media (hover: hover) {
+  .ix-scale .ix-scale-pt:not(.is-on):hover .ix-scale-chip { border-color: var(--red); }
+}
+/* The focus ring goes round the form, where the eye already is. */
+.ix-scale .ix-scale-pt:focus-visible { outline: none; }
+.ix-scale .ix-scale-pt:focus-visible .ix-scale-chip { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+/* ---- The line stood on end: top = from, bottom = to ---- */
+.ix-scale.is-upright .ix-scale-axis { flex-direction: column; align-items: stretch; gap: 6px; }
+.ix-scale.is-upright .ix-scale-end { margin-top: 0; padding-left: 2px; }
+.ix-scale.is-upright .ix-scale-end-t { white-space: normal; }
+.ix-scale.is-upright .ix-scale-rail {
+  display: flex; flex-direction: column; height: auto;
+  min-height: calc(var(--n, 4) * 52px + 150px); padding: 8px 0 22px;
+}
+.ix-scale.is-upright .ix-scale-line { left: 15px; right: auto; top: 0; bottom: 12px; width: 2px; height: auto; }
+.ix-scale.is-upright .ix-scale-line::after {
+  left: 50%; top: 100%; translate: -50% 0;
+  border-top: 12px solid var(--faint); border-left: 6.5px solid transparent; border-right: 6.5px solid transparent; border-bottom: 0;
+}
+.ix-scale.is-upright .ix-scale-gap { display: block; flex: var(--g, 1) 1 0px; min-height: 2px; }
+.ix-scale.is-upright .ix-scale-pt {
+  position: relative; left: auto; top: auto; height: auto; translate: none;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px;
+  width: 100%; min-height: 50px; padding: 2px 4px 2px 42px; text-align: left;
+}
+.ix-scale.is-upright .ix-scale-chip { align-self: center; margin: 0; }
+.ix-scale.is-upright .ix-scale-dot { position: absolute; left: 8px; top: 50%; translate: 0 -50%; }
+.ix-scale.is-upright .ix-scale-gloss { margin: 0; white-space: normal; }
+
+/* The hidden ruler the figure measures its labels with. */
+.ix-scale .ix-scale-ruler {
+  position: absolute; left: 0; top: 0; width: max-content; height: 0; overflow: hidden;
+  visibility: hidden; pointer-events: none; white-space: nowrap;
+}
+.ix-scale .ix-scale-ruler .ix-scale-chip, .ix-scale .ix-scale-ruler .ix-scale-gloss { margin: 0; transition: none; }
+
+/* ---- The map ---- */
+.ix-scale .ix-scale-map {
+  position: relative; aspect-ratio: 16 / 10; overflow: hidden;
+  border: 1px solid var(--line); border-radius: 16px; background-color: var(--paper);
+  background-image:
+    linear-gradient(90deg, transparent calc(50% - .5px), var(--line) calc(50% - .5px), var(--line) calc(50% + .5px), transparent calc(50% + .5px)),
+    linear-gradient(transparent calc(50% - .5px), var(--line) calc(50% - .5px), var(--line) calc(50% + .5px), transparent calc(50% + .5px)),
+    radial-gradient(circle, var(--line-strong) 1px, transparent 1.5px);
+  background-size: 100% 100%, 100% 100%, 28px 28px;
+  background-position: 0 0, 0 0, center;
+}
+.ix-scale .ix-scale-field { position: absolute; inset: 14px; }
+/* A form sits at (x, y), pulled back by the same share of its own size so it
+   never leaves the box: centred in the middle, flush at an edge. */
+.ix-scale .ix-scale-pin {
+  position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%);
+  translate: calc(var(--x) * -1%) calc(var(--y) * -1%);
+  display: inline-flex; flex-direction: column; align-items: center; justify-content: center;
+  min-width: 44px; min-height: 44px; padding: 4px 14px 6px;
+  border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--paper);
+  color: var(--ink); line-height: 1.1; white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(18, 18, 18, .05);
+  transition: border-color .2s;
+  -webkit-tap-highlight-color: transparent;
+}
+.ix-scale .ix-scale-pin-fill { position: absolute; inset: -1.5px; border-radius: inherit; background: var(--red); }
+.ix-scale .ix-scale-pin > :not(.ix-scale-pin-fill) { position: relative; }
+.ix-scale .ix-scale-pin .to { font-size: 21px; color: var(--ink) !important; transition: color .2s; }
+.ix-scale .ix-scale-pin .ix-scale-gloss { margin-top: 3px; font-size: 11.5px; letter-spacing: .14em; }
+.ix-scale .ix-scale-pin.is-on { border-color: var(--red); }
+.ix-scale .ix-scale-pin.is-on .to, .ix-scale .ix-scale-pin.is-on .ix-scale-gloss { color: #fff !important; }
+@media (hover: hover) {
+  .ix-scale .ix-scale-pin:not(.is-on):hover { border-color: var(--red); }
+}
+
+/* ---- The chosen form's example ---- */
+.ix-scale .ix-scale-detail { margin-top: 20px; }
+.ix-scale .ix-scale-out { padding: 20px 22px 18px; }
+.ix-scale .ix-scale-kicker {
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 4px 10px; margin-bottom: 6px;
+  font-family: var(--f-display); font-weight: 700; font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted);
+}
+.ix-scale .ix-scale-kicker .to { font-family: var(--f-serif); font-size: 19px; letter-spacing: 0; text-transform: none; color: var(--red) !important; }
+.ix-scale .ix-scale-sentence { font-size: clamp(28px, 4.2vw, 46px); overflow-wrap: anywhere; }
+.ix-scale .ix-scale-en { margin-top: 6px; }
+.ix-scale .ix-scale-note {
+  max-width: 54ch; margin: 14px auto 0; padding-top: 12px; border-top: 1px solid var(--line);
+  font-size: 15.5px; line-height: 1.55; color: var(--ink-2);
+}
+.ix-scale .ix-scale-note .to { font-size: 1.05em; color: var(--ink) !important; }
+
+/* Narrow figures: smaller forms on the map, a squarer box to hold them. */
+@container ixscale (max-width: 460px) {
+  .ix-scale .ix-scale-map { aspect-ratio: 5 / 4; }
+  .ix-scale .ix-scale-field { inset: 10px; }
+  .ix-scale .ix-scale-pin { padding: 3px 9px 5px; border-radius: 10px; }
+  .ix-scale .ix-scale-pin .to { font-size: 17px; }
+  .ix-scale .ix-scale-pin .ix-scale-gloss { font-size: 10px; letter-spacing: .1em; }
+  .ix-scale .ix-scale-out { padding: 16px 14px 14px; }
+  .ix-scale .ix-scale-sentence { font-size: clamp(24px, 7.4vw, 32px); }
+  .ix-scale .ix-scale-en { font-size: 15.5px; }
+  .ix-scale .ix-scale-note { font-size: 15px; }
+}

@@ -1,0 +1,131 @@
+{
+  "chapter": 2,
+  "items": [
+    {
+      "id": "ch2-pronoun-grid",
+      "kind": "grid",
+      "anchor": "more-than-one-person",
+      "title": "Every preverbal pronoun, by person and number",
+      "caption": "Tap a form to read it. The word for \"we\" takes two rows: *tātou* takes the listener in, *mātou* leaves them out. Switch to Find the form to test yourself.",
+      "data": {
+        "rowLabel": "Person",
+        "colLabel": "Number",
+        "cols": ["One", "Two", "More than two"],
+        "quiz": true,
+        "rows": [
+          {
+            "label": "I / we, but not you",
+            "cells": [
+              {
+                "sm": "ʻou",
+                "en": "I",
+                "note": "Met in Chapter 1. Like every form here, it stands between *sā* and the verb.",
+                "example": { "sm": "Sā ʻou alu.", "en": "I went." }
+              },
+              {
+                "sm": "mā",
+                "en": "we two (but not you)",
+                "note": "Two people, and the person you are speaking to is not one of them."
+              },
+              {
+                "sm": "mātou",
+                "en": "we (others and I, but not you)",
+                "note": "*Mātou* shuts the listener out. Say \"we ate\" with *mātou* and you have told your listener they had no part in it.",
+                "example": { "sm": "Sā mātou siva.", "en": "We danced." }
+              }
+            ]
+          },
+          {
+            "label": "We, you included",
+            "cells": [
+              null,
+              {
+                "sm": "tā",
+                "en": "we two (you and I)",
+                "note": "Two people, and the person you are speaking to is one of them."
+              },
+              {
+                "sm": "tātou",
+                "en": "we (you and I, and others)",
+                "note": "*Tātou* pulls the listener in: we, you included. It sits a single sound apart from *mātou*, and the English \"we\" hides the difference.",
+                "example": { "sm": "Sā tātou siva.", "en": "We danced." }
+              }
+            ]
+          },
+          {
+            "label": "You",
+            "cells": [
+              {
+                "sm": "ʻe",
+                "en": "you (one person)",
+                "note": "One person only. Two take *ʻoulua*, and more than two take *ʻoutou*."
+              },
+              { "sm": "ʻoulua", "en": "you two" },
+              {
+                "sm": "ʻoutou",
+                "en": "you all",
+                "example": { "sm": "Sā ʻoutou siva?", "en": "Did you all dance?" }
+              }
+            ]
+          },
+          {
+            "label": "He, she, they",
+            "cells": [
+              {
+                "sm": "ia",
+                "en": "he, she",
+                "note": "Met in Chapter 1. It has a second form, *na*, needed in one construction taught later; every sentence in this chapter uses *ia*."
+              },
+              { "sm": "lā", "en": "they two" },
+              {
+                "sm": "lātou",
+                "en": "they",
+                "note": "More than two. For exactly two, the form is *lā*.",
+                "example": { "sm": "Sā lātou alu.", "en": "They went." }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2-two-sets",
+      "kind": "grid",
+      "anchor": "saying-who-it-is",
+      "title": "Two sets of pronouns",
+      "caption": "In the middle slot, *ʻou* and *ʻe*. After *ʻo* and *ia te*, the independent forms *aʻu* and *ʻoe*.",
+      "data": {
+        "cols": ["I", "You"],
+        "rows": [
+          {
+            "label": "Before the verb",
+            "cells": [
+              {
+                "sm": "ʻou",
+                "en": "I",
+                "note": "It stands only in the middle slot, right in front of the verb.",
+                "example": { "sm": "Sā ʻou alu.", "en": "I went." }
+              },
+              { "sm": "ʻe", "en": "you (one person)" }
+            ]
+          },
+          {
+            "label": "After *ʻo* or *ia te*",
+            "cells": [
+              {
+                "sm": "aʻu",
+                "en": "me (the independent form of \"I\")",
+                "example": { "sm": "ʻO aʻu.", "en": "It is me." }
+              },
+              {
+                "sm": "ʻoe",
+                "en": "you (the independent form of \"you\")",
+                "example": { "sm": "ʻO ʻoe.", "en": "It is you." }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "chapter": 28,
+  "items": [
+    {
+      "id": "ch1-tune",
+      "kind": "contrast",
+      "anchor": "building-a-word-with-faa",
+      "title": "Only the tune changes",
+      "caption": "The words and their order stay the same. An English yes or no question lifts the voice at the end; a Samoan one usually falls and stays low over the last two or three syllables.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Statement", "sm": "Sā ia alu.", "en": "She went.", "note": "A statement. The book never marks its tune." },
+          { "label": "Samoan question", "sm": "Sā ia alu?", "en": "Did she go?", "tune": "fall", "note": "The same three words. The voice falls and stays low at the end, which is what the arrow ↘ marks in this book." },
+          { "label": "English question", "en": "Did she go?", "tune": "rise", "note": "English runs the other way: its yes or no question lifts the voice at the end." }
+        ]
+      }
+    },
+    {
+      "id": "ch28-make-sleep",
+      "kind": "contrast",
+      "anchor": "making-something-happen",
+      "title": "From sleeping to putting to sleep",
+      "caption": "Step through it: the verb, the verb with *faʻa-* in front, then the built word at work in a sentence. The highlight marks what each step adds to the one before.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          { "label": "The verb", "sm": "moe", "en": "sleep", "note": "*Moe* takes no doer of its own: it names something one person does with nobody else in the sentence." },
+          { "label": "Add *faʻa-*", "sm": "faʻamoe", "en": "put to sleep", "note": "*Faʻa-* goes on the front and never changes its own shape, and the two are written together as one word. The built word means to make somebody do what *moe* names." },
+          { "label": "In a sentence", "sm": "Sā faʻamoe e le teine le pepe.", "en": "The girl put the baby to sleep.", "note": "Now the sentence holds two people: the doer, *le teine*, carrying the agent marker *e*, and the one it was done to, *le pepe*, standing bare after the verb." }
+        ]
+      }
+    }
+  ]
+}

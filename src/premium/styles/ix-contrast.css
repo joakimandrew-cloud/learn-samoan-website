@@ -1,0 +1,113 @@
+/* Contrast figure: the inherited two-way pill (.into-toggle, .into-pill) or
+   the .cb-toggle for three or more forms, the .cb-out stage card, and the
+   intonation figure's contour (.into-svg, .into-base, .into-line, .into-dot),
+   all from lesson.css; plus a stepper for derivations. Every chapter page
+   runs under .wr-inner, so these rules are written for the light panel. */
+
+.ix-contrast { position: relative; min-width: 0; }
+
+/* Toggle: the inherited segmented controls, allowed to wrap. */
+.ix-ct-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 16px; }
+.ix-contrast .into-toggle, .ix-contrast .cb-toggle { max-width: 100%; }
+.ix-contrast .cb-toggle { flex-wrap: wrap; }
+.ix-contrast :is(.into-toggle, .cb-toggle) button { line-height: 1.2; }
+.ix-contrast :is(.into-toggle, .cb-toggle) .to { color: inherit !important; font-size: 1.1em; }
+
+/* The stage: the current form, large, with its English under it. The
+   unseen sizer stacks every form in the same cell, so the card keeps the
+   height of its tallest form. */
+.ix-contrast .ix-ct-stage { padding: 18px 22px 20px; }
+.ix-ct-cell, .ix-ct-sizer, .ix-ct-stack { display: grid; min-width: 0; }
+.ix-ct-cell > *, .ix-ct-sizer > *, .ix-ct-stack > * { grid-area: 1 / 1; min-width: 0; }
+.ix-ct-sizer { visibility: hidden; }
+.ix-ct-slot, .ix-ct-now { display: flex; flex-direction: column; justify-content: center; }
+.ix-ct-words { position: relative; display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; column-gap: .3em; margin: 0; font-size: clamp(30px, 4.4vw, 52px); line-height: 1.22; }
+.ix-contrast.is-long .ix-ct-words { font-size: clamp(24px, 3.3vw, 40px); }
+.ix-contrast.is-tuned .ix-ct-words { justify-content: space-around; }
+.ix-contrast .ix-ct-words .to { color: var(--ink); font-size: 1em; }
+.ix-ct-w { display: inline-block; max-width: 100%; overflow-wrap: anywhere; }
+.ix-ct-words.is-en { font-family: var(--f-serif); font-style: normal; font-weight: 450; color: var(--ink); }
+.ix-contrast .ix-ct-en { margin: 6px 0 0; }
+
+/* What changed: the accent colour and an underline, drawn in gently. */
+.ix-contrast mark.ix-ct-mark {
+  background: none;
+  color: var(--red);
+  text-decoration-line: underline;
+  text-decoration-thickness: max(2px, .065em);
+  text-underline-offset: .14em;
+  text-decoration-skip-ink: auto;
+  animation: ix-ct-mark .7s var(--ease-out) both;
+}
+@keyframes ix-ct-mark { from { color: var(--ink); text-decoration-color: transparent; } }
+
+/* The pitch contour over the words, with a plain-words tag above it. The
+   drawing stretches to the stage but never gets too flat to read. */
+.ix-ct-tune-area { margin: 0 0 -2px; }
+.ix-ct-tune-row { min-height: 16px; display: flex; align-items: center; text-align: left; }
+.ix-ct-tune { font: 700 11.5px/1.2 var(--f-display); letter-spacing: .16em; text-transform: uppercase; color: var(--red); }
+.ix-ct-tune.is-none { color: var(--muted); }
+.ix-contrast .ix-ct-svg { display: block; width: 100%; height: auto; aspect-ratio: 640 / 130; min-height: 88px; }
+.ix-contrast .ix-ct-svg :is(.into-base, .into-line, .ix-ct-end) { vector-effect: non-scaling-stroke; }
+.ix-contrast .ix-ct-svg .ix-ct-end { fill: none; stroke: var(--orange); stroke-width: 14; stroke-linecap: round; }
+
+/* The note under the stage, sized to the longest note. */
+.ix-ct-notes { display: grid; margin-top: 16px; }
+.ix-ct-notes > * { grid-area: 1 / 1; min-width: 0; }
+.ix-ct-notes.is-empty { margin-top: 0; }
+.ix-ct-note-size { visibility: hidden; }
+.ix-ct-notes p { margin: 0; font-size: 16px; line-height: 1.55; color: var(--ink); }
+
+/* Steps: numbered stops joined by a line, then Back and Next. */
+.ix-ct-track { list-style: none; margin: 0 0 16px; padding: 0; display: grid; grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); }
+.ix-ct-track li { position: relative; display: flex; justify-content: center; min-width: 0; }
+.ix-ct-track li + li::before { content: ''; position: absolute; top: 21px; left: calc(-50% + 23px); right: calc(50% + 23px); height: 2px; border-radius: 2px; background: var(--line-strong); transition: background-color .3s; }
+.ix-ct-track li:is(.is-on, .is-done)::before { background: var(--red); }
+.ix-ct-tbtn { min-width: 44px; min-height: 44px; max-width: 100%; padding: 4px 6px 2px; border: 0; border-radius: 12px; background: none; display: flex; flex-direction: column; align-items: center; gap: 7px; color: var(--muted); }
+.ix-ct-dot { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; border: 1.5px solid var(--line-strong); background: var(--paper); color: var(--muted); font: 700 15px/1 var(--f-display); transition: background-color .25s, border-color .25s, color .25s; }
+.ix-ct-tbtn:hover .ix-ct-dot { border-color: var(--red); }
+.ix-ct-track .is-done .ix-ct-dot { border-color: var(--red); color: var(--red); }
+.ix-ct-track .is-on .ix-ct-dot { background: var(--red); border-color: var(--red); color: #fff; }
+.ix-ct-tlabel { font: 700 11.5px/1.25 var(--f-display); letter-spacing: .14em; text-transform: uppercase; text-align: center; overflow-wrap: anywhere; }
+.ix-ct-track .is-on .ix-ct-tlabel { color: var(--ink); }
+.ix-contrast .ix-ct-tlabel .to { font-family: var(--f-serif); font-size: 1.25em; letter-spacing: 0; text-transform: none; color: inherit; }
+
+.ix-ct-nav { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 18px; }
+.ix-ct-count { min-width: 0; text-align: center; font: 700 12px/1 var(--f-display); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+.ix-ct-count-label { display: none; }
+.ix-ct-navb { min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1.5px solid var(--line-strong); background: var(--paper); color: var(--ink); font-weight: 600; font-size: 14px; white-space: nowrap; transition: border-color .2s, background-color .2s, color .2s, opacity .2s; }
+.ix-ct-navb:hover:not([aria-disabled='true']) { border-color: var(--red); color: var(--red); }
+.ix-ct-navb.is-next { background: var(--red); border-color: var(--red); color: #fff; }
+.ix-ct-navb.is-next:hover:not([aria-disabled='true']) { background: var(--red-deep); border-color: var(--red-deep); color: #fff; }
+.ix-ct-navb[aria-disabled='true'] { opacity: .4; cursor: default; }
+
+@media (max-width: 640px) {
+  .ix-contrast .ix-ct-stage { padding: 14px 12px 16px; }
+  .ix-contrast .into-toggle { width: 100%; }
+  .ix-contrast .into-toggle button { padding: 0 10px; }
+  .ix-contrast .cb-toggle { border-radius: 24px; }
+  .ix-contrast .cb-toggle button { flex: 1 1 auto; padding: 0 12px; }
+  .ix-contrast .into-line { stroke-width: 3; }
+  .ix-contrast .ix-ct-svg .ix-ct-end { stroke-width: 12; }
+  .ix-ct-tune { font-size: 10.5px; letter-spacing: .12em; }
+  .ix-ct-tlabel { font-size: 10.5px; letter-spacing: .1em; }
+  .ix-ct-notes p { font-size: 15px; }
+  .ix-ct-navb { padding: 0 14px; }
+}
+/* Three or more forms on a phone: one column, so no option sits alone. A
+   long derivation keeps its numbered stops and names the current one under
+   the count instead. */
+@media (max-width: 480px) {
+  .ix-contrast .cb-toggle { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; }
+  .ix-ct-track.is-many .ix-ct-tlabel { display: none; }
+  .ix-ct-track.is-many .ix-ct-tbtn { min-width: 0; width: 100%; padding-inline: 0; }
+  .ix-ct-track.is-many .ix-ct-dot { width: 28px; height: 28px; font-size: 13px; }
+  .ix-ct-track.is-many li + li::before { top: 17px; left: calc(-50% + 17px); right: calc(50% + 17px); }
+  .ix-ct-count-label { display: block; margin-top: 5px; font: 600 13px/1.25 var(--f-ui); letter-spacing: 0; text-transform: none; color: var(--ink); overflow-wrap: anywhere; }
+  .ix-contrast .ix-ct-count-label .to { font-size: 1.1em; color: inherit; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ix-contrast mark.ix-ct-mark { animation: none; }
+  .ix-ct-track li + li::before, .ix-ct-dot, .ix-ct-navb { transition: none; }
+}

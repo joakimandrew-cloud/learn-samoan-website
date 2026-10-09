@@ -3,7 +3,7 @@
   --orange: #1e449c;
   --orange-hi: #14295e;
   --orange-deep: #14295e;
-  --orange-soft: #f8ece8;
+  --orange-soft: #e9eefa;
   --paper-soft: #f5f4f1;
   --line: #e2dfd9;
   --max: 1280px;
@@ -25,7 +25,7 @@
 .wr-inner .resume-n { color: #ffffff60; }
 .wr-inner .resume-k { color: #8fabf0; }
 .wr-inner .resume { box-shadow: none; }
-.wr-inner .resume-bars i.on { background: #f57658; }
+.wr-inner .resume-bars i.on { background: #8fabf0; }
 .wr-inner .row .kp-tile, .wr-inner .ls-art-tiles .kp-tile { color: var(--red) !important; --kp-ground: white; }
 .wr-inner .catalog-page { background: white; }
 .wr-inner .catalog-hero { color: var(--ink); background: white; padding: 56px 0; border-bottom: 1px solid var(--line); }
@@ -59,11 +59,11 @@
 .wr-inner .dr-rail { background: #e4dfd8; }
 .wr-inner .dr-fill { background: var(--red); }
 .wr-inner .dr-knob { background: white; border-color: #d2ccc3; }
-.wr-inner .dr-knob-on { background: var(--red); box-shadow: 0 0 0 6px #b92e0e10; }
+.wr-inner .dr-knob-on { background: var(--red); box-shadow: 0 0 0 6px rgba(30, 68, 156, .07); }
 .wr-inner .dr-stop-p { color: #6f695f; }
 .wr-inner .dr-stop.is-on .dr-stop-p { color: var(--red); }
 .wr-inner .dr-exb { background: white; border-color: #ded9d0; color: var(--ink); }
-.wr-inner .dr-exb.is-on { border-color: var(--red); background: #fbf3ef; }
+.wr-inner .dr-exb.is-on { border-color: var(--red); background: var(--red-soft); }
 .wr-inner .dr-opt { border-color: #d8d2c9; background: white; color: var(--ink); }
 .wr-inner .dr-opt kbd { border-color: #ddd7ce; }
 .wr-inner .dr-opt.is-right { color: white; background: var(--success); }
@@ -152,7 +152,7 @@
 .wr-inner .words-toolbar button[aria-selected='true'] { background: var(--red); }
 .wr-inner .finish { color: var(--ink); background: var(--paper-soft); border-top: 1px solid var(--line); }
 .wr-inner .finish-p { color: var(--muted); }
-.wr-inner .finish-check { color: white; box-shadow: 0 0 0 10px #b92e0e10; }
+.wr-inner .finish-check { color: white; box-shadow: 0 0 0 10px rgba(30, 68, 156, .07); }
 .wr-inner .nx { color: var(--ink); background: white; border-color: var(--line-strong); border-radius: 6px; }
 .wr-inner .nx:hover { border-color: var(--red); }
 .wr-inner .nx-main { background: var(--red); color: white; border-color: var(--red); }
@@ -293,3 +293,8 @@ html[data-hdr='hidden'] .wr-inner .mobile-compass { transform: none; }
 
 /* Unlit result tiles remain visibly distinct while using approved geometry. */
 .wr-inner .dr-done-tiles .kp-tile.is-invert { opacity: .22; }
+
+@media (max-width: 1080px) {
+  .wr-inner .ls-grid { display: block; }
+  .wr-inner .ls-rail-wrap { display: none; }
+}

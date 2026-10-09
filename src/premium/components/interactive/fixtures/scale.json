@@ -1,0 +1,67 @@
+{
+  "chapter": 26,
+  "items": [
+    {
+      "id": "ch4-tense-line",
+      "kind": "scale",
+      "anchor": "the-spatial-noun-frame",
+      "title": "The tense line",
+      "caption": "One sentence run across all four particles. Only the first word changes, and with it the time. Both pasts sit before now: what separates *sā* from *na* is the shape of the event, not how long ago it was.",
+      "data": {
+        "layout": "line",
+        "axis": { "from": "Past", "to": "Future" },
+        "points": [
+          {
+            "x": 14,
+            "label": "sā",
+            "gloss": "past",
+            "sm": "Sā ʻou alu.",
+            "en": "I went.",
+            "note": "The past of how things were: states and habits that held over a stretch of time."
+          },
+          {
+            "x": 34,
+            "label": "na",
+            "gloss": "second past",
+            "sm": "Na ʻou alu.",
+            "en": "I went.",
+            "note": "The past of a single, bounded event, a thing that happened once. The plain English \"I went\" fits both pasts."
+          },
+          {
+            "x": 58,
+            "label": "ʻua",
+            "gloss": "change",
+            "sm": "ʻUa ʻou alu.",
+            "en": "I have gone.",
+            "note": "It does not send the event back in time. It marks a change, and reports that a new state is usually in place now."
+          },
+          {
+            "x": 82,
+            "label": "ʻoleʻā",
+            "gloss": "future",
+            "sm": "ʻOleʻā ʻou alu.",
+            "en": "I will go.",
+            "note": "It places the event ahead of now: something expected to happen, usually quite soon. Its short form is *ʻā*."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch26-compass",
+      "kind": "scale",
+      "anchor": "the-directions",
+      "title": "The compass",
+      "caption": "Five direction nouns carry the compass, two of them for the south. Tap one to read it.",
+      "data": {
+        "layout": "map",
+        "points": [
+          { "x": 50, "y": 0, "label": "mātū", "gloss": "North" },
+          { "x": 0, "y": 50, "label": "sisifo", "gloss": "West", "sm": "ʻO le nuʻu i sisifo o le uafu.", "en": "The village west of the wharf.", "note": "One of the two direction nouns recorded in the frame, with the place it is reckoned from in the belonging slot." },
+          { "x": 100, "y": 50, "label": "sasaʻe", "gloss": "East" },
+          { "x": 30, "y": 100, "label": "saute", "gloss": "South", "note": "One of the two words for the south. The other is *toga*." },
+          { "x": 70, "y": 100, "label": "toga", "gloss": "South", "note": "The second word for the south, beside *saute*." }
+        ]
+      }
+    }
+  ]
+}

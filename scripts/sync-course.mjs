@@ -127,13 +127,35 @@ function tables(body) {
 // Chapters
 // ---------------------------------------------------------------------------
 
+// The chapter's sample sentence for the catalog and the resume card: the
+// first whole-sentence pair in its example blocks that no earlier chapter
+// already shows (Chapters 2, 4 and 23 open on Chapter 1's sentence). Word and
+// phrase pairs ("*le teine*. the girl") are passed over. The literal reading
+// in brackets stays in the chapter; the sample keeps the plain translation.
+const shownExamples = new Set()
 function firstExample(md) {
-  const m = md.match(/^:::\s*\{\.examples\}\s*\n([\s\S]*?)\n:::/m)
-  if (!m) return null
-  const line = m[1].split('\n').find(l => /^\*[^*]+\*\s+\S/.test(l))
-  if (!line) return null
-  const pair = line.match(/^\*([^*]+)\*\s+(.*)$/)
-  return pair ? { samoan: pair[1].trim(), english: pair[2].trim() } : null
+  const pairs = []
+  const take = line => {
+    const pair = line.match(/^\*([^*]+[.?!])\*\s+(?:[↘↗]\s*)?([A-Z"].*)$/)
+    if (pair) pairs.push({ samoan: pair[1].trim(), english: pair[2].replace(/\s*\(Lit\.[^)]*\)\s*$/, '').trim() })
+  }
+  for (const m of md.matchAll(/^:::\s*\{\.examples\}\s*\n([\s\S]*?)\n:::/gm)) {
+    // A pair the book wraps continues on lines that do not open with *.
+    const lines = []
+    for (const line of m[1].split('\n')) {
+      if (!line.trim()) continue
+      if (line.startsWith('*') || !lines.length) lines.push(line.trim())
+      else lines[lines.length - 1] += ` ${line.trim()}`
+    }
+    lines.forEach(take)
+  }
+  // Then the sentence rows of the chapter's teaching tables.
+  const teaching = md.split(/^##\s+(?:Words to Learn|Exercises)\s*$/m)[0]
+  for (const row of teaching.matchAll(/^\|\s*\*([^*|]+[.?!])\*\s*\|(?:[^|\n]*\|)*?\s*([A-Z][^|\n]*?)\s*\|\s*$/gm)) take(`*${row[1]}* ${row[2]}`)
+  // A checkpoint that only reprints earlier sentences shows its first one again.
+  const pick = pairs.find(p => !shownExamples.has(p.samoan)) || pairs[0] || null
+  if (pick) shownExamples.add(pick.samoan)
+  return pick
 }
 
 function chapterMeta(n, md) {
@@ -463,6 +485,9 @@ for (const file of chapterFiles) {
   quizzes[n] = { chapter: n, title: chapters.at(-1).title, questions: quiz(n, quizCopy) }
   provenance.sources.push({ source: `quizzes/samoan_grammar_quiz_ch${pad(n)}.md`, sha256: sha(quizSource) })
 }
+
+// Whether each chapter has a quiz, so a chapter page need not load the quiz bank.
+for (const c of chapters) c.quiz = Boolean(quizzes[c.chapter])
 
 const glossaryRows = glossary(outputs.get(path.join(BOOK_OUT, 'appendix-glossary.md')))
 

@@ -1,0 +1,11 @@
+/* Builder figure: the inherited .cb combinator (lesson.css). An option that
+   needs another slot to change is drawn lighter, and stays clickable. */
+.ix-builder .cb-chip.is-far { opacity: .55; border-style: dashed; }
+.ix-builder .cb-chip.is-far:hover { opacity: 1; }
+.ix-builder .cb-sentence { font-size: clamp(30px, 4.4vw, 52px); }
+.ix-builder .cb-label .to { font-size: 13px; }
+@media (max-width: 640px) {
+  .ix-builder .cb-row { grid-template-columns: 1fr; gap: 6px; }
+  .ix-builder .cb-label { padding-top: 0; }
+  .ix-builder .cb-out { padding: 20px 14px 16px; }
+}

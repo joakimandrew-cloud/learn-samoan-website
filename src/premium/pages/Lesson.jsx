@@ -4,7 +4,6 @@ import { useTitle } from '../lib/title.js'
 import { Link, useParams } from 'react-router-dom'
 import { AnimatePresence, motion as Motion } from 'motion/react'
 import chapters from '@app/data/chapters.json'
-import quizzes from '@app/data/quizzes.json'
 import bookExercises from '@app/data/book-exercises.json'
 import { lessonLevel } from '@app/lib/lesson-browser.js'
 import { loadLesson } from '../lib/book.js'
@@ -17,6 +16,7 @@ import { CHAPTER_COUNT } from '@app/lib/course.js'
 import { Tile } from '../components/Tile.jsx'
 import { lessonColours, lessonTile } from '../lib/lesson-colour.js'
 import { exerciseAnchor, readExerciseState } from '../lib/exercise-progress.js'
+import Interactive from '../components/interactive/Interactive.jsx'
 import '../styles/lesson.css'
 import '../styles/lesson-experience.css'
 import '../styles/source-core.css'
@@ -59,8 +59,28 @@ export function RenderBlock({ block, n, ctx = {} }) {
     const ex = (bookExercises[String(n)] || []).find(e => e.id === block.id)
     return ex ? <ExerciseSet ex={ex} onProgress={ctx.onProgress} /> : null
   }
+  if (block.type === 'interactive') {
+    const item = ctx.interactives?.get(block.id)
+    return item ? <Interactive item={item} figure={ctx.figures?.get(block.id)} /> : null
+  }
   if (block.type === 'hr') return <hr className="ls-rule" />
   return null
+}
+
+const FIGURE_KINDS = new Set(['anatomy', 'builder', 'contrast', 'grid', 'scale', 'dialogue'])
+
+// Figures are numbered in reading order: Figure 7.1, 7.2...
+// eslint-disable-next-line react-refresh/only-export-components
+export function interactiveContext(lesson, n) {
+  const interactives = new Map((lesson?.interactives || []).map(item => [item.id, item]))
+  const figures = new Map()
+  let k = 0
+  for (const block of lesson?.blocks || []) {
+    if (block.type !== 'interactive') continue
+    const item = interactives.get(block.id)
+    if (item && FIGURE_KINDS.has(item.kind)) figures.set(block.id, `${n}.${k += 1}`)
+  }
+  return { interactives, figures }
 }
 
 export function Section({ s, n, ctx }) {
@@ -175,7 +195,7 @@ function Finish({ n, meta, next, exStats, vocabCount, firstUnfinishedHref }) {
   const { done } = useProgress()
   const [celebrate, setCelebrate] = useState(false)
   const isDone = done.has(n)
-  const hasQuiz = Boolean(quizzes[String(n)])
+  const hasQuiz = Boolean(meta.quiz)
   const finish = () => { markLessonDone(n); setCelebrate(true) }
 
   return (
@@ -271,7 +291,8 @@ export default function Lesson() {
   }, [ex, exercises])
   const firstUnfinishedHref = useMemo(() => firstUnfinishedExerciseHref(exercises, ex), [ex, exercises])
   const slotExercises = currentLesson?.slotExercises || []
-  const ctx = { onProgress }
+  const placed = useMemo(() => interactiveContext(currentLesson, n), [currentLesson, n])
+  const ctx = { onProgress, ...placed }
 
   if (!meta) return <div className="wrap" style={{ padding: '160px 0' }}><h1 className="display">No Chapter {num}</h1><Link to="/chapters" className="link">All chapters</Link></div>
 

@@ -8,6 +8,7 @@ import { useTitle } from '../lib/title.js'
 import '../styles/catalog.css'
 import { Md } from '../components/lesson/Blocks.jsx'
 import { CHAPTER_COUNT } from '@app/lib/course.js'
+import { normalizeLessonSearch } from '@app/lib/lesson-browser.js'
 
 const GROUPS = [
   ['beginner', 'Beginner'],
@@ -16,12 +17,12 @@ const GROUPS = [
 ]
 
 function quizEntries(query) {
-  const needle = query.trim().toLocaleLowerCase()
+  const needle = normalizeLessonSearch(query)
   return Object.values(quizzes)
     .filter(quiz => quiz?.questions?.length)
     .map(quiz => ({ quiz, lesson: chapters.find(chapter => chapter.chapter === quiz.chapter) }))
-    .filter(({ lesson }) => lesson && (!needle || [lesson.title.replace(/\*/g, ''), String(lesson.chapter), `chapter ${lesson.chapter}`]
-      .some(value => String(value ?? '').toLocaleLowerCase().includes(needle))))
+    .filter(({ lesson }) => lesson && (!needle || [lesson.title.replace(/\*/g, ''), String(lesson.chapter), `chapter ${lesson.chapter}`, ...(lesson.sections || [])]
+      .some(value => normalizeLessonSearch(value).includes(needle))))
     .sort((a, b) => a.quiz.chapter - b.quiz.chapter)
 }
 
@@ -61,7 +62,7 @@ export default function Quizzes() {
           if (!rows.length) return null
           return (
             <section className="catalog-group quiz-group" key={key} aria-labelledby={`quiz-${key}`}>
-              <header><div><p className="catalog-kicker">{rows.length} quizzes</p><h2 id={`quiz-${key}`}>{name}</h2></div></header>
+              <header><div><p className="catalog-kicker">{rows.length} {rows.length === 1 ? 'quiz' : 'quizzes'}</p><h2 id={`quiz-${key}`}>{name}</h2></div></header>
               <ol className="quiz-list">
                 {rows.map(({ quiz, lesson }) => {
                   const score = scores[quiz.chapter]
@@ -69,7 +70,7 @@ export default function Quizzes() {
                     <li key={quiz.chapter}>
                       <Link to={`/quizzes/${quiz.chapter}`}>
                         <span className="quiz-num">{String(quiz.chapter).padStart(2, '0')}</span>
-                        <span className="quiz-copy"><strong><Md text={lesson.title} /></strong><span>{quiz.questions.length} questions</span></span>
+                        <span className="quiz-copy"><strong><Md text={lesson.title} /></strong><span>Chapter {lesson.chapter} · {quiz.questions.length} questions</span></span>
                         {score && <span className="quiz-score" aria-label={`Best score ${score.right} of ${score.total}`}>{score.right}/{score.total}</span>}
                         <EntryMotif size={20} />
                       </Link>

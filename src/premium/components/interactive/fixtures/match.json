@@ -1,0 +1,46 @@
+{
+  "chapter": 3,
+  "items": [
+    {
+      "id": "ch3-words",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Match the new words",
+      "intro": "Choose a Samoan word and then its English, or start from the English side.",
+      "data": {
+        "pairs": [
+          { "sm": "fia", "en": "want: goes in front of the verb and says the action was wanted" },
+          { "sm": "fiafia", "en": "happy, glad (after a verb: happily)" },
+          { "sm": "malosi", "en": "strong (after a verb: hard, with strength)" },
+          { "sm": "foi", "en": "return" },
+          { "sm": "tagi", "en": "cry" },
+          { "sm": "fesili", "en": "ask" },
+          { "sm": "fou", "en": "new" },
+          { "sm": "loloto", "en": "deep" },
+          { "sm": "tau", "en": "reach" }
+        ]
+      }
+    },
+    {
+      "id": "ch3-review",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Recall the words from Chapter 1",
+      "intro": "Words from the first chapter, a few at a time.",
+      "data": {
+        "rounds": 4,
+        "pairs": [
+          { "sm": "ʻou", "en": "I" },
+          { "sm": "ia", "en": "he, she" },
+          { "sm": "alu", "en": "go" },
+          { "sm": "siva", "en": "dance" },
+          { "sm": "tāʻele", "en": "bathe, have a shower" },
+          { "sm": "fāgota", "en": "go fishing" },
+          { "sm": "alofa", "en": "love" },
+          { "sm": "lelei", "en": "good, well" },
+          { "sm": "leai", "en": "no" }
+        ]
+      }
+    }
+  ]
+}

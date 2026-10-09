@@ -1,0 +1,8 @@
+/* Pick practice: the inherited .pcs-* picker (source-core.css). */
+.premium-core .ix-pick .pcs-noun { overflow-wrap: anywhere; }
+.premium-core .ix-pick .pcs-noun .to { color: inherit; font-size: inherit; }
+.premium-core .ix-pick-en-prompt { font-style: normal; font-family: var(--f-serif); font-size: clamp(24px, 4vw, 34px); }
+.premium-core .ix-pick-stack { grid-template-columns: 1fr; }
+.premium-core .ix-pick .pcs-btn-label .to { font-size: inherit; color: inherit; }
+.premium-core .ix-pick .pcs-btn-why .to { color: var(--text); }
+.premium-core .ix-pick .pcs-btn { min-height: 64px; }

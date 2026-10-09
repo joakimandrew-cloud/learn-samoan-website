@@ -25,8 +25,11 @@ export function normalizeLessonSearch(value) {
 export function matchesLesson(lesson, query) {
   const q = normalizeLessonSearch(query)
   if (!q) return true
-  const searchable = [String(lesson.chapter), lesson.title, ...(lesson.sections || [])].map(normalizeLessonSearch).join(' ')
-  return searchable.includes(q)
+  const chapterTerms = [String(lesson.chapter), `chapter ${lesson.chapter}`, `ch ${lesson.chapter}`]
+  const searchable = [...chapterTerms, lesson.title, ...(lesson.sections || [])].map(normalizeLessonSearch)
+  if (q.length <= 2 && !/^\d+$/.test(q)) return searchable.some(value => value.split(/\s+/).includes(q))
+  const singular = q.length > 4 && q.endsWith('s') ? q.slice(0, -1) : q
+  return searchable.some(value => value.includes(q) || (singular !== q && value.includes(singular)))
 }
 
 export function filterLessons(lessons, { query = '', level = 'all' } = {}) {

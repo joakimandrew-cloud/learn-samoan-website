@@ -7,10 +7,12 @@
     "dev": "vite",
     "sync": "node scripts/sync-course.mjs",
     "sync:check": "node scripts/sync-course.mjs --check",
-    "build": "vite build",
+    "build": "vite build && node scripts/prerender.mjs",
     "preview": "vite preview",
     "lint": "eslint .",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prerender": "node scripts/prerender.mjs",
+    "check:interactives": "node scripts/check-interactives.mjs"
   },
   "dependencies": {
     "@fontsource-variable/inter": "5.3.0",

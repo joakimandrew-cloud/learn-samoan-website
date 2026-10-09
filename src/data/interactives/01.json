@@ -1,0 +1,110 @@
+{
+  "chapter": 1,
+  "items": [
+    {
+      "id": "ch1-parts",
+      "kind": "anatomy",
+      "anchor": "the-pattern",
+      "place": "lead",
+      "title": "Three parts, always in this order",
+      "caption": "Tap a part to read what it does. Word by word the sentence says \"Past I go\", which English says as \"I went.\"",
+      "data": {
+        "sentence": { "sm": "Sā ʻou alu.", "en": "I went." },
+        "parts": [
+          { "sm": "Sā", "gloss": "past", "role": "Past particle", "note": "It goes in front and stamps the whole sentence as already done. It is always first, and it never changes." },
+          { "sm": "ʻou", "gloss": "I", "role": "Preverbal pronoun", "note": "It says who did it, in the slot before the verb. Swap it for *ia* and the same sentence is about someone else." },
+          { "sm": "alu.", "gloss": "go", "role": "Verb", "note": "It names the action and keeps the same shape whether the going is past, present or still to come." }
+        ]
+      }
+    },
+    {
+      "id": "ch1-builder",
+      "kind": "builder",
+      "anchor": "the-preverbal-pronoun",
+      "title": "Build every sentence in the two tables",
+      "caption": "Two pronouns and four verbs give the eight sentences printed above. The particle stays first and the verb stays last; only the middle word moves.",
+      "data": {
+        "slots": [
+          { "key": "who", "label": "Who", "options": [
+            { "id": "ou", "sm": "ʻou", "en": "I" },
+            { "id": "ia", "sm": "ia", "en": "he, she" }
+          ] },
+          { "key": "verb", "label": "Did what", "options": [
+            { "id": "alu", "sm": "alu", "en": "go" },
+            { "id": "siva", "sm": "siva", "en": "dance" },
+            { "id": "taele", "sm": "tāʻele", "en": "bathe" },
+            { "id": "fagota", "sm": "fāgota", "en": "go fishing" }
+          ] }
+        ],
+        "sentences": [
+          { "pick": { "who": "ou", "verb": "alu" }, "sm": "Sā ʻou alu.", "en": "I went." },
+          { "pick": { "who": "ou", "verb": "siva" }, "sm": "Sā ʻou siva.", "en": "I danced." },
+          { "pick": { "who": "ou", "verb": "taele" }, "sm": "Sā ʻou tāʻele.", "en": "I bathed." },
+          { "pick": { "who": "ou", "verb": "fagota" }, "sm": "Sā ʻou fāgota.", "en": "I went fishing." },
+          { "pick": { "who": "ia", "verb": "alu" }, "sm": "Sā ia alu.", "en": "She went." },
+          { "pick": { "who": "ia", "verb": "siva" }, "sm": "Sā ia siva.", "en": "She danced." },
+          { "pick": { "who": "ia", "verb": "taele" }, "sm": "Sā ia tāʻele.", "en": "She bathed." },
+          { "pick": { "who": "ia", "verb": "fagota" }, "sm": "Sā ia fāgota.", "en": "She went fishing." }
+        ]
+      }
+    },
+    {
+      "id": "ch1-order",
+      "kind": "order",
+      "anchor": "the-preverbal-pronoun",
+      "title": "Put the three parts in order",
+      "intro": "Tap the words to build the Samoan for each English sentence. Two of the words on offer do not belong.",
+      "data": {
+        "prompt": "Say this in Samoan",
+        "items": [
+          { "en": "She bathed.", "sm": "Sā ia tāʻele.", "extra": ["ʻou", "alu"], "why": "The particle *sā* comes first, *ia* says she did it, and the verb *tāʻele* comes last." },
+          { "en": "I went fishing.", "sm": "Sā ʻou fāgota.", "extra": ["ia", "siva"], "why": "*ʻOu* is I, and *fāgota* by itself means go fishing." },
+          { "en": "I danced.", "sm": "Sā ʻou siva.", "extra": ["ia", "tāʻele"], "why": "Particle, pronoun, verb: *sā*, then *ʻou*, then *siva*." },
+          { "en": "She went.", "sm": "Sā ia alu.", "extra": ["ʻou", "fāgota"], "why": "*Ia* is the pronoun for someone else, and *alu* is go." }
+        ]
+      }
+    },
+    {
+      "id": "ch1-which",
+      "kind": "pick",
+      "anchor": "weather-sentences",
+      "title": "Which sentence says it?",
+      "intro": "Read the English, then choose the Samoan sentence that says it.",
+      "data": {
+        "question": "Which sentence says this?",
+        "prompts": [
+          { "en": "She went fishing.", "answer": "a", "options": [
+            { "id": "a", "sm": "Sā ia fāgota." }, { "id": "b", "sm": "Sā ʻou fāgota." }, { "id": "c", "sm": "Sā ia alu." }
+          ], "why": "*Ia* is he or she, and *fāgota* is go fishing." },
+          { "en": "I danced.", "answer": "a", "options": [
+            { "id": "a", "sm": "Sā ʻou siva." }, { "id": "b", "sm": "Sā ia siva." }, { "id": "c", "sm": "Sā ʻou alu." }
+          ], "why": "*ʻOu* is I, and *siva* is dance." },
+          { "en": "It rained.", "answer": "a", "options": [
+            { "id": "a", "sm": "Sā timu." }, { "id": "b", "sm": "Sā ia siva." }, { "id": "c", "sm": "Sā ʻou tāʻele." }
+          ], "why": "When rain falls there is no one to name, so the middle slot stays empty: the particle and the verb make the whole sentence." },
+          { "en": "I bathed.", "answer": "a", "options": [
+            { "id": "a", "sm": "Sā ʻou tāʻele." }, { "id": "b", "sm": "Sā ia tāʻele." }, { "id": "c", "sm": "Sā ʻou fāgota." }
+          ], "why": "*ʻOu* says I did it, and *tāʻele* is bathe." },
+          { "en": "She went.", "answer": "a", "options": [
+            { "id": "a", "sm": "Sā ia alu." }, { "id": "b", "sm": "Sā ʻou alu." }, { "id": "c", "sm": "Sā ia siva." }
+          ], "why": "*Ia* is she, and *alu* is go." }
+        ]
+      }
+    },
+    {
+      "id": "ch1-tune",
+      "kind": "contrast",
+      "anchor": "asking-questions",
+      "title": "Only the tune changes",
+      "caption": "The words and their order stay the same. An English yes or no question lifts the voice at the end; a Samoan one usually falls and stays low over the last two or three syllables.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Statement", "sm": "Sā ia alu.", "en": "She went.", "note": "A statement. The book never marks its tune." },
+          { "label": "Samoan question", "sm": "Sā ia alu?", "en": "Did she go?", "tune": "fall", "note": "The same three words. The voice falls and stays low at the end, which is what the arrow ↘ marks in this book." },
+          { "label": "English question", "en": "Did she go?", "tune": "rise", "note": "English runs the other way: its yes or no question lifts the voice at the end." }
+        ]
+      }
+    }
+  ]
+}

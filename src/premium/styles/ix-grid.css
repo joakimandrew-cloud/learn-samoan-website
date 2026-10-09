@@ -1,0 +1,98 @@
+/* Grid figure: a paradigm explorer. The cells are the inherited .cb-chip
+   (white, blue when chosen: lesson.css with the light overrides in
+   white-red-inner.css), the detail and the quiz prompt sit in the inherited
+   white .cb-out panel, and the mode switch is the inherited .into-toggle with
+   its sliding pill. Phones reflow: each row label goes above its forms, so
+   every column stays in view. */
+.ix-grid { --ix-gap: 8px; position: relative; }
+
+/* Mode switch, score, new round */
+.ix-grid-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 18px; margin-bottom: 18px; }
+.ix-grid-mode button { white-space: nowrap; }
+.ix-grid-score { display: flex; align-items: center; gap: 16px; color: var(--muted); font-size: 13.5px; }
+.ix-grid-score b { color: var(--ink); font-weight: 750; }
+.ix-grid-new { min-height: 44px; padding: 0 2px; border: 0; background: none; color: var(--muted); font-size: 13.5px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.ix-grid-new:hover { color: var(--red); }
+
+/* Small-caps labels, as on the builder's rows */
+.ix-grid-k, .ix-grid-h { font-family: var(--f-display); font-weight: 700; letter-spacing: .15em; text-transform: uppercase; font-size: 12px; line-height: 1.25; }
+.ix-grid-k { color: var(--muted); font-size: 11.5px; }
+.ix-grid-k .to, .ix-grid-h .to { text-transform: none; letter-spacing: 0; font-family: var(--f-serif); font-size: 1.3em; font-weight: 450; }
+
+/* The table. Every row is the same grid, so the columns line up. */
+.ix-grid-table { display: flex; flex-direction: column; gap: var(--ix-gap); }
+.ix-grid-row { display: grid; grid-template-columns: minmax(92px, 25%) repeat(var(--cols, 3), minmax(0, 1fr)); gap: var(--ix-gap); }
+.ix-grid-h { color: var(--ink-2); }
+.ix-grid-colh { align-self: end; padding: 0 4px; color: var(--muted); text-align: center; }
+.ix-grid-corner { align-self: end; color: var(--muted); }
+.ix-grid-rowh { align-self: center; padding-right: 8px; }
+.ix-grid-span { grid-column: 2 / -1; display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 11px; }
+.ix-grid-span::before, .ix-grid-span::after { content: ''; flex: 1; height: 1px; background: var(--line-strong); }
+.ix-grid-td { display: grid; min-width: 0; }
+
+/* Cells: the .cb-chip, centred and filling its square */
+.ix-grid .ix-grid-cell { width: 100%; min-height: 64px; padding: 8px 6px; align-items: center; gap: 3px; text-align: center; }
+.ix-grid .ix-grid-cell .ix-grid-sm { font-size: 22px; line-height: 1.1; opacity: 1; }
+.ix-grid .ix-grid-cell .ix-grid-en { font-size: 11.5px; line-height: 1.3; color: var(--muted); opacity: 1; overflow-wrap: anywhere; }
+.ix-grid .ix-grid-cell.is-on .ix-grid-en { color: rgba(255, 255, 255, .9); }
+.ix-grid-empty { min-height: 64px; border: 1.5px dashed var(--line-strong); border-radius: 12px; opacity: .55; }
+
+/* Find the form: green when found first time, a dashed green edge when found
+   after a miss, red and a shake when wrong, a ring round the answer. */
+.ix-grid .ix-grid-table .ix-grid-cell:is(.is-found, .is-found:hover) { border-color: var(--success); background: var(--success-soft); color: var(--success); }
+.ix-grid .ix-grid-table .ix-grid-cell:is(.is-late, .is-late:hover) { border-color: var(--success); border-style: dashed; }
+.ix-grid .ix-grid-table .ix-grid-cell:is(.is-found, .is-late) .to { color: var(--success) !important; }
+.ix-grid .ix-grid-table .ix-grid-cell:is(.is-wrong, .is-wrong:hover) { border-color: var(--error); background: var(--error-soft); color: var(--error); }
+.ix-grid .ix-grid-table .ix-grid-cell.is-wrong .to { color: var(--error) !important; }
+.ix-grid .ix-grid-table .ix-grid-cell.is-wrong.s0 { animation: ix-grid-shake-a .4s; }
+.ix-grid .ix-grid-table .ix-grid-cell.is-wrong.s1 { animation: ix-grid-shake-b .4s; }
+.ix-grid .ix-grid-table .ix-grid-cell.is-hint { border-color: var(--success); box-shadow: 0 0 0 3px color-mix(in srgb, var(--success) 30%, transparent); }
+.ix-grid .ix-grid-cell[aria-disabled='true'] { cursor: default; }
+/* Two copies, so a second wrong tap on the same cell shakes it again. */
+@keyframes ix-grid-shake-a { 20% { transform: translateX(-5px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(2px); } }
+@keyframes ix-grid-shake-b { 20% { transform: translateX(-5px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(2px); } }
+
+/* The white panels: the chosen form below the grid, the prompt above it */
+.ix-grid-panel { padding: 20px 22px 18px; }
+.ix-grid-detail { margin-top: 18px; }
+.ix-grid .ix-grid-form { margin-top: 6px; font-size: clamp(40px, 5vw, 54px); }
+.ix-grid-detail .cb-en { font-family: var(--f-serif); font-size: 19px; }
+.ix-grid-note { max-width: 52ch; margin: 12px auto 0; color: var(--ink-2); font-size: 15.5px; line-height: 1.55; }
+.ix-grid-note .to { font-size: 1.08em; }
+.ix-grid-ex { max-width: 52ch; margin: 14px auto 0; padding-top: 12px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; line-height: 1.5; }
+.ix-grid-ex .to { margin-right: 6px; color: var(--ink) !important; font-size: 19px; }
+
+.ix-grid-ask { margin-bottom: 18px; }
+.ix-grid-ask-row { display: flex; justify-content: space-between; gap: 12px; text-align: left; }
+.ix-grid-ask-en { margin-top: 10px; color: var(--ink); font: 500 clamp(24px, 3.4vw, 32px)/1.2 var(--f-serif); overflow-wrap: anywhere; }
+.ix-grid-ask-en .to { font-size: 1em; }
+.ix-grid-ask-where { min-height: 1.25em; margin-top: 6px; }
+.ix-grid-done { margin-top: 8px; color: var(--ink); font: 800 clamp(30px, 4vw, 40px)/1.05 var(--f-display); text-transform: uppercase; }
+/* Two lines held for the verdict, so the grid below stays put between prompts. */
+.ix-grid-status { min-height: 3.1em; margin: 12px 0 0; color: var(--muted); font-size: 15px; line-height: 1.55; }
+.ix-grid-status.is-right { color: var(--success); }
+.ix-grid-status.is-wrong { color: var(--error); }
+.ix-grid-status .to { color: inherit !important; font-size: 1.12em; font-weight: 600; }
+.ix-grid-mark { margin-right: 6px; font-weight: 800; }
+.ix-grid-again { margin-top: 14px; min-height: 44px; padding: 0 22px; border: 1.5px solid var(--red); border-radius: 999px; background: var(--red); color: #fff; font-size: 15px; font-weight: 650; }
+.ix-grid-again:hover { border-color: var(--red-deep); background: var(--red-deep); }
+
+@media (max-width: 640px) {
+  .ix-grid { --ix-gap: 6px; }
+  .ix-grid-mode { display: grid; width: 100%; }
+  .ix-grid-mode button { padding: 0 8px; font-size: 13.5px; }
+  .ix-grid-score { width: 100%; justify-content: space-between; }
+  /* Each row label above its forms; the corner label stays for screen readers. */
+  .ix-grid-row { grid-template-columns: repeat(var(--cols, 3), minmax(0, 1fr)); }
+  .ix-grid-rowh { grid-column: 1 / -1; padding: 8px 0 0; }
+  .ix-grid-corner { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .ix-grid-span { grid-column: 1 / -1; }
+  .ix-grid .ix-grid-cell { min-height: 56px; padding: 7px 4px; }
+  .ix-grid .ix-grid-cell .ix-grid-sm { font-size: 19px; }
+  .ix-grid .ix-grid-cell .ix-grid-en { font-size: 11px; }
+  .ix-grid-empty { min-height: 56px; }
+  .ix-grid-panel { padding: 16px 14px 14px; }
+  .ix-grid .ix-grid-form { font-size: 40px; }
+  /* A long meaning wraps on a phone: hold two lines for every prompt. */
+  .ix-grid-ask-en { display: flex; min-height: 2.4em; align-items: center; justify-content: center; }
+}

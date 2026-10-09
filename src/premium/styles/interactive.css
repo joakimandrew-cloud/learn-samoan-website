@@ -1,0 +1,23 @@
+/* Chapter interactives: what the inherited .fig and .embedded-drill frames
+   need beyond lesson.css and source-core.css. Each widget keeps its own
+   ix-<kind>.css. */
+.ix-fig { scroll-margin-top: 96px; }
+.ix-fig .fig-t .to { color: inherit !important; font-family: var(--f-serif); text-transform: none; font-weight: 500; }
+.ix-fig figcaption .to { font-size: 1em; }
+.ix-practice { scroll-margin-top: 96px; }
+.ix-practice > header h3 .to { color: var(--ink-2); font-size: 1em; }
+.ix-practice > header p .to { color: var(--ink-2); }
+.premium-core .pcs-noun.ix-done-score { font-style: normal; font-family: var(--f-display); font-weight: 800; }
+@media (max-width: 640px) {
+  .ix-fig { margin: 30px 0; padding: 18px 14px; border-radius: 16px; }
+  .ix-fig .fig-head { flex-direction: column; gap: 6px; margin-bottom: 18px; }
+  .ix-fig .fig-t { font-size: 20px; line-height: 1.1; }
+  .ix-practice { margin: 28px 0; padding: 14px 12px; }
+  .ix-practice .premium-core .pcs-card { padding: 16px 14px; }
+}
+
+.ix-practice .pcs-next { flex: none; white-space: nowrap; }
+.ix-practice .pcs-btn-feedback-icon { font: 700 13px/1 var(--f-ui); }
+@media (max-width: 480px) {
+  .ix-practice .pcs-keyboard-hint { display: none; }
+}

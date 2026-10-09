@@ -1,0 +1,124 @@
+{
+  "chapter": 1,
+  "items": [
+    {
+      "id": "ch1-builder",
+      "kind": "builder",
+      "anchor": "the-preverbal-pronoun",
+      "title": "Build every sentence in the two tables",
+      "caption": "Two pronouns and four verbs give the eight sentences printed above. The particle stays first and the verb stays last; only the middle word moves.",
+      "data": {
+        "slots": [
+          {
+            "key": "who",
+            "label": "Who",
+            "options": [
+              {
+                "id": "ou",
+                "sm": "ʻou",
+                "en": "I"
+              },
+              {
+                "id": "ia",
+                "sm": "ia",
+                "en": "he, she"
+              }
+            ]
+          },
+          {
+            "key": "verb",
+            "label": "Did what",
+            "options": [
+              {
+                "id": "alu",
+                "sm": "alu",
+                "en": "go"
+              },
+              {
+                "id": "siva",
+                "sm": "siva",
+                "en": "dance"
+              },
+              {
+                "id": "taele",
+                "sm": "tāʻele",
+                "en": "bathe"
+              },
+              {
+                "id": "fagota",
+                "sm": "fāgota",
+                "en": "go fishing"
+              }
+            ]
+          }
+        ],
+        "sentences": [
+          {
+            "pick": {
+              "who": "ou",
+              "verb": "alu"
+            },
+            "sm": "Sā ʻou alu.",
+            "en": "I went."
+          },
+          {
+            "pick": {
+              "who": "ou",
+              "verb": "siva"
+            },
+            "sm": "Sā ʻou siva.",
+            "en": "I danced."
+          },
+          {
+            "pick": {
+              "who": "ou",
+              "verb": "taele"
+            },
+            "sm": "Sā ʻou tāʻele.",
+            "en": "I bathed."
+          },
+          {
+            "pick": {
+              "who": "ou",
+              "verb": "fagota"
+            },
+            "sm": "Sā ʻou fāgota.",
+            "en": "I went fishing."
+          },
+          {
+            "pick": {
+              "who": "ia",
+              "verb": "alu"
+            },
+            "sm": "Sā ia alu.",
+            "en": "She went."
+          },
+          {
+            "pick": {
+              "who": "ia",
+              "verb": "siva"
+            },
+            "sm": "Sā ia siva.",
+            "en": "She danced."
+          },
+          {
+            "pick": {
+              "who": "ia",
+              "verb": "taele"
+            },
+            "sm": "Sā ia tāʻele.",
+            "en": "She bathed."
+          },
+          {
+            "pick": {
+              "who": "ia",
+              "verb": "fagota"
+            },
+            "sm": "Sā ia fāgota.",
+            "en": "She went fishing."
+          }
+        ]
+      }
+    }
+  ]
+}

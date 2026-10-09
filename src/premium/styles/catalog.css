@@ -48,8 +48,11 @@
 .quiz-num { font: 700 25px var(--f-display); color: var(--red); }
 .quiz-copy { display: grid; gap: 3px; }
 .quiz-copy strong { font: 700 22px var(--f-display); text-transform: uppercase; transition: color .2s; }
-.quiz-copy span { overflow: hidden; color: var(--muted); font: 15px var(--f-serif); text-overflow: ellipsis; white-space: nowrap; }
+.quiz-copy > span { overflow: hidden; color: var(--muted); font: 15px var(--f-serif); text-overflow: ellipsis; white-space: nowrap; }
+.quiz-copy strong { min-width: 0; overflow-wrap: anywhere; }
+.quiz-copy strong .to { font-family: var(--f-serif); text-transform: none; }
 .quiz-score { border-radius: 999px; background: var(--success-soft); color: var(--success); padding: 5px 10px; font-size: 12px; font-weight: 750; }
+.quiz-list a > .entry-motif { grid-column: 4; }
 .source-missing { min-height: calc(100vh - var(--hdr-h)); padding: clamp(90px, 12vw, 160px) 0; }
 .source-missing h1 { margin: 18px 0; color: #fff; font-size: clamp(58px, 8vw, 108px); }
 .source-missing p:not(.eyebrow) { max-width: 42ch; color: rgba(255,255,255,.72); font: 19px/1.6 var(--f-serif); }

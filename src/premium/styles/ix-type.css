@@ -1,0 +1,82 @@
+/* Type practice: the inherited .pcs-* card (source-core.css) with a text box
+   in the site's search-box style (catalog.css), a row of letter keys, and a
+   feedback panel made of the picker's feedback pieces (.pcs-btn-feedback-*). */
+.premium-core .pcs-noun.ix-type-en { font-style: normal; font-size: clamp(24px, 4vw, 34px); overflow-wrap: anywhere; animation: ix-type-in .4s var(--ease-out); }
+.premium-core .ix-type-hint { font-size: 14px; }
+.premium-core .ix-type-hint .to { color: var(--text); font-size: inherit; }
+
+.premium-core .ix-type-form { display: grid; gap: 10px; }
+.premium-core .ix-type-input {
+  width: 100%; min-width: 0; min-height: 58px; padding: 8px 16px;
+  border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--paper);
+  color: var(--text-strong); font: italic 450 24px/1.3 var(--f-serif); letter-spacing: 0;
+  transition: border-color .2s;
+}
+.premium-core .ix-type-input::placeholder { color: var(--text-faint); font: 16px var(--f-ui); font-style: normal; }
+.premium-core .ix-type-input:focus { border-color: var(--focus); }
+.premium-core .ix-type-input:focus-visible { border-radius: 12px; }
+
+.premium-core .ix-type-keys { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; max-width: 380px; }
+.premium-core .ix-type-key {
+  min-width: 0; min-height: 46px; padding: 0;
+  border: 1px solid var(--line-strong); border-radius: 9px; background: var(--paper);
+  color: var(--text-strong); font: 500 22px/1 var(--f-serif);
+  touch-action: manipulation; transition: border-color .15s, background-color .15s, transform .1s;
+}
+.premium-core .ix-type-key:hover { border-color: var(--accent); background: var(--accent-faint); }
+.premium-core .ix-type-key:active { transform: translateY(1px); }
+.premium-core .ix-type-key:focus-visible { border-radius: 9px; }
+.premium-core .ix-type-key.is-mark { font-size: 32px; line-height: 1.25; }
+
+.premium-core .ix-type-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 10px 14px; margin-top: 8px; }
+.premium-core .ix-type-show { margin-right: auto; font-size: 14px; font-weight: 650; }
+.premium-core .ix-type-show:hover { border-color: var(--accent); color: var(--accent); }
+.premium-core .ix-type-actions .pcs-keyboard-hint { margin-right: 0; }
+.premium-core .ix-type-check { min-width: 104px; }
+
+/* After checking: what the learner typed, never styled as Samoan. */
+.premium-core .ix-type-typed {
+  display: flex; flex-wrap: wrap; align-items: baseline; align-content: center; gap: 2px 12px;
+  min-height: 58px; margin: 0; padding: 12px 16px;
+  border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--paper);
+}
+.premium-core .ix-type-typed-k { color: var(--text-faint); font-size: 10px; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; }
+.premium-core .ix-type-typed-v { min-width: 0; color: var(--text-strong); font: 18px/1.4 var(--f-ui); overflow-wrap: anywhere; }
+.premium-core .ix-type-typed.is-right { border-color: var(--correct-border); }
+.premium-core .ix-type-typed.is-almost { border-color: color-mix(in srgb, var(--accent) 40%, var(--line-strong)); }
+.premium-core .ix-type-typed.is-wrong { border-color: var(--wrong-border); }
+.premium-core .ix-type-typed:is(.is-wrong, .is-shown) .ix-type-typed-v { color: var(--wrong); text-decoration-thickness: 2px; }
+
+/* The verdict: a live region that stays in place, filled once answered. */
+.premium-core .ix-type-status:not(:empty) { margin-top: 12px; }
+.premium-core .ix-type-feedback { display: flex; gap: 12px; padding: 14px 16px; border: 1px solid var(--line-strong); border-radius: 12px; background: var(--paper); animation: ix-type-in .3s var(--ease-out); }
+.premium-core .ix-type-feedback .pcs-btn-feedback-icon { margin-top: 1px; font-size: 13px; }
+.premium-core .ix-type-feedback .pcs-btn-feedback-body { min-width: 0; gap: 4px; }
+.premium-core .ix-type-feedback.is-right { border-color: var(--correct-border); background: var(--correct-bg); }
+.premium-core .ix-type-feedback.is-right .pcs-btn-feedback-icon { background: var(--correct); }
+.premium-core .ix-type-feedback.is-almost { border-color: color-mix(in srgb, var(--accent) 35%, var(--line-strong)); background: var(--accent-faint); }
+.premium-core .ix-type-feedback.is-wrong { border-color: var(--wrong-border); background: var(--wrong-bg); }
+.premium-core .ix-type-feedback.is-wrong .pcs-btn-feedback-icon { background: var(--wrong); }
+.premium-core .ix-type-feedback.is-shown .pcs-btn-feedback-icon { background: var(--text-muted); }
+.premium-core .ix-type-answer { margin: 2px 0; color: var(--text-muted); font-size: 14px; line-height: 1.4; overflow-wrap: anywhere; }
+.premium-core .ix-type-answer .to { color: var(--text-strong); font-size: 26px; }
+.premium-core .ix-type-diff { padding: 0 .06em; border-radius: 3px; background: color-mix(in srgb, var(--accent) 28%, var(--paper)); color: var(--ink); box-shadow: inset 0 -2px 0 var(--accent); }
+.premium-core .ix-type .pcs-btn-why .to { color: var(--text); font-size: inherit; }
+.premium-core .ix-type-nudge { margin: 0; color: var(--text-muted); font: 15px/1.5 var(--f-serif); }
+.premium-core .ix-type .pcs-next { white-space: nowrap; }
+
+@keyframes ix-type-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .premium-core :is(.ix-type-en, .ix-type-feedback) { animation: none; }
+  .premium-core .ix-type-key:active { transform: none; }
+}
+@media (max-width: 480px) {
+  .premium-core .ix-type-actions .pcs-keyboard-hint { display: none; }
+  .premium-core .ix-type-actions > button { flex: 1 1 auto; margin-right: 0; }
+  .premium-core .ix-type-input { font-size: 22px; padding: 8px 14px; }
+  .premium-core .ix-type-keys { gap: 5px; max-width: none; }
+  .premium-core .ix-type-feedback { gap: 10px; padding: 12px 13px; }
+  .premium-core .ix-type-feedback .pcs-btn-verdict { font-size: 16.5px; line-height: 1.3; }
+  .premium-core .ix-type .pcs-next-container .pcs-keyboard-hint { display: none; }
+  .premium-core .ix-type-answer .to { font-size: 24px; }
+}

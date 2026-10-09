@@ -14,6 +14,8 @@ const Cards = lazy(() => import('./pages/Cards.jsx'))
 const Dictionary = lazy(() => import('./pages/Dictionary.jsx'))
 const Reference = lazy(() => import('./pages/Reference.jsx'))
 const BookPage = lazy(() => import('./pages/BookPage.jsx'))
+// The widget lab exists only in development builds.
+const Lab = import.meta.env.DEV ? lazy(() => import('./pages/Lab.jsx')) : null
 
 function Page({ children }) {
   const pageRef = useRef(null)
@@ -81,6 +83,7 @@ export default function App() {
           <Route path="/introduction" element={<Page><BookPage page="introduction" /></Page>} />
           <Route path="/pronunciation" element={<Page><BookPage page="pronunciation" /></Page>} />
           <Route path="/charts" element={<Page><BookPage page="charts" /></Page>} />
+          {Lab && <Route path="/lab/:kind?" element={<Page><Lab /></Page>} />}
           <Route path="*" element={<Page><NotBuilt /></Page>} />
         </Routes>
       </AnimatePresence>

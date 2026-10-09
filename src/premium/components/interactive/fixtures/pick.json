@@ -1,0 +1,112 @@
+{
+  "chapter": 1,
+  "items": [
+    {
+      "id": "ch1-which",
+      "kind": "pick",
+      "anchor": "weather-sentences",
+      "title": "Which sentence says it?",
+      "intro": "Read the English, then choose the Samoan sentence that says it.",
+      "data": {
+        "question": "Which sentence says this?",
+        "prompts": [
+          {
+            "en": "She went fishing.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Sā ia fāgota."
+              },
+              {
+                "id": "b",
+                "sm": "Sā ʻou fāgota."
+              },
+              {
+                "id": "c",
+                "sm": "Sā ia alu."
+              }
+            ],
+            "why": "*Ia* is he or she, and *fāgota* is go fishing."
+          },
+          {
+            "en": "I danced.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Sā ʻou siva."
+              },
+              {
+                "id": "b",
+                "sm": "Sā ia siva."
+              },
+              {
+                "id": "c",
+                "sm": "Sā ʻou alu."
+              }
+            ],
+            "why": "*ʻOu* is I, and *siva* is dance."
+          },
+          {
+            "en": "It rained.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Sā timu."
+              },
+              {
+                "id": "b",
+                "sm": "Sā ia siva."
+              },
+              {
+                "id": "c",
+                "sm": "Sā ʻou tāʻele."
+              }
+            ],
+            "why": "When rain falls there is no one to name, so the middle slot stays empty: the particle and the verb make the whole sentence."
+          },
+          {
+            "en": "I bathed.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Sā ʻou tāʻele."
+              },
+              {
+                "id": "b",
+                "sm": "Sā ia tāʻele."
+              },
+              {
+                "id": "c",
+                "sm": "Sā ʻou fāgota."
+              }
+            ],
+            "why": "*ʻOu* says I did it, and *tāʻele* is bathe."
+          },
+          {
+            "en": "She went.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Sā ia alu."
+              },
+              {
+                "id": "b",
+                "sm": "Sā ʻou alu."
+              },
+              {
+                "id": "c",
+                "sm": "Sā ia siva."
+              }
+            ],
+            "why": "*Ia* is she, and *alu* is go."
+          }
+        ]
+      }
+    }
+  ]
+}

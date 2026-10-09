@@ -1,5 +1,5 @@
 import EntryMotif from '../components/EntryMotif.jsx'
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTitle } from '../lib/title.js'
 import { Link } from 'react-router-dom'
 import { AnimatePresence, motion as Motion } from 'motion/react'
@@ -17,15 +17,6 @@ const LEVELS = [{ key: 'all', name: 'All' }, ...LESSON_TIERS.map(t => ({ key: t.
 // Same tile, flip and shade as the lesson's square on the homepage map.
 const COLOURS = lessonColours(chapters, lessonLevel)
 
-// A chapter's own first example, shown once: later chapters that open on the
-// same sentence show their section names instead.
-const SEEN = new Set()
-const FIRST_EXAMPLE = Object.fromEntries(chapters.map(c => {
-  const key = c.example?.samoan
-  const show = key && !SEEN.has(key)
-  if (key) SEEN.add(key)
-  return [c.chapter, show ? c.example : null]
-}))
 
 function ResumeCard() {
   const { done, last } = useProgress()
@@ -33,11 +24,12 @@ function ResumeCard() {
   const target = last ? (done.has(last) ? Math.min(CHAPTER_COUNT, last + 1) : last) : 1
   const lesson = chapters.find(c => c.chapter === target)
   const resuming = Boolean(last)
+  const complete = done.size >= CHAPTER_COUNT
   const upNext = resuming && done.has(last) && target !== last
   return (
     <Motion.aside className="resume band grain" initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .9, delay: .2, ease: [.16, 1, .3, 1] }}>
       <div className="resume-top">
-        <span className="resume-k">{upNext ? 'Up next' : resuming ? 'Pick up where you left off' : 'Your first chapter'}</span>
+        <span className="resume-k">{complete ? 'Course complete' : upNext ? 'Up next' : resuming ? 'Pick up where you left off' : 'Your first chapter'}</span>
         <span className="resume-n display">{String(lesson.chapter).padStart(2, '0')}</span>
       </div>
       <h2 className="resume-title display"><Md text={lesson.title} /></h2>
@@ -45,10 +37,10 @@ function ResumeCard() {
         <p className="resume-ex"><T>{lesson.example.samoan}</T> <span><Md text={lesson.example.english} /></span></p>
       )}
       <Link to={`/chapters/${lesson.chapter}`} className="btn btn-primary">
-        {upNext ? `Start Chapter ${lesson.chapter}` : resuming ? `Continue Chapter ${lesson.chapter}` : "Start Chapter 1, it's free"} <EntryMotif size={20} />
+        {complete ? `Review Chapter ${lesson.chapter}` : upNext ? `Start Chapter ${lesson.chapter}` : resuming ? `Continue Chapter ${lesson.chapter}` : "Start Chapter 1, it's free"} <EntryMotif size={20} />
       </Link>
       <div className="resume-meter" aria-label={`${done.size} of ${CHAPTER_COUNT} chapters complete`}>
-        <div className="resume-bars">
+        <div className="resume-bars" style={{ '--bars': chapters.length }}>
           {chapters.map(c => <i key={c.chapter} className={done.has(c.chapter) ? 'on' : ''} />)}
         </div>
         <span>{done.size} of {CHAPTER_COUNT} complete</span>
@@ -57,8 +49,30 @@ function ResumeCard() {
   )
 }
 
+// The sticky left column of a band: how many chapters it holds, what it
+// covers, and how far the learner has come in it. (The Tongan catalog splits
+// each level into named groups; the Samoan book's spine is three bands.)
+function BandHead({ band, lead, done, shown }) {
+  const finished = band.filter(c => done.has(c.chapter)).length
+  return (
+    <div className="grp-head">
+      <h3><span>{band.length} chapters</span></h3>
+      <p><Md text={lead} /></p>
+      <div className="grp-progress" aria-label={`${finished} of ${band.length} chapters in this band complete`}>
+        <div className="resume-bars" style={{ '--bars': band.length }}>
+          {band.map(c => <i key={c.chapter} className={done.has(c.chapter) ? 'on' : ''} />)}
+        </div>
+        <span>{finished} of {band.length} complete</span>
+      </div>
+      {shown < band.length && <p className="grp-shown">Showing {shown} of {band.length}</p>}
+    </div>
+  )
+}
+
 function Row({ c, i, done }) {
-  const ex = FIRST_EXAMPLE[c.chapter]
+  // Each chapter's own sample sentence (scripts/sync-course.mjs picks one no
+  // earlier chapter shows).
+  const ex = c.example
   return (
     <Motion.li
       layout="position"
@@ -73,7 +87,7 @@ function Row({ c, i, done }) {
         <span className="row-n display">{String(c.chapter).padStart(2, '0')}</span>
         <span className="row-main">
           <span className="row-title"><Md text={c.title} /></span>
-          <span className="row-topics"><Md text={c.sections.slice(0, 2).join(' · ')} /></span>
+          <span className="row-topics"><Md text={c.sections.filter(section => normalizeForDisplay(section) !== normalizeForDisplay(c.title)).slice(0, 2).join(' · ')} /></span>
         </span>
         {ex && (
           <span className="row-ex">
@@ -89,13 +103,26 @@ function Row({ c, i, done }) {
   )
 }
 
+function normalizeForDisplay(value) {
+  return String(value ?? '').replace(/\*+/g, '').trim().toLocaleLowerCase()
+}
+
 export default function Lessons() {
   useTitle(`All ${CHAPTER_COUNT} chapters`)
   const [query, setQuery] = useState('')
   const [level, setLevel] = useState('all')
   const inputRef = useRef(null)
+  const listRef = useRef(null)
   const { done } = useProgress()
   const results = useMemo(() => filterLessons(chapters, { query, level }), [query, level])
+
+  useEffect(() => {
+    if (!query && level === 'all') return
+    const list = listRef.current
+    if (!list) return
+    const top = list.getBoundingClientRect().top + window.scrollY - 150
+    if (window.scrollY > top) window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' })
+  }, [query, level])
 
   const tiers = LESSON_TIERS
     .filter(t => level === 'all' || t.key === level)
@@ -153,12 +180,12 @@ export default function Lessons() {
         </div>
       </div>
 
-      <div className="wrap lx-list">
+      <div className="wrap lx-list" ref={listRef}>
         <AnimatePresence mode="popLayout">
           {tiers.length === 0 && (
             <Motion.div className="lx-empty" key="empty" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
-              <p className="lx-empty-t">No chapter matches “{query}”.</p>
-              <p>Try a topic like <button onClick={() => setQuery('possessives')}>possessives</button> or a Samoan word like <button onClick={() => setQuery('faʻa')} lang="sm" className="to">faʻa</button>.</p>
+              <p className="lx-empty-t">{query ? <>No chapter matches “{query}”.</> : `No ${LEVELS.find(item => item.key === level)?.name || ''} chapters match.`}</p>
+              <p>Try a topic like <button onClick={() => { setLevel('all'); setQuery('possessives') }}>possessives</button> or a Samoan word like <button onClick={() => { setLevel('all'); setQuery('faʻa') }} lang="sm" className="to">faʻa</button>.</p>
               <button className="btn btn-ghost btn-sm" onClick={() => { setQuery(''); setLevel('all') }}>Show all {CHAPTER_COUNT} chapters</button>
             </Motion.div>
           )}
@@ -166,12 +193,12 @@ export default function Lessons() {
             <Motion.section key={t.key} className={`tier-block lvl-${t.key}`} layout="position" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
               <header className="tier-head">
                 <h2 className="display">{t.name}</h2>
-                <p className="tier-blurb">{LESSON_GROUPS.find(g => g.key === t.key)?.lead || t.blurb}</p>
+                <p className="tier-blurb">{t.blurb}</p>
                 <span className="tier-meta">Chapters {t.total[0].chapter} to {t.total[t.total.length - 1].chapter}</span>
               </header>
               {t.groups.map(g => (
                 <div key={g.key} className="grp">
-                  {/* One group per band: the band heading above already names it. */}
+                  <BandHead band={t.total} lead={g.lead} done={done} shown={g.lessons.length} />
                   <ol className="rows">
                     {g.lessons.map((c, i) => <Row key={c.chapter} c={c} i={i} done={done.has(c.chapter)} />)}
                   </ol>

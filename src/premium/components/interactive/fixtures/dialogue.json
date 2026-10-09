@@ -1,0 +1,28 @@
+{
+  "chapter": 23,
+  "items": [
+    {
+      "id": "lab-ch23-conversation",
+      "kind": "dialogue",
+      "anchor": "putting-it-together",
+      "title": "Two people meet",
+      "caption": "The conversation from Exercise 8, with its blanks filled from the answers. Step through it a line at a time, or take a part and say each of your lines aloud before you show it.",
+      "data": {
+        "speakers": {
+          "a": "First speaker",
+          "b": "Second speaker"
+        },
+        "lines": [
+          { "who": "a", "sm": "Tālofa.", "en": "Hello." },
+          { "who": "b", "sm": "Tālofa.", "en": "Hello." },
+          { "who": "a", "sm": "ʻO ai ʻoe?", "en": "Who are you?" },
+          { "who": "b", "sm": "ʻO aʻu ʻo se uō.", "en": "I am a friend." },
+          { "who": "a", "sm": "ʻO fea e i ai le teine?", "en": "Where is the girl?" },
+          { "who": "b", "sm": "ʻO le fale e i ai le teine.", "en": "The girl is in the house." },
+          { "who": "a", "sm": "Faʻafetai.", "en": "Thank you." },
+          { "who": "b", "sm": "Tōfā soifua.", "en": "Goodbye." }
+        ]
+      }
+    }
+  ]
+}

@@ -249,10 +249,17 @@ function normalizeExamples(md) {
 // chapters) and "Can You Do This?" become interactive blocks in place; the
 // "## Exercises" section becomes the exercises slot, and "## Answers" ends the
 // reading (its entries are already attached to each exercise).
+//
+// Interactives (src/data/interactives/NN.json) are placed after a heading:
+// { id, anchor: '<heading slug>', place: 'lead' | 'end' }. "lead" puts it at
+// the end of the heading's own text, before the next heading of any level;
+// "end" (the default) at the end of the heading's whole section, after its
+// subsections.
 export function parseLessonContent(md, {
   chapter = null,
   quickPractices = [],
   exercises = [],
+  interactives = [],
   slugify,
 } = {}) {
   if (typeof slugify !== 'function') throw new TypeError('parseLessonContent requires the slugify function')
@@ -267,6 +274,28 @@ export function parseLessonContent(md, {
   const quickByLetter = new Map(quickPractices.map(q => [q.letter, q]))
   const exerciseByKey = new Map(exercises.map(ex => [ex.id.replace(/^ch\d+-/, ''), ex]))
   const push = output => (started ? blocks : intro).push(...output)
+  // Open headings, innermost last, for placing interactives.
+  const open = []
+  const shown = new Set()
+  const emit = (slug, place) => {
+    for (const x of interactives) {
+      if (x.anchor !== slug || shown.has(x.id) || (x.place || 'end') !== place) continue
+      blocks.push({ type: 'interactive', id: x.id })
+      shown.add(x.id)
+    }
+  }
+  const endLead = () => {
+    const top = open.at(-1)
+    if (top && !top.leadDone) { emit(top.slug, 'lead'); top.leadDone = true }
+  }
+  const closeTo = depth => {
+    endLead()
+    while (open.length && open.at(-1).depth >= depth) {
+      const heading = open.pop()
+      if (!heading.leadDone) emit(heading.slug, 'lead')
+      emit(heading.slug, 'end')
+    }
+  }
   const skipBody = (index, depth) => {
     // Advance past the body of a heading until the next heading at this depth
     // or higher (or a thematic break), returning the last consumed index.
@@ -284,11 +313,14 @@ export function parseLessonContent(md, {
     if (node.type === 'heading' && node.depth === 1) continue
     const text = node.type === 'heading' ? textOf(node).trim() : ''
     if (node.type === 'heading' && node.depth === 2 && /^(Exercises|Answers)$/i.test(text)) {
+      closeTo(0)
       blocks.push({ type: 'exercises-slot' })
       break
     }
     if (node.type === 'heading' && node.depth === 2) {
+      closeTo(2)
       blocks.push({ type: 'h2', text: childrenMarkdown(node).trim(), id: slugify(text) })
+      open.push({ slug: slugify(text), depth: 2, leadDone: false })
       started = true
       if (/^Can You Do This\?$/i.test(text) && exerciseByKey.has('can')) {
         blocks.push({ type: 'exercise', id: exerciseByKey.get('can').id })
@@ -300,12 +332,15 @@ export function parseLessonContent(md, {
     if (node.type === 'heading' && node.depth === 3) {
       const ex = text.match(/^Exercise (\d+)/)
       if (ex && exerciseByKey.has(`ex${ex[1]}`)) {
+        endLead()
         blocks.push({ type: 'exercise', id: exerciseByKey.get(`ex${ex[1]}`).id })
         placed.add(`ex${ex[1]}`)
         index = skipBody(index, 3)
         continue
       }
+      if (started) closeTo(3)
       push([{ type: 'h3', text: childrenMarkdown(node).trim(), id: slugify(text) }])
+      if (started) open.push({ slug: slugify(text), depth: 3, leadDone: false })
       continue
     }
     if (node.type === 'paragraph' && node.children?.[0]?.type === 'strong') {
@@ -324,6 +359,7 @@ export function parseLessonContent(md, {
     push(Array.isArray(parsed) ? parsed : [parsed])
   }
 
+  closeTo(0)
   const rest = exercises.filter(ex => !placed.has(ex.id.replace(/^ch\d+-/, '')))
   if (rest.length && !blocks.some(block => block.type === 'exercises-slot')) blocks.push({ type: 'exercises-slot' })
   if (!rest.length) {
@@ -331,7 +367,8 @@ export function parseLessonContent(md, {
     if (slot >= 0) blocks.splice(slot, 1)
   }
 
-  return { chapter, title, intro, blocks, slotExercises: rest, inlineCount: placed.size }
+  const unplacedInteractives = interactives.filter(x => !shown.has(x.id)).map(x => x.id)
+  return { chapter, title, intro, blocks, slotExercises: rest, inlineCount: placed.size, unplacedInteractives }
 }
 
 export function plainInline(text) {

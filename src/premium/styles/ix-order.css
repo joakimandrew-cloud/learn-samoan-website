@@ -1,0 +1,73 @@
+/* Order practice: tap the words into the Samoan sentence. The inherited tile
+   builder from source-core.css (.afl-answer-row, .afl-tile, .skf-pool-word,
+   .afl-clear) on the .pcs-card deck, with Pick's feedback look.
+   source-core.css loads after this file on the chapter page, so every rule
+   here is scoped to the card (.ix-order) to outrank the rule it adjusts. */
+
+/* The card keeps its own stacking, so a flying tile's z-index stays inside. */
+.premium-core .ix-order { isolation: isolate; }
+
+.premium-core .ix-order .ix-order-label .to { color: inherit; font-size: 1.1em; letter-spacing: 0; text-transform: none; }
+.premium-core .ix-order .ix-order-en { margin: 8px 0 20px; color: var(--text-strong); font: 400 clamp(20px, 2.3vw, 23px)/1.35 var(--f-serif); overflow-wrap: anywhere; }
+.premium-core .ix-order .ix-order-en:focus-visible { outline-offset: 4px; border-radius: 4px; }
+
+/* The answer row: the inherited dashed box, holding tiles instead of text. */
+.premium-core .ix-order .ix-order-answer { align-content: flex-start; margin: 0 0 18px; transition: border-color .2s ease, background-color .2s ease; }
+.premium-core .ix-order .ix-order-answer .afl-answer-label { line-height: 1.3; }
+.premium-core .ix-order .ix-order-placeholder { display: inline-flex; min-height: 48px; align-items: center; }
+.premium-core .ix-order .ix-order-answer.is-right { border-style: solid; border-color: var(--correct-border); }
+.premium-core .ix-order .ix-order-answer.is-wrong { border-style: solid; border-color: var(--wrong-border); }
+
+/* One tile size in the pool and the answer row, so a tile can fly between
+   them without changing shape. A tile on its way to the answer row passes
+   over the pool, and a used tile's ghost sits under everything. */
+.premium-core .ix-order :is(.ix-order-tile, .ix-order-word) { position: relative; z-index: 1; min-width: 52px; min-height: 48px; justify-items: center; padding: 8px 15px; text-align: center; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+.premium-core .ix-order .ix-order-tile { z-index: 2; }
+.premium-core .ix-order .ix-order-word.is-used { z-index: 0; }
+.premium-core .ix-order :is(.ix-order-tile, .ix-order-word) .to { color: var(--text-strong); font-size: 19px; line-height: 1.25; overflow-wrap: anywhere; }
+.premium-core .ix-order :is(.ix-order-tile, .ix-order-word):disabled { cursor: default; }
+.premium-core .ix-order .ix-order-tile.is-correct .to { color: var(--correct); }
+.premium-core .ix-order .ix-order-tile.is-wrong .to { color: var(--wrong); }
+.premium-core .ix-order .ix-order-stop { align-self: flex-end; margin-left: -5px; padding-bottom: 9px; color: var(--correct); font: italic 30px/1 var(--f-serif); }
+/* The key number as a keycap on the corner (the hint's kbd), so it never
+   reads as a superscript on the word. */
+.premium-core .ix-order .ix-order-word .pcs-btn-key { top: -7px; right: -7px; display: grid; min-width: 17px; height: 17px; place-items: center; padding: 0 4px; border: 1px solid var(--border); border-radius: 4px; background: var(--bg-tone); color: var(--text-muted); font-size: 10px; font-style: normal; line-height: 1; }
+.premium-core .ix-order .ix-order-pool { padding-top: 4px; }
+/* A finger leaves :hover on whatever tile slid under it; on a touch screen
+   the tiles keep their resting look. */
+@media (hover: none) {
+  .premium-core .ix-order :is(.ix-order-tile, .ix-order-word):hover:not(:disabled) { border-color: var(--border); background: var(--surface); }
+}
+
+/* Check and clear: the inherited Next button and clear link, kept together;
+   on a narrow screen the key hint takes a line of its own. */
+.premium-core .ix-order .ix-order-actions { flex-wrap: wrap; margin-top: 0; row-gap: 6px; }
+.premium-core .ix-order .ix-order-buttons { display: inline-flex; align-items: center; gap: 14px; margin-left: auto; }
+.premium-core .ix-order .pcs-next { white-space: nowrap; }
+.premium-core .ix-order .pcs-next-container { flex-wrap: wrap; row-gap: 6px; }
+.premium-core .ix-order .ix-order-check:disabled { opacity: .4; cursor: default; pointer-events: none; }
+
+/* The verdict: Pick's feedback, as its own panel under the pool. */
+.premium-core .ix-order .ix-order-feedback { display: flex; gap: 10px; padding: 14px 16px; border: 1.5px solid var(--correct-border); border-radius: 10px; background: var(--correct-bg); }
+.premium-core .ix-order .ix-order-feedback.is-wrong { border-color: var(--wrong-border); background: var(--wrong-bg); }
+.premium-core .ix-order .ix-order-feedback .pcs-btn-feedback-icon { background: var(--correct); }
+.premium-core .ix-order .ix-order-feedback.is-wrong .pcs-btn-feedback-icon { background: var(--wrong); }
+.premium-core .ix-order .ix-order-feedback .pcs-btn-feedback-body { gap: 6px; min-width: 0; }
+.premium-core .ix-order .ix-order-feedback .pcs-btn-why .to { color: var(--text); }
+.premium-core .ix-order .ix-order-model { color: var(--text-muted); font: 15px/1.55 var(--f-serif); overflow-wrap: anywhere; }
+.premium-core .ix-order .ix-order-model .to { color: var(--text-strong); font-size: 20px; }
+/* The words that were not where the learner put them: the accent colour
+   that marks a change elsewhere in the chapter, on a soft fill. */
+.premium-core .ix-order .ix-order-mark { border-radius: 3px; background: var(--accent-faint); color: var(--accent); padding: 0 .1em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.premium-core .ix-order .ix-order-next .pcs-next-container { margin-top: 16px; }
+
+/* Read aloud, never shown: the sentence so far and the verdict. */
+.premium-core .ix-order .ix-order-status { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+@media (max-width: 640px) {
+  .premium-core .ix-order .ix-order-en { margin-bottom: 16px; }
+  .premium-core .ix-order .ix-order-answer { padding: 10px; }
+  .premium-core .ix-order :is(.ix-order-tile, .ix-order-word) { min-width: 48px; padding: 8px 13px; }
+  .premium-core .ix-order :is(.ix-order-tile, .ix-order-word) .to { font-size: 18px; }
+  .premium-core .ix-order .ix-order-feedback { padding: 13px 12px; }
+}

@@ -1,0 +1,55 @@
+/* Match practice: the inherited tap-to-match cells (.match-grid and
+   .match-cell with .is-selected, .is-matched and .is-wrong, lesson.css)
+   inside the picker card (.pcs-card, source-core.css). The two columns stay
+   side by side at every width: Samoan left, English right. */
+.premium-core .ix-match .pcs-question { margin-bottom: 12px; }
+.premium-core .ix-match .match-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 12px; animation: ix-match-in .35s var(--ease-out) both; }
+.premium-core .ix-match .match-grid > .ix-match-col { min-width: 0; }
+.premium-core .ix-match-head { padding: 0 2px; color: var(--text-muted); font: 700 12px/1.3 var(--f-display); letter-spacing: .16em; text-transform: uppercase; }
+@keyframes ix-match-in { from { opacity: 0; transform: translateY(6px); } }
+
+/* .premium-core sets every button in Inter; the cells keep their serif. */
+.premium-core .ix-match .match-cell { position: relative; display: flex; align-items: center; width: 100%; min-width: 0; font-family: var(--f-serif); touch-action: manipulation; transition: border-color .15s, background-color .15s, color .15s, opacity .25s; }
+.premium-core .ix-match .match-cell:disabled { cursor: default; }
+.premium-core .ix-match-text { min-width: 0; overflow-wrap: anywhere; }
+/* Samoan inside an English gloss stays at the gloss's size. */
+.premium-core .ix-match .match-cell .to { color: inherit; font-size: 1.04em; }
+.premium-core .ix-match .match-cell[data-side="sm"] .to { font-size: 19px; line-height: 1.25; }
+/* A matched pair's tick: the round mark of the chapter exercises (.xi-mark),
+   small, on the corner, so it never takes room from the words. */
+.premium-core .ix-match-tick { position: absolute; top: -7px; right: -7px; display: grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; background: var(--success); color: #fff; box-shadow: 0 0 0 2px var(--surface-sunken); font: 800 10px/1 var(--f-ui); }
+/* Hover only outlines (as the Tongan cells do), so it never reads as a
+   selection, and never covers the red of a wrong pair. */
+@media (hover: hover) {
+  .premium-core .ix-match .match-cell:hover:not(:disabled, .is-selected, .is-wrong) { border-color: var(--accent); }
+}
+
+/* The verdict line (the live region) and the Next row under the grid. */
+.premium-core .ix-match-foot { margin-top: 14px; }
+.premium-core .ix-match-status { min-height: 1.6em; margin: 0; color: var(--text-muted); font: 14px/1.6 var(--f-ui); }
+.premium-core .ix-match-status .is-right { color: var(--correct); }
+.premium-core .ix-match-status .is-wrong { color: var(--wrong); font-weight: 650; }
+.premium-core .ix-match-status .to { color: inherit; font-size: 16.5px; }
+.premium-core .ix-match-status-en { font-family: var(--f-serif); font-size: 15.5px; }
+.premium-core .ix-match-status-en .to { font-size: 1em; }
+.premium-core .ix-match-status strong { font-weight: 750; }
+.premium-core .ix-match-foot .pcs-next-container { flex-wrap: wrap; margin-top: 10px; }
+.premium-core .ix-match .pcs-next { white-space: nowrap; }
+
+/* The tally sits beside reset on a wide card; on a narrow one, reset joins
+   the round counter and the tally takes the line below. */
+.premium-core .ix-match-tally { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 2px 12px; }
+@media (max-width: 640px) {
+  .premium-core .ix-match .pcs-card-row { align-items: center; row-gap: 0; }
+  .premium-core .ix-match .pcs-progress-wrap { flex: 1 1 0; min-width: 0; }
+  .premium-core .ix-match .pcs-progress { white-space: nowrap; }
+  .premium-core .ix-match .pcs-progress-bar { flex: 0 1 82px; min-width: 32px; }
+  .premium-core .ix-match .pcs-stats { display: contents; }
+  .premium-core .ix-match .pcs-card-row .pcs-reset { order: 1; margin-left: auto; }
+  .premium-core .ix-match-tally { order: 2; flex-basis: 100%; }
+}
+@media (max-width: 420px) {
+  .premium-core .ix-match .match-grid { gap: 8px; }
+  .premium-core .ix-match .match-cell { min-height: 48px; padding: 8px 9px; font-size: 14.5px; line-height: 1.3; }
+  .premium-core .ix-match .match-cell[data-side="sm"] .to { font-size: 17px; }
+}

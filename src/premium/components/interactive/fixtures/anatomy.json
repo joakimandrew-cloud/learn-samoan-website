@@ -1,0 +1,39 @@
+{
+  "chapter": 1,
+  "items": [
+    {
+      "id": "ch1-parts",
+      "kind": "anatomy",
+      "anchor": "the-pattern",
+      "place": "lead",
+      "title": "Three parts, always in this order",
+      "caption": "Tap a part to read what it does. Word by word the sentence says \"Past I go\", which English says as \"I went.\"",
+      "data": {
+        "sentence": {
+          "sm": "Sā ʻou alu.",
+          "en": "I went."
+        },
+        "parts": [
+          {
+            "sm": "Sā",
+            "gloss": "past",
+            "role": "Past particle",
+            "note": "It goes in front and stamps the whole sentence as already done. It is always first, and it never changes."
+          },
+          {
+            "sm": "ʻou",
+            "gloss": "I",
+            "role": "Preverbal pronoun",
+            "note": "It says who did it, in the slot before the verb. Swap it for *ia* and the same sentence is about someone else."
+          },
+          {
+            "sm": "alu.",
+            "gloss": "go",
+            "role": "Verb",
+            "note": "It names the action and keeps the same shape whether the going is past, present or still to come."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "chapter": 1,
+  "items": [
+    {
+      "id": "ch1-type-words",
+      "kind": "type",
+      "anchor": "words-to-learn",
+      "title": "Type the new words",
+      "intro": "Read the English and type the Samoan. The keys under the box add the long vowels and the glottal stop.",
+      "data": {
+        "items": [
+          {
+            "en": "go",
+            "sm": "alu",
+            "why": "*Alu* stays *alu* whether the going is past, present, or still to come."
+          },
+          {
+            "en": "dance",
+            "sm": "siva",
+            "why": "As in *Sā ia siva.* (She danced.)"
+          },
+          {
+            "en": "bathe, have a shower",
+            "sm": "tāʻele",
+            "why": "As in *Sā ʻou tāʻele.* (I bathed.)"
+          },
+          {
+            "en": "go fishing",
+            "sm": "fāgota",
+            "hint": "One word in Samoan.",
+            "why": "As in *Sā ia fāgota.* (She went fishing.)"
+          },
+          {
+            "en": "I",
+            "sm": "ʻou",
+            "hint": "A preverbal pronoun: it stands before the verb.",
+            "why": "Between the particle and the verb sits the word for who did it: *Sā ʻou alu.* (I went.)"
+          },
+          {
+            "en": "he, she",
+            "sm": "ia",
+            "why": "Swap *ʻou* for *ia* and the same things are said about someone else: *Sā ia alu.* (She went.)"
+          },
+          {
+            "en": "love",
+            "sm": "alofa",
+            "why": "A word to carry: it names a feeling rather than an action, and is used fully later in this book."
+          },
+          {
+            "en": "no",
+            "sm": "leai",
+            "why": "You can use it on its own from your very first day."
+          }
+        ]
+      }
+    }
+  ]
+}

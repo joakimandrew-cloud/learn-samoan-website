@@ -1,0 +1,16 @@
+/* Anatomy figure: the inherited .pf parts row (lesson.css), sized for any
+   number of parts. */
+.ix-anatomy .pf { grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); }
+.ix-anatomy .pf-part { min-width: 0; }
+.ix-anatomy .pf-w { overflow-wrap: anywhere; }
+.ix-anatomy .pf.is-many .pf-w { font-size: clamp(24px, 2.6vw, 36px) !important; }
+.ix-anatomy .pf-g { overflow-wrap: anywhere; }
+.ix-anatomy-en { margin: 16px 0 0; font-size: 15px; color: var(--muted); }
+.ix-anatomy-en .to { font-size: 18px; color: var(--ink) !important; margin-right: 6px; }
+@media (max-width: 640px) {
+  .ix-anatomy .pf { grid-template-columns: repeat(min(var(--n, 3), 3), minmax(0, 1fr)); }
+  .ix-anatomy .pf-part { padding: 14px 10px 12px; }
+  .ix-anatomy .pf-w { font-size: clamp(22px, 7vw, 32px) !important; }
+  .ix-anatomy .pf-g { letter-spacing: .1em; font-size: 11.5px; }
+  .ix-anatomy .pf-role { font-size: 12px; }
+}

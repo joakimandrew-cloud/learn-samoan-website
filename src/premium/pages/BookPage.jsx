@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { motion as Motion } from 'motion/react'
 import { loadBookPage } from '../lib/book.js'
 import { useTitle } from '../lib/title.js'
+import { BOOK_PAGES } from '@app/lib/book-pages.js'
 import { Md } from '../components/lesson/Blocks.jsx'
 import MobileCompass from '../components/lesson/MobileCompass.jsx'
 import { RenderBlock, Rail, Section, groupSections } from './Lesson.jsx'
@@ -11,11 +12,6 @@ import '../styles/lesson-experience.css'
 import '../styles/source-core.css'
 
 // The Introduction and two appendices, read in the chapter layout.
-const BOOK_PAGES = {
-  introduction: { file: 'Introduction.md', kicker: 'Before Chapter 1', title: 'Sounds, Spelling, and How Words Work' },
-  pronunciation: { file: 'appendix-pronunciation.md', kicker: 'Appendix', title: 'Pronunciation Guide' },
-  charts: { file: 'appendix-reference-charts.md', kicker: 'Appendix', title: 'Reference Charts' },
-}
 
 export default function BookPage({ page }) {
   const meta = BOOK_PAGES[page]
