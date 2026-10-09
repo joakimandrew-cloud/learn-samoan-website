@@ -1,0 +1,5636 @@
+[
+  {
+    "samoan": "sā",
+    "english": "the past particle: puts the whole sentence in the past",
+    "chapter": 1,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0001"
+  },
+  {
+    "samoan": "ʻou",
+    "english": "I",
+    "chapter": 1,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0002"
+  },
+  {
+    "samoan": "ia",
+    "english": "he, she",
+    "chapter": 1,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0003"
+  },
+  {
+    "samoan": "alu",
+    "english": "go",
+    "chapter": 1,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0004"
+  },
+  {
+    "samoan": "siva",
+    "english": "dance",
+    "chapter": 1,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0005"
+  },
+  {
+    "samoan": "tāʻele",
+    "english": "bathe, have a shower",
+    "chapter": 1,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0006"
+  },
+  {
+    "samoan": "fāgota",
+    "english": "go fishing",
+    "chapter": 1,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0007"
+  },
+  {
+    "samoan": "timu",
+    "english": "to rain (the weather word)",
+    "chapter": 1,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0008"
+  },
+  {
+    "samoan": "alofa",
+    "english": "love",
+    "chapter": 1,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0009"
+  },
+  {
+    "samoan": "lelei",
+    "english": "good, well",
+    "chapter": 1,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0010"
+  },
+  {
+    "samoan": "leai",
+    "english": "no",
+    "chapter": 1,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0011"
+  },
+  {
+    "samoan": "ʻou",
+    "english": "I",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0012"
+  },
+  {
+    "samoan": "ʻe",
+    "english": "you (one person)",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0013"
+  },
+  {
+    "samoan": "ia",
+    "english": "he, she",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0014"
+  },
+  {
+    "samoan": "tā",
+    "english": "we two (you and I)",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0015"
+  },
+  {
+    "samoan": "mā",
+    "english": "we two (but not you)",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0016"
+  },
+  {
+    "samoan": "tātou",
+    "english": "we (you and I, and others)",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0017"
+  },
+  {
+    "samoan": "mātou",
+    "english": "we (others and I, but not you)",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0018"
+  },
+  {
+    "samoan": "ʻoulua",
+    "english": "you two",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0019"
+  },
+  {
+    "samoan": "ʻoutou",
+    "english": "you all",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0020"
+  },
+  {
+    "samoan": "lā",
+    "english": "they two",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0021"
+  },
+  {
+    "samoan": "lātou",
+    "english": "they",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "Meaning",
+    "id": "w0022"
+  },
+  {
+    "samoan": "aʻu",
+    "english": "me (the independent form of \"I\")",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0023"
+  },
+  {
+    "samoan": "ʻoe",
+    "english": "you (the independent form of \"you\")",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0024"
+  },
+  {
+    "samoan": "ʻo",
+    "english": "the presenting word: puts forward who it is",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0025"
+  },
+  {
+    "samoan": "ia te",
+    "english": "the form the place word takes before a person-word",
+    "chapter": 2,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0026"
+  },
+  {
+    "samoan": "sau",
+    "english": "come",
+    "chapter": 2,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0027"
+  },
+  {
+    "samoan": "eva",
+    "english": "go for a stroll",
+    "chapter": 2,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0028"
+  },
+  {
+    "samoan": "minoi",
+    "english": "move",
+    "chapter": 2,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0029"
+  },
+  {
+    "samoan": "sasa",
+    "english": "hit",
+    "chapter": 2,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0030"
+  },
+  {
+    "samoan": "maua",
+    "english": "get, obtain",
+    "chapter": 2,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0031"
+  },
+  {
+    "samoan": "fia",
+    "english": "want: goes in front of the verb and says the action was wanted",
+    "chapter": 3,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0032"
+  },
+  {
+    "samoan": "fiafia",
+    "english": "happy, glad (after a verb: happily)",
+    "chapter": 3,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0033"
+  },
+  {
+    "samoan": "malosi",
+    "english": "strong (after a verb: hard, with strength)",
+    "chapter": 3,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0034"
+  },
+  {
+    "samoan": "foi",
+    "english": "return",
+    "chapter": 3,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0035"
+  },
+  {
+    "samoan": "tagi",
+    "english": "cry",
+    "chapter": 3,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0036"
+  },
+  {
+    "samoan": "fesili",
+    "english": "ask",
+    "chapter": 3,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0037"
+  },
+  {
+    "samoan": "fou",
+    "english": "new",
+    "chapter": 3,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0038"
+  },
+  {
+    "samoan": "loloto",
+    "english": "deep",
+    "chapter": 3,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0039"
+  },
+  {
+    "samoan": "tau",
+    "english": "reach",
+    "chapter": 3,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0040"
+  },
+  {
+    "samoan": "na",
+    "english": "the second past: marks a single, finished, or unexpected event",
+    "chapter": 4,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0041"
+  },
+  {
+    "samoan": "ʻua",
+    "english": "the change particle: says something has changed and a new state is usually in place now",
+    "chapter": 4,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0042"
+  },
+  {
+    "samoan": "ʻoleʻā",
+    "english": "the future particle: places the event ahead of now (short form *ʻā*)",
+    "chapter": 4,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0043"
+  },
+  {
+    "samoan": "amata",
+    "english": "begin, start",
+    "chapter": 4,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0044"
+  },
+  {
+    "samoan": "maʻi",
+    "english": "sick",
+    "chapter": 4,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0045"
+  },
+  {
+    "samoan": "tauaso",
+    "english": "blind",
+    "chapter": 4,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0046"
+  },
+  {
+    "samoan": "vaai",
+    "english": "see",
+    "chapter": 4,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0047"
+  },
+  {
+    "samoan": "vevela",
+    "english": "hot",
+    "chapter": 4,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0048"
+  },
+  {
+    "samoan": "maʻalili",
+    "english": "cold",
+    "chapter": 4,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0049"
+  },
+  {
+    "samoan": "pisi",
+    "english": "busy",
+    "chapter": 4,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0050"
+  },
+  {
+    "samoan": "fai",
+    "english": "do, make, say, tell",
+    "chapter": 4,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0051"
+  },
+  {
+    "samoan": "ia",
+    "english": "the urging word: added to the end of a command for warmth or a push (not the person word *ia*)",
+    "chapter": 5,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0052"
+  },
+  {
+    "samoan": "ʻea",
+    "english": "a second urging word, added to a command the same way",
+    "chapter": 5,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0053"
+  },
+  {
+    "samoan": "faʻatali",
+    "english": "wait",
+    "chapter": 5,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0054"
+  },
+  {
+    "samoan": "nofo",
+    "english": "sit, stay",
+    "chapter": 5,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0055"
+  },
+  {
+    "samoan": "vave",
+    "english": "quick, soon",
+    "chapter": 5,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0056"
+  },
+  {
+    "samoan": "ʻaumai",
+    "english": "bring, take (hither)",
+    "chapter": 5,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0057"
+  },
+  {
+    "samoan": "tapuni",
+    "english": "shut",
+    "chapter": 5,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0058"
+  },
+  {
+    "samoan": "salu",
+    "english": "sweep",
+    "chapter": 5,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0059"
+  },
+  {
+    "samoan": "fufulu",
+    "english": "wash",
+    "chapter": 5,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0060"
+  },
+  {
+    "samoan": "fesoasoani",
+    "english": "help",
+    "chapter": 5,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0061"
+  },
+  {
+    "samoan": "le",
+    "english": "the specific article: one particular thing the speaker has in mind",
+    "chapter": 6,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0062"
+  },
+  {
+    "samoan": "se",
+    "english": "the non-specific article, one thing: any single one",
+    "chapter": 6,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0063"
+  },
+  {
+    "samoan": "ni",
+    "english": "the non-specific article, many: some, any ones at all",
+    "chapter": 6,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0064"
+  },
+  {
+    "samoan": "teine",
+    "english": "girl",
+    "chapter": 6,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0065"
+  },
+  {
+    "samoan": "tamaitai",
+    "english": "lady",
+    "chapter": 6,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0066"
+  },
+  {
+    "samoan": "agelu",
+    "english": "angel",
+    "chapter": 6,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0067"
+  },
+  {
+    "samoan": "ipu",
+    "english": "cup",
+    "chapter": 6,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0068"
+  },
+  {
+    "samoan": "mea",
+    "english": "thing",
+    "chapter": 6,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0069"
+  },
+  {
+    "samoan": "laau",
+    "english": "tree (the bare form *laau* is itself the plural, \"trees\", while one tree is *le laau*)",
+    "chapter": 6,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0070"
+  },
+  {
+    "samoan": "ʻo",
+    "english": "the presenting particle: goes in front of the naming part that says what something is",
+    "chapter": 7,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0071"
+  },
+  {
+    "samoan": "lena",
+    "english": "that: points to something in view, and comes second in the naming sentence",
+    "chapter": 7,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0072"
+  },
+  {
+    "samoan": "tama",
+    "english": "boy",
+    "chapter": 7,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0073"
+  },
+  {
+    "samoan": "uō",
+    "english": "friend",
+    "chapter": 7,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0074"
+  },
+  {
+    "samoan": "tagata",
+    "english": "person",
+    "chapter": 7,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0075"
+  },
+  {
+    "samoan": "pusi",
+    "english": "cat",
+    "chapter": 7,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0076"
+  },
+  {
+    "samoan": "tino",
+    "english": "body",
+    "chapter": 7,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0077"
+  },
+  {
+    "samoan": "aiga",
+    "english": "home, family",
+    "chapter": 7,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0078"
+  },
+  {
+    "samoan": "igoa",
+    "english": "name",
+    "chapter": 7,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0079"
+  },
+  {
+    "samoan": "ʻupu",
+    "english": "word",
+    "chapter": 7,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0080"
+  },
+  {
+    "samoan": "ai",
+    "english": "the question word for who: stands after *ʻo* at the front of a who-question",
+    "chapter": 8,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0081"
+  },
+  {
+    "samoan": "ā",
+    "english": "the question word for what: stands after *ʻo le* at the front of a what-question",
+    "chapter": 8,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0082"
+  },
+  {
+    "samoan": "po",
+    "english": "marks a question from the very front of the sentence",
+    "chapter": 8,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0083"
+  },
+  {
+    "samoan": "ʻea",
+    "english": "marks a question from inside it, after the first part",
+    "chapter": 8,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0084"
+  },
+  {
+    "samoan": "fafine",
+    "english": "woman",
+    "chapter": 8,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0085"
+  },
+  {
+    "samoan": "matua",
+    "english": "parent",
+    "chapter": 8,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0086"
+  },
+  {
+    "samoan": "fale",
+    "english": "house",
+    "chapter": 8,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0087"
+  },
+  {
+    "samoan": "tausaga",
+    "english": "year",
+    "chapter": 8,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0088"
+  },
+  {
+    "samoan": "faasalalauga",
+    "english": "broadcast, broadcasting",
+    "chapter": 8,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0089"
+  },
+  {
+    "samoan": "suasami",
+    "english": "salt water",
+    "chapter": 8,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0090"
+  },
+  {
+    "samoan": "ulavai",
+    "english": "prawn",
+    "chapter": 8,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0091"
+  },
+  {
+    "samoan": "to",
+    "english": "hole",
+    "chapter": 8,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0092"
+  },
+  {
+    "samoan": "tālofa",
+    "english": "hello; feel sympathy",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0093"
+  },
+  {
+    "samoan": "tōfā",
+    "english": "goodbye",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0094"
+  },
+  {
+    "samoan": "soifua",
+    "english": "good health, life",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0095"
+  },
+  {
+    "samoan": "faʻafetai",
+    "english": "thank you",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0096"
+  },
+  {
+    "samoan": "faʻamolemole",
+    "english": "please",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0097"
+  },
+  {
+    "samoan": "mālō",
+    "english": "congratulate; hi",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0098"
+  },
+  {
+    "samoan": "manuia",
+    "english": "happy, blessed",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0099"
+  },
+  {
+    "samoan": "mānaia",
+    "english": "nice",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0100"
+  },
+  {
+    "samoan": "gālue",
+    "english": "work",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0101"
+  },
+  {
+    "samoan": "meaʻai",
+    "english": "food",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0102"
+  },
+  {
+    "samoan": "ʻai",
+    "english": "eat",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0103"
+  },
+  {
+    "samoan": "oti",
+    "english": "die",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0104"
+  },
+  {
+    "samoan": "tala",
+    "english": "story",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0105"
+  },
+  {
+    "samoan": "nuʻu",
+    "english": "village",
+    "chapter": 9,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0106"
+  },
+  {
+    "samoan": "a",
+    "english": "the belonging word for *a*-words: joins a thing to the person who got or uses it",
+    "chapter": 10,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0107"
+  },
+  {
+    "samoan": "o",
+    "english": "the belonging word for *o*-words: joins a thing to the person it is part of, or whose it is by nature or by where they live",
+    "chapter": 10,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0108"
+  },
+  {
+    "samoan": "laʻu, loʻu",
+    "english": "my (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0109"
+  },
+  {
+    "samoan": "lau, lou",
+    "english": "your (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0110"
+  },
+  {
+    "samoan": "lana, lona",
+    "english": "his, her, its (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0111"
+  },
+  {
+    "samoan": "ulu",
+    "english": "head",
+    "chapter": 10,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0112"
+  },
+  {
+    "samoan": "vae",
+    "english": "leg, foot",
+    "chapter": 10,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0113"
+  },
+  {
+    "samoan": "lima",
+    "english": "hand",
+    "chapter": 10,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0114"
+  },
+  {
+    "samoan": "naifi",
+    "english": "knife",
+    "chapter": 10,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0115"
+  },
+  {
+    "samoan": "taʻavale",
+    "english": "car",
+    "chapter": 10,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0116"
+  },
+  {
+    "samoan": "niu",
+    "english": "coconut",
+    "chapter": 10,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0117"
+  },
+  {
+    "samoan": "aliʻi",
+    "english": "chief",
+    "chapter": 10,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0118"
+  },
+  {
+    "samoan": "gata",
+    "english": "snake",
+    "chapter": 10,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0119"
+  },
+  {
+    "samoan": "i",
+    "english": "the place word: marks where an action is or where it is headed (in, at, to)",
+    "chapter": 11,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0120"
+  },
+  {
+    "samoan": "mai",
+    "english": "the from-word: marks where something started (from)",
+    "chapter": 11,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0121"
+  },
+  {
+    "samoan": "iā, ia te",
+    "english": "the shapes the place word takes before a person's name and in front of a person-word",
+    "chapter": 11,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0122"
+  },
+  {
+    "samoan": "oso",
+    "english": "jump",
+    "chapter": 11,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0123"
+  },
+  {
+    "samoan": "solofanua",
+    "english": "horse",
+    "chapter": 11,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0124"
+  },
+  {
+    "samoan": "sapelu",
+    "english": "bush-knife",
+    "chapter": 11,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0125"
+  },
+  {
+    "samoan": "vao",
+    "english": "weeds, bush",
+    "chapter": 11,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0126"
+  },
+  {
+    "samoan": "lele",
+    "english": "fly",
+    "chapter": 11,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0127"
+  },
+  {
+    "samoan": "vili",
+    "english": "rotate, spin",
+    "chapter": 11,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0128"
+  },
+  {
+    "samoan": "masini",
+    "english": "machine",
+    "chapter": 11,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0129"
+  },
+  {
+    "samoan": "ogalaau",
+    "english": "log",
+    "chapter": 11,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0130"
+  },
+  {
+    "samoan": "matamata",
+    "english": "look at, watch",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0131"
+  },
+  {
+    "samoan": "sisila",
+    "english": "look steadily, stare (a polite word, to recognize only)",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0132"
+  },
+  {
+    "samoan": "ʻinoʻino",
+    "english": "hate, dislike",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0133"
+  },
+  {
+    "samoan": "manaʻo",
+    "english": "want (a thing)",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0134"
+  },
+  {
+    "samoan": "valaʻau",
+    "english": "call",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0135"
+  },
+  {
+    "samoan": "iʻa",
+    "english": "fish",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0136"
+  },
+  {
+    "samoan": "ʻiole",
+    "english": "rat",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0137"
+  },
+  {
+    "samoan": "ofisa",
+    "english": "office; official",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0138"
+  },
+  {
+    "samoan": "ulugāliʻi",
+    "english": "couple",
+    "chapter": 12,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0139"
+  },
+  {
+    "samoan": "e",
+    "english": "the general particle: marks a statement true in general, with no tie to a time",
+    "chapter": 13,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0140"
+  },
+  {
+    "samoan": "te",
+    "english": "the shape the general particle takes right after a pronoun",
+    "chapter": 13,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0141"
+  },
+  {
+    "samoan": "ʻoloʻo",
+    "english": "the happening-now particle: marks an event under way at the moment being talked about, which in this chapter is the moment you speak",
+    "chapter": 13,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0142"
+  },
+  {
+    "samoan": "na",
+    "english": "the word for he, she before *te* (in place of *ia*)",
+    "chapter": 13,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0143"
+  },
+  {
+    "samoan": "pasi",
+    "english": "bus",
+    "chapter": 13,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0144"
+  },
+  {
+    "samoan": "vai",
+    "english": "water",
+    "chapter": 13,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0145"
+  },
+  {
+    "samoan": "auivi",
+    "english": "skeleton",
+    "chapter": 13,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0146"
+  },
+  {
+    "samoan": "feiloai",
+    "english": "meet",
+    "chapter": 13,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0147"
+  },
+  {
+    "samoan": "tusitusi",
+    "english": "write",
+    "chapter": 13,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0148"
+  },
+  {
+    "samoan": "iai",
+    "english": "be present, be there",
+    "chapter": 13,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0149"
+  },
+  {
+    "samoan": "iai",
+    "english": "the there-is verb: says something exists or is present",
+    "chapter": 14,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0150"
+  },
+  {
+    "samoan": "leai",
+    "english": "the there-is-none verb: says something is absent (also the word for \"no\")",
+    "chapter": 14,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0151"
+  },
+  {
+    "samoan": "sina",
+    "english": "a little of, some of: marks a small portion of a thing, often politely",
+    "chapter": 14,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0152"
+  },
+  {
+    "samoan": "laʻu",
+    "english": "my (the possessive form used with *iai* to say what you have)",
+    "chapter": 14,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0153"
+  },
+  {
+    "samoan": "lau",
+    "english": "your (the possessive form used with *iai* to say what you have)",
+    "chapter": 14,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0154"
+  },
+  {
+    "samoan": "lana",
+    "english": "his, her (the possessive form used with *iai* to say what you have)",
+    "chapter": 14,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0155"
+  },
+  {
+    "samoan": "tusi",
+    "english": "letter, book (also: write)",
+    "chapter": 14,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0156"
+  },
+  {
+    "samoan": "fana",
+    "english": "gun (also: shoot)",
+    "chapter": 14,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0157"
+  },
+  {
+    "samoan": "gasegase",
+    "english": "sickness (a polite word: said of another person, never of yourself)",
+    "chapter": 14,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0158"
+  },
+  {
+    "samoan": "fānau",
+    "english": "give birth; children, offspring",
+    "chapter": 14,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0159"
+  },
+  {
+    "samoan": "tautala",
+    "english": "talk, speak",
+    "chapter": 14,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0160"
+  },
+  {
+    "samoan": "tupu",
+    "english": "happen",
+    "chapter": 14,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0161"
+  },
+  {
+    "samoan": "laʻitiiti",
+    "english": "small, young",
+    "chapter": 14,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0162"
+  },
+  {
+    "samoan": "uliuli",
+    "english": "black",
+    "chapter": 14,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0163"
+  },
+  {
+    "samoan": "lē",
+    "english": "the not-word: denies a statement or question; sits after the tense particle, before the verb",
+    "chapter": 15,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0164"
+  },
+  {
+    "samoan": "leʻi",
+    "english": "the not-yet word: says a thing has not happened so far but is expected to; usually rides the general particle",
+    "chapter": 15,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0165"
+  },
+  {
+    "samoan": "malie",
+    "english": "pleased",
+    "chapter": 15,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0166"
+  },
+  {
+    "samoan": "gagana",
+    "english": "language",
+    "chapter": 15,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0167"
+  },
+  {
+    "samoan": "pepe",
+    "english": "baby",
+    "chapter": 15,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0168"
+  },
+  {
+    "samoan": "potu",
+    "english": "room",
+    "chapter": 15,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0169"
+  },
+  {
+    "samoan": "tamā",
+    "english": "father",
+    "chapter": 15,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0170"
+  },
+  {
+    "samoan": "itula",
+    "english": "hour",
+    "chapter": 15,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0171"
+  },
+  {
+    "samoan": "ai",
+    "english": "the pointing-back word: stands in for a place already named; sits after the verb, before the doer",
+    "chapter": 16,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0172"
+  },
+  {
+    "samoan": "i ai",
+    "english": "the \"to there\" form: the pointing-back word with the place word *i* in front, for the goal of a movement",
+    "chapter": 16,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0173"
+  },
+  {
+    "samoan": "malolo",
+    "english": "rest",
+    "chapter": 16,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0174"
+  },
+  {
+    "samoan": "tali",
+    "english": "answer",
+    "chapter": 16,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0175"
+  },
+  {
+    "samoan": "aitu",
+    "english": "spirit",
+    "chapter": 16,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0176"
+  },
+  {
+    "samoan": "umu",
+    "english": "oven; oven-food",
+    "chapter": 16,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0177"
+  },
+  {
+    "samoan": "pito",
+    "english": "end",
+    "chapter": 16,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0178"
+  },
+  {
+    "samoan": "vasega",
+    "english": "class",
+    "chapter": 16,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0179"
+  },
+  {
+    "samoan": "isi",
+    "english": "other",
+    "chapter": 16,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0180"
+  },
+  {
+    "samoan": "leitiō",
+    "english": "radio",
+    "chapter": 16,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0181"
+  },
+  {
+    "samoan": "fea",
+    "english": "the where-word: asks where, standing first in the where-question",
+    "chapter": 17,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0182"
+  },
+  {
+    "samoan": "i ai",
+    "english": "the settled-in-place form at the heart of the where-sentence: \"is there\", the spot the answer fills; the copy is required when the place is fronted",
+    "chapter": 17,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0183"
+  },
+  {
+    "samoan": "lē i ai",
+    "english": "the negative of that form: \"is not there\"",
+    "chapter": 17,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0184"
+  },
+  {
+    "samoan": "fono",
+    "english": "village meeting, council",
+    "chapter": 17,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0185"
+  },
+  {
+    "samoan": "uafu",
+    "english": "wharf",
+    "chapter": 17,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0186"
+  },
+  {
+    "samoan": "tina",
+    "english": "mother",
+    "chapter": 17,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0187"
+  },
+  {
+    "samoan": "aso",
+    "english": "day",
+    "chapter": 17,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0188"
+  },
+  {
+    "samoan": "taimi",
+    "english": "time",
+    "chapter": 17,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0189"
+  },
+  {
+    "samoan": "lumanai",
+    "english": "future",
+    "chapter": 17,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0190"
+  },
+  {
+    "samoan": "ananafi",
+    "english": "yesterday",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0191"
+  },
+  {
+    "samoan": "anapō",
+    "english": "last night",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0192"
+  },
+  {
+    "samoan": "anataeao",
+    "english": "this morning",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0193"
+  },
+  {
+    "samoan": "analeilā",
+    "english": "earlier today",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0194"
+  },
+  {
+    "samoan": "ananei",
+    "english": "just a short time ago",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0195"
+  },
+  {
+    "samoan": "anamua",
+    "english": "formerly",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0196"
+  },
+  {
+    "samoan": "anamuā",
+    "english": "in days of old",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0197"
+  },
+  {
+    "samoan": "ʻātaeao",
+    "english": "tomorrow morning",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0198"
+  },
+  {
+    "samoan": "nānei",
+    "english": "later on",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0199"
+  },
+  {
+    "samoan": "nei",
+    "english": "now",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0200"
+  },
+  {
+    "samoan": "taeao",
+    "english": "morning; also tomorrow",
+    "chapter": 18,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0201"
+  },
+  {
+    "samoan": "nonofo",
+    "english": "stay, sit (said of more than one)",
+    "chapter": 19,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0202"
+  },
+  {
+    "samoan": "uli",
+    "english": "black (said of more than one)",
+    "chapter": 19,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0203"
+  },
+  {
+    "samoan": "mātua",
+    "english": "parents",
+    "chapter": 19,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0204"
+  },
+  {
+    "samoan": "puaʻa",
+    "english": "pig",
+    "chapter": 19,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0205"
+  },
+  {
+    "samoan": "maʻumaga",
+    "english": "taro patch",
+    "chapter": 19,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0206"
+  },
+  {
+    "samoan": "fuāmoa",
+    "english": "egg",
+    "chapter": 19,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0207"
+  },
+  {
+    "samoan": "tamāloa",
+    "english": "man, married man",
+    "chapter": 19,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0208"
+  },
+  {
+    "samoan": "toeaʻina",
+    "english": "old man",
+    "chapter": 19,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0209"
+  },
+  {
+    "samoan": "sua",
+    "english": "uproot, root up",
+    "chapter": 19,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0210"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word: \"with\" before a companion, \"and\" between two doers; where the verb has a plural form to show, its number tells you which",
+    "chapter": 20,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0211"
+  },
+  {
+    "samoan": "vaʻa",
+    "english": "boat, canoe",
+    "chapter": 20,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0212"
+  },
+  {
+    "samoan": "ili",
+    "english": "fan",
+    "chapter": 20,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0213"
+  },
+  {
+    "samoan": "paʻepaʻe",
+    "english": "white",
+    "chapter": 20,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0214"
+  },
+  {
+    "samoan": "mamao",
+    "english": "far",
+    "chapter": 20,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0215"
+  },
+  {
+    "samoan": "vaiaso",
+    "english": "week",
+    "chapter": 20,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0216"
+  },
+  {
+    "samoan": "taʻu",
+    "english": "tell",
+    "chapter": 20,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0217"
+  },
+  {
+    "samoan": "ʻavea",
+    "english": "become",
+    "chapter": 20,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0218"
+  },
+  {
+    "samoan": "faʻaipoipo",
+    "english": "marry",
+    "chapter": 21,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0219"
+  },
+  {
+    "samoan": "moe",
+    "english": "sleep (said of one person)",
+    "chapter": 21,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0220"
+  },
+  {
+    "samoan": "ato",
+    "english": "basket",
+    "chapter": 21,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0221"
+  },
+  {
+    "samoan": "fala",
+    "english": "pandanus, mat",
+    "chapter": 21,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0222"
+  },
+  {
+    "samoan": "lau",
+    "english": "leaf",
+    "chapter": 21,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0223"
+  },
+  {
+    "samoan": "ofu",
+    "english": "dress",
+    "chapter": 21,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0224"
+  },
+  {
+    "samoan": "tausi",
+    "english": "take care of",
+    "chapter": 21,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0225"
+  },
+  {
+    "samoan": "atoa",
+    "english": "complete (to recognize only)",
+    "chapter": 21,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0226"
+  },
+  {
+    "samoan": "e",
+    "english": "the general particle, here linking a number to the thing it counts",
+    "chapter": 22,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0227"
+  },
+  {
+    "samoan": "toʻa",
+    "english": "the counting prefix for people: usually put in front of a number when what you count is human beings",
+    "chapter": 22,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0228"
+  },
+  {
+    "samoan": "lona",
+    "english": "placed after a noun before a number, it names a place in an order (the second, the third)",
+    "chapter": 22,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0229"
+  },
+  {
+    "samoan": "uluaʻi",
+    "english": "first, placed in front of the noun (the same meaning as *muamua*)",
+    "chapter": 22,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0230"
+  },
+  {
+    "samoan": "tasi",
+    "english": "one",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0231"
+  },
+  {
+    "samoan": "lua",
+    "english": "two",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0232"
+  },
+  {
+    "samoan": "tolu",
+    "english": "three",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0233"
+  },
+  {
+    "samoan": "fā",
+    "english": "four",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0234"
+  },
+  {
+    "samoan": "ono",
+    "english": "six",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0235"
+  },
+  {
+    "samoan": "fitu",
+    "english": "seven",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0236"
+  },
+  {
+    "samoan": "valu",
+    "english": "eight",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0237"
+  },
+  {
+    "samoan": "iva",
+    "english": "nine",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0238"
+  },
+  {
+    "samoan": "sefulu",
+    "english": "ten",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0239"
+  },
+  {
+    "samoan": "muamua",
+    "english": "first",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0240"
+  },
+  {
+    "samoan": "mulimuli",
+    "english": "last",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0241"
+  },
+  {
+    "samoan": "itula",
+    "english": "hour",
+    "chapter": 22,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0242"
+  },
+  {
+    "samoan": "ʻaua",
+    "english": "the do-not verb: forbids an action, \"don't\", \"should not\"",
+    "chapter": 24,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0243"
+  },
+  {
+    "samoan": "sōia",
+    "english": "the do-not verb for stopping: \"stop\" what is already under way",
+    "chapter": 24,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0244"
+  },
+  {
+    "samoan": "faitala",
+    "english": "gossip",
+    "chapter": 24,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0245"
+  },
+  {
+    "samoan": "faʻasāunoa",
+    "english": "torture, be cruel to",
+    "chapter": 24,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0246"
+  },
+  {
+    "samoan": "taumafai",
+    "english": "try",
+    "chapter": 24,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0247"
+  },
+  {
+    "samoan": "filemu",
+    "english": "quiet, calm",
+    "chapter": 24,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0248"
+  },
+  {
+    "samoan": "ola",
+    "english": "life; live",
+    "chapter": 24,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0249"
+  },
+  {
+    "samoan": "mea ola",
+    "english": "animals, living things",
+    "chapter": 24,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0250"
+  },
+  {
+    "samoan": "pisupo",
+    "english": "corned beef",
+    "chapter": 24,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0251"
+  },
+  {
+    "samoan": "tei",
+    "english": "little sister, small sibling",
+    "chapter": 24,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0252"
+  },
+  {
+    "samoan": "mo",
+    "english": "the for-word: says who something is for, and how long something lasts",
+    "chapter": 25,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0253"
+  },
+  {
+    "samoan": "saʻu, soʻu",
+    "english": "a ... of mine (*a*-word form, *o*-word form), for one thing of no particular identity",
+    "chapter": 25,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0254"
+  },
+  {
+    "samoan": "aʻu, oʻu",
+    "english": "my (*a*-word form, *o*-word form), for more than one particular thing",
+    "chapter": 25,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0255"
+  },
+  {
+    "samoan": "ni aʻu, ni oʻu",
+    "english": "some ... of mine (*a*-word form, *o*-word form), for more than one of no particular identity",
+    "chapter": 25,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0256"
+  },
+  {
+    "samoan": "atunuʻu",
+    "english": "country",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0257"
+  },
+  {
+    "samoan": "lanu",
+    "english": "colour",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0258"
+  },
+  {
+    "samoan": "maʻamusa",
+    "english": "lover",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0259"
+  },
+  {
+    "samoan": "paopao",
+    "english": "canoe",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0260"
+  },
+  {
+    "samoan": "pele",
+    "english": "darling",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0261"
+  },
+  {
+    "samoan": "sipuni",
+    "english": "spoon",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0262"
+  },
+  {
+    "samoan": "tao",
+    "english": "spear",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0263"
+  },
+  {
+    "samoan": "āvā",
+    "english": "wife",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0264"
+  },
+  {
+    "samoan": "ʻava",
+    "english": "beard",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0265"
+  },
+  {
+    "samoan": "ʻie",
+    "english": "kilt",
+    "chapter": 25,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0266"
+  },
+  {
+    "samoan": "totonu",
+    "english": "inside",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0267"
+  },
+  {
+    "samoan": "tua",
+    "english": "back, behind",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0268"
+  },
+  {
+    "samoan": "luma",
+    "english": "front",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0269"
+  },
+  {
+    "samoan": "luga",
+    "english": "top, above, on",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0270"
+  },
+  {
+    "samoan": "lalo",
+    "english": "underneath, below, down",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0271"
+  },
+  {
+    "samoan": "fafo",
+    "english": "outside",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0272"
+  },
+  {
+    "samoan": "tafatafa",
+    "english": "the side of, beside",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0273"
+  },
+  {
+    "samoan": "tala ane",
+    "english": "the space next to, alongside",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0274"
+  },
+  {
+    "samoan": "tala mai",
+    "english": "the side facing the speaker, this side",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0275"
+  },
+  {
+    "samoan": "tala atu",
+    "english": "the side away from the speaker, beyond",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0276"
+  },
+  {
+    "samoan": "mātū",
+    "english": "North",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0277"
+  },
+  {
+    "samoan": "saute",
+    "english": "South",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0278"
+  },
+  {
+    "samoan": "toga",
+    "english": "South",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0279"
+  },
+  {
+    "samoan": "sasaʻe",
+    "english": "East",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0280"
+  },
+  {
+    "samoan": "sisifo",
+    "english": "West",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0281"
+  },
+  {
+    "samoan": "tai",
+    "english": "the direction towards the sea; the sea, the seaside",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0282"
+  },
+  {
+    "samoan": "uta",
+    "english": "the direction inland; inland",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0283"
+  },
+  {
+    "samoan": "gātai",
+    "english": "the sea, the shore seen from land; seawards, a little towards the sea",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0284"
+  },
+  {
+    "samoan": "gāʻuta",
+    "english": "the land, the shore seen from the sea; further inland, a little way inland",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0285"
+  },
+  {
+    "samoan": "gāgaʻe",
+    "english": "eastward, a little to the east, at some distance",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0286"
+  },
+  {
+    "samoan": "gāgaifo",
+    "english": "westward, a little to the west",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0287"
+  },
+  {
+    "samoan": "gagafō",
+    "english": "further towards the west",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0288"
+  },
+  {
+    "samoan": "tuāfale",
+    "english": "the space behind the house",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0289"
+  },
+  {
+    "samoan": "lumāfale",
+    "english": "the front of the house",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0290"
+  },
+  {
+    "samoan": "tuāʻau",
+    "english": "the space behind the reef",
+    "chapter": 26,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0291"
+  },
+  {
+    "samoan": "e",
+    "english": "the agent marker: goes in front of the doer of an action done to something else",
+    "chapter": 27,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0292"
+  },
+  {
+    "samoan": "fafaga",
+    "english": "feed",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0293"
+  },
+  {
+    "samoan": "inu",
+    "english": "drink",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0294"
+  },
+  {
+    "samoan": "saisai",
+    "english": "tie, tie up",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0295"
+  },
+  {
+    "samoan": "tatala",
+    "english": "open",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0296"
+  },
+  {
+    "samoan": "masina",
+    "english": "month",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0297"
+  },
+  {
+    "samoan": "mata",
+    "english": "eye",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0298"
+  },
+  {
+    "samoan": "moa",
+    "english": "hen, chicken, rooster",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0299"
+  },
+  {
+    "samoan": "peʻa",
+    "english": "flying fox",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0300"
+  },
+  {
+    "samoan": "popo",
+    "english": "copra",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0301"
+  },
+  {
+    "samoan": "pusa",
+    "english": "box",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0302"
+  },
+  {
+    "samoan": "susu",
+    "english": "milk; suck",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0303"
+  },
+  {
+    "samoan": "talo",
+    "english": "taro",
+    "chapter": 27,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0304"
+  },
+  {
+    "samoan": "faʻa-",
+    "english": "the maker-prefix: stands in front of a noun or a verb and builds a new word out of it",
+    "chapter": 28,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0305"
+  },
+  {
+    "samoan": "aogā",
+    "english": "use, useful",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0306"
+  },
+  {
+    "samoan": "faʻailoa",
+    "english": "show, make known",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0307"
+  },
+  {
+    "samoan": "goto",
+    "english": "sink, set",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0308"
+  },
+  {
+    "samoan": "iloa",
+    "english": "know, see, notice",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0309"
+  },
+  {
+    "samoan": "tatalo",
+    "english": "pray",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0310"
+  },
+  {
+    "samoan": "tatau",
+    "english": "fit, proper",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0311"
+  },
+  {
+    "samoan": "tonu",
+    "english": "right, correct",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0312"
+  },
+  {
+    "samoan": "tū",
+    "english": "stand",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0313"
+  },
+  {
+    "samoan": "lotu",
+    "english": "religion",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0314"
+  },
+  {
+    "samoan": "mauga",
+    "english": "mountain",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0315"
+  },
+  {
+    "samoan": "māsima",
+    "english": "salt",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0316"
+  },
+  {
+    "samoan": "pata",
+    "english": "butter",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0317"
+  },
+  {
+    "samoan": "suka",
+    "english": "sugar",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0318"
+  },
+  {
+    "samoan": "tulafono",
+    "english": "law",
+    "chapter": 28,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0319"
+  },
+  {
+    "samoan": "mai",
+    "english": "the direction word for toward the speaker",
+    "chapter": 29,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0320"
+  },
+  {
+    "samoan": "atu",
+    "english": "the direction word for away from the speaker, usually toward the person spoken to",
+    "chapter": 29,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0321"
+  },
+  {
+    "samoan": "ane",
+    "english": "the direction word for along, passing the speaker by",
+    "chapter": 29,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0322"
+  },
+  {
+    "samoan": "aʻe",
+    "english": "the direction word for up",
+    "chapter": 29,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0323"
+  },
+  {
+    "samoan": "ifo",
+    "english": "the direction word for down",
+    "chapter": 29,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0324"
+  },
+  {
+    "samoan": "ʻese",
+    "english": "the direction word for away from a point",
+    "chapter": 29,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0325"
+  },
+  {
+    "samoan": "ita",
+    "english": "angry, be angry",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0326"
+  },
+  {
+    "samoan": "osofai",
+    "english": "attack",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0327"
+  },
+  {
+    "samoan": "popole",
+    "english": "worry",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0328"
+  },
+  {
+    "samoan": "sasao",
+    "english": "blaze, burn fiercely",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0329"
+  },
+  {
+    "samoan": "tāʻoto",
+    "english": "lie (down)",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0330"
+  },
+  {
+    "samoan": "afi",
+    "english": "fire",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0331"
+  },
+  {
+    "samoan": "faʻamalu",
+    "english": "umbrella",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0332"
+  },
+  {
+    "samoan": "leo",
+    "english": "voice",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0333"
+  },
+  {
+    "samoan": "solosolo",
+    "english": "handkerchief",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0334"
+  },
+  {
+    "samoan": "tuagane",
+    "english": "brother (of a woman)",
+    "chapter": 29,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0335"
+  },
+  {
+    "samoan": "ona",
+    "english": "the that-word: the only joining word that opens a complement clause, and the clause after it never carries a tense particle",
+    "chapter": 30,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0336"
+  },
+  {
+    "samoan": "tatau",
+    "english": "the obligation word: necessary, must. Met earlier as \"fit, proper\"; here it takes a complement clause after *ona*",
+    "chapter": 30,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0337"
+  },
+  {
+    "samoan": "sā",
+    "english": "the word for forbidden, must not. Spelled like the past particle, and told apart by position, since this *sā* stands in the predicate slot with a tense particle of its own in front",
+    "chapter": 30,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0338"
+  },
+  {
+    "samoan": "mafai",
+    "english": "can, able",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0339"
+  },
+  {
+    "samoan": "taga",
+    "english": "allowed, may",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0340"
+  },
+  {
+    "samoan": "faʻasā",
+    "english": "forbid",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0341"
+  },
+  {
+    "samoan": "faʻataga",
+    "english": "allow",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0342"
+  },
+  {
+    "samoan": "faitalia",
+    "english": "do as one pleases",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0343"
+  },
+  {
+    "samoan": "lavā",
+    "english": "be able (mostly as *lē lavā*, cannot)",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0344"
+  },
+  {
+    "samoan": "ulaula",
+    "english": "smoke",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0345"
+  },
+  {
+    "samoan": "ʻava",
+    "english": "kava, and in *ʻava malosi* alcohol",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0346"
+  },
+  {
+    "samoan": "pologa",
+    "english": "slave",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0347"
+  },
+  {
+    "samoan": "uso",
+    "english": "sibling: a man's brother, a woman's sister",
+    "chapter": 30,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0348"
+  },
+  {
+    "samoan": "atu",
+    "english": "the direction word, met earlier for away from the speaker; set on a quality word it carries the comparative degree instead",
+    "chapter": 31,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0349"
+  },
+  {
+    "samoan": "i lo",
+    "english": "the than-word: it introduces what a thing is compared with, and its phrase comes last",
+    "chapter": 31,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0350"
+  },
+  {
+    "samoan": "sili",
+    "english": "better, best, more, most: it takes a complement clause after *ona* and raises that clause's degree, to the top on its own and to a comparison when *atu* and *i lo* follow",
+    "chapter": 31,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0351"
+  },
+  {
+    "samoan": "pei",
+    "english": "like, as if: it heads a clause of comparison and takes a clause or a noun phrase after it in this chapter's sentences",
+    "chapter": 31,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0352"
+  },
+  {
+    "samoan": "tusa",
+    "english": "equal, the same, in accordance with: it heads a clause of comparison and takes *ma* before what is compared",
+    "chapter": 31,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0353"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word, met earlier; after *tusa* it introduces the thing the first half agrees with",
+    "chapter": 31,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0354"
+  },
+  {
+    "samoan": "moni",
+    "english": "true",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0355"
+  },
+  {
+    "samoan": "aʻau",
+    "english": "reef",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0356"
+  },
+  {
+    "samoan": "faitotoʻa",
+    "english": "door",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0357"
+  },
+  {
+    "samoan": "finagalo",
+    "english": "wish (a polite word: used of the wish of God, a chief, a stranger or anyone of higher rank, never of your own)",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0358"
+  },
+  {
+    "samoan": "isu",
+    "english": "nose",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0359"
+  },
+  {
+    "samoan": "koko",
+    "english": "cocoa",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0360"
+  },
+  {
+    "samoan": "maile",
+    "english": "dog",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0361"
+  },
+  {
+    "samoan": "manulele",
+    "english": "bird",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0362"
+  },
+  {
+    "samoan": "ofaga",
+    "english": "nest",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0363"
+  },
+  {
+    "samoan": "saienitisi",
+    "english": "scientist",
+    "chapter": 31,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0364"
+  },
+  {
+    "samoan": "=a",
+    "english": "a long-form ending: joins to the short form, and is the everyday choice",
+    "chapter": 32,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0365"
+  },
+  {
+    "samoan": "=ina",
+    "english": "a long-form ending: the same job, preferred in formal speech and writing",
+    "chapter": 32,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0366"
+  },
+  {
+    "samoan": "=ia",
+    "english": "a long-form ending some speakers use, usually with a consonant in front of it",
+    "chapter": 32,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0367"
+  },
+  {
+    "samoan": "=na",
+    "english": "a long-form ending, uncommon: recognise it, and build with *=a* or *=ina*",
+    "chapter": 32,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0368"
+  },
+  {
+    "samoan": "ʻaua le",
+    "english": "forbids an action, and takes the long form of the verb after it",
+    "chapter": 32,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0369"
+  },
+  {
+    "samoan": "faitau",
+    "english": "count, read",
+    "chapter": 32,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0370"
+  },
+  {
+    "samoan": "fau",
+    "english": "build",
+    "chapter": 32,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0371"
+  },
+  {
+    "samoan": "faʻatau",
+    "english": "sell, buy",
+    "chapter": 32,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0372"
+  },
+  {
+    "samoan": "nonoa",
+    "english": "tie up",
+    "chapter": 32,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0373"
+  },
+  {
+    "samoan": "faamalama",
+    "english": "window",
+    "chapter": 32,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0374"
+  },
+  {
+    "samoan": "ie",
+    "english": "cloth",
+    "chapter": 32,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0375"
+  },
+  {
+    "samoan": "totoga",
+    "english": "internal organs",
+    "chapter": 32,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0376"
+  },
+  {
+    "samoan": "vaega",
+    "english": "section, part",
+    "chapter": 32,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0377"
+  },
+  {
+    "samoan": "fai",
+    "english": "the say-verb, met earlier for do and make: the person named after it is the speaker, and what was said follows as a sentence of its own",
+    "chapter": 33,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0378"
+  },
+  {
+    "samoan": "ʻia",
+    "english": "the mood particle that opens a reported command, standing where a tense particle would otherwise stand",
+    "chapter": 33,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0379"
+  },
+  {
+    "samoan": "pē",
+    "english": "it opens a reported question; *po*, met earlier, is its other shape",
+    "chapter": 33,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0380"
+  },
+  {
+    "samoan": "sasae",
+    "english": "tear",
+    "chapter": 33,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0381"
+  },
+  {
+    "samoan": "tā",
+    "english": "beat, strike, play",
+    "chapter": 33,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0382"
+  },
+  {
+    "samoan": "ʻavatu",
+    "english": "give (away from the speaker)",
+    "chapter": 33,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0383"
+  },
+  {
+    "samoan": "atalii",
+    "english": "son",
+    "chapter": 33,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0384"
+  },
+  {
+    "samoan": "faatonu",
+    "english": "order, instruct: a verb here, and the one who gives the order takes the agent marker",
+    "chapter": 33,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0385"
+  },
+  {
+    "samoan": "fusi",
+    "english": "belt",
+    "chapter": 33,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0386"
+  },
+  {
+    "samoan": "vaalele",
+    "english": "airplane",
+    "chapter": 33,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0387"
+  },
+  {
+    "samoan": "ʻo",
+    "english": "the presenting particle, met earlier: at the head of a sentence it lifts a noun phrase out of its ordinary slot and holds it up",
+    "chapter": 34,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0388"
+  },
+  {
+    "samoan": "ai",
+    "english": "the pointing-back word, met earlier: it answers a setting put first, from inside the verb phrase",
+    "chapter": 34,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0389"
+  },
+  {
+    "samoan": "naʻo",
+    "english": "only: it goes in front of the article, and the phrase it heads takes no *ʻo* and no *i* at the front of a sentence",
+    "chapter": 34,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0390"
+  },
+  {
+    "samoan": "soʻo se",
+    "english": "any: it goes in front of the noun, and behaves the same bare way at the front of a sentence",
+    "chapter": 34,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0391"
+  },
+  {
+    "samoan": "lea, ia",
+    "english": "the demonstrative that can point back to a thing acted on put first, *lea* for one and *ia* for more than one",
+    "chapter": 34,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0392"
+  },
+  {
+    "samoan": "tapē",
+    "english": "kill",
+    "chapter": 34,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0393"
+  },
+  {
+    "samoan": "lagona",
+    "english": "hear, feel",
+    "chapter": 34,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0394"
+  },
+  {
+    "samoan": "ʻuma",
+    "english": "be finished",
+    "chapter": 34,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0395"
+  },
+  {
+    "samoan": "leaga",
+    "english": "bad",
+    "chapter": 34,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0396"
+  },
+  {
+    "samoan": "falaoa",
+    "english": "bread",
+    "chapter": 34,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0397"
+  },
+  {
+    "samoan": "faleoo",
+    "english": "a small house",
+    "chapter": 34,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0398"
+  },
+  {
+    "samoan": "faʻatoʻaga",
+    "english": "plantation",
+    "chapter": 34,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0399"
+  },
+  {
+    "samoan": "le",
+    "english": "the article, met earlier: standing in front of a verb it heads a le-phrase and packs the event into a thing",
+    "chapter": 35,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0400"
+  },
+  {
+    "samoan": "lē",
+    "english": "the not-word, met earlier: inside a le-phrase it stands between the article and the verb",
+    "chapter": 35,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0401"
+  },
+  {
+    "samoan": "ʻaua",
+    "english": "the do-not verb for an action to be forbidden, met earlier: it can take a le-phrase in place of a person and a verb",
+    "chapter": 35,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0402"
+  },
+  {
+    "samoan": "sōia",
+    "english": "the do-not verb for stopping what is under way, met earlier: it takes a le-phrase the same way",
+    "chapter": 35,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0403"
+  },
+  {
+    "samoan": "manatu",
+    "english": "think; feel lonely",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0404"
+  },
+  {
+    "samoan": "maumau",
+    "english": "waste",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0405"
+  },
+  {
+    "samoan": "lavea",
+    "english": "be hurt, be wounded",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0406"
+  },
+  {
+    "samoan": "pāʻū",
+    "english": "fall",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0407"
+  },
+  {
+    "samoan": "taatia",
+    "english": "lie down",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0408"
+  },
+  {
+    "samoan": "vaivai",
+    "english": "be weak, be tired",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0409"
+  },
+  {
+    "samoan": "velo",
+    "english": "hurl a spear (at someone)",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0410"
+  },
+  {
+    "samoan": "aoga",
+    "english": "school",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0411"
+  },
+  {
+    "samoan": "manava",
+    "english": "stomach",
+    "chapter": 35,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0412"
+  },
+  {
+    "samoan": "ʻae",
+    "english": "the but-word: it opens the second clause and sets it against the first",
+    "chapter": 36,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0413"
+  },
+  {
+    "samoan": "ʻa",
+    "english": "the partner of the but-word, which combines with the happening-now particle",
+    "chapter": 36,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0414"
+  },
+  {
+    "samoan": "ʻaʻo",
+    "english": "in this chapter, *ʻa* and the short *ʻo* together: while, whereas; it opens either clause",
+    "chapter": 36,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0415"
+  },
+  {
+    "samoan": "ʻae leʻi",
+    "english": "the but-word with the not-yet word: before",
+    "chapter": 36,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0416"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word, met earlier: between two clauses it joins them and is read \"and\"",
+    "chapter": 36,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0417"
+  },
+  {
+    "samoan": "leʻi",
+    "english": "the not-yet word, met earlier: after *ʻaʻo* or *ʻae* it builds the before-pattern",
+    "chapter": 36,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0418"
+  },
+  {
+    "samoan": "te",
+    "english": "the general particle in its after-a-pronoun shape, met earlier: it stands between a preverbal pronoun and *leʻi*",
+    "chapter": 36,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0419"
+  },
+  {
+    "samoan": "ala",
+    "english": "be awake, wake up",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0420"
+  },
+  {
+    "samoan": "lolo",
+    "english": "overflow",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0421"
+  },
+  {
+    "samoan": "mafaufau",
+    "english": "think, consider",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0422"
+  },
+  {
+    "samoan": "manatunatu",
+    "english": "reflect, think about",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0423"
+  },
+  {
+    "samoan": "sele",
+    "english": "shave, cut",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0424"
+  },
+  {
+    "samoan": "taunuʻu",
+    "english": "arrive, reach",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0425"
+  },
+  {
+    "samoan": "tuʻu",
+    "english": "leave, put, place",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0426"
+  },
+  {
+    "samoan": "usu",
+    "english": "rise, stand up",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0427"
+  },
+  {
+    "samoan": "ana",
+    "english": "cave",
+    "chapter": 36,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0428"
+  },
+  {
+    "samoan": "atili",
+    "english": "increase",
+    "chapter": 36,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0429"
+  },
+  {
+    "samoan": "ona",
+    "english": "the opening word of the then-construction: it stands at the head of the clause",
+    "chapter": 37,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0430"
+  },
+  {
+    "samoan": "lea",
+    "english": "the closing word of the then-construction: it stands after the verb phrase",
+    "chapter": 37,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0431"
+  },
+  {
+    "samoan": "loa",
+    "english": "the then-word: it stands after the verb and marks its event as the one following on",
+    "chapter": 37,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0432"
+  },
+  {
+    "samoan": "ai",
+    "english": "the pointing-back word, met earlier: inside the then-construction it reaches back to everything said before it",
+    "chapter": 37,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0433"
+  },
+  {
+    "samoan": "lilo",
+    "english": "hide, be hidden",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0434"
+  },
+  {
+    "samoan": "sauni",
+    "english": "prepare, get ready",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0435"
+  },
+  {
+    "samoan": "taaalo",
+    "english": "play (said of more than one)",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0436"
+  },
+  {
+    "samoan": "apa",
+    "english": "tin (in *le fale=apa*, a house with a tin roof)",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0437"
+  },
+  {
+    "samoan": "eleele",
+    "english": "earth",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0438"
+  },
+  {
+    "samoan": "lala",
+    "english": "branch",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0439"
+  },
+  {
+    "samoan": "malaga",
+    "english": "journey, travel party",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0440"
+  },
+  {
+    "samoan": "sami",
+    "english": "sea",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0441"
+  },
+  {
+    "samoan": "sauʻai",
+    "english": "ogre",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0442"
+  },
+  {
+    "samoan": "vaitafe",
+    "english": "river",
+    "chapter": 37,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0443"
+  },
+  {
+    "samoan": "ʻauā",
+    "english": "the plain because-word: it stands between the two clauses and normally does not open the sentence",
+    "chapter": 38,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0444"
+  },
+  {
+    "samoan": "leaga",
+    "english": "the because-word for a bad or unwelcome reason, met earlier as the word for \"bad\"",
+    "chapter": 38,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0445"
+  },
+  {
+    "samoan": "ʻona",
+    "english": "the because-word that stands between the clauses or opens the sentence",
+    "chapter": 38,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0446"
+  },
+  {
+    "samoan": "ʻona ʻo",
+    "english": "*ʻona* with the presenting particle, standing in front of a noun phrase instead of a clause",
+    "chapter": 38,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0447"
+  },
+  {
+    "samoan": "e, te",
+    "english": "the general particle, met earlier: at the head of a clause following the main clause it marks purpose, and it takes the shape *te* after a preverbal pronoun",
+    "chapter": 38,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0448"
+  },
+  {
+    "samoan": "neʻi",
+    "english": "the warning particle, met earlier: at the head of a purpose clause it makes the purpose negative",
+    "chapter": 38,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0449"
+  },
+  {
+    "samoan": "ʻia",
+    "english": "the mood particle, met earlier: it can head a purpose clause in place of *e*",
+    "chapter": 38,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0450"
+  },
+  {
+    "samoan": "ʻaiseā",
+    "english": "why: in the full question it opens its clause, and *ai* in the verb phrase points back to it",
+    "chapter": 38,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0451"
+  },
+  {
+    "samoan": "ata",
+    "english": "laugh",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0452"
+  },
+  {
+    "samoan": "galo",
+    "english": "forget",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0453"
+  },
+  {
+    "samoan": "lēiloa",
+    "english": "lose, be lost",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0454"
+  },
+  {
+    "samoan": "malamalama",
+    "english": "understand; daylight",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0455"
+  },
+  {
+    "samoan": "malulu",
+    "english": "cool",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0456"
+  },
+  {
+    "samoan": "punou",
+    "english": "bend down",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0457"
+  },
+  {
+    "samoan": "sii",
+    "english": "move",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0458"
+  },
+  {
+    "samoan": "tilotilo",
+    "english": "watch, look",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0459"
+  },
+  {
+    "samoan": "moli",
+    "english": "soap (in *fasi=moli*); also the orange",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0460"
+  },
+  {
+    "samoan": "suga",
+    "english": "the word you call out to a girl",
+    "chapter": 38,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0461"
+  },
+  {
+    "samoan": "ʻāfai",
+    "english": "the if-word: it opens a condition clause, and when the clause behind it has a verb in it, that verb carries a tense particle of its own",
+    "chapter": 39,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0462"
+  },
+  {
+    "samoan": "ʻā",
+    "english": "the short form of the future particle, met earlier: at the head of the first of two clauses, with no joining word in front of it, it makes that clause the condition for the second",
+    "chapter": 39,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0463"
+  },
+  {
+    "samoan": "pē",
+    "english": "the question opener, met earlier: it stands in front of a condition clause that follows the main clause",
+    "chapter": 39,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0464"
+  },
+  {
+    "samoan": "afa",
+    "english": "storm",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0465"
+  },
+  {
+    "samoan": "apu",
+    "english": "apple",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0466"
+  },
+  {
+    "samoan": "loto",
+    "english": "will; heart",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0467"
+  },
+  {
+    "samoan": "matafaga",
+    "english": "beach",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0468"
+  },
+  {
+    "samoan": "mālaia",
+    "english": "disaster",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0469"
+  },
+  {
+    "samoan": "poloaʻiga",
+    "english": "instruction",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0470"
+  },
+  {
+    "samoan": "silou",
+    "english": "slow",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0471"
+  },
+  {
+    "samoan": "solo",
+    "english": "towel",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0472"
+  },
+  {
+    "samoan": "uosi",
+    "english": "waltz",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0473"
+  },
+  {
+    "samoan": "usitaʻi",
+    "english": "obey",
+    "chapter": 39,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0474"
+  },
+  {
+    "samoan": "=gatā",
+    "english": "the ending that builds a difficult-word out of the verb it goes on; it is never a word standing on its own",
+    "chapter": 40,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0475"
+  },
+  {
+    "samoan": "=gōfie",
+    "english": "the ending that builds an easy-word the same way",
+    "chapter": 40,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0476"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word, met earlier: inside one noun phrase it joins a describing verb to a le-phrase behind it, and reads as \"and\"",
+    "chapter": 40,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0477"
+  },
+  {
+    "samoan": "faigatā",
+    "english": "difficult",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0478"
+  },
+  {
+    "samoan": "faigōfie",
+    "english": "easy",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0479"
+  },
+  {
+    "samoan": "faʻalogo",
+    "english": "listen, hear",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0480"
+  },
+  {
+    "samoan": "faʻalogogatā",
+    "english": "disobedient",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0481"
+  },
+  {
+    "samoan": "faʻalogogōfie",
+    "english": "obedient",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0482"
+  },
+  {
+    "samoan": "mau",
+    "english": "have plenty",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0483"
+  },
+  {
+    "samoan": "maugatā",
+    "english": "mean, tight-fisted",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0484"
+  },
+  {
+    "samoan": "maugōfie",
+    "english": "generous",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0485"
+  },
+  {
+    "samoan": "taugatā",
+    "english": "expensive",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0486"
+  },
+  {
+    "samoan": "taugōfie",
+    "english": "cheap",
+    "chapter": 40,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0487"
+  },
+  {
+    "samoan": "a, o",
+    "english": "the two belonging words, required on the owner of a belonging-sentence for every owner",
+    "chapter": 42,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0488"
+  },
+  {
+    "samoan": "aʻu, oʻu",
+    "english": "the belonging forms for \"mine\": *aʻu* with an *a*-word, *oʻu* with an *o*-word",
+    "chapter": 42,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0489"
+  },
+  {
+    "samoan": "ana, ona",
+    "english": "the belonging forms for \"his\" or \"hers\", and the forms that answer a whose-question",
+    "chapter": 42,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0490"
+  },
+  {
+    "samoan": "a mātou, o mātou",
+    "english": "the belonging forms for \"ours\" (we, but not you); the belonging word and the pronoun stay two words, as they do in every pair and group row of the table",
+    "chapter": 42,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0491"
+  },
+  {
+    "samoan": "ʻO ai...?, Po ʻo ai...?",
+    "english": "the whose-opener, the who-question carried forward; *po* is the question marker met earlier in this book and adds no meaning",
+    "chapter": 42,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0492"
+  },
+  {
+    "samoan": "tafao",
+    "english": "wander about",
+    "chapter": 42,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0493"
+  },
+  {
+    "samoan": "eleelea",
+    "english": "dirty",
+    "chapter": 42,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0494"
+  },
+  {
+    "samoan": "mamafa",
+    "english": "heavy",
+    "chapter": 42,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0495"
+  },
+  {
+    "samoan": "maualuga",
+    "english": "high",
+    "chapter": 42,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0496"
+  },
+  {
+    "samoan": "paʻeʻe",
+    "english": "lean",
+    "chapter": 42,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0497"
+  },
+  {
+    "samoan": "tele",
+    "english": "big, many",
+    "chapter": 42,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0498"
+  },
+  {
+    "samoan": "nifo",
+    "english": "tooth",
+    "chapter": 42,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0499"
+  },
+  {
+    "samoan": "uamea",
+    "english": "steel, iron",
+    "chapter": 42,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0500"
+  },
+  {
+    "samoan": "ē",
+    "english": "the one-who word: it stands in front of a describing clause where no noun is named, and means the one who or those who",
+    "chapter": 43,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0501"
+  },
+  {
+    "samoan": "lē",
+    "english": "the one-who word joined to the specific article, for one particular person",
+    "chapter": 43,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0502"
+  },
+  {
+    "samoan": "ai",
+    "english": "the pointing-back word, met earlier: inside a describing clause it holds the spot of a place, a time, or a cause, and is heard for the thing an action was done with too",
+    "chapter": 43,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0503"
+  },
+  {
+    "samoan": "aʻi",
+    "english": "the pointing-back word in the shape it takes for the thing an action was done with, a job no other shape has to itself",
+    "chapter": 43,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0504"
+  },
+  {
+    "samoan": "i ai",
+    "english": "the pointing-back word with the place word in front, the usual shape for where a movement or a wanting is aimed",
+    "chapter": 43,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0505"
+  },
+  {
+    "samoan": "fai=a",
+    "english": "the long form of *fai*, the shape the verb usually takes in a clause whose missing word is the doer of an action done to something else",
+    "chapter": 43,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0506"
+  },
+  {
+    "samoan": "manua",
+    "english": "be hurt",
+    "chapter": 43,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0507"
+  },
+  {
+    "samoan": "mauoloa",
+    "english": "rich",
+    "chapter": 43,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0508"
+  },
+  {
+    "samoan": "popolevale",
+    "english": "overanxious",
+    "chapter": 43,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0509"
+  },
+  {
+    "samoan": "taufi",
+    "english": "cover",
+    "chapter": 43,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0510"
+  },
+  {
+    "samoan": "fue",
+    "english": "liana",
+    "chapter": 43,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0511"
+  },
+  {
+    "samoan": "tamaoaiga",
+    "english": "wealth",
+    "chapter": 43,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0512"
+  },
+  {
+    "samoan": "talu",
+    "english": "the since-word: it stands at the head with a clause after it and says what the time is counted from",
+    "chapter": 44,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0513"
+  },
+  {
+    "samoan": "ona",
+    "english": "the that-word, met earlier: it opens the clause after *talu*, and that clause usually carries no tense particle",
+    "chapter": 44,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0514"
+  },
+  {
+    "samoan": "talu ai",
+    "english": "*talu* with the pointing-back word behind it: after a word for a stretch of time it gives \"last\" or \"later\"",
+    "chapter": 44,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0515"
+  },
+  {
+    "samoan": "ina ʻua",
+    "english": "the when-word: it opens a clause naming an event that came before the main event or happened with it",
+    "chapter": 44,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0516"
+  },
+  {
+    "samoan": "taʻi=",
+    "english": "it goes on the front of a number word and spreads that number out, so many to each",
+    "chapter": 44,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0517"
+  },
+  {
+    "samoan": "enaena",
+    "english": "brown",
+    "chapter": 44,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0518"
+  },
+  {
+    "samoan": "mafatia",
+    "english": "exhausted",
+    "chapter": 44,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0519"
+  },
+  {
+    "samoan": "malama",
+    "english": "break, of the morning",
+    "chapter": 44,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0520"
+  },
+  {
+    "samoan": "soʻo",
+    "english": "often",
+    "chapter": 44,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0521"
+  },
+  {
+    "samoan": "talatalanoa",
+    "english": "talk, chat",
+    "chapter": 44,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0522"
+  },
+  {
+    "samoan": "vivini",
+    "english": "crow, of a rooster",
+    "chapter": 44,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0523"
+  },
+  {
+    "samoan": "faiva",
+    "english": "fishing trip",
+    "chapter": 44,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0524"
+  },
+  {
+    "samoan": "pese",
+    "english": "song",
+    "chapter": 44,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0525"
+  },
+  {
+    "samoan": "a",
+    "english": "the belonging word, met earlier: inside a le-phrase it marks the one the event is about as the doer of something that took place",
+    "chapter": 45,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0526"
+  },
+  {
+    "samoan": "o",
+    "english": "the belonging word, met earlier: inside a le-phrase it marks a non-doer, or leaves the doing unsaid, and it is the word on what a transitive event happened to whenever that stands as a belonging phrase",
+    "chapter": 45,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0527"
+  },
+  {
+    "samoan": "e",
+    "english": "the agent marker, met earlier: it stays on the doer inside a le-phrase whenever the thing done to is marked with *o* and the doer is not that thing's owner",
+    "chapter": 45,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0528"
+  },
+  {
+    "samoan": "lē",
+    "english": "the not-word, met earlier: inside a le-phrase it forces *o*",
+    "chapter": 45,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0529"
+  },
+  {
+    "samoan": "fia",
+    "english": "the want-word, met earlier: inside a le-phrase it forces *o*",
+    "chapter": 45,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0530"
+  },
+  {
+    "samoan": "soʻo",
+    "english": "the often-word, met earlier: inside a le-phrase it forces *o*",
+    "chapter": 45,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0531"
+  },
+  {
+    "samoan": "tuli",
+    "english": "deaf",
+    "chapter": 45,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0532"
+  },
+  {
+    "samoan": "taliga",
+    "english": "ear",
+    "chapter": 45,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0533"
+  },
+  {
+    "samoan": "fagu",
+    "english": "bottle",
+    "chapter": 45,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0534"
+  },
+  {
+    "samoan": "namu",
+    "english": "mosquito",
+    "chapter": 45,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0535"
+  },
+  {
+    "samoan": "taʻamū",
+    "english": "taʻamū (a large edible tuber)",
+    "chapter": 45,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0536"
+  },
+  {
+    "samoan": "palagi",
+    "english": "European, white person",
+    "chapter": 45,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0537"
+  },
+  {
+    "samoan": "ituʻāiga",
+    "english": "kind, sort",
+    "chapter": 45,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0538"
+  },
+  {
+    "samoan": "kī",
+    "english": "key",
+    "chapter": 45,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0539"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word, met earlier: in front of a le-phrase it names the state the doer is in while acting",
+    "chapter": 46,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0540"
+  },
+  {
+    "samoan": "lelei",
+    "english": "a judging verb: good",
+    "chapter": 46,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0541"
+  },
+  {
+    "samoan": "sili",
+    "english": "a judging verb: better, the best",
+    "chapter": 46,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0542"
+  },
+  {
+    "samoan": "faigatā",
+    "english": "a judging verb: difficult",
+    "chapter": 46,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0543"
+  },
+  {
+    "samoan": "faigōfie",
+    "english": "a judging verb: easy",
+    "chapter": 46,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0544"
+  },
+  {
+    "samoan": "ʻese",
+    "english": "a judging verb: stresses that a quality is out of the ordinary",
+    "chapter": 46,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0545"
+  },
+  {
+    "samoan": "leai",
+    "english": "a judging verb: stresses that a state of affairs does not exist",
+    "chapter": 46,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0546"
+  },
+  {
+    "samoan": "ʻO",
+    "english": "the presenting particle, met earlier: in front of a le-phrase it makes an exclamation",
+    "chapter": 46,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0547"
+  },
+  {
+    "samoan": "faʻanoanoa",
+    "english": "sad",
+    "chapter": 46,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0548"
+  },
+  {
+    "samoan": "putaafa",
+    "english": "fat",
+    "chapter": 46,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0549"
+  },
+  {
+    "samoan": "taamilomilo",
+    "english": "circulate around",
+    "chapter": 46,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0550"
+  },
+  {
+    "samoan": "taua",
+    "english": "precious, important",
+    "chapter": 46,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0551"
+  },
+  {
+    "samoan": "mea=alofa",
+    "english": "gift (a thing of love)",
+    "chapter": 46,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0552"
+  },
+  {
+    "samoan": "pō",
+    "english": "night",
+    "chapter": 46,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0553"
+  },
+  {
+    "samoan": "taulealea",
+    "english": "young man",
+    "chapter": 46,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0554"
+  },
+  {
+    "samoan": "ula",
+    "english": "necklace",
+    "chapter": 46,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0555"
+  },
+  {
+    "samoan": "iā",
+    "english": "the place word before a person, met earlier: stands before a name that refers to a person or a people",
+    "chapter": 47,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0556"
+  },
+  {
+    "samoan": "i",
+    "english": "the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person",
+    "chapter": 47,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0557"
+  },
+  {
+    "samoan": "uō",
+    "english": "met earlier as a noun, friend; in the verb slot, be friends",
+    "chapter": 47,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0558"
+  },
+  {
+    "samoan": "lafu",
+    "english": "herd",
+    "chapter": 47,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0559"
+  },
+  {
+    "samoan": "momoli",
+    "english": "bring, deliver",
+    "chapter": 47,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0560"
+  },
+  {
+    "samoan": "onosaʻi",
+    "english": "be patient",
+    "chapter": 47,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0561"
+  },
+  {
+    "samoan": "loʻomatua",
+    "english": "old woman",
+    "chapter": 47,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0562"
+  },
+  {
+    "samoan": "tamaitiiti",
+    "english": "boy, child",
+    "chapter": 47,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0563"
+  },
+  {
+    "samoan": "teineitiiti",
+    "english": "girl",
+    "chapter": 47,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0564"
+  },
+  {
+    "samoan": "ʻolomatua",
+    "english": "old woman",
+    "chapter": 47,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0565"
+  },
+  {
+    "samoan": "ʻāiga",
+    "english": "family",
+    "chapter": 47,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0566"
+  },
+  {
+    "samoan": "ʻia",
+    "english": "the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ina ʻia*, in order to)",
+    "chapter": 48,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0567"
+  },
+  {
+    "samoan": "seʻi",
+    "english": "the wish-and-permission particle: asks permission about the speaker, makes a polite request to the listener, states a wish about someone else; less absolute than *ʻia*",
+    "chapter": 48,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0568"
+  },
+  {
+    "samoan": "seʻia",
+    "english": "the until particle: never takes a preverbal pronoun",
+    "chapter": 48,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0569"
+  },
+  {
+    "samoan": "neʻi",
+    "english": "the warning particle, met earlier: something that should not happen; its clause always depends on another",
+    "chapter": 48,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0570"
+  },
+  {
+    "samoan": "ʻia neʻi",
+    "english": "*ʻia* and *neʻi* used together, sometimes, after verbs of worry, fear and dislike",
+    "chapter": 48,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0571"
+  },
+  {
+    "samoan": "musu",
+    "english": "dislike",
+    "chapter": 48,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0572"
+  },
+  {
+    "samoan": "palapala",
+    "english": "dirty",
+    "chapter": 48,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0573"
+  },
+  {
+    "samoan": "tago",
+    "english": "touch",
+    "chapter": 48,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0574"
+  },
+  {
+    "samoan": "atigi=lima",
+    "english": "finger-nail",
+    "chapter": 48,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0575"
+  },
+  {
+    "samoan": "faifeau",
+    "english": "pastor",
+    "chapter": 48,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0576"
+  },
+  {
+    "samoan": "pisa",
+    "english": "noise; in the verb slot, make a noise",
+    "chapter": 48,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0577"
+  },
+  {
+    "samoan": "ʻana",
+    "english": "the second if-word: opens a condition that did not come true; the condition usually has no tense particle, and *pē* stands in front of *ʻana* when the clause follows the main clause",
+    "chapter": 49,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0578"
+  },
+  {
+    "samoan": "semanū",
+    "english": "probably: often opens the main clause after an *ʻana* clause",
+    "chapter": 49,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0579"
+  },
+  {
+    "samoan": "seʻiloga",
+    "english": "unless (also \"it only needs\"): as a condition clause, it stands after the main clause",
+    "chapter": 49,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0580"
+  },
+  {
+    "samoan": "ui",
+    "english": "granted: *e ui* with an *ina* clause, or with a noun phrase opened by *i* or *ʻo*, says although or in spite of",
+    "chapter": 49,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0581"
+  },
+  {
+    "samoan": "tīgā",
+    "english": "with an *ona* clause after it, says although, expressing a negative idea",
+    "chapter": 49,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0582"
+  },
+  {
+    "samoan": "tusa",
+    "english": "the same, met earlier: with a question clause after it, says even if, whether ... or, or whatever and wherever",
+    "chapter": 49,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0583"
+  },
+  {
+    "samoan": "lava",
+    "english": "indeed, a word of emphasis: stands right after *tusa* in the whether ... or kind and the whatever kind",
+    "chapter": 49,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0584"
+  },
+  {
+    "samoan": "foaʻi",
+    "english": "give",
+    "chapter": 49,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0585"
+  },
+  {
+    "samoan": "ole",
+    "english": "beg",
+    "chapter": 49,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0586"
+  },
+  {
+    "samoan": "poto",
+    "english": "intelligent, clever, know a great deal",
+    "chapter": 49,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0587"
+  },
+  {
+    "samoan": "tamoe",
+    "english": "run",
+    "chapter": 49,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0588"
+  },
+  {
+    "samoan": "tīgā",
+    "english": "painful, distressing",
+    "chapter": 49,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0589"
+  },
+  {
+    "samoan": "feau",
+    "english": "work, task, errand",
+    "chapter": 49,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0590"
+  },
+  {
+    "samoan": "fomai",
+    "english": "doctor",
+    "chapter": 49,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0591"
+  },
+  {
+    "samoan": "paʻa",
+    "english": "crab",
+    "chapter": 49,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0592"
+  },
+  {
+    "samoan": "=ga",
+    "english": "the ending that makes a noun of a verb: something that comes of the event, or the event itself as a whole",
+    "chapter": 50,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0593"
+  },
+  {
+    "samoan": "=a",
+    "english": "the ending that makes a describing verb of a noun: being affected by what the noun names",
+    "chapter": 50,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0594"
+  },
+  {
+    "samoan": "fe-",
+    "english": "the prefix that says the event happens more than once",
+    "chapter": 50,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0595"
+  },
+  {
+    "samoan": "taʻi-",
+    "english": "the prefix on a number that spreads it over each one",
+    "chapter": 50,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0596"
+  },
+  {
+    "samoan": "toʻa-",
+    "english": "the prefix on a number that counts human beings",
+    "chapter": 50,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0597"
+  },
+  {
+    "samoan": "ʻā-",
+    "english": "the prefix that makes a future time word",
+    "chapter": 50,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0598"
+  },
+  {
+    "samoan": "ana-",
+    "english": "the prefix that makes a past time word",
+    "chapter": 50,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0599"
+  },
+  {
+    "samoan": "fealofani",
+    "english": "love one another",
+    "chapter": 50,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0600"
+  },
+  {
+    "samoan": "fealuaʻi",
+    "english": "go quickly, hurry",
+    "chapter": 50,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0601"
+  },
+  {
+    "samoan": "folo",
+    "english": "swallow",
+    "chapter": 50,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0602"
+  },
+  {
+    "samoan": "ilo",
+    "english": "perceive, sort out",
+    "chapter": 50,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0603"
+  },
+  {
+    "samoan": "itiiti",
+    "english": "few, small",
+    "chapter": 50,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0604"
+  },
+  {
+    "samoan": "puʻupuʻu",
+    "english": "short",
+    "chapter": 50,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0605"
+  },
+  {
+    "samoan": "soli",
+    "english": "tread on",
+    "chapter": 50,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0606"
+  },
+  {
+    "samoan": "si",
+    "english": "the article for one particular thing, carrying the speaker's feeling for it",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0607"
+  },
+  {
+    "samoan": "sina",
+    "english": "the article for a small portion or piece of a thing, often carrying politeness",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0608"
+  },
+  {
+    "samoan": "nāi",
+    "english": "the plural article for particular ones, the plural of both *si* and *sina*",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0609"
+  },
+  {
+    "samoan": "ni nāi",
+    "english": "the plural article for ones that are not particular, the plural of *sina*",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0610"
+  },
+  {
+    "samoan": "ʻita",
+    "english": "I, me, when the speaker is emotionally involved: the form standing on its own",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0611"
+  },
+  {
+    "samoan": "taʻita",
+    "english": "the everyday-speech form of *ʻita*",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0612"
+  },
+  {
+    "samoan": "ta",
+    "english": "I, when the speaker is emotionally involved: the form in the middle slot",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0613"
+  },
+  {
+    "samoan": "lata, lota",
+    "english": "my (*a*-word form, *o*-word form), said with feeling, for one particular thing",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0614"
+  },
+  {
+    "samoan": "sata, sota",
+    "english": "a ... of mine (*a*-word form, *o*-word form), said with feeling, for one thing of no particular identity",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0615"
+  },
+  {
+    "samoan": "ata, ota",
+    "english": "my (*a*-word form, *o*-word form), said with feeling, for more than one particular thing",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0616"
+  },
+  {
+    "samoan": "ni ata, ni ota",
+    "english": "some ... of mine (*a*-word form, *o*-word form), said with feeling, for more than one of no particular identity",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0617"
+  },
+  {
+    "samoan": "sinaʻu, sinoʻu, sinata, sinota, sinau, sinou, sinana, sinona",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "list": "grammar",
+    "listName": "Grammar words",
+    "column": "What it does",
+    "id": "w0618"
+  },
+  {
+    "samoan": "afe",
+    "english": "lift up",
+    "chapter": 51,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0619"
+  },
+  {
+    "samoan": "amo",
+    "english": "carry, yoke",
+    "chapter": 51,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0620"
+  },
+  {
+    "samoan": "aʻa",
+    "english": "kick",
+    "chapter": 51,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0621"
+  },
+  {
+    "samoan": "fanua",
+    "english": "land, property",
+    "chapter": 51,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0622"
+  },
+  {
+    "samoan": "laulu",
+    "english": "hair",
+    "chapter": 51,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0623"
+  },
+  {
+    "samoan": "polo",
+    "english": "ball",
+    "chapter": 51,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0624"
+  },
+  {
+    "samoan": "sesē",
+    "english": "wrong",
+    "chapter": 51,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0625"
+  },
+  {
+    "samoan": "sileni",
+    "english": "shilling",
+    "chapter": 51,
+    "list": "vocabulary",
+    "listName": "Vocabulary",
+    "column": "Meaning",
+    "id": "w0626"
+  }
+]

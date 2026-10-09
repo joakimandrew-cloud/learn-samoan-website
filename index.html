@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-premium-variant="white-red">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn Samoan, free. A complete 51-chapter course with worked examples, exercises, quizzes and flip cards." />
+    <title>Learn Samoan</title>
+    <script>
+      // Single Page Apps for GitHub Pages: restore route after 404.html bounce.
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function (s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location));
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

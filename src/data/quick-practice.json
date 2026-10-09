@@ -1,0 +1,72 @@
+{
+  "2": [
+    {
+      "id": "ch2-qp-a",
+      "letter": "A",
+      "title": "Quick Practice A",
+      "instructions": "Put the person into the frame, using *alu* (go). Answers below the block.",
+      "type": "reveal",
+      "items": [
+        {
+          "id": "ch2-qp-a-1",
+          "n": 1,
+          "prompt": "they (more than two)",
+          "answer": "*Sā lātou alu.*"
+        },
+        {
+          "id": "ch2-qp-a-2",
+          "n": 2,
+          "prompt": "you two",
+          "answer": "*Sā ʻoulua alu.*"
+        },
+        {
+          "id": "ch2-qp-a-3",
+          "n": 3,
+          "prompt": "we, you and I",
+          "answer": "*Sā tātou alu.*"
+        },
+        {
+          "id": "ch2-qp-a-4",
+          "n": 4,
+          "prompt": "we, but not you",
+          "answer": "*Sā mātou alu.*"
+        }
+      ]
+    }
+  ],
+  "25": [
+    {
+      "id": "ch25-qp-a",
+      "letter": "A",
+      "title": "Quick Practice A",
+      "instructions": "Give the Samoan. Answers below the block.",
+      "type": "reveal",
+      "items": [
+        {
+          "id": "ch25-qp-a-1",
+          "n": 1,
+          "prompt": "my spoon",
+          "answer": "*laʻu sipuni*"
+        },
+        {
+          "id": "ch25-qp-a-2",
+          "n": 2,
+          "prompt": "my spoons",
+          "answer": "*aʻu sipuni*"
+        },
+        {
+          "id": "ch25-qp-a-3",
+          "n": 3,
+          "prompt": "my kilt",
+          "answer": "*loʻu ʻie*"
+        },
+        {
+          "id": "ch25-qp-a-4",
+          "n": 4,
+          "prompt": "my kilts",
+          "answer": "*oʻu ʻie*"
+        }
+      ]
+    }
+  ]
+}

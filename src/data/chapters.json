@@ -1,0 +1,988 @@
+[
+  {
+    "chapter": 1,
+    "title": "The Basic Sentence",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter introduces a three-part sentence pattern (the past particle, a preverbal pronoun, the verb) and shows you how to say what someone did and ask whether something happened. The sentence *Sā timu?* (\"Did it rain?\") is your first example of asking whether something happened.",
+    "sections": [
+      "The Pattern",
+      "Weather Sentences",
+      "Asking Questions",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā ʻou alu.",
+      "english": "I went. (Lit. \"Past I go.\")"
+    }
+  },
+  {
+    "chapter": 2,
+    "title": "Preverbal and Independent Pronouns",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "So far, two pronouns have filled the slot between the past particle and the verb: *ʻou* (I) and *ia* (he, she). This chapter completes the preverbal pronoun set, every person and three numbers, as in *Sā ʻoutou siva?* (\"Did you all dance?\"), and introduces the independent pronouns, a second set for the two jobs the preverbal forms cannot do.",
+    "sections": [
+      "The Pattern",
+      "Independent Pronouns",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā ʻou alu.",
+      "english": "I went."
+    }
+  },
+  {
+    "chapter": 3,
+    "title": "Describing Verbs",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter expands the past particle + pronoun + verb pattern by adding the verb phrase's two modifier slots, and shows that the words which describe an action are themselves verbs. A describing verb follows the action verb, as in *Sā ʻou foi fiafia* (\"I returned happily\"); the want word *fia* stands before it, as in *Sā ʻou fia alu* (\"I wanted to go\").",
+    "sections": [
+      "The Describing Verb",
+      "The Want Word *Fia*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā ʻou foi.",
+      "english": "I returned."
+    }
+  },
+  {
+    "chapter": 4,
+    "title": "The Tense Particles",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "Building on the past particle *sā*, this chapter completes the tense line by introducing the three remaining tense particles: the second past *na*, for a single finished event; the change particle *ʻua*, for a change that usually leaves a new state in place; and the future particle *ʻoleʻā*.",
+    "sections": [
+      "The Four Tense Particles",
+      "The Two Pasts",
+      "The Change Particle *ʻUa*",
+      "The Future Particle *ʻOleʻā*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā ʻou alu.",
+      "english": "I went."
+    }
+  },
+  {
+    "chapter": 5,
+    "title": "Commands",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter introduces the command: a bare verb with no tense particle in front of it, and shows you how to tell one person to do something.",
+    "sections": [
+      "The Command",
+      "Commands with a Describing Word",
+      "The Urging Words *Ia* and *ʻEa*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Nofo.",
+      "english": "Sit down."
+    }
+  },
+  {
+    "chapter": 6,
+    "title": "Articles and Plurals",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter introduces the article system, the words that stand in front of a noun to mark whether the speaker means one particular thing or just any thing, and whether one or many, and it shows you how to talk about a thing, the thing, and things.",
+    "sections": [
+      "Naming Things",
+      "The Specific Article *Le*",
+      "The Non-Specific Articles *Se* and *Ni*",
+      "One and Many: The Article Carries the Number",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": null
+  },
+  {
+    "chapter": 7,
+    "title": "The Naming Sentence",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter introduces the naming sentence, a second sentence type that sets two naming parts side by side with the presenting particle *ʻo* and no verb, and shows you how to say who someone is and what something is.",
+    "sections": [
+      "Naming Without a Verb",
+      "Pointing Something Out",
+      "Naming a Person",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻO se uō le tama.",
+      "english": "The boy is a friend. (Lit. \"a friend, the boy\")"
+    }
+  },
+  {
+    "chapter": 8,
+    "title": "Who and What Questions",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter introduces the question words of the naming sentence, *ai* (\"who\") and *ā* (\"what\"), together with the optional question markers *po* and *ʻea*, and shows you how to ask who someone is and what something is.",
+    "sections": [
+      "Asking Who",
+      "Asking What",
+      "Asking Yes or No",
+      "The Question Markers *Po* and *ʻEa*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻO ai ʻoe?",
+      "english": "Who are you?"
+    }
+  },
+  {
+    "chapter": 9,
+    "title": "Greetings and Courtesy",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter gathers the everyday formulas of greeting, thanks, farewell, and good wishes, and shows that each is built on a sentence shape already taught: the tense-particle-free command and exclamation. It also carries the respect vocabulary (*ʻupu faʻaaloalo*) and the everyday speech style for recognition, completing the two speech styles named in the Introduction.",
+    "sections": [
+      "Sentences Without a Tense Particle",
+      "Greetings and Farewells",
+      "Thanks and Asking Politely",
+      "Good Wishes and Congratulations",
+      "Inviting Others Along",
+      "The Respect Vocabulary",
+      "The Everyday Style",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Mānaia le meaʻai!",
+      "english": "The food is nice! (Lit. \"Nice the food!\")"
+    }
+  },
+  {
+    "chapter": 10,
+    "title": "Possessives",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter introduces the two belonging words *a* and *o*, which join a thing to the person it belongs to, and the singular possessive forms *laʻu* (my), *lou* (your), *lona* (her), and their partners, and shows you how to speak of my, your, and her things and put real grammar behind the name question met earlier in this book.",
+    "sections": [
+      "The Belonging Words *a* and *o*",
+      "My, Your, and Her",
+      "The Name Question",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻO le fale o le aliʻi.",
+      "english": "The house of the chief."
+    }
+  },
+  {
+    "chapter": 11,
+    "title": "Location and Direction",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter introduces the place word *i*, which sets an action in a place or sends it toward one, and the from-word *mai*, which marks where something started. The place word stretches a sentence like *Sā ʻou alu* (I went) into *Sā ʻou alu i le nuʻu* (I went to the village), and the from-word answers where a thing came from, as in *Na oso le tama mai le solofanua* (the boy jumped from the horse).",
+    "sections": [
+      "The Place Word *i*",
+      "The From-Word *mai*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā ʻou alu i le nuʻu.",
+      "english": "I went to the village."
+    }
+  },
+  {
+    "chapter": 12,
+    "title": "Verbs of Wanting and Seeing",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter introduces the two-participant sentence: a verb of seeing, feeling, wanting, or asking, then the one who does it, then the thing it reaches, marked by the place word *i*. The pattern points at that thing with the same *i* that sets an action in a place, as in *Sā alofa le tama i le teine* (the boy loved the girl).",
+    "sections": [
+      "The Two-Participant Sentence",
+      "Wanting",
+      "Asking and Calling",
+      "Some of It, Not All",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā vaʻai le teine i le iʻa.",
+      "english": "The girl saw the fish."
+    }
+  },
+  {
+    "chapter": 13,
+    "title": "The General Particle *E*",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds the general particle *e*, the tense particle for what holds in general rather than at one moment: a habit, a lasting quality, a plain truth, or something still to come. It is the one tense particle whose shape follows the pronoun, standing as *e* with no pronoun (*E alu le pasi*, the bus goes) and turning into *te* right after one (*ʻOu te alu*, I go).",
+    "sections": [
+      "The General Particle *E*",
+      "When a Pronoun Comes In: *Te*",
+      "Wanting, in the Present",
+      "The Happening-Now Particle *ʻOloʻo*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "E malosi le tama.",
+      "english": "The boy is strong."
+    }
+  },
+  {
+    "chapter": 14,
+    "title": "The There-Is Verbs",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds the two there-is verbs, *iai* (there is) and its built-in negative *leai* (there is none), each a full verb that carries its own tense particle. The same verb *iai* also says what someone has, by saying that the thing exists.",
+    "sections": [
+      "The There-Is Verb *Iai*",
+      "Saying What You Have",
+      "The There-Is-None Verb *Leai*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "E iai sina vai?",
+      "english": "Is there any water?"
+    }
+  },
+  {
+    "chapter": 15,
+    "title": "The Negative",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds Samoan's two negative words for the statement: the not-word *lē*, which denies that something happened, and the not-yet word *leʻi*, which says it has not happened so far. Each drops into the slot right after the tense particle and in front of the verb, and the same machinery completes the naming sentence taught earlier in this book, giving Samoan its way to say that something is not so.",
+    "sections": [
+      "The Not-Word *Lē*",
+      "Denying a Change, Denying a Habit",
+      "The Not-Yet Word *Leʻi*",
+      "Saying Something Is Not So",
+      "One \"Not,\" Four Tools",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā siva le teine.",
+      "english": "The girl danced."
+    }
+  },
+  {
+    "chapter": 16,
+    "title": "The Pointing-Back Word *Ai*",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds the pointing-back word *ai*, a word that sits inside the verb phrase and stands in for a place already named, so that a place mentioned once does not have to be named a second time. Its companion form *i ai* does the same work for the goal of a movement, the \"to there\" of going and coming.",
+    "sections": [
+      "Pointing Back to a Place",
+      "Putting the Place First",
+      "Going There: *I ai*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā nofo le teine i le nuʻu.",
+      "english": "The girl lived in the village."
+    }
+  },
+  {
+    "chapter": 17,
+    "title": "The Where-Sentence",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds the where-sentence, the third kind of Samoan sentence, in which a tense particle sits in front of a place or a time, standing where a verb would stand, so the sentence says where or when someone or something is. It also teaches the where-question, *ʻO fea...?* (\"Where...?\"), which runs through the same frame.",
+    "sections": [
+      "The Where-Sentence",
+      "The Tense Particle on a Place",
+      "A Person in the Where-Sentence",
+      "Asking Where",
+      "The Where-Sentence and the There-Is Verb",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā i le fale le teine.",
+      "english": "The girl was in the house. (Lit. \"Past at the house the girl.\")"
+    }
+  },
+  {
+    "chapter": 18,
+    "title": "Time Words",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds the time-word slot at the end of the sentence, a set of words such as *ananafi* (yesterday) and *ʻātaeao* (tomorrow morning) that fix a statement to a point in time. The word sits after everything else, and its front end points the same way in time as the tense particle at the start.",
+    "sections": [
+      "The Time-Word Slot",
+      "Time Past and Time to Come",
+      "Words That Stand on Their Own",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Na fānau le pepe anapō.",
+      "english": "The baby was born last night."
+    }
+  },
+  {
+    "chapter": 19,
+    "title": "Plural Verb Forms",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds the plural verb form, the shape a verb takes when what it is about is more than one, so that *nofo* (one person stays) becomes *nonofo* (several stay). The same number appears on describing verbs, reaches plural commands, and settles onto group words such as *aiga* (family).",
+    "sections": [
+      "The Verb Shows Number",
+      "Learning Each Plural Form",
+      "Describing a Group",
+      "Group Words",
+      "Plural Commands",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā nofo le teine.",
+      "english": "The girl stayed."
+    }
+  },
+  {
+    "chapter": 20,
+    "title": "The With-Word *Ma*",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds the with-word *ma*, a single word that joins a companion to an action as \"with\" and joins two doers as \"and\". Whether *ma* means \"with\" or \"and\" is read from the number of the verb, where the verb has a plural form to show: singular for \"with\", plural for \"and\".",
+    "sections": [
+      "The With-Word *Ma*",
+      "Joining Two Doers",
+      "The Number of the Verb Tells You Which",
+      "Other Jobs of *Ma*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā fāgota le tama ma le vaʻa.",
+      "english": "The boy went fishing with the canoe."
+    }
+  },
+  {
+    "chapter": 21,
+    "title": "Question Words",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter adds the question words of the verb sentence, who, what, where, when, and how, each standing in the place of the thing it asks about. The fact this chapter turns on is that the word for \"when\" comes in two shapes, one for future time and one for past.",
+    "sections": [
+      "Asking Who",
+      "Asking When: Past and Future",
+      "Asking How",
+      "Asking What and Where",
+      "Yes or No Questions",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻO ai na alu?",
+      "english": "Who went?"
+    }
+  },
+  {
+    "chapter": 22,
+    "title": "Numbers, Prices, and Time of Day",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This chapter teaches the counting construction: a Samoan number is a kind of verb, so the number of particular things is set after the noun with the general particle *e* (*tama e tolu*, three boys), and the same shape tells the clock hour. It also adds the way to count people and to put things in order.",
+    "sections": [
+      "Counting Things",
+      "Counting People",
+      "Telling the Time",
+      "Putting Things in Order",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "E malosi le tama.",
+      "english": "The boy is strong."
+    }
+  },
+  {
+    "chapter": 23,
+    "title": "Checkpoint 1: The Beginner Consolidation",
+    "level": "beginner",
+    "group": "beginner",
+    "intro": "This checkpoint adds no new grammar. It gathers the whole Beginner band into one place and puts the systems to work together. By now you have built three sentence types, the verb sentence, the naming sentence, and the where-sentence, and with them you can greet, identify, locate, describe, negate, question, count, and command. The exercises and the self-run that follow put those abilities to work together.",
+    "sections": [
+      "The Three Sentence Types",
+      "Reading and Building",
+      "Tense, Time, and Negation",
+      "Asking and Answering",
+      "Putting It Together",
+      "Can You Do This?"
+    ],
+    "example": {
+      "samoan": "Sā ʻou alu.",
+      "english": "I went."
+    }
+  },
+  {
+    "chapter": 24,
+    "title": "Prohibitions",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds the two do-not verbs, *ʻaua* and *sōia*, each standing at the head of the sentence in front of the person and verb for what must not be done, so you can tell someone not to do something. A command takes no not-word; to forbid an action, Samoan reaches for a verb of its own.",
+    "sections": [
+      "The Do-Not Verb *ʻAua*",
+      "A Command Has No Not-Word",
+      "The Stop Verb *Sōia*",
+      "When More Than One Is Meant",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻAua ʻe te faʻasāunoa i mea ola.",
+      "english": "Do not torture animals."
+    }
+  },
+  {
+    "chapter": 25,
+    "title": "The Possessive System in Full",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter completes the two belonging words *a* and *o*, adding the rule of control that decides between them, the four sets of possessive forms that track the articles across one thing and many, and the owners that come in pairs and groups, and the for-word *mo*, so you can speak of anyone's things in any number and say who a thing is for. Where the control rule runs out, a word's belonging type is a fact of that word, and this chapter gives the lists.",
+    "sections": [
+      "The Meaning Behind *A* and *O*",
+      "What Takes *A* and What Takes *O*",
+      "Where the Rule Runs Out",
+      "The Four Sets of Possessive Forms",
+      "Owners in Pairs and Groups",
+      "The For-Word *Mo*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻO le leitiō a le aliʻi.",
+      "english": "The radio of the chief."
+    }
+  },
+  {
+    "chapter": 26,
+    "title": "Spatial Nouns",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds the spatial nouns, the closed set of words that name the regions around a thing, its inside, its top, its back, together with the words for the compass points and for the seaward and inland directions. It fits them into a frame built from the place word *i* and the belonging word *o*, both already taught, so you can say where one thing sits in relation to another.",
+    "sections": [
+      "The Spatial-Noun Frame",
+      "The Spatial Nouns of Position",
+      "The Directions",
+      "Words That Fuse",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻO le laau i tua o le fale.",
+      "english": "The tree behind the house. (Lit. \"The tree in the back of the house.\")"
+    }
+  },
+  {
+    "chapter": 27,
+    "title": "The Agent Marker *E*",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds the agent marker *e*, the word that sets apart the doer in a sentence with two participants, and shows you how to say who did what to whom. It also teaches what Samoan does in place of an English passive, which is to leave the doer out and put nothing where it stood.",
+    "sections": [
+      "The Agent Marker *E*",
+      "Verbs That Take a Doer, and Verbs That Do Not",
+      "Leaving the Doer Out",
+      "Which Participant the Verb Counts",
+      "Leaving Words Out",
+      "When the Marker Is Heard",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā alu le teine.",
+      "english": "The girl went."
+    }
+  },
+  {
+    "chapter": 28,
+    "title": "The Maker-Prefix *Faʻa-*",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter introduces the maker-prefix *faʻa-*, which stands in front of a noun or a verb and builds a new word out of it, and shows you how to read a built word by reading the word standing inside it. It is the most common prefix in Samoan, and the word it builds is usually a verb.",
+    "sections": [
+      "Building a Word with *Faʻa-*",
+      "Making Something Happen",
+      "Which Words the Prefix Takes",
+      "Putting a Thing on Something",
+      "Being Like Something",
+      "Counting Times",
+      "Saying a Negative Gently",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": null
+  },
+  {
+    "chapter": 29,
+    "title": "Directional Particles",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter introduces the direction words, the six particles that stand after a verb and say which way its action is turned, toward the speaker, away from the speaker, up, down, along or away, and shows you how to orient an action in space relative to yourself and the person you are speaking to. The same words also stand inside a spatial noun, as in *i lalo ifo o le fale* (underneath the house).",
+    "sections": [
+      "The Six Direction Words",
+      "Where the Direction Word Stands",
+      "The Pair *Mai* and *Atu*",
+      "Up and Down: *Aʻe* and *Ifo*",
+      "Along and Away: *Ane* and *ʻEse*",
+      "A Direction Word Inside a Spatial Noun",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Faʻatali mai.",
+      "english": "Wait for me. (Lit. \"Wait, toward me.\")"
+    }
+  },
+  {
+    "chapter": 30,
+    "title": "The Complement Clause: Can and Must",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter introduces the complement clause, a whole clause that stands where a noun phrase would otherwise stand, and the one word that opens it, *ona* (that). The words that take such a clause are the ability and obligation words *mafai* (can) and *tatau* (must), so you can say what people can, must, and should do.",
+    "sections": [
+      "The Complement Clause",
+      "Saying What Can Be Done: *Mafai*",
+      "Saying What Must Be Done: *Tatau*",
+      "The Words That Take a Complement Clause",
+      "When the Second Verb Keeps Its Own Tense",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "E sā ona ulaula.",
+      "english": "It is forbidden to smoke."
+    }
+  },
+  {
+    "chapter": 31,
+    "title": "Comparison and Degree",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds the comparison patterns: the direction word *atu* carrying the comparative degree, the than-word *i lo* naming what a thing is measured against, and the verbs *sili* (best), *pei* (like) and *tusa* (the same). The quality word keeps its shape in every pattern here, so these separate words carry the whole job, and with them you can say that one thing has more of a quality than another, that one thing stands above the rest, and that two things are alike.",
+    "sections": [
+      "The Comparative *Atu*",
+      "Naming What You Compare With: *I Lo*",
+      "The Most and the Best: *Sili*",
+      "Saying Two Things Are Alike: *Pei* and *Tusa Ma*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "E malosi le tama.",
+      "english": "The boy is strong."
+    }
+  },
+  {
+    "chapter": 32,
+    "title": "Short and Long Verb Forms",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter introduces the long form of the verb, a second shape that verbs taking the agent marker carry beside the plain one, and shows you how to build it and the two places where the choice is settled for you.",
+    "sections": [
+      "The Two Shapes of the Verb",
+      "Building the Long Form",
+      "Commands: The Two Rules That Hold",
+      "When the Choice Is Yours",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā fasi le tama e le teine.",
+      "english": "The girl hit the boy."
+    }
+  },
+  {
+    "chapter": 33,
+    "title": "Reported Speech",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds reported speech, which Samoan builds from machinery already in place: after a knowing or ordering word the report is an ordinary clause keeping a tense particle of its own, and after the say-verb *fai* it is a sentence of its own. Reading that particle against the time the first half names, not against the moment of speaking, is the one new rule, and it is what lets you pass on anything anyone said, asked, ordered or knew.",
+    "sections": [
+      "Reporting What Someone Knew",
+      "The Tense Particle Inside the Report",
+      "Reporting a Command",
+      "The Say-Verb *Fai*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻUa iloa e le tama ʻua sau le teine.",
+      "english": "The boy knows that the girl has come. (Lit. \"Now know, doer the boy, now come the girl.\")"
+    }
+  },
+  {
+    "chapter": 34,
+    "title": "Putting Things First",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter teaches putting things first, the pattern that moves a noun phrase out of its ordinary place to the head of the sentence under the presenting particle *ʻo*, and shows you how to mark a topic, draw a contrast, put weight on one word, or say where and when. The shape of the verb and the pointing-back word *ai* both answer to that move.",
+    "sections": [
+      "Moving the Doer to the Front",
+      "The Shape of the Verb",
+      "Only and Any at the Front",
+      "Putting the Setting First",
+      "The Four Jobs of Putting Things First",
+      "Order in the Naming Sentence",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā gālue le tama i le faʻatoʻaga.",
+      "english": "The boy worked in the plantation."
+    }
+  },
+  {
+    "chapter": 35,
+    "title": "The Le-Phrase",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter introduces the le-phrase, an article standing in front of a verb so that the two of them together work as a noun phrase, and shows you how to pack a whole event into a thing you can put wherever a noun phrase goes.",
+    "sections": [
+      "Making a Le-Phrase",
+      "The Verb Inside the Phrase",
+      "Forbidding an Event",
+      "Number Inside the Phrase",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻOu te lē fia manatu i le mea lea.",
+      "english": "I do not want to think about that."
+    }
+  },
+  {
+    "chapter": 36,
+    "title": "Conjunctions",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds the words that join two whole clauses, *ma* (and), *ʻae* (but) and *ʻaʻo* (while), together with the rule that settles the tense particle of the second clause, and shows you how to build one sentence out of two.",
+    "sections": [
+      "Joining Two Clauses with *Ma*",
+      "Matching the Tense Particle",
+      "Contrasting Two Clauses with *ʻAe*",
+      "Holding Two Events Together with *ʻAʻo*",
+      "Saying What Came Before",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā timu ma sā lolo le vai.",
+      "english": "It rained and the water overflowed."
+    }
+  },
+  {
+    "chapter": 37,
+    "title": "Narrative Chains",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds two of the ways Samoan sets one event after another, the then-construction built out of *ona* and *lea* and the run of clauses that carry no tense particle of their own, and shows you how to tell a story in the order its events happened.",
+    "sections": [
+      "The Then-Construction *Ona* and *Lea*",
+      "Adding *Loa* and the Pointing-Back Word",
+      "The Shorter Shapes of the Then-Construction",
+      "Clauses Under One Tense Particle",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Ona alu lea ʻo le tama.",
+      "english": "Then the boy went. (Lit. \"Then go that, the boy.\")"
+    }
+  },
+  {
+    "chapter": 38,
+    "title": "Purpose and Reason",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds the three because-words *ʻauā*, *leaga* and *ʻona*, each of which opens a clause giving the reason for what was just said, and the purpose clause, which says what an action is done for. It also teaches the why-question, so you can ask for a reason as well as give one.",
+    "sections": [
+      "The Because-Words *ʻAuā* and *Leaga*",
+      "The Because-Word *ʻOna*",
+      "*ʻOna ʻo* Before a Noun Phrase",
+      "Telling *Ona* and *ʻOna* Apart",
+      "The Purpose Clause",
+      "Asking Why",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā taatia le teine i le fale ʻauā ʻua vaivai.",
+      "english": "The girl lay down in the house because she was tired. (Lit. \"...because has become tired.\")"
+    }
+  },
+  {
+    "chapter": 39,
+    "title": "Conditionals and When-Clauses",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds the condition clause, which says what has to be true before the rest of the sentence can happen, and teaches its two shapes: the one opened by the if-word *ʻāfai*, and the one that opens with the short form of the future particle and no joining word at all. It also shows where the condition clause stands when it comes after the main clause instead of in front of it, so you can say what depends on what in either order.",
+    "sections": [
+      "The Condition Clause with *ʻĀfai*",
+      "The Tense Particle in a Condition Clause",
+      "The Condition Clause Without a Joining Word",
+      "Putting the Condition Second",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻĀfai e timu taeao, e lē alu le malaga.",
+      "english": "If it rains tomorrow, the trip will not go."
+    }
+  },
+  {
+    "chapter": 40,
+    "title": "Modifiers in Depth",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter takes the describing verb into the noun phrase, where it stands after the name of a thing instead of after an action, and adds the two compound shapes that fill the same position, so you can pack a whole description into one noun phrase. It also shows what happens when several describing verbs stand on one noun, and where the pointing word goes when they do.",
+    "sections": [
+      "The Describing Verb After a Noun",
+      "Plural Describing Verbs After a Noun",
+      "The Part-and-Quality Compound",
+      "The Verb-and-Noun Compound",
+      "Describing Verbs in a Row",
+      "The Endings *=gatā* and *=gōfie*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "E uliuli le taʻavale.",
+      "english": "The car is black."
+    }
+  },
+  {
+    "chapter": 41,
+    "title": "Checkpoint 2: The Intermediate Consolidation",
+    "level": "intermediate",
+    "group": "intermediate",
+    "intro": "This chapter adds no new grammar and no new words, and consolidates the Intermediate band, from the do-not verbs and the agent marker to the condition clause and the describing verb inside a noun phrase. It sets those systems to work in the same sentences through mixed exercises and a closing self-run, and shows you how to narrate, argue, compare, report and explain with agent marking and clause combining running together.",
+    "sections": [
+      "Who Did What to Whom",
+      "Belonging, Place, and Description",
+      "Can, Must, and Comparison",
+      "Reported Speech",
+      "Putting Things First",
+      "Joining Clauses and Telling What Happened Next",
+      "Reasons, Purposes, and Conditions",
+      "Can You Do This?"
+    ],
+    "example": {
+      "samoan": "Sā tatala e le teine le pusa.",
+      "english": "The girl opened the box."
+    }
+  },
+  {
+    "chapter": 42,
+    "title": "The Belonging Sentence",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter adds the belonging-sentence, in which a tense particle sits in front of an owner joined to a belonging word, so the sentence says who a thing belongs to. It also completes the whose-question, *ʻO ai...?* (\"Whose...?\"), which runs through the same frame.",
+    "sections": [
+      "The Belonging Sentence",
+      "The Belonging Forms",
+      "The Belonging Word Stays In",
+      "Describing the Thing Owned",
+      "Naming the Owner",
+      "Asking Whose",
+      "Putting the Thing First",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "E a mātou le taʻavale.",
+      "english": "The car is ours. (Lit. \"Ours the car.\")"
+    }
+  },
+  {
+    "chapter": 43,
+    "title": "Relative Clauses",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter introduces the describing clause, a clause with a tense particle of its own standing behind a noun and saying which person, thing, place, or time is meant. It adds the one-who word *ē* and the pointing-back word inside the clause, and shows you how to build the person who left and the village you stayed in.",
+    "sections": [
+      "The Describing Clause",
+      "The Two Ways the Missing Word Is Shown",
+      "When the Spot Stays Empty",
+      "When the Doer Is the Missing Word",
+      "Places and Times",
+      "The Thing It Was Done With, and the Thing It Was Aimed At",
+      "The One-Who Word *Ē*",
+      "Comparison Inside a Describing Clause",
+      "Describing by What Somebody Has",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": null
+  },
+  {
+    "chapter": 44,
+    "title": "Time Expressions",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter completes the time-expression system with the since-word *talu* and the clause that follows it, the when-word *ina ʻua*, the le-phrase set at the head of a sentence as a way to set the time in a story, and the ways Samoan says how often. It shows you how to place a whole episode in time, from *talu ona ʻou sau* (since I came) to *i taeao o aso taʻi=tasi* (every morning).",
+    "sections": [
+      "The Since-Word *Talu*",
+      "Where the Since-Clause Stands",
+      "Counting Back with *Talu ai*",
+      "The When-Word *Ina ʻua*",
+      "The Le-Phrase at the Head of a Sentence",
+      "Saying How Often",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Talu ona ʻou sau ʻou te leʻi maua se mea lelei.",
+      "english": "Since I came, I have not got anything good. (Lit. \"Since that I come, I have not yet got a good thing.\")"
+    }
+  },
+  {
+    "chapter": 45,
+    "title": "The Le-Phrase in Full",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter completes the le-phrase by adding the people and things its event involves, and shows you how to say whose crying, whose feeding, and who fed whom. The belonging words *a* and *o* do that naming, and inside a le-phrase they answer to a rule of their own.",
+    "sections": [
+      "The One the Event Is About",
+      "The Doer Test",
+      "When the Choice Is Made for You",
+      "Verbs That Take Only *O*",
+      "Hearing and Seeing",
+      "What the Event Points At",
+      "The Doer That Keeps *E*",
+      "The Thing the Event Happens To",
+      "The Owner-as-Doer Pattern",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": null
+  },
+  {
+    "chapter": 46,
+    "title": "Uses of the Le-Phrase",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter teaches three uses of the le-phrase: after the with-word *ma*, after a verb that passes judgement such as *lelei* (good), and standing on its own as an exclamation. It shows you how to say what state someone is in while acting, how to pass judgement on an event, and how to comment on the way someone is reacting.",
+    "sections": [
+      "Saying How Someone Acts",
+      "Judging an Event",
+      "Exclaiming with a Le-Phrase",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "Sā ʻou nofo ma le lē fiafia.",
+      "english": "I stayed and was unhappy. (Lit. \"I stayed with the not being happy.\")"
+    }
+  },
+  {
+    "chapter": 47,
+    "title": "Word Class Flexibility",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter completes the principle set out in the Introduction as the slot rule, under which a word such as *uō* (friend) is a verb when it fills the verb slot of a sentence and a noun when it fills a noun slot. It also sorts the nouns that rule produces into five kinds, and shows you how to read a word's class from its slot and why a name that refers to people takes the place word *iā*.",
+    "sections": [
+      "The Slot Rule",
+      "One Word in Two Slots",
+      "Number in the Two Slots",
+      "The Five Kinds of Noun",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "E alofa le tama i le teine.",
+      "english": "The boy loves the girl."
+    }
+  },
+  {
+    "chapter": 48,
+    "title": "The Mood Particles",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter completes the tense particles with the four mood particles, polite-command *ʻia*, wish-and-permission *seʻi*, until *seʻia* and warning *neʻi*, which stand where a tense particle stands, and shows you how to make a polite command, ask permission, make a wish, say until when, and warn against what should not happen.",
+    "sections": [
+      "The Four Mood Particles",
+      "The Polite-Command Particle *ʻIa*",
+      "The Wish-and-Permission Particle *Seʻi*",
+      "The Until Particle *Seʻia*",
+      "The Warning Particle *Neʻi*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻIa tātou onosaʻi.",
+      "english": "Let's be patient."
+    }
+  },
+  {
+    "chapter": 49,
+    "title": "Counterfactuals and Concessives",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter completes the condition clause with the second if-word, *ʻana*, which opens a condition that did not come true, and shows you how to say what would have happened. It also adds *seʻiloga* (unless) and the sentences built on the verbs *ui* (granted), *tīgā* (painful) and *tusa* (the same), which say that one thing holds in spite of another.",
+    "sections": [
+      "The Second If-Word *ʻAna*",
+      "Saying Unless with *Seʻiloga*",
+      "Saying Although with *E Ui*",
+      "Saying Although with *Tīgā*",
+      "Even If, Whether or Not, and Whatever with *Tusa*",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": {
+      "samoan": "ʻĀfai ʻe te lē sau, ʻou te alu atu.",
+      "english": "If you do not come, I will go and see you. (Lit. \"If you not come, I go away.\")"
+    }
+  },
+  {
+    "chapter": 50,
+    "title": "Affixes and Doubling",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter completes Samoan's word-building system, the two endings *=ga* and *=a*, the prefixes *fe-*, *taʻi-*, *toʻa-*, *ʻā-* and *ana-*, and the doubling of a word or of a piece of one, and shows you how to read a built word you have never met. Many of the plural forms learned one at a time earlier in this book are made by that doubling, and this chapter names the process behind them.",
+    "sections": [
+      "How Samoan Builds a Word",
+      "The Ending *=ga*",
+      "The Ending *=a*",
+      "The Prefix *fe-*",
+      "The Counting Prefixes *taʻi-* and *toʻa-*",
+      "The Time Prefixes *ʻā-* and *ana-*",
+      "Doubling a Piece of the Word",
+      "Doubling the Whole Word",
+      "Number in the Colour and Size Words",
+      "What a Doubled Word Can Carry",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": null
+  },
+  {
+    "chapter": 51,
+    "title": "Emotional Articles and Pronouns",
+    "level": "advanced",
+    "group": "advanced",
+    "intro": "This chapter completes the article system with the four articles that carry feeling, *si*, *sina*, *nāi* and *ni nāi*, and completes the first person with its emotional forms, *ʻita*, *taʻita* and the middle-slot *ta*. Together they mark sympathy, an amount presented as modest, humility, and an appeal for help.",
+    "sections": [
+      "The Article *Si*",
+      "The Article *Sina*",
+      "The Plural Articles *Nāi* and *Ni Nāi*",
+      "The Emotional First Person",
+      "Words to Learn",
+      "Exercises"
+    ],
+    "example": null
+  }
+]

@@ -1,0 +1,3872 @@
+[
+  {
+    "samoan": "=a",
+    "english": "a long-form ending: joins to the short form, and is the everyday choice",
+    "chapter": 32,
+    "letter": "Suffixes"
+  },
+  {
+    "samoan": "=a",
+    "english": "the ending that makes a describing verb of a noun: being affected by what the noun names",
+    "chapter": 50,
+    "letter": "Suffixes"
+  },
+  {
+    "samoan": "=ga",
+    "english": "the ending that makes a noun of a verb: something that comes of the event, or the event itself as a whole",
+    "chapter": 50,
+    "letter": "Suffixes"
+  },
+  {
+    "samoan": "=gatā",
+    "english": "the ending that builds a difficult-word out of the verb it goes on; it is never a word standing on its own",
+    "chapter": 40,
+    "letter": "Suffixes"
+  },
+  {
+    "samoan": "=gōfie",
+    "english": "the ending that builds an easy-word the same way",
+    "chapter": 40,
+    "letter": "Suffixes"
+  },
+  {
+    "samoan": "=ia",
+    "english": "a long-form ending some speakers use, usually with a consonant in front of it",
+    "chapter": 32,
+    "letter": "Suffixes"
+  },
+  {
+    "samoan": "=ina",
+    "english": "a long-form ending: the same job, preferred in formal speech and writing",
+    "chapter": 32,
+    "letter": "Suffixes"
+  },
+  {
+    "samoan": "=na",
+    "english": "a long-form ending, uncommon: recognise it, and build with *=a* or *=ina*",
+    "chapter": 32,
+    "letter": "Suffixes"
+  },
+  {
+    "samoan": "a",
+    "english": "the belonging word for *a*-words: joins a thing to the person who got or uses it",
+    "chapter": 10,
+    "letter": "A"
+  },
+  {
+    "samoan": "a",
+    "english": "the two belonging words, required on the owner of a belonging-sentence for every owner",
+    "chapter": 42,
+    "letter": "A"
+  },
+  {
+    "samoan": "a",
+    "english": "the belonging word, met earlier: inside a le-phrase it marks the one the event is about as the doer of something that took place",
+    "chapter": 45,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻa",
+    "english": "the partner of the but-word, which combines with the happening-now particle",
+    "chapter": 36,
+    "letter": "A"
+  },
+  {
+    "samoan": "ā",
+    "english": "the question word for what: stands after *ʻo le* at the front of a what-question",
+    "chapter": 8,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻā",
+    "english": "the short form of the future particle, met earlier: at the head of the first of two clauses, with no joining word in front of it, it makes that clause the condition for the second",
+    "chapter": 39,
+    "letter": "A"
+  },
+  {
+    "samoan": "a mātou",
+    "english": "the belonging forms for \"ours\" (we, but not you); the belonging word and the pronoun stay two words, as they do in every pair and group row of the table",
+    "chapter": 42,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻā-",
+    "english": "the prefix that makes a future time word",
+    "chapter": 50,
+    "letter": "A"
+  },
+  {
+    "samoan": "aʻa",
+    "english": "kick",
+    "chapter": 51,
+    "letter": "A"
+  },
+  {
+    "samoan": "aʻau",
+    "english": "reef",
+    "chapter": 31,
+    "letter": "A"
+  },
+  {
+    "samoan": "aʻe",
+    "english": "the direction word for up",
+    "chapter": 29,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻae",
+    "english": "the but-word: it opens the second clause and sets it against the first",
+    "chapter": 36,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻae leʻi",
+    "english": "the but-word with the not-yet word: before",
+    "chapter": 36,
+    "letter": "A"
+  },
+  {
+    "samoan": "afa",
+    "english": "storm",
+    "chapter": 39,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻāfai",
+    "english": "the if-word: it opens a condition clause, and when the clause behind it has a verb in it, that verb carries a tense particle of its own",
+    "chapter": 39,
+    "letter": "A"
+  },
+  {
+    "samoan": "afe",
+    "english": "lift up",
+    "chapter": 51,
+    "letter": "A"
+  },
+  {
+    "samoan": "afi",
+    "english": "fire",
+    "chapter": 29,
+    "letter": "A"
+  },
+  {
+    "samoan": "agelu",
+    "english": "angel",
+    "chapter": 6,
+    "letter": "A"
+  },
+  {
+    "samoan": "ai",
+    "english": "the question word for who: stands after *ʻo* at the front of a who-question",
+    "chapter": 8,
+    "letter": "A"
+  },
+  {
+    "samoan": "ai",
+    "english": "the pointing-back word: stands in for a place already named; sits after the verb, before the doer",
+    "chapter": 16,
+    "letter": "A"
+  },
+  {
+    "samoan": "ai",
+    "english": "the pointing-back word, met earlier: it answers a setting put first, from inside the verb phrase",
+    "chapter": 34,
+    "letter": "A"
+  },
+  {
+    "samoan": "ai",
+    "english": "the pointing-back word, met earlier: inside the then-construction it reaches back to everything said before it",
+    "chapter": 37,
+    "letter": "A"
+  },
+  {
+    "samoan": "ai",
+    "english": "the pointing-back word, met earlier: inside a describing clause it holds the spot of a place, a time, or a cause, and is heard for the thing an action was done with too",
+    "chapter": 43,
+    "letter": "A"
+  },
+  {
+    "samoan": "aʻi",
+    "english": "the pointing-back word in the shape it takes for the thing an action was done with, a job no other shape has to itself",
+    "chapter": 43,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻai",
+    "english": "eat",
+    "chapter": 9,
+    "letter": "A"
+  },
+  {
+    "samoan": "aiga",
+    "english": "home, family",
+    "chapter": 7,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻāiga",
+    "english": "family",
+    "chapter": 47,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻaiseā",
+    "english": "why: in the full question it opens its clause, and *ai* in the verb phrase points back to it",
+    "chapter": 38,
+    "letter": "A"
+  },
+  {
+    "samoan": "aitu",
+    "english": "spirit",
+    "chapter": 16,
+    "letter": "A"
+  },
+  {
+    "samoan": "ala",
+    "english": "be awake, wake up",
+    "chapter": 36,
+    "letter": "A"
+  },
+  {
+    "samoan": "aliʻi",
+    "english": "chief",
+    "chapter": 10,
+    "letter": "A"
+  },
+  {
+    "samoan": "alofa",
+    "english": "love",
+    "chapter": 1,
+    "letter": "A"
+  },
+  {
+    "samoan": "alu",
+    "english": "go",
+    "chapter": 1,
+    "letter": "A"
+  },
+  {
+    "samoan": "amata",
+    "english": "begin, start",
+    "chapter": 4,
+    "letter": "A"
+  },
+  {
+    "samoan": "amo",
+    "english": "carry, yoke",
+    "chapter": 51,
+    "letter": "A"
+  },
+  {
+    "samoan": "ana",
+    "english": "cave",
+    "chapter": 36,
+    "letter": "A"
+  },
+  {
+    "samoan": "ana",
+    "english": "the belonging forms for \"his\" or \"hers\", and the forms that answer a whose-question",
+    "chapter": 42,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻana",
+    "english": "the second if-word: opens a condition that did not come true; the condition usually has no tense particle, and *pē* stands in front of *ʻana* when the clause follows the main clause",
+    "chapter": 49,
+    "letter": "A"
+  },
+  {
+    "samoan": "ana-",
+    "english": "the prefix that makes a past time word",
+    "chapter": 50,
+    "letter": "A"
+  },
+  {
+    "samoan": "analeilā",
+    "english": "earlier today",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
+    "samoan": "anamua",
+    "english": "formerly",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
+    "samoan": "anamuā",
+    "english": "in days of old",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
+    "samoan": "ananafi",
+    "english": "yesterday",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
+    "samoan": "ananei",
+    "english": "just a short time ago",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
+    "samoan": "anapō",
+    "english": "last night",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
+    "samoan": "anataeao",
+    "english": "this morning",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
+    "samoan": "ane",
+    "english": "the direction word for along, passing the speaker by",
+    "chapter": 29,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻaʻo",
+    "english": "in this chapter, *ʻa* and the short *ʻo* together: while, whereas; it opens either clause",
+    "chapter": 36,
+    "letter": "A"
+  },
+  {
+    "samoan": "aoga",
+    "english": "school",
+    "chapter": 35,
+    "letter": "A"
+  },
+  {
+    "samoan": "aogā",
+    "english": "use, useful",
+    "chapter": 28,
+    "letter": "A"
+  },
+  {
+    "samoan": "apa",
+    "english": "tin (in *le fale=apa*, a house with a tin roof)",
+    "chapter": 37,
+    "letter": "A"
+  },
+  {
+    "samoan": "apu",
+    "english": "apple",
+    "chapter": 39,
+    "letter": "A"
+  },
+  {
+    "samoan": "aso",
+    "english": "day",
+    "chapter": 17,
+    "letter": "A"
+  },
+  {
+    "samoan": "ata",
+    "english": "laugh",
+    "chapter": 38,
+    "letter": "A"
+  },
+  {
+    "samoan": "ata",
+    "english": "my (*a*-word form, *o*-word form), said with feeling, for more than one particular thing",
+    "chapter": 51,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻātaeao",
+    "english": "tomorrow morning",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
+    "samoan": "atalii",
+    "english": "son",
+    "chapter": 33,
+    "letter": "A"
+  },
+  {
+    "samoan": "atigi=lima",
+    "english": "finger-nail",
+    "chapter": 48,
+    "letter": "A"
+  },
+  {
+    "samoan": "atili",
+    "english": "increase",
+    "chapter": 36,
+    "letter": "A"
+  },
+  {
+    "samoan": "ato",
+    "english": "basket",
+    "chapter": 21,
+    "letter": "A"
+  },
+  {
+    "samoan": "atoa",
+    "english": "complete (to recognize only)",
+    "chapter": 21,
+    "letter": "A"
+  },
+  {
+    "samoan": "atu",
+    "english": "the direction word for away from the speaker, usually toward the person spoken to",
+    "chapter": 29,
+    "letter": "A"
+  },
+  {
+    "samoan": "atu",
+    "english": "the direction word, met earlier for away from the speaker; set on a quality word it carries the comparative degree instead",
+    "chapter": 31,
+    "letter": "A"
+  },
+  {
+    "samoan": "atunuʻu",
+    "english": "country",
+    "chapter": 25,
+    "letter": "A"
+  },
+  {
+    "samoan": "aʻu",
+    "english": "me (the independent form of \"I\")",
+    "chapter": 2,
+    "letter": "A"
+  },
+  {
+    "samoan": "aʻu",
+    "english": "my (*a*-word form, *o*-word form), for more than one particular thing",
+    "chapter": 25,
+    "letter": "A"
+  },
+  {
+    "samoan": "aʻu",
+    "english": "the belonging forms for \"mine\": *aʻu* with an *a*-word, *oʻu* with an *o*-word",
+    "chapter": 42,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻaua",
+    "english": "the do-not verb: forbids an action, \"don't\", \"should not\"",
+    "chapter": 24,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻaua",
+    "english": "the do-not verb for an action to be forbidden, met earlier: it can take a le-phrase in place of a person and a verb",
+    "chapter": 35,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻauā",
+    "english": "the plain because-word: it stands between the two clauses and normally does not open the sentence",
+    "chapter": 38,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻaua le",
+    "english": "forbids an action, and takes the long form of the verb after it",
+    "chapter": 32,
+    "letter": "A"
+  },
+  {
+    "samoan": "auivi",
+    "english": "skeleton",
+    "chapter": 13,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻaumai",
+    "english": "bring, take (hither)",
+    "chapter": 5,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻava",
+    "english": "beard",
+    "chapter": 25,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻava",
+    "english": "kava, and in *ʻava malosi* alcohol",
+    "chapter": 30,
+    "letter": "A"
+  },
+  {
+    "samoan": "āvā",
+    "english": "wife",
+    "chapter": 25,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻavatu",
+    "english": "give (away from the speaker)",
+    "chapter": 33,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻavea",
+    "english": "become",
+    "chapter": 20,
+    "letter": "A"
+  },
+  {
+    "samoan": "e",
+    "english": "the general particle: marks a statement true in general, with no tie to a time",
+    "chapter": 13,
+    "letter": "E"
+  },
+  {
+    "samoan": "e",
+    "english": "the general particle, here linking a number to the thing it counts",
+    "chapter": 22,
+    "letter": "E"
+  },
+  {
+    "samoan": "e",
+    "english": "the agent marker: goes in front of the doer of an action done to something else",
+    "chapter": 27,
+    "letter": "E"
+  },
+  {
+    "samoan": "e",
+    "english": "the general particle, met earlier: at the head of a clause following the main clause it marks purpose, and it takes the shape *te* after a preverbal pronoun",
+    "chapter": 38,
+    "letter": "E"
+  },
+  {
+    "samoan": "e",
+    "english": "the agent marker, met earlier: it stays on the doer inside a le-phrase whenever the thing done to is marked with *o* and the doer is not that thing's owner",
+    "chapter": 45,
+    "letter": "E"
+  },
+  {
+    "samoan": "ʻe",
+    "english": "you (one person)",
+    "chapter": 2,
+    "letter": "E"
+  },
+  {
+    "samoan": "ē",
+    "english": "the one-who word: it stands in front of a describing clause where no noun is named, and means the one who or those who",
+    "chapter": 43,
+    "letter": "E"
+  },
+  {
+    "samoan": "ʻea",
+    "english": "a second urging word, added to a command the same way",
+    "chapter": 5,
+    "letter": "E"
+  },
+  {
+    "samoan": "ʻea",
+    "english": "marks a question from inside it, after the first part",
+    "chapter": 8,
+    "letter": "E"
+  },
+  {
+    "samoan": "eleele",
+    "english": "earth",
+    "chapter": 37,
+    "letter": "E"
+  },
+  {
+    "samoan": "eleelea",
+    "english": "dirty",
+    "chapter": 42,
+    "letter": "E"
+  },
+  {
+    "samoan": "enaena",
+    "english": "brown",
+    "chapter": 44,
+    "letter": "E"
+  },
+  {
+    "samoan": "ʻese",
+    "english": "the direction word for away from a point",
+    "chapter": 29,
+    "letter": "E"
+  },
+  {
+    "samoan": "ʻese",
+    "english": "a judging verb: stresses that a quality is out of the ordinary",
+    "chapter": 46,
+    "letter": "E"
+  },
+  {
+    "samoan": "eva",
+    "english": "go for a stroll",
+    "chapter": 2,
+    "letter": "E"
+  },
+  {
+    "samoan": "fā",
+    "english": "four",
+    "chapter": 22,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻa-",
+    "english": "the maker-prefix: stands in front of a noun or a verb and builds a new word out of it",
+    "chapter": 28,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻafetai",
+    "english": "thank you",
+    "chapter": 9,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻailoa",
+    "english": "show, make known",
+    "chapter": 28,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻaipoipo",
+    "english": "marry",
+    "chapter": 21,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻalogo",
+    "english": "listen, hear",
+    "chapter": 40,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻalogogatā",
+    "english": "disobedient",
+    "chapter": 40,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻalogogōfie",
+    "english": "obedient",
+    "chapter": 40,
+    "letter": "F"
+  },
+  {
+    "samoan": "faamalama",
+    "english": "window",
+    "chapter": 32,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻamalu",
+    "english": "umbrella",
+    "chapter": 29,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻamolemole",
+    "english": "please",
+    "chapter": 9,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻanoanoa",
+    "english": "sad",
+    "chapter": 46,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻasā",
+    "english": "forbid",
+    "chapter": 30,
+    "letter": "F"
+  },
+  {
+    "samoan": "faasalalauga",
+    "english": "broadcast, broadcasting",
+    "chapter": 8,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻasāunoa",
+    "english": "torture, be cruel to",
+    "chapter": 24,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻataga",
+    "english": "allow",
+    "chapter": 30,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻatali",
+    "english": "wait",
+    "chapter": 5,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻatau",
+    "english": "sell, buy",
+    "chapter": 32,
+    "letter": "F"
+  },
+  {
+    "samoan": "faʻatoʻaga",
+    "english": "plantation",
+    "chapter": 34,
+    "letter": "F"
+  },
+  {
+    "samoan": "faatonu",
+    "english": "order, instruct: a verb here, and the one who gives the order takes the agent marker",
+    "chapter": 33,
+    "letter": "F"
+  },
+  {
+    "samoan": "fafaga",
+    "english": "feed",
+    "chapter": 27,
+    "letter": "F"
+  },
+  {
+    "samoan": "fafine",
+    "english": "woman",
+    "chapter": 8,
+    "letter": "F"
+  },
+  {
+    "samoan": "fafo",
+    "english": "outside",
+    "chapter": 26,
+    "letter": "F"
+  },
+  {
+    "samoan": "fāgota",
+    "english": "go fishing",
+    "chapter": 1,
+    "letter": "F"
+  },
+  {
+    "samoan": "fagu",
+    "english": "bottle",
+    "chapter": 45,
+    "letter": "F"
+  },
+  {
+    "samoan": "fai",
+    "english": "do, make, say, tell",
+    "chapter": 4,
+    "letter": "F"
+  },
+  {
+    "samoan": "fai",
+    "english": "the say-verb, met earlier for do and make: the person named after it is the speaker, and what was said follows as a sentence of its own",
+    "chapter": 33,
+    "letter": "F"
+  },
+  {
+    "samoan": "fai=a",
+    "english": "the long form of *fai*, the shape the verb usually takes in a clause whose missing word is the doer of an action done to something else",
+    "chapter": 43,
+    "letter": "F"
+  },
+  {
+    "samoan": "faifeau",
+    "english": "pastor",
+    "chapter": 48,
+    "letter": "F"
+  },
+  {
+    "samoan": "faigatā",
+    "english": "difficult",
+    "chapter": 40,
+    "letter": "F"
+  },
+  {
+    "samoan": "faigatā",
+    "english": "a judging verb: difficult",
+    "chapter": 46,
+    "letter": "F"
+  },
+  {
+    "samoan": "faigōfie",
+    "english": "easy",
+    "chapter": 40,
+    "letter": "F"
+  },
+  {
+    "samoan": "faigōfie",
+    "english": "a judging verb: easy",
+    "chapter": 46,
+    "letter": "F"
+  },
+  {
+    "samoan": "faitala",
+    "english": "gossip",
+    "chapter": 24,
+    "letter": "F"
+  },
+  {
+    "samoan": "faitalia",
+    "english": "do as one pleases",
+    "chapter": 30,
+    "letter": "F"
+  },
+  {
+    "samoan": "faitau",
+    "english": "count, read",
+    "chapter": 32,
+    "letter": "F"
+  },
+  {
+    "samoan": "faitotoʻa",
+    "english": "door",
+    "chapter": 31,
+    "letter": "F"
+  },
+  {
+    "samoan": "faiva",
+    "english": "fishing trip",
+    "chapter": 44,
+    "letter": "F"
+  },
+  {
+    "samoan": "fala",
+    "english": "pandanus, mat",
+    "chapter": 21,
+    "letter": "F"
+  },
+  {
+    "samoan": "falaoa",
+    "english": "bread",
+    "chapter": 34,
+    "letter": "F"
+  },
+  {
+    "samoan": "fale",
+    "english": "house",
+    "chapter": 8,
+    "letter": "F"
+  },
+  {
+    "samoan": "faleoo",
+    "english": "a small house",
+    "chapter": 34,
+    "letter": "F"
+  },
+  {
+    "samoan": "fana",
+    "english": "gun (also: shoot)",
+    "chapter": 14,
+    "letter": "F"
+  },
+  {
+    "samoan": "fānau",
+    "english": "give birth; children, offspring",
+    "chapter": 14,
+    "letter": "F"
+  },
+  {
+    "samoan": "fanua",
+    "english": "land, property",
+    "chapter": 51,
+    "letter": "F"
+  },
+  {
+    "samoan": "fau",
+    "english": "build",
+    "chapter": 32,
+    "letter": "F"
+  },
+  {
+    "samoan": "fe-",
+    "english": "the prefix that says the event happens more than once",
+    "chapter": 50,
+    "letter": "F"
+  },
+  {
+    "samoan": "fea",
+    "english": "the where-word: asks where, standing first in the where-question",
+    "chapter": 17,
+    "letter": "F"
+  },
+  {
+    "samoan": "fealofani",
+    "english": "love one another",
+    "chapter": 50,
+    "letter": "F"
+  },
+  {
+    "samoan": "fealuaʻi",
+    "english": "go quickly, hurry",
+    "chapter": 50,
+    "letter": "F"
+  },
+  {
+    "samoan": "feau",
+    "english": "work, task, errand",
+    "chapter": 49,
+    "letter": "F"
+  },
+  {
+    "samoan": "feiloai",
+    "english": "meet",
+    "chapter": 13,
+    "letter": "F"
+  },
+  {
+    "samoan": "fesili",
+    "english": "ask",
+    "chapter": 3,
+    "letter": "F"
+  },
+  {
+    "samoan": "fesoasoani",
+    "english": "help",
+    "chapter": 5,
+    "letter": "F"
+  },
+  {
+    "samoan": "fia",
+    "english": "want: goes in front of the verb and says the action was wanted",
+    "chapter": 3,
+    "letter": "F"
+  },
+  {
+    "samoan": "fia",
+    "english": "the want-word, met earlier: inside a le-phrase it forces *o*",
+    "chapter": 45,
+    "letter": "F"
+  },
+  {
+    "samoan": "fiafia",
+    "english": "happy, glad (after a verb: happily)",
+    "chapter": 3,
+    "letter": "F"
+  },
+  {
+    "samoan": "filemu",
+    "english": "quiet, calm",
+    "chapter": 24,
+    "letter": "F"
+  },
+  {
+    "samoan": "finagalo",
+    "english": "wish (a polite word: used of the wish of God, a chief, a stranger or anyone of higher rank, never of your own)",
+    "chapter": 31,
+    "letter": "F"
+  },
+  {
+    "samoan": "fitu",
+    "english": "seven",
+    "chapter": 22,
+    "letter": "F"
+  },
+  {
+    "samoan": "foaʻi",
+    "english": "give",
+    "chapter": 49,
+    "letter": "F"
+  },
+  {
+    "samoan": "foi",
+    "english": "return",
+    "chapter": 3,
+    "letter": "F"
+  },
+  {
+    "samoan": "folo",
+    "english": "swallow",
+    "chapter": 50,
+    "letter": "F"
+  },
+  {
+    "samoan": "fomai",
+    "english": "doctor",
+    "chapter": 49,
+    "letter": "F"
+  },
+  {
+    "samoan": "fono",
+    "english": "village meeting, council",
+    "chapter": 17,
+    "letter": "F"
+  },
+  {
+    "samoan": "fou",
+    "english": "new",
+    "chapter": 3,
+    "letter": "F"
+  },
+  {
+    "samoan": "fuāmoa",
+    "english": "egg",
+    "chapter": 19,
+    "letter": "F"
+  },
+  {
+    "samoan": "fue",
+    "english": "liana",
+    "chapter": 43,
+    "letter": "F"
+  },
+  {
+    "samoan": "fufulu",
+    "english": "wash",
+    "chapter": 5,
+    "letter": "F"
+  },
+  {
+    "samoan": "fusi",
+    "english": "belt",
+    "chapter": 33,
+    "letter": "F"
+  },
+  {
+    "samoan": "gāgaʻe",
+    "english": "eastward, a little to the east, at some distance",
+    "chapter": 26,
+    "letter": "G"
+  },
+  {
+    "samoan": "gagafō",
+    "english": "further towards the west",
+    "chapter": 26,
+    "letter": "G"
+  },
+  {
+    "samoan": "gāgaifo",
+    "english": "westward, a little to the west",
+    "chapter": 26,
+    "letter": "G"
+  },
+  {
+    "samoan": "gagana",
+    "english": "language",
+    "chapter": 15,
+    "letter": "G"
+  },
+  {
+    "samoan": "galo",
+    "english": "forget",
+    "chapter": 38,
+    "letter": "G"
+  },
+  {
+    "samoan": "gālue",
+    "english": "work",
+    "chapter": 9,
+    "letter": "G"
+  },
+  {
+    "samoan": "gasegase",
+    "english": "sickness (a polite word: said of another person, never of yourself)",
+    "chapter": 14,
+    "letter": "G"
+  },
+  {
+    "samoan": "gata",
+    "english": "snake",
+    "chapter": 10,
+    "letter": "G"
+  },
+  {
+    "samoan": "gātai",
+    "english": "the sea, the shore seen from land; seawards, a little towards the sea",
+    "chapter": 26,
+    "letter": "G"
+  },
+  {
+    "samoan": "gāʻuta",
+    "english": "the land, the shore seen from the sea; further inland, a little way inland",
+    "chapter": 26,
+    "letter": "G"
+  },
+  {
+    "samoan": "goto",
+    "english": "sink, set",
+    "chapter": 28,
+    "letter": "G"
+  },
+  {
+    "samoan": "i",
+    "english": "the place word: marks where an action is or where it is headed (in, at, to)",
+    "chapter": 11,
+    "letter": "I"
+  },
+  {
+    "samoan": "i",
+    "english": "the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person",
+    "chapter": 47,
+    "letter": "I"
+  },
+  {
+    "samoan": "i ai",
+    "english": "the \"to there\" form: the pointing-back word with the place word *i* in front, for the goal of a movement",
+    "chapter": 16,
+    "letter": "I"
+  },
+  {
+    "samoan": "i ai",
+    "english": "the settled-in-place form at the heart of the where-sentence: \"is there\", the spot the answer fills; the copy is required when the place is fronted",
+    "chapter": 17,
+    "letter": "I"
+  },
+  {
+    "samoan": "i ai",
+    "english": "the pointing-back word with the place word in front, the usual shape for where a movement or a wanting is aimed",
+    "chapter": 43,
+    "letter": "I"
+  },
+  {
+    "samoan": "i lo",
+    "english": "the than-word: it introduces what a thing is compared with, and its phrase comes last",
+    "chapter": 31,
+    "letter": "I"
+  },
+  {
+    "samoan": "ia",
+    "english": "he, she",
+    "chapter": 1,
+    "letter": "I"
+  },
+  {
+    "samoan": "ia",
+    "english": "the urging word: added to the end of a command for warmth or a push (not the person word *ia*)",
+    "chapter": 5,
+    "letter": "I"
+  },
+  {
+    "samoan": "ia",
+    "english": "the demonstrative that can point back to a thing acted on put first, *lea* for one and *ia* for more than one",
+    "chapter": 34,
+    "letter": "I"
+  },
+  {
+    "samoan": "iʻa",
+    "english": "fish",
+    "chapter": 12,
+    "letter": "I"
+  },
+  {
+    "samoan": "ʻia",
+    "english": "the mood particle that opens a reported command, standing where a tense particle would otherwise stand",
+    "chapter": 33,
+    "letter": "I"
+  },
+  {
+    "samoan": "ʻia",
+    "english": "the mood particle, met earlier: it can head a purpose clause in place of *e*",
+    "chapter": 38,
+    "letter": "I"
+  },
+  {
+    "samoan": "ʻia",
+    "english": "the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ina ʻia*, in order to)",
+    "chapter": 48,
+    "letter": "I"
+  },
+  {
+    "samoan": "iā",
+    "english": "the shapes the place word takes before a person's name and in front of a person-word",
+    "chapter": 11,
+    "letter": "I"
+  },
+  {
+    "samoan": "iā",
+    "english": "the place word before a person, met earlier: stands before a name that refers to a person or a people",
+    "chapter": 47,
+    "letter": "I"
+  },
+  {
+    "samoan": "ʻia neʻi",
+    "english": "*ʻia* and *neʻi* used together, sometimes, after verbs of worry, fear and dislike",
+    "chapter": 48,
+    "letter": "I"
+  },
+  {
+    "samoan": "ia te",
+    "english": "the form the place word takes before a person-word",
+    "chapter": 2,
+    "letter": "I"
+  },
+  {
+    "samoan": "ia te",
+    "english": "the shapes the place word takes before a person's name and in front of a person-word",
+    "chapter": 11,
+    "letter": "I"
+  },
+  {
+    "samoan": "iai",
+    "english": "be present, be there",
+    "chapter": 13,
+    "letter": "I"
+  },
+  {
+    "samoan": "iai",
+    "english": "the there-is verb: says something exists or is present",
+    "chapter": 14,
+    "letter": "I"
+  },
+  {
+    "samoan": "ie",
+    "english": "cloth",
+    "chapter": 32,
+    "letter": "I"
+  },
+  {
+    "samoan": "ʻie",
+    "english": "kilt",
+    "chapter": 25,
+    "letter": "I"
+  },
+  {
+    "samoan": "ifo",
+    "english": "the direction word for down",
+    "chapter": 29,
+    "letter": "I"
+  },
+  {
+    "samoan": "igoa",
+    "english": "name",
+    "chapter": 7,
+    "letter": "I"
+  },
+  {
+    "samoan": "ili",
+    "english": "fan",
+    "chapter": 20,
+    "letter": "I"
+  },
+  {
+    "samoan": "ilo",
+    "english": "perceive, sort out",
+    "chapter": 50,
+    "letter": "I"
+  },
+  {
+    "samoan": "iloa",
+    "english": "know, see, notice",
+    "chapter": 28,
+    "letter": "I"
+  },
+  {
+    "samoan": "ina ʻua",
+    "english": "the when-word: it opens a clause naming an event that came before the main event or happened with it",
+    "chapter": 44,
+    "letter": "I"
+  },
+  {
+    "samoan": "ʻinoʻino",
+    "english": "hate, dislike",
+    "chapter": 12,
+    "letter": "I"
+  },
+  {
+    "samoan": "inu",
+    "english": "drink",
+    "chapter": 27,
+    "letter": "I"
+  },
+  {
+    "samoan": "ʻiole",
+    "english": "rat",
+    "chapter": 12,
+    "letter": "I"
+  },
+  {
+    "samoan": "ipu",
+    "english": "cup",
+    "chapter": 6,
+    "letter": "I"
+  },
+  {
+    "samoan": "isi",
+    "english": "other",
+    "chapter": 16,
+    "letter": "I"
+  },
+  {
+    "samoan": "isu",
+    "english": "nose",
+    "chapter": 31,
+    "letter": "I"
+  },
+  {
+    "samoan": "ita",
+    "english": "angry, be angry",
+    "chapter": 29,
+    "letter": "I"
+  },
+  {
+    "samoan": "ʻita",
+    "english": "I, me, when the speaker is emotionally involved: the form standing on its own",
+    "chapter": 51,
+    "letter": "I"
+  },
+  {
+    "samoan": "itiiti",
+    "english": "few, small",
+    "chapter": 50,
+    "letter": "I"
+  },
+  {
+    "samoan": "ituʻāiga",
+    "english": "kind, sort",
+    "chapter": 45,
+    "letter": "I"
+  },
+  {
+    "samoan": "itula",
+    "english": "hour",
+    "chapter": 15,
+    "letter": "I"
+  },
+  {
+    "samoan": "iva",
+    "english": "nine",
+    "chapter": 22,
+    "letter": "I"
+  },
+  {
+    "samoan": "kī",
+    "english": "key",
+    "chapter": 45,
+    "letter": "K"
+  },
+  {
+    "samoan": "koko",
+    "english": "cocoa",
+    "chapter": 31,
+    "letter": "K"
+  },
+  {
+    "samoan": "lā",
+    "english": "they two",
+    "chapter": 2,
+    "letter": "L"
+  },
+  {
+    "samoan": "laau",
+    "english": "tree (the bare form *laau* is itself the plural, \"trees\", while one tree is *le laau*)",
+    "chapter": 6,
+    "letter": "L"
+  },
+  {
+    "samoan": "lafu",
+    "english": "herd",
+    "chapter": 47,
+    "letter": "L"
+  },
+  {
+    "samoan": "lagona",
+    "english": "hear, feel",
+    "chapter": 34,
+    "letter": "L"
+  },
+  {
+    "samoan": "laʻitiiti",
+    "english": "small, young",
+    "chapter": 14,
+    "letter": "L"
+  },
+  {
+    "samoan": "lala",
+    "english": "branch",
+    "chapter": 37,
+    "letter": "L"
+  },
+  {
+    "samoan": "lalo",
+    "english": "underneath, below, down",
+    "chapter": 26,
+    "letter": "L"
+  },
+  {
+    "samoan": "lana",
+    "english": "his, her, its (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "letter": "L"
+  },
+  {
+    "samoan": "lanu",
+    "english": "colour",
+    "chapter": 25,
+    "letter": "L"
+  },
+  {
+    "samoan": "lata",
+    "english": "my (*a*-word form, *o*-word form), said with feeling, for one particular thing",
+    "chapter": 51,
+    "letter": "L"
+  },
+  {
+    "samoan": "lātou",
+    "english": "they",
+    "chapter": 2,
+    "letter": "L"
+  },
+  {
+    "samoan": "lau",
+    "english": "your (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "letter": "L"
+  },
+  {
+    "samoan": "lau",
+    "english": "leaf",
+    "chapter": 21,
+    "letter": "L"
+  },
+  {
+    "samoan": "laʻu",
+    "english": "my (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "letter": "L"
+  },
+  {
+    "samoan": "laulu",
+    "english": "hair",
+    "chapter": 51,
+    "letter": "L"
+  },
+  {
+    "samoan": "lava",
+    "english": "indeed, a word of emphasis: stands right after *tusa* in the whether ... or kind and the whatever kind",
+    "chapter": 49,
+    "letter": "L"
+  },
+  {
+    "samoan": "lavā",
+    "english": "be able (mostly as *lē lavā*, cannot)",
+    "chapter": 30,
+    "letter": "L"
+  },
+  {
+    "samoan": "lavea",
+    "english": "be hurt, be wounded",
+    "chapter": 35,
+    "letter": "L"
+  },
+  {
+    "samoan": "le",
+    "english": "the specific article: one particular thing the speaker has in mind",
+    "chapter": 6,
+    "letter": "L"
+  },
+  {
+    "samoan": "le",
+    "english": "the article, met earlier: standing in front of a verb it heads a le-phrase and packs the event into a thing",
+    "chapter": 35,
+    "letter": "L"
+  },
+  {
+    "samoan": "lē",
+    "english": "the not-word: denies a statement or question; sits after the tense particle, before the verb",
+    "chapter": 15,
+    "letter": "L"
+  },
+  {
+    "samoan": "lē",
+    "english": "the not-word, met earlier: inside a le-phrase it stands between the article and the verb",
+    "chapter": 35,
+    "letter": "L"
+  },
+  {
+    "samoan": "lē",
+    "english": "the one-who word joined to the specific article, for one particular person",
+    "chapter": 43,
+    "letter": "L"
+  },
+  {
+    "samoan": "lē",
+    "english": "the not-word, met earlier: inside a le-phrase it forces *o*",
+    "chapter": 45,
+    "letter": "L"
+  },
+  {
+    "samoan": "lē i ai",
+    "english": "the negative of that form: \"is not there\"",
+    "chapter": 17,
+    "letter": "L"
+  },
+  {
+    "samoan": "lea",
+    "english": "the demonstrative that can point back to a thing acted on put first, *lea* for one and *ia* for more than one",
+    "chapter": 34,
+    "letter": "L"
+  },
+  {
+    "samoan": "lea",
+    "english": "the closing word of the then-construction: it stands after the verb phrase",
+    "chapter": 37,
+    "letter": "L"
+  },
+  {
+    "samoan": "leaga",
+    "english": "bad",
+    "chapter": 34,
+    "letter": "L"
+  },
+  {
+    "samoan": "leaga",
+    "english": "the because-word for a bad or unwelcome reason, met earlier as the word for \"bad\"",
+    "chapter": 38,
+    "letter": "L"
+  },
+  {
+    "samoan": "leai",
+    "english": "no",
+    "chapter": 1,
+    "letter": "L"
+  },
+  {
+    "samoan": "leai",
+    "english": "the there-is-none verb: says something is absent (also the word for \"no\")",
+    "chapter": 14,
+    "letter": "L"
+  },
+  {
+    "samoan": "leai",
+    "english": "a judging verb: stresses that a state of affairs does not exist",
+    "chapter": 46,
+    "letter": "L"
+  },
+  {
+    "samoan": "leʻi",
+    "english": "the not-yet word: says a thing has not happened so far but is expected to; usually rides the general particle",
+    "chapter": 15,
+    "letter": "L"
+  },
+  {
+    "samoan": "leʻi",
+    "english": "the not-yet word, met earlier: after *ʻaʻo* or *ʻae* it builds the before-pattern",
+    "chapter": 36,
+    "letter": "L"
+  },
+  {
+    "samoan": "lēiloa",
+    "english": "lose, be lost",
+    "chapter": 38,
+    "letter": "L"
+  },
+  {
+    "samoan": "leitiō",
+    "english": "radio",
+    "chapter": 16,
+    "letter": "L"
+  },
+  {
+    "samoan": "lele",
+    "english": "fly",
+    "chapter": 11,
+    "letter": "L"
+  },
+  {
+    "samoan": "lelei",
+    "english": "good, well",
+    "chapter": 1,
+    "letter": "L"
+  },
+  {
+    "samoan": "lelei",
+    "english": "a judging verb: good",
+    "chapter": 46,
+    "letter": "L"
+  },
+  {
+    "samoan": "lena",
+    "english": "that: points to something in view, and comes second in the naming sentence",
+    "chapter": 7,
+    "letter": "L"
+  },
+  {
+    "samoan": "leo",
+    "english": "voice",
+    "chapter": 29,
+    "letter": "L"
+  },
+  {
+    "samoan": "lilo",
+    "english": "hide, be hidden",
+    "chapter": 37,
+    "letter": "L"
+  },
+  {
+    "samoan": "lima",
+    "english": "hand",
+    "chapter": 10,
+    "letter": "L"
+  },
+  {
+    "samoan": "loa",
+    "english": "the then-word: it stands after the verb and marks its event as the one following on",
+    "chapter": 37,
+    "letter": "L"
+  },
+  {
+    "samoan": "lolo",
+    "english": "overflow",
+    "chapter": 36,
+    "letter": "L"
+  },
+  {
+    "samoan": "loloto",
+    "english": "deep",
+    "chapter": 3,
+    "letter": "L"
+  },
+  {
+    "samoan": "lona",
+    "english": "his, her, its (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "letter": "L"
+  },
+  {
+    "samoan": "lona",
+    "english": "placed after a noun before a number, it names a place in an order (the second, the third)",
+    "chapter": 22,
+    "letter": "L"
+  },
+  {
+    "samoan": "loʻomatua",
+    "english": "old woman",
+    "chapter": 47,
+    "letter": "L"
+  },
+  {
+    "samoan": "lota",
+    "english": "my (*a*-word form, *o*-word form), said with feeling, for one particular thing",
+    "chapter": 51,
+    "letter": "L"
+  },
+  {
+    "samoan": "loto",
+    "english": "will; heart",
+    "chapter": 39,
+    "letter": "L"
+  },
+  {
+    "samoan": "lotu",
+    "english": "religion",
+    "chapter": 28,
+    "letter": "L"
+  },
+  {
+    "samoan": "lou",
+    "english": "your (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "letter": "L"
+  },
+  {
+    "samoan": "loʻu",
+    "english": "my (*a*-word form, *o*-word form)",
+    "chapter": 10,
+    "letter": "L"
+  },
+  {
+    "samoan": "lua",
+    "english": "two",
+    "chapter": 22,
+    "letter": "L"
+  },
+  {
+    "samoan": "luga",
+    "english": "top, above, on",
+    "chapter": 26,
+    "letter": "L"
+  },
+  {
+    "samoan": "luma",
+    "english": "front",
+    "chapter": 26,
+    "letter": "L"
+  },
+  {
+    "samoan": "lumāfale",
+    "english": "the front of the house",
+    "chapter": 26,
+    "letter": "L"
+  },
+  {
+    "samoan": "lumanai",
+    "english": "future",
+    "chapter": 17,
+    "letter": "L"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word: \"with\" before a companion, \"and\" between two doers; where the verb has a plural form to show, its number tells you which",
+    "chapter": 20,
+    "letter": "M"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word, met earlier; after *tusa* it introduces the thing the first half agrees with",
+    "chapter": 31,
+    "letter": "M"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word, met earlier: between two clauses it joins them and is read \"and\"",
+    "chapter": 36,
+    "letter": "M"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word, met earlier: inside one noun phrase it joins a describing verb to a le-phrase behind it, and reads as \"and\"",
+    "chapter": 40,
+    "letter": "M"
+  },
+  {
+    "samoan": "ma",
+    "english": "the with-word, met earlier: in front of a le-phrase it names the state the doer is in while acting",
+    "chapter": 46,
+    "letter": "M"
+  },
+  {
+    "samoan": "mā",
+    "english": "we two (but not you)",
+    "chapter": 2,
+    "letter": "M"
+  },
+  {
+    "samoan": "maʻalili",
+    "english": "cold",
+    "chapter": 4,
+    "letter": "M"
+  },
+  {
+    "samoan": "maʻamusa",
+    "english": "lover",
+    "chapter": 25,
+    "letter": "M"
+  },
+  {
+    "samoan": "mafai",
+    "english": "can, able",
+    "chapter": 30,
+    "letter": "M"
+  },
+  {
+    "samoan": "mafatia",
+    "english": "exhausted",
+    "chapter": 44,
+    "letter": "M"
+  },
+  {
+    "samoan": "mafaufau",
+    "english": "think, consider",
+    "chapter": 36,
+    "letter": "M"
+  },
+  {
+    "samoan": "mai",
+    "english": "the from-word: marks where something started (from)",
+    "chapter": 11,
+    "letter": "M"
+  },
+  {
+    "samoan": "mai",
+    "english": "the direction word for toward the speaker",
+    "chapter": 29,
+    "letter": "M"
+  },
+  {
+    "samoan": "maʻi",
+    "english": "sick",
+    "chapter": 4,
+    "letter": "M"
+  },
+  {
+    "samoan": "maile",
+    "english": "dog",
+    "chapter": 31,
+    "letter": "M"
+  },
+  {
+    "samoan": "malaga",
+    "english": "journey, travel party",
+    "chapter": 37,
+    "letter": "M"
+  },
+  {
+    "samoan": "mālaia",
+    "english": "disaster",
+    "chapter": 39,
+    "letter": "M"
+  },
+  {
+    "samoan": "malama",
+    "english": "break, of the morning",
+    "chapter": 44,
+    "letter": "M"
+  },
+  {
+    "samoan": "malamalama",
+    "english": "understand; daylight",
+    "chapter": 38,
+    "letter": "M"
+  },
+  {
+    "samoan": "malie",
+    "english": "pleased",
+    "chapter": 15,
+    "letter": "M"
+  },
+  {
+    "samoan": "mālō",
+    "english": "congratulate; hi",
+    "chapter": 9,
+    "letter": "M"
+  },
+  {
+    "samoan": "malolo",
+    "english": "rest",
+    "chapter": 16,
+    "letter": "M"
+  },
+  {
+    "samoan": "malosi",
+    "english": "strong (after a verb: hard, with strength)",
+    "chapter": 3,
+    "letter": "M"
+  },
+  {
+    "samoan": "malulu",
+    "english": "cool",
+    "chapter": 38,
+    "letter": "M"
+  },
+  {
+    "samoan": "mamafa",
+    "english": "heavy",
+    "chapter": 42,
+    "letter": "M"
+  },
+  {
+    "samoan": "mamao",
+    "english": "far",
+    "chapter": 20,
+    "letter": "M"
+  },
+  {
+    "samoan": "mānaia",
+    "english": "nice",
+    "chapter": 9,
+    "letter": "M"
+  },
+  {
+    "samoan": "manaʻo",
+    "english": "want (a thing)",
+    "chapter": 12,
+    "letter": "M"
+  },
+  {
+    "samoan": "manatu",
+    "english": "think; feel lonely",
+    "chapter": 35,
+    "letter": "M"
+  },
+  {
+    "samoan": "manatunatu",
+    "english": "reflect, think about",
+    "chapter": 36,
+    "letter": "M"
+  },
+  {
+    "samoan": "manava",
+    "english": "stomach",
+    "chapter": 35,
+    "letter": "M"
+  },
+  {
+    "samoan": "manua",
+    "english": "be hurt",
+    "chapter": 43,
+    "letter": "M"
+  },
+  {
+    "samoan": "manuia",
+    "english": "happy, blessed",
+    "chapter": 9,
+    "letter": "M"
+  },
+  {
+    "samoan": "manulele",
+    "english": "bird",
+    "chapter": 31,
+    "letter": "M"
+  },
+  {
+    "samoan": "māsima",
+    "english": "salt",
+    "chapter": 28,
+    "letter": "M"
+  },
+  {
+    "samoan": "masina",
+    "english": "month",
+    "chapter": 27,
+    "letter": "M"
+  },
+  {
+    "samoan": "masini",
+    "english": "machine",
+    "chapter": 11,
+    "letter": "M"
+  },
+  {
+    "samoan": "mata",
+    "english": "eye",
+    "chapter": 27,
+    "letter": "M"
+  },
+  {
+    "samoan": "matafaga",
+    "english": "beach",
+    "chapter": 39,
+    "letter": "M"
+  },
+  {
+    "samoan": "matamata",
+    "english": "look at, watch",
+    "chapter": 12,
+    "letter": "M"
+  },
+  {
+    "samoan": "mātou",
+    "english": "we (others and I, but not you)",
+    "chapter": 2,
+    "letter": "M"
+  },
+  {
+    "samoan": "mātū",
+    "english": "North",
+    "chapter": 26,
+    "letter": "M"
+  },
+  {
+    "samoan": "matua",
+    "english": "parent",
+    "chapter": 8,
+    "letter": "M"
+  },
+  {
+    "samoan": "mātua",
+    "english": "parents",
+    "chapter": 19,
+    "letter": "M"
+  },
+  {
+    "samoan": "mau",
+    "english": "have plenty",
+    "chapter": 40,
+    "letter": "M"
+  },
+  {
+    "samoan": "maua",
+    "english": "get, obtain",
+    "chapter": 2,
+    "letter": "M"
+  },
+  {
+    "samoan": "maualuga",
+    "english": "high",
+    "chapter": 42,
+    "letter": "M"
+  },
+  {
+    "samoan": "mauga",
+    "english": "mountain",
+    "chapter": 28,
+    "letter": "M"
+  },
+  {
+    "samoan": "maugatā",
+    "english": "mean, tight-fisted",
+    "chapter": 40,
+    "letter": "M"
+  },
+  {
+    "samoan": "maugōfie",
+    "english": "generous",
+    "chapter": 40,
+    "letter": "M"
+  },
+  {
+    "samoan": "maʻumaga",
+    "english": "taro patch",
+    "chapter": 19,
+    "letter": "M"
+  },
+  {
+    "samoan": "maumau",
+    "english": "waste",
+    "chapter": 35,
+    "letter": "M"
+  },
+  {
+    "samoan": "mauoloa",
+    "english": "rich",
+    "chapter": 43,
+    "letter": "M"
+  },
+  {
+    "samoan": "mea",
+    "english": "thing",
+    "chapter": 6,
+    "letter": "M"
+  },
+  {
+    "samoan": "mea ola",
+    "english": "animals, living things",
+    "chapter": 24,
+    "letter": "M"
+  },
+  {
+    "samoan": "mea=alofa",
+    "english": "gift (a thing of love)",
+    "chapter": 46,
+    "letter": "M"
+  },
+  {
+    "samoan": "meaʻai",
+    "english": "food",
+    "chapter": 9,
+    "letter": "M"
+  },
+  {
+    "samoan": "minoi",
+    "english": "move",
+    "chapter": 2,
+    "letter": "M"
+  },
+  {
+    "samoan": "mo",
+    "english": "the for-word: says who something is for, and how long something lasts",
+    "chapter": 25,
+    "letter": "M"
+  },
+  {
+    "samoan": "moa",
+    "english": "hen, chicken, rooster",
+    "chapter": 27,
+    "letter": "M"
+  },
+  {
+    "samoan": "moe",
+    "english": "sleep (said of one person)",
+    "chapter": 21,
+    "letter": "M"
+  },
+  {
+    "samoan": "moli",
+    "english": "soap (in *fasi=moli*); also the orange",
+    "chapter": 38,
+    "letter": "M"
+  },
+  {
+    "samoan": "momoli",
+    "english": "bring, deliver",
+    "chapter": 47,
+    "letter": "M"
+  },
+  {
+    "samoan": "moni",
+    "english": "true",
+    "chapter": 31,
+    "letter": "M"
+  },
+  {
+    "samoan": "muamua",
+    "english": "first",
+    "chapter": 22,
+    "letter": "M"
+  },
+  {
+    "samoan": "mulimuli",
+    "english": "last",
+    "chapter": 22,
+    "letter": "M"
+  },
+  {
+    "samoan": "musu",
+    "english": "dislike",
+    "chapter": 48,
+    "letter": "M"
+  },
+  {
+    "samoan": "na",
+    "english": "the second past: marks a single, finished, or unexpected event",
+    "chapter": 4,
+    "letter": "N"
+  },
+  {
+    "samoan": "na",
+    "english": "the word for he, she before *te* (in place of *ia*)",
+    "chapter": 13,
+    "letter": "N"
+  },
+  {
+    "samoan": "nāi",
+    "english": "the plural article for particular ones, the plural of both *si* and *sina*",
+    "chapter": 51,
+    "letter": "N"
+  },
+  {
+    "samoan": "naifi",
+    "english": "knife",
+    "chapter": 10,
+    "letter": "N"
+  },
+  {
+    "samoan": "namu",
+    "english": "mosquito",
+    "chapter": 45,
+    "letter": "N"
+  },
+  {
+    "samoan": "nānei",
+    "english": "later on",
+    "chapter": 18,
+    "letter": "N"
+  },
+  {
+    "samoan": "naʻo",
+    "english": "only: it goes in front of the article, and the phrase it heads takes no *ʻo* and no *i* at the front of a sentence",
+    "chapter": 34,
+    "letter": "N"
+  },
+  {
+    "samoan": "nei",
+    "english": "now",
+    "chapter": 18,
+    "letter": "N"
+  },
+  {
+    "samoan": "neʻi",
+    "english": "the warning particle, met earlier: at the head of a purpose clause it makes the purpose negative",
+    "chapter": 38,
+    "letter": "N"
+  },
+  {
+    "samoan": "neʻi",
+    "english": "the warning particle, met earlier: something that should not happen; its clause always depends on another",
+    "chapter": 48,
+    "letter": "N"
+  },
+  {
+    "samoan": "ni",
+    "english": "the non-specific article, many: some, any ones at all",
+    "chapter": 6,
+    "letter": "N"
+  },
+  {
+    "samoan": "ni ata",
+    "english": "some ... of mine (*a*-word form, *o*-word form), said with feeling, for more than one of no particular identity",
+    "chapter": 51,
+    "letter": "N"
+  },
+  {
+    "samoan": "ni aʻu",
+    "english": "some ... of mine (*a*-word form, *o*-word form), for more than one of no particular identity",
+    "chapter": 25,
+    "letter": "N"
+  },
+  {
+    "samoan": "ni nāi",
+    "english": "the plural article for ones that are not particular, the plural of *sina*",
+    "chapter": 51,
+    "letter": "N"
+  },
+  {
+    "samoan": "ni ota",
+    "english": "some ... of mine (*a*-word form, *o*-word form), said with feeling, for more than one of no particular identity",
+    "chapter": 51,
+    "letter": "N"
+  },
+  {
+    "samoan": "ni oʻu",
+    "english": "some ... of mine (*a*-word form, *o*-word form), for more than one of no particular identity",
+    "chapter": 25,
+    "letter": "N"
+  },
+  {
+    "samoan": "nifo",
+    "english": "tooth",
+    "chapter": 42,
+    "letter": "N"
+  },
+  {
+    "samoan": "niu",
+    "english": "coconut",
+    "chapter": 10,
+    "letter": "N"
+  },
+  {
+    "samoan": "nofo",
+    "english": "sit, stay",
+    "chapter": 5,
+    "letter": "N"
+  },
+  {
+    "samoan": "nonoa",
+    "english": "tie up",
+    "chapter": 32,
+    "letter": "N"
+  },
+  {
+    "samoan": "nonofo",
+    "english": "stay, sit (said of more than one)",
+    "chapter": 19,
+    "letter": "N"
+  },
+  {
+    "samoan": "nuʻu",
+    "english": "village",
+    "chapter": 9,
+    "letter": "N"
+  },
+  {
+    "samoan": "o",
+    "english": "the belonging word for *o*-words: joins a thing to the person it is part of, or whose it is by nature or by where they live",
+    "chapter": 10,
+    "letter": "O"
+  },
+  {
+    "samoan": "o",
+    "english": "the two belonging words, required on the owner of a belonging-sentence for every owner",
+    "chapter": 42,
+    "letter": "O"
+  },
+  {
+    "samoan": "o",
+    "english": "the belonging word, met earlier: inside a le-phrase it marks a non-doer, or leaves the doing unsaid, and it is the word on what a transitive event happened to whenever that stands as a belonging phrase",
+    "chapter": 45,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻO",
+    "english": "the presenting particle, met earlier: in front of a le-phrase it makes an exclamation",
+    "chapter": 46,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻo",
+    "english": "the presenting word: puts forward who it is",
+    "chapter": 2,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻo",
+    "english": "the presenting particle: goes in front of the naming part that says what something is",
+    "chapter": 7,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻo",
+    "english": "the presenting particle, met earlier: at the head of a sentence it lifts a noun phrase out of its ordinary slot and holds it up",
+    "chapter": 34,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻO ai...?",
+    "english": "the whose-opener, the who-question carried forward; *po* is the question marker met earlier in this book and adds no meaning",
+    "chapter": 42,
+    "letter": "O"
+  },
+  {
+    "samoan": "o mātou",
+    "english": "the belonging forms for \"ours\" (we, but not you); the belonging word and the pronoun stay two words, as they do in every pair and group row of the table",
+    "chapter": 42,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻoe",
+    "english": "you (the independent form of \"you\")",
+    "chapter": 2,
+    "letter": "O"
+  },
+  {
+    "samoan": "ofaga",
+    "english": "nest",
+    "chapter": 31,
+    "letter": "O"
+  },
+  {
+    "samoan": "ofisa",
+    "english": "office; official",
+    "chapter": 12,
+    "letter": "O"
+  },
+  {
+    "samoan": "ofu",
+    "english": "dress",
+    "chapter": 21,
+    "letter": "O"
+  },
+  {
+    "samoan": "ogalaau",
+    "english": "log",
+    "chapter": 11,
+    "letter": "O"
+  },
+  {
+    "samoan": "ola",
+    "english": "life; live",
+    "chapter": 24,
+    "letter": "O"
+  },
+  {
+    "samoan": "ole",
+    "english": "beg",
+    "chapter": 49,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻoleʻā",
+    "english": "the future particle: places the event ahead of now (short form *ʻā*)",
+    "chapter": 4,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻolomatua",
+    "english": "old woman",
+    "chapter": 47,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻoloʻo",
+    "english": "the happening-now particle: marks an event under way at the moment being talked about, which in this chapter is the moment you speak",
+    "chapter": 13,
+    "letter": "O"
+  },
+  {
+    "samoan": "ona",
+    "english": "the that-word: the only joining word that opens a complement clause, and the clause after it never carries a tense particle",
+    "chapter": 30,
+    "letter": "O"
+  },
+  {
+    "samoan": "ona",
+    "english": "the opening word of the then-construction: it stands at the head of the clause",
+    "chapter": 37,
+    "letter": "O"
+  },
+  {
+    "samoan": "ona",
+    "english": "the belonging forms for \"his\" or \"hers\", and the forms that answer a whose-question",
+    "chapter": 42,
+    "letter": "O"
+  },
+  {
+    "samoan": "ona",
+    "english": "the that-word, met earlier: it opens the clause after *talu*, and that clause usually carries no tense particle",
+    "chapter": 44,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻona",
+    "english": "the because-word that stands between the clauses or opens the sentence",
+    "chapter": 38,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻona ʻo",
+    "english": "*ʻona* with the presenting particle, standing in front of a noun phrase instead of a clause",
+    "chapter": 38,
+    "letter": "O"
+  },
+  {
+    "samoan": "ono",
+    "english": "six",
+    "chapter": 22,
+    "letter": "O"
+  },
+  {
+    "samoan": "onosaʻi",
+    "english": "be patient",
+    "chapter": 47,
+    "letter": "O"
+  },
+  {
+    "samoan": "oso",
+    "english": "jump",
+    "chapter": 11,
+    "letter": "O"
+  },
+  {
+    "samoan": "osofai",
+    "english": "attack",
+    "chapter": 29,
+    "letter": "O"
+  },
+  {
+    "samoan": "ota",
+    "english": "my (*a*-word form, *o*-word form), said with feeling, for more than one particular thing",
+    "chapter": 51,
+    "letter": "O"
+  },
+  {
+    "samoan": "oti",
+    "english": "die",
+    "chapter": 9,
+    "letter": "O"
+  },
+  {
+    "samoan": "oʻu",
+    "english": "my (*a*-word form, *o*-word form), for more than one particular thing",
+    "chapter": 25,
+    "letter": "O"
+  },
+  {
+    "samoan": "oʻu",
+    "english": "the belonging forms for \"mine\": *aʻu* with an *a*-word, *oʻu* with an *o*-word",
+    "chapter": 42,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻou",
+    "english": "I",
+    "chapter": 1,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻoulua",
+    "english": "you two",
+    "chapter": 2,
+    "letter": "O"
+  },
+  {
+    "samoan": "ʻoutou",
+    "english": "you all",
+    "chapter": 2,
+    "letter": "O"
+  },
+  {
+    "samoan": "paʻa",
+    "english": "crab",
+    "chapter": 49,
+    "letter": "P"
+  },
+  {
+    "samoan": "paʻeʻe",
+    "english": "lean",
+    "chapter": 42,
+    "letter": "P"
+  },
+  {
+    "samoan": "paʻepaʻe",
+    "english": "white",
+    "chapter": 20,
+    "letter": "P"
+  },
+  {
+    "samoan": "palagi",
+    "english": "European, white person",
+    "chapter": 45,
+    "letter": "P"
+  },
+  {
+    "samoan": "palapala",
+    "english": "dirty",
+    "chapter": 48,
+    "letter": "P"
+  },
+  {
+    "samoan": "paopao",
+    "english": "canoe",
+    "chapter": 25,
+    "letter": "P"
+  },
+  {
+    "samoan": "pasi",
+    "english": "bus",
+    "chapter": 13,
+    "letter": "P"
+  },
+  {
+    "samoan": "pata",
+    "english": "butter",
+    "chapter": 28,
+    "letter": "P"
+  },
+  {
+    "samoan": "pāʻū",
+    "english": "fall",
+    "chapter": 35,
+    "letter": "P"
+  },
+  {
+    "samoan": "pē",
+    "english": "it opens a reported question; *po*, met earlier, is its other shape",
+    "chapter": 33,
+    "letter": "P"
+  },
+  {
+    "samoan": "pē",
+    "english": "the question opener, met earlier: it stands in front of a condition clause that follows the main clause",
+    "chapter": 39,
+    "letter": "P"
+  },
+  {
+    "samoan": "peʻa",
+    "english": "flying fox",
+    "chapter": 27,
+    "letter": "P"
+  },
+  {
+    "samoan": "pei",
+    "english": "like, as if: it heads a clause of comparison and takes a clause or a noun phrase after it in this chapter's sentences",
+    "chapter": 31,
+    "letter": "P"
+  },
+  {
+    "samoan": "pele",
+    "english": "darling",
+    "chapter": 25,
+    "letter": "P"
+  },
+  {
+    "samoan": "pepe",
+    "english": "baby",
+    "chapter": 15,
+    "letter": "P"
+  },
+  {
+    "samoan": "pese",
+    "english": "song",
+    "chapter": 44,
+    "letter": "P"
+  },
+  {
+    "samoan": "pisa",
+    "english": "noise; in the verb slot, make a noise",
+    "chapter": 48,
+    "letter": "P"
+  },
+  {
+    "samoan": "pisi",
+    "english": "busy",
+    "chapter": 4,
+    "letter": "P"
+  },
+  {
+    "samoan": "pisupo",
+    "english": "corned beef",
+    "chapter": 24,
+    "letter": "P"
+  },
+  {
+    "samoan": "pito",
+    "english": "end",
+    "chapter": 16,
+    "letter": "P"
+  },
+  {
+    "samoan": "po",
+    "english": "marks a question from the very front of the sentence",
+    "chapter": 8,
+    "letter": "P"
+  },
+  {
+    "samoan": "pō",
+    "english": "night",
+    "chapter": 46,
+    "letter": "P"
+  },
+  {
+    "samoan": "Po ʻo ai...?",
+    "english": "the whose-opener, the who-question carried forward; *po* is the question marker met earlier in this book and adds no meaning",
+    "chapter": 42,
+    "letter": "P"
+  },
+  {
+    "samoan": "polo",
+    "english": "ball",
+    "chapter": 51,
+    "letter": "P"
+  },
+  {
+    "samoan": "poloaʻiga",
+    "english": "instruction",
+    "chapter": 39,
+    "letter": "P"
+  },
+  {
+    "samoan": "pologa",
+    "english": "slave",
+    "chapter": 30,
+    "letter": "P"
+  },
+  {
+    "samoan": "popo",
+    "english": "copra",
+    "chapter": 27,
+    "letter": "P"
+  },
+  {
+    "samoan": "popole",
+    "english": "worry",
+    "chapter": 29,
+    "letter": "P"
+  },
+  {
+    "samoan": "popolevale",
+    "english": "overanxious",
+    "chapter": 43,
+    "letter": "P"
+  },
+  {
+    "samoan": "poto",
+    "english": "intelligent, clever, know a great deal",
+    "chapter": 49,
+    "letter": "P"
+  },
+  {
+    "samoan": "potu",
+    "english": "room",
+    "chapter": 15,
+    "letter": "P"
+  },
+  {
+    "samoan": "puaʻa",
+    "english": "pig",
+    "chapter": 19,
+    "letter": "P"
+  },
+  {
+    "samoan": "punou",
+    "english": "bend down",
+    "chapter": 38,
+    "letter": "P"
+  },
+  {
+    "samoan": "pusa",
+    "english": "box",
+    "chapter": 27,
+    "letter": "P"
+  },
+  {
+    "samoan": "pusi",
+    "english": "cat",
+    "chapter": 7,
+    "letter": "P"
+  },
+  {
+    "samoan": "putaafa",
+    "english": "fat",
+    "chapter": 46,
+    "letter": "P"
+  },
+  {
+    "samoan": "puʻupuʻu",
+    "english": "short",
+    "chapter": 50,
+    "letter": "P"
+  },
+  {
+    "samoan": "sā",
+    "english": "the past particle: puts the whole sentence in the past",
+    "chapter": 1,
+    "letter": "S"
+  },
+  {
+    "samoan": "sā",
+    "english": "the word for forbidden, must not. Spelled like the past particle, and told apart by position, since this *sā* stands in the predicate slot with a tense particle of its own in front",
+    "chapter": 30,
+    "letter": "S"
+  },
+  {
+    "samoan": "saienitisi",
+    "english": "scientist",
+    "chapter": 31,
+    "letter": "S"
+  },
+  {
+    "samoan": "saisai",
+    "english": "tie, tie up",
+    "chapter": 27,
+    "letter": "S"
+  },
+  {
+    "samoan": "salu",
+    "english": "sweep",
+    "chapter": 5,
+    "letter": "S"
+  },
+  {
+    "samoan": "sami",
+    "english": "sea",
+    "chapter": 37,
+    "letter": "S"
+  },
+  {
+    "samoan": "sapelu",
+    "english": "bush-knife",
+    "chapter": 11,
+    "letter": "S"
+  },
+  {
+    "samoan": "sasa",
+    "english": "hit",
+    "chapter": 2,
+    "letter": "S"
+  },
+  {
+    "samoan": "sasae",
+    "english": "tear",
+    "chapter": 33,
+    "letter": "S"
+  },
+  {
+    "samoan": "sasaʻe",
+    "english": "East",
+    "chapter": 26,
+    "letter": "S"
+  },
+  {
+    "samoan": "sasao",
+    "english": "blaze, burn fiercely",
+    "chapter": 29,
+    "letter": "S"
+  },
+  {
+    "samoan": "sata",
+    "english": "a ... of mine (*a*-word form, *o*-word form), said with feeling, for one thing of no particular identity",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sau",
+    "english": "come",
+    "chapter": 2,
+    "letter": "S"
+  },
+  {
+    "samoan": "saʻu",
+    "english": "a ... of mine (*a*-word form, *o*-word form), for one thing of no particular identity",
+    "chapter": 25,
+    "letter": "S"
+  },
+  {
+    "samoan": "sauʻai",
+    "english": "ogre",
+    "chapter": 37,
+    "letter": "S"
+  },
+  {
+    "samoan": "sauni",
+    "english": "prepare, get ready",
+    "chapter": 37,
+    "letter": "S"
+  },
+  {
+    "samoan": "saute",
+    "english": "South",
+    "chapter": 26,
+    "letter": "S"
+  },
+  {
+    "samoan": "se",
+    "english": "the non-specific article, one thing: any single one",
+    "chapter": 6,
+    "letter": "S"
+  },
+  {
+    "samoan": "sefulu",
+    "english": "ten",
+    "chapter": 22,
+    "letter": "S"
+  },
+  {
+    "samoan": "seʻi",
+    "english": "the wish-and-permission particle: asks permission about the speaker, makes a polite request to the listener, states a wish about someone else; less absolute than *ʻia*",
+    "chapter": 48,
+    "letter": "S"
+  },
+  {
+    "samoan": "seʻia",
+    "english": "the until particle: never takes a preverbal pronoun",
+    "chapter": 48,
+    "letter": "S"
+  },
+  {
+    "samoan": "seʻiloga",
+    "english": "unless (also \"it only needs\"): as a condition clause, it stands after the main clause",
+    "chapter": 49,
+    "letter": "S"
+  },
+  {
+    "samoan": "sele",
+    "english": "shave, cut",
+    "chapter": 36,
+    "letter": "S"
+  },
+  {
+    "samoan": "semanū",
+    "english": "probably: often opens the main clause after an *ʻana* clause",
+    "chapter": 49,
+    "letter": "S"
+  },
+  {
+    "samoan": "sesē",
+    "english": "wrong",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "si",
+    "english": "the article for one particular thing, carrying the speaker's feeling for it",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sii",
+    "english": "move",
+    "chapter": 38,
+    "letter": "S"
+  },
+  {
+    "samoan": "sileni",
+    "english": "shilling",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sili",
+    "english": "better, best, more, most: it takes a complement clause after *ona* and raises that clause's degree, to the top on its own and to a comparison when *atu* and *i lo* follow",
+    "chapter": 31,
+    "letter": "S"
+  },
+  {
+    "samoan": "sili",
+    "english": "a judging verb: better, the best",
+    "chapter": 46,
+    "letter": "S"
+  },
+  {
+    "samoan": "silou",
+    "english": "slow",
+    "chapter": 39,
+    "letter": "S"
+  },
+  {
+    "samoan": "sina",
+    "english": "a little of, some of: marks a small portion of a thing, often politely",
+    "chapter": 14,
+    "letter": "S"
+  },
+  {
+    "samoan": "sina",
+    "english": "the article for a small portion or piece of a thing, often carrying politeness",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sinana",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sinata",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sinau",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sinaʻu",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sinona",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sinota",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sinou",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sinoʻu",
+    "english": "*sina* run together with a belonging form for one owner; the two are also found written apart",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sipuni",
+    "english": "spoon",
+    "chapter": 25,
+    "letter": "S"
+  },
+  {
+    "samoan": "sisifo",
+    "english": "West",
+    "chapter": 26,
+    "letter": "S"
+  },
+  {
+    "samoan": "sisila",
+    "english": "look steadily, stare (a polite word, to recognize only)",
+    "chapter": 12,
+    "letter": "S"
+  },
+  {
+    "samoan": "siva",
+    "english": "dance",
+    "chapter": 1,
+    "letter": "S"
+  },
+  {
+    "samoan": "sōia",
+    "english": "the do-not verb for stopping: \"stop\" what is already under way",
+    "chapter": 24,
+    "letter": "S"
+  },
+  {
+    "samoan": "sōia",
+    "english": "the do-not verb for stopping what is under way, met earlier: it takes a le-phrase the same way",
+    "chapter": 35,
+    "letter": "S"
+  },
+  {
+    "samoan": "soifua",
+    "english": "good health, life",
+    "chapter": 9,
+    "letter": "S"
+  },
+  {
+    "samoan": "soli",
+    "english": "tread on",
+    "chapter": 50,
+    "letter": "S"
+  },
+  {
+    "samoan": "solo",
+    "english": "towel",
+    "chapter": 39,
+    "letter": "S"
+  },
+  {
+    "samoan": "solofanua",
+    "english": "horse",
+    "chapter": 11,
+    "letter": "S"
+  },
+  {
+    "samoan": "solosolo",
+    "english": "handkerchief",
+    "chapter": 29,
+    "letter": "S"
+  },
+  {
+    "samoan": "soʻo",
+    "english": "often",
+    "chapter": 44,
+    "letter": "S"
+  },
+  {
+    "samoan": "soʻo",
+    "english": "the often-word, met earlier: inside a le-phrase it forces *o*",
+    "chapter": 45,
+    "letter": "S"
+  },
+  {
+    "samoan": "soʻo se",
+    "english": "any: it goes in front of the noun, and behaves the same bare way at the front of a sentence",
+    "chapter": 34,
+    "letter": "S"
+  },
+  {
+    "samoan": "sota",
+    "english": "a ... of mine (*a*-word form, *o*-word form), said with feeling, for one thing of no particular identity",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "soʻu",
+    "english": "a ... of mine (*a*-word form, *o*-word form), for one thing of no particular identity",
+    "chapter": 25,
+    "letter": "S"
+  },
+  {
+    "samoan": "sua",
+    "english": "uproot, root up",
+    "chapter": 19,
+    "letter": "S"
+  },
+  {
+    "samoan": "suasami",
+    "english": "salt water",
+    "chapter": 8,
+    "letter": "S"
+  },
+  {
+    "samoan": "suga",
+    "english": "the word you call out to a girl",
+    "chapter": 38,
+    "letter": "S"
+  },
+  {
+    "samoan": "suka",
+    "english": "sugar",
+    "chapter": 28,
+    "letter": "S"
+  },
+  {
+    "samoan": "susu",
+    "english": "milk; suck",
+    "chapter": 27,
+    "letter": "S"
+  },
+  {
+    "samoan": "ta",
+    "english": "I, when the speaker is emotionally involved: the form in the middle slot",
+    "chapter": 51,
+    "letter": "T"
+  },
+  {
+    "samoan": "tā",
+    "english": "we two (you and I)",
+    "chapter": 2,
+    "letter": "T"
+  },
+  {
+    "samoan": "tā",
+    "english": "beat, strike, play",
+    "chapter": 33,
+    "letter": "T"
+  },
+  {
+    "samoan": "taaalo",
+    "english": "play (said of more than one)",
+    "chapter": 37,
+    "letter": "T"
+  },
+  {
+    "samoan": "taamilomilo",
+    "english": "circulate around",
+    "chapter": 46,
+    "letter": "T"
+  },
+  {
+    "samoan": "taʻamū",
+    "english": "taʻamū (a large edible tuber)",
+    "chapter": 45,
+    "letter": "T"
+  },
+  {
+    "samoan": "taatia",
+    "english": "lie down",
+    "chapter": 35,
+    "letter": "T"
+  },
+  {
+    "samoan": "taʻavale",
+    "english": "car",
+    "chapter": 10,
+    "letter": "T"
+  },
+  {
+    "samoan": "taeao",
+    "english": "morning; also tomorrow",
+    "chapter": 18,
+    "letter": "T"
+  },
+  {
+    "samoan": "tāʻele",
+    "english": "bathe, have a shower",
+    "chapter": 1,
+    "letter": "T"
+  },
+  {
+    "samoan": "tafao",
+    "english": "wander about",
+    "chapter": 42,
+    "letter": "T"
+  },
+  {
+    "samoan": "tafatafa",
+    "english": "the side of, beside",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "taga",
+    "english": "allowed, may",
+    "chapter": 30,
+    "letter": "T"
+  },
+  {
+    "samoan": "tagata",
+    "english": "person",
+    "chapter": 7,
+    "letter": "T"
+  },
+  {
+    "samoan": "tagi",
+    "english": "cry",
+    "chapter": 3,
+    "letter": "T"
+  },
+  {
+    "samoan": "tago",
+    "english": "touch",
+    "chapter": 48,
+    "letter": "T"
+  },
+  {
+    "samoan": "tai",
+    "english": "the direction towards the sea; the sea, the seaside",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "taʻi-",
+    "english": "the prefix on a number that spreads it over each one",
+    "chapter": 50,
+    "letter": "T"
+  },
+  {
+    "samoan": "taʻi=",
+    "english": "it goes on the front of a number word and spreads that number out, so many to each",
+    "chapter": 44,
+    "letter": "T"
+  },
+  {
+    "samoan": "taimi",
+    "english": "time",
+    "chapter": 17,
+    "letter": "T"
+  },
+  {
+    "samoan": "taʻita",
+    "english": "the everyday-speech form of *ʻita*",
+    "chapter": 51,
+    "letter": "T"
+  },
+  {
+    "samoan": "tala",
+    "english": "story",
+    "chapter": 9,
+    "letter": "T"
+  },
+  {
+    "samoan": "tala ane",
+    "english": "the space next to, alongside",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "tala atu",
+    "english": "the side away from the speaker, beyond",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "tala mai",
+    "english": "the side facing the speaker, this side",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "talatalanoa",
+    "english": "talk, chat",
+    "chapter": 44,
+    "letter": "T"
+  },
+  {
+    "samoan": "tali",
+    "english": "answer",
+    "chapter": 16,
+    "letter": "T"
+  },
+  {
+    "samoan": "taliga",
+    "english": "ear",
+    "chapter": 45,
+    "letter": "T"
+  },
+  {
+    "samoan": "talo",
+    "english": "taro",
+    "chapter": 27,
+    "letter": "T"
+  },
+  {
+    "samoan": "tālofa",
+    "english": "hello; feel sympathy",
+    "chapter": 9,
+    "letter": "T"
+  },
+  {
+    "samoan": "talu",
+    "english": "the since-word: it stands at the head with a clause after it and says what the time is counted from",
+    "chapter": 44,
+    "letter": "T"
+  },
+  {
+    "samoan": "talu ai",
+    "english": "*talu* with the pointing-back word behind it: after a word for a stretch of time it gives \"last\" or \"later\"",
+    "chapter": 44,
+    "letter": "T"
+  },
+  {
+    "samoan": "tama",
+    "english": "boy",
+    "chapter": 7,
+    "letter": "T"
+  },
+  {
+    "samoan": "tamā",
+    "english": "father",
+    "chapter": 15,
+    "letter": "T"
+  },
+  {
+    "samoan": "tamaitai",
+    "english": "lady",
+    "chapter": 6,
+    "letter": "T"
+  },
+  {
+    "samoan": "tamaitiiti",
+    "english": "boy, child",
+    "chapter": 47,
+    "letter": "T"
+  },
+  {
+    "samoan": "tamāloa",
+    "english": "man, married man",
+    "chapter": 19,
+    "letter": "T"
+  },
+  {
+    "samoan": "tamaoaiga",
+    "english": "wealth",
+    "chapter": 43,
+    "letter": "T"
+  },
+  {
+    "samoan": "tamoe",
+    "english": "run",
+    "chapter": 49,
+    "letter": "T"
+  },
+  {
+    "samoan": "tao",
+    "english": "spear",
+    "chapter": 25,
+    "letter": "T"
+  },
+  {
+    "samoan": "tāʻoto",
+    "english": "lie (down)",
+    "chapter": 29,
+    "letter": "T"
+  },
+  {
+    "samoan": "tapē",
+    "english": "kill",
+    "chapter": 34,
+    "letter": "T"
+  },
+  {
+    "samoan": "tapuni",
+    "english": "shut",
+    "chapter": 5,
+    "letter": "T"
+  },
+  {
+    "samoan": "tasi",
+    "english": "one",
+    "chapter": 22,
+    "letter": "T"
+  },
+  {
+    "samoan": "tatala",
+    "english": "open",
+    "chapter": 27,
+    "letter": "T"
+  },
+  {
+    "samoan": "tatalo",
+    "english": "pray",
+    "chapter": 28,
+    "letter": "T"
+  },
+  {
+    "samoan": "tatau",
+    "english": "fit, proper",
+    "chapter": 28,
+    "letter": "T"
+  },
+  {
+    "samoan": "tatau",
+    "english": "the obligation word: necessary, must. Met earlier as \"fit, proper\"; here it takes a complement clause after *ona*",
+    "chapter": 30,
+    "letter": "T"
+  },
+  {
+    "samoan": "tātou",
+    "english": "we (you and I, and others)",
+    "chapter": 2,
+    "letter": "T"
+  },
+  {
+    "samoan": "tau",
+    "english": "reach",
+    "chapter": 3,
+    "letter": "T"
+  },
+  {
+    "samoan": "taʻu",
+    "english": "tell",
+    "chapter": 20,
+    "letter": "T"
+  },
+  {
+    "samoan": "taua",
+    "english": "precious, important",
+    "chapter": 46,
+    "letter": "T"
+  },
+  {
+    "samoan": "tauaso",
+    "english": "blind",
+    "chapter": 4,
+    "letter": "T"
+  },
+  {
+    "samoan": "taufi",
+    "english": "cover",
+    "chapter": 43,
+    "letter": "T"
+  },
+  {
+    "samoan": "taugatā",
+    "english": "expensive",
+    "chapter": 40,
+    "letter": "T"
+  },
+  {
+    "samoan": "taugōfie",
+    "english": "cheap",
+    "chapter": 40,
+    "letter": "T"
+  },
+  {
+    "samoan": "taulealea",
+    "english": "young man",
+    "chapter": 46,
+    "letter": "T"
+  },
+  {
+    "samoan": "taumafai",
+    "english": "try",
+    "chapter": 24,
+    "letter": "T"
+  },
+  {
+    "samoan": "taunuʻu",
+    "english": "arrive, reach",
+    "chapter": 36,
+    "letter": "T"
+  },
+  {
+    "samoan": "tausaga",
+    "english": "year",
+    "chapter": 8,
+    "letter": "T"
+  },
+  {
+    "samoan": "tausi",
+    "english": "take care of",
+    "chapter": 21,
+    "letter": "T"
+  },
+  {
+    "samoan": "tautala",
+    "english": "talk, speak",
+    "chapter": 14,
+    "letter": "T"
+  },
+  {
+    "samoan": "te",
+    "english": "the shape the general particle takes right after a pronoun",
+    "chapter": 13,
+    "letter": "T"
+  },
+  {
+    "samoan": "te",
+    "english": "the general particle in its after-a-pronoun shape, met earlier: it stands between a preverbal pronoun and *leʻi*",
+    "chapter": 36,
+    "letter": "T"
+  },
+  {
+    "samoan": "te",
+    "english": "the general particle, met earlier: at the head of a clause following the main clause it marks purpose, and it takes the shape *te* after a preverbal pronoun",
+    "chapter": 38,
+    "letter": "T"
+  },
+  {
+    "samoan": "tei",
+    "english": "little sister, small sibling",
+    "chapter": 24,
+    "letter": "T"
+  },
+  {
+    "samoan": "teine",
+    "english": "girl",
+    "chapter": 6,
+    "letter": "T"
+  },
+  {
+    "samoan": "teineitiiti",
+    "english": "girl",
+    "chapter": 47,
+    "letter": "T"
+  },
+  {
+    "samoan": "tele",
+    "english": "big, many",
+    "chapter": 42,
+    "letter": "T"
+  },
+  {
+    "samoan": "tīgā",
+    "english": "with an *ona* clause after it, says although, expressing a negative idea",
+    "chapter": 49,
+    "letter": "T"
+  },
+  {
+    "samoan": "tīgā",
+    "english": "painful, distressing",
+    "chapter": 49,
+    "letter": "T"
+  },
+  {
+    "samoan": "tilotilo",
+    "english": "watch, look",
+    "chapter": 38,
+    "letter": "T"
+  },
+  {
+    "samoan": "timu",
+    "english": "to rain (the weather word)",
+    "chapter": 1,
+    "letter": "T"
+  },
+  {
+    "samoan": "tina",
+    "english": "mother",
+    "chapter": 17,
+    "letter": "T"
+  },
+  {
+    "samoan": "tino",
+    "english": "body",
+    "chapter": 7,
+    "letter": "T"
+  },
+  {
+    "samoan": "to",
+    "english": "hole",
+    "chapter": 8,
+    "letter": "T"
+  },
+  {
+    "samoan": "toʻa",
+    "english": "the counting prefix for people: usually put in front of a number when what you count is human beings",
+    "chapter": 22,
+    "letter": "T"
+  },
+  {
+    "samoan": "toʻa-",
+    "english": "the prefix on a number that counts human beings",
+    "chapter": 50,
+    "letter": "T"
+  },
+  {
+    "samoan": "toeaʻina",
+    "english": "old man",
+    "chapter": 19,
+    "letter": "T"
+  },
+  {
+    "samoan": "tōfā",
+    "english": "goodbye",
+    "chapter": 9,
+    "letter": "T"
+  },
+  {
+    "samoan": "toga",
+    "english": "South",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "tolu",
+    "english": "three",
+    "chapter": 22,
+    "letter": "T"
+  },
+  {
+    "samoan": "tonu",
+    "english": "right, correct",
+    "chapter": 28,
+    "letter": "T"
+  },
+  {
+    "samoan": "totoga",
+    "english": "internal organs",
+    "chapter": 32,
+    "letter": "T"
+  },
+  {
+    "samoan": "totonu",
+    "english": "inside",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "tū",
+    "english": "stand",
+    "chapter": 28,
+    "letter": "T"
+  },
+  {
+    "samoan": "tua",
+    "english": "back, behind",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "tuāʻau",
+    "english": "the space behind the reef",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "tuāfale",
+    "english": "the space behind the house",
+    "chapter": 26,
+    "letter": "T"
+  },
+  {
+    "samoan": "tuagane",
+    "english": "brother (of a woman)",
+    "chapter": 29,
+    "letter": "T"
+  },
+  {
+    "samoan": "tulafono",
+    "english": "law",
+    "chapter": 28,
+    "letter": "T"
+  },
+  {
+    "samoan": "tuli",
+    "english": "deaf",
+    "chapter": 45,
+    "letter": "T"
+  },
+  {
+    "samoan": "tupu",
+    "english": "happen",
+    "chapter": 14,
+    "letter": "T"
+  },
+  {
+    "samoan": "tusa",
+    "english": "equal, the same, in accordance with: it heads a clause of comparison and takes *ma* before what is compared",
+    "chapter": 31,
+    "letter": "T"
+  },
+  {
+    "samoan": "tusa",
+    "english": "the same, met earlier: with a question clause after it, says even if, whether ... or, or whatever and wherever",
+    "chapter": 49,
+    "letter": "T"
+  },
+  {
+    "samoan": "tusi",
+    "english": "letter, book (also: write)",
+    "chapter": 14,
+    "letter": "T"
+  },
+  {
+    "samoan": "tusitusi",
+    "english": "write",
+    "chapter": 13,
+    "letter": "T"
+  },
+  {
+    "samoan": "tuʻu",
+    "english": "leave, put, place",
+    "chapter": 36,
+    "letter": "T"
+  },
+  {
+    "samoan": "ʻua",
+    "english": "the change particle: says something has changed and a new state is usually in place now",
+    "chapter": 4,
+    "letter": "U"
+  },
+  {
+    "samoan": "uafu",
+    "english": "wharf",
+    "chapter": 17,
+    "letter": "U"
+  },
+  {
+    "samoan": "uamea",
+    "english": "steel, iron",
+    "chapter": 42,
+    "letter": "U"
+  },
+  {
+    "samoan": "ui",
+    "english": "granted: *e ui* with an *ina* clause, or with a noun phrase opened by *i* or *ʻo*, says although or in spite of",
+    "chapter": 49,
+    "letter": "U"
+  },
+  {
+    "samoan": "ula",
+    "english": "necklace",
+    "chapter": 46,
+    "letter": "U"
+  },
+  {
+    "samoan": "ulaula",
+    "english": "smoke",
+    "chapter": 30,
+    "letter": "U"
+  },
+  {
+    "samoan": "ulavai",
+    "english": "prawn",
+    "chapter": 8,
+    "letter": "U"
+  },
+  {
+    "samoan": "uli",
+    "english": "black (said of more than one)",
+    "chapter": 19,
+    "letter": "U"
+  },
+  {
+    "samoan": "uliuli",
+    "english": "black",
+    "chapter": 14,
+    "letter": "U"
+  },
+  {
+    "samoan": "ulu",
+    "english": "head",
+    "chapter": 10,
+    "letter": "U"
+  },
+  {
+    "samoan": "uluaʻi",
+    "english": "first, placed in front of the noun (the same meaning as *muamua*)",
+    "chapter": 22,
+    "letter": "U"
+  },
+  {
+    "samoan": "ulugāliʻi",
+    "english": "couple",
+    "chapter": 12,
+    "letter": "U"
+  },
+  {
+    "samoan": "ʻuma",
+    "english": "be finished",
+    "chapter": 34,
+    "letter": "U"
+  },
+  {
+    "samoan": "umu",
+    "english": "oven; oven-food",
+    "chapter": 16,
+    "letter": "U"
+  },
+  {
+    "samoan": "uō",
+    "english": "friend",
+    "chapter": 7,
+    "letter": "U"
+  },
+  {
+    "samoan": "uō",
+    "english": "met earlier as a noun, friend; in the verb slot, be friends",
+    "chapter": 47,
+    "letter": "U"
+  },
+  {
+    "samoan": "uosi",
+    "english": "waltz",
+    "chapter": 39,
+    "letter": "U"
+  },
+  {
+    "samoan": "ʻupu",
+    "english": "word",
+    "chapter": 7,
+    "letter": "U"
+  },
+  {
+    "samoan": "usitaʻi",
+    "english": "obey",
+    "chapter": 39,
+    "letter": "U"
+  },
+  {
+    "samoan": "uso",
+    "english": "sibling: a man's brother, a woman's sister",
+    "chapter": 30,
+    "letter": "U"
+  },
+  {
+    "samoan": "usu",
+    "english": "rise, stand up",
+    "chapter": 36,
+    "letter": "U"
+  },
+  {
+    "samoan": "uta",
+    "english": "the direction inland; inland",
+    "chapter": 26,
+    "letter": "U"
+  },
+  {
+    "samoan": "vaʻa",
+    "english": "boat, canoe",
+    "chapter": 20,
+    "letter": "V"
+  },
+  {
+    "samoan": "vaai",
+    "english": "see",
+    "chapter": 4,
+    "letter": "V"
+  },
+  {
+    "samoan": "vaalele",
+    "english": "airplane",
+    "chapter": 33,
+    "letter": "V"
+  },
+  {
+    "samoan": "vae",
+    "english": "leg, foot",
+    "chapter": 10,
+    "letter": "V"
+  },
+  {
+    "samoan": "vaega",
+    "english": "section, part",
+    "chapter": 32,
+    "letter": "V"
+  },
+  {
+    "samoan": "vai",
+    "english": "water",
+    "chapter": 13,
+    "letter": "V"
+  },
+  {
+    "samoan": "vaiaso",
+    "english": "week",
+    "chapter": 20,
+    "letter": "V"
+  },
+  {
+    "samoan": "vaitafe",
+    "english": "river",
+    "chapter": 37,
+    "letter": "V"
+  },
+  {
+    "samoan": "vaivai",
+    "english": "be weak, be tired",
+    "chapter": 35,
+    "letter": "V"
+  },
+  {
+    "samoan": "valaʻau",
+    "english": "call",
+    "chapter": 12,
+    "letter": "V"
+  },
+  {
+    "samoan": "valu",
+    "english": "eight",
+    "chapter": 22,
+    "letter": "V"
+  },
+  {
+    "samoan": "vao",
+    "english": "weeds, bush",
+    "chapter": 11,
+    "letter": "V"
+  },
+  {
+    "samoan": "vasega",
+    "english": "class",
+    "chapter": 16,
+    "letter": "V"
+  },
+  {
+    "samoan": "vave",
+    "english": "quick, soon",
+    "chapter": 5,
+    "letter": "V"
+  },
+  {
+    "samoan": "velo",
+    "english": "hurl a spear (at someone)",
+    "chapter": 35,
+    "letter": "V"
+  },
+  {
+    "samoan": "vevela",
+    "english": "hot",
+    "chapter": 4,
+    "letter": "V"
+  },
+  {
+    "samoan": "vili",
+    "english": "rotate, spin",
+    "chapter": 11,
+    "letter": "V"
+  },
+  {
+    "samoan": "vivini",
+    "english": "crow, of a rooster",
+    "chapter": 44,
+    "letter": "V"
+  }
+]
