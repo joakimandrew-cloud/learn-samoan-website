@@ -127,21 +127,21 @@ its slot in front of a verb. The full pattern for saying who or what something
 is comes later in this book. For now, carry *ʻo aʻu* and *ʻo ʻoe* as ready-made
 ways to say "it is me" and "it is you".
 
-### Pronouns After *Ia Te*
+### Pronouns After *ʻia te*
 
 The other job is standing after the word that points toward people and places.
 In front of a person-word that word has a shape of its own: the pronoun takes
-its independent form and the word appears as *ia te*:
+its independent form and the word appears as *ʻia te*:
 
 ::: {.examples}
-*ia te aʻu*. to me, towards me
+*ʻia te aʻu*. to me, towards me
 
-*ia te ʻoe*. to you, towards you
+*ʻia te ʻoe*. to you, towards you
 :::
 
 Once more the independent forms *aʻu* and *ʻoe* do work the middle-slot forms
 cannot. The place words that point toward people and places are taught in full
-later in this book; *ia te aʻu* and *ia te ʻoe* are the pieces you need now.
+later in this book; *ʻia te aʻu* and *ʻia te ʻoe* are the pieces you need now.
 
 > **Preview:** Alongside the everyday "I", Samoan carries a second first-person
 > form that colours a sentence with feeling, used to show humility or to appeal
@@ -184,7 +184,7 @@ The independent forms and the two words that call for them:
 | *aʻu* | me (the independent form of "I") |
 | *ʻoe* | you (the independent form of "you") |
 | *ʻo* | the presenting word: puts forward who it is |
-| *ia te* | the form the place word takes before a person-word |
+| *ʻia te* | the form the place word takes before a person-word |
 
 **New vocabulary** (memorize these meanings):
 
@@ -293,6 +293,6 @@ Choose *tātou* or
 
 1. *ʻO aʻu.*
 2. *ʻO ʻoe.*
-3. *ia te aʻu*
-4. *ia te ʻoe*
+3. *ʻia te aʻu*
+4. *ʻia te ʻoe*
 5. It is me.

@@ -3,7 +3,7 @@
 This chapter expands the past particle + pronoun + verb pattern by adding the
 verb phrase's two modifier slots, and shows that the words which describe an
 action are themselves verbs. A describing verb follows the action verb, as in
-*Sā ʻou foi fiafia* ("I returned happily"); the want word *fia* stands before
+*Sā ʻou foʻi fiafia* ("I returned happily"); the want word *fia* stands before
 it, as in *Sā ʻou fia alu* ("I wanted to go").
 
 ---
@@ -13,23 +13,23 @@ it, as in *Sā ʻou fia alu* ("I wanted to go").
 Compare the sentence taught already with the same sentence plus one word:
 
 ::: {.examples}
-*Sā ʻou foi.* I returned.
+*Sā ʻou foʻi.* I returned.
 
-*Sā ʻou foi fiafia.* I returned happily.
+*Sā ʻou foʻi fiafia.* I returned happily.
 :::
 
 Compare them. Which word is new, and what does it add?
 
-The new word is *fiafia*, and it sits straight after the verb. *Foi* means
+The new word is *fiafia*, and it sits straight after the verb. *Foʻi* means
 "return"; *fiafia* means "happy", and here it tells you how the returning was
 done: happily, in a glad way. Nothing else in the sentence moved. The past
 particle *sā* still stands first, the person word *ʻou* still sits in the middle,
-and the action verb *foi* still leads the pair. The describing word follows
+and the action verb *foʻi* still leads the pair. The describing word follows
 it.
 
 In English, words like "happy" and "strong" are adjectives, a separate kind of
 word from verbs. In Samoan, the words that describe an action are themselves
-verbs, the same kind of word as *alu* and *foi*. So *fiafia* (happy) is a verb,
+verbs, the same kind of word as *alu* and *foʻi*. So *fiafia* (happy) is a verb,
 and when it follows another verb it does a describing job: it says how the
 action was done.
 
@@ -38,13 +38,13 @@ the frame you know:
 
 | Samoan | English |
 |---|---|
-| *Sā ʻou foi fiafia.* | I returned happily. |
+| *Sā ʻou foʻi fiafia.* | I returned happily. |
 | *Sā ia siva fiafia.* | She danced happily. |
 | *Sā ʻe eva fiafia.* | You strolled happily. |
-| *Sā ia tagi malosi.* | She cried hard. |
+| *Sā ia tagi mālosi.* | She cried hard. |
 | *Sā ʻoutou siva lelei.* | You all danced well. |
 
-*Malosi* means "strong", and after an action verb it says the action was done
+*Mālosi* means "strong", and after an action verb it says the action was done
 with strength, which is the job it is doing in the fourth sentence above.
 *Lelei*, the word for "good" you already carry, does the same describing job in
 the fifth, and the same is true of the word for "happy" in the first three. A
@@ -81,7 +81,7 @@ comes before it. The same order holds for every verb taught so far, down to
 | *Sā ʻou fia alu.* | I wanted to go. |
 | *Sā ia fia siva.* | She wanted to dance. |
 | *Sā mātou fia fāgota.* | We wanted to go fishing. |
-| *Sā ʻe fia foi.* | You wanted to return. |
+| *Sā ʻe fia foʻi.* | You wanted to return. |
 | *Sā ʻou fia fesili.* | I wanted to ask. |
 
 > **Preview:** With the past particle *sā*, *fia* says "wanted". To say "want" as
@@ -105,8 +105,8 @@ comes before it. The same order holds for every verb taught so far, down to
 | Word | Meaning |
 |---|---|
 | *fiafia* | happy, glad (after a verb: happily) |
-| *malosi* | strong (after a verb: hard, with strength) |
-| *foi* | return |
+| *mālosi* | strong (after a verb: hard, with strength) |
+| *foʻi* | return |
 | *tagi* | cry |
 | *fesili* | ask |
 
@@ -130,10 +130,10 @@ means "almost", so meet it here as "reach" and expect the others in time.
 ### Exercise 1: Translate into English
 
 1. *Sā ia siva fiafia.*
-2. *Sā ia tagi malosi.*
+2. *Sā ia tagi mālosi.*
 3. *Sā ʻou fia alu.*
 4. *Sā ʻe eva fiafia.*
-5. *Sā ʻe fia foi.*
+5. *Sā ʻe fia foʻi.*
 
 ### Exercise 2: Translate into Samoan
 
@@ -149,8 +149,8 @@ Rewrite each sentence with the describing
 verb in brackets in its correct place.
 
 1. *Sā ia siva.* (fiafia)
-2. *Sā ia tagi.* (malosi)
-3. *Sā ʻou foi.* (fiafia)
+2. *Sā ia tagi.* (mālosi)
+3. *Sā ʻou foʻi.* (fiafia)
 4. *Sā ʻe eva.* (fiafia)
 5. *Sā ʻoutou siva.* (lelei)
 
@@ -162,7 +162,7 @@ wanted, not done.
 1. *Sā ia alu.* (She wanted to go.)
 2. *Sā mātou fāgota.* (We wanted to go fishing.)
 3. *Sā ʻe siva.* (You wanted to dance.)
-4. *Sā ʻou foi.* (I wanted to return.)
+4. *Sā ʻou foʻi.* (I wanted to return.)
 5. *Sā lātou alu.* (They wanted to go.)
 
 ### Exercise 5: Before or after?
@@ -170,9 +170,9 @@ wanted, not done.
 In each sentence one word is out of place for the meaning given. Write
 the corrected sentence.
 
-1. *Sā ʻou fiafia foi.* (meaning: I returned happily)
+1. *Sā ʻou fiafia foʻi.* (meaning: I returned happily)
 2. *Sā ia siva fia.* (meaning: She wanted to dance)
-3. *Sā mātou malosi tagi.* (meaning: We cried hard)
+3. *Sā mātou mālosi tagi.* (meaning: We cried hard)
 
 ---
 
@@ -188,7 +188,7 @@ the corrected sentence.
 
 ### Exercise 2
 
-1. *Sā ʻou foi fiafia.*
+1. *Sā ʻou foʻi fiafia.*
 2. *Sā ia fia siva.*
 3. *Sā ʻoutou siva lelei.*
 4. *Sā mātou fia fāgota.*
@@ -197,8 +197,8 @@ the corrected sentence.
 ### Exercise 3
 
 1. *Sā ia siva fiafia.*
-2. *Sā ia tagi malosi.*
-3. *Sā ʻou foi fiafia.*
+2. *Sā ia tagi mālosi.*
+3. *Sā ʻou foʻi fiafia.*
 4. *Sā ʻe eva fiafia.*
 5. *Sā ʻoutou siva lelei.*
 
@@ -207,11 +207,11 @@ the corrected sentence.
 1. *Sā ia fia alu.*
 2. *Sā mātou fia fāgota.*
 3. *Sā ʻe fia siva.*
-4. *Sā ʻou fia foi.*
+4. *Sā ʻou fia foʻi.*
 5. *Sā lātou fia alu.*
 
 ### Exercise 5
 
-1. *Sā ʻou foi fiafia.* (the describing verb *fiafia* comes after the action verb *foi*)
+1. *Sā ʻou foʻi fiafia.* (the describing verb *fiafia* comes after the action verb *foʻi*)
 2. *Sā ia fia siva.* (the wanting word *fia* comes before the action verb *siva*)
-3. *Sā mātou tagi malosi.* (the describing verb *malosi* comes after the action verb *tagi*)
+3. *Sā mātou tagi mālosi.* (the describing verb *mālosi* comes after the action verb *tagi*)

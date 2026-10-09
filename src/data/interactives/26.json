@@ -16,7 +16,7 @@
             "label": "Behind",
             "cells": [
               {
-                "sm": "ʻO le laau i tua o le fale.",
+                "sm": "ʻO le lāʻau ʻi tua o le fale.",
                 "en": "The tree behind the house."
               }
             ]
@@ -25,7 +25,7 @@
             "label": "In front",
             "cells": [
               {
-                "sm": "ʻO le taʻavale i luma o le fale.",
+                "sm": "ʻO le taʻavale ʻi luma o le fale.",
                 "en": "The car in front of the house."
               }
             ]
@@ -34,7 +34,7 @@
             "label": "Under",
             "cells": [
               {
-                "sm": "ʻO le pusi i lalo o le fale.",
+                "sm": "ʻO le pusi ʻi lalo o le fale.",
                 "en": "The cat under the house."
               }
             ]
@@ -43,7 +43,7 @@
             "label": "On",
             "cells": [
               {
-                "sm": "ʻO le ipu i luga o le fala.",
+                "sm": "ʻO le ipu ʻi luga o le fala.",
                 "en": "The cup on the mat."
               }
             ]
@@ -52,7 +52,7 @@
             "label": "Inside",
             "cells": [
               {
-                "sm": "ʻO le naifi i totonu o le ato.",
+                "sm": "ʻO le naifi ʻi totonu o le ʻato.",
                 "en": "The knife inside the basket."
               }
             ]

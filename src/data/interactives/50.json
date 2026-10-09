@@ -17,7 +17,7 @@
             "label": "*=ga*",
             "cells": [
               {
-                "sm": "sāvali",
+                "sm": "savali",
                 "en": "walk"
               },
               {
@@ -31,11 +31,11 @@
             "label": "*=a*",
             "cells": [
               {
-                "sm": "eleele",
+                "sm": "ʻeleʻele",
                 "en": "earth, soil, dirt"
               },
               {
-                "sm": "eleelea",
+                "sm": "ʻeleʻelea",
                 "en": "dirty",
                 "note": "The noun becomes a describing verb: affected by the thing the noun names."
               }
@@ -91,7 +91,7 @@
                 "en": "morning"
               },
               {
-                "sm": "ʻātaeao",
+                "sm": "ātaeao",
                 "en": "tomorrow morning"
               }
             ]
@@ -190,7 +190,7 @@
             "why": "The prefix and ending together give the one-another reading."
           },
           {
-            "sm": "eleelea",
+            "sm": "ʻeleʻelea",
             "answer": "affected",
             "why": "The noun becomes a describing verb: affected by the dirt the noun names."
           }

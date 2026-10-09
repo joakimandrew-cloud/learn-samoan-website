@@ -62,11 +62,11 @@ always is. A father is an *o*-word noun, so after *si* he takes *oʻu*, the
 ### Amounts
 
 ::: {.examples}
-*si sileni*. the shilling
+*si sēleni*. the shilling
 :::
 
 *Si* also stands in front of a noun naming an amount, money especially, as it
-does above in front of *sileni* (shilling). There it can show that the speaker
+does above in front of *sēleni* (shilling). There it can show that the speaker
 regards the amount as small or modest, or wants to give the impression of
 regarding it that way. The phrase above names one
 shilling and presents it as a modest sum. The same use can be turned around and
@@ -230,7 +230,7 @@ again after the verb, and then both words are emotional forms.
 ### Mixing the Two Sets
 
 ::: {.examples}
-*ʻUa ta sesē lava i loʻu loto.* In my heart I was wrong.
+*ʻUa ta sesē lava ʻi loʻu loto.* In my heart I was wrong.
 :::
 
 A speaker who reaches for the emotional forms normally keeps to them across the
@@ -317,10 +317,10 @@ is the speaker's involvement, the same thing *ta* adds in the middle slot.
 | *amo* | carry, yoke |
 | *aʻa* | kick |
 | *fanua* | land, property |
-| *laulu* | hair |
+| *lauulu* | hair |
 | *polo* | ball |
 | *sesē* | wrong |
-| *sileni* | shilling |
+| *sēleni* | shilling |
 
 ---
 
@@ -356,7 +356,7 @@ speaker has a particular one in mind.
 2. *nāi tama*
 3. *ni nāi maile*
 4. *sina meaʻai*
-5. *si sileni*
+5. *si sēleni*
 6. *ota fale*
 7. *sata taʻavale*
 8. *ni ata taʻavale*
@@ -379,10 +379,10 @@ name each place and what the form means there.
 2. *amo*
 3. *aʻa*
 4. *fanua*
-5. *laulu*
+5. *lauulu*
 6. *polo*
 7. *sesē*
-8. *sileni*
+8. *sēleni*
 
 a. ball
 b. hair

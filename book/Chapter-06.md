@@ -36,11 +36,11 @@ named one particular, single thing. It keeps the same shape in front of any noun
 | Samoan | English |
 |---|---|
 | *le teine* | the girl |
-| *le tamaitai* | the lady |
-| *le agelu* | the angel |
+| *le tamaʻitaʻi* | the lady |
+| *le ʻāgelu* | the angel |
 | *le ipu* | the cup |
 | *le mea* | the thing |
-| *le laau* | the tree |
+| *le lāʻau* | the tree |
 
 A noun phrase built with *le* can do the work a person-word did in the earlier
 chapters. It can name who did something:
@@ -63,7 +63,7 @@ Swap the verb, and the same doer takes a different action:
 ::: {.examples}
 *Sā siva le teine.* The girl danced.
 
-*Sā nofo le tamaitai.* The lady stayed.
+*Sā nofo le tamaʻitaʻi.* The lady stayed.
 :::
 
 ---
@@ -126,13 +126,13 @@ things: the specific plural is marked by the absence of *le*. The bare noun,
 with no article at all, is the plural.
 
 ::: {.examples}
-*le laau*. the tree
+*le lāʻau*. the tree
 
-*laau*. the trees
+*lāʻau*. the trees
 :::
 
 Number rides on the article, almost never on the noun. The noun *teine* is the
-same whether it is one girl or many; *laau* is the same for one tree or a forest. What
+same whether it is one girl or many; *lāʻau* is the same for one tree or a forest. What
 tells you the number is almost always the slot in front of the noun, not the
 noun itself.
 
@@ -183,11 +183,11 @@ speaks of many:
 | Word | Meaning |
 |---|---|
 | *teine* | girl |
-| *tamaitai* | lady |
-| *agelu* | angel |
+| *tamaʻitaʻi* | lady |
+| *ʻāgelu* | angel |
 | *ipu* | cup |
 | *mea* | thing |
-| *laau* | tree (the bare form *laau* is itself the plural, "trees", while one tree is *le laau*) |
+| *lāʻau* | tree (the bare form *lāʻau* is itself the plural, "trees", while one tree is *le lāʻau*) |
 
 ---
 
@@ -198,8 +198,8 @@ speaks of many:
 1. *le ipu*
 2. *ni teine*
 3. *se mea*
-4. *laau*
-5. *le tamaitai*
+4. *lāʻau*
+5. *le tamaʻitaʻi*
 
 ### Exercise 2: Translate into Samoan
 
@@ -215,7 +215,7 @@ Each phrase names one particular thing. Rewrite it to name many, keeping it
 specific.
 
 1. *le teine*
-2. *le laau*
+2. *le lāʻau*
 3. *le ipu*
 
 ### Exercise 4: Choose *le* or *se*
@@ -229,7 +229,7 @@ Put *le* or *se* in the gap so the Samoan matches the English.
 ### Exercise 5: Translate into English
 
 1. *Sā alu le teine.*
-2. *Sā nofo le tamaitai.*
+2. *Sā nofo le tamaʻitaʻi.*
 3. *ʻAumai ni ipu.*
 4. *Sā fiafia teine.*
 
@@ -247,16 +247,16 @@ Put *le* or *se* in the gap so the Samoan matches the English.
 
 ### Exercise 2
 
-1. *le agelu*
+1. *le ʻāgelu*
 2. *se ipu*
-3. *laau*
+3. *lāʻau*
 4. *ni mea*
 5. *le teine*
 
 ### Exercise 3
 
 1. *teine*
-2. *laau*
+2. *lāʻau*
 3. *ipu*
 
 ### Exercise 4

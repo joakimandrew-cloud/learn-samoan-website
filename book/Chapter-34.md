@@ -11,9 +11,9 @@ pointing-back word *ai* both answer to that move.
 ## Moving the Doer to the Front
 
 ::: {.examples}
-*Sā gālue le tama i le faʻatoʻaga.* The boy worked in the plantation.
+*Sā galue le tama ʻi le faʻatoʻaga.* The boy worked in the plantation.
 
-*ʻO le tama sā gālue i le faʻatoʻaga.* The boy worked in the plantation. (Lit. "Presenting the boy, past work in the plantation.")
+*ʻO le tama sā galue ʻi le faʻatoʻaga.* The boy worked in the plantation. (Lit. "Presenting the boy, past work in the plantation.")
 :::
 
 Compare them, and ask which of the words has moved.
@@ -36,8 +36,8 @@ with that phrase's ordinary slot left empty.
 
 | Samoan | English |
 |---|---|
-| *ʻO le tama sā gālue i le faʻatoʻaga.* | The boy worked in the plantation. |
-| *ʻO le teine sā gālue i le faʻatoʻaga.* | The girl worked in the plantation. |
+| *ʻO le tama sā galue ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
+| *ʻO le teine sā galue ʻi le faʻatoʻaga.* | The girl worked in the plantation. |
 | *ʻO le lotu ʻua ʻuma.* | The service is finished. |
 
 The last row is the same move on a shorter sentence, and here is the pair it
@@ -53,7 +53,7 @@ A doer put first can be said twice, once at the front and once in its ordinary
 middle slot:
 
 ::: {.examples}
-*ʻO aʻu ʻou te nofo i totonu o le fale.* I live inside the house.
+*ʻO aʻu ʻou te nofo ʻi totonu o le fale.* I live inside the house.
 :::
 
 *Aʻu* is the independent pronoun, the one held up at the front, and *ʻou* is the
@@ -117,9 +117,9 @@ there is one sentence here and English has two ways of saying it.
 What moves to the front is the whole phrase, however long it runs:
 
 ::: {.examples}
-*Na lagona e le tina le leo o le pepe.* The mother heard the voice of the baby.
+*Na lagona e le tinā le leo o le pepe.* The mother heard the voice of the baby.
 
-*ʻO le leo o le pepe na lagona e le tina.* The mother heard the voice of the baby.
+*ʻO le leo o le pepe na lagona e le tinā.* The mother heard the voice of the baby.
 :::
 
 The thing heard is *le leo o le pepe*, the voice of the baby, and all five words
@@ -144,7 +144,7 @@ presenting particle.
 :::
 
 *Soʻo se* means "any". It stands in front of the noun, and a phrase it heads
-carries neither *ʻo* nor the place word *i* when it goes first.
+carries neither *ʻo* nor the place word *ʻi* when it goes first.
 
 ::: {.examples}
 *Soʻo se tagata e tatau ona ʻaumai se falaoa.* Anybody should bring some bread.
@@ -154,7 +154,7 @@ carries neither *ʻo* nor the place word *i* when it goes first.
 article, *naʻo le tama*, and the phrase goes to the head of the sentence bare:
 
 ::: {.examples}
-*Naʻo le tama e nofo i totonu o le potu.* Only the boy is staying inside the room.
+*Naʻo le tama e nofo ʻi totonu o le potu.* Only the boy is staying inside the room.
 :::
 
 > *Note:* Samoan writers usually print *naʻo* as two words, *na o*. This book
@@ -166,12 +166,12 @@ article, *naʻo le tama*, and the phrase goes to the head of the sentence bare:
 
 A phrase saying where or when something happened can go to the front too. One
 way of doing it was taught earlier in this book: the phrase keeps the place word
-*i*, and the pointing-back word *ai* answers it from inside the verb phrase.
+*ʻi*, and the pointing-back word *ai* answers it from inside the verb phrase.
 
 ::: {.examples}
-*I le faʻatoʻaga sā gālue ai le tama.* In the plantation the boy worked there.
+*ʻi le faʻatoʻaga sā galue ai le tama.* In the plantation the boy worked there.
 
-*I le faʻatoʻaga sā gālue le tama.* In the plantation the boy worked.
+*ʻi le faʻatoʻaga sā galue le tama.* In the plantation the boy worked.
 :::
 
 *Ai* is normal here and not compulsory, as the second sentence shows.
@@ -180,7 +180,7 @@ The same setting can go first the other way, presented with *ʻo* in place of th
 place word:
 
 ::: {.examples}
-*ʻO le faʻatoʻaga sā gālue ai le tama.* The boy worked in the plantation. (Lit. "Presenting the plantation, past work there the boy.")
+*ʻO le faʻatoʻaga sā galue ai le tama.* The boy worked in the plantation. (Lit. "Presenting the plantation, past work there the boy.")
 :::
 
 The pointing-back word stands after the verb here as well. So a setting has two
@@ -189,10 +189,10 @@ doer, and *ai* appears in both.
 
 | Samoan | English |
 |---|---|
-| *Sā gālue le tama i le faʻatoʻaga.* | The boy worked in the plantation. |
-| *I le faʻatoʻaga sā gālue ai le tama.* | In the plantation the boy worked there. |
-| *I le faʻatoʻaga sā gālue le tama.* | In the plantation the boy worked. |
-| *ʻO le faʻatoʻaga sā gālue ai le tama.* | The boy worked in the plantation. |
+| *Sā galue le tama ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
+| *ʻi le faʻatoʻaga sā galue ai le tama.* | In the plantation the boy worked there. |
+| *ʻi le faʻatoʻaga sā galue le tama.* | In the plantation the boy worked. |
+| *ʻO le faʻatoʻaga sā galue ai le tama.* | The boy worked in the plantation. |
 
 ---
 
@@ -205,16 +205,16 @@ The first job is naming the topic. A phrase put first announces what the rest is
 going to be about, which is why Samoan stories so often open this way:
 
 ::: {.examples}
-*ʻO aʻu ʻou te nofo i totonu o le fale.* I live inside the house.
+*ʻO aʻu ʻou te nofo ʻi totonu o le fale.* I live inside the house.
 :::
 
 The second job is contrast. Set two sentences side by side, each with its person
 at the front, and the two people are set against each other:
 
 ::: {.examples}
-*ʻO aʻu na ʻou vaai i ai.* I saw it.
+*ʻO aʻu na ʻou vaʻai ʻi ai.* I saw it.
 
-*ʻO ʻoe e te leʻi vaai i ai.* You did not see it.
+*ʻO ʻoe ʻe te leʻi vaʻai ʻi ai.* You did not see it.
 :::
 
 The third job is weight on one word. Nothing else about *ʻO le tama sā tapē=ina
@@ -257,12 +257,12 @@ are settled, though. When the part being named is the speaker, it comes first:
 And when the part being named is a demonstrative, it must come second:
 
 ::: {.examples}
-*ʻO le faleoo lena.* That is the small house.
+*ʻO le faleoʻo lenā.* That is the small house.
 
-*ʻO se uō lena.* That is a friend.
+*ʻO se uō lenā.* That is a friend.
 :::
 
-*Lena* cannot lead, so the naming part comes first and the demonstrative follows
+*Lenā* cannot lead, so the naming part comes first and the demonstrative follows
 it, every time.
 
 | Samoan | English |
@@ -270,8 +270,8 @@ it, every time.
 | *ʻO se uō le tama.* | The boy is a friend. |
 | *ʻO le tama ʻo se uō.* | The boy is a friend. |
 | *ʻO aʻu ʻo se uō.* | I am a friend. |
-| *ʻO le faleoo lena.* | That is the small house. |
-| *ʻO se uō lena.* | That is a friend. |
+| *ʻO le faleoʻo lenā.* | That is the small house. |
+| *ʻO se uō lenā.* | That is a friend. |
 
 ---
 
@@ -283,7 +283,7 @@ it, every time.
 |---|---|
 | *ʻo* | the presenting particle, met earlier: at the head of a sentence it lifts a noun phrase out of its ordinary slot and holds it up |
 | *ai* | the pointing-back word, met earlier: it answers a setting put first, from inside the verb phrase |
-| *naʻo* | only: it goes in front of the article, and the phrase it heads takes no *ʻo* and no *i* at the front of a sentence |
+| *naʻo* | only: it goes in front of the article, and the phrase it heads takes no *ʻo* and no *ʻi* at the front of a sentence |
 | *soʻo se* | any: it goes in front of the noun, and behaves the same bare way at the front of a sentence |
 | *lea*, *ia* | the demonstrative that can point back to a thing acted on put first, *lea* for one and *ia* for more than one |
 
@@ -296,13 +296,13 @@ it, every time.
 | *ʻuma* | be finished |
 | *leaga* | bad |
 | *falaoa* | bread |
-| *faleoo* | a small house |
+| *faleoʻo* | a small house |
 | *faʻatoʻaga* | plantation |
 
 *Lagona* takes the agent marker, so the one who hears is marked with *e*:
 
 ::: {.examples}
-*Na lagona e le tina le leo o le pepe.* The mother heard the voice of the baby.
+*Na lagona e le tinā le leo o le pepe.* The mother heard the voice of the baby.
 :::
 
 *Leaga* is a verb, so it stands where the verb stands, and the thing it is said
@@ -320,13 +320,13 @@ of can be put first like any other:
 
 ### Exercise 1: Translate into English
 
-1. *ʻO le tama sā gālue i le faʻatoʻaga.*
+1. *ʻO le tama sā galue ʻi le faʻatoʻaga.*
 2. *ʻO le puaʻa sā tapē e le tama.*
 3. *ʻO le teine sā tatala=ina le faitotoʻa.*
-4. *ʻO le faʻatoʻaga sā gālue ai le tama.*
-5. *ʻO le faleoo lena.*
-6. *Naʻo le tama e nofo i totonu o le potu.*
-7. *ʻO le leo o le pepe na lagona e le tina.*
+4. *ʻO le faʻatoʻaga sā galue ai le tama.*
+5. *ʻO le faleoʻo lenā.*
+6. *Naʻo le tama e nofo ʻi totonu o le potu.*
+7. *ʻO le leo o le pepe na lagona e le tinā.*
 
 ### Exercise 2: Translate into Samoan
 
@@ -346,7 +346,7 @@ give the verb the shape that goes with it.
 2. *Sā tapē e le tama le puaʻa.* (the doer)
 3. *Sā tatala e le teine le faitotoʻa.* (the thing acted on)
 4. *Sā tatala e le teine le faitotoʻa.* (the doer)
-5. *Na lagona e le tina le leo o le pepe.* (the thing acted on)
+5. *Na lagona e le tinā le leo o le pepe.* (the thing acted on)
 
 ### Exercise 4: Which shape
 
@@ -361,11 +361,11 @@ and say which participant was put first.
 
 ### Exercise 5: Fill the gap
 
-Put *ʻo* or *i* into the gap so the Samoan matches the English.
+Put *ʻo* or *ʻi* into the gap so the Samoan matches the English.
 
-1. *___ le faʻatoʻaga sā gālue ai le tama.* (The boy worked in the plantation.)
-2. *___ aʻu ʻou te nofo i totonu o le fale.* (I live inside the house.)
-3. *___ le faʻatoʻaga sā gālue ai le tama.* (In the plantation the boy worked there.)
+1. *___ le faʻatoʻaga sā galue ai le tama.* (The boy worked in the plantation.)
+2. *___ aʻu ʻou te nofo ʻi totonu o le fale.* (I live inside the house.)
+3. *___ le faʻatoʻaga sā galue ai le tama.* (In the plantation the boy worked there.)
 4. *Naʻo le tama e nofo ___ totonu o le potu.* (Only the boy is staying inside the room.)
 5. *___ le lotu ʻua ʻuma.* (The service is finished.)
 
@@ -376,7 +376,7 @@ Put *ʻo* or *i* into the gap so the Samoan matches the English.
 3. *ʻuma*
 4. *leaga*
 5. *falaoa*
-6. *faleoo*
+6. *faleoʻo*
 7. *faʻatoʻaga*
 
 ---
@@ -395,11 +395,11 @@ Put *ʻo* or *i* into the gap so the Samoan matches the English.
 
 ### Exercise 2
 
-1. *ʻO le teine sā gālue i le faʻatoʻaga.*
+1. *ʻO le teine sā galue ʻi le faʻatoʻaga.*
 2. *ʻO le iʻa sā ʻai e le teine.*
 3. *ʻO le lotu ʻua ʻuma.*
-4. *ʻO se uō lena.*
-5. *ʻO aʻu ʻou te nofo i totonu o le fale.*
+4. *ʻO se uō lenā.*
+5. *ʻO aʻu ʻou te nofo ʻi totonu o le fale.*
 6. *Soʻo se tagata e tatau ona ʻaumai se falaoa.*
 
 ### Exercise 3
@@ -408,7 +408,7 @@ Put *ʻo* or *i* into the gap so the Samoan matches the English.
 2. *ʻO le tama sā tapē=ina le puaʻa.*
 3. *ʻO le faitotoʻa sā tatala e le teine.*
 4. *ʻO le teine sā tatala=ina le faitotoʻa.*
-5. *ʻO le leo o le pepe na lagona e le tina.*
+5. *ʻO le leo o le pepe na lagona e le tinā.*
 
 ### Exercise 4
 
@@ -420,10 +420,10 @@ Put *ʻo* or *i* into the gap so the Samoan matches the English.
 
 ### Exercise 5
 
-1. *ʻO le faʻatoʻaga sā gālue ai le tama.*
-2. *ʻO aʻu ʻou te nofo i totonu o le fale.*
-3. *I le faʻatoʻaga sā gālue ai le tama.*
-4. *Naʻo le tama e nofo i totonu o le potu.*
+1. *ʻO le faʻatoʻaga sā galue ai le tama.*
+2. *ʻO aʻu ʻou te nofo ʻi totonu o le fale.*
+3. *ʻi le faʻatoʻaga sā galue ai le tama.*
+4. *Naʻo le tama e nofo ʻi totonu o le potu.*
 5. *ʻO le lotu ʻua ʻuma.*
 
 ### Exercise 6

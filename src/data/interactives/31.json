@@ -11,19 +11,19 @@
         "states": [
           {
             "label": "A quality",
-            "sm": "E malosi le tama.",
+            "sm": "E mālosi le tama.",
             "en": "The boy is strong.",
             "note": "The quality word has its ordinary shape."
           },
           {
             "label": "A higher degree",
-            "sm": "E malosi atu le tama.",
+            "sm": "E mālosi atu le tama.",
             "en": "The boy is stronger.",
             "note": "*Atu* carries the comparative degree. The quality word keeps its shape."
           },
           {
             "label": "The other side named",
-            "sm": "E malosi atu le tama i lo le teine.",
+            "sm": "E mālosi atu le tama i lo le teine.",
             "en": "The boy is stronger than the girl.",
             "note": "The phrase with *i lo* comes last and names what the boy is compared with."
           }
@@ -50,7 +50,7 @@
         ],
         "prompts": [
           {
-            "sm": "Sā tautala le tama e pei sā i ai.",
+            "sm": "Sā tautala le tama e pei sā ʻi ai.",
             "answer": "like",
             "why": "*Pei* can compare with an imagined situation: as if he had been there."
           },

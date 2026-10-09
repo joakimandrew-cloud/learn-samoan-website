@@ -17,13 +17,13 @@
           },
           {
             "label": "Did not happen",
-            "sm": "ʻAna ʻe lē sau, semanū ʻou te alu atu.",
+            "sm": "ʻAna ʻe lē sau, sēmanū ʻou te alu atu.",
             "en": "Had you not come, I was probably going to go and see you.",
             "note": "The listener did come. The speaker imagines the not-coming instead."
           }
         ]
       },
-      "caption": "Three things change together: the if-word, the missing *te* in the condition, and *semanū* in the main clause. The condition after *ʻana* usually has no tense particle."
+      "caption": "Three things change together: the if-word, the missing *te* in the condition, and *sēmanū* in the main clause. The condition after *ʻana* usually has no tense particle."
     },
     {
       "id": "ch49-condition-second",
@@ -65,19 +65,19 @@
         ],
         "items": [
           {
-            "sm": "ʻOu te sāvali i le aoga seʻiloga e timu.",
+            "sm": "ʻOu te savali ʻi le āʻoga seʻiloga e timu.",
             "en": "I walk to school, unless it rains.",
             "bin": "unless",
             "why": "Rain is the exception that stops the walk from holding true."
           },
           {
-            "sm": "E ui ina faigatā le feau, ʻae ʻou te fiafia.",
+            "sm": "E ui ina faigatā le feʻau, ʻae ʻou te fiafia.",
             "en": "Although the task is difficult, I am happy.",
             "bin": "although",
             "why": "The happiness holds despite what the difficult task might lead someone to expect."
           },
           {
-            "sm": "Tīgā ona ʻou ole atu i loʻu tina, ʻae na lē mafai ona ʻou alu.",
+            "sm": "Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.",
             "en": "However much I begged my mother, I could not go.",
             "bin": "although",
             "why": "The main clause holds despite the begging. *Tīgā* presents the contrast as a negative idea."
@@ -114,7 +114,7 @@
           },
           {
             "label": "An open answer",
-            "sm": "E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo i ai.",
+            "sm": "E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo ʻi ai.",
             "en": "The boy prays, whatever village he is in.",
             "note": "The question leaves the village open, and the praying holds wherever it is."
           }

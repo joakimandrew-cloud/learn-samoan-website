@@ -3,7 +3,7 @@
 This chapter adds the plural verb form, the shape a verb takes when what it is
 about is more than one, so that *nofo* (one person stays) becomes *nonofo*
 (several stay). The same number appears on describing verbs, reaches plural
-commands, and settles onto group words such as *aiga* (family).
+commands, and settles onto group words such as *ʻāiga* (family).
 
 ---
 
@@ -38,7 +38,7 @@ To find the number of a sentence like these, read the verb and the article,
 never the noun on its own. The noun *teine* keeps one shape in "the girl" and
 "the girls"; it is the empty article slot and the doubled verb that carry the
 count. The count answers only to the subject, however much follows it.
-*Sā nonofo puaʻa i le maʻumaga* ("The pigs stayed at the taro patch") names a
+*Sā nonofo puaʻa ʻi le maʻumaga* ("The pigs stayed at the taro patch") names a
 place at the end, yet the plural verb still answers to the subject, the pigs.
 
 > **Preview:** In every sentence above the doer is the only participant, so the
@@ -112,17 +112,17 @@ the describing verb sits.
 
 ## Group Words
 
-Some nouns name a whole group with a single word: *aiga* (family), *nuʻu*
+Some nouns name a whole group with a single word: *ʻāiga* (family), *nuʻu*
 (village), *ulugāliʻi* (couple). A group word is singular in shape, taking the
 article *le* like any single thing, yet it stands for many. Because the verb
 counts the meaning and not the shape, a group word usually takes the plural
 verb form:
 
 ::: {.examples}
-*Sā nonofo le aiga.* The family stayed.
+*Sā nonofo le ʻāiga.* The family stayed.
 :::
 
-*Le aiga* is one word with *le* in front of it, but the people in it are many,
+*Le ʻāiga* is one word with *le* in front of it, but the people in it are many,
 so the verb is the plural *nonofo*, not the singular *nofo*. The singular verb
 is possible with a group word as well, though the plural is the usual choice.
 
@@ -187,7 +187,7 @@ book, so *sua* is learned now as a word and used in full then.
 1. *Sā nonofo teine.*
 2. *E uli pusi.*
 3. *Sā nofo le puaʻa.*
-4. *Sā nonofo le aiga.*
+4. *Sā nonofo le ʻāiga.*
 5. *E uliuli le pusi.*
 
 ### Exercise 2: Translate into Samoan
@@ -216,7 +216,7 @@ subject. Where the subject is a group word, give the usual plural.
 
 1. *Sā ___ le teine.* (nofo / nonofo)
 2. *Sā ___ teine.* (nofo / nonofo)
-3. *Sā ___ le aiga.* (nofo / nonofo)
+3. *Sā ___ le ʻāiga.* (nofo / nonofo)
 4. *E ___ pusi.* (uliuli / uli)
 5. *E ___ le pusi.* (uliuli / uli)
 
@@ -224,7 +224,7 @@ subject. Where the subject is a group word, give the usual plural.
 
 1. *Sā nonofo mātua.*
 2. *E iai ni fuāmoa.*
-3. *Sā nonofo puaʻa i le maʻumaga.*
+3. *Sā nonofo puaʻa ʻi le maʻumaga.*
 4. *Sā nonofo le ulugāliʻi.*
 5. *Nonofo.*
 

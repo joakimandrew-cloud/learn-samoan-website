@@ -10,8 +10,17 @@
       "data": {
         "mode": "steps",
         "states": [
-          { "label": "Statement", "sm": "Sā ia nofo.", "en": "She stayed." },
-          { "label": "Command", "sm": "Nofo.", "en": "Sit down.", "note": "A bare command names no doer and carries no tense particle." }
+          {
+            "label": "Statement",
+            "sm": "Sā ia nofo.",
+            "en": "She stayed."
+          },
+          {
+            "label": "Command",
+            "sm": "Nofo.",
+            "en": "Sit down.",
+            "note": "A bare command names no doer and carries no tense particle."
+          }
         ]
       }
     },
@@ -24,8 +33,16 @@
       "data": {
         "mode": "steps",
         "states": [
-          { "label": "Bare command", "sm": "Nofo.", "en": "Sit down." },
-          { "label": "With urging", "sm": "Nofo ia.", "en": "Do sit down, then." }
+          {
+            "label": "Bare command",
+            "sm": "Nofo.",
+            "en": "Sit down."
+          },
+          {
+            "label": "With urging",
+            "sm": "Nofo ia.",
+            "en": "Do sit down, then."
+          }
         ]
       }
     },
@@ -37,12 +54,30 @@
       "intro": "Read the meaning and type the verb used for the command.",
       "data": {
         "items": [
-          { "en": "wait", "sm": "faʻatali" },
-          { "en": "sit, stay", "sm": "nofo" },
-          { "en": "shut", "sm": "tapuni" },
-          { "en": "sweep", "sm": "salu" },
-          { "en": "wash", "sm": "fufulu" },
-          { "en": "help", "sm": "fesoasoani" }
+          {
+            "en": "wait",
+            "sm": "faʻatali"
+          },
+          {
+            "en": "sit, stay",
+            "sm": "nofo"
+          },
+          {
+            "en": "shut",
+            "sm": "tāpuni"
+          },
+          {
+            "en": "sweep",
+            "sm": "salu"
+          },
+          {
+            "en": "wash",
+            "sm": "fufulu"
+          },
+          {
+            "en": "help",
+            "sm": "fesoasoani"
+          }
         ]
       }
     }

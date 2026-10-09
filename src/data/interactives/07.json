@@ -10,8 +10,16 @@
       "data": {
         "mode": "toggle",
         "states": [
-          { "label": "Any friend", "sm": "ʻO se uō le tama.", "en": "The boy is a friend." },
-          { "label": "The particular friend", "sm": "ʻO le uō le tama.", "en": "The boy is the friend." }
+          {
+            "label": "Any friend",
+            "sm": "ʻO se uō le tama.",
+            "en": "The boy is a friend."
+          },
+          {
+            "label": "The particular friend",
+            "sm": "ʻO le uō le tama.",
+            "en": "The boy is the friend."
+          }
         ]
       }
     },
@@ -20,25 +28,65 @@
       "kind": "builder",
       "anchor": "pointing-something-out",
       "title": "Point to the thing in view",
-      "caption": "The naming part with *ʻo* comes first and *lena* comes second. Choose a naming part to see a complete printed sentence.",
+      "caption": "The naming part with *ʻo* comes first and *lenā* comes second. Choose a naming part to see a complete printed sentence.",
       "data": {
         "slots": [
           {
             "key": "thing",
             "label": "Naming part",
             "options": [
-              { "id": "cat", "sm": "le pusi", "en": "the cat" },
-              { "id": "boy", "sm": "le tama", "en": "the boy" },
-              { "id": "tree", "sm": "le laau", "en": "the tree" },
-              { "id": "friend", "sm": "se uō", "en": "a friend" }
+              {
+                "id": "cat",
+                "sm": "le pusi",
+                "en": "the cat"
+              },
+              {
+                "id": "boy",
+                "sm": "le tama",
+                "en": "the boy"
+              },
+              {
+                "id": "tree",
+                "sm": "le lāʻau",
+                "en": "the tree"
+              },
+              {
+                "id": "friend",
+                "sm": "se uō",
+                "en": "a friend"
+              }
             ]
           }
         ],
         "sentences": [
-          { "pick": { "thing": "cat" }, "sm": "ʻO le pusi lena.", "en": "That is the cat." },
-          { "pick": { "thing": "boy" }, "sm": "ʻO le tama lena.", "en": "That is the boy." },
-          { "pick": { "thing": "tree" }, "sm": "ʻO le laau lena.", "en": "That is the tree." },
-          { "pick": { "thing": "friend" }, "sm": "ʻO se uō lena.", "en": "That is a friend." }
+          {
+            "pick": {
+              "thing": "cat"
+            },
+            "sm": "ʻO le pusi lenā.",
+            "en": "That is the cat."
+          },
+          {
+            "pick": {
+              "thing": "boy"
+            },
+            "sm": "ʻO le tama lenā.",
+            "en": "That is the boy."
+          },
+          {
+            "pick": {
+              "thing": "tree"
+            },
+            "sm": "ʻO le lāʻau lenā.",
+            "en": "That is the tree."
+          },
+          {
+            "pick": {
+              "thing": "friend"
+            },
+            "sm": "ʻO se uō lenā.",
+            "en": "That is a friend."
+          }
         ]
       }
     },
@@ -51,21 +99,63 @@
       "data": {
         "question": "Which sentence says this?",
         "prompts": [
-          { "en": "I am a friend.", "answer": "a", "options": [
-            { "id": "a", "sm": "ʻO aʻu ʻo se uō." },
-            { "id": "b", "sm": "ʻO ia ʻo se uō." },
-            { "id": "c", "sm": "ʻO se uō le tama." }
-          ], "why": "The person comes first, and *aʻu* is the independent form for the speaker." },
-          { "en": "He is a friend.", "answer": "a", "options": [
-            { "id": "a", "sm": "ʻO ia ʻo se uō." },
-            { "id": "b", "sm": "ʻO aʻu ʻo se uō." },
-            { "id": "c", "sm": "ʻO se uō le teine." }
-          ], "why": "The person-first pattern carries *ʻo* before both naming parts." },
-          { "en": "That is the family.", "answer": "a", "options": [
-            { "id": "a", "sm": "ʻO le aiga lena." },
-            { "id": "b", "sm": "ʻO le pusi lena." },
-            { "id": "c", "sm": "ʻO le tama lena." }
-          ], "why": "In the pointing pattern, the named thing comes first and *lena* comes second." }
+          {
+            "en": "I am a friend.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO aʻu ʻo se uō."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO ia ʻo se uō."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO se uō le tama."
+              }
+            ],
+            "why": "The person comes first, and *aʻu* is the independent form for the speaker."
+          },
+          {
+            "en": "He is a friend.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO ia ʻo se uō."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO aʻu ʻo se uō."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO se uō le teine."
+              }
+            ],
+            "why": "The person-first pattern carries *ʻo* before both naming parts."
+          },
+          {
+            "en": "That is the family.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO le ʻāiga lenā."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le pusi lenā."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le tama lenā."
+              }
+            ],
+            "why": "In the pointing pattern, the named thing comes first and *lenā* comes second."
+          }
         ]
       }
     }

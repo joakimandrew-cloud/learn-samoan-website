@@ -10,21 +10,21 @@ hour. It also adds the way to count people and to put things in order.
 ## Counting Things
 
 You met the general particle *e* earlier in this book as the word for what holds
-in general, a quality or a habit: *E malosi le tama*, the boy is strong. A
+in general, a quality or a habit: *E mālosi le tama*, the boy is strong. A
 number works the same way. Read these two sentences aloud:
 
 ::: {.examples}
-*E malosi le tama.* The boy is strong.
+*E mālosi le tama.* The boy is strong.
 
 *E tolu tama.* There are three boys.
 :::
 
 Compare them. Where does the number *tolu* stand?
 
-It stands exactly where *malosi* stands, in the place a verb takes. A Samoan
+It stands exactly where *mālosi* stands, in the place a verb takes. A Samoan
 number is a kind of verb, and like the quality verb it takes the general
 particle *e* in front of it. *E tolu tama* says the boys are three, the way *E
-malosi le tama* says the boy is strong. This is what makes counting fall into
+mālosi le tama* says the boy is strong. This is what makes counting fall into
 place: you already know the machine, and the number rides it.
 
 Here are the numbers from one to ten. Five, *lima*, is the word you already know
@@ -128,16 +128,16 @@ The number itself does not change; only the prefix is added.
 
 ## Telling the Time
 
-The clock hour is a counting sentence built on the word *itula* (hour). To say
-what hour it is, name the hour and count it: *i le itula e tolu*, "at three
+The clock hour is a counting sentence built on the word *itūlā* (hour). To say
+what hour it is, name the hour and count it: *ʻi le itūlā e tolu*, "at three
 o'clock", is "at the hour that is three", the same *e* and the same number you
 have been using all along.
 
 | Samoan | English |
 |---|---|
-| *i le itula e tolu* | at three o'clock |
-| *i le itula e lima* | at five o'clock |
-| *i le itula e iva* | at nine o'clock |
+| *ʻi le itūlā e tolu* | at three o'clock |
+| *ʻi le itūlā e lima* | at five o'clock |
+| *ʻi le itūlā e iva* | at nine o'clock |
 
 For the hours past ten, Samoan counts on. Eleven is "ten and one" and twelve is
 "ten and two", joined by the with-word *ma* you met earlier in this book. So
@@ -149,14 +149,14 @@ and in writing.
 
 | Samoan | English |
 |---|---|
-| *i le itula e sefulu ma le tasi* | at eleven o'clock |
-| *i le itula e sefulu ma le lua* | at twelve o'clock |
+| *ʻi le itūlā e sefulu ma le tasi* | at eleven o'clock |
+| *ʻi le itūlā e sefulu ma le lua* | at twelve o'clock |
 
-To say which part of the day, add the time word after the hour. *I le taeao* is
+To say which part of the day, add the time word after the hour. *ʻi le taeao* is
 "in the morning":
 
 ::: {.examples}
-*i le itula e sefulu ma le tasi i le taeao*. at eleven o'clock in the morning
+*ʻi le itūlā e sefulu ma le tasi ʻi le taeao*. at eleven o'clock in the morning
 :::
 
 This tells the hour and no more. Counting the minutes past or before the hour,
@@ -225,7 +225,7 @@ their place changes.
 | *sefulu* | ten |
 | *muamua* | first |
 | *mulimuli* | last |
-| *itula* | hour |
+| *itūlā* | hour |
 
 ---
 
@@ -237,7 +237,7 @@ their place changes.
 2. *ipu e lua*
 3. *E fia aso?*
 4. *le fale lona lua*
-5. *i le itula e lima*
+5. *ʻi le itūlā e lima*
 
 ### Exercise 2: Translate into Samoan
 
@@ -296,7 +296,7 @@ Rewrite each phrase to name its place in an order, using *lona* and the number.
 
 1. *teine e fā*
 2. *Teine e toʻalua.*
-3. *i le itula e iva*
+3. *ʻi le itūlā e iva*
 4. *le aso lona tolu*
 5. *le aso mulimuli*
 
@@ -310,11 +310,11 @@ Rewrite each phrase to name its place in an order, using *lona* and the number.
 
 ### Exercise 4
 
-1. *i le itula e tolu*
-2. *i le itula e lima*
-3. *i le itula e iva*
-4. *i le itula e sefulu ma le tasi*
-5. *i le itula e sefulu ma le lua*
+1. *ʻi le itūlā e tolu*
+2. *ʻi le itūlā e lima*
+3. *ʻi le itūlā e iva*
+4. *ʻi le itūlā e sefulu ma le tasi*
+5. *ʻi le itūlā e sefulu ma le lua*
 
 ### Exercise 5
 

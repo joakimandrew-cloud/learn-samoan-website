@@ -13,14 +13,14 @@ one thing holds in spite of another.
 ::: {.examples}
 *ʻĀfai ʻe te lē sau, ʻou te alu atu.* If you do not come, I will go and see you. (Lit. "If you not come, I go away.")
 
-*ʻAna ʻe lē sau, semanū ʻou te alu atu.* Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.")
+*ʻAna ʻe lē sau, sēmanū ʻou te alu atu.* Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.")
 :::
 
 Compare the two sentences. Which words changed, and what did the change do to
 the meaning?
 
 Three things changed. The if-word *ʻāfai* has become *ʻana*, the *te* after *ʻe*
-is gone, and the main clause now opens with *semanū* (probably). The meaning
+is gone, and the main clause now opens with *sēmanū* (probably). The meaning
 changed with them. As the translations show, in the first sentence the coming
 has not happened yet, and it might still happen. In the second the coming did
 happen, and the speaker imagines the opposite in order to say what would have
@@ -40,13 +40,13 @@ the main clause.
 |---|---|---|
 | the if-word | *ʻana* | announces a condition that did not come true |
 | the condition | *ʻe lē sau* | names what did not happen |
-| the main clause | *semanū ʻou te alu atu* | says what would have followed |
+| the main clause | *sēmanū ʻou te alu atu* | says what would have followed |
 
 When the condition has a verb in it, it usually has no tense particle after
 *ʻana*. That is why *ʻana* is followed by *ʻe lē sau*, where *ʻāfai* is followed
 by *ʻe te lē sau*.
 
-The main clause often opens with *semanū*. When it has a verb in it, the verb
+The main clause often opens with *sēmanū*. When it has a verb in it, the verb
 carries one of two particles: the general particle *e* (*te* after a pronoun),
 as in the sentence above, or the change particle *ʻua*.
 
@@ -56,13 +56,13 @@ as in the sentence above, or the change particle *ʻua*.
 
 | Samoan | English |
 |---|---|
-| *ʻAna ʻe lē sau, semanū ʻou te alu atu.* | Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.") |
-| *ʻAna ʻe lē sau, semanū ʻou te tamoe atu.* | Had you not come, I was probably going to run over to you. (Lit. "If you not come, probably I run away.") |
+| *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.* | Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.") |
+| *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.* | Had you not come, I was probably going to run over to you. (Lit. "If you not come, probably I run away.") |
 | *ʻAna ʻe sau, ʻua ʻou fiafia.* | If you had come, I would have been happy. (Lit. "If you come, I have become happy.") |
-| *ʻAna ʻe foaʻi mai se paʻa, ʻua ʻou fiafia.* | If you had given me a crab, I would have been happy. (Lit. "If you give toward me a crab, I have become happy.") |
+| *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.* | If you had given me a crab, I would have been happy. (Lit. "If you give toward me a crab, I have become happy.") |
 | *ʻAna ʻe lē sau, ʻou te ita.* | Had you not come, I would have been angry. |
 
-The table brings in three new words: *tamoe* (run), *foaʻi* (give) and *paʻa*
+The table brings in three new words: *tamoe* (run), *fōaʻi* (give) and *paʻa*
 (crab).
 
 > *Note:* A condition with no tense particle after *ʻana* is the usual shape,
@@ -80,7 +80,7 @@ The table brings in three new words: *tamoe* (run), *foaʻi* (give) and *paʻa*
 ::: {.examples}
 *ʻOu te ita pē ʻana ʻe lē sau.* I would have been angry if you had not come.
 
-*Semanū ʻou te alu atu pē ʻana ʻe lē sau.* I was probably going to go and see you if you had not come. (Lit. "Probably I go away if you not come.")
+*Sēmanū ʻou te alu atu pē ʻana ʻe lē sau.* I was probably going to go and see you if you had not come. (Lit. "Probably I go away if you not come.")
 :::
 
 An *ʻana* clause can stand after the main clause. It then takes the question
@@ -90,7 +90,7 @@ in a fixed order: the main clause, then *pē*, then the *ʻana* clause.
 ### A Naming Sentence as the Condition
 
 ::: {.examples}
-*ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foi atu i le nuʻu.* If I were you, I would not go back to the village. (Lit. "If ʻo I ʻo you, I not return away to the village.")
+*ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.* If I were you, I would not go back to the village. (Lit. "If ʻo I ʻo you, I not return away to the village.")
 :::
 
 The condition after *ʻana* does not have to have a verb in it. A naming sentence
@@ -100,7 +100,7 @@ speaker is the listener, which is not so.
 ### A Wish That Cannot Come True
 
 ::: {.examples}
-*ʻAna lē fia ʻai le tama i le apu.* If only the boy had not wanted to eat the apple. (Lit. "If not want eat the boy at the apple.")
+*ʻAna lē fia ʻai le tama ʻi le apu.* If only the boy had not wanted to eat the apple. (Lit. "If not want eat the boy at the apple.")
 :::
 
 This *ʻana* clause has no main clause at all. Used on its own in this way, an
@@ -111,7 +111,7 @@ This *ʻana* clause has no main clause at all. Used on its own in this way, an
 ## Saying Unless with *Seʻiloga*
 
 ::: {.examples}
-*ʻOu te sāvali i le aoga seʻiloga e timu.* I walk to school, unless it rains.
+*ʻOu te savali ʻi le āʻoga seʻiloga e timu.* I walk to school, unless it rains.
 
 *E lē alu le malaga seʻiloga ʻua sau le tama.* The trip will not go unless the boy has come.
 :::
@@ -127,11 +127,11 @@ its own, *e* in the first and *ʻua* in the second.
 
 | Samoan | English |
 |---|---|
-| *ʻOu te sāvali i le aoga seʻiloga e timu.* | I walk to school, unless it rains. |
+| *ʻOu te savali ʻi le āʻoga seʻiloga e timu.* | I walk to school, unless it rains. |
 | *E lē alu le malaga seʻiloga ʻua sau le tama.* | The trip will not go unless the boy has come. |
-| *E lē alu le tama i le aoga seʻiloga ʻua sau le fomai.* | The boy will not go to school unless the doctor has come. |
+| *E lē alu le tama ʻi le āʻoga seʻiloga ʻua sau le fomaʻi.* | The boy will not go to school unless the doctor has come. |
 
-The last row brings in the noun *fomai* (doctor).
+The last row brings in the noun *fomaʻi* (doctor).
 
 > *Note:* *Seʻiloga* begins with the same letters as the mood particles *seʻi*
 > and *seʻia*, and it is a different word with a different job. *Seʻia* says how
@@ -145,7 +145,7 @@ The last row brings in the noun *fomai* (doctor).
 ::: {.examples}
 *E ui ina laʻitiiti ʻo ia, ʻae poto.* Although he is young, he knows a great deal. (Lit. "Granted ina young he, but clever.")
 
-*E ui ina faigatā le feau, ʻae ʻou te fiafia.* Although the task is difficult, I am happy.
+*E ui ina faigatā le feʻau, ʻae ʻou te fiafia.* Although the task is difficult, I am happy.
 :::
 
 Each sentence sets two situations against each other. Given the first, the
@@ -153,7 +153,7 @@ second is not what one would expect, but rather its opposite: someone young is
 not expected to know a great deal. The first situation is said with *e ui*, the
 general particle and the verb *ui* (granted), followed by a clause opened by the
 joining word *ina*. The second situation, the main clause, usually opens with the
-but-word *ʻae*. The two sentences bring in *poto* (clever) and *feau* (task).
+but-word *ʻae*. The two sentences bring in *poto* (clever) and *feʻau* (task).
 
 The pattern has three parts in a fixed order: *e ui* with its *ina* clause, then
 *ʻae*, then the main clause.
@@ -168,21 +168,21 @@ The clause after *ina* can carry a tense particle. The only one this book can
 show there is the past particle *sā*:
 
 ::: {.examples}
-*E ui ina sā ʻou faʻanoanoa, ʻae na ʻou ata.* Although I was sad, I laughed.
+*E ui ina sā ʻou faʻanoanoa, ʻae na ʻou ʻata.* Although I was sad, I laughed.
 :::
 
 When the clause after *ui* has no *ina* in front of it, its verb takes the
 general particle *e*.
 
 In place of the *ina* clause, *e ui* can also take a noun phrase opened by the
-place word *i*, which says in spite of what the noun phrase names, or a noun
+place word *ʻi*, which says in spite of what the noun phrase names, or a noun
 phrase opened by the presenting particle *ʻo*.
 
 ::: {.examples}
-*ʻAe ui i lea, e leai se mea e mafai.* But despite that, nothing could be done. (Lit. "But granted at that, there is no thing that is possible.")
+*ʻAe ui ʻi lea, e leai se mea e mafai.* But despite that, nothing could be done. (Lit. "But granted at that, there is no thing that is possible.")
 :::
 
-Here *ʻae* stands in front of *ui*, and *ui* takes *i lea* (at that). The main
+Here *ʻae* stands in front of *ui*, and *ui* takes *ʻi lea* (at that). The main
 clause follows with no *ʻae* of its own, which occasionally happens.
 
 ---
@@ -190,7 +190,7 @@ clause follows with no *ʻae* of its own, which occasionally happens.
 ## Saying Although with *Tīgā*
 
 ::: {.examples}
-*Tīgā ona ʻou ole atu i loʻu tina, ʻae na lē mafai ona ʻou alu.* However much I begged my mother, I could not go. (Lit. "Painful that I beg away to my mother, but past not able that I go.")
+*Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.* However much I begged my mother, I could not go. (Lit. "Painful that I beg away to my mother, but past not able that I go.")
 :::
 
 The verb *tīgā* (painful, distressing) sets two situations against each other in
@@ -220,7 +220,7 @@ that expresses a negative idea.
 
 *ʻOleʻā alu le malaga e tusa lava pē timu pē leai.* The trip will go whether it rains or not. (Lit. "The trip will go, it is the same whether it rains or not.")
 
-*E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo i ai.* The boy prays, whatever village he is in. (Lit. "The boy prays, the same where is the village he is at.")
+*E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo ʻi ai.* The boy prays, whatever village he is in. (Lit. "The boy prays, the same where is the village he is at.")
 :::
 
 These sentences say that the main clause holds either way. The verb *tusa* (the
@@ -264,9 +264,9 @@ is needed.
 | Word | What it does |
 |---|---|
 | *ʻana* | the second if-word: opens a condition that did not come true; the condition usually has no tense particle, and *pē* stands in front of *ʻana* when the clause follows the main clause |
-| *semanū* | probably: often opens the main clause after an *ʻana* clause |
+| *sēmanū* | probably: often opens the main clause after an *ʻana* clause |
 | *seʻiloga* | unless (also "it only needs"): as a condition clause, it stands after the main clause |
-| *ui* | granted: *e ui* with an *ina* clause, or with a noun phrase opened by *i* or *ʻo*, says although or in spite of |
+| *ui* | granted: *e ui* with an *ina* clause, or with a noun phrase opened by *ʻi* or *ʻo*, says although or in spite of |
 | *tīgā* | with an *ona* clause after it, says although, expressing a negative idea |
 | *tusa* | the same, met earlier: with a question clause after it, says even if, whether ... or, or whatever and wherever |
 | *lava* | indeed, a word of emphasis: stands right after *tusa* in the whether ... or kind and the whatever kind |
@@ -275,13 +275,13 @@ is needed.
 
 | Word | Meaning |
 |---|---|
-| *foaʻi* | give |
+| *fōaʻi* | give |
 | *ole* | beg |
 | *poto* | intelligent, clever, know a great deal |
 | *tamoe* | run |
 | *tīgā* | painful, distressing |
-| *feau* | work, task, errand |
-| *fomai* | doctor |
+| *feʻau* | work, task, errand |
+| *fomaʻi* | doctor |
 | *paʻa* | crab |
 
 ---
@@ -290,14 +290,14 @@ is needed.
 
 ### Exercise 1: Translate into English
 
-1. *ʻAna ʻe lē sau, semanū ʻou te tamoe atu.*
-2. *ʻAna ʻe foaʻi mai se paʻa, ʻua ʻou fiafia.*
-3. *ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foi atu i le nuʻu.*
-4. *E lē alu le tama i le aoga seʻiloga ʻua sau le fomai.*
-5. *E ui ina faigatā le feau, ʻae ʻou te fiafia.*
-6. *Tīgā ona ʻou ole atu i loʻu tina, ʻae na lē mafai ona ʻou alu.*
+1. *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.*
+2. *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.*
+3. *ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.*
+4. *E lē alu le tama ʻi le āʻoga seʻiloga ʻua sau le fomaʻi.*
+5. *E ui ina faigatā le feʻau, ʻae ʻou te fiafia.*
+6. *Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.*
 7. *E tusa pē timu, ʻae ʻoleʻā alu le malaga.*
-8. *E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo i ai.*
+8. *E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo ʻi ai.*
 
 ### Exercise 2: Real or Not
 
@@ -306,42 +306,42 @@ the condition is real (it may be true, or may yet come true) or contrary to fact
 (it did not happen, or is not so).
 
 1. *ʻĀfai ʻe te lē sau, ʻou te alu atu.*
-2. *ʻAna ʻe lē sau, semanū ʻou te alu atu.*
+2. *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.*
 3. *ʻĀfai e timu taeao, e lē alu le malaga.*
 4. *ʻOu te ita pē ʻana ʻe lē sau.*
 5. *ʻAna ʻe sau, ʻua ʻou fiafia.*
-6. *ʻAna lē fia ʻai le tama i le apu.*
+6. *ʻAna lē fia ʻai le tama ʻi le apu.*
 
 ### Exercise 3: Move the Condition to the Back
 
 Rewrite each sentence with the main clause first and the *ʻana* clause after it,
 putting *pē* in front of *ʻana*.
 
-1. *ʻAna ʻe lē sau, semanū ʻou te alu atu.*
+1. *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.*
 2. *ʻAna ʻe lē sau, ʻou te ita.*
 3. *ʻAna ʻe sau, ʻua ʻou fiafia.*
-4. *ʻAna ʻe lē sau, semanū ʻou te tamoe atu.*
-5. *ʻAna ʻe foaʻi mai se paʻa, ʻua ʻou fiafia.*
+4. *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.*
+5. *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.*
 
 ### Exercise 4: Fill the Gap
 
 Put *ʻāfai*, *ʻana*, *seʻiloga*, *ui*, *tīgā* or *tusa* into the gap so the
 sentence matches the English.
 
-1. *\_\_\_ ʻe lē sau, semanū ʻou te alu atu.* (Had you not come, I was probably going to go and see you.)
+1. *\_\_\_ ʻe lē sau, sēmanū ʻou te alu atu.* (Had you not come, I was probably going to go and see you.)
 2. *\_\_\_ ʻe te lē sau, ʻou te alu atu.* (If you do not come, I will go and see you.)
-3. *ʻOu te sāvali i le aoga \_\_\_ e timu.* (I walk to school, unless it rains.)
+3. *ʻOu te savali ʻi le āʻoga \_\_\_ e timu.* (I walk to school, unless it rains.)
 4. *E \_\_\_ ina laʻitiiti ʻo ia, ʻae poto.* (Although he is young, he knows a great deal.)
-5. *\_\_\_ ona ʻou ole atu i loʻu tina, ʻae na lē mafai ona ʻou alu.* (However much I begged my mother, I could not go.)
+5. *\_\_\_ ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.* (However much I begged my mother, I could not go.)
 6. *ʻOleʻā alu le malaga e \_\_\_ lava pē timu pē leai.* (The trip will go whether it rains or not.)
 7. *E lē alu le malaga \_\_\_ ʻua sau le tama.* (The trip will not go unless the boy has come.)
 
 ### Exercise 5: Answer in English
 
-1. In *ʻAna ʻe lē sau, semanū ʻou te alu atu*, did the listener come?
+1. In *ʻAna ʻe lē sau, sēmanū ʻou te alu atu*, did the listener come?
 2. Why is there no *te* after *ʻe* in *ʻAna ʻe lē sau*?
 3. Name the two exceptions to the usual shape of the condition after *ʻana*, and say what kind of sentence they occur in.
-4. What is missing from *ʻAna lē fia ʻai le tama i le apu*, and what does the sentence express?
+4. What is missing from *ʻAna lē fia ʻai le tama ʻi le apu*, and what does the sentence express?
 5. Where does a *seʻiloga* clause stand when it works as a condition clause?
 6. In *E ui ina laʻitiiti ʻo ia, ʻae poto*, which word opens the main clause, and is that word always there?
 7. What does a *tīgā* clause express that an *ui* clause does not?
@@ -360,13 +360,13 @@ sentence matches the English.
 
 ### Exercise 7: Give the English
 
-1. *foaʻi*
+1. *fōaʻi*
 2. *ole*
 3. *poto*
 4. *tamoe*
 5. *tīgā*
-6. *feau*
-7. *fomai*
+6. *feʻau*
+7. *fomaʻi*
 8. *paʻa*
 
 ---
@@ -395,11 +395,11 @@ sentence matches the English.
 
 ### Exercise 3
 
-1. *Semanū ʻou te alu atu pē ʻana ʻe lē sau.*
+1. *Sēmanū ʻou te alu atu pē ʻana ʻe lē sau.*
 2. *ʻOu te ita pē ʻana ʻe lē sau.*
 3. *ʻUa ʻou fiafia pē ʻana ʻe sau.*
-4. *Semanū ʻou te tamoe atu pē ʻana ʻe lē sau.*
-5. *ʻUa ʻou fiafia pē ʻana ʻe foaʻi mai se paʻa.*
+4. *Sēmanū ʻou te tamoe atu pē ʻana ʻe lē sau.*
+5. *ʻUa ʻou fiafia pē ʻana ʻe fōaʻi mai se paʻa.*
 
 ### Exercise 4
 
@@ -414,7 +414,7 @@ sentence matches the English.
 5. After the main clause.
 6. *ʻAe*. It usually opens the main clause, but not always.
 7. A negative idea.
-8. A noun phrase opened by the place word *i*, and a noun phrase opened by the presenting particle *ʻo*.
+8. A noun phrase opened by the place word *ʻi*, and a noun phrase opened by the presenting particle *ʻo*.
 9. Even if; whether ... or; whatever or wherever.
 10. The main clause comes first, and *ʻae* opens the main clause only when it follows the *tusa* clause.
 
@@ -423,9 +423,9 @@ sentence matches the English.
 1. *ʻAna ʻe sau, ʻua ʻou fiafia.*
 2. *ʻOu te ita pē ʻana ʻe lē sau.*
 3. *E lē alu le malaga seʻiloga ʻua sau le tama.*
-4. *E ui ina sā ʻou faʻanoanoa, ʻae na ʻou ata.*
+4. *E ui ina sā ʻou faʻanoanoa, ʻae na ʻou ʻata.*
 5. *E tusa pē timu, ʻae ʻoleʻā alu le malaga.*
-6. *ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foi atu i le nuʻu.*
+6. *ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.*
 
 ### Exercise 7
 

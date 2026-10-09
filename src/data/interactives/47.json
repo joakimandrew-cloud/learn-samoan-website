@@ -17,7 +17,7 @@
           },
           {
             "label": "Noun slot",
-            "sm": "E alofa le tama i lana uō.",
+            "sm": "E alofa le tama ʻi lana uō.",
             "en": "The boy loves his friend.",
             "note": "*Uō* follows the possessive form in the article’s place, so it is a noun here."
           }
@@ -50,7 +50,7 @@
             "why": "It stands after the general particle, in the verb slot."
           },
           {
-            "sm": "E alofa le tama i lana uō.",
+            "sm": "E alofa le tama ʻi lana uō.",
             "ask": "Read *uō*.",
             "answer": "noun",
             "why": "The possessive form stands in the article’s position, before a noun slot."
@@ -81,9 +81,9 @@
         "states": [
           {
             "label": "The place",
-            "sm": "i Sāmoa",
+            "sm": "ʻi Sāmoa",
             "en": "in Samoa",
-            "note": "A place name referring to a place takes *i*."
+            "note": "A place name referring to a place takes *ʻi*."
           },
           {
             "label": "The people",
@@ -93,7 +93,7 @@
           }
         ]
       },
-      "caption": "A name takes *iā* when it refers to a person or a people. A place name used for its place keeps *i*."
+      "caption": "A name takes *iā* when it refers to a person or a people. A place name used for its place keeps *ʻi*."
     }
   ]
 }

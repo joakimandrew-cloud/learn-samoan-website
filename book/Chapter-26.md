@@ -3,7 +3,7 @@
 This chapter adds the spatial nouns, the closed set of words that name the
 regions around a thing, its inside, its top, its back, together with the words
 for the compass points and for the seaward and inland directions. It fits them
-into a frame built from the place word *i* and the belonging word *o*, both
+into a frame built from the place word *ʻi* and the belonging word *o*, both
 already taught, so you can say where one thing sits in relation to another.
 
 ---
@@ -11,7 +11,7 @@ already taught, so you can say where one thing sits in relation to another.
 ## The Spatial-Noun Frame
 
 ::: {.examples}
-*ʻO le laau i tua o le fale.* The tree behind the house. (Lit. "The tree in the back of the house.")
+*ʻO le lāʻau ʻi tua o le fale.* The tree behind the house. (Lit. "The tree in the back of the house.")
 :::
 
 Where English reaches for the preposition "behind", Samoan uses a noun, *tua*,
@@ -19,7 +19,7 @@ that names the space at the back of something, and it sets that noun inside a
 place phrase. A noun that names a region of space belonging to a thing, its
 inside, its top, its back, is called a **spatial noun**.
 
-The frame has four parts in a fixed order: the place word *i*, then the spatial
+The frame has four parts in a fixed order: the place word *ʻi*, then the spatial
 noun, then the belonging word *o*, then the thing the position is measured
 against. The belonging word in this frame is always *o*, never *a*. A thing's
 back and a thing's inside are parts of it, given rather than got, and a part of a
@@ -27,11 +27,11 @@ whole takes *o*.
 
 | Samoan | English |
 |---|---|
-| *ʻO le laau i tua o le fale.* | The tree behind the house. |
-| *ʻO le taʻavale i luma o le fale.* | The car in front of the house. |
-| *ʻO le pusi i lalo o le fale.* | The cat under the house. |
-| *ʻO le ipu i luga o le fala.* | The cup on the mat. |
-| *ʻO le naifi i totonu o le ato.* | The knife inside the basket. |
+| *ʻO le lāʻau ʻi tua o le fale.* | The tree behind the house. |
+| *ʻO le taʻavale ʻi luma o le fale.* | The car in front of the house. |
+| *ʻO le pusi ʻi lalo o le fale.* | The cat under the house. |
+| *ʻO le ipu ʻi luga o le fala.* | The cup on the mat. |
+| *ʻO le naifi ʻi totonu o le ʻato.* | The knife inside the basket. |
 
 The place word, the belonging word, and the two articles hold their positions in
 every row. The spatial noun is the part that decides which English
@@ -41,25 +41,25 @@ The same frame attaches to a verb, where it names the place the action happens,
 or, after a verb of going, the place the action is headed for:
 
 ::: {.examples}
-*Nofo i totonu o le fale.* Sit inside the house.
+*Nofo ʻi totonu o le fale.* Sit inside the house.
 
-*Nofo i luga o le fala.* Sit on the mat.
+*Nofo ʻi luga o le fala.* Sit on the mat.
 
-*Alu i fafo o le potu.* Go out of the room.
+*Alu ʻi fafo o le potu.* Go out of the room.
 :::
 
 The belonging phrase is not always there. In the sentence below the place is
-named by the from-phrase at the end, and *i lalo* stands on its own:
+named by the from-phrase at the end, and *ʻi lalo* stands on its own:
 
 ::: {.examples}
-*Na oso i lalo le tama mai le solofanua.* The boy jumped down from the horse.
+*Na oso ʻi lalo le tama mai le solofanua.* The boy jumped down from the horse.
 :::
 
 A bare spatial noun also fills the place slot of the where-sentence taught
 earlier in this book, so the same words answer the question where:
 
 ::: {.examples}
-*ʻUa i luga le pusi.* The cat is up.
+*ʻUa ʻi luga le pusi.* The cat is up.
 :::
 
 > *Note:* You will meet these nouns most often in this frame, though not only
@@ -94,12 +94,12 @@ ten drops into the frame unchanged:
 
 | Samoan | English |
 |---|---|
-| *ʻO le vaʻa i tafatafa o le uafu.* | The canoe beside the wharf. |
-| *ʻO le ato i tala ane o le umu.* | The basket alongside the oven. |
-| *ʻO le iʻa i tala mai o le vaʻa.* | The fish on this side of the canoe. |
-| *ʻO le pasi i tala atu o le fale.* | The bus beyond the house. |
-| *ʻO le tusi i fafo o le potu.* | The book outside the room. |
-| *ʻO le sipuni i totonu o le ipu.* | The spoon inside the cup. |
+| *ʻO le vaʻa ʻi tafatafa o le uafu.* | The canoe beside the wharf. |
+| *ʻO le ʻato ʻi tala ane o le umu.* | The basket alongside the oven. |
+| *ʻO le iʻa ʻi tala mai o le vaʻa.* | The fish on this side of the canoe. |
+| *ʻO le pasi ʻi tala atu o le fale.* | The bus beyond the house. |
+| *ʻO le tusi ʻi fafo o le potu.* | The book outside the room. |
+| *ʻO le sipuni ʻi totonu o le ipu.* | The spoon inside the cup. |
 
 ---
 
@@ -135,21 +135,21 @@ two of them also name the shore itself, seen from land or from the sea:
 | *gātai* | the sea, the shore seen from land; seawards, a little towards the sea |
 | *gāʻuta* | the land, the shore seen from the sea; further inland, a little way inland |
 | *gāgaʻe* | eastward, a little to the east, at some distance |
-| *gāgaifo* | westward, a little to the west |
+| *gagaifo* | westward, a little to the west |
 | *gagafō* | further towards the west |
 
 Two of the direction nouns, *sisifo* and *gātai*, are recorded in the frame as
 well, with the place they are reckoned from in the belonging slot:
 
 ::: {.examples}
-*ʻO le nuʻu i sisifo o le uafu.* The village west of the wharf.
+*ʻO le nuʻu ʻi sisifo o le uafu.* The village west of the wharf.
 :::
 
 A direction noun also stands after the place word on its own, with no belonging
 phrase:
 
 ::: {.examples}
-*Alu i uta.* Go inland.
+*Alu ʻi uta.* Go inland.
 :::
 
 > *Note:* Many spatial nouns stretch their final vowel for emphasis, and the
@@ -222,7 +222,7 @@ Seaward and inland:
 | *gātai* | the sea, the shore seen from land; seawards, a little towards the sea |
 | *gāʻuta* | the land, the shore seen from the sea; further inland, a little way inland |
 | *gāgaʻe* | eastward, a little to the east, at some distance |
-| *gāgaifo* | westward, a little to the west |
+| *gagaifo* | westward, a little to the west |
 | *gagafō* | further towards the west |
 
 The fused words:
@@ -242,13 +242,13 @@ stretched shapes of words you already have, not three more words.
 
 ### Exercise 1: Translate into English
 
-1. *ʻO le laau i tua o le fale.*
-2. *ʻO le pusi i lalo o le fale.*
-3. *Nofo i totonu o le fale.*
-4. *ʻO le vaʻa i tafatafa o le uafu.*
-5. *Nofo i luga o le fala.*
-6. *ʻUa i luga le pusi.*
-7. *Na oso i lalo le tama mai le solofanua.*
+1. *ʻO le lāʻau ʻi tua o le fale.*
+2. *ʻO le pusi ʻi lalo o le fale.*
+3. *Nofo ʻi totonu o le fale.*
+4. *ʻO le vaʻa ʻi tafatafa o le uafu.*
+5. *Nofo ʻi luga o le fala.*
+6. *ʻUa ʻi luga le pusi.*
+7. *Na oso ʻi lalo le tama mai le solofanua.*
 
 ### Exercise 2: Translate into Samoan
 
@@ -286,12 +286,12 @@ Write the Samoan word.
 
 Put the missing spatial noun into the gap so the English matches.
 
-1. *ʻO le pasi i ___ o le fale.* (The bus beyond the house.)
-2. *ʻO le ato i ___ o le umu.* (The basket alongside the oven.)
-3. *ʻO le iʻa i ___ o le vaʻa.* (The fish on this side of the canoe.)
-4. *ʻO le nuʻu i ___ o le uafu.* (The village west of the wharf.)
-5. *ʻO le vaʻa i ___ o le uafu.* (The canoe beside the wharf.)
-6. *ʻO le sipuni i ___ o le ipu.* (The spoon inside the cup.)
+1. *ʻO le pasi ʻi ___ o le fale.* (The bus beyond the house.)
+2. *ʻO le ʻato ʻi ___ o le umu.* (The basket alongside the oven.)
+3. *ʻO le iʻa ʻi ___ o le vaʻa.* (The fish on this side of the canoe.)
+4. *ʻO le nuʻu ʻi ___ o le uafu.* (The village west of the wharf.)
+5. *ʻO le vaʻa ʻi ___ o le uafu.* (The canoe beside the wharf.)
+6. *ʻO le sipuni ʻi ___ o le ipu.* (The spoon inside the cup.)
 
 ### Exercise 6: The fused words
 
@@ -325,12 +325,12 @@ Write the Samoan for each.
 
 ### Exercise 2
 
-1. *ʻO le taʻavale i luma o le fale.*
-2. *ʻO le ipu i luga o le fala.*
-3. *ʻO le naifi i totonu o le ato.*
-4. *ʻO le tusi i fafo o le potu.*
-5. *ʻO le sipuni i totonu o le ipu.*
-6. *Alu i fafo o le potu.*
+1. *ʻO le taʻavale ʻi luma o le fale.*
+2. *ʻO le ipu ʻi luga o le fala.*
+3. *ʻO le naifi ʻi totonu o le ʻato.*
+4. *ʻO le tusi ʻi fafo o le potu.*
+5. *ʻO le sipuni ʻi totonu o le ipu.*
+6. *Alu ʻi fafo o le potu.*
 
 ### Exercise 3
 
@@ -353,12 +353,12 @@ Write the Samoan for each.
 
 ### Exercise 5
 
-1. *ʻO le pasi i tala atu o le fale.*
-2. *ʻO le ato i tala ane o le umu.*
-3. *ʻO le iʻa i tala mai o le vaʻa.*
-4. *ʻO le nuʻu i sisifo o le uafu.*
-5. *ʻO le vaʻa i tafatafa o le uafu.*
-6. *ʻO le sipuni i totonu o le ipu.*
+1. *ʻO le pasi ʻi tala atu o le fale.*
+2. *ʻO le ʻato ʻi tala ane o le umu.*
+3. *ʻO le iʻa ʻi tala mai o le vaʻa.*
+4. *ʻO le nuʻu ʻi sisifo o le uafu.*
+5. *ʻO le vaʻa ʻi tafatafa o le uafu.*
+6. *ʻO le sipuni ʻi totonu o le ipu.*
 
 ### Exercise 6
 
@@ -368,8 +368,8 @@ Write the Samoan for each.
 
 ### Exercise 7
 
-1. *ʻO le nuʻu i sisifo o le uafu.*
-2. *ʻO le taʻavale i tafatafa o le fale.*
-3. *ʻO le ato i totonu o le potu.*
-4. *Alu i uta.*
-5. *ʻO le laau i luma o le vasega.*
+1. *ʻO le nuʻu ʻi sisifo o le uafu.*
+2. *ʻO le taʻavale ʻi tafatafa o le fale.*
+3. *ʻO le ʻato ʻi totonu o le potu.*
+4. *Alu ʻi uta.*
+5. *ʻO le lāʻau ʻi luma o le vasega.*

@@ -6,7 +6,7 @@
       "kind": "grid",
       "anchor": "the-two-participant-sentence",
       "title": "Different verbs point at what they reach",
-      "caption": "Seeing, feeling, and watching all use *i* before the second participant in these printed sentences.",
+      "caption": "Seeing, feeling, and watching all use *ʻi* before the second participant in these printed sentences.",
       "data": {
         "cols": [
           "Printed sentence"
@@ -16,7 +16,7 @@
             "label": "Seeing",
             "cells": [
               {
-                "sm": "Sā vaʻai le teine i le iʻa.",
+                "sm": "Sā vaʻai le teine ʻi le iʻa.",
                 "en": "The girl saw the fish."
               }
             ]
@@ -25,7 +25,7 @@
             "label": "Watching",
             "cells": [
               {
-                "sm": "Sā matamata le tama i le pusi.",
+                "sm": "Sā mātamata le tama ʻi le pusi.",
                 "en": "The boy watched the cat."
               }
             ]
@@ -34,7 +34,7 @@
             "label": "Feeling",
             "cells": [
               {
-                "sm": "Sā alofa le tama i le teine.",
+                "sm": "Sā alofa le tama ʻi le teine.",
                 "en": "The boy loved the girl."
               }
             ]
@@ -43,7 +43,7 @@
             "label": "Dislike",
             "cells": [
               {
-                "sm": "Sā ʻinoʻino le teine i le ʻiole.",
+                "sm": "Sā ʻinoʻino le teine ʻi le ʻiole.",
                 "en": "The girl hated the rat."
               }
             ]
@@ -56,7 +56,7 @@
       "kind": "contrast",
       "anchor": "wanting",
       "title": "Want an action or want a thing",
-      "caption": "The word *fia* stands before an action. The verb *manaʻo* points at a wanted thing with *i*.",
+      "caption": "The word *fia* stands before an action. The verb *manaʻo* points at a wanted thing with *ʻi*.",
       "data": {
         "mode": "toggle",
         "states": [
@@ -67,7 +67,7 @@
           },
           {
             "label": "Wanted thing",
-            "sm": "ʻUa manaʻo le tama i le meaʻai.",
+            "sm": "ʻUa manaʻo le tama ʻi le meaʻai.",
             "en": "The boy wanted some food."
           }
         ]
@@ -83,26 +83,26 @@
         "items": [
           {
             "en": "The girl saw the fish.",
-            "sm": "Sā vaʻai le teine i le iʻa.",
+            "sm": "Sā vaʻai le teine ʻi le iʻa.",
             "accept": [
-              "Sā vaʻai i le iʻa le teine"
+              "Sā vaʻai ʻi le iʻa le teine"
             ],
             "why": "The verb comes first. The chapter allows the two parts after it in either printed order."
           },
           {
             "en": "I saw the fish.",
-            "sm": "Sā ʻou vaʻai i le iʻa.",
-            "why": "The preverbal pronoun keeps its middle slot, and the thing seen follows with *i*."
+            "sm": "Sā ʻou vaʻai ʻi le iʻa.",
+            "why": "The preverbal pronoun keeps its middle slot, and the thing seen follows with *ʻi*."
           },
           {
             "en": "She saw the cat.",
-            "sm": "Sā ia vaʻai i le pusi.",
-            "why": "The preverbal pronoun comes before the verb, while the cat follows with *i*."
+            "sm": "Sā ia vaʻai ʻi le pusi.",
+            "why": "The preverbal pronoun comes before the verb, while the cat follows with *ʻi*."
           },
           {
             "en": "I called to the friend.",
-            "sm": "Sā ʻou valaʻau i le uō.",
-            "why": "The caller is in the middle slot, and the person called to follows with *i*."
+            "sm": "Sā ʻou valaʻau ʻi le uō.",
+            "why": "The caller is in the middle slot, and the person called to follows with *ʻi*."
           }
         ]
       }

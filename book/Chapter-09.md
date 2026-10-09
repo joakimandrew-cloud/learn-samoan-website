@@ -99,7 +99,7 @@ the wish moves to a new occasion:
 | Samoan | English |
 |---|---|
 | *Manuia le tausaga fou!* | Happy New Year! |
-| *Manuia le aiga!* | Blessings on the family! |
+| *Manuia le ʻāiga!* | Blessings on the family! |
 | *Mālō le gālue!* | Congratulations on your work! |
 | *Mālō le fāgota!* | Well done on the fishing! |
 | *Mālō le siva!* | Well done on the dancing! |
@@ -222,12 +222,15 @@ Other words used in this chapter:
 
 | Word | Meaning |
 |---|---|
-| *gālue* | work |
+| *galue* | work |
 | *meaʻai* | food |
 | *ʻai* | eat |
 | *oti* | die |
 | *tala* | story |
 | *nuʻu* | village |
+
+The work verb is *galue*. In the greeting *Mālō le gālue!*, the word names
+the work, and its first vowel is long.
 
 For recognition only, three names carry over from the sections above:
 *tautala lelei* (the careful style), *tautala leaga* (the everyday style), and
@@ -308,7 +311,7 @@ Write the invitation formula for each group.
 2. *Tōfā soifua.* (the first word on its own is also a goodbye)
 3. *Tālofa.*
 4. *Mānaia le meaʻai!*
-5. *Manuia le aiga!*
+5. *Manuia le ʻāiga!*
 
 ### Exercise 3
 

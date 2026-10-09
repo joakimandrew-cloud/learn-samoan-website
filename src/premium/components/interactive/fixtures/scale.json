@@ -9,7 +9,10 @@
       "caption": "One sentence run across all four particles. Only the first word changes, and with it the time. Both pasts sit before now: what separates *sā* from *na* is the shape of the event, not how long ago it was.",
       "data": {
         "layout": "line",
-        "axis": { "from": "Past", "to": "Future" },
+        "axis": {
+          "from": "Past",
+          "to": "Future"
+        },
         "points": [
           {
             "x": 14,
@@ -55,11 +58,41 @@
       "data": {
         "layout": "map",
         "points": [
-          { "x": 50, "y": 0, "label": "mātū", "gloss": "North" },
-          { "x": 0, "y": 50, "label": "sisifo", "gloss": "West", "sm": "ʻO le nuʻu i sisifo o le uafu.", "en": "The village west of the wharf.", "note": "One of the two direction nouns recorded in the frame, with the place it is reckoned from in the belonging slot." },
-          { "x": 100, "y": 50, "label": "sasaʻe", "gloss": "East" },
-          { "x": 30, "y": 100, "label": "saute", "gloss": "South", "note": "One of the two words for the south. The other is *toga*." },
-          { "x": 70, "y": 100, "label": "toga", "gloss": "South", "note": "The second word for the south, beside *saute*." }
+          {
+            "x": 50,
+            "y": 0,
+            "label": "mātū",
+            "gloss": "North"
+          },
+          {
+            "x": 0,
+            "y": 50,
+            "label": "sisifo",
+            "gloss": "West",
+            "sm": "ʻO le nuʻu ʻi sisifo o le uafu.",
+            "en": "The village west of the wharf.",
+            "note": "One of the two direction nouns recorded in the frame, with the place it is reckoned from in the belonging slot."
+          },
+          {
+            "x": 100,
+            "y": 50,
+            "label": "sasaʻe",
+            "gloss": "East"
+          },
+          {
+            "x": 30,
+            "y": 100,
+            "label": "saute",
+            "gloss": "South",
+            "note": "One of the two words for the south. The other is *toga*."
+          },
+          {
+            "x": 70,
+            "y": 100,
+            "label": "toga",
+            "gloss": "South",
+            "note": "The second word for the south, beside *saute*."
+          }
         ]
       }
     }

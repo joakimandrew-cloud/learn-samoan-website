@@ -128,17 +128,17 @@ book:
 
 *le pusa mamafa*. the heavy box
 
-*le masini uamea maualuga*. the high steel machine
+*le masini uʻamea maualuga*. the high steel machine
 :::
 
 A person who wanders about, *tafao* (wander about), is a tourist. The other two
-phrases carry *mamafa* (heavy), *uamea* (steel, iron) and *maualuga* (high).
-*Uamea* names a material and also works as a describing word, which is why it
+phrases carry *mamafa* (heavy), *uʻamea* (steel, iron) and *maualuga* (high).
+*Uʻamea* names a material and also works as a describing word, which is why it
 can stand behind *masini* here. Two more describing words work the same way:
-*eleelea* (dirty) and *tele* (big, and also many).
+*ʻeleʻelea* (dirty) and *tele* (big, and also many).
 
 ::: {.examples}
-*E eleelea le taʻavale.* The car is dirty.
+*E ʻeleʻelea le taʻavale.* The car is dirty.
 
 *se maile nifo tele*. a dog with big teeth (Lit. "a dog tooth big")
 :::
@@ -154,10 +154,10 @@ Any of these can fill the owned slot of a belonging-sentence:
 
 | Samoan | English |
 |---|---|
-| *E aʻu le masini uamea.* | The steel machine is mine. |
-| *E ana le taʻavale eleelea.* | The dirty car is his. |
+| *E aʻu le masini uʻamea.* | The steel machine is mine. |
+| *E ana le taʻavale ʻeleʻelea.* | The dirty car is his. |
 | *E a le tagata tafao le pusa mamafa.* | The heavy box belongs to the tourist. |
-| *E o le aliʻi le fale eleelea.* | The dirty house belongs to the chief. |
+| *E o le aliʻi le fale ʻeleʻelea.* | The dirty house belongs to the chief. |
 
 The last two sentences name their owner instead of pointing at one.
 
@@ -237,7 +237,7 @@ whole:
 :::
 
 Compare this with the where-sentence. There it was the place itself, the
-predicate, that was pulled to the front, and it had to be answered by *i ai*
+predicate, that was pulled to the front, and it had to be answered by *ʻi ai*
 later in the sentence. Here it is the thing owned that moves, not the owner. The
 belonging word and its owner stay where they stood, so nothing is left behind to
 answer.
@@ -250,7 +250,7 @@ answer.
 | *ʻO le taʻavale e a le teine.* | This is the girl's car. (Lit. "The car, the girl's.") |
 
 > *Note:* The belonging-sentence, in every shape shown in this chapter, has no
-> negative form. The where-sentence turns to *lē i ai*, and the naming sentence
+> negative form. The where-sentence turns to *lē ʻi ai*, and the naming sentence
 > is wrapped in *e lē*, as you met earlier in this book, but a not-word does not
 > go into this frame. How a speaker denies that a thing is someone's is not
 > covered in this book.
@@ -279,13 +279,13 @@ answer.
 | Word | Meaning |
 |---|---|
 | *tafao* | wander about |
-| *eleelea* | dirty |
+| *ʻeleʻelea* | dirty |
 | *mamafa* | heavy |
 | *maualuga* | high |
 | *paʻeʻe* | lean |
 | *tele* | big, many |
 | *nifo* | tooth |
-| *uamea* | steel, iron |
+| *uʻamea* | steel, iron |
 
 ---
 
@@ -326,16 +326,16 @@ is, opening with *ʻO ai*.
 2. *E o le tamāloa le fale.*
 3. *E a le tama le maile.*
 4. *E a le tagata tafao le pusa mamafa.*
-5. *E o le aliʻi le fale eleelea.*
+5. *E o le aliʻi le fale ʻeleʻelea.*
 
 ### Exercise 5: Match each word to its meaning
 
 1. *tafao*
-2. *eleelea*
+2. *ʻeleʻelea*
 3. *mamafa*
 4. *maualuga*
 5. *nifo*
-6. *uamea*
+6. *uʻamea*
 
 a. heavy
 b. tooth
@@ -378,7 +378,7 @@ f. dirty
 2. *ʻO ai e ona le fale?*
 3. *ʻO ai e ana le maile?*
 4. *ʻO ai e ana le pusa mamafa?*
-5. *ʻO ai e ona le fale eleelea?*
+5. *ʻO ai e ona le fale ʻeleʻelea?*
 
 ### Exercise 5
 

@@ -52,23 +52,23 @@ takes *se*, exactly as the article system already taught you.
 ## Pointing Something Out
 
 ::: {.examples}
-*ʻO le pusi lena.* That is the cat.
+*ʻO le pusi lenā.* That is the cat.
 :::
 
-The word *lena* means "that". It points to something already in view. In this
+The word *lenā* means "that". It points to something already in view. In this
 kind of naming sentence the order is fixed: the naming part with *ʻo* comes
-first, and *lena* comes second. It never runs the other way. Learn the shape
+first, and *lenā* comes second. It never runs the other way. Learn the shape
 once and every "that is a ..." sentence follows it. The earlier pattern is
 looser, which is why its order was given as the usual one rather than the only
 one.
 
 | Samoan | English |
 |---|---|
-| *ʻO le pusi lena.* | That is the cat. |
-| *ʻO le tama lena.* | That is the boy. |
-| *ʻO le laau lena.* | That is the tree. |
-| *ʻO le aiga lena.* | That is the family. |
-| *ʻO se uō lena.* | That is a friend. |
+| *ʻO le pusi lenā.* | That is the cat. |
+| *ʻO le tama lenā.* | That is the boy. |
+| *ʻO le lāʻau lenā.* | That is the tree. |
+| *ʻO le ʻāiga lenā.* | That is the family. |
+| *ʻO se uō lenā.* | That is a friend. |
 
 The naming part still chooses its article the usual way: *le pusi* for one
 particular cat, *se uō* for a friend, no particular one.
@@ -93,11 +93,11 @@ you will meet both, so when you are building your own sentence, keep to the
 person-first one.
 
 ::: {.examples}
-*ʻO ia ʻo se tagata tino malosi.* He is a person with a strong body.
+*ʻO ia ʻo se tagata tino mālosi.* He is a person with a strong body.
 :::
 
-Here *ia* ("he" or "she") is the person, and *se tagata tino malosi* names what
-he is, a person with a strong body. The words *tino* ("body") and *malosi*
+Here *ia* ("he" or "she") is the person, and *se tagata tino mālosi* names what
+he is, a person with a strong body. The words *tino* ("body") and *mālosi*
 ("strong") describe the person the way describing verbs already work: the
 describing word follows the noun.
 
@@ -121,7 +121,7 @@ describing word follows the noun.
 | Word | What it does |
 |---|---|
 | *ʻo* | the presenting particle: goes in front of the naming part that says what something is |
-| *lena* | that: points to something in view, and comes second in the naming sentence |
+| *lenā* | that: points to something in view, and comes second in the naming sentence |
 
 **New vocabulary** (memorize these meanings):
 
@@ -132,7 +132,7 @@ describing word follows the noun.
 | *tagata* | person |
 | *pusi* | cat |
 | *tino* | body |
-| *aiga* | home, family |
+| *ʻāiga* | home, family |
 | *igoa* | name |
 | *ʻupu* | word |
 
@@ -143,9 +143,9 @@ describing word follows the noun.
 ### Exercise 1: Translate into English
 
 1. *ʻO se uō le tama.*
-2. *ʻO le pusi lena.*
+2. *ʻO le pusi lenā.*
 3. *ʻO ia ʻo se uō.*
-4. *ʻO le tama lena.*
+4. *ʻO le tama lenā.*
 5. *ʻO se tagata lelei le uō.*
 
 ### Exercise 2: Translate into Samoan
@@ -158,11 +158,11 @@ describing word follows the noun.
 
 ### Exercise 3: Point it out
 
-Each item names a thing. Write a naming sentence that points to it with *lena*
+Each item names a thing. Write a naming sentence that points to it with *lenā*
 ("that"), keeping the fixed order.
 
 1. *le tama* (the boy)
-2. *le aiga* (the family)
+2. *le ʻāiga* (the family)
 3. *le pusi* (the cat)
 
 ### Exercise 4: Add the presenting particle
@@ -171,16 +171,16 @@ Put *ʻo* where it belongs so the Samoan matches the English. Some sentences nee
 it once, one needs it twice.
 
 1. *___ se uō le teine.* (The girl is a friend.)
-2. *___ le laau lena.* (That is the tree.)
+2. *___ le lāʻau lenā.* (That is the tree.)
 3. *___ ia ___ se uō.* (He is a friend.)
 
 ### Exercise 5: Choose *le* or *se*
 
 Put *le* or *se* into the naming part so the Samoan matches the English.
 
-1. *ʻO ___ pusi lena.* (That is the cat, one particular cat.)
+1. *ʻO ___ pusi lenā.* (That is the cat, one particular cat.)
 2. *ʻO ___ uō le tama.* (The boy is a friend, no particular one.)
-3. *ʻO ___ tama lena.* (That is the boy, that same boy.)
+3. *ʻO ___ tama lenā.* (That is the boy, that same boy.)
 
 ---
 
@@ -197,25 +197,25 @@ Put *le* or *se* into the naming part so the Samoan matches the English.
 ### Exercise 2
 
 1. *ʻO se uō le teine.*
-2. *ʻO le pusi lena.*
+2. *ʻO le pusi lenā.*
 3. *ʻO aʻu ʻo se uō.*
-4. *ʻO le laau lena.*
+4. *ʻO le lāʻau lenā.*
 5. *ʻO le uō le tama.*
 
 ### Exercise 3
 
-1. *ʻO le tama lena.*
-2. *ʻO le aiga lena.*
-3. *ʻO le pusi lena.*
+1. *ʻO le tama lenā.*
+2. *ʻO le ʻāiga lenā.*
+3. *ʻO le pusi lenā.*
 
 ### Exercise 4
 
 1. *ʻO se uō le teine.*
-2. *ʻO le laau lena.*
+2. *ʻO le lāʻau lenā.*
 3. *ʻO ia ʻo se uō.*
 
 ### Exercise 5
 
-1. *ʻO le pusi lena.*
+1. *ʻO le pusi lenā.*
 2. *ʻO se uō le tama.*
-3. *ʻO le tama lena.*
+3. *ʻO le tama lenā.*

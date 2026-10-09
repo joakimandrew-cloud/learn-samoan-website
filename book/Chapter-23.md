@@ -12,7 +12,7 @@ work together.
 
 *ʻO se uō le tama.* The boy is a friend.
 
-*Sā i le fale le teine.* The girl was in the house.
+*Sā ʻi le fale le teine.* The girl was in the house.
 :::
 
 ---
@@ -30,10 +30,10 @@ Each sentence below is a verb sentence, a naming sentence, or a where-sentence.
 Name the type of each.
 
 1. *Sā ia siva.*
-2. *ʻO le pusi lena.*
-3. *Sā i le nuʻu le tama.*
+2. *ʻO le pusi lenā.*
+3. *Sā ʻi le nuʻu le tama.*
 4. *ʻO se uō le teine.*
-5. *E malosi le tama.*
+5. *E mālosi le tama.*
 
 ---
 
@@ -41,12 +41,12 @@ Name the type of each.
 
 ### Exercise 2: Translate into English
 
-1. *Sā ʻou alu i le nuʻu.*
-2. *ʻO fea e i ai le teine?*
+1. *Sā ʻou alu ʻi le nuʻu.*
+2. *ʻO fea e ʻi ai le teine?*
 3. *E leʻi alu le teine.*
 4. *Sā nofo le tama ma le teine.*
-5. *ʻO ʻāfea ʻoleʻā moe ai le tama?*
-6. *Sā faʻapēfea le aso?*
+5. *ʻO āfea ʻoleʻā moe ai le tama?*
+6. *Sā faʻapefea le aso?*
 
 ### Exercise 3: Translate into Samoan
 
@@ -76,7 +76,7 @@ Put the time word into the gap so the sentence matches the English.
 Rewrite each sentence as its opposite, reaching for the right negation tool.
 
 1. *Sā siva le teine.*
-2. *E malosi le tama.*
+2. *E mālosi le tama.*
 3. *ʻO se uō le tama.*
 4. *E iai se tusi.*
 5. *ʻO se iʻa le pusi.*
@@ -121,7 +121,7 @@ English in the brackets.
 2. Second speaker: ___ (Hello.)
 3. First speaker: *ʻO ai ʻoe?* (Who are you?)
 4. Second speaker: ___ (I am a friend.)
-5. First speaker: *ʻO fea e i ai le teine?* (Where is the girl?)
+5. First speaker: *ʻO fea e ʻi ai le teine?* (Where is the girl?)
 6. Second speaker: ___ (The girl is in the house.)
 7. First speaker: ___ (Thank you.)
 8. Second speaker: *Tōfā soifua.* (Goodbye.)
@@ -170,7 +170,7 @@ built it before moving into the Intermediate band.
 
 1. *Sā lē siva le teine.*
 2. *ʻO ai na alu?*
-3. *ʻO laʻu naifi lena.*
+3. *ʻO laʻu naifi lenā.*
 4. *E uliuli le pusi.*
 5. *Sā nonofo le tama ma le teine.*
 6. *ʻO anafea na moe ai le tama?*
@@ -178,7 +178,7 @@ built it before moving into the Intermediate band.
 ### Exercise 4
 
 1. *Na sau le tama ananafi.*
-2. *ʻOleʻā siva le teine ʻātaeao.*
+2. *ʻOleʻā siva le teine ātaeao.*
 3. *ʻOloʻo timu nei.*
 4. *Na tāʻele le tama anapō.*
 5. *ʻOleʻā sau le teine nānei.*
@@ -186,7 +186,7 @@ built it before moving into the Intermediate band.
 ### Exercise 5
 
 1. *Sā lē siva le teine.*
-2. *E lē malosi le tama.*
+2. *E lē mālosi le tama.*
 3. *E lē ʻo se uō le tama.*
 4. *E leai se tusi.*
 5. *E lē ʻo se iʻa le pusi.*
@@ -203,7 +203,7 @@ built it before moving into the Intermediate band.
 
 1. *tama e tolu*
 2. *Teine e toʻalua.*
-3. *i le itula e tolu*
+3. *ʻi le itūlā e tolu*
 4. *le fale lona lua*
 5. *E fia aso?*
 
@@ -211,7 +211,7 @@ built it before moving into the Intermediate band.
 
 2. *Tālofa.*
 4. *ʻO aʻu ʻo se uō.*
-6. *ʻO le fale e i ai le teine.*
+6. *ʻO le fale e ʻi ai le teine.*
 7. *Faʻafetai.*
 
 ### Can You Do This?
@@ -219,10 +219,10 @@ built it before moving into the Intermediate band.
 1. *Tālofa.* / *Faʻafetai.* / *Tōfā soifua.*
 2. *Sā siva le teine.* / *Sā siva le teine?* ↘
 3. *ʻO aʻu ʻo se uō.*
-4. *ʻO le pusi lena.*
-5. *Sā i le fale le teine.* / *ʻO fea e i ai le tama?*
-6. *E malosi le tama.*
+4. *ʻO le pusi lenā.*
+5. *Sā ʻi le fale le teine.* / *ʻO fea e ʻi ai le tama?*
+6. *E mālosi le tama.*
 7. *Sā lē siva le teine.* / *E lē ʻo se uō le tama.*
 8. *ʻO ai na alu?*
-9. *tama e tolu* / *i le itula e tolu*
+9. *tama e tolu* / *ʻi le itūlā e tolu*
 10. *Nofo.* / *Nonofo.*

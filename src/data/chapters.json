@@ -41,7 +41,7 @@
     "title": "Describing Verbs",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter expands the past particle + pronoun + verb pattern by adding the verb phrase's two modifier slots, and shows that the words which describe an action are themselves verbs. A describing verb follows the action verb, as in *Sā ʻou foi fiafia* (\"I returned happily\"); the want word *fia* stands before it, as in *Sā ʻou fia alu* (\"I wanted to go\").",
+    "intro": "This chapter expands the past particle + pronoun + verb pattern by adding the verb phrase's two modifier slots, and shows that the words which describe an action are themselves verbs. A describing verb follows the action verb, as in *Sā ʻou foʻi fiafia* (\"I returned happily\"); the want word *fia* stands before it, as in *Sā ʻou fia alu* (\"I wanted to go\").",
     "sections": [
       "The Describing Verb",
       "The Want Word *Fia*",
@@ -49,7 +49,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā ʻou foi.",
+      "samoan": "Sā ʻou foʻi.",
       "english": "I returned."
     },
     "quiz": true
@@ -199,15 +199,15 @@
     "title": "Location and Direction",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter introduces the place word *i*, which sets an action in a place or sends it toward one, and the from-word *mai*, which marks where something started. The place word stretches a sentence like *Sā ʻou alu* (I went) into *Sā ʻou alu i le nuʻu* (I went to the village), and the from-word answers where a thing came from, as in *Na oso le tama mai le solofanua* (the boy jumped from the horse).",
+    "intro": "This chapter introduces the place word *ʻi*, which sets an action in a place or sends it toward one, and the from-word *mai*, which marks where something started. The place word stretches a sentence like *Sā ʻou alu* (I went) into *Sā ʻou alu ʻi le nuʻu* (I went to the village), and the from-word answers where a thing came from, as in *Na oso le tama mai le solofanua* (the boy jumped from the horse).",
     "sections": [
-      "The Place Word *i*",
+      "The Place Word *ʻi*",
       "The From-Word *mai*",
       "Words to Learn",
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā ʻou alu i le nuʻu.",
+      "samoan": "Sā ʻou alu ʻi le nuʻu.",
       "english": "I went to the village."
     },
     "quiz": true
@@ -217,7 +217,7 @@
     "title": "Verbs of Wanting and Seeing",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter introduces the two-participant sentence: a verb of seeing, feeling, wanting, or asking, then the one who does it, then the thing it reaches, marked by the place word *i*. The pattern points at that thing with the same *i* that sets an action in a place, as in *Sā alofa le tama i le teine* (the boy loved the girl).",
+    "intro": "This chapter introduces the two-participant sentence: a verb of seeing, feeling, wanting, or asking, then the one who does it, then the thing it reaches, marked by the place word *ʻi*. The pattern points at that thing with the same *ʻi* that sets an action in a place, as in *Sā alofa le tama ʻi le teine* (the boy loved the girl).",
     "sections": [
       "The Two-Participant Sentence",
       "Wanting",
@@ -227,7 +227,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā vaʻai le teine i le iʻa.",
+      "samoan": "Sā vaʻai le teine ʻi le iʻa.",
       "english": "The girl saw the fish."
     },
     "quiz": true
@@ -247,7 +247,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "E malosi le tama.",
+      "samoan": "E mālosi le tama.",
       "english": "The boy is strong."
     },
     "quiz": true
@@ -297,16 +297,16 @@
     "title": "The Pointing-Back Word *Ai*",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter adds the pointing-back word *ai*, a word that sits inside the verb phrase and stands in for a place already named, so that a place mentioned once does not have to be named a second time. Its companion form *i ai* does the same work for the goal of a movement, the \"to there\" of going and coming.",
+    "intro": "This chapter adds the pointing-back word *ai*, a word that sits inside the verb phrase and stands in for a place already named, so that a place mentioned once does not have to be named a second time. Its companion form *ʻi ai* does the same work for the goal of a movement, the \"to there\" of going and coming.",
     "sections": [
       "Pointing Back to a Place",
       "Putting the Place First",
-      "Going There: *I ai*",
+      "Going There: *ʻi ai*",
       "Words to Learn",
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā nofo le teine i le nuʻu.",
+      "samoan": "Sā nofo le teine ʻi le nuʻu.",
       "english": "The girl lived in the village."
     },
     "quiz": true
@@ -327,7 +327,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā i le fale le teine.",
+      "samoan": "Sā ʻi le fale le teine.",
       "english": "The girl was in the house."
     },
     "quiz": true
@@ -337,7 +337,7 @@
     "title": "Time Words",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter adds the time-word slot at the end of the sentence, a set of words such as *ananafi* (yesterday) and *ʻātaeao* (tomorrow morning) that fix a statement to a point in time. The word sits after everything else, and its front end points the same way in time as the tense particle at the start.",
+    "intro": "This chapter adds the time-word slot at the end of the sentence, a set of words such as *ananafi* (yesterday) and *ātaeao* (tomorrow morning) that fix a statement to a point in time. The word sits after everything else, and its front end points the same way in time as the tense particle at the start.",
     "sections": [
       "The Time-Word Slot",
       "Time Past and Time to Come",
@@ -356,7 +356,7 @@
     "title": "Plural Verb Forms",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter adds the plural verb form, the shape a verb takes when what it is about is more than one, so that *nofo* (one person stays) becomes *nonofo* (several stay). The same number appears on describing verbs, reaches plural commands, and settles onto group words such as *aiga* (family).",
+    "intro": "This chapter adds the plural verb form, the shape a verb takes when what it is about is more than one, so that *nofo* (one person stays) becomes *nonofo* (several stay). The same number appears on describing verbs, reaches plural commands, and settles onto group words such as *ʻāiga* (family).",
     "sections": [
       "The Verb Shows Number",
       "Learning Each Plural Form",
@@ -468,7 +468,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "ʻAua ʻe te faʻasāunoa i mea ola.",
+      "samoan": "ʻAua ʻe te faʻasāunoa ʻi meaola.",
       "english": "Do not torture animals."
     },
     "quiz": true
@@ -490,7 +490,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "ʻO le leitiō a le aliʻi.",
+      "samoan": "ʻO le leitio a le aliʻi.",
       "english": "The radio of the chief."
     },
     "quiz": true
@@ -500,7 +500,7 @@
     "title": "Spatial Nouns",
     "level": "intermediate",
     "group": "intermediate",
-    "intro": "This chapter adds the spatial nouns, the closed set of words that name the regions around a thing, its inside, its top, its back, together with the words for the compass points and for the seaward and inland directions. It fits them into a frame built from the place word *i* and the belonging word *o*, both already taught, so you can say where one thing sits in relation to another.",
+    "intro": "This chapter adds the spatial nouns, the closed set of words that name the regions around a thing, its inside, its top, its back, together with the words for the compass points and for the seaward and inland directions. It fits them into a frame built from the place word *ʻi* and the belonging word *o*, both already taught, so you can say where one thing sits in relation to another.",
     "sections": [
       "The Spatial-Noun Frame",
       "The Spatial Nouns of Position",
@@ -510,7 +510,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "ʻO le laau i tua o le fale.",
+      "samoan": "ʻO le lāʻau ʻi tua o le fale.",
       "english": "The tree behind the house."
     },
     "quiz": true
@@ -565,7 +565,7 @@
     "title": "Directional Particles",
     "level": "intermediate",
     "group": "intermediate",
-    "intro": "This chapter introduces the direction words, the six particles that stand after a verb and say which way its action is turned, toward the speaker, away from the speaker, up, down, along or away, and shows you how to orient an action in space relative to yourself and the person you are speaking to. The same words also stand inside a spatial noun, as in *i lalo ifo o le fale* (underneath the house).",
+    "intro": "This chapter introduces the direction words, the six particles that stand after a verb and say which way its action is turned, toward the speaker, away from the speaker, up, down, along or away, and shows you how to orient an action in space relative to yourself and the person you are speaking to. The same words also stand inside a spatial noun, as in *ʻi lalo ifo o le fale* (underneath the house).",
     "sections": [
       "The Six Direction Words",
       "Where the Direction Word Stands",
@@ -611,14 +611,14 @@
     "intro": "This chapter adds the comparison patterns: the direction word *atu* carrying the comparative degree, the than-word *i lo* naming what a thing is measured against, and the verbs *sili* (best), *pei* (like) and *tusa* (the same). The quality word keeps its shape in every pattern here, so these separate words carry the whole job, and with them you can say that one thing has more of a quality than another, that one thing stands above the rest, and that two things are alike.",
     "sections": [
       "The Comparative *Atu*",
-      "Naming What You Compare With: *I Lo*",
+      "Naming What You Compare With: *ʻi Lo*",
       "The Most and the Best: *Sili*",
       "Saying Two Things Are Alike: *Pei* and *Tusa Ma*",
       "Words to Learn",
       "Exercises"
     ],
     "example": {
-      "samoan": "E malosi atu le tama.",
+      "samoan": "E mālosi atu le tama.",
       "english": "The boy is stronger."
     },
     "quiz": true
@@ -680,7 +680,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā gālue le tama i le faʻatoʻaga.",
+      "samoan": "Sā galue le tama ʻi le faʻatoʻaga.",
       "english": "The boy worked in the plantation."
     },
     "quiz": true
@@ -700,7 +700,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "ʻOu te lē fia manatu i le mea lea.",
+      "samoan": "ʻOu te lē fia manatu ʻi le mea lea.",
       "english": "I do not want to think about that."
     },
     "quiz": true
@@ -763,7 +763,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "Sā taatia le teine i le fale ʻauā ʻua vaivai.",
+      "samoan": "Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.",
       "english": "The girl lay down in the house because she was tired."
     },
     "quiz": true
@@ -875,7 +875,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "ʻO le fafine sā alu i le nuʻu.",
+      "samoan": "ʻO le fafine sā alu ʻi le nuʻu.",
       "english": "The woman who went to the village."
     },
     "quiz": true
@@ -885,7 +885,7 @@
     "title": "Time Expressions",
     "level": "advanced",
     "group": "advanced",
-    "intro": "This chapter completes the time-expression system with the since-word *talu* and the clause that follows it, the when-word *ina ʻua*, the le-phrase set at the head of a sentence as a way to set the time in a story, and the ways Samoan says how often. It shows you how to place a whole episode in time, from *talu ona ʻou sau* (since I came) to *i taeao o aso taʻi=tasi* (every morning).",
+    "intro": "This chapter completes the time-expression system with the since-word *talu* and the clause that follows it, the when-word *ina ʻua*, the le-phrase set at the head of a sentence as a way to set the time in a story, and the ways Samoan says how often. It shows you how to place a whole episode in time, from *talu ona ʻou sau* (since I came) to *ʻi taeao o aso taʻi=tasi* (every morning).",
     "sections": [
       "The Since-Word *Talu*",
       "Where the Since-Clause Stands",
@@ -961,7 +961,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "E alofa le tama i le teine.",
+      "samoan": "E alofa le tama ʻi le teine.",
       "english": "The boy loves the girl."
     },
     "quiz": true
@@ -982,7 +982,7 @@
       "Exercises"
     ],
     "example": {
-      "samoan": "ʻIa tātou onosaʻi.",
+      "samoan": "ʻIa tātou ʻonosaʻi.",
       "english": "Let's be patient."
     },
     "quiz": true
@@ -1020,7 +1020,7 @@
       "The Ending *=a*",
       "The Prefix *fe-*",
       "The Counting Prefixes *taʻi-* and *toʻa-*",
-      "The Time Prefixes *ʻā-* and *ana-*",
+      "The Time Prefixes *ā-* and *ana-*",
       "Doubling a Piece of the Word",
       "Doubling the Whole Word",
       "Number in the Colour and Size Words",

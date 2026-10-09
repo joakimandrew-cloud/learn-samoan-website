@@ -31,7 +31,7 @@ The not-word keeps this one position under every tense particle:
 |---|---|
 | *Sā lē siva le teine.* | The girl did not dance. |
 | *ʻOleʻā ʻou lē siva.* | I will not dance. |
-| *E lē malosi le tama.* | The boy is not strong. |
+| *E lē mālosi le tama.* | The boy is not strong. |
 | *Sā lē malie le tamā.* | The father was not pleased. |
 
 These four span the past particle, the future particle, and the general
@@ -43,7 +43,7 @@ the verb.
 > tense particles add a shade of meaning when *lē* joins them, shown in the
 > next section.
 
-> *Note:* Two look-alikes meet in *E lē malosi le tama* (the boy is not
+> *Note:* Two look-alikes meet in *E lē mālosi le tama* (the boy is not
 > strong). The not-word *lē* carries the long-vowel mark and stands before the
 > verb; the specific article *le*, with no mark, stands before the noun.
 > Everyday print often leaves the mark off, so let position be your guide:
@@ -120,7 +120,7 @@ which is the company it normally keeps:
 
 The not-word *lē* and the not-yet word *leʻi* look alike, and they are not one
 word wearing two spellings. They differ in more than one way at once: *lē* holds
-its vowel long, while *leʻi* carries the catch of the *ʻ* mark and an *i* at the
+its vowel long, while *leʻi* carries the catch of the *ʻ* mark and an i at the
 end. They differ in meaning too. *E lē alu le teine* is "the girl does not go";
 *E leʻi alu le teine* is "the girl has not gone yet".
 
@@ -210,9 +210,9 @@ to say a thing fails to exist. That is the there-is-none verb's own work.
 
 | Word | Meaning |
 |---|---|
-| *itula* | hour |
+| *itūlā* | hour |
 
-*Itula* is learned now; the sentences that count hours and tell the time arrive
+*Itūlā* is learned now; the sentences that count hours and tell the time arrive
 later in this book.
 
 ---
@@ -241,7 +241,7 @@ Rewrite each sentence with the not-word *lē* so it denies what it now states.
 Keep the tense particle and the rest of the sentence in place.
 
 1. *Sā siva le teine.*
-2. *E malosi le tama.*
+2. *E mālosi le tama.*
 3. *Sā malie le tamā.*
 4. *ʻOleʻā ʻou alu.*
 5. *E fiafia le teine.*
@@ -255,7 +255,7 @@ matches the English.
 2. *E ___ alu le teine.* (The girl has not gone yet.)
 3. *ʻUa ___ fiafia le tama.* (The boy is unhappy.)
 4. *ʻOu te ___ alu.* (I have not gone yet.)
-5. *E ___ malosi le tama.* (The boy is not strong.)
+5. *E ___ mālosi le tama.* (The boy is not strong.)
 
 ### Exercise 5: Say it is not so
 
@@ -266,7 +266,7 @@ with the general particle *e* and the not-word *lē*.
 2. *ʻO se pepe le teine.*
 3. *ʻO se iʻa le pusi.*
 4. *ʻO se ʻiole le pusi.*
-5. *ʻO se tagata le agelu.*
+5. *ʻO se tagata le ʻāgelu.*
 
 ---
 
@@ -282,7 +282,7 @@ with the general particle *e* and the not-word *lē*.
 
 ### Exercise 2
 
-1. *E lē malosi le tama.*
+1. *E lē mālosi le tama.*
 2. *ʻOu te leʻi alu.*
 3. *Sā lē malie le tamā.*
 4. *E lē ʻo se iʻa le pusi.*
@@ -291,7 +291,7 @@ with the general particle *e* and the not-word *lē*.
 ### Exercise 3
 
 1. *Sā lē siva le teine.*
-2. *E lē malosi le tama.*
+2. *E lē mālosi le tama.*
 3. *Sā lē malie le tamā.*
 4. *ʻOleʻā ʻou lē alu.*
 5. *E lē fiafia le teine.*
@@ -310,4 +310,4 @@ with the general particle *e* and the not-word *lē*.
 2. *E lē ʻo se pepe le teine.*
 3. *E lē ʻo se iʻa le pusi.*
 4. *E lē ʻo se ʻiole le pusi.*
-5. *E lē ʻo se tagata le agelu.*
+5. *E lē ʻo se tagata le ʻāgelu.*

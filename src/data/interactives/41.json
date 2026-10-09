@@ -23,7 +23,7 @@
           },
           {
             "label": "The action forbidden",
-            "sm": "ʻAua le tatala=ina le pusa lena.",
+            "sm": "ʻAua le tatala=ina le pusa lenā.",
             "en": "Don't open that box.",
             "note": "Forbidding with *ʻaua le* requires the long form."
           }
@@ -59,7 +59,7 @@
             "why": "The because-word opens a clause with its own tense particle."
           },
           {
-            "sm": "ʻUa malamalama le teine ʻauā ʻua tautala le tama.",
+            "sm": "ʻUa mālamalama le teine ʻauā ʻua tautala le tama.",
             "en": "The girl understands because the boy has spoken.",
             "bin": "reason",
             "why": "The second clause gives the reason for the first."

@@ -39,8 +39,8 @@ iloa*, and the coming was already done then, which is "the girl had come".
 |---|---|
 | *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. |
 | *Na iloa e le tama ʻua sau le teine.* | The boy knew that the girl had come. |
-| *Na iloa e loʻu atalii ʻua sau le teine.* | My son knew that the girl had come. |
-| *Na iloa e le tama ʻua sasae le ie.* | The boy knew that the cloth had been torn. |
+| *Na iloa e loʻu ataliʻi ʻua sau le teine.* | My son knew that the girl had come. |
+| *Na iloa e le tama ʻua sasae le ʻie.* | The boy knew that the cloth had been torn. |
 
 The one who knows is marked with the agent marker *e*, as it is with any verb
 that takes it, and the reported clause follows with nothing standing between.
@@ -50,9 +50,9 @@ that takes it, and the reported clause follows with nothing standing between.
 ## The Tense Particle Inside the Report
 
 ::: {.examples}
-*ʻUa iloa e le tama ʻoloʻo nofo le teine i le nuʻu.* The boy knows that the girl is staying in the village.
+*ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knows that the girl is staying in the village.
 
-*Na iloa e le tama ʻoloʻo nofo le teine i le nuʻu.* The boy knew that the girl was staying in the village.
+*Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knew that the girl was staying in the village.
 :::
 
 Any of the tense particles can stand in the report. The ones that set a time
@@ -71,15 +71,15 @@ its own rather than across the two.
 | Report set at now | English |
 |---|---|
 | *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. |
-| *ʻUa iloa e le tama ʻoloʻo nofo le teine i le nuʻu.* | The boy knows that the girl is staying in the village. |
-| *ʻUa iloa e le tama sā nofo le teine i le nuʻu.* | The boy knows that the girl had stayed in the village. |
-| *ʻUa iloa e le tama e nofo le teine i le nuʻu.* | The boy knows that the girl will stay in the village. |
+| *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* | The boy knows that the girl is staying in the village. |
+| *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.* | The boy knows that the girl had stayed in the village. |
+| *ʻUa iloa e le tama e nofo le teine ʻi le nuʻu.* | The boy knows that the girl will stay in the village. |
 
 | Report set in the past | English |
 |---|---|
 | *Na iloa e le tama ʻua sau le teine.* | The boy knew that the girl had come. |
-| *Na iloa e le tama ʻoloʻo nofo le teine i le nuʻu.* | The boy knew that the girl was staying in the village. |
-| *Na iloa e le tama sā nofo le teine i le nuʻu.* | The boy knew that the girl had stayed in the village. |
+| *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* | The boy knew that the girl was staying in the village. |
+| *Na iloa e le tama sā nofo le teine ʻi le nuʻu.* | The boy knew that the girl had stayed in the village. |
 | *Na iloa e le tama e sau le teine.* | The boy knew that the girl would come. |
 
 Read the first three rows of the two tables side by side. The first half does
@@ -108,7 +108,7 @@ report.
 ## Reporting a Command
 
 ::: {.examples}
-*ʻUa faatonu mai e le teine o le vaalele ʻia saisai le fusi.* The stewardess gave the order that the belt should be fastened. (Lit. "The girl of the airplane has ordered that the belt be tied.")
+*ʻUa faʻatonu mai e le teine o le vaʻalele ʻia sāisai le fusi.* The stewardess gave the order that the belt should be fastened. (Lit. "The girl of the airplane has ordered that the belt be tied.")
 :::
 
 When what is reported is a command, the reported clause opens with the mood
@@ -117,10 +117,10 @@ slot, and what stands after it is what somebody is to do.
 
 | Samoan | English |
 |---|---|
-| *ʻUa faatonu mai e le teine o le vaalele ʻia saisai le fusi.* | The stewardess gave the order that the belt should be fastened. |
-| *ʻUa faatonu mai e le teine o le vaalele ʻia nofo le tagata.* | The stewardess gave the order that the person should sit. |
-| *ʻUa faatonu mai e le tama ʻia faʻatali le teine.* | The boy gave the order that the girl should wait. |
-| *ʻUa faatonu mai e le tama ʻia sau le teine.* | The boy gave the order that the girl should come. |
+| *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia sāisai le fusi.* | The stewardess gave the order that the belt should be fastened. |
+| *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.* | The stewardess gave the order that the person should sit. |
+| *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.* | The boy gave the order that the girl should wait. |
+| *ʻUa faʻatonu mai e le tama ʻia sau le teine.* | The boy gave the order that the girl should come. |
 
 > *Note:* The general particle *e* also stands in this slot in place of *ʻia*,
 > with the same reported-command reading.
@@ -135,7 +135,7 @@ slot, and what stands after it is what somebody is to do.
 ::: {.examples}
 *Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."* The man said: "You will wait." (Lit. "Say away the man: 'You will wait.'")
 
-*Na fai atu le teine i le tama e ʻavatu le tusi.* The girl told the boy to give the book. (Lit. "The girl said to the boy that the book be given.")
+*Na fai atu le teine ʻi le tama e ʻavatu le tusi.* The girl told the boy to give the book. (Lit. "The girl said to the boy that the book be given.")
 :::
 
 *Fai*, met earlier in this book for do and make, is also the word for say, and
@@ -151,7 +151,7 @@ words, as in the second.
 |---|---|
 | *Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."* | The man said: "You will wait." |
 | *Fai atu le teine: "ʻOleʻā ʻou alu."* | The girl said: "I will go." |
-| *Na fai atu le teine i le tama e ʻavatu le tusi.* | The girl told the boy to give the book. |
+| *Na fai atu le teine ʻi le tama e ʻavatu le tusi.* | The girl told the boy to give the book. |
 
 > *Note:* *Fai atu* and *fai mai* carry the direction words taught earlier in
 > this book, *atu* for speech going away from the speaker and *mai* for speech
@@ -175,7 +175,7 @@ question follows it.
 |---|---|
 | *Na fai mai le teine pē alu le tama.* | The girl asked whether the boy would go. |
 | *Na fai mai le tama pē sau le teine.* | The boy asked whether the girl would come. |
-| *Na fai mai le teine pē nofo le tama i le nuʻu.* | The girl asked whether the boy was staying in the village. |
+| *Na fai mai le teine pē nofo le tama ʻi le nuʻu.* | The girl asked whether the boy was staying in the village. |
 
 > *Note:* *Pē* has a second shape, *po*, the question marker met earlier in
 > this book at the front of a question. Either shape opens a reported question.
@@ -199,15 +199,15 @@ question follows it.
 | *sasae* | tear |
 | *tā* | beat, strike, play |
 | *ʻavatu* | give (away from the speaker) |
-| *atalii* | son |
-| *faatonu* | order, instruct: a verb here, and the one who gives the order takes the agent marker |
+| *ataliʻi* | son |
+| *faʻatonu* | order, instruct: a verb here, and the one who gives the order takes the agent marker |
 | *fusi* | belt |
-| *vaalele* | airplane |
+| *vaʻalele* | airplane |
 
-*Atalii* takes an o-word possessive form, as the words for close family do:
+*Ataliʻi* takes an o-word possessive form, as the words for close family do:
 
 ::: {.examples}
-*ʻO loʻu atalii.* My son.
+*ʻO loʻu ataliʻi.* My son.
 :::
 
 > *Note:* *Tā* is spelled like the word for "you and I" taught earlier in this
@@ -223,11 +223,11 @@ question follows it.
 ### Exercise 1: Translate into English
 
 1. *ʻUa iloa e le tama ʻua sau le teine.*
-2. *Na iloa e le tama ʻoloʻo nofo le teine i le nuʻu.*
-3. *ʻUa faatonu mai e le tama ʻia sau le teine.*
+2. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+3. *ʻUa faʻatonu mai e le tama ʻia sau le teine.*
 4. *Fai atu le teine: "ʻOleʻā ʻou alu."*
 5. *Na fai mai le tama pē sau le teine.*
-6. *Na iloa e loʻu atalii ʻua sasae le ie.*
+6. *Na iloa e loʻu ataliʻi ʻua sasae le ʻie.*
 
 ### Exercise 2: Translate into Samoan
 
@@ -245,41 +245,41 @@ of *ʻUa iloa*, leaving the second half exactly as it stands, and give the new
 English.
 
 1. *ʻUa iloa e le tama ʻua sau le teine.*
-2. *ʻUa iloa e le tama ʻoloʻo nofo le teine i le nuʻu.*
-3. *ʻUa iloa e le tama sā nofo le teine i le nuʻu.*
-4. *ʻUa iloa e le tama ʻua sasae le ie.*
-5. *ʻUa iloa e loʻu atalii ʻua sau le teine.*
+2. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+3. *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.*
+4. *ʻUa iloa e le tama ʻua sasae le ʻie.*
+5. *ʻUa iloa e loʻu ataliʻi ʻua sau le teine.*
 
 ### Exercise 4: Choose *ʻia* or *pē*
 
 Fill each gap so that the Samoan matches the English.
 
-1. *ʻUa faatonu mai e le tama ___ sau le teine.* (The boy gave the order that the girl should come.)
+1. *ʻUa faʻatonu mai e le tama ___ sau le teine.* (The boy gave the order that the girl should come.)
 2. *Na fai mai le teine ___ alu le tama.* (The girl asked whether the boy would go.)
-3. *ʻUa faatonu mai e le tama ___ faʻatali le teine.* (The boy gave the order that the girl should wait.)
+3. *ʻUa faʻatonu mai e le tama ___ faʻatali le teine.* (The boy gave the order that the girl should wait.)
 4. *Na fai mai le tama ___ sau le teine.* (The boy asked whether the girl would come.)
-5. *ʻUa faatonu mai e le teine o le vaalele ___ nofo le tagata.* (The stewardess gave the order that the person should sit.)
+5. *ʻUa faʻatonu mai e le teine o le vaʻalele ___ nofo le tagata.* (The stewardess gave the order that the person should sit.)
 
 ### Exercise 5: Place the reported event
 
 For each sentence, say whether the reported event is at the same time as the
 report, before it, or after it.
 
-1. *ʻUa iloa e le tama ʻoloʻo nofo le teine i le nuʻu.*
+1. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
 2. *Na iloa e le tama ʻua sau le teine.*
 3. *Na iloa e le tama ʻoleʻā sau le teine.*
-4. *ʻUa iloa e le tama sā nofo le teine i le nuʻu.*
-5. *Na iloa e le tama ʻoloʻo nofo le teine i le nuʻu.*
+4. *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.*
+5. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
 
 ### Exercise 6: Give the meaning
 
 1. *sasae*
 2. *tā*
 3. *ʻavatu*
-4. *atalii*
-5. *faatonu*
+4. *ataliʻi*
+5. *faʻatonu*
 6. *fusi*
-7. *vaalele*
+7. *vaʻalele*
 
 ---
 
@@ -297,30 +297,30 @@ report, before it, or after it.
 ### Exercise 2
 
 1. *Na iloa e le tama ʻua sau le teine.*
-2. *ʻUa iloa e le tama ʻoloʻo nofo le teine i le nuʻu.*
-3. *ʻUa faatonu mai e le tama ʻia faʻatali le teine.*
+2. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+3. *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.*
 4. *Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."*
 5. *Na fai mai le teine pē alu le tama.*
-6. *Na fai atu le teine i le tama e ʻavatu le tusi.*
+6. *Na fai atu le teine ʻi le tama e ʻavatu le tusi.*
 
 ### Exercise 3
 
 1. *Na iloa e le tama ʻua sau le teine.* The boy knew that the girl had come.
-2. *Na iloa e le tama ʻoloʻo nofo le teine i le nuʻu.* The boy knew that the
+2. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knew that the
    girl was staying in the village.
-3. *Na iloa e le tama sā nofo le teine i le nuʻu.* The boy knew that the girl
+3. *Na iloa e le tama sā nofo le teine ʻi le nuʻu.* The boy knew that the girl
    had stayed in the village. The English of the reported half does not move
    here, since it was already "had stayed" under the present report.
-4. *Na iloa e le tama ʻua sasae le ie.* The boy knew that the cloth had been torn.
-5. *Na iloa e loʻu atalii ʻua sau le teine.* My son knew that the girl had come.
+4. *Na iloa e le tama ʻua sasae le ʻie.* The boy knew that the cloth had been torn.
+5. *Na iloa e loʻu ataliʻi ʻua sau le teine.* My son knew that the girl had come.
 
 ### Exercise 4
 
-1. *ʻUa faatonu mai e le tama ʻia sau le teine.*
+1. *ʻUa faʻatonu mai e le tama ʻia sau le teine.*
 2. *Na fai mai le teine pē alu le tama.*
-3. *ʻUa faatonu mai e le tama ʻia faʻatali le teine.*
+3. *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.*
 4. *Na fai mai le tama pē sau le teine.*
-5. *ʻUa faatonu mai e le teine o le vaalele ʻia nofo le tagata.*
+5. *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.*
 
 ### Exercise 5
 

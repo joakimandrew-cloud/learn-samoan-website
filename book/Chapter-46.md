@@ -22,7 +22,7 @@ rest of the sentence says. The speaker stayed, and was unhappy while staying.
 ::: {.examples}
 *Na ʻou tausi=a le pepe ma le fiafia.* I took care of the baby happily.
 
-*ʻUa tausi=a ma le fiafia e le tina le pepe.* The mother was happy as she took care of the baby.
+*ʻUa tausi=a ma le fiafia e le tinā le pepe.* The mother was happy as she took care of the baby.
 :::
 
 These two sentences run on one verb, *tausi=a*, the long form of *tausi* (take
@@ -39,7 +39,7 @@ the speaker's.
 | Samoan | English |
 |---|---|
 | *Sā ʻou nofo ma le lē fiafia.* | I stayed and was unhappy. |
-| *Sā ʻou nofo ma le lē vaivai.* | I stayed and was not tired. |
+| *Sā ʻou nofo ma le lē vāivai.* | I stayed and was not tired. |
 | *Sā ʻou nofo ma le faʻanoanoa.* | I stayed and was sad. |
 | *Sā ʻou nofo ma le fiafia.* | I stayed and was happy. |
 
@@ -55,11 +55,11 @@ same group as *fiafia* and *ita*.
 ## Judging an Event
 
 ::: {.examples}
-*E lelei le putaafa o le puaʻa.* It is good that the pig is fat. (Lit. "The being fat of the pig is good.")
+*E lelei le putaʻafa o le puaʻa.* It is good that the pig is fat. (Lit. "The being fat of the pig is good.")
 :::
 
 The verb after the general particle is *lelei*, and what it calls good is not a
-thing but an event: *le putaafa o le puaʻa*, the pig's being *putaafa* (fat). A
+thing but an event: *le putaʻafa o le puaʻa*, the pig's being *putaʻafa* (fat). A
 verb that passes judgement on the event a le-phrase names is called a **judging
 verb**. The belonging word on the pig is *o*, by the doer test: being fat is not
 something anybody does.
@@ -79,7 +79,7 @@ about someone or something.
 
 These six are among the verbs that often take a le-phrase in this slot. Inside
 an ordinary sentence a le-phrase most often stands where the thing the sentence
-is about goes, as it does here, or after the place word *i*.
+is about goes, as it does here, or after the place word *ʻi*.
 
 > *Note:* A le-phrase can also be built on an event word that carries an
 > ending, the second way of packing an event into a word, taught later in this
@@ -93,12 +93,12 @@ is about goes, as it does here, or after the place word *i*.
 ### *E ʻese* and *E Leai*
 
 ::: {.examples}
-*E ʻese le taamilomilo solo o tala a le taulealea!* How fast the young man's words went around! (Lit. "The going around everywhere of the stories of the young man is extraordinary!")
+*E ʻese le taamilomilo solo o tala a le tauleʻaleʻa!* How fast the young man's words went around! (Lit. "The going around everywhere of the stories of the young man is extraordinary!")
 
 *E leai se faigatā o ni tali.* Answering is not at all difficult. (Lit. "There is no being difficult of any answers.")
 :::
 
-The first sentence is about a *taulealea* (young man) and how his stories
+The first sentence is about a *tauleʻaleʻa* (young man) and how his stories
 *taamilomilo* (circulate around). The two judging verbs in this pair push in
 opposite directions. *E ʻese* with a le-phrase stresses that a quality of a
 thing or a person is out of the ordinary. *E leai* with a le-phrase stresses
@@ -122,13 +122,13 @@ sentence:
 
 | Samoan | Word for word | Meaning |
 |---|---|---|
-| *E ʻese le mānaia o le ula.* | The being nice of the necklace is extraordinary. | The necklace is extremely nice. |
+| *E ʻese le mānaia o le ʻula.* | The being nice of the necklace is extraordinary. | The necklace is extremely nice. |
 | *E ʻese le mānaia o le pō.* | The being nice of the night is extraordinary. | The night is extremely nice. |
-| *E ʻese le taua o le mea=alofa.* | The being precious of the gift is extraordinary. | The gift is extremely precious. |
+| *E ʻese le tāua o le meaalofa.* | The being precious of the gift is extraordinary. | The gift is extremely precious. |
 | *E ʻese le lelei o le tala.* | The being good of the story is extraordinary. | The story is extremely good. |
 
-An *ula* is a necklace, a *pō* is a night, and a *mea=alofa* is a gift, literally
-a thing of love; *taua* means precious or important. In every row the belonging
+An *ʻula* is a necklace, a *pō* is a night, and a *meaalofa* is a gift, literally
+a thing of love; *tāua* means precious or important. In every row the belonging
 word is *o*, because a quality is not something anybody does.
 
 ---
@@ -155,7 +155,7 @@ uses often.
 |---|---|---|
 | *ʻO le fefe o le teine!* | The fear of the girl! | Look how scared the girl is! |
 | *ʻO le faʻanoanoa o le tama!* | The being sad of the boy! | Look how sad the boy is! |
-| *ʻO le ita o le tina!* | The anger of the mother! | Look how angry the mother is! |
+| *ʻO le ita o le tinā!* | The anger of the mother! | Look how angry the mother is! |
 | *ʻO le fiafia o le teine!* | The being happy of the girl! | Look how happy the girl is! |
 
 ::: {.examples}
@@ -188,13 +188,13 @@ le-phrase: crying is something the baby does, so the word is *a*.
 | Word | Meaning |
 |---|---|
 | *faʻanoanoa* | sad |
-| *putaafa* | fat |
+| *putaʻafa* | fat |
 | *taamilomilo* | circulate around |
-| *taua* | precious, important |
-| *mea=alofa* | gift (a thing of love) |
+| *tāua* | precious, important |
+| *meaalofa* | gift (a thing of love) |
 | *pō* | night |
-| *taulealea* | young man |
-| *ula* | necklace |
+| *tauleʻaleʻa* | young man |
+| *ʻula* | necklace |
 
 ---
 
@@ -204,9 +204,9 @@ le-phrase: crying is something the baby does, so the word is *a*.
 
 1. *Sā ʻou nofo ma le faʻanoanoa.*
 2. *Na ʻou tausi=a le pepe ma le fiafia.*
-3. *E lelei le putaafa o le puaʻa.*
-4. *E ʻese le taua o le mea=alofa.*
-5. *E ʻese le mānaia o le ula.*
+3. *E lelei le putaʻafa o le puaʻa.*
+4. *E ʻese le tāua o le meaalofa.*
+5. *E ʻese le mānaia o le ʻula.*
 6. *ʻO le faʻanoanoa o le tama!*
 7. *Le tagi a le pepe!*
 
@@ -224,9 +224,9 @@ Add *ma* and a le-phrase to each sentence so that it matches the English.
 
 Fill both gaps so that the sentence matches the English.
 
-1. *E \_\_\_ \_\_\_ mānaia o le ula.* (The necklace is extremely nice.)
+1. *E \_\_\_ \_\_\_ mānaia o le ʻula.* (The necklace is extremely nice.)
 2. *E \_\_\_ \_\_\_ faigatā o ni tali.* (Answering is not at all difficult.)
-3. *E \_\_\_ \_\_\_ taua o le mea=alofa.* (The gift is extremely precious.)
+3. *E \_\_\_ \_\_\_ tāua o le meaalofa.* (The gift is extremely precious.)
 4. *E \_\_\_ \_\_\_ mānaia o le pō.* (The night is extremely nice.)
 5. *E \_\_\_ \_\_\_ lelei o le tala.* (The story is extremely good.)
 
@@ -237,7 +237,7 @@ Rewrite each sentence as an exclamation built on a le-phrase, beginning with
 
 1. *E fefe le teine.*
 2. *E faʻanoanoa le tama.*
-3. *E ita le tina.*
+3. *E ita le tinā.*
 4. *E fiafia le teine.*
 5. *E ita le tama.*
 
@@ -254,7 +254,7 @@ Rewrite each sentence as an exclamation built on a le-phrase, beginning with
 Answer in English.
 
 1. *Sā ʻou nofo ma le lē fiafia.* What does the le-phrase after *ma* tell you about the speaker?
-2. *E ʻese le mānaia o le ula.* What does *ʻese* stress?
+2. *E ʻese le mānaia o le ʻula.* What does *ʻese* stress?
 3. *E leai se faigatā o ni tali.* What does *leai* stress, and which article does the le-phrase take after it?
 4. *Le tagi a le pepe!* Which part of the usual exclamation is left off, and is the exclamation still complete?
 5. *ʻO le fefe o Ulika!* Why is the belonging word *o* and not *a*?
@@ -262,13 +262,13 @@ Answer in English.
 ### Exercise 7: Give the English
 
 1. *faʻanoanoa*
-2. *putaafa*
+2. *putaʻafa*
 3. *taamilomilo*
-4. *taua*
-5. *mea=alofa*
+4. *tāua*
+5. *meaalofa*
 6. *pō*
-7. *taulealea*
-8. *ula*
+7. *tauleʻaleʻa*
+8. *ʻula*
 
 ---
 
@@ -288,15 +288,15 @@ Answer in English.
 
 1. *Sā ʻou nofo ma le faʻanoanoa.*
 2. *Na ʻou tausi=a le pepe ma le fiafia.*
-3. *Sā ʻou nofo ma le lē vaivai.*
+3. *Sā ʻou nofo ma le lē vāivai.*
 4. *Sā ʻou nofo ma le lē fiafia.*
 5. *Sā ʻou nofo ma le fiafia.*
 
 ### Exercise 3
 
-1. *E ʻese le mānaia o le ula.*
+1. *E ʻese le mānaia o le ʻula.*
 2. *E leai se faigatā o ni tali.*
-3. *E ʻese le taua o le mea=alofa.*
+3. *E ʻese le tāua o le meaalofa.*
 4. *E ʻese le mānaia o le pō.*
 5. *E ʻese le lelei o le tala.*
 
@@ -304,15 +304,15 @@ Answer in English.
 
 1. *ʻO le fefe o le teine!*
 2. *ʻO le faʻanoanoa o le tama!*
-3. *ʻO le ita o le tina!*
+3. *ʻO le ita o le tinā!*
 4. *ʻO le fiafia o le teine!*
 5. *ʻO le ita o le tama!*
 
 ### Exercise 5
 
 1. *Sā ʻou nofo ma le faʻanoanoa.*
-2. *E lelei le putaafa o le puaʻa.*
-3. *E ʻese le taua o le mea=alofa.*
+2. *E lelei le putaʻafa o le puaʻa.*
+3. *E ʻese le tāua o le meaalofa.*
 4. *E ʻese le mānaia o le pō.*
 5. *ʻO le fefe o le teine!*
 

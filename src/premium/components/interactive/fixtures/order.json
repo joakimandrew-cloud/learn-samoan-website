@@ -10,10 +10,42 @@
       "data": {
         "prompt": "Say this in Samoan",
         "items": [
-          { "en": "She bathed.", "sm": "Sā ia tāʻele.", "extra": ["ʻou", "alu"], "why": "The particle *sā* comes first, *ia* says she did it, and the verb *tāʻele* comes last." },
-          { "en": "I went fishing.", "sm": "Sā ʻou fāgota.", "extra": ["ia", "siva"], "why": "*ʻOu* is I, and *fāgota* by itself means go fishing." },
-          { "en": "I danced.", "sm": "Sā ʻou siva.", "extra": ["ia", "tāʻele"], "why": "Particle, pronoun, verb: *sā*, then *ʻou*, then *siva*." },
-          { "en": "She went.", "sm": "Sā ia alu.", "extra": ["ʻou", "fāgota"], "why": "*Ia* is the pronoun for someone else, and *alu* is go." }
+          {
+            "en": "She bathed.",
+            "sm": "Sā ia tāʻele.",
+            "extra": [
+              "ʻou",
+              "alu"
+            ],
+            "why": "The particle *sā* comes first, *ia* says she did it, and the verb *tāʻele* comes last."
+          },
+          {
+            "en": "I went fishing.",
+            "sm": "Sā ʻou fāgota.",
+            "extra": [
+              "ia",
+              "siva"
+            ],
+            "why": "*ʻOu* is I, and *fāgota* by itself means go fishing."
+          },
+          {
+            "en": "I danced.",
+            "sm": "Sā ʻou siva.",
+            "extra": [
+              "ia",
+              "tāʻele"
+            ],
+            "why": "Particle, pronoun, verb: *sā*, then *ʻou*, then *siva*."
+          },
+          {
+            "en": "She went.",
+            "sm": "Sā ia alu.",
+            "extra": [
+              "ʻou",
+              "fāgota"
+            ],
+            "why": "*Ia* is the pronoun for someone else, and *alu* is go."
+          }
         ]
       }
     },
@@ -25,10 +57,43 @@
       "intro": "Tap the words to build the Samoan for each English sentence. Some of the words on offer do not belong.",
       "data": {
         "items": [
-          { "en": "The girl saw the fish.", "sm": "Sā vaʻai le teine i le iʻa.", "extra": ["tama"], "accept": ["Sā vaʻai i le iʻa le teine"], "why": "The verb comes first, then the one who sees, then the thing seen, marked by *i*. *Sā vaʻai i le iʻa le teine* says the same: the two parts after the verb can come in either order." },
-          { "en": "I saw the fish.", "sm": "Sā ʻou vaʻai i le iʻa.", "extra": ["ia"], "why": "*ʻOu* keeps its place in the middle slot, before the verb, and the fish still follows with *i*." },
-          { "en": "She saw the cat.", "sm": "Sā ia vaʻai i le pusi.", "extra": ["ʻou", "iʻa"], "why": "*Ia* (she) sits before the verb, and *le pusi*, the cat, follows with *i*." },
-          { "en": "I called to the friend.", "sm": "Sā ʻou valaʻau i le uō.", "extra": ["ia", "teine"], "why": "*ʻOu* (I) comes before the verb *valaʻau*, and the one called to follows, marked by *i*." }
+          {
+            "en": "The girl saw the fish.",
+            "sm": "Sā vaʻai le teine ʻi le iʻa.",
+            "extra": [
+              "tama"
+            ],
+            "accept": [
+              "Sā vaʻai ʻi le iʻa le teine"
+            ],
+            "why": "The verb comes first, then the one who sees, then the thing seen, marked by *ʻi*. *Sā vaʻai ʻi le iʻa le teine* says the same: the two parts after the verb can come in either order."
+          },
+          {
+            "en": "I saw the fish.",
+            "sm": "Sā ʻou vaʻai ʻi le iʻa.",
+            "extra": [
+              "ia"
+            ],
+            "why": "*ʻOu* keeps its place in the middle slot, before the verb, and the fish still follows with *ʻi*."
+          },
+          {
+            "en": "She saw the cat.",
+            "sm": "Sā ia vaʻai ʻi le pusi.",
+            "extra": [
+              "ʻou",
+              "iʻa"
+            ],
+            "why": "*Ia* (she) sits before the verb, and *le pusi*, the cat, follows with *ʻi*."
+          },
+          {
+            "en": "I called to the friend.",
+            "sm": "Sā ʻou valaʻau ʻi le uō.",
+            "extra": [
+              "ia",
+              "teine"
+            ],
+            "why": "*ʻOu* (I) comes before the verb *valaʻau*, and the one called to follows, marked by *ʻi*."
+          }
         ]
       }
     }

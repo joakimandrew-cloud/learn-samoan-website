@@ -9,17 +9,17 @@ whole event into a thing you can put wherever a noun phrase goes.
 ## Making a Le-Phrase
 
 ::: {.examples}
-*ʻOu te lē fia manatu i le mea lea.* I do not want to think about that.
+*ʻOu te lē fia manatu ʻi le mea lea.* I do not want to think about that.
 
-*ʻOu te lē fia manatu i le leai o se mea i loʻu manava.* I do not want to think about having nothing in my stomach. (Lit. "...to think of the being absent of anything in my stomach.")
+*ʻOu te lē fia manatu ʻi le leai o se mea ʻi loʻu manava.* I do not want to think about having nothing in my stomach. (Lit. "...to think of the being absent of anything in my stomach.")
 :::
 
-Compare them. What stands after the place word *i* in each?
+Compare them. What stands after the place word *ʻi* in each?
 
 In the first sentence it is an ordinary noun phrase, *le mea lea*: an article, a
-noun, and the pointing word *lea*, which stands after the noun the way *lena*
+noun, and the pointing word *lea*, which stands after the noun the way *lenā*
 does. A thing, in other words. In the second it is an event, the speaker
-having nothing in the stomach. Everything before *i* is the same in both, so
+having nothing in the stomach. Everything before *ʻi* is the same in both, so
 whatever Samoan has done to that event, it has left it able to stand exactly
 where the thing stood. The words *o se mea* inside that second phrase name what
 is absent, and how a le-phrase names the people and things in its event is taken
@@ -37,10 +37,10 @@ carries. Any verb you already know can head one.
 | Samoan | English |
 |---|---|
 | *le nofo* | the staying |
-| *le taatia* | the lying down |
-| *le pāʻū* | the falling |
+| *le taʻatia* | the lying down |
+| *le paʻū* | the falling |
 | *le lavea* | the being hurt |
-| *le vaivai* | the being tired |
+| *le vāivai* | the being tired |
 | *le velo* | the hurling of a spear |
 | *le manatu* | the thinking |
 
@@ -80,17 +80,17 @@ then *lē*, then the verb.
 |---|---|
 | *le fiafia* | the being happy |
 | *le lē fiafia* | the not being happy |
-| *le vaivai* | the being tired |
-| *le lē vaivai* | the not being tired |
+| *le vāivai* | the being tired |
+| *le lē vāivai* | the not being tired |
 | *le nofo* | the staying |
 | *le lē nofo* | the not staying |
 
 ::: {.examples}
-*Sā ʻou nofo ma le lē vaivai.* I stayed and was not tired.
+*Sā ʻou nofo ma le lē vāivai.* I stayed and was not tired.
 :::
 
 Because a le-phrase works as a noun phrase, the words that mark a noun phrase
-mark it too. The place word *i* marked one in the opening pair and the with-word
+mark it too. The place word *ʻi* marked one in the opening pair and the with-word
 *ma* marks this one, and the other slots a noun phrase can fill are open to it
 too.
 
@@ -112,7 +112,7 @@ It is the article of a le-phrase.
 
 The do-not verb *sōia* is followed here by a le-phrase rather than by a person
 and a verb. What is forbidden is *le maumau=ina le taimi*, the wasting of the
-time, named as a thing. The verb of that event is *maumau*, and inside this
+time, named as a thing. The verb of that event is *māumau*, and inside this
 phrase it stands in its long form, *maumau=ina*, with the thing being wasted,
 *le taimi*, after it.
 
@@ -133,11 +133,11 @@ it, and Chapter 45 teaches both.
 
 | Samoan | English |
 |---|---|
-| *ʻAua le taatia.* | Do not lie down. |
+| *ʻAua le taʻatia.* | Do not lie down. |
 | *ʻAua le velo.* | Do not hurl a spear. |
 | *ʻAua le nofo.* | Do not stay. |
 | *Sōia le tagi.* | Stop crying. |
-| *Sōia le taatia.* | Stop lying down. |
+| *Sōia le taʻatia.* | Stop lying down. |
 
 > **Preview:** A le-phrase can name the person who does the event as well as the
 > thing it is done to. How each of them is marked follows a rule of its own, not
@@ -166,7 +166,7 @@ one.
 | *le nonofo* | the staying of more than one |
 
 ::: {.examples}
-*ʻAua le nonofo teine i le aoga.* The girls should not stay at the school.
+*ʻAua le nonofo teine ʻi le āʻoga.* The girls should not stay at the school.
 :::
 
 The phrase is about *teine*, the girls, and they are more than one, so the verb
@@ -191,13 +191,13 @@ inside it would be the singular *nofo*.
 | Word | Meaning |
 |---|---|
 | *manatu* | think; feel lonely |
-| *maumau* | waste |
+| *māumau* | waste |
 | *lavea* | be hurt, be wounded |
-| *pāʻū* | fall |
-| *taatia* | lie down |
-| *vaivai* | be weak, be tired |
+| *paʻū* | fall |
+| *taʻatia* | lie down |
+| *vāivai* | be weak, be tired |
 | *velo* | hurl a spear (at someone) |
-| *aoga* | school |
+| *āʻoga* | school |
 | *manava* | stomach |
 
 ---
@@ -208,8 +208,8 @@ inside it would be the singular *nofo*.
 
 1. *le nofo*
 2. *le lē fiafia*
-3. *le taatia*
-4. *le lē vaivai*
+3. *le taʻatia*
+4. *le lē vāivai*
 5. *le nonofo*
 6. *le velo*
 
@@ -217,9 +217,9 @@ inside it would be the singular *nofo*.
 
 Put the article *le* in front of each verb, and give the English.
 
-1. *pāʻū*
+1. *paʻū*
 2. *lavea*
-3. *vaivai*
+3. *vāivai*
 4. *manatu*
 5. *tagi*
 
@@ -228,7 +228,7 @@ Put the article *le* in front of each verb, and give the English.
 Rewrite each le-phrase with the not-word *lē* inside it, and give the English.
 
 1. *le fiafia*
-2. *le vaivai*
+2. *le vāivai*
 3. *le nofo*
 4. *le manatu*
 5. *le lavea*
@@ -237,11 +237,11 @@ Rewrite each le-phrase with the not-word *lē* inside it, and give the English.
 
 Put *ʻaua* in front of each le-phrase, and give the English.
 
-1. *le taatia*
+1. *le taʻatia*
 2. *le velo*
 3. *le nofo*
 4. *le tagi*
-5. *le pāʻū*
+5. *le paʻū*
 
 ### Exercise 5: Translate into Samoan
 
@@ -257,9 +257,9 @@ Put *ʻaua* in front of each le-phrase, and give the English.
 
 1. *Sā ʻou nofo ma le lē fiafia.*
 2. *Sōia le maumau=ina le taimi.*
-3. *ʻAua le nonofo teine i le aoga.*
-4. *ʻOu te lē fia manatu i le mea lea.*
-5. *Sā ʻou nofo ma le lē vaivai.*
+3. *ʻAua le nonofo teine ʻi le āʻoga.*
+4. *ʻOu te lē fia manatu ʻi le mea lea.*
+5. *Sā ʻou nofo ma le lē vāivai.*
 
 ---
 
@@ -276,37 +276,37 @@ Put *ʻaua* in front of each le-phrase, and give the English.
 
 ### Exercise 2
 
-1. *le pāʻū*, the falling
+1. *le paʻū*, the falling
 2. *le lavea*, the being hurt
-3. *le vaivai*, the being tired
+3. *le vāivai*, the being tired
 4. *le manatu*, the thinking
 5. *le tagi*, the crying
 
 ### Exercise 3
 
 1. *le lē fiafia*, the not being happy
-2. *le lē vaivai*, the not being tired
+2. *le lē vāivai*, the not being tired
 3. *le lē nofo*, the not staying
 4. *le lē manatu*, the not thinking
 5. *le lē lavea*, the not being hurt
 
 ### Exercise 4
 
-1. *ʻAua le taatia.* Do not lie down.
+1. *ʻAua le taʻatia.* Do not lie down.
 2. *ʻAua le velo.* Do not hurl a spear.
 3. *ʻAua le nofo.* Do not stay.
 4. *ʻAua le tagi.* Do not cry.
-5. *ʻAua le pāʻū.* Do not fall.
+5. *ʻAua le paʻū.* Do not fall.
 
 ### Exercise 5
 
-1. *le vaivai*
-2. *le lē vaivai*
-3. *le taatia*
+1. *le vāivai*
+2. *le lē vāivai*
+3. *le taʻatia*
 4. *le nonofo*
 5. *Sōia le tagi.*
 6. *ʻAua le maumau=ina le taimi.*
-7. *Sā ʻou nofo ma le lē vaivai.*
+7. *Sā ʻou nofo ma le lē vāivai.*
 
 ### Exercise 6
 

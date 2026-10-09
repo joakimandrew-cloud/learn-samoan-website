@@ -14,7 +14,7 @@ say what depends on what in either order.
 ::: {.examples}
 *ʻĀfai e timu taeao, e lē alu le malaga.* If it rains tomorrow, the trip will not go.
 
-*ʻĀfai ʻe te alu i le nuʻu, ʻou te alu.* If you go to the village, I'll go.
+*ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.* If you go to the village, I'll go.
 :::
 
 Each of those sentences has two clauses, one saying what has to be true and the
@@ -49,10 +49,10 @@ The word *tonu*, met earlier as "right, correct", stands here as a noun meaning
 | Samoan | English |
 |---|---|
 | *ʻĀfai e timu taeao, e lē alu le malaga.* | If it rains tomorrow, the trip will not go. |
-| *ʻĀfai ʻe te alu i le nuʻu, ʻou te alu.* | If you go to the village, I'll go. |
+| *ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.* | If you go to the village, I'll go. |
 | *ʻĀfai ʻo le tonu, ʻua lelei.* | If it is the decision, it is alright. |
 | *ʻĀfai e iai se apu, ʻou te ʻai.* | If there is an apple, I eat. |
-| *ʻĀfai e malosi le loto o le tama, e lē usitaʻi.* | If the boy's will is strong, he does not obey. |
+| *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.* | If the boy's will is strong, he does not obey. |
 
 > **Preview:** Samoan has a second if-word for a condition the speaker knows did
 > not come true and is only imagining, which is the kind of sentence English
@@ -123,9 +123,9 @@ not mark that difference anywhere in the sentence. The choice among the three
 English words is therefore the translator's rather than the Samoan sentence's.
 
 ::: {.examples}
-*ʻĀ ʻe alu i le matafaga, ʻaumai le solo.* When you go to the beach, bring the towel.
+*ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* When you go to the beach, bring the towel.
 
-*ʻĀ alu le tama i le matafaga, e fāgota.* When the boy goes to the beach, he fishes.
+*ʻĀ alu le tama ʻi le matāfaga, e fāgota.* When the boy goes to the beach, he fishes.
 :::
 
 The main clause standing behind a condition can be a command, as it is in the
@@ -136,18 +136,18 @@ future one. The same shape reads back into the past, where it says that whenever
 one thing happened, another used to follow.
 
 ::: {.examples}
-*ʻĀ fānau mai le ulugāliʻi, e fiafia le aiga.* When the couple had children, the family was happy.
+*ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.* When the couple had children, the family was happy.
 
-*ʻĀ siva le aiga, ʻua uosi.* Whenever the family dances, they waltz. (Lit. "...has waltzed.")
+*ʻĀ siva le ʻāiga, ʻua uosi.* Whenever the family dances, they waltz. (Lit. "...has waltzed.")
 :::
 
 | Samoan | English |
 |---|---|
 | *ʻĀ timu taeao, e lē alu le malaga.* | When it rains tomorrow, the trip will not go. |
-| *ʻĀ ʻe alu i le matafaga, ʻaumai le solo.* | When you go to the beach, bring the towel. |
-| *ʻĀ alu le tama i le matafaga, e fāgota.* | When the boy goes to the beach, he fishes. |
-| *ʻĀ fānau mai le ulugāliʻi, e fiafia le aiga.* | When the couple had children, the family was happy. |
-| *ʻĀ siva le aiga, ʻua uosi.* | Whenever the family dances, they waltz. (Lit. "...has waltzed.") |
+| *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* | When you go to the beach, bring the towel. |
+| *ʻĀ alu le tama ʻi le matāfaga, e fāgota.* | When the boy goes to the beach, he fishes. |
+| *ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.* | When the couple had children, the family was happy. |
+| *ʻĀ siva le ʻāiga, ʻua uosi.* | Whenever the family dances, they waltz. (Lit. "...has waltzed.") |
 
 > **Preview:** A condition clause opened by *ʻā* says what has to happen first.
 > English says how long something goes on before that point with "until", and
@@ -159,9 +159,9 @@ one thing happened, another used to follow.
 ## Putting the Condition Second
 
 ::: {.examples}
-*E lē mafai ona ʻe alofa pē ʻāfai e te ʻinoʻino.* You cannot love, if you hate.
+*E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.* You cannot love, if you hate.
 
-*E lē alu le malaga pē ʻā afa.* There will be no trip when there is a storm. (Lit. "The trip does not go when storm.")
+*E lē alu le malaga pē ʻā afā.* There will be no trip when there is a storm. (Lit. "The trip does not go when storm.")
 :::
 
 When the condition clause follows the main clause instead of opening the
@@ -175,16 +175,16 @@ the condition clause with whatever opens it.
 ::: {.examples}
 *Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* Come quickly if you get the food.
 
-*ʻOleʻā mālaia ia te ʻoe pē ʻāfai e te lē usitaʻi i le poloaʻiga.* Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.")
+*ʻOleʻā mālaia ʻia te ʻoe pē ʻāfai ʻe te lē usitaʻi ʻi le pōloaʻiga.* Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.")
 :::
 
 | Samoan | English |
 |---|---|
-| *E lē mafai ona ʻe alofa pē ʻāfai e te ʻinoʻino.* | You cannot love, if you hate. |
+| *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.* | You cannot love, if you hate. |
 | *Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* | Come quickly if you get the food. |
-| *ʻOleʻā mālaia ia te ʻoe pē ʻāfai e te lē usitaʻi i le poloaʻiga.* | Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.") |
-| *E lē alu le malaga pē ʻā afa.* | There will be no trip when there is a storm. (Lit. "The trip does not go when storm.") |
-| *E lē alu le tama i le matafaga pē ʻā afa.* | The boy will not go to the beach when there is a storm. (Lit. "The boy does not go to the beach when storm.") |
+| *ʻOleʻā mālaia ʻia te ʻoe pē ʻāfai ʻe te lē usitaʻi ʻi le pōloaʻiga.* | Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.") |
+| *E lē alu le malaga pē ʻā afā.* | There will be no trip when there is a storm. (Lit. "The trip does not go when storm.") |
+| *E lē alu le tama ʻi le matāfaga pē ʻā afā.* | The boy will not go to the beach when there is a storm. (Lit. "The boy does not go to the beach when storm.") |
 
 > *Note:* A condition clause standing in front of the main clause is
 > occasionally opened by *pē* as well. The usual shape is the one taught above,
@@ -210,12 +210,12 @@ the condition clause with whatever opens it.
 
 | Word | Meaning |
 |---|---|
-| *afa* | storm |
+| *afā* | storm |
 | *apu* | apple |
 | *loto* | will; heart |
-| *matafaga* | beach |
+| *matāfaga* | beach |
 | *mālaia* | disaster |
-| *poloaʻiga* | instruction |
+| *pōloaʻiga* | instruction |
 | *silou* | slow |
 | *solo* | towel |
 | *uosi* | waltz |
@@ -229,10 +229,10 @@ the condition clause with whatever opens it.
 
 1. *ʻĀfai e timu taeao, e lē alu le malaga.*
 2. *ʻĀfai ʻo le tonu, ʻua lelei.*
-3. *ʻĀfai e malosi le loto o le tama, e lē usitaʻi.*
-4. *ʻĀ ʻe alu i le matafaga, ʻaumai le solo.*
-5. *ʻĀ fānau mai le ulugāliʻi, e fiafia le aiga.*
-6. *E lē alu le malaga pē ʻā afa.*
+3. *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.*
+4. *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.*
+5. *ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.*
+6. *E lē alu le malaga pē ʻā afā.*
 
 ### Exercise 2: Name the shape
 
@@ -240,10 +240,10 @@ For each sentence, say what opens the condition clause and whether the condition
 stands in front of the main clause or after it.
 
 1. *ʻĀfai e iai se apu, ʻou te ʻai.*
-2. *ʻĀ siva le aiga, ʻua uosi.*
-3. *E lē mafai ona ʻe alofa pē ʻāfai e te ʻinoʻino.*
-4. *ʻĀ alu le tama i le matafaga, e fāgota.*
-5. *E lē alu le tama i le matafaga pē ʻā afa.*
+2. *ʻĀ siva le ʻāiga, ʻua uosi.*
+3. *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.*
+4. *ʻĀ alu le tama ʻi le matāfaga, e fāgota.*
+5. *E lē alu le tama ʻi le matāfaga pē ʻā afā.*
 
 ### Exercise 3: Move the condition to the back
 
@@ -253,7 +253,7 @@ it, putting *pē* in front of the condition.
 1. *ʻĀfai e timu taeao, e lē alu le malaga.*
 2. *ʻĀ timu taeao, e lē alu le malaga.*
 3. *ʻĀfai e iai se apu, ʻou te ʻai.*
-4. *ʻĀ siva le aiga, ʻua uosi.*
+4. *ʻĀ siva le ʻāiga, ʻua uosi.*
 5. *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.*
 
 ### Exercise 4: Fill the gap
@@ -262,8 +262,8 @@ Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
 
 1. *___ e timu taeao, e lē alu le malaga.* (If it rains tomorrow, the trip will not go.)
 2. *___ timu taeao, e lē alu le malaga.* (When it rains tomorrow, the trip will not go.)
-3. *E lē alu le malaga ___ ʻā afa.* (There will be no trip when there is a storm.)
-4. *___ ʻe alu i le matafaga, ʻaumai le solo.* (When you go to the beach, bring the towel.)
+3. *E lē alu le malaga ___ ʻā afā.* (There will be no trip when there is a storm.)
+4. *___ ʻe alu ʻi le matāfaga, ʻaumai le solo.* (When you go to the beach, bring the towel.)
 5. *___ ʻoleʻā timu taeao, e lē alu le malaga.* (If it is going to rain tomorrow, the trip will not go.)
 
 ### Exercise 5: Translate into Samoan
@@ -277,12 +277,12 @@ Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
 
 ### Exercise 6: Give the English
 
-1. *afa*
+1. *afā*
 2. *apu*
 3. *loto*
-4. *matafaga*
+4. *matāfaga*
 5. *mālaia*
-6. *poloaʻiga*
+6. *pōloaʻiga*
 7. *silou*
 8. *solo*
 9. *uosi*
@@ -314,7 +314,7 @@ Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
 1. *E lē alu le malaga pē ʻāfai e timu taeao.*
 2. *E lē alu le malaga pē ʻā timu taeao.*
 3. *ʻOu te ʻai pē ʻāfai e iai se apu.*
-4. *ʻUa uosi pē ʻā siva le aiga.*
+4. *ʻUa uosi pē ʻā siva le ʻāiga.*
 5. *ʻOleʻā alu le teine pē ʻāfai ʻua sau le tama.*
 
 ### Exercise 4
@@ -327,11 +327,11 @@ Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
 
 ### Exercise 5
 
-1. *ʻĀfai ʻe te alu i le nuʻu, ʻou te alu.*
+1. *ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.*
 2. *ʻĀfai e iai se apu, ʻou te ʻai.*
 3. *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.*
-4. *ʻĀ alu le tama i le matafaga, e fāgota.*
-5. *E lē mafai ona ʻe alofa pē ʻāfai e te ʻinoʻino.*
+4. *ʻĀ alu le tama ʻi le matāfaga, e fāgota.*
+5. *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.*
 6. *Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.*
 
 ### Exercise 6

@@ -16,7 +16,7 @@ and clause combining running together.
 
 *Sā tatala le pusa.* The box was opened.
 
-*ʻAua le tatala=ina le pusa lena.* Don't open that box.
+*ʻAua le tatala=ina le pusa lenā.* Don't open that box.
 :::
 
 A verb that takes a doer marks a doer phrase standing after it with the agent
@@ -45,14 +45,14 @@ is turned: *mai* toward the speaker, *atu* away from the speaker, *aʻe* up and
 
 ### Exercise 1: Translate into English
 
-1. *Na saisai e le tamāloa le moa.*
+1. *Na sāisai e le tamāloa le moa.*
 2. *Sā tausi le pepe.*
 3. *ʻO ai na fasi=a le tama?*
-4. *ʻAua le faitau=a le tusi lena.*
+4. *ʻAua le faitau=a le tusi lenā.*
 5. *Sā faʻagoto e le tama le vaʻa.*
 6. *Na alu ifo le tama.*
 7. *ʻAua ʻe te faitala.*
-8. *Sōia le taatia.*
+8. *Sōia le taʻatia.*
 
 ### Exercise 2: Translate into Samoan
 
@@ -69,7 +69,7 @@ Use the past particle given in brackets.
 ## Belonging, Place, and Description
 
 ::: {.examples}
-*ʻO le taʻavale i luma o le fale.* The car in front of the house.
+*ʻO le taʻavale ʻi luma o le fale.* The car in front of the house.
 
 *le taʻavale uliuli*. the black car
 :::
@@ -80,7 +80,7 @@ is given, such as the house a person lives in, a part of the person, or a
 quality of the thing itself. This distinction guides the choice. Where it runs
 out, some relationships take their belonging word by convention and are learned
 word by word. A spatial noun names a region of space around a
-thing, and it sits in a frame of four parts: the place word *i*, the spatial
+thing, and it sits in a frame of four parts: the place word *ʻi*, the spatial
 noun, the belonging word *o*, then the thing the position is measured against.
 A describing verb can also stand inside a noun phrase, after the name of the
 thing, where it says which one is meant.
@@ -103,9 +103,9 @@ thing, where it says which one is meant.
 
 *E sā ona ulaula.* It is forbidden to smoke.
 
-*E malosi atu le tama i lo le teine.* The boy is stronger than the girl.
+*E mālosi atu le tama i lo le teine.* The boy is stronger than the girl.
 
-*E sili ona malosi le maile.* The dog is the strongest.
+*E sili ona mālosi le maile.* The dog is the strongest.
 :::
 
 A complement clause is a whole clause standing where a noun phrase would stand.
@@ -149,11 +149,11 @@ question.
 
 ### Exercise 5: Translate into English
 
-1. *Na iloa e le tama ʻoloʻo nofo le teine i le nuʻu.*
-2. *ʻUa iloa e le tama sā nofo le teine i le nuʻu.*
-3. *Na iloa e loʻu atalii ʻua sasae le ie.*
+1. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+2. *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.*
+3. *Na iloa e loʻu ataliʻi ʻua sasae le ʻie.*
 4. *Na fai mai le tama pē sau le teine.*
-5. *ʻUa faatonu mai e le tama ʻia sau le teine.*
+5. *ʻUa faʻatonu mai e le tama ʻia sau le teine.*
 6. *Fai atu le teine: "ʻOleʻā ʻou alu."*
 
 ---
@@ -182,11 +182,11 @@ fronting patterns from Chapter 34 work differently, such as a phrase headed by
 Rewrite each sentence with the phrase in brackets at the front. Where the verb
 has two forms, use the one speakers usually choose.
 
-1. *Sā gālue le tama i le faʻatoʻaga.* (*le tama*)
+1. *Sā galue le tama ʻi le faʻatoʻaga.* (*le tama*)
 2. *Sā tatala e le teine le faitotoʻa.* (*le faitotoʻa*)
 3. *Sā tatala e le teine le faitotoʻa.* (*le teine*)
 4. *ʻUa leaga le taʻavale.* (*le taʻavale*)
-5. *Na lagona e le tina le leo o le pepe.* (*le leo o le pepe*)
+5. *Na lagona e le tinā le leo o le pepe.* (*le leo o le pepe*)
 6. *Sā ʻai e le teine le iʻa.* (*le iʻa*)
 
 ---
@@ -196,13 +196,13 @@ has two forms, use the one speakers usually choose.
 ::: {.examples}
 *Sā timu ma sā lolo le vai.* It rained and the water overflowed.
 
-*Sā nofo le teine i le ana ʻae sā alu le tama.* The girl stayed in the cave but the boy went.
+*Sā nofo le teine ʻi le ana ʻae sā alu le tama.* The girl stayed in the cave but the boy went.
 
 *Na usu le tama ʻaʻo moe le teine.* The boy stood up while the girl slept.
 
 *Ona alu lea ʻo le tama.* Then the boy went.
 
-*Na alu le tama, oso le teine i le sami.* The boy went, and the girl jumped into the sea.
+*Na alu le tama, oso le teine ʻi le sami.* The boy went, and the girl jumped into the sea.
 :::
 
 The with-word *ma* joins two clauses, and when the second clause carries a
@@ -253,15 +253,15 @@ front, with the pointing-back word *ai* after the verb.
 
 ### Exercise 8: Translate into English
 
-1. *ʻUa malamalama le teine ʻauā ʻua tautala le tama.*
+1. *ʻUa mālamalama le teine ʻauā ʻua tautala le tama.*
 2. *E lē mafai ona ʻe alu ʻona ʻo le timu.*
-3. *Na alu le tama i le fale ʻona ʻua maʻi le teine.*
+3. *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.*
 4. *Sā ʻou alu ʻou te ʻaumai le niu.*
 5. *Sā ʻou alu neʻi tagi le tama.*
 6. *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.*
 7. *ʻOleʻā alu le teine pē ʻāfai ʻua sau le tama.*
 8. *ʻĀ timu taeao, e lē alu le malaga.*
-9. *ʻAiseā na alu ai le tamāloa i le nuʻu?*
+9. *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?*
 
 ---
 
@@ -303,18 +303,18 @@ chapter that built it before moving into the Advanced band.
 ### Exercise 2
 
 1. *Sā tatala e le fafine le pusa.*
-2. *Na saisai le moa.*
-3. *ʻAua le fasi=a le maile lena.*
+2. *Na sāisai le moa.*
+3. *ʻAua le fasi=a le maile lenā.*
 4. *Sā faʻamoe e le teine le pepe.*
 5. *Na alu aʻe le tama.*
 
 ### Exercise 3
 
-1. *ʻO le leitiō a le aliʻi.*
+1. *ʻO le leitio a le aliʻi.*
 2. *ʻO le fale o le aliʻi.*
-3. *ʻO le pusi i lalo o le fale.*
-4. *ʻO le ipu i luga o le fala.*
-5. *ʻO le tusi i fafo o le potu.*
+3. *ʻO le pusi ʻi lalo o le fale.*
+4. *ʻO le ipu ʻi luga o le fala.*
+5. *ʻO le tusi ʻi fafo o le potu.*
 6. *le pusi uliuli*
 
 ### Exercise 4
@@ -338,11 +338,11 @@ chapter that built it before moving into the Advanced band.
 
 ### Exercise 6
 
-1. *ʻO le tama sā gālue i le faʻatoʻaga.*
+1. *ʻO le tama sā galue ʻi le faʻatoʻaga.*
 2. *ʻO le faitotoʻa sā tatala e le teine.*
 3. *ʻO le teine sā tatala=ina le faitotoʻa.*
 4. *ʻO le taʻavale ʻua leaga.*
-5. *ʻO le leo o le pepe na lagona e le tina.*
+5. *ʻO le leo o le pepe na lagona e le tinā.*
 6. *ʻO le iʻa sā ʻai e le teine.*
 
 ### Exercise 7
@@ -350,7 +350,7 @@ chapter that built it before moving into the Advanced band.
 1. *ʻUa ala le tama ʻae ʻoloʻo moe le teine.*
 2. *Sā ʻou nofo ʻae sā alu le teine.*
 3. *Na usu le teine ʻaʻo moe le tama.*
-4. *Sā timu ma sā nofo le teine i le ana.*
+4. *Sā timu ma sā nofo le teine ʻi le ana.*
 5. *Ona tali atu lea ʻo le teine.*
 
 ### Exercise 8
@@ -367,9 +367,9 @@ chapter that built it before moving into the Advanced band.
 
 ### Can You Do This?
 
-1. *ʻAua le faʻatau=a le vaʻa lena.* / *Sōia ʻe te tagi.*
+1. *ʻAua le faʻatau=a le vaʻa lenā.* / *Sōia ʻe te tagi.*
 2. *ʻO le sipuni a le fafine.* / *ʻO le igoa o le teine.*
-3. *ʻO le naifi i totonu o le ato.* / *Na alu atu le tama.*
+3. *ʻO le naifi ʻi totonu o le ʻato.* / *Na alu atu le tama.*
 4. *Na fasi e le tamāloa le gata.* / *Na fasi le gata.*
 5. *Sā faʻaalu e le tama le taʻavale.*
 6. *E mafai ona siva le uso.* / *E tatau ona alu le tama.*
@@ -377,6 +377,6 @@ chapter that built it before moving into the Advanced band.
 8. *Na iloa e le tama ʻoleʻā sau le teine.* / *Na fai mai le teine pē alu le tama.*
 9. *ʻO le faitotoʻa sā tatala e le teine.*
 10. *ʻUa ala le teine ʻae ʻoloʻo moe le tama.* / *Ona lolo lea ʻo le vaitafe.*
-11. *ʻAiseā?* / *ʻUa malulu le vaitafe ʻona ʻo le timu.*
+11. *ʻAiseā?* / *ʻUa mālūlū le vaitafe ʻona ʻo le timu.*
 12. *ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.*
 13. *le taʻavale taugatā*

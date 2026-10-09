@@ -32,8 +32,8 @@ differently, and they come later in this chapter.
 | *le tagi a le pepe* | the crying of the baby |
 | *le tagi a le teine* | the crying of the girl |
 | *le alu a le taʻavale* | the going of the car |
-| *le ola o le tina* | the life of the mother |
-| *le maualuga o le laau* | the height of the tree |
+| *le ola o le tinā* | the life of the mother |
+| *le maualuga o le lāʻau* | the height of the tree |
 
 Earlier in this book a le-phrase stood alone, the staying or the falling with
 nobody in it. That phrase was never wrong, and it is still what you use when who
@@ -78,7 +78,7 @@ car in *le alu a le taʻavale* above.
 | *le alu a le taʻavale* | *a* | a vehicle moving itself |
 | *le sasao a le afi* | *a* | a natural force at work |
 | *le maualuga o taʻamū* | *o* | a height, which nothing does |
-| *le ola o le tina* | *o* | a life, which nothing does |
+| *le ola o le tinā* | *o* | a life, which nothing does |
 
 *O* covers a second case as well. A speaker who does not want to say outright
 that somebody was behind an event reaches for *o*, whether or not that somebody
@@ -114,7 +114,7 @@ thing a person does on purpose.
 ## When the Choice Is Made for You
 
 ::: {.examples}
-*Sā ita le tina ʻona ʻo le lē pese o le teine.* The mother was angry because the girl did not sing.
+*Sā ita le tinā ʻona ʻo le lē pese o le teine.* The mother was angry because the girl did not sing.
 :::
 
 Three words settle the question before the doer test can run, and each of them
@@ -161,11 +161,11 @@ lonely all take *o*, with or without one of the three words above.
 
 | Samoan | English |
 |---|---|
-| *le alofa o le tina* | the mother's love |
+| *le alofa o le tinā* | the mother's love |
 | *le fiafia o le teine* | the girl's happiness |
 | *le fefe o le pepe* | the baby's fear |
 | *le ita o le tama* | the boy's anger |
-| *le manatu o le tina* | the mother's thinking |
+| *le manatu o le tinā* | the mother's thinking |
 
 These are states a person is in rather than things a person does, which is why
 *a* has nothing to mark. Learn the group as a group and the choice never arises.
@@ -178,7 +178,7 @@ Hearing and seeing sit between the two halves of this chapter, and Samoan uses
 the belonging word to say which kind of hearing or seeing is meant.
 
 ::: {.examples}
-*ʻUa ʻese le faʻalogo mai a le teine i totonu o le fale.* Inside the house, the girl listened attentively. (Lit. "The listening of the girl inside the house was extraordinary.")
+*ʻUa ʻese le faʻalogo mai a le teine ʻi totonu o le fale.* Inside the house, the girl listened attentively. (Lit. "The listening of the girl inside the house was extraordinary.")
 :::
 
 The *a* on *le teine* makes her a doer, and a doer of hearing is someone
@@ -187,7 +187,7 @@ that merely happened to the person, an accident rather than a thing set out to
 be done.
 
 ::: {.examples}
-*le faʻalogo o le tamaitai lea ituʻāiga kī*. the lady's hearing of this kind of key
+*le faʻalogo o le tamaʻitaʻi lea ituʻāiga kī*. the lady's hearing of this kind of key
 :::
 
 The lady in that phrase was not listening out for a *kī* (key) of that
@@ -210,17 +210,17 @@ The lady in that phrase was not listening out for a *kī* (key) of that
 ## What the Event Points At
 
 ::: {.examples}
-*E alofa le tama i le teine.* The boy cares for the girl.
+*E alofa le tama ʻi le teine.* The boy cares for the girl.
 
-*ʻO le alofa o le tama i le teine.* The boy caring for the girl.
+*ʻO le alofa o le tama ʻi le teine.* The boy caring for the girl.
 :::
 
-Some verbs name a feeling pointed at somebody, and the place word *i* carries
+Some verbs name a feeling pointed at somebody, and the place word *ʻi* carries
 what it is pointed at. When the sentence becomes a le-phrase, that part of it
 does not move and does not change.
 
 The second line has done one thing to the first. *Le tama* left the slot
-behind the verb and came back as *o le tama*, and *i le teine* stayed exactly
+behind the verb and came back as *o le tama*, and *ʻi le teine* stayed exactly
 where it was, with the place word still on the front of it. That is the rule for
 these verbs in its clearest form: the one the event is about becomes a belonging
 phrase, and every other part keeps its own shape.
@@ -229,12 +229,12 @@ Each sentence below is followed by the le-phrase built from it.
 
 | Samoan | English |
 |---|---|
-| *E alofa le tama i le teine.* | The boy cares for the girl. |
-| *ʻO le alofa o le tama i le teine.* | The boy caring for the girl. |
-| *E manaʻo le tama i le teine.* | The boy wants the girl. |
-| *ʻO le manaʻo o le tama i le teine.* | The boy wanting the girl. |
-| *E matamata le teine i le taʻavale.* | The girl watches the car. |
-| *ʻO le matamata o le teine i le taʻavale.* | The girl watching the car. |
+| *E alofa le tama ʻi le teine.* | The boy cares for the girl. |
+| *ʻO le alofa o le tama ʻi le teine.* | The boy caring for the girl. |
+| *E manaʻo le tama ʻi le teine.* | The boy wants the girl. |
+| *ʻO le manaʻo o le tama ʻi le teine.* | The boy wanting the girl. |
+| *E mātamata le teine ʻi le taʻavale.* | The girl watches the car. |
+| *ʻO le mātamata o le teine ʻi le taʻavale.* | The girl watching the car. |
 
 ---
 
@@ -244,12 +244,12 @@ Everything so far has been built on verbs that take no agent marker. With a verb
 that does take one, the le-phrase behaves differently.
 
 ::: {.examples}
-*E faʻa=lē=lelei le faʻa=susu fagu e tina palagi o pepe.* The palagi mothers' feeding of the babies with bottles is not good.
+*E faʻa=lē=lelei le faʻa=susu fagu e tinā palagi o pepe.* The palagi mothers' feeding of the babies with bottles is not good.
 :::
 
 The agent marker stays on the doer where it was. Two phrases hang off the verb
 *faʻa=susu fagu*, bottle-feeding, which is built on *fagu* (bottle). The doers
-are *e tina palagi*, the *palagi* (European, white person) mothers, carrying the
+are *e tinā palagi*, the *palagi* (European, white person) mothers, carrying the
 agent marker they would carry in an ordinary sentence. The babies being fed are
 *o pepe*, a belonging phrase with *o*: where the thing a transitive event is
 done to is a belonging phrase, the word on it is *o* and never *a*. Either
@@ -259,25 +259,25 @@ phrase may come first, and both orders are ordinary Samoan.
 |---|---|---|
 | the article | *le* | heads the le-phrase |
 | the verb | *faʻa=susu fagu* | names the event |
-| the agent marker | *e tina palagi* | names the doer |
+| the agent marker | *e tinā palagi* | names the doer |
 | the belonging word | *o pepe* | names the ones it was done to |
 
 | Samoan | English |
 |---|---|
-| *le fafaga e le tina o le pepe* | the mother's feeding of the baby |
-| *le fafaga o le pepe e le tina* | the mother's feeding of the baby |
+| *le fafaga e le tinā o le pepe* | the mother's feeding of the baby |
+| *le fafaga o le pepe e le tinā* | the mother's feeding of the baby |
 
 Now drop the ones it was done to and read these two:
 
 ::: {.examples}
-*E faʻa=lē=lelei le faʻa=susu fagu e tina palagi.* The palagi mothers' feeding with bottles is not good.
+*E faʻa=lē=lelei le faʻa=susu fagu e tinā palagi.* The palagi mothers' feeding with bottles is not good.
 
-*E faʻa=lē=lelei le faʻa=susu fagu a tina palagi.* The palagi mothers' feeding with bottles is not good.
+*E faʻa=lē=lelei le faʻa=susu fagu a tinā palagi.* The palagi mothers' feeding with bottles is not good.
 :::
 
 Compare them. Which word changed?
 
-One, and it is the word in front of *tina palagi*. Both sentences mean the same
+One, and it is the word in front of *tinā palagi*. Both sentences mean the same
 thing, and both are correct. With nobody named as the one it was done to, the
 doer may keep the agent marker *e* or take the belonging word *a* instead, and
 the sentence says the same either way. The choice reopens only because the *o*
@@ -292,7 +292,7 @@ Inside a le-phrase, the one an event is done to can take either of two shapes,
 and the common one is the belonging phrase with *o*.
 
 ::: {.examples}
-*ʻO le fafaga o le pepe i le fagu susu.* The feeding of the baby with a bottle of milk.
+*ʻO le fafaga o le pepe ʻi le fagu susu.* The feeding of the baby with a bottle of milk.
 :::
 
 *Le pepe* is what the feeding is done to, and *o* marks it, with the place word
@@ -347,7 +347,7 @@ its owner, the rule you learned for belonging, because the second phrase is a
 plain owner and not an event at all.
 
 ::: {.examples}
-*le kī=ina o le leitiō a le tama*. the boy's switching on of the radio (Lit. "the switching on of the radio of the boy")
+*le kī=ina o le leitio a le tama*. the boy's switching on of the radio (Lit. "the switching on of the radio of the boy")
 :::
 
 The radio is an *a*-word for its owner, so the second belonging word is *a*; the
@@ -394,11 +394,11 @@ first is *o* because the radio is what was switched on.
 ### Exercise 1: Translate into English
 
 1. *le tagi a le pepe*
-2. *le maualuga o le laau*
-3. *le alofa o le tina*
+2. *le maualuga o le lāʻau*
+3. *le alofa o le tinā*
 4. *le faʻalogo a le tama*
 5. *le fafaga o le pepe*
-6. *le kī=ina o le leitiō a le tama*
+6. *le kī=ina o le leitio a le tama*
 
 ### Exercise 2: Put in *a* or *o*
 
@@ -410,7 +410,7 @@ and be ready to say why.
 3. *le lē pese \_\_\_ le teine*
 4. *le alu \_\_\_ le taʻavale*
 5. *le pese soʻo \_\_\_ le tama*
-6. *le ola \_\_\_ le tina*
+6. *le ola \_\_\_ le tinā*
 
 ### Exercise 3: Make a le-phrase
 
@@ -420,13 +420,13 @@ at or left unsaid, point at it. Where a part of the sentence is left over after
 the le-phrase, write the whole line the way this chapter prints it, beginning
 with *ʻO*; where nothing is left over, write the phrase on its own.
 
-1. *E alofa le tama i le teine.*
-2. *E manaʻo le tama i le teine.*
-3. *E matamata le teine i le taʻavale.*
+1. *E alofa le tama ʻi le teine.*
+2. *E manaʻo le tama ʻi le teine.*
+3. *E mātamata le teine ʻi le taʻavale.*
 4. *E tagi le pepe.*
 5. *E ita le tama.*
 6. *E fiafia le teine.*
-7. *E maualuga le laau.*
+7. *E maualuga le lāʻau.*
 
 ### Exercise 4: Translate into Samoan
 
@@ -454,8 +454,8 @@ Each phrase takes *o* and could not take *a*. Name what settles it.
 
 Answer in English.
 
-1. *le fafaga e le tina o le pepe*. Why does the doer keep *e* here?
-2. *E faʻa=lē=lelei le faʻa=susu fagu a tina palagi.* The doer carries *a*, not *e*. What in the sentence makes that possible?
+1. *le fafaga e le tinā o le pepe*. Why does the doer keep *e* here?
+2. *E faʻa=lē=lelei le faʻa=susu fagu a tinā palagi.* The doer carries *a*, not *e*. What in the sentence makes that possible?
 3. *ʻAua le maumau=ina le taimi.* What shape does *le taimi* take after the verb, and how common is that shape?
 4. *le faʻalogo o le tama*. What does *o* say about the hearing?
 5. *le vaʻai a le teine*. What does *a* say about the looking?
@@ -491,26 +491,26 @@ Answer in English.
 3. *le lē pese o le teine* (the not-word forces *o*)
 4. *le alu a le taʻavale* (a vehicle moving itself is a doer)
 5. *le pese soʻo o le tama* (the often-word forces *o*)
-6. *le ola o le tina* (a life is not something anybody does)
+6. *le ola o le tinā* (a life is not something anybody does)
 
 ### Exercise 3
 
-1. *ʻO le alofa o le tama i le teine.*
-2. *ʻO le manaʻo o le tama i le teine.*
-3. *ʻO le matamata o le teine i le taʻavale.*
+1. *ʻO le alofa o le tama ʻi le teine.*
+2. *ʻO le manaʻo o le tama ʻi le teine.*
+3. *ʻO le mātamata o le teine ʻi le taʻavale.*
 4. *le tagi a le pepe* (crying is something the baby does)
 5. *le ita o le tama* (anger is one of the verbs that take only *o*)
 6. *le fiafia o le teine* (happiness is one of the verbs that take only *o*)
-7. *le maualuga o le laau* (a height is not something anybody does)
+7. *le maualuga o le lāʻau* (a height is not something anybody does)
 
 ### Exercise 4
 
 1. *le tagi a le teine*
 2. *le ita o le tama*
-3. *le alofa o le tina*
+3. *le alofa o le tinā*
 4. *le fefe o le teine*
 5. *le tapē o le puaʻa*
-6. *le fafaga e le tina o le pepe* (or *le fafaga o le pepe e le tina*)
+6. *le fafaga e le tinā o le pepe* (or *le fafaga o le pepe e le tinā*)
 
 ### Exercise 5
 

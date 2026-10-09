@@ -40,9 +40,9 @@ is complete and are taught later in this book.
 | *ai* | who |
 | *ā* | what |
 | *fea* | where |
-| *ʻāfea* | when (future) |
+| *āfea* | when (future) |
 | *anafea* | when (past) |
-| *faʻapēfea* | how |
+| *faʻapefea* | how |
 | *fia* | how many |
 | *ʻaiseā* | why |
 
@@ -65,23 +65,23 @@ time: one word asks about future time, the other asks about past time. Read this
 pair, the same question except for the time being asked about:
 
 ::: {.examples}
-*ʻO ʻāfea ʻoleʻā moe ai le tama?* When will the boy sleep?
+*ʻO āfea ʻoleʻā moe ai le tama?* When will the boy sleep?
 
 *ʻO anafea na moe ai le tama?* When did the boy sleep?
 :::
 
 Compare them. Which words changed?
 
-Two words moved together. The when-word changed from *ʻāfea* to *anafea*, and the
+Two words moved together. The when-word changed from *āfea* to *anafea*, and the
 tense particle changed with it, from the future particle *ʻoleʻā* to the past
-particle *na*. The future when-word *ʻāfea* rides a future sentence; the past
+particle *na*. The future when-word *āfea* rides a future sentence; the past
 when-word *anafea* rides a past sentence. Asking about future time with the past
 word, or about past time with the future word, does not match.
 
 This is the same split you met in the time words earlier in this book: a word
 beginning with *ana-* points back to past time, and a word beginning with *ʻā-*
 points forward to future time. The when-words carry that same front, *anafea*
-with the past *ana-* and *ʻāfea* with the future *ʻā-*.
+with the past *ana-* and *āfea* with the future *ʻā-*.
 
 When the when-word comes to the front like this, the pointing-back word *ai*
 appears inside the verb, holding the place the when-word left. That is the *ai*
@@ -105,8 +105,8 @@ the end, are two ways to ask the same question.
 
 | Samoan | English |
 |---|---|
-| *ʻO ʻāfea ʻoleʻā moe ai le tama?* | When will the boy sleep? |
-| *ʻO ʻāfea ʻoleʻā sau ai le teine?* | When will the girl come? |
+| *ʻO āfea ʻoleʻā moe ai le tama?* | When will the boy sleep? |
+| *ʻO āfea ʻoleʻā sau ai le teine?* | When will the girl come? |
 | *ʻO anafea na moe ai le tama?* | When did the boy sleep? |
 | *ʻO anafea na siva ai le teine?* | When did the girl dance? |
 | *Na lā faʻaipoipo anafea?* | When did the two of them get married? |
@@ -116,19 +116,19 @@ the end, are two ways to ask the same question.
 ## Asking How
 
 ::: {.examples}
-*Sā faʻapēfea le aso?* How was the day?
+*Sā faʻapefea le aso?* How was the day?
 :::
 
-The question word for "how" is *faʻapēfea*. It behaves like a describing verb: it
+The question word for "how" is *faʻapefea*. It behaves like a describing verb: it
 stands where a word like *lelei* (good) would stand, and asks after the manner or
-the state of something. *Sā faʻapēfea le aso?* puts *faʻapēfea* in the place a
+the state of something. *Sā faʻapefea le aso?* puts *faʻapefea* in the place a
 describing word would fill and leaves it open for the answer.
 
 | Samoan | English |
 |---|---|
-| *Sā faʻapēfea le aso?* | How was the day? |
-| *E faʻapēfea le teine?* | How is the girl? |
-| *E faʻapēfea le fale?* | How is the house? |
+| *Sā faʻapefea le aso?* | How was the day? |
+| *E faʻapefea le teine?* | How is the girl? |
+| *E faʻapefea le fale?* | How is the house? |
 
 ---
 
@@ -144,20 +144,20 @@ carries the rest of that question arrives in a later chapter. Until then, ask
 "what" with the naming sentence you already know.
 
 For "where", the word is *fea*. You met it in the where-sentence, where *ʻo fea*
-asks after a place and the answer comes back with *i ai*:
+asks after a place and the answer comes back with *ʻi ai*:
 
 ::: {.examples}
-*ʻO fea e i ai le ato?* Where is the basket?
+*ʻO fea e ʻi ai le ʻato?* Where is the basket?
 :::
 
 The same shape asks after any thing or person whose place you want:
 
 | Samoan | English |
 |---|---|
-| *ʻO fea e i ai le ato?* | Where is the basket? |
-| *ʻO fea e i ai le fala?* | Where is the mat? |
-| *ʻO fea e i ai le lau?* | Where is the leaf? |
-| *ʻO fea e i ai le ofu?* | Where is the dress? |
+| *ʻO fea e ʻi ai le ʻato?* | Where is the basket? |
+| *ʻO fea e ʻi ai le fala?* | Where is the mat? |
+| *ʻO fea e ʻi ai le lau?* | Where is the leaf? |
+| *ʻO fea e ʻi ai le ʻofu?* | Where is the dress? |
 
 > *Note:* The leaf word *lau* is spelled like the belonging form *lau* ("your")
 > met earlier in this book. The article *le* in front, as in *le lau* (the
@@ -182,7 +182,7 @@ this book:
 :::
 
 A question word and the falling tune do different work. A word like *ʻo ai* or
-*ʻāfea* names the missing piece, who or when. A yes or no question has no such
+*āfea* names the missing piece, who or when. A yes or no question has no such
 word: it leaves the statement whole and asks whether the whole of it is so. The
 tune is not the difference between them. A question with a question word is
 spoken on the question tune as well, the voice usually low over the last two or
@@ -198,20 +198,20 @@ three syllables; this book marks the arrow on the yes or no questions.
 |---|---|
 | *faʻaipoipo* | marry |
 | *moe* | sleep (said of one person) |
-| *ato* | basket |
+| *ʻato* | basket |
 | *fala* | pandanus, mat |
 | *lau* | leaf |
-| *ofu* | dress |
+| *ʻofu* | dress |
 
 **Words to carry** (learned now, used fully later in this book): *tausi* (take
 care of) needs the marker that names the doer of an action, which arrives in a
-later chapter, before you can say who takes care of whom; *atoa* (complete) is one to recognize
+later chapter, before you can say who takes care of whom; *ʻātoa* (complete) is one to recognize
 when you meet it, since this book does not build with it again.
 
 | Word | Meaning |
 |---|---|
 | *tausi* | take care of |
-| *atoa* | complete (to recognize only) |
+| *ʻātoa* | complete (to recognize only) |
 
 The question words themselves are set out in the table above, under Asking Who.
 
@@ -222,10 +222,10 @@ The question words themselves are set out in the table above, under Asking Who.
 ### Exercise 1: Translate into English
 
 1. *ʻO ai na alu?*
-2. *ʻO ʻāfea ʻoleʻā moe ai le tama?*
+2. *ʻO āfea ʻoleʻā moe ai le tama?*
 3. *ʻO anafea na siva ai le teine?*
-4. *Sā faʻapēfea le aso?*
-5. *ʻO fea e i ai le ato?*
+4. *Sā faʻapefea le aso?*
+5. *ʻO fea e ʻi ai le ʻato?*
 
 ### Exercise 2: Translate into Samoan
 
@@ -238,7 +238,7 @@ The question words themselves are set out in the table above, under Asking Who.
 ### Exercise 3: Past or future when-word
 
 Each English question asks about past time or future time. Fill the blank with
-*ʻāfea* or *anafea* so the when-word matches.
+*āfea* or *anafea* so the when-word matches.
 
 1. *ʻO ___ ʻoleʻā moe ai le tama?* (When will the boy sleep?)
 2. *ʻO ___ na siva ai le teine?* (When did the girl dance?)
@@ -252,9 +252,9 @@ Fill the blank so the question matches the English.
 
 1. *ʻO ___ na sau?* (Who came?)
 2. *Sā ___ le aso?* (How was the day?)
-3. *ʻO ___ e i ai le ofu?* (Where is the dress?)
+3. *ʻO ___ e ʻi ai le ʻofu?* (Where is the dress?)
 4. *ʻO ___ na faʻaipoipo?* (Who got married?)
-5. *ʻO ___ e i ai le fala?* (Where is the mat?)
+5. *ʻO ___ e ʻi ai le fala?* (Where is the mat?)
 
 ### Exercise 5: Make the yes or no question
 
@@ -282,22 +282,22 @@ Rewrite each statement as a yes or no question, and mark the falling tune with �
 
 1. *ʻO ai na sau?*
 2. *ʻO anafea na moe ai le tama?*
-3. *ʻO ʻāfea ʻoleʻā sau ai le teine?*
-4. *E faʻapēfea le fale?*
-5. *ʻO fea e i ai le fala?*
+3. *ʻO āfea ʻoleʻā sau ai le teine?*
+4. *E faʻapefea le fale?*
+5. *ʻO fea e ʻi ai le fala?*
 
 ### Exercise 3
 
-1. *ʻāfea*
+1. *āfea*
 2. *anafea*
-3. *ʻāfea*
+3. *āfea*
 4. *anafea*
-5. *ʻāfea*
+5. *āfea*
 
 ### Exercise 4
 
 1. *ai*
-2. *faʻapēfea*
+2. *faʻapefea*
 3. *fea*
 4. *ai*
 5. *fea*

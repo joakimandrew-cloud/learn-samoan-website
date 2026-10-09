@@ -27,14 +27,14 @@ The two clauses do not have to be about the same person or thing. Each one names
 its own, and *ma* joins them all the same.
 
 ::: {.examples}
-*Sā timu ma sā nofo le teine i le ana.* It rained and the girl stayed in the cave.
+*Sā timu ma sā nofo le teine ʻi le ana.* It rained and the girl stayed in the cave.
 :::
 
 | Samoan | English |
 |---|---|
 | *ʻUa ala le tama ma ʻua usu le teine.* | The boy has woken and the girl has stood up. |
-| *Na taunuʻu mai le pasi ma na alu le teine i le aoga.* | The bus arrived and the girl went to the school. |
-| *ʻUa ʻou nofo ma ʻua ʻou mafaufau.* | I sat down and I thought. |
+| *Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.* | The bus arrived and the girl went to the school. |
+| *ʻUa ʻou nofo ma ʻua ʻou māfaufau.* | I sat down and I thought. |
 | *Sā timu ma sā lolo le vai.* | It rained and the water overflowed. |
 
 ---
@@ -59,17 +59,17 @@ The clause after *ma* can also go without a tense particle altogether. Nothing
 replaces it, and the empty slot is a form rather than a gap.
 
 ::: {.examples}
-*ʻUa ʻou nofo ma ʻou mafaufau.* I sat down and thought.
+*ʻUa ʻou nofo ma ʻou māfaufau.* I sat down and thought.
 :::
 
-The second clause here is *ʻou mafaufau*, a preverbal pronoun and a verb with an
+The second clause here is *ʻou māfaufau*, a preverbal pronoun and a verb with an
 empty slot in front of them. Set it beside the version that fills the slot and
 you have the two shapes side by side.
 
 | Samoan | English |
 |---|---|
-| *ʻUa ʻou nofo ma ʻua ʻou mafaufau.* | I sat down and I thought. |
-| *ʻUa ʻou nofo ma ʻou mafaufau.* | I sat down and thought. |
+| *ʻUa ʻou nofo ma ʻua ʻou māfaufau.* | I sat down and I thought. |
+| *ʻUa ʻou nofo ma ʻou māfaufau.* | I sat down and thought. |
 | *Sā timu ma sā lolo le vai.* | It rained and the water overflowed. |
 | *Sā timu ma lolo le vai.* | It rained and the water overflowed. |
 
@@ -107,7 +107,7 @@ two joined clauses and never the first.
 | *ʻUa ala le tama ʻae ʻoloʻo moe le teine.* | The boy has woken but the girl is sleeping. |
 | *ʻUa ala le teine ʻae ʻoloʻo moe le tama.* | The girl has woken but the boy is sleeping. |
 | *Sā ʻou nofo ʻae sā alu le teine.* | I stayed but the girl went. |
-| *Sā nofo le teine i le ana ʻae sā alu le tama.* | The girl stayed in the cave but the boy went. |
+| *Sā nofo le teine ʻi le ana ʻae sā alu le tama.* | The girl stayed in the cave but the boy went. |
 
 When the clause after *ʻae* opens on its verb phrase, as every sentence in this
 chapter does, it takes any tense particle you have learned save one, since the
@@ -119,7 +119,7 @@ and in print, and what you see is *ʻae* standing alone.
 ## Holding Two Events Together with *ʻAʻo*
 
 ::: {.examples}
-*ʻAʻo ʻou alu atu i le aoga, sā ʻou manatunatu i le teine.* While I was going to the school, I was thinking of the girl.
+*ʻAʻo ʻou alu atu ʻi le āʻoga, sā ʻou mānatunatu ʻi le teine.* While I was going to the school, I was thinking of the girl.
 :::
 
 In the sentences of this chapter *ʻaʻo* is two words run together. The first is
@@ -137,7 +137,7 @@ head of either clause, so a sentence may open on it or reach it halfway through.
 
 | Samoan | English |
 |---|---|
-| *ʻAʻo ʻou alu atu i le aoga, sā ʻou manatunatu i le teine.* | While I was going to the school, I was thinking of the girl. |
+| *ʻAʻo ʻou alu atu ʻi le āʻoga, sā ʻou mānatunatu ʻi le teine.* | While I was going to the school, I was thinking of the girl. |
 | *Na usu le tama ʻaʻo moe le teine.* | The boy stood up while the girl slept. |
 | *Na usu le teine ʻaʻo moe le tama.* | The girl stood up while the boy slept. |
 
@@ -202,8 +202,8 @@ and *leʻi*.
 |---|---|
 | *ala* | be awake, wake up |
 | *lolo* | overflow |
-| *mafaufau* | think, consider |
-| *manatunatu* | reflect, think about |
+| *māfaufau* | think, consider |
+| *mānatunatu* | reflect, think about |
 | *sele* | shave, cut |
 | *taunuʻu* | arrive, reach |
 | *tuʻu* | leave, put, place |
@@ -229,7 +229,7 @@ book, so the word is learned here and deployed there.
 
 1. *Sā timu ma sā lolo le vai.*
 2. *ʻUa ala le tama ma ʻua usu le teine.*
-3. *ʻUa ʻou nofo ma ʻou mafaufau.*
+3. *ʻUa ʻou nofo ma ʻou māfaufau.*
 4. *Sā ʻou nofo ʻae sā alu le teine.*
 5. *Na usu le tama ʻaʻo moe le teine.*
 6. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.*
@@ -240,18 +240,18 @@ Put the particle the matching rule calls for into the gap.
 
 1. *Sā timu ma ___ lolo le vai.*
 2. *ʻUa ala le tama ma ___ usu le teine.*
-3. *ʻUa ʻou nofo ma ___ ʻou mafaufau.*
-4. *Na taunuʻu mai le pasi ma ___ alu le teine i le aoga.*
-5. *Sā timu ma ___ nofo le teine i le ana.*
+3. *ʻUa ʻou nofo ma ___ ʻou māfaufau.*
+4. *Na taunuʻu mai le pasi ma ___ alu le teine ʻi le āʻoga.*
+5. *Sā timu ma ___ nofo le teine ʻi le ana.*
 
 ### Exercise 3: Choose the joining word
 
 Put *ma*, *ʻae* or *ʻaʻo* into the gap so the English matches.
 
 1. *ʻUa ala le tama ___ ʻoloʻo moe le teine.* (The boy has woken but the girl is sleeping.)
-2. *Sā timu ___ sā nofo le teine i le ana.* (It rained and the girl stayed in the cave.)
+2. *Sā timu ___ sā nofo le teine ʻi le ana.* (It rained and the girl stayed in the cave.)
 3. *Na usu le tama ___ moe le teine.* (The boy stood up while the girl slept.)
-4. *Sā nofo le teine i le ana ___ sā alu le tama.* (The girl stayed in the cave but the boy went.)
+4. *Sā nofo le teine ʻi le ana ___ sā alu le tama.* (The girl stayed in the cave but the boy went.)
 5. *ʻUa ala le teine ___ ʻoloʻo moe le tama.* (The girl has woken but the boy is sleeping.)
 
 ### Exercise 4: Say what came before
@@ -328,8 +328,8 @@ becomes *ʻae leʻi* and *ʻae leʻi* becomes *ʻaʻo leʻi*.
 2. *ʻUa ala le teine ʻae ʻoloʻo moe le tama.*
 3. *Na usu le teine ʻaʻo moe le tama.*
 4. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.*
-5. *ʻUa ʻou nofo ma ʻua ʻou mafaufau.*
-6. *Na taunuʻu mai le pasi ma na alu le teine i le aoga.*
+5. *ʻUa ʻou nofo ma ʻua ʻou māfaufau.*
+6. *Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.*
 
 ### Exercise 6
 

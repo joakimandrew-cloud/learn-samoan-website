@@ -89,7 +89,7 @@ The Introduction gave you the letters. A few of them carry more than their lette
 - The g is the ng sound, as the Introduction said. In the careful style it seems most often to be made a little further forward in the mouth than the English ng of "song".
 - The h comes only at the start of a word, in borrowed words and a handful of exclamations.
 - The k, in the careful style, belongs mainly to borrowed words, most of them from English.
-- The r belongs only to borrowed words, and even in careful speech it is often said as l. An English r usually becomes l in a borrowed word, as in *leitiō* (radio). The one old Samoan word regularly heard with an r is *talo* (taro), and both an l and an r are acceptable there.
+- The r belongs only to borrowed words, and even in careful speech it is often said as l. An English r usually becomes l in a borrowed word, as in *leitio* (radio). The one old Samoan word regularly heard with an r is *talo* (taro), and both an l and an r are acceptable there.
 
 ---
 

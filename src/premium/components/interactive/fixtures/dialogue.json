@@ -13,14 +13,46 @@
           "b": "Second speaker"
         },
         "lines": [
-          { "who": "a", "sm": "Tālofa.", "en": "Hello." },
-          { "who": "b", "sm": "Tālofa.", "en": "Hello." },
-          { "who": "a", "sm": "ʻO ai ʻoe?", "en": "Who are you?" },
-          { "who": "b", "sm": "ʻO aʻu ʻo se uō.", "en": "I am a friend." },
-          { "who": "a", "sm": "ʻO fea e i ai le teine?", "en": "Where is the girl?" },
-          { "who": "b", "sm": "ʻO le fale e i ai le teine.", "en": "The girl is in the house." },
-          { "who": "a", "sm": "Faʻafetai.", "en": "Thank you." },
-          { "who": "b", "sm": "Tōfā soifua.", "en": "Goodbye." }
+          {
+            "who": "a",
+            "sm": "Tālofa.",
+            "en": "Hello."
+          },
+          {
+            "who": "b",
+            "sm": "Tālofa.",
+            "en": "Hello."
+          },
+          {
+            "who": "a",
+            "sm": "ʻO ai ʻoe?",
+            "en": "Who are you?"
+          },
+          {
+            "who": "b",
+            "sm": "ʻO aʻu ʻo se uō.",
+            "en": "I am a friend."
+          },
+          {
+            "who": "a",
+            "sm": "ʻO fea e ʻi ai le teine?",
+            "en": "Where is the girl?"
+          },
+          {
+            "who": "b",
+            "sm": "ʻO le fale e ʻi ai le teine.",
+            "en": "The girl is in the house."
+          },
+          {
+            "who": "a",
+            "sm": "Faʻafetai.",
+            "en": "Thank you."
+          },
+          {
+            "who": "b",
+            "sm": "Tōfā soifua.",
+            "en": "Goodbye."
+          }
         ]
       }
     }

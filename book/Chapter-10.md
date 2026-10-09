@@ -117,9 +117,9 @@ A possessive form and its thing make a naming part, and a naming part slots
 into the naming sentence exactly as it did before:
 
 ::: {.examples}
-*ʻO laʻu naifi lena.* That is my knife.
+*ʻO laʻu naifi lenā.* That is my knife.
 
-*ʻO lana taʻavale lena.* That is his car.
+*ʻO lana taʻavale lenā.* That is his car.
 :::
 
 > *Note:* The belonging word *o* has no ʻ mark. It is not the presenting
@@ -147,7 +147,7 @@ The same belonging runs the other way for your own name. The *o*-word form for
 like any other naming part:
 
 ::: {.examples}
-*ʻO loʻu igoa lena.* That is my name.
+*ʻO loʻu igoa lenā.* That is my name.
 :::
 
 > **Preview:** Saying that a thing is mine, on its own, and asking whose

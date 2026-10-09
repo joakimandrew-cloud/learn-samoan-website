@@ -51,19 +51,19 @@
             "why": "*Talu* counts from the event in its complement clause."
           },
           {
-            "sm": "Ina ʻua malama le taeao, sā sau le pasi enaena.",
+            "sm": "Ina ʻua malama le taeao, sā sau le pasi ʻenaʻena.",
             "en": "When the morning broke, the brown bus came.",
             "bin": "when",
             "why": "The when-word opens the clause naming the event that turns the situation."
           },
           {
-            "sm": "Sā mafatia le tama ina ʻua malama le taeao.",
+            "sm": "Sā māfatia le tama ina ʻua malama le taeao.",
             "en": "The boy was exhausted when the morning broke.",
             "bin": "when",
             "why": "The when-clause follows the main clause here."
           },
           {
-            "sm": "ʻO le sau o le pasi, e amata ai le malaga.",
+            "sm": "ʻO le sau o le pasi, e ʻāmata ai le malaga.",
             "en": "When the bus comes, the journey begins.",
             "bin": "event",
             "why": "The fronted le-phrase names the bus coming, and *ai* in the other clause points back to it."
@@ -97,7 +97,7 @@
             "label": "Each day",
             "cells": [
               {
-                "sm": "i le taʻi=tasi aso",
+                "sm": "ʻi le taʻi=tasi aso",
                 "en": "each day",
                 "note": "The distributive number phrase comes before the time noun."
               }
@@ -107,7 +107,7 @@
             "label": "Every morning",
             "cells": [
               {
-                "sm": "i taeao o aso taʻi=tasi",
+                "sm": "ʻi taeao o aso taʻi=tasi",
                 "en": "every morning",
                 "note": "The number phrase follows the time noun here."
               }

@@ -35,7 +35,7 @@ the rule where the language has one, and the word where it does not.
 ## The Ending *=ga*
 
 ::: {.examples}
-*sāvali*. walk
+*savali*. walk
 
 *savaliga*. a walk, a march
 :::
@@ -85,14 +85,14 @@ usually carries plurality or frequency: more than one of them, or again and agai
 ## The Ending *=a*
 
 ::: {.examples}
-*eleele*. earth, soil, dirt
+*ʻeleʻele*. earth, soil, dirt
 
-*eleelea*. dirty
+*ʻeleʻelea*. dirty
 :::
 
 Put *=a* on the end of a noun and you have a describing verb, and its meaning is
 the same every time: being affected by the thing the noun names. Something
-*eleelea* has dirt on it.
+*ʻeleʻelea* has dirt on it.
 
 This ending is productive. Put it on a noun and the describing verb is there,
 and speakers do this with words borrowed into Samoan as well as with old ones.
@@ -123,7 +123,7 @@ answering to the one the event is about rather than to the doer.
 On its own, *fe-* makes the plural form of a verb.
 
 The prefix is most at home on a verb that carries an ending behind it as well,
-*-aʻi* or *-i*. That pattern is where *fe-* is most common, it is quite
+*-aʻi* or *-ʻi*. That pattern is where *fe-* is most common, it is quite
 productive, and the two endings usually mean the same thing. An event happening
 more than once with more than one participant is very often an event the
 participants do to each other, so the English that fits is often "one another":
@@ -132,9 +132,9 @@ participants do to each other, so the English that fits is often "one another":
 |---|---|---|
 | *alofa* (love) | *fealofani* | love one another |
 | *mata* (look) | *femātaaʻi* | look at one another |
-| *ilo* (perceive, sort out) | *feiloai* | meet |
+| *ilo* (perceive, sort out) | *feiloaʻi* | meet |
 
-You already use the third of these. *Feiloai*, the word for meeting somebody, is
+You already use the third of these. *Feiloaʻi*, the word for meeting somebody, is
 the perceiving verb *ilo* with the prefix in front of it and the ending behind it.
 
 With verbs of movement or physical activity the same pattern means to and fro, in
@@ -187,16 +187,17 @@ first, then *toʻa-*, never the other way about.
 
 ---
 
-## The Time Prefixes *ʻā-* and *ana-*
+## The Time Prefixes *ā-* and *ana-*
 
 ::: {.examples}
 *anapō*. last night
 
-*ʻātaeao*. tomorrow morning
+*ātaeao*. tomorrow morning
 :::
 
-Two prefixes make words for time. *Ana-* puts the word in the past, *ʻā-* puts it
-in the future, and both go mainly on words for a place or a time.
+Two prefixes make words for time. *Ana-* puts the word in the past. The future
+front appears as *ā-* in *ātaeao* and with an initial catch in the fixed forms
+*ʻāmulī* and *ʻātalī*. Both fronts go mainly on words for a place or a time.
 
 | Base | Past word |
 |---|---|
@@ -205,9 +206,12 @@ in the future, and both go mainly on words for a place or a time.
 
 | Base | Future word |
 |---|---|
-| *taeao* (morning) | *ʻātaeao* (tomorrow morning) |
-| *muli* (last) | *ʻāmuli* (after death, in the last days) |
+| *taeao* (morning) | *ātaeao* (tomorrow morning) |
+| *muli* (last) | *ʻāmulī* (after death, in the last days) |
 | *tali* (wait) | *ʻātalī* (in the next world) |
+
+The coming-morning word is also printed *ʻātaeao*, with a catch at the front;
+it is the same word.
 
 A few time words built this way have no base word behind them. *Ananafi* is the
 word for yesterday, and taking *ana-* off it leaves nothing that stands as a word
@@ -235,7 +239,7 @@ one.
 
 The form works only when that syllable is one consonant plus one vowel. A word
 whose second-to-last syllable is a bare vowel has no doubled piece of this kind,
-which is why *ola* (live) and *sauni* (prepare) cannot take one.
+which is why *ola* (live) and *sāuni* (prepare) cannot take one.
 
 Plurality is the basic thing the doubled piece means, and its most common job is
 the plural form of a verb. Many of the plural verb forms learned one at a time
@@ -372,7 +376,7 @@ rather than a rule.
 3. *solisoli*
 4. *fealofani*
 5. *savaliga*
-6. *ʻātaeao*
+6. *ātaeao*
 
 ### Exercise 2: Name the piece that builds the word
 
@@ -381,7 +385,7 @@ contributes.
 
 1. *femātaaʻi*
 2. *taʻitasi*
-3. *eleelea*
+3. *ʻeleʻelea*
 4. *analeilā*
 5. *fealuaʻi*
 
@@ -421,14 +425,14 @@ the English.
 3. tomorrow morning (*taeao*)
 4. last night (*pō*)
 5. love one another (*alofa*)
-6. dirty (*eleele*)
+6. dirty (*ʻeleʻele*)
 
 ### Exercise 6: Match each word to its meaning
 
 1. *āmoga*
 2. *amoga*
 3. *taʻifia*
-4. *feiloai*
+4. *feiloaʻi*
 5. *faʻamaga*
 
 a. how many each
@@ -503,10 +507,10 @@ Answer each question from what this chapter teaches.
 
 1. *taʻitasi*
 2. *anataeao*
-3. *ʻātaeao*
+3. *ātaeao*
 4. *anapō*
 5. *fealofani*
-6. *eleelea*
+6. *ʻeleʻelea*
 
 ### Exercise 6
 

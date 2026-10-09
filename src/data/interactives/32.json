@@ -22,7 +22,7 @@
                 "sm": "ʻai"
               },
               {
-                "sm": "ʻai=a"
+                "sm": "ʻaia"
               },
               {
                 "sm": "ʻai=ina"
@@ -141,12 +141,12 @@
             "why": "A command to do something takes the short form."
           },
           {
-            "sm": "ʻAua le tatala=ina le pusa lena.",
+            "sm": "ʻAua le tatala=ina le pusa lenā.",
             "answer": "long",
             "why": "Forbidding with *ʻaua le* requires the long form."
           },
           {
-            "sm": "Sā faitau e le teine le vaega.",
+            "sm": "Sā faitau e le teine le vāega.",
             "answer": "open",
             "why": "This plain report uses the short form as the default. Outside the two command positions, the chapter gives tendencies rather than a fixed rule."
           }

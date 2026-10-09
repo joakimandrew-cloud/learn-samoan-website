@@ -4,7 +4,7 @@ This chapter introduces the direction words, the six particles that stand after
 a verb and say which way its action is turned, toward the speaker, away from the
 speaker, up, down, along or away, and shows you how to orient an action in
 space relative to yourself and the person you are speaking to. The same words
-also stand inside a spatial noun, as in *i lalo ifo o le fale* (underneath the
+also stand inside a spatial noun, as in *ʻi lalo ifo o le fale* (underneath the
 house).
 
 ---
@@ -98,7 +98,7 @@ whole group.
 ::: {.examples}
 *ʻE te lē popole mai.* You do not worry about me. (Lit. "You do not worry, toward me.")
 
-*ʻOu te lē popole atu ia te ʻoe.* I do not worry about you.
+*ʻOu te lē popole atu ʻia te ʻoe.* I do not worry about you.
 :::
 
 Both sentences carry the verb *popole* (worry), and nobody in either of them is
@@ -110,17 +110,17 @@ the two constantly, because every exchange has a speaker and a person spoken to.
 The two turn up on all sorts of verb, and a movement is not required:
 
 ::: {.examples}
-*ʻUa tagi atu le teine i lona tamā.* The girl cried out to her father.
+*ʻUa tagi atu le teine ʻi lona tamā.* The girl cried out to her father.
 
-*ʻUa tagi mai le teine i lona tamā.* The girl cried out to her father (toward the speaker).
+*ʻUa tagi mai le teine ʻi lona tamā.* The girl cried out to her father (toward the speaker).
 
-*ʻOloʻo tāʻoto mai le teine i le fale.* The girl is lying here in the house. (Lit. "The girl is lying, toward me, in the house.")
+*ʻOloʻo taʻoto mai le teine ʻi le fale.* The girl is lying here in the house. (Lit. "The girl is lying, toward me, in the house.")
 :::
 
 In the first pair the crying is aimed at someone, and the direction word says
 which way: *atu* when the father is away from the speaker, *mai* when the
 speaker is where he is. In the third sentence the girl is not moving at all.
-*Tāʻoto* (lie down) is the verb, and *mai* says that she lies where the speaker
+*Taʻoto* (lie down) is the verb, and *mai* says that she lies where the speaker
 is, or turned the speaker's way. English usually leaves that unsaid, or reaches
 for a word like "here".
 
@@ -139,11 +139,11 @@ after it, makes it the direction word:
 ::: {.examples}
 *Na sau le tama mai le fale.* The boy came from the house.
 
-*ʻUa tagi mai le teine i lona tamā.* The girl cried out to her father (toward the speaker).
+*ʻUa tagi mai le teine ʻi lona tamā.* The girl cried out to her father (toward the speaker).
 :::
 
-In *ʻOloʻo tāʻoto mai le teine i le fale* the phrase opened by the place word
-*i* says where she lies, so *mai* is the direction word there too.
+In *ʻOloʻo taʻoto mai le teine ʻi le fale* the phrase opened by the place word
+*ʻi* says where she lies, so *mai* is the direction word there too.
 
 The word *ʻaumai* (bring), one of the first commands in this book, is an old verb
 of taking with *mai* fused onto the end of it: take, toward me.
@@ -208,7 +208,7 @@ speaker stands.
 ## A Direction Word Inside a Spatial Noun
 
 ::: {.examples}
-*i lalo ifo o le fale*. underneath the house
+*ʻi lalo ifo o le fale*. underneath the house
 :::
 
 The direction words modify verbs, and they modify spatial nouns as well. The
@@ -219,9 +219,9 @@ direction:
 
 | Samoan | English |
 |---|---|
-| *ʻO le pusi i lalo o le fale.* | The cat under the house. |
-| *ʻO le pusi i lalo ifo o le fale.* | The cat underneath the house. |
-| *ʻO le taʻavale i fafo atu o le fale.* | The car outside the house. |
+| *ʻO le pusi ʻi lalo o le fale.* | The cat under the house. |
+| *ʻO le pusi ʻi lalo ifo o le fale.* | The cat underneath the house. |
+| *ʻO le taʻavale ʻi fafo atu o le fale.* | The car outside the house. |
 
 > *Note:* You have met two of these words in this position already. The spatial
 > nouns *tala mai* (this side) and *tala atu* (the far side) are *tala* (next
@@ -250,10 +250,10 @@ The verbs:
 | Word | Meaning |
 |---|---|
 | *ita* | angry, be angry |
-| *osofai* | attack |
+| *osofaʻi* | attack |
 | *popole* | worry |
 | *sasao* | blaze, burn fiercely |
-| *tāʻoto* | lie (down) |
+| *taʻoto* | lie (down) |
 
 The nouns:
 
@@ -285,8 +285,8 @@ taught earlier in this book.
 2. *Na alu ifo le tama.*
 3. *ʻUa alu aʻe le sasao o le afi.*
 4. *Na alu atu le tama.*
-5. *ʻOu te lē popole atu ia te ʻoe.*
-6. *ʻO le pusi i lalo ifo o le fale.*
+5. *ʻOu te lē popole atu ʻia te ʻoe.*
+6. *ʻO le pusi ʻi lalo ifo o le fale.*
 7. *Alu ʻese.*
 8. *ʻUa maua lou solosolo?*
 
@@ -297,9 +297,9 @@ Fill the gap so the Samoan matches the English.
 1. *Faʻatali ___.* (Wait for me.)
 2. *Na alu ___ le tama.* (The boy went off.)
 3. *ʻE te lē popole ___.* (You do not worry about me.)
-4. *ʻOloʻo tāʻoto ___ le teine i le fale.* (The girl is lying here in the house.)
+4. *ʻOloʻo taʻoto ___ le teine ʻi le fale.* (The girl is lying here in the house.)
 5. *Faʻatali ___.* (Wait here until I come back.)
-6. *ʻUa tagi ___ le teine i lona tamā.* (The girl cried out to her father, away from the speaker.)
+6. *ʻUa tagi ___ le teine ʻi lona tamā.* (The girl cried out to her father, away from the speaker.)
 
 ### Exercise 3: Translate into Samoan
 
@@ -316,10 +316,10 @@ For each sentence, say whether the direction word turns the action toward the
 speaker, away from the speaker, up, down, along, or away from a point.
 
 1. *Na alu ane le tama.*
-2. *ʻUa tagi atu le teine i lona tamā.*
+2. *ʻUa tagi atu le teine ʻi lona tamā.*
 3. *Na alu ʻese le tama.*
 4. *Sā nofo aʻe ai le tama.*
-5. *ʻUa tagi mai le teine i lona tamā.*
+5. *ʻUa tagi mai le teine ʻi lona tamā.*
 6. *Na alu ifo le tama.*
 
 ### Exercise 5: Put the direction word in its place
@@ -329,18 +329,18 @@ Rewrite each sentence with the direction word given, set in its correct slot.
 1. *Na alu le tama*, with *atu*.
 2. *Na alu vave le tama*, with *atu*.
 3. *Sā nofo ai le tama*, with *aʻe*.
-4. *ʻO le pusi i lalo o le fale*, with *ifo*.
-5. *ʻUa tagi le teine i lona tamā*, with *mai*.
+4. *ʻO le pusi ʻi lalo o le fale*, with *ifo*.
+5. *ʻUa tagi le teine ʻi lona tamā*, with *mai*.
 
 ### Exercise 6: Give the meaning
 
 1. *ita*
-2. *osofai*
+2. *osofaʻi*
 3. *leo*
 4. *tuagane*
 5. *afi*
 6. *faʻamalu*
-7. *tāʻoto*
+7. *taʻoto*
 8. *popole*
 
 ---
@@ -363,18 +363,18 @@ Rewrite each sentence with the direction word given, set in its correct slot.
 1. *Faʻatali mai.*
 2. *Na alu atu le tama.*
 3. *ʻE te lē popole mai.*
-4. *ʻOloʻo tāʻoto mai le teine i le fale.*
+4. *ʻOloʻo taʻoto mai le teine ʻi le fale.*
 5. *Faʻatali atu.*
-6. *ʻUa tagi atu le teine i lona tamā.*
+6. *ʻUa tagi atu le teine ʻi lona tamā.*
 
 ### Exercise 3
 
 1. *Na alu aʻe le tama.*
-2. *ʻUa tagi atu le teine i lona tamā.* (*Na tagi atu le teine i lona tamā*, with the
+2. *ʻUa tagi atu le teine ʻi lona tamā.* (*Na tagi atu le teine ʻi lona tamā*, with the
    one-off past particle, is also right; the English does not say which.)
 3. *Alu ʻese.*
 4. *Na alu ane le tama.*
-5. *ʻO le pusi i lalo ifo o le fale.*
+5. *ʻO le pusi ʻi lalo ifo o le fale.*
 6. *ʻUa maua lou faʻamalu?*
 
 ### Exercise 4
@@ -391,8 +391,8 @@ Rewrite each sentence with the direction word given, set in its correct slot.
 1. *Na alu atu le tama.*
 2. *Na alu vave atu le tama.* (the describing word comes before the direction word)
 3. *Sā nofo aʻe ai le tama.* (the direction word comes before *ai*)
-4. *ʻO le pusi i lalo ifo o le fale.* (the direction word goes directly after the spatial noun)
-5. *ʻUa tagi mai le teine i lona tamā.*
+4. *ʻO le pusi ʻi lalo ifo o le fale.* (the direction word goes directly after the spatial noun)
+5. *ʻUa tagi mai le teine ʻi lona tamā.*
 
 ### Exercise 6
 

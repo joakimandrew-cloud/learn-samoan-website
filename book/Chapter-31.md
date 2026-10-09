@@ -12,17 +12,17 @@ another, that one thing stands above the rest, and that two things are alike.
 ## The Comparative *Atu*
 
 ::: {.examples}
-*E malosi le tama.* The boy is strong.
+*E mālosi le tama.* The boy is strong.
 
-*E malosi atu le tama.* The boy is stronger.
+*E mālosi atu le tama.* The boy is stronger.
 :::
 
 Read that pair once more before going on. Which word was added?
 
 *Atu*, the direction word for away from the speaker. Set on a quality word it
-does a second job and raises the degree, so that *malosi* is strong and *malosi
+does a second job and raises the degree, so that *mālosi* is strong and *mālosi
 atu* is stronger. No ending is added to the quality word: the degree arrives as
-a word standing after it, and *malosi* is *malosi* in both sentences above.
+a word standing after it, and *mālosi* is *mālosi* in both sentences above.
 
 The pattern has three parts in a fixed order: the tense particle, then the
 quality word, then *atu*. What the sentence is about follows in its usual place,
@@ -30,7 +30,7 @@ after the verb.
 
 | Samoan | English |
 |---|---|
-| *E malosi atu le tama.* | The boy is stronger. |
+| *E mālosi atu le tama.* | The boy is stronger. |
 | *E loloto atu le vai.* | The water is deeper. |
 | *E laʻitiiti atu le manulele.* | The bird is smaller. |
 | *E vevela atu le koko.* | The cocoa is hotter. |
@@ -42,10 +42,10 @@ one more word.
 
 ---
 
-## Naming What You Compare With: *I Lo*
+## Naming What You Compare With: *ʻi Lo*
 
 ::: {.examples}
-*E malosi atu le tama i lo le teine.* The boy is stronger than the girl.
+*E mālosi atu le tama i lo le teine.* The boy is stronger than the girl.
 
 *E laʻitiiti atu le manulele i lo le maile.* The bird is smaller than the dog.
 :::
@@ -58,13 +58,13 @@ the sentence is about, then *i lo* and its noun phrase.
 
 | Samoan | English |
 |---|---|
-| *E malosi atu le tama i lo le teine.* | The boy is stronger than the girl. |
+| *E mālosi atu le tama i lo le teine.* | The boy is stronger than the girl. |
 | *E mamao atu le aʻau i lo le uafu.* | The reef is further away than the wharf. |
 | *E fou atu le faitotoʻa i lo le fale.* | The door is newer than the house. |
 | *E vevela atu le koko i lo le vai.* | The cocoa is hotter than the water. |
 | *E laʻitiiti atu le manulele i lo le maile.* | The bird is smaller than the dog. |
 
-> *Note:* The *lo* can be dropped, leaving the place word *i* on its own to
+> *Note:* The *lo* can be dropped, leaving the place word *ʻi* on its own to
 > introduce what is compared. Both forms are correct. This book prints the
 > fuller *i lo* throughout.
 
@@ -75,7 +75,7 @@ the sentence is about, then *i lo* and its noun phrase.
 ::: {.examples}
 *E sili ona lelei le fale.* The house is the best. (Lit. "It is best that the house is good.")
 
-*E sili ona malosi le maile.* The dog is the strongest. (Lit. "It is best that the dog is strong.")
+*E sili ona mālosi le maile.* The dog is the strongest. (Lit. "It is best that the dog is strong.")
 :::
 
 *Sili* means better, best, more, most. It is one of the words that takes a
@@ -87,7 +87,7 @@ that the house is good" and the plain English for it is "the house is the best".
 | Samoan | English |
 |---|---|
 | *E sili ona lelei le fale.* | The house is the best. |
-| *E sili ona malosi le maile.* | The dog is the strongest. |
+| *E sili ona mālosi le maile.* | The dog is the strongest. |
 | *E sili ona loloto le vai.* | The water is the deepest. |
 | *E sili ona fou le faitotoʻa.* | The door is the newest. |
 
@@ -95,11 +95,11 @@ that the house is good" and the plain English for it is "the house is the best".
 sides again:
 
 ::: {.examples}
-*E sili atu ona malosi le maile i lo le manulele.* The dog is stronger than the bird. (Lit. "It is more that the dog is strong than the bird.")
+*E sili atu ona mālosi le maile i lo le manulele.* The dog is stronger than the bird. (Lit. "It is more that the dog is strong than the bird.")
 :::
 
 That sentence compares the same two animals as
-*E malosi atu le maile i lo le manulele.* The two routes differ in where the
+*E mālosi atu le maile i lo le manulele.* The two routes differ in where the
 degree sits: on the quality word itself in the first pattern, and on *sili* in
 front of the clause in this one.
 
@@ -114,7 +114,7 @@ front of the clause in this one.
 ## Saying Two Things Are Alike: *Pei* and *Tusa Ma*
 
 ::: {.examples}
-*Sā tautala le tama e pei sā i ai.* The boy spoke as if he had been there. (Lit. "Past speak the boy, as if past there.")
+*Sā tautala le tama e pei sā ʻi ai.* The boy spoke as if he had been there. (Lit. "Past speak the boy, as if past there.")
 
 *Sā tagi le pepe e pei o se manulele.* The baby cried like a bird.
 :::
@@ -122,18 +122,18 @@ front of the clause in this one.
 *Pei* means "like, as if". It heads a clause of its own that hangs on the end of
 a finished sentence, and it takes the general particle *e* in front of it. What
 follows *pei* in this chapter is one of two things. In the first sentence it is a clause with a
-tense particle of its own, *sā i ai* (had been there). In the second it is a
+tense particle of its own, *sā ʻi ai* (had been there). In the second it is a
 noun phrase opened by *o*, the presenting particle met earlier in this book,
 which the sources print without its mark in this position: *o se manulele*
 (a bird).
 
 | Samoan | English |
 |---|---|
-| *Sā tautala le tama e pei sā i ai.* | The boy spoke as if he had been there. |
+| *Sā tautala le tama e pei sā ʻi ai.* | The boy spoke as if he had been there. |
 | *Sā tagi le pepe e pei o se manulele.* | The baby cried like a bird. |
 | *E tautala le tama e pei o se saienitisi.* | The boy talks like a scientist. |
 
-> *Note:* *Sā i ai* is the where-sentence you already know, with *i ai* (there)
+> *Note:* *Sā ʻi ai* is the where-sentence you already know, with *ʻi ai* (there)
 > as its place. Nothing inside it names who was there, because the first half of
 > the sentence has already said so.
 
@@ -185,7 +185,7 @@ out rather than say it twice.
 | *koko* | cocoa |
 | *maile* | dog |
 | *manulele* | bird |
-| *ofaga* | nest |
+| *ōfaga* | nest |
 | *saienitisi* | scientist |
 
 *Moni* also stands inside a fixed phrase for the truth:
@@ -197,7 +197,7 @@ out rather than say it twice.
 Three of the new words meet in one phrase:
 
 ::: {.examples}
-*ʻO le ofaga o le manulele i luga o le koko.* The nest of the bird in the cocoa tree. (Lit. "The nest of the bird on top of the cocoa.")
+*ʻO le ōfaga o le manulele ʻi luga o le koko.* The nest of the bird in the cocoa tree. (Lit. "The nest of the bird on top of the cocoa.")
 :::
 
 ---
@@ -206,7 +206,7 @@ Three of the new words meet in one phrase:
 
 ### Exercise 1: Translate into English
 
-1. *E malosi atu le tama.*
+1. *E mālosi atu le tama.*
 2. *E vevela atu le koko i lo le vai.*
 3. *E sili ona lelei le fale.*
 4. *Sā tagi le pepe e pei o se manulele.*
@@ -229,7 +229,7 @@ Put *atu* in its place after the quality word and write the sentence out.
 1. *E loloto le vai.*
 2. *E fou le faitotoʻa.*
 3. *E mamao le aʻau.*
-4. *E malosi le maile.*
+4. *E mālosi le maile.*
 5. *E lelei le fale.*
 
 ### Exercise 4: Name the other side
@@ -238,7 +238,7 @@ Add *i lo* and the noun phrase in brackets to the end of each sentence.
 
 1. *E laʻitiiti atu le manulele.* (*le maile*)
 2. *E vevela atu le koko.* (*le vai*)
-3. *E malosi atu le tama.* (*le teine*)
+3. *E mālosi atu le tama.* (*le teine*)
 4. *E fou atu le faitotoʻa.* (*le fale*)
 5. *E mamao atu le aʻau.* (*le uafu*)
 
@@ -248,7 +248,7 @@ Fill each gap so that the Samoan matches the English.
 
 1. *Sā siva le teine ___ le finagalo o le tamā.* (The girl danced in accordance with the father's wish.)
 2. *E tautala le tama ___ o se saienitisi.* (The boy talks like a scientist.)
-3. *Sā tautala le tama ___ sā i ai.* (The boy spoke as if he had been there.)
+3. *Sā tautala le tama ___ sā ʻi ai.* (The boy spoke as if he had been there.)
 4. *Sā tagi le pepe ___ o se manulele.* (The baby cried like a bird.)
 5. *Sā alu le tama ___ le finagalo o le tamā.* (The boy went in accordance with the father's wish.)
 
@@ -258,7 +258,7 @@ Fill each gap so that the Samoan matches the English.
 2. *isu*
 3. *koko*
 4. *finagalo*
-5. *ofaga*
+5. *ōfaga*
 
 ---
 
@@ -277,7 +277,7 @@ Fill each gap so that the Samoan matches the English.
 
 1. *E loloto atu le vai.*
 2. *E fou atu le faitotoʻa i lo le fale.*
-3. *E sili ona malosi le maile.*
+3. *E sili ona mālosi le maile.*
 4. *E mamao atu le aʻau i lo le uafu.*
 5. *E tautala le tama e pei o se saienitisi.*
 6. *E moni le tala.*
@@ -287,14 +287,14 @@ Fill each gap so that the Samoan matches the English.
 1. *E loloto atu le vai.*
 2. *E fou atu le faitotoʻa.*
 3. *E mamao atu le aʻau.*
-4. *E malosi atu le maile.*
+4. *E mālosi atu le maile.*
 5. *E lelei atu le fale.*
 
 ### Exercise 4
 
 1. *E laʻitiiti atu le manulele i lo le maile.*
 2. *E vevela atu le koko i lo le vai.*
-3. *E malosi atu le tama i lo le teine.*
+3. *E mālosi atu le tama i lo le teine.*
 4. *E fou atu le faitotoʻa i lo le fale.*
 5. *E mamao atu le aʻau i lo le uafu.*
 
@@ -302,7 +302,7 @@ Fill each gap so that the Samoan matches the English.
 
 1. *Sā siva le teine e tusa ma le finagalo o le tamā.*
 2. *E tautala le tama e pei o se saienitisi.*
-3. *Sā tautala le tama e pei sā i ai.*
+3. *Sā tautala le tama e pei sā ʻi ai.*
 4. *Sā tagi le pepe e pei o se manulele.*
 5. *Sā alu le tama e tusa ma le finagalo o le tamā.*
 

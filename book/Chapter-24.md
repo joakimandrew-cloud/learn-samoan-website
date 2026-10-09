@@ -10,7 +10,7 @@ forbid an action, Samoan reaches for a verb of its own.
 ## The Do-Not Verb *ʻAua*
 
 ::: {.examples}
-*ʻAua ʻe te faʻasāunoa i mea ola.* Do not torture animals.
+*ʻAua ʻe te faʻasāunoa ʻi meaola.* Do not torture animals.
 :::
 
 The word *ʻaua* is the **do-not verb**: it stands first and forbids the action
@@ -18,8 +18,8 @@ that follows. After it comes the person spoken to, then the verb for what must
 not be done. The person and verb are joined by the general particle you met for
 habits and truths, in the shape *te* that follows a pronoun, the same *te* as in
 *ʻou te alu* (I go). Here the person is *ʻe* (you) and the action is
-*faʻasāunoa* (torture); the thing the action reaches, *mea ola* (animals), is
-pointed at with the place word *i*, the way a verb of feeling or seeing reaches
+*faʻasāunoa* (torture); the thing the action reaches, *meaola* (animals), is
+pointed at with the place word *ʻi*, the way a verb of feeling or seeing reaches
 its object. (Lit. "Do not, you, torture at living things.")
 
 The pattern has three parts after *ʻaua*: the person, the general particle *te*,
@@ -147,9 +147,9 @@ its plural form *nonofo*.
 | *faitala* | gossip |
 | *faʻasāunoa* | torture, be cruel to |
 | *taumafai* | try |
-| *filemu* | quiet, calm |
+| *filemū* | quiet, calm |
 | *ola* | life; live |
-| *mea ola* | animals, living things |
+| *meaola* | animals, living things |
 | *pisupo* | corned beef |
 | *tei* | little sister, small sibling |
 
@@ -161,7 +161,7 @@ its plural form *nonofo*.
 
 1. *ʻAua ʻe te faitala.*
 2. *Sōia ʻe te siva.*
-3. *ʻAua ʻe te faʻasāunoa i mea ola.*
+3. *ʻAua ʻe te faʻasāunoa ʻi meaola.*
 4. *ʻAua ʻe te taumafai.*
 5. *Sōia ʻe te tagi.*
 
@@ -224,7 +224,7 @@ of sentence, and write the corrected version.
 1. *ʻAua ʻe te siva.*
 2. *Sōia ʻe te faitala.*
 3. *ʻAua ʻe te moe.*
-4. *ʻAua ʻe te ʻai i le pisupo.*
+4. *ʻAua ʻe te ʻai ʻi le pisupo.*
 5. *Sōia ʻe te siva.*
 
 ### Exercise 3

@@ -11,12 +11,12 @@ from its slot and why a name that refers to people takes the place word *iā*.
 ## The Slot Rule
 
 ::: {.examples}
-*E alofa le tama i le teine.* The boy loves the girl.
+*E alofa le tama ʻi le teine.* The boy loves the girl.
 :::
 
 This sentence has three words that carry meaning of their own, and each one
 stands in a slot. *Alofa* (love) stands after the general particle *e*. *Tama*
-(boy) stands after the article *le*. *Teine* (girl) stands after *i le*, the
+(boy) stands after the article *le*. *Teine* (girl) stands after *ʻi le*, the
 place word and the article.
 
 A word's class is the kind of word it is: a verb, a noun, and so on. The slot a
@@ -24,7 +24,7 @@ word fills tells you its class. The verb slot is the place where a word takes a
 tense particle in front of it, and where it can also take the not-word *lē* and
 describing words. A noun slot is the place where a word takes an article in
 front of it, or a possessive form standing where the article stands, and where
-the place word *i* or the presenting particle *ʻo* can mark it. The rule that a
+the place word *ʻi* or the presenting particle *ʻo* can mark it. The rule that a
 word in the verb slot is a verb and a word in a noun slot is a noun is called
 the **slot rule**. Read the slot, and you know the class.
 
@@ -45,13 +45,13 @@ words are verbs, *leai* is a verb, and a number is a kind of verb. Each of those
 is a word doing a verb's job in the verb slot.
 
 ::: {.examples}
-*E onosaʻi le tina.* The mother is patient.
+*E ʻonosaʻi le tinā.* The mother is patient.
 
 *Sā alu le tama e momoli le tusi.* The boy went to deliver the letter.
 :::
 
-In the first sentence *onosaʻi* (be patient) follows *e*, so it is a verb, and
-*tina* (mother) follows *le*, so it is a noun. In the second, *momoli* (bring,
+In the first sentence *ʻonosaʻi* (be patient) follows *e*, so it is a verb, and
+*tinā* (mother) follows *le*, so it is a noun. In the second, *momoli* (bring,
 deliver) follows the *e* that heads a purpose clause, so it is a verb too, and
 *tusi* (letter) follows *le*.
 
@@ -62,7 +62,7 @@ deliver) follows the *e* that heads a purpose clause, so it is a verb too, and
 ::: {.examples}
 *E uō le tama ma le teine.* The boy and the girl are friends.
 
-*E alofa le tama i lana uō.* The boy loves his friend.
+*E alofa le tama ʻi lana uō.* The boy loves his friend.
 :::
 
 Compare the two sentences. Which slot does *uō* fill in each?
@@ -91,7 +91,7 @@ the same in both slots: an old woman, and being an old woman.
 ::: {.examples}
 *Sā nofo le teine.* The girl stayed.
 
-*Sā teine lona tina.* His mother was once a girl. (Lit. "Past girl his mother.")
+*Sā teine lona tinā.* His mother was once a girl. (Lit. "Past girl his mother.")
 :::
 
 *Teine*, one of the first nouns in this book, fills the verb slot after the past
@@ -220,33 +220,33 @@ the noun system: a group word is the kind of noun that behaves this way.
 ::: {.examples}
 *Alu iā Ulika.* Go to Ulika.
 
-*Alu i Sāmoa.* Go to Samoa.
+*Alu ʻi Sāmoa.* Go to Samoa.
 :::
 
 Names are the one kind of noun that changes the place word in front of them.
 Before the name of a person, the place word takes the shape *iā*. Before the
-name of a place, it stays *i*. What selects *iā* is that the name refers to
+name of a place, it stays *ʻi*. What selects *iā* is that the name refers to
 people:
 
 ::: {.examples}
-*i Sāmoa*. in Samoa
+*ʻi Sāmoa*. in Samoa
 
 *iā Sāmoa*. among the Samoans
 :::
 
-When *Sāmoa* names the place, it takes *i*. When it names the people who live
+When *Sāmoa* names the place, it takes *ʻi*. When it names the people who live
 there, it takes *iā*. So the rule is not that every name takes *iā*: a name
-takes *iā* when it refers to a person or a people. An ordinary noun keeps *i*
-even when it names a person, as in *E alofa le tama i le teine*. A place name
+takes *iā* when it refers to a person or a people. An ordinary noun keeps *ʻi*
+even when it names a person, as in *E alofa le tama ʻi le teine*. A place name
 used for its people can also take an article, the way an ordinary noun does.
 
 | Word | Stands before |
 |---|---|
 | *iā* | a name that refers to a person or a people |
-| *i* | a name that refers to a place, or an ordinary noun |
+| *ʻi* | a name that refers to a place, or an ordinary noun |
 
 > *Note:* In the Samoan of the Bible, and now and then in modern writing, *iā*
-> also appears before the names of months. Everyday modern Samoan uses *i*
+> also appears before the names of months. Everyday modern Samoan uses *ʻi*
 > there.
 
 ---
@@ -258,8 +258,10 @@ used for its people can also take an article, the way an ordinary noun does.
 | Word | What it does |
 |---|---|
 | *iā* | the place word before a person, met earlier: stands before a name that refers to a person or a people |
-| *i* | the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person |
+| *ʻi* | the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person |
 | *uō* | met earlier as a noun, friend; in the verb slot, be friends |
+
+*ʻĀiga* (family), first learned in Chapter 7, is reused here.
 
 **New vocabulary** (memorize these meanings):
 
@@ -267,12 +269,11 @@ used for its people can also take an article, the way an ordinary noun does.
 |---|---|
 | *lafu* | herd |
 | *momoli* | bring, deliver |
-| *onosaʻi* | be patient |
+| *ʻonosaʻi* | be patient |
 | *loʻomatua* | old woman |
 | *tamaitiiti* | boy, child |
 | *teineitiiti* | girl |
 | *ʻolomatua* | old woman |
-| *ʻāiga* | family |
 
 ---
 
@@ -284,22 +285,22 @@ Say whether the word named after each sentence fills the verb slot or a noun
 slot, and so whether it is a verb or a noun in that sentence.
 
 1. *E uō le tama ma le teine.* (*uō*)
-2. *E alofa le teine i lana uō.* (*uō*)
+2. *E alofa le teine ʻi lana uō.* (*uō*)
 3. *ʻUa loʻomatua aʻu.* (*loʻomatua*)
 4. *Sā nofo le loʻomatua.* (*loʻomatua*)
-5. *Sā teine lona tina.* (*teine*)
-6. *E onosaʻi le tamaitiiti.* (*onosaʻi*)
+5. *Sā teine lona tinā.* (*teine*)
+6. *E ʻonosaʻi le tamaitiiti.* (*ʻonosaʻi*)
 7. *Sā tamaitiiti lona tamā.* (*tamaitiiti*)
 8. *Sā alu le teine e momoli le ipu.* (*ipu*)
 
 ### Exercise 2: Translate into English
 
-1. *E alofa le tama i le teine.*
+1. *E alofa le tama ʻi le teine.*
 2. *ʻUa ʻolomatua aʻu.*
-3. *Sā teineitiiti lona tina.*
+3. *Sā teineitiiti lona tinā.*
 4. *Sā nonofo le ʻāiga.*
 5. *Sā alu le teine e momoli le tusi.*
-6. *E onosaʻi le teine.*
+6. *E ʻonosaʻi le teine.*
 7. *Sā nofo le tamaitiiti.*
 
 ### Exercise 3: Make it plural
@@ -315,7 +316,7 @@ change. Then say which word changed shape, if any did.
 6. *ʻo le pusi*
 7. *ʻo le teine*
 
-### Exercise 4: Choose *i* or *iā*
+### Exercise 4: Choose *ʻi* or *iā*
 
 Fill the gap so that the Samoan matches the English.
 
@@ -349,7 +350,7 @@ Fill the gap so that the Samoan matches the English.
 
 1. In *E uō le tama ma le teine*, what tells you that *uō* is a verb?
 2. Is *uō* in that sentence a noun that has been turned into a verb?
-3. Why does *Sāmoa* take *iā* in *iā Sāmoa* but *i* in *i Sāmoa*?
+3. Why does *Sāmoa* take *iā* in *iā Sāmoa* but *ʻi* in *ʻi Sāmoa*?
 4. In *Sā nonofo le ʻāiga*, why is the verb plural when *le* marks one family?
 5. What do the eight words that change shape for number in both slots have in common?
 
@@ -357,7 +358,7 @@ Fill the gap so that the Samoan matches the English.
 
 1. *lafu*
 2. *momoli*
-3. *onosaʻi*
+3. *ʻonosaʻi*
 4. *loʻomatua*
 5. *tamaitiiti*
 6. *teineitiiti*
@@ -402,11 +403,11 @@ Fill the gap so that the Samoan matches the English.
 ### Exercise 4
 
 1. *Alu iā Ulika.*
-2. *Alu i Sāmoa.*
+2. *Alu ʻi Sāmoa.*
 3. *iā Sāmoa*
-4. *i Sāmoa*
-5. *E alofa le tama i le teine.*
-6. *Sā nonofo i Sāmoa.*
+4. *ʻi Sāmoa*
+5. *E alofa le tama ʻi le teine.*
+6. *Sā nonofo ʻi Sāmoa.*
 
 ### Exercise 5
 
@@ -414,18 +415,18 @@ Fill the gap so that the Samoan matches the English.
 
 ### Exercise 6
 
-1. *E alofa le tama i lana uō.*
+1. *E alofa le tama ʻi lana uō.*
 2. *ʻUa loʻomatua aʻu.* (or *ʻUa ʻolomatua aʻu.*)
 3. *Sā nonofo le ʻāiga.*
 4. *Alu iā Ulika.*
 5. *Sā nonofo teine.*
-6. *E onosaʻi le tina.*
+6. *E ʻonosaʻi le tinā.*
 
 ### Exercise 7
 
 1. It stands straight after the general particle *e*, in the verb slot.
 2. No. *Uō* has no fixed class of its own; the verb slot makes it a verb in this sentence, and a noun slot makes it a noun in another.
-3. In *iā Sāmoa* the name refers to the people who live in Samoa; in *i Sāmoa* it refers to the place.
+3. In *iā Sāmoa* the name refers to the people who live in Samoa; in *ʻi Sāmoa* it refers to the place.
 4. *ʻĀiga* is a group word: singular in shape, but it names many people, so the verb often takes its plural form.
 5. They all name a person's age or married life.
 

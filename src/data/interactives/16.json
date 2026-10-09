@@ -10,8 +10,16 @@
       "data": {
         "mode": "steps",
         "states": [
-          { "label": "Place named", "sm": "Sā nofo le teine i le nuʻu.", "en": "The girl lived in the village." },
-          { "label": "Place carried forward", "sm": "Sā nofo ai le teine.", "en": "The girl lived there." }
+          {
+            "label": "Place named",
+            "sm": "Sā nofo le teine ʻi le nuʻu.",
+            "en": "The girl lived in the village."
+          },
+          {
+            "label": "Place carried forward",
+            "sm": "Sā nofo ai le teine.",
+            "en": "The girl lived there."
+          }
         ]
       }
     },
@@ -24,8 +32,16 @@
       "data": {
         "mode": "toggle",
         "states": [
-          { "label": "With the copy", "sm": "I le nuʻu sā nofo ai le teine.", "en": "In the village the girl lived there." },
-          { "label": "Without the copy", "sm": "I le nuʻu sā nofo le teine.", "en": "In the village the girl lived." }
+          {
+            "label": "With the copy",
+            "sm": "ʻi le nuʻu sā nofo ai le teine.",
+            "en": "In the village the girl lived there."
+          },
+          {
+            "label": "Without the copy",
+            "sm": "ʻi le nuʻu sā nofo le teine.",
+            "en": "In the village the girl lived."
+          }
         ]
       }
     },
@@ -37,14 +53,40 @@
       "intro": "Place each complete sentence under the pointing-back form it uses.",
       "data": {
         "bins": [
-          { "id": "there", "label": "There" },
-          { "id": "to-there", "label": "To there" }
+          {
+            "id": "there",
+            "label": "There"
+          },
+          {
+            "id": "to-there",
+            "label": "To there"
+          }
         ],
         "items": [
-          { "sm": "Sā nofo ai le teine.", "en": "The girl lived there.", "bin": "there", "why": "A verb of staying uses the bare pointing-back word here." },
-          { "sm": "Sā malolo ai le tama.", "en": "The boy rested there.", "bin": "there", "why": "The bare form sits after the verb and before the doer." },
-          { "sm": "Sā alu le tama i ai.", "en": "The boy went there.", "bin": "to-there", "why": "A movement toward the goal usually takes the place word before *ai*." },
-          { "sm": "Sā alu le teine i ai.", "en": "The girl went there.", "bin": "to-there", "why": "The two-word form fills the goal slot of the movement verb." }
+          {
+            "sm": "Sā nofo ai le teine.",
+            "en": "The girl lived there.",
+            "bin": "there",
+            "why": "A verb of staying uses the bare pointing-back word here."
+          },
+          {
+            "sm": "Sā mālōlō ai le tama.",
+            "en": "The boy rested there.",
+            "bin": "there",
+            "why": "The bare form sits after the verb and before the doer."
+          },
+          {
+            "sm": "Sā alu le tama ʻi ai.",
+            "en": "The boy went there.",
+            "bin": "to-there",
+            "why": "A movement toward the goal usually takes the place word before *ai*."
+          },
+          {
+            "sm": "Sā alu le teine ʻi ai.",
+            "en": "The girl went there.",
+            "bin": "to-there",
+            "why": "The two-word form fills the goal slot of the movement verb."
+          }
         ]
       }
     }

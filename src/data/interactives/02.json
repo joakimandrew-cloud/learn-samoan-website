@@ -90,7 +90,7 @@
       "kind": "grid",
       "anchor": "saying-who-it-is",
       "title": "Two pronoun sets, two jobs",
-      "caption": "The preverbal forms stay before a verb. The independent forms work after *ʻo* and *ia te*.",
+      "caption": "The preverbal forms stay before a verb. The independent forms work after *ʻo* and *ʻia te*.",
       "data": {
         "cols": [
           "I",
@@ -149,7 +149,7 @@
           {
             "en": "me (the independent form of \"I\")",
             "sm": "aʻu",
-            "why": "The independent form can follow *ʻo* or *ia te*."
+            "why": "The independent form can follow *ʻo* or *ʻia te*."
           },
           {
             "en": "you (the independent form of \"you\")",
@@ -158,8 +158,8 @@
           },
           {
             "en": "the form the place word takes before a person-word",
-            "sm": "ia te",
-            "why": "The independent pronoun follows *ia te*."
+            "sm": "ʻia te",
+            "why": "The independent pronoun follows *ʻia te*."
           }
         ]
       }

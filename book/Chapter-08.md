@@ -25,7 +25,7 @@ Two of the words below are new: *fafine* (woman) and *matua* (parent).
 | Samoan | English |
 |---|---|
 | *ʻO ai ʻoe?* | Who are you? |
-| *ʻO ai lena?* | Who is that? |
+| *ʻO ai lenā?* | Who is that? |
 | *ʻO ai le teine?* | Who is the girl? |
 | *ʻO ai le fafine?* | Who is the woman? |
 | *ʻO ai le matua?* | Who is the parent? |
@@ -34,7 +34,7 @@ A who-question is answered with a naming sentence. When it is clear what the
 answer is about, the presented part can stand alone:
 
 ::: {.examples}
-*ʻO ai lena?* Who is that?
+*ʻO ai lenā?* Who is that?
 
 *ʻO le teine.* The girl.
 :::
@@ -64,23 +64,23 @@ question shapes: *ʻo ai* for who, *ʻo le ā* for what. Because *ā* is noun-li
 it can take the other articles too; the questions in this chapter all use *le*.
 Where more than one particular thing is asked after, no article stands in that slot.
 
-The words *faasalalauga* (broadcast, broadcasting) and *tausaga* (year) are
+The words *faʻasalalauga* (broadcast, broadcasting) and *tausaga* (year) are
 new here:
 
 | Samoan | English |
 |---|---|
-| *ʻO le ā lena?* | What is that? |
-| *ʻO le ā le faasalalauga?* | What is the broadcast? |
+| *ʻO le ā lenā?* | What is that? |
+| *ʻO le ā le faʻasalalauga?* | What is the broadcast? |
 | *ʻO le ā le tausaga?* | What is the year? |
 | *ʻO le ā le ʻupu?* | What is the word? |
 
 A what-question is answered the same way as a who-question, with a naming
-sentence. Here the answer introduces *suasami* (salt water):
+sentence. Here the answer introduces *suāsami* (salt water):
 
 ::: {.examples}
-*ʻO le ā lena?* What is that?
+*ʻO le ā lenā?* What is that?
 
-*ʻO le suasami lena.* That is the salt water.
+*ʻO le suāsami lenā.* That is the salt water.
 :::
 
 > *Note:* The question word *ā* and the future particle's short form *ʻā* differ
@@ -102,9 +102,9 @@ sentence. Here the answer introduces *suasami* (salt water):
 ## Asking Yes or No
 
 ::: {.examples}
-*ʻO le pusi lena.* That is the cat.
+*ʻO le pusi lenā.* That is the cat.
 
-*ʻO le pusi lena?* ↘ Is that the cat?
+*ʻO le pusi lenā?* ↘ Is that the cat?
 :::
 
 The naming sentence asks yes or no exactly as the verb sentence does: the words
@@ -169,9 +169,9 @@ the same thing as its bare twin; the marker only makes the asking visible.
 | *matua* | parent |
 | *fale* | house |
 | *tausaga* | year |
-| *faasalalauga* | broadcast, broadcasting |
-| *suasami* | salt water |
-| *ulavai* | prawn |
+| *faʻasalalauga* | broadcast, broadcasting |
+| *suāsami* | salt water |
+| *ulāvai* | prawn |
 | *to* | hole |
 
 ---
@@ -181,10 +181,10 @@ the same thing as its bare twin; the marker only makes the asking visible.
 ### Exercise 1: Translate into English
 
 1. *ʻO ai le fafine?*
-2. *ʻO le ā lena?*
-3. *ʻO le ulavai lena.*
+2. *ʻO le ā lenā?*
+3. *ʻO le ulāvai lenā.*
 4. *Po ʻo ai le teine?*
-5. *ʻO le ā le faasalalauga?*
+5. *ʻO le ā le faʻasalalauga?*
 
 ### Exercise 2: Translate into Samoan
 
@@ -199,18 +199,18 @@ the same thing as its bare twin; the marker only makes the asking visible.
 Each item is an answer that points something out. Write the who-question or
 what-question it answers.
 
-1. *ʻO le teine lena.*
-2. *ʻO le suasami lena.*
-3. *ʻO le matua lena.*
-4. *ʻO le to lena.*
+1. *ʻO le teine lenā.*
+2. *ʻO le suāsami lenā.*
+3. *ʻO le matua lenā.*
+4. *ʻO le to lenā.*
 
 ### Exercise 4: Make each statement a yes or no question
 
 Rewrite the sentence as a yes or no question, and mark the falling tune with ↘.
 
-1. *ʻO le pusi lena.*
+1. *ʻO le pusi lenā.*
 2. *ʻO se uō le teine.*
-3. *ʻO le fale lena.*
+3. *ʻO le fale lenā.*
 
 ### Exercise 5: Put the question marker in its place
 
@@ -225,10 +225,10 @@ belongs.
 
 Fill the blank so the question matches the English.
 
-1. *ʻO ___ le tamaitai?* (Who is the lady?)
+1. *ʻO ___ le tamaʻitaʻi?* (Who is the lady?)
 2. *ʻO le ___ le ʻupu?* (What is the word?)
-3. *ʻO ___ lena?* (Who is that?)
-4. *ʻO le ___ lena?* (What is that?)
+3. *ʻO ___ lenā?* (Who is that?)
+4. *ʻO le ___ lenā?* (What is that?)
 
 ---
 
@@ -247,21 +247,21 @@ Fill the blank so the question matches the English.
 1. *ʻO ai ʻoe?*
 2. *ʻO le ā le tausaga?*
 3. *ʻO ai le matua?*
-4. *ʻO le fale lena.*
+4. *ʻO le fale lenā.*
 5. *ʻO le ā?*
 
 ### Exercise 3
 
-1. *ʻO ai lena?*
-2. *ʻO le ā lena?*
-3. *ʻO ai lena?*
-4. *ʻO le ā lena?*
+1. *ʻO ai lenā?*
+2. *ʻO le ā lenā?*
+3. *ʻO ai lenā?*
+4. *ʻO le ā lenā?*
 
 ### Exercise 4
 
-1. *ʻO le pusi lena?* ↘
+1. *ʻO le pusi lenā?* ↘
 2. *ʻO se uō le teine?* ↘
-3. *ʻO le fale lena?* ↘
+3. *ʻO le fale lenā?* ↘
 
 ### Exercise 5
 
@@ -271,7 +271,7 @@ Fill the blank so the question matches the English.
 
 ### Exercise 6
 
-1. *ʻO ai le tamaitai?*
+1. *ʻO ai le tamaʻitaʻi?*
 2. *ʻO le ā le ʻupu?*
-3. *ʻO ai lena?*
-4. *ʻO le ā lena?*
+3. *ʻO ai lenā?*
+4. *ʻO le ā lenā?*

@@ -6,13 +6,39 @@
       "kind": "grid",
       "anchor": "the-place-word-i",
       "title": "One place word, several English readings",
-      "caption": "The Samoan place word stays *i*. The verb and the place determine whether English reads it as in, to, or into.",
+      "caption": "The Samoan place word stays *ʻi*. The verb and the place determine whether English reads it as in, to, or into.",
       "data": {
-        "cols": ["Printed sentence"],
+        "cols": [
+          "Printed sentence"
+        ],
         "rows": [
-          { "label": "In", "cells": [ { "sm": "Sā nofo le pusi i le laau.", "en": "The cat stayed in the tree." } ] },
-          { "label": "To", "cells": [ { "sm": "Sā ia alu i le fale.", "en": "She went to the house." } ] },
-          { "label": "Into", "cells": [ { "sm": "Sā oso le pusi i le laau.", "en": "The cat jumped into the tree." } ] }
+          {
+            "label": "In",
+            "cells": [
+              {
+                "sm": "Sā nofo le pusi ʻi le lāʻau.",
+                "en": "The cat stayed in the tree."
+              }
+            ]
+          },
+          {
+            "label": "To",
+            "cells": [
+              {
+                "sm": "Sā ia alu ʻi le fale.",
+                "en": "She went to the house."
+              }
+            ]
+          },
+          {
+            "label": "Into",
+            "cells": [
+              {
+                "sm": "Sā oso le pusi ʻi le lāʻau.",
+                "en": "The cat jumped into the tree."
+              }
+            ]
+          }
         ]
       }
     },
@@ -25,8 +51,16 @@
       "data": {
         "mode": "toggle",
         "states": [
-          { "label": "To a place", "sm": "Sā ia alu i le fale.", "en": "She went to the house." },
-          { "label": "From a place", "sm": "Na sau le tama mai le fale.", "en": "The boy came from the house." }
+          {
+            "label": "To a place",
+            "sm": "Sā ia alu ʻi le fale.",
+            "en": "She went to the house."
+          },
+          {
+            "label": "From a place",
+            "sm": "Na sau le tama mai le fale.",
+            "en": "The boy came from the house."
+          }
         ]
       }
     },
@@ -38,16 +72,50 @@
       "intro": "Sort each complete printed sentence by whether its last phrase marks a location, a destination, or a source.",
       "data": {
         "bins": [
-          { "id": "location", "label": "Location" },
-          { "id": "destination", "label": "Destination" },
-          { "id": "source", "label": "Source" }
+          {
+            "id": "location",
+            "label": "Location"
+          },
+          {
+            "id": "destination",
+            "label": "Destination"
+          },
+          {
+            "id": "source",
+            "label": "Source"
+          }
         ],
         "items": [
-          { "sm": "Sā nofo le tama i le fale.", "en": "The boy stayed in the house.", "bin": "location", "why": "With a verb of staying, *i* sets the action in a place." },
-          { "sm": "Sā ʻou alu i le nuʻu.", "en": "I went to the village.", "bin": "destination", "why": "With a verb of movement, *i* points toward the destination." },
-          { "sm": "Sā oso le pusi i le laau.", "en": "The cat jumped into the tree.", "bin": "destination", "why": "The movement enters the destination, so English reads *i* as into." },
-          { "sm": "Na sau le teine mai le nuʻu.", "en": "The girl came from the village.", "bin": "source", "why": "The from-word *mai* marks where the movement started." },
-          { "sm": "Na oso le pusi mai le laau.", "en": "The cat jumped from the tree.", "bin": "source", "why": "The from-word points away from the source." }
+          {
+            "sm": "Sā nofo le tama ʻi le fale.",
+            "en": "The boy stayed in the house.",
+            "bin": "location",
+            "why": "With a verb of staying, *ʻi* sets the action in a place."
+          },
+          {
+            "sm": "Sā ʻou alu ʻi le nuʻu.",
+            "en": "I went to the village.",
+            "bin": "destination",
+            "why": "With a verb of movement, *ʻi* points toward the destination."
+          },
+          {
+            "sm": "Sā oso le pusi ʻi le lāʻau.",
+            "en": "The cat jumped into the tree.",
+            "bin": "destination",
+            "why": "The movement enters the destination, so English reads *ʻi* as into."
+          },
+          {
+            "sm": "Na sau le teine mai le nuʻu.",
+            "en": "The girl came from the village.",
+            "bin": "source",
+            "why": "The from-word *mai* marks where the movement started."
+          },
+          {
+            "sm": "Na oso le pusi mai le lāʻau.",
+            "en": "The cat jumped from the tree.",
+            "bin": "source",
+            "why": "The from-word points away from the source."
+          }
         ]
       }
     }

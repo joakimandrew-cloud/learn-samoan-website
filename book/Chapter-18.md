@@ -1,7 +1,7 @@
 # Chapter 18: Time Words
 
 This chapter adds the time-word slot at the end of the sentence, a set of words
-such as *ananafi* (yesterday) and *ʻātaeao* (tomorrow morning) that fix a
+such as *ananafi* (yesterday) and *ātaeao* (tomorrow morning) that fix a
 statement to a point in time. The word sits after everything else, and its front
 end points the same way in time as the tense particle at the start.
 
@@ -43,18 +43,18 @@ side they show a pattern that runs through the whole set:
 ::: {.examples}
 *anataeao*. this morning
 
-*ʻātaeao*. tomorrow morning
+*ātaeao*. tomorrow morning
 :::
 
 Compare the two words. What has changed at the front?
 
 The root *taeao* is the same in both, and only the front differs. The front
 *ana-* points back to time already gone, so *anataeao* is the morning that has
-passed, "this morning". The front *ʻā-* points ahead, so *ʻātaeao* is the
-morning still to come, "tomorrow morning". Every word for past time begins with
-*ana-*; the word for a coming morning begins with *ʻā-*.
-In print you will also meet the coming-morning word without the catch at the
-front, and it is the same word.
+passed, "this morning". The front *ā-* points ahead, so *ātaeao* is the morning
+still to come, "tomorrow morning". Every word for past time begins with *ana-*;
+the word for a coming morning begins with *ā-*.
+In print you will also meet the coming-morning word with a catch at the front,
+*ʻātaeao*, and it is the same word.
 
 That front end is why the two ends of a sentence agree. A word for time already
 gone rides a past frame, and the word for a coming time rides the future
@@ -63,7 +63,7 @@ particle *ʻoleʻā*:
 ::: {.examples}
 *Na siva le teine anataeao.* The girl danced this morning.
 
-*ʻOleʻā siva le teine ʻātaeao.* The girl will dance tomorrow morning.
+*ʻOleʻā siva le teine ātaeao.* The girl will dance tomorrow morning.
 :::
 
 The first sentence looks back: the past particle *na* at the front, a past time
@@ -91,7 +91,7 @@ other by one thing only: the long-vowel mark on the final vowel of *anamuā*.
 
 ## Words That Stand on Their Own
 
-Two time words are not built from *ana-* or *ʻā-*. They are learned whole, as
+Two time words are not built from *ana-* or *ā-*. They are learned whole, as
 fixed forms:
 
 ::: {.examples}
@@ -100,7 +100,7 @@ fixed forms:
 *nei*. now
 :::
 
-*Nānei* points ahead, to "later on", and rides the future particle like *ʻātaeao*
+*Nānei* points ahead, to "later on", and rides the future particle like *ātaeao*
 does, and is also met with the general particle.
 *Nei* is "now", the present moment; it sits with the happening-now
 particle *ʻoloʻo* to say that something is going on as you speak:
@@ -132,7 +132,7 @@ The time words that fill the end slot:
 | *ananei* | just a short time ago |
 | *anamua* | formerly |
 | *anamuā* | in days of old |
-| *ʻātaeao* | tomorrow morning |
+| *ātaeao* | tomorrow morning |
 | *nānei* | later on |
 | *nei* | now |
 
@@ -142,9 +142,10 @@ The base word behind two of them:
 |---|---|
 | *taeao* | morning; also tomorrow |
 
-> *Note:* Two further *ʻā-* words, *ʻāmuli* (after death, in the last days) and
-> *ʻātalī* (in the next world), are not used in the end-of-sentence time slot.
-> They work as describing words with fixed meanings, *ʻāmuli* built on *muli*
+> *Note:* Two further words with the future-time front, *ʻāmulī* (after death, in
+> the last days) and *ʻātalī* (in the next world), are not used in the
+> end-of-sentence time slot. They work as describing words with fixed meanings,
+> *ʻāmulī* built on *muli*
 > (last). They are recorded only in that describing role, which is why this book
 > keeps them out of the time slot. You will meet them in reading, not in the
 > drills of this chapter.
@@ -157,7 +158,7 @@ The base word behind two of them:
 
 1. *Na sau le tama ananafi.*
 2. *Na fānau le pepe anapō.*
-3. *ʻOleʻā siva le teine ʻātaeao.*
+3. *ʻOleʻā siva le teine ātaeao.*
 4. *Na siva le teine analeilā.*
 5. *ʻOloʻo timu nei.*
 
@@ -175,7 +176,7 @@ Read the time word at the end of each sentence. Put *na* or *ʻoleʻā* in the g
 so the front of the sentence points the same way in time as the end.
 
 1. *___ sau le tama ananafi.*
-2. *___ siva le teine ʻātaeao.*
+2. *___ siva le teine ātaeao.*
 3. *___ tāʻele le tama anapō.*
 4. *___ sau le teine nānei.*
 5. *___ siva le teine analeilā.*
@@ -195,7 +196,7 @@ Add the time word to the end of each sentence so it matches the English.
 1. *ananafi*
 2. *anapō*
 3. *analeilā*
-4. *ʻātaeao*
+4. *ātaeao*
 5. *nei*
 
 a. now
@@ -221,7 +222,7 @@ e. earlier today
 1. *Na tāʻele le tama anapō.*
 2. *Na siva le teine anataeao.*
 3. *Na fānau le pepe ananafi.*
-4. *ʻOleʻā sau le tama ʻātaeao.*
+4. *ʻOleʻā sau le tama ātaeao.*
 5. *Na timu ananei.*
 
 ### Exercise 3
@@ -236,7 +237,7 @@ e. earlier today
 
 1. *anataeao*
 2. *ananafi*
-3. *ʻātaeao*
+3. *ātaeao*
 4. *anapō*
 5. *nei*
 

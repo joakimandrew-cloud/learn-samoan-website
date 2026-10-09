@@ -11,7 +11,7 @@ turning into *te* right after one (*ʻOu te alu*, I go).
 ## The General Particle *E*
 
 ::: {.examples}
-*E malosi le tama.* The boy is strong.
+*E mālosi le tama.* The boy is strong.
 
 *E loloto le vai.* The water is deep.
 :::
@@ -31,17 +31,17 @@ to come.
 
 | Samoan | English |
 |---|---|
-| *E malosi le tama.* | The boy is strong. |
+| *E mālosi le tama.* | The boy is strong. |
 | *E loloto le vai.* | The water is deep. |
 | *E fiafia le teine.* | The girl is happy. |
-| *E lelei le aiga.* | The family is good. |
-| *E alu le pasi i le nuʻu.* | The bus goes to the village. |
+| *E lelei le ʻāiga.* | The family is good. |
+| *E alu le pasi ʻi le nuʻu.* | The bus goes to the village. |
 
 The first four state a quality that holds, and a general truth is said in the
 same shape. The last states a habit: the bus is the kind of bus that goes to
 the village, so it goes there as a rule. Read with
-the past particle for a single event, *Na alu le pasi i le nuʻu* would report one
-trip that is over. With the general particle, *E alu le pasi i le nuʻu* reports
+the past particle for a single event, *Na alu le pasi ʻi le nuʻu* would report one
+trip that is over. With the general particle, *E alu le pasi ʻi le nuʻu* reports
 the standing habit.
 
 > **Preview:** The general particle also states a quantity, such as how many
@@ -71,7 +71,7 @@ the one place the order you have used in every sentence so far flips. The genera
 particle is the only particle a pronoun stands in front of, and when a pronoun
 comes first the particle takes the shape *te*, sitting right after it. When the
 sentence names who or what it is about with a noun instead, as in
-*E alu le pasi i le nuʻu* (the bus goes to the village), nothing stands in front
+*E alu le pasi ʻi le nuʻu* (the bus goes to the village), nothing stands in front
 of the particle and it is the plain *e*.
 
 One thing to recognize rather than to build: in conversation a speaker can leave
@@ -96,7 +96,7 @@ The third row holds a second surprise. The word for he or she here is not the
 > went (Lit. "past go"). The general particle *te* is what tells the two apart.
 
 The general particle carries the same four senses with a pronoun as without one.
-*ʻOu te gālue i le nuʻu* is a habit, "I work in the village." A question with the
+*ʻOu te galue ʻi le nuʻu* is a habit, "I work in the village." A question with the
 general particle asks about what someone means to do:
 
 ::: {.examples}
@@ -108,7 +108,7 @@ listener's own intention, softer than a flat "you will write," which is why a
 speaker often chooses it when asking after someone's plans.
 
 A fuller form of the same pattern places *e* at the front as well as *te* after
-the pronoun. *E tā te feiloai* (we two will meet) says the same thing as the plain
+the pronoun. *E tā te feiloaʻi* (we two will meet) says the same thing as the plain
 *te* form; the two are one pattern, and no difference of meaning is recorded
 between them.
 
@@ -174,7 +174,7 @@ recognize rather than to build here.
 | *ʻOloʻo siva le teine.* | The girl is dancing. |
 | *ʻOloʻo tusitusi le tama.* | The boy is writing. |
 | *ʻOloʻo iai le vai.* | There is water. |
-| *ʻOloʻo iai le auivi i le fale.* | There is a skeleton in the house. |
+| *ʻOloʻo iai le ʻauivi ʻi le fale.* | There is a skeleton in the house. |
 
 The verb *iai* means "be present, be there," and *tusitusi* means "write." With
 *ʻoloʻo* in front, each names something true at this moment: the water is present
@@ -185,7 +185,7 @@ taught later in this book; this chapter uses the full form *ʻoloʻo* throughout
 The full form is the one that belongs in a plain statement standing on its own.
 
 > *Note:* That short *ʻo* joins two look-alikes you already know. The presenting
-> particle *ʻo* stands at the front of a naming part, as in *ʻO le pusi lena*
+> particle *ʻo* stands at the front of a naming part, as in *ʻO le pusi lenā*
 > (that is the cat). The belonging word *o*, with no mark, sits between a thing
 > and its owner, as in *le ulu o le tama* (the head of the boy). The happening-now
 > short *ʻo* sits in front of a verb. Position tells the three apart, and the mark
@@ -210,8 +210,8 @@ The full form is the one that belongs in a plain statement standing on its own.
 |---|---|
 | *pasi* | bus |
 | *vai* | water |
-| *auivi* | skeleton |
-| *feiloai* | meet |
+| *ʻauivi* | skeleton |
+| *feiloaʻi* | meet |
 | *tusitusi* | write |
 | *iai* | be present, be there |
 
@@ -221,11 +221,11 @@ The full form is the one that belongs in a plain statement standing on its own.
 
 ### Exercise 1: Translate into English
 
-1. *E malosi le tama.*
+1. *E mālosi le tama.*
 2. *ʻOu te alu.*
 3. *ʻOu te fia ʻai.*
 4. *ʻOloʻo siva le teine.*
-5. *E alu le pasi i le nuʻu.*
+5. *E alu le pasi ʻi le nuʻu.*
 
 ### Exercise 2: Translate into Samoan
 
@@ -241,8 +241,8 @@ Put *e* or *te* in the gap. Use *e* when no pronoun stands in front of the
 particle, and *te* when a pronoun does.
 
 1. *___ loloto le vai.*
-2. *ʻOu ___ gālue i le nuʻu.*
-3. *___ alu le pasi i le nuʻu.*
+2. *ʻOu ___ galue ʻi le nuʻu.*
+3. *___ alu le pasi ʻi le nuʻu.*
 4. *ʻE ___ tusitusi?*
 5. *___ fiafia le teine.*
 
@@ -253,7 +253,7 @@ general, or *ʻoloʻo* for something happening right now, so the sentence matche
 the English.
 
 1. *___ siva le teine.* (The girl is dancing right now.)
-2. *___ malosi le tama.* (The boy is strong.)
+2. *___ mālosi le tama.* (The boy is strong.)
 3. *___ tusitusi le tama.* (The boy is writing right now.)
 4. *ʻOu ___ alu.* (I go.)
 5. *___ loloto le vai.* (The water is deep.)
@@ -265,7 +265,7 @@ a habit instead, keeping the same person. Remember to put the pronoun first.
 
 1. *Sā ʻou alu.*
 2. *Sā ʻou fia ʻai.*
-3. *Sā ʻou gālue i le nuʻu.*
+3. *Sā ʻou galue ʻi le nuʻu.*
 4. *Sā ʻou siva.*
 5. *Sā ʻou tusitusi.*
 
@@ -309,6 +309,6 @@ a habit instead, keeping the same person. Remember to put the pronoun first.
 
 1. *ʻOu te alu.*
 2. *ʻOu te fia ʻai.*
-3. *ʻOu te gālue i le nuʻu.*
+3. *ʻOu te galue ʻi le nuʻu.*
 4. *ʻOu te siva.*
 5. *ʻOu te tusitusi.*

@@ -2,7 +2,7 @@
 
 This chapter adds the pointing-back word *ai*, a word that sits inside the verb
 phrase and stands in for a place already named, so that a place mentioned once
-does not have to be named a second time. Its companion form *i ai* does the
+does not have to be named a second time. Its companion form *ʻi ai* does the
 same work for the goal of a movement, the "to there" of going and coming.
 
 ---
@@ -10,25 +10,25 @@ same work for the goal of a movement, the "to there" of going and coming.
 ## Pointing Back to a Place
 
 ::: {.examples}
-*Sā nofo le teine i le nuʻu.* The girl lived in the village.
+*Sā nofo le teine ʻi le nuʻu.* The girl lived in the village.
 
 *Sā nofo ai le teine.* The girl lived there.
 :::
 
-Compare the two sentences. The first ends with the place, *i le nuʻu* (in the
+Compare the two sentences. The first ends with the place, *ʻi le nuʻu* (in the
 village). In the second the place is gone, and a single word, *ai*, stands
 straight after the verb. That word is *ai*, the **pointing-back word**: it
 stands in for a place already named, so the village named in the first sentence
 need not be named again in the second.
 
-*Ai* takes its own seat. The place phrase *i le nuʻu* comes at the end of its
+*Ai* takes its own seat. The place phrase *ʻi le nuʻu* comes at the end of its
 sentence, after the doer. *Ai* does not go there. It falls right after the verb
 and before the doer, and it keeps that seat under every tense particle.
 
 | Samoan | English |
 |---|---|
 | *Sā nofo ai le teine.* | The girl lived there. |
-| *Sā malolo ai le tama.* | The boy rested there. |
+| *Sā mālōlō ai le tama.* | The boy rested there. |
 | *Sā fiafia ai le teine.* | The girl was happy there. |
 | *Sā nofo ai le aitu.* | The spirit lived there. |
 
@@ -67,12 +67,12 @@ A place phrase can also come first, at the front of the sentence. When it does,
 *ai* still points back to it from inside the verb phrase:
 
 ::: {.examples}
-*I le nuʻu sā nofo ai le teine.* In the village the girl lived there.
+*ʻi le nuʻu sā nofo ai le teine.* In the village the girl lived there.
 
-*I le vasega sā fiafia ai le teine.* In the class the girl was happy there.
+*ʻi le vasega sā fiafia ai le teine.* In the class the girl was happy there.
 :::
 
-The place leads, *i le nuʻu* (in the village) or *i le vasega* (in the class),
+The place leads, *ʻi le nuʻu* (in the village) or *ʻi le vasega* (in the class),
 and *ai* answers it later in the sentence. English does not double the place
 this way, so the second "there" can feel like one word too many; in Samoan it
 is the ordinary shape.
@@ -81,7 +81,7 @@ That said, the copy is not required. You will mostly hear *ai* answer a fronted
 place, but the sentence is also correct without it:
 
 ::: {.examples}
-*I le nuʻu sā nofo le teine.* In the village the girl lived.
+*ʻi le nuʻu sā nofo le teine.* In the village the girl lived.
 :::
 
 Both are good Samoan. When the place is already at the front, *ai* may point
@@ -93,41 +93,41 @@ back to it or may be left out.
 
 ---
 
-## Going There: *I ai*
+## Going There: *ʻi ai*
 
 For the goal of a movement, the "to there" of going and coming, *ai* takes the
-place word *i* in front of it. The pair *i ai* stands in for a place you are
+place word *ʻi* in front of it. The pair *ʻi ai* stands in for a place you are
 heading to, exactly where the full place phrase would stand:
 
 ::: {.examples}
-*Sā alu le tama i le fale.* The boy went to the house.
+*Sā alu le tama ʻi le fale.* The boy went to the house.
 
-*Sā alu le tama i ai.* The boy went there.
+*Sā alu le tama ʻi ai.* The boy went there.
 :::
 
-In the first sentence the goal is *i le fale* (to the house). In the second,
-*i ai* takes that slot and means "to there". The two words cannot be split and
+In the first sentence the goal is *ʻi le fale* (to the house). In the second,
+*ʻi ai* takes that slot and means "to there". The two words cannot be split and
 nothing goes between them.
 
 This gives two ways to point back, sorted for the most part by the verb. A verb
 of staying or doing takes bare *ai* for "there"; a verb of moving usually takes
-*i ai* for "to there":
+*ʻi ai* for "to there":
 
 ::: {.examples}
-*Sā alu le teine i ai.* The girl went there.
+*Sā alu le teine ʻi ai.* The girl went there.
 
 *Sā nofo ai le teine.* The girl lived there.
 :::
 
-*Sā alu le teine i ai* sends the girl toward the place. *Sā nofo ai le teine*
-holds her at the place. The one word *i* in front is the whole difference. That
+*Sā alu le teine ʻi ai* sends the girl toward the place. *Sā nofo ai le teine*
+holds her at the place. The one word *ʻi* in front is the whole difference. That
 sorting holds most of the time rather than always: the two forms are drifting
 together, and a number of verbs of moving are found with either one.
 
-> *Note:* The string *i ai* does a second job in a kind of sentence taught in a
+> *Note:* The string *ʻi ai* does a second job in a kind of sentence taught in a
 > later chapter, where it means "is there", a location rather than a direction,
 > and there the pointing-back word must appear rather than being left out. In
-> this chapter *i ai* always means "to there".
+> this chapter *ʻi ai* always means "to there".
 
 ---
 
@@ -138,20 +138,20 @@ together, and a number of verbs of moving are found with either one.
 | Word | What it does |
 |---|---|
 | *ai* | the pointing-back word: stands in for a place already named; sits after the verb, before the doer |
-| *i ai* | the "to there" form: the pointing-back word with the place word *i* in front, for the goal of a movement |
+| *ʻi ai* | the "to there" form: the pointing-back word with the place word *ʻi* in front, for the goal of a movement |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *malolo* | rest |
+| *mālōlō* | rest |
 | *tali* | answer |
 | *aitu* | spirit |
 | *umu* | oven; oven-food |
 | *pito* | end |
 | *vasega* | class |
 | *isi* | other |
-| *leitiō* | radio |
+| *leitio* | radio |
 
 ---
 
@@ -160,9 +160,9 @@ together, and a number of verbs of moving are found with either one.
 ### Exercise 1: Translate into English
 
 1. *Sā nofo ai le teine.*
-2. *Sā malolo ai le tama.*
-3. *Sā alu le tama i ai.*
-4. *I le nuʻu sā nofo ai le teine.*
+2. *Sā mālōlō ai le tama.*
+3. *Sā alu le tama ʻi ai.*
+4. *ʻi le nuʻu sā nofo ai le teine.*
 5. *Sā nofo ai le aitu.*
 
 ### Exercise 2: Translate into Samoan
@@ -178,29 +178,29 @@ together, and a number of verbs of moving are found with either one.
 Each first sentence names a place. Rewrite the second sentence so the place is
 not repeated, putting the pointing-back word *ai* right after the verb.
 
-1. *Sā alu le tama i le fale.* Then: the boy rested there.
-2. *Sā alu le teine i le nuʻu.* Then: the girl lived there.
-3. *Sā nofo le tama i le pito o le nuʻu.* Then: the boy was happy there.
-4. *Sā alu le teine i le vasega.* Then: the girl rested there.
-5. *Sā nofo le aitu i le fale.* Then: the spirit was happy there.
+1. *Sā alu le tama ʻi le fale.* Then: the boy rested there.
+2. *Sā alu le teine ʻi le nuʻu.* Then: the girl lived there.
+3. *Sā nofo le tama ʻi le pito o le nuʻu.* Then: the boy was happy there.
+4. *Sā alu le teine ʻi le vasega.* Then: the girl rested there.
+5. *Sā nofo le aitu ʻi le fale.* Then: the spirit was happy there.
 
-### Exercise 4: Choose *ai* or *i ai*
+### Exercise 4: Choose *ai* or *ʻi ai*
 
-Put *ai* or *i ai* into each gap so the sentence matches the English. Use *i ai*
+Put *ai* or *ʻi ai* into each gap so the sentence matches the English. Use *ʻi ai*
 here for going to a place, bare *ai* for staying or doing at a place.
 
 1. *Sā alu le teine ___.* (The girl went there.)
-2. *Sā malolo ___ le tama.* (The boy rested there.)
+2. *Sā mālōlō ___ le tama.* (The boy rested there.)
 3. *Sā nofo ___ le aitu.* (The spirit lived there.)
 4. *Sā alu le tama ___.* (The boy went there.)
 5. *Sā fiafia ___ le teine.* (The girl was happy there.)
 
 ### Exercise 5: Match each word to its meaning
 
-1. *malolo*
+1. *mālōlō*
 2. *tali*
 3. *pito*
-4. *leitiō*
+4. *leitio*
 5. *vasega*
 
 a. radio
@@ -223,26 +223,26 @@ e. answer
 
 ### Exercise 2
 
-1. *Sā malolo ai le tama.*
-2. *Sā alu le teine i ai.*
+1. *Sā mālōlō ai le tama.*
+2. *Sā alu le teine ʻi ai.*
 3. *Sā nofo ai le teine.*
-4. *I le vasega sā fiafia ai le teine.*
+4. *ʻi le vasega sā fiafia ai le teine.*
 5. *Sā nofo ai le aitu.*
 
 ### Exercise 3
 
-1. *Sā malolo ai le tama.*
+1. *Sā mālōlō ai le tama.*
 2. *Sā nofo ai le teine.*
 3. *Sā fiafia ai le tama.*
-4. *Sā malolo ai le teine.*
+4. *Sā mālōlō ai le teine.*
 5. *Sā fiafia ai le aitu.*
 
 ### Exercise 4
 
-1. *i ai*
+1. *ʻi ai*
 2. *ai*
 3. *ai*
-4. *i ai*
+4. *ʻi ai*
 5. *ai*
 
 ### Exercise 5

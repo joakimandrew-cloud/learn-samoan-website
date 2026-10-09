@@ -72,7 +72,7 @@ The describing slot holds more than a single word. A describing verb can carry a
 place phrase behind it, and the whole of it still stands in the one position.
 
 ::: {.examples}
-*le pasi alu i le nuʻu*. the bus going to the village
+*le pasi alu ʻi le nuʻu*. the bus going to the village
 :::
 
 ---
@@ -162,7 +162,7 @@ or the thing it is done with. In *le teine fai umu* it is the girl who does it.
 ::: {.examples}
 *le pusa paʻepaʻe mānaia*. the nice white box
 
-*le tagata loto vaivai ma le fefe*. the timid and frightened person (Lit. "the person heart weak and the afraid")
+*le tagata loto vāivai ma le fefe*. the timid and frightened person (Lit. "the person heart weak and the afraid")
 :::
 
 More than one describing verb can stand on one noun. They can sit one behind the
@@ -179,22 +179,22 @@ gloss covers a join Samoan makes between a description and a named feeling.
 A pointing word comes after the describing verbs.
 
 ::: {.examples}
-*le pusa paʻepaʻe mānaia lena*. that nice white box
+*le pusa paʻepaʻe mānaia lenā*. that nice white box
 :::
 
-| Position | In *le pusa paʻepaʻe mānaia lena* |
+| Position | In *le pusa paʻepaʻe mānaia lenā* |
 |---|---|
 | the article | *le* |
 | the name of the thing | *pusa* |
 | the describing verbs | *paʻepaʻe mānaia* |
-| the pointing word | *lena* |
+| the pointing word | *lenā* |
 
 Put the presenting particle in front of that phrase and you have a naming
 sentence of the kind taught earlier in this book, with the pointing word standing
 second as it does there.
 
 ::: {.examples}
-*ʻO le pusa paʻepaʻe mānaia lena.* That is the nice white box.
+*ʻO le pusa paʻepaʻe mānaia lenā.* That is the nice white box.
 :::
 
 ---
@@ -281,7 +281,7 @@ hear. *Mau* is to have plenty, and *maugatā* is mean rather than hard to have.
 4. *tagata tino leaga*
 5. *le pusa paʻepaʻe mānaia*
 6. *le taʻavale taugatā*
-7. *le tagata loto vaivai ma le fefe*
+7. *le tagata loto vāivai ma le fefe*
 
 ### Exercise 2: Name what fills the describing slot
 
@@ -289,7 +289,7 @@ For each phrase, say whether the slot holds a single describing verb, a
 part-and-quality compound, a verb-and-noun compound, or a describing verb
 carrying a place phrase.
 
-1. *le pasi alu i le nuʻu*
+1. *le pasi alu ʻi le nuʻu*
 2. *tagata tino leaga*
 3. *le teine fai meaʻai*
 4. *le tama faʻalogogōfie*
@@ -355,7 +355,7 @@ Add *=gatā* or *=gōfie* to the word in brackets to give the word that means:
 
 ### Exercise 2
 
-1. A describing verb carrying a place phrase: *alu* with *i le nuʻu* behind it.
+1. A describing verb carrying a place phrase: *alu* with *ʻi le nuʻu* behind it.
 2. A part-and-quality compound: *tino* names a part and *leaga* says what it is like.
 3. A verb-and-noun compound: *fai* with the bare noun *meaʻai* behind it.
 4. A single describing verb: *faʻalogogōfie*.
@@ -384,7 +384,7 @@ Add *=gatā* or *=gōfie* to the word in brackets to give the word that means:
 2. *tagata oti*
 3. *le teine fai umu*
 4. *le pusa paʻepaʻe mānaia*
-5. *ʻO le pusa paʻepaʻe mānaia lena.*
+5. *ʻO le pusa paʻepaʻe mānaia lenā.*
 6. *E faigatā le gagana.*
 
 ### Exercise 6

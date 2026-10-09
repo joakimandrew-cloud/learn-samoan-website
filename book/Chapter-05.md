@@ -48,7 +48,7 @@ part: the verb, with nothing in front of it.
 | *Alu.* | Go. |
 
 The commands in this chapter draw on seven new action verbs: *nofo* (sit, stay),
-*faʻatali* (wait), *salu* (sweep), *fufulu* (wash), *ʻaumai* (bring), *tapuni*
+*faʻatali* (wait), *salu* (sweep), *fufulu* (wash), *ʻaumai* (bring), *tāpuni*
 (shut), and *fesoasoani* (help).
 
 Every command here speaks to one person.
@@ -124,7 +124,7 @@ force or friendliness; the command is complete without them.
 | *nofo* | sit, stay |
 | *vave* | quick, soon |
 | *ʻaumai* | bring, take (hither) |
-| *tapuni* | shut |
+| *tāpuni* | shut |
 | *salu* | sweep |
 | *fufulu* | wash |
 | *fesoasoani* | help |
@@ -157,14 +157,14 @@ Drop the tense particle and the person word, and leave the bare verb.
 
 1. *Sā ia nofo.*
 2. *Sā ia salu.*
-3. *Sā ia tapuni.*
+3. *Sā ia tāpuni.*
 4. *Sā ia faʻatali.*
 
 ### Exercise 4: Match each word to its meaning
 
 1. *faʻatali*
 2. *nofo*
-3. *tapuni*
+3. *tāpuni*
 4. *salu*
 5. *fufulu*
 
@@ -206,7 +206,7 @@ Rewrite each command with *ia* added at the end.
 
 1. *Nofo.*
 2. *Salu.*
-3. *Tapuni.*
+3. *Tāpuni.*
 4. *Faʻatali.*
 
 ### Exercise 4

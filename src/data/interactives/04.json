@@ -48,12 +48,12 @@
         "states": [
           {
             "label": "Earlier state",
-            "sm": "Sā ia tauaso.",
+            "sm": "Sā ia tāuaso.",
             "en": "She was blind."
           },
           {
             "label": "Changed state",
-            "sm": "ʻUa ia vaai.",
+            "sm": "ʻUa ia vaʻai.",
             "en": "Now she sees."
           }
         ]
@@ -73,7 +73,7 @@
           },
           {
             "en": "blind",
-            "sm": "tauaso"
+            "sm": "tāuaso"
           },
           {
             "en": "hot",

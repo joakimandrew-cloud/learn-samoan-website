@@ -9,20 +9,78 @@
       "intro": "Each word joins its owner with *a* or with *o*. Choose the pile it belongs in.",
       "data": {
         "bins": [
-          { "id": "a", "label": "*a*-words", "hint": "mostly got, made, or taken on" },
-          { "id": "o", "label": "*o*-words", "hint": "mostly given rather than set up" }
+          {
+            "id": "a",
+            "label": "*a*-words",
+            "hint": "mostly got, made, or taken on"
+          },
+          {
+            "id": "o",
+            "label": "*o*-words",
+            "hint": "mostly given rather than set up"
+          }
         ],
         "items": [
-          { "sm": "ulu", "en": "head", "bin": "o", "why": "A head is part of the person, and parts of the body take *o*." },
-          { "sm": "ʻie", "en": "kilt", "bin": "o", "why": "Clothes worn are *o*-words. You choose a kilt and put it on, which sounds like control, and the language still uses *o*." },
-          { "sm": "lanu", "en": "colour", "bin": "o", "why": "A colour is a quality of the thing itself, a relationship that is given, so it takes *o*." },
-          { "sm": "fale", "en": "house", "bin": "o", "why": "A house lived in is the place its owner belongs to, not a thing he went out and got, so it takes *o*." },
-          { "sm": "tamā", "en": "father", "bin": "o", "why": "Family by birth is given, not set up by the owner, so a father takes *o*." },
-          { "sm": "sipuni", "en": "spoon", "bin": "a", "why": "A spoon is got and used, and things got and used are *a*-words." },
-          { "sm": "leitiō", "en": "radio", "bin": "a", "why": "A radio is bought and put to use, a relationship the owner started and controls, so it takes *a*." },
-          { "sm": "uō", "en": "friend", "bin": "a", "why": "A friend is one of the people taken into a life, so a friend takes *a*." },
-          { "sm": "āvā", "en": "wife", "bin": "a", "why": "A spouse is taken on rather than given by birth, so a wife takes *a*." },
-          { "sm": "ʻava", "en": "beard", "bin": "a", "why": "The beard runs against the rule: parts of the body take *o*, and the beard takes *a*. Learn it as a fact of the word." }
+          {
+            "sm": "ulu",
+            "en": "head",
+            "bin": "o",
+            "why": "A head is part of the person, and parts of the body take *o*."
+          },
+          {
+            "sm": "ʻie",
+            "en": "kilt",
+            "bin": "o",
+            "why": "Clothes worn are *o*-words. You choose a kilt and put it on, which sounds like control, and the language still uses *o*."
+          },
+          {
+            "sm": "lanu",
+            "en": "colour",
+            "bin": "o",
+            "why": "A colour is a quality of the thing itself, a relationship that is given, so it takes *o*."
+          },
+          {
+            "sm": "fale",
+            "en": "house",
+            "bin": "o",
+            "why": "A house lived in is the place its owner belongs to, not a thing he went out and got, so it takes *o*."
+          },
+          {
+            "sm": "tamā",
+            "en": "father",
+            "bin": "o",
+            "why": "Family by birth is given, not set up by the owner, so a father takes *o*."
+          },
+          {
+            "sm": "sipuni",
+            "en": "spoon",
+            "bin": "a",
+            "why": "A spoon is got and used, and things got and used are *a*-words."
+          },
+          {
+            "sm": "leitio",
+            "en": "radio",
+            "bin": "a",
+            "why": "A radio is bought and put to use, a relationship the owner started and controls, so it takes *a*."
+          },
+          {
+            "sm": "uō",
+            "en": "friend",
+            "bin": "a",
+            "why": "A friend is one of the people taken into a life, so a friend takes *a*."
+          },
+          {
+            "sm": "āvā",
+            "en": "wife",
+            "bin": "a",
+            "why": "A spouse is taken on rather than given by birth, so a wife takes *a*."
+          },
+          {
+            "sm": "ʻava",
+            "en": "beard",
+            "bin": "a",
+            "why": "The beard runs against the rule: parts of the body take *o*, and the beard takes *a*. Learn it as a fact of the word."
+          }
         ]
       }
     },
@@ -34,17 +92,56 @@
       "intro": "Two questions decide the form: one thing or more than one, and a particular one or any one at all.",
       "data": {
         "bins": [
-          { "id": "one-particular", "label": "one particular thing" },
-          { "id": "many-particular", "label": "more than one, particular" },
-          { "id": "many-any", "label": "more than one, any ones" }
+          {
+            "id": "one-particular",
+            "label": "one particular thing"
+          },
+          {
+            "id": "many-particular",
+            "label": "more than one, particular"
+          },
+          {
+            "id": "many-any",
+            "label": "more than one, any ones"
+          }
         ],
         "items": [
-          { "sm": "laʻu", "en": "my", "bin": "one-particular", "why": "*Laʻu* carries the specific article *le*, so the thing is one particular thing." },
-          { "sm": "loʻu", "en": "my", "bin": "one-particular", "why": "*Loʻu* is the *o*-word partner of *laʻu*, with the same specific article *le* inside it." },
-          { "sm": "aʻu", "en": "my", "bin": "many-particular", "why": "*Aʻu* carries no article at all, the silence of a particular plural: more than one, particular." },
-          { "sm": "oʻu", "en": "my", "bin": "many-particular", "why": "*Oʻu* is the *o*-word partner of *aʻu*, and it carries no article either." },
-          { "sm": "ni aʻu", "en": "some ... of mine", "bin": "many-any", "why": "*Ni aʻu* carries the non-specific plural *ni*: more than one, any ones." },
-          { "sm": "ni oʻu", "en": "some ... of mine", "bin": "many-any", "why": "*Ni oʻu* is the *o*-word partner of *ni aʻu*, with the same *ni* in front." }
+          {
+            "sm": "laʻu",
+            "en": "my",
+            "bin": "one-particular",
+            "why": "*Laʻu* carries the specific article *le*, so the thing is one particular thing."
+          },
+          {
+            "sm": "loʻu",
+            "en": "my",
+            "bin": "one-particular",
+            "why": "*Loʻu* is the *o*-word partner of *laʻu*, with the same specific article *le* inside it."
+          },
+          {
+            "sm": "aʻu",
+            "en": "my",
+            "bin": "many-particular",
+            "why": "*Aʻu* carries no article at all, the silence of a particular plural: more than one, particular."
+          },
+          {
+            "sm": "oʻu",
+            "en": "my",
+            "bin": "many-particular",
+            "why": "*Oʻu* is the *o*-word partner of *aʻu*, and it carries no article either."
+          },
+          {
+            "sm": "ni aʻu",
+            "en": "some ... of mine",
+            "bin": "many-any",
+            "why": "*Ni aʻu* carries the non-specific plural *ni*: more than one, any ones."
+          },
+          {
+            "sm": "ni oʻu",
+            "en": "some ... of mine",
+            "bin": "many-any",
+            "why": "*Ni oʻu* is the *o*-word partner of *ni aʻu*, with the same *ni* in front."
+          }
         ]
       }
     }

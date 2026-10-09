@@ -10,8 +10,16 @@
       "data": {
         "mode": "steps",
         "states": [
-          { "label": "Statement", "sm": "Sā siva le teine.", "en": "The girl danced." },
-          { "label": "Denied", "sm": "Sā lē siva le teine.", "en": "The girl did not dance." }
+          {
+            "label": "Statement",
+            "sm": "Sā siva le teine.",
+            "en": "The girl danced."
+          },
+          {
+            "label": "Denied",
+            "sm": "Sā lē siva le teine.",
+            "en": "The girl did not dance."
+          }
         ]
       }
     },
@@ -24,8 +32,16 @@
       "data": {
         "mode": "toggle",
         "states": [
-          { "label": "Habit", "sm": "ʻOu te lē alu.", "en": "I do not go." },
-          { "label": "Right now", "sm": "ʻOu te lē ʻo alu.", "en": "I am not going." }
+          {
+            "label": "Habit",
+            "sm": "ʻOu te lē alu.",
+            "en": "I do not go."
+          },
+          {
+            "label": "Right now",
+            "sm": "ʻOu te lē ʻo alu.",
+            "en": "I am not going."
+          }
         ]
       }
     },
@@ -37,14 +53,40 @@
       "intro": "Place each complete printed sentence under the kind of negative it uses.",
       "data": {
         "bins": [
-          { "id": "not", "label": "Not" },
-          { "id": "not-yet", "label": "Not yet" }
+          {
+            "id": "not",
+            "label": "Not"
+          },
+          {
+            "id": "not-yet",
+            "label": "Not yet"
+          }
         ],
         "items": [
-          { "sm": "Sā lē siva le teine.", "en": "The girl did not dance.", "bin": "not", "why": "The not-word denies the matching past statement." },
-          { "sm": "E lē malosi le tama.", "en": "The boy is not strong.", "bin": "not", "why": "The not-word denies the lasting quality." },
-          { "sm": "E leʻi alu le teine.", "en": "The girl has not gone yet.", "bin": "not-yet", "why": "The event has not happened so far but is still expected." },
-          { "sm": "ʻOu te leʻi alu.", "en": "I have not gone yet.", "bin": "not-yet", "why": "The not-yet word follows the general particle after the pronoun." }
+          {
+            "sm": "Sā lē siva le teine.",
+            "en": "The girl did not dance.",
+            "bin": "not",
+            "why": "The not-word denies the matching past statement."
+          },
+          {
+            "sm": "E lē mālosi le tama.",
+            "en": "The boy is not strong.",
+            "bin": "not",
+            "why": "The not-word denies the lasting quality."
+          },
+          {
+            "sm": "E leʻi alu le teine.",
+            "en": "The girl has not gone yet.",
+            "bin": "not-yet",
+            "why": "The event has not happened so far but is still expected."
+          },
+          {
+            "sm": "ʻOu te leʻi alu.",
+            "en": "I have not gone yet.",
+            "bin": "not-yet",
+            "why": "The not-yet word follows the general particle after the pronoun."
+          }
         ]
       }
     }

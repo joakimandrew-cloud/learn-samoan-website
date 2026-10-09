@@ -16,7 +16,7 @@ Hovdhaugen's *Samoan Reference Grammar*, cross-checked against Churchward's
 1951 *A Samoan Grammar*, and spelled to Allardice's
 *A Simplified Dictionary of Modern Samoan*.
 Its sentences are drawn from those works and from two
-graded courses, *Say it in Samoan* and Hunkin's *Gagana Samoa*. Every Samoan
+graded courses, *Say it in Samoan* and Hunkin's *Gagana Sāmoa*. Every Samoan
 sentence in this book is traceable to one of those sources, and nothing was
 invented. Where the experts hedge, this book hedges too: when you read
 "usually" here, it is because the grammar says usually.

@@ -76,13 +76,13 @@
         "states": [
           {
             "label": "Doer first",
-            "sm": "le fafaga e le tina o le pepe",
+            "sm": "le fafaga e le tinā o le pepe",
             "en": "the mother's feeding of the baby",
             "note": "The mother keeps the agent marker because the thing fed is named with *o*."
           },
           {
             "label": "Thing fed first",
-            "sm": "le fafaga o le pepe e le tina",
+            "sm": "le fafaga o le pepe e le tinā",
             "en": "the mother's feeding of the baby",
             "note": "The same two marked phrases stand in the other order."
           }

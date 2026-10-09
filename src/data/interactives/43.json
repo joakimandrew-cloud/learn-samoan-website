@@ -43,7 +43,7 @@
         ],
         "items": [
           {
-            "sm": "ʻO le tama sā moe i le fale.",
+            "sm": "ʻO le tama sā moe ʻi le fale.",
             "en": "The boy who slept in the house.",
             "bin": "empty",
             "why": "The boy is the one who slept; no word inside the clause stands for him."
@@ -67,10 +67,10 @@
             "why": "*Aʻi* is the dedicated shape for what the action was done with; *ai* is heard in that job too."
           },
           {
-            "sm": "ʻO le mea sā alu atu le teine i ai.",
+            "sm": "ʻO le mea sā alu atu le teine ʻi ai.",
             "en": "The place where the girl went to.",
             "bin": "held",
-            "why": "The pair *i ai* is the usual shape for the place a movement is aimed at."
+            "why": "The pair *ʻi ai* is the usual shape for the place a movement is aimed at."
           }
         ]
       },
@@ -86,19 +86,19 @@
         "states": [
           {
             "label": "One particular person",
-            "sm": "ʻO lē sā mauoloa.",
+            "sm": "ʻO lē sā mauʻoloa.",
             "en": "The one who was rich.",
             "note": "The one-who word joins the specific article as *lē*. This example is in the past."
           },
           {
             "label": "More than one",
-            "sm": "ʻO ē e mauoloa.",
+            "sm": "ʻO ē e mauʻoloa.",
             "en": "Those who are rich.",
             "note": "The one-who word stands on its own. This example uses the general particle."
           },
           {
             "label": "The two words run together",
-            "sm": "e mauoloa",
+            "sm": "e mauʻoloa",
             "en": "the rich",
             "note": "With the general particle, one *e* can do both jobs."
           }

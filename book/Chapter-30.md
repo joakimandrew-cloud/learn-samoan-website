@@ -104,7 +104,7 @@ complement clause, as *le tama* and *le teine* do here.
 ## The Words That Take a Complement Clause
 
 ::: {.examples}
-*ʻUa taga ona inu ʻava malosi.* It is allowed to drink alcohol. (Lit. "It is allowed to drink strong kava.")
+*ʻUa taga ona inu ʻava mālosi.* It is allowed to drink alcohol. (Lit. "It is allowed to drink strong kava.")
 
 *E faʻasā ona tausi ni pusi.* It is forbidden to keep cats.
 :::
@@ -215,7 +215,7 @@ The nouns:
 
 | Word | Meaning |
 |---|---|
-| *ʻava* | kava, and in *ʻava malosi* alcohol |
+| *ʻava* | kava, and in *ʻava mālosi* alcohol |
 | *pologa* | slave |
 | *uso* | sibling: a man's brother, a woman's sister |
 
@@ -236,7 +236,7 @@ earlier in this book:
 2. *ʻUa tatau ona ʻou alu.*
 3. *E mafai ona siva le uso.*
 4. *Sā lē mafai ona ʻou alu.*
-5. *ʻUa taga ona inu ʻava malosi.*
+5. *ʻUa taga ona inu ʻava mālosi.*
 6. *E faʻasā ona tausi ni pusi.*
 7. *ʻUa iloa e le tama ʻua sau le teine.*
 8. *ʻO lona pologa.*
@@ -249,7 +249,7 @@ English.
 1. *E ___ ona ulaula.* (It is forbidden to smoke.)
 2. *ʻUa ___ ona ʻou alu.* (I must go.)
 3. *ʻUa ___ ona sau le teine.* (The girl can come.)
-4. *ʻUa ___ ona inu ʻava malosi.* (It is allowed to drink alcohol.)
+4. *ʻUa ___ ona inu ʻava mālosi.* (It is allowed to drink alcohol.)
 5. *E ___ ona alu le tama.* (The boy must go.)
 6. *E ___ ona siva le uso.* (The sibling can dance.)
 
@@ -316,7 +316,7 @@ For each sentence, say whether *sā* is the past particle or the word for
 1. *E sā ona ulaula.*
 2. *ʻUa tatau ona ʻou alu.*
 3. *ʻUa mafai ona sau le teine.*
-4. *ʻUa taga ona inu ʻava malosi.*
+4. *ʻUa taga ona inu ʻava mālosi.*
 5. *E tatau ona alu le tama.*
 6. *E mafai ona siva le uso.*
 

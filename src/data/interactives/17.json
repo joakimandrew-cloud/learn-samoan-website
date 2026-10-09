@@ -10,9 +10,21 @@
       "data": {
         "mode": "steps",
         "states": [
-          { "label": "Past", "sm": "Sā i le fale le teine.", "en": "The girl was in the house." },
-          { "label": "Now there", "sm": "ʻUa i le fale le teine.", "en": "The girl is now in the house." },
-          { "label": "Future", "sm": "ʻOleʻā i le fale le teine.", "en": "The girl will be in the house." }
+          {
+            "label": "Past",
+            "sm": "Sā ʻi le fale le teine.",
+            "en": "The girl was in the house."
+          },
+          {
+            "label": "Now there",
+            "sm": "ʻUa ʻi le fale le teine.",
+            "en": "The girl is now in the house."
+          },
+          {
+            "label": "Future",
+            "sm": "ʻOleʻā ʻi le fale le teine.",
+            "en": "The girl will be in the house."
+          }
         ]
       }
     },
@@ -21,12 +33,20 @@
       "kind": "contrast",
       "anchor": "the-where-sentence-and-the-there-is-verb",
       "title": "Deny existence or deny a location",
-      "caption": "The one-word there-is-none verb denies that a car exists there. The separate not-word before *i ai* denies the girl's location.",
+      "caption": "The one-word there-is-none verb denies that a car exists there. The separate not-word before *ʻi ai* denies the girl's location.",
       "data": {
         "mode": "toggle",
         "states": [
-          { "label": "Existence denied", "sm": "E leai se taʻavale i le nuʻu.", "en": "There is no car in the village." },
-          { "label": "Location denied", "sm": "ʻO le nuʻu e lē i ai le teine.", "en": "The girl is not in the village." }
+          {
+            "label": "Existence denied",
+            "sm": "E leai se taʻavale ʻi le nuʻu.",
+            "en": "There is no car in the village."
+          },
+          {
+            "label": "Location denied",
+            "sm": "ʻO le nuʻu e lē ʻi ai le teine.",
+            "en": "The girl is not in the village."
+          }
         ]
       }
     },
@@ -39,19 +59,55 @@
       "data": {
         "question": "Which sentence makes the intended distinction?",
         "prompts": [
-          { "en": "There is no car in the village.", "answer": "absence", "options": [
-            { "id": "absence", "sm": "E leai se taʻavale i le nuʻu." },
-            { "id": "location", "sm": "ʻO le nuʻu e lē i ai le teine." }
-          ], "why": "The there-is-none verb denies that the car exists there." },
-          { "en": "The girl is not in the village.", "answer": "location", "options": [
-            { "id": "absence", "sm": "E leai se taʻavale i le nuʻu." },
-            { "id": "location", "sm": "ʻO le nuʻu e lē i ai le teine." }
-          ], "why": "The separate not-word denies the girl's location." },
-          { "en": "The girl is in the house.", "answer": "located", "options": [
-            { "id": "located", "sm": "ʻO le fale e i ai le teine." },
-            { "id": "past", "sm": "Sā i le fale le teine." },
-            { "id": "question", "sm": "ʻO fea e i ai le teine?" }
-          ], "why": "The place leads, and *i ai* answers it later in the where-sentence." }
+          {
+            "en": "There is no car in the village.",
+            "answer": "absence",
+            "options": [
+              {
+                "id": "absence",
+                "sm": "E leai se taʻavale ʻi le nuʻu."
+              },
+              {
+                "id": "location",
+                "sm": "ʻO le nuʻu e lē ʻi ai le teine."
+              }
+            ],
+            "why": "The there-is-none verb denies that the car exists there."
+          },
+          {
+            "en": "The girl is not in the village.",
+            "answer": "location",
+            "options": [
+              {
+                "id": "absence",
+                "sm": "E leai se taʻavale ʻi le nuʻu."
+              },
+              {
+                "id": "location",
+                "sm": "ʻO le nuʻu e lē ʻi ai le teine."
+              }
+            ],
+            "why": "The separate not-word denies the girl's location."
+          },
+          {
+            "en": "The girl is in the house.",
+            "answer": "located",
+            "options": [
+              {
+                "id": "located",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              },
+              {
+                "id": "past",
+                "sm": "Sā ʻi le fale le teine."
+              },
+              {
+                "id": "question",
+                "sm": "ʻO fea e ʻi ai le teine?"
+              }
+            ],
+            "why": "The place leads, and *ʻi ai* answers it later in the where-sentence."
+          }
         ]
       }
     }

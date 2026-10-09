@@ -10,7 +10,7 @@ so you can ask for a reason as well as give one.
 ## The Because-Words *ʻAuā* and *Leaga*
 
 ::: {.examples}
-*Sā taatia le teine i le fale ʻauā ʻua vaivai.* The girl lay down in the house because she was tired. (Lit. "...because has become tired.")
+*Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* The girl lay down in the house because she was tired. (Lit. "...because has become tired.")
 
 *E lē mafai ona alu le tama leaga e maʻi.* The boy cannot go because he is sick.
 :::
@@ -25,27 +25,27 @@ The pattern has three parts in a fixed order: the main clause, then the
 because-word, then the clause that gives the reason. That last clause carries a
 tense particle of its own, *ʻua* in the first sentence and *e* in the second.
 
-| Part | In *Sā taatia le teine i le fale ʻauā ʻua vaivai* | What it does |
+| Part | In *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai* | What it does |
 |---|---|---|
-| the main clause | *Sā taatia le teine i le fale* | says what happened |
+| the main clause | *Sā taʻatia le teine ʻi le fale* | says what happened |
 | the because-word | *ʻauā* | announces a reason |
-| the reason | *ʻua vaivai* | gives it, under its own tense particle |
+| the reason | *ʻua vāivai* | gives it, under its own tense particle |
 
 *Leaga* opens a reason that is a bad or unwelcome thing, so "because
 unfortunately" is its nearest English.
 
 ::: {.examples}
-*ʻUa ʻou tagi leaga ʻua lēiloa laʻu maile.* I am crying because unfortunately my dog is lost.
+*ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.* I am crying because unfortunately my dog is lost.
 
 *E leʻi mafai ona ʻou alu leaga sā timu.* I could not go because unfortunately it was raining.
 :::
 
 | Samoan | English |
 |---|---|
-| *Sā taatia le teine i le fale ʻauā ʻua vaivai.* | The girl lay down in the house because she was tired. |
-| *ʻUa malamalama le teine ʻauā ʻua tautala le tama.* | The girl understands because the boy has spoken. |
+| *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* | The girl lay down in the house because she was tired. |
+| *ʻUa mālamalama le teine ʻauā ʻua tautala le tama.* | The girl understands because the boy has spoken. |
 | *E lē mafai ona alu le tama leaga e maʻi.* | The boy cannot go because he is sick. |
-| *ʻUa ʻou tagi leaga ʻua lēiloa laʻu maile.* | I am crying because unfortunately my dog is lost. |
+| *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.* | I am crying because unfortunately my dog is lost. |
 | *E leʻi mafai ona ʻou alu leaga sā timu.* | I could not go because unfortunately it was raining. |
 
 > *Note:* A clause opened by *ʻauā* normally comes after the main clause, and
@@ -58,7 +58,7 @@ unfortunately" is its nearest English.
 ## The Because-Word *ʻOna*
 
 ::: {.examples}
-*Sā ʻou tagi ʻona ʻua sii i le nuʻu le aiga o le teine.* I cried because the girl's family moved to the village.
+*Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.* I cried because the girl's family moved to the village.
 :::
 
 *ʻOna* is the third because-word, and it opens the same kind of clause, under
@@ -66,7 +66,7 @@ its own tense particle, in the same place after the main clause. What sets it
 apart is that it can also go first.
 
 ::: {.examples}
-*ʻOna ʻua maʻi le teine, na alu ai le tama i le fale.* Because the girl was sick, the boy went to the house.
+*ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.* Because the girl was sick, the boy went to the house.
 :::
 
 When the reason comes first, the other clause usually carries the pointing-back
@@ -75,10 +75,10 @@ to any one word inside it: what the boy went for was the girl being sick.
 
 | Samoan | English |
 |---|---|
-| *Na alu le tama i le fale ʻona ʻua maʻi le teine.* | The boy went to the house because the girl was sick. |
-| *ʻOna ʻua maʻi le teine, na alu ai le tama i le fale.* | Because the girl was sick, the boy went to the house. |
-| *Sā ʻou tagi ʻona ʻua sii i le nuʻu le aiga o le teine.* | I cried because the girl's family moved to the village. |
-| *ʻOna ʻua sii i le nuʻu le aiga o le teine, sā ʻou tagi ai.* | Because the girl's family moved to the village, I cried. |
+| *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.* | The boy went to the house because the girl was sick. |
+| *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.* | Because the girl was sick, the boy went to the house. |
+| *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.* | I cried because the girl's family moved to the village. |
+| *ʻOna ʻua siʻi ʻi le nuʻu le ʻāiga o le teine, sā ʻou tagi ai.* | Because the girl's family moved to the village, I cried. |
 
 ---
 
@@ -105,7 +105,7 @@ same pointing-back word.
 |---|---|
 | *E lē mafai ona alu ʻona ʻo le timu.* | It is not possible to go because of the rain. |
 | *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.* | Because of the rain you cannot go. |
-| *ʻUa malulu le vaitafe ʻona ʻo le timu.* | The river is cool because of the rain. |
+| *ʻUa mālūlū le vaitafe ʻona ʻo le timu.* | The river is cool because of the rain. |
 | *ʻOna ʻo le timu ʻua galo ai le malaga.* | Because of the rain the journey was forgotten. |
 
 ---
@@ -162,7 +162,7 @@ The pattern has three parts in a fixed order: the main clause, then *e* or *te*,
 then the verb of the purpose clause.
 
 ::: {.examples}
-*Alu atu e ʻaumai fasi=moli.* Go to bring soap.
+*Alu atu e ʻaumai fasimoli.* Go to bring soap.
 
 *Sā ʻou alu ʻou te ʻaumai le niu.* I went to bring the coconut.
 :::
@@ -190,7 +190,7 @@ when a sentence before it has already named that thing.
 ::: {.examples}
 *ʻOloʻo ʻou tilotilo atu.* I am watching.
 
-*ʻUa ʻou ata ma ʻou punou i lalo neʻi iloa mai e le tama.* I laughed and bent down, so that the boy would not notice.
+*ʻUa ʻou ʻata ma ʻou punou ʻi lalo neʻi iloa mai e le tama.* I laughed and bent down, so that the boy would not notice.
 :::
 
 The watching is named in the first sentence, so the second does not name it
@@ -206,18 +206,18 @@ carrying the tense and *e* in front of a noun naming who did it.
 |---|---|
 | *Sā alu le tama e ʻaumai le niu.* | The boy went to bring the coconut. |
 | *Sā ʻou alu ʻou te ʻaumai le niu.* | I went to bring the coconut. |
-| *Alu atu e ʻaumai fasi=moli.* | Go to bring soap. |
+| *Alu atu e ʻaumai fasimoli.* | Go to bring soap. |
 | *Sā ʻou alu neʻi tagi le tama.* | I went, so that the boy would not cry. |
-| *ʻUa ʻou ata ma ʻou punou i lalo neʻi iloa mai e le tama.* | I laughed and bent down, so that the boy would not notice. |
+| *ʻUa ʻou ʻata ma ʻou punou ʻi lalo neʻi iloa mai e le tama.* | I laughed and bent down, so that the boy would not notice. |
 
 A purpose clause can also be headed by the mood particle *ʻia* in place of the
 general particle.
 
-> *Note:* The equals sign in *fasi=moli* joins two parts into one compound noun,
+> *Note:* The equals sign in *fasimoli* joins two parts into one compound noun,
 > and the compound is the word for a piece of soap. On its own *moli* covers soap
 > and the orange both.
 
-> **Preview:** Samoan marks purpose a second way, with the joining word *ina*
+> **Preview:** Samoan marks purpose a second way, with the joining word *ʻina*
 > standing in front of the mood particle *ʻia*. That combination belongs with the
 > rest of the mood particles and is taught in Chapter 48.
 
@@ -228,7 +228,7 @@ general particle.
 ::: {.examples}
 *ʻAiseā?* Why?
 
-*ʻAiseā na alu ai le tamāloa i le nuʻu?* Why did the man go to the village?
+*ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* Why did the man go to the village?
 :::
 
 *ʻAiseā* (why) was named earlier in this book and left until now. In the full
@@ -242,7 +242,7 @@ An answer needs no main clause of its own. A because-word and its reason can
 stand as the whole of a turn.
 
 ::: {.examples}
-*ʻAiseā na alu ai le tamāloa i le nuʻu?* Why did the man go to the village?
+*ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* Why did the man go to the village?
 
 *ʻAuā ʻua maʻi le teine.* Because the girl is sick.
 :::
@@ -250,11 +250,11 @@ stand as the whole of a turn.
 | Samoan | English |
 |---|---|
 | *ʻAiseā?* | Why? |
-| *ʻAiseā na alu ai le tamāloa i le nuʻu?* | Why did the man go to the village? |
+| *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* | Why did the man go to the village? |
 | *ʻAuā ʻua maʻi le teine.* | Because the girl is sick. |
 
 > *Note:* An older description of Samoan also allows a why-phrase at the end of
-> the sentence: *ʻai se ā*, the parts of *ʻaiseā* written apart, or *i se ā*, both
+> the sentence: *ʻai se ā*, the parts of *ʻaiseā* written apart, or *ʻi se ā*, both
 > meaning "on account of what". It is given here only so that you can recognise
 > it if you meet it. This book does not teach it for use, and the question you
 > build keeps *ʻaiseā* at the front, with *ai* after the verb.
@@ -280,15 +280,15 @@ stand as the whole of a turn.
 
 | Word | Meaning |
 |---|---|
-| *ata* | laugh |
+| *ʻata* | laugh |
 | *galo* | forget |
-| *lēiloa* | lose, be lost |
-| *malamalama* | understand; daylight |
-| *malulu* | cool |
+| *lē iloa* | lose, be lost |
+| *mālamalama* | understand; daylight |
+| *mālūlū* | cool |
 | *punou* | bend down |
-| *sii* | move |
+| *siʻi* | move |
 | *tilotilo* | watch, look |
-| *moli* | soap (in *fasi=moli*); also the orange |
+| *moli* | soap (in *fasimoli*); also the orange |
 | *suga* | the word you call out to a girl |
 
 ---
@@ -297,12 +297,12 @@ stand as the whole of a turn.
 
 ### Exercise 1: Translate into English
 
-1. *Sā taatia le teine i le fale ʻauā ʻua vaivai.*
-2. *ʻUa ʻou tagi leaga ʻua lēiloa laʻu maile.*
-3. *Sā ʻou tagi ʻona ʻua sii i le nuʻu le aiga o le teine.*
-4. *ʻOna ʻua maʻi le teine, na alu ai le tama i le fale.*
+1. *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.*
+2. *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.*
+3. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
+4. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
 5. *E lē mafai ona alu ʻona ʻo le timu.*
-6. *ʻAiseā na alu ai le tamāloa i le nuʻu?*
+6. *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?*
 
 ### Exercise 2: That or because
 
@@ -312,18 +312,18 @@ For each sentence, say what stands in front of the verb of the clause after
 1. *ʻUa mafai ona sau le teine.*
 2. *ʻUa alu le tama ʻona ʻua sau le teine.*
 3. *E lē mafai ona alu le tama leaga e maʻi.*
-4. *Sā ʻou tagi ʻona ʻua sii i le nuʻu le aiga o le teine.*
-5. *ʻOna ʻua maʻi le teine, na alu ai le tama i le fale.*
+4. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
+5. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
 
 ### Exercise 3: Move the reason to the front
 
 Rewrite each sentence with the *ʻona* clause first, and put the pointing-back
 word *ai* after the verb of the other clause.
 
-1. *Na alu le tama i le fale ʻona ʻua maʻi le teine.*
-2. *Sā ʻou tagi ʻona ʻua sii i le nuʻu le aiga o le teine.*
+1. *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.*
+2. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
 3. *E lē mafai ona ʻe alu ʻona ʻo le timu.*
-4. *ʻUa malulu le vaitafe ʻona ʻo le timu.*
+4. *ʻUa mālūlū le vaitafe ʻona ʻo le timu.*
 5. *ʻUa alu le tama ʻona ʻua sau le teine.*
 
 ### Exercise 4: Fill the gap
@@ -332,9 +332,9 @@ Put *e*, *te* or *neʻi* into the gap so the English matches.
 
 1. *Sā alu le tama ___ ʻaumai le niu.* (The boy went to bring the coconut.)
 2. *Sā ʻou alu ___ tagi le tama.* (I went, so that the boy would not cry.)
-3. *Alu atu ___ ʻaumai fasi=moli.* (Go to bring soap.)
+3. *Alu atu ___ ʻaumai fasimoli.* (Go to bring soap.)
 4. *Sā ʻou alu ʻou ___ ʻaumai le niu.* (I went to bring the coconut.)
-5. *ʻUa ʻou ata ma ʻou punou i lalo ___ iloa mai e le tama.* (I laughed and bent down, so that the boy would not notice.)
+5. *ʻUa ʻou ʻata ma ʻou punou ʻi lalo ___ iloa mai e le tama.* (I laughed and bent down, so that the boy would not notice.)
 
 ### Exercise 5: Translate into Samoan
 
@@ -347,13 +347,13 @@ Put *e*, *te* or *neʻi* into the gap so the English matches.
 
 ### Exercise 6: Give the English
 
-1. *ata*
+1. *ʻata*
 2. *galo*
-3. *lēiloa*
-4. *malamalama*
-5. *malulu*
+3. *lē iloa*
+4. *mālamalama*
+5. *mālūlū*
 6. *punou*
-7. *sii*
+7. *siʻi*
 8. *tilotilo*
 9. *moli*
 10. *suga*
@@ -377,16 +377,16 @@ Put *e*, *te* or *neʻi* into the gap so the English matches.
 2. *ʻUa* stands in front of *sau*, so *ʻona* means "because".
 3. Nothing stands in front of *alu*, so *ona* means "that", and the reason in
    this sentence is carried by *leaga*.
-4. *ʻUa* stands in front of *sii*, so *ʻona* means "because".
+4. *ʻUa* stands in front of *siʻi*, so *ʻona* means "because".
 5. *ʻUa* stands in front of *maʻi*, so *ʻona* means "because", and the reason
    has been moved to the front.
 
 ### Exercise 3
 
-1. *ʻOna ʻua maʻi le teine, na alu ai le tama i le fale.*
-2. *ʻOna ʻua sii i le nuʻu le aiga o le teine, sā ʻou tagi ai.*
+1. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
+2. *ʻOna ʻua siʻi ʻi le nuʻu le ʻāiga o le teine, sā ʻou tagi ai.*
 3. *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.*
-4. *ʻOna ʻo le timu ʻua malulu ai le vaitafe.*
+4. *ʻOna ʻo le timu ʻua mālūlū ai le vaitafe.*
 5. *ʻOna ʻua sau le teine, ʻua alu ai le tama.*
 
 ### Exercise 4
@@ -400,14 +400,14 @@ Put *e*, *te* or *neʻi* into the gap so the English matches.
 ### Exercise 5
 
 1. *E lē mafai ona alu le tama leaga e maʻi.*
-2. *ʻUa ʻou tagi leaga ʻua lēiloa laʻu maile.*
+2. *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.*
 3. *Sā alu le tama e ʻaumai le niu.*
-4. *ʻOna ʻua maʻi le teine, na alu ai le tama i le fale.*
-5. *ʻAiseā na alu ai le tamāloa i le nuʻu?*
+4. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
+5. *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?*
 6. *E lē mafai ona alu ʻona ʻo le timu.*
 
 ### Exercise 6
 
 1. laugh · 2. forget · 3. lose, be lost · 4. understand · 5. cool ·
-6. bend down · 7. move · 8. watch, look · 9. soap (in *fasi=moli*); also the
+6. bend down · 7. move · 8. watch, look · 9. soap (in *fasimoli*); also the
 orange · 10. the word you call out to a girl

@@ -61,11 +61,11 @@ things were, something ongoing, habitual, or the background state of a stretch o
 time? Then use *sā*.
 
 *Na* is the past of the single event, and it is typically, though not
-exclusively, met with verbs that name a beginning or an end, like *amata*
+exclusively, met with verbs that name a beginning or an end, like *ʻāmata*
 (begin):
 
 ::: {.examples}
-*Na amata.* It began. (Lit. "past begin")
+*Na ʻāmata.* It began. (Lit. "past begin")
 :::
 
 > *Note:* Nothing in the Samoan names what began; the "it" belongs to the
@@ -117,9 +117,9 @@ Compare *ʻua* with *sā*. *Sā* closes a state off in the past; *ʻua* opens a 
 state that holds now:
 
 ::: {.examples}
-*Sā ia tauaso.* She was blind.
+*Sā ia tāuaso.* She was blind.
 
-*ʻUa ia vaai.* Now she sees.
+*ʻUa ia vaʻai.* Now she sees.
 :::
 
 The first sentence, with *sā*, reports a past state that is over. The second,
@@ -171,10 +171,10 @@ in:
 
 | Word | Meaning |
 |---|---|
-| *amata* | begin, start |
+| *ʻāmata* | begin, start |
 | *maʻi* | sick |
-| *tauaso* | blind |
-| *vaai* | see |
+| *tāuaso* | blind |
+| *vaʻai* | see |
 | *vevela* | hot |
 | *maʻalili* | cold |
 | *pisi* | busy |
@@ -257,7 +257,7 @@ is still to come, using *ʻoleʻā*.
 
 1. *ʻOleʻā ʻou alu.*
 2. *ʻUa maʻalili.*
-3. *Sā ia tauaso.*
+3. *Sā ia tāuaso.*
 4. *ʻOleʻā mātou siva.*
 5. *ʻUa ʻou maʻi.*
 
@@ -274,7 +274,7 @@ is still to come, using *ʻoleʻā*.
 1. *ʻUa vevela.*
 2. *ʻUa ʻou pisi.*
 3. *ʻUa maʻalili.*
-4. *ʻUa ia vaai.*
+4. *ʻUa ia vaʻai.*
 5. *ʻUa ʻou maʻi.*
 
 ### Exercise 5

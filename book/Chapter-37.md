@@ -41,8 +41,8 @@ plain form with nothing in front of it.
 |---|---|
 | *Ona alu lea ʻo le tama.* | Then the boy went. |
 | *Ona tali atu lea ʻo le teine.* | Then the girl answered. |
-| *Ona oso lea ʻo le sauʻai i le sami.* | Then the ogre jumped into the sea. |
-| *Ona lilo atu lea ʻo le teine i le toga lala.* | Then the girl hid in the cluster of branches. |
+| *Ona oso lea ʻo le saʻai ʻi le sami.* | Then the ogre jumped into the sea. |
+| *Ona lilo atu lea ʻo le teine ʻi le toga lālā.* | Then the girl hid in the cluster of branches. |
 | *Ona lolo lea ʻo le vaitafe.* | Then the river overflowed. |
 
 A clause of this kind reports what happened next, so there is always something
@@ -51,7 +51,7 @@ another, and any one of them can stand as a sentence of its own, but a text
 never opens with one.
 
 ::: {.examples}
-*ʻUa lilo atu i le toga lala le teine, ona oso lea i lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
+*ʻUa lilo atu ʻi le toga lālā le teine, ona oso lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
 :::
 
 The first clause carries the change particle *ʻua* and reports the hiding. The
@@ -59,7 +59,7 @@ then-construction follows it and reports what happened after that. Take the
 first clause away and nothing is left for the second one to follow.
 
 > *Note:* The word *toga* was learned earlier as the name of a direction. In
-> *le toga lala* it carries a second meaning, a cluster, and *lala*, branch,
+> *le toga lālā* it carries a second meaning, a cluster, and *lālā*, branch,
 > follows it and says what the cluster is of.
 
 ---
@@ -87,7 +87,7 @@ does something wider: it does not usually reach back to one word or one phrase,
 but to the whole of what has been said before it.
 
 ::: {.examples}
-*ʻUa lilo atu i le toga lala le teine, ona oso ai lea i lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
+*ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
 :::
 
 *Ai* here does not point at the branches or at the girl. It points at the hiding,
@@ -97,8 +97,8 @@ and at everything the story has said up to that moment.
 |---|---|
 | *Ona alu lea ʻo le tama.* | Then the boy went. |
 | *Ona alu loa lea ʻo le tama.* | Then the boy went. |
-| *ʻUa lilo atu i le toga lala le teine, ona oso lea i lalo le tama.* | The girl hid in the cluster of branches and then the boy jumped down. |
-| *ʻUa lilo atu i le toga lala le teine, ona oso ai lea i lalo le tama.* | The girl hid in the cluster of branches and then the boy jumped down. |
+| *ʻUa lilo atu ʻi le toga lālā le teine, ona oso lea ʻi lalo le tama.* | The girl hid in the cluster of branches and then the boy jumped down. |
+| *ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.* | The girl hid in the cluster of branches and then the boy jumped down. |
 
 > **Preview:** You have now met *ona* doing two jobs. In an earlier chapter it
 > stood in front of a verb with no tense particle and meant "that". Here it opens
@@ -145,11 +145,11 @@ Every sentence in the table below says "Then the boy went."
 ## Clauses Under One Tense Particle
 
 ::: {.examples}
-*Na mātou malolo loa, mātou taaalo i le fale=apa.* We then rested, and played in the house with the tin roof. (Lit. "We then rested, we played in the house-tin.")
+*Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* We then rested, and played in the house with the tin roof. (Lit. "We then rested, we played in the house-tin.")
 :::
 
 The second clause carries no tense particle. Nothing stands in the slot in front
-of *mātou taaalo*, and nothing needs to: the *na* at the head of the first clause
+of *mātou tāʻaʻalo*, and nothing needs to: the *na* at the head of the first clause
 reaches over the whole run, so the second clause is read in the past the first
 one set. Leaving that slot empty is what ties the two together, and it says the
 second event followed straight on from the first, or happened at the same time.
@@ -157,12 +157,12 @@ second event followed straight on from the first, or happened at the same time.
 The pattern has one tense particle at the front and a run of clauses after it,
 with the slot in front of each of them left empty.
 
-> *Note:* The equals sign in *fale=apa* is not the one you met on a long-form
+> *Note:* The equals sign in *fale=ʻapa* is not the one you met on a long-form
 > verb. Here it joins two nouns into a single compound noun, *fale* naming the
-> house and *apa* saying what its roof is made of.
+> house and *ʻapa* saying what its roof is made of.
 
 ::: {.examples}
-*Na malolo loa oʻu mātua, ʻou alu loa i le nuʻu, sauni ai le malaga.* My parents then rested, then I went to the village, and prepared the journey there.
+*Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* My parents then rested, then I went to the village, and prepared the journey there.
 :::
 
 Three clauses, one tense particle. *Na* stands in front of the first and in front
@@ -173,7 +173,7 @@ A run like this does not have to stop where the full stop does. The particle at
 its head can reach on into the sentence that follows.
 
 ::: {.examples}
-*Sā ʻou alu loa i fafo.* I then went outside.
+*Sā ʻou alu loa ʻi fafo.* I then went outside.
 
 *Fufulu oʻu mata.* I washed my face. (Lit. "Wash my eyes.")
 :::
@@ -189,11 +189,11 @@ clauses.
 
 | Samoan | English |
 |---|---|
-| *Na mātou malolo loa, mātou taaalo i le fale=apa.* | We then rested, and played in the house with the tin roof. |
-| *Na malolo loa oʻu mātua, ʻou alu loa i le nuʻu, sauni ai le malaga.* | My parents then rested, then I went to the village, and prepared the journey there. |
-| *Sā ʻou alu loa i fafo, ʻou fufulu oʻu mata.* | I then went outside and washed my face. (Lit. "Wash my eyes.") |
-| *Na alu le tama, oso le teine i le sami.* | The boy went, and the girl jumped into the sea. |
-| *Sā ʻou alu loa i fafo. Fufulu oʻu mata.* | I then went outside. I washed my face. (Lit. "Wash my eyes.") |
+| *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* | We then rested, and played in the house with the tin roof. |
+| *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* | My parents then rested, then I went to the village, and prepared the journey there. |
+| *Sā ʻou alu loa ʻi fafo, ʻou fufulu oʻu mata.* | I then went outside and washed my face. (Lit. "Wash my eyes.") |
+| *Na alu le tama, oso le teine ʻi le sami.* | The boy went, and the girl jumped into the sea. |
+| *Sā ʻou alu loa ʻi fafo. Fufulu oʻu mata.* | I then went outside. I washed my face. (Lit. "Wash my eyes.") |
 
 > **Preview:** Samoan can open a sentence by putting a whole when-clause at the
 > front of everything else, setting the background the events run against. That
@@ -217,14 +217,14 @@ clauses.
 | Word | Meaning |
 |---|---|
 | *lilo* | hide, be hidden |
-| *sauni* | prepare, get ready |
-| *taaalo* | play (said of more than one) |
-| *apa* | tin (in *le fale=apa*, a house with a tin roof) |
-| *eleele* | earth |
-| *lala* | branch |
+| *sāuni* | prepare, get ready |
+| *tāʻaʻalo* | play (said of more than one) |
+| *ʻapa* | tin (in *le fale=ʻapa*, a house with a tin roof) |
+| *ʻeleʻele* | earth |
+| *lālā* | branch |
 | *malaga* | journey, travel party |
 | *sami* | sea |
-| *sauʻai* | ogre |
+| *saʻai* | ogre |
 | *vaitafe* | river |
 
 ---
@@ -235,9 +235,9 @@ clauses.
 
 1. *Ona alu lea ʻo le tama.*
 2. *Ona tali atu lea ʻo le teine.*
-3. *Ona oso lea ʻo le sauʻai i le sami.*
-4. *ʻUa lilo atu i le toga lala le teine, ona oso ai lea i lalo le tama.*
-5. *Na mātou malolo loa, mātou taaalo i le fale=apa.*
+3. *Ona oso lea ʻo le saʻai ʻi le sami.*
+4. *ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.*
+5. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
 6. *Ona lolo lea ʻo le vaitafe.*
 
 ### Exercise 2: Fill the gap
@@ -249,7 +249,7 @@ it.
 2. *Ona alu ___ ʻo le tama.* (the full shape)
 3. *Ona alu ___ lea ʻo le tama.* (the full shape, with an extra word after the verb)
 4. *Alu ___ lea ʻo le tama.* (without *ona*, with an extra word after the verb)
-5. *___ oso lea ʻo le sauʻai i le sami.* (the full shape)
+5. *___ oso lea ʻo le saʻai ʻi le sami.* (the full shape)
 
 ### Exercise 3: Write the shorter shape
 
@@ -259,19 +259,19 @@ of what the clause names.
 1. *Ona alu lea ʻo le tama.*
 2. *Ona tali atu lea ʻo le teine.*
 3. *Ona lolo lea ʻo le vaitafe.*
-4. *Ona lolo lea ʻo le eleele.*
-5. *Ona oso lea ʻo le sauʻai i le sami.*
+4. *Ona lolo lea ʻo le ʻeleʻele.*
+5. *Ona oso lea ʻo le saʻai ʻi le sami.*
 
 ### Exercise 4: Join the pair into one chain
 
 Write the two sentences as one, keeping the tense particle of the first and
 taking it out of the second.
 
-1. *Na mātou malolo loa.* and *Na mātou taaalo i le fale=apa.*
-2. *Na malolo loa oʻu mātua.* and *Na ʻou alu loa i le nuʻu.*
-3. *Sā ʻou alu loa i fafo.* and *Sā ʻou fufulu oʻu mata.*
-4. *Na alu le tama.* and *Na oso le teine i le sami.*
-5. *Sā lilo le teine.* and *Sā alu le tama i le nuʻu.*
+1. *Na mātou mālōlō loa.* and *Na mātou tāʻaʻalo ʻi le fale=ʻapa.*
+2. *Na mālōlō loa oʻu mātua.* and *Na ʻou alu loa ʻi le nuʻu.*
+3. *Sā ʻou alu loa ʻi fafo.* and *Sā ʻou fufulu oʻu mata.*
+4. *Na alu le tama.* and *Na oso le teine ʻi le sami.*
+5. *Sā lilo le teine.* and *Sā alu le tama ʻi le nuʻu.*
 
 ### Exercise 5: Translate into Samoan
 
@@ -285,14 +285,14 @@ taking it out of the second.
 ### Exercise 6: Give the English
 
 1. *lilo*
-2. *sauni*
-3. *taaalo*
-4. *apa*
-5. *eleele*
-6. *lala*
+2. *sāuni*
+3. *tāʻaʻalo*
+4. *ʻapa*
+5. *ʻeleʻele*
+6. *lālā*
 7. *malaga*
 8. *sami*
-9. *sauʻai*
+9. *saʻai*
 10. *vaitafe*
 
 ---
@@ -321,25 +321,25 @@ taking it out of the second.
 1. *Ona alu le tama.*
 2. *Ona tali atu le teine.*
 3. *Ona lolo le vaitafe.*
-4. *Ona lolo le eleele.*
-5. *Ona oso le sauʻai i le sami.*
+4. *Ona lolo le ʻeleʻele.*
+5. *Ona oso le saʻai ʻi le sami.*
 
 ### Exercise 4
 
-1. *Na mātou malolo loa, mātou taaalo i le fale=apa.*
-2. *Na malolo loa oʻu mātua, ʻou alu loa i le nuʻu.*
-3. *Sā ʻou alu loa i fafo, ʻou fufulu oʻu mata.*
-4. *Na alu le tama, oso le teine i le sami.*
-5. *Sā lilo le teine, alu le tama i le nuʻu.*
+1. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
+2. *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu.*
+3. *Sā ʻou alu loa ʻi fafo, ʻou fufulu oʻu mata.*
+4. *Na alu le tama, oso le teine ʻi le sami.*
+5. *Sā lilo le teine, alu le tama ʻi le nuʻu.*
 
 ### Exercise 5
 
 1. *Ona alu lea ʻo le tama.*
 2. *Ona tali atu lea ʻo le teine.*
-3. *Ona oso lea ʻo le sauʻai i le sami.*
+3. *Ona oso lea ʻo le saʻai ʻi le sami.*
 4. *Ona lolo lea ʻo le vaitafe.*
-5. *Ona lilo atu lea ʻo le teine i le toga lala.*
-6. *Na mātou malolo loa, mātou taaalo i le fale=apa.*
+5. *Ona lilo atu lea ʻo le teine ʻi le toga lālā.*
+6. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
 
 ### Exercise 6
 

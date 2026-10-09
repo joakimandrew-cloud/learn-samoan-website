@@ -30,10 +30,10 @@ particle adds a whole clause in the describing position, with everything a
 clause can carry.
 
 ::: {.examples}
-*ʻO le fafine sā alu i le nuʻu.* The woman who went to the village.
+*ʻO le fafine sā alu ʻi le nuʻu.* The woman who went to the village.
 :::
 
-The woman is named once, in front. Inside the clause *sā alu i le nuʻu* she is
+The woman is named once, in front. Inside the clause *sā alu ʻi le nuʻu* she is
 not named again, and she is still the one who went. That is the construction:
 the article, then the noun the clause is about, then the clause, with the noun
 doing a job inside it without standing in it. In this example, the three parts
@@ -43,7 +43,7 @@ are:
 |---|---|---|
 | the article | *le* | picks out one particular woman |
 | the noun | *fafine* | names the person being described |
-| the describing clause | *sā alu i le nuʻu* | identifies which woman is meant |
+| the describing clause | *sā alu ʻi le nuʻu* | identifies which woman is meant |
 
 > *Note:* A clause behind a noun is a describing clause only when the noun has a
 > job inside it. Samoan puts other kinds of clause in the same position, and
@@ -54,14 +54,14 @@ are:
 ## The Two Ways the Missing Word Is Shown
 
 ::: {.examples}
-*ʻO le fafine sā alu i le nuʻu.* The woman who went to the village.
+*ʻO le fafine sā alu ʻi le nuʻu.* The woman who went to the village.
 
 *ʻO le mea sā nofo ai le fafine.* The place where the woman stayed. (Lit. "the place, the woman stayed there")
 :::
 
 Both phrases name something in front and describe it with a clause. They differ
 in what the clause does about the spot the named thing would have filled. In the
-first the spot is left empty, and nothing inside *sā alu i le nuʻu* stands for the
+first the spot is left empty, and nothing inside *sā alu ʻi le nuʻu* stands for the
 woman. In the second the clause keeps a word in the spot, *ai*, the
 pointing-back word met earlier in this book, and it points back to the place
 named in front.
@@ -77,27 +77,27 @@ section that teaches it says so there.
 ## When the Spot Stays Empty
 
 ::: {.examples}
-*ʻO le tama sā moe i le fale.* The boy who slept in the house.
+*ʻO le tama sā moe ʻi le fale.* The boy who slept in the house.
 :::
 
 The spot stays empty when the named thing is the one doing what the verb says and
 the verb has nothing it is done to.
 
 ::: {.examples}
-*le tamaoaiga ʻua maua e aʻu uō*. the wealth my friends got
+*le tamāoʻāiga ʻua maua e aʻu uō*. the wealth my friends got
 :::
 
 It also stays empty when the named thing is the one the action is done to. Here
-*tamaoaiga* (wealth) is what was got, and nothing inside the clause stands for
+*tamāoʻāiga* (wealth) is what was got, and nothing inside the clause stands for
 it. The ones who did the getting are named, and they keep the agent marker *e* in
 front of them, exactly as they would in a sentence of their own. Describing the
 thing acted on takes nothing away from the doer.
 
 | Samoan | English |
 |---|---|
-| *ʻO le fafine sā alu i le nuʻu.* | The woman who went to the village. |
-| *ʻO le tama sā moe i le fale.* | The boy who slept in the house. |
-| *le tamaoaiga ʻua maua e aʻu uō* | the wealth my friends got |
+| *ʻO le fafine sā alu ʻi le nuʻu.* | The woman who went to the village. |
+| *ʻO le tama sā moe ʻi le fale.* | The boy who slept in the house. |
+| *le tamāoʻāiga ʻua maua e aʻu uō* | the wealth my friends got |
 | *le meaʻai ʻua maua e le teine* | the food the girl got |
 
 ---
@@ -171,12 +171,12 @@ takes the shape *aʻi*. That shape is used for nothing else. In this job, though
 itself.
 
 ::: {.examples}
-*ʻO le mea sā alu atu le teine i ai.* The place where the girl went to.
+*ʻO le mea sā alu atu le teine ʻi ai.* The place where the girl went to.
 :::
 
 When the named thing is where a movement is going, or what a wanting or a seeing
-is aimed at, the place word *i* usually stands in front of the pointing-back
-word, and the pair *i ai* is the "to there" form taught earlier in this book.
+is aimed at, the place word *ʻi* usually stands in front of the pointing-back
+word, and the pair *ʻi ai* is the "to there" form taught earlier in this book.
 
 With some verbs the same clause is heard both ways, with the place word in front
 of the pointing-back word and without it, and *manaʻo* is one of them.
@@ -189,25 +189,25 @@ of the pointing-back word and without it, and *manaʻo* is one of them.
 |---|---|
 | *ai* after the verb | a place, a time, or a cause, and the thing an action was done with as well |
 | *aʻi* after the verb | the thing the action was done with, and nothing else |
-| *i ai* after the verb phrase | usually, where a movement or a wanting is aimed |
+| *ʻi ai* after the verb phrase | usually, where a movement or a wanting is aimed |
 
 ---
 
 ## The One-Who Word *Ē*
 
 ::: {.examples}
-*ʻO lē sā mauoloa.* The one who was rich.
+*ʻO lē sā mauʻoloa.* The one who was rich.
 :::
 
 There is not always a noun to name. When the clause describes a person nobody has
 named, the word *ē* stands in the noun's place at the front of the construction:
 **the one-who word *ē***. Where the person is one particular person, *ē* joins
 the specific article and the two are written *lē*. For more than one, *ē* stands
-on its own. The quality word in that phrase, *mauoloa* (rich), is one of this
+on its own. The quality word in that phrase, *mauʻoloa* (rich), is one of this
 chapter's own.
 
 ::: {.examples}
-*ʻO ē e mauoloa.* Those who are rich.
+*ʻO ē e mauʻoloa.* Those who are rich.
 
 *ʻO lē sā popolevale.* The one who was overanxious.
 :::
@@ -216,7 +216,7 @@ The second of those brings another of this chapter's own words, *popolevale*
 (overanxious).
 
 ::: {.examples}
-*e mauoloa*. the rich
+*e mauʻoloa*. the rich
 :::
 
 When the tense particle of the clause is the general particle *e*, the one-who
@@ -226,7 +226,7 @@ Earlier in this book a sentence that puts a person first was read one way, as
 weight on that person.
 
 ::: {.examples}
-*ʻO aʻu na ʻou vaai i ai.* I saw it.
+*ʻO aʻu na ʻou vaʻai ʻi ai.* I saw it.
 :::
 
 It can also be read the way this chapter reads things: "it is me", and then a
@@ -235,9 +235,9 @@ sentence of that shape.
 
 | Samoan | English |
 |---|---|
-| *ʻO lē sā mauoloa.* | The one who was rich. |
-| *ʻO ē e mauoloa.* | Those who are rich. |
-| *e mauoloa* | the rich |
+| *ʻO lē sā mauʻoloa.* | The one who was rich. |
+| *ʻO ē e mauʻoloa.* | Those who are rich. |
+| *e mauʻoloa* | the rich |
 | *ʻO lē sā popolevale.* | The one who was overanxious. |
 
 > *Note:* The one-who word can also stand behind a noun and describe it. In that
@@ -254,7 +254,7 @@ sentence of that shape.
 ## Comparison Inside a Describing Clause
 
 ::: {.examples}
-*ʻO le tama e malosi atu i lo le teine.* The boy who is stronger than the girl.
+*ʻO le tama e mālosi atu i lo le teine.* The boy who is stronger than the girl.
 :::
 
 Speakers prefer to put a comparison inside a describing clause rather than state
@@ -266,10 +266,10 @@ end, and the whole comparison sits behind the noun it describes.
 ## Describing by What Somebody Has
 
 ::: {.examples}
-*ʻO le tamāloa e manua le vae.* The man whose leg was hurt. (Lit. "the man, the leg is hurt")
+*ʻO le tamāloa e manuʻa le vae.* The man whose leg was hurt. (Lit. "the man, the leg is hurt")
 :::
 
-The verb there is *manua* (be hurt), and nothing in that clause says whose leg it
+The verb there is *manuʻa* (be hurt), and nothing in that clause says whose leg it
 is. The clause says only that the leg was hurt, and the leg is understood to be
 the man's because the man is standing in front of it. A belonging word is not
 needed when the situation makes the relationship plain.
@@ -290,19 +290,19 @@ and the owner is what the clause describes.
 | *lē* | the one-who word joined to the specific article, for one particular person |
 | *ai* | the pointing-back word, met earlier: inside a describing clause it holds the spot of a place, a time, or a cause, and is heard for the thing an action was done with too |
 | *aʻi* | the pointing-back word in the shape it takes for the thing an action was done with, a job no other shape has to itself |
-| *i ai* | the pointing-back word with the place word in front, the usual shape for where a movement or a wanting is aimed |
+| *ʻi ai* | the pointing-back word with the place word in front, the usual shape for where a movement or a wanting is aimed |
 | *fai=a* | the long form of *fai*, the shape the verb usually takes in a clause whose missing word is the doer of an action done to something else |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *manua* | be hurt |
-| *mauoloa* | rich |
+| *manuʻa* | be hurt |
+| *mauʻoloa* | rich |
 | *popolevale* | overanxious |
 | *taufi* | cover |
 | *fue* | liana |
-| *tamaoaiga* | wealth |
+| *tamāoʻāiga* | wealth |
 
 ---
 
@@ -310,31 +310,31 @@ and the owner is what the clause describes.
 
 ### Exercise 1: Translate into English
 
-1. *ʻO le fafine sā alu i le nuʻu.*
+1. *ʻO le fafine sā alu ʻi le nuʻu.*
 2. *ʻO le mea sā ʻou nofo ai.*
 3. *ʻO le nuʻu sā nofo ai le teine.*
 4. *le fue na taufi aʻi le umu*
-5. *ʻO le mea sā alu atu le teine i ai.*
-6. *ʻO lē sā mauoloa.*
-7. *ʻO ē e mauoloa.*
-8. *ʻO le tamāloa e manua le vae.*
+5. *ʻO le mea sā alu atu le teine ʻi ai.*
+6. *ʻO lē sā mauʻoloa.*
+7. *ʻO ē e mauʻoloa.*
+8. *ʻO le tamāloa e manuʻa le vae.*
 9. *ʻO tagata sā fai=a le puaʻa.*
-10. *ʻO le tama e malosi atu i lo le teine.*
+10. *ʻO le tama e mālosi atu i lo le teine.*
 
 ### Exercise 2: Say what holds the named thing's spot
 
 For each phrase, say whether the spot the named thing would fill is left empty or
 is held by the pointing-back word, and in that case which shape stands there.
 
-1. *ʻO le tama sā moe i le fale.*
+1. *ʻO le tama sā moe ʻi le fale.*
 2. *ʻO le mea sā ʻou nofo ai.*
 3. *le fue na taufi aʻi le umu*
-4. *ʻO le mea sā alu atu le teine i ai.*
-5. *le tamaoaiga ʻua maua e aʻu uō*
+4. *ʻO le mea sā alu atu le teine ʻi ai.*
+5. *le tamāoʻāiga ʻua maua e aʻu uō*
 
 ### Exercise 3: Put in the pointing-back word
 
-Fill each gap with *ai*, *aʻi*, or *i ai*. Where two shapes are heard in the same
+Fill each gap with *ai*, *aʻi*, or *ʻi ai*. Where two shapes are heard in the same
 job, give the one that is used for that job and no other.
 
 1. *ʻO le mea sā ʻou nofo \_\_\_.*
@@ -360,20 +360,20 @@ job, give the one that is used for that job and no other.
 Take the sentence, put the one doing the action in front under the presenting
 particle, and leave the rest of the sentence behind it as the clause.
 
-1. *Sā nofo le aliʻi i le nuʻu.*
-2. *Sā alu le teine i le maʻumaga.*
+1. *Sā nofo le aliʻi ʻi le nuʻu.*
+2. *Sā alu le teine ʻi le maʻumaga.*
 3. *Sā siva le fafine.*
-4. *Sā tāʻele le tama i le vai.*
-5. *Sā moe le pusi i le fale.*
+4. *Sā tāʻele le tama ʻi le vai.*
+5. *Sā moe le pusi ʻi le fale.*
 
 ### Exercise 6: Give the English
 
-1. *manua*
-2. *mauoloa*
+1. *manuʻa*
+2. *mauʻoloa*
 3. *popolevale*
 4. *taufi*
 5. *fue*
-6. *tamaoaiga*
+6. *tamāoʻāiga*
 
 ---
 
@@ -397,7 +397,7 @@ particle, and leave the rest of the sentence behind it as the clause.
 1. Empty: the boy is the one who slept, and nothing inside the clause stands for him.
 2. Held by the pointing-back word *ai*, standing after the verb for a place.
 3. Held by the pointing-back word in the shape *aʻi*, for the thing the covering was done with.
-4. Held by *i ai*, for the place the going was aimed at.
+4. Held by *ʻi ai*, for the place the going was aimed at.
 5. Empty: the wealth is what was got, and nothing inside the clause stands for it.
 
 ### Exercise 3
@@ -405,28 +405,28 @@ particle, and leave the rest of the sentence behind it as the clause.
 1. *ʻO le mea sā ʻou nofo ai.*
 2. *ʻO le nuʻu sā nofo ai le teine.*
 3. *le fue na taufi aʻi le umu*
-4. *ʻO le mea sā alu atu le teine i ai.*
+4. *ʻO le mea sā alu atu le teine ʻi ai.*
 5. *ʻO le aso sā siva ai le teine.*
 
 ### Exercise 4
 
-1. *ʻO le fafine sā alu i le nuʻu.*
-2. *ʻO le tama sā moe i le fale.*
-3. *le tamaoaiga ʻua maua e aʻu uō*
+1. *ʻO le fafine sā alu ʻi le nuʻu.*
+2. *ʻO le tama sā moe ʻi le fale.*
+3. *le tamāoʻāiga ʻua maua e aʻu uō*
 4. *ʻO le aso sā siva ai le teine.*
 5. *ʻO lē sā popolevale.*
-6. *ʻO ē e mauoloa.*
-7. *ʻO le tamāloa e manua le vae.*
+6. *ʻO ē e mauʻoloa.*
+7. *ʻO le tamāloa e manuʻa le vae.*
 8. *ʻO le mea sā tāʻele ai le tama.*
 9. *ʻO le aso sā oti ai le tamāloa.*
 
 ### Exercise 5
 
-1. *ʻO le aliʻi sā nofo i le nuʻu.*
-2. *ʻO le teine sā alu i le maʻumaga.*
+1. *ʻO le aliʻi sā nofo ʻi le nuʻu.*
+2. *ʻO le teine sā alu ʻi le maʻumaga.*
 3. *ʻO le fafine sā siva.*
-4. *ʻO le tama sā tāʻele i le vai.*
-5. *ʻO le pusi sā moe i le fale.*
+4. *ʻO le tama sā tāʻele ʻi le vai.*
+5. *ʻO le pusi sā moe ʻi le fale.*
 
 ### Exercise 6
 

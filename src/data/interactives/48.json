@@ -64,20 +64,20 @@
         "mode": "toggle",
         "states": [
           {
-            "label": "With *ina*",
-            "sm": "Tatalo ina ʻia maua se fesoasoani.",
+            "label": "With *ʻina*",
+            "sm": "Tatalo ʻina ʻia maua se fesoasoani.",
             "en": "Pray in order to get some help.",
             "note": "The joining word explicitly marks the purpose clause as part of the first sentence."
           },
           {
-            "label": "Without *ina*",
+            "label": "Without *ʻina*",
             "sm": "Tatalo ʻia maua se fesoasoani.",
             "en": "Pray to get some help.",
             "note": "The second clause still expresses purpose, even though no joining word shows the link."
           }
         ]
       },
-      "caption": "Both printed sentences express what the praying is for. The first one marks the link with *ina*."
+      "caption": "Both printed sentences express what the praying is for. The first one marks the link with *ʻina*."
     },
     {
       "id": "ch48-mood-reading",
@@ -111,17 +111,17 @@
             "why": "About the speaker, *seʻi* politely asks permission."
           },
           {
-            "sm": "ʻIa ʻe onosaʻi.",
+            "sm": "ʻIa ʻe ʻonosaʻi.",
             "answer": "command",
             "why": "Addressed to the listener, *ʻia* makes a polite command."
           },
           {
-            "sm": "Faʻatali seʻia sau lou tina.",
+            "sm": "Faʻatali seʻia sau lou tinā.",
             "answer": "until",
             "why": "The waiting lasts until the event after *seʻia*."
           },
           {
-            "sm": "Tatalo ina ʻia maua se fesoasoani.",
+            "sm": "Tatalo ʻina ʻia maua se fesoasoani.",
             "answer": "purpose",
             "why": "The linked *ʻia* clause says what the praying is for."
           }

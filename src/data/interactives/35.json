@@ -43,7 +43,7 @@
           },
           {
             "id": "not-tired",
-            "sm": "le lē vaivai"
+            "sm": "le lē vāivai"
           }
         ],
         "prompts": [
@@ -60,7 +60,7 @@
           {
             "en": "the not being tired",
             "answer": "not-tired",
-            "why": "The not-word denies *vaivai* inside the phrase."
+            "why": "The not-word denies *vāivai* inside the phrase."
           }
         ]
       },

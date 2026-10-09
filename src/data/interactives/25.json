@@ -9,21 +9,64 @@
       "caption": "The rows track one or many and particular or non-specific. The two columns keep the *a*-word and *o*-word forms side by side.",
       "data": {
         "rowLabel": "The thing possessed",
-        "cols": ["*a*-word form", "*o*-word form"],
+        "cols": [
+          "*a*-word form",
+          "*o*-word form"
+        ],
         "quiz": true,
         "rows": [
-          { "label": "One particular thing", "cells": [
-            { "sm": "laʻu", "en": "my" }, { "sm": "loʻu", "en": "my" }
-          ] },
-          { "label": "One thing, any one", "cells": [
-            { "sm": "saʻu", "en": "a ... of mine" }, { "sm": "soʻu", "en": "a ... of mine" }
-          ] },
-          { "label": "More than one, particular", "cells": [
-            { "sm": "aʻu", "en": "my" }, { "sm": "oʻu", "en": "my" }
-          ] },
-          { "label": "More than one, any ones", "cells": [
-            { "sm": "ni aʻu", "en": "some ... of mine" }, { "sm": "ni oʻu", "en": "some ... of mine" }
-          ] }
+          {
+            "label": "One particular thing",
+            "cells": [
+              {
+                "sm": "laʻu",
+                "en": "my"
+              },
+              {
+                "sm": "loʻu",
+                "en": "my"
+              }
+            ]
+          },
+          {
+            "label": "One thing, any one",
+            "cells": [
+              {
+                "sm": "saʻu",
+                "en": "a ... of mine"
+              },
+              {
+                "sm": "soʻu",
+                "en": "a ... of mine"
+              }
+            ]
+          },
+          {
+            "label": "More than one, particular",
+            "cells": [
+              {
+                "sm": "aʻu",
+                "en": "my"
+              },
+              {
+                "sm": "oʻu",
+                "en": "my"
+              }
+            ]
+          },
+          {
+            "label": "More than one, any ones",
+            "cells": [
+              {
+                "sm": "ni aʻu",
+                "en": "some ... of mine"
+              },
+              {
+                "sm": "ni oʻu",
+                "en": "some ... of mine"
+              }
+            ]
+          }
         ]
       }
     },
@@ -35,18 +78,66 @@
       "intro": "Place each printed word under the belonging type this chapter gives it.",
       "data": {
         "bins": [
-          { "id": "a", "label": "*a*-words", "hint": "mostly got, made, or taken on" },
-          { "id": "o", "label": "*o*-words", "hint": "mostly given rather than set up" }
+          {
+            "id": "a",
+            "label": "*a*-words",
+            "hint": "mostly got, made, or taken on"
+          },
+          {
+            "id": "o",
+            "label": "*o*-words",
+            "hint": "mostly given rather than set up"
+          }
         ],
         "items": [
-          { "sm": "ulu", "en": "head", "bin": "o", "why": "A head is part of the person, and parts of the body take *o*." },
-          { "sm": "ʻie", "en": "kilt", "bin": "o", "why": "Clothes worn are listed as *o*-words." },
-          { "sm": "lanu", "en": "colour", "bin": "o", "why": "A thing's own quality is given rather than set up." },
-          { "sm": "fale", "en": "house", "bin": "o", "why": "A house lived in is the place its owner belongs to." },
-          { "sm": "sipuni", "en": "spoon", "bin": "a", "why": "A spoon is got and used." },
-          { "sm": "leitiō", "en": "radio", "bin": "a", "why": "A radio is got and put to use." },
-          { "sm": "uō", "en": "friend", "bin": "a", "why": "A friend is among the people taken into a life." },
-          { "sm": "āvā", "en": "wife", "bin": "a", "why": "A spouse is taken on rather than given by birth." }
+          {
+            "sm": "ulu",
+            "en": "head",
+            "bin": "o",
+            "why": "A head is part of the person, and parts of the body take *o*."
+          },
+          {
+            "sm": "ʻie",
+            "en": "kilt",
+            "bin": "o",
+            "why": "Clothes worn are listed as *o*-words."
+          },
+          {
+            "sm": "lanu",
+            "en": "colour",
+            "bin": "o",
+            "why": "A thing's own quality is given rather than set up."
+          },
+          {
+            "sm": "fale",
+            "en": "house",
+            "bin": "o",
+            "why": "A house lived in is the place its owner belongs to."
+          },
+          {
+            "sm": "sipuni",
+            "en": "spoon",
+            "bin": "a",
+            "why": "A spoon is got and used."
+          },
+          {
+            "sm": "leitio",
+            "en": "radio",
+            "bin": "a",
+            "why": "A radio is got and put to use."
+          },
+          {
+            "sm": "uō",
+            "en": "friend",
+            "bin": "a",
+            "why": "A friend is among the people taken into a life."
+          },
+          {
+            "sm": "āvā",
+            "en": "wife",
+            "bin": "a",
+            "why": "A spouse is taken on rather than given by birth."
+          }
         ]
       }
     },
@@ -58,17 +149,56 @@
       "intro": "Use number and specificity to place each printed form.",
       "data": {
         "bins": [
-          { "id": "one", "label": "One particular thing" },
-          { "id": "many", "label": "More than one, particular" },
-          { "id": "many-any", "label": "More than one, any ones" }
+          {
+            "id": "one",
+            "label": "One particular thing"
+          },
+          {
+            "id": "many",
+            "label": "More than one, particular"
+          },
+          {
+            "id": "many-any",
+            "label": "More than one, any ones"
+          }
         ],
         "items": [
-          { "sm": "laʻu", "en": "my", "bin": "one", "why": "This form carries the specific article for one thing." },
-          { "sm": "loʻu", "en": "my", "bin": "one", "why": "This is the *o*-word partner for one particular thing." },
-          { "sm": "aʻu", "en": "my", "bin": "many", "why": "The missing article marks a particular plural." },
-          { "sm": "oʻu", "en": "my", "bin": "many", "why": "This is the *o*-word form with the article-less particular plural." },
-          { "sm": "ni aʻu", "en": "some ... of mine", "bin": "many-any", "why": "The non-specific plural article *ni* is visible in the form." },
-          { "sm": "ni oʻu", "en": "some ... of mine", "bin": "many-any", "why": "This is the *o*-word partner with the same non-specific plural article." }
+          {
+            "sm": "laʻu",
+            "en": "my",
+            "bin": "one",
+            "why": "This form carries the specific article for one thing."
+          },
+          {
+            "sm": "loʻu",
+            "en": "my",
+            "bin": "one",
+            "why": "This is the *o*-word partner for one particular thing."
+          },
+          {
+            "sm": "aʻu",
+            "en": "my",
+            "bin": "many",
+            "why": "The missing article marks a particular plural."
+          },
+          {
+            "sm": "oʻu",
+            "en": "my",
+            "bin": "many",
+            "why": "This is the *o*-word form with the article-less particular plural."
+          },
+          {
+            "sm": "ni aʻu",
+            "en": "some ... of mine",
+            "bin": "many-any",
+            "why": "The non-specific plural article *ni* is visible in the form."
+          },
+          {
+            "sm": "ni oʻu",
+            "en": "some ... of mine",
+            "bin": "many-any",
+            "why": "This is the *o*-word partner with the same non-specific plural article."
+          }
         ]
       }
     }

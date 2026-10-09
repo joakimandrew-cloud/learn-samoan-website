@@ -42,7 +42,7 @@ The same three slots carry any verb of this kind:
 | *Sā tatala e le teine le pusa.* | The girl opened the box. |
 | *Sā tausi e le fafine le pepe.* | The woman took care of the baby. |
 | *Sā ʻai e le puaʻa le popo.* | The pig ate the copra. |
-| *Na saisai e le tamāloa le moa.* | The man tied up the hen. |
+| *Na sāisai e le tamāloa le moa.* | The man tied up the hen. |
 
 The marker rides on the doer rather than on a position in the sentence, so the
 two noun phrases can also run the other way round:
@@ -86,10 +86,10 @@ them every time: *e* in front of a bare verb is the general particle, and *e*
 in front of a noun after the verb is the agent marker.
 
 The two words meet again in the sentence promised when *vili*, *masini* and
-*ogalaau* were taught:
+*ʻogālāʻau* were taught:
 
 ::: {.examples}
-*E vili e le masini le ogalaau.* The machine rotates the log.
+*E vili e le masini le ʻogālāʻau.* The machine rotates the log.
 :::
 
 > **Preview:** Some verbs have a second, longer shape, and agent-marked
@@ -118,11 +118,11 @@ man as the one who did it.
 
 The verbs of wanting and seeing taught earlier in this book work the other way
 about. In the sense they were taught in, the one who wants or sees stands bare
-and the thing reached toward carries the place word *i*, with no agent marker
+and the thing reached toward carries the place word *ʻi*, with no agent marker
 in the sentence:
 
 ::: {.examples}
-*Sā vaʻai le tama i le peʻa.* The boy saw the flying fox.
+*Sā vaʻai le tama ʻi le peʻa.* The boy saw the flying fox.
 :::
 
 A few of these verbs carry a second sense that does take the marker, and the
@@ -135,14 +135,14 @@ A verb can also run in both patterns, and then the choice between them carries
 meaning:
 
 ::: {.examples}
-*Sā ʻai le teine i le iʻa.* The girl ate some fish.
+*Sā ʻai le teine ʻi le iʻa.* The girl ate some fish.
 
 *Sā ʻai e le teine le iʻa.* The girl ate (all of) the fish.
 :::
 
-With the place word *i*, the eating reached the fish without finishing it. With
+With the place word *ʻi*, the eating reached the fish without finishing it. With
 the agent marker on the girl, the fish is wholly used up. This completes the
-promise made when those verbs were first taught: the marker the *i* pattern
+promise made when those verbs were first taught: the marker the *ʻi* pattern
 does without is this one, and putting it in changes what the sentence says.
 
 ---
@@ -168,7 +168,7 @@ The same subtraction works on every verb of this kind:
 |---|---|
 | *Sā tatala e le teine le pusa.* The girl opened the box. | *Sā tatala le pusa.* The box was opened. |
 | *Sā fafaga e le tama le moa.* The boy fed the hen. | *Sā fafaga le moa.* The hen was fed. |
-| *Na saisai e le tamāloa le moa.* The man tied up the hen. | *Na saisai le moa.* The hen was tied up. |
+| *Na sāisai e le tamāloa le moa.* The man tied up the hen. | *Na sāisai le moa.* The hen was tied up. |
 | *Sā ʻai e le puaʻa le popo.* The pig ate the copra. | *Sā ʻai le popo.* The copra was eaten. |
 
 Read down the right-hand column and nothing has been added to any of them.
@@ -276,7 +276,7 @@ settings both men and women use it at low frequency, and away from them men use
 it a good deal more of the time than women do.
 
 ::: {.examples}
-*Na saisai e le tamāloa le moa.* The man tied up the hen.
+*Na sāisai e le tamāloa le moa.* The man tied up the hen.
 :::
 
 Written down, a sentence like this one always carries the marker, while the
@@ -305,14 +305,14 @@ The verbs:
 |---|---|
 | *fafaga* | feed |
 | *inu* | drink |
-| *saisai* | tie, tie up |
+| *sāisai* | tie, tie up |
 | *tatala* | open |
 
 The nouns:
 
 | Word | Meaning |
 |---|---|
-| *masina* | month |
+| *māsina* | month |
 | *mata* | eye |
 | *moa* | hen, chicken, rooster |
 | *peʻa* | flying fox |
@@ -354,7 +354,7 @@ what came before, so leave that out and keep the doer.
 1. *Sā tatala e le teine le pusa.*
 2. *Sā ʻai e le teine le iʻa.*
 3. *Sā tausi e le fafine le pepe.*
-4. *Na saisai e le tamāloa le moa.*
+4. *Na sāisai e le tamāloa le moa.*
 5. *Sā ʻai e le puaʻa le popo.*
 6. *Sā fafaga e le tama le moa.*
 7. *Sā ʻai e le puaʻa le talo.*
@@ -366,14 +366,14 @@ what came before, so leave that out and keep the doer.
 Rewrite each sentence with the doer given in brackets, marked with *e*.
 
 1. *Sā tausi le pepe.* (the woman)
-2. *Na saisai le moa.* (the man)
+2. *Na sāisai le moa.* (the man)
 3. *Sā ʻai le popo.* (the pig)
 4. *Sā fafaga le moa.* (the girl)
 5. *Sā tatala le pusa.* (the man)
 
-### Exercise 5: Choose *e* or *i*
+### Exercise 5: Choose *e* or *ʻi*
 
-Put the agent marker *e* or the place word *i* in the gap, so that the Samoan
+Put the agent marker *e* or the place word *ʻi* in the gap, so that the Samoan
 says what the English says.
 
 1. *Sā ʻai ___ le teine le iʻa.* (The girl ate the whole fish.)
@@ -412,7 +412,7 @@ Write the Samoan words that name the doer. If the sentence names none, say so.
 1. *Na fafaga e le teine le moa.*
 2. *Sā ʻai e le tama le iʻa.*
 3. *Sā tatala e le tamāloa le pusa.*
-4. *Na saisai e le fafine le moa.*
+4. *Na sāisai e le fafine le moa.*
 5. *Sā ʻai e le puaʻa le talo.*
 6. *Sā tausi e le teine le pepe.*
 7. *Na fafaga e le tamāloa le puaʻa.*
@@ -427,7 +427,7 @@ above, or *na* for a *sā*, count it correct.
 1. *Sā tatala le pusa.*
 2. *Sā ʻai le iʻa.*
 3. *Sā tausi le pepe.*
-4. *Na saisai le moa.*
+4. *Na sāisai le moa.*
 5. *Sā ʻai le popo.*
 6. *Sā fafaga le moa.*
 7. *Sā ʻai le talo.*
@@ -437,7 +437,7 @@ above, or *na* for a *sā*, count it correct.
 ### Exercise 4
 
 1. *Sā tausi e le fafine le pepe.*
-2. *Na saisai e le tamāloa le moa.*
+2. *Na sāisai e le tamāloa le moa.*
 3. *Sā ʻai e le puaʻa le popo.*
 4. *Sā fafaga e le teine le moa.*
 5. *Sā tatala e le tamāloa le pusa.*
@@ -445,10 +445,10 @@ above, or *na* for a *sā*, count it correct.
 ### Exercise 5
 
 1. *Sā ʻai e le teine le iʻa.*
-2. *Sā ʻai le teine i le iʻa.*
+2. *Sā ʻai le teine ʻi le iʻa.*
 3. *Na fasi e le tama le gata.*
-4. *Sā vaʻai le tama i le peʻa.*
-5. *Sā vaʻai le fafine i le peʻa.*
+4. *Sā vaʻai le tama ʻi le peʻa.*
+5. *Sā vaʻai le fafine ʻi le peʻa.*
 6. *Na fasi e le tamāloa le gata.*
 
 ### Exercise 6

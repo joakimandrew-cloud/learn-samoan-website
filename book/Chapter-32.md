@@ -35,7 +35,7 @@ Five verbs, in both of their shapes:
 
 | Short form | Long form | Meaning |
 |---|---|---|
-| *ʻai* | *ʻai=a*, *ʻai=ina* | eat |
+| *ʻai* | *ʻaia*, *ʻai=ina* | eat |
 | *fasi* | *fasi=a*, *fasi=ina* | hit, beat |
 | *faitau* | *faitau=a*, *faitau=ina* | count, read |
 | *fau* | *fau=a*, *fau=ina* | build |
@@ -96,7 +96,7 @@ buying, and with *atu* it is selling.
 ::: {.examples}
 *ʻAi.* Eat.
 
-*ʻAua le ʻai=a le meaʻai lena.* Don't eat that food.
+*ʻAua le ʻaia le meaʻai lenā.* Don't eat that food.
 :::
 
 The first sentence tells someone to do something, and its verb is the short
@@ -125,11 +125,11 @@ to accept a short form in this position reject it as wrong.
 
 | Samoan | English |
 |---|---|
-| *ʻAua le ʻai=a le meaʻai lena.* | Don't eat that food. |
-| *ʻAua le faitau=a le tusi lena.* | Don't read that book. |
-| *ʻAua le tatala=ina le pusa lena.* | Don't open that box. |
-| *ʻAua le fasi=a le maile lena.* | Don't hit that dog. |
-| *ʻAua le faʻatau=a le vaʻa lena.* | Don't sell that boat. |
+| *ʻAua le ʻaia le meaʻai lenā.* | Don't eat that food. |
+| *ʻAua le faitau=a le tusi lenā.* | Don't read that book. |
+| *ʻAua le tatala=ina le pusa lenā.* | Don't open that box. |
+| *ʻAua le fasi=a le maile lenā.* | Don't hit that dog. |
+| *ʻAua le faʻatau=a le vaʻa lenā.* | Don't sell that boat. |
 
 The do-not verb *ʻaua* is the one taught earlier in this book. What is new is
 what follows it: *le*, and then the verb in its long form, and then the thing
@@ -162,7 +162,7 @@ long form is what speakers choose for a sentence like it when they are asked to
 pick. Set beside it a sentence with no doer in it at all:
 
 ::: {.examples}
-*Sā nonoa le ie i le faamalama.* The cloth was tied at the window.
+*Sā nonoa le ʻie ʻi le faʻamalama.* The cloth was tied at the window.
 :::
 
 Nobody is named as the tier, the attention is all on the cloth and what happened
@@ -173,7 +173,7 @@ form where the attention is on what happened to the thing acted on, and the long
 form where the doer matters to what is being said.
 
 ::: {.examples}
-*Sā faitau e le teine le vaega.* The girl read the section.
+*Sā faitau e le teine le vāega.* The girl read the section.
 :::
 
 A plain report like this one, with a doer named and no weight on them, usually
@@ -223,10 +223,11 @@ The nouns:
 
 | Word | Meaning |
 |---|---|
-| *faamalama* | window |
-| *ie* | cloth |
-| *totoga* | internal organs |
-| *vaega* | section, part |
+| *faʻamalama* | window |
+| *tōtōga* | internal organs |
+| *vāega* | section, part |
+
+*ʻIe*, learned as kilt in Chapter 25, also means cloth here.
 
 ---
 
@@ -234,11 +235,11 @@ The nouns:
 
 ### Exercise 1: Translate into English
 
-1. *ʻAua le faitau=a le tusi lena.*
-2. *Sā faitau e le teine le vaega.*
+1. *ʻAua le faitau=a le tusi lenā.*
+2. *Sā faitau e le teine le vāega.*
 3. *ʻO ai na fasi=a le tama?*
-4. *Sā nonoa le ie i le faamalama.*
-5. *ʻAua le tatala=ina le pusa lena.*
+4. *Sā nonoa le ʻie ʻi le faʻamalama.*
+5. *ʻAua le tatala=ina le pusa lenā.*
 6. *Sā lē fasi=a le tama e le teine.*
 
 ### Exercise 2: Give the long form
@@ -255,11 +256,11 @@ Write both long forms of each verb.
 
 Put the verb in brackets into the gap in the shape the sentence requires.
 
-1. *ʻAua le ___ le meaʻai lena.* (*ʻai*)
+1. *ʻAua le ___ le meaʻai lenā.* (*ʻai*)
 2. *___.* Read. (*faitau*)
-3. *ʻAua le ___ le vaʻa lena.* (*faʻatau*)
+3. *ʻAua le ___ le vaʻa lenā.* (*faʻatau*)
 4. *___.* Build. (*fau*)
-5. *ʻAua le ___ le maile lena.* (*fasi*)
+5. *ʻAua le ___ le maile lenā.* (*fasi*)
 
 ### Exercise 4: Forbid it
 
@@ -285,10 +286,10 @@ Say whether each sentence uses the short form or the long form, and give the
 reason in one phrase.
 
 1. *ʻAi.*
-2. *ʻAua le ʻai=a le meaʻai lena.*
-3. *Sā faitau e le teine le vaega.*
+2. *ʻAua le ʻaia le meaʻai lenā.*
+3. *Sā faitau e le teine le vāega.*
 4. *ʻO ai na fasi=a le tama?*
-5. *Sā nonoa le ie i le faamalama.*
+5. *Sā nonoa le ʻie ʻi le faʻamalama.*
 
 ### Exercise 7: Give the meaning
 
@@ -296,10 +297,10 @@ reason in one phrase.
 2. *fau*
 3. *faʻatau*
 4. *nonoa*
-5. *faamalama*
-6. *ie*
-7. *totoga*
-8. *vaega*
+5. *faʻamalama*
+6. *ʻie*
+7. *tōtōga*
+8. *vāega*
 
 ---
 
@@ -316,7 +317,7 @@ reason in one phrase.
 
 ### Exercise 2
 
-1. *ʻai=a*, *ʻai=ina*
+1. *ʻaia*, *ʻai=ina*
 2. *fasi=a*, *fasi=ina*
 3. *faitau=a*, *faitau=ina*
 4. *fau=a*, *fau=ina*
@@ -327,27 +328,27 @@ will mostly hear in everyday speech and *=ina* the one you will mostly read.
 
 ### Exercise 3
 
-1. *ʻAua le ʻai=a le meaʻai lena.*
+1. *ʻAua le ʻaia le meaʻai lenā.*
 2. *Faitau.*
-3. *ʻAua le faʻatau=a le vaʻa lena.*
+3. *ʻAua le faʻatau=a le vaʻa lenā.*
 4. *Fau.*
-5. *ʻAua le fasi=a le maile lena.*
+5. *ʻAua le fasi=a le maile lenā.*
 
 The *=ina* ending is equally correct in items 1, 3 and 5.
 
 ### Exercise 4
 
-1. *ʻAua le faitau=a le tusi lena.*
-2. *ʻAua le tatala=ina le pusa lena.*
-3. *ʻAua le fasi=a le maile lena.*
-4. *ʻAua le faʻatau=a le vaʻa lena.*
-5. *ʻAua le ʻai=a le meaʻai lena.*
+1. *ʻAua le faitau=a le tusi lenā.*
+2. *ʻAua le tatala=ina le pusa lenā.*
+3. *ʻAua le fasi=a le maile lenā.*
+4. *ʻAua le faʻatau=a le vaʻa lenā.*
+5. *ʻAua le ʻaia le meaʻai lenā.*
 
 ### Exercise 5
 
-1. *Sā faitau e le teine le vaega.*
+1. *Sā faitau e le teine le vāega.*
 2. *Sā fau e le tama le fale.*
-3. *Sā nonoa le ie i le faamalama.*
+3. *Sā nonoa le ʻie ʻi le faʻamalama.*
 4. *ʻO ai na fasi=a le tama?*
 5. *ʻO ai na faʻatau=a mai le tusi?*
 

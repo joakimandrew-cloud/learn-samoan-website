@@ -12,7 +12,7 @@ type is a fact of that word, and this chapter gives the lists.
 ## The Meaning Behind *A* and *O*
 
 ::: {.examples}
-*ʻO le leitiō a le aliʻi.* The radio of the chief.
+*ʻO le leitio a le aliʻi.* The radio of the chief.
 
 *ʻO le fale o le aliʻi.* The house of the chief.
 :::
@@ -31,7 +31,7 @@ up. That is the whole rule, and it sorts most of the language:
 
 | The thing | Belonging word | The relationship |
 |---|---|---|
-| *leitiō* (radio) | *a* | got and put to use |
+| *leitio* (radio) | *a* | got and put to use |
 | *naifi* (knife) | *a* | got and put to use |
 | *fale* (house lived in) | *o* | given, not set up |
 | *ulu* (head) | *o* | part of the person |
@@ -57,7 +57,7 @@ The *o*-words, mostly given rather than set up:
 | parts of the body | *tino* (body), *ulu* (head), *lima* (hand), *vae* (leg) |
 | a part of a whole | *pito* (end) |
 | a thing's own quality | *lanu* (colour) |
-| clothes worn | *ʻie* (kilt), *ofu* (dress) |
+| clothes worn | *ʻie* (kilt), *ʻofu* (dress) |
 | old tools and weapons | *tao* (spear) |
 | boats | *vaʻa* (boat), *paopao* (canoe) |
 | where a person lives or comes from | *nuʻu* (village), *atunuʻu* (country), *fale* (house) |
@@ -297,7 +297,7 @@ apart from the with-word *ma*.
 
 ### Exercise 1: Translate into English
 
-1. *ʻo le leitiō a le aliʻi*
+1. *ʻo le leitio a le aliʻi*
 2. *ʻo loʻu tao*
 3. *ʻo laʻu sipuni*
 4. *ʻo aʻu taʻavale*

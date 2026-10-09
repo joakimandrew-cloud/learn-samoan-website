@@ -8,16 +8,82 @@
       "title": "The question-word set",
       "caption": "Each word asks for a different missing piece. The two when-words split future time from past time.",
       "data": {
-        "cols": ["Question word"],
+        "cols": [
+          "Question word"
+        ],
         "rows": [
-          { "label": "Who", "cells": [ { "sm": "ai", "en": "who" } ] },
-          { "label": "What", "cells": [ { "sm": "ā", "en": "what" } ] },
-          { "label": "Where", "cells": [ { "sm": "fea", "en": "where" } ] },
-          { "label": "When, future", "cells": [ { "sm": "ʻāfea", "en": "when (future)" } ] },
-          { "label": "When, past", "cells": [ { "sm": "anafea", "en": "when (past)" } ] },
-          { "label": "How", "cells": [ { "sm": "faʻapēfea", "en": "how" } ] },
-          { "label": "How many", "cells": [ { "sm": "fia", "en": "how many" } ] },
-          { "label": "Why", "cells": [ { "sm": "ʻaiseā", "en": "why" } ] }
+          {
+            "label": "Who",
+            "cells": [
+              {
+                "sm": "ai",
+                "en": "who"
+              }
+            ]
+          },
+          {
+            "label": "What",
+            "cells": [
+              {
+                "sm": "ā",
+                "en": "what"
+              }
+            ]
+          },
+          {
+            "label": "Where",
+            "cells": [
+              {
+                "sm": "fea",
+                "en": "where"
+              }
+            ]
+          },
+          {
+            "label": "When, future",
+            "cells": [
+              {
+                "sm": "āfea",
+                "en": "when (future)"
+              }
+            ]
+          },
+          {
+            "label": "When, past",
+            "cells": [
+              {
+                "sm": "anafea",
+                "en": "when (past)"
+              }
+            ]
+          },
+          {
+            "label": "How",
+            "cells": [
+              {
+                "sm": "faʻapefea",
+                "en": "how"
+              }
+            ]
+          },
+          {
+            "label": "How many",
+            "cells": [
+              {
+                "sm": "fia",
+                "en": "how many"
+              }
+            ]
+          },
+          {
+            "label": "Why",
+            "cells": [
+              {
+                "sm": "ʻaiseā",
+                "en": "why"
+              }
+            ]
+          }
         ]
       }
     },
@@ -26,12 +92,20 @@
       "kind": "contrast",
       "anchor": "asking-when-past-and-future",
       "title": "The when-word and tense particle move together",
-      "caption": "Future *ʻāfea* rides the future particle. Past *anafea* rides the past particle, and the pointing-back word holds the fronted time's place inside the verb phrase.",
+      "caption": "Future *āfea* rides the future particle. Past *anafea* rides the past particle, and the pointing-back word holds the fronted time's place inside the verb phrase.",
       "data": {
         "mode": "toggle",
         "states": [
-          { "label": "Future", "sm": "ʻO ʻāfea ʻoleʻā moe ai le tama?", "en": "When will the boy sleep?" },
-          { "label": "Past", "sm": "ʻO anafea na moe ai le tama?", "en": "When did the boy sleep?" }
+          {
+            "label": "Future",
+            "sm": "ʻO āfea ʻoleʻā moe ai le tama?",
+            "en": "When will the boy sleep?"
+          },
+          {
+            "label": "Past",
+            "sm": "ʻO anafea na moe ai le tama?",
+            "en": "When did the boy sleep?"
+          }
         ]
       }
     },
@@ -44,15 +118,44 @@
       "data": {
         "question": "What information is the speaker asking for?",
         "options": [
-          { "id": "who", "sm": "ai" },
-          { "id": "where", "sm": "fea" },
-          { "id": "how", "sm": "faʻapēfea" }
+          {
+            "id": "who",
+            "sm": "ai"
+          },
+          {
+            "id": "where",
+            "sm": "fea"
+          },
+          {
+            "id": "how",
+            "sm": "faʻapefea"
+          }
         ],
         "prompts": [
-          { "sm": "ʻO ___ na sau?", "en": "Who came?", "answer": "who", "why": "The question asks for the person who did the action." },
-          { "sm": "Sā ___ le aso?", "en": "How was the day?", "answer": "how", "why": "The how-word stands where a describing verb would stand." },
-          { "sm": "ʻO ___ e i ai le ofu?", "en": "Where is the dress?", "answer": "where", "why": "The where-word comes to the front and *i ai* holds its place later." },
-          { "sm": "ʻO ___ na faʻaipoipo?", "en": "Who got married?", "answer": "who", "why": "The missing information is a person." }
+          {
+            "sm": "ʻO ___ na sau?",
+            "en": "Who came?",
+            "answer": "who",
+            "why": "The question asks for the person who did the action."
+          },
+          {
+            "sm": "Sā ___ le aso?",
+            "en": "How was the day?",
+            "answer": "how",
+            "why": "The how-word stands where a describing verb would stand."
+          },
+          {
+            "sm": "ʻO ___ e ʻi ai le ʻofu?",
+            "en": "Where is the dress?",
+            "answer": "where",
+            "why": "The where-word comes to the front and *ʻi ai* holds its place later."
+          },
+          {
+            "sm": "ʻO ___ na faʻaipoipo?",
+            "en": "Who got married?",
+            "answer": "who",
+            "why": "The missing information is a person."
+          }
         ]
       }
     }

@@ -126,7 +126,7 @@
     "letter": "A"
   },
   {
-    "samoan": "afa",
+    "samoan": "afā",
     "english": "storm",
     "chapter": 39,
     "letter": "A"
@@ -150,7 +150,7 @@
     "letter": "A"
   },
   {
-    "samoan": "agelu",
+    "samoan": "ʻāgelu",
     "english": "angel",
     "chapter": 6,
     "letter": "A"
@@ -198,15 +198,9 @@
     "letter": "A"
   },
   {
-    "samoan": "aiga",
+    "samoan": "ʻāiga",
     "english": "home, family",
     "chapter": 7,
-    "letter": "A"
-  },
-  {
-    "samoan": "ʻāiga",
-    "english": "family",
-    "chapter": 47,
     "letter": "A"
   },
   {
@@ -246,7 +240,7 @@
     "letter": "A"
   },
   {
-    "samoan": "amata",
+    "samoan": "ʻāmata",
     "english": "begin, start",
     "chapter": 4,
     "letter": "A"
@@ -336,20 +330,20 @@
     "letter": "A"
   },
   {
-    "samoan": "aoga",
-    "english": "school",
-    "chapter": 35,
-    "letter": "A"
-  },
-  {
     "samoan": "aogā",
     "english": "use, useful",
     "chapter": 28,
     "letter": "A"
   },
   {
-    "samoan": "apa",
-    "english": "tin (in *le fale=apa*, a house with a tin roof)",
+    "samoan": "āʻoga",
+    "english": "school",
+    "chapter": 35,
+    "letter": "A"
+  },
+  {
+    "samoan": "ʻapa",
+    "english": "tin (in *le fale=ʻapa*, a house with a tin roof)",
     "chapter": 37,
     "letter": "A"
   },
@@ -367,30 +361,30 @@
   },
   {
     "samoan": "ata",
-    "english": "laugh",
-    "chapter": 38,
-    "letter": "A"
-  },
-  {
-    "samoan": "ata",
     "english": "my (*a*-word form, *o*-word form), said with feeling, for more than one particular thing",
     "chapter": 51,
     "letter": "A"
   },
   {
-    "samoan": "ʻātaeao",
+    "samoan": "ʻata",
+    "english": "laugh",
+    "chapter": 38,
+    "letter": "A"
+  },
+  {
+    "samoan": "ātaeao",
     "english": "tomorrow morning",
     "chapter": 18,
     "letter": "A"
   },
   {
-    "samoan": "atalii",
+    "samoan": "ataliʻi",
     "english": "son",
     "chapter": 33,
     "letter": "A"
   },
   {
-    "samoan": "atigi=lima",
+    "samoan": "atigi-lima",
     "english": "finger-nail",
     "chapter": 48,
     "letter": "A"
@@ -402,13 +396,13 @@
     "letter": "A"
   },
   {
-    "samoan": "ato",
+    "samoan": "ʻato",
     "english": "basket",
     "chapter": 21,
     "letter": "A"
   },
   {
-    "samoan": "atoa",
+    "samoan": "ʻātoa",
     "english": "complete (to recognize only)",
     "chapter": 21,
     "letter": "A"
@@ -474,7 +468,7 @@
     "letter": "A"
   },
   {
-    "samoan": "auivi",
+    "samoan": "ʻauivi",
     "english": "skeleton",
     "chapter": 13,
     "letter": "A"
@@ -493,7 +487,7 @@
   },
   {
     "samoan": "ʻava",
-    "english": "kava, and in *ʻava malosi* alcohol",
+    "english": "kava, and in *ʻava mālosi* alcohol",
     "chapter": 30,
     "letter": "A"
   },
@@ -570,19 +564,19 @@
     "letter": "E"
   },
   {
-    "samoan": "eleele",
+    "samoan": "ʻeleʻele",
     "english": "earth",
     "chapter": 37,
     "letter": "E"
   },
   {
-    "samoan": "eleelea",
+    "samoan": "ʻeleʻelea",
     "english": "dirty",
     "chapter": 42,
     "letter": "E"
   },
   {
-    "samoan": "enaena",
+    "samoan": "ʻenaʻena",
     "english": "brown",
     "chapter": 44,
     "letter": "E"
@@ -654,7 +648,7 @@
     "letter": "F"
   },
   {
-    "samoan": "faamalama",
+    "samoan": "faʻamalama",
     "english": "window",
     "chapter": 32,
     "letter": "F"
@@ -684,7 +678,7 @@
     "letter": "F"
   },
   {
-    "samoan": "faasalalauga",
+    "samoan": "faʻasalalauga",
     "english": "broadcast, broadcasting",
     "chapter": 8,
     "letter": "F"
@@ -720,7 +714,7 @@
     "letter": "F"
   },
   {
-    "samoan": "faatonu",
+    "samoan": "faʻatonu",
     "english": "order, instruct: a verb here, and the one who gives the order takes the agent marker",
     "chapter": 33,
     "letter": "F"
@@ -774,7 +768,7 @@
     "letter": "F"
   },
   {
-    "samoan": "faifeau",
+    "samoan": "faifeʻau",
     "english": "pastor",
     "chapter": 48,
     "letter": "F"
@@ -852,7 +846,7 @@
     "letter": "F"
   },
   {
-    "samoan": "faleoo",
+    "samoan": "faleoʻo",
     "english": "a small house",
     "chapter": 34,
     "letter": "F"
@@ -906,13 +900,13 @@
     "letter": "F"
   },
   {
-    "samoan": "feau",
+    "samoan": "feʻau",
     "english": "work, task, errand",
     "chapter": 49,
     "letter": "F"
   },
   {
-    "samoan": "feiloai",
+    "samoan": "feiloaʻi",
     "english": "meet",
     "chapter": 13,
     "letter": "F"
@@ -948,7 +942,7 @@
     "letter": "F"
   },
   {
-    "samoan": "filemu",
+    "samoan": "filemū",
     "english": "quiet, calm",
     "chapter": 24,
     "letter": "F"
@@ -966,13 +960,13 @@
     "letter": "F"
   },
   {
-    "samoan": "foaʻi",
+    "samoan": "fōaʻi",
     "english": "give",
     "chapter": 49,
     "letter": "F"
   },
   {
-    "samoan": "foi",
+    "samoan": "foʻi",
     "english": "return",
     "chapter": 3,
     "letter": "F"
@@ -984,7 +978,7 @@
     "letter": "F"
   },
   {
-    "samoan": "fomai",
+    "samoan": "fomaʻi",
     "english": "doctor",
     "chapter": 49,
     "letter": "F"
@@ -1038,7 +1032,7 @@
     "letter": "G"
   },
   {
-    "samoan": "gāgaifo",
+    "samoan": "gagaifo",
     "english": "westward, a little to the west",
     "chapter": 26,
     "letter": "G"
@@ -1056,7 +1050,7 @@
     "letter": "G"
   },
   {
-    "samoan": "gālue",
+    "samoan": "galue",
     "english": "work",
     "chapter": 9,
     "letter": "G"
@@ -1092,31 +1086,31 @@
     "letter": "G"
   },
   {
-    "samoan": "i",
+    "samoan": "ʻi",
     "english": "the place word: marks where an action is or where it is headed (in, at, to)",
     "chapter": 11,
     "letter": "I"
   },
   {
-    "samoan": "i",
+    "samoan": "ʻi",
     "english": "the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person",
     "chapter": 47,
     "letter": "I"
   },
   {
-    "samoan": "i ai",
-    "english": "the \"to there\" form: the pointing-back word with the place word *i* in front, for the goal of a movement",
+    "samoan": "ʻi ai",
+    "english": "the \"to there\" form: the pointing-back word with the place word *ʻi* in front, for the goal of a movement",
     "chapter": 16,
     "letter": "I"
   },
   {
-    "samoan": "i ai",
+    "samoan": "ʻi ai",
     "english": "the settled-in-place form at the heart of the where-sentence: \"is there\", the spot the answer fills; the copy is required when the place is fronted",
     "chapter": 17,
     "letter": "I"
   },
   {
-    "samoan": "i ai",
+    "samoan": "ʻi ai",
     "english": "the pointing-back word with the place word in front, the usual shape for where a movement or a wanting is aimed",
     "chapter": 43,
     "letter": "I"
@@ -1165,7 +1159,7 @@
   },
   {
     "samoan": "ʻia",
-    "english": "the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ina ʻia*, in order to)",
+    "english": "the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ʻina ʻia*, in order to)",
     "chapter": 48,
     "letter": "I"
   },
@@ -1188,13 +1182,13 @@
     "letter": "I"
   },
   {
-    "samoan": "ia te",
+    "samoan": "ʻia te",
     "english": "the form the place word takes before a person-word",
     "chapter": 2,
     "letter": "I"
   },
   {
-    "samoan": "ia te",
+    "samoan": "ʻia te",
     "english": "the shapes the place word takes before a person's name and in front of a person-word",
     "chapter": 11,
     "letter": "I"
@@ -1209,12 +1203,6 @@
     "samoan": "iai",
     "english": "the there-is verb: says something exists or is present",
     "chapter": 14,
-    "letter": "I"
-  },
-  {
-    "samoan": "ie",
-    "english": "cloth",
-    "chapter": 32,
     "letter": "I"
   },
   {
@@ -1320,7 +1308,7 @@
     "letter": "I"
   },
   {
-    "samoan": "itula",
+    "samoan": "itūlā",
     "english": "hour",
     "chapter": 15,
     "letter": "I"
@@ -1350,8 +1338,8 @@
     "letter": "L"
   },
   {
-    "samoan": "laau",
-    "english": "tree (the bare form *laau* is itself the plural, \"trees\", while one tree is *le laau*)",
+    "samoan": "lāʻau",
+    "english": "tree (the bare form *lāʻau* is itself the plural, \"trees\", while one tree is *le lāʻau*)",
     "chapter": 6,
     "letter": "L"
   },
@@ -1374,7 +1362,7 @@
     "letter": "L"
   },
   {
-    "samoan": "lala",
+    "samoan": "lālā",
     "english": "branch",
     "chapter": 37,
     "letter": "L"
@@ -1389,6 +1377,12 @@
     "samoan": "lana",
     "english": "his, her, its (*a*-word form, *o*-word form)",
     "chapter": 10,
+    "letter": "L"
+  },
+  {
+    "samoan": "lana",
+    "english": "his, her (the possessive form used with *iai* to say what you have)",
+    "chapter": 14,
     "letter": "L"
   },
   {
@@ -1417,6 +1411,12 @@
   },
   {
     "samoan": "lau",
+    "english": "your (the possessive form used with *iai* to say what you have)",
+    "chapter": 14,
+    "letter": "L"
+  },
+  {
+    "samoan": "lau",
     "english": "leaf",
     "chapter": 21,
     "letter": "L"
@@ -1428,7 +1428,13 @@
     "letter": "L"
   },
   {
-    "samoan": "laulu",
+    "samoan": "laʻu",
+    "english": "my (the possessive form used with *iai* to say what you have)",
+    "chapter": 14,
+    "letter": "L"
+  },
+  {
+    "samoan": "lauulu",
     "english": "hair",
     "chapter": 51,
     "letter": "L"
@@ -1488,9 +1494,15 @@
     "letter": "L"
   },
   {
-    "samoan": "lē i ai",
+    "samoan": "lē ʻi ai",
     "english": "the negative of that form: \"is not there\"",
     "chapter": 17,
+    "letter": "L"
+  },
+  {
+    "samoan": "lē iloa",
+    "english": "lose, be lost",
+    "chapter": 38,
     "letter": "L"
   },
   {
@@ -1548,13 +1560,7 @@
     "letter": "L"
   },
   {
-    "samoan": "lēiloa",
-    "english": "lose, be lost",
-    "chapter": 38,
-    "letter": "L"
-  },
-  {
-    "samoan": "leitiō",
+    "samoan": "leitio",
     "english": "radio",
     "chapter": 16,
     "letter": "L"
@@ -1578,7 +1584,7 @@
     "letter": "L"
   },
   {
-    "samoan": "lena",
+    "samoan": "lenā",
     "english": "that: points to something in view, and comes second in the naming sentence",
     "chapter": 7,
     "letter": "L"
@@ -1692,7 +1698,7 @@
     "letter": "L"
   },
   {
-    "samoan": "lumanai",
+    "samoan": "lumanaʻi",
     "english": "future",
     "chapter": 17,
     "letter": "L"
@@ -1752,13 +1758,13 @@
     "letter": "M"
   },
   {
-    "samoan": "mafatia",
+    "samoan": "māfatia",
     "english": "exhausted",
     "chapter": 44,
     "letter": "M"
   },
   {
-    "samoan": "mafaufau",
+    "samoan": "māfaufau",
     "english": "think, consider",
     "chapter": 36,
     "letter": "M"
@@ -1806,7 +1812,7 @@
     "letter": "M"
   },
   {
-    "samoan": "malamalama",
+    "samoan": "mālamalama",
     "english": "understand; daylight",
     "chapter": 38,
     "letter": "M"
@@ -1824,19 +1830,19 @@
     "letter": "M"
   },
   {
-    "samoan": "malolo",
+    "samoan": "mālōlō",
     "english": "rest",
     "chapter": 16,
     "letter": "M"
   },
   {
-    "samoan": "malosi",
+    "samoan": "mālosi",
     "english": "strong (after a verb: hard, with strength)",
     "chapter": 3,
     "letter": "M"
   },
   {
-    "samoan": "malulu",
+    "samoan": "mālūlū",
     "english": "cool",
     "chapter": 38,
     "letter": "M"
@@ -1872,7 +1878,7 @@
     "letter": "M"
   },
   {
-    "samoan": "manatunatu",
+    "samoan": "mānatunatu",
     "english": "reflect, think about",
     "chapter": 36,
     "letter": "M"
@@ -1884,7 +1890,7 @@
     "letter": "M"
   },
   {
-    "samoan": "manua",
+    "samoan": "manuʻa",
     "english": "be hurt",
     "chapter": 43,
     "letter": "M"
@@ -1908,7 +1914,7 @@
     "letter": "M"
   },
   {
-    "samoan": "masina",
+    "samoan": "māsina",
     "english": "month",
     "chapter": 27,
     "letter": "M"
@@ -1926,13 +1932,13 @@
     "letter": "M"
   },
   {
-    "samoan": "matafaga",
+    "samoan": "matāfaga",
     "english": "beach",
     "chapter": 39,
     "letter": "M"
   },
   {
-    "samoan": "matamata",
+    "samoan": "mātamata",
     "english": "look at, watch",
     "chapter": 12,
     "letter": "M"
@@ -2004,13 +2010,13 @@
     "letter": "M"
   },
   {
-    "samoan": "maumau",
+    "samoan": "māumau",
     "english": "waste",
     "chapter": 35,
     "letter": "M"
   },
   {
-    "samoan": "mauoloa",
+    "samoan": "mauʻoloa",
     "english": "rich",
     "chapter": 43,
     "letter": "M"
@@ -2022,21 +2028,21 @@
     "letter": "M"
   },
   {
-    "samoan": "mea ola",
-    "english": "animals, living things",
-    "chapter": 24,
+    "samoan": "meaʻai",
+    "english": "food",
+    "chapter": 9,
     "letter": "M"
   },
   {
-    "samoan": "mea=alofa",
+    "samoan": "meaalofa",
     "english": "gift (a thing of love)",
     "chapter": 46,
     "letter": "M"
   },
   {
-    "samoan": "meaʻai",
-    "english": "food",
-    "chapter": 9,
+    "samoan": "meaola",
+    "english": "animals, living things",
+    "chapter": 24,
     "letter": "M"
   },
   {
@@ -2065,7 +2071,7 @@
   },
   {
     "samoan": "moli",
-    "english": "soap (in *fasi=moli*); also the orange",
+    "english": "soap (in *fasimoli*); also the orange",
     "chapter": 38,
     "letter": "M"
   },
@@ -2137,7 +2143,7 @@
   },
   {
     "samoan": "naʻo",
-    "english": "only: it goes in front of the article, and the phrase it heads takes no *ʻo* and no *i* at the front of a sentence",
+    "english": "only: it goes in front of the article, and the phrase it heads takes no *ʻo* and no *ʻi* at the front of a sentence",
     "chapter": 34,
     "letter": "N"
   },
@@ -2292,25 +2298,25 @@
     "letter": "O"
   },
   {
-    "samoan": "ofaga",
+    "samoan": "ōfaga",
     "english": "nest",
     "chapter": 31,
     "letter": "O"
   },
   {
-    "samoan": "ofisa",
+    "samoan": "ʻōfisa",
     "english": "office; official",
     "chapter": 12,
     "letter": "O"
   },
   {
-    "samoan": "ofu",
+    "samoan": "ʻofu",
     "english": "dress",
     "chapter": 21,
     "letter": "O"
   },
   {
-    "samoan": "ogalaau",
+    "samoan": "ʻogālāʻau",
     "english": "log",
     "chapter": 11,
     "letter": "O"
@@ -2388,7 +2394,7 @@
     "letter": "O"
   },
   {
-    "samoan": "onosaʻi",
+    "samoan": "ʻonosaʻi",
     "english": "be patient",
     "chapter": 47,
     "letter": "O"
@@ -2400,7 +2406,7 @@
     "letter": "O"
   },
   {
-    "samoan": "osofai",
+    "samoan": "osofaʻi",
     "english": "attack",
     "chapter": 29,
     "letter": "O"
@@ -2472,7 +2478,7 @@
     "letter": "P"
   },
   {
-    "samoan": "palapala",
+    "samoan": "palapalā",
     "english": "dirty",
     "chapter": 48,
     "letter": "P"
@@ -2496,7 +2502,7 @@
     "letter": "P"
   },
   {
-    "samoan": "pāʻū",
+    "samoan": "paʻū",
     "english": "fall",
     "chapter": 35,
     "letter": "P"
@@ -2592,7 +2598,7 @@
     "letter": "P"
   },
   {
-    "samoan": "poloaʻiga",
+    "samoan": "pōloaʻiga",
     "english": "instruction",
     "chapter": 39,
     "letter": "P"
@@ -2658,7 +2664,7 @@
     "letter": "P"
   },
   {
-    "samoan": "putaafa",
+    "samoan": "putaʻafa",
     "english": "fat",
     "chapter": 46,
     "letter": "P"
@@ -2682,13 +2688,19 @@
     "letter": "S"
   },
   {
+    "samoan": "saʻai",
+    "english": "ogre",
+    "chapter": 37,
+    "letter": "S"
+  },
+  {
     "samoan": "saienitisi",
     "english": "scientist",
     "chapter": 31,
     "letter": "S"
   },
   {
-    "samoan": "saisai",
+    "samoan": "sāisai",
     "english": "tie, tie up",
     "chapter": 27,
     "letter": "S"
@@ -2754,13 +2766,7 @@
     "letter": "S"
   },
   {
-    "samoan": "sauʻai",
-    "english": "ogre",
-    "chapter": 37,
-    "letter": "S"
-  },
-  {
-    "samoan": "sauni",
+    "samoan": "sāuni",
     "english": "prepare, get ready",
     "chapter": 37,
     "letter": "S"
@@ -2808,7 +2814,13 @@
     "letter": "S"
   },
   {
-    "samoan": "semanū",
+    "samoan": "sēleni",
+    "english": "shilling",
+    "chapter": 51,
+    "letter": "S"
+  },
+  {
+    "samoan": "sēmanū",
     "english": "probably: often opens the main clause after an *ʻana* clause",
     "chapter": 49,
     "letter": "S"
@@ -2826,15 +2838,9 @@
     "letter": "S"
   },
   {
-    "samoan": "sii",
+    "samoan": "siʻi",
     "english": "move",
     "chapter": 38,
-    "letter": "S"
-  },
-  {
-    "samoan": "sileni",
-    "english": "shilling",
-    "chapter": 51,
     "letter": "S"
   },
   {
@@ -3018,7 +3024,7 @@
     "letter": "S"
   },
   {
-    "samoan": "suasami",
+    "samoan": "suāsami",
     "english": "salt water",
     "chapter": 8,
     "letter": "S"
@@ -3060,7 +3066,7 @@
     "letter": "T"
   },
   {
-    "samoan": "taaalo",
+    "samoan": "tāʻaʻalo",
     "english": "play (said of more than one)",
     "chapter": 37,
     "letter": "T"
@@ -3078,7 +3084,7 @@
     "letter": "T"
   },
   {
-    "samoan": "taatia",
+    "samoan": "taʻatia",
     "english": "lie down",
     "chapter": 35,
     "letter": "T"
@@ -3246,7 +3252,7 @@
     "letter": "T"
   },
   {
-    "samoan": "tamaitai",
+    "samoan": "tamaʻitaʻi",
     "english": "lady",
     "chapter": 6,
     "letter": "T"
@@ -3264,7 +3270,7 @@
     "letter": "T"
   },
   {
-    "samoan": "tamaoaiga",
+    "samoan": "tamāoʻāiga",
     "english": "wealth",
     "chapter": 43,
     "letter": "T"
@@ -3282,7 +3288,7 @@
     "letter": "T"
   },
   {
-    "samoan": "tāʻoto",
+    "samoan": "taʻoto",
     "english": "lie (down)",
     "chapter": 29,
     "letter": "T"
@@ -3294,7 +3300,7 @@
     "letter": "T"
   },
   {
-    "samoan": "tapuni",
+    "samoan": "tāpuni",
     "english": "shut",
     "chapter": 5,
     "letter": "T"
@@ -3348,13 +3354,13 @@
     "letter": "T"
   },
   {
-    "samoan": "taua",
+    "samoan": "tāua",
     "english": "precious, important",
     "chapter": 46,
     "letter": "T"
   },
   {
-    "samoan": "tauaso",
+    "samoan": "tāuaso",
     "english": "blind",
     "chapter": 4,
     "letter": "T"
@@ -3378,7 +3384,7 @@
     "letter": "T"
   },
   {
-    "samoan": "taulealea",
+    "samoan": "tauleʻaleʻa",
     "english": "young man",
     "chapter": 46,
     "letter": "T"
@@ -3480,7 +3486,7 @@
     "letter": "T"
   },
   {
-    "samoan": "tina",
+    "samoan": "tinā",
     "english": "mother",
     "chapter": 17,
     "letter": "T"
@@ -3540,7 +3546,7 @@
     "letter": "T"
   },
   {
-    "samoan": "totoga",
+    "samoan": "tōtōga",
     "english": "internal organs",
     "chapter": 32,
     "letter": "T"
@@ -3582,7 +3588,7 @@
     "letter": "T"
   },
   {
-    "samoan": "tulafono",
+    "samoan": "tulāfono",
     "english": "law",
     "chapter": 28,
     "letter": "T"
@@ -3642,19 +3648,19 @@
     "letter": "U"
   },
   {
-    "samoan": "uamea",
+    "samoan": "uʻamea",
     "english": "steel, iron",
     "chapter": 42,
     "letter": "U"
   },
   {
     "samoan": "ui",
-    "english": "granted: *e ui* with an *ina* clause, or with a noun phrase opened by *i* or *ʻo*, says although or in spite of",
+    "english": "granted: *e ui* with an *ina* clause, or with a noun phrase opened by *ʻi* or *ʻo*, says although or in spite of",
     "chapter": 49,
     "letter": "U"
   },
   {
-    "samoan": "ula",
+    "samoan": "ʻula",
     "english": "necklace",
     "chapter": 46,
     "letter": "U"
@@ -3666,7 +3672,7 @@
     "letter": "U"
   },
   {
-    "samoan": "ulavai",
+    "samoan": "ulāvai",
     "english": "prawn",
     "chapter": 8,
     "letter": "U"
@@ -3768,13 +3774,13 @@
     "letter": "V"
   },
   {
-    "samoan": "vaai",
+    "samoan": "vaʻai",
     "english": "see",
     "chapter": 4,
     "letter": "V"
   },
   {
-    "samoan": "vaalele",
+    "samoan": "vaʻalele",
     "english": "airplane",
     "chapter": 33,
     "letter": "V"
@@ -3786,7 +3792,7 @@
     "letter": "V"
   },
   {
-    "samoan": "vaega",
+    "samoan": "vāega",
     "english": "section, part",
     "chapter": 32,
     "letter": "V"
@@ -3810,7 +3816,7 @@
     "letter": "V"
   },
   {
-    "samoan": "vaivai",
+    "samoan": "vāivai",
     "english": "be weak, be tired",
     "chapter": 35,
     "letter": "V"

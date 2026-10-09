@@ -11,14 +11,14 @@ what should not happen.
 ## The Four Mood Particles
 
 ::: {.examples}
-*ʻIa tātou onosaʻi.* Let's be patient.
+*ʻIa tātou ʻonosaʻi.* Let's be patient.
 
 *Seʻi oʻu alu muamua.* Let me go first.
 :::
 
 Neither sentence has a tense particle. In the first, *ʻia* stands where *sā* or
 *ʻua* would stand, in front of the preverbal pronoun *tātou* (we, you and I) and
-the verb *onosaʻi* (be patient). In the second, *seʻi* stands in the same place,
+the verb *ʻonosaʻi* (be patient). In the second, *seʻi* stands in the same place,
 in front of *oʻu*, the second shape of the word for I, and *alu muamua* (go
 first). Neither word says when the event happens. Each says how the speaker
 stands toward it: asked for, wanted, allowed.
@@ -49,7 +49,7 @@ do-not verb and in a purpose clause.
 ## The Polite-Command Particle *ʻIa*
 
 ::: {.examples}
-*ʻIa ʻe onosaʻi.* Be patient.
+*ʻIa ʻe ʻonosaʻi.* Be patient.
 
 *ʻIa manuia le malaga.* Have a nice trip. (Lit. "May the journey be nice.")
 :::
@@ -66,8 +66,8 @@ after the verb.
 
 | Samoan | English |
 |---|---|
-| *ʻIa tātou onosaʻi.* | Let's be patient. |
-| *ʻIa ʻe onosaʻi.* | Be patient. |
+| *ʻIa tātou ʻonosaʻi.* | Let's be patient. |
+| *ʻIa ʻe ʻonosaʻi.* | Be patient. |
 | *ʻIa manuia le malaga.* | Have a nice trip. (Lit. "May the journey be nice.") |
 | *ʻIa manuia le aso.* | Have a nice day. (Lit. "May the day be nice.") |
 
@@ -79,7 +79,7 @@ inside a longer sentence, in the two uses below.
 ::: {.examples}
 *Faʻatali.* Wait.
 
-*ʻUa faatonu mai e le tama ʻia faʻatali le teine.* The boy gave the order that the girl should wait.
+*ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.* The boy gave the order that the girl should wait.
 :::
 
 The first sentence is a command said straight to a person: the bare verb, with
@@ -91,15 +91,15 @@ is the same *ʻia*.
 ### Saying What an Action Is For
 
 ::: {.examples}
-*Tatalo ina ʻia maua se fesoasoani.* Pray in order to get some help.
+*Tatalo ʻina ʻia maua se fesoasoani.* Pray in order to get some help.
 
 *Tatalo ʻia maua se fesoasoani.* Pray to get some help.
 :::
 
 An *ʻia* clause after another clause can say what the first action is for. In
-the first sentence *ina* stands in front of *ʻia*, and the pair *ina ʻia* means
-in order to. The joining word *ina* marks the clause as part of the sentence
-before it. After a verb of saying or ordering, *ina ʻia* reports a command
+the first sentence *ʻina* stands in front of *ʻia*, and the pair *ʻina ʻia* means
+in order to. The joining word *ʻina* marks the clause as part of the sentence
+before it. After a verb of saying or ordering, *ʻina ʻia* reports a command
 instead.
 
 In the second sentence no word joins the two clauses. The *ʻia* clause still
@@ -111,7 +111,7 @@ link. Read it for its meaning, a purpose.
 | Part | Form | Function |
 |---|---|---|
 | first clause | *Tatalo* | the action |
-| joining word | *ina*, or none | marks the link, when present |
+| joining word | *ʻina*, or none | marks the link, when present |
 | *ʻia* clause | *ʻia maua se fesoasoani* | what the action is for |
 
 ---
@@ -162,7 +162,7 @@ more hopeful one, and *ʻia* the plainer and firmer one.
 ### A Second Clause with *Seʻi*
 
 ::: {.examples}
-*ʻOu te fia alu i Sāmoa seʻi vaʻai atu oʻu mātua.* I want to go to Samoa to take care of my parents. (Lit. "I want to go to Samoa, seʻi look toward my parents.")
+*ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua.* I want to go to Samoa to take care of my parents. (Lit. "I want to go to Samoa, seʻi look toward my parents.")
 
 *Faʻamolemole, ʻaumai se moli seʻi ʻai ai le loʻomatua.* Please bring an orange for the old woman to eat. (Lit. "Please bring an orange, let the old woman eat from it.")
 :::
@@ -192,7 +192,7 @@ clause belongs to the first.
 ::: {.examples}
 *Faʻatali seʻia sau le tama.* Wait until the boy comes.
 
-*Faʻatali seʻia fai oʻu ofu.* Wait until I have put on my clothes. (Lit. "Wait until do my clothes.")
+*Faʻatali seʻia fai oʻu ʻofu.* Wait until I have put on my clothes. (Lit. "Wait until do my clothes.")
 :::
 
 *Seʻia* means until. It is mostly used to say how long something goes on: here,
@@ -207,9 +207,9 @@ at all; the clause names the clothes.
 | Samoan | English |
 |---|---|
 | *Faʻatali seʻia sau le tama.* | Wait until the boy comes. |
-| *Faʻatali seʻia sau lou tina.* | Wait until your mother comes. |
+| *Faʻatali seʻia sau lou tinā.* | Wait until your mother comes. |
 | *Sā ʻou faʻatali seʻia sau le pasi.* | I waited until the bus came. |
-| *Faʻatali seʻia fai oʻu ofu.* | Wait until I have put on my clothes. (Lit. "Wait until do my clothes.") |
+| *Faʻatali seʻia fai oʻu ʻofu.* | Wait until I have put on my clothes. (Lit. "Wait until do my clothes.") |
 
 > *Note:* Sometimes *seʻi* also means until, and then it can take a preverbal
 > pronoun, as in *ʻAua ʻe te alu seʻi oʻu sau.* Don't go until I come. (Lit.
@@ -220,13 +220,13 @@ at all; the clause names the clothes.
 ## The Warning Particle *Neʻi*
 
 ::: {.examples}
-*E lē tago i se mea neʻi palapala ona atigi=lima.* She did not touch anything, in order not to get dirty finger-nails. (Lit. "Not touch any thing, lest dirty her finger-nails.")
+*E lē tago ʻi se mea neʻi palapalā ona atigi-lima.* She did not touch anything, in order not to get dirty finger-nails. (Lit. "Not touch any thing, lest dirty her finger-nails.")
 :::
 
 *Neʻi* marks an event that has not happened, that might happen, and that should
 not. Here the dirty finger-nails are what the not-touching guards against.
-*Tago* (touch) takes the place word before what is touched, *palapala* (dirty)
-fills the verb slot of the second clause, and *atigi=lima* (finger-nail) is one
+*Tago* (touch) takes the place word before what is touched, *palapalā* (dirty)
+fills the verb slot of the second clause, and *atigi-lima* (finger-nail) is one
 word built from the words for shell and hand, joined by the equals sign. *Ona*
 is the her-word for more than one particular thing, formed as *oʻu* is for my.
 
@@ -238,8 +238,8 @@ leans on another clause.
 
 | Part | Form | Function |
 |---|---|---|
-| first clause | *E lē tago i se mea* | what is done, or not done |
-| *neʻi* clause | *neʻi palapala ona atigi=lima* | what should not happen |
+| first clause | *E lē tago ʻi se mea* | what is done, or not done |
+| *neʻi* clause | *neʻi palapalā ona atigi-lima* | what should not happen |
 
 ### After the Do-Not Verb
 
@@ -273,12 +273,12 @@ noise.
 ### After Worry, Fear and Dislike
 
 ::: {.examples}
-*ʻO le isi foi mea e popole i ai le faifeau, neʻi tei ʻua foi le malaga i Sāmoa.* Another thing the pastor was worried about was that the travel party might suddenly return to Samoa. (Lit. "The other also thing the pastor worries about, lest suddenly has returned the travel party to Samoa.")
+*ʻO le isi foʻi mea e popole ʻi ai le faifeʻau, neʻi tei ʻua foʻi le malaga ʻi Sāmoa.* Another thing the pastor was worried about was that the travel party might suddenly return to Samoa. (Lit. "The other also thing the pastor worries about, lest suddenly has returned the travel party to Samoa.")
 :::
 
 *Popole* (worry) names a feeling about something that should not happen, and the
 thing worried about is put in a *neʻi* clause. Here the *neʻi* clause names what
-the *faifeau* (pastor) was worried about: the travel party coming back. *Foi*
+the *faifeʻau* (pastor) was worried about: the travel party coming back. *Foʻi*
 stands twice, meaning also the first time and return the second, and *tei* here
 means happen suddenly.
 
@@ -294,7 +294,7 @@ perhaps a few other verbs of thinking and feeling do too. After these verbs
 
 | Word | What it does |
 |---|---|
-| *ʻia* | the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ina ʻia*, in order to) |
+| *ʻia* | the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ʻina ʻia*, in order to) |
 | *seʻi* | the wish-and-permission particle: asks permission about the speaker, makes a polite request to the listener, states a wish about someone else; less absolute than *ʻia* |
 | *seʻia* | the until particle: never takes a preverbal pronoun |
 | *neʻi* | the warning particle, met earlier: something that should not happen; its clause always depends on another |
@@ -305,10 +305,10 @@ perhaps a few other verbs of thinking and feeling do too. After these verbs
 | Word | Meaning |
 |---|---|
 | *musu* | dislike |
-| *palapala* | dirty |
+| *palapalā* | dirty |
 | *tago* | touch |
-| *atigi=lima* | finger-nail |
-| *faifeau* | pastor |
+| *atigi-lima* | finger-nail |
+| *faifeʻau* | pastor |
 | *pisa* | noise; in the verb slot, make a noise |
 
 ---
@@ -317,13 +317,13 @@ perhaps a few other verbs of thinking and feeling do too. After these verbs
 
 ### Exercise 1: Translate into English
 
-1. *ʻIa tātou onosaʻi.*
+1. *ʻIa tātou ʻonosaʻi.*
 2. *Seʻi oʻu fesili.*
 3. *Faʻatali seʻia sau le tama.*
 4. *ʻAua neʻi ʻe tagi.*
 5. *ʻIa manuia le aso.*
 6. *Tatalo ʻia maua se fesoasoani.*
-7. *ʻOu te fia alu i Sāmoa seʻi vaʻai atu oʻu uso.*
+7. *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu uso.*
 8. *Faʻamolemole, ʻaumai se meaʻai seʻi ʻai ai le toeaʻina.*
 
 ### Exercise 2: Translate into Samoan
@@ -372,19 +372,19 @@ wish.
 1. In *ʻAua ʻe te alu seʻi oʻu sau*, why could *seʻia* not stand where *seʻi* stands?
 2. Which is the firmer plea, *seʻi alofa atu* or *ʻia alofa atu*?
 3. Can a *neʻi* clause stand on its own as a sentence?
-4. In *E lē tago i se mea neʻi palapala ona atigi=lima*, what does the *neʻi* clause name?
-5. In *ʻOu te fia alu i Sāmoa seʻi vaʻai atu oʻu mātua*, what suggests that the *seʻi* clause belongs to the first clause?
+4. In *E lē tago ʻi se mea neʻi palapalā ona atigi-lima*, what does the *neʻi* clause name?
+5. In *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua*, what suggests that the *seʻi* clause belongs to the first clause?
 6. Name three verbs of feeling that take a *neʻi* clause about something that should not happen.
-7. In *Tatalo ina ʻia maua se fesoasoani*, what does the word *ina* do?
-8. In *ʻUa faatonu mai e le tama ʻia faʻatali le teine*, which word opens the reported command, and which bare command does the sentence pass on?
+7. In *Tatalo ʻina ʻia maua se fesoasoani*, what does the word *ʻina* do?
+8. In *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine*, which word opens the reported command, and which bare command does the sentence pass on?
 
 ### Exercise 7: Give the English
 
 1. *musu*
-2. *palapala*
+2. *palapalā*
 3. *tago*
-4. *atigi=lima*
-5. *faifeau*
+4. *atigi-lima*
+5. *faifeʻau*
 6. *pisa*
 
 ---
@@ -405,9 +405,9 @@ wish.
 ### Exercise 2
 
 1. *Seʻi oʻu alu muamua.*
-2. *Faʻatali seʻia sau lou tina.*
+2. *Faʻatali seʻia sau lou tinā.*
 3. *ʻAua neʻi ʻe siva.*
-4. *ʻIa ʻe onosaʻi.*
+4. *ʻIa ʻe ʻonosaʻi.*
 5. *Sā ʻou faʻatali seʻia sau le pasi.*
 6. *Faʻamolemole, ʻaumai se moli seʻi ʻai ai le loʻomatua.*
 
@@ -435,7 +435,7 @@ wish.
 4. Something that should not happen: her finger-nails getting dirty.
 5. Nothing in the words. The way Samoan speakers say such sentences, and the way Samoan writers punctuate them, suggests it.
 6. *Popole* (worry), *fefe* (be afraid) and *musu* (dislike).
-7. It joins the *ʻia* clause to *tatalo* and marks it as part of the sentence before it; *ina ʻia* means in order to.
+7. It joins the *ʻia* clause to *tatalo* and marks it as part of the sentence before it; *ʻina ʻia* means in order to.
 8. *ʻIa* opens it. The sentence passes on the bare command *Faʻatali* (Wait).
 
 ### Exercise 7

@@ -11,12 +11,12 @@
         "states": [
           {
             "label": "Reason last",
-            "sm": "Na alu le tama i le fale ʻona ʻua maʻi le teine.",
+            "sm": "Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.",
             "en": "The boy went to the house because the girl was sick."
           },
           {
             "label": "Reason first",
-            "sm": "ʻOna ʻua maʻi le teine, na alu ai le tama i le fale.",
+            "sm": "ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.",
             "en": "Because the girl was sick, the boy went to the house.",
             "note": "*Ai* points back to the whole reason clause."
           }
@@ -66,7 +66,7 @@
         ],
         "items": [
           {
-            "sm": "Sā taatia le teine i le fale ʻauā ʻua vaivai.",
+            "sm": "Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.",
             "en": "The girl lay down in the house because she was tired.",
             "bin": "reason",
             "why": "The because-word opens the reason under its own tense particle."
@@ -106,7 +106,7 @@
         "lines": [
           {
             "who": "question",
-            "sm": "ʻAiseā na alu ai le tamāloa i le nuʻu?",
+            "sm": "ʻAiseā na alu ai le tamāloa ʻi le nuʻu?",
             "en": "Why did the man go to the village?"
           },
           {

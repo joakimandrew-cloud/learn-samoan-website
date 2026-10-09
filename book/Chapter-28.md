@@ -259,7 +259,7 @@ The nouns:
 | *māsima* | salt |
 | *pata* | butter |
 | *suka* | sugar |
-| *tulafono* | law |
+| *tulāfono* | law |
 
 ---
 
@@ -338,7 +338,7 @@ counting times, or saying a negative gently.
 6. *tatalo*
 7. *tatau*
 8. *tū*
-9. *tulafono*
+9. *tulāfono*
 
 ---
 

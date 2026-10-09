@@ -125,14 +125,14 @@ Taught in Chapter 4. This is the four-particle set Chapter 4 teaches; the genera
 
 ## Demonstrative
 
-This book teaches one demonstrative, *lena* ("that"), drilled in Chapter 7 against five naming sentences. Samoan has a fuller set of demonstratives beyond this one; that fuller set is outside this book.
+This book teaches one demonstrative, *lenā* ("that"), drilled in Chapter 7 against five naming sentences. Samoan has a fuller set of demonstratives beyond this one; that fuller set is outside this book.
 
 | Samoan | English |
 |---|---|
-| *ʻO le pusi lena.* | That is the cat. |
-| *ʻO le tama lena.* | That is the boy. |
-| *ʻO le laau lena.* | That is the tree. |
-| *ʻO le aiga lena.* | That is the family. |
-| *ʻO se uō lena.* | That is a friend. |
+| *ʻO le pusi lenā.* | That is the cat. |
+| *ʻO le tama lenā.* | That is the boy. |
+| *ʻO le lāʻau lenā.* | That is the tree. |
+| *ʻO le ʻāiga lenā.* | That is the family. |
+| *ʻO se uō lenā.* | That is a friend. |
 
 Taught in Chapter 7.
