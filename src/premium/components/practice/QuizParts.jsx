@@ -1,6 +1,7 @@
 import { motion as Motion } from 'motion/react'
 import { Md } from '../lesson/Blocks.jsx'
 import { Tile } from '../Tile.jsx'
+import { conciseQuizExplanation } from '../../lib/quiz-copy.js'
 
 export function QuizChoices({ q, picked, answered, choose, demo = false }) {
   const Choice = demo ? 'div' : 'button'
@@ -27,9 +28,9 @@ export function QuizExplanation({ q, chosen, still = false }) {
                       <span className="qz-why-tile" aria-hidden="true"><Tile kind={chosen.correct ? 'dot' : 'ring'} framed /></span>
                       <div>
                         <p className="qz-why-h">{chosen.correct ? 'Right.' : 'Not this one.'}</p>
-                        <p className="qz-why-p"><Md text={chosen.explanation} /></p>
+                        <p className="qz-why-p"><Md text={chosen.correct ? conciseQuizExplanation(chosen.explanation) : chosen.explanation} /></p>
                         {!chosen.correct && (
-                          <p className="qz-why-p qz-why-c"><strong>Why the answer is right:</strong> <Md text={q.options.find(o => o.correct).explanation} /></p>
+                          <p className="qz-why-p qz-why-c"><strong>Why the answer is right:</strong> <Md text={conciseQuizExplanation(q.options.find(o => o.correct).explanation)} /></p>
                         )}
                       </div>
                     </div>

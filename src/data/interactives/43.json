@@ -1,0 +1,110 @@
+{
+  "chapter": 43,
+  "items": [
+    {
+      "id": "ch43-describing-clause",
+      "kind": "contrast",
+      "anchor": "the-describing-clause",
+      "title": "Give the description a clause of its own",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Describing verb",
+            "sm": "le vai loloto",
+            "en": "the deep water",
+            "note": "The describing verb follows the noun directly."
+          },
+          {
+            "label": "Describing clause",
+            "sm": "le vai e loloto tele",
+            "en": "the water that is very deep",
+            "note": "The particle *e* opens a whole describing clause. The word *tele* also adds very."
+          }
+        ]
+      },
+      "caption": "The particle changes the structure; the added *tele* changes the degree. The water pair shows both differences without changing the noun."
+    },
+    {
+      "id": "ch43-missing-spot",
+      "kind": "sort",
+      "anchor": "the-thing-it-was-done-with-and-the-thing-it-was-aimed-at",
+      "title": "An empty spot or a pointing-back word?",
+      "data": {
+        "bins": [
+          {
+            "id": "empty",
+            "label": "The spot stays empty"
+          },
+          {
+            "id": "held",
+            "label": "A pointing-back word holds the spot"
+          }
+        ],
+        "items": [
+          {
+            "sm": "ʻO le tama sā moe i le fale.",
+            "en": "The boy who slept in the house.",
+            "bin": "empty",
+            "why": "The boy is the one who slept; no word inside the clause stands for him."
+          },
+          {
+            "sm": "le meaʻai ʻua maua e le teine",
+            "en": "the food the girl got",
+            "bin": "empty",
+            "why": "The food is the thing acted on, and its spot stays empty."
+          },
+          {
+            "sm": "ʻO le aso sā siva ai le teine.",
+            "en": "The day the girl danced.",
+            "bin": "held",
+            "why": "The pointing-back word *ai* holds the time’s spot."
+          },
+          {
+            "sm": "le fue na taufi aʻi le umu",
+            "en": "the liana the food in the oven was covered with",
+            "bin": "held",
+            "why": "*Aʻi* is the dedicated shape for what the action was done with; *ai* is heard in that job too."
+          },
+          {
+            "sm": "ʻO le mea sā alu atu le teine i ai.",
+            "en": "The place where the girl went to.",
+            "bin": "held",
+            "why": "The pair *i ai* is the usual shape for the place a movement is aimed at."
+          }
+        ]
+      },
+      "intro": "Find how the clause shows the job of the person or thing named in front."
+    },
+    {
+      "id": "ch43-one-who",
+      "kind": "contrast",
+      "anchor": "the-one-who-word-e",
+      "title": "A person described without a noun",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "One particular person",
+            "sm": "ʻO lē sā mauoloa.",
+            "en": "The one who was rich.",
+            "note": "The one-who word joins the specific article as *lē*. This example is in the past."
+          },
+          {
+            "label": "More than one",
+            "sm": "ʻO ē e mauoloa.",
+            "en": "Those who are rich.",
+            "note": "The one-who word stands on its own. This example uses the general particle."
+          },
+          {
+            "label": "The two words run together",
+            "sm": "e mauoloa",
+            "en": "the rich",
+            "note": "With the general particle, one *e* can do both jobs."
+          }
+        ]
+      },
+      "caption": "No noun names the people. The one-who word stands in that position and the clause describes them."
+    }
+  ]
+}

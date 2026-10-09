@@ -1,0 +1,107 @@
+{
+  "chapter": 31,
+  "items": [
+    {
+      "id": "ch31-comparison-steps",
+      "kind": "contrast",
+      "anchor": "naming-what-you-compare-with-i-lo",
+      "title": "Add the degree, then the other side",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "A quality",
+            "sm": "E malosi le tama.",
+            "en": "The boy is strong.",
+            "note": "The quality word has its ordinary shape."
+          },
+          {
+            "label": "A higher degree",
+            "sm": "E malosi atu le tama.",
+            "en": "The boy is stronger.",
+            "note": "*Atu* carries the comparative degree. The quality word keeps its shape."
+          },
+          {
+            "label": "The other side named",
+            "sm": "E malosi atu le tama i lo le teine.",
+            "en": "The boy is stronger than the girl.",
+            "note": "The phrase with *i lo* comes last and names what the boy is compared with."
+          }
+        ]
+      },
+      "caption": "Step through the printed sentences. Degree and the other side of the comparison arrive as separate words."
+    },
+    {
+      "id": "ch31-alike-or-agree",
+      "kind": "pick",
+      "anchor": "saying-two-things-are-alike-pei-and-tusa-ma",
+      "title": "Likeness or agreement?",
+      "data": {
+        "question": "What does the comparison claim?",
+        "options": [
+          {
+            "id": "like",
+            "label": "Likeness or an imagined situation"
+          },
+          {
+            "id": "agree",
+            "label": "Agreement with something"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Sā tautala le tama e pei sā i ai.",
+            "answer": "like",
+            "why": "*Pei* can compare with an imagined situation: as if he had been there."
+          },
+          {
+            "sm": "E tautala le tama e pei o se saienitisi.",
+            "answer": "like",
+            "why": "*Pei* likens the way the boy talks to a scientist."
+          },
+          {
+            "sm": "Sā siva le teine e tusa ma le finagalo o le tamā.",
+            "answer": "agree",
+            "why": "*Tusa ma* says that the dancing is in accordance with the wish."
+          }
+        ]
+      },
+      "intro": "Read the comparison at the end and choose the kind of link it makes."
+    },
+    {
+      "id": "ch31-comparison-words",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Recall the things being compared",
+      "data": {
+        "pairs": [
+          {
+            "sm": "aʻau",
+            "en": "reef"
+          },
+          {
+            "sm": "faitotoʻa",
+            "en": "door"
+          },
+          {
+            "sm": "koko",
+            "en": "cocoa"
+          },
+          {
+            "sm": "maile",
+            "en": "dog"
+          },
+          {
+            "sm": "manulele",
+            "en": "bird"
+          },
+          {
+            "sm": "saienitisi",
+            "en": "scientist"
+          }
+        ]
+      },
+      "intro": "Match each printed noun to its meaning."
+    }
+  ]
+}

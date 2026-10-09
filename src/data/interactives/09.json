@@ -1,0 +1,121 @@
+{
+  "chapter": 9,
+  "items": [
+    {
+      "id": "ch9-greeting-and-farewell",
+      "kind": "contrast",
+      "anchor": "greetings-and-farewells",
+      "title": "Recognize a greeting and two farewells",
+      "caption": "These are separate printed formulas. The complete greeting reply carries another word that this book does not teach.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "Greeting",
+            "sm": "Tālofa.",
+            "en": "Hello."
+          },
+          {
+            "label": "Farewell",
+            "sm": "Tōfā soifua.",
+            "en": "Goodbye."
+          },
+          {
+            "label": "A wish of good health",
+            "sm": "Soifua.",
+            "en": "Good health. (a farewell)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch9-careful-everyday",
+      "kind": "grid",
+      "anchor": "the-everyday-style",
+      "title": "Hear the careful form through everyday speech",
+      "caption": "The everyday style folds sound distinctions together. The chapter asks you to recognize these forms while continuing to speak the careful style.",
+      "data": {
+        "cols": [
+          "Careful style",
+          "Everyday style"
+        ],
+        "rows": [
+          {
+            "label": "Hello",
+            "cells": [
+              {
+                "sm": "tālofa",
+                "en": "hello"
+              },
+              {
+                "sm": "kālofa",
+                "en": "hello"
+              }
+            ]
+          },
+          {
+            "label": "Fine or blessed",
+            "cells": [
+              {
+                "sm": "manuia",
+                "en": "fine, blessed"
+              },
+              {
+                "sm": "maguia",
+                "en": "fine, blessed"
+              }
+            ]
+          },
+          {
+            "label": "Thank you",
+            "cells": [
+              {
+                "sm": "faʻafetai",
+                "en": "thank you"
+              },
+              {
+                "sm": "faʻafekai",
+                "en": "thank you"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch9-match-courtesy",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Match the courtesy formulas",
+      "intro": "Pair each formula with the meaning printed in this chapter.",
+      "data": {
+        "pairs": [
+          {
+            "sm": "tālofa",
+            "en": "hello; feel sympathy"
+          },
+          {
+            "sm": "tōfā",
+            "en": "goodbye"
+          },
+          {
+            "sm": "soifua",
+            "en": "good health, life"
+          },
+          {
+            "sm": "faʻafetai",
+            "en": "thank you"
+          },
+          {
+            "sm": "faʻamolemole",
+            "en": "please"
+          },
+          {
+            "sm": "mālō",
+            "en": "congratulate; hi"
+          }
+        ]
+      }
+    }
+  ]
+}

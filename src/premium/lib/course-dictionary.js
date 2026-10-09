@@ -51,7 +51,7 @@ function rank(entry, q) {
 }
 
 export function searchDictionary(entries, query) {
-  const q = foldSearchKey(query)
+  const q = foldSearchKey(query).replace(/^[=-]+/, '')
   if (!q) return entries
   const scored = []
   entries.forEach((entry, index) => {

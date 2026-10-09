@@ -1,0 +1,103 @@
+{
+  "chapter": 29,
+  "items": [
+    {
+      "id": "ch29-wait-direction",
+      "kind": "contrast",
+      "anchor": "the-six-direction-words",
+      "title": "The same verb, a different direction",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Toward the speaker",
+            "sm": "Faʻatali mai.",
+            "en": "Wait for me.",
+            "note": "The other person is leaving, and the speaker wants to be waited for."
+          },
+          {
+            "label": "Away from the speaker",
+            "sm": "Faʻatali atu.",
+            "en": "Wait here until I come back.",
+            "note": "The speaker is leaving and asks the other person to stay until the speaker returns."
+          }
+        ]
+      },
+      "caption": "The last word turns the waiting toward or away from the speaker. The English translations include the situation in which each phrase is used."
+    },
+    {
+      "id": "ch29-event-directions",
+      "kind": "scale",
+      "anchor": "up-and-down-ae-and-ifo",
+      "title": "Directions measured from the event",
+      "data": {
+        "layout": "map",
+        "points": [
+          {
+            "x": 50,
+            "y": 0,
+            "label": "aʻe",
+            "gloss": "up",
+            "note": "Up stays up whoever is speaking."
+          },
+          {
+            "x": 50,
+            "y": 100,
+            "label": "ifo",
+            "gloss": "down",
+            "note": "Down stays down whoever is speaking."
+          },
+          {
+            "x": 100,
+            "y": 50,
+            "label": "ʻese",
+            "gloss": "away from a point",
+            "note": "This direction is measured from a point fixed by the event, rather than from the speaker."
+          }
+        ]
+      },
+      "caption": "These three words take their bearings from the event or thing itself. This is a schematic map of their directions, not a compass."
+    },
+    {
+      "id": "ch29-read-direction",
+      "kind": "pick",
+      "anchor": "a-direction-word-inside-a-spatial-noun",
+      "title": "Hear the direction",
+      "data": {
+        "question": "Which direction does the marked word give?",
+        "options": [
+          {
+            "id": "up",
+            "label": "up"
+          },
+          {
+            "id": "down",
+            "label": "down"
+          },
+          {
+            "id": "away",
+            "label": "away from the speaker"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Na alu vave atu le tama.",
+            "answer": "away",
+            "why": "The describing word *vave* comes before the direction word *atu*, which points away from the speaker."
+          },
+          {
+            "sm": "Sā nofo aʻe ai le tama.",
+            "answer": "up",
+            "why": "The direction word *aʻe* comes after the verb and before *ai*."
+          },
+          {
+            "sm": "ʻO le pusi i lalo ifo o le fale.",
+            "answer": "down",
+            "why": "The direction word *ifo* follows the spatial noun and keeps its downward direction."
+          }
+        ]
+      },
+      "intro": "Read the whole sentence, then choose the direction supplied by its direction word."
+    }
+  ]
+}

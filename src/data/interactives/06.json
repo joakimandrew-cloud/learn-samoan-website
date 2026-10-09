@@ -1,0 +1,128 @@
+{
+  "chapter": 6,
+  "items": [
+    {
+      "id": "ch6-article-grid",
+      "kind": "grid",
+      "anchor": "one-and-many-the-article-carries-the-number",
+      "title": "Four article choices",
+      "caption": "Each phrase answers two questions: one or many, and a particular thing or any at all. The specific plural has an empty article slot before the noun.",
+      "data": {
+        "rowLabel": "Reference",
+        "colLabel": "Number",
+        "cols": [
+          "One",
+          "Many"
+        ],
+        "rows": [
+          {
+            "label": "Specific",
+            "cells": [
+              {
+                "sm": "le teine",
+                "en": "the girl"
+              },
+              {
+                "sm": "teine",
+                "en": "the girls",
+                "note": "No article stands before the particular plural."
+              }
+            ]
+          },
+          {
+            "label": "Non-specific",
+            "cells": [
+              {
+                "sm": "se teine",
+                "en": "a girl (any girl)"
+              },
+              {
+                "sm": "ni teine",
+                "en": "some girls"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch6-one-and-many",
+      "kind": "contrast",
+      "anchor": "one-and-many-the-article-carries-the-number",
+      "title": "The article carries the number",
+      "caption": "The noun keeps its shape. Dropping *le* changes one particular girl into particular girls.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "One",
+            "sm": "le teine",
+            "en": "the girl"
+          },
+          {
+            "label": "Many",
+            "sm": "teine",
+            "en": "the girls"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch6-sort-article-phrases",
+      "kind": "sort",
+      "anchor": "the-non-specific-articles-se-and-ni",
+      "title": "Specific or non-specific",
+      "intro": "Sort each printed phrase by whether the speaker has a particular thing in mind.",
+      "data": {
+        "bins": [
+          {
+            "id": "specific",
+            "label": "Specific"
+          },
+          {
+            "id": "non-specific",
+            "label": "Non-specific"
+          }
+        ],
+        "items": [
+          {
+            "sm": "le teine",
+            "en": "the girl",
+            "bin": "specific",
+            "why": "The article *le* marks one particular girl."
+          },
+          {
+            "sm": "le ipu",
+            "en": "the cup",
+            "bin": "specific",
+            "why": "The article *le* marks one particular cup."
+          },
+          {
+            "sm": "se teine",
+            "en": "a girl (any girl)",
+            "bin": "non-specific",
+            "why": "The article *se* marks any single girl, with no particular one chosen."
+          },
+          {
+            "sm": "se mea",
+            "en": "a thing, something",
+            "bin": "non-specific",
+            "why": "The article *se* marks one thing with no particular one chosen."
+          },
+          {
+            "sm": "ni teine",
+            "en": "some girls",
+            "bin": "non-specific",
+            "why": "The article *ni* marks more than one, with no particular ones chosen."
+          },
+          {
+            "sm": "ni mea",
+            "en": "some things",
+            "bin": "non-specific",
+            "why": "The article *ni* marks more than one non-specific thing."
+          }
+        ]
+      }
+    }
+  ]
+}

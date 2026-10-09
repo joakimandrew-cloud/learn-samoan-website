@@ -1,0 +1,59 @@
+{
+  "chapter": 24,
+  "items": [
+    {
+      "id": "ch24-dont-or-stop",
+      "kind": "contrast",
+      "anchor": "the-stop-verb-soia",
+      "title": "Forbid an action or stop one under way",
+      "caption": "The two do-not verbs take the same person and verb after them. Their difference is whether the action is forbidden or already under way.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Forbid", "sm": "ʻAua ʻe te siva.", "en": "Don't dance." },
+          { "label": "Stop", "sm": "Sōia ʻe te siva.", "en": "Stop dancing." }
+        ]
+      }
+    },
+    {
+      "id": "ch24-four-negative-tools",
+      "kind": "grid",
+      "anchor": "a-command-has-no-not-word",
+      "title": "Four negative tools for four jobs",
+      "caption": "A statement, an event not yet completed, missing existence, and a forbidden command use different negative tools.",
+      "data": {
+        "cols": ["Printed example"],
+        "rows": [
+          { "label": "Statement denied", "cells": [ { "sm": "Sā lē siva le tama.", "en": "The boy did not dance." } ] },
+          { "label": "Not yet", "cells": [ { "sm": "E leʻi alu le teine.", "en": "The girl has not gone yet." } ] },
+          { "label": "Nothing exists", "cells": [ { "sm": "E leai se tusi.", "en": "There is no book." } ] },
+          { "label": "Action forbidden", "cells": [ { "sm": "ʻAua ʻe te faitala.", "en": "Don't gossip." } ] }
+        ]
+      }
+    },
+    {
+      "id": "ch24-pick-aua-soia",
+      "kind": "pick",
+      "anchor": "the-stop-verb-soia",
+      "title": "Choose do not or stop",
+      "intro": "Read the English and choose the complete printed prohibition.",
+      "data": {
+        "question": "Which sentence says this?",
+        "prompts": [
+          { "en": "Don't gossip.", "answer": "forbid", "options": [
+            { "id": "forbid", "sm": "ʻAua ʻe te faitala." },
+            { "id": "stop", "sm": "Sōia ʻe te faitala." }
+          ], "why": "The do-not verb forbids the action." },
+          { "en": "Stop dancing.", "answer": "stop", "options": [
+            { "id": "forbid", "sm": "ʻAua ʻe te siva." },
+            { "id": "stop", "sm": "Sōia ʻe te siva." }
+          ], "why": "The stop verb tells the listener to end the action already under way." },
+          { "en": "Stop crying.", "answer": "stop", "options": [
+            { "id": "forbid", "sm": "ʻAua ʻe te siva." },
+            { "id": "stop", "sm": "Sōia ʻe te tagi." }
+          ], "why": "The crying is treated as already under way." }
+        ]
+      }
+    }
+  ]
+}

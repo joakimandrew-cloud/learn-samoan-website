@@ -1,0 +1,121 @@
+{
+  "chapter": 44,
+  "items": [
+    {
+      "id": "ch44-since-position",
+      "kind": "contrast",
+      "anchor": "where-the-since-clause-stands",
+      "title": "The since-clause can stand on either side",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Since-clause first",
+            "sm": "Talu ona ʻou sau ʻou te leʻi maua se mea lelei.",
+            "en": "Since I came, I have not got anything good."
+          },
+          {
+            "label": "Since-clause last",
+            "sm": "ʻOu te leʻi maua se mea lelei talu ona ʻou sau.",
+            "en": "I have not got anything good since I came."
+          }
+        ]
+      },
+      "caption": "The order changes and the meaning does not. The clause after *ona* usually has no tense particle of its own."
+    },
+    {
+      "id": "ch44-time-tools",
+      "kind": "sort",
+      "anchor": "the-le-phrase-at-the-head-of-a-sentence",
+      "title": "Which tool sets the time?",
+      "data": {
+        "bins": [
+          {
+            "id": "since",
+            "label": "A since-clause"
+          },
+          {
+            "id": "when",
+            "label": "A when-clause"
+          },
+          {
+            "id": "event",
+            "label": "An event packed into a le-phrase"
+          }
+        ],
+        "items": [
+          {
+            "sm": "Talu ona ʻou alu ʻou te leʻi maua se mea fou.",
+            "en": "Since I left, I have not got anything new.",
+            "bin": "since",
+            "why": "*Talu* counts from the event in its complement clause."
+          },
+          {
+            "sm": "Ina ʻua malama le taeao, sā sau le pasi enaena.",
+            "en": "When the morning broke, the brown bus came.",
+            "bin": "when",
+            "why": "The when-word opens the clause naming the event that turns the situation."
+          },
+          {
+            "sm": "Sā mafatia le tama ina ʻua malama le taeao.",
+            "en": "The boy was exhausted when the morning broke.",
+            "bin": "when",
+            "why": "The when-clause follows the main clause here."
+          },
+          {
+            "sm": "ʻO le sau o le pasi, e amata ai le malaga.",
+            "en": "When the bus comes, the journey begins.",
+            "bin": "event",
+            "why": "The fronted le-phrase names the bus coming, and *ai* in the other clause points back to it."
+          }
+        ]
+      },
+      "intro": "Choose the construction that times the rest of each printed sentence."
+    },
+    {
+      "id": "ch44-frequency-forms",
+      "kind": "grid",
+      "anchor": "saying-how-often",
+      "title": "Read how often",
+      "data": {
+        "cols": [
+          "Printed expression"
+        ],
+        "rowLabel": "Meaning",
+        "rows": [
+          {
+            "label": "Often",
+            "cells": [
+              {
+                "sm": "le talatalanoa soʻo",
+                "en": "the frequent talking",
+                "note": "The frequency word stands behind the verb inside the le-phrase."
+              }
+            ]
+          },
+          {
+            "label": "Each day",
+            "cells": [
+              {
+                "sm": "i le taʻi=tasi aso",
+                "en": "each day",
+                "note": "The distributive number phrase comes before the time noun."
+              }
+            ]
+          },
+          {
+            "label": "Every morning",
+            "cells": [
+              {
+                "sm": "i taeao o aso taʻi=tasi",
+                "en": "every morning",
+                "note": "The number phrase follows the time noun here."
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "The frequency word follows its verb. The distributive form works on a number inside a noun phrase; it is not a free-standing word for every."
+    }
+  ]
+}

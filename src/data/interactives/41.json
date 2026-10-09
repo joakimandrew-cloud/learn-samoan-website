@@ -1,0 +1,84 @@
+{
+  "chapter": 41,
+  "items": [
+    {
+      "id": "ch41-agent-review",
+      "kind": "contrast",
+      "anchor": "who-did-what-to-whom",
+      "title": "A report, an agentless report, a prohibition",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "The doer named",
+            "sm": "Sā tatala e le teine le pusa.",
+            "en": "The girl opened the box.",
+            "note": "The doer is marked and the box stands bare."
+          },
+          {
+            "label": "The doer absent",
+            "sm": "Sā tatala le pusa.",
+            "en": "The box was opened.",
+            "note": "The doer is removed and nothing replaces it."
+          },
+          {
+            "label": "The action forbidden",
+            "sm": "ʻAua le tatala=ina le pusa lena.",
+            "en": "Don't open that box.",
+            "note": "Forbidding with *ʻaua le* requires the long form."
+          }
+        ]
+      },
+      "caption": "Review three uses of the same verb. The last sentence follows a firm command rule, while the ordinary report uses the short form as its default."
+    },
+    {
+      "id": "ch41-clause-review",
+      "kind": "sort",
+      "anchor": "reasons-purposes-and-conditions",
+      "title": "Read the relationship between clauses",
+      "data": {
+        "bins": [
+          {
+            "id": "reason",
+            "label": "Reason"
+          },
+          {
+            "id": "purpose",
+            "label": "Purpose"
+          },
+          {
+            "id": "condition",
+            "label": "Condition"
+          }
+        ],
+        "items": [
+          {
+            "sm": "ʻUa alu le tama ʻona ʻua sau le teine.",
+            "en": "The boy went because the girl came.",
+            "bin": "reason",
+            "why": "The because-word opens a clause with its own tense particle."
+          },
+          {
+            "sm": "ʻUa malamalama le teine ʻauā ʻua tautala le tama.",
+            "en": "The girl understands because the boy has spoken.",
+            "bin": "reason",
+            "why": "The second clause gives the reason for the first."
+          },
+          {
+            "sm": "Sā alu le tama e ʻaumai le niu.",
+            "en": "The boy went to bring the coconut.",
+            "bin": "purpose",
+            "why": "The clause headed by *e* tells what the going was for."
+          },
+          {
+            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
+            "en": "If it rains tomorrow, the trip will not go.",
+            "bin": "condition",
+            "why": "The first clause says what has to be true before the main clause follows."
+          }
+        ]
+      },
+      "intro": "Choose what the added clause contributes, using the patterns already learned."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 export const LESSON_GROUPS = [
   { key: 'beginner', name: 'Beginner', verbPhrase: 'Chapters 1 to 23', lead: 'From the basic sentence to numbers and the time, closing with Checkpoint 1.' },
   { key: 'intermediate', name: 'Intermediate', verbPhrase: 'Chapters 24 to 41', lead: 'Combining clauses, closing with Checkpoint 2.' },
-  { key: 'advanced', name: 'Advanced', verbPhrase: 'Chapters 42 to 51', lead: 'Completions and systematizations.' },
+  { key: 'advanced', name: 'Advanced', verbPhrase: 'Chapters 42 to 51', lead: 'Finish the full system, then bring the course together in Checkpoint 3.' },
 ]
 
 export const LESSON_TIERS = [

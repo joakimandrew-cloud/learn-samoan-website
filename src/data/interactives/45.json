@@ -1,0 +1,94 @@
+{
+  "chapter": 45,
+  "items": [
+    {
+      "id": "ch45-intentional-hearing",
+      "kind": "contrast",
+      "anchor": "hearing-and-seeing",
+      "title": "Listening on purpose or hearing by accident",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "The doing marked",
+            "sm": "le faʻalogo a le tama",
+            "en": "the boy's listening",
+            "note": "The belonging word *a* marks the boy as a doer listening on purpose."
+          },
+          {
+            "label": "The hearing happens to him",
+            "sm": "le faʻalogo o le tama",
+            "en": "the boy's hearing",
+            "note": "The belonging word *o* makes the hearing something that happened to him."
+          }
+        ]
+      },
+      "caption": "The same verb takes both belonging words with different readings. Hearing and seeing are the pair the chapter shows doing this."
+    },
+    {
+      "id": "ch45-forced-o",
+      "kind": "pick",
+      "anchor": "when-the-choice-is-made-for-you",
+      "title": "What closes the choice?",
+      "data": {
+        "question": "Which word forces *o* in this le-phrase?",
+        "options": [
+          {
+            "id": "not",
+            "label": "The not-word"
+          },
+          {
+            "id": "want",
+            "label": "The want-word"
+          },
+          {
+            "id": "often",
+            "label": "The often-word"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "le lē pese o le teine",
+            "answer": "not",
+            "why": "A negated event did not take place. The not-word forces *o*."
+          },
+          {
+            "sm": "le fia pese o le teine",
+            "answer": "want",
+            "why": "Wanting to sing is not singing. The want-word forces *o*."
+          },
+          {
+            "sm": "le pese soʻo o le tama",
+            "answer": "often",
+            "why": "The often-word makes this a habit rather than one event that happened, and forces *o*."
+          }
+        ]
+      },
+      "intro": "Find the word inside the event that settles the belonging word before the doer test can run."
+    },
+    {
+      "id": "ch45-two-participants",
+      "kind": "contrast",
+      "anchor": "the-doer-that-keeps-e",
+      "title": "Two participants, either order",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Doer first",
+            "sm": "le fafaga e le tina o le pepe",
+            "en": "the mother's feeding of the baby",
+            "note": "The mother keeps the agent marker because the thing fed is named with *o*."
+          },
+          {
+            "label": "Thing fed first",
+            "sm": "le fafaga o le pepe e le tina",
+            "en": "the mother's feeding of the baby",
+            "note": "The same two marked phrases stand in the other order."
+          }
+        ]
+      },
+      "caption": "Both printed orders are ordinary Samoan. Moving the two phrases does not exchange their markers or their jobs."
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "chapter": 51,
+  "items": [
+    {
+      "id": "ch51-feeling-articles",
+      "kind": "grid",
+      "anchor": "the-article-sina",
+      "title": "Feeling and a small portion are different jobs",
+      "data": {
+        "cols": [
+          "Printed phrase"
+        ],
+        "rowLabel": "Article",
+        "rows": [
+          {
+            "label": "*si*",
+            "cells": [
+              {
+                "sm": "si pepe",
+                "en": "the dear baby",
+                "note": "One particular baby, with the speaker’s feeling left to the situation."
+              }
+            ]
+          },
+          {
+            "label": "*sina*",
+            "cells": [
+              {
+                "sm": "sina meaʻai",
+                "en": "a little food",
+                "note": "A small portion, which may be particular or not."
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "The first article always marks a particular one. The portion article can go either way; politeness is frequent with it, rather than guaranteed."
+    },
+    {
+      "id": "ch51-plural-feeling",
+      "kind": "contrast",
+      "anchor": "the-plural-articles-nai-and-ni-nai",
+      "title": "Feeling stays while reference changes",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Particular girls",
+            "sm": "ʻO nāi teine.",
+            "en": "The dear girls.",
+            "note": "The speaker has particular girls in mind."
+          },
+          {
+            "label": "No particular girls",
+            "sm": "ʻO ni nāi teine.",
+            "en": "Some dear girls.",
+            "note": "The added *ni* makes the plural non-specific."
+          }
+        ]
+      },
+      "caption": "Both forms carry feeling. Only *nāi* answers to the always-specific *si*, while *sina* can answer to either plural."
+    },
+    {
+      "id": "ch51-emotional-speaker",
+      "kind": "contrast",
+      "anchor": "the-emotional-first-person",
+      "title": "The English stays I",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "Ordinary middle slot",
+            "sm": "ʻOu te alu.",
+            "en": "I go."
+          },
+          {
+            "label": "Emotional middle slot",
+            "sm": "Ta te alu.",
+            "en": "I go.",
+            "note": "The speaker is emotionally involved. Humility or an appeal for help is a frequent reading, rather than a required one."
+          },
+          {
+            "label": "Named in both slots",
+            "sm": "Ta te alu ʻita.",
+            "en": "I go.",
+            "note": "The middle-slot form and the independent form both name the speaker."
+          }
+        ]
+      },
+      "caption": "The emotional middle-slot form is *ta*, with a short vowel. *Tā*, with a long vowel, is the middle-slot word for we two, you and I."
+    },
+    {
+      "id": "ch51-emotional-belonging",
+      "kind": "grid",
+      "anchor": "the-emotional-belonging-forms",
+      "title": "The same four belonging choices",
+      "data": {
+        "cols": [
+          "*a*-word",
+          "*o*-word"
+        ],
+        "rowLabel": "What is possessed",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "One particular thing",
+            "cells": [
+              {
+                "sm": "lata taʻavale",
+                "en": "my car"
+              },
+              {
+                "sm": "lota fale",
+                "en": "my house"
+              }
+            ]
+          },
+          {
+            "label": "One thing, any one",
+            "cells": [
+              {
+                "sm": "sata taʻavale",
+                "en": "a car of mine"
+              },
+              {
+                "sm": "sota fale",
+                "en": "a house of mine"
+              }
+            ]
+          },
+          {
+            "label": "More than one, particular",
+            "cells": [
+              {
+                "sm": "ata taʻavale",
+                "en": "my cars"
+              },
+              {
+                "sm": "ota fale",
+                "en": "my houses"
+              }
+            ]
+          },
+          {
+            "label": "More than one, any ones",
+            "cells": [
+              {
+                "sm": "ni ata taʻavale",
+                "en": "some cars of mine"
+              },
+              {
+                "sm": "ni ota fale",
+                "en": "some houses of mine"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "The article element changes for number and reference, while the emotional person stays joined behind the belonging word. The English is the same as for the ordinary forms."
+    },
+    {
+      "id": "ch51-read-belonging",
+      "kind": "sort",
+      "anchor": "the-emotional-belonging-forms",
+      "title": "Keep number and reference apart",
+      "data": {
+        "bins": [
+          {
+            "id": "one-specific",
+            "label": "One particular thing"
+          },
+          {
+            "id": "one-any",
+            "label": "One thing, any one"
+          },
+          {
+            "id": "many-specific",
+            "label": "More than one, particular"
+          },
+          {
+            "id": "many-any",
+            "label": "More than one, any ones"
+          }
+        ],
+        "items": [
+          {
+            "sm": "lota fale",
+            "en": "my house",
+            "bin": "one-specific",
+            "why": "The form carries the specific singular article element."
+          },
+          {
+            "sm": "sota fale",
+            "en": "a house of mine",
+            "bin": "one-any",
+            "why": "The form carries the non-specific singular article element."
+          },
+          {
+            "sm": "ata taʻavale",
+            "en": "my cars",
+            "bin": "many-specific",
+            "why": "The plural form has no article element for the particular cars."
+          },
+          {
+            "sm": "ni ota fale",
+            "en": "some houses of mine",
+            "bin": "many-any",
+            "why": "The separate *ni* marks more than one, with no particular houses meant."
+          }
+        ]
+      },
+      "intro": "Choose both how many things are named and whether particular ones are meant."
+    }
+  ]
+}

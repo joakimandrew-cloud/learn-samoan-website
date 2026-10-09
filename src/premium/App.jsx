@@ -1,9 +1,10 @@
-import { lazy, Suspense, useEffect, useRef } from 'react'
-import { Navigate, Routes, Route, useLocation } from 'react-router-dom'
+import { Component, lazy, Suspense, useEffect, useLayoutEffect, useRef } from 'react'
+import { Navigate, Routes, Route, useLocation, useNavigationType } from 'react-router-dom'
 import { AnimatePresence, motion as Motion } from 'motion/react'
 import { Header, Footer } from './components/Chrome.jsx'
 import Home from './pages/Home.jsx'
 import NotBuilt from './pages/NotBuilt.jsx'
+import LoadFailure from './components/LoadFailure.jsx'
 
 // Each inner page loads with its own data, so the homepage stays light.
 const Lessons = lazy(() => import('./pages/Lessons.jsx'))
@@ -16,6 +17,31 @@ const Reference = lazy(() => import('./pages/Reference.jsx'))
 const BookPage = lazy(() => import('./pages/BookPage.jsx'))
 // The widget lab exists only in development builds.
 const Lab = import.meta.env.DEV ? lazy(() => import('./pages/Lab.jsx')) : null
+const scrollPositions = new Map()
+
+class PageErrorBoundary extends Component {
+  state = { failed: false }
+  static getDerivedStateFromError() { return { failed: true } }
+  render() { return this.state.failed ? <LoadFailure /> : this.props.children }
+}
+
+function ScrollManager() {
+  const loc = useLocation()
+  const navigationType = useNavigationType()
+  useLayoutEffect(() => {
+    if ('scrollRestoration' in window.history) window.history.scrollRestoration = 'manual'
+    if (!loc.hash) {
+      const target = navigationType === 'POP' ? (scrollPositions.get(loc.key) || 0) : 0
+      const timer = window.setTimeout(() => window.scrollTo({ top: target, behavior: 'instant' }), 500)
+      return () => {
+        window.clearTimeout(timer)
+        scrollPositions.set(loc.key, window.scrollY)
+      }
+    }
+    return () => scrollPositions.set(loc.key, window.scrollY)
+  }, [loc.key, loc.hash, navigationType])
+  return null
+}
 
 function Page({ children }) {
   const pageRef = useRef(null)
@@ -54,19 +80,19 @@ function Page({ children }) {
       exit={{ opacity: 0, y: -8 }}
       transition={{ duration: .45, ease: [.16, 1, .3, 1] }}
     >
-      <Suspense fallback={<div style={{ minHeight: '100vh' }} />}>{children}</Suspense>
+      <PageErrorBoundary><Suspense fallback={<div style={{ minHeight: '100vh' }} />}>{children}</Suspense></PageErrorBoundary>
     </Motion.main>
   )
 }
 
 export default function App() {
   const loc = useLocation()
-  useEffect(() => { if (!loc.hash) window.scrollTo({ top: 0, behavior: 'instant' }) }, [loc.pathname, loc.hash])
   const reading = /^\/(chapters\/\d+|introduction|pronunciation|charts)/.test(loc.pathname)
   const focus = /^\/quizzes\//.test(loc.pathname) || loc.pathname === '/cards'
 
   return (
     <>
+      <ScrollManager />
       <Header progress={reading} />
       <AnimatePresence mode="wait">
         <Routes location={loc} key={loc.pathname}>

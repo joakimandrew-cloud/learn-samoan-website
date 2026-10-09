@@ -1,0 +1,122 @@
+{
+  "chapter": 30,
+  "items": [
+    {
+      "id": "ch30-ability-obligation",
+      "kind": "contrast",
+      "anchor": "saying-what-must-be-done-tatau",
+      "title": "Possible or necessary?",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Ability",
+            "sm": "ʻUa mafai ona sau le teine.",
+            "en": "The girl can come.",
+            "note": "The clause after *ona* names the event. *Mafai* grades it as possible."
+          },
+          {
+            "label": "Obligation",
+            "sm": "ʻUa tatau ona sau le teine.",
+            "en": "The girl must come.",
+            "note": "The same event is graded as necessary by *tatau*."
+          }
+        ]
+      },
+      "caption": "Only the word before *ona* changes. The clause naming the coming stays the same."
+    },
+    {
+      "id": "ch30-complement-words",
+      "kind": "grid",
+      "anchor": "the-words-that-take-a-complement-clause",
+      "title": "Words that grade a clause",
+      "data": {
+        "cols": [
+          "Printed form"
+        ],
+        "rowLabel": "Meaning",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "Forbidden",
+            "cells": [
+              {
+                "sm": "sā",
+                "en": "forbidden, must not"
+              }
+            ]
+          },
+          {
+            "label": "Allowed",
+            "cells": [
+              {
+                "sm": "taga",
+                "en": "allowed, may"
+              }
+            ]
+          },
+          {
+            "label": "Necessary",
+            "cells": [
+              {
+                "sm": "tatau",
+                "en": "necessary, must"
+              }
+            ]
+          },
+          {
+            "label": "Possible",
+            "cells": [
+              {
+                "sm": "mafai",
+                "en": "can, able"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Each word grades the event named in the complement clause. Find the form tests the four meanings."
+    },
+    {
+      "id": "ch30-read-complement",
+      "kind": "pick",
+      "anchor": "when-the-second-verb-keeps-its-own-tense",
+      "title": "Read the first half",
+      "data": {
+        "question": "How is the event graded?",
+        "options": [
+          {
+            "id": "possible",
+            "label": "Possible"
+          },
+          {
+            "id": "necessary",
+            "label": "Necessary"
+          },
+          {
+            "id": "forbidden",
+            "label": "Forbidden"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "E sā ona ulaula.",
+            "answer": "forbidden",
+            "why": "The general particle *e* comes before *sā*, so here *sā* means forbidden rather than past."
+          },
+          {
+            "sm": "ʻUa tatau ona ʻou alu.",
+            "answer": "necessary",
+            "why": "*Tatau* says that the event in the complement clause is necessary."
+          },
+          {
+            "sm": "E mafai ona siva le uso.",
+            "answer": "possible",
+            "why": "*Mafai* grades the dancing as possible. The clause after *ona* has no tense particle of its own."
+          }
+        ]
+      },
+      "intro": "Choose what the word before the complement says about the event."
+    }
+  ]
+}

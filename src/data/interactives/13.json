@@ -1,0 +1,52 @@
+{
+  "chapter": 13,
+  "items": [
+    {
+      "id": "ch13-particle-position",
+      "kind": "contrast",
+      "anchor": "when-a-pronoun-comes-in-te",
+      "title": "The pronoun moves before the general particle",
+      "caption": "The past particle comes before the pronoun. With the general particle, the pronoun comes first and the particle takes the form *te*.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Past", "sm": "Sā ʻou alu.", "en": "I went." },
+          { "label": "General", "sm": "ʻOu te alu.", "en": "I go." }
+        ]
+      }
+    },
+    {
+      "id": "ch13-general-and-now",
+      "kind": "contrast",
+      "anchor": "the-happening-now-particle-oloo",
+      "title": "A habit and an event under way",
+      "caption": "The general particle says what holds as a rule. The happening-now particle marks the event under way at the moment of speaking.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "General", "sm": "E siva le teine.", "en": "The girl dances." },
+          { "label": "Happening now", "sm": "ʻOloʻo siva le teine.", "en": "The girl is dancing." }
+        ]
+      }
+    },
+    {
+      "id": "ch13-sort-general-now",
+      "kind": "sort",
+      "anchor": "the-happening-now-particle-oloo",
+      "title": "Sort what holds generally and what is under way",
+      "intro": "Place each complete printed sentence under the time view it expresses.",
+      "data": {
+        "bins": [
+          { "id": "general", "label": "Holds generally" },
+          { "id": "now", "label": "Happening now" }
+        ],
+        "items": [
+          { "sm": "E malosi le tama.", "en": "The boy is strong.", "bin": "general", "why": "The general particle presents a lasting quality." },
+          { "sm": "E alu le pasi i le nuʻu.", "en": "The bus goes to the village.", "bin": "general", "why": "The general particle presents the trip as a standing habit." },
+          { "sm": "ʻOloʻo siva le teine.", "en": "The girl is dancing.", "bin": "now", "why": "The happening-now particle marks the dancing as under way." },
+          { "sm": "ʻOloʻo tusitusi le tama.", "en": "The boy is writing.", "bin": "now", "why": "The happening-now particle marks the writing as under way." }
+        ]
+      }
+    }
+  ]
+}

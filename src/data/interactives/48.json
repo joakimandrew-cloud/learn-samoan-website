@@ -1,0 +1,157 @@
+{
+  "chapter": 48,
+  "items": [
+    {
+      "id": "ch48-mood-jobs",
+      "kind": "grid",
+      "anchor": "the-four-mood-particles",
+      "title": "Four particles, four jobs",
+      "data": {
+        "cols": [
+          "Mood particle"
+        ],
+        "rowLabel": "Job",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "Polite command",
+            "cells": [
+              {
+                "sm": "ʻia",
+                "en": "a polite command"
+              }
+            ]
+          },
+          {
+            "label": "Wish and permission",
+            "cells": [
+              {
+                "sm": "seʻi",
+                "en": "a wish"
+              }
+            ]
+          },
+          {
+            "label": "Until",
+            "cells": [
+              {
+                "sm": "seʻia",
+                "en": "until",
+                "note": "This particle never takes a preverbal pronoun."
+              }
+            ]
+          },
+          {
+            "label": "Warning",
+            "cells": [
+              {
+                "sm": "neʻi",
+                "en": "a warning",
+                "note": "Its clause always depends on another clause."
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Mood particles fill the tense particle’s slot but say how the event is wanted, waited for or warned against, rather than when it happens."
+    },
+    {
+      "id": "ch48-purpose-link",
+      "kind": "contrast",
+      "anchor": "saying-what-an-action-is-for",
+      "title": "Purpose with or without a joining word",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "With *ina*",
+            "sm": "Tatalo ina ʻia maua se fesoasoani.",
+            "en": "Pray in order to get some help.",
+            "note": "The joining word explicitly marks the purpose clause as part of the first sentence."
+          },
+          {
+            "label": "Without *ina*",
+            "sm": "Tatalo ʻia maua se fesoasoani.",
+            "en": "Pray to get some help.",
+            "note": "The second clause still expresses purpose, even though no joining word shows the link."
+          }
+        ]
+      },
+      "caption": "Both printed sentences express what the praying is for. The first one marks the link with *ina*."
+    },
+    {
+      "id": "ch48-mood-reading",
+      "kind": "pick",
+      "anchor": "the-until-particle-seia",
+      "title": "Read the mood in its clause",
+      "data": {
+        "question": "What is the particle doing in this sentence?",
+        "options": [
+          {
+            "id": "permission",
+            "label": "Asking permission"
+          },
+          {
+            "id": "command",
+            "label": "Making a polite command"
+          },
+          {
+            "id": "until",
+            "label": "Saying until when"
+          },
+          {
+            "id": "purpose",
+            "label": "Stating purpose"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Seʻi oʻu fesili.",
+            "answer": "permission",
+            "why": "About the speaker, *seʻi* politely asks permission."
+          },
+          {
+            "sm": "ʻIa ʻe onosaʻi.",
+            "answer": "command",
+            "why": "Addressed to the listener, *ʻia* makes a polite command."
+          },
+          {
+            "sm": "Faʻatali seʻia sau lou tina.",
+            "answer": "until",
+            "why": "The waiting lasts until the event after *seʻia*."
+          },
+          {
+            "sm": "Tatalo ina ʻia maua se fesoasoani.",
+            "answer": "purpose",
+            "why": "The linked *ʻia* clause says what the praying is for."
+          }
+        ]
+      },
+      "intro": "Use the whole sentence to identify the job of the mood clause."
+    },
+    {
+      "id": "ch48-warning-order",
+      "kind": "contrast",
+      "anchor": "after-the-do-not-verb",
+      "title": "The pronoun changes sides",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "With *te*",
+            "sm": "ʻAua ʻe te siva.",
+            "en": "Don't dance.",
+            "note": "The preverbal pronoun stands before the general particle’s *te* form."
+          },
+          {
+            "label": "With *neʻi*",
+            "sm": "ʻAua neʻi ʻe siva.",
+            "en": "Don't dance.",
+            "note": "The pronoun stands behind the warning particle."
+          }
+        ]
+      },
+      "caption": "Both printed forms forbid dancing. The pronoun comes before *te* and after *neʻi*, so changing the particle changes their order."
+    }
+  ]
+}

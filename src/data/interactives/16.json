@@ -1,0 +1,52 @@
+{
+  "chapter": 16,
+  "items": [
+    {
+      "id": "ch16-place-to-ai",
+      "kind": "contrast",
+      "anchor": "pointing-back-to-a-place",
+      "title": "Replace the named place with *ai*",
+      "caption": "The full place phrase sits at the end. The pointing-back word replaces it and moves directly after the verb, before the doer.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          { "label": "Place named", "sm": "Sā nofo le teine i le nuʻu.", "en": "The girl lived in the village." },
+          { "label": "Place carried forward", "sm": "Sā nofo ai le teine.", "en": "The girl lived there." }
+        ]
+      }
+    },
+    {
+      "id": "ch16-fronted-place",
+      "kind": "contrast",
+      "anchor": "putting-the-place-first",
+      "title": "A fronted place can be copied inside",
+      "caption": "Both printed forms are good Samoan. The pointing-back copy after the verb is common but optional when the place already leads.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "With the copy", "sm": "I le nuʻu sā nofo ai le teine.", "en": "In the village the girl lived there." },
+          { "label": "Without the copy", "sm": "I le nuʻu sā nofo le teine.", "en": "In the village the girl lived." }
+        ]
+      }
+    },
+    {
+      "id": "ch16-sort-ai-i-ai",
+      "kind": "sort",
+      "anchor": "going-there-i-ai",
+      "title": "Sort there and to there",
+      "intro": "Place each complete sentence under the pointing-back form it uses.",
+      "data": {
+        "bins": [
+          { "id": "there", "label": "There" },
+          { "id": "to-there", "label": "To there" }
+        ],
+        "items": [
+          { "sm": "Sā nofo ai le teine.", "en": "The girl lived there.", "bin": "there", "why": "A verb of staying uses the bare pointing-back word here." },
+          { "sm": "Sā malolo ai le tama.", "en": "The boy rested there.", "bin": "there", "why": "The bare form sits after the verb and before the doer." },
+          { "sm": "Sā alu le tama i ai.", "en": "The boy went there.", "bin": "to-there", "why": "A movement toward the goal usually takes the place word before *ai*." },
+          { "sm": "Sā alu le teine i ai.", "en": "The girl went there.", "bin": "to-there", "why": "The two-word form fills the goal slot of the movement verb." }
+        ]
+      }
+    }
+  ]
+}

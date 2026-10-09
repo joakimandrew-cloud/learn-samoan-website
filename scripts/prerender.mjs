@@ -28,6 +28,7 @@ const DIST = path.join(APP, 'dist')
 const base = (process.env.VITE_BASE || '/').replace(/\/?$/, '/')
 const origin = (process.env.SITE_ORIGIN || 'https://joakimandrew-cloud.github.io').replace(/\/$/, '')
 const site = `${origin}${base}`
+const socialImage = `${site}social/learn-samoan.png`
 
 const chapters = JSON.parse(fs.readFileSync(path.join(APP, 'src', 'data', 'chapters.json'), 'utf8'))
 const quizzes = JSON.parse(fs.readFileSync(path.join(APP, 'src', 'data', 'quizzes.json'), 'utf8'))
@@ -69,9 +70,37 @@ function page(route) {
     `<meta property="og:title" content="${esc(route.title)}" />`,
     `<meta property="og:description" content="${esc(route.description)}" />`,
     `<meta property="og:url" content="${esc(url)}" />`,
-    `<meta name="twitter:card" content="summary" />`,
+    `<meta property="og:image" content="${esc(socialImage)}" />`,
+    `<meta property="og:image:width" content="1200" />`,
+    `<meta property="og:image:height" content="630" />`,
+    `<meta property="og:image:alt" content="Learn Samoan, a free course in 51 chapters" />`,
+    `<meta name="twitter:card" content="summary_large_image" />`,
+    `<meta name="twitter:title" content="${esc(route.title)}" />`,
+    `<meta name="twitter:description" content="${esc(route.description)}" />`,
+    `<meta name="twitter:image" content="${esc(socialImage)}" />`,
+    `<script type="application/ld+json">${JSON.stringify(route.type === 'article' ? {
+      '@context': 'https://schema.org',
+      '@type': 'LearningResource',
+      name: route.title,
+      description: route.description,
+      url,
+      inLanguage: 'en',
+      isAccessibleForFree: true,
+    } : {
+      '@context': 'https://schema.org',
+      '@type': 'Course',
+      name: COURSE,
+      description: DEFAULT_DESCRIPTION,
+      url: site,
+      inLanguage: 'en',
+      isAccessibleForFree: true,
+      teaches: 'Samoan language',
+    }).replaceAll('<', '\\u003c')}</script>`,
   ].join('\n    ')
-  return template
+  const cleanTemplate = template
+    .replace(/\n\s*<meta property="og:[^"]+"[^>]*\/>/g, '')
+    .replace(/\n\s*<meta name="twitter:[^"]+"[^>]*\/>/g, '')
+  return cleanTemplate
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(route.title)}</title>`)
     .replace(/<meta name="description"[^>]*>/, `<meta name="description" content="${esc(route.description)}" />\n    ${head}`)
 }

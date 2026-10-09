@@ -4,10 +4,22 @@
 import { describe, expect, it } from 'vitest'
 import fs from 'node:fs'
 import path from 'node:path'
+import { createElement } from 'react'
+import { renderToStaticMarkup } from 'react-dom/server'
+import Grid from '../src/premium/components/interactive/Grid.jsx'
 import { curly, gridCells, newRound, plain, promptsFor, quizReducer, stepCell, stop, verdictParts } from '../src/premium/components/interactive/grid-logic.js'
 
 const APP = path.join(__dirname, '..')
 const fixture = JSON.parse(fs.readFileSync(path.join(APP, 'src/premium/components/interactive/fixtures/grid.json'), 'utf8'))
+
+it('renders printed italic spans inside cell meanings without exposing Markdown', () => {
+  const chapter = JSON.parse(fs.readFileSync(path.join(APP, 'src/data/interactives/08.json'), 'utf8'))
+  const html = renderToStaticMarkup(createElement(Grid, { data: chapter.items[0].data }))
+  expect(html).not.toContain('*ʻo*')
+  expect(html).not.toContain('*ʻo le*')
+  expect(html).toContain('the question word for who')
+  expect(html).toContain('the question word for what')
+})
 
 const ROWS = [
   { label: 'A', cells: [{ sm: 'a1', en: 'one' }, { sm: 'a2', en: 'two' }, null] },

@@ -10,7 +10,7 @@
 .qz-segs i { height: 8px; border-radius: 4px; background: var(--line); transition: background-color .4s; }
 .qz-segs i.cur { background: var(--ink); animation: segpulse 1.8s ease-in-out infinite; }
 .qz-segs i.ok { background: var(--success); }
-.qz-segs i.no { background: var(--red-emblem); }
+.qz-segs i.no { background: var(--error); }
 @keyframes segpulse { 50% { opacity: .45; } }
 .qz-tally { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--muted); min-width: 60px; text-align: right; }
 
@@ -35,8 +35,8 @@
 .qz-mark { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-family: var(--f-ui); }
 .qz-opt.is-right { border-color: var(--success); background: var(--success-soft); }
 .qz-opt.is-right .qz-l, .qz-opt.is-right .qz-mark { background: var(--success); color: #fff; border-color: var(--success); }
-.qz-opt.is-wrong { border-color: var(--red-emblem); background: var(--error-soft); animation: shake .4s; }
-.qz-opt.is-wrong .qz-l, .qz-opt.is-wrong .qz-mark { background: var(--red-emblem); color: #fff; border-color: var(--red-emblem); }
+.qz-opt.is-wrong { border-color: var(--error); background: var(--error-soft); animation: shake .4s; }
+.qz-opt.is-wrong .qz-l, .qz-opt.is-wrong .qz-mark { background: var(--error); color: #fff; border-color: var(--error); }
 .qz-opt.is-dim { opacity: .42; box-shadow: none; }
 @keyframes shake { 20% { transform: translateX(-6px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(2px); } }
 
@@ -44,7 +44,7 @@
 .qz-why-in { margin-top: 18px; display: grid; grid-template-columns: 44px 1fr; gap: 16px; padding: 22px 24px; border-radius: 18px; background: var(--band); color: #fff; }
 .qz-why-tile { width: 44px; height: 44px; }
 .qz-why-tile .kp-tile { width: 100%; height: 100%; }
-.qz-why.no .qz-why-tile .kp-tile { color: var(--red-emblem); }
+.qz-why.no .qz-why-tile .kp-tile { color: var(--error); }
 .qz-why-h { font-family: var(--f-display); font-weight: 800; text-transform: uppercase; font-size: 24px; margin: 0 0 6px; line-height: 1; }
 .qz-why.ok .qz-why-h { color: var(--orange); }
 .qz-why.no .qz-why-h { color: #ff8a6b; }

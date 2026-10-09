@@ -1,0 +1,168 @@
+{
+  "chapter": 2,
+  "items": [
+    {
+      "id": "ch2-pronoun-grid",
+      "kind": "grid",
+      "anchor": "more-than-one-person",
+      "title": "Preverbal pronouns by person and number",
+      "caption": "The middle slot marks one person, exactly two, or more than two. The two rows for we show whether the listener is included.",
+      "data": {
+        "rowLabel": "Person",
+        "colLabel": "Number",
+        "cols": [
+          "One",
+          "Two",
+          "More than two"
+        ],
+        "quiz": true,
+        "rows": [
+          {
+            "label": "I or we, listener left out",
+            "cells": [
+              {
+                "sm": "ʻou",
+                "en": "I"
+              },
+              {
+                "sm": "mā",
+                "en": "we two (but not you)"
+              },
+              {
+                "sm": "mātou",
+                "en": "we (others and I, but not you)"
+              }
+            ]
+          },
+          {
+            "label": "We, listener included",
+            "cells": [
+              null,
+              {
+                "sm": "tā",
+                "en": "we two (you and I)"
+              },
+              {
+                "sm": "tātou",
+                "en": "we (you and I, and others)"
+              }
+            ]
+          },
+          {
+            "label": "You",
+            "cells": [
+              {
+                "sm": "ʻe",
+                "en": "you (one person)"
+              },
+              {
+                "sm": "ʻoulua",
+                "en": "you two"
+              },
+              {
+                "sm": "ʻoutou",
+                "en": "you all"
+              }
+            ]
+          },
+          {
+            "label": "He, she, or they",
+            "cells": [
+              {
+                "sm": "ia",
+                "en": "he, she"
+              },
+              {
+                "sm": "lā",
+                "en": "they two"
+              },
+              {
+                "sm": "lātou",
+                "en": "they"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2-two-pronoun-sets",
+      "kind": "grid",
+      "anchor": "saying-who-it-is",
+      "title": "Two pronoun sets, two jobs",
+      "caption": "The preverbal forms stay before a verb. The independent forms work after *ʻo* and *ia te*.",
+      "data": {
+        "cols": [
+          "I",
+          "You"
+        ],
+        "rows": [
+          {
+            "label": "Before the verb",
+            "cells": [
+              {
+                "sm": "ʻou",
+                "en": "I",
+                "example": {
+                  "sm": "Sā ʻou alu.",
+                  "en": "I went."
+                }
+              },
+              {
+                "sm": "ʻe",
+                "en": "you (one person)"
+              }
+            ]
+          },
+          {
+            "label": "Independent",
+            "cells": [
+              {
+                "sm": "aʻu",
+                "en": "me (the independent form of \"I\")",
+                "example": {
+                  "sm": "ʻO aʻu.",
+                  "en": "It is me."
+                }
+              },
+              {
+                "sm": "ʻoe",
+                "en": "you (the independent form of \"you\")",
+                "example": {
+                  "sm": "ʻO ʻoe.",
+                  "en": "It is you."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch2-type-independent-forms",
+      "kind": "type",
+      "anchor": "pronouns-after-ia-te",
+      "title": "Type the forms used together",
+      "intro": "Read the English and type the Samoan form.",
+      "data": {
+        "items": [
+          {
+            "en": "me (the independent form of \"I\")",
+            "sm": "aʻu",
+            "why": "The independent form can follow *ʻo* or *ia te*."
+          },
+          {
+            "en": "you (the independent form of \"you\")",
+            "sm": "ʻoe",
+            "why": "This is the independent form for one person."
+          },
+          {
+            "en": "the form the place word takes before a person-word",
+            "sm": "ia te",
+            "why": "The independent pronoun follows *ia te*."
+          }
+        ]
+      }
+    }
+  ]
+}

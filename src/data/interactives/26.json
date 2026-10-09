@@ -1,0 +1,170 @@
+{
+  "chapter": 26,
+  "items": [
+    {
+      "id": "ch26-spatial-frame",
+      "kind": "grid",
+      "anchor": "the-spatial-noun-frame",
+      "title": "The spatial noun changes the position",
+      "caption": "Each printed example keeps the spatial noun between the place word and the belonging word. The noun names a region of the thing that follows.",
+      "data": {
+        "cols": [
+          "Printed sentence"
+        ],
+        "rows": [
+          {
+            "label": "Behind",
+            "cells": [
+              {
+                "sm": "ʻO le laau i tua o le fale.",
+                "en": "The tree behind the house."
+              }
+            ]
+          },
+          {
+            "label": "In front",
+            "cells": [
+              {
+                "sm": "ʻO le taʻavale i luma o le fale.",
+                "en": "The car in front of the house."
+              }
+            ]
+          },
+          {
+            "label": "Under",
+            "cells": [
+              {
+                "sm": "ʻO le pusi i lalo o le fale.",
+                "en": "The cat under the house."
+              }
+            ]
+          },
+          {
+            "label": "On",
+            "cells": [
+              {
+                "sm": "ʻO le ipu i luga o le fala.",
+                "en": "The cup on the mat."
+              }
+            ]
+          },
+          {
+            "label": "Inside",
+            "cells": [
+              {
+                "sm": "ʻO le naifi i totonu o le ato.",
+                "en": "The knife inside the basket."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch26-compass",
+      "kind": "scale",
+      "anchor": "the-directions",
+      "title": "The compass directions",
+      "caption": "Four compass positions are shown. The chapter prints two words for south, *saute* and *toga*, at the same bearing.",
+      "data": {
+        "layout": "map",
+        "points": [
+          {
+            "x": 50,
+            "y": 0,
+            "label": "mātū",
+            "gloss": "North"
+          },
+          {
+            "x": 0,
+            "y": 50,
+            "label": "sisifo",
+            "gloss": "West"
+          },
+          {
+            "x": 100,
+            "y": 50,
+            "label": "sasaʻe",
+            "gloss": "East"
+          },
+          {
+            "x": 50,
+            "y": 100,
+            "label": "saute",
+            "gloss": "South",
+            "note": "The chapter also prints *toga* for South."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch26-sort-space-direction",
+      "kind": "sort",
+      "anchor": "words-to-learn",
+      "title": "Sort regions and directions",
+      "intro": "Place each printed noun with the regions of an object or the direction system.",
+      "data": {
+        "bins": [
+          {
+            "id": "region",
+            "label": "Region of an object"
+          },
+          {
+            "id": "direction",
+            "label": "Direction"
+          }
+        ],
+        "items": [
+          {
+            "sm": "totonu",
+            "en": "inside",
+            "bin": "region",
+            "why": "This noun names the inside region of a thing."
+          },
+          {
+            "sm": "tua",
+            "en": "back, behind",
+            "bin": "region",
+            "why": "This noun names the space at the back of a thing."
+          },
+          {
+            "sm": "luga",
+            "en": "top, above, on",
+            "bin": "region",
+            "why": "This noun names a top or upper region."
+          },
+          {
+            "sm": "tafatafa",
+            "en": "the side of, beside",
+            "bin": "region",
+            "why": "This noun names the side region."
+          },
+          {
+            "sm": "mātū",
+            "en": "North",
+            "bin": "direction",
+            "why": "This is one of the compass direction nouns."
+          },
+          {
+            "sm": "sisifo",
+            "en": "West",
+            "bin": "direction",
+            "why": "This is one of the compass direction nouns."
+          },
+          {
+            "sm": "tai",
+            "en": "the direction towards the sea; the sea, the seaside",
+            "bin": "direction",
+            "why": "This noun points along the seaward and inland line."
+          },
+          {
+            "sm": "uta",
+            "en": "the direction inland; inland",
+            "bin": "direction",
+            "why": "This noun points inland."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "chapter": 15,
+  "items": [
+    {
+      "id": "ch15-negative-slot",
+      "kind": "contrast",
+      "anchor": "the-not-word-le",
+      "title": "The not-word fills one slot",
+      "caption": "The tense particle, verb, and doer keep their order. The not-word enters between the particle and the verb.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          { "label": "Statement", "sm": "Sā siva le teine.", "en": "The girl danced." },
+          { "label": "Denied", "sm": "Sā lē siva le teine.", "en": "The girl did not dance." }
+        ]
+      }
+    },
+    {
+      "id": "ch15-habit-or-now",
+      "kind": "contrast",
+      "anchor": "denying-a-change-denying-a-habit",
+      "title": "Deny a habit or deny this moment",
+      "caption": "The bare not-word under the general particle denies the habit. Adding the short happening-now particle denies what is under way now.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Habit", "sm": "ʻOu te lē alu.", "en": "I do not go." },
+          { "label": "Right now", "sm": "ʻOu te lē ʻo alu.", "en": "I am not going." }
+        ]
+      }
+    },
+    {
+      "id": "ch15-sort-negative",
+      "kind": "sort",
+      "anchor": "the-not-yet-word-lei",
+      "title": "Sort not and not yet",
+      "intro": "Place each complete printed sentence under the kind of negative it uses.",
+      "data": {
+        "bins": [
+          { "id": "not", "label": "Not" },
+          { "id": "not-yet", "label": "Not yet" }
+        ],
+        "items": [
+          { "sm": "Sā lē siva le teine.", "en": "The girl did not dance.", "bin": "not", "why": "The not-word denies the matching past statement." },
+          { "sm": "E lē malosi le tama.", "en": "The boy is not strong.", "bin": "not", "why": "The not-word denies the lasting quality." },
+          { "sm": "E leʻi alu le teine.", "en": "The girl has not gone yet.", "bin": "not-yet", "why": "The event has not happened so far but is still expected." },
+          { "sm": "ʻOu te leʻi alu.", "en": "I have not gone yet.", "bin": "not-yet", "why": "The not-yet word follows the general particle after the pronoun." }
+        ]
+      }
+    }
+  ]
+}

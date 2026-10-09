@@ -1,0 +1,100 @@
+{
+  "chapter": 36,
+  "items": [
+    {
+      "id": "ch36-matching-tense",
+      "kind": "contrast",
+      "anchor": "matching-the-tense-particle",
+      "title": "Repeat the tense particle or leave it out",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Particle repeated",
+            "sm": "Sā timu ma sā lolo le vai.",
+            "en": "It rained and the water overflowed.",
+            "note": "The second clause repeats the first clause’s tense particle."
+          },
+          {
+            "label": "Particle absent",
+            "sm": "Sā timu ma lolo le vai.",
+            "en": "It rained and the water overflowed.",
+            "note": "The second clause has no tense particle. The empty slot is a valid form."
+          }
+        ]
+      },
+      "caption": "Both shapes are printed and both are good Samoan. The chapter treats the choice as style rather than meaning."
+    },
+    {
+      "id": "ch36-clause-links",
+      "kind": "sort",
+      "anchor": "holding-two-events-together-with-ao",
+      "title": "Sort the links between clauses",
+      "data": {
+        "bins": [
+          {
+            "id": "and",
+            "label": "And: joined events"
+          },
+          {
+            "id": "but",
+            "label": "But: a contrast"
+          },
+          {
+            "id": "while",
+            "label": "While: events held together in time"
+          }
+        ],
+        "items": [
+          {
+            "sm": "ʻUa ala le tama ma ʻua usu le teine.",
+            "en": "The boy has woken and the girl has stood up.",
+            "bin": "and",
+            "why": "*Ma* joins the two clauses."
+          },
+          {
+            "sm": "Na taunuʻu mai le pasi ma na alu le teine i le aoga.",
+            "en": "The bus arrived and the girl went to the school.",
+            "bin": "and",
+            "why": "The clauses are joined by *ma* and repeat the same past particle."
+          },
+          {
+            "sm": "ʻUa ala le teine ʻae ʻoloʻo moe le tama.",
+            "en": "The girl has woken but the boy is sleeping.",
+            "bin": "but",
+            "why": "*ʻAe* opens the second clause and sets it against the first."
+          },
+          {
+            "sm": "Na usu le teine ʻaʻo moe le tama.",
+            "en": "The girl stood up while the boy slept.",
+            "bin": "while",
+            "why": "*ʻAʻo* holds the two events side by side in time."
+          }
+        ]
+      },
+      "intro": "Choose the kind of link the joining word makes between the two clauses."
+    },
+    {
+      "id": "ch36-before-pair",
+      "kind": "contrast",
+      "anchor": "saying-what-came-before",
+      "title": "Two ways to say before",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "With *ʻaʻo leʻi*",
+            "sm": "Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.",
+            "en": "The bus arrived before six o'clock."
+          },
+          {
+            "label": "With *ʻae leʻi*",
+            "sm": "Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.",
+            "en": "The bus arrived before six o'clock."
+          }
+        ]
+      },
+      "caption": "Either combination says that the second event had not happened yet when the first occurred. English gathers that relationship into before."
+    }
+  ]
+}

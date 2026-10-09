@@ -65,7 +65,7 @@ function Cell({ text, header }) {
 }
 
 export function Table({ head, body }) {
-  const wide = head.length > 3
+  const wide = head.length > 2 || head.some(value => plainInline(value).length > 16)
   return (
     <Motion.div className={`tbl-wrap ${wide ? 'is-wide' : ''}`} {...reveal}>
       <div className="tbl-scroll" tabIndex={wide ? 0 : undefined} role={wide ? 'region' : undefined} aria-label={wide ? 'Scrollable table' : undefined}>
@@ -81,10 +81,10 @@ export function Table({ head, body }) {
 export function Note({ label, text }) {
   // Cross-references like "Chapter 14" become links.
   return (
-    <Motion.aside className={`note ${label ? '' : 'is-unlabelled'}`} {...reveal}>
+    <Motion.div role="note" className={`note ${label ? '' : 'is-unlabelled'}`} {...reveal}>
       {label && <span className="note-k">{label}:</span>}
       <p><Linked text={text} /></p>
-    </Motion.aside>
+    </Motion.div>
   )
 }
 
@@ -156,6 +156,7 @@ export function WordCards({ groups, lesson }) {
               {groups.map((group, groupIndex) => (
                 <tbody className="words-group" key={`${lesson}-${groupIndex}`}>
                   {group.label && <tr className="words-group-label"><th colSpan={group.table.head.length}><Md text={group.label} /></th></tr>}
+                  {group.note && <tr className="words-group-note"><td colSpan={group.table.head.length}><Md text={group.note} /></td></tr>}
                   <tr className="words-group-cols">{group.table.head.map((heading, index) => <th key={index} scope="col"><Md text={heading} /></th>)}</tr>
                   {group.table.body.map((row, rowIndex) => (
                     <tr className="words-row" key={`${groupIndex}-${rowIndex}`}>

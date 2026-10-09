@@ -46,6 +46,7 @@ a.dictionary-lesson:hover { text-decoration: underline; text-underline-offset: 4
 @media (max-width: 640px) {
   .dictionary-alphabet { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; }
   .dictionary-alphabet button { min-width: 0; padding-inline: 4px; }
+  .dictionary-alphabet button:not([lang]) { grid-column: span 2; }
 }
 
 @media (max-width: 340px) {

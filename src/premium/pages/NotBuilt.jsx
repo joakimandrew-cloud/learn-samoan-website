@@ -1,6 +1,5 @@
 import EntryMotif from '../components/EntryMotif.jsx'
 import { Link } from 'react-router-dom'
-import { TileBand } from '../components/Tile.jsx'
 import { useTitle } from '../lib/title.js'
 
 // Unknown addresses keep a clear route back into the course.
@@ -19,7 +18,6 @@ export default function NotBuilt() {
           <Link to="/chapters" className="btn btn-ghost">All chapters</Link>
         </div>
       </div>
-      <TileBand />
     </section>
   )
 }

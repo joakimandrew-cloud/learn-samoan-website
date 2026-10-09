@@ -1,0 +1,111 @@
+{
+  "chapter": 37,
+  "items": [
+    {
+      "id": "ch37-then-shapes",
+      "kind": "contrast",
+      "anchor": "the-shorter-shapes-of-the-then-construction",
+      "title": "The full pair and its shorter shapes",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "The full pair",
+            "sm": "Ona alu lea ʻo le tama.",
+            "en": "Then the boy went.",
+            "note": "*Ona* opens the clause and *lea* closes the verb phrase."
+          },
+          {
+            "label": "Without *lea*",
+            "sm": "Ona alu le tama.",
+            "en": "Then the boy went.",
+            "note": "Without *lea*, the named participant stands in its plain form."
+          },
+          {
+            "label": "Without *ona*",
+            "sm": "Alu lea ʻo le tama.",
+            "en": "Then the boy went.",
+            "note": "*Lea* carries the succession, and the participant usually has the presenting particle."
+          }
+        ]
+      },
+      "caption": "These are next-event examples from a story: a text needs something before them. Modern writing keeps the full pair; speech also uses the shorter shapes."
+    },
+    {
+      "id": "ch37-recognise-pair",
+      "kind": "pick",
+      "anchor": "the-shorter-shapes-of-the-then-construction",
+      "title": "Which parts of the pair remain?",
+      "data": {
+        "question": "Which shape is printed here?",
+        "options": [
+          {
+            "id": "both",
+            "label": "Both opening and closing words"
+          },
+          {
+            "id": "ona",
+            "label": "Only the opening word"
+          },
+          {
+            "id": "lea",
+            "label": "Only the closing word"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Ona alu loa lea ʻo le tama.",
+            "answer": "both",
+            "why": "Both *ona* and *lea* remain. The extra *loa* is the then-word inside the verb phrase."
+          },
+          {
+            "sm": "Ona alu le tama.",
+            "answer": "ona",
+            "why": "*Ona* carries the succession on its own, and *lea* is absent."
+          },
+          {
+            "sm": "Alu loa lea ʻo le tama.",
+            "answer": "lea",
+            "why": "*Ona* is absent. The then-word *loa* and the closing word *lea* remain."
+          }
+        ]
+      },
+      "intro": "Find the opening and closing words, without treating the extra then-word as part of the pair."
+    },
+    {
+      "id": "ch37-story-words",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Recall the story words",
+      "data": {
+        "pairs": [
+          {
+            "sm": "lilo",
+            "en": "hide, be hidden"
+          },
+          {
+            "sm": "sauni",
+            "en": "prepare, get ready"
+          },
+          {
+            "sm": "lala",
+            "en": "branch"
+          },
+          {
+            "sm": "sami",
+            "en": "sea"
+          },
+          {
+            "sm": "sauʻai",
+            "en": "ogre"
+          },
+          {
+            "sm": "vaitafe",
+            "en": "river"
+          }
+        ]
+      },
+      "intro": "Match the printed words to the meanings used in this chapter’s stories."
+    }
+  ]
+}

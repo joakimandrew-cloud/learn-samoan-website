@@ -292,7 +292,7 @@ export function ExerciseSet({ ex, onProgress = () => {}, compact = false }) {
           {!compact && ex.number != null && ex.title && <h3 className="xs-t"><Md text={ex.title} /></h3>}
           {ex.instructions && <p className="xs-i"><Md text={ex.instructions} /></p>}
         </div>
-        <div className="xs-prog" aria-label={`${answered} of ${asked.length} done`}>
+        <div className="xs-prog" role="progressbar" aria-valuemin="0" aria-valuemax={asked.length} aria-valuenow={answered} aria-label={`${answered} of ${asked.length} done`}>
           {asked.map(it => <i key={it.id} className={it.id in state ? (state[it.id] ? 'ok' : 'late') : ''} />)}
         </div>
       </header>

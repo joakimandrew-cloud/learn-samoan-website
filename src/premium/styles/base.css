@@ -71,6 +71,9 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: clip;
 }
+.load-failure { min-height: 65vh; display: grid; place-content: center; justify-items: start; gap: 16px; padding: 80px var(--gutter); background: var(--paper); }
+.load-failure h1 { max-width: 12ch; margin: 0; font-size: clamp(48px, 7vw, 84px); }
+.load-failure p { max-width: 48ch; margin: 0; color: var(--muted); }
 img, svg, video { display: block; max-width: 100%; }
 p, h1, h2, h3, li { text-wrap: pretty; }
 button { font: inherit; color: inherit; cursor: pointer; }

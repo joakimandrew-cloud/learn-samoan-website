@@ -1,0 +1,94 @@
+{
+  "chapter": 4,
+  "items": [
+    {
+      "id": "ch4-tense-line",
+      "kind": "contrast",
+      "anchor": "the-four-tense-particles",
+      "title": "One sentence across four particles",
+      "caption": "Only the first word changes. The two pasts differ in the shape of the event, rather than how long ago it happened; the other particles report a change or future time.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "*sā*",
+            "sm": "Sā ʻou alu.",
+            "en": "I went.",
+            "note": "This past presents how things were over a stretch of time."
+          },
+          {
+            "label": "*na*",
+            "sm": "Na ʻou alu.",
+            "en": "I went.",
+            "note": "This past presents a single, bounded, finished, or unexpected event."
+          },
+          {
+            "label": "*ʻua*",
+            "sm": "ʻUa ʻou alu.",
+            "en": "I have gone.",
+            "note": "It reports a change and usually leaves a new state in place."
+          },
+          {
+            "label": "*ʻoleʻā*",
+            "sm": "ʻOleʻā ʻou alu.",
+            "en": "I will go.",
+            "note": "It places the event ahead of now."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch4-state-and-change",
+      "kind": "contrast",
+      "anchor": "the-change-particle-ua",
+      "title": "Past state and present change",
+      "caption": "The past particle closes off the earlier state. The change particle reports what holds after the change.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "Earlier state",
+            "sm": "Sā ia tauaso.",
+            "en": "She was blind."
+          },
+          {
+            "label": "Changed state",
+            "sm": "ʻUa ia vaai.",
+            "en": "Now she sees."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch4-type-state-verbs",
+      "kind": "type",
+      "anchor": "words-to-learn",
+      "title": "Type the state words",
+      "intro": "Read the meaning and type the Samoan word.",
+      "data": {
+        "items": [
+          {
+            "en": "sick",
+            "sm": "maʻi"
+          },
+          {
+            "en": "blind",
+            "sm": "tauaso"
+          },
+          {
+            "en": "hot",
+            "sm": "vevela"
+          },
+          {
+            "en": "cold",
+            "sm": "maʻalili"
+          },
+          {
+            "en": "busy",
+            "sm": "pisi"
+          }
+        ]
+      }
+    }
+  ]
+}

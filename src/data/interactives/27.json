@@ -1,0 +1,103 @@
+{
+  "chapter": 27,
+  "items": [
+    {
+      "id": "ch27-agent-parts",
+      "kind": "anatomy",
+      "anchor": "the-agent-marker-e",
+      "title": "Find the marked doer",
+      "data": {
+        "sentence": {
+          "sm": "Sā fafaga e le tama le moa.",
+          "en": "The boy fed the hen."
+        },
+        "parts": [
+          {
+            "sm": "Sā fafaga",
+            "gloss": "fed",
+            "role": "Particle and verb",
+            "note": "The action comes first."
+          },
+          {
+            "sm": "e le tama",
+            "gloss": "the boy",
+            "role": "Marked doer",
+            "note": "The agent marker *e* marks the boy as the one who fed the hen."
+          },
+          {
+            "sm": "le moa.",
+            "gloss": "the hen",
+            "role": "Unmarked participant",
+            "note": "The hen is the one the action happened to. It stands bare."
+          }
+        ]
+      },
+      "caption": "Tap each part. The agent marker marks the doer; the one the action happened to is unmarked."
+    },
+    {
+      "id": "ch27-doer-choice",
+      "kind": "pick",
+      "anchor": "the-two-words-spelled-e",
+      "title": "Who does the action?",
+      "data": {
+        "question": "Who is named as the doer?",
+        "options": [
+          {
+            "id": "boy",
+            "label": "The boy"
+          },
+          {
+            "id": "girl",
+            "label": "The girl"
+          },
+          {
+            "id": "woman",
+            "label": "The woman"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Sā fafaga e le tama le moa.",
+            "answer": "boy",
+            "why": "The phrase *e le tama* marks the boy as the doer."
+          },
+          {
+            "sm": "Sā tatala e le teine le pusa.",
+            "answer": "girl",
+            "why": "The phrase *e le teine* marks the girl as the doer."
+          },
+          {
+            "sm": "E tausi pepe e le fafine.",
+            "answer": "woman",
+            "why": "The first *e* is the general particle; the second marks *le fafine* as the doer."
+          }
+        ]
+      },
+      "intro": "Look for the marker after the verb, then choose the person it marks."
+    },
+    {
+      "id": "ch27-omit-doer",
+      "kind": "contrast",
+      "anchor": "leaving-the-doer-out",
+      "title": "The doer can disappear",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "With the doer",
+            "sm": "Sā tatala e le teine le pusa.",
+            "en": "The girl opened the box.",
+            "note": "The girl is named with the agent marker."
+          },
+          {
+            "label": "Without the doer",
+            "sm": "Sā tatala le pusa.",
+            "en": "The box was opened.",
+            "note": "The doer is gone. The verb keeps its shape and the box stays bare."
+          }
+        ]
+      },
+      "caption": "Switch between the printed sentences. Removing the doer adds no replacement word and makes no change to the verb."
+    }
+  ]
+}

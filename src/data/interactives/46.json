@@ -1,0 +1,148 @@
+{
+  "chapter": 46,
+  "items": [
+    {
+      "id": "ch46-state-while-acting",
+      "kind": "contrast",
+      "anchor": "saying-how-someone-acts",
+      "title": "The feeling while staying",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Happy",
+            "sm": "Sā ʻou nofo ma le fiafia.",
+            "en": "I stayed and was happy.",
+            "note": "The le-phrase after *ma* names the speaker’s state while staying."
+          },
+          {
+            "label": "Unhappy",
+            "sm": "Sā ʻou nofo ma le lē fiafia.",
+            "en": "I stayed and was unhappy.",
+            "note": "The not-word changes the state named by the le-phrase."
+          }
+        ]
+      },
+      "caption": "The main action stays the same. The phrase after the with-word describes the person doing it."
+    },
+    {
+      "id": "ch46-judging-verbs",
+      "kind": "grid",
+      "anchor": "judging-an-event",
+      "title": "Ways to judge an event",
+      "data": {
+        "cols": [
+          "Judging verb"
+        ],
+        "rowLabel": "Judgement",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "good",
+            "cells": [
+              {
+                "sm": "lelei",
+                "en": "good"
+              }
+            ]
+          },
+          {
+            "label": "better, the best",
+            "cells": [
+              {
+                "sm": "sili",
+                "en": "better, the best"
+              }
+            ]
+          },
+          {
+            "label": "difficult",
+            "cells": [
+              {
+                "sm": "faigatā",
+                "en": "difficult"
+              }
+            ]
+          },
+          {
+            "label": "easy",
+            "cells": [
+              {
+                "sm": "faigōfie",
+                "en": "easy"
+              }
+            ]
+          },
+          {
+            "label": "extraordinary",
+            "cells": [
+              {
+                "sm": "ʻese",
+                "en": "extraordinary"
+              }
+            ]
+          },
+          {
+            "label": "does not exist",
+            "cells": [
+              {
+                "sm": "leai",
+                "en": "does not exist"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "These verbs often take a le-phrase as what the sentence is about. The verb passes judgement on the event named by the phrase."
+    },
+    {
+      "id": "ch46-phrase-use",
+      "kind": "sort",
+      "anchor": "exclaiming-with-a-le-phrase",
+      "title": "What is the whole le-phrase doing?",
+      "data": {
+        "bins": [
+          {
+            "id": "state",
+            "label": "Naming a state while acting"
+          },
+          {
+            "id": "judge",
+            "label": "An event being judged"
+          },
+          {
+            "id": "exclaim",
+            "label": "An immediate exclamation"
+          }
+        ],
+        "items": [
+          {
+            "sm": "Na ʻou tausi=a le pepe ma le fiafia.",
+            "en": "I took care of the baby happily.",
+            "bin": "state",
+            "why": "The phrase after *ma* names the doer’s feeling while caring for the baby."
+          },
+          {
+            "sm": "E lelei le putaafa o le puaʻa.",
+            "en": "It is good that the pig is fat.",
+            "bin": "judge",
+            "why": "The judging verb calls the event named by the le-phrase good."
+          },
+          {
+            "sm": "E ʻese le mānaia o le ula.",
+            "en": "The necklace is extremely nice.",
+            "bin": "judge",
+            "why": "The judging verb stresses that the quality is out of the ordinary."
+          },
+          {
+            "sm": "ʻO le fefe o le teine",
+            "en": "Look how scared the girl is",
+            "bin": "exclaim",
+            "why": "The presenting particle holds up the le-phrase as an immediate comment on the girl’s reaction."
+          }
+        ]
+      },
+      "intro": "Read the construction around the event phrase and choose its use."
+    }
+  ]
+}

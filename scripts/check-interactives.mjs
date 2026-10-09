@@ -107,10 +107,14 @@ export function attestedIn(n, s, book = loadBook()) {
 // borrowed from the neighbouring example.
 const GAP = /^(?:[\s|↘↗=:,;"'“”‘’()[\]*.!?/-]|(?:means|is|are|or|and|the|a|an|to|Lit)(?![A-Za-z]))*/
 const GAP_END = /(?:[\s|↘↗=:,;"'“”‘’()[\]*.!?/-]|(?:means|is|are|or|and|the|a|an|to|Lit)(?![A-Za-z]))*$/
+const WORD_CHAR = /[\p{L}\p{M}\p{N}_]/u
 const startsWith = (text, needle) => {
-  if (!text.startsWith(needle.slice(1)) && !text.slice(1).startsWith(needle.slice(1))) return false
-  return text[0]?.toLowerCase() === needle[0].toLowerCase() && text.slice(1).startsWith(needle.slice(1))
+  return text[0]?.toLowerCase() === needle[0].toLowerCase()
+    && text.slice(1).startsWith(needle.slice(1))
+    && !(WORD_CHAR.test(needle.at(-1)) && WORD_CHAR.test(text[needle.length] || ''))
 }
+const endsWith = (text, needle) => text.toLowerCase().endsWith(needle.toLowerCase())
+  && !(WORD_CHAR.test(needle[0]) && WORD_CHAR.test(text[text.length - needle.length - 1] || ''))
 // Preserve gloss-leading words, and never match across two table-row bars.
 const SEPARATORS = /^[\s|↘↗=:,;"'“”‘’()[\]*.!?/-]*/
 const SEPARATORS_END = /[\s|↘↗=:,;"'“”‘’()[\]*.!?/-]*$/
@@ -129,7 +133,7 @@ function precededBy(before, en) {
   const boundary = boundaries.at(-1)
   const row = boundary ? before.slice(boundary.index + boundary[0].length) : before
   const matches = text => [text.replace(SEPARATORS_END, ''), text.replace(GAP_END, '')]
-    .some(rest => rest.toLowerCase().endsWith(en.toLowerCase()))
+    .some(rest => endsWith(rest, en))
   if (matches(row)) return true
   const rest = row.replace(SEPARATORS_END, '')
   const bar = rest.lastIndexOf('|')

@@ -186,6 +186,18 @@ function paragraphBlocks(node) {
 function examplePair(line) {
   const pair = emDashPair(line) || compactPair(line)
   if (pair) return pair
+  const children = line.children || []
+  const firstMeaningful = children.findIndex(child => !isBlankText(child))
+  if (firstMeaningful >= 0 && children[firstMeaningful].type === 'emphasis') {
+    const tail = stripLeadingWhitespace(children.slice(firstMeaningful + 1))
+    if (tail[0]?.type === 'text' && /^[.,;:]\s+/.test(tail[0].value)) {
+      const english = [{ ...tail[0], value: tail[0].value.replace(/^[.,;:]\s+/, '') }, ...tail.slice(1)]
+      return {
+        samoan: plainInline(nodesMarkdown(children[firstMeaningful].children || [])),
+        english: nodesMarkdown(trimEdges(english)),
+      }
+    }
+  }
   return { samoan: null, english: '', line: childrenMarkdown(line).trim() }
 }
 

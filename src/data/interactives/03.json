@@ -1,0 +1,50 @@
+{
+  "chapter": 3,
+  "items": [
+    {
+      "id": "ch3-after-the-action",
+      "kind": "contrast",
+      "anchor": "the-describing-verb",
+      "title": "The describing verb follows the action",
+      "caption": "The particle, person, and action keep their places. The added describing verb says how the action was done.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          { "label": "Action", "sm": "Sā ʻou foi.", "en": "I returned." },
+          { "label": "Action described", "sm": "Sā ʻou foi fiafia.", "en": "I returned happily.", "note": "The describing verb *fiafia* follows the action verb *foi*." }
+        ]
+      }
+    },
+    {
+      "id": "ch3-fia-before-the-action",
+      "kind": "contrast",
+      "anchor": "the-want-word-fia",
+      "title": "The want word comes before the action",
+      "caption": "The want word *fia* stands directly before the action verb.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          { "label": "Action", "sm": "Sā ʻou alu.", "en": "I went." },
+          { "label": "Wanted action", "sm": "Sā ʻou fia alu.", "en": "I wanted to go.", "note": "Under the past particle, *fia* says the action was wanted." }
+        ]
+      }
+    },
+    {
+      "id": "ch3-match-verb-jobs",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Match each verb to its meaning",
+      "intro": "Pair each Samoan word with the meaning printed in this chapter.",
+      "data": {
+        "pairs": [
+          { "sm": "fia", "en": "want: goes in front of the verb and says the action was wanted" },
+          { "sm": "fiafia", "en": "happy, glad (after a verb: happily)" },
+          { "sm": "malosi", "en": "strong (after a verb: hard, with strength)" },
+          { "sm": "foi", "en": "return" },
+          { "sm": "tagi", "en": "cry" },
+          { "sm": "fesili", "en": "ask" }
+        ]
+      }
+    }
+  ]
+}

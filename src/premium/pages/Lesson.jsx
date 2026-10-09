@@ -17,6 +17,7 @@ import { Tile } from '../components/Tile.jsx'
 import { lessonColours, lessonTile } from '../lib/lesson-colour.js'
 import { exerciseAnchor, readExerciseState } from '../lib/exercise-progress.js'
 import Interactive from '../components/interactive/Interactive.jsx'
+import LoadFailure from '../components/LoadFailure.jsx'
 import '../styles/lesson.css'
 import '../styles/lesson-experience.css'
 import '../styles/source-core.css'
@@ -90,10 +91,21 @@ export function Section({ s, n, ctx }) {
   if (vocabulary) {
     s.blocks.forEach((block, index) => {
       if (block.type !== 'table') return
-      const labelIndex = index > 0 && s.blocks[index - 1].type === 'p' ? index - 1 : null
-      vocabGroups.push({ label: labelIndex === null ? null : s.blocks[labelIndex].text, table: block })
+      const labelIndexes = []
+      for (let cursor = index - 1; cursor >= 0 && s.blocks[cursor].type === 'p'; cursor -= 1) labelIndexes.unshift(cursor)
+      const rawLabels = labelIndexes.map(labelIndex => s.blocks[labelIndex].text)
+      const leadIndex = rawLabels.findIndex(text => /^\*\*/.test(text))
+      const lead = leadIndex >= 0 ? rawLabels[leadIndex] : rawLabels[0] || ''
+      const labelMatch = lead.match(/^(\*\*[^*]+\*\*(?:\s*\([^)]*\))?\s*:?)\s*([\s\S]*)$/)
+      const notes = rawLabels.filter((_, partIndex) => partIndex !== (leadIndex >= 0 ? leadIndex : 0))
+      if (labelMatch?.[2]) notes.unshift(labelMatch[2])
+      vocabGroups.push({
+        label: labelMatch?.[1] || lead || null,
+        note: notes.join(' ').trim() || null,
+        table: block,
+      })
       groupedIndexes.add(index)
-      if (labelIndex !== null) groupedIndexes.add(labelIndex)
+      labelIndexes.forEach(labelIndex => groupedIndexes.add(labelIndex))
     })
   }
   const firstGroup = groupedIndexes.size ? Math.min(...groupedIndexes) : -1
@@ -122,8 +134,8 @@ export function Rail({ sections, active, prev, next, exStats, label = 'In this c
         ))}
       </ol>
       <div className="rail-nav">
-        {prev && <Link to={`/chapters/${prev.chapter}`} className="rail-pn"><span>← Chapter {prev.chapter}</span><em><Md text={prev.title} /></em></Link>}
-        {next && <Link to={`/chapters/${next.chapter}`} className="rail-pn is-next"><span>Chapter {next.chapter} →</span><em><Md text={next.title} /></em></Link>}
+        {prev && <Link to={`/chapters/${prev.chapter}`} className="rail-pn"><span className="rail-pn-k">← Chapter {prev.chapter}</span><em><Md text={prev.title} /></em></Link>}
+        {next && <Link to={`/chapters/${next.chapter}`} className="rail-pn is-next"><span className="rail-pn-k">Chapter {next.chapter} →</span><em><Md text={next.title} /></em></Link>}
       </div>
     </nav>
   )
@@ -253,13 +265,14 @@ export default function Lesson() {
   const meta = chapters.find(c => c.chapter === n)
   useTitle(meta ? `Chapter ${n}: ${meta.title.replace(/\*/g, '')}` : 'Chapter not found')
   const [lesson, setLesson] = useState(null)
+  const [loadError, setLoadError] = useState(false)
   const [active, setActive] = useState(null)
   const [exerciseProgress, setExerciseProgress] = useState({})
   const bodyRef = useRef(null)
 
   useEffect(() => {
     let live = true
-    loadLesson(n).then(l => { if (live) setLesson(l) })
+    loadLesson(n).then(l => { if (live) setLesson(l) }).catch(() => { if (live) setLoadError(true) })
     if (meta) markLessonOpened(n)
     return () => { live = false }
   }, [n]) // eslint-disable-line react-hooks/exhaustive-deps
@@ -295,6 +308,7 @@ export default function Lesson() {
   const ctx = { onProgress, ...placed }
 
   if (!meta) return <div className="wrap" style={{ padding: '160px 0' }}><h1 className="display">No Chapter {num}</h1><Link to="/chapters" className="link">All chapters</Link></div>
+  if (loadError) return <LoadFailure message={`Chapter ${n} did not load.`} />
 
   const prev = chapters.find(c => c.chapter === n - 1)
   const next = chapters.find(c => c.chapter === n + 1)

@@ -1,0 +1,92 @@
+{
+  "chapter": 33,
+  "items": [
+    {
+      "id": "ch33-report-time",
+      "kind": "contrast",
+      "anchor": "reporting-what-someone-knew",
+      "title": "Move the report, keep its clause",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Knowing now",
+            "sm": "ʻUa iloa e le tama ʻua sau le teine.",
+            "en": "The boy knows that the girl has come.",
+            "note": "The coming is already done at the time of the knowing."
+          },
+          {
+            "label": "Knowing then",
+            "sm": "Na iloa e le tama ʻua sau le teine.",
+            "en": "The boy knew that the girl had come.",
+            "note": "The report is in the past. The coming was already done then, and its Samoan particle has not moved."
+          }
+        ]
+      },
+      "caption": "The first tense particle changes. The reported clause stays word for word the same, while English changes has come to had come."
+    },
+    {
+      "id": "ch33-ongoing-report",
+      "kind": "contrast",
+      "anchor": "the-tense-particle-inside-the-report",
+      "title": "Staying at the time of the report",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Report at now",
+            "sm": "ʻUa iloa e le tama ʻoloʻo nofo le teine i le nuʻu.",
+            "en": "The boy knows that the girl is staying in the village."
+          },
+          {
+            "label": "Report in the past",
+            "sm": "Na iloa e le tama ʻoloʻo nofo le teine i le nuʻu.",
+            "en": "The boy knew that the girl was staying in the village."
+          }
+        ]
+      },
+      "caption": "The happening-now particle inside the report places the staying at the same time as the knowing, whether that knowing is now or in the past."
+    },
+    {
+      "id": "ch33-kind-of-report",
+      "kind": "pick",
+      "anchor": "asking-in-a-report-pe",
+      "title": "What is being passed on?",
+      "data": {
+        "question": "What kind of report is this?",
+        "options": [
+          {
+            "id": "knowledge",
+            "label": "What someone knew"
+          },
+          {
+            "id": "command",
+            "label": "A command"
+          },
+          {
+            "id": "question",
+            "label": "A question"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Na iloa e le tama ʻua sasae le ie.",
+            "answer": "knowledge",
+            "why": "A knowing word is followed by an ordinary clause with its own tense particle."
+          },
+          {
+            "sm": "ʻUa faatonu mai e le teine o le vaalele ʻia nofo le tagata.",
+            "answer": "command",
+            "why": "The mood particle *ʻia* opens the reported command."
+          },
+          {
+            "sm": "Na fai mai le teine pē nofo le tama i le nuʻu.",
+            "answer": "question",
+            "why": "*Pē* opens the reported question after the say-verb."
+          }
+        ]
+      },
+      "intro": "Read how the reported part begins and choose what is being reported."
+    }
+  ]
+}

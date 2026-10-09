@@ -307,37 +307,62 @@
       "title": "Take the listener in, or leave them out",
       "instructions": "Choose *tātou* or *mātou* for each meaning.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch2-ex4-1",
           "n": 1,
           "prompt": "We danced, and you were with us.",
-          "answer": "*tātou*"
+          "answer": "*tātou*",
+          "options": [
+            "*tātou*",
+            "*mātou*"
+          ],
+          "correct": "*tātou*"
         },
         {
           "id": "ch2-ex4-2",
           "n": 2,
           "prompt": "We danced, but you were not there.",
-          "answer": "*mātou*"
+          "answer": "*mātou*",
+          "options": [
+            "*tātou*",
+            "*mātou*"
+          ],
+          "correct": "*mātou*"
         },
         {
           "id": "ch2-ex4-3",
           "n": 3,
           "prompt": "We came, you included.",
-          "answer": "*tātou*"
+          "answer": "*tātou*",
+          "options": [
+            "*tātou*",
+            "*mātou*"
+          ],
+          "correct": "*tātou*"
         },
         {
           "id": "ch2-ex4-4",
           "n": 4,
           "prompt": "We went fishing, but not you.",
-          "answer": "*mātou*"
+          "answer": "*mātou*",
+          "options": [
+            "*tātou*",
+            "*mātou*"
+          ],
+          "correct": "*mātou*"
         },
         {
           "id": "ch2-ex4-5",
           "n": 5,
           "prompt": "We bathed, you and I together with others.",
-          "answer": "*tātou*"
+          "answer": "*tātou*",
+          "options": [
+            "*tātou*",
+            "*mātou*"
+          ],
+          "correct": "*tātou*"
         }
       ]
     },
@@ -659,37 +684,62 @@
       "title": "Choose *na* or *sā*",
       "instructions": "Pick the past particle that fits the shape of the event.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch4-ex3-1",
           "n": 1,
           "prompt": "She fell in love: a single, finished moment.",
-          "answer": "*na*"
+          "answer": "*na*",
+          "options": [
+            "*na*",
+            "*sā*"
+          ],
+          "correct": "*na*"
         },
         {
           "id": "ch4-ex3-2",
           "n": 2,
           "prompt": "She loved him over a long stretch of time.",
-          "answer": "*sā*"
+          "answer": "*sā*",
+          "options": [
+            "*na*",
+            "*sā*"
+          ],
+          "correct": "*sā*"
         },
         {
           "id": "ch4-ex3-3",
           "n": 3,
           "prompt": "The dance began: a single starting point.",
-          "answer": "*na*"
+          "answer": "*na*",
+          "options": [
+            "*na*",
+            "*sā*"
+          ],
+          "correct": "*na*"
         },
         {
           "id": "ch4-ex3-4",
           "n": 4,
           "prompt": "That was the ongoing state of things, day after day.",
-          "answer": "*sā*"
+          "answer": "*sā*",
+          "options": [
+            "*na*",
+            "*sā*"
+          ],
+          "correct": "*sā*"
         },
         {
           "id": "ch4-ex3-5",
           "n": 5,
           "prompt": "She was sick for weeks: an ongoing state.",
-          "answer": "*sā*"
+          "answer": "*sā*",
+          "options": [
+            "*na*",
+            "*sā*"
+          ],
+          "correct": "*sā*"
         }
       ]
     },
@@ -1504,31 +1554,51 @@
       "title": "Choose *ai* or *ā*",
       "instructions": "Fill the blank so the question matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch8-ex6-1",
           "n": 1,
           "prompt": "*ʻO ___ le tamaitai?* (Who is the lady?)",
-          "answer": "*ʻO ai le tamaitai?*"
+          "answer": "*ʻO ai le tamaitai?*",
+          "options": [
+            "*ai*",
+            "*ā*"
+          ],
+          "correct": "*ai*"
         },
         {
           "id": "ch8-ex6-2",
           "n": 2,
           "prompt": "*ʻO le ___ le ʻupu?* (What is the word?)",
-          "answer": "*ʻO le ā le ʻupu?*"
+          "answer": "*ʻO le ā le ʻupu?*",
+          "options": [
+            "*ai*",
+            "*ā*"
+          ],
+          "correct": "*ā*"
         },
         {
           "id": "ch8-ex6-3",
           "n": 3,
           "prompt": "*ʻO ___ lena?* (Who is that?)",
-          "answer": "*ʻO ai lena?*"
+          "answer": "*ʻO ai lena?*",
+          "options": [
+            "*ai*",
+            "*ā*"
+          ],
+          "correct": "*ai*"
         },
         {
           "id": "ch8-ex6-4",
           "n": 4,
           "prompt": "*ʻO le ___ lena?* (What is that?)",
-          "answer": "*ʻO le ā lena?*"
+          "answer": "*ʻO le ā lena?*",
+          "options": [
+            "*ai*",
+            "*ā*"
+          ],
+          "correct": "*ā*"
         }
       ]
     }
@@ -2059,37 +2129,62 @@
       "title": "Choose *i* or *mai*",
       "instructions": "Fill in the place word *i* or the from-word *mai* so the phrase matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch11-ex3-1",
           "n": 1,
           "prompt": "*Sā nofo le tama ___ le fale.* (stayed in the house)",
-          "answer": "*i*"
+          "answer": "*i*",
+          "options": [
+            "*i*",
+            "*mai*"
+          ],
+          "correct": "*i*"
         },
         {
           "id": "ch11-ex3-2",
           "n": 2,
           "prompt": "*Na oso le pusi ___ le laau.* (jumped from the tree)",
-          "answer": "*mai*"
+          "answer": "*mai*",
+          "options": [
+            "*i*",
+            "*mai*"
+          ],
+          "correct": "*mai*"
         },
         {
           "id": "ch11-ex3-3",
           "n": 3,
           "prompt": "*Sā ʻou alu ___ le nuʻu.* (went to the village)",
-          "answer": "*i*"
+          "answer": "*i*",
+          "options": [
+            "*i*",
+            "*mai*"
+          ],
+          "correct": "*i*"
         },
         {
           "id": "ch11-ex3-4",
           "n": 4,
           "prompt": "*Na sau le teine ___ le fale.* (came from the house)",
-          "answer": "*mai*"
+          "answer": "*mai*",
+          "options": [
+            "*i*",
+            "*mai*"
+          ],
+          "correct": "*mai*"
         },
         {
           "id": "ch11-ex3-5",
           "n": 5,
           "prompt": "*Sā ia alu ___ le fale.* (went to the house)",
-          "answer": "*i*"
+          "answer": "*i*",
+          "options": [
+            "*i*",
+            "*mai*"
+          ],
+          "correct": "*i*"
         }
       ]
     },
@@ -2283,37 +2378,62 @@
       "title": "Choose the wanting word",
       "instructions": "Fill each gap with *fia* (to want to do something) or *manaʻo* (to want a thing), so the sentence matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch12-ex4-1",
           "n": 1,
           "prompt": "*Sā ʻou ___ ʻai.* (I wanted to eat.)",
-          "answer": "*fia*"
+          "answer": "*fia*",
+          "options": [
+            "*fia*",
+            "*manaʻo*"
+          ],
+          "correct": "*fia*"
         },
         {
           "id": "ch12-ex4-2",
           "n": 2,
           "prompt": "*ʻUa ___ le teine i le niu.* (The girl wanted a coconut.)",
-          "answer": "*manaʻo*"
+          "answer": "*manaʻo*",
+          "options": [
+            "*fia*",
+            "*manaʻo*"
+          ],
+          "correct": "*manaʻo*"
         },
         {
           "id": "ch12-ex4-3",
           "n": 3,
           "prompt": "*Sā ia ___ siva.* (She wanted to dance.)",
-          "answer": "*fia*"
+          "answer": "*fia*",
+          "options": [
+            "*fia*",
+            "*manaʻo*"
+          ],
+          "correct": "*fia*"
         },
         {
           "id": "ch12-ex4-4",
           "n": 4,
           "prompt": "*Sā ʻou ___ siva.* (I wanted to dance.)",
-          "answer": "*fia*"
+          "answer": "*fia*",
+          "options": [
+            "*fia*",
+            "*manaʻo*"
+          ],
+          "correct": "*fia*"
         },
         {
           "id": "ch12-ex4-5",
           "n": 5,
           "prompt": "*ʻUa ___ le ulugāliʻi i le meaʻai.* (The couple wanted some food.)",
-          "answer": "*manaʻo*"
+          "answer": "*manaʻo*",
+          "options": [
+            "*fia*",
+            "*manaʻo*"
+          ],
+          "correct": "*manaʻo*"
         }
       ]
     },
@@ -2445,37 +2565,62 @@
       "title": "Choose *e* or *te*",
       "instructions": "Put *e* or *te* in the gap. Use *e* when no pronoun stands in front of the particle, and *te* when a pronoun does.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch13-ex3-1",
           "n": 1,
           "prompt": "*___ loloto le vai.*",
-          "answer": "*e*"
+          "answer": "*e*",
+          "options": [
+            "*e*",
+            "*te*"
+          ],
+          "correct": "*e*"
         },
         {
           "id": "ch13-ex3-2",
           "n": 2,
           "prompt": "*ʻOu ___ gālue i le nuʻu.*",
-          "answer": "*te*"
+          "answer": "*te*",
+          "options": [
+            "*e*",
+            "*te*"
+          ],
+          "correct": "*te*"
         },
         {
           "id": "ch13-ex3-3",
           "n": 3,
           "prompt": "*___ alu le pasi i le nuʻu.*",
-          "answer": "*e*"
+          "answer": "*e*",
+          "options": [
+            "*e*",
+            "*te*"
+          ],
+          "correct": "*e*"
         },
         {
           "id": "ch13-ex3-4",
           "n": 4,
           "prompt": "*ʻE ___ tusitusi?*",
-          "answer": "*te*"
+          "answer": "*te*",
+          "options": [
+            "*e*",
+            "*te*"
+          ],
+          "correct": "*te*"
         },
         {
           "id": "ch13-ex3-5",
           "n": 5,
           "prompt": "*___ fiafia le teine.*",
-          "answer": "*e*"
+          "answer": "*e*",
+          "options": [
+            "*e*",
+            "*te*"
+          ],
+          "correct": "*e*"
         }
       ]
     },
@@ -2485,37 +2630,67 @@
       "title": "Choose the particle",
       "instructions": "Fill each gap with the general particle (*e* or *te*) for something true in general, or *ʻoloʻo* for something happening right now, so the sentence matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch13-ex4-1",
           "n": 1,
           "prompt": "*___ siva le teine.* (The girl is dancing right now.)",
-          "answer": "*ʻoloʻo*"
+          "answer": "*ʻoloʻo*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*ʻoloʻo*"
+          ],
+          "correct": "*ʻoloʻo*"
         },
         {
           "id": "ch13-ex4-2",
           "n": 2,
           "prompt": "*___ malosi le tama.* (The boy is strong.)",
-          "answer": "*e*"
+          "answer": "*e*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*ʻoloʻo*"
+          ],
+          "correct": "*e*"
         },
         {
           "id": "ch13-ex4-3",
           "n": 3,
           "prompt": "*___ tusitusi le tama.* (The boy is writing right now.)",
-          "answer": "*ʻoloʻo*"
+          "answer": "*ʻoloʻo*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*ʻoloʻo*"
+          ],
+          "correct": "*ʻoloʻo*"
         },
         {
           "id": "ch13-ex4-4",
           "n": 4,
           "prompt": "*ʻOu ___ alu.* (I go.)",
-          "answer": "*te*"
+          "answer": "*te*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*ʻoloʻo*"
+          ],
+          "correct": "*te*"
         },
         {
           "id": "ch13-ex4-5",
           "n": 5,
           "prompt": "*___ loloto le vai.* (The water is deep.)",
-          "answer": "*e*"
+          "answer": "*e*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*ʻoloʻo*"
+          ],
+          "correct": "*e*"
         }
       ]
     },
@@ -2647,37 +2822,62 @@
       "title": "Choose *iai* or *leai*",
       "instructions": "Put the there-is verb *iai* or the there-is-none verb *leai* into the gap so the sentence matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch14-ex3-1",
           "n": 1,
           "prompt": "*E ___ se fana.* (There is a gun.)",
-          "answer": "*iai*"
+          "answer": "*iai*",
+          "options": [
+            "*iai*",
+            "*leai*"
+          ],
+          "correct": "*iai*"
         },
         {
           "id": "ch14-ex3-2",
           "n": 2,
           "prompt": "*E ___ se mea.* (There is nothing.)",
-          "answer": "*leai*"
+          "answer": "*leai*",
+          "options": [
+            "*iai*",
+            "*leai*"
+          ],
+          "correct": "*leai*"
         },
         {
           "id": "ch14-ex3-3",
           "n": 3,
           "prompt": "*E ___ sau tusi?* (Do you have a book?)",
-          "answer": "*iai*"
+          "answer": "*iai*",
+          "options": [
+            "*iai*",
+            "*leai*"
+          ],
+          "correct": "*iai*"
         },
         {
           "id": "ch14-ex3-4",
           "n": 4,
           "prompt": "*ʻUa ___ se vai.* (There is now no water.)",
-          "answer": "*leai*"
+          "answer": "*leai*",
+          "options": [
+            "*iai*",
+            "*leai*"
+          ],
+          "correct": "*leai*"
         },
         {
           "id": "ch14-ex3-5",
           "n": 5,
           "prompt": "*E ___ se tusi.* (There is no book.)",
-          "answer": "*leai*"
+          "answer": "*leai*",
+          "options": [
+            "*iai*",
+            "*leai*"
+          ],
+          "correct": "*leai*"
         }
       ]
     },
@@ -2878,37 +3078,62 @@
       "title": "Choose *lē* or *leʻi*",
       "instructions": "Put the not-word *lē* or the not-yet word *leʻi* into each gap so the sentence matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch15-ex4-1",
           "n": 1,
           "prompt": "*Sā ___ siva le teine.* (The girl did not dance.)",
-          "answer": "*lē*"
+          "answer": "*lē*",
+          "options": [
+            "*lē*",
+            "*leʻi*"
+          ],
+          "correct": "*lē*"
         },
         {
           "id": "ch15-ex4-2",
           "n": 2,
           "prompt": "*E ___ alu le teine.* (The girl has not gone yet.)",
-          "answer": "*leʻi*"
+          "answer": "*leʻi*",
+          "options": [
+            "*lē*",
+            "*leʻi*"
+          ],
+          "correct": "*leʻi*"
         },
         {
           "id": "ch15-ex4-3",
           "n": 3,
           "prompt": "*ʻUa ___ fiafia le tama.* (The boy is unhappy.)",
-          "answer": "*lē*"
+          "answer": "*lē*",
+          "options": [
+            "*lē*",
+            "*leʻi*"
+          ],
+          "correct": "*lē*"
         },
         {
           "id": "ch15-ex4-4",
           "n": 4,
           "prompt": "*ʻOu te ___ alu.* (I have not gone yet.)",
-          "answer": "*leʻi*"
+          "answer": "*leʻi*",
+          "options": [
+            "*lē*",
+            "*leʻi*"
+          ],
+          "correct": "*leʻi*"
         },
         {
           "id": "ch15-ex4-5",
           "n": 5,
           "prompt": "*E ___ malosi le tama.* (The boy is not strong.)",
-          "answer": "*lē*"
+          "answer": "*lē*",
+          "options": [
+            "*lē*",
+            "*leʻi*"
+          ],
+          "correct": "*lē*"
         }
       ]
     },
@@ -3080,37 +3305,62 @@
       "title": "Choose *ai* or *i ai*",
       "instructions": "Put *ai* or *i ai* into each gap so the sentence matches the English. Use *i ai* here for going to a place, bare *ai* for staying or doing at a place.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch16-ex4-1",
           "n": 1,
           "prompt": "*Sā alu le teine ___.* (The girl went there.)",
-          "answer": "*i ai*"
+          "answer": "*i ai*",
+          "options": [
+            "*ai*",
+            "*i ai*"
+          ],
+          "correct": "*i ai*"
         },
         {
           "id": "ch16-ex4-2",
           "n": 2,
           "prompt": "*Sā malolo ___ le tama.* (The boy rested there.)",
-          "answer": "*ai*"
+          "answer": "*ai*",
+          "options": [
+            "*ai*",
+            "*i ai*"
+          ],
+          "correct": "*ai*"
         },
         {
           "id": "ch16-ex4-3",
           "n": 3,
           "prompt": "*Sā nofo ___ le aitu.* (The spirit lived there.)",
-          "answer": "*ai*"
+          "answer": "*ai*",
+          "options": [
+            "*ai*",
+            "*i ai*"
+          ],
+          "correct": "*ai*"
         },
         {
           "id": "ch16-ex4-4",
           "n": 4,
           "prompt": "*Sā alu le tama ___.* (The boy went there.)",
-          "answer": "*i ai*"
+          "answer": "*i ai*",
+          "options": [
+            "*ai*",
+            "*i ai*"
+          ],
+          "correct": "*i ai*"
         },
         {
           "id": "ch16-ex4-5",
           "n": 5,
           "prompt": "*Sā fiafia ___ le teine.* (The girl was happy there.)",
-          "answer": "*ai*"
+          "answer": "*ai*",
+          "options": [
+            "*ai*",
+            "*i ai*"
+          ],
+          "correct": "*ai*"
         }
       ]
     },
@@ -3283,37 +3533,62 @@
       "title": "Existence or location",
       "instructions": "Put *leai* or *lē i ai* into each gap so the sentence matches the English. Use *leai* when existence is denied, *lē i ai* when a location is denied.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch17-ex4-1",
           "n": 1,
           "prompt": "*E ___ se taʻavale i le nuʻu.* (There is no car in the village.)",
-          "answer": "*leai*"
+          "answer": "*leai*",
+          "options": [
+            "*leai*",
+            "*lē i ai*"
+          ],
+          "correct": "*leai*"
         },
         {
           "id": "ch17-ex4-2",
           "n": 2,
           "prompt": "*ʻO le fale e ___ le teine.* (The girl is not in the house.)",
-          "answer": "*lē i ai*"
+          "answer": "*lē i ai*",
+          "options": [
+            "*leai*",
+            "*lē i ai*"
+          ],
+          "correct": "*lē i ai*"
         },
         {
           "id": "ch17-ex4-3",
           "n": 3,
           "prompt": "*E ___ se pusi i le potu.* (There is no cat in the room.)",
-          "answer": "*leai*"
+          "answer": "*leai*",
+          "options": [
+            "*leai*",
+            "*lē i ai*"
+          ],
+          "correct": "*leai*"
         },
         {
           "id": "ch17-ex4-4",
           "n": 4,
           "prompt": "*ʻO le nuʻu e ___ le tama.* (The boy is not in the village.)",
-          "answer": "*lē i ai*"
+          "answer": "*lē i ai*",
+          "options": [
+            "*leai*",
+            "*lē i ai*"
+          ],
+          "correct": "*lē i ai*"
         },
         {
           "id": "ch17-ex4-5",
           "n": 5,
           "prompt": "*ʻO le fale e ___ le aliʻi.* (The chief is not in the house.)",
-          "answer": "*lē i ai*"
+          "answer": "*lē i ai*",
+          "options": [
+            "*leai*",
+            "*lē i ai*"
+          ],
+          "correct": "*lē i ai*"
         }
       ]
     },
@@ -3452,37 +3727,62 @@
       "title": "Choose the tense particle",
       "instructions": "Read the time word at the end of each sentence. Put *na* or *ʻoleʻā* in the gap so the front of the sentence points the same way in time as the end.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch18-ex3-1",
           "n": 1,
           "prompt": "*___ sau le tama ananafi.*",
-          "answer": "*na*"
+          "answer": "*na*",
+          "options": [
+            "*na*",
+            "*ʻoleʻā*"
+          ],
+          "correct": "*na*"
         },
         {
           "id": "ch18-ex3-2",
           "n": 2,
           "prompt": "*___ siva le teine ʻātaeao.*",
-          "answer": "*ʻoleʻā*"
+          "answer": "*ʻoleʻā*",
+          "options": [
+            "*na*",
+            "*ʻoleʻā*"
+          ],
+          "correct": "*ʻoleʻā*"
         },
         {
           "id": "ch18-ex3-3",
           "n": 3,
           "prompt": "*___ tāʻele le tama anapō.*",
-          "answer": "*na*"
+          "answer": "*na*",
+          "options": [
+            "*na*",
+            "*ʻoleʻā*"
+          ],
+          "correct": "*na*"
         },
         {
           "id": "ch18-ex3-4",
           "n": 4,
           "prompt": "*___ sau le teine nānei.*",
-          "answer": "*ʻoleʻā*"
+          "answer": "*ʻoleʻā*",
+          "options": [
+            "*na*",
+            "*ʻoleʻā*"
+          ],
+          "correct": "*ʻoleʻā*"
         },
         {
           "id": "ch18-ex3-5",
           "n": 5,
           "prompt": "*___ siva le teine analeilā.*",
-          "answer": "*na*"
+          "answer": "*na*",
+          "options": [
+            "*na*",
+            "*ʻoleʻā*"
+          ],
+          "correct": "*na*"
         }
       ]
     },
@@ -3695,37 +3995,62 @@
       "title": "Choose the verb form",
       "instructions": "Put the singular or the plural verb form into each gap so it agrees with the subject. Where the subject is a group word, give the usual plural.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch19-ex4-1",
           "n": 1,
           "prompt": "*Sā ___ le teine.* (nofo / nonofo)",
-          "answer": "*nofo*"
+          "answer": "*nofo*",
+          "options": [
+            "*nofo*",
+            "*nonofo*"
+          ],
+          "correct": "*nofo*"
         },
         {
           "id": "ch19-ex4-2",
           "n": 2,
           "prompt": "*Sā ___ teine.* (nofo / nonofo)",
-          "answer": "*nonofo*"
+          "answer": "*nonofo*",
+          "options": [
+            "*nofo*",
+            "*nonofo*"
+          ],
+          "correct": "*nonofo*"
         },
         {
           "id": "ch19-ex4-3",
           "n": 3,
           "prompt": "*Sā ___ le aiga.* (nofo / nonofo)",
-          "answer": "*nonofo* (the usual choice with a group word; as the chapter says, the singular is possible here too)"
+          "answer": "*nonofo* (the usual choice with a group word; as the chapter says, the singular is possible here too)",
+          "options": [
+            "*nofo*",
+            "*nonofo*"
+          ],
+          "correct": "*nonofo*"
         },
         {
           "id": "ch19-ex4-4",
           "n": 4,
           "prompt": "*E ___ pusi.* (uliuli / uli)",
-          "answer": "*uli*"
+          "answer": "*uli*",
+          "options": [
+            "*uliuli*",
+            "*uli*"
+          ],
+          "correct": "*uli*"
         },
         {
           "id": "ch19-ex4-5",
           "n": 5,
           "prompt": "*E ___ le pusi.* (uliuli / uli)",
-          "answer": "*uliuli*"
+          "answer": "*uliuli*",
+          "options": [
+            "*uliuli*",
+            "*uli*"
+          ],
+          "correct": "*uliuli*"
         }
       ]
     },
@@ -3897,37 +4222,62 @@
       "title": "Choose the verb",
       "instructions": "The English tells you whether one person acts with a companion or two people act together. Put *nofo* or *nonofo* in the gap.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch20-ex4-1",
           "n": 1,
           "prompt": "*Sā ___ le tama ma le teine.* (The boy stayed with the girl.)",
-          "answer": "*nofo*"
+          "answer": "*nofo*",
+          "options": [
+            "*nofo*",
+            "*nonofo*"
+          ],
+          "correct": "*nofo*"
         },
         {
           "id": "ch20-ex4-2",
           "n": 2,
           "prompt": "*Sā ___ le tama ma le teine.* (The boy and the girl stayed.)",
-          "answer": "*nonofo*"
+          "answer": "*nonofo*",
+          "options": [
+            "*nofo*",
+            "*nonofo*"
+          ],
+          "correct": "*nonofo*"
         },
         {
           "id": "ch20-ex4-3",
           "n": 3,
           "prompt": "*Sā ___ le teine ma le uō.* (The girl and the friend stayed.)",
-          "answer": "*nonofo*"
+          "answer": "*nonofo*",
+          "options": [
+            "*nofo*",
+            "*nonofo*"
+          ],
+          "correct": "*nonofo*"
         },
         {
           "id": "ch20-ex4-4",
           "n": 4,
           "prompt": "*Sā ___ le teine ma le uō.* (The girl stayed with the friend.)",
-          "answer": "*nofo*"
+          "answer": "*nofo*",
+          "options": [
+            "*nofo*",
+            "*nonofo*"
+          ],
+          "correct": "*nofo*"
         },
         {
           "id": "ch20-ex4-5",
           "n": 5,
           "prompt": "*Sā ___ le tama ma le uō.* (The boy and the friend stayed.)",
-          "answer": "*nonofo*"
+          "answer": "*nonofo*",
+          "options": [
+            "*nofo*",
+            "*nonofo*"
+          ],
+          "correct": "*nonofo*"
         }
       ]
     },
@@ -4059,37 +4409,62 @@
       "title": "Past or future when-word",
       "instructions": "Each English question asks about past time or future time. Fill the blank with *ʻāfea* or *anafea* so the when-word matches.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch21-ex3-1",
           "n": 1,
           "prompt": "*ʻO ___ ʻoleʻā moe ai le tama?* (When will the boy sleep?)",
-          "answer": "*ʻāfea*"
+          "answer": "*ʻāfea*",
+          "options": [
+            "*ʻāfea*",
+            "*anafea*"
+          ],
+          "correct": "*ʻāfea*"
         },
         {
           "id": "ch21-ex3-2",
           "n": 2,
           "prompt": "*ʻO ___ na siva ai le teine?* (When did the girl dance?)",
-          "answer": "*anafea*"
+          "answer": "*anafea*",
+          "options": [
+            "*ʻāfea*",
+            "*anafea*"
+          ],
+          "correct": "*anafea*"
         },
         {
           "id": "ch21-ex3-3",
           "n": 3,
           "prompt": "*ʻO ___ ʻoleʻā sau ai le teine?* (When will the girl come?)",
-          "answer": "*ʻāfea*"
+          "answer": "*ʻāfea*",
+          "options": [
+            "*ʻāfea*",
+            "*anafea*"
+          ],
+          "correct": "*ʻāfea*"
         },
         {
           "id": "ch21-ex3-4",
           "n": 4,
           "prompt": "*ʻO ___ na alu ai le tama?* (When did the boy go?)",
-          "answer": "*anafea*"
+          "answer": "*anafea*",
+          "options": [
+            "*ʻāfea*",
+            "*anafea*"
+          ],
+          "correct": "*anafea*"
         },
         {
           "id": "ch21-ex3-5",
           "n": 5,
           "prompt": "*ʻO ___ ʻoleʻā moe ai le teine?* (When will the girl sleep?)",
-          "answer": "*ʻāfea*"
+          "answer": "*ʻāfea*",
+          "options": [
+            "*ʻāfea*",
+            "*anafea*"
+          ],
+          "correct": "*ʻāfea*"
         }
       ]
     },
@@ -4885,37 +5260,62 @@
       "title": "Don't or stop",
       "instructions": "One verb forbids an action, the other tells someone to stop an action already under way. Put *ʻaua* or *sōia* in the gap so the English matches.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch24-ex3-1",
           "n": 1,
           "prompt": "*___ ʻe te faitala.* (Stop gossiping.)",
-          "answer": "*Sōia*"
+          "answer": "*Sōia*",
+          "options": [
+            "*ʻaua*",
+            "*sōia*"
+          ],
+          "correct": "*sōia*"
         },
         {
           "id": "ch24-ex3-2",
           "n": 2,
           "prompt": "*___ ʻe te moe.* (Don't sleep.)",
-          "answer": "*ʻAua*"
+          "answer": "*ʻAua*",
+          "options": [
+            "*ʻaua*",
+            "*sōia*"
+          ],
+          "correct": "*ʻaua*"
         },
         {
           "id": "ch24-ex3-3",
           "n": 3,
           "prompt": "*___ ʻe te tagi.* (Stop crying.)",
-          "answer": "*Sōia*"
+          "answer": "*Sōia*",
+          "options": [
+            "*ʻaua*",
+            "*sōia*"
+          ],
+          "correct": "*sōia*"
         },
         {
           "id": "ch24-ex3-4",
           "n": 4,
           "prompt": "*___ ʻe te siva.* (Don't dance.)",
-          "answer": "*ʻAua*"
+          "answer": "*ʻAua*",
+          "options": [
+            "*ʻaua*",
+            "*sōia*"
+          ],
+          "correct": "*ʻaua*"
         },
         {
           "id": "ch24-ex3-5",
           "n": 5,
           "prompt": "*___ ʻe te taumafai.* (Don't try.)",
-          "answer": "*ʻAua*"
+          "answer": "*ʻAua*",
+          "options": [
+            "*ʻaua*",
+            "*sōia*"
+          ],
+          "correct": "*ʻaua*"
         }
       ]
     },
@@ -5099,37 +5499,62 @@
       "title": "Choose *a* or *o*",
       "instructions": "Put the belonging word into the gap. Each choice depends on the kind of relationship the phrase names.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch25-ex3-1",
           "n": 1,
           "prompt": "*ʻo le tao ___ le tama*",
-          "answer": "*ʻo le tao o le tama*"
+          "answer": "*ʻo le tao o le tama*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         },
         {
           "id": "ch25-ex3-2",
           "n": 2,
           "prompt": "*ʻo le sipuni ___ le fafine*",
-          "answer": "*ʻo le sipuni a le fafine*"
+          "answer": "*ʻo le sipuni a le fafine*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*a*"
         },
         {
           "id": "ch25-ex3-3",
           "n": 3,
           "prompt": "*ʻo le lanu ___ le paopao*",
-          "answer": "*ʻo le lanu o le paopao*"
+          "answer": "*ʻo le lanu o le paopao*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         },
         {
           "id": "ch25-ex3-4",
           "n": 4,
           "prompt": "*ʻo le uō ___ le tamāloa*",
-          "answer": "*ʻo le uō a le tamāloa*"
+          "answer": "*ʻo le uō a le tamāloa*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*a*"
         },
         {
           "id": "ch25-ex3-5",
           "n": 5,
           "prompt": "*ʻo le igoa ___ le teine*",
-          "answer": "*ʻo le igoa o le teine*"
+          "answer": "*ʻo le igoa o le teine*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         }
       ]
     },
@@ -6271,43 +6696,73 @@
       "title": "Choose *mai* or *atu*",
       "instructions": "Fill the gap so the Samoan matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch29-ex2-1",
           "n": 1,
           "prompt": "*Faʻatali ___.* (Wait for me.)",
-          "answer": "*Faʻatali mai.*"
+          "answer": "*Faʻatali mai.*",
+          "options": [
+            "*mai*",
+            "*atu*"
+          ],
+          "correct": "*mai*"
         },
         {
           "id": "ch29-ex2-2",
           "n": 2,
           "prompt": "*Na alu ___ le tama.* (The boy went off.)",
-          "answer": "*Na alu atu le tama.*"
+          "answer": "*Na alu atu le tama.*",
+          "options": [
+            "*mai*",
+            "*atu*"
+          ],
+          "correct": "*atu*"
         },
         {
           "id": "ch29-ex2-3",
           "n": 3,
           "prompt": "*ʻE te lē popole ___.* (You do not worry about me.)",
-          "answer": "*ʻE te lē popole mai.*"
+          "answer": "*ʻE te lē popole mai.*",
+          "options": [
+            "*mai*",
+            "*atu*"
+          ],
+          "correct": "*mai*"
         },
         {
           "id": "ch29-ex2-4",
           "n": 4,
           "prompt": "*ʻOloʻo tāʻoto ___ le teine i le fale.* (The girl is lying here in the house.)",
-          "answer": "*ʻOloʻo tāʻoto mai le teine i le fale.*"
+          "answer": "*ʻOloʻo tāʻoto mai le teine i le fale.*",
+          "options": [
+            "*mai*",
+            "*atu*"
+          ],
+          "correct": "*mai*"
         },
         {
           "id": "ch29-ex2-5",
           "n": 5,
           "prompt": "*Faʻatali ___.* (Wait here until I come back.)",
-          "answer": "*Faʻatali atu.*"
+          "answer": "*Faʻatali atu.*",
+          "options": [
+            "*mai*",
+            "*atu*"
+          ],
+          "correct": "*atu*"
         },
         {
           "id": "ch29-ex2-6",
           "n": 6,
           "prompt": "*ʻUa tagi ___ le teine i lona tamā.* (The girl cried out to her father, away from the speaker.)",
-          "answer": "*ʻUa tagi atu le teine i lona tamā.*"
+          "answer": "*ʻUa tagi atu le teine i lona tamā.*",
+          "options": [
+            "*mai*",
+            "*atu*"
+          ],
+          "correct": "*atu*"
         }
       ]
     },
@@ -6575,6 +7030,7 @@
           "prompt": "*E ___ ona ulaula.* (It is forbidden to smoke.)",
           "answer": "*E sā ona ulaula.*",
           "options": [
+            "*ona*",
             "*mafai*",
             "*tatau*",
             "*sā*",
@@ -6588,6 +7044,7 @@
           "prompt": "*ʻUa ___ ona ʻou alu.* (I must go.)",
           "answer": "*ʻUa tatau ona ʻou alu.*",
           "options": [
+            "*ona*",
             "*mafai*",
             "*tatau*",
             "*sā*",
@@ -6601,6 +7058,7 @@
           "prompt": "*ʻUa ___ ona sau le teine.* (The girl can come.)",
           "answer": "*ʻUa mafai ona sau le teine.*",
           "options": [
+            "*ona*",
             "*mafai*",
             "*tatau*",
             "*sā*",
@@ -6614,6 +7072,7 @@
           "prompt": "*ʻUa ___ ona inu ʻava malosi.* (It is allowed to drink alcohol.)",
           "answer": "*ʻUa taga ona inu ʻava malosi.*",
           "options": [
+            "*ona*",
             "*mafai*",
             "*tatau*",
             "*sā*",
@@ -6627,6 +7086,7 @@
           "prompt": "*E ___ ona alu le tama.* (The boy must go.)",
           "answer": "*E tatau ona alu le tama.*",
           "options": [
+            "*ona*",
             "*mafai*",
             "*tatau*",
             "*sā*",
@@ -6640,6 +7100,7 @@
           "prompt": "*E ___ ona siva le uso.* (The sibling can dance.)",
           "answer": "*E mafai ona siva le uso.*",
           "options": [
+            "*ona*",
             "*mafai*",
             "*tatau*",
             "*sā*",
@@ -7020,37 +7481,62 @@
       "title": "Choose *e pei* or *e tusa ma*",
       "instructions": "Fill each gap so that the Samoan matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch31-ex5-1",
           "n": 1,
           "prompt": "*Sā siva le teine ___ le finagalo o le tamā.* (The girl danced in accordance with the father's wish.)",
-          "answer": "*Sā siva le teine e tusa ma le finagalo o le tamā.*"
+          "answer": "*Sā siva le teine e tusa ma le finagalo o le tamā.*",
+          "options": [
+            "*e pei*",
+            "*e tusa ma*"
+          ],
+          "correct": "*e tusa ma*"
         },
         {
           "id": "ch31-ex5-2",
           "n": 2,
           "prompt": "*E tautala le tama ___ o se saienitisi.* (The boy talks like a scientist.)",
-          "answer": "*E tautala le tama e pei o se saienitisi.*"
+          "answer": "*E tautala le tama e pei o se saienitisi.*",
+          "options": [
+            "*e pei*",
+            "*e tusa ma*"
+          ],
+          "correct": "*e pei*"
         },
         {
           "id": "ch31-ex5-3",
           "n": 3,
           "prompt": "*Sā tautala le tama ___ sā i ai.* (The boy spoke as if he had been there.)",
-          "answer": "*Sā tautala le tama e pei sā i ai.*"
+          "answer": "*Sā tautala le tama e pei sā i ai.*",
+          "options": [
+            "*e pei*",
+            "*e tusa ma*"
+          ],
+          "correct": "*e pei*"
         },
         {
           "id": "ch31-ex5-4",
           "n": 4,
           "prompt": "*Sā tagi le pepe ___ o se manulele.* (The baby cried like a bird.)",
-          "answer": "*Sā tagi le pepe e pei o se manulele.*"
+          "answer": "*Sā tagi le pepe e pei o se manulele.*",
+          "options": [
+            "*e pei*",
+            "*e tusa ma*"
+          ],
+          "correct": "*e pei*"
         },
         {
           "id": "ch31-ex5-5",
           "n": 5,
           "prompt": "*Sā alu le tama ___ le finagalo o le tamā.* (The boy went in accordance with the father's wish.)",
-          "answer": "*Sā alu le tama e tusa ma le finagalo o le tamā.*"
+          "answer": "*Sā alu le tama e tusa ma le finagalo o le tamā.*",
+          "options": [
+            "*e pei*",
+            "*e tusa ma*"
+          ],
+          "correct": "*e tusa ma*"
         }
       ]
     },
@@ -7543,37 +8029,62 @@
       "title": "Choose *ʻia* or *pē*",
       "instructions": "Fill each gap so that the Samoan matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch33-ex4-1",
           "n": 1,
           "prompt": "*ʻUa faatonu mai e le tama ___ sau le teine.* (The boy gave the order that the girl should come.)",
-          "answer": "*ʻUa faatonu mai e le tama ʻia sau le teine.*"
+          "answer": "*ʻUa faatonu mai e le tama ʻia sau le teine.*",
+          "options": [
+            "*ʻia*",
+            "*pē*"
+          ],
+          "correct": "*ʻia*"
         },
         {
           "id": "ch33-ex4-2",
           "n": 2,
           "prompt": "*Na fai mai le teine ___ alu le tama.* (The girl asked whether the boy would go.)",
-          "answer": "*Na fai mai le teine pē alu le tama.*"
+          "answer": "*Na fai mai le teine pē alu le tama.*",
+          "options": [
+            "*ʻia*",
+            "*pē*"
+          ],
+          "correct": "*pē*"
         },
         {
           "id": "ch33-ex4-3",
           "n": 3,
           "prompt": "*ʻUa faatonu mai e le tama ___ faʻatali le teine.* (The boy gave the order that the girl should wait.)",
-          "answer": "*ʻUa faatonu mai e le tama ʻia faʻatali le teine.*"
+          "answer": "*ʻUa faatonu mai e le tama ʻia faʻatali le teine.*",
+          "options": [
+            "*ʻia*",
+            "*pē*"
+          ],
+          "correct": "*ʻia*"
         },
         {
           "id": "ch33-ex4-4",
           "n": 4,
           "prompt": "*Na fai mai le tama ___ sau le teine.* (The boy asked whether the girl would come.)",
-          "answer": "*Na fai mai le tama pē sau le teine.*"
+          "answer": "*Na fai mai le tama pē sau le teine.*",
+          "options": [
+            "*ʻia*",
+            "*pē*"
+          ],
+          "correct": "*pē*"
         },
         {
           "id": "ch33-ex4-5",
           "n": 5,
           "prompt": "*ʻUa faatonu mai e le teine o le vaalele ___ nofo le tagata.* (The stewardess gave the order that the person should sit.)",
-          "answer": "*ʻUa faatonu mai e le teine o le vaalele ʻia nofo le tagata.*"
+          "answer": "*ʻUa faatonu mai e le teine o le vaalele ʻia nofo le tagata.*",
+          "options": [
+            "*ʻia*",
+            "*pē*"
+          ],
+          "correct": "*ʻia*"
         }
       ]
     },
@@ -7855,37 +8366,62 @@
       "title": "Fill the gap",
       "instructions": "Put *ʻo* or *i* into the gap so the Samoan matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch34-ex5-1",
           "n": 1,
           "prompt": "*___ le faʻatoʻaga sā gālue ai le tama.* (The boy worked in the plantation.)",
-          "answer": "*ʻO le faʻatoʻaga sā gālue ai le tama.*"
+          "answer": "*ʻO le faʻatoʻaga sā gālue ai le tama.*",
+          "options": [
+            "*ʻo*",
+            "*i*"
+          ],
+          "correct": "*ʻo*"
         },
         {
           "id": "ch34-ex5-2",
           "n": 2,
           "prompt": "*___ aʻu ʻou te nofo i totonu o le fale.* (I live inside the house.)",
-          "answer": "*ʻO aʻu ʻou te nofo i totonu o le fale.*"
+          "answer": "*ʻO aʻu ʻou te nofo i totonu o le fale.*",
+          "options": [
+            "*ʻo*",
+            "*i*"
+          ],
+          "correct": "*ʻo*"
         },
         {
           "id": "ch34-ex5-3",
           "n": 3,
           "prompt": "*___ le faʻatoʻaga sā gālue ai le tama.* (In the plantation the boy worked there.)",
-          "answer": "*I le faʻatoʻaga sā gālue ai le tama.*"
+          "answer": "*I le faʻatoʻaga sā gālue ai le tama.*",
+          "options": [
+            "*ʻo*",
+            "*i*"
+          ],
+          "correct": "*i*"
         },
         {
           "id": "ch34-ex5-4",
           "n": 4,
           "prompt": "*Naʻo le tama e nofo ___ totonu o le potu.* (Only the boy is staying inside the room.)",
-          "answer": "*Naʻo le tama e nofo i totonu o le potu.*"
+          "answer": "*Naʻo le tama e nofo i totonu o le potu.*",
+          "options": [
+            "*ʻo*",
+            "*i*"
+          ],
+          "correct": "*i*"
         },
         {
           "id": "ch34-ex5-5",
           "n": 5,
           "prompt": "*___ le lotu ʻua ʻuma.* (The service is finished.)",
-          "answer": "*ʻO le lotu ʻua ʻuma.*"
+          "answer": "*ʻO le lotu ʻua ʻuma.*",
+          "options": [
+            "*ʻo*",
+            "*i*"
+          ],
+          "correct": "*ʻo*"
         }
       ]
     },
@@ -8295,37 +8831,67 @@
       "title": "Choose the joining word",
       "instructions": "Put *ma*, *ʻae* or *ʻaʻo* into the gap so the English matches.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch36-ex3-1",
           "n": 1,
           "prompt": "*ʻUa ala le tama ___ ʻoloʻo moe le teine.* (The boy has woken but the girl is sleeping.)",
-          "answer": "*ʻae*"
+          "answer": "*ʻae*",
+          "options": [
+            "*ma*",
+            "*ʻae*",
+            "*ʻaʻo*"
+          ],
+          "correct": "*ʻae*"
         },
         {
           "id": "ch36-ex3-2",
           "n": 2,
           "prompt": "*Sā timu ___ sā nofo le teine i le ana.* (It rained and the girl stayed in the cave.)",
-          "answer": "*ma*"
+          "answer": "*ma*",
+          "options": [
+            "*ma*",
+            "*ʻae*",
+            "*ʻaʻo*"
+          ],
+          "correct": "*ma*"
         },
         {
           "id": "ch36-ex3-3",
           "n": 3,
           "prompt": "*Na usu le tama ___ moe le teine.* (The boy stood up while the girl slept.)",
-          "answer": "*ʻaʻo*"
+          "answer": "*ʻaʻo*",
+          "options": [
+            "*ma*",
+            "*ʻae*",
+            "*ʻaʻo*"
+          ],
+          "correct": "*ʻaʻo*"
         },
         {
           "id": "ch36-ex3-4",
           "n": 4,
           "prompt": "*Sā nofo le teine i le ana ___ sā alu le tama.* (The girl stayed in the cave but the boy went.)",
-          "answer": "*ʻae*"
+          "answer": "*ʻae*",
+          "options": [
+            "*ma*",
+            "*ʻae*",
+            "*ʻaʻo*"
+          ],
+          "correct": "*ʻae*"
         },
         {
           "id": "ch36-ex3-5",
           "n": 5,
           "prompt": "*ʻUa ala le teine ___ ʻoloʻo moe le tama.* (The girl has woken but the boy is sleeping.)",
-          "answer": "*ʻae*"
+          "answer": "*ʻae*",
+          "options": [
+            "*ma*",
+            "*ʻae*",
+            "*ʻaʻo*"
+          ],
+          "correct": "*ʻae*"
         }
       ]
     },
@@ -8527,37 +9093,67 @@
       "title": "Fill the gap",
       "instructions": "Put *ona*, *lea* or *loa* into the gap so the sentence has the shape named after it.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch37-ex2-1",
           "n": 1,
           "prompt": "*___ alu lea ʻo le tama.* (the full shape)",
-          "answer": "*Ona*"
+          "answer": "*Ona*",
+          "options": [
+            "*ona*",
+            "*lea*",
+            "*loa*"
+          ],
+          "correct": "*ona*"
         },
         {
           "id": "ch37-ex2-2",
           "n": 2,
           "prompt": "*Ona alu ___ ʻo le tama.* (the full shape)",
-          "answer": "*lea*"
+          "answer": "*lea*",
+          "options": [
+            "*ona*",
+            "*lea*",
+            "*loa*"
+          ],
+          "correct": "*lea*"
         },
         {
           "id": "ch37-ex2-3",
           "n": 3,
           "prompt": "*Ona alu ___ lea ʻo le tama.* (the full shape, with an extra word after the verb)",
-          "answer": "*loa*"
+          "answer": "*loa*",
+          "options": [
+            "*ona*",
+            "*lea*",
+            "*loa*"
+          ],
+          "correct": "*loa*"
         },
         {
           "id": "ch37-ex2-4",
           "n": 4,
           "prompt": "*Alu ___ lea ʻo le tama.* (without *ona*, with an extra word after the verb)",
-          "answer": "*loa*"
+          "answer": "*loa*",
+          "options": [
+            "*ona*",
+            "*lea*",
+            "*loa*"
+          ],
+          "correct": "*loa*"
         },
         {
           "id": "ch37-ex2-5",
           "n": 5,
           "prompt": "*___ oso lea ʻo le sauʻai i le sami.* (the full shape)",
-          "answer": "*Ona*"
+          "answer": "*Ona*",
+          "options": [
+            "*ona*",
+            "*lea*",
+            "*loa*"
+          ],
+          "correct": "*ona*"
         }
       ]
     },
@@ -8891,37 +9487,67 @@
       "title": "Fill the gap",
       "instructions": "Put *e*, *te* or *neʻi* into the gap so the English matches.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch38-ex4-1",
           "n": 1,
           "prompt": "*Sā alu le tama ___ ʻaumai le niu.* (The boy went to bring the coconut.)",
-          "answer": "*e*"
+          "answer": "*e*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*e*"
         },
         {
           "id": "ch38-ex4-2",
           "n": 2,
           "prompt": "*Sā ʻou alu ___ tagi le tama.* (I went, so that the boy would not cry.)",
-          "answer": "*neʻi*"
+          "answer": "*neʻi*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*neʻi*"
         },
         {
           "id": "ch38-ex4-3",
           "n": 3,
           "prompt": "*Alu atu ___ ʻaumai fasi=moli.* (Go to bring soap.)",
-          "answer": "*e*"
+          "answer": "*e*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*e*"
         },
         {
           "id": "ch38-ex4-4",
           "n": 4,
           "prompt": "*Sā ʻou alu ʻou ___ ʻaumai le niu.* (I went to bring the coconut.)",
-          "answer": "*te*"
+          "answer": "*te*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*te*"
         },
         {
           "id": "ch38-ex4-5",
           "n": 5,
           "prompt": "*ʻUa ʻou ata ma ʻou punou i lalo ___ iloa mai e le tama.* (I laughed and bent down, so that the boy would not notice.)",
-          "answer": "*neʻi*"
+          "answer": "*neʻi*",
+          "options": [
+            "*e*",
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*neʻi*"
         }
       ]
     },
@@ -9175,37 +9801,67 @@
       "title": "Fill the gap",
       "instructions": "Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch39-ex4-1",
           "n": 1,
           "prompt": "*___ e timu taeao, e lē alu le malaga.* (If it rains tomorrow, the trip will not go.)",
-          "answer": "*ʻĀfai*"
+          "answer": "*ʻĀfai*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻā*",
+            "*pē*"
+          ],
+          "correct": "*ʻāfai*"
         },
         {
           "id": "ch39-ex4-2",
           "n": 2,
           "prompt": "*___ timu taeao, e lē alu le malaga.* (When it rains tomorrow, the trip will not go.)",
-          "answer": "*ʻĀ*"
+          "answer": "*ʻĀ*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻā*",
+            "*pē*"
+          ],
+          "correct": "*ʻā*"
         },
         {
           "id": "ch39-ex4-3",
           "n": 3,
           "prompt": "*E lē alu le malaga ___ ʻā afa.* (There will be no trip when there is a storm.)",
-          "answer": "*pē*"
+          "answer": "*pē*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻā*",
+            "*pē*"
+          ],
+          "correct": "*pē*"
         },
         {
           "id": "ch39-ex4-4",
           "n": 4,
           "prompt": "*___ ʻe alu i le matafaga, ʻaumai le solo.* (When you go to the beach, bring the towel.)",
-          "answer": "*ʻĀ*"
+          "answer": "*ʻĀ*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻā*",
+            "*pē*"
+          ],
+          "correct": "*ʻā*"
         },
         {
           "id": "ch39-ex4-5",
           "n": 5,
           "prompt": "*___ ʻoleʻā timu taeao, e lē alu le malaga.* (If it is going to rain tomorrow, the trip will not go.)",
-          "answer": "*ʻĀfai*"
+          "answer": "*ʻĀfai*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻā*",
+            "*pē*"
+          ],
+          "correct": "*ʻāfai*"
         }
       ]
     },
@@ -10191,37 +10847,62 @@
       "title": "Put in the belonging word",
       "instructions": "Put *a* or *o* into each gap so the sentence matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch42-ex3-1",
           "n": 1,
           "prompt": "*E ___ le tama le maile.* (The dog belongs to the boy.)",
-          "answer": "*a*"
+          "answer": "*a*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*a*"
         },
         {
           "id": "ch42-ex3-2",
           "n": 2,
           "prompt": "*E ___ le tamāloa le fale.* (The house belongs to the man.)",
-          "answer": "*o*"
+          "answer": "*o*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         },
         {
           "id": "ch42-ex3-3",
           "n": 3,
           "prompt": "*E ___ le teine le naifi.* (The knife belongs to the girl.)",
-          "answer": "*a*"
+          "answer": "*a*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*a*"
         },
         {
           "id": "ch42-ex3-4",
           "n": 4,
           "prompt": "*E ___ le teine le igoa.* (The name belongs to the girl.)",
-          "answer": "*o*"
+          "answer": "*o*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         },
         {
           "id": "ch42-ex3-5",
           "n": 5,
           "prompt": "*E ___ le aliʻi le fale.* (The house belongs to the chief.)",
-          "answer": "*o*"
+          "answer": "*o*",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         }
       ]
     },
@@ -10430,37 +11111,67 @@
       "title": "Put in the pointing-back word",
       "instructions": "Fill each gap with *ai*, *aʻi*, or *i ai*. Where two shapes are heard in the same job, give the one that is used for that job and no other.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch43-ex3-1",
           "n": 1,
           "prompt": "*ʻO le mea sā ʻou nofo \\_\\_\\_.*",
-          "answer": "*ʻO le mea sā ʻou nofo ai.*"
+          "answer": "*ʻO le mea sā ʻou nofo ai.*",
+          "options": [
+            "*ai*",
+            "*aʻi*",
+            "*i ai*"
+          ],
+          "correct": "*ai*"
         },
         {
           "id": "ch43-ex3-2",
           "n": 2,
           "prompt": "*ʻO le nuʻu sā nofo \\_\\_\\_ le teine.*",
-          "answer": "*ʻO le nuʻu sā nofo ai le teine.*"
+          "answer": "*ʻO le nuʻu sā nofo ai le teine.*",
+          "options": [
+            "*ai*",
+            "*aʻi*",
+            "*i ai*"
+          ],
+          "correct": "*ai*"
         },
         {
           "id": "ch43-ex3-3",
           "n": 3,
           "prompt": "*le fue na taufi \\_\\_\\_ le umu*",
-          "answer": "*le fue na taufi aʻi le umu*"
+          "answer": "*le fue na taufi aʻi le umu*",
+          "options": [
+            "*ai*",
+            "*aʻi*",
+            "*i ai*"
+          ],
+          "correct": "*aʻi*"
         },
         {
           "id": "ch43-ex3-4",
           "n": 4,
           "prompt": "*ʻO le mea sā alu atu le teine \\_\\_\\_.*",
-          "answer": "*ʻO le mea sā alu atu le teine i ai.*"
+          "answer": "*ʻO le mea sā alu atu le teine i ai.*",
+          "options": [
+            "*ai*",
+            "*aʻi*",
+            "*i ai*"
+          ],
+          "correct": "*i ai*"
         },
         {
           "id": "ch43-ex3-5",
           "n": 5,
           "prompt": "*ʻO le aso sā siva \\_\\_\\_ le teine.*",
-          "answer": "*ʻO le aso sā siva ai le teine.*"
+          "answer": "*ʻO le aso sā siva ai le teine.*",
+          "options": [
+            "*ai*",
+            "*aʻi*",
+            "*i ai*"
+          ],
+          "correct": "*ai*"
         }
       ]
     },
@@ -10720,37 +11431,67 @@
       "title": "Fill the gap",
       "instructions": "Put *talu*, *ina ʻua*, or *talu ai* into each gap so the English matches.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch44-ex3-1",
           "n": 1,
           "prompt": "*\\_\\_\\_ ona ʻou sau ʻou te leʻi maua se mea lelei.* (Since I came, I have not got anything good.)",
-          "answer": "*Talu ona ʻou sau ʻou te leʻi maua se mea lelei.*"
+          "answer": "*Talu ona ʻou sau ʻou te leʻi maua se mea lelei.*",
+          "options": [
+            "*talu*",
+            "*ina ʻua*",
+            "*talu ai*"
+          ],
+          "correct": "*talu*"
         },
         {
           "id": "ch44-ex3-2",
           "n": 2,
           "prompt": "*\\_\\_\\_ malama le taeao, sā mafatia le tama.* (When the morning broke, the boy was exhausted.)",
-          "answer": "*Ina ʻua malama le taeao, sā mafatia le tama.*"
+          "answer": "*Ina ʻua malama le taeao, sā mafatia le tama.*",
+          "options": [
+            "*talu*",
+            "*ina ʻua*",
+            "*talu ai*"
+          ],
+          "correct": "*ina ʻua*"
         },
         {
           "id": "ch44-ex3-3",
           "n": 3,
           "prompt": "*i le vaiaso \\_\\_\\_* (last week)",
-          "answer": "*i le vaiaso talu ai*"
+          "answer": "*i le vaiaso talu ai*",
+          "options": [
+            "*talu*",
+            "*ina ʻua*",
+            "*talu ai*"
+          ],
+          "correct": "*talu ai*"
         },
         {
           "id": "ch44-ex3-4",
           "n": 4,
           "prompt": "*\\_\\_\\_ sau le teine, sā fiafia le tama.* (When the girl came, the boy was happy.)",
-          "answer": "*Ina ʻua sau le teine, sā fiafia le tama.*"
+          "answer": "*Ina ʻua sau le teine, sā fiafia le tama.*",
+          "options": [
+            "*talu*",
+            "*ina ʻua*",
+            "*talu ai*"
+          ],
+          "correct": "*ina ʻua*"
         },
         {
           "id": "ch44-ex3-5",
           "n": 5,
           "prompt": "*\\_\\_\\_ ona ʻou alu ʻou te leʻi maua se uō lelei.* (Since I left, I have not got a good friend.)",
-          "answer": "*Talu ona ʻou alu ʻou te leʻi maua se uō lelei.*"
+          "answer": "*Talu ona ʻou alu ʻou te leʻi maua se uō lelei.*",
+          "options": [
+            "*talu*",
+            "*ina ʻua*",
+            "*talu ai*"
+          ],
+          "correct": "*talu*"
         }
       ]
     },
@@ -10952,43 +11693,73 @@
       "title": "Put in *a* or *o*",
       "instructions": "Write the belonging word each phrase needs when the doing is being pointed at, and be ready to say why.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch45-ex2-1",
           "n": 1,
           "prompt": "*le sasao \\_\\_\\_ le afi*",
-          "answer": "*le sasao a le afi* (a natural force at work is a doer)"
+          "answer": "*le sasao a le afi* (a natural force at work is a doer)",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*a*"
         },
         {
           "id": "ch45-ex2-2",
           "n": 2,
           "prompt": "*le ita \\_\\_\\_ le tama*",
-          "answer": "*le ita o le tama* (anger is one of the verbs that take only *o*)"
+          "answer": "*le ita o le tama* (anger is one of the verbs that take only *o*)",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         },
         {
           "id": "ch45-ex2-3",
           "n": 3,
           "prompt": "*le lē pese \\_\\_\\_ le teine*",
-          "answer": "*le lē pese o le teine* (the not-word forces *o*)"
+          "answer": "*le lē pese o le teine* (the not-word forces *o*)",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         },
         {
           "id": "ch45-ex2-4",
           "n": 4,
           "prompt": "*le alu \\_\\_\\_ le taʻavale*",
-          "answer": "*le alu a le taʻavale* (a vehicle moving itself is a doer)"
+          "answer": "*le alu a le taʻavale* (a vehicle moving itself is a doer)",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*a*"
         },
         {
           "id": "ch45-ex2-5",
           "n": 5,
           "prompt": "*le pese soʻo \\_\\_\\_ le tama*",
-          "answer": "*le pese soʻo o le tama* (the often-word forces *o*)"
+          "answer": "*le pese soʻo o le tama* (the often-word forces *o*)",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         },
         {
           "id": "ch45-ex2-6",
           "n": 6,
           "prompt": "*le ola \\_\\_\\_ le tina*",
-          "answer": "*le ola o le tina* (a life is not something anybody does)"
+          "answer": "*le ola o le tina* (a life is not something anybody does)",
+          "options": [
+            "*a*",
+            "*o*"
+          ],
+          "correct": "*o*"
         }
       ]
     },
@@ -11716,43 +12487,73 @@
       "title": "Choose *i* or *iā*",
       "instructions": "Fill the gap so that the Samoan matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch47-ex4-1",
           "n": 1,
           "prompt": "*Alu \\_\\_\\_ Ulika.* (Go to Ulika.)",
-          "answer": "*Alu iā Ulika.*"
+          "answer": "*Alu iā Ulika.*",
+          "options": [
+            "*i*",
+            "*iā*"
+          ],
+          "correct": "*iā*"
         },
         {
           "id": "ch47-ex4-2",
           "n": 2,
           "prompt": "*Alu \\_\\_\\_ Sāmoa.* (Go to Samoa.)",
-          "answer": "*Alu i Sāmoa.*"
+          "answer": "*Alu i Sāmoa.*",
+          "options": [
+            "*i*",
+            "*iā*"
+          ],
+          "correct": "*i*"
         },
         {
           "id": "ch47-ex4-3",
           "n": 3,
           "prompt": "*\\_\\_\\_ Sāmoa* (among the Samoans)",
-          "answer": "*iā Sāmoa*"
+          "answer": "*iā Sāmoa*",
+          "options": [
+            "*i*",
+            "*iā*"
+          ],
+          "correct": "*iā*"
         },
         {
           "id": "ch47-ex4-4",
           "n": 4,
           "prompt": "*\\_\\_\\_ Sāmoa* (in Samoa)",
-          "answer": "*i Sāmoa*"
+          "answer": "*i Sāmoa*",
+          "options": [
+            "*i*",
+            "*iā*"
+          ],
+          "correct": "*i*"
         },
         {
           "id": "ch47-ex4-5",
           "n": 5,
           "prompt": "*E alofa le tama \\_\\_\\_ le teine.* (The boy loves the girl.)",
-          "answer": "*E alofa le tama i le teine.*"
+          "answer": "*E alofa le tama i le teine.*",
+          "options": [
+            "*i*",
+            "*iā*"
+          ],
+          "correct": "*i*"
         },
         {
           "id": "ch47-ex4-6",
           "n": 6,
           "prompt": "*Sā nonofo \\_\\_\\_ Sāmoa.* (They lived in Samoa.) (Lit. \"Past live in Samoa.\")",
-          "answer": "*Sā nonofo i Sāmoa.*"
+          "answer": "*Sā nonofo i Sāmoa.*",
+          "options": [
+            "*i*",
+            "*iā*"
+          ],
+          "correct": "*i*"
         }
       ]
     },
@@ -12064,37 +12865,62 @@
       "title": "Put *te* or *neʻi* in the gap",
       "instructions": "",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch48-ex3-1",
           "n": 1,
           "prompt": "*ʻAua ʻe \\_\\_\\_ siva.*",
-          "answer": "*te*"
+          "answer": "*te*",
+          "options": [
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*te*"
         },
         {
           "id": "ch48-ex3-2",
           "n": 2,
           "prompt": "*ʻAua \\_\\_\\_ ʻe siva.*",
-          "answer": "*neʻi*"
+          "answer": "*neʻi*",
+          "options": [
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*neʻi*"
         },
         {
           "id": "ch48-ex3-3",
           "n": 3,
           "prompt": "*ʻAua \\_\\_\\_ ʻe tagi.*",
-          "answer": "*neʻi*"
+          "answer": "*neʻi*",
+          "options": [
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*neʻi*"
         },
         {
           "id": "ch48-ex3-4",
           "n": 4,
           "prompt": "*ʻAua ʻe \\_\\_\\_ nofo.*",
-          "answer": "*te*"
+          "answer": "*te*",
+          "options": [
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*te*"
         },
         {
           "id": "ch48-ex3-5",
           "n": 5,
           "prompt": "*ʻAua ʻe \\_\\_\\_ alu seʻi oʻu sau.*",
-          "answer": "*te*"
+          "answer": "*te*",
+          "options": [
+            "*te*",
+            "*neʻi*"
+          ],
+          "correct": "*te*"
         }
       ]
     },
@@ -12434,49 +13260,112 @@
       "title": "Fill the Gap",
       "instructions": "Put *ʻāfai*, *ʻana*, *seʻiloga*, *ui*, *tīgā* or *tusa* into the gap so the sentence matches the English.",
       "placement": "exercises",
-      "type": "reveal",
+      "type": "mcq",
       "items": [
         {
           "id": "ch49-ex4-1",
           "n": 1,
           "prompt": "*\\_\\_\\_ ʻe lē sau, semanū ʻou te alu atu.* (Had you not come, I was probably going to go and see you.)",
-          "answer": "*ʻAna*"
+          "answer": "*ʻAna*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻana*",
+            "*seʻiloga*",
+            "*ui*",
+            "*tīgā*",
+            "*tusa*"
+          ],
+          "correct": "*ʻana*"
         },
         {
           "id": "ch49-ex4-2",
           "n": 2,
           "prompt": "*\\_\\_\\_ ʻe te lē sau, ʻou te alu atu.* (If you do not come, I will go and see you.)",
-          "answer": "*ʻĀfai*"
+          "answer": "*ʻĀfai*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻana*",
+            "*seʻiloga*",
+            "*ui*",
+            "*tīgā*",
+            "*tusa*"
+          ],
+          "correct": "*ʻāfai*"
         },
         {
           "id": "ch49-ex4-3",
           "n": 3,
           "prompt": "*ʻOu te sāvali i le aoga \\_\\_\\_ e timu.* (I walk to school, unless it rains.)",
-          "answer": "*seʻiloga*"
+          "answer": "*seʻiloga*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻana*",
+            "*seʻiloga*",
+            "*ui*",
+            "*tīgā*",
+            "*tusa*"
+          ],
+          "correct": "*seʻiloga*"
         },
         {
           "id": "ch49-ex4-4",
           "n": 4,
           "prompt": "*E \\_\\_\\_ ina laʻitiiti ʻo ia, ʻae poto.* (Although he is young, he knows a great deal.)",
-          "answer": "*ui*"
+          "answer": "*ui*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻana*",
+            "*seʻiloga*",
+            "*ui*",
+            "*tīgā*",
+            "*tusa*"
+          ],
+          "correct": "*ui*"
         },
         {
           "id": "ch49-ex4-5",
           "n": 5,
           "prompt": "*\\_\\_\\_ ona ʻou ole atu i loʻu tina, ʻae na lē mafai ona ʻou alu.* (However much I begged my mother, I could not go.)",
-          "answer": "*Tīgā*"
+          "answer": "*Tīgā*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻana*",
+            "*seʻiloga*",
+            "*ui*",
+            "*tīgā*",
+            "*tusa*"
+          ],
+          "correct": "*tīgā*"
         },
         {
           "id": "ch49-ex4-6",
           "n": 6,
           "prompt": "*ʻOleʻā alu le malaga e \\_\\_\\_ lava pē timu pē leai.* (The trip will go whether it rains or not.)",
-          "answer": "*tusa*"
+          "answer": "*tusa*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻana*",
+            "*seʻiloga*",
+            "*ui*",
+            "*tīgā*",
+            "*tusa*"
+          ],
+          "correct": "*tusa*"
         },
         {
           "id": "ch49-ex4-7",
           "n": 7,
           "prompt": "*E lē alu le malaga \\_\\_\\_ ʻua sau le tama.* (The trip will not go unless the boy has come.)",
-          "answer": "*seʻiloga*"
+          "answer": "*seʻiloga*",
+          "options": [
+            "*ʻāfai*",
+            "*ʻana*",
+            "*seʻiloga*",
+            "*ui*",
+            "*tīgā*",
+            "*tusa*"
+          ],
+          "correct": "*seʻiloga*"
         }
       ]
     },

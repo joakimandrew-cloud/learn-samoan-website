@@ -1,0 +1,158 @@
+{
+  "chapter": 32,
+  "items": [
+    {
+      "id": "ch32-verb-shapes",
+      "kind": "grid",
+      "anchor": "the-two-shapes-of-the-verb",
+      "title": "One short form, two long choices",
+      "data": {
+        "cols": [
+          "Short",
+          "With *=a*",
+          "With *=ina*"
+        ],
+        "rowLabel": "Verb meaning",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "eat",
+            "cells": [
+              {
+                "sm": "ʻai"
+              },
+              {
+                "sm": "ʻai=a"
+              },
+              {
+                "sm": "ʻai=ina"
+              }
+            ]
+          },
+          {
+            "label": "hit, beat",
+            "cells": [
+              {
+                "sm": "fasi"
+              },
+              {
+                "sm": "fasi=a"
+              },
+              {
+                "sm": "fasi=ina"
+              }
+            ]
+          },
+          {
+            "label": "count, read",
+            "cells": [
+              {
+                "sm": "faitau"
+              },
+              {
+                "sm": "faitau=a"
+              },
+              {
+                "sm": "faitau=ina"
+              }
+            ]
+          },
+          {
+            "label": "build",
+            "cells": [
+              {
+                "sm": "fau"
+              },
+              {
+                "sm": "fau=a"
+              },
+              {
+                "sm": "fau=ina"
+              }
+            ]
+          },
+          {
+            "label": "sell, buy",
+            "cells": [
+              {
+                "sm": "faʻatau"
+              },
+              {
+                "sm": "faʻatau=a"
+              },
+              {
+                "sm": "faʻatau=ina"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Both long forms are printed for every verb here. The equals sign keeps the join visible in this book; ordinary writing joins the parts without it."
+    },
+    {
+      "id": "ch32-ending-position",
+      "kind": "contrast",
+      "anchor": "the-ending-on-a-direction-word",
+      "title": "The ending has two possible homes",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "On the verb",
+            "sm": "ʻO ai na faʻatau=a mai le tusi?",
+            "en": "Who bought the book?",
+            "note": "The long-form ending is on the verb."
+          },
+          {
+            "label": "On the direction word",
+            "sm": "ʻO ai na faʻatau mai=a le tusi?",
+            "en": "Who bought the book?",
+            "note": "The ending sits on the following direction word instead. Both positions are accepted."
+          }
+        ]
+      },
+      "caption": "The ending moves; the meaning stays the same. Both printed forms ask the same question."
+    },
+    {
+      "id": "ch32-command-rules",
+      "kind": "pick",
+      "anchor": "when-the-choice-is-yours",
+      "title": "Which rule settles the shape?",
+      "data": {
+        "question": "Which statement applies here?",
+        "options": [
+          {
+            "id": "short",
+            "label": "A command requires the short form"
+          },
+          {
+            "id": "long",
+            "label": "Forbidding requires the long form"
+          },
+          {
+            "id": "open",
+            "label": "The choice is open outside the command rules"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Faitau.",
+            "answer": "short",
+            "why": "A command to do something takes the short form."
+          },
+          {
+            "sm": "ʻAua le tatala=ina le pusa lena.",
+            "answer": "long",
+            "why": "Forbidding with *ʻaua le* requires the long form."
+          },
+          {
+            "sm": "Sā faitau e le teine le vaega.",
+            "answer": "open",
+            "why": "This plain report uses the short form as the default. Outside the two command positions, the chapter gives tendencies rather than a fixed rule."
+          }
+        ]
+      },
+      "intro": "Read the printed sentence and decide whether a command rule fixes the verb form."
+    }
+  ]
+}

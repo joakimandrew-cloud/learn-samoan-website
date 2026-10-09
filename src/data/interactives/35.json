@@ -1,0 +1,92 @@
+{
+  "chapter": 35,
+  "items": [
+    {
+      "id": "ch35-negative-event",
+      "kind": "contrast",
+      "anchor": "the-verb-inside-the-phrase",
+      "title": "Put the not-word inside the event",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "The event",
+            "sm": "le fiafia",
+            "en": "the being happy",
+            "note": "The article makes a noun phrase out of the verb."
+          },
+          {
+            "label": "The denied event",
+            "sm": "le lē fiafia",
+            "en": "the not being happy",
+            "note": "The not-word sits between the article and the verb. The article and the not-word differ by the long-vowel mark."
+          }
+        ]
+      },
+      "caption": "The word inside the phrase is still a verb, so it can take the not-word. No tense particle stands inside a le-phrase."
+    },
+    {
+      "id": "ch35-read-event",
+      "kind": "pick",
+      "anchor": "the-verb-inside-the-phrase",
+      "title": "Which event does the phrase name?",
+      "data": {
+        "question": "Choose the printed phrase for this meaning.",
+        "options": [
+          {
+            "id": "happy",
+            "sm": "le fiafia"
+          },
+          {
+            "id": "not-happy",
+            "sm": "le lē fiafia"
+          },
+          {
+            "id": "not-tired",
+            "sm": "le lē vaivai"
+          }
+        ],
+        "prompts": [
+          {
+            "en": "the being happy",
+            "answer": "happy",
+            "why": "The article stands directly before the verb, without a not-word."
+          },
+          {
+            "en": "the not being happy",
+            "answer": "not-happy",
+            "why": "The not-word *lē* stands between *le* and *fiafia*."
+          },
+          {
+            "en": "the not being tired",
+            "answer": "not-tired",
+            "why": "The not-word denies *vaivai* inside the phrase."
+          }
+        ]
+      },
+      "intro": "Read the English carefully, including whether the event is denied."
+    },
+    {
+      "id": "ch35-number-event",
+      "kind": "contrast",
+      "anchor": "number-inside-the-phrase",
+      "title": "Number stays inside the verb",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "One",
+            "sm": "le nofo",
+            "en": "the staying of one"
+          },
+          {
+            "label": "More than one",
+            "sm": "le nonofo",
+            "en": "the staying of more than one"
+          }
+        ]
+      },
+      "caption": "The article stays the same. A verb with a plural shape takes it inside a le-phrase when the phrase is about more than one."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "chapter": 47,
+  "items": [
+    {
+      "id": "ch47-friend-slot",
+      "kind": "contrast",
+      "anchor": "one-word-in-two-slots",
+      "title": "The slot decides the class",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Verb slot",
+            "sm": "E uō le tama ma le teine.",
+            "en": "The boy and the girl are friends.",
+            "note": "*Uō* follows a tense particle, so it is a verb here."
+          },
+          {
+            "label": "Noun slot",
+            "sm": "E alofa le tama i lana uō.",
+            "en": "The boy loves his friend.",
+            "note": "*Uō* follows the possessive form in the article’s place, so it is a noun here."
+          }
+        ]
+      },
+      "caption": "The word brings the ability to fill either slot. The sentence decides which slot it fills and therefore its class."
+    },
+    {
+      "id": "ch47-read-slot",
+      "kind": "pick",
+      "anchor": "one-word-in-two-slots",
+      "title": "Classify from the slot",
+      "data": {
+        "question": "What class does the named word have here?",
+        "options": [
+          {
+            "id": "verb",
+            "label": "Verb"
+          },
+          {
+            "id": "noun",
+            "label": "Noun"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "E uō le tama ma le teine.",
+            "ask": "Read *uō*.",
+            "answer": "verb",
+            "why": "It stands after the general particle, in the verb slot."
+          },
+          {
+            "sm": "E alofa le tama i lana uō.",
+            "ask": "Read *uō*.",
+            "answer": "noun",
+            "why": "The possessive form stands in the article’s position, before a noun slot."
+          },
+          {
+            "sm": "Sā nofo le loʻomatua.",
+            "ask": "Read *loʻomatua*.",
+            "answer": "noun",
+            "why": "It follows the article *le*."
+          },
+          {
+            "sm": "ʻUa loʻomatua aʻu.",
+            "ask": "Read *loʻomatua*.",
+            "answer": "verb",
+            "why": "It follows the change particle in the verb slot."
+          }
+        ]
+      },
+      "intro": "Read the word named with each sentence, then use what stands in front of it."
+    },
+    {
+      "id": "ch47-name-reference",
+      "kind": "contrast",
+      "anchor": "names-and-the-place-word-ia",
+      "title": "One name, place or people",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "The place",
+            "sm": "i Sāmoa",
+            "en": "in Samoa",
+            "note": "A place name referring to a place takes *i*."
+          },
+          {
+            "label": "The people",
+            "sm": "iā Sāmoa",
+            "en": "among the Samoans",
+            "note": "The same name referring to people takes *iā*."
+          }
+        ]
+      },
+      "caption": "A name takes *iā* when it refers to a person or a people. A place name used for its place keeps *i*."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "chapter": 23,
+  "items": [
+    {
+      "id": "ch23-three-sentence-types",
+      "kind": "grid",
+      "anchor": "the-three-sentence-types",
+      "title": "Three sentence frames",
+      "caption": "A verb sentence carries an action, a naming sentence identifies, and a where-sentence puts a place where a verb would stand.",
+      "data": {
+        "cols": ["Model sentence"],
+        "rows": [
+          { "label": "Verb sentence", "cells": [ { "sm": "Sā ʻou alu.", "en": "I went." } ] },
+          { "label": "Naming sentence", "cells": [ { "sm": "ʻO se uō le tama.", "en": "The boy is a friend." } ] },
+          { "label": "Where-sentence", "cells": [ { "sm": "Sā i le fale le teine.", "en": "The girl was in the house." } ] }
+        ]
+      }
+    },
+    {
+      "id": "ch23-pick-sentence-type",
+      "kind": "pick",
+      "anchor": "the-three-sentence-types",
+      "title": "Name the sentence type",
+      "intro": "Read each sentence and choose the frame it uses.",
+      "data": {
+        "question": "Which sentence type is this?",
+        "options": [
+          { "id": "verb", "label": "Verb sentence" },
+          { "id": "naming", "label": "Naming sentence" },
+          { "id": "where", "label": "Where-sentence" }
+        ],
+        "prompts": [
+          { "sm": "Sā ʻou alu.", "answer": "verb", "why": "A tense particle stands in front of the action verb." },
+          { "sm": "ʻO se uō le tama.", "answer": "naming", "why": "Two naming parts identify the boy as a friend." },
+          { "sm": "Sā i le fale le teine.", "answer": "where", "why": "A place stands after the tense particle where a verb would stand." }
+        ]
+      }
+    }
+  ]
+}

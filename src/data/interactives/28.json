@@ -1,0 +1,185 @@
+{
+  "chapter": 28,
+  "items": [
+    {
+      "id": "ch28-built-words",
+      "kind": "grid",
+      "anchor": "building-a-word-with-faa",
+      "title": "Read the word inside",
+      "data": {
+        "cols": [
+          "Base word",
+          "Built word"
+        ],
+        "rowLabel": "Job",
+        "rows": [
+          {
+            "label": "Make happen",
+            "cells": [
+              {
+                "sm": "alu",
+                "en": "go"
+              },
+              {
+                "sm": "faʻaalu",
+                "en": "make go"
+              }
+            ]
+          },
+          {
+            "label": "Apply something",
+            "cells": [
+              {
+                "sm": "māsima",
+                "en": "salt"
+              },
+              {
+                "sm": "faʻamāsima",
+                "en": "to salt"
+              }
+            ]
+          },
+          {
+            "label": "Be like something",
+            "cells": [
+              {
+                "sm": "mauga",
+                "en": "mountain"
+              },
+              {
+                "sm": "faʻamauga",
+                "en": "like a mountain"
+              }
+            ]
+          },
+          {
+            "label": "Count occasions",
+            "cells": [
+              {
+                "sm": "tolu",
+                "en": "three"
+              },
+              {
+                "sm": "faʻatolu",
+                "en": "three times"
+              }
+            ]
+          },
+          {
+            "label": "Gentle negative",
+            "cells": [
+              {
+                "sm": "tonu",
+                "en": "right, correct"
+              },
+              {
+                "sm": "faʻalētonu",
+                "en": "uncertain, doubtful"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Tap a base word and its built partner. The same prefix serves five jobs, and the gentle negative also has *lē* inside it."
+    },
+    {
+      "id": "ch28-make-sleep",
+      "kind": "contrast",
+      "anchor": "making-something-happen",
+      "title": "From sleeping to putting to sleep",
+      "caption": "Step through it: the verb, the verb with *faʻa-* in front, then the built word at work in a sentence. The highlight marks what each step adds to the one before.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "The verb",
+            "sm": "moe",
+            "en": "sleep",
+            "note": "*Moe* takes no doer of its own: it names something one person does with nobody else in the sentence."
+          },
+          {
+            "label": "Add *faʻa-*",
+            "sm": "faʻamoe",
+            "en": "put to sleep",
+            "note": "*Faʻa-* goes on the front and never changes its own shape, and the two are written together as one word. The built word means to make somebody do what *moe* names."
+          },
+          {
+            "label": "In a sentence",
+            "sm": "Sā faʻamoe e le teine le pepe.",
+            "en": "The girl put the baby to sleep.",
+            "note": "Now the sentence holds two people: the doer, *le teine*, carrying the agent marker *e*, and the one it was done to, *le pepe*, standing bare after the verb."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch28-read-built",
+      "kind": "pick",
+      "anchor": "saying-a-negative-gently",
+      "title": "Read the built meaning",
+      "data": {
+        "question": "Which meaning does this built word have?",
+        "prompts": [
+          {
+            "sm": "faʻaalu",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "label": "make go"
+              },
+              {
+                "id": "b",
+                "label": "go"
+              },
+              {
+                "id": "c",
+                "label": "three times"
+              }
+            ],
+            "why": "The prefix adds someone who makes the going happen."
+          },
+          {
+            "sm": "faʻamāsima",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "label": "to salt"
+              },
+              {
+                "id": "b",
+                "label": "salt"
+              },
+              {
+                "id": "c",
+                "label": "like a mountain"
+              }
+            ],
+            "why": "Here the built verb means applying the thing named by the noun."
+          },
+          {
+            "sm": "faʻalētonu",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "label": "uncertain, doubtful"
+              },
+              {
+                "id": "b",
+                "label": "right, correct"
+              },
+              {
+                "id": "c",
+                "label": "three times"
+              }
+            ],
+            "why": "The not-word *lē* sits between the prefix and the base word, making a gentle negative."
+          }
+        ]
+      },
+      "intro": "Choose the meaning of the whole printed word, including its prefix."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "chapter": 12,
+  "items": [
+    {
+      "id": "ch12-reaching-with-i",
+      "kind": "grid",
+      "anchor": "the-two-participant-sentence",
+      "title": "Different verbs point at what they reach",
+      "caption": "Seeing, feeling, and watching all use *i* before the second participant in these printed sentences.",
+      "data": {
+        "cols": [
+          "Printed sentence"
+        ],
+        "rows": [
+          {
+            "label": "Seeing",
+            "cells": [
+              {
+                "sm": "Sā vaʻai le teine i le iʻa.",
+                "en": "The girl saw the fish."
+              }
+            ]
+          },
+          {
+            "label": "Watching",
+            "cells": [
+              {
+                "sm": "Sā matamata le tama i le pusi.",
+                "en": "The boy watched the cat."
+              }
+            ]
+          },
+          {
+            "label": "Feeling",
+            "cells": [
+              {
+                "sm": "Sā alofa le tama i le teine.",
+                "en": "The boy loved the girl."
+              }
+            ]
+          },
+          {
+            "label": "Dislike",
+            "cells": [
+              {
+                "sm": "Sā ʻinoʻino le teine i le ʻiole.",
+                "en": "The girl hated the rat."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch12-two-kinds-of-wanting",
+      "kind": "contrast",
+      "anchor": "wanting",
+      "title": "Want an action or want a thing",
+      "caption": "The word *fia* stands before an action. The verb *manaʻo* points at a wanted thing with *i*.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Wanted action",
+            "sm": "Sā ʻou fia ʻai",
+            "en": "I wanted to eat"
+          },
+          {
+            "label": "Wanted thing",
+            "sm": "ʻUa manaʻo le tama i le meaʻai.",
+            "en": "The boy wanted some food."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch12-order-two-participants",
+      "kind": "order",
+      "anchor": "asking-and-calling",
+      "title": "Build the two-participant sentence",
+      "intro": "Put the printed words in order. The girl-and-fish sentence accepts both orders that the chapter gives after the verb.",
+      "data": {
+        "items": [
+          {
+            "en": "The girl saw the fish.",
+            "sm": "Sā vaʻai le teine i le iʻa.",
+            "accept": [
+              "Sā vaʻai i le iʻa le teine"
+            ],
+            "why": "The verb comes first. The chapter allows the two parts after it in either printed order."
+          },
+          {
+            "en": "I saw the fish.",
+            "sm": "Sā ʻou vaʻai i le iʻa.",
+            "why": "The preverbal pronoun keeps its middle slot, and the thing seen follows with *i*."
+          },
+          {
+            "en": "She saw the cat.",
+            "sm": "Sā ia vaʻai i le pusi.",
+            "why": "The preverbal pronoun comes before the verb, while the cat follows with *i*."
+          },
+          {
+            "en": "I called to the friend.",
+            "sm": "Sā ʻou valaʻau i le uō.",
+            "why": "The caller is in the middle slot, and the person called to follows with *i*."
+          }
+        ]
+      }
+    }
+  ]
+}

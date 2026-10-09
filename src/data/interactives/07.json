@@ -1,0 +1,73 @@
+{
+  "chapter": 7,
+  "items": [
+    {
+      "id": "ch7-naming-articles",
+      "kind": "contrast",
+      "anchor": "naming-without-a-verb",
+      "title": "The naming part chooses its article",
+      "caption": "The presenting particle marks the part that does the naming. Its article shows whether that part is particular or any example of a thing.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Any friend", "sm": "ʻO se uō le tama.", "en": "The boy is a friend." },
+          { "label": "The particular friend", "sm": "ʻO le uō le tama.", "en": "The boy is the friend." }
+        ]
+      }
+    },
+    {
+      "id": "ch7-pointing-builder",
+      "kind": "builder",
+      "anchor": "pointing-something-out",
+      "title": "Point to the thing in view",
+      "caption": "The naming part with *ʻo* comes first and *lena* comes second. Choose a naming part to see a complete printed sentence.",
+      "data": {
+        "slots": [
+          {
+            "key": "thing",
+            "label": "Naming part",
+            "options": [
+              { "id": "cat", "sm": "le pusi", "en": "the cat" },
+              { "id": "boy", "sm": "le tama", "en": "the boy" },
+              { "id": "tree", "sm": "le laau", "en": "the tree" },
+              { "id": "friend", "sm": "se uō", "en": "a friend" }
+            ]
+          }
+        ],
+        "sentences": [
+          { "pick": { "thing": "cat" }, "sm": "ʻO le pusi lena.", "en": "That is the cat." },
+          { "pick": { "thing": "boy" }, "sm": "ʻO le tama lena.", "en": "That is the boy." },
+          { "pick": { "thing": "tree" }, "sm": "ʻO le laau lena.", "en": "That is the tree." },
+          { "pick": { "thing": "friend" }, "sm": "ʻO se uō lena.", "en": "That is a friend." }
+        ]
+      }
+    },
+    {
+      "id": "ch7-pick-naming-sentence",
+      "kind": "pick",
+      "anchor": "naming-a-person",
+      "title": "Choose the naming sentence",
+      "intro": "Read the English and choose the printed Samoan sentence that says it.",
+      "data": {
+        "question": "Which sentence says this?",
+        "prompts": [
+          { "en": "I am a friend.", "answer": "a", "options": [
+            { "id": "a", "sm": "ʻO aʻu ʻo se uō." },
+            { "id": "b", "sm": "ʻO ia ʻo se uō." },
+            { "id": "c", "sm": "ʻO se uō le tama." }
+          ], "why": "The person comes first, and *aʻu* is the independent form for the speaker." },
+          { "en": "He is a friend.", "answer": "a", "options": [
+            { "id": "a", "sm": "ʻO ia ʻo se uō." },
+            { "id": "b", "sm": "ʻO aʻu ʻo se uō." },
+            { "id": "c", "sm": "ʻO se uō le teine." }
+          ], "why": "The person-first pattern carries *ʻo* before both naming parts." },
+          { "en": "That is the family.", "answer": "a", "options": [
+            { "id": "a", "sm": "ʻO le aiga lena." },
+            { "id": "b", "sm": "ʻO le pusi lena." },
+            { "id": "c", "sm": "ʻO le tama lena." }
+          ], "why": "In the pointing pattern, the named thing comes first and *lena* comes second." }
+        ]
+      }
+    }
+  ]
+}

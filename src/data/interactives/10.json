@@ -1,0 +1,66 @@
+{
+  "chapter": 10,
+  "items": [
+    {
+      "id": "ch10-house-meaning",
+      "kind": "contrast",
+      "anchor": "when-one-word-takes-both",
+      "title": "The belonging word changes the relationship",
+      "caption": "The surrounding words stay the same. The choice between *a* and *o* decides whether the house was built by the boy or is his home.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Built by him", "sm": "ʻO le fale a le tama.", "en": "The house the boy built." },
+          { "label": "His home", "sm": "ʻO le fale o le tama.", "en": "The boy's house (the house he lives in)." }
+        ]
+      }
+    },
+    {
+      "id": "ch10-possessive-grid",
+      "kind": "grid",
+      "anchor": "my-your-and-her",
+      "title": "Possessive forms in two columns",
+      "caption": "Each person has an *a*-word form and an *o*-word form. The thing possessed decides the column.",
+      "data": {
+        "rowLabel": "Person",
+        "cols": ["*a*-word", "*o*-word"],
+        "quiz": true,
+        "rows": [
+          { "label": "My", "cells": [
+            { "sm": "laʻu", "en": "my" },
+            { "sm": "loʻu", "en": "my" }
+          ] },
+          { "label": "Your", "cells": [
+            { "sm": "lau", "en": "your" },
+            { "sm": "lou", "en": "your" }
+          ] },
+          { "label": "His, her, its", "cells": [
+            { "sm": "lana", "en": "his, her, its" },
+            { "sm": "lona", "en": "his, her, its" }
+          ] }
+        ]
+      }
+    },
+    {
+      "id": "ch10-sort-a-o-words",
+      "kind": "sort",
+      "anchor": "the-belonging-words-a-and-o",
+      "title": "Sort the things by belonging type",
+      "intro": "Place each printed word under the belonging word used with it in this chapter.",
+      "data": {
+        "bins": [
+          { "id": "a", "label": "*a*-words" },
+          { "id": "o", "label": "*o*-words" }
+        ],
+        "items": [
+          { "sm": "naifi", "en": "knife", "bin": "a", "why": "A knife is acquired and put to use, so the chapter prints it with *a*." },
+          { "sm": "taʻavale", "en": "car", "bin": "a", "why": "A car is acquired and put to use, so the chapter prints it with *a*." },
+          { "sm": "ipu", "en": "cup", "bin": "a", "why": "The chapter lists a cup among the things acquired and put to use." },
+          { "sm": "ulu", "en": "head", "bin": "o", "why": "A head is part of the person, so the chapter prints it with *o*." },
+          { "sm": "lima", "en": "hand", "bin": "o", "why": "A hand is part of the person, so the chapter prints it with *o*." },
+          { "sm": "vae", "en": "leg, foot", "bin": "o", "why": "A leg or foot is part of the person, so the chapter prints it with *o*." }
+        ]
+      }
+    }
+  ]
+}

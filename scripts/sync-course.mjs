@@ -292,16 +292,34 @@ const italics = text => [...String(text).matchAll(/\*([^*]+)\*/g)].map(m => m[1]
 // A closed option set is used only when the book's own instruction names the
 // choices and exactly one of them turns the prompt into the printed answer.
 function mcqFor(ex) {
-  const choices = [...new Set(italics(ex.instructions))]
-  if (choices.length < 2 || choices.length > 4) return null
-  if (!/\bor\b/.test(plain(ex.instructions))) return null
+  const named = `${ex.title} ${ex.instructions}`
+  const sharedChoices = [...new Set(italics(named))]
+  if (!/\bor\b/i.test(plain(named))) return null
+  if (sharedChoices.length >= 2 && sharedChoices.length <= 6 && ex.items.every(item => {
+    const answer = plain(item.answer).replace(/\s*\(.*\)\s*$/, '').toLocaleLowerCase()
+    return !item.given && sharedChoices.some(choice => plain(choice).toLocaleLowerCase() === answer)
+  })) {
+    return ex.items.map(item => {
+      const answer = plain(item.answer).replace(/\s*\(.*\)\s*$/, '').toLocaleLowerCase()
+      const correct = sharedChoices.find(choice => plain(choice).toLocaleLowerCase() === answer)
+      return { ...item, options: sharedChoices.map(choice => `*${choice}*`), correct: `*${correct}*` }
+    })
+  }
   const items = []
   for (const item of ex.items) {
-    if (item.given || !/_{3,}/.test(item.prompt)) return null
-    const samoan = italics(item.prompt)[0]
-    if (!samoan || (samoan.match(/_{3,}/g) || []).length !== 1) return null
+    if (item.given) return null
+    const prompt = item.prompt.replace(/\\_/g, '_')
+    const local = plain(prompt).match(/\(([^()]*(?:\s+or\s+|\s*\/\s*)[^()]*)\)\s*$/i)
+    const localChoices = local ? local[1].split(/\s+or\s+|\s*\/\s*/i).map(value => value.trim()).filter(Boolean) : []
+    const choices = localChoices.length >= 2 ? localChoices : sharedChoices
+    if (choices.length < 2 || choices.length > 6) return null
     const target = plain(item.answer).replace(/\s*\(.*\)\s*$/, '')
-    const fits = choices.filter(c => plain(samoan.replace(/_{3,}/, c)) === target)
+    const direct = choices.filter(choice => plain(choice).toLocaleLowerCase() === target.toLocaleLowerCase())
+    let fits = direct
+    const samoan = italics(prompt).find(value => /_{3,}/.test(value))
+    if (!fits.length && samoan && (samoan.match(/_{3,}/g) || []).length === 1) {
+      fits = choices.filter(choice => plain(samoan.replace(/_{3,}/, choice)).toLocaleLowerCase() === target.toLocaleLowerCase())
+    }
     if (fits.length !== 1) return null
     items.push({ ...item, options: choices.map(c => `*${c}*`), correct: `*${fits[0]}*` })
   }
@@ -390,7 +408,7 @@ function quickPractice(n, md) {
       id: `ch${n}-qp-${m[1].toLowerCase()}`,
       letter: m[1],
       title: `Quick Practice ${m[1]}`,
-      instructions: m[2].replace(/\s*\n\s*/g, ' ').trim(),
+      instructions: m[2].replace(/\s*\n\s*/g, ' ').replace(/\s*Answers below the block\.?\s*$/i, '').trim(),
       type: 'reveal',
       items: prompts.map((p, i) => ({ id: `ch${n}-qp-${m[1].toLowerCase()}-${p.n}`, n: p.n, prompt: p.text, answer: answers[i].text })),
     })

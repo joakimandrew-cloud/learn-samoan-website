@@ -1,0 +1,53 @@
+{
+  "chapter": 19,
+  "items": [
+    {
+      "id": "ch19-number-in-two-places",
+      "kind": "contrast",
+      "anchor": "the-verb-shows-number",
+      "title": "Number appears on the article slot and the verb",
+      "caption": "The particular plural drops *le*, and the verb changes from its singular form to its plural form.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "One", "sm": "Sā nofo le teine.", "en": "The girl stayed." },
+          { "label": "More than one", "sm": "Sā nonofo teine.", "en": "The girls stayed." }
+        ]
+      }
+    },
+    {
+      "id": "ch19-verb-pairs",
+      "kind": "grid",
+      "anchor": "learning-each-plural-form",
+      "title": "Learn each singular and plural pair",
+      "caption": "One pair grows longer and one grows shorter. The chapter treats each plural form as a fact of its verb.",
+      "data": {
+        "cols": ["Singular", "Plural"],
+        "rows": [
+          { "label": "Stay or sit", "cells": [
+            { "sm": "nofo", "en": "stay, sit" },
+            { "sm": "nonofo", "en": "stay, sit" }
+          ] },
+          { "label": "Black", "cells": [
+            { "sm": "uliuli", "en": "black" },
+            { "sm": "uli", "en": "black" }
+          ] }
+        ]
+      }
+    },
+    {
+      "id": "ch19-type-plural-forms",
+      "kind": "type",
+      "anchor": "describing-a-group",
+      "title": "Type the plural forms",
+      "intro": "Read the plural meaning and type the printed Samoan form.",
+      "data": {
+        "items": [
+          { "en": "stay, sit (said of more than one)", "sm": "nonofo" },
+          { "en": "black (said of more than one)", "sm": "uli" },
+          { "en": "parents", "sm": "mātua" }
+        ]
+      }
+    }
+  ]
+}

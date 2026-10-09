@@ -1,0 +1,202 @@
+{
+  "chapter": 50,
+  "items": [
+    {
+      "id": "ch50-ending-jobs",
+      "kind": "grid",
+      "anchor": "the-ending-a",
+      "title": "An ending changes the kind of word",
+      "data": {
+        "cols": [
+          "Base",
+          "Built word"
+        ],
+        "rowLabel": "Ending",
+        "rows": [
+          {
+            "label": "*=ga*",
+            "cells": [
+              {
+                "sm": "sāvali",
+                "en": "walk"
+              },
+              {
+                "sm": "savaliga",
+                "en": "a walk, a march",
+                "note": "The verb becomes a noun; this particular noun has its own meaning to learn."
+              }
+            ]
+          },
+          {
+            "label": "*=a*",
+            "cells": [
+              {
+                "sm": "eleele",
+                "en": "earth, soil, dirt"
+              },
+              {
+                "sm": "eleelea",
+                "en": "dirty",
+                "note": "The noun becomes a describing verb: affected by the thing the noun names."
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "These endings change the word itself. The noun-making ending has both event-naming and learned-word jobs; the describing ending is different from a verb’s long-form ending."
+    },
+    {
+      "id": "ch50-counting-time",
+      "kind": "grid",
+      "anchor": "the-time-prefixes-a-and-ana",
+      "title": "Read the job of the prefix",
+      "data": {
+        "cols": [
+          "Base",
+          "Built word"
+        ],
+        "rowLabel": "Job",
+        "rows": [
+          {
+            "label": "Each one",
+            "cells": [
+              {
+                "sm": "lima",
+                "en": "five"
+              },
+              {
+                "sm": "taʻilima",
+                "en": "five each"
+              }
+            ]
+          },
+          {
+            "label": "Past time",
+            "cells": [
+              {
+                "sm": "taeao",
+                "en": "morning"
+              },
+              {
+                "sm": "anataeao",
+                "en": "this morning"
+              }
+            ]
+          },
+          {
+            "label": "Future time",
+            "cells": [
+              {
+                "sm": "taeao",
+                "en": "morning"
+              },
+              {
+                "sm": "ʻātaeao",
+                "en": "tomorrow morning"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "The counting prefix spreads a number over each one. The time prefixes place their words in past or future time; not every time word has a base that stands on its own."
+    },
+    {
+      "id": "ch50-piece-doubled",
+      "kind": "contrast",
+      "anchor": "doubling-a-piece-of-the-word",
+      "title": "A repeated piece makes this plural",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "One girl",
+            "sm": "Sā nofo le teine.",
+            "en": "The girl stayed.",
+            "note": "The verb has no doubled piece and the noun carries *le*."
+          },
+          {
+            "label": "More than one girl",
+            "sm": "Sā nonofo teine.",
+            "en": "The girls stayed.",
+            "note": "The second-to-last syllable is repeated, and the particular plural has no article in front."
+          }
+        ]
+      },
+      "caption": "The doubled piece is the stressed syllable. Plurality is its most common job; the chapter asks you to recognize printed forms rather than build new plurals."
+    },
+    {
+      "id": "ch50-colour-exception",
+      "kind": "contrast",
+      "anchor": "number-in-the-colour-and-size-words",
+      "title": "This small group goes the other way",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "One cat",
+            "sm": "E uliuli le pusi.",
+            "en": "The cat is black.",
+            "note": "The whole root is doubled in the singular."
+          },
+          {
+            "label": "More than one cat",
+            "sm": "E uli pusi.",
+            "en": "The cats are black.",
+            "note": "The bare root is the plural here."
+          }
+        ]
+      },
+      "caption": "This is a small closed group of colour and size words. The doubled form is singular in this pair, so doubling by itself does not always mean more than one."
+    },
+    {
+      "id": "ch50-built-meaning",
+      "kind": "pick",
+      "anchor": "what-a-doubled-word-can-carry",
+      "title": "Read the built word, not just its shape",
+      "data": {
+        "question": "What does this printed built word express?",
+        "options": [
+          {
+            "id": "repeated",
+            "label": "Treading repeatedly"
+          },
+          {
+            "id": "difficulty",
+            "label": "Swallowing with difficulty"
+          },
+          {
+            "id": "mutual",
+            "label": "Loving one another"
+          },
+          {
+            "id": "affected",
+            "label": "Being dirty"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "solisoli",
+            "answer": "repeated",
+            "why": "This doubled word states repetition directly."
+          },
+          {
+            "sm": "folofolo",
+            "answer": "difficulty",
+            "why": "The doubled word has a learned meaning, swallowing with difficulty, rather than a plain again-and-again translation."
+          },
+          {
+            "sm": "fealofani",
+            "answer": "mutual",
+            "why": "The prefix and ending together give the one-another reading."
+          },
+          {
+            "sm": "eleelea",
+            "answer": "affected",
+            "why": "The noun becomes a describing verb: affected by the dirt the noun names."
+          }
+        ]
+      },
+      "intro": "Use the chapter’s meaning for the whole word; a visible piece does not settle every meaning."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "chapter": 34,
+  "items": [
+    {
+      "id": "ch34-fronted-participant",
+      "kind": "contrast",
+      "anchor": "the-shape-of-the-verb",
+      "title": "Put either participant first",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "Ordinary order",
+            "sm": "Sā tapē e le tama le puaʻa.",
+            "en": "The boy killed the pig.",
+            "note": "The action comes first, followed by the marked doer and the thing acted on."
+          },
+          {
+            "label": "Thing acted on first",
+            "sm": "ʻO le puaʻa sā tapē e le tama.",
+            "en": "The boy killed the pig.",
+            "note": "The pig is presented first. The verb keeps the short form."
+          },
+          {
+            "label": "Doer first",
+            "sm": "ʻO le tama sā tapē=ina le puaʻa.",
+            "en": "The boy killed the pig.",
+            "note": "The boy is presented first. The verb takes the long form here."
+          }
+        ]
+      },
+      "caption": "The three printed forms have the same English. Short and long forms here follow tendencies; the two command rules remain the only exceptionless ones."
+    },
+    {
+      "id": "ch34-first-phrase",
+      "kind": "pick",
+      "anchor": "putting-the-setting-first",
+      "title": "What has been put first?",
+      "data": {
+        "question": "Which part is at the head of this sentence?",
+        "options": [
+          {
+            "id": "doer",
+            "label": "The doer"
+          },
+          {
+            "id": "acted",
+            "label": "The thing acted on"
+          },
+          {
+            "id": "setting",
+            "label": "The setting"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "ʻO le teine sā tatala=ina le faitotoʻa.",
+            "answer": "doer",
+            "why": "The girl, who opened the door, has been put first."
+          },
+          {
+            "sm": "ʻO le leo o le pepe na lagona e le tina.",
+            "answer": "acted",
+            "why": "The whole phrase naming the voice travels to the front together."
+          },
+          {
+            "sm": "I le faʻatoʻaga sā gālue ai le tama.",
+            "answer": "setting",
+            "why": "The place phrase goes first, and *ai* points back to it from after the verb."
+          }
+        ]
+      },
+      "intro": "Look at the whole phrase before the rest of the sentence begins."
+    },
+    {
+      "id": "ch34-naming-order",
+      "kind": "contrast",
+      "anchor": "order-in-the-naming-sentence",
+      "title": "Two orders for the same naming sentence",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Naming part first",
+            "sm": "ʻO se uō le tama.",
+            "en": "The boy is a friend.",
+            "note": "The naming part carries the presenting particle. The boy follows it."
+          },
+          {
+            "label": "The one being named first",
+            "sm": "ʻO le tama ʻo se uō.",
+            "en": "The boy is a friend.",
+            "note": "The boy carries the presenting particle because he comes first; the naming part keeps its own particle too."
+          }
+        ]
+      },
+      "caption": "Both printed sentences say the same thing. The order is largely free, with the speaker and demonstrative exceptions explained above."
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 import { describe, expect, it } from 'vitest'
 import fs from 'node:fs'
 import path from 'node:path'
-import { chapterFiles, readJson, validateFile } from '../scripts/check-interactives.mjs'
+import { chapterFiles, readJson, validateFile, pairedIn, plainText } from '../scripts/check-interactives.mjs'
 import { parseLessonContent } from '../src/premium/lib/lesson-content.js'
 import { slugify } from '../src/lib/slugify.js'
 import exercises from '../src/data/book-exercises.json'
@@ -48,4 +48,31 @@ describe('chapter interactives', () => {
       expect(errors, errors.join('\n')).toEqual([])
     })
   }
+})
+
+
+describe('printed translation pairing boundaries', () => {
+  it('rejects a word fragment at either English endpoint', () => {
+    expect(pairedIn(10, 'lana', 'hi')).toBe(false)
+    expect(pairedIn(10, 'lona', 'hi')).toBe(false)
+    const isolated = { chapters: new Map([[1, plainText('| his | lana |')]]), intro: '' }
+    expect(pairedIn(1, 'lana', 'is', isolated)).toBe(false)
+    expect(pairedIn(1, 'lana', 'his', isolated)).toBe(true)
+  })
+  it('keeps leading words that belong to a printed gloss', () => {
+    expect(pairedIn(1, 'sā', 'the past particle: puts the whole sentence in the past')).toBe(true)
+    expect(pairedIn(1, 'timu', 'to rain (the weather word)')).toBe(true)
+  })
+  it('rejects either neighbour row as a translation', () => {
+    const rows = book('Chapter-02.md').split('\n').filter(line => /^\| \*(?:ʻoulua|ʻoutou)\*/.test(line)).slice(0, 2).join('\n')
+    expect(rows.split('\n')).toHaveLength(2)
+    const isolated = { chapters: new Map([[2, plainText(rows)]]), intro: '' }
+    expect(pairedIn(2, 'ʻoulua', 'you two', isolated)).toBe(true)
+    expect(pairedIn(2, 'ʻoutou', 'you all', isolated)).toBe(true)
+    expect(pairedIn(2, 'ʻoulua', 'you all', isolated)).toBe(false)
+    expect(pairedIn(2, 'ʻoutou', 'you two', isolated)).toBe(false)
+  })
+  it('keeps the literal column paired to its own sentence', () => {
+    expect(pairedIn(27, 'e le tama', 'the boy')).toBe(true)
+  })
 })

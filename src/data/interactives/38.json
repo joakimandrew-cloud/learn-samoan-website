@@ -1,0 +1,122 @@
+{
+  "chapter": 38,
+  "items": [
+    {
+      "id": "ch38-reason-position",
+      "kind": "contrast",
+      "anchor": "the-because-word-ona",
+      "title": "Put the reason before or after",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Reason last",
+            "sm": "Na alu le tama i le fale ʻona ʻua maʻi le teine.",
+            "en": "The boy went to the house because the girl was sick."
+          },
+          {
+            "label": "Reason first",
+            "sm": "ʻOna ʻua maʻi le teine, na alu ai le tama i le fale.",
+            "en": "Because the girl was sick, the boy went to the house.",
+            "note": "*Ai* points back to the whole reason clause."
+          }
+        ]
+      },
+      "caption": "The because-clause keeps its own tense particle in both places. When it comes first, the other clause usually carries *ai*."
+    },
+    {
+      "id": "ch38-that-because",
+      "kind": "contrast",
+      "anchor": "telling-ona-and-ona-apart",
+      "title": "Read the particle after the joining word",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "A complement",
+            "sm": "ʻUa mafai ona sau le teine.",
+            "en": "The girl can come.",
+            "note": "The verb after *ona* has no tense particle: this is the that-word."
+          },
+          {
+            "label": "A reason",
+            "sm": "ʻUa alu le tama ʻona ʻua sau le teine.",
+            "en": "The boy went because the girl came.",
+            "note": "The verb after *ʻona* carries *ʻua*: this is the because-word."
+          }
+        ]
+      },
+      "caption": "Ordinary print often spells these joining words alike. The tense particle after them is the test; the then-construction is told apart by its closing *lea*."
+    },
+    {
+      "id": "ch38-purpose-reason",
+      "kind": "sort",
+      "anchor": "the-purpose-clause",
+      "title": "A reason or a purpose?",
+      "data": {
+        "bins": [
+          {
+            "id": "reason",
+            "label": "A reason: why it happened"
+          },
+          {
+            "id": "purpose",
+            "label": "A purpose: what it was done for"
+          }
+        ],
+        "items": [
+          {
+            "sm": "Sā taatia le teine i le fale ʻauā ʻua vaivai.",
+            "en": "The girl lay down in the house because she was tired.",
+            "bin": "reason",
+            "why": "The because-word opens the reason under its own tense particle."
+          },
+          {
+            "sm": "E lē mafai ona alu le tama leaga e maʻi.",
+            "en": "The boy cannot go because he is sick.",
+            "bin": "reason",
+            "why": "*Leaga* gives the unwelcome reason for the main clause."
+          },
+          {
+            "sm": "Sā alu le tama e ʻaumai le niu.",
+            "en": "The boy went to bring the coconut.",
+            "bin": "purpose",
+            "why": "The clause headed by *e* says what the going was for."
+          },
+          {
+            "sm": "Sā ʻou alu neʻi tagi le tama.",
+            "en": "I went, so that the boy would not cry.",
+            "bin": "purpose",
+            "why": "The warning particle *neʻi* makes the purpose negative: what the going was intended to prevent."
+          }
+        ]
+      },
+      "intro": "Choose whether the added clause explains a reason or names a purpose."
+    },
+    {
+      "id": "ch38-ask-why",
+      "kind": "dialogue",
+      "anchor": "asking-why",
+      "title": "A why-question and its answer",
+      "data": {
+        "speakers": {
+          "question": "Question",
+          "answer": "Answer"
+        },
+        "lines": [
+          {
+            "who": "question",
+            "sm": "ʻAiseā na alu ai le tamāloa i le nuʻu?",
+            "en": "Why did the man go to the village?"
+          },
+          {
+            "who": "answer",
+            "sm": "ʻAuā ʻua maʻi le teine.",
+            "en": "Because the girl is sick."
+          }
+        ]
+      },
+      "caption": "The printed answer needs no main clause of its own. A because-word and its reason fill the whole turn."
+    }
+  ]
+}

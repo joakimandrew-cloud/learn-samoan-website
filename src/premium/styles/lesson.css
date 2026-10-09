@@ -27,7 +27,7 @@
 /* ───────── Layout ───────── */
 .ls-grid { display: grid; grid-template-columns: 240px minmax(0, 720px); gap: clamp(40px, 6vw, 100px); justify-content: center; padding-top: 24px; padding-bottom: 80px; }
 .ls-rail-wrap { position: relative; }
-.rail { position: sticky; top: 100px; padding-top: 48px; }
+.rail { position: sticky; top: 100px; max-height: calc(100vh - var(--hdr-top) - 40px); overflow-y: auto; overscroll-behavior: contain; padding: 48px 8px 16px 0; }
 .rail-k { font-family: var(--f-display); font-weight: 700; font-size: 12.5px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin: 0 0 14px; }
 .rail-list { list-style: none; margin: 0; padding: 0; position: relative; }
 .rail-list::before { content: ''; position: absolute; left: 5px; top: 14px; bottom: 14px; width: 2px; background: var(--line); }
@@ -42,7 +42,7 @@
 .rail-nav { margin-top: 36px; display: flex; flex-direction: column; gap: 10px; }
 .rail-pn { display: flex; flex-direction: column; gap: 2px; text-decoration: none; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); transition: border-color .2s, background-color .2s; }
 .rail-pn:hover { border-color: var(--ink); }
-.rail-pn span { font-size: 12.5px; font-weight: 650; color: var(--red); }
+.rail-pn > .rail-pn-k { font-size: 12.5px; font-weight: 650; color: var(--red); }
 .rail-pn em { font-style: normal; font-size: 14px; color: var(--ink); }
 .rail-pn.is-next { background: var(--paper-soft); }
 
@@ -85,6 +85,12 @@
 /* Tables */
 .tbl-wrap { margin: 26px 0; }
 .tbl-scroll { overflow-x: auto; border-radius: 14px; border: 1px solid var(--line); background: var(--paper); }
+.tbl-wrap.is-wide .tbl-scroll {
+  background:
+    linear-gradient(90deg, var(--paper) 25%, transparent) left center / 34px 100% no-repeat local,
+    linear-gradient(270deg, var(--paper) 25%, transparent) right center / 34px 100% no-repeat local,
+    linear-gradient(90deg, transparent, rgba(18,18,18,.14)) right center / 14px 100% no-repeat scroll;
+}
 .tbl { border-collapse: collapse; width: 100%; font-size: 16.5px; }
 .tbl th, .tbl td { text-align: left; padding: 12px 18px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .tbl thead th { font-family: var(--f-display); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; font-size: 12.5px; color: var(--muted); background: var(--paper-soft); white-space: nowrap; }
@@ -188,6 +194,7 @@
 .words-table { margin-top: 14px; }
 .words-group + .words-group .words-group-label th { border-top: 12px solid var(--paper); }
 .words-group-label th { padding: 16px 18px 9px; background: var(--paper-soft); color: var(--red); font: 700 13px/1.35 var(--f-ui); letter-spacing: .035em; text-align: left; }
+.words-group-note td { padding: 5px 18px 14px; background: var(--paper-soft); color: var(--muted); font: 15px/1.5 var(--f-ui); }
 .words-group-cols th { background: color-mix(in srgb, var(--paper-soft) 70%, var(--paper)); color: var(--muted); font-size: 12px; }
 .words-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; margin-top: 8px; }
 .word { border: 1px solid var(--line); border-radius: 14px; padding: 16px 16px 14px; display: flex; flex-direction: column; gap: 2px; background: var(--paper); transition: border-color .2s, transform .35s var(--ease-out), box-shadow .35s; font-family: var(--f-ui); }
@@ -340,6 +347,10 @@
   .words-toolbar button { flex: 1; }
   .vp-actions { flex-direction: column; }
   .match-grid { grid-template-columns: 1fr; }
+  .tbl th, .tbl td { padding: 10px 12px; }
+  .tbl thead th { white-space: normal; letter-spacing: .06em; }
+  .tbl td { overflow-wrap: anywhere; hyphens: auto; }
+  .tbl-wrap.is-wide td, .tbl-wrap.is-wide .tbl th[scope='row'] { white-space: normal; }
 }
 
 /* Embedded lesson practice shares the full deck card faces and motion. */

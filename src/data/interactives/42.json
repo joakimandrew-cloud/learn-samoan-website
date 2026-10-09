@@ -1,0 +1,175 @@
+{
+  "chapter": 42,
+  "items": [
+    {
+      "id": "ch42-belonging-forms",
+      "kind": "grid",
+      "anchor": "the-belonging-forms",
+      "title": "The owner keeps a belonging word",
+      "data": {
+        "cols": [
+          "*a*-form",
+          "*o*-form"
+        ],
+        "rowLabel": "Owner",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "I",
+            "cells": [
+              {
+                "sm": "aʻu"
+              },
+              {
+                "sm": "oʻu"
+              }
+            ]
+          },
+          {
+            "label": "He, she",
+            "cells": [
+              {
+                "sm": "ana"
+              },
+              {
+                "sm": "ona"
+              }
+            ]
+          },
+          {
+            "label": "We two, you and I",
+            "cells": [
+              {
+                "sm": "a tā"
+              },
+              {
+                "sm": "o tā"
+              }
+            ]
+          },
+          {
+            "label": "They two",
+            "cells": [
+              {
+                "sm": "a lā"
+              },
+              {
+                "sm": "o lā"
+              }
+            ]
+          },
+          {
+            "label": "We, but not you",
+            "cells": [
+              {
+                "sm": "a mātou"
+              },
+              {
+                "sm": "o mātou"
+              }
+            ]
+          },
+          {
+            "label": "We, all of us",
+            "cells": [
+              {
+                "sm": "a tātou"
+              },
+              {
+                "sm": "o tātou"
+              }
+            ]
+          },
+          {
+            "label": "You, all of you",
+            "cells": [
+              {
+                "sm": "a ʻoutou"
+              },
+              {
+                "sm": "o ʻoutou"
+              }
+            ]
+          },
+          {
+            "label": "They",
+            "cells": [
+              {
+                "sm": "a lātou"
+              },
+              {
+                "sm": "o lātou"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Every owner here has both types, and the belonging word is required in the belonging-sentence. This book does not teach a form for one person addressed."
+    },
+    {
+      "id": "ch42-predication-phrase",
+      "kind": "contrast",
+      "anchor": "the-belonging-word-stays-in",
+      "title": "The belonging-sentence must show the type",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Belonging-sentence",
+            "sm": "E a mātou le taʻavale.",
+            "en": "The car is ours.",
+            "note": "The owner stands after a tense particle and must carry the belonging word."
+          },
+          {
+            "label": "Naming phrase",
+            "sm": "ʻO le mātou taʻavale.",
+            "en": "Our car.",
+            "note": "Here the group owner before the naming word leaves the belonging word out."
+          }
+        ]
+      },
+      "caption": "The two printed forms put ownership in different slots. Only the belonging-sentence requires the type to be printed for every owner."
+    },
+    {
+      "id": "ch42-whose-question",
+      "kind": "pick",
+      "anchor": "asking-whose",
+      "title": "Keep the type in the whose-question",
+      "data": {
+        "question": "Which printed question asks this?",
+        "options": [
+          {
+            "id": "car",
+            "sm": "ʻO ai e ana le taʻavale?"
+          },
+          {
+            "id": "house",
+            "sm": "ʻO ai e ona le fale?"
+          },
+          {
+            "id": "dog",
+            "sm": "ʻO ai e ana le maile?"
+          }
+        ],
+        "prompts": [
+          {
+            "en": "Whose is the car?",
+            "answer": "car",
+            "why": "The car is an *a*-word, so the question uses *ana*."
+          },
+          {
+            "en": "Whose is the house?",
+            "answer": "house",
+            "why": "The house is an *o*-word, so the question uses *ona*."
+          },
+          {
+            "en": "Whose is the dog?",
+            "answer": "dog",
+            "why": "The dog takes the *a*-form *ana* in the printed question."
+          }
+        ]
+      },
+      "intro": "Choose the whole question, keeping both the thing asked about and its belonging type."
+    }
+  ]
+}

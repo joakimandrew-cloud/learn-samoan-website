@@ -1,0 +1,138 @@
+{
+  "chapter": 14,
+  "items": [
+    {
+      "id": "ch14-there-is-or-none",
+      "kind": "contrast",
+      "anchor": "the-there-is-none-verb-leai",
+      "title": "Existence changes by changing the verb",
+      "caption": "The positive sentence uses the there-is verb. Its negative twin carries the absence inside the verb itself.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Present",
+            "sm": "E iai se tusi.",
+            "en": "There is a book."
+          },
+          {
+            "label": "Absent",
+            "sm": "E leai se tusi.",
+            "en": "There is no book."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch14-having-as-existing",
+      "kind": "grid",
+      "anchor": "saying-what-you-have",
+      "title": "Having is said as existing",
+      "caption": "The there-is verb stays in place while the possessive form names whose thing exists.",
+      "data": {
+        "cols": [
+          "Printed sentence"
+        ],
+        "rows": [
+          {
+            "label": "A book of yours",
+            "cells": [
+              {
+                "sm": "E iai sau tusi?",
+                "en": "Do you have a book?"
+              }
+            ]
+          },
+          {
+            "label": "My knife",
+            "cells": [
+              {
+                "sm": "E iai laʻu naifi.",
+                "en": "I have a knife."
+              }
+            ]
+          },
+          {
+            "label": "His gun",
+            "cells": [
+              {
+                "sm": "E iai lana fana.",
+                "en": "He has a gun."
+              }
+            ]
+          },
+          {
+            "label": "Her car",
+            "cells": [
+              {
+                "sm": "E iai lana taʻavale.",
+                "en": "She has a car."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch14-sort-there-is",
+      "kind": "sort",
+      "anchor": "the-there-is-none-verb-leai",
+      "title": "Sort existence, absence, and possession",
+      "intro": "Place each complete printed sentence under the job its there-is verb performs.",
+      "data": {
+        "bins": [
+          {
+            "id": "exists",
+            "label": "Existence without an owner"
+          },
+          {
+            "id": "absent",
+            "label": "Absent"
+          },
+          {
+            "id": "has",
+            "label": "Existence with an owner"
+          }
+        ],
+        "items": [
+          {
+            "sm": "E iai se tusi.",
+            "en": "There is a book.",
+            "bin": "exists",
+            "why": "The there-is verb states that a book exists."
+          },
+          {
+            "sm": "E iai se fana.",
+            "en": "There is a gun.",
+            "bin": "exists",
+            "why": "The non-specific noun names what exists."
+          },
+          {
+            "sm": "E leai se tusi.",
+            "en": "There is no book.",
+            "bin": "absent",
+            "why": "The there-is-none verb carries absence inside it."
+          },
+          {
+            "sm": "ʻUa leai se vai.",
+            "en": "There is now no water.",
+            "bin": "absent",
+            "why": "The change particle reports that the water has run out."
+          },
+          {
+            "sm": "E iai laʻu naifi.",
+            "en": "I have a knife.",
+            "bin": "has",
+            "why": "The possessive form says whose knife exists."
+          },
+          {
+            "sm": "E iai lana taʻavale.",
+            "en": "She has a car.",
+            "bin": "has",
+            "why": "Having is expressed through the existence of the possessed thing."
+          }
+        ]
+      }
+    }
+  ]
+}

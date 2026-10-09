@@ -8,8 +8,10 @@
 .ix-anatomy-en { margin: 16px 0 0; font-size: 15px; color: var(--muted); }
 .ix-anatomy-en .to { font-size: 18px; color: var(--ink) !important; margin-right: 6px; }
 @media (max-width: 640px) {
-  .ix-anatomy .pf { grid-template-columns: repeat(min(var(--n, 3), 3), minmax(0, 1fr)); }
-  .ix-anatomy .pf-part { padding: 14px 10px 12px; }
+  .ix-anatomy .pf { grid-template-columns: 1fr; }
+  .ix-anatomy .pf-part { padding: 14px 12px; display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 4px 10px; }
+  .ix-anatomy .pf-num { grid-row: 1 / 4; }
+  .ix-anatomy .pf-w, .ix-anatomy .pf-g, .ix-anatomy .pf-role { grid-column: 2; }
   .ix-anatomy .pf-w { font-size: clamp(22px, 7vw, 32px) !important; }
   .ix-anatomy .pf-g { letter-spacing: .1em; font-size: 11.5px; }
   .ix-anatomy .pf-role { font-size: 12px; }

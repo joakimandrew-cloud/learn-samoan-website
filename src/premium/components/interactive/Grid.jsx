@@ -43,7 +43,7 @@ function Where({ entry, rows, cols }) {
 
 // A cell's meaning: its English, or else the row and column it sits in.
 function Meaning({ entry, rows, cols }) {
-  if (entry.cell.en) return curly(entry.cell.en)
+  if (entry.cell.en) return <Md text={curly(entry.cell.en)} />
   return <><Md text={rows[entry.r].label} />, <Md text={cols[entry.c]} /></>
 }
 
@@ -59,9 +59,9 @@ function Detail({ entry, rows, cols }) {
           </Motion.span>
         </AnimatePresence>
       </div>
-      {cell.en && <div className="cb-en">{curly(cell.en)}</div>}
+      {cell.en && <div className="cb-en"><Md text={curly(cell.en)} /></div>}
       {cell.note && <p className="ix-grid-note"><Md text={cell.note} /></p>}
-      {cell.example && <p className="ix-grid-ex"><T>{cell.example.sm}</T> <span>{curly(cell.example.en)}</span></p>}
+      {cell.example && <p className="ix-grid-ex"><T>{cell.example.sm}</T> <span><Md text={curly(cell.example.en)} /></span></p>}
     </div>
   )
 }
@@ -74,7 +74,7 @@ function Status({ last, byKey }) {
     <>
       {last.type === 'right' && <span className="ix-grid-mark" aria-hidden="true">{'✓'}</span>}
       {last.type === 'wrong' && <span className="ix-grid-mark" aria-hidden="true">{'✕'}</span>}
-      {parts.map((p, i) => (typeof p === 'string' ? <Fragment key={i}>{curly(p)}</Fragment> : <T key={i}>{p.sm}</T>))}
+      {parts.map((p, i) => (typeof p === 'string' ? <Md key={i} text={curly(p)} /> : <T key={i}>{p.sm}</T>))}
     </>
   )
 }
@@ -107,7 +107,7 @@ export default function Grid({ data }) {
   const askText = e => {
     const p = prompts[e.key]
     if (!p.en) return where(e)
-    return p.where ? `${p.en} (${where(e)})` : p.en
+    return p.where ? `${plain(p.en)} (${where(e)})` : plain(p.en)
   }
 
   // One polite line for screen readers: what the chosen form is, or the
@@ -115,12 +115,12 @@ export default function Grid({ data }) {
   let announce = ''
   if (!asking && chosen) {
     const { cell } = chosen
-    announce = [`${cell.sm}${cell.en ? `: ${cell.en}` : ''}.`, cell.note && plain(cell.note), cell.example && `${cell.example.sm} ${cell.example.en}`].filter(Boolean).join(' ')
+    announce = [`${cell.sm}${cell.en ? `: ${plain(cell.en)}` : ''}.`, cell.note && plain(cell.note), cell.example && `${cell.example.sm} ${plain(cell.example.en)}`].filter(Boolean).join(' ')
   } else if (asking) {
     const last = quiz.last
     const verdict = verdictParts(last, byKey)
     const lines = []
-    if (verdict) lines.push(verdict.map(p => (typeof p === 'string' ? p : p.sm)).join(''))
+    if (verdict) lines.push(verdict.map(p => (typeof p === 'string' ? plain(p) : p.sm)).join(''))
     if (last?.type === 'new') lines.push('New round.')
     if (!target) lines.push(`Round complete: ${quiz.firstTime} of ${total} found first time.${late.length ? ` Found after a miss: ${late.map(e => e.cell.sm).join(', ')}${stop(late.at(-1).cell.sm)}` : ''}`)
     else if (last?.type !== 'wrong') {
@@ -257,7 +257,7 @@ export default function Grid({ data }) {
                       onClick={e => tap(key, e)}
                     >
                       <T className="ix-grid-sm">{cell.sm}</T>
-                      {!asking && cell.en && <span className="ix-grid-en">{curly(cell.en)}</span>}
+                      {!asking && cell.en && <span className="ix-grid-en"><Md text={curly(cell.en)} /></span>}
                       {found && <span className="visually-hidden">{found === 'first' ? ', found' : ', found after a miss'}</span>}
                       {asking && hintKey === key && <span className="visually-hidden">, the answer</span>}
                     </button>

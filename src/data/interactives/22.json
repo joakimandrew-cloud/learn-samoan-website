@@ -1,0 +1,64 @@
+{
+  "chapter": 22,
+  "items": [
+    {
+      "id": "ch22-number-line",
+      "kind": "scale",
+      "anchor": "counting-things",
+      "title": "The numbers from one to ten",
+      "caption": "The number words follow a fixed order. Five is the same printed word as hand, which appeared earlier in the book.",
+      "data": {
+        "layout": "line",
+        "axis": { "from": "One", "to": "Ten" },
+        "points": [
+          { "x": 0, "label": "tasi", "gloss": "one" },
+          { "x": 11, "label": "lua", "gloss": "two" },
+          { "x": 22, "label": "tolu", "gloss": "three" },
+          { "x": 33, "label": "fā", "gloss": "four" },
+          { "x": 44, "label": "lima", "gloss": "five" },
+          { "x": 56, "label": "ono", "gloss": "six" },
+          { "x": 67, "label": "fitu", "gloss": "seven" },
+          { "x": 78, "label": "valu", "gloss": "eight" },
+          { "x": 89, "label": "iva", "gloss": "nine" },
+          { "x": 100, "label": "sefulu", "gloss": "ten" }
+        ]
+      }
+    },
+    {
+      "id": "ch22-count-things-people",
+      "kind": "contrast",
+      "anchor": "counting-people",
+      "title": "Counting people adds the people prefix",
+      "caption": "The general counting shape stays in place. The careful form adds *toʻa* to the number when the things counted are people.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Things", "sm": "ipu e lua", "en": "the two cups" },
+          { "label": "People", "sm": "Teine e toʻalua.", "en": "the two girls" }
+        ]
+      }
+    },
+    {
+      "id": "ch22-sort-number-phrases",
+      "kind": "sort",
+      "anchor": "putting-things-in-order",
+      "title": "Sort three jobs for numbers",
+      "intro": "Place each complete printed phrase with counting things, telling the hour, or naming a place in an order.",
+      "data": {
+        "bins": [
+          { "id": "count", "label": "Count things" },
+          { "id": "clock", "label": "Tell the hour" },
+          { "id": "order", "label": "Place in an order" }
+        ],
+        "items": [
+          { "sm": "ipu e lua", "en": "the two cups", "bin": "count", "why": "The general particle links the number to the noun it counts." },
+          { "sm": "tama e tolu", "en": "the three boys", "bin": "count", "why": "The number follows the noun with *e* in front." },
+          { "sm": "i le itula e tolu", "en": "at three o'clock", "bin": "clock", "why": "The clock hour counts the word for hour." },
+          { "sm": "i le itula e iva", "en": "at nine o'clock", "bin": "clock", "why": "The same counting construction tells the hour." },
+          { "sm": "le fale lona lua", "en": "the second house", "bin": "order", "why": "The word *lona* turns the plain number into a place in an order." },
+          { "sm": "le ipu lona fā", "en": "the fourth cup", "bin": "order", "why": "The noun is followed by *lona* and the number." }
+        ]
+      }
+    }
+  ]
+}

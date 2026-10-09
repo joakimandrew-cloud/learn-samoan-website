@@ -16,6 +16,9 @@ import './styles/white-red-inner.css'
 import './styles/samoan.css'
 import '../styles/answer-feedback.css'
 import App from './App.jsx'
+import { recoverPreload } from './lib/preload-recovery.js'
+
+window.addEventListener('vite:preloadError', recoverPreload)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

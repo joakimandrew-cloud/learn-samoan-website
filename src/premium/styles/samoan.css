@@ -142,8 +142,9 @@
 /* ---- Reference list ---- */
 .reference-list .quiz-copy span { white-space: normal; }
 
-.wr-home__hero-book figcaption { bottom: 0; }
+.wr-home .wr-home__hero-book figcaption { bottom: 0; }
+.wr-home .wr-home__book-halo { display: none; }
 
 /* Chapter hero: the big number only. The Tongan site sets kupesi tiles here;
    with no approved Samoan motif the grid is left out. */
-.ls-art-tiles { display: none; }
+.wr-inner .ls-hero-art .ls-art-tiles { display: none; }

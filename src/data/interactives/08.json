@@ -1,0 +1,54 @@
+{
+  "chapter": 8,
+  "items": [
+    {
+      "id": "ch8-who-and-what",
+      "kind": "grid",
+      "anchor": "asking-what",
+      "title": "Who and what take different shapes",
+      "caption": "The who-word follows *ʻo* directly. The noun-like what-word carries the article *le* between them.",
+      "data": {
+        "cols": ["Question word", "Printed question"],
+        "rows": [
+          { "label": "Person", "cells": [
+            { "sm": "ai", "en": "the question word for who: stands after *ʻo* at the front of a who-question" },
+            { "sm": "ʻO ai lena?", "en": "Who is that?" }
+          ] },
+          { "label": "Thing", "cells": [
+            { "sm": "ā", "en": "the question word for what: stands after *ʻo le* at the front of a what-question" },
+            { "sm": "ʻO le ā lena?", "en": "What is that?" }
+          ] }
+        ]
+      }
+    },
+    {
+      "id": "ch8-question-tune",
+      "kind": "contrast",
+      "anchor": "asking-yes-or-no",
+      "title": "The same words become a question",
+      "caption": "The words and their order stay the same. The question uses the falling tune marked in the chapter.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          { "label": "Statement", "sm": "ʻO le pusi lena.", "en": "That is the cat." },
+          { "label": "Question", "sm": "ʻO le pusi lena?", "en": "Is that the cat?", "tune": "fall" }
+        ]
+      }
+    },
+    {
+      "id": "ch8-match-question-words",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Match the question words",
+      "intro": "Pair each question word with the job printed in this chapter.",
+      "data": {
+        "pairs": [
+          { "sm": "ai", "en": "the question word for who: stands after *ʻo* at the front of a who-question" },
+          { "sm": "ā", "en": "the question word for what: stands after *ʻo le* at the front of a what-question" },
+          { "sm": "po", "en": "marks a question from the very front of the sentence" },
+          { "sm": "ʻea", "en": "marks a question from inside it, after the first part" }
+        ]
+      }
+    }
+  ]
+}

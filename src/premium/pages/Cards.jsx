@@ -18,6 +18,7 @@ import Card from '../components/practice/PracticeCard.jsx'
 import { Md } from '../components/lesson/Blocks.jsx'
 import { CHAPTER_COUNT } from '@app/lib/course.js'
 import '../styles/cards.css'
+import LoadFailure from '../components/LoadFailure.jsx'
 
 // Every Words to Learn row in the book, as a card. The collections are the
 // book's own: its three list names, and the three bands of the course.
@@ -164,12 +165,14 @@ function Deck({ deckKey, words, mode, lessonNumber, meaningFor }) {
 
 function LessonDeck({ lessonNumber }) {
   const [lesson, setLesson] = useState(null)
+  const [loadError, setLoadError] = useState(false)
   useEffect(() => {
     let active = true
-    loadLesson(lessonNumber).then(value => { if (active) setLesson(value) })
+    loadLesson(lessonNumber).then(value => { if (active) setLesson(value) }).catch(() => { if (active) setLoadError(true) })
     return () => { active = false }
   }, [lessonNumber])
   const words = useMemo(() => wordsOf(lesson, lessonNumber), [lesson, lessonNumber])
+  if (loadError) return <LoadFailure message={`Chapter ${lessonNumber} cards did not load.`} />
   if (!lesson) return <div className="cards-loading" aria-busy="true">Loading chapter words…</div>
   return <Deck key={lessonDeckKey(lessonNumber)} deckKey={lessonDeckKey(lessonNumber)} words={words} mode="lesson" lessonNumber={lessonNumber} />
 }

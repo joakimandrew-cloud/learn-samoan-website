@@ -1,0 +1,172 @@
+{
+  "chapter": 40,
+  "items": [
+    {
+      "id": "ch40-description-position",
+      "kind": "contrast",
+      "anchor": "the-describing-verb-after-a-noun",
+      "title": "A statement becomes a description",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "A whole statement",
+            "sm": "E uliuli le taʻavale.",
+            "en": "The car is black.",
+            "note": "The describing verb is the verb of the sentence."
+          },
+          {
+            "label": "Inside a noun phrase",
+            "sm": "le taʻavale uliuli",
+            "en": "the black car",
+            "note": "The same verb follows the noun and says which car is meant."
+          }
+        ]
+      },
+      "caption": "The describing word keeps its shape and remains a verb. Its position changes what the whole expression does."
+    },
+    {
+      "id": "ch40-description-number",
+      "kind": "contrast",
+      "anchor": "plural-describing-verbs-after-a-noun",
+      "title": "The describing verb has number too",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "One cat",
+            "sm": "le pusi uliuli",
+            "en": "the black cat"
+          },
+          {
+            "label": "More than one cat",
+            "sm": "pusi uli",
+            "en": "black cats"
+          }
+        ]
+      },
+      "caption": "The article disappears for the particular plural, and the describing verb takes its plural form. This is the agreement pattern taught for the noun as the verb’s single participant."
+    },
+    {
+      "id": "ch40-description-kinds",
+      "kind": "sort",
+      "anchor": "describing-verbs-in-a-row",
+      "title": "What fills the describing slot?",
+      "data": {
+        "bins": [
+          {
+            "id": "single",
+            "label": "One describing verb"
+          },
+          {
+            "id": "part",
+            "label": "A part and its quality"
+          },
+          {
+            "id": "verb-noun",
+            "label": "A verb and a bare noun"
+          },
+          {
+            "id": "place",
+            "label": "A verb with a place phrase"
+          }
+        ],
+        "items": [
+          {
+            "sm": "le tama faʻalogogōfie",
+            "en": "the obedient boy",
+            "bin": "single",
+            "why": "The one built word stands as the describing verb."
+          },
+          {
+            "sm": "tagata tino leaga",
+            "en": "people with bad bodies",
+            "bin": "part",
+            "why": "*Tino* names a body and *leaga* describes its quality."
+          },
+          {
+            "sm": "le teine fai umu",
+            "en": "the cooking girl",
+            "bin": "verb-noun",
+            "why": "The verb *fai* has the bare noun *umu* after it."
+          },
+          {
+            "sm": "le pasi alu i le nuʻu",
+            "en": "the bus going to the village",
+            "bin": "place",
+            "why": "The verb *alu* carries the whole place phrase *i le nuʻu* in the describing slot."
+          }
+        ]
+      },
+      "intro": "Choose the kind of description after the noun."
+    },
+    {
+      "id": "ch40-difficult-easy",
+      "kind": "grid",
+      "anchor": "the-endings-gata-and-gofie",
+      "title": "Learn the meanings of the built words",
+      "data": {
+        "cols": [
+          "With *=gatā*",
+          "With *=gōfie*"
+        ],
+        "rowLabel": "Base",
+        "rows": [
+          {
+            "label": "*fai*",
+            "cells": [
+              {
+                "sm": "faigatā",
+                "en": "difficult"
+              },
+              {
+                "sm": "faigōfie",
+                "en": "easy"
+              }
+            ]
+          },
+          {
+            "label": "*faʻalogo*",
+            "cells": [
+              {
+                "sm": "faʻalogogatā",
+                "en": "disobedient"
+              },
+              {
+                "sm": "faʻalogogōfie",
+                "en": "obedient"
+              }
+            ]
+          },
+          {
+            "label": "*tau*",
+            "cells": [
+              {
+                "sm": "taugatā",
+                "en": "expensive"
+              },
+              {
+                "sm": "taugōfie",
+                "en": "cheap"
+              }
+            ]
+          },
+          {
+            "label": "*mau*",
+            "cells": [
+              {
+                "sm": "maugatā",
+                "en": "mean, tight-fisted"
+              },
+              {
+                "sm": "maugōfie",
+                "en": "generous"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Each built word has its own meaning. The chapter says to learn them word by word, rather than translate every one as difficult or easy."
+    }
+  ]
+}

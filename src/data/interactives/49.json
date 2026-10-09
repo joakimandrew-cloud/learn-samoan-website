@@ -1,0 +1,126 @@
+{
+  "chapter": 49,
+  "items": [
+    {
+      "id": "ch49-real-unreal",
+      "kind": "contrast",
+      "anchor": "the-second-if-word-ana",
+      "title": "A possible condition or an imagined opposite",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "May yet happen",
+            "sm": "ʻĀfai ʻe te lē sau, ʻou te alu atu.",
+            "en": "If you do not come, I will go and see you.",
+            "note": "The listener may still come or not come."
+          },
+          {
+            "label": "Did not happen",
+            "sm": "ʻAna ʻe lē sau, semanū ʻou te alu atu.",
+            "en": "Had you not come, I was probably going to go and see you.",
+            "note": "The listener did come. The speaker imagines the not-coming instead."
+          }
+        ]
+      },
+      "caption": "Three things change together: the if-word, the missing *te* in the condition, and *semanū* in the main clause. The condition after *ʻana* usually has no tense particle."
+    },
+    {
+      "id": "ch49-condition-second",
+      "kind": "contrast",
+      "anchor": "putting-the-condition-second",
+      "title": "Put the imagined condition second",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Condition first",
+            "sm": "ʻAna ʻe lē sau, ʻou te ita.",
+            "en": "Had you not come, I would have been angry."
+          },
+          {
+            "label": "Condition second",
+            "sm": "ʻOu te ita pē ʻana ʻe lē sau.",
+            "en": "I would have been angry if you had not come."
+          }
+        ]
+      },
+      "caption": "When the condition follows the main clause, *pē* stands in front of *ʻana*. The imagined situation stays the same."
+    },
+    {
+      "id": "ch49-relations",
+      "kind": "sort",
+      "anchor": "saying-although-with-tiga",
+      "title": "Does the second situation stop the first?",
+      "data": {
+        "bins": [
+          {
+            "id": "unless",
+            "label": "An unless-condition"
+          },
+          {
+            "id": "although",
+            "label": "An unexpected contrast"
+          }
+        ],
+        "items": [
+          {
+            "sm": "ʻOu te sāvali i le aoga seʻiloga e timu.",
+            "en": "I walk to school, unless it rains.",
+            "bin": "unless",
+            "why": "Rain is the exception that stops the walk from holding true."
+          },
+          {
+            "sm": "E ui ina faigatā le feau, ʻae ʻou te fiafia.",
+            "en": "Although the task is difficult, I am happy.",
+            "bin": "although",
+            "why": "The happiness holds despite what the difficult task might lead someone to expect."
+          },
+          {
+            "sm": "Tīgā ona ʻou ole atu i loʻu tina, ʻae na lē mafai ona ʻou alu.",
+            "en": "However much I begged my mother, I could not go.",
+            "bin": "although",
+            "why": "The main clause holds despite the begging. *Tīgā* presents the contrast as a negative idea."
+          },
+          {
+            "sm": "E lē alu le malaga seʻiloga ʻua sau le tama.",
+            "en": "The trip will not go unless the boy has come.",
+            "bin": "unless",
+            "why": "The boy’s coming is the exception to the trip not going."
+          }
+        ]
+      },
+      "intro": "Choose between a condition that makes an exception and a contrast that still holds."
+    },
+    {
+      "id": "ch49-tusa-readings",
+      "kind": "contrast",
+      "anchor": "even-if-whether-or-not-and-whatever-with-tusa",
+      "title": "The question clause decides the reading",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "One condition",
+            "sm": "E tusa pē timu, ʻae ʻoleʻā alu le malaga.",
+            "en": "Even if it rains, the trip will go.",
+            "note": "One condition is named, and the trip holds despite it."
+          },
+          {
+            "label": "Both answers",
+            "sm": "ʻOleʻā alu le malaga e tusa lava pē timu pē leai.",
+            "en": "The trip will go whether it rains or not.",
+            "note": "Both raining and not raining are named; either answer leaves the trip unchanged."
+          },
+          {
+            "label": "An open answer",
+            "sm": "E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo i ai.",
+            "en": "The boy prays, whatever village he is in.",
+            "note": "The question leaves the village open, and the praying holds wherever it is."
+          }
+        ]
+      },
+      "caption": "The English follows the question after *tusa*: even if, whether or not, or whatever. *Lava* belongs in the last two patterns; it is optional in the even-if pattern."
+    }
+  ]
+}

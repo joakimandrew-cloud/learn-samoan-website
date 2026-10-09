@@ -1,0 +1,90 @@
+{
+  "chapter": 39,
+  "items": [
+    {
+      "id": "ch39-if-when",
+      "kind": "contrast",
+      "anchor": "the-condition-clause-without-a-joining-word",
+      "title": "Two ways to open a condition",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "With the if-word",
+            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
+            "en": "If it rains tomorrow, the trip will not go.",
+            "note": "The if-word opens a condition with a tense particle of its own."
+          },
+          {
+            "label": "With the short future particle",
+            "sm": "ʻĀ timu taeao, e lē alu le malaga.",
+            "en": "When it rains tomorrow, the trip will not go.",
+            "note": "The short future particle stands alone. English may use if, when or whenever for this shape, according to the situation."
+          }
+        ]
+      },
+      "caption": "The condition comes first in both. The second shape has no separate joining word before its short future particle."
+    },
+    {
+      "id": "ch39-condition-certainty",
+      "kind": "contrast",
+      "anchor": "the-tense-particle-in-a-condition-clause",
+      "title": "An open condition or an expected one",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Open",
+            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
+            "en": "If it rains tomorrow, the trip will not go.",
+            "note": "The general particle leaves the condition open."
+          },
+          {
+            "label": "More expected",
+            "sm": "ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.",
+            "en": "If it is going to rain tomorrow, the trip will not go.",
+            "note": "The future particle carries a much higher degree of certainty than the general particle."
+          }
+        ]
+      },
+      "caption": "The if-word stays in place. The tense particle inside the condition changes how expected the condition is."
+    },
+    {
+      "id": "ch39-condition-location",
+      "kind": "pick",
+      "anchor": "putting-the-condition-second",
+      "title": "Find the condition in the sentence",
+      "data": {
+        "question": "Where does the condition stand?",
+        "options": [
+          {
+            "id": "first",
+            "label": "Before the main clause"
+          },
+          {
+            "id": "last",
+            "label": "After the main clause"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "ʻĀfai e iai se apu, ʻou te ʻai.",
+            "answer": "first",
+            "why": "The if-word opens the first clause; the eating follows it."
+          },
+          {
+            "sm": "Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.",
+            "answer": "last",
+            "why": "The command comes first. *Pē* stands in front of the following condition."
+          },
+          {
+            "sm": "E lē alu le tama i le matafaga pē ʻā afa.",
+            "answer": "last",
+            "why": "The main clause is followed by *pē* and the condition opened by the short future particle."
+          }
+        ]
+      },
+      "intro": "Read which clause says what has to be true, then choose its position."
+    }
+  ]
+}

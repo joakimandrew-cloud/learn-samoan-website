@@ -1,6 +1,7 @@
 .cards { min-height: calc(100vh - 70px); background: var(--paper-soft); overflow: hidden; }
 .cards-in { max-width: 1120px; margin: 0 auto; padding: clamp(24px, 3.5vw, 44px) var(--gutter) 60px; }
 .cards-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+.cards-head > div:first-child { flex: 1 1 0; min-width: 0; max-width: 620px; }
 .cards-h1 { font-size: clamp(44px, 5.4vw, 76px); margin: 14px 0 0; }
 .cards-sub { margin: 8px 0 0; color: var(--muted); font-size: 15px; }
 .cards-mode { display: inline-flex; padding: 4px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); }
@@ -31,7 +32,7 @@
 .fc { position: absolute; inset: 0; cursor: grab; touch-action: pan-y; user-select: none; -webkit-user-select: none; }
 .fc:active { cursor: grabbing; }
 .fc-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; }
-.fc-face { position: absolute; inset: 0; min-width: 0; border-radius: 28px; backface-visibility: hidden; -webkit-backface-visibility: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 32px; text-align: center; box-shadow: 0 2px 4px rgba(18,18,18,.04), 0 30px 60px -24px rgba(18,18,18,.28); }
+.fc-face { position: absolute; inset: 0; min-width: 0; overflow-y: auto; border-radius: 28px; backface-visibility: hidden; -webkit-backface-visibility: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 32px; text-align: center; box-shadow: 0 2px 4px rgba(18,18,18,.04), 0 30px 60px -24px rgba(18,18,18,.28); }
 .fc-front { background: var(--paper); border: 1px solid var(--line); }
 .fc-back { background: var(--band); color: #fff; transform: rotateY(180deg); }
 .fc:not(.is-top) .fc-face { box-shadow: 0 2px 4px rgba(18,18,18,.04); }
@@ -54,8 +55,8 @@
 .fc-also { max-width: 100%; font-size: 14px; line-height: 1.35; color: var(--muted); overflow-wrap: anywhere; }
 .fc-back .fc-also { color: var(--on-band-muted); }
 .fc-also .to { font-size: 1em; }
-.fc-mini-meaning { position: absolute; top: 60px; left: 24px; right: 24px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
-.fc-also.is-apart { position: absolute; bottom: 22px; left: 28px; right: 28px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.2); }
+.fc-mini-meaning { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.fc-also.is-apart { padding-top: 12px; border-top: 1px solid rgba(255,255,255,.2); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
 /* The site's light inner pages (white-red-inner.css) turn the back face light. */
 .wr-inner .fc-back .fc-meanings { border-color: var(--line-strong); color: var(--muted); }
 .wr-inner .fc-back .fc-also { color: var(--muted); }

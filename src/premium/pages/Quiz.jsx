@@ -8,6 +8,7 @@ import chapters from '@app/data/chapters.json'
 import { Md } from '../components/lesson/Blocks.jsx'
 import { saveQuizScore, useProgress } from '../lib/progress.js'
 import { QuizChoices, QuizExplanation } from '../components/practice/QuizParts.jsx'
+import { conciseQuizExplanation } from '../lib/quiz-copy.js'
 import '../styles/quiz.css'
 
 function Ring({ right, total }) {
@@ -75,7 +76,7 @@ function Results({ quiz, n, answers, onRetry }) {
                   <p className="qz-rv-q"><Md text={q.prompt} /></p>
                   <p className="qz-rv-a no">You chose: <Md text={q.options[a].text} /></p>
                   <p className="qz-rv-a ok">Answer: <Md text={correct.text} /></p>
-                  <p className="qz-rv-why"><Md text={correct.explanation} /></p>
+                  <p className="qz-rv-why"><Md text={conciseQuizExplanation(correct.explanation)} /></p>
                 </div>
               </div>
             )
@@ -91,7 +92,7 @@ export default function Quiz() {
   const n = Number(num)
   const quiz = quizzes[String(n)]
   const lesson = chapters.find(c => c.chapter === n)
-  useTitle(`Chapter ${n} quiz`)
+  useTitle(quiz ? `Chapter ${n} quiz` : 'Quiz not found')
   const [idx, setIdx] = useState(0)
   const [answers, setAnswers] = useState([])
   const [finished, setFinished] = useState(false)
@@ -123,8 +124,9 @@ export default function Quiz() {
   useEffect(() => {
     const onKey = (e) => {
       if (finished || e.metaKey || e.ctrlKey || e.altKey) return
-      if (e.target instanceof Element && e.target.closest('a, button, input, select, textarea, summary, [role="button"]')) return
       const k = e.key.toLowerCase()
+      if (k === 'enter' && answered && e.target instanceof Element && e.target.closest('.qz-opt')) { e.preventDefault(); next(); return }
+      if (e.target instanceof Element && e.target.closest('a, button, input, select, textarea, summary, [role="button"]')) return
       const map = { a: 0, b: 1, c: 2, d: 3, 1: 0, 2: 1, 3: 2, 4: 3 }
       if (k in map && q && map[k] < q.options.length) { e.preventDefault(); choose(map[k]) }
       if (k === 'enter' && answered) { e.preventDefault(); next() }
@@ -154,7 +156,7 @@ export default function Quiz() {
             <span className="qz-k">Chapter {n} quiz</span>
             <span className="qz-t"><Md text={lesson?.title || ''} /></span>
           </div>
-          <div className="qz-segs" aria-label={`Question ${Math.min(idx + 1, total)} of ${total}`}>
+          <div className="qz-segs" role="progressbar" aria-valuemin="1" aria-valuemax={total} aria-valuenow={Math.min(idx + 1, total)} aria-label={`Question ${Math.min(idx + 1, total)} of ${total}`}>
             {quiz.questions.map((qq, i) => {
               const a = answers[i]
               const cls = a === undefined ? (i === idx && !finished ? 'cur' : '') : qq.options[a].correct ? 'ok' : 'no'

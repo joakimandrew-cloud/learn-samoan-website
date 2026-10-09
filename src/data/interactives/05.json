@@ -1,0 +1,50 @@
+{
+  "chapter": 5,
+  "items": [
+    {
+      "id": "ch5-statement-to-command",
+      "kind": "contrast",
+      "anchor": "the-command",
+      "title": "A command leaves the bare verb",
+      "caption": "The statement names time and a person. The command drops both and leaves the verb on its own.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          { "label": "Statement", "sm": "Sā ia nofo.", "en": "She stayed." },
+          { "label": "Command", "sm": "Nofo.", "en": "Sit down.", "note": "A bare command names no doer and carries no tense particle." }
+        ]
+      }
+    },
+    {
+      "id": "ch5-urging-word",
+      "kind": "contrast",
+      "anchor": "the-urging-words-ia-and-ea",
+      "title": "An urging word follows the command",
+      "caption": "The command is complete on its own. Adding *ia* at the end gives it warmth or a push.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          { "label": "Bare command", "sm": "Nofo.", "en": "Sit down." },
+          { "label": "With urging", "sm": "Nofo ia.", "en": "Do sit down, then." }
+        ]
+      }
+    },
+    {
+      "id": "ch5-type-commands",
+      "kind": "type",
+      "anchor": "words-to-learn",
+      "title": "Type the command verbs",
+      "intro": "Read the meaning and type the verb used for the command.",
+      "data": {
+        "items": [
+          { "en": "wait", "sm": "faʻatali" },
+          { "en": "sit, stay", "sm": "nofo" },
+          { "en": "shut", "sm": "tapuni" },
+          { "en": "sweep", "sm": "salu" },
+          { "en": "wash", "sm": "fufulu" },
+          { "en": "help", "sm": "fesoasoani" }
+        ]
+      }
+    }
+  ]
+}

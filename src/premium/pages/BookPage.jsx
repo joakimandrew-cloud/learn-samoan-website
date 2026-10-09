@@ -7,6 +7,7 @@ import { BOOK_PAGES } from '@app/lib/book-pages.js'
 import { Md } from '../components/lesson/Blocks.jsx'
 import MobileCompass from '../components/lesson/MobileCompass.jsx'
 import { RenderBlock, Rail, Section, groupSections } from './Lesson.jsx'
+import LoadFailure from '../components/LoadFailure.jsx'
 import '../styles/lesson.css'
 import '../styles/lesson-experience.css'
 import '../styles/source-core.css'
@@ -17,11 +18,12 @@ export default function BookPage({ page }) {
   const meta = BOOK_PAGES[page]
   useTitle(meta.title)
   const [doc, setDoc] = useState(null)
+  const [loadError, setLoadError] = useState(false)
   const [active, setActive] = useState(null)
 
   useEffect(() => {
     let live = true
-    loadBookPage(meta.file).then(value => { if (live) setDoc(value) })
+    loadBookPage(meta.file).then(value => { if (live) setDoc(value) }).catch(() => { if (live) setLoadError(true) })
     return () => { live = false }
   }, [meta.file])
 
@@ -35,6 +37,8 @@ export default function BookPage({ page }) {
     els.forEach(el => io.observe(el))
     return () => io.disconnect()
   }, [sections])
+
+  if (loadError) return <LoadFailure message={`${meta.title} did not load.`} />
 
   return (
     <article className="lesson book-page">
