@@ -152,6 +152,95 @@
         ]
       },
       "caption": "Both printed forms forbid dancing. The pronoun comes before *te* and after *neʻi*, so changing the particle changes their order."
+    },
+    {
+      "id": "ch48-pick-let-or-may",
+      "kind": "pick",
+      "anchor": "the-wish-and-permission-particle-sei",
+      "place": "lead",
+      "title": "Let me, let us, or may it happen",
+      "intro": "Read the English, then choose the Sāmoan sentence that says it.",
+      "data": {
+        "question": "Which sentence says this?",
+        "prompts": [
+          {
+            "en": "Let's be patient.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻIa tātou ʻonosaʻi."
+              },
+              {
+                "id": "b",
+                "sm": "ʻIa ʻe ʻonosaʻi."
+              },
+              {
+                "id": "c",
+                "sm": "Seʻi oʻu alu muamua."
+              }
+            ],
+            "why": "*ʻIa* asks plainly for what is wanted, and *tātou* is we, you and I. With *ʻe* the same request is made to the listener alone: be patient."
+          },
+          {
+            "en": "Let me go first.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Seʻi oʻu alu muamua."
+              },
+              {
+                "id": "b",
+                "sm": "ʻIa tātou ʻonosaʻi."
+              },
+              {
+                "id": "c",
+                "sm": "Seʻi sau le tama."
+              }
+            ],
+            "why": "*Seʻi* about the speaker, with *oʻu* for I, asks permission. *Seʻi sau le tama* is about someone else, so it is a wish."
+          },
+          {
+            "en": "May the boy come.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Seʻi sau le tama."
+              },
+              {
+                "id": "b",
+                "sm": "Faʻatali seʻia sau le tama."
+              },
+              {
+                "id": "c",
+                "sm": "Seʻi oʻu fesili."
+              }
+            ],
+            "why": "*Seʻi* about someone who is neither the speaker nor the listener says the speaker wants it to happen. *Seʻia* means until: wait until the boy comes."
+          },
+          {
+            "en": "Let me ask.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Seʻi oʻu fesili."
+              },
+              {
+                "id": "b",
+                "sm": "Seʻi sau se isi."
+              },
+              {
+                "id": "c",
+                "sm": "ʻIa ʻe ʻonosaʻi."
+              }
+            ],
+            "why": "*Seʻi oʻu* puts the speaker in the clause, so it politely asks permission. *Seʻi sau se isi* wishes for someone else to come."
+          }
+        ]
+      }
     }
   ]
 }

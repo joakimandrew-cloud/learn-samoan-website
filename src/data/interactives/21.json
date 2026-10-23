@@ -158,6 +158,97 @@
           }
         ]
       }
+    },
+    {
+      "id": "ch21-pick-question-answer",
+      "kind": "pick",
+      "anchor": "yes-or-no-questions",
+      "title": "Find the answer to the question",
+      "intro": "Read the question, then choose the answer the book gives for it.",
+      "data": {
+        "question": "Which is the answer?",
+        "prompts": [
+          {
+            "sm": "ʻO ai lenā?",
+            "en": "Who is that?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO le teine."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le suāsami lenā."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "*Ai* asks after a person, and the answer names one: *ʻO le teine.*, the girl. When it is clear what the answer is about, the presented part can stand alone."
+          },
+          {
+            "sm": "ʻO le ā lenā?",
+            "en": "What is that?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO le suāsami lenā."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le teine."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "*Ā* asks after a thing, and the answer is a naming sentence about a thing: *ʻO le suāsami lenā.*, that is the salt water."
+          },
+          {
+            "sm": "ʻO fea e ʻi ai le teine?",
+            "en": "Where is the girl?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le teine."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le suāsami lenā."
+              }
+            ],
+            "answer": "a",
+            "why": "*Fea* asks after a place, and the answer names the place in the same fronted shape, with *ʻi ai*: the girl is in the house."
+          },
+          {
+            "sm": "ʻUa fiafia le tama?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Leai, e lē ʻo fiafia le tama."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le teine."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "This asks whether the boy is happy now, a yes or no question with no question word. The book's answer is no, and it does not repeat the change particle: it switches to the general particle with the not-word."
+          }
+        ]
+      }
     }
   ]
 }

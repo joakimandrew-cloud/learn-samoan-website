@@ -7,7 +7,7 @@ export const DEFAULT_DESCRIPTION = 'Learn Sāmoan, free. A complete 51-chapter c
 
 export const HUBS = {
   '/chapters': { title: 'All 51 chapters', description: 'The whole Sāmoan course in 51 chapters, Beginner to Advanced. Every chapter has worked examples, exercises with answers and a 10-question quiz.' },
-  '/drills': { title: 'Practice drills', description: '56 drills grouped by skill, each built only from Sāmoan printed in the course, with a Words to Learn recall deck.' },
+  '/drills': { title: 'Practice drills', description: '68 drills grouped by skill, each built only from Sāmoan printed in the course, with a Words to Learn recall deck.' },
   '/quizzes': { title: 'Chapter quizzes', description: 'A ten-question quiz for every chapter of the Sāmoan course, with every answer explained.' },
   '/cards': { title: 'Vocabulary flip cards', description: 'Flip cards for every Words to Learn list in the Sāmoan course, by chapter or by band.' },
   '/glossary': { title: 'Glossary', description: 'Every Sāmoan word the course teaches, with its meaning. Search with or without macrons and the glottal stop.' },

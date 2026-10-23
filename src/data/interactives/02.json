@@ -86,6 +86,68 @@
       }
     },
     {
+      "id": "ch2-pick-which-we",
+      "kind": "pick",
+      "anchor": "more-than-one-person",
+      "title": "Which we is it?",
+      "intro": "Read each sentence and choose the we it says: is the listener in it or left out, and is it two people or more?",
+      "data": {
+        "question": "Which we is this?",
+        "options": [
+          {
+            "id": "ta",
+            "label": "we two (you and I)"
+          },
+          {
+            "id": "ma",
+            "label": "we two (but not you)"
+          },
+          {
+            "id": "tatou",
+            "label": "we (you and I, and others)"
+          },
+          {
+            "id": "matou",
+            "label": "we (others and I, but not you)"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Sā tātou siva.",
+            "en": "We danced.",
+            "answer": "tatou",
+            "why": "*Tātou* takes the listener in, and it is the we of more than two. The English says only \"we danced\"."
+          },
+          {
+            "sm": "Sā mātou siva.",
+            "en": "We danced.",
+            "answer": "matou",
+            "why": "*Mātou* leaves the listener out. The English is the same as for *tātou*; the Sāmoan says whether you were part of it."
+          },
+          {
+            "sm": "Sā tā alu.",
+            "answer": "ta",
+            "why": "*Tā* is we two, you and I: the listener is one of the two."
+          },
+          {
+            "sm": "Sā mā eva.",
+            "answer": "ma",
+            "why": "*Mā* is we two, but not you: the listener is left out of the pair."
+          },
+          {
+            "sm": "Sā tātou minoi.",
+            "answer": "tatou",
+            "why": "*Tātou* pulls the listener in: we, you included, more than two of us."
+          },
+          {
+            "sm": "Sā mātou alu.",
+            "answer": "matou",
+            "why": "*Mātou* shuts the listener out: we, but not you, more than two of us."
+          }
+        ]
+      }
+    },
+    {
       "id": "ch2-two-pronoun-sets",
       "kind": "grid",
       "anchor": "saying-who-it-is",

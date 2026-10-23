@@ -101,6 +101,59 @@
       "intro": "Choose the kind of description after the noun."
     },
     {
+      "id": "ch40-order-describing-words",
+      "kind": "order",
+      "anchor": "the-describing-verb-after-a-noun",
+      "place": "end",
+      "title": "The describing word comes after",
+      "intro": "Tap the words to build the Sāmoan for each English. One word on offer does not belong.",
+      "data": {
+        "prompt": "Say this in Sāmoan",
+        "items": [
+          {
+            "en": "She cried hard.",
+            "sm": "Sā ia tagi mālosi.",
+            "extra": [
+              "fia"
+            ],
+            "why": "The action verb *tagi* leads, and the describing verb *mālosi* follows it to say how the crying was done."
+          },
+          {
+            "en": "You all danced well.",
+            "sm": "Sā ʻoutou siva lelei.",
+            "extra": [
+              "fia"
+            ],
+            "why": "*Lelei* does the describing job after the action verb *siva*: danced, and danced well."
+          },
+          {
+            "en": "the black car",
+            "sm": "le taʻavale uliuli",
+            "extra": [
+              "pusi"
+            ],
+            "why": "Three parts in a fixed order: the article *le*, the name of the thing *taʻavale*, then the describing verb *uliuli*."
+          },
+          {
+            "en": "the cooking girl",
+            "sm": "le teine fai umu",
+            "extra": [
+              "tama"
+            ],
+            "why": "The verb-and-noun compound *fai umu* works as one describing verb, and it stands behind the noun it describes."
+          },
+          {
+            "en": "the bus going to the village",
+            "sm": "le pasi alu ʻi le nuʻu",
+            "extra": [
+              "tama"
+            ],
+            "why": "The describing verb *alu* carries its place phrase *ʻi le nuʻu* behind it, and the whole of it stands in the one position after *le pasi*."
+          }
+        ]
+      }
+    },
+    {
       "id": "ch40-difficult-easy",
       "kind": "grid",
       "anchor": "the-endings-gata-and-gofie",

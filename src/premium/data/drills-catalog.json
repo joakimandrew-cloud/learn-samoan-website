@@ -21,6 +21,7 @@
     "note": "The particles in front of the verb, commands, and the verb's own forms.",
     "drills": [
       "ch4-type-state-verbs",
+      "ch4-pick-fill-the-word",
       "ch5-type-commands",
       "ch13-sort-general-now",
       "ch15-sort-negative",
@@ -28,7 +29,8 @@
       "ch24-pick-aua-soia",
       "ch30-read-complement",
       "ch32-command-rules",
-      "ch48-mood-reading"
+      "ch48-mood-reading",
+      "ch48-pick-let-or-may"
     ],
     "inChapters": []
   },
@@ -38,9 +40,12 @@
     "note": "Which one, who did it, and how many.",
     "drills": [
       "ch6-sort-article-phrases",
+      "ch6-pick-one-or-many",
       "ch20-pick-nofo-nonofo",
       "ch22-sort-number-phrases",
-      "ch27-doer-choice"
+      "ch27-doer-choice",
+      "ch27-pick-read-it-back",
+      "ch51-pick-feeling-article"
     ],
     "inChapters": []
   },
@@ -50,10 +55,13 @@
     "note": "Who you mean, what is theirs, and what there is.",
     "drills": [
       "ch2-type-independent-forms",
+      "ch2-pick-which-we",
       "ch10-sort-a-o-words",
       "ch14-sort-there-is",
       "ch25-sort-a-o",
       "ch25-sort-possessive-number",
+      "ch25-pick-owner-after-thing",
+      "ch25-pick-family-a-o",
       "ch42-whose-question",
       "ch45-forced-o",
       "ch51-read-belonging"
@@ -69,6 +77,7 @@
       "ch11-sort-place-direction",
       "ch16-sort-ai-i-ai",
       "ch21-pick-question-word",
+      "ch21-pick-question-answer",
       "ch26-sort-space-direction",
       "ch29-read-direction"
     ],
@@ -99,9 +108,11 @@
       "ch31-alike-or-agree",
       "ch35-read-event",
       "ch40-description-kinds",
+      "ch40-order-describing-words",
       "ch46-phrase-use",
       "ch47-read-slot",
-      "ch50-built-meaning"
+      "ch50-built-meaning",
+      "ch50-pick-one-another"
     ],
     "inChapters": []
   },
@@ -113,6 +124,7 @@
       "daily-words",
       "ch3-match-verb-jobs",
       "ch9-match-courtesy",
+      "ch9-pick-first-meeting",
       "ch18-sort-time-words",
       "ch31-comparison-words",
       "ch37-story-words"

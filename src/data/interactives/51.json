@@ -210,6 +210,57 @@
         ]
       },
       "intro": "Choose both how many things are named and whether particular ones are meant."
+    },
+    {
+      "id": "ch51-pick-feeling-article",
+      "kind": "pick",
+      "anchor": "the-article-sina",
+      "place": "end",
+      "title": "Dear one or a little of it",
+      "intro": "Fill the gap with the article that gives the English.",
+      "data": {
+        "question": "Which article fills the gap?",
+        "options": [
+          {
+            "id": "si",
+            "sm": "si"
+          },
+          {
+            "id": "sina",
+            "sm": "sina"
+          },
+          {
+            "id": "le",
+            "sm": "le"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "___ teine",
+            "en": "the dear girl",
+            "answer": "si",
+            "why": "*Si* names one particular girl and carries the speaker's feeling for her. *Le* names her and leaves the feeling unsaid."
+          },
+          {
+            "sm": "ʻAumai ___ vai.",
+            "en": "Bring a little water.",
+            "answer": "sina",
+            "why": "*Sina* names a small portion of what the noun names: not the water, a little water."
+          },
+          {
+            "sm": "___ maile",
+            "en": "the poor dog",
+            "answer": "si",
+            "why": "Sympathy for one particular dog is the job of *si*. *Sina* would name a portion, not a dog."
+          },
+          {
+            "sm": "___ taimi",
+            "en": "a little time",
+            "answer": "sina",
+            "why": "A little of something is a portion, so the article is *sina*. *Si* always names one particular one."
+          }
+        ]
+      }
     }
   ]
 }

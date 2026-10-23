@@ -25,14 +25,14 @@ describe('drills catalogue and Daily words honesty gate', () => {
     expect(lines.length).toBe(4)
   })
 
-  it('has 56 drills in 8 groups: every practice item once, plus Daily words', () => {
+  it('has 68 drills in 8 groups: every practice item once, plus Daily words', () => {
     const ids = catalogIds(catalog)
     expect(catalog).toHaveLength(8)
-    expect(ids).toHaveLength(56)
-    expect(new Set(ids).size).toBe(56)
-    expect(items.size).toBe(55)
+    expect(ids).toHaveLength(68)
+    expect(new Set(ids).size).toBe(68)
+    expect(items.size).toBe(67)
     expect(ids.filter(id => id !== DAILY_WORDS_ID).sort()).toEqual([...items.keys()].sort())
-    expect(HUBS['/drills'].description.startsWith('56 drills')).toBe(true)
+    expect(HUBS['/drills'].description.startsWith('68 drills')).toBe(true)
   })
 
   it('fails when the catalogue names a drill that does not exist', () => {
@@ -95,10 +95,10 @@ describe('hub search and filters', () => {
   const groups = buildDrillGroups(catalog, items, chapters, buildDeck(vocab))
   const count = (query, level) => filterDrillGroups(groups, query, level).reduce((n, g) => n + g.visible.length, 0)
 
-  it('shows all 56 with no filter', () => expect(count('', 'all')).toBe(56))
+  it('shows all 68 with no filter', () => expect(count('', 'all')).toBe(68))
   it('narrows by a word and by a level', () => {
     expect(count('question', 'all')).toBeGreaterThan(0)
-    expect(count('question', 'all')).toBeLessThan(56)
+    expect(count('question', 'all')).toBeLessThan(68)
     const advanced = filterDrillGroups(groups, '', 'advanced').flatMap(g => g.visible)
     expect(advanced.length).toBeGreaterThan(0)
     expect(advanced.every(d => d.level === 'advanced')).toBe(true)

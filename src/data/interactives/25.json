@@ -2,6 +2,58 @@
   "chapter": 25,
   "items": [
     {
+      "id": "ch25-pick-owner-after-thing",
+      "kind": "pick",
+      "anchor": "the-meaning-behind-a-and-o",
+      "title": "The owner after the thing: *a* or *o*?",
+      "intro": "The thing comes first, then the belonging word, then the owner. Choose the belonging word that fits the English.",
+      "data": {
+        "question": "Which belonging word?",
+        "options": [
+          {
+            "id": "a",
+            "sm": "a"
+          },
+          {
+            "id": "o",
+            "sm": "o"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "ʻO le leitio ___ le aliʻi.",
+            "en": "The radio of the chief.",
+            "answer": "a",
+            "why": "A chief buys a radio and puts it to use, a relationship he started and controls, so it joins to him with *a*."
+          },
+          {
+            "sm": "ʻO le fale ___ le tama.",
+            "en": "The house the boy built.",
+            "answer": "a",
+            "why": "Under *a*, the house is something the boy made by his own work."
+          },
+          {
+            "sm": "ʻO le fale ___ le tama.",
+            "en": "The boy's house (the house he lives in).",
+            "answer": "o",
+            "why": "Under *o*, the house is the place the boy lives in, not a thing he went out and got."
+          },
+          {
+            "sm": "le naifi ___ le fafine",
+            "en": "the woman's knife",
+            "answer": "a",
+            "why": "A knife is got and put to use, so it takes *a*."
+          },
+          {
+            "sm": "le ulu ___ le gata",
+            "en": "the snake's head",
+            "answer": "o",
+            "why": "A head is a part of the body, and parts of the body take *o*."
+          }
+        ]
+      }
+    },
+    {
       "id": "ch25-possessive-grid",
       "kind": "grid",
       "anchor": "the-four-sets-of-possessive-forms",
@@ -137,6 +189,58 @@
             "en": "wife",
             "bin": "a",
             "why": "A spouse is taken on rather than given by birth."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch25-pick-family-a-o",
+      "kind": "pick",
+      "anchor": "where-the-rule-runs-out",
+      "title": "Family words: *a* or *o*?",
+      "intro": "Each family word joins its owner with *a* or with *o*. Choose the one it takes.",
+      "data": {
+        "question": "Which belonging word?",
+        "options": [
+          {
+            "id": "a",
+            "sm": "a"
+          },
+          {
+            "id": "o",
+            "sm": "o"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "tamā",
+            "en": "father",
+            "answer": "o",
+            "why": "Family by birth is given, not set up by the owner, so a father takes *o*."
+          },
+          {
+            "sm": "fānau",
+            "en": "children",
+            "answer": "a",
+            "why": "One's children are in the *a* group, with what is mostly got, made, or taken on."
+          },
+          {
+            "sm": "āvā",
+            "en": "wife",
+            "answer": "a",
+            "why": "A spouse is in the *a* group: taken on, not given by birth."
+          },
+          {
+            "sm": "ʻO le tama ___ le fafine.",
+            "en": "The son of the woman.",
+            "answer": "a",
+            "why": "A mother's son is joined to her with *a*. Control does not explain it, and no reason for it is known: learn it as a fact."
+          },
+          {
+            "sm": "ʻO le tama ___ le tamāloa.",
+            "en": "The son of the man.",
+            "answer": "o",
+            "why": "A father's son is joined to him with *o*. It is the same person as the son of the woman, with the other belonging word."
           }
         ]
       }

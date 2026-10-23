@@ -197,6 +197,57 @@
         ]
       },
       "intro": "Use the chapter’s meaning for the whole word; a visible piece does not settle every meaning."
+    },
+    {
+      "id": "ch50-pick-one-another",
+      "kind": "pick",
+      "anchor": "the-prefix-fe",
+      "place": "end",
+      "title": "Each other, or to and fro",
+      "intro": "Read the English, then choose the built word that means it.",
+      "data": {
+        "question": "Which built word means this?",
+        "options": [
+          {
+            "id": "fealofani",
+            "sm": "fealofani"
+          },
+          {
+            "id": "femataai",
+            "sm": "femātaaʻi"
+          },
+          {
+            "id": "feiloai",
+            "sm": "feiloaʻi"
+          },
+          {
+            "id": "fealuai",
+            "sm": "fealuaʻi"
+          }
+        ],
+        "prompts": [
+          {
+            "en": "love one another",
+            "answer": "fealofani",
+            "why": "*Fealofani* is *alofa* (love) with *fe-* in front: the loving runs between the participants."
+          },
+          {
+            "en": "look at one another",
+            "answer": "femataai",
+            "why": "*Femātaaʻi* is built on *mata* (look), with *fe-* in front and the ending *-aʻi* behind."
+          },
+          {
+            "en": "meet",
+            "answer": "feiloai",
+            "why": "*Feiloaʻi* is the perceiving verb *ilo* with *fe-* in front and *-aʻi* behind, the word you already use for meeting somebody."
+          },
+          {
+            "en": "go quickly, hurry",
+            "answer": "fealuai",
+            "why": "*Fealuaʻi* is built on *alu* (go). On a verb of movement the same pattern means to and fro or quickly, not one another."
+          }
+        ]
+      }
     }
   ]
 }

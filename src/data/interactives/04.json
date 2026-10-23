@@ -89,6 +89,119 @@
           }
         ]
       }
+    },
+    {
+      "id": "ch4-pick-fill-the-word",
+      "kind": "pick",
+      "anchor": "words-to-learn",
+      "place": "end",
+      "title": "Fill the word",
+      "intro": "Read the English, then choose the word that completes the Sāmoan.",
+      "data": {
+        "question": "Which word completes the sentence?",
+        "prompts": [
+          {
+            "sm": "ʻUa ___.",
+            "en": "It has become cold.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "maʻalili"
+              },
+              {
+                "id": "b",
+                "sm": "vevela"
+              },
+              {
+                "id": "c",
+                "sm": "maʻi"
+              }
+            ],
+            "why": "*Maʻalili* is cold. *Vevela* would say it has become hot."
+          },
+          {
+            "sm": "ʻUa ʻou ___.",
+            "en": "I have become busy.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "pisi"
+              },
+              {
+                "id": "b",
+                "sm": "maʻi"
+              },
+              {
+                "id": "c",
+                "sm": "tāuaso"
+              }
+            ],
+            "why": "*Pisi* is busy. *Maʻi* is sick, and *tāuaso* is blind."
+          },
+          {
+            "sm": "Sā ia ___.",
+            "en": "She was blind.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "tāuaso"
+              },
+              {
+                "id": "b",
+                "sm": "vaʻai"
+              },
+              {
+                "id": "c",
+                "sm": "maʻi"
+              }
+            ],
+            "why": "*Tāuaso* is blind. *Vaʻai* is see, the new state in *ʻUa ia vaʻai*."
+          },
+          {
+            "sm": "ʻUa ia ___.",
+            "en": "Now she sees.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "vaʻai"
+              },
+              {
+                "id": "b",
+                "sm": "tāuaso"
+              },
+              {
+                "id": "c",
+                "sm": "pisi"
+              }
+            ],
+            "why": "*Vaʻai* is see; with *ʻua* it reports the change and the new state that holds now."
+          },
+          {
+            "sm": "Na ___.",
+            "en": "It began.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻāmata"
+              },
+              {
+                "id": "b",
+                "sm": "vevela"
+              },
+              {
+                "id": "c",
+                "sm": "vaʻai"
+              }
+            ],
+            "why": "The word for begin is *ʻāmata*, the kind of verb the second past *na* is typically met with."
+          }
+        ]
+      }
     }
   ]
 }

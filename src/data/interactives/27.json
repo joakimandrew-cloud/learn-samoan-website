@@ -98,6 +98,114 @@
         ]
       },
       "caption": "Switch between the printed sentences. Removing the doer adds no replacement word and makes no change to the verb."
+    },
+    {
+      "id": "ch27-pick-read-it-back",
+      "kind": "pick",
+      "anchor": "leaving-words-out",
+      "place": "end",
+      "title": "Read it back into English",
+      "intro": "Read the Sāmoan sentence, then choose the English that says what it says.",
+      "data": {
+        "question": "What does this sentence say?",
+        "prompts": [
+          {
+            "sm": "E tausi pepe e le fafine.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "label": "The woman takes care of the babies."
+              },
+              {
+                "id": "b",
+                "label": "The woman took care of the baby."
+              },
+              {
+                "id": "c",
+                "label": "The girl took care of the baby."
+              }
+            ],
+            "why": "The first *e* stands before the bare verb and states a habit; the second stands before *le fafine* and marks her as the doer."
+          },
+          {
+            "sm": "Na sāisai le moa.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "label": "The hen was tied up."
+              },
+              {
+                "id": "b",
+                "label": "The man tied up the hen."
+              },
+              {
+                "id": "c",
+                "label": "The hen was fed."
+              }
+            ],
+            "why": "No *e*-phrase, so no doer is named: the hen is the one the tying happened to. *Sāisai* is tie up, not feed."
+          },
+          {
+            "sm": "Sā ʻai e le teine le iʻa.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "label": "The girl ate (all of) the fish."
+              },
+              {
+                "id": "b",
+                "label": "The girl ate some fish."
+              },
+              {
+                "id": "c",
+                "label": "The fish was eaten."
+              }
+            ],
+            "why": "The agent marker is on the girl, so the fish is wholly used up. With the place word *ʻi* she would have eaten some of it."
+          },
+          {
+            "sm": "Sā sasa le teine.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "label": "The girl was hit."
+              },
+              {
+                "id": "b",
+                "label": "The girl went."
+              },
+              {
+                "id": "c",
+                "label": "He hit the boy."
+              }
+            ],
+            "why": "*Sasa* names something done to somebody, so the bare *le teine* is the one hit, and nobody is named as the hitter."
+          },
+          {
+            "sm": "Sā tatala e le tama.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "label": "The boy opened it."
+              },
+              {
+                "id": "b",
+                "label": "The box was opened."
+              },
+              {
+                "id": "c",
+                "label": "The girl opened the box."
+              }
+            ],
+            "why": "*E le tama* names the boy as the doer. What he opened is left out because it has already been named."
+          }
+        ]
+      }
     }
   ]
 }

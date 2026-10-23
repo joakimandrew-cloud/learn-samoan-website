@@ -123,6 +123,116 @@
           }
         ]
       }
+    },
+    {
+      "id": "ch6-pick-one-or-many",
+      "kind": "pick",
+      "anchor": "words-to-learn",
+      "title": "One or many?",
+      "intro": "Read the English, then choose the Sāmoan that says it. Watch the slot in front of the noun.",
+      "data": {
+        "question": "Which says this?",
+        "prompts": [
+          {
+            "en": "The girls were happy.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Sā fiafia teine."
+              },
+              {
+                "id": "b",
+                "sm": "Sā fiafia le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "No article stands in front of *teine*, and that empty slot is the plural. With *le* it is one girl."
+          },
+          {
+            "en": "the tree",
+            "options": [
+              {
+                "id": "a",
+                "sm": "le lāʻau"
+              },
+              {
+                "id": "b",
+                "sm": "lāʻau"
+              }
+            ],
+            "answer": "a",
+            "why": "*Le* marks one particular tree. The bare *lāʻau*, with no article, is the trees."
+          },
+          {
+            "en": "Bring some cups.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻAumai ni ipu."
+              },
+              {
+                "id": "b",
+                "sm": "ʻAumai se ipu."
+              }
+            ],
+            "answer": "a",
+            "why": "*Ni* is the non-specific article for more than one: some cups, however many."
+          },
+          {
+            "en": "Bring a cup.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻAumai se ipu."
+              },
+              {
+                "id": "b",
+                "sm": "ʻAumai ni ipu."
+              }
+            ],
+            "answer": "a",
+            "why": "*Se* is the non-specific article for one thing: a cup, whichever cup is nearest."
+          },
+          {
+            "en": "some girls",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ni teine"
+              },
+              {
+                "id": "b",
+                "sm": "teine"
+              },
+              {
+                "id": "c",
+                "sm": "se teine"
+              }
+            ],
+            "answer": "a",
+            "why": "Many and any ones at all takes *ni*. The bare *teine* is particular girls, and *se teine* is one girl."
+          },
+          {
+            "en": "the cup",
+            "options": [
+              {
+                "id": "a",
+                "sm": "le ipu"
+              },
+              {
+                "id": "b",
+                "sm": "se ipu"
+              },
+              {
+                "id": "c",
+                "sm": "ni ipu"
+              }
+            ],
+            "answer": "a",
+            "why": "One particular cup takes *le*. *Se* is any one cup, and *ni* is some cups, however many."
+          }
+        ]
+      }
     }
   ]
 }

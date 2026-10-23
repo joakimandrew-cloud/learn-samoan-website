@@ -29,6 +29,132 @@
       }
     },
     {
+      "id": "ch9-pick-first-meeting",
+      "kind": "pick",
+      "anchor": "thanks-and-asking-politely",
+      "title": "A first meeting, start to finish",
+      "intro": "Read the English, then choose the Sāmoan that says it: the greeting, who you are, thanks, and goodbye.",
+      "data": {
+        "question": "Which says this?",
+        "prompts": [
+          {
+            "en": "Hello.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Tālofa."
+              },
+              {
+                "id": "b",
+                "sm": "Tōfā soifua."
+              },
+              {
+                "id": "c",
+                "sm": "Faʻafetai."
+              }
+            ],
+            "answer": "a",
+            "why": "*Tālofa* opens an encounter, and the person greeted answers with *tālofa* in return."
+          },
+          {
+            "en": "Who are you?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO ai ʻoe?"
+              },
+              {
+                "id": "b",
+                "sm": "ʻO ai lenā?"
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le ā lenā?"
+              }
+            ],
+            "answer": "a",
+            "why": "*ʻO ai* asks after a person, and *ʻoe* is you. *Lenā* would make it who is that, and *ʻo le ā* asks what."
+          },
+          {
+            "en": "It is me.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO aʻu."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO ʻoe."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "The presenting word *ʻo* in front of *aʻu*, the independent form for I, says it is me."
+          },
+          {
+            "en": "I am a friend.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO aʻu ʻo se uō."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO ia ʻo se uō."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO se uō le tama."
+              }
+            ],
+            "answer": "a",
+            "why": "The person comes first, and both naming parts take *ʻo*: *ʻo aʻu*, then *ʻo se uō*."
+          },
+          {
+            "en": "Thank you.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Faʻafetai."
+              },
+              {
+                "id": "b",
+                "sm": "Faʻamolemole."
+              },
+              {
+                "id": "c",
+                "sm": "Tālofa."
+              }
+            ],
+            "answer": "a",
+            "why": "*Faʻafetai* is the thanks formula. *Faʻamolemole* is please."
+          },
+          {
+            "en": "Goodbye.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Tōfā soifua."
+              },
+              {
+                "id": "b",
+                "sm": "Tālofa."
+              },
+              {
+                "id": "c",
+                "sm": "Faʻamolemole."
+              }
+            ],
+            "answer": "a",
+            "why": "To close an encounter, Sāmoan pairs two words of well-being: *Tōfā soifua*."
+          }
+        ]
+      }
+    },
+    {
       "id": "ch9-careful-everyday",
       "kind": "grid",
       "anchor": "the-everyday-style",
