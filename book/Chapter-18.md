@@ -23,7 +23,7 @@ A time word changes nothing else. The verb keeps its shape, the doer keeps its
 place, and the tense particle stays at the front. Set a time word on the end and
 the sentence is anchored in time:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Na sau le tama ananafi.* | The boy came yesterday. |
 | *Na siva le teine anataeao.* | The girl danced this morning. |
@@ -73,7 +73,7 @@ end point the same way.
 
 The words for time gone by:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ananafi* | yesterday |
 | *anapō* | last night |
@@ -162,7 +162,7 @@ The base word behind two of them:
 4. *Na siva le teine analeilā.*
 5. *ʻOloʻo timu nei.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The boy bathed last night.
 2. The girl danced this morning.

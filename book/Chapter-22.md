@@ -1,6 +1,6 @@
 # Chapter 22: Numbers, Prices, and Time of Day
 
-This chapter teaches the counting construction: a Samoan number is a kind of
+This chapter teaches the counting construction: a Sāmoan number is a kind of
 verb, so the number of particular things is set after the noun with the general
 particle *e* (*tama e tolu*, three boys), and the same shape tells the clock
 hour. It also adds the way to count people and to put things in order.
@@ -21,7 +21,7 @@ number works the same way. Read these two sentences aloud:
 
 Compare them. Where does the number *tolu* stand?
 
-It stands exactly where *mālosi* stands, in the place a verb takes. A Samoan
+It stands exactly where *mālosi* stands, in the place a verb takes. A Sāmoan
 number is a kind of verb, and like the quality verb it takes the general
 particle *e* in front of it. *E tolu tama* says the boys are three, the way *E
 mālosi le tama* says the boy is strong. This is what makes counting fall into
@@ -30,7 +30,7 @@ place: you already know the machine, and the number rides it.
 Here are the numbers from one to ten. Five, *lima*, is the word you already know
 for "hand".
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *tasi* | one |
 | *lua* | two |
@@ -50,7 +50,7 @@ the noun with *e* in front of it. *Tama e tolu* is "the three boys", built as
 "boys that are three": the piece *e tolu* is a number acting as a verb, set in
 behind the noun to describe it.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ipu e lua* | the two cups |
 | *tama e tolu* | the three boys |
@@ -118,7 +118,7 @@ counted with the plain number, as in *teine e fā*, "the four girls". With peopl
 though, the prefix is the careful form, and everyday speech often leaves it off.
 The number itself does not change; only the prefix is added.
 
-> **Preview:** Samoan also has number forms that mean "so many each", the shape
+> **Preview:** Sāmoan also has number forms that mean "so many each", the shape
 > that spreads a number over each thing or each person in a group, as in "five
 > each" or "each day". They are made by a piece added to the front of the number,
 > introduced in a later chapter and completed in Chapter 50. This chapter counts
@@ -133,21 +133,21 @@ what hour it is, name the hour and count it: *ʻi le itūlā e tolu*, "at three
 o'clock", is "at the hour that is three", the same *e* and the same number you
 have been using all along.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻi le itūlā e tolu* | at three o'clock |
 | *ʻi le itūlā e lima* | at five o'clock |
 | *ʻi le itūlā e iva* | at nine o'clock |
 
-For the hours past ten, Samoan counts on. Eleven is "ten and one" and twelve is
+For the hours past ten, Sāmoan counts on. Eleven is "ten and one" and twelve is
 "ten and two", joined by the with-word *ma* you met earlier in this book. So
 eleven is *sefulu ma le tasi*, and twelve is *sefulu ma le lua*. That joined form
 is the literary one, and it is the form inside the clock phrase this chapter
-follows. Samoan also counts the teens by setting the two numbers side by side
+follows. Sāmoan also counts the teens by setting the two numbers side by side
 with no joining word, and today that shorter form is the ordinary one in speech
 and in writing.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻi le itūlā e sefulu ma le tasi* | at eleven o'clock |
 | *ʻi le itūlā e sefulu ma le lua* | at twelve o'clock |
@@ -166,12 +166,12 @@ and forms like "half past" and "quarter to", are beyond what this chapter teache
 
 ## Putting Things in Order
 
-Samoan has no separate number-words for putting things in order the way English's
+Sāmoan has no separate number-words for putting things in order the way English's
 second, third, and fourth run. It builds an order out of the plain numbers
 instead. Put the word *lona* after the noun, then the number: *le fale lona lua*
 is "the second house", built as "the house, its two".
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le fale lona lua* | the second house |
 | *le aso lona tolu* | the third day |
@@ -183,7 +183,7 @@ turns a plain number into a place in an order.
 "First" and "last" have words of their own. *Muamua* means "first" and *mulimuli*
 means "last", each placed after the noun like a describing word:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le tama muamua* | the first boy |
 | *le aso mulimuli* | the last day |
@@ -239,7 +239,7 @@ their place changes.
 4. *le fale lona lua*
 5. *ʻi le itūlā e lima*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. the four girls
 2. the two girls, counted as people
@@ -260,7 +260,7 @@ things.
 
 ### Exercise 4: Tell the time
 
-Write the Samoan for each clock hour. Remember that inside the clock phrase this
+Write the Sāmoan for each clock hour. Remember that inside the clock phrase this
 chapter follows, eleven and twelve are counted as "ten and one" and "ten and
 two".
 

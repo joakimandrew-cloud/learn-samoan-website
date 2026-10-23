@@ -16,15 +16,15 @@ earlier in this book.
 *ʻO le naifi a le fafine.* The woman's knife. (Lit. "the knife of the woman")
 :::
 
-To join a thing to the person it belongs to, Samoan puts the thing first, then
+To join a thing to the person it belongs to, Sāmoan puts the thing first, then
 a belonging word, then the owner, and the owner keeps its own article. In
 *ʻo le fale o le aliʻi* (the house of the chief), the owner *aliʻi* (chief)
 follows the thing. English can run the same way, "the knife of the woman", or it
 can put the owner first with an apostrophe, "the woman's knife"; with a full-noun
-owner, Samoan keeps the thing first.
+owner, Sāmoan keeps the thing first.
 
 The belonging word is *o* in the first phrase and *a* in the second, and the
-choice is not free. Samoan sorts belonging into two types, and the rough sense of
+choice is not free. Sāmoan sorts belonging into two types, and the rough sense of
 the split runs like this. Things a person gets, makes, or uses tend to be
 *a*-words: *naifi* (knife), *taʻavale* (car), and *ipu* (cup) are acquired and
 put to use. Things that are part of a person, or are theirs by nature or by where
@@ -33,12 +33,12 @@ foot) are parts of the body, not things a person acquires. Read that as an
 orientation rather than a test you can run on a new word, and learn each word's
 type as you meet it.
 English marks belonging with one set of words, "my", "your", "of", and never
-asks which type of belonging you mean. Samoan asks every time.
+asks which type of belonging you mean. Sāmoan asks every time.
 
 The table below sets the two types side by side. In some rows the owner is a
 person or a creature, such as *gata* (snake):
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le ulu o le tama* | the head of the boy |
 | *le vae o le tama* | the leg of the boy |
@@ -87,7 +87,7 @@ can say something you did not mean.
 :::
 
 When the owner is not a full noun but a single person, my, your, his or her,
-Samoan does not use a separate word for the owner in the phrases you build here.
+Sāmoan does not use a separate word for the owner in the phrases you build here.
 Instead the belonging word and the person fold together with the article into
 one written word.
 *ʻo laʻu taʻavale* is "my car": the one word *laʻu* carries the article, the
@@ -106,7 +106,7 @@ for the *o*-words, and they are chosen exactly as *a* and *o* are chosen.
 Because a knife is an *a*-word, "my knife" is *laʻu naifi*. Because a head is an
 *o*-word, "my head" is *loʻu ulu*. The thing decides the form:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *laʻu naifi* | my knife |
 | *loʻu ulu* | my head |
@@ -125,7 +125,7 @@ into the naming sentence exactly as it did before:
 > *Note:* The belonging word *o* has no ʻ mark. It is not the presenting
 > particle *ʻo* that opens a naming part. Position keeps them apart as well: the
 > presenting *ʻo* stands at the front of a naming part, while the belonging *o*
-> sits between a thing and its owner. In real Samoan print, where the ʻ mark is
+> sits between a thing and its owner. In real Sāmoan print, where the ʻ mark is
 > often dropped, position is the surest guide.
 
 ---
@@ -193,7 +193,7 @@ like any other naming part:
 4. *lona ulu*
 5. *ʻo le fale o le aliʻi*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. my knife
 2. the boy's leg

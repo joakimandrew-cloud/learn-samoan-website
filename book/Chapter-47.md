@@ -220,7 +220,7 @@ the noun system: a group word is the kind of noun that behaves this way.
 ::: {.examples}
 *Alu iā Ulika.* Go to Ulika.
 
-*Alu ʻi Sāmoa.* Go to Samoa.
+*Alu ʻi Sāmoa.* Go to Sāmoa.
 :::
 
 Names are the one kind of noun that changes the place word in front of them.
@@ -229,9 +229,9 @@ name of a place, it stays *ʻi*. What selects *iā* is that the name refers to
 people:
 
 ::: {.examples}
-*ʻi Sāmoa*. in Samoa
+*ʻi Sāmoa*. in Sāmoa
 
-*iā Sāmoa*. among the Samoans
+*iā Sāmoa*. among the Sāmoans
 :::
 
 When *Sāmoa* names the place, it takes *ʻi*. When it names the people who live
@@ -245,8 +245,8 @@ used for its people can also take an article, the way an ordinary noun does.
 | *iā* | a name that refers to a person or a people |
 | *ʻi* | a name that refers to a place, or an ordinary noun |
 
-> *Note:* In the Samoan of the Bible, and now and then in modern writing, *iā*
-> also appears before the names of months. Everyday modern Samoan uses *ʻi*
+> *Note:* In the Sāmoan of the Bible, and now and then in modern writing, *iā*
+> also appears before the names of months. Everyday modern Sāmoan uses *ʻi*
 > there.
 
 ---
@@ -318,14 +318,14 @@ change. Then say which word changed shape, if any did.
 
 ### Exercise 4: Choose *ʻi* or *iā*
 
-Fill the gap so that the Samoan matches the English.
+Fill the gap so that the Sāmoan matches the English.
 
 1. *Alu \_\_\_ Ulika.* (Go to Ulika.)
-2. *Alu \_\_\_ Sāmoa.* (Go to Samoa.)
-3. *\_\_\_ Sāmoa* (among the Samoans)
-4. *\_\_\_ Sāmoa* (in Samoa)
+2. *Alu \_\_\_ Sāmoa.* (Go to Sāmoa.)
+3. *\_\_\_ Sāmoa* (among the Sāmoans)
+4. *\_\_\_ Sāmoa* (in Sāmoa)
 5. *E alofa le tama \_\_\_ le teine.* (The boy loves the girl.)
-6. *Sā nonofo \_\_\_ Sāmoa.* (They lived in Samoa.) (Lit. "Past live in Samoa.")
+6. *Sā nonofo \_\_\_ Sāmoa.* (They lived in Sāmoa.) (Lit. "Past live in Sāmoa.")
 
 ### Exercise 5: Name the kind of noun
 
@@ -337,7 +337,7 @@ Fill the gap so that the Samoan matches the English.
 6. *tama*
 7. *ulugāliʻi*
 
-### Exercise 6: Translate into Samoan
+### Exercise 6: Translate into Sāmoan
 
 1. The boy loves his friend.
 2. I have become an old woman.
@@ -426,7 +426,7 @@ Fill the gap so that the Samoan matches the English.
 
 1. It stands straight after the general particle *e*, in the verb slot.
 2. No. *Uō* has no fixed class of its own; the verb slot makes it a verb in this sentence, and a noun slot makes it a noun in another.
-3. In *iā Sāmoa* the name refers to the people who live in Samoa; in *ʻi Sāmoa* it refers to the place.
+3. In *iā Sāmoa* the name refers to the people who live in Sāmoa; in *ʻi Sāmoa* it refers to the place.
 4. *ʻĀiga* is a group word: singular in shape, but it names many people, so the verb often takes its plural form.
 5. They all name a person's age or married life.
 

@@ -122,5 +122,12 @@ node scripts/check-interactives.mjs 7      # the gate for one chapter
 npx vitest run test/interactives.test.js   # gate plus placement
 ```
 
+Every `pick`, `order`, `match`, `sort` and `type` item is also a drill at
+`/drill/<id>` and must be listed once in
+`src/premium/data/drills-catalog.json` (the gate fails if it is in no group).
+Pick a group by the skill it drills; the card text is derived from the item,
+so there is nothing else to write. `node scripts/check-interactives.mjs
+--drills` checks the catalogue and the Daily words deck on their own.
+
 Then open the chapter in the dev server (`npm run dev`, then
 `/chapters/7`) and use every item at desktop and phone width.

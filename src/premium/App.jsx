@@ -14,6 +14,8 @@ const Quizzes = lazy(() => import('./pages/Quizzes.jsx'))
 const Cards = lazy(() => import('./pages/Cards.jsx'))
 const Dictionary = lazy(() => import('./pages/Dictionary.jsx'))
 const Reference = lazy(() => import('./pages/Reference.jsx'))
+const Drills = lazy(() => import('./pages/Drills.jsx'))
+const Drill = lazy(() => import('./pages/Drill.jsx'))
 const BookPage = lazy(() => import('./pages/BookPage.jsx'))
 // The widget lab exists only in development builds.
 const Lab = import.meta.env.DEV ? lazy(() => import('./pages/Lab.jsx')) : null
@@ -88,7 +90,7 @@ function Page({ children }) {
 export default function App() {
   const loc = useLocation()
   const reading = /^\/(chapters\/\d+|introduction|pronunciation|charts)/.test(loc.pathname)
-  const focus = /^\/quizzes\//.test(loc.pathname) || loc.pathname === '/cards'
+  const focus = /^\/quizzes\//.test(loc.pathname) || loc.pathname === '/cards' || /^\/drill\//.test(loc.pathname)
 
   return (
     <>
@@ -104,6 +106,8 @@ export default function App() {
           <Route path="/quizzes" element={<Page><Quizzes /></Page>} />
           <Route path="/quizzes/:num" element={<Page><Quiz /></Page>} />
           <Route path="/cards" element={<Page><Cards /></Page>} />
+          <Route path="/drills" element={<Page><Drills /></Page>} />
+          <Route path="/drill/:id" element={<Page><Drill /></Page>} />
           <Route path="/glossary" element={<Page><Dictionary /></Page>} />
           <Route path="/reference" element={<Page><Reference /></Page>} />
           <Route path="/introduction" element={<Page><BookPage page="introduction" /></Page>} />

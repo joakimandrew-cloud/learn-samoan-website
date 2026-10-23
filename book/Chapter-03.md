@@ -28,7 +28,7 @@ and the action verb *foʻi* still leads the pair. The describing word follows
 it.
 
 In English, words like "happy" and "strong" are adjectives, a separate kind of
-word from verbs. In Samoan, the words that describe an action are themselves
+word from verbs. In Sāmoan, the words that describe an action are themselves
 verbs, the same kind of word as *alu* and *foʻi*. So *fiafia* (happy) is a verb,
 and when it follows another verb it does a describing job: it says how the
 action was done.
@@ -36,7 +36,7 @@ action was done.
 The pattern has the action verb first and the describing verb second, both inside
 the frame you know:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou foʻi fiafia.* | I returned happily. |
 | *Sā ia siva fiafia.* | She danced happily. |
@@ -76,7 +76,7 @@ the verb. The describing verb of the last section came after the action; *fia*
 comes before it. The same order holds for every verb taught so far, down to
 *fesili* (ask) in the last row:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou fia alu.* | I wanted to go. |
 | *Sā ia fia siva.* | She wanted to dance. |
@@ -85,7 +85,7 @@ comes before it. The same order holds for every verb taught so far, down to
 | *Sā ʻou fia fesili.* | I wanted to ask. |
 
 > **Preview:** With the past particle *sā*, *fia* says "wanted". To say "want" as
-> something felt right now, in the present, Samoan sets a different particle in
+> something felt right now, in the present, Sāmoan sets a different particle in
 > front of the sentence. You meet it in Chapter 13. Until then, every *fia*
 > sentence you build is about what someone wanted. The same short word does a
 > second job elsewhere, asking "how many", and that use waits until Chapter 22.
@@ -135,7 +135,7 @@ means "almost", so meet it here as "reach" and expect the others in time.
 4. *Sā ʻe eva fiafia.*
 5. *Sā ʻe fia foʻi.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. I returned happily.
 2. She wanted to dance.

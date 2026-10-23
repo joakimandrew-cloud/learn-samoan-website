@@ -15,7 +15,7 @@ const NON_SAMOAN_LETTER = /[bcdjqwxyz]/i
 
 export function looksSamoan(text) {
   if (typeof text !== 'string' || !text.trim()) return false
-  if (/\b(?:Samoan|Grammar)\b/i.test(text)) return false
+  if (/(?:^|[^\p{L}])(?:Samoan|Sāmoan|Grammar)(?![\p{L}])/iu.test(text)) return false
   if (NON_SAMOAN_LETTER.test(text)) return false
   return /[a-zāēīōūʻ]/i.test(text)
 }

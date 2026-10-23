@@ -2,7 +2,7 @@
 
 This chapter completes the time-expression system with the since-word *talu* and
 the clause that follows it, the when-word *ina ʻua*, the le-phrase set at the
-head of a sentence as a way to set the time in a story, and the ways Samoan
+head of a sentence as a way to set the time in a story, and the ways Sāmoan
 says how often. It shows you how to place a whole episode in time, from
 *talu ona ʻou sau* (since I came) to *ʻi taeao o aso taʻi=tasi* (every morning).
 
@@ -37,7 +37,7 @@ slot in front of *ʻou sau*, exactly as nothing stands in front of the clause
 after *ona* in the can-and-must pattern. *Talu* carries the time for both
 halves, and you will mostly meet the clause bare like this.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Talu ona ʻou sau ʻou te leʻi maua se mea lelei.* | Since I came, I have not got anything good. |
 | *Talu ona ʻou sau ʻou te leʻi maua se mea fou.* | Since I came, I have not got anything new. |
@@ -66,7 +66,7 @@ The counting phrase comes first, *ʻo lona tolu o aso*, the third day; then
 *talu ona* and its clause say what the counting started from; then the main
 clause says what happened.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Talu ona ʻou sau ʻou te leʻi maua se mea lelei.* | Since I came, I have not got anything good. |
 | *ʻOu te leʻi maua se mea lelei talu ona ʻou sau.* | I have not got anything good since I came. |
@@ -85,7 +85,7 @@ a point already fixed. After a word for a stretch of time it gives the English
 "last" or "later". Every phrase in this chapter gives "last": the month since
 then is last month.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻi le māsina talu ai* | last month (Lit. "in the month since then") |
 | *ʻi le vaiaso talu ai* | last week (Lit. "in the week since then") |
@@ -118,7 +118,7 @@ clause. Like a since-clause, it may open the sentence or follow the main clause.
 One more new word rides in the table below, *ʻenaʻena* (brown), standing behind
 the noun it describes.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Ina ʻua malama le taeao, sā sau le pasi ʻenaʻena.* | When the morning broke, the brown bus came. |
 | *Ina ʻua malama le taeao, sā alu le teine ʻi le maʻumaga.* | When the morning broke, the girl went to the taro patch. |
@@ -137,7 +137,7 @@ The phrase at the front is a le-phrase, an event packed into a thing, taught
 earlier in this book, and the presenting particle *ʻo* stands in front of it.
 Set there, at the head of everything else, it does not name a participant. It
 sets the time the rest of the sentence runs against, and that is one way a
-Samoan story sets its time. Two new words are inside it, *vivini* (crow, of a
+Sāmoan story sets its time. Two new words are inside it, *vivini* (crow, of a
 rooster) and *faiva* (fishing trip). The phrase also names whose crowing it is,
 *a moa*; how a le-phrase marks the one who does the event follows a rule of its
 own, taught in a later chapter, so here the phrase is taken whole as it stands.
@@ -282,7 +282,7 @@ Put *talu*, *ina ʻua*, or *talu ai* into each gap so the English matches.
 4. *\_\_\_ sau le teine, sā fiafia le tama.* (When the girl came, the boy was happy.)
 5. *\_\_\_ ona ʻou alu ʻou te leʻi maua se uō lelei.* (Since I left, I have not got a good friend.)
 
-### Exercise 4: Translate into Samoan
+### Exercise 4: Translate into Sāmoan
 
 1. Since I came, I have not got anything new.
 2. last year

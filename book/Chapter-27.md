@@ -2,7 +2,7 @@
 
 This chapter adds the agent marker *e*, the word that sets apart the doer in a
 sentence with two participants, and shows you how to say who did what to whom.
-It also teaches what Samoan does in place of an English passive, which is to
+It also teaches what Sāmoan does in place of an English passive, which is to
 leave the doer out and put nothing where it stood.
 
 ---
@@ -27,7 +27,7 @@ The pattern of this chapter has three parts in this order: the tense
 particle with its verb, then the doer with *e* in front of it, then the one
 the action happened to.
 
-| Samoan | What it is | English |
+| Sāmoan | What it is | English |
 |---|---|---|
 | *Sā fafaga* | the tense particle and the verb | fed |
 | *e le tama* | the doer, marked with *e* | the boy |
@@ -35,7 +35,7 @@ the action happened to.
 
 The same three slots carry any verb of this kind:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā fafaga e le tama le moa.* | The boy fed the hen. |
 | *Na fasi e le tama le gata.* | The boy killed the snake. |
@@ -173,11 +173,11 @@ The same subtraction works on every verb of this kind:
 
 Read down the right-hand column and nothing has been added to any of them.
 
-### Samoan Has No Passive
+### Sāmoan Has No Passive
 
 An English sentence of this kind can be built two ways, "the girl opened the
 box" and "the box was opened", and getting from the first to the second moves
-words about and changes the verb. Samoan uses one clause and the verb keeps the
+words about and changes the verb. Sāmoan uses one clause and the verb keeps the
 shape it already had, and dropping the *e*-phrase does the whole job on its own.
 There is no passive here to look for.
 
@@ -195,9 +195,9 @@ subject slot:
 :::
 
 Nobody at all is named as the eater. The English above puts "I" in that slot,
-while Samoan puts nothing there and the sentence is complete. Where English
+while Sāmoan puts nothing there and the sentence is complete. Where English
 reaches for "one", as in "one does not do that", or
-for the "they" of nobody in particular, Samoan leaves the doer out in the same
+for the "they" of nobody in particular, Sāmoan leaves the doer out in the same
 way.
 
 ### When the Sentence Can Go Two Ways
@@ -209,7 +209,7 @@ out a sentence built on one of them is genuinely open:
 *Sā ʻai le iʻa.* The fish ate. / The fish was eaten.
 :::
 
-Both readings are correct Samoan, and the words give no clue which one is
+Both readings are correct Sāmoan, and the words give no clue which one is
 meant. What settles it is the talk around the sentence, so expect this, and
 take the surrounding context as part of what you are reading.
 
@@ -334,7 +334,7 @@ The nouns:
 5. *ʻUa sua le maʻumaga e puaʻa.*
 6. *Sā ia sasa le tama.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The girl fed the hen.
 2. The boy ate the fish.
@@ -373,7 +373,7 @@ Rewrite each sentence with the doer given in brackets, marked with *e*.
 
 ### Exercise 5: Choose *e* or *ʻi*
 
-Put the agent marker *e* or the place word *ʻi* in the gap, so that the Samoan
+Put the agent marker *e* or the place word *ʻi* in the gap, so that the Sāmoan
 says what the English says.
 
 1. *Sā ʻai ___ le teine le iʻa.* (The girl ate the whole fish.)
@@ -385,7 +385,7 @@ says what the English says.
 
 ### Exercise 6: Name the doer
 
-Write the Samoan words that name the doer. If the sentence names none, say so.
+Write the Sāmoan words that name the doer. If the sentence names none, say so.
 
 1. *Sā fafaga le moa e le tama.*
 2. *Na fasi e le tama le gata.*

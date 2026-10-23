@@ -30,7 +30,7 @@ its own, and *ma* joins them all the same.
 *Sā timu ma sā nofo le teine ʻi le ana.* It rained and the girl stayed in the cave.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻUa ala le tama ma ʻua usu le teine.* | The boy has woken and the girl has stood up. |
 | *Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.* | The bus arrived and the girl went to the school. |
@@ -66,14 +66,14 @@ The second clause here is *ʻou māfaufau*, a preverbal pronoun and a verb with 
 empty slot in front of them. Set it beside the version that fills the slot and
 you have the two shapes side by side.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻUa ʻou nofo ma ʻua ʻou māfaufau.* | I sat down and I thought. |
 | *ʻUa ʻou nofo ma ʻou māfaufau.* | I sat down and thought. |
 | *Sā timu ma sā lolo le vai.* | It rained and the water overflowed. |
 | *Sā timu ma lolo le vai.* | It rained and the water overflowed. |
 
-Both shapes are good Samoan, and as far as the grammar can tell the choice
+Both shapes are good Sāmoan, and as far as the grammar can tell the choice
 between them is one of style rather than of meaning.
 
 > *Note:* The matching does not reach every clause after *ma*. When the word
@@ -90,7 +90,7 @@ between them is one of style rather than of meaning.
 :::
 
 A word that sets one clause against another is called **the but-word**, and the
-Samoan one is *ʻae*. It stands at the head of the second clause and joins it to
+Sāmoan one is *ʻae*. It stands at the head of the second clause and joins it to
 the first, and the two clauses are then heard as a contrast, one set against the
 other.
 
@@ -102,7 +102,7 @@ two joined clauses and never the first.
 *Sā ʻou nofo ʻae sā alu le teine.* I stayed but the girl went.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻUa ala le tama ʻae ʻoloʻo moe le teine.* | The boy has woken but the girl is sleeping. |
 | *ʻUa ala le teine ʻae ʻoloʻo moe le tama.* | The girl has woken but the boy is sleeping. |
@@ -135,7 +135,7 @@ head of either clause, so a sentence may open on it or reach it halfway through.
 *Na usu le tama ʻaʻo moe le teine.* The boy stood up while the girl slept.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻAʻo ʻou alu atu ʻi le āʻoga, sā ʻou mānatunatu ʻi le teine.* | While I was going to the school, I was thinking of the girl. |
 | *Na usu le tama ʻaʻo moe le teine.* | The boy stood up while the girl slept. |
@@ -160,7 +160,7 @@ The pattern has four parts in a fixed order: the first clause, then *ʻaʻo* or
 *ʻae*, then *leʻi*, then the clause naming what had not yet happened. Either
 combination does the work, and the two mean the same thing.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.* | The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.") |
 | *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.* | The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.") |
@@ -176,7 +176,7 @@ and *leʻi*.
 :::
 
 > **Preview:** A tense particle left out after *ma* is the first step toward
-> something Samoan does at length: a run of clauses that all sit under the one
+> something Sāmoan does at length: a run of clauses that all sit under the one
 > particle standing at the front of the first. Those chains are taught in
 > Chapter 37.
 
@@ -265,7 +265,7 @@ becomes *ʻae leʻi* and *ʻae leʻi* becomes *ʻaʻo leʻi*.
 4. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le fitu.*
 5. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le valu.*
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. It rained and the water overflowed.
 2. The girl has woken but the boy is sleeping.

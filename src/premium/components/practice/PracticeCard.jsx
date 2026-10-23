@@ -34,7 +34,7 @@ export default function PracticeCard({ word, flipped, onFlip, onSwipe, front, de
   const count = meaning?.count
   const markOf = () => meaning ? <><span className="visually-hidden">, has {count} meanings in this course</span><span className="fc-meanings" aria-hidden="true">{count} meanings</span></> : null
   const alsoOf = (apart) => meaning?.also?.length ? <span className={`fc-also${apart ? ' is-apart' : ''}`}>also means: <Md text={meaning.also.join(' · ')} /></span> : null
-  const samoan = <><T className={`fc-to ${cardTextSize(word.to)}`.trim()}>{word.to}</T>{markOf()}<span className="fc-sub">Samoan</span></>
+  const samoan = <><T className={`fc-to ${cardTextSize(word.to)}`.trim()}>{word.to}</T>{markOf()}<span className="fc-sub">Sāmoan</span></>
   const english = <><span className={`fc-en ${cardTextSize(word.en)}`.trim()}><Md text={word.en} /></span><span className="fc-type"><Md text={word.type} /></span></>
 
   return (

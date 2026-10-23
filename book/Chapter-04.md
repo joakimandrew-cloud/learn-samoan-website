@@ -25,7 +25,7 @@ That first slot holds a tense particle, and this chapter fills it four ways: the
 two pasts *sā* and *na*, the change particle *ʻua*, and the future *ʻoleʻā*. Here
 is one sentence run across all four:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou alu.* | I went. |
 | *Na ʻou alu.* | I went. |
@@ -39,7 +39,7 @@ difference between them is the first thing to learn.
 
 ## The Two Pasts
 
-Samoan has two past particles, and every past sentence chooses between them.
+Sāmoan has two past particles, and every past sentence chooses between them.
 Here is the same verb with each particle:
 
 ::: {.examples}
@@ -68,7 +68,7 @@ exclusively, met with verbs that name a beginning or an end, like *ʻāmata*
 *Na ʻāmata.* It began. (Lit. "past begin")
 :::
 
-> *Note:* Nothing in the Samoan names what began; the "it" belongs to the
+> *Note:* Nothing in the Sāmoan names what began; the "it" belongs to the
 > English. A doer can be left unsaid like this when what has already been said
 > lets your listener work out who or what is meant. That is not the same as the
 > weather sentences met earlier, where there is no doer to name at all.
@@ -76,7 +76,7 @@ exclusively, met with verbs that name a beginning or an end, like *ʻāmata*
 *Sā* is the past of how things were, the states and habits that held over a
 stretch of time:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou maʻi.* | I was sick. |
 | *Sā mātou fiafia.* | We were happy. |
@@ -102,7 +102,7 @@ reports that a new state is usually in place now. *ʻUa vevela* does not
 say it was hot once; it says the weather has turned, and hot is how it is
 now. Use *ʻua* whenever something has changed and the new state still stands:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻUa vevela.* | It has become hot. |
 | *ʻUa maʻalili.* | It has become cold. |
@@ -123,7 +123,7 @@ state that holds now:
 :::
 
 The first sentence, with *sā*, reports a past state that is over. The second,
-with *ʻua*, reports the change and the new state that holds now. Samoan keeps
+with *ʻua*, reports the change and the new state that holds now. Sāmoan keeps
 the two moments apart where English can let them blur.
 
 > **Preview:** These four are the everyday tense particles, the ones that fix an
@@ -143,7 +143,7 @@ The fourth word for the first slot, *ʻoleʻā*, places the event ahead of now. 
 marks something expected to happen, usually quite soon. It fills the slot exactly
 as the others do:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻOleʻā ʻou alu.* | I will go. |
 | *ʻOleʻā ia sau.* | She will come. |
@@ -180,7 +180,7 @@ in:
 | *pisi* | busy |
 
 **Words to carry** (learned now, used fully later in this book): *fai* is one
-of the most common verbs in Samoan, covering "do", "make", "say", and
+of the most common verbs in Sāmoan, covering "do", "make", "say", and
 "tell", but it leans on words for the thing done or said, which come later
 in this book.
 
@@ -200,7 +200,7 @@ in this book.
 4. *Sā ʻou maʻi.*
 5. *ʻUa ʻou pisi.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. I will go.
 2. It has become cold.
@@ -222,7 +222,7 @@ of the event.
 ### Exercise 4: Rewrite with *ʻua*
 
 Each line reports a state that has just set
-in. Write the Samoan sentence with the change particle.
+in. Write the Sāmoan sentence with the change particle.
 
 1. It is hot now.
 2. I am busy now.

@@ -32,11 +32,11 @@ remains is the bare verb, and the bare verb is the command. A command carries
 no tense particle, and a bare command names no doer.
 
 In a bare command there is no word for the person you are speaking to. A command
-is aimed at whoever is listening, so Samoan leaves that person unsaid; the verb
+is aimed at whoever is listening, so Sāmoan leaves that person unsaid; the verb
 by itself already means "you, do this". The pattern of this chapter has one
 part: the verb, with nothing in front of it.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Nofo.* | Sit down. |
 | *Faʻatali.* | Wait. |
@@ -60,7 +60,7 @@ Every command here speaks to one person.
 A command tells someone what to do. Telling someone what not to do is a separate
 pattern, because the words that negate a statement do not attach to a command.
 
-> **Preview:** To tell someone not to do something (a prohibition), Samoan uses
+> **Preview:** To tell someone not to do something (a prohibition), Sāmoan uses
 > its own do-not verbs rather than adding a negative word to the command. That
 > pattern is taught in Chapter 24.
 
@@ -83,7 +83,7 @@ word sits after the verb in a command, the same position it takes in a statement
 
 ## The Urging Words *Ia* and *ʻEa*
 
-Samoan often adds an urging word to the end of a command, giving it warmth or a
+Sāmoan often adds an urging word to the end of a command, giving it warmth or a
 push. The word *ia* attaches to commands almost to the exclusion of anything
 else:
 
@@ -141,7 +141,7 @@ force or friendliness; the command is complete without them.
 4. *ʻAumai.*
 5. *Fesoasoani.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 Make a command for one person.
 

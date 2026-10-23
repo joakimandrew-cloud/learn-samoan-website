@@ -43,7 +43,7 @@
     {
       "id": "ch1-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -224,7 +224,7 @@
     {
       "id": "ch2-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -265,7 +265,7 @@
       "id": "ch2-ex3",
       "number": 3,
       "title": "Fill the middle slot",
-      "instructions": "Put the right people-word into the gap so the Samoan matches the English.",
+      "instructions": "Put the right people-word into the gap so the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -377,25 +377,25 @@
         {
           "id": "ch2-ex5-1",
           "n": 1,
-          "prompt": "Give the Samoan: It is me.",
+          "prompt": "Give the Sāmoan: It is me.",
           "answer": "*ʻO aʻu.*"
         },
         {
           "id": "ch2-ex5-2",
           "n": 2,
-          "prompt": "Give the Samoan: It is you.",
+          "prompt": "Give the Sāmoan: It is you.",
           "answer": "*ʻO ʻoe.*"
         },
         {
           "id": "ch2-ex5-3",
           "n": 3,
-          "prompt": "Give the Samoan: towards me.",
+          "prompt": "Give the Sāmoan: towards me.",
           "answer": "*ʻia te aʻu*"
         },
         {
           "id": "ch2-ex5-4",
           "n": 4,
-          "prompt": "Give the Samoan: towards you.",
+          "prompt": "Give the Sāmoan: towards you.",
           "answer": "*ʻia te ʻoe*"
         },
         {
@@ -451,7 +451,7 @@
     {
       "id": "ch3-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -641,7 +641,7 @@
     {
       "id": "ch4-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -747,7 +747,7 @@
       "id": "ch4-ex4",
       "number": 4,
       "title": "Rewrite with *ʻua*",
-      "instructions": "Each line reports a state that has just set in. Write the Samoan sentence with the change particle.",
+      "instructions": "Each line reports a state that has just set in. Write the Sāmoan sentence with the change particle.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -868,7 +868,7 @@
     {
       "id": "ch5-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "Make a command for one person.",
       "placement": "exercises",
       "type": "reveal",
@@ -1053,7 +1053,7 @@
     {
       "id": "ch6-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -1122,7 +1122,7 @@
       "id": "ch6-ex4",
       "number": 4,
       "title": "Choose *le* or *se*",
-      "instructions": "Put *le* or *se* in the gap so the Samoan matches the English.",
+      "instructions": "Put *le* or *se* in the gap so the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -1240,7 +1240,7 @@
     {
       "id": "ch7-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -1309,7 +1309,7 @@
       "id": "ch7-ex4",
       "number": 4,
       "title": "Add the presenting particle",
-      "instructions": "Put *ʻo* where it belongs so the Samoan matches the English. Some sentences need it once, one needs it twice.",
+      "instructions": "Put *ʻo* where it belongs so the Sāmoan matches the English. Some sentences need it once, one needs it twice.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -1337,7 +1337,7 @@
       "id": "ch7-ex5",
       "number": 5,
       "title": "Choose *le* or *se*",
-      "instructions": "Put *le* or *se* into the naming part so the Samoan matches the English.",
+      "instructions": "Put *le* or *se* into the naming part so the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -1421,7 +1421,7 @@
     {
       "id": "ch8-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -1647,7 +1647,7 @@
     {
       "id": "ch9-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -1688,7 +1688,7 @@
       "id": "ch9-ex3",
       "number": 3,
       "title": "Choose the formula",
-      "instructions": "Write the Samoan formula that fits each situation.",
+      "instructions": "Write the Sāmoan formula that fits each situation.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -1859,7 +1859,7 @@
     {
       "id": "ch10-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -2086,7 +2086,7 @@
     {
       "id": "ch11-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -2226,7 +2226,7 @@
       "id": "ch11-ex5",
       "number": 5,
       "title": "Match the place word to its English",
-      "instructions": "Each Samoan sentence uses *ʻi*. Say whether *ʻi* lands in English as \"in\", \"to\", or \"into\", and translate the sentence.",
+      "instructions": "Each Sāmoan sentence uses *ʻi*. Say whether *ʻi* lands in English as \"in\", \"to\", or \"into\", and translate the sentence.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -2295,7 +2295,7 @@
     {
       "id": "ch12-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -2522,7 +2522,7 @@
     {
       "id": "ch13-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -2779,7 +2779,7 @@
     {
       "id": "ch14-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -2884,7 +2884,7 @@
     {
       "id": "ch14-ex4",
       "number": 4,
-      "title": "Match the Samoan to its English",
+      "title": "Match the Sāmoan to its English",
       "instructions": "",
       "placement": "exercises",
       "type": "matching",
@@ -2995,7 +2995,7 @@
     {
       "id": "ch15-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -3222,7 +3222,7 @@
     {
       "id": "ch16-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -3450,7 +3450,7 @@
     {
       "id": "ch17-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -3684,7 +3684,7 @@
     {
       "id": "ch18-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -3912,7 +3912,7 @@
     {
       "id": "ch19-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -4139,7 +4139,7 @@
     {
       "id": "ch20-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -4366,7 +4366,7 @@
     {
       "id": "ch21-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -4593,7 +4593,7 @@
     {
       "id": "ch22-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -4674,7 +4674,7 @@
       "id": "ch22-ex4",
       "number": 4,
       "title": "Tell the time",
-      "instructions": "Write the Samoan for each clock hour. Remember that inside the clock phrase this chapter follows, eleven and twelve are counted as \"ten and one\" and \"ten and two\".",
+      "instructions": "Write the Sāmoan for each clock hour. Remember that inside the clock phrase this chapter follows, eleven and twelve are counted as \"ten and one\" and \"ten and two\".",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -4841,7 +4841,7 @@
     {
       "id": "ch23-ex3",
       "number": 3,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "inline",
       "type": "reveal",
@@ -4968,7 +4968,7 @@
       "id": "ch23-ex6",
       "number": 6,
       "title": "Make each statement a yes or no question",
-      "instructions": "In Samoan the words do not change to make a yes or no question; the voice usually falls at the end instead. In writing, the question mark is usually all you add; the two question-marking words taught in Chapter 8 are the other route. Mark the falling tune with ↘.",
+      "instructions": "In Sāmoan the words do not change to make a yes or no question; the voice usually falls at the end instead. In writing, the question mark is usually all you add; the two question-marking words taught in Chapter 8 are the other route. Mark the falling tune with ↘.",
       "placement": "inline",
       "type": "reveal",
       "items": [
@@ -5008,7 +5008,7 @@
       "id": "ch23-ex7",
       "number": 7,
       "title": "Count and tell the time",
-      "instructions": "Translate into Samoan.",
+      "instructions": "Translate into Sāmoan.",
       "placement": "inline",
       "type": "reveal",
       "items": [
@@ -5048,7 +5048,7 @@
       "id": "ch23-ex8",
       "number": 8,
       "title": "Complete the conversation",
-      "instructions": "Two people meet. Fill each blank with a whole Samoan sentence that fits the English in the brackets.",
+      "instructions": "Two people meet. Fill each blank with a whole Sāmoan sentence that fits the English in the brackets.",
       "placement": "inline",
       "type": "reveal",
       "items": [
@@ -5106,7 +5106,7 @@
       "id": "ch23-can",
       "number": null,
       "title": "Can You Do This?",
-      "instructions": "Here is the whole Beginner band in ten tasks. Do each one out loud in Samoan, then check the model answer. If a task feels shaky, go back to the chapter that built it before moving into the Intermediate band.",
+      "instructions": "Here is the whole Beginner band in ten tasks. Do each one out loud in Sāmoan, then check the model answer. If a task feels shaky, go back to the chapter that built it before moving into the Intermediate band.",
       "placement": "section",
       "type": "reveal",
       "items": [
@@ -5217,7 +5217,7 @@
     {
       "id": "ch24-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -5450,7 +5450,7 @@
     {
       "id": "ch25-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -5723,7 +5723,7 @@
     {
       "id": "ch26-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -5770,7 +5770,7 @@
       "id": "ch26-ex3",
       "number": 3,
       "title": "Name the region",
-      "instructions": "Write the Samoan spatial noun for each region.",
+      "instructions": "Write the Sāmoan spatial noun for each region.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -5816,7 +5816,7 @@
       "id": "ch26-ex4",
       "number": 4,
       "title": "Name the direction",
-      "instructions": "Write the Samoan word.",
+      "instructions": "Write the Sāmoan word.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -5942,7 +5942,7 @@
       "id": "ch26-ex7",
       "number": 7,
       "title": "Say where it is",
-      "instructions": "Write the Samoan for each.",
+      "instructions": "Write the Sāmoan for each.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -6029,7 +6029,7 @@
     {
       "id": "ch27-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "answerNote": "None of these English sentences says whether the thing happened once or was how things were, so either past particle is right. Where you wrote *sā* for a *na* above, or *na* for a *sā*, count it correct.",
       "placement": "exercises",
@@ -6193,7 +6193,7 @@
       "id": "ch27-ex5",
       "number": 5,
       "title": "Choose *e* or *ʻi*",
-      "instructions": "Put the agent marker *e* or the place word *ʻi* in the gap, so that the Samoan says what the English says.",
+      "instructions": "Put the agent marker *e* or the place word *ʻi* in the gap, so that the Sāmoan says what the English says.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -6269,7 +6269,7 @@
       "id": "ch27-ex6",
       "number": 6,
       "title": "Name the doer",
-      "instructions": "Write the Samoan words that name the doer. If the sentence names none, say so.",
+      "instructions": "Write the Sāmoan words that name the doer. If the sentence names none, say so.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -6482,7 +6482,7 @@
     {
       "id": "ch28-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "answerNote": "None of the English sentences in items 1 to 5 says whether the thing happened once or was how things were, so either past particle is right. Where you wrote *na* for a *sā* above, count it correct.",
       "placement": "exercises",
@@ -6694,7 +6694,7 @@
       "id": "ch29-ex2",
       "number": 2,
       "title": "Choose *mai* or *atu*",
-      "instructions": "Fill the gap so the Samoan matches the English.",
+      "instructions": "Fill the gap so the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -6769,7 +6769,7 @@
     {
       "id": "ch29-ex3",
       "number": 3,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -7020,7 +7020,7 @@
       "id": "ch30-ex2",
       "number": 2,
       "title": "Choose the word in front of *ona*",
-      "instructions": "Fill the gap with *mafai*, *tatau*, *sā* or *taga* so the Samoan matches the English.",
+      "instructions": "Fill the gap with *mafai*, *tatau*, *sā* or *taga* so the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -7113,7 +7113,7 @@
     {
       "id": "ch30-ex3",
       "number": 3,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "answerNote": "The English of items 1, 2 and 5 does not say which tense particle to use, so the alternative given in brackets is right as well.",
       "placement": "exercises",
@@ -7352,7 +7352,7 @@
     {
       "id": "ch31-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -7479,7 +7479,7 @@
       "id": "ch31-ex5",
       "number": 5,
       "title": "Choose *e pei* or *e tusa ma*",
-      "instructions": "Fill each gap so that the Samoan matches the English.",
+      "instructions": "Fill each gap so that the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -7714,7 +7714,7 @@
       "id": "ch32-ex4",
       "number": 4,
       "title": "Forbid it",
-      "instructions": "Write each forbidding sentence in Samoan, using *ʻaua le* and the long form.",
+      "instructions": "Write each forbidding sentence in Sāmoan, using *ʻaua le* and the long form.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -7753,7 +7753,7 @@
     {
       "id": "ch32-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "answerNote": "In item 5, *ʻO ai na faʻatau mai=a le tusi?* is equally correct.",
       "placement": "exercises",
@@ -7940,7 +7940,7 @@
     {
       "id": "ch33-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -8027,7 +8027,7 @@
       "id": "ch33-ex4",
       "number": 4,
       "title": "Choose *ʻia* or *pē*",
-      "instructions": "Fill each gap so that the Samoan matches the English.",
+      "instructions": "Fill each gap so that the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -8237,7 +8237,7 @@
     {
       "id": "ch34-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -8364,7 +8364,7 @@
       "id": "ch34-ex5",
       "number": 5,
       "title": "Fill the gap",
-      "instructions": "Put *ʻo* or *ʻi* into the gap so the Samoan matches the English.",
+      "instructions": "Put *ʻo* or *ʻi* into the gap so the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -8648,7 +8648,7 @@
     {
       "id": "ch35-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -8938,7 +8938,7 @@
     {
       "id": "ch36-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -9240,7 +9240,7 @@
     {
       "id": "ch37-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -9554,7 +9554,7 @@
     {
       "id": "ch38-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -9868,7 +9868,7 @@
     {
       "id": "ch39-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -10164,7 +10164,7 @@
     {
       "id": "ch40-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -10340,7 +10340,7 @@
     {
       "id": "ch41-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "Use the past particle given in brackets.",
       "placement": "inline",
       "type": "reveal",
@@ -10380,7 +10380,7 @@
     {
       "id": "ch41-ex3",
       "number": 3,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "inline",
       "type": "reveal",
@@ -10426,7 +10426,7 @@
     {
       "id": "ch41-ex4",
       "number": 4,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "inline",
       "type": "reveal",
@@ -10570,7 +10570,7 @@
     {
       "id": "ch41-ex7",
       "number": 7,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "Use the past particle given in brackets.",
       "placement": "inline",
       "type": "reveal",
@@ -10675,7 +10675,7 @@
       "id": "ch41-can",
       "number": null,
       "title": "Can You Do This?",
-      "instructions": "Here is the whole Intermediate band in thirteen tasks. Do each one out loud in Samoan, then check the model answer. If a task feels shaky, go back to the chapter that built it before moving into the Advanced band.",
+      "instructions": "Here is the whole Intermediate band in thirteen tasks. Do each one out loud in Sāmoan, then check the model answer. If a task feels shaky, go back to the chapter that built it before moving into the Advanced band.",
       "placement": "section",
       "type": "reveal",
       "items": [
@@ -10804,7 +10804,7 @@
     {
       "id": "ch42-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -11178,7 +11178,7 @@
     {
       "id": "ch43-ex4",
       "number": 4,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -11498,7 +11498,7 @@
     {
       "id": "ch44-ex4",
       "number": 4,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -11818,7 +11818,7 @@
     {
       "id": "ch45-ex4",
       "number": 4,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "Where the doing may be pointed at or left unsaid, point at it.",
       "placement": "exercises",
       "type": "reveal",
@@ -12182,7 +12182,7 @@
     {
       "id": "ch46-ex5",
       "number": 5,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -12485,7 +12485,7 @@
       "id": "ch47-ex4",
       "number": 4,
       "title": "Choose *ʻi* or *iā*",
-      "instructions": "Fill the gap so that the Samoan matches the English.",
+      "instructions": "Fill the gap so that the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "mcq",
       "items": [
@@ -12503,7 +12503,7 @@
         {
           "id": "ch47-ex4-2",
           "n": 2,
-          "prompt": "*Alu \\_\\_\\_ Sāmoa.* (Go to Samoa.)",
+          "prompt": "*Alu \\_\\_\\_ Sāmoa.* (Go to Sāmoa.)",
           "answer": "*Alu ʻi Sāmoa.*",
           "options": [
             "*ʻi*",
@@ -12514,7 +12514,7 @@
         {
           "id": "ch47-ex4-3",
           "n": 3,
-          "prompt": "*\\_\\_\\_ Sāmoa* (among the Samoans)",
+          "prompt": "*\\_\\_\\_ Sāmoa* (among the Sāmoans)",
           "answer": "*iā Sāmoa*",
           "options": [
             "*ʻi*",
@@ -12525,7 +12525,7 @@
         {
           "id": "ch47-ex4-4",
           "n": 4,
-          "prompt": "*\\_\\_\\_ Sāmoa* (in Samoa)",
+          "prompt": "*\\_\\_\\_ Sāmoa* (in Sāmoa)",
           "answer": "*ʻi Sāmoa*",
           "options": [
             "*ʻi*",
@@ -12547,7 +12547,7 @@
         {
           "id": "ch47-ex4-6",
           "n": 6,
-          "prompt": "*Sā nonofo \\_\\_\\_ Sāmoa.* (They lived in Samoa.) (Lit. \"Past live in Samoa.\")",
+          "prompt": "*Sā nonofo \\_\\_\\_ Sāmoa.* (They lived in Sāmoa.) (Lit. \"Past live in Sāmoa.\")",
           "answer": "*Sā nonofo ʻi Sāmoa.*",
           "options": [
             "*ʻi*",
@@ -12612,7 +12612,7 @@
     {
       "id": "ch47-ex6",
       "number": 6,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -12679,7 +12679,7 @@
           "id": "ch47-ex7-3",
           "n": 3,
           "prompt": "Why does *Sāmoa* take *iā* in *iā Sāmoa* but *ʻi* in *ʻi Sāmoa*?",
-          "answer": "In *iā Sāmoa* the name refers to the people who live in Samoa; in *ʻi Sāmoa* it refers to the place."
+          "answer": "In *iā Sāmoa* the name refers to the people who live in Sāmoa; in *ʻi Sāmoa* it refers to the place."
         },
         {
           "id": "ch47-ex7-4",
@@ -12803,7 +12803,7 @@
           "id": "ch48-ex1-7",
           "n": 7,
           "prompt": "*ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu uso.*",
-          "answer": "I want to go to Samoa to take care of my siblings."
+          "answer": "I want to go to Sāmoa to take care of my siblings."
         },
         {
           "id": "ch48-ex1-8",
@@ -12816,7 +12816,7 @@
     {
       "id": "ch48-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "Use the mood particle named after each sentence.",
       "placement": "exercises",
       "type": "reveal",
@@ -13040,7 +13040,7 @@
           "id": "ch48-ex6-5",
           "n": 5,
           "prompt": "In *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua*, what suggests that the *seʻi* clause belongs to the first clause?",
-          "answer": "Nothing in the words. The way Samoan speakers say such sentences, and the way Samoan writers punctuate them, suggests it."
+          "answer": "Nothing in the words. The way Sāmoan speakers say such sentences, and the way Sāmoan writers punctuate them, suggests it."
         },
         {
           "id": "ch48-ex6-6",
@@ -13442,7 +13442,7 @@
     {
       "id": "ch49-ex6",
       "number": 6,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",
@@ -13925,7 +13925,7 @@
     {
       "id": "ch51-ex2",
       "number": 2,
-      "title": "Translate into Samoan",
+      "title": "Translate into Sāmoan",
       "instructions": "",
       "placement": "exercises",
       "type": "reveal",

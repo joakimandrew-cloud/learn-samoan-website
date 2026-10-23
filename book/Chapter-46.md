@@ -36,7 +36,7 @@ phrase follows the verb. It can stand straight after it, before the doer and the
 thing acted on, as in the mother's sentence, or after the thing acted on, as in
 the speaker's.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou nofo ma le lē fiafia.* | I stayed and was unhappy. |
 | *Sā ʻou nofo ma le lē vāivai.* | I stayed and was not tired. |
@@ -120,7 +120,7 @@ Two short phrases show *e ʻese* at its plainest:
 Add a belonging phrase naming what has the quality, and the phrase becomes a
 sentence:
 
-| Samoan | Word for word | Meaning |
+| Sāmoan | Word for word | Meaning |
 |---|---|---|
 | *E ʻese le mānaia o le ʻula.* | The being nice of the necklace is extraordinary. | The necklace is extremely nice. |
 | *E ʻese le mānaia o le pō.* | The being nice of the night is extraordinary. | The night is extremely nice. |
@@ -148,10 +148,10 @@ exclamation about how that person is reacting.
 
 The exclamation has three parts in this order: the presenting particle *ʻO*, the
 le-phrase, and a belonging phrase naming the person. It is used as an immediate
-comment on somebody's reaction or behaviour, and it is one of the idioms Samoan
+comment on somebody's reaction or behaviour, and it is one of the idioms Sāmoan
 uses often.
 
-| Samoan | Word for word | Meaning |
+| Sāmoan | Word for word | Meaning |
 |---|---|---|
 | *ʻO le fefe o le teine!* | The fear of the girl! | Look how scared the girl is! |
 | *ʻO le faʻanoanoa o le tama!* | The being sad of the boy! | Look how sad the boy is! |
@@ -241,7 +241,7 @@ Rewrite each sentence as an exclamation built on a le-phrase, beginning with
 4. *E fiafia le teine.*
 5. *E ita le tama.*
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. I stayed and was sad.
 2. It is good that the pig is fat.

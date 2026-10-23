@@ -29,7 +29,7 @@ The general particle covers four kinds of statement, all of them free of a
 particular time: a lasting quality, a general truth, a habit, and something still
 to come.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E mālosi le tama.* | The boy is strong. |
 | *E loloto le vai.* | The water is deep. |
@@ -79,7 +79,7 @@ the word for I or for you unsaid and still say *te*, when the talk already makes
 plain who is meant. Every *te* sentence you build in this book keeps its
 pronoun.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻOu te alu.* | I go. |
 | *ʻE te alu.* | You go. |
@@ -137,7 +137,7 @@ way, from *fia* and *ʻai* (eat):
 *ʻOu te fia ʻai.* I want to eat.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou fia alu.* | I wanted to go. |
 | *ʻOu te fia alu.* | I want to go. |
@@ -151,7 +151,7 @@ what they want.
 
 ## The Happening-Now Particle *ʻOloʻo*
 
-A general truth and an event going on at this moment are not the same, and Samoan
+A general truth and an event going on at this moment are not the same, and Sāmoan
 keeps them apart with two different particles. Set these side by side:
 
 ::: {.examples}
@@ -169,7 +169,7 @@ moment is the moment you speak. Told inside a story, the same particle can mark
 an event running alongside something else in the telling, and that use is one to
 recognize rather than to build here.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻOloʻo siva le teine.* | The girl is dancing. |
 | *ʻOloʻo tusitusi le tama.* | The boy is writing. |
@@ -227,7 +227,7 @@ The full form is the one that belongs in a plain statement standing on its own.
 4. *ʻOloʻo siva le teine.*
 5. *E alu le pasi ʻi le nuʻu.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The water is deep.
 2. I go.

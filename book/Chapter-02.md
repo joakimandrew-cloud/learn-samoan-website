@@ -14,7 +14,7 @@ The frame is the one taught already: the past particle *sā*, then the word for
 who did it, then the verb. That word for who did it is a **preverbal pronoun**,
 the kind met as *ʻou* and *ia*, so named because it stands before the verb.
 Only that middle word changes. Here is the same slot with the full range of
-people Samoan can put in it.
+people Sāmoan can put in it.
 
 ::: {.examples}
 *Sā ʻou alu.* I went.
@@ -28,7 +28,7 @@ the list of words that fill that middle slot.
 
 ### One Person
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻou* | I |
 | *ʻe* | you (one person) |
@@ -38,9 +38,9 @@ the list of words that fill that middle slot.
 
 These words for who did it mark number three ways, not two: besides one and
 many, they have a form for exactly two. And when a group includes the person you
-are speaking to, Samoan uses a different word than when it leaves that person out.
+are speaking to, Sāmoan uses a different word than when it leaves that person out.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *tā* | we two (you and I) |
 | *mā* | we two (but not you) |
@@ -67,8 +67,8 @@ Compare them. Which word changed, and does the English translation show the
 difference?
 
 The word changed from *tātou* to *mātou*, and the plain English "we" hides what
-Samoan makes plain. *Tātou* pulls the listener in: we, you included. *Mātou*
-shuts the listener out: we, but not you. Samoan asks you to choose between them
+Sāmoan makes plain. *Tātou* pulls the listener in: we, you included. *Mātou*
+shuts the listener out: we, but not you. Sāmoan asks you to choose between them
 every time you say "we".
 
 > *Note:* A way to keep them straight: *tātou* takes you in, *mātou* leaves you
@@ -102,7 +102,7 @@ saying whose something is: that has a third set of its own, taught in Chapter 10
 
 > *Note:* A pronoun in the middle slot is never the one on the receiving end.
 > English draws a similar line with "I" and "me": "I" does the action, "me" is on
-> the receiving end. Samoan draws the same line, but between two whole sets of
+> the receiving end. Sāmoan draws the same line, but between two whole sets of
 > words and by position. Several forms are the same word in both sets, so
 > position is what separates them. The moment a pronoun is on the receiving end,
 > or takes any job outside that middle slot other than saying whose something
@@ -143,7 +143,7 @@ Once more the independent forms *aʻu* and *ʻoe* do work the middle-slot forms
 cannot. The place words that point toward people and places are taught in full
 later in this book; *ʻia te aʻu* and *ʻia te ʻoe* are the pieces you need now.
 
-> **Preview:** Alongside the everyday "I", Samoan carries a second first-person
+> **Preview:** Alongside the everyday "I", Sāmoan carries a second first-person
 > form that colours a sentence with feeling, used to show humility or to appeal
 > for help. You meet it in Chapter 51.
 
@@ -215,7 +215,7 @@ words that mark that receiver come later in this book.
 4. *Sā mā fāgota.*
 5. *Sā ʻe siva.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. They two went.
 2. You all came.
@@ -226,7 +226,7 @@ words that mark that receiver come later in this book.
 ### Exercise 3: Fill the middle slot
 
 Put the right people-word into the gap so
-the Samoan matches the English.
+the Sāmoan matches the English.
 
 1. *Sā ___ minoi.* (You two moved.)
 2. *Sā ___ sau.* (They came, more than two.)
@@ -247,10 +247,10 @@ Choose *tātou* or
 
 ### Exercise 5: The second set of pronouns
 
-1. Give the Samoan: It is me.
-2. Give the Samoan: It is you.
-3. Give the Samoan: towards me.
-4. Give the Samoan: towards you.
+1. Give the Sāmoan: It is me.
+2. Give the Sāmoan: It is you.
+3. Give the Sāmoan: towards me.
+4. Give the Sāmoan: towards you.
 5. Translate into English: *ʻO aʻu.*
 
 ---

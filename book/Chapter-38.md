@@ -40,7 +40,7 @@ unfortunately" is its nearest English.
 *E leʻi mafai ona ʻou alu leaga sā timu.* I could not go because unfortunately it was raining.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* | The girl lay down in the house because she was tired. |
 | *ʻUa mālamalama le teine ʻauā ʻua tautala le tama.* | The girl understands because the boy has spoken. |
@@ -73,7 +73,7 @@ When the reason comes first, the other clause usually carries the pointing-back
 word *ai* after its verb. *Ai* here reaches back to the whole reason clause, not
 to any one word inside it: what the boy went for was the girl being sick.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.* | The boy went to the house because the girl was sick. |
 | *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.* | Because the girl was sick, the boy went to the house. |
@@ -101,7 +101,7 @@ same pointing-back word.
 *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.* Because of the rain you cannot go.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E lē mafai ona alu ʻona ʻo le timu.* | It is not possible to go because of the rain. |
 | *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.* | Because of the rain you cannot go. |
@@ -127,7 +127,7 @@ and that one difference is the whole test.
 The that-word *ona*, which opens a complement clause, takes a clause with no
 tense particle. The because-word *ʻona* takes a clause that carries one. The
 two are written apart here, the because-word with the ʻ mark and the that-word
-without it, but in ordinary Samoan they are usually both written *ona*, so the
+without it, but in ordinary Sāmoan they are usually both written *ona*, so the
 tense particle is the test to use.
 
 | After *ona* | What *ona* means | Example |
@@ -202,7 +202,7 @@ tama* is the agent marker with the noun that follows it. Read the word by its
 slot, as you have since it was first taught, with *e* in front of a verb
 carrying the tense and *e* in front of a noun naming who did it.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā alu le tama e ʻaumai le niu.* | The boy went to bring the coconut. |
 | *Sā ʻou alu ʻou te ʻaumai le niu.* | I went to bring the coconut. |
@@ -217,7 +217,7 @@ general particle.
 > and the compound is the word for a piece of soap. On its own *moli* covers soap
 > and the orange both.
 
-> **Preview:** Samoan marks purpose a second way, with the joining word *ʻina*
+> **Preview:** Sāmoan marks purpose a second way, with the joining word *ʻina*
 > standing in front of the mood particle *ʻia*. That combination belongs with the
 > rest of the mood particles and is taught in Chapter 48.
 
@@ -247,13 +247,13 @@ stand as the whole of a turn.
 *ʻAuā ʻua maʻi le teine.* Because the girl is sick.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻAiseā?* | Why? |
 | *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* | Why did the man go to the village? |
 | *ʻAuā ʻua maʻi le teine.* | Because the girl is sick. |
 
-> *Note:* An older description of Samoan also allows a why-phrase at the end of
+> *Note:* An older description of Sāmoan also allows a why-phrase at the end of
 > the sentence: *ʻai se ā*, the parts of *ʻaiseā* written apart, or *ʻi se ā*, both
 > meaning "on account of what". It is given here only so that you can recognise
 > it if you meet it. This book does not teach it for use, and the question you
@@ -336,7 +336,7 @@ Put *e*, *te* or *neʻi* into the gap so the English matches.
 4. *Sā ʻou alu ʻou ___ ʻaumai le niu.* (I went to bring the coconut.)
 5. *ʻUa ʻou ʻata ma ʻou punou ʻi lalo ___ iloa mai e le tama.* (I laughed and bent down, so that the boy would not notice.)
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. The boy cannot go because he is sick.
 2. I am crying because unfortunately my dog is lost.

@@ -20,7 +20,7 @@ Each sentence runs two verbs with one word between them. *Sā* (forbidden) and
 *tatau* (necessary) come first, in the ordinary predicate slot straight after
 the tense particle. What is forbidden, and what is necessary, then follows as a
 clause of its own: *ulaula* (smoke) in the first sentence, *ʻou alu* (I go) in
-the second. Between the two halves stands *ona*, the only joining word Samoan
+the second. Between the two halves stands *ona*, the only joining word Sāmoan
 uses to open a clause in this position.
 
 A clause that fills the slot a noun phrase would otherwise fill, the slot for
@@ -29,7 +29,7 @@ what the sentence is about rather than for a doer marked with *e*, is called a
 of this chapter has four parts in a fixed order: the tense particle, then the
 word that takes the complement, then *ona*, then the complement clause itself.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E sā ona ulaula.* | It is forbidden to smoke. |
 | *ʻUa tatau ona ʻou alu.* | I must go. |
@@ -68,7 +68,7 @@ done; the complement clause alone supplies who would have done it. *Mafai*
 takes the person either way: on itself as well as inside the complement clause,
 or inside the complement clause alone.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻOu te mafai ona ʻou alu.* | I can go. |
 | *Sā lē mafai ona ʻou alu.* | I could not go. |
@@ -162,14 +162,14 @@ is named.
 Compare them. Which sentence carries two tense particles?
 
 The first sentence carries two. *ʻUa iloa* opens it and *ʻua sau* opens the clause that
-follows, and that clause has no *ona* in front of it at all. Samoan has two ways
+follows, and that clause has no *ona* in front of it at all. Sāmoan has two ways
 of joining a complement clause to the word that takes it. One sets the clause
 down with nothing between, and in the sentences this chapter shows, that clause
 keeps a tense particle of its own, read against the time of the first half. The
 other opens the clause with *ona*, and then the clause carries no tense
 particle: it sits under the tense of the word in front of it.
 
-| Samoan | English | Tense particles |
+| Sāmoan | English | Tense particles |
 |---|---|---|
 | *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. | two |
 | *ʻUa mafai ona sau le teine.* | The girl can come. | one |
@@ -243,7 +243,7 @@ earlier in this book:
 
 ### Exercise 2: Choose the word in front of *ona*
 
-Fill the gap with *mafai*, *tatau*, *sā* or *taga* so the Samoan matches the
+Fill the gap with *mafai*, *tatau*, *sā* or *taga* so the Sāmoan matches the
 English.
 
 1. *E ___ ona ulaula.* (It is forbidden to smoke.)
@@ -253,7 +253,7 @@ English.
 5. *E ___ ona alu le tama.* (The boy must go.)
 6. *E ___ ona siva le uso.* (The sibling can dance.)
 
-### Exercise 3: Translate into Samoan
+### Exercise 3: Translate into Sāmoan
 
 1. The boy must go.
 2. The girl can come.

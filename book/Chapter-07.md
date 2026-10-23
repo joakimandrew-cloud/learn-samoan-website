@@ -12,8 +12,8 @@ shows you how to say who someone is and what something is.
 *ʻO se uō le tama.* The boy is a friend. (Lit. "a friend, the boy")
 :::
 
-English builds this sentence around the verb "is". Samoan has no such verb. To
-say what something is, Samoan sets two naming parts next to each other and adds
+English builds this sentence around the verb "is". Sāmoan has no such verb. To
+say what something is, Sāmoan sets two naming parts next to each other and adds
 no verb at all. Here the two parts are *se uō* ("a friend") and *le tama* ("the
 boy"), each one a noun with its article, the kind of naming part you built with
 the article system. Put them side by side and the sentence already means "the
@@ -36,7 +36,7 @@ that do not are outside what this chapter builds.
 The naming part with *ʻo* usually comes first, and the part it is about comes
 second, with no article change and no marking of its own.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO se uō le tama.* | The boy is a friend. |
 | *ʻO se uō le teine.* | The girl is a friend. |
@@ -62,7 +62,7 @@ once and every "that is a ..." sentence follows it. The earlier pattern is
 looser, which is why its order was given as the usual one rather than the only
 one.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le pusi lenā.* | That is the cat. |
 | *ʻO le tama lenā.* | That is the boy. |
@@ -88,7 +88,7 @@ take the presenting particle *ʻo*: one for the person out in front, and one for
 the naming part that follows. This is why *ʻo* can appear twice in one naming
 sentence. Person-first is the order this book teaches you to build, and it holds
 whether the person is the speaker or someone else. With anyone but the speaker,
-Samoan itself allows either order, and the naming part leads often enough that
+Sāmoan itself allows either order, and the naming part leads often enough that
 you will meet both, so when you are building your own sentence, keep to the
 person-first one.
 
@@ -107,7 +107,7 @@ describing word follows the noun.
 > understood from what came before.
 
 > **Preview:** A naming sentence can be turned into its opposite, "the boy is
-> not a friend". Samoan does that by wrapping the whole naming sentence inside a
+> not a friend". Sāmoan does that by wrapping the whole naming sentence inside a
 > longer structure, so it waits until the words that make sentences negative are
 > in place. That is taught in Chapter 15. For now, build naming sentences only
 > in the positive.
@@ -148,7 +148,7 @@ describing word follows the noun.
 4. *ʻO le tama lenā.*
 5. *ʻO se tagata lelei le uō.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The girl is a friend.
 2. That is the cat.
@@ -167,7 +167,7 @@ Each item names a thing. Write a naming sentence that points to it with *lenā*
 
 ### Exercise 4: Add the presenting particle
 
-Put *ʻo* where it belongs so the Samoan matches the English. Some sentences need
+Put *ʻo* where it belongs so the Sāmoan matches the English. Some sentences need
 it once, one needs it twice.
 
 1. *___ se uō le teine.* (The girl is a friend.)
@@ -176,7 +176,7 @@ it once, one needs it twice.
 
 ### Exercise 5: Choose *le* or *se*
 
-Put *le* or *se* into the naming part so the Samoan matches the English.
+Put *le* or *se* into the naming part so the Sāmoan matches the English.
 
 1. *ʻO ___ pusi lenā.* (That is the cat, one particular cat.)
 2. *ʻO ___ uō le tama.* (The boy is a friend, no particular one.)

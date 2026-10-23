@@ -57,7 +57,7 @@ used by some speakers in the same position, and a fourth, *=na*, is uncommon.
 Between them they are why one verb can have three or four long forms on record.
 
 > *Note:* This book prints the join with an equals sign, *fasi=a*, so that the
-> ending stays visible while you are learning where it goes. Ordinary Samoan
+> ending stays visible while you are learning where it goes. Ordinary Sāmoan
 > writing runs the two parts together with no mark between them.
 
 Which of the two endings a verb takes is partly a matter of the verb and partly
@@ -102,14 +102,14 @@ buying, and with *atu* it is selling.
 The first sentence tells someone to do something, and its verb is the short
 form. The second forbids the same action, and its verb is the long form. Neither
 sentence has any choice in the matter, and these are the only two places where
-the description of Samoan settles the choice for you.
+the description of Sāmoan settles the choice for you.
 
 ### A Command Takes the Short Form
 
 A command to do something carries no tense particle, and it takes the short
 form. The long form never appears in one.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻAi.* | Eat. |
 | *Faitau.* | Read. |
@@ -123,7 +123,7 @@ not about the person who is to do it. That is why the short form belongs here.
 A forbidding sentence built with *ʻaua le* takes the long form. Speakers asked
 to accept a short form in this position reject it as wrong.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻAua le ʻaia le meaʻai lenā.* | Don't eat that food. |
 | *ʻAua le faitau=a le tusi lenā.* | Don't read that book. |
@@ -264,7 +264,7 @@ Put the verb in brackets into the gap in the shape the sentence requires.
 
 ### Exercise 4: Forbid it
 
-Write each forbidding sentence in Samoan, using *ʻaua le* and the long form.
+Write each forbidding sentence in Sāmoan, using *ʻaua le* and the long form.
 
 1. Don't read that book.
 2. Don't open that box.
@@ -272,7 +272,7 @@ Write each forbidding sentence in Samoan, using *ʻaua le* and the long form.
 4. Don't sell that boat.
 5. Don't eat that food.
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. The girl read the section.
 2. The boy built the house.

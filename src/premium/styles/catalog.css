@@ -24,6 +24,8 @@
 .catalog-sample { display: grid; gap: 6px; min-height: 122px; margin: 16px -4px 20px; padding: 18px; border-radius: 12px; background: var(--ink); color: rgba(255,255,255,.68); font-size: 12px; }
 .catalog-sample .to { align-self: end; color: var(--orange); font-size: 22px; }
 .catalog-card > strong { font: 750 25px/1.03 var(--f-display); text-transform: uppercase; }
+.catalog-card > strong .to { font-family: var(--f-serif); text-transform: none; }
+.catalog-card-copy .to { font-size: 1em; }
 .catalog-card-copy { margin-top: 10px; color: var(--muted); font: 16px/1.5 var(--f-serif); }
 .catalog-card-action { margin-top: auto; padding-top: 20px; color: var(--red); font-weight: 750; }
 .catalog-more { margin-top: 18px; }

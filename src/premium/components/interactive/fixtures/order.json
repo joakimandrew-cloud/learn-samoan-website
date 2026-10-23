@@ -6,9 +6,9 @@
       "kind": "order",
       "anchor": "the-two-participant-sentence",
       "title": "Put the three parts in order",
-      "intro": "Tap the words to build the Samoan for each English sentence. Two of the words on offer do not belong.",
+      "intro": "Tap the words to build the Sāmoan for each English sentence. Two of the words on offer do not belong.",
       "data": {
-        "prompt": "Say this in Samoan",
+        "prompt": "Say this in Sāmoan",
         "items": [
           {
             "en": "She bathed.",
@@ -54,7 +54,7 @@
       "kind": "order",
       "anchor": "the-two-participant-sentence",
       "title": "Build the two-participant sentence",
-      "intro": "Tap the words to build the Samoan for each English sentence. Some of the words on offer do not belong.",
+      "intro": "Tap the words to build the Sāmoan for each English sentence. Some of the words on offer do not belong.",
       "data": {
         "items": [
           {

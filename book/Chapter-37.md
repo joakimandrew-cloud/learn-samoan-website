@@ -1,6 +1,6 @@
 # Chapter 37: Narrative Chains
 
-This chapter adds two of the ways Samoan sets one event after another, the
+This chapter adds two of the ways Sāmoan sets one event after another, the
 then-construction built out of *ona* and *lea* and the run of clauses that carry
 no tense particle of their own, and shows you how to tell a story in the order
 its events happened.
@@ -14,7 +14,7 @@ its events happened.
 :::
 
 Two words working as a pair to mark the next thing that happened are called
-**the then-construction**, and the Samoan pair is *ona* and *lea*. *Ona* stands
+**the then-construction**, and the Sāmoan pair is *ona* and *lea*. *Ona* stands
 at the head of the clause, the verb phrase follows it, *lea* closes the verb
 phrase off, and the rest of the clause comes after that. A clause built this way
 always says the same thing about time: this happened, then that.
@@ -37,7 +37,7 @@ plain form with nothing in front of it.
 *Ona tali atu lea ʻo le teine.* Then the girl answered.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Ona alu lea ʻo le tama.* | Then the boy went. |
 | *Ona tali atu lea ʻo le teine.* | Then the girl answered. |
@@ -76,7 +76,7 @@ Which word was added to the second sentence, and what did the English do?
 
 The added word is *loa*, and the English did nothing at all. A word that stands
 after the verb and marks its event as the one following on is called **the
-then-word**, and the Samoan one is *loa*. It carries the succession by itself,
+then-word**, and the Sāmoan one is *loa*. It carries the succession by itself,
 so putting it inside a construction that already carries the succession changes
 little if anything. The then-word on its own, the construction without it, and
 the construction with it inside all come out the same way in English.
@@ -93,7 +93,7 @@ but to the whole of what has been said before it.
 *Ai* here does not point at the branches or at the girl. It points at the hiding,
 and at everything the story has said up to that moment.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Ona alu lea ʻo le tama.* | Then the boy went. |
 | *Ona alu loa lea ʻo le tama.* | Then the boy went. |
@@ -116,19 +116,19 @@ and at everything the story has said up to that moment.
 *Alu lea ʻo le tama.* Then the boy went.
 :::
 
-Spoken Samoan also runs the construction short, and it can drop either of the
+Spoken Sāmoan also runs the construction short, and it can drop either of the
 two words. Drop *lea* and *ona* carries the succession on its own; drop *ona*
 and *lea* carries it. What the clause names changes shape with them: with *lea*
 gone it stands in its plain form, and after *lea* it usually takes the
 presenting particle *ʻo*, whether *ona* is there or not.
 
-Modern writing and the Samoan of the Bible keep the full shape. There the
+Modern writing and the Sāmoan of the Bible keep the full shape. There the
 construction is always *ona*, then the verb phrase, then *lea*, then the rest of
 the clause.
 
 Every sentence in the table below says "Then the boy went."
 
-| Shape | Samoan |
+| Shape | Sāmoan |
 |---|---|
 | the full shape | *Ona alu lea ʻo le tama.* |
 | the full shape with the then-word | *Ona alu loa lea ʻo le tama.* |
@@ -187,7 +187,7 @@ the tense particle of the first clause or carrying none at all. A chain is that
 second option run out to its full length, with no joining word between the
 clauses.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* | We then rested, and played in the house with the tin roof. |
 | *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* | My parents then rested, then I went to the village, and prepared the journey there. |
@@ -195,7 +195,7 @@ clauses.
 | *Na alu le tama, oso le teine ʻi le sami.* | The boy went, and the girl jumped into the sea. |
 | *Sā ʻou alu loa ʻi fafo. Fufulu oʻu mata.* | I then went outside. I washed my face. (Lit. "Wash my eyes.") |
 
-> **Preview:** Samoan can open a sentence by putting a whole when-clause at the
+> **Preview:** Sāmoan can open a sentence by putting a whole when-clause at the
 > front of everything else, setting the background the events run against. That
 > opening is taught in Chapter 44.
 
@@ -273,7 +273,7 @@ taking it out of the second.
 4. *Na alu le tama.* and *Na oso le teine ʻi le sami.*
 5. *Sā lilo le teine.* and *Sā alu le tama ʻi le nuʻu.*
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. Then the boy went. (the full shape)
 2. Then the girl answered.

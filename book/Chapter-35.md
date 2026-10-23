@@ -20,7 +20,7 @@ In the first sentence it is an ordinary noun phrase, *le mea lea*: an article, a
 noun, and the pointing word *lea*, which stands after the noun the way *lenā*
 does. A thing, in other words. In the second it is an event, the speaker
 having nothing in the stomach. Everything before *ʻi* is the same in both, so
-whatever Samoan has done to that event, it has left it able to stand exactly
+whatever Sāmoan has done to that event, it has left it able to stand exactly
 where the thing stood. The words *o se mea* inside that second phrase name what
 is absent, and how a le-phrase names the people and things in its event is taken
 up later in this book.
@@ -34,7 +34,7 @@ The pattern has two parts in a fixed order: the article *le*, then the verb. No
 tense particle stands anywhere inside it, and that is what a le-phrase never
 carries. Any verb you already know can head one.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le nofo* | the staying |
 | *le taʻatia* | the lying down |
@@ -45,11 +45,11 @@ carries. Any verb you already know can head one.
 | *le manatu* | the thinking |
 
 The English that fits is usually the "-ing" form of the verb, or "the being"
-with a description after it. Neither of those is a new Samoan word: *nofo* is
+with a description after it. Neither of those is a new Sāmoan word: *nofo* is
 still the verb *nofo*, and only the article in front of it has changed what the
 phrase can do.
 
-> **Preview:** Samoan has a second way of making an event into a word, by adding
+> **Preview:** Sāmoan has a second way of making an event into a word, by adding
 > an ending to the verb itself. That system is taught in Chapter 50. Every event
 > word in this chapter is made the first way, with the article.
 
@@ -73,10 +73,10 @@ The pattern with a not-word has three parts in a fixed order: the article *le*,
 then *lē*, then the verb.
 
 > *Note:* The article and the not-word are told apart in writing by the
-> long-vowel mark alone. Print that drops the marks, which is most Samoan print,
+> long-vowel mark alone. Print that drops the marks, which is most Sāmoan print,
 > writes the two the same way, and the reader takes them apart by sense.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le fiafia* | the being happy |
 | *le lē fiafia* | the not being happy |
@@ -128,10 +128,10 @@ the action as a le-phrase changes nothing about that choice.
 
 The pattern has three parts in a fixed order: the do-not verb, then the article
 *le*, then the verb of the event. In both sentences here, what the event names
-follows that verb with nothing in front of it. Samoan has a second way of naming
+follows that verb with nothing in front of it. Sāmoan has a second way of naming
 it, and Chapter 45 teaches both.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻAua le taʻatia.* | Do not lie down. |
 | *ʻAua le velo.* | Do not hurl a spear. |
@@ -160,7 +160,7 @@ and the rule inside a le-phrase is the rule you already have for a sentence. A
 verb that has a plural shape takes it when what the phrase is about is more than
 one.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le nofo* | the staying of one |
 | *le nonofo* | the staying of more than one |
@@ -243,7 +243,7 @@ Put *ʻaua* in front of each le-phrase, and give the English.
 4. *le tagi*
 5. *le paʻū*
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. the being tired
 2. the not being tired

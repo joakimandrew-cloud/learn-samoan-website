@@ -22,7 +22,7 @@ never runs the other way.
 
 Two of the words below are new: *fafine* (woman) and *matua* (parent).
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO ai ʻoe?* | Who are you? |
 | *ʻO ai lenā?* | Who is that? |
@@ -39,7 +39,7 @@ answer is about, the presented part can stand alone:
 *ʻO le teine.* The girl.
 :::
 
-> *Note:* Samoan asks for a person's name with *ai* as well, because the answer
+> *Note:* Sāmoan asks for a person's name with *ai* as well, because the answer
 > to a name question is a person's name. Building that question takes the word
 > for "your", which arrives later in this book.
 
@@ -67,7 +67,7 @@ Where more than one particular thing is asked after, no article stands in that s
 The words *faʻasalalauga* (broadcast, broadcasting) and *tausaga* (year) are
 new here:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le ā lenā?* | What is that? |
 | *ʻO le ā le faʻasalalauga?* | What is the broadcast? |
@@ -91,7 +91,7 @@ sentence. Here the answer introduces *suāsami* (salt water):
 
 > *Note:* You will often hear a longer what-question built on *mea* (thing): it
 > opens with *ʻo le ā le mea* and goes on to say more about the thing being
-> asked after. Samoan uses it to ask what someone wants to do, and why
+> asked after. Sāmoan uses it to ask what someone wants to do, and why
 > something is so; the machinery that carries the rest of that sentence arrives
 > in a later chapter. The word *ā* itself also has a life inside verb
 > sentences, asking what the matter is, and that use too is taught in a later
@@ -126,14 +126,14 @@ does the work here, and the arrow ↘ marks it in this book the same way.
 *ʻO se uō ʻea le tama?* Is the boy a friend?
 :::
 
-Samoan has two words whose whole job is to mark a sentence as a question: *po*
+Sāmoan has two words whose whole job is to mark a sentence as a question: *po*
 and *ʻea*. *Po* stands at the very front, before the asking part. *ʻEa* follows
 the first part of the sentence instead. Both appear in who-questions and
 what-questions as well as in yes or no questions. They add no meaning of their
 own, the question is complete without them, and you will usually hear one or
 the other, not both.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Po ʻo ai le fafine?* | Who is the woman? |
 | *Po ʻo le ā le tausaga?* | What is the year? |
@@ -186,7 +186,7 @@ the same thing as its bare twin; the marker only makes the asking visible.
 4. *Po ʻo ai le teine?*
 5. *ʻO le ā le faʻasalalauga?*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. Who are you?
 2. What is the year?

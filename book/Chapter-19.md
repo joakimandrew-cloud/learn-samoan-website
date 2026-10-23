@@ -27,7 +27,7 @@ places: on the article slot, as before, and on the verb.
 A single doer takes the singular verb *nofo*; more than one takes the plural
 verb *nonofo*, and nothing else in the sentence moves:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā nofo le teine.* | The girl stayed. |
 | *Sā nonofo teine.* | The girls stayed. |
@@ -45,7 +45,7 @@ place at the end, yet the plural verb still answers to the subject, the pigs.
 > verb counts the doer. When a sentence has both someone doing an action and
 > something the action is done to, the verb counts the thing it is done to, not
 > the doer. An English speaker meets those sentences expecting a passive, and
-> Samoan has none: leaving the doer out is what does that work. The marking that
+> Sāmoan has none: leaving the doer out is what does that work. The marking that
 > builds those two-participant sentences is taught in Chapter 27; until then,
 > every plural sentence here has a single participant.
 
@@ -54,7 +54,7 @@ place at the end, yet the plural verb still answers to the subject, the pigs.
 ## Learning Each Plural Form
 
 The plural verb form is a fact about each word, learned one word at a time, the
-way the meaning of a word is learned. About three hundred and fifty Samoan
+way the meaning of a word is learned. About three hundred and fifty Sāmoan
 verbs have a separate plural form. One way of building it is to double a piece
 of the singular, the way *nofo* doubles its first part to make *nonofo*:
 
@@ -68,7 +68,7 @@ the longer word and the plural *uli* is the shorter one: a few words drop a
 piece instead of doubling one. There is no way to read the plural form off the
 singular, so each plural is learned with its word.
 
-> **Preview:** Doubling a piece of a word is a tool Samoan uses for more than
+> **Preview:** Doubling a piece of a word is a tool Sāmoan uses for more than
 > plurals. The full account of doubling, and of the other small changes that
 > build these plural forms, is gathered together in Chapter 50. Here each plural
 > form is met as a word to learn.
@@ -98,7 +98,7 @@ One cat takes the singular *uliuli*; more than one takes the plural *uli*. The
 describing verb counts the number of what it describes, the same rule the action
 verb follows:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E uliuli le pusi.* | The cat is black. |
 | *E uli pusi.* | The cats are black. |
@@ -190,7 +190,7 @@ book, so *sua* is learned now as a word and used in full then.
 4. *Sā nonofo le ʻāiga.*
 5. *E uliuli le pusi.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The girls stayed.
 2. The cat is black.

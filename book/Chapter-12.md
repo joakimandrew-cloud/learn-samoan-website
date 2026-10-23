@@ -23,8 +23,8 @@ is marked by *ʻi*, the place word from earlier in this book.
 
 English treats see, love, and want as verbs that take an object: you see the
 fish, you love the girl, the object sits bare right after the verb. English
-asking is looser, since you often ask for a thing rather than ask it, but Samoan
-treats asking the same as the rest. Samoan hands these verbs no bare object. It
+asking is looser, since you often ask for a thing rather than ask it, but Sāmoan
+treats asking the same as the rest. Sāmoan hands these verbs no bare object. It
 puts the one who does the seeing or asking right after the verb, then points at
 the other thing with *ʻi*, the same word that points at a place. You have already
 seen *ʻi* mark a place:
@@ -40,13 +40,13 @@ Compare them. Which word points at the village, and which points at the fish?
 It is the same word, *ʻi*, doing the same job both times: pointing at what the
 verb reaches. In the first sentence the verb is one of moving, so *ʻi* points at
 a place. In the second the verb is one of seeing, so *ʻi* points at the thing
-seen. The lesson underneath is one to hold onto: in Samoan you do not see the
+seen. The lesson underneath is one to hold onto: in Sāmoan you do not see the
 fish, you see toward it, the way you go toward a village.
 
 The pattern puts the verb first, then its two participants: the one who does the
 seeing or feeling, and, marked by *ʻi*, the thing reached.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā vaʻai le teine ʻi le iʻa.* | The girl saw the fish. |
 | *Sā mātamata le tama ʻi le pusi.* | The boy watched the cat. |
@@ -59,7 +59,7 @@ now able to join a full sentence, and its opposite *ʻinoʻino* (hate, dislike).
 Two of the things these verbs reach are new to you here: *iʻa* (fish) and
 *ʻiole* (rat).
 
-Samoan has a third word for looking, *sisila* (look steadily, stare), and this
+Sāmoan has a third word for looking, *sisila* (look steadily, stare), and this
 book asks you only to know what it means. It belongs to the polite speech used
 about people of rank, and no one uses that speech about themselves, so no
 sentence here is built with it.
@@ -90,7 +90,7 @@ before the verb, and the thing reached still follows with *ʻi*:
 
 ## Wanting
 
-Samoan has two wanting words, and this chapter gives each of them one use. To
+Sāmoan has two wanting words, and this chapter gives each of them one use. To
 want to do something, use *fia* in front of the action verb, the word met
 earlier in this book: *Sā ʻou fia ʻai* is "I wanted to eat", *Sā ia fia siva* is
 "she wanted to dance". To want a thing rather than an action, use *manaʻo*, and
@@ -104,7 +104,7 @@ the thing wanted is usually marked by *ʻi*, exactly like the thing seen or love
 *ʻua*, marking the wanting as a state now in place. The couple, *ulugāliʻi*, is
 the one who wants; the food, *meaʻai*, is the thing wanted, pointed at with *ʻi*.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻUa manaʻo le ulugāliʻi ʻi le meaʻai.* | The couple wanted some food. |
 | *ʻUa manaʻo le tama ʻi le meaʻai.* | The boy wanted some food. |
@@ -135,7 +135,7 @@ met earlier in this book; *le ʻōfisa* is the official who asked, and *ʻi loʻ
 is what was asked for, "my name". The verb points at what it reaches with *ʻi*,
 whether that is a place, a thing, a person spoken to, or a thing asked about.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā valaʻau le fafine ʻi le teine.* | The woman called to the girl. |
 | *Sā valaʻau le tama ʻi le teine.* | The boy called to the girl. |
@@ -157,7 +157,7 @@ sentence, built on the verb *ʻai* (eat):
 The fish is marked with *ʻi*, and the sentence says the girl ate some of the
 fish, not that she finished it. Pointing at the fish with the place word says
 the action reached it, touched it, without saying it was wholly used up. To say
-the girl ate the whole fish, Samoan marks the doer with a different word, and
+the girl ate the whole fish, Sāmoan marks the doer with a different word, and
 that word draws a real contrast in meaning. The choice is not decorative:
 getting it wrong changes what the sentence says.
 
@@ -202,7 +202,7 @@ first time.
 4. *Sā valaʻau le fafine ʻi le teine.*
 5. *Sā ʻai le teine ʻi le iʻa.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The boy watched the cat.
 2. I saw the fish.

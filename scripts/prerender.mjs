@@ -22,6 +22,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { COURSE, DEFAULT_DESCRIPTION, HOME_TITLE, HUBS } from '../src/lib/site-meta.js'
 import { BOOK_PAGES } from '../src/lib/book-pages.js'
+import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS, stripStars } from '../src/premium/lib/drills-catalog.js'
 
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DIST = path.join(APP, 'dist')
@@ -32,6 +33,14 @@ const socialImage = `${site}social/learn-samoan.png`
 
 const chapters = JSON.parse(fs.readFileSync(path.join(APP, 'src', 'data', 'chapters.json'), 'utf8'))
 const quizzes = JSON.parse(fs.readFileSync(path.join(APP, 'src', 'data', 'quizzes.json'), 'utf8'))
+
+const drillCatalog = JSON.parse(fs.readFileSync(path.join(APP, 'src', 'premium', 'data', 'drills-catalog.json'), 'utf8'))
+const practiceItems = new Map()
+for (const file of fs.readdirSync(path.join(APP, 'src', 'data', 'interactives')).filter(f => /^\d{2}\.json$/.test(f))) {
+  for (const item of JSON.parse(fs.readFileSync(path.join(APP, 'src', 'data', 'interactives', file), 'utf8')).items) {
+    if (PRACTICE_KINDS.includes(item.kind)) practiceItems.set(item.id, item)
+  }
+}
 
 const esc = s => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;')
 const plain = s => String(s ?? '').replace(/\*+/g, '').replace(/\s+/g, ' ').trim()
@@ -47,12 +56,19 @@ for (const [route, meta] of Object.entries(HUBS)) routes.push({ path: route, tit
 for (const c of chapters) {
   routes.push({ path: `/chapters/${c.chapter}`, title: `Chapter ${c.chapter}: ${plain(c.title)} · ${COURSE}`, description: clip(c.intro) || DEFAULT_DESCRIPTION, type: 'article' })
 }
+// One page per drill: the title and description come from the practice item itself.
+for (const id of drillCatalog.flatMap(g => g.drills)) {
+  const item = practiceItems.get(id)
+  if (id === DAILY_WORDS_ID) routes.push({ path: `/drill/${id}`, title: `${DAILY_WORDS_ENTRY.title} · ${COURSE}`, description: DAILY_WORDS_ENTRY.blurb })
+  else if (item) routes.push({ path: `/drill/${id}`, title: `${stripStars(item.title)} · ${COURSE}`, description: clip(item.intro) || HUBS['/drills'].description })
+  else { console.error(`prerender: drill "${id}" has no practice item`); process.exit(1) }
+}
 for (const n of Object.keys(quizzes).map(Number).sort((a, b) => a - b)) {
   const c = chapters.find(x => x.chapter === n)
-  routes.push({ path: `/quizzes/${n}`, title: `Chapter ${n} quiz · ${COURSE}`, description: `Ten questions on Chapter ${n} of the Samoan course${c ? `, ${plain(c.title)}` : ''}, with every answer explained.` })
+  routes.push({ path: `/quizzes/${n}`, title: `Chapter ${n} quiz · ${COURSE}`, description: `Ten questions on Chapter ${n} of the Sāmoan course${c ? `, ${plain(c.title)}` : ''}, with every answer explained.` })
 }
 for (const [key, meta] of Object.entries(BOOK_PAGES)) {
-  routes.push({ path: `/${key}`, title: `${meta.title} · ${COURSE}`, description: meta.kicker === 'Appendix' ? `${meta.title}, an appendix of the free Samoan course.` : `${meta.title}: the Introduction to the free Samoan course, read before Chapter 1.` })
+  routes.push({ path: `/${key}`, title: `${meta.title} · ${COURSE}`, description: meta.kicker === 'Appendix' ? `${meta.title}, an appendix of the free Sāmoan course.` : `${meta.title}: the Introduction to the free Sāmoan course, read before Chapter 1.` })
 }
 
 const template = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8')
@@ -73,7 +89,7 @@ function page(route) {
     `<meta property="og:image" content="${esc(socialImage)}" />`,
     `<meta property="og:image:width" content="1200" />`,
     `<meta property="og:image:height" content="630" />`,
-    `<meta property="og:image:alt" content="Learn Samoan, a free course in 51 chapters" />`,
+    `<meta property="og:image:alt" content="Learn Sāmoan, a free course in 51 chapters" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${esc(route.title)}" />`,
     `<meta name="twitter:description" content="${esc(route.description)}" />`,
@@ -94,7 +110,7 @@ function page(route) {
       url: site,
       inLanguage: 'en',
       isAccessibleForFree: true,
-      teaches: 'Samoan language',
+      teaches: 'Sāmoan language',
     }).replaceAll('<', '\\u003c')}</script>`,
   ].join('\n    ')
   const cleanTemplate = template
@@ -105,9 +121,20 @@ function page(route) {
     .replace(/<meta name="description"[^>]*>/, `<meta name="description" content="${esc(route.description)}" />\n    ${head}`)
 }
 
+// The old /lessons addresses: redirect shells so the host answers 200 (no 404
+// before the client redirect). They point at the chapter pages, are marked
+// noindex and are kept out of the sitemap.
+const legacy = [{ path: '/lessons', to: '/chapters' }, ...chapters.map(c => ({ path: `/lessons/${c.chapter}`, to: `/chapters/${c.chapter}` }))]
+  .map(r => ({ path: r.path, to: r.to, title: `Chapters · ${COURSE}`, description: DEFAULT_DESCRIPTION, noindex: true }))
+
+function legacyPage(route) {
+  // The canonical link points at the chapter page the shell redirects to.
+  return page({ ...route, path: route.to }).replace(/(<meta name="description"[^>]*>)/, `$1\n    <meta name="robots" content="noindex" />`)
+}
+
 let written = 0
-for (const route of routes) {
-  const html = page(route)
+for (const route of [...routes, ...legacy]) {
+  const html = route.noindex ? legacyPage(route) : page(route)
   if (route.path === '/') { fs.writeFileSync(path.join(DIST, 'index.html'), html); written += 1; continue }
   const rel = route.path.slice(1)
   const flat = path.join(DIST, `${rel}.html`)

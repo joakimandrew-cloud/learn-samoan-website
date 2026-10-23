@@ -46,7 +46,7 @@ The word *tonu*, met earlier as "right, correct", stands here as a noun meaning
 *ʻĀfai ʻo le tonu, ʻua lelei.* If it is the decision, it is alright.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻĀfai e timu taeao, e lē alu le malaga.* | If it rains tomorrow, the trip will not go. |
 | *ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.* | If you go to the village, I'll go. |
@@ -54,7 +54,7 @@ The word *tonu*, met earlier as "right, correct", stands here as a noun meaning
 | *ʻĀfai e iai se apu, ʻou te ʻai.* | If there is an apple, I eat. |
 | *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.* | If the boy's will is strong, he does not obey. |
 
-> **Preview:** Samoan has a second if-word for a condition the speaker knows did
+> **Preview:** Sāmoan has a second if-word for a condition the speaker knows did
 > not come true and is only imagining, which is the kind of sentence English
 > builds with "if I had" and "if I were". That word is not *ʻāfai*, and it works
 > differently. It is taught in Chapter 49. Everything in this chapter is the
@@ -86,15 +86,15 @@ something expected to happen soon.
 
 The general particle carries two readings inside a condition clause. It can say
 that the speaker is not sure the condition will come true, and it can mean
-"whenever the condition is given", and the Samoan is the same either way.
+"whenever the condition is given", and the Sāmoan is the same either way.
 
 ::: {.examples}
 *ʻĀfai e timu, e lē alu le malaga.* If it rains, the trip does not go.
 :::
 
 Read that sentence the second way and it says: whenever it rains, the trip does
-not go. Nothing on the Samoan line has changed between the two readings, and
-nothing in the Samoan chooses between them, so a condition clause under the
+not go. Nothing on the Sāmoan line has changed between the two readings, and
+nothing in the Sāmoan chooses between them, so a condition clause under the
 general particle will sometimes need both English sentences to carry the whole
 of it.
 
@@ -114,13 +114,13 @@ The if-word and the tense particle behind it are both gone from the second
 sentence, and one word stands where the two of them were: *ʻā*, the short form
 of the future particle. A condition clause can open on *ʻā* with no joining word
 in front of it at all, and stringing two clauses together that way is a very
-common way of expressing a condition in Samoan.
+common way of expressing a condition in Sāmoan.
 
 A clause opened by *ʻā* says that what it names has to be in place before the
 other clause can happen. English renders it "if", "when" or "whenever",
-according to how expected the speaker thinks the condition is, and Samoan does
+according to how expected the speaker thinks the condition is, and Sāmoan does
 not mark that difference anywhere in the sentence. The choice among the three
-English words is therefore the translator's rather than the Samoan sentence's.
+English words is therefore the translator's rather than the Sāmoan sentence's.
 
 ::: {.examples}
 *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* When you go to the beach, bring the towel.
@@ -141,7 +141,7 @@ one thing happened, another used to follow.
 *ʻĀ siva le ʻāiga, ʻua uosi.* Whenever the family dances, they waltz. (Lit. "...has waltzed.")
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻĀ timu taeao, e lē alu le malaga.* | When it rains tomorrow, the trip will not go. |
 | *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* | When you go to the beach, bring the towel. |
@@ -151,7 +151,7 @@ one thing happened, another used to follow.
 
 > **Preview:** A condition clause opened by *ʻā* says what has to happen first.
 > English says how long something goes on before that point with "until", and
-> Samoan says it with a particle of its own. That particle belongs with the mood
+> Sāmoan says it with a particle of its own. That particle belongs with the mood
 > particles and is taught in Chapter 48.
 
 ---
@@ -178,7 +178,7 @@ the condition clause with whatever opens it.
 *ʻOleʻā mālaia ʻia te ʻoe pē ʻāfai ʻe te lē usitaʻi ʻi le pōloaʻiga.* Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.")
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.* | You cannot love, if you hate. |
 | *Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* | Come quickly if you get the food. |
@@ -266,7 +266,7 @@ Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
 4. *___ ʻe alu ʻi le matāfaga, ʻaumai le solo.* (When you go to the beach, bring the towel.)
 5. *___ ʻoleʻā timu taeao, e lē alu le malaga.* (If it is going to rain tomorrow, the trip will not go.)
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. If you go to the village, I go.
 2. If there is an apple, I eat.

@@ -54,7 +54,7 @@ as in the sentence above, or the change particle *ʻua*.
 *ʻAna ʻe sau, ʻua ʻou fiafia.* If you had come, I would have been happy. (Lit. "If you come, I have become happy.")
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.* | Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.") |
 | *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.* | Had you not come, I was probably going to run over to you. (Lit. "If you not come, probably I run away.") |
@@ -125,7 +125,7 @@ The pattern has three parts in a fixed order: the main clause, then *seʻiloga*,
 then the condition. In these sentences the condition carries a tense particle of
 its own, *e* in the first and *ʻua* in the second.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻOu te savali ʻi le āʻoga seʻiloga e timu.* | I walk to school, unless it rains. |
 | *E lē alu le malaga seʻiloga ʻua sau le tama.* | The trip will not go unless the boy has come. |
@@ -225,7 +225,7 @@ that expresses a negative idea.
 
 These sentences say that the main clause holds either way. The verb *tusa* (the
 same), met earlier, takes a question clause after it, and the question clause
-names the condition that makes no difference. Samoan builds three kinds of
+names the condition that makes no difference. Sāmoan builds three kinds of
 sentence on *tusa* this way, and each answers to a different English.
 
 The whether-or and whatever kinds also carry *lava* (indeed), a word of
@@ -349,7 +349,7 @@ sentence matches the English.
 9. Name the three kinds of sentence built on *tusa* by the English each answers to.
 10. Why does *ʻOleʻā alu le malaga e tusa lava pē timu pē leai* have no *ʻae*?
 
-### Exercise 6: Translate into Samoan
+### Exercise 6: Translate into Sāmoan
 
 1. If you had come, I would have been happy.
 2. I would have been angry if you had not come.

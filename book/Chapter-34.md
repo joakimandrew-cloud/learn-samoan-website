@@ -25,7 +25,7 @@ presenting particle *ʻo* in front of it, and the verb phrase comes after.
 Nothing else changed, and the English is the same either way.
 
 Until now the action has come before the named doer in every sentence of this
-book, and this is where Samoan does not. Moving a noun phrase to the head of the
+book, and this is where Sāmoan does not. Moving a noun phrase to the head of the
 sentence like this is **putting things first**, and it is available for any
 participant in the sentence: the doer, the thing acted on, or the place and
 time.
@@ -34,7 +34,7 @@ The pattern has two parts in a fixed order. First the presenting particle *ʻo*
 with the noun phrase it holds up, then the rest of the sentence built as usual,
 with that phrase's ordinary slot left empty.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le tama sā galue ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
 | *ʻO le teine sā galue ʻi le faʻatoʻaga.* | The girl worked in the plantation. |
@@ -85,7 +85,7 @@ Put the doer first and the verb usually takes the long form, *tapē=ina*. This i
 the same choice of shapes taught earlier in this book, now with two more places
 where speakers lean one way.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā tapē e le tama le puaʻa.* | The boy killed the pig. |
 | *ʻO le puaʻa sā tapē e le tama.* | The boy killed the pig. |
@@ -111,7 +111,7 @@ A third pair, with the same short form on a different verb:
 
 A sentence with the thing acted on at the front reads two ways in English.
 *ʻO le puaʻa sā tapē e le tama* is "the boy killed the pig" and it is equally
-"the pig was killed by the boy". Samoan does not choose between the two, because
+"the pig was killed by the boy". Sāmoan does not choose between the two, because
 there is one sentence here and English has two ways of saying it.
 
 What moves to the front is the whole phrase, however long it runs:
@@ -157,7 +157,7 @@ article, *naʻo le tama*, and the phrase goes to the head of the sentence bare:
 *Naʻo le tama e nofo ʻi totonu o le potu.* Only the boy is staying inside the room.
 :::
 
-> *Note:* Samoan writers usually print *naʻo* as two words, *na o*. This book
+> *Note:* Sāmoan writers usually print *naʻo* as two words, *na o*. This book
 > prints it as one.
 
 ---
@@ -187,7 +187,7 @@ The pointing-back word stands after the verb here as well. So a setting has two
 front positions open to it, one keeping its place word and one presented like a
 doer, and *ai* appears in both.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā galue le tama ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
 | *ʻi le faʻatoʻaga sā galue ai le tama.* | In the plantation the boy worked there. |
@@ -202,7 +202,7 @@ Putting a noun phrase first does four jobs, and the sentences above have already
 shown three of them.
 
 The first job is naming the topic. A phrase put first announces what the rest is
-going to be about, which is why Samoan stories so often open this way:
+going to be about, which is why Sāmoan stories so often open this way:
 
 ::: {.examples}
 *ʻO aʻu ʻou te nofo ʻi totonu o le fale.* I live inside the house.
@@ -242,7 +242,7 @@ front. It can also run the other way round:
 *ʻO le tama ʻo se uō.* The boy is a friend.
 :::
 
-Both are good Samoan and both say the same thing. The naming part nearly always
+Both are good Sāmoan and both say the same thing. The naming part nearly always
 carries *ʻo*, wherever it stands, while the other part, the one being named,
 carries *ʻo* only when it comes first. That is why the second sentence has two of
 them and the first has one.
@@ -265,7 +265,7 @@ And when the part being named is a demonstrative, it must come second:
 *Lenā* cannot lead, so the naming part comes first and the demonstrative follows
 it, every time.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO se uō le tama.* | The boy is a friend. |
 | *ʻO le tama ʻo se uō.* | The boy is a friend. |
@@ -328,7 +328,7 @@ of can be put first like any other:
 6. *Naʻo le tama e nofo ʻi totonu o le potu.*
 7. *ʻO le leo o le pepe na lagona e le tinā.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The girl worked in the plantation.
 2. The girl ate (all of) the fish.
@@ -361,7 +361,7 @@ and say which participant was put first.
 
 ### Exercise 5: Fill the gap
 
-Put *ʻo* or *ʻi* into the gap so the Samoan matches the English.
+Put *ʻo* or *ʻi* into the gap so the Sāmoan matches the English.
 
 1. *___ le faʻatoʻaga sā galue ai le tama.* (The boy worked in the plantation.)
 2. *___ aʻu ʻou te nofo ʻi totonu o le fale.* (I live inside the house.)

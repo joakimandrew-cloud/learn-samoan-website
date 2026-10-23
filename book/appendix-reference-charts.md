@@ -6,13 +6,13 @@ Quick-reference tables for the pronoun, possessive, article, tense-aspect-mood-p
 
 The preverbal pronoun set, taught whole in Chapter 2 as two grids: one person, then more than one.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻou* | I |
 | *ʻe* | you (one person) |
 | *ia* | he, she |
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *tā* | we two (you and I) |
 | *mā* | we two (but not you) |
@@ -114,7 +114,7 @@ Taught in Chapter 51.
 
 The same sentence run across the four tense-aspect-mood particles this book teaches, from Chapter 4.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou alu.* | I went. |
 | *Na ʻou alu.* | I went. |
@@ -125,9 +125,9 @@ Taught in Chapter 4. This is the four-particle set Chapter 4 teaches; the genera
 
 ## Demonstrative
 
-This book teaches one demonstrative, *lenā* ("that"), drilled in Chapter 7 against five naming sentences. Samoan has a fuller set of demonstratives beyond this one; that fuller set is outside this book.
+This book teaches one demonstrative, *lenā* ("that"), drilled in Chapter 7 against five naming sentences. Sāmoan has a fuller set of demonstratives beyond this one; that fuller set is outside this book.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le pusi lenā.* | That is the cat. |
 | *ʻO le tama lenā.* | That is the boy. |

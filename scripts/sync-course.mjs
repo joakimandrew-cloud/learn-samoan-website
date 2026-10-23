@@ -457,7 +457,7 @@ function glossary(md) {
   const out = []
   for (const sec of sections(md).slice(1)) {
     for (const t of tables(sec.body)) {
-      if (t.head.join('|') !== 'Samoan|English|Ch') fail(`Glossary ${sec.title}: unexpected columns ${t.head.join('|')}`)
+      if (!['Samoan|English|Ch', 'Sāmoan|English|Ch'].includes(t.head.join('|'))) fail(`Glossary ${sec.title}: unexpected columns ${t.head.join('|')}`)
       t.rows.forEach(row => out.push({ samoan: plain(row[0]), english: row[1], chapter: Number(row[2]) || null, letter: sec.title }))
     }
   }

@@ -22,9 +22,9 @@ middle word and you change who did it. Everything else stays where it is.
 ### The Verb
 
 *Alu* means "go". A **verb** is a word that names an action or a happening, and
-in a Samoan sentence it carries the meaning of what was done. *Alu* does not
+in a Sāmoan sentence it carries the meaning of what was done. *Alu* does not
 change its shape to show that the going already happened. English reaches
-inside the verb and bends it, so that "go" becomes "went". Samoan leaves the
+inside the verb and bends it, so that "go" becomes "went". Sāmoan leaves the
 verb alone: *alu* stays *alu* whether the going is past, present, or still to
 come. A separate word carries the time.
 
@@ -32,10 +32,10 @@ come. A separate word carries the time.
 
 That separate word is *sā*, the **past particle**: the word that goes in front
 and stamps the whole sentence as already done. It is the first of the three
-parts, and it never changes. Where English bends the verb, Samoan sets *sā*
+parts, and it never changes. Where English bends the verb, Sāmoan sets *sā*
 in front of it and leaves the rest untouched.
 
-> **Preview:** Samoan has a second past particle with a shade of meaning of its
+> **Preview:** Sāmoan has a second past particle with a shade of meaning of its
 > own, for events seen as single and finished. You meet it in Chapter 4. Every
 > past sentence you build in this chapter uses *sā*.
 
@@ -50,7 +50,7 @@ yourself and one other person.
 This chapter has four action words for this frame: *alu* (go), *siva* (dance),
 *tāʻele* (bathe), and *fāgota* (go fishing). The three parts combine like this:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou alu.* | I went. |
 | *Sā ʻou siva.* | I danced. |
@@ -60,7 +60,7 @@ This chapter has four action words for this frame: *alu* (go), *siva* (dance),
 Swap the middle word for *ia* and the same four things are said about someone
 else:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ia alu.* | She went. |
 | *Sā ia siva.* | She danced. |
@@ -75,13 +75,13 @@ middle word moves. That fixed order is the pattern of this chapter.
 ## Weather Sentences
 
 Sometimes there is no one to name. When rain falls, no person does the falling,
-and Samoan says nothing at all in the middle slot:
+and Sāmoan says nothing at all in the middle slot:
 
 ::: {.examples}
 *Sā timu.* It rained.
 :::
 
-*Timu* means "to rain". English needs the empty word "it" in "it rained"; Samoan
+*Timu* means "to rain". English needs the empty word "it" in "it rained"; Sāmoan
 does not. The particle and the verb alone make a complete, correct sentence,
 one of the shortest sentences in this book.
 
@@ -89,7 +89,7 @@ one of the shortest sentences in this book.
 
 ## Asking Questions
 
-To turn a statement into a yes or no question, Samoan changes no words at all.
+To turn a statement into a yes or no question, Sāmoan changes no words at all.
 Read these two aloud:
 
 ::: {.examples}
@@ -101,8 +101,8 @@ Read these two aloud:
 Compare them. Which words changed?
 
 None of them did. The words are identical, and so is their order. What changes
-is the tune of the voice, and here Samoan runs the opposite way to English. An
-English yes or no question lifts the voice at the end. A Samoan yes or no
+is the tune of the voice, and here Sāmoan runs the opposite way to English. An
+English yes or no question lifts the voice at the end. A Sāmoan yes or no
 question does not lift it.
 Instead the voice usually falls, staying low over the last two or three
 syllables. The arrow ↘ in this book marks that falling question tune. Say the
@@ -124,7 +124,7 @@ on its own from your very first day.
 > *Note:* Only questions carry the falling arrow in this book, and only in the
 > chapters that teach the question tune. A statement is never marked. When you
 > see *Sā ia alu?* ↘ you are being shown how to say it, not how to write it:
-> ordinary Samoan writes the question mark and leaves the tune to the voice.
+> ordinary Sāmoan writes the question mark and leaves the tune to the voice.
 
 ---
 
@@ -172,7 +172,7 @@ loved, and that marker comes later in this book.
 4. *Sā ʻou fāgota.*
 5. *Sā ia tāʻele.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. I danced.
 2. She went.

@@ -154,7 +154,7 @@ function Deck({ deckKey, words, mode, lessonNumber, meaningFor }) {
       )}
       <div className="cards-deck-tools">
         <button type="button" aria-pressed={state.direction === 'en'} onClick={() => { setFlipped(false); setState(previous => ({ ...previous, direction: previous.direction === 'to' ? 'en' : 'to' })) }}>
-          {state.direction === 'to' ? 'Samoan → English' : 'English → Samoan'}
+          {state.direction === 'to' ? 'Sāmoan → English' : 'English → Sāmoan'}
         </button>
         <button type="button" onClick={() => { setFlipped(false); setState(previous => shuffleDeck(previous, words)) }}>⇄ Shuffle and restart</button>
       </div>
@@ -196,7 +196,7 @@ export default function Cards() {
         <header className="cards-head">
           <div>
             <p className="eyebrow">Flip cards · {mode === 'global' ? `${vocabulary.length} book words` : 'Chapter deck'}</p>
-            <h1 className="cards-h1 display">{mode === 'global' ? <>Build a useful<br />Samoan vocabulary.</> : `Words from Chapter ${lessonNumber}`}</h1>
+            <h1 className="cards-h1 display">{mode === 'global' ? <>Build a useful<br />Sāmoan vocabulary.</> : `Words from Chapter ${lessonNumber}`}</h1>
             <p className="cards-sub">{mode === 'global' ? 'Every word from the Words to Learn tables. Choose a list or a band, then work through it in either direction.' : <><Md text={lesson?.title} /> · words from the chapter’s Words to Learn</>}</p>
           </div>
           <div className="cards-mode" role="tablist" aria-label="Card collection">

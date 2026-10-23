@@ -5,7 +5,7 @@
  *
  * data: { sentence: { sm, en }, parts: [{ sm, gloss, role, note }] }
  */
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion as Motion, useInView, useReducedMotion } from 'motion/react'
 import T from '../T.jsx'
 import { Md } from '../lesson/InlineMarkdown.jsx'
@@ -13,6 +13,7 @@ import '../../styles/ix-anatomy.css'
 
 export default function Anatomy({ data }) {
   const parts = data.parts
+  const uid = useId()
   const [on, setOn] = useState(0)
   const [auto, setAuto] = useState(true)
   const ref = useRef(null)
@@ -29,11 +30,11 @@ export default function Anatomy({ data }) {
     <div className="ix-anatomy" ref={ref}>
       <div className={`pf ${parts.length > 3 ? 'is-many' : ''}`} style={{ '--n': parts.length }} role="group" aria-label="Parts of the sentence">
         {parts.map((p, i) => (
-          <button key={i} type="button" className={`pf-part ${on === i ? 'is-on' : ''}`} onClick={() => pick(i)} aria-pressed={on === i}>
-            <span className="pf-num">{i + 1}</span>
-            <T className="pf-w">{p.sm}</T>
+          <button key={i} type="button" className={`pf-part ${on === i ? 'is-on' : ''}`} onClick={() => pick(i)} aria-pressed={on === i} aria-labelledby={`${uid}-w${i} ${uid}-r${i}`}>
+            <span className="pf-num" aria-hidden="true">{i + 1}</span>
+            <T className="pf-w" id={`${uid}-w${i}`}>{p.sm}</T>
             <span className="pf-g">{p.gloss}</span>
-            <span className="pf-role"><Md text={p.role} /></span>
+            <span className="pf-role" id={`${uid}-r${i}`}><Md text={p.role} /></span>
           </button>
         ))}
       </div>

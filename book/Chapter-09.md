@@ -48,7 +48,7 @@ The reply carries a second word alongside it, which this book does not teach.
 :::
 
 *Mālō*, the same word that congratulates, also works as a lighter, everyday
-"hi". To close an encounter, Samoan pairs two words of well-being:
+"hi". To close an encounter, Sāmoan pairs two words of well-being:
 
 ::: {.examples}
 *Soifua.* Good health. (a farewell)
@@ -84,7 +84,7 @@ and *faʻamolemole* for a polite request.
 *Faʻamolemole.* Please.
 :::
 
-Samoan speakers say "thank you" less often than English speakers do, not from
+Sāmoan speakers say "thank you" less often than English speakers do, not from
 any lack of courtesy but because the conventions differ. The thanks formula also
 declines: it can mean "no thank you".
 
@@ -96,7 +96,7 @@ declines: it can mean "no thank you".
 the tense-particle-free shape from the first section. Change the noun phrase and
 the wish moves to a new occasion:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Manuia le tausaga fou!* | Happy New Year! |
 | *Manuia le ʻāiga!* | Blessings on the family! |
@@ -106,13 +106,13 @@ the wish moves to a new occasion:
 
 The describing verb *mānaia* fills the same frame to praise a thing outright:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Mānaia le meaʻai!* | The food is nice! |
 | *Mānaia le tala!* | The story is lovely! |
 | *Mānaia le nuʻu!* | The village is beautiful! |
 
-> **Preview:** Samoan has an idiomatic exclamation that comments on how a person
+> **Preview:** Sāmoan has an idiomatic exclamation that comments on how a person
 > is reacting, as in *ʻO le fefe o Ulika!* ("Look how scared Ulika is!", Lit.
 > "The fear of Ulika!"). It is
 > a fixed expression here; the machinery that builds it, an event packed into a
@@ -122,7 +122,7 @@ The describing verb *mānaia* fills the same frame to praise a thing outright:
 
 ## Inviting Others Along
 
-To invite people to do something together, Samoan uses the word for "we" that
+To invite people to do something together, Sāmoan uses the word for "we" that
 includes the listener, the *tātou* and *tā* you already know, and puts it in
 front of the verb with no tense particle. The result is a warm "let's":
 
@@ -140,7 +140,7 @@ whole for now.
 
 ## The Respect Vocabulary
 
-Samoan carries a layer of polite words, the *ʻupu faʻaaloalo* or **respect
+Sāmoan carries a layer of polite words, the *ʻupu faʻaaloalo* or **respect
 words**, used when speaking to or about chiefs, pastors, elders, and other
 honoured people. A respect word replaces its everyday counterpart: where you
 would say *fale* for a house, respect speech says *maota*.
@@ -187,7 +187,7 @@ The folding runs one way only. The careful style keeps the distinctions the
 everyday style erases, and never the reverse, so you can always hear through an
 everyday form back to the careful one you learned, but you could not rebuild the
 careful form from the everyday one without knowing the word already. That is why
-the skill is recognition: you speak one Samoan, and your ear learns to
+the skill is recognition: you speak one Sāmoan, and your ear learns to
 understand two.
 
 > *Note:* This table too is for recognition only. Keep speaking the careful
@@ -248,7 +248,7 @@ For recognition only, three names carry over from the sections above:
 4. *Mālō le gālue!*
 5. *Mānaia le meaʻai!*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. Please.
 2. Goodbye.
@@ -258,7 +258,7 @@ For recognition only, three names carry over from the sections above:
 
 ### Exercise 3: Choose the formula
 
-Write the Samoan formula that fits each situation.
+Write the Sāmoan formula that fits each situation.
 
 1. You meet a friend on the road.
 2. Someone has helped you, and you want to thank them.

@@ -8,6 +8,7 @@ import { CHAPTER_COUNT, COURSE_NAME } from '@app/lib/course.js'
 
 const NAV = [
   { to: '/chapters', label: 'Chapters' },
+  { to: '/drills', label: 'Drills' },
   { to: '/quizzes', label: 'Quizzes' },
   { to: '/cards', label: 'Flip cards' },
   { to: '/glossary', label: 'Glossary' },
@@ -109,7 +110,7 @@ export function Header({ progress = false }) {
           <Wordmark />
           <nav className="hdr-nav" aria-label="Main">
             {NAV.map(n => (
-              <NavLink key={n.to} to={n.to} className={({ isActive }) => `hdr-link ${isActive || (n.to === '/reference' && /^\/(charts|introduction|pronunciation)/.test(loc.pathname)) ? 'is-active' : ''}`}>
+              <NavLink key={n.to} to={n.to} className={({ isActive }) => `hdr-link ${isActive || (n.to === '/reference' && /^\/(charts|introduction|pronunciation)/.test(loc.pathname)) || (n.to === '/drills' && /^\/drill\//.test(loc.pathname)) ? 'is-active' : ''}`}>
                 {n.label}
               </NavLink>
             ))}
@@ -160,12 +161,13 @@ export function Footer() {
       <TileBand className="ftr-band" tile={40} />
       <div className="wrap ftr-grid">
         <div className="ftr-brand">
-          {compact ? <Wordmark /> : <p className="ftr-big display">Learn Samoan.<br />One sentence<br />at a time.</p>}
+          {compact ? <Wordmark /> : <p className="ftr-big display">Learn Sāmoan.<br />One sentence<br />at a time.</p>}
         </div>
         <div className="ftr-col">
           <h2>Learn</h2>
           <Link to="/chapters">All {CHAPTER_COUNT} chapters</Link>
           <Link to="/chapters/1">Chapter 1</Link>
+          <Link to="/drills">Drills</Link>
           <Link to="/quizzes">Quizzes</Link>
           <Link to="/cards">Flip cards</Link>
         </div>

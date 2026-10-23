@@ -28,7 +28,7 @@ The pattern has three parts in a fixed order: the tense particle, then the
 quality word, then *atu*. What the sentence is about follows in its usual place,
 after the verb.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E mālosi atu le tama.* | The boy is stronger. |
 | *E loloto atu le vai.* | The water is deeper. |
@@ -36,7 +36,7 @@ after the verb.
 | *E vevela atu le koko.* | The cocoa is hotter. |
 
 Nothing in those four sentences says stronger than what, or deeper than what.
-Samoan leaves the other side of the comparison unsaid, and a sentence built
+Sāmoan leaves the other side of the comparison unsaid, and a sentence built
 this way is complete as it stands. Naming that other side takes
 one more word.
 
@@ -56,7 +56,7 @@ other thing the quality is being weighed against. Everything in front of it
 keeps the order it already had: tense particle, quality word, *atu*, then what
 the sentence is about, then *i lo* and its noun phrase.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E mālosi atu le tama i lo le teine.* | The boy is stronger than the girl. |
 | *E mamao atu le aʻau i lo le uafu.* | The reef is further away than the wharf. |
@@ -84,7 +84,7 @@ tense particle of its own. The quality and the thing that has it both go inside
 that clause, which is why the literal shape of the first sentence is "it is best
 that the house is good" and the plain English for it is "the house is the best".
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E sili ona lelei le fale.* | The house is the best. |
 | *E sili ona mālosi le maile.* | The dog is the strongest. |
@@ -107,7 +107,7 @@ front of the clause in this one.
 > the thing compared rather than stating it flat, so that "her brothers are
 > older than she is" comes out as "her brothers who are older than she is".
 > That kind of clause is taught in Chapter 43, and comparison is one of the
-> places Samoan prefers it.
+> places Sāmoan prefers it.
 
 ---
 
@@ -127,7 +127,7 @@ noun phrase opened by *o*, the presenting particle met earlier in this book,
 which the sources print without its mark in this position: *o se manulele*
 (a bird).
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā tautala le tama e pei sā ʻi ai.* | The boy spoke as if he had been there. |
 | *Sā tagi le pepe e pei o se manulele.* | The baby cried like a bird. |
@@ -146,13 +146,13 @@ the with-word:
 :::
 
 Nothing inside the *tusa* clause names who is the same, and nothing needs to:
-the first half of the sentence has already named her, so Samoan leaves the word
+the first half of the sentence has already named her, so Sāmoan leaves the word
 out rather than say it twice.
 
 > *Note:* The two verbs do different work. *Pei* likens one thing to another,
 > which is why the same word covers both "like" and "as if". Where a clause
 > follows it, as in the first sentence above, the comparison is with a
-> situation imagined rather than one that actually happened. Samoan has a third
+> situation imagined rather than one that actually happened. Sāmoan has a third
 > thing that can follow *pei*, used when the compared situation really did
 > occur, and this chapter does not teach it. *Tusa ma* claims sameness or
 > agreement, and it is the word this chapter's own sentence uses for acting in
@@ -213,7 +213,7 @@ Three of the new words meet in one phrase:
 5. *E laʻitiiti atu le manulele i lo le maile.*
 6. *E laʻitiiti atu le isu o le pusi i lo le isu o le maile.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The water is deeper.
 2. The door is newer than the house.
@@ -244,7 +244,7 @@ Add *i lo* and the noun phrase in brackets to the end of each sentence.
 
 ### Exercise 5: Choose *e pei* or *e tusa ma*
 
-Fill each gap so that the Samoan matches the English.
+Fill each gap so that the Sāmoan matches the English.
 
 1. *Sā siva le teine ___ le finagalo o le tamā.* (The girl danced in accordance with the father's wish.)
 2. *E tautala le tama ___ o se saienitisi.* (The boy talks like a scientist.)

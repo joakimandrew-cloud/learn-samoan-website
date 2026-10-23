@@ -55,7 +55,7 @@ export default function Order({ data }) {
   const right = answered && deck.marked === true
   const shown = answered ? checkOrder(current, placedTexts).shown : placedTexts
   const stop = current ? finalStop(current.sm) : ''
-  const prompt = data.prompt || 'Say this in Samoan'
+  const prompt = data.prompt || 'Say this in Sāmoan'
   // Cards reuse tile ids, so a flight is named for this widget, pass and card.
   const flightId = id => `${uid}-${pass}-${deck.index}-${id}`
   const byKeyboard = event => event?.detail === 0

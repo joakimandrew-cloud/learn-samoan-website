@@ -2,7 +2,7 @@
 .cards-in { max-width: 1120px; margin: 0 auto; padding: clamp(24px, 3.5vw, 44px) var(--gutter) 60px; }
 .cards-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
 .cards-head > div:first-child { flex: 1 1 0; min-width: 0; max-width: 620px; }
-.cards-h1 { font-size: clamp(44px, 5.4vw, 76px); margin: 14px 0 0; }
+.cards-h1 { font-size: clamp(44px, 5.4vw, 76px); margin: 14px 0 0; line-height: .98; }
 .cards-sub { margin: 8px 0 0; color: var(--muted); font-size: 15px; }
 .cards-mode { display: inline-flex; padding: 4px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); }
 .cards-mode button { min-height: 44px; padding: 0 17px; border: 0; border-radius: 999px; background: transparent; color: var(--muted); font-weight: 650; }

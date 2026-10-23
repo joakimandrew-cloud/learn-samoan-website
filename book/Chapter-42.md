@@ -29,7 +29,7 @@ something is. A sentence built this way is called the **belonging-sentence**.
 In its basic form the parts come in a fixed order: the tense particle, then
 the belonging word with its owner, then the thing owned.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E aʻu le naifi.* | The knife is mine. |
 | *E oʻu le fale.* | The house is mine. |
@@ -100,7 +100,7 @@ The belonging-sentence does not allow that. Here the belonging word is
 required for every owner, singular, pair, and group alike, and the two types
 stay apart in every row of the table above.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E a mātou le taʻavale.* | The car is ours. |
 | *ʻO le mātou taʻavale.* | Our car. |
@@ -152,7 +152,7 @@ like, the pattern met earlier in this book. *Paʻeʻe* (lean) fills the same slo
 
 Any of these can fill the owned slot of a belonging-sentence:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E aʻu le masini uʻamea.* | The steel machine is mine. |
 | *E ana le taʻavale ʻeleʻelea.* | The dirty car is his. |
@@ -179,7 +179,7 @@ and *o le aliʻi* stands where *oʻu* stood.
 Everything the sentence claims sits in that one part: the belonging word says
 which type of belonging, and the naming part behind it says whose.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E a le teine le naifi.* | The knife belongs to the girl. |
 | *E a le tama le maile.* | The dog belongs to the boy. |
@@ -215,7 +215,7 @@ about a house uses *ona*.
 
 The question marker *po* stands at the front here as it does elsewhere:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO ai e ana le taʻavale?* | Whose is the car? |
 | *Po ʻo ai e ana le taʻavale?* | Whose is the car? |
@@ -242,7 +242,7 @@ later in the sentence. Here it is the thing owned that moves, not the owner. The
 belonging word and its owner stay where they stood, so nothing is left behind to
 answer.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le naifi e a le fafine.* | This is the woman's knife. (Lit. "The knife, the woman's.") |
 | *ʻO le fale e o le aliʻi.* | This is the chief's house. (Lit. "The house, the chief's.") |
@@ -299,7 +299,7 @@ answer.
 4. *ʻO ai e ana le taʻavale?*
 5. *ʻO le maile e a le tama.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The house is mine.
 2. The car is ours.

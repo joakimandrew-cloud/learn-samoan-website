@@ -3,7 +3,7 @@
 This chapter adds the two do-not verbs, *ʻaua* and *sōia*, each standing at the
 head of the sentence in front of the person and verb for what must not be done,
 so you can tell someone not to do something. A command takes no not-word; to
-forbid an action, Samoan reaches for a verb of its own.
+forbid an action, Sāmoan reaches for a verb of its own.
 
 ---
 
@@ -25,7 +25,7 @@ its object. (Lit. "Do not, you, torture at living things.")
 The pattern has three parts after *ʻaua*: the person, the general particle *te*,
 then the verb. Change the verb and you forbid a different action.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻAua ʻe te faitala.* | Don't gossip. |
 | *ʻAua ʻe te siva.* | Don't dance. |
@@ -60,7 +60,7 @@ A command like *siva* (dance) carries no tense particle. Compare the statement
 above with the command: the statement has *sā* for *lē* to follow, and the
 command has nothing. There is no slot for the not-word to fill, so a command can
 never be denied with a particle. You cannot say *lē siva*. To forbid the action,
-Samoan uses a verb instead, the do-not verb *ʻaua*.
+Sāmoan uses a verb instead, the do-not verb *ʻaua*.
 
 That fills in the last of the four ways of saying no this book has been
 building, each for a different job:
@@ -81,7 +81,7 @@ verb, never with a particle.
 someone to stop an action already under way. It takes the same parts after it:
 the person, the general particle *te*, then the verb.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sōia ʻe te siva.* | Stop dancing. |
 | *Sōia ʻe te tagi.* | Stop crying. |
@@ -103,7 +103,7 @@ Like *ʻaua*, *sōia* can stand on its own when what to stop is clear:
 > another way to mark what is forbidden. It belongs to a family of mood words
 > taught later in this book; here it is enough to recognize it.
 
-> **Preview:** Samoan has a second way to forbid something, by naming the
+> **Preview:** Sāmoan has a second way to forbid something, by naming the
 > forbidden action as a thing rather than spelling it out with a person and a
 > verb. That form is taught in Chapter 35. Until then, forbid an action with the
 > person-and-verb pattern of this chapter.
@@ -165,7 +165,7 @@ its plural form *nonofo*.
 4. *ʻAua ʻe te taumafai.*
 5. *Sōia ʻe te tagi.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. Don't dance.
 2. Stop gossiping.

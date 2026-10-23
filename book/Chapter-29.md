@@ -28,14 +28,14 @@ until the speaker returns. A word that stands after a verb and says which way it
 action is turned is called a **direction word**. The pattern of this chapter has
 two parts in a fixed order: the verb, then the direction word.
 
-The English on those two lines says more than the Samoan does. The two words
+The English on those two lines says more than the Sāmoan does. The two words
 say only "wait" and a direction; that the listener stays put until the speaker
 returns, or that the listener waits so the speaker can catch up, is the
 situation each phrase is used in, and neither word carries it on its own. The
 line marked Lit. shows what the words themselves say, and this book prints one
-wherever its English adds something the Samoan leaves unsaid.
+wherever its English adds something the Sāmoan leaves unsaid.
 
-Samoan has six direction words, and they fall into two groups.
+Sāmoan has six direction words, and they fall into two groups.
 
 | Word | Meaning |
 |---|---|
@@ -66,7 +66,7 @@ The direction word stands after the verb, in front of whoever did the action.
 Five of the six can be set in that slot on the verb *alu* (go), one after
 another, and nothing else moves:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Na alu atu le tama.* | The boy went off (away from me, toward you). |
 | *Na alu ane le tama.* | The boy went past. |
@@ -82,7 +82,7 @@ Two other kinds of word can stand in the same stretch after the verb, and
 their order is fixed. A describing word, the kind you met early in this book,
 comes before the direction word; the pointing-back word *ai* comes after it:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Na alu vave atu le tama.* | The boy went off quickly. |
 | *Sā nofo aʻe ai le tama.* | The boy sat up there. |
@@ -149,7 +149,7 @@ The word *ʻaumai* (bring), one of the first commands in this book, is an old ve
 of taking with *mai* fused onto the end of it: take, toward me.
 
 > **Preview:** *Atu* has one more job. Set on a quality word, it says that one
-> thing has more of that quality than another, which is how Samoan compares two
+> thing has more of that quality than another, which is how Sāmoan compares two
 > things. That use is taught in Chapter 31. In this chapter *atu* only points
 > away from the speaker.
 
@@ -217,7 +217,7 @@ noun, the belonging word, then the thing the position is measured against. The
 direction word goes directly after the spatial noun, and it keeps its
 direction:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le pusi ʻi lalo o le fale.* | The cat under the house. |
 | *ʻO le pusi ʻi lalo ifo o le fale.* | The cat underneath the house. |
@@ -292,7 +292,7 @@ taught earlier in this book.
 
 ### Exercise 2: Choose *mai* or *atu*
 
-Fill the gap so the Samoan matches the English.
+Fill the gap so the Sāmoan matches the English.
 
 1. *Faʻatali ___.* (Wait for me.)
 2. *Na alu ___ le tama.* (The boy went off.)
@@ -301,7 +301,7 @@ Fill the gap so the Samoan matches the English.
 5. *Faʻatali ___.* (Wait here until I come back.)
 6. *ʻUa tagi ___ le teine ʻi lona tamā.* (The girl cried out to her father, away from the speaker.)
 
-### Exercise 3: Translate into Samoan
+### Exercise 3: Translate into Sāmoan
 
 1. The boy went up.
 2. The girl cried out to her father.

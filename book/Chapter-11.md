@@ -32,7 +32,7 @@ it decides whether *ʻi* lands in English as "in", "at", "to", or "into". The
 place named can decide as well, and where neither settles it, the rest of what
 is being said does.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻou alu ʻi le nuʻu.* | I went to the village. |
 | *Sā ia alu ʻi le fale.* | She went to the house. |
@@ -45,10 +45,10 @@ Two of the verbs here are new: *oso* (jump) and *lele* (fly). Both name a way of
 moving, so with either one *ʻi* is heard as "to" or "into".
 
 > *Note:* English has a different word for nearly every kind of place: in, at,
-> to, into. Samoan uses the one word *ʻi* for all of them and leaves the
+> to, into. Sāmoan uses the one word *ʻi* for all of them and leaves the
 > difference to the verb, to the place named, and to the rest of what is said.
 > The same word even marks the tool an action is done with. To
-> say someone cut the weeds, *vao*, with a bush-knife, Samoan sets the bush-knife
+> say someone cut the weeds, *vao*, with a bush-knife, Sāmoan sets the bush-knife
 > in a place phrase, *ʻi le sapelu* (with a bush-knife); there is no separate word
 > for "with a tool". That fuller sentence uses grammar taught later in this book.
 
@@ -75,7 +75,7 @@ from-word: it marks where something started. The new word here is *solofanua*
 the house". The from-word sits in the same end-of-sentence spot as the place
 word, in front of the naming part for the source.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Na oso le tama mai le solofanua.* | The boy jumped from the horse. |
 | *Na oso le pusi mai le lāʻau.* | The cat jumped from the tree. |
@@ -86,7 +86,7 @@ A sentence can hold both a place and a source at once, one marked by *ʻi* and o
 by *mai*, each in front of its own place: the place word for where the action
 sits or is headed, the from-word for where it began.
 
-> **Preview:** Samoan also has words that name a spot on their own, like "up" and
+> **Preview:** Sāmoan also has words that name a spot on their own, like "up" and
 > "down" and "inside". They work together with the place word *ʻi*, and they are
 > completed in Chapter 26.
 
@@ -135,7 +135,7 @@ for now learn the three words and meet the sentence there.
 4. *Na sau le teine mai le nuʻu.*
 5. *Sā lele le ʻāgelu ʻi le nuʻu.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The boy went to the house.
 2. The cat stayed in the tree.
@@ -166,7 +166,7 @@ headed to and *mai* for a place you came from.
 
 ### Exercise 5: Match the place word to its English
 
-Each Samoan sentence uses *ʻi*. Say whether *ʻi* lands in English as "in", "to", or
+Each Sāmoan sentence uses *ʻi*. Say whether *ʻi* lands in English as "in", "to", or
 "into", and translate the sentence.
 
 1. *Sā nofo le pusi ʻi le lāʻau.*

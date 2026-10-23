@@ -22,7 +22,7 @@ A companion is a thing carried along or a person who comes too. It goes at the
 end, after the doer, with *ma* in front of it. The doer is still one person, so
 the verb keeps its singular shape and nothing else in the sentence moves:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā siva le teine ma le ili.* | The girl danced with the fan. |
 | *Sā alu le teine ma le uō.* | The girl went with the friend. |
@@ -48,7 +48,7 @@ Because two people do the staying, the verb takes its plural shape: *nonofo*, th
 plural of *nofo* met earlier in this book. The plural verb is the sign that both
 names are doers and that *ma* here means "and", not "with".
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā nonofo le tama ma le teine.* | The boy and the girl stayed. |
 | *Sā nonofo le teine ma le uō.* | The girl and the friend stayed. |
@@ -57,7 +57,7 @@ names are doers and that *ma* here means "and", not "with".
 
 ## The Number of the Verb Tells You Which
 
-English keeps "with" and "and" apart with two different words. Samoan uses the
+English keeps "with" and "and" apart with two different words. Sāmoan uses the
 one word *ma* for both, and lets the verb settle which is meant. Read this pair,
 the same words each time except for the verb:
 
@@ -90,7 +90,7 @@ companion and a second doer.
 
 ## Other Jobs of *Ma*
 
-The fan in the sentence Samoan draws this pattern from is a white one. The
+The fan in the sentence Sāmoan draws this pattern from is a white one. The
 describing word for white is *paʻepaʻe*, and on its own it says how a thing is:
 
 ::: {.examples}
@@ -100,7 +100,7 @@ describing word for white is *paʻepaʻe*, and on its own it says how a thing is
 The word *ma* reaches past "with" and "and" into a few further jobs, met in
 reading rather than drilled here. Placed after a word like *mamao* (far), it
 says "far from", and more widely it marks what one thing is separated from,
-distant from, or different from: Samoan describes a boat lying far from its home
+distant from, or different from: Sāmoan describes a boat lying far from its home
 village that way. As a plain describing word, *mamao* says only that something
 is far off:
 
@@ -157,7 +157,7 @@ built anywhere in this book.
 4. *Sā alu le teine ma le uō.*
 5. *E mamao le nuʻu.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The girl danced with the fan.
 2. The boy and the girl stayed.

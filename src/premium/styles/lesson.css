@@ -2,7 +2,7 @@
 .ls-hero { padding: clamp(40px, 6vw, 88px) 0 clamp(48px, 6vw, 80px); border-bottom: 1px solid var(--line); background: linear-gradient(180deg, var(--paper-soft), var(--paper) 70%); }
 .ls-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: clamp(32px, 6vw, 100px); align-items: center; }
 .crumbs { display: flex; gap: 10px; font-size: 13.5px; color: var(--muted); flex-wrap: wrap; }
-.crumbs a { color: var(--ink); text-decoration: none; font-weight: 600; }
+.crumbs a { color: var(--ink); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; min-height: 24px; }
 .crumbs a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .ls-num { font-family: var(--f-display); font-weight: 700; letter-spacing: .2em; text-transform: uppercase; font-size: 14px; color: var(--red); margin: 36px 0 0; }
 .ls-h1 { font-size: clamp(56px, 7.4vw, 112px); margin: 12px 0 0; color: var(--ink); }
@@ -272,6 +272,7 @@
 .self-b.no:hover { border-color: var(--ink); }
 .self-done { font-size: 14px; color: var(--muted); }
 .xs.is-quick { margin: 30px 0; border-color: color-mix(in srgb, var(--red) 35%, var(--line)); background: var(--red-soft); }
+.xs.is-quick .xi-n { color: var(--muted); }
 .xs-complete { margin: 12px 0 0; color: var(--success); font-size: 14px; font-weight: 700; text-align: right; }
 .match { border-top: 1px solid var(--line); padding-top: 16px; }
 .match-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; color: var(--muted); font-size: 14px; }

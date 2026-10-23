@@ -15,7 +15,7 @@ adds the other half of a language, the words that name people and things. A word
 that names a person or a thing is called a **noun**. *Teine* is a noun, "girl".
 *Ipu* is a noun, "cup".
 
-A Samoan noun usually takes a word in front of it, called an **article**, and
+A Sāmoan noun usually takes a word in front of it, called an **article**, and
 the article does a job English hands to "the", "a", and "some". One of the four
 cells you meet in this chapter leaves that slot empty.
 
@@ -33,7 +33,7 @@ The word *le* is the **specific article**: it marks the noun as one particular
 thing the speaker already has in mind. Put *le* in front of a noun and you have
 named one particular, single thing. It keeps the same shape in front of any noun.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le teine* | the girl |
 | *le tamaʻitaʻi* | the lady |
@@ -71,7 +71,7 @@ Swap the verb, and the same doer takes a different action:
 ## The Non-Specific Articles *Se* and *Ni*
 
 Sometimes the speaker does not have one particular thing in mind. Any one will
-do. For that, Samoan uses a different set of articles.
+do. For that, Sāmoan uses a different set of articles.
 
 ::: {.examples}
 *ʻAumai se ipu.* Bring a cup.
@@ -84,7 +84,7 @@ one, no particular one chosen. The word *ni* is its partner for more than one: i
 means some, any ones at all. *ʻAumai se ipu* asks for a cup, whichever cup is
 nearest; *ʻAumai ni ipu* asks for some cups, however many.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *se teine* | a girl (any girl) |
 | *se mea* | a thing, something |
@@ -95,16 +95,16 @@ nearest; *ʻAumai ni ipu* asks for some cups, however many.
 
 It is tempting to read *le* as English "the" and *se* as English "a". That
 mapping breaks quickly. English chooses "the" or "a" by whether the hearer
-already knows which one; Samoan chooses *le* or *se* by whether the speaker has
+already knows which one; Sāmoan chooses *le* or *se* by whether the speaker has
 one particular thing in mind. The two questions are not the same, and where they
 part company, the English habit sends you to the wrong article.
 
 Ask one question instead of two: "do I have one particular thing in mind?" If
 yes, use *le*, even in places where English would say "a" (a storyteller opening
 with "there was a girl" who then carries that same girl through the whole tale
-has one particular girl in mind, and Samoan uses *le*). If any example of the
+has one particular girl in mind, and Sāmoan uses *le*). If any example of the
 thing would do, use *se*. You are not translating "the" and "a"; you are setting
-them aside and asking the Samoan question.
+them aside and asking the Sāmoan question.
 
 ---
 
@@ -161,7 +161,7 @@ speaks of many:
 *Sā fiafia teine.* The girls were happy.
 :::
 
-> **Preview:** Samoan has one more small set of articles, used to add warmth,
+> **Preview:** Sāmoan has one more small set of articles, used to add warmth,
 > tenderness, or a sense of smallness to a noun. They round out the article
 > system and are taught in Chapter 51. The four articles in this chapter are the
 > everyday set you will use constantly.
@@ -201,7 +201,7 @@ speaks of many:
 4. *lāʻau*
 5. *le tamaʻitaʻi*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. the angel
 2. a cup
@@ -220,7 +220,7 @@ specific.
 
 ### Exercise 4: Choose *le* or *se*
 
-Put *le* or *se* in the gap so the Samoan matches the English.
+Put *le* or *se* in the gap so the Sāmoan matches the English.
 
 1. *___ mea* (one particular thing, the thing)
 2. *___ ipu* (any cup, no particular one)

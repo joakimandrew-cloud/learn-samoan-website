@@ -24,7 +24,7 @@ first). Neither word says when the event happens. Each says how the speaker
 stands toward it: asked for, wanted, allowed.
 
 A word that stands in the tense particle's slot and says how an event is
-wanted, waited for or warned against is called a **mood particle**. Samoan has
+wanted, waited for or warned against is called a **mood particle**. Sāmoan has
 four, and each is named by its job:
 
 | Particle | Job |
@@ -64,7 +64,7 @@ The pattern has three parts in a fixed order: *ʻia*, then a preverbal pronoun o
 nothing, then the verb. A noun naming who or what the clause is about comes
 after the verb.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻIa tātou ʻonosaʻi.* | Let's be patient. |
 | *ʻIa ʻe ʻonosaʻi.* | Be patient. |
@@ -133,7 +133,7 @@ sentence. Addressed to the person spoken to, it makes a polite request, as in
 the second. About someone who is neither the speaker nor the listener, it says
 that the speaker wants the event to come true, as in the third.
 
-| Samoan | English | Job |
+| Sāmoan | English | Job |
 |---|---|---|
 | *Seʻi oʻu alu muamua.* | Let me go first. | asks permission |
 | *Seʻi oʻu fesili.* | Let me ask. | asks permission |
@@ -162,7 +162,7 @@ more hopeful one, and *ʻia* the plainer and firmer one.
 ### A Second Clause with *Seʻi*
 
 ::: {.examples}
-*ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua.* I want to go to Samoa to take care of my parents. (Lit. "I want to go to Samoa, seʻi look toward my parents.")
+*ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua.* I want to go to Sāmoa to take care of my parents. (Lit. "I want to go to Sāmoa, seʻi look toward my parents.")
 
 *Faʻamolemole, ʻaumai se moli seʻi ʻai ai le loʻomatua.* Please bring an orange for the old woman to eat. (Lit. "Please bring an orange, let the old woman eat from it.")
 :::
@@ -177,8 +177,8 @@ The pattern has two parts in a fixed order: the first clause, then *seʻi* with
 the verb of the second clause.
 
 No joining word ties the *seʻi* clause to the first, and nothing in the grammar
-of the words marks it as part of the first. The way Samoan speakers say such
-sentences, and the way Samoan writers punctuate them, suggests that the second
+of the words marks it as part of the first. The way Sāmoan speakers say such
+sentences, and the way Sāmoan writers punctuate them, suggests that the second
 clause belongs to the first.
 
 > *Note:* *Oʻu* in *oʻu mātua* is the my-word for more than one particular
@@ -204,7 +204,7 @@ or what that clause is about after the verb.
 after it. In the second sentence the person dressing is not named by a pronoun
 at all; the clause names the clothes.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Faʻatali seʻia sau le tama.* | Wait until the boy comes. |
 | *Faʻatali seʻia sau lou tinā.* | Wait until your mother comes. |
@@ -273,7 +273,7 @@ noise.
 ### After Worry, Fear and Dislike
 
 ::: {.examples}
-*ʻO le isi foʻi mea e popole ʻi ai le faifeʻau, neʻi tei ʻua foʻi le malaga ʻi Sāmoa.* Another thing the pastor was worried about was that the travel party might suddenly return to Samoa. (Lit. "The other also thing the pastor worries about, lest suddenly has returned the travel party to Samoa.")
+*ʻO le isi foʻi mea e popole ʻi ai le faifeʻau, neʻi tei ʻua foʻi le malaga ʻi Sāmoa.* Another thing the pastor was worried about was that the travel party might suddenly return to Sāmoa. (Lit. "The other also thing the pastor worries about, lest suddenly has returned the travel party to Sāmoa.")
 :::
 
 *Popole* (worry) names a feeling about something that should not happen, and the
@@ -326,7 +326,7 @@ perhaps a few other verbs of thinking and feeling do too. After these verbs
 7. *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu uso.*
 8. *Faʻamolemole, ʻaumai se meaʻai seʻi ʻai ai le toeaʻina.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 Use the mood particle named after each sentence.
 
@@ -399,7 +399,7 @@ wish.
 4. Don't cry.
 5. Have a nice day.
 6. Pray to get some help.
-7. I want to go to Samoa to take care of my siblings.
+7. I want to go to Sāmoa to take care of my siblings.
 8. Please bring some food for the old man to eat.
 
 ### Exercise 2
@@ -433,7 +433,7 @@ wish.
 2. *ʻIa alofa atu*. *Seʻi* is less absolute, and putting *ʻia* in its place makes the request firmer.
 3. No. A *neʻi* clause always depends on another clause.
 4. Something that should not happen: her finger-nails getting dirty.
-5. Nothing in the words. The way Samoan speakers say such sentences, and the way Samoan writers punctuate them, suggests it.
+5. Nothing in the words. The way Sāmoan speakers say such sentences, and the way Sāmoan writers punctuate them, suggests it.
 6. *Popole* (worry), *fefe* (be afraid) and *musu* (dislike).
 7. It joins the *ʻia* clause to *tatalo* and marks it as part of the sentence before it; *ʻina ʻia* means in order to.
 8. *ʻIa* opens it. The sentence passes on the bare command *Faʻatali* (Wait).

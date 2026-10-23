@@ -1,10 +1,10 @@
 # Chapter 15: The Negative
 
-This chapter adds Samoan's two negative words for the statement: the not-word
+This chapter adds Sāmoan's two negative words for the statement: the not-word
 *lē*, which denies that something happened, and the not-yet word *leʻi*, which
 says it has not happened so far. Each drops into the slot right after the tense
 particle and in front of the verb, and the same machinery completes the naming
-sentence taught earlier in this book, giving Samoan its way to say that
+sentence taught earlier in this book, giving Sāmoan its way to say that
 something is not so.
 
 ---
@@ -27,7 +27,7 @@ verb.
 
 The not-word keeps this one position under every tense particle:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā lē siva le teine.* | The girl did not dance. |
 | *ʻOleʻā ʻou lē siva.* | I will not dance. |
@@ -86,7 +86,7 @@ form *ʻoloʻo*; after the not-word it appears in this short shape.
 Denying a habit with the not-word on its own also reaches future time: the
 same words can say what will not happen as well as what does not.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻOu te lē alu.* | I do not go. |
 | *ʻOu te lē ʻo alu.* | I am not going. |
@@ -111,7 +111,7 @@ expected to. Like the not-word, it sits after the tense particle and in front
 of the verb. It rides the general particle *e* (and *te* after a pronoun),
 which is the company it normally keeps:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E leʻi alu le teine.* | The girl has not gone yet. |
 | *E leʻi sau le tamā.* | The father has not come yet. |
@@ -136,7 +136,7 @@ end. They differ in meaning too. *E lē alu le teine* is "the girl does not go";
 The naming sentence from earlier in this book sets two parts side by side with
 no verb: *ʻO se uō le tama* (the boy is a friend). Because it has no tense
 particle and no verb, there is no slot inside it for the not-word to fill. To
-deny it, Samoan builds a small shell around the whole sentence, the general
+deny it, Sāmoan builds a small shell around the whole sentence, the general
 particle *e* with the not-word *lē*, meaning "it is not the case", and tucks
 the naming sentence inside:
 
@@ -150,7 +150,7 @@ The presenting particle *ʻo* still marks the naming part, exactly as it did in
 the plain naming sentence; the general particle and the not-word wrap around
 the front. The order inside does not change. The denial is added as a shell.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E lē ʻo se uō le tama.* | The boy is not a friend. |
 | *E lē ʻo se pepe le teine.* | The girl is not a baby. |
@@ -160,7 +160,7 @@ the front. The order inside does not change. The denial is added as a shell.
 
 ## One "Not," Four Tools
 
-Samoan has no single word that does the work of English "not". It has a small
+Sāmoan has no single word that does the work of English "not". It has a small
 set of tools, and the kind of sentence you are building chooses which one:
 
 - **A statement or a question.** The not-word *lē*: *Sā lē siva le teine* (the
@@ -227,7 +227,7 @@ later in this book.
 4. *E lē ʻo se pepe le teine.*
 5. *ʻOu te lē alu.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The boy is not strong.
 2. I have not gone yet.

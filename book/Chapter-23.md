@@ -48,7 +48,7 @@ Name the type of each.
 5. *ʻO āfea ʻoleʻā moe ai le tama?*
 6. *Sā faʻapefea le aso?*
 
-### Exercise 3: Translate into Samoan
+### Exercise 3: Translate into Sāmoan
 
 1. The girl did not dance.
 2. Who went?
@@ -87,7 +87,7 @@ Rewrite each sentence as its opposite, reaching for the right negation tool.
 
 ### Exercise 6: Make each statement a yes or no question
 
-In Samoan the words do not change to make a yes or no question; the voice usually
+In Sāmoan the words do not change to make a yes or no question; the voice usually
 falls at the end instead. In writing, the question mark is usually all you add;
 the two question-marking words taught in Chapter 8 are the other route. Mark the
 falling tune with ↘.
@@ -100,7 +100,7 @@ falling tune with ↘.
 
 ### Exercise 7: Count and tell the time
 
-Translate into Samoan.
+Translate into Sāmoan.
 
 1. the three boys
 2. the two girls, counted as people
@@ -114,7 +114,7 @@ Translate into Samoan.
 
 ### Exercise 8: Complete the conversation
 
-Two people meet. Fill each blank with a whole Samoan sentence that fits the
+Two people meet. Fill each blank with a whole Sāmoan sentence that fits the
 English in the brackets.
 
 1. First speaker: *Tālofa.* (Hello.)
@@ -130,7 +130,7 @@ English in the brackets.
 
 ## Can You Do This?
 
-Here is the whole Beginner band in ten tasks. Do each one out loud in Samoan,
+Here is the whole Beginner band in ten tasks. Do each one out loud in Sāmoan,
 then check the model answer. If a task feels shaky, go back to the chapter that
 built it before moving into the Intermediate band.
 

@@ -19,7 +19,7 @@ import { keepInView, useCardKeys, useIsTouchPrimary } from './engine.js'
 import { initMatch, isLastRound, isRoundDone, matchReducer, newPass, roundOf, roundSize } from './match-logic.js'
 import '../../styles/ix-match.css'
 
-const SIDES = [{ side: 'sm', label: 'Samoan' }, { side: 'en', label: 'English' }]
+const SIDES = [{ side: 'sm', label: 'Sāmoan' }, { side: 'en', label: 'English' }]
 // A second tap that lands on whatever replaced the button just pressed
 // (Finish, then Go again) is ignored for this long.
 const SETTLE_MS = 350

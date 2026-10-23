@@ -6,7 +6,7 @@
       "kind": "type",
       "anchor": "words-to-learn",
       "title": "Type the new words",
-      "intro": "Read the English and type the Samoan. The keys under the box add the long vowels and the glottal stop.",
+      "intro": "Read the English and type the Sāmoan. The keys under the box add the long vowels and the glottal stop.",
       "data": {
         "items": [
           {
@@ -27,7 +27,7 @@
           {
             "en": "go fishing",
             "sm": "fāgota",
-            "hint": "One word in Samoan.",
+            "hint": "One word in Sāmoan.",
             "why": "As in *Sā ia fāgota.* (She went fishing.)"
           },
           {

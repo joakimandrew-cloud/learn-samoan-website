@@ -7,14 +7,14 @@ const STEPS = [
   {
     number: '01',
     title: 'Learn the sounds and spelling',
-    text: 'Read how Samoan is spelled and said, with the two marks for the glottal stop and long vowels.',
+    text: 'Read how Sāmoan is spelled and said, with the two marks for the glottal stop and long vowels.',
     links: [{ to: '/introduction', label: 'Sounds and spelling' }, { to: '/pronunciation', label: 'Pronunciation guide' }],
   },
   {
     number: '02',
     title: 'Build your first sentence',
     text: `Start Chapter 1, then follow all ${CHAPTER_COUNT} chapters in order from Beginner to Advanced.`,
-    links: [{ to: '/chapters/1', label: 'Start Chapter 1' }, { to: '/chapters', label: 'Browse all chapters' }],
+    links: [{ to: '/chapters/1', label: 'Start Chapter 1' }, { to: '/chapters', label: 'Browse all chapters' }, { to: '/drills', label: 'Practice drills' }],
   },
   {
     number: '03',
@@ -28,8 +28,8 @@ export default function LearningPaths() {
   return (
     <section className="learning-paths" aria-labelledby="learning-paths-heading">
       <div className="learning-paths__intro">
-        <p className="wr-home__eyebrow">New to Samoan?</p>
-        <h2 id="learning-paths-heading">Learn Samoan,<br />step by step.</h2>
+        <p className="wr-home__eyebrow">New to Sāmoan?</p>
+        <h2 id="learning-paths-heading">Learn Sāmoan,<br />step by step.</h2>
         <p>Start with the sounds, build a first sentence, then follow the course in order. Keep the reference pages nearby when you need them.</p>
       </div>
 

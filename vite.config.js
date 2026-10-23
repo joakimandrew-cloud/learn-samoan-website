@@ -21,7 +21,7 @@ function spaFallback() {
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Learn Samoan</title>
+  <title>Learn Sāmoan</title>
   <script>
     var pathSegmentsToKeep = ${keep};
     var l = window.location;

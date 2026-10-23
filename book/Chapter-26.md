@@ -14,7 +14,7 @@ already taught, so you can say where one thing sits in relation to another.
 *ʻO le lāʻau ʻi tua o le fale.* The tree behind the house. (Lit. "The tree in the back of the house.")
 :::
 
-Where English reaches for the preposition "behind", Samoan uses a noun, *tua*,
+Where English reaches for the preposition "behind", Sāmoan uses a noun, *tua*,
 that names the space at the back of something, and it sets that noun inside a
 place phrase. A noun that names a region of space belonging to a thing, its
 inside, its top, its back, is called a **spatial noun**.
@@ -25,7 +25,7 @@ against. The belonging word in this frame is always *o*, never *a*. A thing's
 back and a thing's inside are parts of it, given rather than got, and a part of a
 whole takes *o*.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le lāʻau ʻi tua o le fale.* | The tree behind the house. |
 | *ʻO le taʻavale ʻi luma o le fale.* | The car in front of the house. |
@@ -92,7 +92,7 @@ The last two are measured from where the speaker stands, or from whoever else is
 in view, so *tala mai* is the near side and *tala atu* the far one. Each of the
 ten drops into the frame unchanged:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le vaʻa ʻi tafatafa o le uafu.* | The canoe beside the wharf. |
 | *ʻO le ʻato ʻi tala ane o le umu.* | The basket alongside the oven. |
@@ -250,7 +250,7 @@ stretched shapes of words you already have, not three more words.
 6. *ʻUa ʻi luga le pusi.*
 7. *Na oso ʻi lalo le tama mai le solofanua.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The car in front of the house.
 2. The cup on the mat.
@@ -261,7 +261,7 @@ stretched shapes of words you already have, not three more words.
 
 ### Exercise 3: Name the region
 
-Write the Samoan spatial noun for each region.
+Write the Sāmoan spatial noun for each region.
 
 1. the inside
 2. the back
@@ -272,7 +272,7 @@ Write the Samoan spatial noun for each region.
 
 ### Exercise 4: Name the direction
 
-Write the Samoan word.
+Write the Sāmoan word.
 
 1. North
 2. West
@@ -301,7 +301,7 @@ Put the missing spatial noun into the gap so the English matches.
 
 ### Exercise 7: Say where it is
 
-Write the Samoan for each.
+Write the Sāmoan for each.
 
 1. You are at the wharf, and the village lies to the west of it.
 2. A car is standing at the side of the house.

@@ -46,7 +46,7 @@ are:
 | the describing clause | *sā alu ʻi le nuʻu* | identifies which woman is meant |
 
 > *Note:* A clause behind a noun is a describing clause only when the noun has a
-> job inside it. Samoan puts other kinds of clause in the same position, and
+> job inside it. Sāmoan puts other kinds of clause in the same position, and
 > those say what was thought or said rather than which one is meant.
 
 ---
@@ -93,7 +93,7 @@ it. The ones who did the getting are named, and they keep the agent marker *e* i
 front of them, exactly as they would in a sentence of their own. Describing the
 thing acted on takes nothing away from the doer.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le fafine sā alu ʻi le nuʻu.* | The woman who went to the village. |
 | *ʻO le tama sā moe ʻi le fale.* | The boy who slept in the house. |
@@ -138,7 +138,7 @@ A point of time and a stretch of time take the same shape, and so does a cause.
 *ʻO le aso sā siva ai le teine.* The day the girl danced.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO le mea sā ʻou nofo ai.* | The place where I stayed. |
 | *ʻO le fale sā moe ai le tama.* | The house where the boy slept. |
@@ -163,7 +163,7 @@ A point of time and a stretch of time take the same shape, and so does a cause.
 
 Two new words are in that phrase: *fue* (liana), the vine itself, and *taufi*
 (cover), what was done with it. The oven word stands here for what is in the
-oven, which is why the English says food where the Samoan says oven.
+oven, which is why the English says food where the Sāmoan says oven.
 
 When the named thing is what the action was done with, the pointing-back word
 takes the shape *aʻi*. That shape is used for nothing else. In this job, though,
@@ -233,7 +233,7 @@ It can also be read the way this chapter reads things: "it is me", and then a
 clause describing me, the one who saw it. Both readings are available for a
 sentence of that shape.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO lē sā mauʻoloa.* | The one who was rich. |
 | *ʻO ē e mauʻoloa.* | Those who are rich. |
@@ -245,7 +245,7 @@ sentence of that shape.
 > own.
 
 > *Note:* A describing clause can pick out which one is meant, and it can add
-> something about a person or thing already picked out. Samoan does not mark that
+> something about a person or thing already picked out. Sāmoan does not mark that
 > difference. The clause standing straight behind a noun and the construction
 > built on the one-who word each cover both readings.
 
@@ -343,7 +343,7 @@ job, give the one that is used for that job and no other.
 4. *ʻO le mea sā alu atu le teine \_\_\_.*
 5. *ʻO le aso sā siva \_\_\_ le teine.*
 
-### Exercise 4: Translate into Samoan
+### Exercise 4: Translate into Sāmoan
 
 1. the woman who went to the village
 2. the boy who slept in the house

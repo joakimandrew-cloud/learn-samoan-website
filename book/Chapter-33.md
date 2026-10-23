@@ -1,6 +1,6 @@
 # Chapter 33: Reported Speech
 
-This chapter adds reported speech, which Samoan builds from machinery already
+This chapter adds reported speech, which Sāmoan builds from machinery already
 in place: after a knowing or ordering word the report is an ordinary clause
 keeping a tense particle of its own, and after the say-verb *fai* it is a
 sentence of its own. Reading that particle against the time the first half
@@ -24,7 +24,7 @@ sentence stayed word for word the same, *ʻua sau le teine*, while the English
 moved from "has come" to "had come".
 
 That is the mechanism of **reported speech**, the pattern for passing on what
-somebody knew, ordered or said. For a report of what somebody knew, Samoan
+somebody knew, ordered or said. For a report of what somebody knew, Sāmoan
 holds no construction reserved for it. The report is an ordinary clause set
 down after the knowing word with nothing joining the two, and it keeps a tense
 particle of its own. What that particle measures from is not the moment of
@@ -35,7 +35,7 @@ first half sets. Set that first half at now, with *ʻUa iloa*, and the coming is
 already done now, which is "the girl has come". Set it in the past, with *Na
 iloa*, and the coming was already done then, which is "the girl had come".
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. |
 | *Na iloa e le tama ʻua sau le teine.* | The boy knew that the girl had come. |
@@ -90,7 +90,7 @@ all three rows. On the English side, compare the reported halves against each
 other. The first two shift, "has come" becoming "had come" and "is staying"
 becoming "was staying", because an English report after a past verb usually
 shifts the reported verb back a step. The third does not shift: "had stayed"
-reads the same under either report. Samoan leaves the reported particle where it
+reads the same under either report. Sāmoan leaves the reported particle where it
 is in all three rows and lets the first half of the sentence supply the anchor.
 In the fourth row of each table the reported clause is a different one, and
 there the general particle *e* sets no time of its own, so the English reads
@@ -115,7 +115,7 @@ When what is reported is a command, the reported clause opens with the mood
 particle *ʻia* rather than with a tense particle. *ʻIa* fills that same first
 slot, and what stands after it is what somebody is to do.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia sāisai le fusi.* | The stewardess gave the order that the belt should be fastened. |
 | *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.* | The stewardess gave the order that the person should sit. |
@@ -139,7 +139,7 @@ slot, and what stands after it is what somebody is to do.
 :::
 
 *Fai*, met earlier in this book for do and make, is also the word for say, and
-it is the most common of the verbs Samoan uses for speaking. It enters two
+it is the most common of the verbs Sāmoan uses for speaking. It enters two
 patterns, and this chapter teaches one of them. In an English sentence like
 "The man said the word", what stands after "say" is what was said; in the
 pattern taught here the noun phrase after *fai* is the person who spoke, and
@@ -147,7 +147,7 @@ what was said comes after it as a sentence in its own right. That sentence may
 be quoted word for word, as in the first example, or reported in your own
 words, as in the second.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."* | The man said: "You will wait." |
 | *Fai atu le teine: "ʻOleʻā ʻou alu."* | The girl said: "I will go." |
@@ -171,7 +171,7 @@ When what is reported is a question, the reported sentence opens with *pē*.
 Nothing else about the pattern changes: *fai* still names the speaker, and the
 question follows it.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Na fai mai le teine pē alu le tama.* | The girl asked whether the boy would go. |
 | *Na fai mai le tama pē sau le teine.* | The boy asked whether the girl would come. |
@@ -229,7 +229,7 @@ question follows it.
 5. *Na fai mai le tama pē sau le teine.*
 6. *Na iloa e loʻu ataliʻi ʻua sasae le ʻie.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The boy knew that the girl had come.
 2. The boy knows that the girl is staying in the village.
@@ -252,7 +252,7 @@ English.
 
 ### Exercise 4: Choose *ʻia* or *pē*
 
-Fill each gap so that the Samoan matches the English.
+Fill each gap so that the Sāmoan matches the English.
 
 1. *ʻUa faʻatonu mai e le tama ___ sau le teine.* (The boy gave the order that the girl should come.)
 2. *Na fai mai le teine ___ alu le tama.* (The girl asked whether the boy would go.)

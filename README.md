@@ -60,7 +60,8 @@ This folder is its own git repository, `joakimandrew-cloud/learn-samoan-website`
 
 ## What differs from the Tongan site, and why
 
-- No drills, tense machine, topic articles, word lists or membership: they are built from Tongan-only data or are Tongan business pages.
+- Drills are the course's own practice, not Tongan decks: `/drills` lists the 55 chapter practice items (the same `src/data/interactives/NN.json` items the chapters show) plus Daily words, and `/drill/<id>` plays one. The groups are in `src/premium/data/drills-catalog.json`; every card and page is derived at run time from the item, so no Samoan is typed into a new file. `scripts/check-interactives.mjs` (run by `prebuild` and `npm test`) fails the build if the catalogue or the Daily words deck (rows of `book-vocabulary.json`) shows Samoan the course does not print. No tense machine, sentence builder or terminal build: they would compose Samoan.
+- No topic articles, word lists or membership: they are built from Tongan-only data or are Tongan business pages.
 - No kupesi motifs, cover art or logo: Samoan has no approved pattern or logo yet. Plain squares stand in (`src/premium/components/Tile.jsx`), and the hero book is a text-only cover in the course blue, the ruled placeholder identity.
 - "Chapter", never "Lesson" (Samoan DECISIONS).
 - No analytics and no downloads.

@@ -12,7 +12,7 @@ import EntryMotif from './EntryMotif.jsx'
 function chapterOneRows(lesson) {
   const rows = []
   for (const block of lesson.blocks) {
-    if (block.type !== 'table' || block.head.map(plainInline).join('|') !== 'Samoan|English') continue
+    if (block.type !== 'table' || !['Samoan|English', 'Sāmoan|English'].includes(block.head.map(plainInline).join('|'))) continue
     for (const [samoan, english] of block.body) {
       const words = plainInline(samoan).replace(/[.?!]$/, '').split(' ')
       if (words.length === 3) rows.push({ samoan: plainInline(samoan), english: plainInline(english), words })

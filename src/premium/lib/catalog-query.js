@@ -1,8 +1,9 @@
 export function matchesDrill(drill, query) {
   const needle = query.trim().toLocaleLowerCase()
   if (!needle) return true
-  return [drill.title, drill.blurb, drill.action, `lesson ${drill.ch}`, `ch ${drill.ch}`]
-    .some(value => String(value ?? '').toLocaleLowerCase().includes(needle))
+  const where = drill.ch == null ? ['every chapter'] : [`chapter ${drill.ch}`, `ch ${drill.ch}`]
+  return [drill.title, drill.blurb, drill.action, ...where]
+    .some(value => String(value ?? '').replace(/\*/g, '').toLocaleLowerCase().includes(needle))
 }
 
 export function filterDrillGroups(groups, query = '', level = 'all') {
@@ -13,4 +14,3 @@ export function filterDrillGroups(groups, query = '', level = 'all') {
     )),
   }))
 }
-

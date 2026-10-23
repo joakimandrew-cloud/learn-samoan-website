@@ -128,7 +128,7 @@ more than one. Nothing was added for the plural. The form itself changed, from
 
 What changed is the article inside it. *Laʻu* holds three things at once: the
 specific article *le*, the belonging word *a*, and the person "my". Take the
-article out and *aʻu* is what remains, the belonging word and the person. Samoan
+article out and *aʻu* is what remains, the belonging word and the person. Sāmoan
 takes it out because a specific plural naming part carries no article at all.
 That is the article-less plural you met earlier in this book, where a particular
 plural drops *le*, and the possessive form carries that silence inside it.
@@ -155,7 +155,7 @@ article *le*, *saʻu* carries the non-specific *se*, *aʻu* carries none, and
 *ni aʻu* carries the non-specific plural *ni*. The belonging word and the person
 hold their place through all four.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *laʻu taʻavale* | my car |
 | *saʻu taʻavale* | a car of mine |
@@ -176,7 +176,7 @@ phrase runs straight from the thing to the belonging word:
 *ʻO ʻupu a le tamāloa.* The words of the man.
 :::
 
-**Quick Practice A.** Give the Samoan. Answers below the block.
+**Quick Practice A.** Give the Sāmoan. Answers below the block.
 
 1. my spoon
 2. my spoons
@@ -216,7 +216,7 @@ More than one thing and more than one owner, and the naming part is down to the
 pronoun and the thing. *Tā* is "we two, you and I", so *ʻo tā igoa* is the pair
 of names belonging to the two of us.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le mātou fale* | our house |
 | *mātou fale* | our houses |
@@ -254,7 +254,7 @@ and says who something is for, or how long something lasts.
 *Mo* has a partner in *ma*, which also means "for" when a person is handed food
 to eat or a thing to keep. *Mo* covers these jobs: the person who benefits from
 a state of affairs, the aim of an action, and the length of time something
-lasts. The pair partly echoes the belonging split. An older written Samoan had
+lasts. The pair partly echoes the belonging split. An older written Sāmoan had
 short forms that look as though they paired *ma* with the *a*-word possessives
 and *mo* with the *o*-word ones, and those forms are very rare now. The echo is
 a resemblance rather than a rule to lean on: use *mo* for "for", and keep it
@@ -304,7 +304,7 @@ apart from the with-word *ma*.
 5. *ʻo le mātou fale*
 6. *mo le vaiaso*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. my kilt
 2. my spoons

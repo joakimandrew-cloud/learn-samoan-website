@@ -7,6 +7,7 @@
 .dictionary-meta { display: flex; align-items: baseline; justify-content: flex-end; gap: 14px; white-space: nowrap; }
 .dictionary-pos { color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .dictionary-lesson { color: var(--red); font-size: 13px; font-weight: 750; text-decoration: none; }
+a.dictionary-lesson { display: inline-flex; align-items: center; min-height: 24px; }
 a.dictionary-lesson:hover { text-decoration: underline; text-underline-offset: 4px; }
 .dictionary-lesson.is-supplemental { color: var(--muted); }
 .dictionary-note { margin: 28px 0 0; color: var(--muted); font-size: 14px; }

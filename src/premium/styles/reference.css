@@ -765,3 +765,85 @@
     transition: none;
   }
 }
+
+/* Book pages (BookPage.jsx). The /charts Keep learning row and the closing
+   Start Chapter 1 block reuse the .charts-jump and .reading-page rules above
+   through a .book-page-strip wrapper. On /charts only, each section takes the
+   .ref-chart card and each table the .ref-table-wrap and .ref-table look. */
+.premium-reference.book-page-strip {
+  min-height: 0;
+  background: transparent;
+}
+
+.premium-reference.book-page-next {
+  margin-top: 56px;
+}
+
+.premium-reference.book-page-next .reading-page h2 {
+  margin-top: 0;
+}
+
+.book-page--charts .ls-grid {
+  padding-top: clamp(34px, 5vw, 58px);
+}
+
+.book-page--charts .ls-sec {
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--paper);
+  padding: clamp(20px, 3vw, 36px);
+}
+
+.book-page--charts .ls-sec + .ls-sec {
+  margin-top: 24px;
+  border-top: 1px solid var(--line-strong);
+}
+
+.book-page--charts .ls-sec-head {
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.book-page--charts .ls-sec-head .ls-h2 {
+  color: var(--red);
+}
+
+.book-page--charts .tbl-scroll {
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  background: var(--paper);
+  overscroll-behavior-inline: contain;
+}
+
+.book-page--charts .tbl th,
+.book-page--charts .tbl td {
+  border-right: 1px solid var(--line);
+  padding: 13px 15px;
+}
+
+.book-page--charts .tbl tr > *:last-child {
+  border-right: 0;
+}
+
+.book-page--charts .tbl thead th {
+  background: var(--ink);
+  color: var(--paper);
+  font: 750 12px/1.4 var(--f-ui);
+  letter-spacing: .08em;
+}
+
+.book-page--charts .tbl thead th .to {
+  color: var(--paper);
+}
+
+@media (max-width: 640px) {
+  .book-page--charts .tbl th,
+  .book-page--charts .tbl td {
+    padding: 10px 12px;
+  }
+
+  .premium-reference.book-page-next {
+    margin-top: 40px;
+  }
+}

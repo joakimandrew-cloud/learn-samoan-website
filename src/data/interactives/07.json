@@ -95,7 +95,7 @@
       "kind": "pick",
       "anchor": "naming-a-person",
       "title": "Choose the naming sentence",
-      "intro": "Read the English and choose the printed Samoan sentence that says it.",
+      "intro": "Read the English and choose the printed Sāmoan sentence that says it.",
       "data": {
         "question": "Which sentence says this?",
         "prompts": [

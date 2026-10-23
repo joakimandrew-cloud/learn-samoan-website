@@ -3,6 +3,7 @@ import { practiceTabIndex } from '../lib/practice-film.js'
 
 const PracticeFilm = lazy(() => import('./practice/PracticeFilm.jsx'))
 const SURFACES = [
+  { id: 'drills', name: 'Drills', description: 'Find the missing words.', to: '/drills', source: 'Chapter 4 · One sentence across four particles' },
   { id: 'quizzes', name: 'Quizzes', description: 'An answer, with an explanation.', to: '/quizzes/1', source: 'Chapter 1 quiz · Question 2' },
   { id: 'cards', name: 'Flip cards', description: 'Turn it. Remember it. Keep going.', to: '/cards?chapter=1', source: 'Flip cards · Chapter 1 vocabulary' },
 ]

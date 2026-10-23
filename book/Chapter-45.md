@@ -17,7 +17,7 @@ they answer to a rule of their own.
 
 Both phrases name an event and then name the one it is about. In the first the
 biters are *namu* (mosquito), in the second the height belongs to *taʻamū* (a
-large edible tuber), the plant that grows in a Samoan garden. Each phrase begins
+large edible tuber), the plant that grows in a Sāmoan garden. Each phrase begins
 the way every le-phrase begins, with the article in front of a verb, and each
 then adds a belonging word and a noun phrase behind it.
 
@@ -27,7 +27,7 @@ on a verb that carries no agent marker, and everything else in the event keeps
 the shape it had in an ordinary sentence. Verbs that do carry one behave
 differently, and they come later in this chapter.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le tagi a le pepe* | the crying of the baby |
 | *le tagi a le teine* | the crying of the girl |
@@ -68,7 +68,7 @@ do something is a doer, and so is a vehicle, and so is a natural force.
 *le sasao a le afi*. the flaring up of the fire
 :::
 
-The fire is not deciding anything, and Samoan counts it as a doer all the same,
+The fire is not deciding anything, and Sāmoan counts it as a doer all the same,
 because the flaring up is something the fire itself does. The same goes for the
 car in *le alu a le taʻavale* above.
 
@@ -97,7 +97,7 @@ thing a person does on purpose.
 
 > *Note:* Verbs of doing and verbs of natural happening take either word, and
 > the choice says whether the doing is being pointed at or left unsaid. When the
-> two versions of one phrase were put to Samoan speakers directly and they were
+> two versions of one phrase were put to Sāmoan speakers directly and they were
 > asked whether both were right, most of them chose *o* and rejected *a*. So
 > expect to read both and to hear *o* more often than the rule alone would
 > suggest.
@@ -159,7 +159,7 @@ A group of verbs about what goes on inside a person never offers the choice at
 all. Loving, being happy, being afraid, being angry, and thinking or feeling
 lonely all take *o*, with or without one of the three words above.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le alofa o le tinā* | the mother's love |
 | *le fiafia o le teine* | the girl's happiness |
@@ -174,7 +174,7 @@ These are states a person is in rather than things a person does, which is why
 
 ## Hearing and Seeing
 
-Hearing and seeing sit between the two halves of this chapter, and Samoan uses
+Hearing and seeing sit between the two halves of this chapter, and Sāmoan uses
 the belonging word to say which kind of hearing or seeing is meant.
 
 ::: {.examples}
@@ -193,7 +193,7 @@ be done.
 The lady in that phrase was not listening out for a *kī* (key) of that
 *ituʻāiga* (kind, sort). The sound arrived, and *o* is what says so.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le faʻalogo a le tama* | the boy's listening |
 | *le faʻalogo o le tama* | the boy's hearing |
@@ -227,7 +227,7 @@ phrase, and every other part keeps its own shape.
 
 Each sentence below is followed by the le-phrase built from it.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E alofa le tama ʻi le teine.* | The boy cares for the girl. |
 | *ʻO le alofa o le tama ʻi le teine.* | The boy caring for the girl. |
@@ -253,7 +253,7 @@ are *e tinā palagi*, the *palagi* (European, white person) mothers, carrying th
 agent marker they would carry in an ordinary sentence. The babies being fed are
 *o pepe*, a belonging phrase with *o*: where the thing a transitive event is
 done to is a belonging phrase, the word on it is *o* and never *a*. Either
-phrase may come first, and both orders are ordinary Samoan.
+phrase may come first, and both orders are ordinary Sāmoan.
 
 | Part | Form | Function |
 |---|---|---|
@@ -262,7 +262,7 @@ phrase may come first, and both orders are ordinary Samoan.
 | the agent marker | *e tinā palagi* | names the doer |
 | the belonging word | *o pepe* | names the ones it was done to |
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le fafaga e le tinā o le pepe* | the mother's feeding of the baby |
 | *le fafaga o le pepe e le tinā* | the mother's feeding of the baby |
@@ -311,7 +311,7 @@ as a plain noun phrase, with no belonging word at all:
 and you will meet it, and it is the less frequent of the two, so read *o* as the
 ordinary way of saying this and the bare noun phrase as the other one.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le tapē o le puaʻa* | the killing of the pig |
 | *le fafaga o le pepe* | the feeding of the baby |
@@ -322,7 +322,7 @@ ordinary way of saying this and the bare noun phrase as the other one.
 ## The Owner-as-Doer Pattern
 
 There is one more shape, and it completes something promised earlier in this
-book. It is what Samoan can do when the doer of an event owns the thing the
+book. It is what Sāmoan can do when the doer of an event owns the thing the
 event happens to.
 
 ::: {.examples}
@@ -428,7 +428,7 @@ with *ʻO*; where nothing is left over, write the phrase on its own.
 6. *E fiafia le teine.*
 7. *E maualuga le lāʻau.*
 
-### Exercise 4: Translate into Samoan
+### Exercise 4: Translate into Sāmoan
 
 Where the doing may be pointed at or left unsaid, point at it.
 

@@ -23,7 +23,7 @@ A verb that takes a doer marks a doer phrase standing after it with the agent
 marker *e*, and the one the action happened to stands bare. A doer said as a
 preverbal pronoun, in front of the verb, takes no marker. Leave the doer out and
 nothing takes its place: the second sentence is the first with *e le teine*
-removed, and that is what Samoan does where English reaches for a passive. The
+removed, and that is what Sāmoan does where English reaches for a passive. The
 same verb has a short form, *tatala*, and a long form, *tatala=ina*. Most of the
 time the choice between them is a tendency, but two rules are firm. A command
 takes the short form, without exception. Forbidding with *ʻaua le* takes the
@@ -54,7 +54,7 @@ is turned: *mai* toward the speaker, *atu* away from the speaker, *aʻe* up and
 7. *ʻAua ʻe te faitala.*
 8. *Sōia le taʻatia.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 Use the past particle given in brackets.
 
@@ -85,7 +85,7 @@ noun, the belonging word *o*, then the thing the position is measured against.
 A describing verb can also stand inside a noun phrase, after the name of the
 thing, where it says which one is meant.
 
-### Exercise 3: Translate into Samoan
+### Exercise 3: Translate into Sāmoan
 
 1. The radio of the chief.
 2. The house of the chief.
@@ -117,7 +117,7 @@ Comparison adds no ending to the quality word. The direction word *atu* after it
 raises the degree, the than-word *i lo* names what it is weighed against, and
 *sili ona* in front of it picks out the one that stands above the rest.
 
-### Exercise 4: Translate into Samoan
+### Exercise 4: Translate into Sāmoan
 
 1. The girl can come.
 2. The girl cannot dance.
@@ -215,7 +215,7 @@ tell what happened next, the then-construction wraps a verb phrase in *ona* and
 *lea*. A run of clauses can also share the one tense particle at its head, with
 the slot in front of every later clause left empty.
 
-### Exercise 7: Translate into Samoan
+### Exercise 7: Translate into Sāmoan
 
 Use the past particle given in brackets.
 
@@ -245,7 +245,7 @@ noun phrase, with the presenting particle *ʻo* between the two: *ʻona ʻo*
 main clause with no joining word. The general particle *e* heads it (*te* after
 a preverbal pronoun), the mood particle *ʻia* can head it in place of *e*, and
 the warning particle *neʻi* takes that place when the action is done to prevent
-something. Samoan also has other ways to mark purpose. A condition clause opens with the if-word
+something. Sāmoan also has other ways to mark purpose. A condition clause opens with the if-word
 *ʻāfai*, or with *ʻā*, the short form of the future particle, which English
 renders "if", "when" or "whenever". Placed after the main clause, a condition
 takes *pē* in front of it. To ask for a reason, *ʻaiseā* (why) stands at the
@@ -268,7 +268,7 @@ front, with the pointing-back word *ai* after the verb.
 ## Can You Do This?
 
 Here is the whole Intermediate band in thirteen tasks. Do each one out loud in
-Samoan, then check the model answer. If a task feels shaky, go back to the
+Sāmoan, then check the model answer. If a task feels shaky, go back to the
 chapter that built it before moving into the Advanced band.
 
 1. Tell someone not to do something to a thing, and tell someone to stop crying.

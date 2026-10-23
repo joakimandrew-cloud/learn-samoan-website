@@ -1,0 +1,122 @@
+[
+  {
+    "key": "build",
+    "name": "Build and read the sentence",
+    "note": "Put printed sentences together and tell the sentence types apart.",
+    "drills": [
+      "ch1-order",
+      "ch1-which",
+      "ch7-pick-naming-sentence",
+      "ch12-order-two-participants",
+      "ch17-pick-location-negative",
+      "ch23-pick-sentence-type",
+      "ch34-first-phrase",
+      "ch37-recognise-pair"
+    ],
+    "inChapters": []
+  },
+  {
+    "key": "tense",
+    "name": "Tense and the verb",
+    "note": "The particles in front of the verb, commands, and the verb's own forms.",
+    "drills": [
+      "ch4-type-state-verbs",
+      "ch5-type-commands",
+      "ch13-sort-general-now",
+      "ch15-sort-negative",
+      "ch19-type-plural-forms",
+      "ch24-pick-aua-soia",
+      "ch30-read-complement",
+      "ch32-command-rules",
+      "ch48-mood-reading"
+    ],
+    "inChapters": []
+  },
+  {
+    "key": "markers",
+    "name": "Articles, markers and counting",
+    "note": "Which one, who did it, and how many.",
+    "drills": [
+      "ch6-sort-article-phrases",
+      "ch20-pick-nofo-nonofo",
+      "ch22-sort-number-phrases",
+      "ch27-doer-choice"
+    ],
+    "inChapters": []
+  },
+  {
+    "key": "possession",
+    "name": "Pronouns, belonging and having",
+    "note": "Who you mean, what is theirs, and what there is.",
+    "drills": [
+      "ch2-type-independent-forms",
+      "ch10-sort-a-o-words",
+      "ch14-sort-there-is",
+      "ch25-sort-a-o",
+      "ch25-sort-possessive-number",
+      "ch42-whose-question",
+      "ch45-forced-o",
+      "ch51-read-belonging"
+    ],
+    "inChapters": []
+  },
+  {
+    "key": "place",
+    "name": "Questions, place and direction",
+    "note": "Asking, locating, and pointing the verb the right way.",
+    "drills": [
+      "ch8-match-question-words",
+      "ch11-sort-place-direction",
+      "ch16-sort-ai-i-ai",
+      "ch21-pick-question-word",
+      "ch26-sort-space-direction",
+      "ch29-read-direction"
+    ],
+    "inChapters": []
+  },
+  {
+    "key": "joining",
+    "name": "Joining clauses",
+    "note": "Reasons, purposes, conditions, time and reports: how one clause leans on another.",
+    "drills": [
+      "ch33-kind-of-report",
+      "ch36-clause-links",
+      "ch38-purpose-reason",
+      "ch39-condition-location",
+      "ch41-clause-review",
+      "ch43-missing-spot",
+      "ch44-time-tools",
+      "ch49-relations"
+    ],
+    "inChapters": []
+  },
+  {
+    "key": "shaping",
+    "name": "Shaping words and phrases",
+    "note": "Built words, describing words, comparisons and event phrases.",
+    "drills": [
+      "ch28-read-built",
+      "ch31-alike-or-agree",
+      "ch35-read-event",
+      "ch40-description-kinds",
+      "ch46-phrase-use",
+      "ch47-read-slot",
+      "ch50-built-meaning"
+    ],
+    "inChapters": []
+  },
+  {
+    "key": "words",
+    "name": "Words to remember",
+    "note": "Vocabulary that sticks: meanings, formulas and story words.",
+    "drills": [
+      "daily-words",
+      "ch3-match-verb-jobs",
+      "ch9-match-courtesy",
+      "ch18-sort-time-words",
+      "ch31-comparison-words",
+      "ch37-story-words"
+    ],
+    "inChapters": []
+  }
+]

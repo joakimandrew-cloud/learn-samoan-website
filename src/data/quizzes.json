@@ -65,7 +65,7 @@
       },
       {
         "id": "q3",
-        "prompt": "How do you say \"I danced\" in Samoan?",
+        "prompt": "How do you say \"I danced\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -185,13 +185,13 @@
       },
       {
         "id": "q7",
-        "prompt": "At the end of a Samoan yes or no question, which way does the voice move?",
+        "prompt": "At the end of a Sāmoan yes or no question, which way does the voice move?",
         "options": [
           {
             "label": "A",
             "text": "It rises, the same as an English yes or no question.",
             "correct": false,
-            "explanation": "This is the English habit, and it is exactly the trap: Samoan does the opposite."
+            "explanation": "This is the English habit, and it is exactly the trap: Sāmoan does the opposite."
           },
           {
             "label": "B",
@@ -221,7 +221,7 @@
             "label": "A",
             "text": "The word for \"it\" was left off by mistake.",
             "correct": false,
-            "explanation": "It is not a mistake; Samoan needs no word there."
+            "explanation": "It is not a mistake; Sāmoan needs no word there."
           },
           {
             "label": "B",
@@ -239,13 +239,13 @@
             "label": "D",
             "text": "Rain has no doer, so the middle slot stays empty.",
             "correct": true,
-            "explanation": "Correct: with no person doing the action, Samoan leaves the slot empty instead of adding an empty \"it\"."
+            "explanation": "Correct: with no person doing the action, Sāmoan leaves the slot empty instead of adding an empty \"it\"."
           }
         ]
       },
       {
         "id": "q9",
-        "prompt": "What is the Samoan word for \"no\"?",
+        "prompt": "What is the Sāmoan word for \"no\"?",
         "options": [
           {
             "label": "A",
@@ -401,7 +401,7 @@
       },
       {
         "id": "q4",
-        "prompt": "How do you say \"You two moved\" in Samoan?",
+        "prompt": "How do you say \"You two moved\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -767,7 +767,7 @@
       },
       {
         "id": "q6",
-        "prompt": "How do you say \"She danced happily\" in Samoan?",
+        "prompt": "How do you say \"She danced happily\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -857,13 +857,13 @@
       },
       {
         "id": "q9",
-        "prompt": "English has a separate class of adjectives for words that describe. In Samoan, what kind of word is a describing word such as *fiafia* or *mālosi*?",
+        "prompt": "English has a separate class of adjectives for words that describe. In Sāmoan, what kind of word is a describing word such as *fiafia* or *mālosi*?",
         "options": [
           {
             "label": "A",
             "text": "Adjectives, a separate kind of word from verbs.",
             "correct": false,
-            "explanation": "That is the English picture; Samoan has no separate class of adjectives for these words."
+            "explanation": "That is the English picture; Sāmoan has no separate class of adjectives for these words."
           },
           {
             "label": "B",
@@ -983,7 +983,7 @@
       },
       {
         "id": "q3",
-        "prompt": "How do you say \"I have become sick\" in Samoan?",
+        "prompt": "How do you say \"I have become sick\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -1193,7 +1193,7 @@
       },
       {
         "id": "q10",
-        "prompt": "In *Na ʻāmata.* nothing stands between the particle and the verb, and the English has to add an \"it\". Why can the Samoan do without a word there?",
+        "prompt": "In *Na ʻāmata.* nothing stands between the particle and the verb, and the English has to add an \"it\". Why can the Sāmoan do without a word there?",
         "options": [
           {
             "label": "A",
@@ -1215,7 +1215,7 @@
           },
           {
             "label": "D",
-            "text": "A Samoan sentence can leave its doer unsaid at any time, whatever has been said before it.",
+            "text": "A Sāmoan sentence can leave its doer unsaid at any time, whatever has been said before it.",
             "correct": false,
             "explanation": "Leaving the doer unsaid depends on the listener being able to work it out from what has already been said."
           }
@@ -1331,7 +1331,7 @@
             "label": "B",
             "text": "At one person, whoever is listening, and no word names them.",
             "correct": true,
-            "explanation": "Correct: every command in this chapter speaks to one person, and Samoan leaves that person unsaid."
+            "explanation": "Correct: every command in this chapter speaks to one person, and Sāmoan leaves that person unsaid."
           },
           {
             "label": "C",
@@ -1349,7 +1349,7 @@
       },
       {
         "id": "q5",
-        "prompt": "How do you tell one person \"Sweep\" in Samoan?",
+        "prompt": "How do you tell one person \"Sweep\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -1541,7 +1541,7 @@
             "label": "A",
             "text": "That it is one thing, and the hearer already knows which one.",
             "correct": false,
-            "explanation": "The number is right, but the hearer test is how English picks \"the\"; Samoan picks *le* by what the speaker has in mind."
+            "explanation": "The number is right, but the hearer test is how English picks \"the\"; Sāmoan picks *le* by what the speaker has in mind."
           },
           {
             "label": "B",
@@ -1745,7 +1745,7 @@
       },
       {
         "id": "q8",
-        "prompt": "Which of these is true of a Samoan article and its noun?",
+        "prompt": "Which of these is true of a Sāmoan article and its noun?",
         "options": [
           {
             "label": "A",
@@ -1829,7 +1829,7 @@
             "label": "D",
             "text": "*le*",
             "correct": true,
-            "explanation": "Correct: the speaker has one particular girl in mind, so Samoan uses *le* even where English says \"a\"."
+            "explanation": "Correct: the speaker has one particular girl in mind, so Sāmoan uses *le* even where English says \"a\"."
           }
         ]
       }
@@ -2349,9 +2349,9 @@
           },
           {
             "label": "D",
-            "text": "Samoan asks for a person's name with *ā*, the way English asks \"What is your name?\"",
+            "text": "Sāmoan asks for a person's name with *ā*, the way English asks \"What is your name?\"",
             "correct": false,
-            "explanation": "The answer to a name question is a person's name, so Samoan asks it with *ai*; building it takes the word for \"your\", which comes later in this book."
+            "explanation": "The answer to a name question is a person's name, so Sāmoan asks it with *ai*; building it takes the word for \"your\", which comes later in this book."
           }
         ]
       },
@@ -2885,13 +2885,13 @@
             "label": "A",
             "text": "A full-noun owner comes after the thing, keeping its own article, and each word's type is learned with the word, because the sort is not fully predictable.",
             "correct": true,
-            "explanation": "Correct: with a full-noun owner Samoan names the thing first and the owner after it, and no single rule settles every word's type."
+            "explanation": "Correct: with a full-noun owner Sāmoan names the thing first and the owner after it, and no single rule settles every word's type."
           },
           {
             "label": "B",
             "text": "A full-noun owner comes before the thing, as English does in \"the chief's car\", and each word's type is learned with the word, because the sort is not fully predictable.",
             "correct": false,
-            "explanation": "With a full-noun owner Samoan keeps the thing first and puts the owner after it, unlike English \"the chief's car\"."
+            "explanation": "With a full-noun owner Sāmoan keeps the thing first and puts the owner after it, unlike English \"the chief's car\"."
           },
           {
             "label": "C",
@@ -2939,7 +2939,7 @@
       },
       {
         "id": "q7",
-        "prompt": "How do you say \"the boy's leg\" in Samoan?",
+        "prompt": "How do you say \"the boy's leg\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -3281,13 +3281,13 @@
             "label": "A",
             "text": "A tool takes the place word *ʻi*, and one sentence can hold both a place with *ʻi* and a source with *mai*.",
             "correct": true,
-            "explanation": "Correct: Samoan sets a tool in a place phrase with *ʻi*, and one sentence can mark both where the action sits or is headed and where it began."
+            "explanation": "Correct: Sāmoan sets a tool in a place phrase with *ʻi*, and one sentence can mark both where the action sits or is headed and where it began."
           },
           {
             "label": "B",
             "text": "A tool takes a separate word for \"with\", and one sentence can hold both a place with *ʻi* and a source with *mai*.",
             "correct": false,
-            "explanation": "The second half is right, but Samoan has no separate word for \"with a tool\": the tool goes in a place phrase with *ʻi*."
+            "explanation": "The second half is right, but Sāmoan has no separate word for \"with a tool\": the tool goes in a place phrase with *ʻi*."
           },
           {
             "label": "C",
@@ -3305,7 +3305,7 @@
       },
       {
         "id": "q9",
-        "prompt": "Which of these is not a correct Samoan sentence?",
+        "prompt": "Which of these is not a correct Sāmoan sentence?",
         "options": [
           {
             "label": "A",
@@ -3335,7 +3335,7 @@
       },
       {
         "id": "q10",
-        "prompt": "How do you say \"The boy stayed in the house\" in Samoan?",
+        "prompt": "How do you say \"The boy stayed in the house\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -3491,7 +3491,7 @@
       },
       {
         "id": "q5",
-        "prompt": "How do you say \"The boy wanted some food\" in Samoan?",
+        "prompt": "How do you say \"The boy wanted some food\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -3539,7 +3539,7 @@
             "label": "C",
             "text": "It stands in the middle slot before the verb, and the thing reached then stands bare, with no *ʻi*.",
             "correct": false,
-            "explanation": "The thing reached is marked by *ʻi* whoever does the seeing, because Samoan hands these verbs no bare object."
+            "explanation": "The thing reached is marked by *ʻi* whoever does the seeing, because Sāmoan hands these verbs no bare object."
           },
           {
             "label": "D",
@@ -4073,7 +4073,7 @@
       },
       {
         "id": "q4",
-        "prompt": "How do you say \"There is no gun\" in Samoan?",
+        "prompt": "How do you say \"There is no gun\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -4559,7 +4559,7 @@
       },
       {
         "id": "q10",
-        "prompt": "Samoan has no single word for \"not\", and the kind of sentence chooses the tool. Which of these is true?",
+        "prompt": "Sāmoan has no single word for \"not\", and the kind of sentence chooses the tool. Which of these is true?",
         "options": [
           {
             "label": "A",
@@ -5021,7 +5021,7 @@
       },
       {
         "id": "q5",
-        "prompt": "How do you say \"The girl is now in the house\" in Samoan?",
+        "prompt": "How do you say \"The girl is now in the house\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -5603,7 +5603,7 @@
       },
       {
         "id": "q4",
-        "prompt": "How do you say \"The cats are black\" in Samoan?",
+        "prompt": "How do you say \"The cats are black\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -6029,7 +6029,7 @@
       },
       {
         "id": "q8",
-        "prompt": "Samoan uses the one word *ma* for both \"with\" and \"and\". What tells you which is meant?",
+        "prompt": "Sāmoan uses the one word *ma* for both \"with\" and \"and\". What tells you which is meant?",
         "options": [
           {
             "label": "A",
@@ -6611,29 +6611,29 @@
       },
       {
         "id": "q7",
-        "prompt": "What does *sefulu ma le tasi* mean, and is joining with *ma* the only way Samoan counts the teens?",
+        "prompt": "What does *sefulu ma le tasi* mean, and is joining with *ma* the only way Sāmoan counts the teens?",
         "options": [
           {
             "label": "A",
-            "text": "eleven; yes, joining with *ma* is the only way Samoan counts the teens",
+            "text": "eleven; yes, joining with *ma* is the only way Sāmoan counts the teens",
             "correct": false,
-            "explanation": "Samoan also sets the two numbers side by side with no joining word, and that shorter form is the ordinary one today."
+            "explanation": "Sāmoan also sets the two numbers side by side with no joining word, and that shorter form is the ordinary one today."
           },
           {
             "label": "B",
-            "text": "twelve; no, Samoan also sets the two numbers side by side with no joining word, and that shorter form is the ordinary one today",
+            "text": "twelve; no, Sāmoan also sets the two numbers side by side with no joining word, and that shorter form is the ordinary one today",
             "correct": false,
             "explanation": "The number *tasi* is one, so this is ten and one, eleven; twelve is *sefulu ma le lua*."
           },
           {
             "label": "C",
-            "text": "eleven; no, Samoan also sets the two numbers side by side with no joining word, and that shorter form is the ordinary one today",
+            "text": "eleven; no, Sāmoan also sets the two numbers side by side with no joining word, and that shorter form is the ordinary one today",
             "correct": true,
             "explanation": "Correct: *sefulu* and *tasi* joined by *ma* are ten and one, the literary form, and the side-by-side form is the everyday one."
           },
           {
             "label": "D",
-            "text": "eleven; no, Samoan also sets the two numbers side by side with no joining word, but the joined form with *ma* is the ordinary one today",
+            "text": "eleven; no, Sāmoan also sets the two numbers side by side with no joining word, but the joined form with *ma* is the ordinary one today",
             "correct": false,
             "explanation": "The joined form with *ma* is the literary one, and the side-by-side form is the ordinary one today."
           }
@@ -6977,7 +6977,7 @@
       },
       {
         "id": "q9",
-        "prompt": "Three of these Samoan sentences do the job named beside them. Which one does not?",
+        "prompt": "Three of these Sāmoan sentences do the job named beside them. Which one does not?",
         "options": [
           {
             "label": "A",
@@ -7133,7 +7133,7 @@
       },
       {
         "id": "q4",
-        "prompt": "How do you say \"Stop gossiping\" in Samoan?",
+        "prompt": "How do you say \"Stop gossiping\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -7583,7 +7583,7 @@
             "label": "D",
             "text": "The word *mo* says who something is for, the aim of an action, or how long something lasts; *ma* also means \"for\" when a person is handed food to eat or a thing to keep; and *ma* goes with the *a*-words and *mo* with the *o*-words, a rule to lean on.",
             "correct": false,
-            "explanation": "The pair only looks that way in short forms of an older written Samoan, now very rare, so it is a resemblance and not a rule to lean on."
+            "explanation": "The pair only looks that way in short forms of an older written Sāmoan, now very rare, so it is a resemblance and not a rule to lean on."
           }
         ]
       },
@@ -7661,7 +7661,7 @@
             "label": "A",
             "text": "A small word that works like an English preposition such as \"behind\", and the set takes new members freely.",
             "correct": false,
-            "explanation": "Where English reaches for a preposition, Samoan uses a noun here, and the set is closed."
+            "explanation": "Where English reaches for a preposition, Sāmoan uses a noun here, and the set is closed."
           },
           {
             "label": "B",
@@ -7685,7 +7685,7 @@
       },
       {
         "id": "q2",
-        "prompt": "How do you say \"The cat under the house\" in Samoan?",
+        "prompt": "How do you say \"The cat under the house\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -8081,7 +8081,7 @@
       },
       {
         "id": "q5",
-        "prompt": "How do you say \"The pig ate the taro\" in Samoan?",
+        "prompt": "How do you say \"The pig ate the taro\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -8129,7 +8129,7 @@
             "label": "C",
             "text": "In the first the snake was killed; in the second the girl ate part of the fish; the third can only mean the fish was eaten.",
             "correct": false,
-            "explanation": "Both readings of the third are correct Samoan, and since the words give no clue which is meant, the context settles it."
+            "explanation": "Both readings of the third are correct Sāmoan, and since the words give no clue which is meant, the context settles it."
           },
           {
             "label": "D",
@@ -8189,7 +8189,7 @@
             "label": "C",
             "text": "A doer pronoun in front of the verb, like *ia*, takes no marker; when the doer is left out, the verb changes to a passive shape; in writing and in formal speech, a doer phrase after the verb always carries *e*.",
             "correct": false,
-            "explanation": "Samoan has no passive: the verb keeps the shape it already had, and dropping the doer phrase does the whole job."
+            "explanation": "Sāmoan has no passive: the verb keeps the shape it already had, and dropping the doer phrase does the whole job."
           },
           {
             "label": "D",
@@ -8447,7 +8447,7 @@
       },
       {
         "id": "q7",
-        "prompt": "How do you say \"to salt\" in Samoan?",
+        "prompt": "How do you say \"to salt\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -8633,7 +8633,7 @@
       },
       {
         "id": "q3",
-        "prompt": "How do you say \"The boy went past\" in Samoan?",
+        "prompt": "How do you say \"The boy went past\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -8999,7 +8999,7 @@
       },
       {
         "id": "q5",
-        "prompt": "How do you say \"The girl can come\" in Samoan?",
+        "prompt": "How do you say \"The girl can come\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -9437,7 +9437,7 @@
             "label": "B",
             "text": "A *tusa* clause leaves out what the sentence is about, because the first half of the sentence has already named it.",
             "correct": false,
-            "explanation": "This is true: Samoan leaves out what the first half has already named rather than say it twice."
+            "explanation": "This is true: Sāmoan leaves out what the first half has already named rather than say it twice."
           },
           {
             "label": "C",
@@ -9491,7 +9491,7 @@
     "questions": [
       {
         "id": "q1",
-        "prompt": "This book prints one verb as *fasi* and as *fasi=a*. What are the two shapes called, and how does ordinary Samoan writing print the second one?",
+        "prompt": "This book prints one verb as *fasi* and as *fasi=a*. What are the two shapes called, and how does ordinary Sāmoan writing print the second one?",
         "options": [
           {
             "label": "A",
@@ -9503,7 +9503,7 @@
             "label": "B",
             "text": "*fasi* is the short form and *fasi=a* the long form; ordinary writing prints the equals sign too.",
             "correct": false,
-            "explanation": "The names are right, but the equals sign is this book's way of keeping the ending visible, and ordinary Samoan writing puts no mark there."
+            "explanation": "The names are right, but the equals sign is this book's way of keeping the ending visible, and ordinary Sāmoan writing puts no mark there."
           },
           {
             "label": "C",
@@ -9797,7 +9797,7 @@
     "questions": [
       {
         "id": "q1",
-        "prompt": "When Samoan reports what somebody knew, how is the report built?",
+        "prompt": "When Sāmoan reports what somebody knew, how is the report built?",
         "options": [
           {
             "label": "A",
@@ -10103,7 +10103,7 @@
     "questions": [
       {
         "id": "q1",
-        "prompt": "How do you say \"only\" and \"any\" in Samoan, in that order?",
+        "prompt": "How do you say \"only\" and \"any\" in Sāmoan, in that order?",
         "options": [
           {
             "label": "A",
@@ -10179,9 +10179,9 @@
           },
           {
             "label": "C",
-            "text": "Samoan writers usually print *naʻo* as two words, *na o*, though this book prints it as one.",
+            "text": "Sāmoan writers usually print *naʻo* as two words, *na o*, though this book prints it as one.",
             "correct": false,
-            "explanation": "True: the two-word spelling is the usual one in Samoan writing, and this book keeps to one word."
+            "explanation": "True: the two-word spelling is the usual one in Sāmoan writing, and this book keeps to one word."
           },
           {
             "label": "D",
@@ -10323,7 +10323,7 @@
           },
           {
             "label": "B",
-            "text": "Naming the topic: a phrase put first announces what the rest is going to be about, which is why Samoan stories so often open this way.",
+            "text": "Naming the topic: a phrase put first announces what the rest is going to be about, which is why Sāmoan stories so often open this way.",
             "correct": false,
             "explanation": "True: this is the first job, and it is why a story so often opens with a phrase put first."
           },
@@ -10377,7 +10377,7 @@
         "options": [
           {
             "label": "A",
-            "text": "Both orders are good Samoan and say the same thing, and which one a speaker picks is largely free.",
+            "text": "Both orders are good Sāmoan and say the same thing, and which one a speaker picks is largely free.",
             "correct": false,
             "explanation": "True: *ʻO se uō le tama* and *ʻO le tama ʻo se uō* both say \"The boy is a friend\"."
           },
@@ -10499,31 +10499,31 @@
       },
       {
         "id": "q4",
-        "prompt": "In *le lē fiafia*, the article *le* and the not-word *lē* stand side by side. What tells them apart in writing, and how does most Samoan print handle the difference?",
+        "prompt": "In *le lē fiafia*, the article *le* and the not-word *lē* stand side by side. What tells them apart in writing, and how does most Sāmoan print handle the difference?",
         "options": [
           {
             "label": "A",
-            "text": "The long-vowel mark alone tells them apart; most Samoan print keeps the mark on the not-word, so the two never look alike.",
+            "text": "The long-vowel mark alone tells them apart; most Sāmoan print keeps the mark on the not-word, so the two never look alike.",
             "correct": false,
-            "explanation": "The first half is right, but most Samoan print drops the marks, so the two are written alike."
+            "explanation": "The first half is right, but most Sāmoan print drops the marks, so the two are written alike."
           },
           {
             "label": "B",
-            "text": "The mark is decoration, and their place alone tells them apart; most Samoan print drops the marks and writes the two the same way, leaving the reader to take them apart by sense.",
+            "text": "The mark is decoration, and their place alone tells them apart; most Sāmoan print drops the marks and writes the two the same way, leaving the reader to take them apart by sense.",
             "correct": false,
             "explanation": "The second half is right, but the mark is not decoration: in writing it alone tells the two words apart."
           },
           {
             "label": "C",
-            "text": "The long-vowel mark alone tells them apart; most Samoan print drops the marks and writes the two the same way, leaving the reader to take them apart by sense.",
+            "text": "The long-vowel mark alone tells them apart; most Sāmoan print drops the marks and writes the two the same way, leaving the reader to take them apart by sense.",
             "correct": true,
             "explanation": "Correct: the mark alone separates them in writing, and where print drops it, the reader tells them apart by sense."
           },
           {
             "label": "D",
-            "text": "The mark is decoration, and their place alone tells them apart; most Samoan print keeps the mark on the not-word, so the two never look alike.",
+            "text": "The mark is decoration, and their place alone tells them apart; most Sāmoan print keeps the mark on the not-word, so the two never look alike.",
             "correct": false,
-            "explanation": "Both halves are wrong: the mark alone tells them apart in writing, and most Samoan print drops it."
+            "explanation": "Both halves are wrong: the mark alone tells them apart in writing, and most Sāmoan print drops it."
           }
         ]
       },
@@ -10559,7 +10559,7 @@
       },
       {
         "id": "q6",
-        "prompt": "How do you say \"the not being tired\" in Samoan?",
+        "prompt": "How do you say \"the not being tired\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -10857,7 +10857,7 @@
           },
           {
             "label": "D",
-            "text": "The clause after *ma* can go without a tense particle altogether, and the sentence is still good Samoan.",
+            "text": "The clause after *ma* can go without a tense particle altogether, and the sentence is still good Sāmoan.",
             "correct": false,
             "explanation": "True: *Sā timu ma lolo le vai* leaves that slot empty, and the empty slot is a form rather than a gap."
           }
@@ -11175,7 +11175,7 @@
         "options": [
           {
             "label": "A",
-            "text": "Spoken Samoan can drop either *ona* or *lea*, and the clause still marks the next thing that happened.",
+            "text": "Spoken Sāmoan can drop either *ona* or *lea*, and the clause still marks the next thing that happened.",
             "correct": false,
             "explanation": "True: with either word dropped, the one left carries the succession on its own."
           },
@@ -11187,7 +11187,7 @@
           },
           {
             "label": "C",
-            "text": "Modern writing and the Samoan of the Bible keep the full shape.",
+            "text": "Modern writing and the Sāmoan of the Bible keep the full shape.",
             "correct": false,
             "explanation": "True: there the construction is always *ona*, the verb phrase, *lea*, then the rest of the clause."
           },
@@ -11517,9 +11517,9 @@
           },
           {
             "label": "B",
-            "text": "The ʻ mark marks the because-word, and ordinary Samoan writing always prints it, so the mark is the test; the *ona* of the then-construction is told from the that-word by the *lea* that trails it; and before a noun phrase the because-word takes the presenting particle *ʻo*.",
+            "text": "The ʻ mark marks the because-word, and ordinary Sāmoan writing always prints it, so the mark is the test; the *ona* of the then-construction is told from the that-word by the *lea* that trails it; and before a noun phrase the because-word takes the presenting particle *ʻo*.",
             "correct": false,
-            "explanation": "In ordinary Samoan the two are usually both written *ona*, so the tense particle is the test to use."
+            "explanation": "In ordinary Sāmoan the two are usually both written *ona*, so the tense particle is the test to use."
           },
           {
             "label": "C",
@@ -11813,7 +11813,7 @@
       },
       {
         "id": "q7",
-        "prompt": "Which sentence is a correct Samoan way to say \"If it rains tomorrow, the trip will not go\"?",
+        "prompt": "Which sentence is a correct Sāmoan way to say \"If it rains tomorrow, the trip will not go\"?",
         "options": [
           {
             "label": "A",
@@ -11889,9 +11889,9 @@
           },
           {
             "label": "C",
-            "text": "Under the general particle *e*, one Samoan condition can mean that the speaker is not sure it will come true, or can mean \"whenever\" it is given.",
+            "text": "Under the general particle *e*, one Sāmoan condition can mean that the speaker is not sure it will come true, or can mean \"whenever\" it is given.",
             "correct": false,
-            "explanation": "This is true: *ʻĀfai e timu, e lē alu le malaga* carries both readings, and nothing in the Samoan chooses between them."
+            "explanation": "This is true: *ʻĀfai e timu, e lē alu le malaga* carries both readings, and nothing in the Sāmoan chooses between them."
           },
           {
             "label": "D",
@@ -11907,9 +11907,9 @@
         "options": [
           {
             "label": "A",
-            "text": "Samoan does not mark whether a clause opened by *ʻā* means \"if\", \"when\" or \"whenever\", so the choice among the three English words is the translator's.",
+            "text": "Sāmoan does not mark whether a clause opened by *ʻā* means \"if\", \"when\" or \"whenever\", so the choice among the three English words is the translator's.",
             "correct": false,
-            "explanation": "This is true: the Samoan is the same whichever English word fits how expected the condition is."
+            "explanation": "This is true: the Sāmoan is the same whichever English word fits how expected the condition is."
           },
           {
             "label": "B",
@@ -12179,7 +12179,7 @@
       },
       {
         "id": "q9",
-        "prompt": "Three of these statements about the Samoan noun phrase are true. Which one is false?",
+        "prompt": "Three of these statements about the Sāmoan noun phrase are true. Which one is false?",
         "options": [
           {
             "label": "A",
@@ -12611,7 +12611,7 @@
       },
       {
         "id": "q3",
-        "prompt": "How do you say \"The car is ours\" in Samoan?",
+        "prompt": "How do you say \"The car is ours\" in Sāmoan?",
         "options": [
           {
             "label": "A",
@@ -12995,13 +12995,13 @@
             "label": "C",
             "text": "*ʻO le aso sā siva ai le teine.* The word *ai* here is the who-word used in questions.",
             "correct": false,
-            "explanation": "The Samoan is right and the naming is not: the who-word asks which person is meant and, in the question pattern taught earlier in this book, opens its sentence, while this one points back to the day from behind the verb."
+            "explanation": "The Sāmoan is right and the naming is not: the who-word asks which person is meant and, in the question pattern taught earlier in this book, opens its sentence, while this one points back to the day from behind the verb."
           },
           {
             "label": "D",
             "text": "*ʻO le aso sā siva ai le teine.* The bare *ai* behind the verb is the pointing-back word, and it holds the spot of a place or a time but never of a cause.",
             "correct": false,
-            "explanation": "The Samoan and the naming are both right, and the last part is not: a cause takes the same bare shape as a place and a time."
+            "explanation": "The Sāmoan and the naming are both right, and the last part is not: a cause takes the same bare shape as a place and a time."
           }
         ]
       },
@@ -13313,7 +13313,7 @@
       },
       {
         "id": "q6",
-        "prompt": "What does *Ina ʻua malama le taeao, sā māfatia le tama* mean, with every Samoan word taken at the meaning this chapter gives it?",
+        "prompt": "What does *Ina ʻua malama le taeao, sā māfatia le tama* mean, with every Sāmoan word taken at the meaning this chapter gives it?",
         "options": [
           {
             "label": "A",
@@ -13605,7 +13605,7 @@
           },
           {
             "label": "C",
-            "text": "They are verbs about what goes on inside a person and they take *o* with or without one of the three forcing words; hearing and seeing are outside the group, with *a* for listening or looking on purpose and *o* for hearing or seeing by accident; they are the only two verbs in Samoan that work this way.",
+            "text": "They are verbs about what goes on inside a person and they take *o* with or without one of the three forcing words; hearing and seeing are outside the group, with *a* for listening or looking on purpose and *o* for hearing or seeing by accident; they are the only two verbs in Sāmoan that work this way.",
             "correct": false,
             "explanation": "The chapter says hearing and seeing are the two verbs the sources show doing this, which stops short of ruling out every other verb."
           },
@@ -13739,7 +13739,7 @@
       },
       {
         "id": "q10",
-        "prompt": "Three claims: (1) where the thing a transitive event happens to stands as a belonging phrase, the word on it is *o*, and that slot can also hold a plain noun phrase with no belonging word, which is the less frequent of the two shapes; (2) in the owner-as-doer pattern the first belonging word is always *o*, the second is *a* or *o* by the ordinary rule for that noun and its owner, and with nobody else named the owner is usually read as the one who did it; (3) verbs of doing and verbs of natural happening take either belonging word, and when the two versions of one phrase were put to Samoan speakers most of them chose *a*. Which of them need correcting?",
+        "prompt": "Three claims: (1) where the thing a transitive event happens to stands as a belonging phrase, the word on it is *o*, and that slot can also hold a plain noun phrase with no belonging word, which is the less frequent of the two shapes; (2) in the owner-as-doer pattern the first belonging word is always *o*, the second is *a* or *o* by the ordinary rule for that noun and its owner, and with nobody else named the owner is usually read as the one who did it; (3) verbs of doing and verbs of natural happening take either belonging word, and when the two versions of one phrase were put to Sāmoan speakers most of them chose *a*. Which of them need correcting?",
         "options": [
           {
             "label": "A",
@@ -13989,27 +13989,27 @@
         "options": [
           {
             "label": "A",
-            "text": "The first, once a fixed expression learned whole, is now built from parts the chapter names; the second leaves off the presenting particle *ʻO*, so it is only a le-phrase and not a complete exclamation; the pattern is used as an immediate comment on somebody's reaction or behaviour, and it is one of the idioms Samoan uses often.",
+            "text": "The first, once a fixed expression learned whole, is now built from parts the chapter names; the second leaves off the presenting particle *ʻO*, so it is only a le-phrase and not a complete exclamation; the pattern is used as an immediate comment on somebody's reaction or behaviour, and it is one of the idioms Sāmoan uses often.",
             "correct": false,
             "explanation": "The presenting particle can be left off, as it is in the second, and the exclamation is still complete."
           },
           {
             "label": "B",
-            "text": "The first, once a fixed expression learned whole, is now built from parts the chapter names; the second leaves off the presenting particle *ʻO*, and the exclamation is still complete; the pattern is used as an immediate comment on somebody's reaction or behaviour, and it is one of the idioms Samoan uses often.",
+            "text": "The first, once a fixed expression learned whole, is now built from parts the chapter names; the second leaves off the presenting particle *ʻO*, and the exclamation is still complete; the pattern is used as an immediate comment on somebody's reaction or behaviour, and it is one of the idioms Sāmoan uses often.",
             "correct": true,
-            "explanation": "Correct on all three: the first taken apart, the second complete without the presenting particle, and one of the idioms Samoan uses often."
+            "explanation": "Correct on all three: the first taken apart, the second complete without the presenting particle, and one of the idioms Sāmoan uses often."
           },
           {
             "label": "C",
-            "text": "The first is still a fixed expression to be learned whole, not something built from parts; the second leaves off the presenting particle *ʻO*, and the exclamation is still complete; the pattern is used as an immediate comment on somebody's reaction or behaviour, and it is one of the idioms Samoan uses often.",
+            "text": "The first is still a fixed expression to be learned whole, not something built from parts; the second leaves off the presenting particle *ʻO*, and the exclamation is still complete; the pattern is used as an immediate comment on somebody's reaction or behaviour, and it is one of the idioms Sāmoan uses often.",
             "correct": false,
             "explanation": "Every part of the first is now familiar: the presenting particle, the le-phrase *le fefe*, and the belonging phrase *o Ulika*."
           },
           {
             "label": "D",
-            "text": "The first, once a fixed expression learned whole, is now built from parts the chapter names; the second leaves off the presenting particle *ʻO*, and the exclamation is still complete; the pattern is used as an immediate comment on somebody's reaction or behaviour, and it is an idiom Samoan uses only rarely.",
+            "text": "The first, once a fixed expression learned whole, is now built from parts the chapter names; the second leaves off the presenting particle *ʻO*, and the exclamation is still complete; the pattern is used as an immediate comment on somebody's reaction or behaviour, and it is an idiom Sāmoan uses only rarely.",
             "correct": false,
-            "explanation": "The chapter calls this pattern one of the idioms Samoan uses often, not a rare one."
+            "explanation": "The chapter calls this pattern one of the idioms Sāmoan uses often, not a rare one."
           }
         ]
       },
@@ -14295,25 +14295,25 @@
         "options": [
           {
             "label": "A",
-            "text": "The place word takes the shape *iā* before a name that refers to a place, so *iā Sāmoa* means in Samoa and *ʻi Sāmoa* means among the Samoans; an ordinary noun takes *iā* as well whenever it names a person.",
+            "text": "The place word takes the shape *iā* before a name that refers to a place, so *iā Sāmoa* means in Sāmoa and *ʻi Sāmoa* means among the Sāmoans; an ordinary noun takes *iā* as well whenever it names a person.",
             "correct": false,
             "explanation": "The shape *iā* goes with a name that refers to people, and an ordinary noun keeps *ʻi* even when it names a person."
           },
           {
             "label": "B",
-            "text": "The place word takes the shape *iā* before a name that refers to a place, so *iā Sāmoa* means in Samoa and *ʻi Sāmoa* means among the Samoans; an ordinary noun keeps *ʻi* even when it names a person.",
+            "text": "The place word takes the shape *iā* before a name that refers to a place, so *iā Sāmoa* means in Sāmoa and *ʻi Sāmoa* means among the Sāmoans; an ordinary noun keeps *ʻi* even when it names a person.",
             "correct": false,
-            "explanation": "The two meanings run the other way: *iā Sāmoa* names the people, among the Samoans, and *ʻi Sāmoa* the place, in Samoa."
+            "explanation": "The two meanings run the other way: *iā Sāmoa* names the people, among the Sāmoans, and *ʻi Sāmoa* the place, in Sāmoa."
           },
           {
             "label": "C",
-            "text": "The place word takes the shape *iā* before a name that refers to a person or a people, so *iā Sāmoa* means among the Samoans and *ʻi Sāmoa* means in Samoa; an ordinary noun keeps *ʻi* even when it names a person.",
+            "text": "The place word takes the shape *iā* before a name that refers to a person or a people, so *iā Sāmoa* means among the Sāmoans and *ʻi Sāmoa* means in Sāmoa; an ordinary noun keeps *ʻi* even when it names a person.",
             "correct": true,
             "explanation": "Correct on both: reference to a person or a people selects *iā*, and an ordinary noun keeps *ʻi* whoever it names."
           },
           {
             "label": "D",
-            "text": "The place word takes the shape *iā* before a name that refers to a person or a people, so *iā Sāmoa* means among the Samoans and *ʻi Sāmoa* means in Samoa; an ordinary noun takes *iā* as well whenever it names a person.",
+            "text": "The place word takes the shape *iā* before a name that refers to a person or a people, so *iā Sāmoa* means among the Sāmoans and *ʻi Sāmoa* means in Sāmoa; an ordinary noun takes *iā* as well whenever it names a person.",
             "correct": false,
             "explanation": "An ordinary noun keeps *ʻi* even when it names a person, while *iā* stands before a name that refers to a person or a people."
           }
@@ -14351,7 +14351,7 @@
       },
       {
         "id": "q10",
-        "prompt": "Three claims: (1) not every word root turns up equally often in both slots, and a word's meaning makes one use more likely than the other, so a word's class can be predicted from its meaning; (2) particles such as *le* and *e* are not sorted by the slot rule, many word roots, perhaps the majority, can fill either kind of slot, and the describing words, *leai* and the numbers are each a word doing a verb's job in the verb slot; (3) the five kinds of noun are the noun half of the slot rule and not a second system, the calling words belong to casual, familiar speech, the eight words that change shape for number in both slots all name a person's age or married life while one word, for a man's sister, changes shape only in a noun slot, and everyday modern Samoan uses *ʻi* rather than *iā* before the names of months. Which of them need correcting?",
+        "prompt": "Three claims: (1) not every word root turns up equally often in both slots, and a word's meaning makes one use more likely than the other, so a word's class can be predicted from its meaning; (2) particles such as *le* and *e* are not sorted by the slot rule, many word roots, perhaps the majority, can fill either kind of slot, and the describing words, *leai* and the numbers are each a word doing a verb's job in the verb slot; (3) the five kinds of noun are the noun half of the slot rule and not a second system, the calling words belong to casual, familiar speech, the eight words that change shape for number in both slots all name a person's age or married life while one word, for a man's sister, changes shape only in a noun slot, and everyday modern Sāmoan uses *ʻi* rather than *iā* before the names of months. Which of them need correcting?",
         "options": [
           {
             "label": "A",
@@ -14375,7 +14375,7 @@
             "label": "D",
             "text": "Claims 1 and 3.",
             "correct": false,
-            "explanation": "Claim 3 stands as the chapter gives it: the five kinds are the noun half of the slot rule, calling words belong to casual speech, the eight words name age or married life and the sister word changes shape only in a noun slot, and everyday modern Samoan uses *ʻi* before months."
+            "explanation": "Claim 3 stands as the chapter gives it: the five kinds are the noun half of the slot rule, calling words belong to casual speech, the eight words name age or married life and the sister word changes shape only in a noun slot, and everyday modern Sāmoan uses *ʻi* before months."
           }
         ]
       }
@@ -14657,7 +14657,7 @@
       },
       {
         "id": "q10",
-        "prompt": "Three claims: (1) the verbs of worry, fear and dislike take a *neʻi* clause, and no other verb of thinking or feeling does; (2) after the do-not verb *ʻaua*, what should not be done is said either with *neʻi* or with the general particle *e*, which takes the shape *te* when the clause has a preverbal pronoun, the *neʻi* version can carry the force of a warning, and after verbs of worry, fear and dislike *ʻia* and *neʻi* are sometimes used together; (3) in *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua.* the *seʻi* clause says what the speaker wishes for through the first clause, nothing in the words marks it as part of the first, and the way Samoan speakers say such sentences and Samoan writers punctuate them suggests that it belongs to the first, while *seʻi* can also be combined with another tense particle and, after a verb of saying or ordering, *ʻina ʻia* reports a command. Which of them need correcting?",
+        "prompt": "Three claims: (1) the verbs of worry, fear and dislike take a *neʻi* clause, and no other verb of thinking or feeling does; (2) after the do-not verb *ʻaua*, what should not be done is said either with *neʻi* or with the general particle *e*, which takes the shape *te* when the clause has a preverbal pronoun, the *neʻi* version can carry the force of a warning, and after verbs of worry, fear and dislike *ʻia* and *neʻi* are sometimes used together; (3) in *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua.* the *seʻi* clause says what the speaker wishes for through the first clause, nothing in the words marks it as part of the first, and the way Sāmoan speakers say such sentences and Sāmoan writers punctuate them suggests that it belongs to the first, while *seʻi* can also be combined with another tense particle and, after a verb of saying or ordering, *ʻina ʻia* reports a command. Which of them need correcting?",
         "options": [
           {
             "label": "A",
@@ -15123,25 +15123,25 @@
         "options": [
           {
             "label": "A",
-            "text": "It makes a describing verb of a noun, but the meaning of each built word has to be learned on its own, and the long form of a verb that takes the agent marker ends in *=a* because it is this same ending doing the same work. One thing it cannot do is go on a word that doubles a piece of itself. It is productive, it reaches words borrowed into Samoan as well as old ones, and now and then it goes on a whole phrase rather than on a single noun, a use only sporadically recorded.",
+            "text": "It makes a describing verb of a noun, but the meaning of each built word has to be learned on its own, and the long form of a verb that takes the agent marker ends in *=a* because it is this same ending doing the same work. One thing it cannot do is go on a word that doubles a piece of itself. It is productive, it reaches words borrowed into Sāmoan as well as old ones, and now and then it goes on a whole phrase rather than on a single noun, a use only sporadically recorded.",
             "correct": false,
             "explanation": "This ending means the same thing every time, and the long-form ending is a different ending, one that works on a verb and leaves it a verb."
           },
           {
             "label": "B",
-            "text": "It makes a describing verb of a noun, and its meaning is the same every time: being affected by the thing the noun names. The long form of a verb that takes the agent marker also ends in *=a*, and the two are not the same ending. It goes on a word that doubles a piece of itself as freely as on any other word. It is productive, it reaches words borrowed into Samoan as well as old ones, and now and then it goes on a whole phrase rather than on a single noun, a use only sporadically recorded.",
+            "text": "It makes a describing verb of a noun, and its meaning is the same every time: being affected by the thing the noun names. The long form of a verb that takes the agent marker also ends in *=a*, and the two are not the same ending. It goes on a word that doubles a piece of itself as freely as on any other word. It is productive, it reaches words borrowed into Sāmoan as well as old ones, and now and then it goes on a whole phrase rather than on a single noun, a use only sporadically recorded.",
             "correct": false,
             "explanation": "The one thing this ending cannot do is go on a word that doubles a piece of itself."
           },
           {
             "label": "C",
-            "text": "It makes a describing verb of a noun, and its meaning is the same every time: being affected by the thing the noun names. The long form of a verb that takes the agent marker also ends in *=a*, and the two are not the same ending. One thing it cannot do is go on a word that doubles a piece of itself. It is productive on old Samoan words only, and it never goes on more than a single noun.",
+            "text": "It makes a describing verb of a noun, and its meaning is the same every time: being affected by the thing the noun names. The long form of a verb that takes the agent marker also ends in *=a*, and the two are not the same ending. One thing it cannot do is go on a word that doubles a piece of itself. It is productive on old Sāmoan words only, and it never goes on more than a single noun.",
             "correct": false,
-            "explanation": "The ending reaches words borrowed into Samoan as well as old ones, and now and then it goes on a whole phrase, though that use is only sporadically recorded."
+            "explanation": "The ending reaches words borrowed into Sāmoan as well as old ones, and now and then it goes on a whole phrase, though that use is only sporadically recorded."
           },
           {
             "label": "D",
-            "text": "It makes a describing verb of a noun, and its meaning is the same every time: being affected by the thing the noun names. The long form of a verb that takes the agent marker also ends in *=a*, and the two are not the same ending. One thing it cannot do is go on a word that doubles a piece of itself. It is productive, it reaches words borrowed into Samoan as well as old ones, and now and then it goes on a whole phrase rather than on a single noun, a use only sporadically recorded.",
+            "text": "It makes a describing verb of a noun, and its meaning is the same every time: being affected by the thing the noun names. The long form of a verb that takes the agent marker also ends in *=a*, and the two are not the same ending. One thing it cannot do is go on a word that doubles a piece of itself. It is productive, it reaches words borrowed into Sāmoan as well as old ones, and now and then it goes on a whole phrase rather than on a single noun, a use only sporadically recorded.",
             "correct": true,
             "explanation": "Correct on all three: the ending carries one meaning every time and is not the long-form ending, a word carrying a doubled piece is closed to it, and its reach covers borrowed words and, sporadically, a whole phrase."
           }
@@ -15269,7 +15269,7 @@
       },
       {
         "id": "q10",
-        "prompt": "Three claims: (1) Doubling is saying a word, or one piece of a word, a second time, and it is the third of the three ways Samoan builds one word out of another, beside a prefix on the front and an ending on the back; Samoan's endings come in families of related shapes and the shape of a word gives no clue which member of a family it takes, so a built word is partly a rule and partly a fact about the word; putting *=ga* on the end of a verb gives a noun, and many verbs make two nouns that way, one with the vowel of the first syllable short and one with it long, the long-vowel form usually carrying plurality or frequency, though for some pairs the recorded evidence does not settle whether the two differ in meaning at all; *puʻupuʻu*, *paʻepaʻe* and *itiiti* all belong to the small closed group of colour and size words, each of them the singular form; and the ʻ mark on the future prefix is not a guide to build on, since some of those words carry it and some do not. (2) On its own, so far as the records go, *fe-* says that the event happens more than once, and on its own it makes the plural form of a verb; the pattern with the ending *-aʻi* or *-ʻi* behind the verb is where the prefix is most common, it is quite productive, and the two endings usually mean the same thing; a verb built that way normally does not take the agent marker, and the exceptions are rare; *toʻa-* is frequently said with the second vowel as an o rather than an a, and in spoken Samoan it tends to be dropped altogether, a tendency that turns up occasionally in writing too; doubling a piece of the word is not so clearly productive as doubling the whole of it, though forms nobody had recorded keep turning up in modern writing, and in plural forms it often comes with a long vowel in the first syllable, very common with roots of three syllables, so a doubled piece is read as a plural first and none is built of your own; doubling the whole word is clearly productive and works on words borrowed into Samoan; and a word carrying a doubled piece normally takes only *=ina*, the modern tendency to allow the long-form ending *=a* on it too being a tendency rather than a rule. (3) Plurality is the whole of what a doubled piece of a word means, and a word made by doubling the whole word always says the event happened again and again, never that it went on for a stretch of time. Which of them need correcting?",
+        "prompt": "Three claims: (1) Doubling is saying a word, or one piece of a word, a second time, and it is the third of the three ways Sāmoan builds one word out of another, beside a prefix on the front and an ending on the back; Sāmoan's endings come in families of related shapes and the shape of a word gives no clue which member of a family it takes, so a built word is partly a rule and partly a fact about the word; putting *=ga* on the end of a verb gives a noun, and many verbs make two nouns that way, one with the vowel of the first syllable short and one with it long, the long-vowel form usually carrying plurality or frequency, though for some pairs the recorded evidence does not settle whether the two differ in meaning at all; *puʻupuʻu*, *paʻepaʻe* and *itiiti* all belong to the small closed group of colour and size words, each of them the singular form; and the ʻ mark on the future prefix is not a guide to build on, since some of those words carry it and some do not. (2) On its own, so far as the records go, *fe-* says that the event happens more than once, and on its own it makes the plural form of a verb; the pattern with the ending *-aʻi* or *-ʻi* behind the verb is where the prefix is most common, it is quite productive, and the two endings usually mean the same thing; a verb built that way normally does not take the agent marker, and the exceptions are rare; *toʻa-* is frequently said with the second vowel as an o rather than an a, and in spoken Sāmoan it tends to be dropped altogether, a tendency that turns up occasionally in writing too; doubling a piece of the word is not so clearly productive as doubling the whole of it, though forms nobody had recorded keep turning up in modern writing, and in plural forms it often comes with a long vowel in the first syllable, very common with roots of three syllables, so a doubled piece is read as a plural first and none is built of your own; doubling the whole word is clearly productive and works on words borrowed into Sāmoan; and a word carrying a doubled piece normally takes only *=ina*, the modern tendency to allow the long-form ending *=a* on it too being a tendency rather than a rule. (3) Plurality is the whole of what a doubled piece of a word means, and a word made by doubling the whole word always says the event happened again and again, never that it went on for a stretch of time. Which of them need correcting?",
         "options": [
           {
             "label": "A",
@@ -15465,7 +15465,7 @@
           },
           {
             "label": "B",
-            "text": "*Ta* stands in the middle slot, where *ʻou* stands, and *ʻita* stands on its own, where *aʻu* stands. The opening piece *ʻi* of *ʻita* can be left off, as modern Samoan tends to leave it off other independent pronouns. Above everything, the forms mark that the speaker is emotionally involved, and *taʻita* is an everyday-speech form to recognize, while this book uses *ʻita*.",
+            "text": "*Ta* stands in the middle slot, where *ʻou* stands, and *ʻita* stands on its own, where *aʻu* stands. The opening piece *ʻi* of *ʻita* can be left off, as modern Sāmoan tends to leave it off other independent pronouns. Above everything, the forms mark that the speaker is emotionally involved, and *taʻita* is an everyday-speech form to recognize, while this book uses *ʻita*.",
             "correct": false,
             "explanation": "The *ʻi* is never left off *ʻita*, even though some other independent pronouns can do without it."
           },

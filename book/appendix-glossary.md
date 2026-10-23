@@ -1,10 +1,10 @@
 # Glossary {.unnumbered}
 
-Every headword taught in the book's Words to Learn tables, in Samoan alphabetical order. Diacritics are folded and interfiled: there is no separate glottal-stop or long-vowel section. An unmarked spelling is listed before a marked one on a tie. "Ch" is the chapter where the word is first taught.
+Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetical order. Diacritics are folded and interfiled: there is no separate glottal-stop or long-vowel section. An unmarked spelling is listed before a marked one on a tie. "Ch" is the chapter where the word is first taught.
 
 ## Suffixes
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *=a* | a long-form ending: joins to the short form, and is the everyday choice | 32 |
 | *=a* | the ending that makes a describing verb of a noun: being affected by what the noun names | 50 |
@@ -17,7 +17,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## A
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *a* | the belonging word for *a*-words: joins a thing to the person who got or uses it | 10 |
 | *a* | the two belonging words, required on the owner of a belonging-sentence for every owner | 42 |
@@ -99,7 +99,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## E
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *e* | the general particle: marks a statement true in general, with no tie to a time | 13 |
 | *e* | the general particle, here linking a number to the thing it counts | 22 |
@@ -119,7 +119,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## F
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *fā* | four | 22 |
 | *faʻa-* | the maker-prefix: stands in front of a noun or a verb and builds a new word out of it | 28 |
@@ -194,7 +194,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## G
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *gāgaʻe* | eastward, a little to the east, at some distance | 26 |
 | *gagafō* | further towards the west | 26 |
@@ -210,7 +210,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## I
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *ʻi* | the place word: marks where an action is or where it is headed (in, at, to) | 11 |
 | *ʻi* | the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person | 47 |
@@ -254,14 +254,14 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## K
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *kī* | key | 45 |
 | *koko* | cocoa | 31 |
 
 ## L
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *lā* | they two | 2 |
 | *lāʻau* | tree (the bare form *lāʻau* is itself the plural, "trees", while one tree is *le lāʻau*) | 6 |
@@ -328,7 +328,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## M
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *ma* | the with-word: "with" before a companion, "and" between two doers; where the verb has a plural form to show, its number tells you which | 20 |
 | *ma* | the with-word, met earlier; after *tusa* it introduces the thing the first half agrees with | 31 |
@@ -400,7 +400,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## N
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *na* | the second past: marks a single, finished, or unexpected event | 4 |
 | *na* | the word for he, she before *te* (in place of *ia*) | 13 |
@@ -427,7 +427,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## O
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *o* | the belonging word for *o*-words: joins a thing to the person it is part of, or whose it is by nature or by where they live | 10 |
 | *o* | the two belonging words, required on the owner of a belonging-sentence for every owner | 42 |
@@ -468,7 +468,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## P
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *paʻa* | crab | 49 |
 | *paʻeʻe* | lean | 42 |
@@ -510,7 +510,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## S
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *sā* | the past particle: puts the whole sentence in the past | 1 |
 | *sā* | the word for forbidden, must not. Spelled like the past particle, and told apart by position, since this *sā* stands in the predicate slot with a tense particle of its own in front | 30 |
@@ -577,7 +577,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## T
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *ta* | I, when the speaker is emotionally involved: the form in the middle slot | 51 |
 | *tā* | we two (you and I) | 2 |
@@ -680,7 +680,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## U
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *ʻua* | the change particle: says something has changed and a new state is usually in place now | 4 |
 | *uafu* | wharf | 17 |
@@ -707,7 +707,7 @@ Every headword taught in the book's Words to Learn tables, in Samoan alphabetica
 
 ## V
 
-| Samoan | English | Ch |
+| Sāmoan | English | Ch |
 |---|---|---|
 | *vaʻa* | boat, canoe | 20 |
 | *vaʻai* | see | 4 |

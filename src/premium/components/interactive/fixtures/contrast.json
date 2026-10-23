@@ -6,12 +6,12 @@
       "kind": "contrast",
       "anchor": "building-a-word-with-faa",
       "title": "Only the tune changes",
-      "caption": "The words and their order stay the same. An English yes or no question lifts the voice at the end; a Samoan one usually falls and stays low over the last two or three syllables.",
+      "caption": "The words and their order stay the same. An English yes or no question lifts the voice at the end; a Sāmoan one usually falls and stays low over the last two or three syllables.",
       "data": {
         "mode": "toggle",
         "states": [
           { "label": "Statement", "sm": "Sā ia alu.", "en": "She went.", "note": "A statement. The book never marks its tune." },
-          { "label": "Samoan question", "sm": "Sā ia alu?", "en": "Did she go?", "tune": "fall", "note": "The same three words. The voice falls and stays low at the end, which is what the arrow ↘ marks in this book." },
+          { "label": "Sāmoan question", "sm": "Sā ia alu?", "en": "Did she go?", "tune": "fall", "note": "The same three words. The voice falls and stays low at the end, which is what the arrow ↘ marks in this book." },
           { "label": "English question", "en": "Did she go?", "tune": "rise", "note": "English runs the other way: its yes or no question lifts the voice at the end." }
         ]
       }

@@ -25,7 +25,7 @@ a phrase built with it takes no other article in front of it.
 standing with the ordinary article has not been slighted. The feeling has simply
 been left unsaid.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *si teine* | the dear girl |
 | *si tama* | the dear boy |
@@ -52,7 +52,7 @@ own. The choice between the *a*-word and the *o*-word is made exactly as it
 always is. A father is an *o*-word noun, so after *si* he takes *oʻu*, the
 *o*-word form with no article inside it.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *si aʻu pepe* | my dear baby |
 | *si aʻu maile* | my poor dog |
@@ -156,7 +156,7 @@ so it answers to both.
 | *sina* | *nāi* | a particular portion |
 | *sina* | *ni nāi* | any portion at all |
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *nāi tama* | the dear boys |
 | *nāi pepe* | the dear babies |
@@ -206,7 +206,7 @@ an appeal for help, and those readings are frequent rather than required.
 A sentence can name the speaker in both places at once, in the middle slot and
 again after the verb, and then both words are emotional forms.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Ta te alu.* | I go. |
 | *Ta te sau.* | I come. |
@@ -220,7 +220,7 @@ again after the verb, and then both words are emotional forms.
 
 > *Note:* *ʻIta* opens with a piece of its own, *ʻi*, and on this pronoun that
 > piece is never left off. Some other independent pronouns can take the same
-> piece or do without it, and modern Samoan leans toward doing without it, but
+> piece or do without it, and modern Sāmoan leans toward doing without it, but
 > never on *ʻita*.
 
 > *Note:* In the middle slot, the long-vowel mark is the whole of the
@@ -268,7 +268,7 @@ standing where an ordinary pair stands:
 The article element moves down the column exactly as it does in the ordinary
 set, and *ta* holds its place through all four.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *lata taʻavale* | my car |
 | *sata taʻavale* | a car of mine |
@@ -337,7 +337,7 @@ is the speaker's involvement, the same thing *ta* adds in the middle slot.
 7. *lota tino*
 8. *sinaʻu vai*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. the dear boy
 2. some dear girls

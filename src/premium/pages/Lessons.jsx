@@ -185,7 +185,7 @@ export default function Lessons() {
           {tiers.length === 0 && (
             <Motion.div className="lx-empty" key="empty" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
               <p className="lx-empty-t">{query ? <>No chapter matches “{query}”.</> : `No ${LEVELS.find(item => item.key === level)?.name || ''} chapters match.`}</p>
-              <p>Try a topic like <button onClick={() => { setLevel('all'); setQuery('possessives') }}>possessives</button> or a Samoan word like <button onClick={() => { setLevel('all'); setQuery('faʻa') }} lang="sm" className="to">faʻa</button>.</p>
+              <p>Try a topic like <button onClick={() => { setLevel('all'); setQuery('possessives') }}>possessives</button> or a Sāmoan word like <button onClick={() => { setLevel('all'); setQuery('faʻa') }} lang="sm" className="to">faʻa</button>.</p>
               <button className="btn btn-ghost btn-sm" onClick={() => { setQuery(''); setLevel('all') }}>Show all {CHAPTER_COUNT} chapters</button>
             </Motion.div>
           )}

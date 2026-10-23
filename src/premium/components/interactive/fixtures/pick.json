@@ -6,7 +6,7 @@
       "kind": "pick",
       "anchor": "weather-sentences",
       "title": "Which sentence says it?",
-      "intro": "Read the English, then choose the Samoan sentence that says it.",
+      "intro": "Read the English, then choose the Sāmoan sentence that says it.",
       "data": {
         "question": "Which sentence says this?",
         "prompts": [

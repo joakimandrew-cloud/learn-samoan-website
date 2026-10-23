@@ -241,7 +241,7 @@ function EmbeddedWordDeck({ words, lesson }) {
       <div className="vp-actions">
         <button type="button" onClick={() => grade('again')}>← Again</button>
         <button type="button" onClick={() => { setFlipped(false); setState(previous => ({ ...previous, direction: previous.direction === 'to' ? 'en' : 'to' })) }}>
-          {state.direction === 'to' ? 'Samoan first' : 'English first'}
+          {state.direction === 'to' ? 'Sāmoan first' : 'English first'}
         </button>
         <button type="button" onClick={() => grade('known')}>Got it →</button>
       </div>

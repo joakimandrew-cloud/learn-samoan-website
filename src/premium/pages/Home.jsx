@@ -14,11 +14,11 @@ import '../styles/home-practice-film.css'
 function CourseBook() {
   return (
     <div className="sm-book" aria-hidden="true">
-      <div className="sm-book__spine"><span>Learn Samoan</span></div>
+      <div className="sm-book__spine"><span>Learn Sāmoan</span></div>
       <div className="sm-book__front">
         <div className="sm-book__top">
-          <span className="sm-book__title">Learn<br />Samoan</span>
-          <span className="sm-book__sub">Samoan language course</span>
+          <span className="sm-book__title">Learn<br />Sāmoan</span>
+          <span className="sm-book__sub">Sāmoan language course</span>
         </div>
         <div className="sm-book__body">
           <span className="sm-book__count">{CHAPTER_COUNT} chapters</span>
@@ -39,8 +39,8 @@ export default function Home() {
       <section className="wr-home__hero">
         <div className="wr-home__hero-inner">
           <div className="wr-home__hero-copy">
-            <p className="wr-home__eyebrow">A complete {CHAPTER_COUNT}-chapter Samoan course</p>
-            <h1>Build your first<br />Samoan sentence.</h1>
+            <p className="wr-home__eyebrow">A complete {CHAPTER_COUNT}-chapter Sāmoan course</p>
+            <h1>Build your first<br />Sāmoan sentence.</h1>
             <p className="wr-home__hero-lede">See how the words fit together, change one part, and understand what changed. Begin with the real pattern from Chapter 1.</p>
             <div className="wr-home__hero-action">
               <Link className="wr-home__button wr-home__button--primary" to="/chapters/1">Start Chapter 1, free <EntryMotif size={20} /></Link>
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="wr-home__section-intro">
           <p className="wr-home__eyebrow">Learn, then use it</p>
           <h2 id="wr-practice-heading">Practise what you learn.</h2>
-          <p>See quizzes and flip cards in action. Every quiz answer, right or wrong, comes with an explanation.</p>
+          <p>See drills, quizzes and flip cards in action. Every quiz answer, right or wrong, comes with an explanation.</p>
         </div>
         <HomePracticePreview />
         <div className="wr-home__next">

@@ -1,6 +1,6 @@
 # Chapter 17: The Where-Sentence
 
-This chapter adds the where-sentence, the third kind of Samoan sentence, in
+This chapter adds the where-sentence, the third kind of Sāmoan sentence, in
 which a tense particle sits in front of a place or a time, standing where a verb
 would stand, so the sentence says where or when someone or something is. It also
 teaches the where-question, *ʻO fea...?* ("Where...?"), which runs through the
@@ -22,7 +22,7 @@ verb sentence would put an action word straight after *sā*, this sentence puts 
 place. The place itself, with a tense particle in front of it, is the whole
 predicate, and the sentence says the girl was located there.
 
-This is the third kind of Samoan sentence. The verb sentence puts an action
+This is the third kind of Sāmoan sentence. The verb sentence puts an action
 after the tense particle. The naming sentence sets two naming parts side by side
 to say who or what something is. This one, a sentence that says where someone or
 something is, is called the **where-sentence**. Its predicate is a place, not a
@@ -32,7 +32,7 @@ In its basic form the parts come in a fixed order: the tense particle, then
 the place with the place word *ʻi* in front of it, then the person or thing
 located there.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā ʻi le fale le teine.* | The girl was in the house. |
 | *Sā ʻi le uafu le tinā.* | The mother was at the wharf. |
@@ -197,7 +197,7 @@ tell the two apart.
 4. *Sā ʻou ʻi le fono.*
 5. *ʻO fea e ʻi ai le tama?*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The boy was in the village.
 2. The chief was at the village meeting.

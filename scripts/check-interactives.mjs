@@ -14,6 +14,11 @@
  *   node scripts/check-interactives.mjs          every chapter file
  *   node scripts/check-interactives.mjs 7 12     chapters 7 and 12 only
  *   node scripts/check-interactives.mjs --file <path>   one file (a fixture)
+ *   node scripts/check-interactives.mjs --drills        the drills only
+ *
+ * The default run also checks the drills hub (src/premium/data/drills-catalog.json,
+ * the cards derived from the practice items) and the Daily words deck (rows of
+ * src/data/book-vocabulary.json, each printed and paired in its chapter).
  *
  * Exit code 1 when anything fails. test/interactives.test.js runs the same
  * checks, so a failure here fails `npm test`.
@@ -22,6 +27,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { slugify } from '../src/lib/slugify.js'
+import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS as DRILL_KINDS, buildDrillGroups, cardSample, dailyWordsSample, drillChapter } from '../src/premium/lib/drills-catalog.js'
+import { buildDeck, buildSession, SESSION_SIZE } from '../src/premium/lib/daily-words.js'
+import { HUBS } from '../src/lib/site-meta.js'
 
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 export const DATA_DIR = path.join(APP, 'src', 'data', 'interactives')
@@ -174,6 +182,11 @@ const SENTENCE_END = /[.?!]+$/
 
 // Samoan-looking words in free English must sit inside *italics*.
 const SAMOAN_MARK = /[āēīōūĀĒĪŌŪʻ]/
+// The one allowance: the site's own words for the language and the country.
+// Andrew's ruling (2026-10-24) spells them with a macron, attested at
+// [mosel p.27] and [churchward p.11]. Exactly "Sāmoa", "Sāmoan", "Sāmoans"
+// are site copy, not Samoan text; nothing else with a macron is let through.
+export const SITE_WORDS = /(?<![\p{L}])Sāmoa(?:ns?)?(?![\p{L}])/gu
 const NO_DASH = /—/
 const CEFR = /\b[ABC][12]\b/
 const LESSON = /\blessons?\b/i
@@ -226,7 +239,7 @@ export function validateFile(data, { file = '', book = loadBook(), slugs = null 
       if (/[bcdjqwxyz]/i.test(span)) continue // an English word in italics
       if (attestedIn(n, span, book) === null) errors.push(`${where(it, field)}: Samoan in italics not printed in Chapter ${n} or before: "${span}"`)
     }
-    const bare = s.replace(/\*[^*]+\*/g, ' ')
+    const bare = s.replace(/\*[^*]+\*/g, ' ').replace(SITE_WORDS, ' ')
     const marked = bare.split(/\s+/).filter(w => SAMOAN_MARK.test(w))
     if (marked.length) errors.push(`${where(it, field)}: Samoan outside *italics* (${marked.slice(0, 3).join(', ')}); wrap it so it renders and is checked as Samoan`)
   }
@@ -512,12 +525,144 @@ export function readJson(file) {
   return JSON.parse(fs.readFileSync(file, 'utf8'))
 }
 
+// ---------------------------------------------------------------------------
+// The drills: the hub's catalogue and the Daily words deck
+// ---------------------------------------------------------------------------
+
+export const DRILLS_CATALOG = path.join(APP, 'src', 'premium', 'data', 'drills-catalog.json')
+const VOCAB_FILE = path.join(APP, 'src', 'data', 'book-vocabulary.json')
+const CHAPTERS_FILE = path.join(APP, 'src', 'data', 'chapters.json')
+const SAMOAN_LETTER = /[ĀĒĪŌŪāēīōūʻ]/
+
+function seededRandom(seed) {
+  let a = seed >>> 0
+  return () => {
+    a = (a + 0x6D2B79F5) >>> 0
+    let t = a
+    t = Math.imul(t ^ (t >>> 15), t | 1)
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61)
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+// Every string a data object holds, to prove a card sample is one of its fields.
+function stringFields(value, out = new Set()) {
+  if (typeof value === 'string') out.add(value)
+  else if (Array.isArray(value)) value.forEach(v => stringFields(v, out))
+  else if (value && typeof value === 'object') Object.values(value).forEach(v => stringFields(v, out))
+  return out
+}
+
+/**
+ * The drills hub reads src/premium/data/drills-catalog.json and the Daily
+ * words deck reads book-vocabulary.json. Neither file may carry Samoan the
+ * course does not print: the catalogue holds ids and English only, every card
+ * is derived from a practice item this gate already checks, and every deck
+ * word is a vocabulary row printed (and paired with its English) in its chapter.
+ * Returns { errors, lines } where lines is one summary per check.
+ */
+export function validateDrills({ book = loadBook(), catalog, vocab, chapters, chapterData } = {}) {
+  const errors = []
+  const lines = []
+  catalog ??= readJson(DRILLS_CATALOG)
+  vocab ??= readJson(VOCAB_FILE)
+  chapters ??= readJson(CHAPTERS_FILE)
+  chapterData ??= chapterFiles().map(readJson)
+
+  // (a) The catalogue: every id real, every practice item exactly once.
+  const items = new Map()
+  for (const file of chapterData) for (const it of file.items || []) if (DRILL_KINDS.includes(it.kind)) items.set(it.id, { item: it, chapter: file.chapter })
+  const seen = new Map()
+  const keys = new Set()
+  if (!Array.isArray(catalog) || !catalog.length) errors.push('drills catalogue: not a list of groups')
+  for (const g of Array.isArray(catalog) ? catalog : []) {
+    if (!g.key || keys.has(g.key)) errors.push(`drills catalogue: group key "${g.key}" missing or repeated`)
+    keys.add(g.key)
+    if (!Array.isArray(g.drills) || !g.drills.length) errors.push(`drills catalogue: group "${g.key}" has no drills`)
+    if (!Array.isArray(g.inChapters) || g.inChapters.length) errors.push(`drills catalogue: group "${g.key}" inChapters must be an empty list`)
+    for (const id of g.drills || []) {
+      seen.set(id, (seen.get(id) || 0) + 1)
+      if (id !== DAILY_WORDS_ID && !items.has(id)) errors.push(`drills catalogue: "${id}" is not a practice item in any interactives file`)
+      if (id !== DAILY_WORDS_ID && items.has(id) && drillChapter(id) !== items.get(id).chapter) errors.push(`drills catalogue: "${id}" is not in the chapter its id names`)
+    }
+  }
+  for (const [id, n] of seen) if (n > 1) errors.push(`drills catalogue: "${id}" listed ${n} times`)
+  for (const id of items.keys()) if (!seen.has(id)) errors.push(`drills catalogue: practice item "${id}" is in no group`)
+  if (!seen.has(DAILY_WORDS_ID)) errors.push('drills catalogue: "daily-words" is in no group')
+  const total = seen.size
+  const hubCount = /^(\d+) drills/.exec(HUBS['/drills']?.description || '')?.[1]
+  if (Number(hubCount) !== total) errors.push(`site-meta: the /drills description says ${hubCount} drills, the catalogue has ${total}`)
+  lines.push(`drills catalogue: ${total} drills in ${catalog.length} groups ${errors.length ? 'FAILED' : 'ok'}`)
+
+  // (b) Site copy: no dash, level code or "lesson", and no Samoan at all.
+  const before = errors.length
+  const copy = (where, s) => {
+    if (typeof s !== 'string' || !s.trim()) { errors.push(`${where}: missing text`); return }
+    if (NO_DASH.test(s)) errors.push(`${where}: em dash in site copy`)
+    if (/\s-\s/.test(s)) errors.push(`${where}: spaced hyphen used as a dash`)
+    if (CEFR.test(s)) errors.push(`${where}: level code in site copy`)
+    if (LESSON.test(s)) errors.push(`${where}: says "lesson"; the course says "chapter"`)
+    if (s.includes('*') || SAMOAN_LETTER.test(s.replace(SITE_WORDS, ' '))) errors.push(`${where}: carries Samoan; the catalogue and the Daily words copy hold English only`)
+  }
+  for (const g of Array.isArray(catalog) ? catalog : []) { copy(`drills catalogue group ${g.key} name`, g.name); copy(`drills catalogue group ${g.key} note`, g.note) }
+  for (const [k, v] of Object.entries(DAILY_WORDS_ENTRY)) copy(`daily words ${k}`, v)
+  copy('site-meta /drills description', HUBS['/drills']?.description)
+  lines.push(`drills copy: ${errors.length === before ? 'ok' : 'FAILED'}`)
+
+  // (c) The Daily words deck: every entry a vocabulary row, printed and paired.
+  const deck = buildDeck(vocab)
+  const rows = new Map(vocab.map(r => [r.id, r]))
+  const beforeDeck = errors.length
+  for (const e of deck) {
+    const row = rows.get(e.id)
+    if (!row || row.samoan !== e.samoan || row.english !== e.english || (row.chapter ?? 0) !== e.chapter) { errors.push(`daily words ${e.id}: not a book-vocabulary.json row as stored`); continue }
+    if (attestedIn(e.chapter, e.samoan, book) === null) errors.push(`daily words ${e.id}: "${e.samoan}" is not printed in Chapter ${e.chapter} or before`)
+    else if (!pairedIn(e.chapter, e.samoan, e.english, book)) errors.push(`daily words ${e.id}: "${e.english}" is not printed beside "${e.samoan}"`)
+  }
+  if (deck.length < 4 * SESSION_SIZE) errors.push(`daily words: the deck has only ${deck.length} words`)
+  // A few seeded sessions: four options, each a deck row, no repeated form.
+  const deckIds = new Set(deck.map(e => e.id))
+  for (const seed of [1, 2, 3]) {
+    for (const round of buildSession(deck, {}, seededRandom(seed))) {
+      const forms = new Set(round.options.map(o => o.samoan))
+      if (round.options.length !== 4 || forms.size !== 4) errors.push(`daily words ${round.entry.id}: a session round needs four options with four different Samoan forms`)
+      if (!round.options.every(o => deckIds.has(o.id) && rows.get(o.id).samoan === o.samoan)) errors.push(`daily words ${round.entry.id}: an option is not a deck row`)
+    }
+  }
+  lines.push(`daily words: ${deck.length} words ${errors.length === beforeDeck ? 'ok' : 'FAILED'}`)
+
+  // (d) Card samples: each line is a field of its own item's data (or a deck row).
+  const beforeCards = errors.length
+  let groups = []
+  try { groups = buildDrillGroups(catalog, items, chapters, deck) } catch (e) { errors.push(String(e.message)) }
+  for (const g of groups) {
+    for (const card of g.drills) {
+      const { q, sm } = card.sample
+      if (card.id === DAILY_WORDS_ID) {
+        const want = dailyWordsSample(deck)
+        if (q !== want.q || sm !== want.sm || !deck.some(e => e.english === q && e.samoan === sm)) errors.push('drill card daily-words: sample is not a deck row')
+        continue
+      }
+      const item = items.get(card.id).item
+      const fields = stringFields(item.data)
+      const want = cardSample(item)
+      if (q !== want.q || sm !== want.sm) errors.push(`drill card ${card.id}: sample differs from cardSample`)
+      if (q == null || !fields.has(q)) errors.push(`drill card ${card.id}: sample English is not a field of the item's data`)
+      if (sm != null && !fields.has(sm)) errors.push(`drill card ${card.id}: sample Samoan is not a field of the item's data`)
+      if (!card.level) errors.push(`drill card ${card.id}: chapter ${card.ch} has no level`)
+    }
+  }
+  lines.push(`drill cards: ${groups.reduce((n, g) => n + g.drills.length, 0)} samples ${errors.length === beforeCards ? 'ok' : 'FAILED'}`)
+  return { errors, lines }
+}
+
 // Run from the command line.
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const args = process.argv.slice(2)
   let files
   const fileFlag = args.indexOf('--file')
   if (fileFlag >= 0) files = [path.resolve(args[fileFlag + 1])]
+  else if (args.includes('--drills')) files = []
   else if (args.length) files = args.map(a => path.join(DATA_DIR, `${pad(Number(a))}.json`))
   else files = chapterFiles()
   let failed = 0
@@ -532,6 +677,13 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     for (const w of warnings) console.log(`  warn  ${w}`)
     for (const e of errors) console.log(`  FAIL  ${e}`)
     console.log(`${rel}: ${errors.length ? `${errors.length} error(s)` : 'ok'}${warnings.length ? `, ${warnings.length} warning(s)` : ''} (${data?.items?.length ?? 0} items)`)
+    if (errors.length) failed += 1
+  }
+  // The default run also checks the drills (the hub catalogue and Daily words).
+  if (!args.length || args.includes('--drills')) {
+    const { errors, lines } = validateDrills()
+    for (const e of errors) console.log(`  FAIL  ${e}`)
+    for (const l of lines) console.log(l)
     if (errors.length) failed += 1
   }
   if (failed) process.exitCode = 1

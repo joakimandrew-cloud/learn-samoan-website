@@ -122,7 +122,7 @@
 .ftr-big { font-size: clamp(38px, 3.8vw, 56px); margin: 0; color: #fff; }
 .ftr-col { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
 .ftr-col h2 { font-family: var(--f-display); font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--orange); margin: 0 0 6px; font-weight: 700; }
-.ftr-col a { color: rgba(255,255,255,.82); text-decoration: none; font-size: 15px; width: fit-content; transition: color .2s; }
+.ftr-col a { color: rgba(255,255,255,.82); text-decoration: none; font-size: 15px; width: fit-content; transition: color .2s; display: inline-flex; align-items: center; min-height: 24px; }
 .ftr-col a:hover { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
 .ftr-note { color: var(--on-band-muted); font-size: 13.5px; }
 .ftr-colophon {

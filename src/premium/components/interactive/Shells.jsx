@@ -5,8 +5,10 @@
  * (.embedded-drill wrapping .premium-core, from the embedded drills) for
  * things the learner answers. Plus the deck chrome the practice cards share.
  */
-import { Component, useId } from 'react'
+import { Component, useContext, useId } from 'react'
+import { Link } from 'react-router-dom'
 import { motion as Motion } from 'motion/react'
+import { DrillEndLinks } from '../../drills/drill-end-links.js'
 import { Md } from '../lesson/InlineMarkdown.jsx'
 import { keepControlKeysLocal } from './engine.js'
 
@@ -73,9 +75,12 @@ export function DeckHeader({ deck, unit = 'correct' }) {
   )
 }
 
-/* The end-of-deck card (the Tongan DeckComplete, without the exits a
-   standalone drill page offers: here the learner stays in the chapter). */
-export function DeckComplete({ deck, unit = 'correct', touch }) {
+/* The end-of-deck card (the Tongan DeckComplete). On a drill page, DrillFrame
+   provides the exits "Back to Chapter N" and "All drills"; in a chapter there
+   is no provider, so the learner stays in the chapter and nothing is added.
+   fresh={false} drops "start fresh" where there is nothing to clear. */
+export function DeckComplete({ deck, unit = 'correct', touch, fresh = true }) {
+  const links = useContext(DrillEndLinks)
   const { right, total } = deck.score
   const perfect = total > 0 && right === total
   return (
@@ -87,7 +92,9 @@ export function DeckComplete({ deck, unit = 'correct', touch }) {
       </div>
       <div className="pcs-next-container pcs-end-row">
         {!touch && <span className="pcs-keyboard-hint">Press <kbd>{'↵'}</kbd> to go again</span>}
-        <button onClick={deck.reset} className="pcs-reset" type="button">start fresh</button>
+        {links?.chapterNum && <Link to={`/chapters/${links.chapterNum}`} className="pcs-end-link">Back to Chapter {links.chapterNum}</Link>}
+        {links?.backTo && <Link to={links.backTo} className="pcs-end-link">All drills</Link>}
+        {fresh && <button onClick={deck.reset} className="pcs-reset" type="button">start fresh</button>}
         <button onClick={deck.again} className="pcs-next" type="button">Go again {'→'}</button>
       </div>
     </>

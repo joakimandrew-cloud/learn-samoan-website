@@ -1,6 +1,6 @@
 # Chapter 50: Affixes and Doubling
 
-This chapter completes Samoan's word-building system, the two endings *=ga* and
+This chapter completes Sāmoan's word-building system, the two endings *=ga* and
 *=a*, the prefixes *fe-*, *taʻi-*, *toʻa-*, *ʻā-* and *ana-*, and the doubling
 of a word or of a piece of one, and shows you how to read a built word you have
 never met. Many of the plural forms learned one at a time earlier in this book
@@ -8,7 +8,7 @@ are made by that doubling, and this chapter names the process behind them.
 
 ---
 
-## How Samoan Builds a Word
+## How Sāmoan Builds a Word
 
 ::: {.examples}
 *folo*. swallow
@@ -18,12 +18,12 @@ are made by that doubling, and this chapter names the process behind them.
 
 One word, then the same word said twice, and the meaning has moved. **Doubling**
 is saying a word, or one piece of a word, a second time in order to build a new
-word from it. It is the third of the three ways Samoan builds one word out of
+word from it. It is the third of the three ways Sāmoan builds one word out of
 another. The other two are already familiar: a prefix goes on the front, the way
 the maker-prefix *faʻa-* does, and an ending goes on the back, the way the
 long-form ending does.
 
-The endings are the part of the system that resists rules. Samoan's endings come
+The endings are the part of the system that resists rules. Sāmoan's endings come
 in families of related shapes, some of them common and some of them rare, and
 the shape of a word gives no clue about which member of a family that word takes.
 Speakers differ from one another over individual words as well. So a built word
@@ -95,7 +95,7 @@ the same every time: being affected by the thing the noun names. Something
 *ʻeleʻelea* has dirt on it.
 
 This ending is productive. Put it on a noun and the describing verb is there,
-and speakers do this with words borrowed into Samoan as well as with old ones.
+and speakers do this with words borrowed into Sāmoan as well as with old ones.
 Now and then it goes on a whole phrase rather than on a single noun, though that
 use is only sporadically recorded.
 
@@ -179,7 +179,7 @@ of quantity when what is counted is human beings, or a group or an organisation
 of them, as in *toʻalua*, two people.
 
 Two things about it belong to real speech. It is frequently said with the second
-vowel as an o rather than an a. And in spoken Samoan it tends to be dropped
+vowel as an o rather than an a. And in spoken Sāmoan it tends to be dropped
 altogether, a tendency that turns up occasionally in writing too.
 
 The two prefixes can go on one number together, and in one order only: *taʻi-*
@@ -280,7 +280,7 @@ strengthen or weaken what the verb says, so a doubled word is not always a word
 for something done again and again.
 
 Doubling the whole word is clearly productive, and it works on words borrowed
-into Samoan as well as on old ones. It also has a wide range of jobs beyond the
+into Sāmoan as well as on old ones. It also has a wide range of jobs beyond the
 two named here. Its basic meaning seems to be that something happens several
 times or lasts a while; past that, a doubled word is learned with its own meaning.
 
@@ -333,7 +333,7 @@ are very seldom found on it, and a word that carries a doubled piece in its plai
 form drops that piece when a prefix goes on the front. The exception runs the
 other way about: *faʻa-* does combine with plural forms that carry a doubled
 piece, as *faʻamaga* (open the mouth) does in its plural. On the ending side, a
-word with a doubled piece normally takes only *=ina*. Modern Samoan shows a
+word with a doubled piece normally takes only *=ina*. Modern Sāmoan shows a
 tendency to allow the long-form ending *=a* on it too, and that is a tendency
 rather than a rule.
 

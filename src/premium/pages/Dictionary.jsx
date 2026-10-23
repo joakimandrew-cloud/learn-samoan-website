@@ -29,7 +29,7 @@ export default function Dictionary() {
         <div className="wrap">
           <p className="eyebrow">Glossary · Every word the course teaches</p>
           <h1 className="display">Look up<br />a word.</h1>
-          <p>Search in Samoan or English, or browse by letter. Each word shows its meaning and the chapter that first teaches it. Diacritics are folded and interfiled, as in the book’s glossary.</p>
+          <p>Search in Sāmoan or English, or browse by letter. Each word shows its meaning and the chapter that first teaches it. Diacritics are folded and interfiled, as in the book’s glossary.</p>
         </div>
       </header>
       <div className="wrap catalog-body">
@@ -41,7 +41,7 @@ export default function Dictionary() {
               type="search"
               value={query}
               onChange={event => { setQuery(event.target.value); setLetter('') }}
-              placeholder="Samoan or English word"
+              placeholder="Sāmoan or English word"
               autoComplete="off"
               spellCheck="false"
             />

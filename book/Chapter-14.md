@@ -19,7 +19,7 @@ Both sentences are built on *iai*, the **there-is verb**: the word that says
 something exists or is present. It behaves like any other verb, with an
 exception met later in this chapter: you do not put a separate "not" in front of
 it. It takes a tense particle in front, here the general particle *e*, and it
-heads its own sentence. Samoan has no separate "is there" phrase; a question
+heads its own sentence. Sāmoan has no separate "is there" phrase; a question
 about whether something exists runs through this one verb.
 
 The thing whose existence is in question is usually left unfixed, so it takes a
@@ -34,7 +34,7 @@ in front and the specific naming part *le ulugāliʻi*, it opens a story:
 *Sā iai le ulugāliʻi.* There was a couple.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E iai sina vai?* | Is there any water? |
 | *E iai se tusi.* | There is a book. |
@@ -67,7 +67,7 @@ particular one; the answer uses the forms you already know: *lau* (your), *laʻu
 > after the tense particle, while this one sits in front of a noun and says
 > whose it is. What the word sits next to tells you which job it is doing.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E iai sau tusi?* | Do you have a book? |
 | *E iai laʻu naifi.* | I have a knife. |
@@ -107,7 +107,7 @@ The thing that *leai* says is missing is always non-specific, so it takes *se*
 *Leai* takes the general particle *e* for a plain fact, and the change particle
 *ʻua* to report that a thing has run out:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E leai se mea.* | There is nothing. |
 | *E leai se tusi.* | There is no book. |
@@ -160,7 +160,7 @@ The thing that *leai* says is missing is always non-specific, so it takes *se*
 4. *E iai sina vai?*
 5. *ʻUa leai se vai.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. There is a gun.
 2. I have a knife.
@@ -179,7 +179,7 @@ sentence matches the English.
 4. *ʻUa ___ se vai.* (There is now no water.)
 5. *E ___ se tusi.* (There is no book.)
 
-### Exercise 4: Match the Samoan to its English
+### Exercise 4: Match the Sāmoan to its English
 
 1. *E iai se tusi.*
 2. *E leai se fana.*

@@ -25,7 +25,7 @@ need not be named again in the second.
 sentence, after the doer. *Ai* does not go there. It falls right after the verb
 and before the doer, and it keeps that seat under every tense particle.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā nofo ai le teine.* | The girl lived there. |
 | *Sā mālōlō ai le tama.* | The boy rested there. |
@@ -74,7 +74,7 @@ A place phrase can also come first, at the front of the sentence. When it does,
 
 The place leads, *ʻi le nuʻu* (in the village) or *ʻi le vasega* (in the class),
 and *ai* answers it later in the sentence. English does not double the place
-this way, so the second "there" can feel like one word too many; in Samoan it
+this way, so the second "there" can feel like one word too many; in Sāmoan it
 is the ordinary shape.
 
 That said, the copy is not required. You will mostly hear *ai* answer a fronted
@@ -84,7 +84,7 @@ place, but the sentence is also correct without it:
 *ʻi le nuʻu sā nofo le teine.* In the village the girl lived.
 :::
 
-Both are good Samoan. When the place is already at the front, *ai* may point
+Both are good Sāmoan. When the place is already at the front, *ai* may point
 back to it or may be left out.
 
 > **Preview:** This same pointing-back copy does the work inside the kind of
@@ -165,7 +165,7 @@ together, and a number of verbs of moving are found with either one.
 4. *ʻi le nuʻu sā nofo ai le teine.*
 5. *Sā nofo ai le aitu.*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. The boy rested there.
 2. The girl went there.

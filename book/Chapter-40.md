@@ -22,7 +22,7 @@ It moved in behind the name of the thing, and it stopped being the whole
 statement. On the first line *uliuli* is the verb of the sentence and says what
 the car is. On the second it stands inside the noun phrase and says which car is
 meant. The word did not change shape and it did not change class. A describing
-word in Samoan is a verb wherever it stands, and this is the position it takes
+word in Sāmoan is a verb wherever it stands, and this is the position it takes
 when the thing it describes is a noun rather than an action.
 
 The pattern has three parts in a fixed order: the article, then the name of the
@@ -57,14 +57,14 @@ particle of their own.
 
 The two phrases do the same work. The English gloss beside the second one uses a
 relative clause, "people who have bad bodies", and the gloss beside the first does
-not. Samoan can do both, and the shorter one does the work of the longer one
+not. Sāmoan can do both, and the shorter one does the work of the longer one
 without the particle. That is what a describing verb after a noun does: it works
 as a clause of its own, with no joining word and no tense particle showing.
 *Le taʻavale uliuli* is the car that is black, and *tagata oti* are people who
 have died.
 
 > **Preview:** The phrase with *e* in it above is a full clause standing inside a
-> noun phrase. Samoan builds those with a tense particle, and in some of them,
+> noun phrase. Sāmoan builds those with a tense particle, and in some of them,
 > depending on the part the noun plays inside the clause, with a pointing-back
 > word as well. That whole construction is taught in Chapter 43.
 
@@ -91,7 +91,7 @@ One cat is *le pusi uliuli*. More than one is *pusi uli*, with the plural *uli*
 in the describing slot and the plural of the noun marked by leaving the article
 off.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E uliuli le pusi.* | The cat is black. |
 | *E uli pusi.* | The cats are black. |
@@ -174,7 +174,7 @@ In this construction, the with-word brings an article with it. What stands behin
 an article in front of a verb, which is the le-phrase taught earlier in this
 book: the being afraid, packed into a thing. So the with-word is doing here what
 it has always done, joining one thing to another, and the English "and" in the
-gloss covers a join Samoan makes between a description and a named feeling.
+gloss covers a join Sāmoan makes between a description and a named feeling.
 
 A pointing word comes after the describing verbs.
 
@@ -207,7 +207,7 @@ second as it does there.
 *E faigatā le gagana.* The language is difficult.
 :::
 
-Samoan has two endings that go on another word. The ending *=gatā* carries the
+Sāmoan has two endings that go on another word. The ending *=gatā* carries the
 meaning difficult and *=gōfie* carries the meaning easy, and each word they build
 has a meaning of its own, learned word by word. *Fai* is the verb for doing, so
 *faigatā* is difficult and *faigōfie* is easy.
@@ -228,7 +228,7 @@ of this chapter stand: after a noun, and as the verb of a sentence.
 *E taugōfie le pusa.* The box is cheap.
 :::
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *le tagata maugatā* | the mean person |
 | *le tagata maugōfie* | the generous person |
@@ -317,7 +317,7 @@ Add *=gatā* or *=gōfie* to the word in brackets to give the word that means:
 5. obedient (*faʻalogo*)
 6. generous (*mau*)
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. the black car
 2. dead people

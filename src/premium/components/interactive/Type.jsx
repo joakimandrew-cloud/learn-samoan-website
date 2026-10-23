@@ -180,7 +180,7 @@ export default function Type({ data }) {
       {deck.finished ? <DeckComplete deck={endDeck} touch={touch} /> : (
         <>
           <div className="pcs-noun-frame">
-            <div className="pcs-prompt-label" id={ids.label}>Type the Samoan</div>
+            <div className="pcs-prompt-label" id={ids.label}>Type the Sāmoan</div>
             <div className="pcs-noun ix-type-en" id={ids.en} key={current.key}>{current.en}</div>
             {current.hint && <div className="pcs-noun-gloss ix-type-hint" id={ids.hint}><Md text={current.hint} /></div>}
           </div>
@@ -227,7 +227,7 @@ export default function Type({ data }) {
           <div className="ix-type-status" aria-live="polite" aria-atomic="true">
             {outcome
               ? <Feedback outcome={outcome} why={current.why} />
-              : nudge && <p className="ix-type-nudge">Type the Samoan first, or show the answer.</p>}
+              : nudge && <p className="ix-type-nudge">Type the Sāmoan first, or show the answer.</p>}
           </div>
           {outcome && <NextRow onNext={next} touch={touch} />}
         </>

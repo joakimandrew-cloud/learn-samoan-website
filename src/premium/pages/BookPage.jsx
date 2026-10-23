@@ -11,8 +11,23 @@ import LoadFailure from '../components/LoadFailure.jsx'
 import '../styles/lesson.css'
 import '../styles/lesson-experience.css'
 import '../styles/source-core.css'
+import '../styles/reference.css'
 
 // The Introduction and two appendices, read in the chapter layout.
+// /charts carries the Tongan charts page's Keep learning row and chart frames
+// (reference.css, scoped by book-page--charts); every book page ends with the
+// call to read on into Chapter 1, as the Tongan topic articles do.
+
+const KEEP_LEARNING = [
+  { to: '/chapters/1', label: 'Start Chapter 1' },
+  { to: '/chapters', label: 'All chapters' },
+  { to: '/reference', label: 'Reference' },
+]
+
+const READ_ON = [
+  { to: '/chapters/1', label: 'Start Chapter 1' },
+  { to: '/chapters', label: 'All chapters' },
+]
 
 export default function BookPage({ page }) {
   const meta = BOOK_PAGES[page]
@@ -41,7 +56,7 @@ export default function BookPage({ page }) {
   if (loadError) return <LoadFailure message={`${meta.title} did not load.`} />
 
   return (
-    <article className="lesson book-page">
+    <article className={`lesson book-page book-page--${page}`}>
       <header className="ls-hero">
         <div className="wrap ls-hero-grid">
           <div className="ls-hero-copy">
@@ -62,6 +77,17 @@ export default function BookPage({ page }) {
         </div>
       </header>
 
+      {page === 'charts' && (
+        <div className="premium-reference book-page-strip">
+          <nav className="charts-jump" aria-label="Continue learning">
+            <span>Keep learning</span>
+            <div>
+              {KEEP_LEARNING.map(item => <Link key={item.to} to={item.to}>{item.label}</Link>)}
+            </div>
+          </nav>
+        </div>
+      )}
+
       {doc && <MobileCompass lessonNumber={null} sections={sections} active={active} />}
 
       <div className="wrap ls-grid">
@@ -79,6 +105,16 @@ export default function BookPage({ page }) {
               <Section s={s} n={null} />
             </section>
           ))}
+          {doc && (
+            <section className="premium-reference book-page-strip book-page-next" aria-labelledby="book-page-next">
+              <div className="reading-page">
+                <h2 id="book-page-next">Start reading</h2>
+                <ul>
+                  {READ_ON.map(item => <li key={item.to}><Link to={item.to}>{item.label}</Link></li>)}
+                </ul>
+              </div>
+            </section>
+          )}
         </div>
       </div>
     </article>

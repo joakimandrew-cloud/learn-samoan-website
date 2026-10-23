@@ -3,7 +3,7 @@
 This chapter introduces the maker-prefix *faʻa-*, which stands in front of a
 noun or a verb and builds a new word out of it, and shows you how to read a
 built word by reading the word standing inside it. It is the most common prefix
-in Samoan, and the word it builds is usually a verb.
+in Sāmoan, and the word it builds is usually a verb.
 
 ---
 
@@ -45,7 +45,7 @@ and it is not always where it ends: a few built words have drifted from the
 meaning of the word inside them, and many are built on a piece that is no word
 on its own.
 
-> **Preview:** *Faʻa-* is the most common of a set of prefixes Samoan uses
+> **Preview:** *Faʻa-* is the most common of a set of prefixes Sāmoan uses
 > to build new words from old ones. The rest of that set is taught in Chapter
 > 50. Every built word in this chapter uses this one.
 
@@ -77,7 +77,7 @@ A verb built this way can always take a doer, which is why this chapter waited
 for the agent marker. Each of the three sits in the same sentence shape, with
 *e* in front of whoever did it:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā faʻamoe e le teine le pepe.* | The girl put the baby to sleep. |
 | *Sā faʻaalu e le tama le taʻavale.* | The boy made the car go. |
@@ -130,7 +130,7 @@ natural set here.
 | *māsima* | salt | *faʻamāsima* | to salt |
 | *suka* | sugar | *faʻasuka* | to sweeten, to sugar |
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā faʻamāsima e le teine le iʻa.* | The girl salted the fish. |
 | *Sā faʻasuka e le teine le vai.* | The girl sweetened the water. |
@@ -159,7 +159,7 @@ The words after *se tagata* say what kind of person is meant. *Tū* is the verb
 that there is no person who stands like a mountain. You met the same shape
 earlier in this book, where a number sat after a noun and counted it; here what
 sits after the noun is an ordinary verb, and *faʻamauga* says how the standing
-is done. This sense of the prefix is one of the important ways Samoan builds a
+is done. This sense of the prefix is one of the important ways Sāmoan builds a
 metaphor.
 
 > *Note:* Words built in this sense are characteristic of a literary and formal
@@ -212,7 +212,7 @@ The two run in different patterns, and each has to be learned with the word.
 *Faʻalētonu* describes something and takes no doer; *faʻalēaogā* takes a doer
 with *e*:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *E faʻalētonu le tala.* | The story is uncertain. |
 | *Sā faʻalēaogā e le aliʻi le fono.* | The chief cancelled the village meeting. |
@@ -307,7 +307,7 @@ whole.
 1. *faʻapata*
 2. *faʻalētatau*
 
-### Exercise 5: Translate into Samoan
+### Exercise 5: Translate into Sāmoan
 
 1. The girl salted the fish.
 2. The boy made the car go.

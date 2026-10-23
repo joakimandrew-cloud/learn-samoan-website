@@ -22,7 +22,7 @@ You have met this word before. Earlier in this book *ʻo ai* asked who someone i
 in a naming sentence, as in *ʻO ai ʻoe?* ("Who are you?"). It is the same word,
 doing the same job, now placed in front of a whole action:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO ai na alu?* | Who went? |
 | *ʻO ai na sau?* | Who came? |
@@ -46,7 +46,7 @@ is complete and are taught later in this book.
 | *fia* | how many |
 | *ʻaiseā* | why |
 
-Samoan also has *lēfea* (which), for asking which one of several. It is not
+Sāmoan also has *lēfea* (which), for asking which one of several. It is not
 drilled in this chapter.
 
 > **Preview:** The word *fia* asks "how many". It belongs with the counting
@@ -60,7 +60,7 @@ drilled in this chapter.
 
 ## Asking When: Past and Future
 
-Samoan does not have one word for "when". It has two, and the choice is settled by
+Sāmoan does not have one word for "when". It has two, and the choice is settled by
 time: one word asks about future time, the other asks about past time. Read this
 pair, the same question except for the time being asked about:
 
@@ -103,7 +103,7 @@ Here *anafea* sits at the end, in the plain place a time word takes, so the verb
 holds no *ai*. Fronting the when-word and copying it with *ai*, or leaving it at
 the end, are two ways to ask the same question.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO āfea ʻoleʻā moe ai le tama?* | When will the boy sleep? |
 | *ʻO āfea ʻoleʻā sau ai le teine?* | When will the girl come? |
@@ -124,7 +124,7 @@ stands where a word like *lelei* (good) would stand, and asks after the manner o
 the state of something. *Sā faʻapefea le aso?* puts *faʻapefea* in the place a
 describing word would fill and leaves it open for the answer.
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *Sā faʻapefea le aso?* | How was the day? |
 | *E faʻapefea le teine?* | How is the girl? |
@@ -152,7 +152,7 @@ asks after a place and the answer comes back with *ʻi ai*:
 
 The same shape asks after any thing or person whose place you want:
 
-| Samoan | English |
+| Sāmoan | English |
 |---|---|
 | *ʻO fea e ʻi ai le ʻato?* | Where is the basket? |
 | *ʻO fea e ʻi ai le fala?* | Where is the mat? |
@@ -169,7 +169,7 @@ The same shape asks after any thing or person whose place you want:
 
 Not every question has a question word. A yes or no question has none: it keeps
 the words and the order of the statement, and often changes only the voice,
-which usually falls and stays low over the last two or three syllables. Samoan
+which usually falls and stays low over the last two or three syllables. Sāmoan
 also has two small question-marking words, met earlier in this book, that a
 speaker can add; they are optional, and this chapter leaves them aside. The
 falling tune is marked with the arrow ↘, the same way it was marked earlier in
@@ -227,7 +227,7 @@ The question words themselves are set out in the table above, under Asking Who.
 4. *Sā faʻapefea le aso?*
 5. *ʻO fea e ʻi ai le ʻato?*
 
-### Exercise 2: Translate into Samoan
+### Exercise 2: Translate into Sāmoan
 
 1. Who came?
 2. When did the boy sleep?

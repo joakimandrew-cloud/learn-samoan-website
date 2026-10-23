@@ -3,482 +3,482 @@
   "sources": [
     {
       "source": "book/Chapter-01.md",
-      "sha256": "b93a18e57176adb27eba86d8c165a6e32da6a06f9c78380b90937cb69a4f4d7a",
-      "copy": "21d3c7ca0d5858bf9a8e58bb1a015764fb66daf98e2d76f060850c1621fc379a"
+      "sha256": "b16ce451d4de777c8af2822c3fe097509f9785309ef3aa43434dadef50b7109e",
+      "copy": "caf87e15eaabd92d0a644f763f41f3d882163e9f7788d789d823853267ae6e6e"
     },
     {
       "source": "book/Chapter-02.md",
-      "sha256": "ebd68b2cd7aa58ec5294a996ddb188db3eceef2e75f64b39ed22894a87dd9761",
-      "copy": "56fb01ed0b7a4d5704ccc302fe29a27f171a4fd3fa8d5aa07aaece9b264a05a6"
+      "sha256": "73d35058df9a16ce2ed18c9fd2c18e3194c7f7ad2a55a9591aecb7922393a0d9",
+      "copy": "2593009587b890d09fa8bdc12d45bb664b3c934d9ff77e90b2c6cdfa131d68b7"
     },
     {
       "source": "book/Chapter-03.md",
-      "sha256": "43915362fc206398b9d895ecd2ffde1247be79dd616019a27375ef3192e840af",
-      "copy": "0e8d7dc73f070916b8ea9b95a50880c72b8ec7204b95d48a1d41b3df657a1097"
+      "sha256": "f1f564a32b0235dc2a9328a19fb176643cfbf3b57f88eb206bd10d70575da307",
+      "copy": "0dd479520430686011d6b13f7f1a26fd1d64812030665390c5228fba0cbebd70"
     },
     {
       "source": "book/Chapter-04.md",
-      "sha256": "6b967e7debcfecbd75e9b34f4fd47ecc8b71eb420388069911732bcd6b8065ec",
-      "copy": "3997b993dbc293f5cc6317ff9619f9ebc7529b5149263cc3412534192bcf4989"
+      "sha256": "47f20859d8e95c73e8a623e208af74cf235b36b989bc2d0e6d6f0e927051d52e",
+      "copy": "02df708faabfad3077d7d69ed26b6a11de896ca3fd553489c6ecb3f3362b6397"
     },
     {
       "source": "book/Chapter-05.md",
-      "sha256": "bb4bb2ba4b1adedd9ba568a2908b5e257460338f05125a5033ef871fd0185740",
-      "copy": "fb4215191d4638829eb5dcd3a31fb9795d7fc3749a305868d3061a76918a6d23"
+      "sha256": "2b5cd2d7cd0a3ec04fd2b8c519609dcf68e6c3ed0902e3f6a3c2a4b651c1939c",
+      "copy": "14caf501117d138d3bbb665b46fe3765c8d8df3a86a90028edee8908ca09a6b3"
     },
     {
       "source": "book/Chapter-06.md",
-      "sha256": "c16494b4a8eb3d6e0696166c31ebba49690616e54430249de1cb2d9ea462cc6d",
-      "copy": "4d8f2be436c716a870e05757491181ce858ebe4f5d5c379c7c29c86ac759f7f6"
+      "sha256": "fc2748aedb692b44fe5d0a1aea578d231bed769ec162db8b775a4fbd260c94ad",
+      "copy": "d912639d5250e959d45d7e9e08e8cf17c6be34d2f18b585c354e6d46163e882d"
     },
     {
       "source": "book/Chapter-07.md",
-      "sha256": "57877835d226d98fd1caa30a975adffc4ac7849271d26c118348349cd927853f",
-      "copy": "0483f8b250fd37cda7b7eabbbf8d3d1a00b15c90a263ffc1b7dbe15fabff2746"
+      "sha256": "c7ae560a4fae7f845733af0bf32a423a00be0c57458f08e946b3d318c912f4e0",
+      "copy": "43dfddf0b3f9644f1325109c8e7a4d40e80e4296e0ea5b3d9acfa3bfd017d338"
     },
     {
       "source": "book/Chapter-08.md",
-      "sha256": "4e9350800e5e3fae8cb18252816d607ed7532688187f110306b25703e602beac",
-      "copy": "b1fe565965bbc31075b98bb53189a72573304cf2f84c7df027333a1d48ac86cb"
+      "sha256": "8ce7ea8a2d66c1a1d09271b862fa31a549461dfc7727b21634abc39dc94f5935",
+      "copy": "103f073fbbb148ec6896293192deec285916d23461f5c7f20826648bb90cf9ba"
     },
     {
       "source": "book/Chapter-09.md",
-      "sha256": "eb39fe25080cfe36b231d454efb05e9d2b654bc48b1c00d7a597069b7f701763",
-      "copy": "4ade569abf03a0f9b028a6ce29008c4a6da13861b4ac9e6ac36c61fb52354e26"
+      "sha256": "f872bebe3886cfba6ef9cb09b1e3928194619589cfc43c6fe96cecea708b9990",
+      "copy": "346f0c07ec9c6eae6fc6c5e7cf90d53f45e949a3b75aa0802a71e94bf61a9dd9"
     },
     {
       "source": "book/Chapter-10.md",
-      "sha256": "7e28413b7969e5014457615a6654fef63d5ec42fa328a3acc47f1708aa569bb6",
-      "copy": "90eb4540d70d98d541a9dbe4b64c967d966f73e20537eaa544e72705005652d7"
+      "sha256": "c5fc09ebc51cf22e53fa4f331708fb8930a871042a9555cf72c726945f4c3d48",
+      "copy": "7955e763cb937c1e02d111707aa953b7245d27e21258e124f52ccd900dbf193b"
     },
     {
       "source": "book/Chapter-11.md",
-      "sha256": "4859a84890505a2cdab10f01041b61b78704713306b63a1673ca3596cb72921d",
-      "copy": "1680c61605d51d1a4b6e417c00e581665f0c26b88cd6510400ce9cd8f8b7e788"
+      "sha256": "8150efadcf73b6328baaa1b7b13bc1adc3626b4b00a2239907ecad500f3ad628",
+      "copy": "12ca3d43c6b8e87aa59e476fe5be76e36c817c46e7f6607471370c42ab36dc61"
     },
     {
       "source": "book/Chapter-12.md",
-      "sha256": "86a957f7eb287da67fafb7b0234e605c8c8f044b16cd3d393e7b7800efa89fe2",
-      "copy": "8dc2e1eeb21e13dc02041f6c9a32708cc250d5cd2f4bc55235e67e9d6212545e"
+      "sha256": "00fb211442cf1d21d6966ba91c7680d94985623681f8d618920b1c2b88105ce8",
+      "copy": "3ec0dea9987275e350db1dbf4f246e55c1cc7a399d3414f0171d315bc0098fb3"
     },
     {
       "source": "book/Chapter-13.md",
-      "sha256": "74f474e9e44bafcc1be61b9e0b2dc64f6b65484efef1331b4655c1dbbbfdb418",
-      "copy": "fb73a290fb317cf43cdd1f330cab61664999a9cb4e96a0121383c92e98ee5514"
+      "sha256": "1ffaa4e17be69027ed1c28b336c16ad8b8ebea5e443e2d08fc0369e881d1ec3e",
+      "copy": "54dbcc9702d89640e816c853bff1a337279194e217321171ce544a13e5b79b14"
     },
     {
       "source": "book/Chapter-14.md",
-      "sha256": "d104bec12f9eb2d735372397847f795176aed17fb2c292c2734036cb0228bc28",
-      "copy": "4592e2d1389bd397306c988d94356d74c8e9612e5364423be4950e5dca96c3ba"
+      "sha256": "33d9d5354587213ea7d4b5ac671c5dec33eb3dc7a45a19acadf556df847c6b16",
+      "copy": "8974bb5c8996d3340c8d517efc02d1a69967f721d9746eabfb13d87d7c07a8d8"
     },
     {
       "source": "book/Chapter-15.md",
-      "sha256": "8cb04716adba387f7cd4ac5401747843a54f56e8c5bee23a33a039605e01276a",
-      "copy": "d0035891dd18becae9634ab139533c35d3c009f1ea7c25f054653cb4509a85d4"
+      "sha256": "317fb70fbc58beb51513fec7e0b8a528888565bff8df0a7d2b933aa3ff9a96a7",
+      "copy": "4451ca432850c5e2b810118174bf7efb82346bef915c68fcc235ffe0f21eab12"
     },
     {
       "source": "book/Chapter-16.md",
-      "sha256": "c56f6161957b4be1a2346194c60afc69ee5a57bd65c2119fc60bd24a7e5e8a40",
-      "copy": "3e843e3ae633a101b340886c2776601ff01e206b71a75aec78278cc878cacdb0"
+      "sha256": "f68f630d326aa0984367107667f910e593f06aba0f49037d376b9f12b676016f",
+      "copy": "30b3861db542c8ea03421845aa6bcd4329c78c2835db6a7390b52dc2f0a6ef50"
     },
     {
       "source": "book/Chapter-17.md",
-      "sha256": "c00f4ee39632c023348575152d97121113c7413ba37eccd971b634deaaea7240",
-      "copy": "f277da05a6f12faf88cf3003b605153a04c0c2d552a7e1bdfed4b0451c93bc0b"
+      "sha256": "2ff955172d539380285c23446dd9354820c15f2b05395adf334a526186ce25fe",
+      "copy": "b243e792fedd7072d27f57d3a7015f63b0ea867f1ce195b1156a1ce8509f8108"
     },
     {
       "source": "book/Chapter-18.md",
-      "sha256": "12e4e0c7d08552cb3f85cf0f3f4fe8504d26d775a653008ee88931b49162a6a5",
-      "copy": "9ae6a2a2ebf6e7fc1a1e546aa98e948ac46ef7e9708cdd9c558f87c013cc7263"
+      "sha256": "db6986c0f231db0779d9dd942e6452f14702dd62176b681a226e906d49bf1d2f",
+      "copy": "a74b5a070718485fa11d921a180b5461a80102ce54ea72f25133d3b947f56907"
     },
     {
       "source": "book/Chapter-19.md",
-      "sha256": "b9999c1571d501ec63e23ae28210f997ea5c6513251976a58cd781198563889c",
-      "copy": "370f9cf1018be6d19b8e4e51ea0c17a88b58eb96f961f9c4fe028ed1dc244d10"
+      "sha256": "2b8d7d58d5fdc51507ceed93b2f628ed301cfc318d7eefecae84fafe1150a06f",
+      "copy": "595c4e3fdcfef79226b7568ce95c2c1f7fbb73537deb37f1407a13ef78b54e8b"
     },
     {
       "source": "book/Chapter-20.md",
-      "sha256": "a0bbf295ea680f0c0608d3723b7a0fa7cd97b9bd9d5098ab2f022588d0b24ef3",
-      "copy": "7e7abf556e0480607d3d99f4d6c0ccec1eee79a28978a04c9a704970132b6c03"
+      "sha256": "1575c9e3b94da72d7ac288478850bbc16f3ec4cecb6e807b7d4417f264a2ea5e",
+      "copy": "a0dadb2c270964edeed741019f1407f75f834702506a3a2bbb86f9f751d211b7"
     },
     {
       "source": "book/Chapter-21.md",
-      "sha256": "ba0658b6f6b4fd8b108d444325f986617a8fc70d77f607ef9f2a4d79b6ba0157",
-      "copy": "83ceb5dc61446c7ff7a01087326d949ebe1725f579a0cfc60382d5c32fd72070"
+      "sha256": "1024814a712be9bf0bd8f49db427b010759e763d1d7b638bd5378fe12387509c",
+      "copy": "e5aedbd221043d9363a0b0eb09826e6383489b82e1253c9525e6a9152ff3df9b"
     },
     {
       "source": "book/Chapter-22.md",
-      "sha256": "0659e1a954e0d1af34f88f889d41efd00cf5822041131bb0aadfe5b3780ad509",
-      "copy": "620d6e103af61caa1a8b0fecf03f1e1dedb09e6c04dd53ce99b501aa6be9210f"
+      "sha256": "96dd7e5fec844a3c55a84e414d7c9fd0ae5b9f2166ff829a76629d94b72dcbc8",
+      "copy": "93539ea696077cc35a7e7661728868503b746ec34f87884a0fe4806bb568a3ba"
     },
     {
       "source": "book/Chapter-23.md",
-      "sha256": "25f94048f23d8bd14563c6843ea16742b7beea0dfd6d39dc63ff875704e10146",
-      "copy": "fb2d0decd74fcb4995cc08d217b109e93066de77eb997de4204eeafad4a6b3d6"
+      "sha256": "f5a283cceba6195a30b94e78f004a07c55f6eeaed239df23ecec22b237365c95",
+      "copy": "cbdf9de4bfd84397d26b03c5ff76cafdedba5513f079fdc6ef62384a1772bd39"
     },
     {
       "source": "book/Chapter-24.md",
-      "sha256": "fa532b5b4386f28612a695e8f5f6e3ade12fe49f5a3b3347ba7a116c600e2d30",
-      "copy": "a260f4078d6927cb50258b5e20b6215ebfb392f450a0ac3e645589fa8effde36"
+      "sha256": "4397124e0604e0b9c260e269ba6d2cc610ff42aa160a938afb39734532a25c61",
+      "copy": "400c19595ca43028864695696d2dcdaa04fe03876669a331e4721c85e200e268"
     },
     {
       "source": "book/Chapter-25.md",
-      "sha256": "424acb3ca8287a58a64338c39e812f2d5297e3e48f2dd3f7f80cd8ca3bc6fed2",
-      "copy": "f6b5b4321c52d7996c54f42084075bdc6f0a546eb9bac39cd0428b5abed5f627"
+      "sha256": "3020f3f532d7d5804cebc8625006e84ad9d7385afd471bff107bcf38000c367e",
+      "copy": "fd166d3fbeb64443c0be27477a8ef1a4e36e594a8e34b21c50d88738ef00cdfd"
     },
     {
       "source": "book/Chapter-26.md",
-      "sha256": "5a8d5eac002f65b967ac7a15bd8023893de530785b527f88b850dfe0a537f838",
-      "copy": "2f10136930c441f1da87d2a01b5a228c2457e1ad8e8c3f6c6e5bc2c0c5cf8ee8"
+      "sha256": "fdd4fda0abdd7095cbf1f388b3c61f1440ac92c5a31968ad9b9ffd67391eab8f",
+      "copy": "9b3f97e3c8f4cf6be82bc0ecf638a843e0676a6cbaf85e3e6fae6b5f82161bda"
     },
     {
       "source": "book/Chapter-27.md",
-      "sha256": "072cdf0e686a97b3fb08b9cc38dbbdcead5508a7b709d350ad6379f5f44d557b",
-      "copy": "501bc3def2f3a905d4e696b1634c098f1a0eccd998914370a15fb22653655b1d"
+      "sha256": "2e98c08688204a190ab25b922fd287ec038b27a3aeff47d8fc2330714dc1a017",
+      "copy": "ae0b708d82c6fa4d4c2283e8f653f2661731bd74e5b3cbf509d0dd46e4e64fb8"
     },
     {
       "source": "book/Chapter-28.md",
-      "sha256": "d687d69579a4c0eb2d2eb43e02aeb3a2dcc84416ce0a674dce1547dccc81ff8b",
-      "copy": "3e7e8921c070477e23f0d9da08d1567a104513bea4c490ed42252a387f134adc"
+      "sha256": "4b6f7d8f4a869c2642d3cf441f1122b24ec5b29ed83c7703bcb9fad948effe2f",
+      "copy": "6ea66ad1c5e788300debb6477557ad2eb834bd18f2b7d8f41a087de9e2370fb4"
     },
     {
       "source": "book/Chapter-29.md",
-      "sha256": "f9d12647d52454d5afbe64a48431d26fc12305cc7598b9f9a8f0a80bfcc3baee",
-      "copy": "4269cf274dbb94d794eabb477fd87e9b6e858cc7b96784558ce7e63f99d137a2"
+      "sha256": "7d98908559b7d41c99c0f3aff08ba469915ee1b1076ca984ad5ca45db7376f8a",
+      "copy": "fa61354e751e9935bf6a3408d2638ad3eaea72bdc6d635267d8757adadc05999"
     },
     {
       "source": "book/Chapter-30.md",
-      "sha256": "f7ff55ccfa4385868ded344d3d55420d4ea3086e37ecbde53476c76a946184d3",
-      "copy": "8be0020045161ba6c146894c437f70901b162c981097ff7111b10002c10c9078"
+      "sha256": "ec6616d3a193694e22216d15f478288419289cf0d01a3d7e02d2fd377b64b9d4",
+      "copy": "e5a91ec70e313f5d8e15fb1c292408343ebe338ccef7a3079a6300eb76ea02a6"
     },
     {
       "source": "book/Chapter-31.md",
-      "sha256": "a1187254e9628cee27b42d9df99a131bb746fe606a2ab0343509792f59f21b2a",
-      "copy": "a540860fcc870a07f193154be51e3545356188061e245f372a6eb77c5a85d824"
+      "sha256": "87781a70669ddb65db84c7cd7f816bc1286714feea55e8c13cab8a80696b8819",
+      "copy": "2c309fb50efc693afe75de2b364788ecd96379963fd221334dad276882b01f1a"
     },
     {
       "source": "book/Chapter-32.md",
-      "sha256": "f44c2c0182f8b4faf4babfecbc8d903444e5bf9924c4bc558b89e5b5e9d0abbb",
-      "copy": "3ad342a51a1322c62345d6523225eb48d295b08c6637e8845d98f40409cbce66"
+      "sha256": "88c92b5584ffb9006e2a97c9318402862c7cce0e3e32f640a0db03d0e1238c13",
+      "copy": "7c67483cf31af0fe92779af3e821c4ac272d488517781b2feb313d54dc09e0d2"
     },
     {
       "source": "book/Chapter-33.md",
-      "sha256": "10ef114e4bbf23f73365b7e018a316ca9aed7549ecf87ccf2fdbd508727666eb",
-      "copy": "47a9515ea7453358ab9a6c47e463920fed0be3afa6c2616a7ba00f2cfce94dce"
+      "sha256": "3add03ab31d484ca5007881b590a4d958e9580cea0379b1376ba9e6658795c79",
+      "copy": "2492d5a3c97439864993840274494e47598117cc35eaadc70451c154b5ef2af9"
     },
     {
       "source": "book/Chapter-34.md",
-      "sha256": "a43bbb6c933921842517d550a0b3326b1a92676b5169a6660d3ab891d4d09c11",
-      "copy": "28981ca0820e2c288ca6e705f4b48c59b54b8a616a19206eff3b0d79239a8149"
+      "sha256": "7f963dc4f65744b10206c151515605f3a83e7e68940995adee91120190a92c01",
+      "copy": "95de49cb4e172b334331c5dfcafa38eb626fd84a4012012cf30803ff90545ef8"
     },
     {
       "source": "book/Chapter-35.md",
-      "sha256": "1cb56fb3c84880429c4f30b69414460672040fc2f0daf5ab526ead2db85dbdf1",
-      "copy": "a4038d4fe7d2d1b90e8b7877fa2d3478cd600cc07d8ab4529fa8414953768346"
+      "sha256": "caedb5dab2f76c398bf382271e908333f0cb209220e58162f9da493834ed0680",
+      "copy": "bcad6625e828a5d27d1a3506e3cf434d81d233e2099eb393cc89d7282947badd"
     },
     {
       "source": "book/Chapter-36.md",
-      "sha256": "09453069842bd53ae90f3ffcfb4ffa5e6805fcc1bdc7396d549787603d151a37",
-      "copy": "b13eeba970f88a45bb5614129e9e2203b8e71cbc2e618401a024871ec010fbba"
+      "sha256": "6ec326e5500e61ca1af5105cb9e4ad065a73901c964b5ef871958d4eb692fa61",
+      "copy": "35d59ae7edd1e1b0e3c64fa868da205262e20c16d46d756204e07919d2ed7623"
     },
     {
       "source": "book/Chapter-37.md",
-      "sha256": "feb59df505f3dfa76b2ecc99630acac66b90fbff819a42bde08b58520ef6a6a7",
-      "copy": "b9183e81b70177beb8d7280efb98f649814a68278d0daa9c5727397c3328a363"
+      "sha256": "4bbf137a2505a0277e17183400cb41cf62501d13a5ae58b9c71806af58695ff7",
+      "copy": "f8265acd938a7d530be353adb01379d6080fe680cc08cd96f7ffb5092e9c3fb6"
     },
     {
       "source": "book/Chapter-38.md",
-      "sha256": "f2dcdb21dd853fc4c6a4c9bdcee7670cfa3fe00a0618ff76bc1f62e4789429de",
-      "copy": "9ace25b067d40721bb3934128db2fa4b22169184aebfc01642e421930ef667a7"
+      "sha256": "21d8fa7d27a53249d76c37b6a335d637f953819f1aff512d5cd76bf536090359",
+      "copy": "1b13473704e35a155533a2e9664ed8ea6847e1b97a6ac62a7817e25883cc262a"
     },
     {
       "source": "book/Chapter-39.md",
-      "sha256": "881a7586bd30cc3ac561278690cc910fb8f01a3c8f6aca0291958c194767751e",
-      "copy": "f24f2780585181251c2343bb3cc9dea6bceb5b7b94b9bd35ed6b3acbbb418f1f"
+      "sha256": "0769a5cff3dedaaff5ab331299820b4d6a2ff5f93cb536d27aa78bf09035aff4",
+      "copy": "191a6fd14b54b83ae964155ec54eae2f55460205d3524247f934fbc98c45cbac"
     },
     {
       "source": "book/Chapter-40.md",
-      "sha256": "a353b0214d612562046aca1f265f9471d04de9442867ddb81650615a58599150",
-      "copy": "66eab8494403a5cb889ae24a19231bdc06ec2743ff901d0124440be977af2737"
+      "sha256": "2590a6de3dcdbb167d43028aba1ff1bd88dedb02a60c56713013d69028677160",
+      "copy": "d5f47d52ace3d80041a75a48f6246b2394417a652b2ebfd872c2645c6ba0a065"
     },
     {
       "source": "book/Chapter-41.md",
-      "sha256": "ff69e95e78b84a9c053a24be26e2e662288a3654565dd83ecda9de19c62f428d",
-      "copy": "955b8c0aeea098697bd1998331e4dbe7f1f5c2d78a4aac4ef97a23ce70c49ce3"
+      "sha256": "f002ffdc028a391f0128a35a8ddf4fb55cdf65da021fb50b1809ae4e8c25990e",
+      "copy": "912a073373a88b22064f0cd4e449f4bc5a89d0c891bd4ec32d42318178d29e0a"
     },
     {
       "source": "book/Chapter-42.md",
-      "sha256": "d0ac37806c1630dd1f4b7c39faf055227f800f0a5164019c076d36557640b9df",
-      "copy": "8b80cd44723c36485800773352da6f840aaf2e5303353bac72e7bc640a0b9c69"
+      "sha256": "0ff9f0d647178f1c4c6605b08a424958e2490d9924f2ae2f62f438cb3146ff39",
+      "copy": "7d9a7e0e716212292be0d036c7483d0954d1f91ae1d762a455842a271b7e866a"
     },
     {
       "source": "book/Chapter-43.md",
-      "sha256": "f8d38b2ab3125046a6f6798177bca717c017fdc3520725947295aa7f7dd9bbe2",
-      "copy": "190266104b708da38adcca1ada60143937958a8ea8b19ef7800219bf9d037bba"
+      "sha256": "7aac2db6d6cc0d6ea360634dc97528c5d494ef0c186bfaa5da73ce34f8282cbc",
+      "copy": "eccf080a345e130dd58c98d6294c64f10810eff6c9924df21ee8f700c0d06305"
     },
     {
       "source": "book/Chapter-44.md",
-      "sha256": "4870e00c9b8dc832c83413be847a204d5102b4a52c7c038592773a0c50759b2e",
-      "copy": "2ba8fc96f09188c427ca5429069d8c29e81aa4b2ba208fbc126a80ac7d6bff91"
+      "sha256": "951abb0630765a504bb7b5248ca5acc12d047fde2c38cf61c47197650c950dc0",
+      "copy": "c8fca068d45e3b2f91895d0fe880465d26787f44fd3528d158ee338df5e47a7b"
     },
     {
       "source": "book/Chapter-45.md",
-      "sha256": "451e0d4d31ac6afe5e2b2a93669df1fa44e9d3768b61602aa9e8895f40388c08",
-      "copy": "1d14fe121aef2cad0f27c63934d1c5c9578de5b77e4846b26e6c0528f10d5d86"
+      "sha256": "3096b62200f94a3cf6571330d92854d018d7a9b27055b45fcb4fe1464ee940a8",
+      "copy": "6e0c511841cb2bbb5fec0504c4914f748677e2ae2daa8f0aa0e72b4d289df4d7"
     },
     {
       "source": "book/Chapter-46.md",
-      "sha256": "39071821f096d9977c03997aefcba70b7ac8d01fa3b5169a689f80776a0cfc39",
-      "copy": "387f7611ace8939e7563aafb780427b7cf060045d900ff48e28fbc8abb95ab60"
+      "sha256": "200da1bb0cb6e92d49c610ab7faad4ea07c5950840cf5e381eedfc97cb6c44be",
+      "copy": "9013a610300bb80452839c1515df073c2fdb88142f2ad6177fc2f581bc4a083e"
     },
     {
       "source": "book/Chapter-47.md",
-      "sha256": "57858f7ee1c202560abd980321ca5aa3122d5e716417dc0ddb975ad5f26c8238",
-      "copy": "cbed94e10c1a4fa23c40307133f5c6d5b5ff71ededeed77810cdb8314fb56910"
+      "sha256": "2b8a1cec5c95a971ee42c107e239f7b8030a17735f128b040f4cf65ff97ee5d7",
+      "copy": "559ddf34c586945b7de4bec95791e99af46317f913a123eab1dfa2bac5414fa5"
     },
     {
       "source": "book/Chapter-48.md",
-      "sha256": "fe9fdf935cd84673ba7cd71ce0cdc7e694f0842e069653027a015c86c8cca3c0",
-      "copy": "df9200ffbb9dcd801c11ff3bb825eeeca88f542c6b29ab19dc7cdbd487b1d2c3"
+      "sha256": "968e173f8637d7318eb4763aa94642463e15c0679fcbf4344e0aeefaa757ca2e",
+      "copy": "4090f89633b2e2166a20cc6ce66c9bc532b63d4249d275d8e23c0934ffc6d39f"
     },
     {
       "source": "book/Chapter-49.md",
-      "sha256": "2c4cd4098fdc5701bbb5f8a90928a6d15282356fcdcab4400ab813e71b3a5ab5",
-      "copy": "306050933987191f378c27b8beca3003cfe911fd70ffe875d97bb3c589774782"
+      "sha256": "393d07e91af8ab82e353c7dce78416bbc9f27b78c3303860d280c5407f9631ca",
+      "copy": "6f0b42bf9d06cb21aaf0c6ae9a278cfc2b3bf006734b831c5d9a54800129b1cb"
     },
     {
       "source": "book/Chapter-50.md",
-      "sha256": "016efd1d81498afcfae0416dee32b617cb09bb03116f1c63a1ab446c0238175b",
-      "copy": "1e0b95b1ab3b9ff0be8b825d7f4cb4bf4c8fb7b5fbfee758c17530aee4f8b902"
+      "sha256": "7897984941d6e3c64c099fae45fd423b293923a6787aafe1f85c68dd9358b4ec",
+      "copy": "8688fea3060ed6a78f0788eecd71ebf96ab5013025234a3b8734491ddbc914b6"
     },
     {
       "source": "book/Chapter-51.md",
-      "sha256": "8c9b987d456a467aa8355299df53ccd78b9927adefc864ffb3feaf3430668940",
-      "copy": "b4a7e3a925b308dd603e2b0fe85697816ce1ea3b445933e328d32e73e5d833f0"
+      "sha256": "a992b2e5d56bc2e2e0f06522231c8e72730027b73d3d90afc65e9b621b2783b6",
+      "copy": "c8f4e4bde4e6d5e52ac864e032ad541eec2cb4d01e611ce3812c9ef9409fcdfb"
     },
     {
       "source": "book/Introduction.md",
-      "sha256": "110b16ee59a918c435fa4fdaa7611f71d304bf130d5dda4902e538b5e28f6644",
-      "copy": "f18b2bf13866d7380b6b9345e4fd522e24ec302d49c9c15c5f79404e4382d39e"
+      "sha256": "87213d28bc51dfc5bf23bce387c9b44330ec109df8554dd02d2bf6725fb111a5",
+      "copy": "a2dea5b4870045a815342be9fe9a56a0599943e6b9e73ad7939e1e13fbe8f434"
     },
     {
       "source": "book/appendix-glossary.md",
-      "sha256": "0e77e89cd13d0dd5b6aba5e47b12e98d48749389e5cea282f41e3a32feaa75f6",
-      "copy": "3be155beb0acb014dab033cecb6357336a572eb94573aede822096332e725762"
+      "sha256": "19cf810a862016678b62bf5edd050f3ec2e728b9e9d6dae2590896514d0e9701",
+      "copy": "07b57ae62e02a0750fb897f24731eb64faf09a66adbbd87169a6007aab32ea8b"
     },
     {
       "source": "book/appendix-pronunciation.md",
-      "sha256": "0c5a37bf2060836b4de2573fe51b018c22128b2a1e3511aad914abd020ee4b12",
-      "copy": "606e13daedd4198a128dd23084c3bb1735a9ed1cd7c5002854b8ea7bed5e753f"
+      "sha256": "1c4f26c375659584ef1d432eafbf829e39af3a90e392031c4c1cb4756c4260d8",
+      "copy": "85f624553eb2666e387013cdcc754aaca46d29c8f81a6630e22e1003a176417b"
     },
     {
       "source": "book/appendix-reference-charts.md",
-      "sha256": "693fe405e9788fa10f27b94ac056fd6a41078544a0b8f7e77c708f428c361f71",
-      "copy": "1354123819d3c9d9e655829d050007db12e69e45435133749a47b06e4c3bb752"
+      "sha256": "d3df3e3245b483082cb947085c1515065569912325bd3efe87f5389daf544240",
+      "copy": "de611953c5abe94eddf98d9596109f9fb0d3e2acbabc537ce9539049b399e40e"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch01.md",
-      "sha256": "46dfefb32e0f28be40f82e0a2e0a4b565e311be818e8ff862b67e23d85f154a3"
+      "sha256": "5e612c2aa039b49dfb63d6c19f07c536ecd69688ea90cc1be73a22825221f31a"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch02.md",
-      "sha256": "c849ebf5cd28ab4e9a3e77133d08e4add67dfb2f1d3e18289e156873ab2ec632"
+      "sha256": "048583eaf8d90e767b6029bd7a30f69e6f81bed3f71ede7bc3b3c51a32c58abe"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch03.md",
-      "sha256": "b411c14427508797ccfd98c4b669de93e7395dcd34f4e34e24d4e9c9b19877fe"
+      "sha256": "f2c15bf4fd8fcd22ffaede3aa807755a890bbca3b897a51899e1a0caa1002fb6"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch04.md",
-      "sha256": "181e37c0d2f7bf58d55dcdc7042990fa800378d1be58b37a90039a79aa14e3ef"
+      "sha256": "05742b6d377e6749483680683c9d52c7cb92507239fd5b2b6e51c723c319b14f"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch05.md",
-      "sha256": "ae1538e6ef40383a2022287b4c24279b7148cf9d5429b1068ad4fedab2f9f81f"
+      "sha256": "72ca1899d6ec56a511e55150ab804bb43475fd370bc5529d7626920126dd2471"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch06.md",
-      "sha256": "dce126ac4777136af87e0b8503fd2c997658eb0397114cd0962bc783a695b442"
+      "sha256": "93ad5fc9216830cbf78d84a679540c45ad2b4ee8ad1c8261a4fc28d4044dc299"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch07.md",
-      "sha256": "1c6af6d266152f480e85e2dd4adc02fc26740904ad7664eca831eed3d3be8ed5"
+      "sha256": "06258dc60acacaf29bb4e47b36f5b17852255517bfa83dde0b4cf07b88cb8353"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch08.md",
-      "sha256": "cc377febe1c4f83ba468086732503269c07707958ae4f4744eeaec43837dab09"
+      "sha256": "1acbf6c1bf8c3251e5213edae798cc8a085a5304c9eeaa589d16cca7cc54a583"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch09.md",
-      "sha256": "f3884283a62bd097549d06cdf22355e4b3e0b5f48be57af501b4e9955b0692c3"
+      "sha256": "fea1b8c345b1121f4bd78cd7869ccc58b6ce6cc0ffad62e698daea8ebd131457"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch10.md",
-      "sha256": "f2b9354c5f8618256120645bf6e477bb529db147ce1920a2335f28848e1851f7"
+      "sha256": "d86a4679cb76f74943294a93bdd0842223a032ef570e07d6083b07ba6fb70c09"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch11.md",
-      "sha256": "93cb3da7119bf56c9b343b1ae83a38313082f22e8222ccd483b128a1c4feebbc"
+      "sha256": "ea0f90630f2ff1d7ecfbd7124dfeac5863a8bbab224c363df83b87bb3edce007"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch12.md",
-      "sha256": "19827863d9b85096f3a330b943156a0e6518022b2c100f549919a5d2f2de8bc5"
+      "sha256": "4299736164632bc4c646297a7aabd6b7bbf65dbd5054f8603ad34d83548f0ebd"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch13.md",
-      "sha256": "f442226c738e404258e24ab7f7feac065cf43b4a59cd8e571da1a6eb149c920f"
+      "sha256": "a8335d43edbcca94a219159282755448a5a91cf5efc1351075816ba7cc99e7ca"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch14.md",
-      "sha256": "f9f1f470ebd0f3a7be783b9e627397cb0ad01511ebdfd91ee9da03cba09eb97d"
+      "sha256": "d17975910cf4083e3e997e09b21168e08a579c1352ae924210bd63f584bb2946"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch15.md",
-      "sha256": "3b8d24c0ad6209dd11befdf186a123301773090229f65b879a0094c35fe68656"
+      "sha256": "f5e5d1dfe6109c5c00955279c7a94264ea2fff8a42802a0f42b2aa2d1edc5743"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch16.md",
-      "sha256": "749db5405c6defcef39c4687ae78f98648395dbceac2945e190ef5bbd047a3ab"
+      "sha256": "1c501d081406936008dd023bb6fd63baabc416f3939eb47436f22f616654dd19"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch17.md",
-      "sha256": "49bfacdc5e2e6d3064cbd3d16c024d393caa8899593c134e6f18ec3ec9ab281b"
+      "sha256": "355a7a202c557ac04de87115c70fc233071bb8e4c542a948416acbc92a2bac8d"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch18.md",
-      "sha256": "d0489a65f5cd40a24e4439e2261596ce515641d106e890cad64d394a58c518b3"
+      "sha256": "9e0593cbdaa4b0ac1a7c079eb2d0e5c38fd7ffa83f63de791a8b30c75d894f9e"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch19.md",
-      "sha256": "2748f9e3aaa69f1bb9c882dcee8861c040ff16f2f1a8b81cb7bc5e03ff7277b8"
+      "sha256": "468d8b29ccdd3c4a0ba2402127158bce76837cb7355427e68a7d8c9690a2663d"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch20.md",
-      "sha256": "41612b097f43430b9257a658c3257adfb7deb68e9b134f4f83ed14a00e21483e"
+      "sha256": "21a353ba84e16f5e0a52b89fed3f80b60251ba2027691d06f5861aa7f31336e8"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch21.md",
-      "sha256": "7a0e82d540953b2c1d020a995008d8004d048a1b7638e4a8d5a31b9688e7cf83"
+      "sha256": "97717d09ed20d8ad7ad8a8aec5e4ef03b1df83e1f66b541abac42fcb1556680e"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch22.md",
-      "sha256": "5fea3bfc7521093034b3ee29684c91f266be585d5faf9e54e51855ecbca06b9e"
+      "sha256": "96276735230a01f2a123c7c5d1ee99f17346445ff9b655e2be6fbbd2c6bf310e"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch23.md",
-      "sha256": "c300ba4918a1cf06b0eb987ef08220c90f7cb54034aada0295a280f5aed52f16"
+      "sha256": "957bcebe0546f2bc09f1baea441971e4ff0349578e02d5e965c773cbb042c257"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch24.md",
-      "sha256": "be8786360ee4c9c77095ee3d0ddda018be8faa30913a31b26a305de635882bfe"
+      "sha256": "869d50b0b00588f3fe15c1fd5caedeb6507745a9e1477dcb60245eee039bb750"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch25.md",
-      "sha256": "ca0f48b610f30831024feafffbda5a68f40c184499ddc4e730cef6a31243d367"
+      "sha256": "684e5a5c1e9d0ae9e2cef8eade1bfc524d5f506aa9651a1a68efdd5f081cf097"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch26.md",
-      "sha256": "b8ef2d2e6f15f6a9841b84f02fc9bdeb96f58f4bee7f03af478485d457fbff64"
+      "sha256": "3f3a20fb71cc6fe1a50c871cefd0fbed68d7f23731b27f4f49de6ad2319605c3"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch27.md",
-      "sha256": "99e623f1d594b84ea130ae67d276cfd330d3848f1ce6401aee4396e6a1424a44"
+      "sha256": "bd44cb8714efb2f417e645cafb87681612931ef84c78c4a37df42e61d5737211"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch28.md",
-      "sha256": "62689459620b15a135d62a366e3558df7a3cc89729e06892323c17848f78a09d"
+      "sha256": "3be1de810c922fac2285f9f121523695706709ef6c007923a3c6b6b3783cff65"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch29.md",
-      "sha256": "219ecac03a01a6e6b93d47706960b5340f2715db60ca8a51002f14a4bee21fdd"
+      "sha256": "be4cd186699ad888210c3a2eec7c09d448deeffaadef90e7e7ee84dcc0d0e461"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch30.md",
-      "sha256": "c918133862385fa41f9a81d50d7f590a431060e7df02e39824de1e1200506090"
+      "sha256": "4e0cc286009bd71ddc2e1e28ddb4978cd7e9ab0156faa2e5640a21c8f450c561"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch31.md",
-      "sha256": "00f63138677ca7994e84bf6a57f8768f39ad4b657f53054efbebc3140ade0de1"
+      "sha256": "3def50ee2fcc5842f3e161d4b399f5c036c6698fce92f5f8e86be3e2195bbcf7"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch32.md",
-      "sha256": "eb6f5d04eb4c0bab59f5e5f257a7a8a07c3cef62fed01ae2a1c486d3adb4e5cf"
+      "sha256": "4d75a61882e27db9b53571474629a44694a48f2abc20c6b8d25d47d2b7038c90"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch33.md",
-      "sha256": "2cd7a7128633bb0d4c748887adf8ac367dbdb645f8c1a7133d3986ffac07daa7"
+      "sha256": "3571f8e0ec23b843052c7122ccfa461783d476a9bb5f15244889b150ce934305"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch34.md",
-      "sha256": "9cd5919d7a78fa70d3eeca59fe5c3f30c4c72a7ac3642b29c419b43004d24e6f"
+      "sha256": "9c3196a0f1a48dafaea06b8ee00a260911091b1ed9dce35dbf03ef08dc6e7d0e"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch35.md",
-      "sha256": "0e33ce8f93220d749a4a8addf722ad4feb450e0dfa89f3f2ccd44c77c5e2d424"
+      "sha256": "2d658c0a46eb99b528968c9afdc0f931ffeda4d6dd120aefc0212040ced3acc3"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch36.md",
-      "sha256": "46765b8775d8164744589abb8fed48a02ff86c12cf44e00068fb622dc63791e3"
+      "sha256": "05dbd47be9b69a18e9ce83c6229898306f12cfab25d0f39dc6377e2fa60ec87a"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch37.md",
-      "sha256": "c82af4a9f75716dded343588113b76ba07be26c725c47492a39346d8f3753b63"
+      "sha256": "b0433a19776c0582ff51916469eaf6b04fd07665afad35f0a3544756ca1a3d1d"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch38.md",
-      "sha256": "81270f4946fec59f619eee7ef56ec853cf002f119e0070f31f1f407811d2b3f0"
+      "sha256": "6b76f82b957a24f63267007a2de7834cbb8c1bdc38235dead5cba81c77a820dc"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch39.md",
-      "sha256": "7a660ece6a5b4878d9977820e99bd65943e451e231a1e400c83337098be13bb1"
+      "sha256": "038e6d1a986dc3894f4dec1045e5416682d56e71232d88ba6cc2764cf854a25b"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch40.md",
-      "sha256": "fd680f4741ab08727a57c771de126df76a4e1b2369ca68a62a1149b87c8fa8d7"
+      "sha256": "36553707e1fe18529ebb60811c84ea2e8b6fe88bec32e952e2065d2826d06a73"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch41.md",
-      "sha256": "bc40c4b6e57d2e3d497c94f974580232f0ee7deeadb02ba88b497086879931cc"
+      "sha256": "0918e20dafe8f8c00cdac1400e9ea78bb77dfec55259943e6701b5c5c074d291"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch42.md",
-      "sha256": "219d04b8e66680b163f403b6c9635e9ce92346ae465e33ecd02c4cd190719a55"
+      "sha256": "b378ffdc3fcb23a219c35d7c719bd9f096d0a66bb5f1473f0e58317a345bfa17"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch43.md",
-      "sha256": "a46b631ea0e25a74cc0722480485609bba3ee8532566e3a6e959330ae10247d3"
+      "sha256": "57029b5cf5af6c4b56b291fafdc989c32b0f5b4ef13f1a992f26beca48b20450"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch44.md",
-      "sha256": "756e9d5ac56ec216ec9a126d137363e518f33f48c6642a23d2cf4a5dc481baa9"
+      "sha256": "08260effb03f5b428bf4c2941dd7af5770f4c60578aca47c5e2a9a2d85755def"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch45.md",
-      "sha256": "25f39c1fbdcea5899cfaa5a30cd63f6311324312583f4ced387429be73deab02"
+      "sha256": "4b013f6611ea218a935386d99f08b7323b1d0d48ee3cfdcc4f03a13ce05e4798"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch46.md",
-      "sha256": "31e33fbb1fe84c6f993ec7d3d9433e3bf6be98f2b51f49edb60a9c5983550b9e"
+      "sha256": "401255582e6108583f315a8af7c49b321aadcdec69ce7d611c17fb157337de2f"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch47.md",
-      "sha256": "0c5fc2c79f14f06c9720337a16fa5e448ea9bd6371aea063c0ce274a7e59f598"
+      "sha256": "7b3f4eb2e5de6c38b46b0607e5e9ffde86768bf59de45527ef0b1503e2971e20"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch48.md",
-      "sha256": "36e4b980fe7d6d536c4bb08112aed201036b6df7e34ff783980a4a7d48979c0c"
+      "sha256": "6f8beacf7b1732c696e72996eed98cc018246a7ae8bed7ede6134f5372b97cfd"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch49.md",
-      "sha256": "54da664ca36ea7823c81f8b0b7cf26e5ba9111519f7299cdb89cb434e2a11155"
+      "sha256": "b9b26778c57c70d19f4c7ff9e9d9f84137fde7eeb74d86056cc904b1bc86e81e"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch50.md",
-      "sha256": "b04986b99692e7201c3dfc14f18e0e4f311503f2c5e1dd3be039c3a00a5bd33e"
+      "sha256": "b89d68613235ba71ea030f2d694f778255f3ca7792a491bfbf22259cf015ebc4"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch51.md",
-      "sha256": "cb5c39bd8c58ce95c23d978912541afe12aebc70acc26124691df89deb651b39"
+      "sha256": "2ee30bc773dc6f8506b58d31223f90283f0c08e85733919b834fce326bb2ea35"
     }
   ],
   "counts": {

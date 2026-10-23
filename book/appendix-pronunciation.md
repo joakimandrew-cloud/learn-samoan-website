@@ -1,16 +1,16 @@
 # Pronunciation Guide {.unnumbered}
 
-This guide gathers the sound system of Samoan in one place, for looking things up once the Introduction is behind you. Nothing here changes what the Introduction taught; where this guide goes further, it adds the detail that makes sense only after you have been saying Samoan aloud for a while. Every word in it is one this book teaches, and every sound it describes is in the careful style the book teaches, unless a section says otherwise.
+This guide gathers the sound system of Sāmoan in one place, for looking things up once the Introduction is behind you. Nothing here changes what the Introduction taught; where this guide goes further, it adds the detail that makes sense only after you have been saying Sāmoan aloud for a while. Every word in it is one this book teaches, and every sound it describes is in the careful style the book teaches, unless a section says otherwise.
 
 ---
 
 ## The Vowels
 
-Samoan has five vowels, a, e, i, o and u, and each of them can be short or long. No difference between the two speech styles has been found in their vowels: whatever you learn here about vowels holds for the everyday style as well. A change of vowel alone is enough to make a different word, as in *tā* (strike) and *tū* (stand).
+Sāmoan has five vowels, a, e, i, o and u, and each of them can be short or long. No difference between the two speech styles has been found in their vowels: whatever you learn here about vowels holds for the everyday style as well. A change of vowel alone is enough to make a different word, as in *tā* (strike) and *tū* (stand).
 
 The five are simple, steady sounds. The i is said with the tongue high and at the front of the mouth and the lips spread; the u with the tongue high at the back and the lips rounded; the a with the mouth open and the tongue low and central. The e and the o sit between those, e toward i and o toward u.
 
-At the end of a word, e and o close up a little, so that a final e drifts toward i and a final o toward u. You can hear it in *tele* (big, many), whose last vowel is a closed e. In Samoan a word ending in e rhymes with one ending in i, and the same holds for o and u, which is why the Introduction warned that a final e and a final i are hard to tell apart by ear.
+At the end of a word, e and o close up a little, so that a final e drifts toward i and a final o toward u. You can hear it in *tele* (big, many), whose last vowel is a closed e. In Sāmoan a word ending in e rhymes with one ending in i, and the same holds for o and u, which is why the Introduction warned that a final e and a final i are hard to tell apart by ear.
 
 Two more habits belong to vowels that carry no stress. An unstressed a often loosens, with the mouth a little less open. An unstressed i at the start of a word, with another vowel after it, tends to slide into a y sound, and an unstressed u in the same place into a w sound.
 
@@ -30,9 +30,9 @@ Two things happen to vowels across the gap between words. A short vowel at the e
 
 ## Where the Stress Falls
 
-Every Samoan word stem has one syllable that carries the main stress. In most Samoan words it is the second-to-last syllable. Most of the time a syllable is one vowel, so counting back two vowels finds the stress. The table shows the habit at work, and the words where it needs a second look.
+Every Sāmoan word stem has one syllable that carries the main stress. In most Sāmoan words it is the second-to-last syllable. Most of the time a syllable is one vowel, so counting back two vowels finds the stress. The table shows the habit at work, and the words where it needs a second look.
 
-| Samoan | English | The stress falls on |
+| Sāmoan | English | The stress falls on |
 |---|---|---|
 | *tama* | boy | the first a |
 | *fale* | house | the a |
@@ -73,9 +73,9 @@ None of this changes what you say. Learn every word with its ʻ, say the catch e
 
 The line over a long vowel is the long-vowel mark.
 
-The first missionary spelling of Samoan wrote neither the length of a vowel nor the catch. From around 1850, printed Samoan began to mark the catch with a raised comma turned the other way and a long vowel with a line over it, but only here and there, mostly where a word could otherwise be read two ways. In that older printing the long-vowel mark was never put over a capital letter, and the ʻ mark was usually left off before one. No fixed rule for either mark ever settled.
+The first missionary spelling of Sāmoan wrote neither the length of a vowel nor the catch. From around 1850, printed Sāmoan began to mark the catch with a raised comma turned the other way and a long vowel with a line over it, but only here and there, mostly where a word could otherwise be read two ways. In that older printing the long-vowel mark was never put over a capital letter, and the ʻ mark was usually left off before one. No fixed rule for either mark ever settled.
 
-In the late 1950s and early 1960s, school books and translated novels began to use both marks much more, and school books and children's books from Pagopago and Honolulu, with some children's books from New Zealand, still do. Even there, each author decides where to put them, and a sentence can mark a word that the next sentence leaves bare. In Western Samoa, the Education Department dropped both marks from its school books in the late 1960s. That unmarked spelling is now the generally accepted one there, in the schools, in the newspapers, and in most books by Samoan authors. The marks come back only now and then, to settle a word that would otherwise be unclear; some modern writers print such a word twice, first bare and then again, marked, in brackets.
+In the late 1950s and early 1960s, school books and translated novels began to use both marks much more, and school books and children's books from Pagopago and Honolulu, with some children's books from New Zealand, still do. Even there, each author decides where to put them, and a sentence can mark a word that the next sentence leaves bare. In Western Sāmoa, the Education Department dropped both marks from its school books in the late 1960s. That unmarked spelling is now the generally accepted one there, in the schools, in the newspapers, and in most books by Sāmoan authors. The marks come back only now and then, to settle a word that would otherwise be unclear; some modern writers print such a word twice, first bare and then again, marked, in brackets.
 
 The Introduction showed what the bare spelling costs. Here is one more set, to show how far it can go: the three bare letters p, a, u can stand for four different words, meaning "end", "stern, fierce", "skin", and "fall", told apart in speech by length, by the catch, and by stress. Written bare, only the sentence around them decides.
 
@@ -89,7 +89,7 @@ The Introduction gave you the letters. A few of them carry more than their lette
 - The g is the ng sound, as the Introduction said. In the careful style it seems most often to be made a little further forward in the mouth than the English ng of "song".
 - The h comes only at the start of a word, in borrowed words and a handful of exclamations.
 - The k, in the careful style, belongs mainly to borrowed words, most of them from English.
-- The r belongs only to borrowed words, and even in careful speech it is often said as l. An English r usually becomes l in a borrowed word, as in *leitio* (radio). The one old Samoan word regularly heard with an r is *talo* (taro), and both an l and an r are acceptable there.
+- The r belongs only to borrowed words, and even in careful speech it is often said as l. An English r usually becomes l in a borrowed word, as in *leitio* (radio). The one old Sāmoan word regularly heard with an r is *talo* (taro), and both an l and an r are acceptable there.
 
 ---
 
