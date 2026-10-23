@@ -2,7 +2,7 @@ import EntryMotif from '../components/EntryMotif.jsx'
 import { Link } from 'react-router-dom'
 import { useTitle } from '../lib/title.js'
 import { TileBand } from '../components/Tile.jsx'
-import HomeSentenceBuilder from '../components/HomeSentenceBuilder.jsx'
+import HomeBlueprint from '../components/HomeBlueprint.jsx'
 import HomePracticePreview from '../components/HomePracticePreview.jsx'
 import LearningPaths from '../components/LearningPaths.jsx'
 import { CHAPTER_COUNT } from '@app/lib/course.js'
@@ -69,12 +69,12 @@ export default function Home() {
       <section className="wr-home__sentence" aria-labelledby="wr-sentence-heading">
         <div className="wr-home__section-intro">
           <p className="wr-home__eyebrow">A preview of what you’ll learn</p>
-          <h2 id="wr-sentence-heading">Change one word.<br />Change the meaning.</h2>
-          <p>Chapter 1’s sentences have three parts in a fixed order. Swap the middle word or the last word and see what the sentence says.</p>
+          <h2 id="wr-sentence-heading">Every chapter adds a piece.</h2>
+          <p>Change the time, the action and the person. Add how it was done and who did it, say it did not happen, then add where, when and with what.</p>
         </div>
-        <HomeSentenceBuilder />
+        <HomeBlueprint />
         <div className="wr-home__next">
-          <p>Chapter 1 builds this pattern. Chapters 2 to 4 add the other pronouns, describing verbs and the tense particles.</p>
+          <p>Chapters 1 to 4 build this pattern with its pronouns, describing verbs and tense particles. Chapters 6 to 20 add the doer, the negative, places, time words and the with-word.</p>
           <Link className="wr-home__button wr-home__button--primary" to="/chapters/1">Start Chapter 1, free <EntryMotif size={20} /></Link>
         </div>
       </section>

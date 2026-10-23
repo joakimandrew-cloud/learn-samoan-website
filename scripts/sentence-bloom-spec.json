@@ -1,0 +1,71 @@
+{
+  "about": "The homepage sentence bloom's storyboard, ported from the Tongan site's (lea-faka-tonga-app src/data/sentence-bloom-data.js, 2026-10-09 middle). Every row names a sentence printed in its chapter with its English; scripts/build-sentence-bloom.mjs finds each one in book/, records its line, and refuses anything it cannot find. Labels are the book's own names for each slot, each cited to the section that names it. Each seg's learned list links a tile to the chapter that first teaches that word (a spinning tile: the chapter of the spin). After the pull-back the stroke walks the course road, and each say-N beat of the ending shows chapter N's sentence from says (printed in that chapter with that English, found and checked the same way) above the map while the stroke rests at N (reviews/2026-10-24-sentence-bloom/Ending-Storyboard.md, direction B). Times are seconds.",
+  "page": 20,
+  "labels": {
+    "past": { "text": "past particle", "chapter": 1, "heading": "The Past Particle *Sā*" },
+    "change": { "text": "change particle", "chapter": 4, "heading": "The Change Particle *ʻUa*" },
+    "future": { "text": "future particle", "chapter": 4, "heading": "The Future Particle *ʻOleʻā*" },
+    "pronoun": { "text": "pronoun", "chapter": 1, "heading": "The Preverbal Pronoun" },
+    "verb": { "text": "verb", "chapter": 1, "heading": "The Verb" },
+    "describing": { "text": "describing verb", "chapter": 3, "heading": "The Describing Verb" },
+    "doer": { "text": "doer", "chapter": 6, "heading": "The Specific Article *Le*" },
+    "not": { "text": "not-word", "chapter": 15, "heading": "The Not-Word *Lē*" },
+    "past2": { "text": "past particle", "chapter": 4, "heading": "The Two Pasts" },
+    "place": { "text": "place", "chapter": 11, "heading": "The Place Word *ʻi*" },
+    "time": { "text": "time word", "chapter": 18, "heading": "The Time-Word Slot" },
+    "with": { "text": "with-word", "chapter": 20, "heading": "The With-Word *Ma*" },
+    "companion": { "text": "companion", "chapter": 20, "heading": "The With-Word *Ma*" }
+  },
+  "rows": {
+    "tense-sa": { "chapter": 4, "sm": "Sā ʻou alu.", "en": "I went.", "words": [["Sā", "past"], ["ʻou", "pronoun"], ["alu", "verb"]] },
+    "tense-ua": { "chapter": 4, "sm": "ʻUa ʻou alu.", "en": "I have gone.", "words": [["ʻUa", "change"], ["ʻou", "pronoun"], ["alu", "verb"]] },
+    "tense-olea": { "chapter": 4, "sm": "ʻOleʻā ʻou alu.", "en": "I will go.", "words": [["ʻOleʻā", "future"], ["ʻou", "pronoun"], ["alu", "verb"]] },
+    "verb-alu": { "chapter": 1, "sm": "Sā ʻou alu.", "en": "I went.", "words": [["Sā", "past"], ["ʻou", "pronoun"], ["alu", "verb"]] },
+    "verb-taele": { "chapter": 1, "sm": "Sā ʻou tāʻele.", "en": "I bathed.", "words": [["Sā", "past"], ["ʻou", "pronoun"], ["tāʻele", "verb"]] },
+    "verb-fagota": { "chapter": 1, "sm": "Sā ʻou fāgota.", "en": "I went fishing.", "words": [["Sā", "past"], ["ʻou", "pronoun"], ["fāgota", "verb"]] },
+    "verb-siva": { "chapter": 1, "sm": "Sā ʻou siva.", "en": "I danced.", "words": [["Sā", "past"], ["ʻou", "pronoun"], ["siva", "verb"]] },
+    "who-matou": { "chapter": 2, "sm": "Sā mātou siva.", "en": "We danced.", "words": [["Sā", "past"], ["mātou", "pronoun"], ["siva", "verb"]] },
+    "who-ia": { "chapter": 1, "sm": "Sā ia siva.", "en": "She danced.", "words": [["Sā", "past"], ["ia", "pronoun"], ["siva", "verb"]] },
+    "describe": { "chapter": 3, "sm": "Sā ia siva fiafia.", "en": "She danced happily.", "words": [["Sā", "past"], ["ia", "pronoun"], ["siva", "verb"], ["fiafia", "describing"]] },
+    "doer": { "chapter": 6, "sm": "Sā siva le teine.", "en": "The girl danced.", "words": [["Sā", "past"], ["siva", "verb"], ["le teine", "doer"]] },
+    "not": { "chapter": 15, "sm": "Sā lē siva le teine.", "en": "The girl did not dance.", "words": [["Sā", "past"], ["lē", "not"], ["siva", "verb"], ["le teine", "doer"]] },
+    "place": { "chapter": 16, "sm": "Sā nofo le teine ʻi le nuʻu.", "en": "The girl lived in the village.", "words": [["Sā", "past"], ["nofo", "verb"], ["le teine", "doer"], ["ʻi le nuʻu", "place"]] },
+    "time-morning": { "chapter": 18, "sm": "Na siva le teine anataeao.", "en": "The girl danced this morning.", "words": [["Na", "past2"], ["siva", "verb"], ["le teine", "doer"], ["anataeao", "time"]] },
+    "time-yesterday": { "chapter": 18, "sm": "Na sau le tama ananafi.", "en": "The boy came yesterday.", "words": [["Na", "past2"], ["sau", "verb"], ["le tama", "doer"], ["ananafi", "time"]] },
+    "time-tomorrow": { "chapter": 18, "sm": "ʻOleʻā siva le teine ātaeao.", "en": "The girl will dance tomorrow morning.", "words": [["ʻOleʻā", "future"], ["siva", "verb"], ["le teine", "doer"], ["ātaeao", "time"]] },
+    "with": { "chapter": 20, "sm": "Sā siva le teine ma le ili.", "en": "The girl danced with the fan.", "words": [["Sā", "past"], ["siva", "verb"], ["le teine", "doer"], ["ma", "with"], ["le ili", "companion"]] }
+  },
+  "segs": [
+    { "k": "drum", "beat": "tense", "lesson": 4, "t0": 0, "t1": 2.25, "rows": ["tense-sa", "tense-ua", "tense-olea"], "moves": [[0.3, 1.5, 0, 3]], "cells": [0], "learned": [4, 1, 1] },
+    { "k": "drum", "beat": "verb", "lesson": 4, "t0": 2.25, "t1": 4.26, "rows": ["verb-alu", "verb-taele", "verb-fagota", "verb-siva"], "moves": [[2.25, 3.51, 0, 3]], "cells": [2], "learned": [1, 1, 1] },
+    { "k": "drum", "beat": "pronoun", "lesson": 4, "t0": 4.26, "t1": 6.1, "rows": ["verb-siva", "who-matou", "who-ia"], "moves": [[4.26, 5.3, 0, 2]], "cells": [1], "learned": [1, 2, 1] },
+    { "k": "morph", "beat": "describe", "lesson": 4, "t0": 6.1, "t1": 7.75, "rows": ["who-ia", "describe"], "s0": 6.1, "s1": 6.65, "keys": [["T", "P", "V"], ["T", "P", "V", "D"]], "learned": [1, 1, 1, 3] },
+    { "k": "morph", "beat": "doer", "lesson": 6, "t0": 7.75, "t1": 9.6, "rows": ["describe", "doer"], "s0": 7.75, "s1": 8.3, "keys": [["T", "P", "V", "D"], ["T", "V", "S"]], "learned": [1, 1, 6] },
+    { "k": "morph", "beat": "negative", "lesson": 15, "t0": 9.6, "t1": 11.25, "rows": ["doer", "not"], "s0": 9.6, "s1": 10.15, "keys": [["T", "V", "S"], ["T", "N", "V", "S"]], "learned": [1, 15, 1, 6] },
+    { "k": "morph", "beat": "place", "lesson": 16, "t0": 11.25, "t1": 12.85, "rows": ["not", "place"], "s0": 11.25, "s1": 11.8, "keys": [["T", "N", "V", "S"], ["T", "V", "S", "L"]], "learned": [1, 5, 6, 11] },
+    { "k": "morph", "beat": "time", "lesson": 18, "t0": 12.85, "t1": 14.45, "rows": ["place", "time-morning"], "s0": 12.85, "s1": 13.4, "keys": [["T", "V", "S", "L"], ["T", "V", "S", "W"]], "learned": [4, 1, 6, 18] },
+    { "k": "morph", "beat": "yesterday", "lesson": 18, "t0": 14.45, "t1": 15.95, "rows": ["time-morning", "time-yesterday"], "s0": 14.45, "s1": 15.0, "keys": [["T", "V", "S", "W"], ["T", "V", "S", "W"]], "learned": [4, 2, 7, 18] },
+    { "k": "morph", "beat": "tomorrow", "lesson": 18, "t0": 15.95, "t1": 17.45, "rows": ["time-yesterday", "time-tomorrow"], "s0": 15.95, "s1": 16.5, "keys": [["T", "V", "S", "W"], ["T", "V", "S", "W"]], "learned": [4, 1, 6, 18] },
+    { "k": "morph", "beat": "with", "lesson": 20, "t0": 17.45, "t1": 19.45, "rows": ["time-tomorrow", "with"], "s0": 17.45, "s1": 18.0, "keys": [["T", "V", "S", "W"], ["T", "V", "S", "M", "C"]], "learned": [1, 1, 6, 20, 20], "more": 18.15 }
+  ],
+  "says": [
+    { "chapter": 24, "sm": "ʻAua ʻe te siva.", "en": "Don't dance." },
+    { "chapter": 27, "sm": "Sā tatala e le teine le pusa.", "en": "The girl opened the box." },
+    { "chapter": 36, "sm": "Sā timu ma sā nofo le teine ʻi le ana.", "en": "It rained and the girl stayed in the cave." },
+    { "chapter": 45, "sm": "Sā ita le tinā ʻona ʻo le lē pese o le teine.", "en": "The mother was angry because the girl did not sing." }
+  ],
+  "ending": [
+    { "id": "page", "start": 19.45, "end": 20.65 },
+    { "id": "pullback", "start": 20.65, "end": 22.45 },
+    { "id": "neighbours", "start": 22.45, "end": 23.65 },
+    { "id": "widen", "start": 23.65, "end": 24.65 },
+    { "id": "walk-24", "start": 24.65, "end": 25.05 },
+    { "id": "say-24", "start": 25.05, "end": 26.45 },
+    { "id": "say-27", "start": 26.45, "end": 27.85 },
+    { "id": "say-36", "start": 27.85, "end": 29.25 },
+    { "id": "say-45", "start": 29.25, "end": 30.65 },
+    { "id": "walk-51", "start": 30.65, "end": 31.15 },
+    { "id": "turn", "start": 31.15, "end": 31.85 },
+    { "id": "course", "start": 31.85, "end": 32.45 }
+  ]
+}
