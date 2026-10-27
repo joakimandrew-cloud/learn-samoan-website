@@ -3,7 +3,7 @@
   "sources": [
     {
       "source": "book/Chapter-01.md",
-      "sha256": "ebb6f7d1b2df8ce53ad3a2aaeb82edee269891839368a93047946fa5cf30bacf",
+      "sha256": "bf7d29329a256acc886fc08e28ecc7d810d135cd08998a9e4cd5e26e240cd9cf",
       "copy": "5418b04f5b44669eaf2c65939cccf2cf52a7b513348587b5aa0e882c55c407de"
     },
     {
@@ -43,7 +43,7 @@
     },
     {
       "source": "book/Chapter-09.md",
-      "sha256": "75c182e8668eed7dd4dbaa528dae488bd4537d617a02a195eb57a311a1fd4024",
+      "sha256": "eed071796054fe7b0ee12251d7ed0fbb4ca847a8784253be115eec00a4545dcc",
       "copy": "a0c4abffd7cbe942872d7c0a9c05f8483f24956c57464da104d6df6a7f654806"
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "source": "book/Chapter-23.md",
-      "sha256": "afc91948f54b34da265145c75743e612f37dee4f1ca870a30ab2cc60be75ced1",
+      "sha256": "f411c69d2526f1006ea8eec043f073a508b422847e2e6d7b23037d15183291cf",
       "copy": "5d4fcfd2dbadb30e935628687ffbd3281fcbbf157adedb25edd4cf019e97ff7b"
     },
     {
@@ -258,7 +258,7 @@
     },
     {
       "source": "book/Introduction.md",
-      "sha256": "dd2582f5ff1399b05dae2ee20d657b8f6fd9495763f4e5f1a828eed62cc5ed62",
+      "sha256": "b46f0084459abfe66bc8549159f90ef1351c3c08cdb04c55621f4064ab36bd58",
       "copy": "1990fe7779a5805c136c0a42b0b74a5c06fa9a182016485e4b48b65d4293e4e4"
     },
     {
@@ -278,7 +278,7 @@
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch01.md",
-      "sha256": "6977c74edb54b45502dec9774f0663c08c51055f155bb054cb567b2301dd010f"
+      "sha256": "053ce4bf628a1cee0824431441c64523150ef40c85b4264b7540dbf854c41dfc"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch02.md",
@@ -310,7 +310,7 @@
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch09.md",
-      "sha256": "db5779d2415e138d49bf165785b0e95c8bee5984ecfb1f82c0eedff942e80057"
+      "sha256": "49f7826b674f3fe4a8e592ad901e94412106d407d5a3055eca3519c454016f9d"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch10.md",
