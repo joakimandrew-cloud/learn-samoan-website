@@ -118,8 +118,8 @@ To answer no, you already have the word. *Leai* means "no", and you can use it
 on its own from your very first day.
 
 > **Preview:** *Leai* has a grammar of its own, and a story that is told later,
-> in Chapter 14, and completed in Chapter 15. Until then, use it exactly as
-> English uses "no".
+> in Chapter 14, and completed in Chapter 15. Until then, use it only on its
+> own, as the one-word answer "no".
 
 > *Note:* Only questions carry the falling arrow in this book, and only in the
 > chapters that teach the question tune. A statement is never marked. When you
@@ -189,6 +189,7 @@ no question, and mark the falling tune with ↘.
 2. *Sā ia fāgota.*
 3. *Sā timu.*
 4. *Sā ia siva.*
+5. *Sā ia tāʻele.*
 
 ### Exercise 4: Fill the middle slot
 
@@ -198,11 +199,16 @@ English matches.
 1. *Sā ___ tāʻele.* (I bathed.)
 2. *Sā ___ alu.* (She went.)
 3. *Sā ___ siva.* (I danced.)
+4. *Sā ___ fāgota.* (She went fishing.)
+5. *Sā ___ alu.* (I went.)
 
 ### Exercise 5: Answer each question with the word for "no"
 
 1. *Sā timu?* ↘
 2. *Sā ia fāgota?* ↘
+3. *Sā ia alu?* ↘
+4. *Sā ia siva?* ↘
+5. *Sā ia tāʻele?* ↘
 
 ---
 
@@ -230,14 +236,20 @@ English matches.
 2. *Sā ia fāgota?* ↘
 3. *Sā timu?* ↘
 4. *Sā ia siva?* ↘
+5. *Sā ia tāʻele?* ↘
 
 ### Exercise 4
 
 1. *Sā ʻou tāʻele.*
 2. *Sā ia alu.*
 3. *Sā ʻou siva.*
+4. *Sā ia fāgota.*
+5. *Sā ʻou alu.*
 
 ### Exercise 5
 
 1. *Leai.*
 2. *Leai.*
+3. *Leai.*
+4. *Leai.*
+5. *Leai.*

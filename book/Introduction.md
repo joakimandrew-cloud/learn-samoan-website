@@ -1,7 +1,7 @@
 # Introduction: Sounds, Spelling, and How Words Work {.unnumbered}
 
 Before the course begins, this chapter teaches the sound system of Sāmoan:
-how to say any written word aloud with the stress in the right place, how to
+how to say a written word aloud and where its stress usually falls, how to
 read the two marks that carry meaning, how to cope when a printed page leaves
 those marks out, and which style of spoken Sāmoan this book teaches. None of
 it needs to be memorized like vocabulary: it is a short set of habits, and
@@ -54,7 +54,8 @@ section shows you why it matters.
 ## Long and Short Vowels
 
 Vowel length carries meaning. Many pairs of Sāmoan words differ by nothing but
-the length of one vowel, and they mean different things:
+vowel length, and they mean different things. In the first two pairs below one
+vowel changes; in the last pair, both do:
 
 | Sāmoan | English |
 |---|---|
@@ -116,11 +117,15 @@ where the stress falls.
 
 Most of the Sāmoan you will meet,
 in newspapers and in most books by Sāmoan authors, is printed without either
-mark. That spelling is the generally accepted modern one in Sāmoa itself; the
-marks are added only occasionally, to pull apart words that would otherwise
-be confused. The school books and children's books published by the education
-departments in Pagopago and Honolulu still print the marks, and so do some
-Sāmoan children's books published in New Zealand, as this book does.
+mark. The reference grammar this book follows describes that unmarked spelling
+as the generally accepted one in Sāmoa itself, with the marks added only
+occasionally to pull apart words that would otherwise be confused. It reports
+that the school books and children's books published by the education
+departments in Pagopago and Honolulu print the marks, and so do some Sāmoan
+children's books published in New Zealand. Even there, how fully the marks
+are printed varies from one writer to another and from one sentence to the
+next, so a page may carry every mark, some of them, or none. This book prints
+the marks throughout.
 
 So the same bare letters can hide several words. The bare letters m, a, l, o
 may be *malō* (hard, firm) or *mālō* (to win, a victory, or
@@ -204,9 +209,11 @@ course begins, and you will be building real ones from the very first pages.
 
 ## How to Use This Book
 
-Each chapter adds one new thing and drills it. Work in order: later chapters
-stand on earlier ones, and nothing is used before it is taught. Every chapter
-has a workbook of its own for practice and a short quiz to check yourself;
+Each teaching chapter adds one new thing and drills it, and the two checkpoint
+chapters along the way add nothing new: they bring together what came before.
+Work in order: later chapters stand on earlier ones, and nothing is used before
+it is taught. Every numbered chapter has a workbook of its own for practice and
+a short quiz to check yourself;
 do the exercises on paper, and check the answer key only when a section is
 finished.
 

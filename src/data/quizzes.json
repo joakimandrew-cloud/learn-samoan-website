@@ -65,31 +65,31 @@
       },
       {
         "id": "q3",
-        "prompt": "How do you say \"I danced\" in Sāmoan?",
+        "prompt": "Which of these sentences does NOT match its English?",
         "options": [
           {
             "label": "A",
-            "text": "*Sā ʻou siva.*",
-            "correct": true,
-            "explanation": "Correct: *sā* for the past, *ʻou* for \"I\", and *siva* for the action \"dance\"."
+            "text": "*Sā ʻou tāʻele.* (I bathed.)",
+            "correct": false,
+            "explanation": "This one matches: *ʻou* is \"I\" and *tāʻele* is \"bathe\"."
           },
           {
             "label": "B",
-            "text": "*Sā ia siva.*",
+            "text": "*Sā ia alu.* (She went.)",
             "correct": false,
-            "explanation": "This uses *ia*, so it means \"She danced\", not \"I danced\"."
+            "explanation": "This one matches: *ia* is \"he\" or \"she\" and *alu* is \"go\"."
           },
           {
             "label": "C",
-            "text": "*Sā ʻou alu.*",
-            "correct": false,
-            "explanation": "The verb here is *alu* (go), so this means \"I went\"."
+            "text": "*Sā ia siva.* (She went fishing.)",
+            "correct": true,
+            "explanation": "Correct: the verb *siva* means \"dance\", so this says \"She danced\"; \"She went fishing\" is *Sā ia fāgota*."
           },
           {
             "label": "D",
-            "text": "*Sā ʻou tāʻele.*",
+            "text": "*Sā timu.* (It rained.)",
             "correct": false,
-            "explanation": "The verb here is *tāʻele* (bathe), so this means \"I bathed\"."
+            "explanation": "This one matches: the rain sentence needs no middle word."
           }
         ]
       },
@@ -155,31 +155,31 @@
       },
       {
         "id": "q6",
-        "prompt": "What does the word *tāʻele* mean?",
+        "prompt": "What do the chapter's words *tāʻele*, *alofa* and *lelei* mean, in that order?",
         "options": [
           {
             "label": "A",
-            "text": "go fishing",
-            "correct": false,
-            "explanation": "That sense belongs to *fāgota*; *tāʻele* is a different daily action."
+            "text": "bathe; love; good, well",
+            "correct": true,
+            "explanation": "Correct: the word *tāʻele* is the daily action \"bathe\", and the two words to carry are *alofa* \"love\" and *lelei* \"good, well\"."
           },
           {
             "label": "B",
-            "text": "to rain",
+            "text": "go fishing; love; good, well",
             "correct": false,
-            "explanation": "That is *timu*, the weather word; *tāʻele* is something a person does."
+            "explanation": "Going fishing is *fāgota*; the word *tāʻele* means \"bathe\"."
           },
           {
             "label": "C",
-            "text": "bathe, have a shower",
-            "correct": true,
-            "explanation": "Correct: *tāʻele* means to bathe or have a shower."
+            "text": "bathe; good, well; love",
+            "correct": false,
+            "explanation": "The last two are swapped: *alofa* is \"love\" and *lelei* is \"good, well\"."
           },
           {
             "label": "D",
-            "text": "dance",
+            "text": "bathe; go; good, well",
             "correct": false,
-            "explanation": "That is *siva*; the word *tāʻele* means to bathe."
+            "explanation": "Going is *alu*; the word *alofa* means \"love\"."
           }
         ]
       },
@@ -195,7 +195,7 @@
           },
           {
             "label": "B",
-            "text": "It falls and stays low over the last syllables.",
+            "text": "It usually falls and stays low over the last syllables.",
             "correct": true,
             "explanation": "Correct: the voice usually falls and stays low, and that falling tune is what marks the question, since the words do not change."
           },
@@ -263,7 +263,7 @@
             "label": "C",
             "text": "*leai*",
             "correct": true,
-            "explanation": "Correct: *leai* is your all-purpose word for \"no\" from day one."
+            "explanation": "Correct: the word *leai* means \"no\", and from day one you can use it on its own to answer a question."
           },
           {
             "label": "D",
@@ -275,7 +275,7 @@
       },
       {
         "id": "q10",
-        "prompt": "How is the question *Sā ia alu?* different from the statement *Sā ia alu*?",
+        "prompt": "How is the question *Sā ia alu?* ↘ different from the statement *Sā ia alu*?",
         "options": [
           {
             "label": "A",
@@ -2453,91 +2453,91 @@
     "questions": [
       {
         "id": "q1",
-        "prompt": "Which word means \"goodbye\"?",
+        "prompt": "The words *tōfā*, *soifua*, *faʻamolemole*, *fasi* and *ʻese* are on this chapter's word lists. What do they mean, in that order?",
         "options": [
           {
             "label": "A",
-            "text": "*tālofa*",
+            "text": "hello; happy, blessed; thank you; eat; strange, foreign",
             "correct": false,
-            "explanation": "The word *tālofa* is the greeting, \"hello\", which opens an encounter rather than closing it."
+            "explanation": "Four meanings are wrong: *tōfā* is \"goodbye\", *soifua* is \"good health, life\", *faʻamolemole* is \"please\" and *fasi* is \"hit, beat\"."
           },
           {
             "label": "B",
-            "text": "*tōfā*",
-            "correct": true,
-            "explanation": "Correct: *tōfā* is \"goodbye\", on its own or paired with *soifua*."
+            "text": "hello; happy, blessed; please; hit, beat; nice",
+            "correct": false,
+            "explanation": "Three meanings are wrong: *tōfā* is \"goodbye\", *soifua* is \"good health, life\" and *ʻese* is \"strange, foreign\"."
           },
           {
             "label": "C",
-            "text": "*faʻafetai*",
-            "correct": false,
-            "explanation": "The word *faʻafetai* is \"thank you\"."
+            "text": "goodbye; good health, life; please; hit, beat; strange, foreign",
+            "correct": true,
+            "explanation": "Correct: *tōfā* is \"goodbye\", *soifua* \"good health, life\", *faʻamolemole* \"please\", *fasi* \"hit, beat\" and *ʻese* \"strange, foreign\"."
           },
           {
             "label": "D",
-            "text": "*faʻamolemole*",
+            "text": "goodbye; good health, life; thank you; eat; nice",
             "correct": false,
-            "explanation": "The word *faʻamolemole* is \"please\", the polite request."
+            "explanation": "Three meanings are wrong: *faʻamolemole* is \"please\", *fasi* is \"hit, beat\" and *ʻese* is \"strange, foreign\"."
           }
         ]
       },
       {
         "id": "q2",
-        "prompt": "Which word means \"happy, blessed\"?",
+        "prompt": "The words *ʻai*, *oti*, *galue*, *tautala lelei* and *tautala leaga* are on this chapter's word lists. What do they mean, in that order?",
         "options": [
           {
             "label": "A",
-            "text": "*mānaia*",
-            "correct": false,
-            "explanation": "The word *mānaia* is \"nice\", the describing verb that praises a thing."
+            "text": "eat; die; work; the careful style; the everyday style",
+            "correct": true,
+            "explanation": "Correct: *ʻai* is \"eat\", *oti* \"die\" and *galue* \"work\", and *tautala lelei* is the careful style this book teaches while *tautala leaga* is the everyday style you will hear."
           },
           {
             "label": "B",
-            "text": "*mālō*",
+            "text": "bathe; name; work; the everyday style; the careful style",
             "correct": false,
-            "explanation": "The word *mālō* congratulates, and also serves as a light \"hi\"."
+            "explanation": "Four meanings are wrong: *ʻai* is \"eat\", *oti* is \"die\", and the two style names are swapped, since *tautala lelei* is the careful style."
           },
           {
             "label": "C",
-            "text": "*manuia*",
-            "correct": true,
-            "explanation": "Correct: *manuia* is \"happy, blessed\", the verb that heads a good wish."
+            "text": "bathe; die; story; the everyday style; the careful style",
+            "correct": false,
+            "explanation": "Four meanings are wrong: *ʻai* is \"eat\", *galue* is \"work\", and the two style names are swapped, since *tautala lelei* is the careful style."
           },
           {
             "label": "D",
-            "text": "*soifua*",
+            "text": "eat; name; story; the careful style; the everyday style",
             "correct": false,
-            "explanation": "The word *soifua* is \"good health, life\", said as a farewell."
+            "explanation": "Two meanings are wrong: *oti* is \"die\", and *galue* is \"work\"."
           }
         ]
       },
       {
         "id": "q3",
-        "prompt": "The words *ʻai*, *oti* and *galue* are on this chapter's word list. What do they mean, in that order?",
+        "prompt": "Which line gives the Sāmoan for \"Hello.\", \"Thank you.\", \"Congratulations on your work!\" and \"Happy New Year!\", in that order?",
         "options": [
           {
             "label": "A",
-            "text": "bathe; die; work",
+            "text": "*Tōfā soifua.*; *Faʻamolemole.*; *Manuia le ʻāiga!*; *Manuia le tausaga fou!*",
             "correct": false,
-            "explanation": "The first meaning is wrong: *ʻai* is \"eat\"."
+            "explanation": "Three are wrong: \"Hello\" is *Tālofa.*, \"Thank you\" is *Faʻafetai.*, and *Manuia le ʻāiga!* is \"Blessings on the family!\"."
           },
           {
             "label": "B",
-            "text": "eat; name; work",
+            "text": "*Tōfā soifua.*; *Faʻamolemole.*; *Mālō le gālue!*; *Mālō le fāgota!*",
             "correct": false,
-            "explanation": "The second meaning is wrong: *oti* is \"die\"."
+            "explanation": "Three are wrong: \"Hello\" is *Tālofa.*, \"Thank you\" is *Faʻafetai.*, and *Mālō le fāgota!* is \"Well done on the fishing!\"."
           },
           {
             "label": "C",
-            "text": "eat; die; story",
+            "text": "*Tālofa.*; *Faʻafetai.*; *Manuia le ʻāiga!*; *Mālō le fāgota!*",
             "correct": false,
-            "explanation": "The third meaning is wrong: *galue* is \"work\"."
+            "explanation": "Two are wrong: *Manuia le ʻāiga!* is \"Blessings on the family!\", and *Mālō le fāgota!* is \"Well done on the fishing!\"."
           },
           {
             "label": "D",
-            "text": "eat; die; work",
+            "text": "*Tālofa.*; *Faʻafetai.*; *Mālō le gālue!*; *Manuia le tausaga fou!*",
             "correct": true,
-            "explanation": "Correct: *ʻai* is \"eat\", *oti* is \"die\" and *galue* is \"work\"."
+            "explanation": "Correct: the greeting and the thanks formula, then the congratulating verb with the work and the well-wishing verb with the new year."
           }
         ]
       },
@@ -2547,207 +2547,207 @@
         "options": [
           {
             "label": "A",
+            "text": "An exclamation has no tense particle and puts the noun phrase before its describing verb; *Tā ō!* invites a whole group and *Tātou ō!* one other person.",
+            "correct": false,
+            "explanation": "The order and the invitations are wrong: the describing verb comes first, and *tā* is the \"we\" of just two people while *tātou* is the \"we\" of more than two."
+          },
+          {
+            "label": "B",
             "text": "An exclamation has no tense particle and puts its describing verb before the noun phrase; *Tā ō!* invites one other person and *Tātou ō!* a whole group.",
             "correct": true,
             "explanation": "Correct: an exclamation calls out a quality right now with the verb first, and the invitation's \"we\" is two people with *tā* and more than two with *tātou*."
           },
           {
-            "label": "B",
-            "text": "An exclamation takes a tense particle and puts its describing verb before the noun phrase; *Tā ō!* invites one other person and *Tātou ō!* a whole group.",
-            "correct": false,
-            "explanation": "The first part is wrong: an exclamation carries no tense particle, because it does not place an event in time."
-          },
-          {
             "label": "C",
-            "text": "An exclamation has no tense particle and puts the noun phrase before its describing verb; *Tā ō!* invites one other person and *Tātou ō!* a whole group.",
+            "text": "An exclamation takes a tense particle and puts the noun phrase before its describing verb; *Tā ō!* invites one other person and *Tātou ō!* a whole group.",
             "correct": false,
-            "explanation": "The order is wrong: the describing verb comes first and the noun phrase follows it."
+            "explanation": "The first two parts are wrong: an exclamation carries no tense particle, and its describing verb comes first."
           },
           {
             "label": "D",
-            "text": "An exclamation has no tense particle and puts its describing verb before the noun phrase; *Tā ō!* and *Tātou ō!* both invite a whole group.",
+            "text": "An exclamation takes a tense particle and puts its describing verb before the noun phrase; *Tā ō!* invites a whole group and *Tātou ō!* one other person.",
             "correct": false,
-            "explanation": "The last part is wrong: *tā* is the \"we\" of just two people, so *Tā ō!* invites one other person."
+            "explanation": "The first part and the invitations are wrong: an exclamation does not place an event in time, so it has no tense particle, and *tā* is the \"we\" of just two people."
           }
         ]
       },
       {
         "id": "q5",
-        "prompt": "Which of these says \"The food is nice!\"?",
+        "prompt": "What do *Mānaia le meaʻai!*, *Mānaia le tala!* and *Mānaia le nuʻu!* mean, in that order?",
         "options": [
           {
             "label": "A",
-            "text": "*Mānaia le tala!*",
-            "correct": false,
-            "explanation": "Here *tala* is \"story\", so this says \"The story is lovely!\"."
+            "text": "the food is nice; the story is lovely; the village is beautiful",
+            "correct": true,
+            "explanation": "Correct: *mānaia* praises the thing named after it, and *meaʻai*, *tala* and *nuʻu* are food, story and village."
           },
           {
             "label": "B",
-            "text": "*Mānaia le meaʻai!*",
-            "correct": true,
-            "explanation": "Correct: the describing verb *mānaia* comes first, and *meaʻai* is \"food\"."
+            "text": "the food is nice; the family is lovely; the house is beautiful",
+            "correct": false,
+            "explanation": "The second and third are wrong: *tala* is \"story\", and *nuʻu* is \"village\"."
           },
           {
             "label": "C",
-            "text": "*Manuia le ʻāiga!*",
+            "text": "the work is nice; the story is lovely; the house is beautiful",
             "correct": false,
-            "explanation": "This is the well-wishing verb with the family, so it says \"Blessings on the family!\"."
+            "explanation": "The first and third are wrong: *meaʻai* is \"food\", and *nuʻu* is \"village\"."
           },
           {
             "label": "D",
-            "text": "*Mānaia le nuʻu!*",
+            "text": "the work is nice; the family is lovely; the village is beautiful",
             "correct": false,
-            "explanation": "Here *nuʻu* is \"village\", so this says \"The village is beautiful!\"."
+            "explanation": "The first and second are wrong: *meaʻai* is \"food\", and *tala* is \"story\"."
           }
         ]
       },
       {
         "id": "q6",
-        "prompt": "What does *Mālō le gālue!* mean?",
+        "prompt": "Besides its everyday meaning, each of *tālofa*, *faʻafetai* and *mālō* has a second use in this chapter. What are the second uses, in that order?",
         "options": [
           {
             "label": "A",
-            "text": "Blessings on the work!",
+            "text": "sympathy to someone in grief; a polite request, \"please\"; praise for a thing as nice",
             "correct": false,
-            "explanation": "Wishing blessings is the well-wishing verb's job; *mālō* congratulates on something done."
+            "explanation": "The second and third are wrong: *faʻafetai* can also decline, \"no thank you\", and *mālō* also works as a light, everyday \"hi\"."
           },
           {
             "label": "B",
-            "text": "Well done on the fishing!",
+            "text": "a farewell, \"goodbye\"; declining, \"no thank you\"; praise for a thing as nice",
             "correct": false,
-            "explanation": "The congratulating verb is read right, but *galue* is \"work\", not fishing."
+            "explanation": "The first and third are wrong: *tālofa* said to someone in grief expresses sympathy, and *mālō* also works as a light, everyday \"hi\"."
           },
           {
             "label": "C",
-            "text": "The work is nice!",
-            "correct": false,
-            "explanation": "Praising a thing as nice uses the describing verb for \"nice\"; *mālō* congratulates."
+            "text": "sympathy to someone in grief; declining, \"no thank you\"; a light, everyday \"hi\"",
+            "correct": true,
+            "explanation": "Correct: the greeting also says \"I feel for you\", the thanks formula can turn something down, and the congratulating word works as a lighter \"hi\"."
           },
           {
             "label": "D",
-            "text": "Congratulations on your work!",
-            "correct": true,
-            "explanation": "Correct: *mālō* congratulates, and *galue* names the work being praised."
+            "text": "a farewell, \"goodbye\"; a polite request, \"please\"; a light, everyday \"hi\"",
+            "correct": false,
+            "explanation": "The first and second are wrong: *tālofa* said to someone in grief expresses sympathy, and *faʻafetai* can also decline, \"no thank you\"."
           }
         ]
       },
       {
         "id": "q7",
-        "prompt": "Two formulas in this chapter each carry a second use. Which pair of second uses is right?",
+        "prompt": "Which of these is true of the sounds this chapter teaches?",
         "options": [
           {
             "label": "A",
-            "text": "*tālofa* can also express sympathy to someone in grief, and *faʻafetai* can also decline, \"no thank you\".",
-            "correct": true,
-            "explanation": "Correct: the greeting also says \"I feel for you\" to someone in trouble, and the thanks formula can also turn something down."
+            "text": "The work word has a long first vowel when it names the work, as in *Mālō le gālue!*; the everyday style says t for k, n for g and r for l, and those folds are the whole difference between the styles; an everyday form lets you rebuild any careful word, known or not.",
+            "correct": false,
+            "explanation": "The second and third parts are wrong: the everyday style says k for t, g for n and l for r, and those folds are only part of the difference, so you cannot rebuild a careful word you do not know."
           },
           {
             "label": "B",
-            "text": "*tālofa* can also express sympathy to someone in grief, and *faʻafetai* can also mean \"please\".",
+            "text": "The work word gains a ʻ mark when it names the work, as in *Mālō le gālue!*; the everyday style says k for t, g (the ng sound) for n and l for r, and those folds are only part of the difference between the styles; an everyday form lets you rebuild any careful word, known or not.",
             "correct": false,
-            "explanation": "The second half is wrong: the thanks formula is not a request, and its second use is declining, \"no thank you\"."
+            "explanation": "The first and third parts are wrong: the change in the work word is a long first vowel, and an everyday form leads back only to a careful word you already know."
           },
           {
             "label": "C",
-            "text": "*tālofa* can also mean \"goodbye\", and *faʻafetai* can also decline, \"no thank you\".",
+            "text": "The work word gains a ʻ mark when it names the work, as in *Mālō le gālue!*; the everyday style says t for k, n for g and r for l, and those folds are the whole difference between the styles; an everyday form leads you back only to a careful word you already know.",
             "correct": false,
-            "explanation": "The first half is wrong: in this chapter *tālofa* opens an encounter, and its second use is sympathy."
+            "explanation": "The first and second parts are wrong: the change in the work word is a long first vowel, and the everyday style says k for t, g for n and l for r, folds that are only part of the difference."
           },
           {
             "label": "D",
-            "text": "*tālofa* can also mean \"goodbye\", and *faʻafetai* can also mean \"please\".",
-            "correct": false,
-            "explanation": "Both halves are wrong: the greeting's second use is sympathy, and the thanks formula's is declining."
+            "text": "The work word has a long first vowel when it names the work, as in *Mālō le gālue!*; the everyday style says k for t, g (the ng sound) for n and l for r, and those folds are only part of the difference between the styles; an everyday form leads you back only to a careful word you already know.",
+            "correct": true,
+            "explanation": "Correct: the work word's first vowel is long when it names the work, and the three folds run one way, from the careful style to the everyday one, so they can be heard back only for a word you already know."
           }
         ]
       },
       {
         "id": "q8",
-        "prompt": "Each respect word stands for an everyday word. Three of these pairings are right. Which one is wrong?",
+        "prompt": "The respect words *maota*, *suafa*, *maliu*, *taumafa* and *faʻamālū* each stand for an everyday word. Which line gives those everyday words, in that order?",
         "options": [
           {
             "label": "A",
-            "text": "*taumafa* stands for *ʻai*.",
+            "text": "*fale*; *igoa*; *ʻai*; *tāʻele*; *oti*",
             "correct": false,
-            "explanation": "This pairing is right: *taumafa* is the respect word for *ʻai*, eat."
+            "explanation": "The last three are wrong: *maliu* stands for *oti*, *taumafa* for *ʻai* and *faʻamālū* for *tāʻele*."
           },
           {
             "label": "B",
-            "text": "*maliu* stands for *oti*.",
-            "correct": false,
-            "explanation": "This pairing is right: *maliu* is the respect word for *oti*, die."
+            "text": "*fale*; *igoa*; *oti*; *ʻai*; *tāʻele*",
+            "correct": true,
+            "explanation": "Correct: *maota* stands for *fale* (house), *suafa* for *igoa* (name), *maliu* for *oti* (die), *taumafa* for *ʻai* (eat) and *faʻamālū* for *tāʻele* (bathe)."
           },
           {
             "label": "C",
-            "text": "*maota* stands for *igoa*.",
-            "correct": true,
-            "explanation": "Correct choice: *maota* is the respect word for *fale*, house, not for *igoa*."
+            "text": "*igoa*; *fale*; *oti*; *ʻai*; *tāʻele*",
+            "correct": false,
+            "explanation": "The first two are wrong: *maota* stands for *fale*, house, and *suafa* for *igoa*, name."
           },
           {
             "label": "D",
-            "text": "*faʻamālū* stands for *tāʻele*.",
+            "text": "*igoa*; *fale*; *ʻai*; *tāʻele*; *oti*",
             "correct": false,
-            "explanation": "This pairing is right: *faʻamālū* is the respect word for *tāʻele*, bathe."
+            "explanation": "All five are wrong: in order, the five respect words stand for *fale*, *igoa*, *oti*, *ʻai* and *tāʻele*."
           }
         ]
       },
       {
         "id": "q9",
-        "prompt": "Three of these statements are true. Which one is false?",
+        "prompt": "Which of these is true of the respect words, the everyday style and saying thanks?",
         "options": [
           {
             "label": "A",
-            "text": "*tautala lelei* names the everyday style you will hear.",
-            "correct": true,
-            "explanation": "Correct choice: *tautala lelei* is the careful style this book teaches, not the everyday style."
+            "text": "The *ʻupu faʻaaloalo* are the respect words, used to or about chiefs, pastors, elders and other honoured people; you learn them, like the everyday style, to speak yourself; Sāmoan speakers say \"thank you\" more often than English speakers do.",
+            "correct": false,
+            "explanation": "The second and third parts are wrong: the respect words and the everyday style are for recognition only, and Sāmoan speakers say \"thank you\" less often than English speakers do."
           },
           {
             "label": "B",
-            "text": "*ʻupu faʻaaloalo* names the respect words, such as *suafa*, which stands for *igoa*.",
+            "text": "The *ʻupu faʻaaloalo* are the everyday-style forms you will hear; you learn them, like the everyday style, to recognize rather than to speak; Sāmoan speakers say \"thank you\" more often than English speakers do.",
             "correct": false,
-            "explanation": "This is true: the respect words replace everyday words, and *suafa* is the one for *igoa*, name."
+            "explanation": "The first and third parts are wrong: the *ʻupu faʻaaloalo* are the respect words, and Sāmoan speakers say \"thank you\" less often than English speakers do."
           },
           {
             "label": "C",
-            "text": "The respect words are used when speaking to or about chiefs, pastors, elders and other honoured people.",
-            "correct": false,
-            "explanation": "This is true: that is the setting the respect words belong to."
+            "text": "The *ʻupu faʻaaloalo* are the respect words, used to or about chiefs, pastors, elders and other honoured people; you learn them, like the everyday style, to recognize rather than to speak; Sāmoan speakers say \"thank you\" less often than English speakers do.",
+            "correct": true,
+            "explanation": "Correct: the respect words belong to speech with honoured people, both they and the everyday style are for recognition, and thanks are said less often than in English because the conventions differ."
           },
           {
             "label": "D",
-            "text": "You learn the respect words to recognize them, not to speak them.",
+            "text": "The *ʻupu faʻaaloalo* are the everyday-style forms you will hear; you learn them, like the everyday style, to speak yourself; Sāmoan speakers say \"thank you\" less often than English speakers do.",
             "correct": false,
-            "explanation": "This is true: the formal style this book teaches is the right one for a learner to speak."
+            "explanation": "The first and second parts are wrong: the *ʻupu faʻaaloalo* are the respect words, and both they and the everyday style are for recognition only."
           }
         ]
       },
       {
         "id": "q10",
-        "prompt": "Three of these statements about the two speech styles are true. Which one is false?",
+        "prompt": "Three of these statements are true. Which one is false?",
         "options": [
           {
             "label": "A",
-            "text": "In *tautala leaga*, *tālofa* is heard as *kālofa*.",
+            "text": "The reply to *tālofa* can also carry a second word, which this book does not teach.",
             "correct": false,
-            "explanation": "This is true: *tautala leaga* is the everyday style, which says k for t."
+            "explanation": "This is true: the longer reply is an available form, though this book does not teach its second word."
           },
           {
             "label": "B",
-            "text": "Where the careful style has n, the everyday style says the ng sound, written g.",
+            "text": "Two of the respect words in the chapter's table have a second respect word, chosen by the rank of the person spoken to.",
             "correct": false,
-            "explanation": "This is true: n is said as the ng sound, written g, so *manuia* is heard as *maguia*."
+            "explanation": "This is true: those two rows have a second respect word alongside the one printed."
           },
           {
             "label": "C",
-            "text": "Where the careful style has r, the everyday style says l.",
+            "text": "The word *mālō*, which congratulates, also works as a lighter, everyday \"hi\".",
             "correct": false,
-            "explanation": "This is true: that is the third of the three folds."
+            "explanation": "This is true: the congratulating word doubles as a light greeting."
           },
           {
             "label": "D",
-            "text": "From an everyday-style form you can always rebuild the careful form, even for a word you do not know yet.",
+            "text": "When someone greets you with *tālofa*, you answer with *tōfā*.",
             "correct": true,
-            "explanation": "Correct choice: the fold runs one way, so you can hear back to a careful word you know but cannot rebuild one you do not."
+            "explanation": "Correct choice: the person greeted answers with *tālofa* in return, and *tōfā* closes an encounter rather than answering a greeting."
           }
         ]
       }

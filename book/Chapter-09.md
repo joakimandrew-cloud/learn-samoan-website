@@ -41,14 +41,16 @@ particle, and here a noun phrase to round it off.
 
 The greeting a learner uses everywhere is *tālofa*. It opens an encounter, and
 the person greeted answers with *tālofa* in return.
-The reply carries a second word alongside it, which this book does not teach.
+The reply can also carry a second word alongside it, which this book does not
+teach.
 
 ::: {.examples}
 *Tālofa.* Hello.
 :::
 
 *Mālō*, the same word that congratulates, also works as a lighter, everyday
-"hi". To close an encounter, Sāmoan pairs two words of well-being:
+"hi". To close an encounter, Sāmoan pairs a word for goodbye with a word for
+good health:
 
 ::: {.examples}
 *Soifua.* Good health. (a farewell)
@@ -66,10 +68,10 @@ not asked to make sentences of that kind yourself.
 A greeting often turns at once to names. Asking a person's name, and giving your
 own, is part of every first meeting.
 
-> **Preview:** The name question, "what is your name", needs the word for
-> "your", one of the belonging words. Those words are taught in Chapter 10,
-> where this greeting becomes real grammar you can build. For now, take the
-> greetings above as set phrases.
+> **Preview:** The name question is *ʻO ai lou igoa?* ("What is your name?").
+> It carries the word for "your", one of the belonging words. Those words are
+> taught in Chapter 10, where this question becomes real grammar you can build.
+> For now, take it whole, as a set phrase like the greetings above.
 
 ---
 
@@ -145,7 +147,7 @@ words**, used when speaking to or about chiefs, pastors, elders, and other
 honoured people. A respect word replaces its everyday counterpart: where you
 would say *fale* for a house, respect speech says *maota*.
 
-You are not asked to produce these words. The formal style this book teaches is
+You are not asked to produce these words. The careful style this book teaches is
 the right one for a learner to speak. The skill here is recognition: knowing,
 when you hear a respect word, which everyday word stands behind it.
 
@@ -232,6 +234,17 @@ Other words used in this chapter:
 The work verb is *galue*. In the greeting *Mālō le gālue!*, the word names
 the work, and its first vowel is long.
 
+**Words to carry** (learned now, used fully later in this book): *fasi* (hit,
+beat) names an action done to someone, and the word that marks who does the
+hitting comes later in this book. The word *ʻese* (strange,
+foreign) is a describing verb, and the sentences that put it to work also come
+later.
+
+| Word | Meaning |
+|---|---|
+| *fasi* | hit, beat |
+| *ʻese* | strange, foreign |
+
 For recognition only, three names carry over from the sections above:
 *tautala lelei* (the careful style), *tautala leaga* (the everyday style), and
 *ʻupu faʻaaloalo* (the respect words). You are not asked to produce them.
@@ -265,33 +278,23 @@ Write the Sāmoan formula that fits each situation.
 3. It is the first of January.
 4. You are leaving, and want to wish good health.
 5. You want to praise a fine meal.
+6. You want one other person to go with you.
+7. You want a whole group to go with you.
 
-### Exercise 4: Match the respect word
+### Exercise 4: Find the word you say
 
-Each respect word replaces one everyday word. Write the everyday word it stands
-for.
+Each word below is one you learn to recognize, not to say: a respect word or an
+everyday-style form. Write the word behind it, the one this book teaches you to
+say.
 
 1. *maota*
 2. *suafa*
 3. *maliu*
 4. *taumafa*
 5. *faʻamālū*
-
-### Exercise 5: Hear the careful style
-
-Each word below is in the everyday style. Write the careful-style word behind
-it, the one this book teaches.
-
-1. *kālofa*
-2. *faʻafekai*
-3. *maguia*
-
-### Exercise 6: Invite people along
-
-Write the invitation formula for each group.
-
-1. Invite one other person to go with you.
-2. Invite a whole group to go with you.
+6. *kālofa*
+7. *faʻafekai*
+8. *maguia*
 
 ---
 
@@ -320,6 +323,8 @@ Write the invitation formula for each group.
 3. *Manuia le tausaga fou!*
 4. *Soifua.* (or *Tōfā soifua.*)
 5. *Mānaia le meaʻai!*
+6. *Tā ō!*
+7. *Tātou ō!*
 
 ### Exercise 4
 
@@ -328,14 +333,6 @@ Write the invitation formula for each group.
 3. *oti* (die)
 4. *ʻai* (eat)
 5. *tāʻele* (bathe)
-
-### Exercise 5
-
-1. *tālofa*
-2. *faʻafetai*
-3. *manuia*
-
-### Exercise 6
-
-1. *Tā ō!*
-2. *Tātou ō!*
+6. *tālofa* (hello)
+7. *faʻafetai* (thank you)
+8. *manuia* (fine, blessed)

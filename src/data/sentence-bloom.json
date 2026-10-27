@@ -684,17 +684,17 @@
    "sm": "Manuia le tausaga fou!",
    "en": "Happy New Year!"
   },
-  "ch09-l047": {
-   "id": "ch09-l047",
+  "ch09-l048": {
+   "id": "ch09-l048",
    "lesson": 9,
-   "line": 47,
+   "line": 48,
    "sm": "Tālofa.",
    "en": "Hello."
   },
-  "ch09-l056": {
-   "id": "ch09-l056",
+  "ch09-l058": {
+   "id": "ch09-l058",
    "lesson": 9,
-   "line": 56,
+   "line": 58,
    "sm": "Tōfā soifua.",
    "en": "Goodbye."
   },
@@ -1692,8 +1692,8 @@
    "card": "ch09-l031",
    "preview": [
     "ch09-l031",
-    "ch09-l047",
-    "ch09-l056"
+    "ch09-l048",
+    "ch09-l058"
    ]
   },
   {

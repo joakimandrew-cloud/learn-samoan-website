@@ -89,7 +89,7 @@ Rewrite each sentence as its opposite, reaching for the right negation tool.
 
 In Sāmoan the words do not change to make a yes or no question; the voice usually
 falls at the end instead. In writing, the question mark is usually all you add;
-the two question-marking words taught in Chapter 8 are the other route. Mark the
+the two question-marking words you have already learned are the other route. Mark the
 falling tune with ↘.
 
 1. *Sā moe le tama.*

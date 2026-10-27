@@ -111,6 +111,12 @@
           "n": 4,
           "prompt": "*Sā ia siva.*",
           "answer": "*Sā ia siva?* ↘"
+        },
+        {
+          "id": "ch1-ex3-5",
+          "n": 5,
+          "prompt": "*Sā ia tāʻele.*",
+          "answer": "*Sā ia tāʻele?* ↘"
         }
       ]
     },
@@ -154,6 +160,28 @@
             "*ia*"
           ],
           "correct": "*ʻou*"
+        },
+        {
+          "id": "ch1-ex4-4",
+          "n": 4,
+          "prompt": "*Sā ___ fāgota.* (She went fishing.)",
+          "answer": "*Sā ia fāgota.*",
+          "options": [
+            "*ʻou*",
+            "*ia*"
+          ],
+          "correct": "*ia*"
+        },
+        {
+          "id": "ch1-ex4-5",
+          "n": 5,
+          "prompt": "*Sā ___ alu.* (I went.)",
+          "answer": "*Sā ʻou alu.*",
+          "options": [
+            "*ʻou*",
+            "*ia*"
+          ],
+          "correct": "*ʻou*"
         }
       ]
     },
@@ -175,6 +203,24 @@
           "id": "ch1-ex5-2",
           "n": 2,
           "prompt": "*Sā ia fāgota?* ↘",
+          "answer": "*Leai.*"
+        },
+        {
+          "id": "ch1-ex5-3",
+          "n": 3,
+          "prompt": "*Sā ia alu?* ↘",
+          "answer": "*Leai.*"
+        },
+        {
+          "id": "ch1-ex5-4",
+          "n": 4,
+          "prompt": "*Sā ia siva?* ↘",
+          "answer": "*Leai.*"
+        },
+        {
+          "id": "ch1-ex5-5",
+          "n": 5,
+          "prompt": "*Sā ia tāʻele?* ↘",
           "answer": "*Leai.*"
         }
       ]
@@ -1721,14 +1767,26 @@
           "n": 5,
           "prompt": "You want to praise a fine meal.",
           "answer": "*Mānaia le meaʻai!*"
+        },
+        {
+          "id": "ch9-ex3-6",
+          "n": 6,
+          "prompt": "You want one other person to go with you.",
+          "answer": "*Tā ō!*"
+        },
+        {
+          "id": "ch9-ex3-7",
+          "n": 7,
+          "prompt": "You want a whole group to go with you.",
+          "answer": "*Tātou ō!*"
         }
       ]
     },
     {
       "id": "ch9-ex4",
       "number": 4,
-      "title": "Match the respect word",
-      "instructions": "Each respect word replaces one everyday word. Write the everyday word it stands for.",
+      "title": "Find the word you say",
+      "instructions": "Each word below is one you learn to recognize, not to say: a respect word or an everyday-style form. Write the word behind it, the one this book teaches you to say.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -1761,56 +1819,24 @@
           "n": 5,
           "prompt": "*faʻamālū*",
           "answer": "*tāʻele* (bathe)"
-        }
-      ]
-    },
-    {
-      "id": "ch9-ex5",
-      "number": 5,
-      "title": "Hear the careful style",
-      "instructions": "Each word below is in the everyday style. Write the careful-style word behind it, the one this book teaches.",
-      "placement": "exercises",
-      "type": "reveal",
-      "items": [
+        },
         {
-          "id": "ch9-ex5-1",
-          "n": 1,
+          "id": "ch9-ex4-6",
+          "n": 6,
           "prompt": "*kālofa*",
-          "answer": "*tālofa*"
+          "answer": "*tālofa* (hello)"
         },
         {
-          "id": "ch9-ex5-2",
-          "n": 2,
+          "id": "ch9-ex4-7",
+          "n": 7,
           "prompt": "*faʻafekai*",
-          "answer": "*faʻafetai*"
+          "answer": "*faʻafetai* (thank you)"
         },
         {
-          "id": "ch9-ex5-3",
-          "n": 3,
+          "id": "ch9-ex4-8",
+          "n": 8,
           "prompt": "*maguia*",
-          "answer": "*manuia*"
-        }
-      ]
-    },
-    {
-      "id": "ch9-ex6",
-      "number": 6,
-      "title": "Invite people along",
-      "instructions": "Write the invitation formula for each group.",
-      "placement": "exercises",
-      "type": "reveal",
-      "items": [
-        {
-          "id": "ch9-ex6-1",
-          "n": 1,
-          "prompt": "Invite one other person to go with you.",
-          "answer": "*Tā ō!*"
-        },
-        {
-          "id": "ch9-ex6-2",
-          "n": 2,
-          "prompt": "Invite a whole group to go with you.",
-          "answer": "*Tātou ō!*"
+          "answer": "*manuia* (fine, blessed)"
         }
       ]
     }
@@ -4968,7 +4994,7 @@
       "id": "ch23-ex6",
       "number": 6,
       "title": "Make each statement a yes or no question",
-      "instructions": "In Sāmoan the words do not change to make a yes or no question; the voice usually falls at the end instead. In writing, the question mark is usually all you add; the two question-marking words taught in Chapter 8 are the other route. Mark the falling tune with ↘.",
+      "instructions": "In Sāmoan the words do not change to make a yes or no question; the voice usually falls at the end instead. In writing, the question mark is usually all you add; the two question-marking words you have already learned are the other route. Mark the falling tune with ↘.",
       "placement": "inline",
       "type": "reveal",
       "items": [
