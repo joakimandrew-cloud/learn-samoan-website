@@ -9,25 +9,17 @@ import { CHAPTER_COUNT } from '@app/lib/course.js'
 import '../styles/white-red-home.css'
 import '../styles/home-practice-film.css'
 
-// The course box, drawn in type only. No Samoan cover is approved yet; the
-// ruled placeholder is a text cover in the course blue (DECISIONS 2026-07-16).
 function CourseBook() {
   return (
-    <div className="sm-book" aria-hidden="true">
-      <div className="sm-book__spine"><span>Learn Sāmoan</span></div>
-      <div className="sm-book__front">
-        <div className="sm-book__top">
-          <span className="sm-book__title">Learn<br />Sāmoan</span>
-          <span className="sm-book__sub">Sāmoan language course</span>
-        </div>
-        <div className="sm-book__body">
-          <span className="sm-book__count">{CHAPTER_COUNT} chapters</span>
-          <span className="sm-book__band">Beginner to Advanced</span>
-          <span className="sm-book__kinds">Grammar · Vocabulary · Exercises</span>
-          <span className="sm-book__author">Andrew Joakim</span>
-        </div>
-      </div>
-    </div>
+    <img
+      className="sm-book-cover"
+      src={`${import.meta.env.BASE_URL}covers/2026-10-28-textured/cover-blue-3d.webp`}
+      alt="Learn Sāmoan by Andrew Joakim, First Edition. Black cover with blue diagonal stripes."
+      width={1280}
+      height={1740}
+      fetchPriority="high"
+      decoding="async"
+    />
   )
 }
 

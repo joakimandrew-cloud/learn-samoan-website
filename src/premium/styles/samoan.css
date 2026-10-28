@@ -1,86 +1,14 @@
-/* Samoan-only pieces: the text cover in the hero, the Chapter 1 sentence
+/* Samoan-only pieces: the approved cover in the hero, the Chapter 1 sentence
    builder, glossary letters, answer notes and given lines. Everything else is
    the Tongan premium stylesheet, recoloured. */
 
 /* Text-only wordmark (logo pending). */
 .wm-text { font-family: var(--f-display); font-weight: 800; font-size: 24px; letter-spacing: .02em; text-transform: uppercase; }
 
-/* ---- The course box, drawn in type ---- */
-.wr-home__hero-book { perspective: 1600px; }
-.sm-book {
-  position: relative;
-  z-index: 2;
-  width: min(100%, 340px);
-  aspect-ratio: 300 / 420;
-  margin: 0 auto;
-  transform-style: preserve-3d;
-  transform: rotateY(28deg) rotateX(2deg);
-}
-.sm-book__front {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  grid-template-rows: 34% 1fr;
-  overflow: hidden;
-  background: #14295e;
-  box-shadow: 0 30px 40px -10px rgba(0, 0, 0, .3);
-  transform: translateZ(30px);
-}
-.sm-book__spine {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 60px;
-  display: grid;
-  place-items: center;
-  background: #0f1f47;
-  transform-origin: left center;
-  transform: translateZ(-30px) rotateY(-90deg);
-}
-.sm-book__spine span {
-  color: #fff;
-  font: 800 18px/1 var(--f-display);
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  writing-mode: vertical-rl;
-}
-.sm-book__top {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 9%;
-  background: #fff;
-}
-.sm-book__title { color: #14295e; font: 800 clamp(34px, 4.4vw, 54px)/.86 var(--f-display); text-transform: uppercase; }
-.sm-book__sub { margin-top: 10px; color: #14295e; font: 600 10px/1.2 var(--f-ui); letter-spacing: .18em; text-transform: uppercase; }
-.sm-book__body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 6px;
-  padding: 9%;
-  color: #fff;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, .0), rgba(255, 255, 255, .0) 60%, rgba(0, 0, 0, .18)),
-    linear-gradient(135deg, #2f5bd0 0%, #1e449c 46%, #14295e 100%);
-}
-.sm-book__count { font: 800 clamp(34px, 4vw, 48px)/.9 var(--f-display); text-transform: uppercase; }
-.sm-book__band { font: 600 13px/1.3 var(--f-ui); }
-.sm-book__kinds { margin-top: 4px; font: 600 9px/1.3 var(--f-ui); letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
-.sm-book__author { margin-top: 10px; font: 700 16px/1 var(--f-display); letter-spacing: .06em; text-transform: uppercase; }
-
-@media (max-width: 760px) {
-  .wr-home__hero-book { display: block; grid-column: 2; grid-row: 3; min-width: 0; }
-  .sm-book { width: 100%; max-width: 170px; }
-  .sm-book__title { font-size: 26px; }
-  .sm-book__sub, .sm-book__kinds { display: none; }
-  .sm-book__count { font-size: 24px; }
-  .sm-book__band { font-size: 10px; }
-  .sm-book__author { font-size: 11px; margin-top: 4px; }
-  .sm-book__spine { width: 30px; transform: translateZ(-15px) rotateY(-90deg); }
-  .sm-book__spine span { font-size: 11px; }
-  .sm-book__front { transform: translateZ(15px); }
+/* The approved mockup already includes its perspective and soft ground shadow. */
+.wr-home .wr-home__hero-book .sm-book-cover {
+  display: block;
+  filter: none;
 }
 
 /* The band under the hero, in place of the Tongan kupesi band. */
@@ -142,7 +70,14 @@
 /* ---- Reference list ---- */
 .reference-list .quiz-copy span { white-space: normal; }
 
-.wr-home .wr-home__hero-book figcaption { bottom: 0; }
+.wr-home .wr-home__hero-book figcaption {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+}
 .wr-home .wr-home__book-halo { display: none; }
 
 /* Chapter hero: the big number only. The Tongan site sets kupesi tiles here;
