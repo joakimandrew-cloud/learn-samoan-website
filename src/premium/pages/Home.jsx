@@ -13,7 +13,7 @@ function CourseBook() {
   return (
     <img
       className="sm-book-cover"
-      src={`${import.meta.env.BASE_URL}covers/2026-10-28-textured/cover-blue-3d.webp`}
+      src={`${import.meta.env.BASE_URL}covers/2026-10-28-charcoal/cover-blue-3d.webp`}
       alt="Learn Sāmoan by Andrew Joakim, First Edition. Black cover with blue diagonal stripes."
       width={1280}
       height={1740}
