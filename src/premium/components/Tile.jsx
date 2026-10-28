@@ -1,13 +1,13 @@
 /**
- * Banner tiles, approved by Andrew on 2026-10-28 (design-concepts/tile-references/
- * preview.html, the 12-tile banner):
- * block = broad four-petal flower with inset triangles (reference 2.jpg);
- * ring = nested four-petal outline (reference 4.jpg).
- * References: ../design-concepts/tile-references/ in the parent workspace. The
- * names are descriptive; the references carry no traditional names or source URLs.
- * dot and bar are still the plain placeholders; their drafts are unapproved and
- * kept in tile-references/drafts/. Colour, inversion and chapter tints come only
- * from the kp-bg / kp-fg CSS.
+ * Tiles drawn from Andrew's chosen references (design-concepts/tile-references/
+ * in the parent workspace, reviewed in its preview.html):
+ * block = broad four-petal flower with inset triangles (2.jpg), banner;
+ * ring = nested four-petal outline (4.jpg), banner;
+ * bar = long-tailed bird with swept wings (bird-long-tail.jpeg), flashcard corner.
+ * dot stays the plain circle (the double-line star was rejected 2026-10-28).
+ * The names are descriptive; the references carry no traditional names or URLs.
+ * The lesson-end fish is its own component, LessonFish.jsx. Colour, inversion
+ * and chapter tints come only from the kp-bg / kp-fg CSS.
  */
 import { useEffect, useRef, useState } from 'react'
 
@@ -27,7 +27,9 @@ function Shape({ kind }) {
     </>
   )
   if (kind === 'dot') return <circle className="kp-fg" cx="50" cy="50" r="24" />
-  if (kind === 'bar') return <path className="kp-fg" d="M22 40h56v20H22z" />
+  if (kind === 'bar') return (
+    <path className="kp-fg" d="M6.4 34C12.4 29.6 18.8 25.6 24.8 20.4C27.2 18.8 28.8 16.8 30.4 16C31.6 15.2 32.8 16.8 34.4 18C36.4 19.6 38.8 21.2 41.2 22C42.4 22.8 42.8 21.2 43.2 19.6C43.6 18 44.4 15.2 45.6 14.8C47.2 14 49.2 19.2 51.2 22.4C56 20.8 60.4 18 62.4 14.8C63.6 13.2 64.8 13.6 66.4 14.8C72.8 20.4 80.4 24.4 92.4 31.2C94.4 32.4 94.4 34 93.2 35.2C92.4 36.4 91.2 36 89.6 35.2C82.4 30.8 75.6 26.8 70.8 25.6C66.8 24.4 63.2 25.2 60 27.2C54 30.8 52 37.2 50.8 44.8C49.6 54.4 49.6 64 49.6 73.2C49.6 77.2 50 79.6 50.4 82C50.8 84 49.2 85.2 48 85.6C46.4 85.6 45.6 84.8 45.6 83.2C45.2 81.2 46 79.2 46 76.8V57.2C46 48.8 46.4 43.6 45.2 38.8C44.4 34 41.2 31.2 36.8 28.8C33.6 26.8 30 27.6 26.4 28.4C19.6 29.6 13.6 33.2 7.6 37.2C6.8 37.6 6.4 36.8 6 36C5.6 35.2 6 34.4 6.4 34Z" />
+  )
   return (
     <>
       {[0, 90, 180, 270].map(angle => (

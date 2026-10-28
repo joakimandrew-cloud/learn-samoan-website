@@ -58,7 +58,7 @@ export default function PracticeCard({ word, flipped, onFlip, onSwipe, front, de
     >
       <Motion.div className="fc-inner" initial={demo ? false : undefined} animate={{ rotateY: reduceMotion ? 0 : flipped ? 180 : 0 }} transition={{ duration: .6, ease: [.16, 1, .3, 1] }}>
         <div className="fc-face fc-front" aria-hidden={flipped}>
-          <span className="fc-corner" aria-hidden="true"><Tile kind="block" framed /></span>
+          <span className="fc-corner" aria-hidden="true"><Tile kind="bar" framed /></span>
           {front === 'to' ? samoan : english}
           <span className="fc-tap">Tap to turn</span>
         </div>

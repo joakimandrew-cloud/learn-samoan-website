@@ -1,4 +1,5 @@
 import EntryMotif from '../components/EntryMotif.jsx'
+import LessonFish from '../components/LessonFish.jsx'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTitle } from '../lib/title.js'
 import { Link, useParams } from 'react-router-dom'
@@ -238,6 +239,7 @@ function Finish({ n, meta, next, exStats, vocabCount, firstUnfinishedHref }) {
               ))}
               <Motion.span className="finish-check" initial={celebrate ? { scale: 0 } : false} animate={{ scale: 1 }} transition={{ type: 'spring', stiffness: 400, damping: 16, delay: .2 }}>✓</Motion.span>
             </div>
+            <LessonFish className="finish-fish" />
             <p className="finish-k">Chapter {n} complete</p>
             <h2 className="finish-h display"><Md text={meta.title} />. Done.</h2>
             <p className="finish-p">
