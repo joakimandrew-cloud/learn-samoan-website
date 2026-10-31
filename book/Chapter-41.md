@@ -119,9 +119,11 @@ raises the degree, the than-word *i lo* names what it is weighed against, and
 
 ### Exercise 4: Translate into Sāmoan
 
+Use the particle given in brackets.
+
 1. The girl can come.
 2. The girl cannot dance.
-3. I must go.
+3. I must go. (*ʻua*)
 4. It is forbidden for the girl to come.
 5. The cocoa is hotter than the water.
 6. The reef is further away than the wharf.

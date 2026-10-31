@@ -12,7 +12,7 @@ so you can ask for a reason as well as give one.
 ::: {.examples}
 *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* The girl lay down in the house because she was tired. (Lit. "...because has become tired.")
 
-*E lē mafai ona alu le tama leaga e maʻi.* The boy cannot go because he is sick.
+*E lē mafai ona alu le tama leaga e maʻi.* The boy cannot go because he is sick. (Lit. "It is not possible that the boy go, because unfortunately is sick.")
 :::
 
 Each sentence says something and then says why. A word that opens a clause
@@ -40,13 +40,17 @@ unfortunately" is its nearest English.
 *E leʻi mafai ona ʻou alu leaga sā timu.* I could not go because unfortunately it was raining.
 :::
 
+*lē iloa* means "be lost".
+
 | Sāmoan | English |
 |---|---|
 | *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* | The girl lay down in the house because she was tired. |
 | *ʻUa mālamalama le teine ʻauā ʻua tautala le tama.* | The girl understands because the boy has spoken. |
-| *E lē mafai ona alu le tama leaga e maʻi.* | The boy cannot go because he is sick. |
+| *E lē mafai ona alu le tama leaga e maʻi.* | The boy cannot go because he is sick. (Lit. "It is not possible that the boy go, because unfortunately is sick.") |
 | *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.* | I am crying because unfortunately my dog is lost. |
 | *E leʻi mafai ona ʻou alu leaga sā timu.* | I could not go because unfortunately it was raining. |
+
+*mālamalama* means "understand".
 
 > *Note:* A clause opened by *ʻauā* normally comes after the main clause, and
 > putting it first is rare. *Leaga* is not put first at all. A reason clause with
@@ -61,6 +65,8 @@ unfortunately" is its nearest English.
 *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.* I cried because the girl's family moved to the village.
 :::
 
+*siʻi* means "move".
+
 *ʻOna* is the third because-word, and it opens the same kind of clause, under
 its own tense particle, in the same place after the main clause. What sets it
 apart is that it can also go first.
@@ -71,7 +77,7 @@ apart is that it can also go first.
 
 When the reason comes first, the other clause usually carries the pointing-back
 word *ai* after its verb. *Ai* here reaches back to the whole reason clause, not
-to any one word inside it: what the boy went for was the girl being sick.
+to any one word inside it: the reason the boy went was the girl being sick.
 
 | Sāmoan | English |
 |---|---|
@@ -107,6 +113,8 @@ same pointing-back word.
 | *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.* | Because of the rain you cannot go. |
 | *ʻUa mālūlū le vaitafe ʻona ʻo le timu.* | The river is cool because of the rain. |
 | *ʻOna ʻo le timu ʻua galo ai le malaga.* | Because of the rain the journey was forgotten. |
+
+*mālūlū* means "cool" and *galo* means "forget".
 
 ---
 
@@ -193,6 +201,8 @@ when a sentence before it has already named that thing.
 *ʻUa ʻou ʻata ma ʻou punou ʻi lalo neʻi iloa mai e le tama.* I laughed and bent down, so that the boy would not notice.
 :::
 
+*tilotilo* means "watch", *ʻata* means "laugh", and *punou* means "bend down".
+
 The watching is named in the first sentence, so the second does not name it
 again. That is the leaving-words-out rule you met with the agent marker, working
 across the gap between two sentences.
@@ -213,9 +223,8 @@ carrying the tense and *e* in front of a noun naming who did it.
 A purpose clause can also be headed by the mood particle *ʻia* in place of the
 general particle.
 
-> *Note:* The equals sign in *fasimoli* joins two parts into one compound noun,
-> and the compound is the word for a piece of soap. On its own *moli* covers soap
-> and the orange both.
+> *Note:* *Fasimoli* is one word, the word for a piece of soap, and it contains
+> *moli*. On its own *moli* covers soap and the orange both.
 
 > **Preview:** Sāmoan marks purpose a second way, with the joining word *ʻina*
 > standing in front of the mood particle *ʻia*. That combination belongs with the
@@ -238,8 +247,8 @@ after it carries the pointing-back word *ai*, reaching back to *ʻaiseā* itself
 *ʻAiseā* is used mainly on its own, as the one-word question. In more formal
 language you can hear the full sentence.
 
-An answer needs no main clause of its own. A because-word and its reason can
-stand as the whole of a turn.
+An answer needs no main clause of its own. *ʻAuā* and its reason can stand as
+the whole of a turn.
 
 ::: {.examples}
 *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* Why did the man go to the village?
@@ -271,7 +280,7 @@ stand as the whole of a turn.
 | *leaga* | the because-word for a bad or unwelcome reason, met earlier as the word for "bad" |
 | *ʻona* | the because-word that stands between the clauses or opens the sentence |
 | *ʻona ʻo* | *ʻona* with the presenting particle, standing in front of a noun phrase instead of a clause |
-| *e*, *te* | the general particle, met earlier: at the head of a clause following the main clause it marks purpose, and it takes the shape *te* after a preverbal pronoun |
+| *e*, *te* | the general particle, met earlier: when a clause following the main clause says what the action is done for, it stands at the head of that clause, and it takes the shape *te* after a preverbal pronoun |
 | *neʻi* | the warning particle, met earlier: at the head of a purpose clause it makes the purpose negative |
 | *ʻia* | the mood particle, met earlier: it can head a purpose clause in place of *e* |
 | *ʻaiseā* | why: in the full question it opens its clause, and *ai* in the verb phrase points back to it |

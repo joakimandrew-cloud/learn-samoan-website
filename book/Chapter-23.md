@@ -20,7 +20,7 @@ work together.
 ## The Three Sentence Types
 
 The three sentence types are the frame everything else hangs on: a verb sentence
-puts a tense particle in front of an action, a naming sentence sets two naming
+puts a tense particle in front of an action or a describing verb, a naming sentence sets two naming
 parts side by side with the presenting particle *ʻo*, and a where-sentence puts a
 place, with a tense particle in front of it, where a verb would stand.
 
@@ -119,7 +119,7 @@ English in the brackets.
 
 1. First speaker: *Tālofa.* (Hello.)
 2. Second speaker: ___ (Hello.)
-3. First speaker: *ʻO ai ʻoe?* (Who are you?)
+3. First speaker: ___ (Who are you?)
 4. Second speaker: ___ (I am a friend.)
 5. First speaker: *ʻO fea e ʻi ai le teine?* (Where is the girl?)
 6. Second speaker: ___ (The girl is in the house.)
@@ -173,7 +173,7 @@ built it before moving into the Intermediate band.
 3. *ʻO laʻu naifi lenā.*
 4. *E uliuli le pusi.*
 5. *Sā nonofo le tama ma le teine.*
-6. *ʻO anafea na moe ai le tama?*
+6. *ʻO anafea na moe ai le tama?* (The when-word may also stay at the end of the sentence, with no pointing-back word.)
 
 ### Exercise 4
 
@@ -201,7 +201,7 @@ built it before moving into the Intermediate band.
 
 ### Exercise 7
 
-1. *tama e tolu*
+1. *tama e tolu* (Counting people with the prefix *toʻa* in front of the number is also right for boys, as Chapter 22 teaches.)
 2. *Teine e toʻalua.*
 3. *ʻi le itūlā e tolu*
 4. *le fale lona lua*
@@ -210,6 +210,7 @@ built it before moving into the Intermediate band.
 ### Exercise 8
 
 2. *Tālofa.*
+3. *ʻO ai ʻoe?*
 4. *ʻO aʻu ʻo se uō.*
 6. *ʻO le fale e ʻi ai le teine.*
 7. *Faʻafetai.*

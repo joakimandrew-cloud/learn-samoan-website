@@ -12,8 +12,8 @@ shows you how to say who someone is and what something is.
 *ʻO se uō le tama.* The boy is a friend. (Lit. "a friend, the boy")
 :::
 
-English builds this sentence around the verb "is". Sāmoan has no such verb. To
-say what something is, Sāmoan sets two naming parts next to each other and adds
+English builds this sentence around the verb "is". Sāmoan has no such verb. In
+the naming sentence, Sāmoan sets two naming parts next to each other and adds
 no verb at all. Here the two parts are *se uō* ("a friend") and *le tama* ("the
 boy"), each one a noun with its article, the kind of naming part you built with
 the article system. Put them side by side and the sentence already means "the
@@ -40,7 +40,7 @@ second, with no article change and no marking of its own.
 |---|---|
 | *ʻO se uō le tama.* | The boy is a friend. |
 | *ʻO se uō le teine.* | The girl is a friend. |
-| *ʻO se tagata lelei le uō.* | The friend is a good person. |
+| *ʻO se tama le uō.* | The friend is a boy. |
 | *ʻO le uō le tama.* | The boy is the friend. |
 
 The last row uses *le* on both parts. When the naming part is one particular
@@ -55,7 +55,8 @@ takes *se*, exactly as the article system already taught you.
 *ʻO le pusi lenā.* That is the cat.
 :::
 
-The word *lenā* means "that". It points to something already in view. In this
+The word *lenā* means "that". It usually points to something in view, near the
+person you are speaking to. In this
 kind of naming sentence the order is fixed: the naming part with *ʻo* comes
 first, and *lenā* comes second. It never runs the other way. Learn the shape
 once and every "that is a ..." sentence follows it. The earlier pattern is
@@ -83,28 +84,32 @@ particular cat, *se uō* for a friend, no particular one.
 *ʻO aʻu ʻo se uō.* I am a friend.
 :::
 
-When you name who a person is, the person can come first. Then both naming parts
-take the presenting particle *ʻo*: one for the person out in front, and one for
-the naming part that follows. This is why *ʻo* can appear twice in one naming
-sentence. Person-first is the order this book teaches you to build, and it holds
-whether the person is the speaker or someone else. With anyone but the speaker,
-Sāmoan itself allows either order, and the naming part leads often enough that
-you will meet both, so when you are building your own sentence, keep to the
-person-first one.
+When you name who a person is with a pronoun (he, she, I), the person can come
+first. Then both naming parts take the presenting particle *ʻo*: one for the
+person out in front, and one for the naming part that follows. This is why *ʻo*
+can appear twice in one naming sentence. For a pronoun, person-first is the order
+this book teaches you to build. With anyone but the speaker, Sāmoan itself allows
+either order, and the naming part leads often enough that you will meet both.
+With a noun such as "the boy", this chapter builds the naming part first, as in
+*ʻO se uō le tama*.
 
 ::: {.examples}
 *ʻO ia ʻo se tagata tino mālosi.* He is a person with a strong body.
 :::
 
 Here *ia* ("he" or "she") is the person, and *se tagata tino mālosi* names what
-he is, a person with a strong body. The words *tino* ("body") and *mālosi*
-("strong") describe the person the way describing verbs already work: the
-describing word follows the noun.
+he is, a person with a strong body. After *tagata* come *tino* ("body") and
+*mālosi* ("strong"), a body part plus what it is like.
 
-> *Note:* When it is already clear who or what you mean, the second naming part
-> can be left out, and the presented part stands on its own. *ʻO le pusi* on its
-> own says "it is the cat" (Lit. "the cat"), with the thing it is about
-> understood from what came before.
+> **Preview:** In *se tagata tino mālosi*, the words after *tagata* say what the
+> person is like by naming a body part and its quality. That structure, a noun
+> followed by a part and its quality, is taught in Chapter 40. Until then, take the
+> whole phrase as one piece.
+
+> *Note:* When it is already clear who or what you mean, the part the sentence is
+> about can be left out, and the telling part with *ʻo* stands on its own. *ʻO le
+> pusi* on its own says "it is the cat" (Lit. "the cat"), with the thing it is
+> about understood from what came before.
 
 > **Preview:** A naming sentence can be turned into its opposite, "the boy is
 > not a friend". Sāmoan does that by wrapping the whole naming sentence inside a
@@ -121,7 +126,7 @@ describing word follows the noun.
 | Word | What it does |
 |---|---|
 | *ʻo* | the presenting particle: goes in front of the naming part that says what something is |
-| *lenā* | that: points to something in view, and comes second in the naming sentence |
+| *lenā* | that: usually points to something in view, near the person spoken to, and comes second in the naming sentence |
 
 **New vocabulary** (memorize these meanings):
 
@@ -146,7 +151,7 @@ describing word follows the noun.
 2. *ʻO le pusi lenā.*
 3. *ʻO ia ʻo se uō.*
 4. *ʻO le tama lenā.*
-5. *ʻO se tagata lelei le uō.*
+5. *ʻO se tama le uō.*
 
 ### Exercise 2: Translate into Sāmoan
 
@@ -164,15 +169,20 @@ Each item names a thing. Write a naming sentence that points to it with *lenā*
 1. *le tama* (the boy)
 2. *le ʻāiga* (the family)
 3. *le pusi* (the cat)
+4. *le lāʻau* (the tree)
+5. *se uō* (a friend)
 
 ### Exercise 4: Add the presenting particle
 
-Put *ʻo* where it belongs so the Sāmoan matches the English. Some sentences need
-it once, one needs it twice.
+Each sentence below has lost its presenting particle *ʻo*, or is already correct.
+Write each one as it should stand. Some need *ʻo* once, some need it twice, and
+one needs nothing.
 
-1. *___ se uō le teine.* (The girl is a friend.)
-2. *___ le lāʻau lenā.* (That is the tree.)
-3. *___ ia ___ se uō.* (He is a friend.)
+1. *se uō le teine.* (The girl is a friend.)
+2. *le lāʻau lenā.* (That is the tree.)
+3. *ia se uō.* (He is a friend.)
+4. *ʻO le pusi lenā.* (That is the cat.)
+5. *aʻu se uō.* (I am a friend.)
 
 ### Exercise 5: Choose *le* or *se*
 
@@ -181,6 +191,8 @@ Put *le* or *se* into the naming part so the Sāmoan matches the English.
 1. *ʻO ___ pusi lenā.* (That is the cat, one particular cat.)
 2. *ʻO ___ uō le tama.* (The boy is a friend, no particular one.)
 3. *ʻO ___ tama lenā.* (That is the boy, that same boy.)
+4. *ʻO ___ lāʻau lenā.* (That is the tree, one particular tree.)
+5. *ʻO ___ uō lenā.* (That is a friend, no particular one.)
 
 ---
 
@@ -190,9 +202,9 @@ Put *le* or *se* into the naming part so the Sāmoan matches the English.
 
 1. The boy is a friend.
 2. That is the cat.
-3. He is a friend.
+3. He (or She) is a friend.
 4. That is the boy.
-5. The friend is a good person.
+5. The friend is a boy.
 
 ### Exercise 2
 
@@ -207,15 +219,21 @@ Put *le* or *se* into the naming part so the Sāmoan matches the English.
 1. *ʻO le tama lenā.*
 2. *ʻO le ʻāiga lenā.*
 3. *ʻO le pusi lenā.*
+4. *ʻO le lāʻau lenā.*
+5. *ʻO se uō lenā.*
 
 ### Exercise 4
 
 1. *ʻO se uō le teine.*
 2. *ʻO le lāʻau lenā.*
 3. *ʻO ia ʻo se uō.*
+4. *ʻO le pusi lenā.* (already correct)
+5. *ʻO aʻu ʻo se uō.*
 
 ### Exercise 5
 
 1. *ʻO le pusi lenā.*
 2. *ʻO se uō le tama.*
 3. *ʻO le tama lenā.*
+4. *ʻO le lāʻau lenā.*
+5. *ʻO se uō lenā.*

@@ -78,7 +78,8 @@ singular, so each plural is learned with its word.
 > of person-words break this pattern and change shape as nouns as well: *matua*
 > (parent) becomes *mātua* (parents), and a few others for age or married life
 > do the same, such as *tamāloa* (a married man) and *toeaʻina* (an old man).
-> You will meet their plural shapes as words.
+> This book prints only the plural shape of *matua*; *tamāloa* and *toeaʻina*
+> are learned in their singular form.
 
 ---
 
@@ -112,8 +113,8 @@ the describing verb sits.
 
 ## Group Words
 
-Some nouns name a whole group with a single word: *ʻāiga* (family), *nuʻu*
-(village), *ulugāliʻi* (couple). A group word is singular in shape, taking the
+Some nouns name a whole group with a single word: *ʻāiga* (family) and
+*ulugāliʻi* (couple). A group word is singular in shape, taking the
 article *le* like any single thing, yet it stands for many. Because the verb
 counts the meaning and not the shape, a group word usually takes the plural
 verb form:
@@ -128,9 +129,10 @@ is possible with a group word as well, though the plural is the usual choice.
 
 > *Note:* This is why the verb follows the meaning of the subject and not its
 > written shape. A group word looks singular and takes a plural verb; the
-> reverse can also happen, where a plural subject that names neither a person
-> nor anything moving under its own power takes the singular verb. The question
-> is always what the subject means, not what shape the word has.
+> reverse happens with a few verbs, the verbs for going and coming, which stay
+> singular when a plural subject is not a living, moving thing, as with days
+> going and coming. Other verbs take the plural as usual. The question is always
+> what the subject means, not what shape the word has.
 
 ---
 

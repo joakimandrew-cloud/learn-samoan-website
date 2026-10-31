@@ -52,8 +52,10 @@ are speaking to, Sāmoan uses a different word than when it leaves that person o
 | *lātou* | they |
 
 The forms glossed (you and I) include the person spoken to; the forms glossed
-(but not you) leave that person out. The first kind is called inclusive, the
-second exclusive.
+(but not you) leave that person out.
+
+*Table note: the (you and I) forms are called inclusive, and the (but not you)
+forms are called exclusive.*
 
 Two of these forms sit a single sound apart. Read them aloud:
 
@@ -76,16 +78,16 @@ every time you say "we".
 > told your listener they had no part in it.
 
 > *Note:* The word for "he" or "she" has a second form, *na*, which is the form
-> required in one construction taught later in this book. Every sentence in this
-> chapter uses *ia*.
+> required in one construction taught later in this book. Until that construction
+> arrives, this book writes "he" or "she" with *ia*.
 
 **Quick Practice A.** Put the person into the frame, using *alu* (go). Answers
 below the block.
 
 1. they (more than two)
 2. you two
-3. we, you and I
-4. we, but not you
+3. we (more than two), you and I
+4. we (more than two), but not you
 
 Answers: 1. *Sā lātou alu.* 2. *Sā ʻoulua alu.* 3. *Sā tātou alu.*
 4. *Sā mātou alu.*
@@ -94,16 +96,17 @@ Answers: 1. *Sā lātou alu.* 2. *Sā ʻoulua alu.* 3. *Sā tātou alu.*
 
 ## Independent Pronouns
 
-The words so far all stand in one place: the middle slot, right in front of the
-verb. That is the only place they can stand, and in it they are usually the one
-doing the action, never the one the action is done to. Almost every other job
+In the sentences this chapter builds, the words so far all stand in one place: the
+middle slot, right in front of the verb. In this pattern that is the only place
+they stand, and in it they are usually the one doing the action, never the one
+the action is done to. Almost every other job
 takes a second, separate set, the **independent pronouns**. The one exception is
-saying whose something is: that has a third set of its own, taught in Chapter 10.
+saying whose something is: that has a third set of its own, taught later in this book.
 
 > *Note:* A pronoun in the middle slot is never the one on the receiving end.
-> English draws a similar line with "I" and "me": "I" does the action, "me" is on
-> the receiving end. Sāmoan draws the same line, but between two whole sets of
-> words and by position. Several forms are the same word in both sets, so
+> English draws a similar line in the pair "I hit her" and "She hit me", where
+> "I" and "she" act and "her" and "me" receive; Sāmoan draws its line between two
+> whole sets of words, and because several forms are the same word in both sets,
 > position is what separates them. The moment a pronoun is on the receiving end,
 > or takes any job outside that middle slot other than saying whose something
 > is, the independent set takes over.
@@ -143,9 +146,9 @@ Once more the independent forms *aʻu* and *ʻoe* do work the middle-slot forms
 cannot. The place words that point toward people and places are taught in full
 later in this book; *ʻia te aʻu* and *ʻia te ʻoe* are the pieces you need now.
 
-> **Preview:** Alongside the everyday "I", Sāmoan carries a second first-person
-> form that colours a sentence with feeling, used to show humility or to appeal
-> for help. You meet it in Chapter 51.
+> **Preview:** Alongside the everyday "I", Sāmoan carries other first-person
+> forms that colour a sentence with feeling, often used to show humility or to
+> appeal for help. You meet them in Chapter 51.
 
 > **Preview:** A middle-slot pronoun can be paired with its independent twin in
 > the same sentence for emphasis, the way English leans on "I myself". The full
@@ -155,8 +158,9 @@ later in this book; *ʻia te aʻu* and *ʻia te ʻoe* are the pieces you need no
 
 ## Words to Learn
 
-**New grammar words** (memorize how these work). The preverbal pronouns, one
-person first:
+**New grammar words** (memorize how these work):
+
+The preverbal pronouns, one person first:
 
 | Word | Meaning |
 |---|---|
@@ -196,7 +200,7 @@ The independent forms and the two words that call for them:
 
 **Words to carry** (learned now, used fully later in this book): *sasa* (hit)
 and *maua* (get) each need someone or something on the receiving end, and the
-words that mark that receiver come later in this book.
+sentence pattern that puts a receiver after the verb comes later in this book.
 
 | Word | Meaning |
 |---|---|
@@ -225,7 +229,7 @@ words that mark that receiver come later in this book.
 
 ### Exercise 3: Fill the middle slot
 
-Put the right people-word into the gap so
+Put the right preverbal pronoun into the gap so
 the Sāmoan matches the English.
 
 1. *Sā ___ minoi.* (You two moved.)

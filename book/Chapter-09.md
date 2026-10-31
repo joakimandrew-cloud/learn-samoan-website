@@ -1,8 +1,9 @@
 # Chapter 9: Greetings and Courtesy
 
-This chapter gathers the everyday formulas of greeting, thanks, farewell, and
-good wishes, and shows that each is built on a sentence shape already taught:
-the tense-particle-free command and exclamation. It also carries the respect
+This chapter gathers the common formulas of greeting, thanks, farewell, and
+good wishes. It shows the command's tense-particle-free shape, already taught,
+put to a new use in the congratulation, well-wish, praise and invitation
+formulas, and it introduces the exclamation. It also carries the respect
 vocabulary (*ʻupu faʻaaloalo*) and the everyday speech style for recognition,
 completing the two speech styles named in the Introduction.
 
@@ -48,9 +49,9 @@ teach.
 *Tālofa.* Hello.
 :::
 
-*Mālō*, the same word that congratulates, also works as a lighter, everyday
-"hi". To close an encounter, Sāmoan pairs a word for goodbye with a word for
-good health:
+*Mālō*, the same word that congratulates, also works as a lighter, casual
+"hi". One way to close an encounter is to pair a word for goodbye with a word
+for good health, and either word on its own also closes one:
 
 ::: {.examples}
 *Soifua.* Good health. (a farewell)
@@ -68,8 +69,9 @@ not asked to make sentences of that kind yourself.
 A greeting often turns at once to names. Asking a person's name, and giving your
 own, is part of every first meeting.
 
-> **Preview:** The name question is *ʻO ai lou igoa?* ("What is your name?").
-> It carries the word for "your", one of the belonging words. Those words are
+> **Preview:** The name question is *ʻO ai lou igoa?* ("What is your name?";
+> Lit. "Who is your name?", asked with the who-word *ai* of Chapter 8).
+> It carries the word for "your", a possessive form. Possessive forms are
 > taught in Chapter 10, where this question becomes real grammar you can build.
 > For now, take it whole, as a set phrase like the greetings above.
 
@@ -77,8 +79,8 @@ own, is part of every first meeting.
 
 ## Thanks and Asking Politely
 
-Two formulas carry most of the courtesy in daily speech: *faʻafetai* for thanks
-and *faʻamolemole* for a polite request.
+The thanks formula is *faʻafetai* and the please formula, for a polite request,
+is *faʻamolemole*.
 
 ::: {.examples}
 *Faʻafetai.* Thank you.
@@ -124,9 +126,9 @@ The describing verb *mānaia* fills the same frame to praise a thing outright:
 
 ## Inviting Others Along
 
-To invite people to do something together, Sāmoan uses the word for "we" that
-includes the listener, the *tātou* and *tā* you already know, and puts it in
-front of the verb with no tense particle. The result is a warm "let's":
+In the two invitation formulas below, the word for "we" that includes the
+listener, *tātou* or *tā*, which you already know, stands in front of the verb
+with no tense particle. The result is a warm "let's":
 
 ::: {.examples}
 *Tā ō!* Let's go, you and me.
@@ -135,7 +137,7 @@ front of the verb with no tense particle. The result is a warm "let's":
 :::
 
 *Tā* is the "we" of just two people, *tātou* the "we" of more than two, and each
-takes the listener in. These are the everyday invitation formulas; take them
+takes the listener in. These are the common invitation formulas; take them
 whole for now.
 
 ---
@@ -144,14 +146,14 @@ whole for now.
 
 Sāmoan carries a layer of polite words, the *ʻupu faʻaaloalo* or **respect
 words**, used when speaking to or about chiefs, pastors, elders, and other
-honoured people. A respect word replaces its everyday counterpart: where you
+honoured people. A respect word replaces its plain counterpart: where you
 would say *fale* for a house, respect speech says *maota*.
 
 You are not asked to produce these words. The careful style this book teaches is
 the right one for a learner to speak. The skill here is recognition: knowing,
-when you hear a respect word, which everyday word stands behind it.
+when you hear a respect word, which plain word stands behind it.
 
-| Everyday word | Respect word | Meaning |
+| Plain word | Respect word | Meaning |
 |---|---|---|
 | *ʻai* | *taumafa* | eat |
 | *fale* | *maota* | house |
@@ -163,7 +165,7 @@ when you hear a respect word, which everyday word stands behind it.
 > meet them. Two of the rows above have a second respect word alongside the one
 > printed, chosen by the rank of the person spoken to. This table is for
 > recognition only, so read across it, from the respect word back to the plain
-> one you already know.
+> word, which you already know or meet in this table.
 
 ---
 

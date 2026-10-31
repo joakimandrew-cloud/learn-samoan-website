@@ -8,7 +8,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 |---|---|---|
 | *=a* | a long-form ending: joins to the short form, and is the everyday choice | 32 |
 | *=a* | the ending that makes a describing verb of a noun: being affected by what the noun names | 50 |
-| *=ga* | the ending that makes a noun of a verb: something that comes of the event, or the event itself as a whole | 50 |
+| *=ga* | the ending that makes a noun of a verb: a fixed noun to be learned word by word, or the event itself as a whole | 50 |
 | *=gatā* | the ending that builds a difficult-word out of the verb it goes on; it is never a word standing on its own | 40 |
 | *=gōfie* | the ending that builds an easy-word the same way | 40 |
 | *=ia* | a long-form ending some speakers use, usually with a consonant in front of it | 32 |
@@ -19,7 +19,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 
 | Sāmoan | English | Ch |
 |---|---|---|
-| *a* | the belonging word for *a*-words: joins a thing to the person who got or uses it | 10 |
+| *a* | the belonging word for *a*-words: usually joins a thing to the person who got or uses it | 10 |
 | *a* | the two belonging words, required on the owner of a belonging-sentence for every owner | 42 |
 | *a* | the belonging word, met earlier: inside a le-phrase it marks the one the event is about as the doer of something that took place | 45 |
 | *ʻa* | the partner of the but-word, which combines with the happening-now particle | 36 |
@@ -35,12 +35,14 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *afā* | storm | 39 |
 | *ʻāfai* | the if-word: it opens a condition clause, and when the clause behind it has a verb in it, that verb carries a tense particle of its own | 39 |
 | *afe* | lift up | 51 |
+| *āfea* | the future when-word: asks when about future time and goes with the future particle *ʻoleʻā*; it comes to the front after *ʻo*, copied by *ai* inside the verb, or stays at the end of the sentence | 21 |
 | *afi* | fire | 29 |
 | *ʻāgelu* | angel | 6 |
 | *ai* | the question word for who: stands after *ʻo* at the front of a who-question | 8 |
-| *ai* | the pointing-back word: stands in for a place already named; sits after the verb, before the doer | 16 |
+| *ai* | the pointing-back word: stands in for a place already named; in this chapter's sentences it sits after the verb, before the doer | 16 |
+| *ai* | the who-word: asks who; in this chapter's questions it comes to the front after *ʻo* | 21 |
 | *ai* | the pointing-back word, met earlier: it answers a setting put first, from inside the verb phrase | 34 |
-| *ai* | the pointing-back word, met earlier: inside the then-construction it reaches back to everything said before it | 37 |
+| *ai* | the pointing-back word, met earlier: inside the then-construction it usually reaches back to everything said before it | 37 |
 | *ai* | the pointing-back word, met earlier: inside a describing clause it holds the spot of a place, a time, or a cause, and is heard for the thing an action was done with too | 43 |
 | *aʻi* | the pointing-back word in the shape it takes for the thing an action was done with, a job no other shape has to itself | 43 |
 | *ʻai* | eat | 9 |
@@ -53,10 +55,12 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *alu* | go | 1 |
 | *ʻāmata* | begin, start | 4 |
 | *amo* | carry, yoke | 51 |
+| *ʻāmulī* | after death, in the last days | 18 |
 | *ana* | cave | 36 |
 | *ana* | the belonging forms for "his" or "hers", and the forms that answer a whose-question | 42 |
 | *ʻana* | the second if-word: opens a condition that did not come true; the condition usually has no tense particle, and *pē* stands in front of *ʻana* when the clause follows the main clause | 49 |
 | *ana-* | the prefix that makes a past time word | 50 |
+| *anafea* | the past when-word: asks when about past time and goes with the past particle *na*; it takes the same two places as *āfea* | 21 |
 | *analeilā* | earlier today | 18 |
 | *anamua* | formerly | 18 |
 | *anamuā* | in days of old | 18 |
@@ -74,11 +78,11 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *ata* | my (*a*-word form, *o*-word form), said with feeling, for more than one particular thing | 51 |
 | *ʻata* | laugh | 38 |
 | *ātaeao* | tomorrow morning | 18 |
-| *ataliʻi* | son | 33 |
+| *ʻātalī* | in the next world | 18 |
+| *ataliʻi* | a man's son | 33 |
 | *atigi-lima* | finger-nail | 48 |
-| *atili* | increase | 36 |
 | *ʻato* | basket | 21 |
-| *ʻātoa* | complete (to recognize only) | 21 |
+| *ʻātoa* | complete | 22 |
 | *atu* | the direction word for away from the speaker, usually toward the person spoken to | 29 |
 | *atu* | the direction word, met earlier for away from the speaker; set on a quality word it carries the comparative degree instead | 31 |
 | *atunuʻu* | country | 25 |
@@ -104,7 +108,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *e* | the general particle: marks a statement true in general, with no tie to a time | 13 |
 | *e* | the general particle, here linking a number to the thing it counts | 22 |
 | *e* | the agent marker: goes in front of the doer of an action done to something else | 27 |
-| *e* | the general particle, met earlier: at the head of a clause following the main clause it marks purpose, and it takes the shape *te* after a preverbal pronoun | 38 |
+| *e* | the general particle, met earlier: when a clause following the main clause says what the action is done for, it stands at the head of that clause, and it takes the shape *te* after a preverbal pronoun | 38 |
 | *e* | the agent marker, met earlier: it stays on the doer inside a le-phrase whenever the thing done to is marked with *o* and the doer is not that thing's owner | 45 |
 | *ʻe* | you (one person) | 2 |
 | *ē* | the one-who word: it stands in front of a describing clause where no noun is named, and means the one who or those who | 43 |
@@ -113,6 +117,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *ʻeleʻele* | earth | 37 |
 | *ʻeleʻelea* | dirty | 42 |
 | *ʻenaʻena* | brown | 44 |
+| *ʻese* | strange, foreign | 9 |
 | *ʻese* | the direction word for away from a point | 29 |
 | *ʻese* | a judging verb: stresses that a quality is out of the ordinary | 46 |
 | *eva* | go for a stroll | 2 |
@@ -133,6 +138,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *faʻamalu* | umbrella | 29 |
 | *faʻamolemole* | please | 9 |
 | *faʻanoanoa* | sad | 46 |
+| *faʻapefea* | the how-word: asks how, and stands where a describing word would stand | 21 |
 | *faʻasā* | forbid | 30 |
 | *faʻasalalauga* | broadcast, broadcasting | 8 |
 | *faʻasāunoa* | torture, be cruel to | 24 |
@@ -147,7 +153,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *fāgota* | go fishing | 1 |
 | *fagu* | bottle | 45 |
 | *fai* | do, make, say, tell | 4 |
-| *fai* | the say-verb, met earlier for do and make: the person named after it is the speaker, and what was said follows as a sentence of its own | 33 |
+| *fai* | the say-verb, met earlier with all its meanings: the person named after it is the speaker, and what was said follows as a sentence of its own | 33 |
 | *fai=a* | the long form of *fai*, the shape the verb usually takes in a clause whose missing word is the doer of an action done to something else | 43 |
 | *faifeʻau* | pastor | 48 |
 | *faigatā* | difficult | 40 |
@@ -166,12 +172,14 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *fana* | gun (also: shoot) | 14 |
 | *fānau* | give birth; children, offspring | 14 |
 | *fanua* | land, property | 51 |
+| *fasi* | hit, beat | 9 |
 | *fau* | build | 32 |
 | *fe-* | the prefix that says the event happens more than once | 50 |
 | *fea* | the where-word: asks where, standing first in the where-question | 17 |
 | *fealofani* | love one another | 50 |
 | *fealuaʻi* | go quickly, hurry | 50 |
 | *feʻau* | work, task, errand | 49 |
+| *fefe* | fear, be afraid | 40 |
 | *feiloaʻi* | meet | 13 |
 | *fesili* | ask | 3 |
 | *fesoasoani* | help | 5 |
@@ -219,17 +227,17 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *ʻi ai* | the pointing-back word with the place word in front, the usual shape for where a movement or a wanting is aimed | 43 |
 | *i lo* | the than-word: it introduces what a thing is compared with, and its phrase comes last | 31 |
 | *ia* | he, she | 1 |
-| *ia* | the urging word: added to the end of a command for warmth or a push (not the person word *ia*) | 5 |
+| *ia* | the urging word: added straight after the verb of a command for warmth or a push (not the preverbal pronoun *ia*) | 5 |
 | *ia* | the demonstrative that can point back to a thing acted on put first, *lea* for one and *ia* for more than one | 34 |
 | *iʻa* | fish | 12 |
 | *ʻia* | the mood particle that opens a reported command, standing where a tense particle would otherwise stand | 33 |
 | *ʻia* | the mood particle, met earlier: it can head a purpose clause in place of *e* | 38 |
 | *ʻia* | the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ʻina ʻia*, in order to) | 48 |
-| *iā* | the shapes the place word takes before a person's name and in front of a person-word | 11 |
+| *iā* | the shapes the place word takes: usually *iā* before a person's name, *ʻia te* in front of a singular person-word, and *iā* in front of person-words for two or more people | 11 |
 | *iā* | the place word before a person, met earlier: stands before a name that refers to a person or a people | 47 |
 | *ʻia neʻi* | *ʻia* and *neʻi* used together, sometimes, after verbs of worry, fear and dislike | 48 |
 | *ʻia te* | the form the place word takes before a person-word | 2 |
-| *ʻia te* | the shapes the place word takes before a person's name and in front of a person-word | 11 |
+| *ʻia te* | the shapes the place word takes: usually *iā* before a person's name, *ʻia te* in front of a singular person-word, and *iā* in front of person-words for two or more people | 11 |
 | *iai* | be present, be there | 13 |
 | *iai* | the there-is verb: says something exists or is present | 14 |
 | *ʻie* | kilt | 25 |
@@ -256,7 +264,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 
 | Sāmoan | English | Ch |
 |---|---|---|
-| *kī* | key | 45 |
+| *kī* | key; switch on | 45 |
 | *koko* | cocoa | 31 |
 
 ## L
@@ -271,22 +279,19 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *lālā* | branch | 37 |
 | *lalo* | underneath, below, down | 26 |
 | *lana* | his, her, its (*a*-word form, *o*-word form) | 10 |
-| *lana* | his, her (the possessive form used with *iai* to say what you have) | 14 |
 | *lanu* | colour | 25 |
 | *lata* | my (*a*-word form, *o*-word form), said with feeling, for one particular thing | 51 |
 | *lātou* | they | 2 |
 | *lau* | your (*a*-word form, *o*-word form) | 10 |
-| *lau* | your (the possessive form used with *iai* to say what you have) | 14 |
 | *lau* | leaf | 21 |
 | *laʻu* | my (*a*-word form, *o*-word form) | 10 |
-| *laʻu* | my (the possessive form used with *iai* to say what you have) | 14 |
 | *lauulu* | hair | 51 |
 | *lava* | indeed, a word of emphasis: stands right after *tusa* in the whether ... or kind and the whatever kind | 49 |
 | *lavā* | be able (mostly as *lē lavā*, cannot) | 30 |
 | *lavea* | be hurt, be wounded | 35 |
 | *le* | the specific article: one particular thing the speaker has in mind | 6 |
 | *le* | the article, met earlier: standing in front of a verb it heads a le-phrase and packs the event into a thing | 35 |
-| *lē* | the not-word: denies a statement or question; sits after the tense particle, before the verb | 15 |
+| *lē* | the not-word: denies a statement or question; sits after the tense particle (and any pronoun), before the verb | 15 |
 | *lē* | the not-word, met earlier: inside a le-phrase it stands between the article and the verb | 35 |
 | *lē* | the one-who word joined to the specific article, for one particular person | 43 |
 | *lē* | the not-word, met earlier: inside a le-phrase it forces *o* | 45 |
@@ -299,13 +304,14 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *leai* | no | 1 |
 | *leai* | the there-is-none verb: says something is absent (also the word for "no") | 14 |
 | *leai* | a judging verb: stresses that a state of affairs does not exist | 46 |
-| *leʻi* | the not-yet word: says a thing has not happened so far but is expected to; usually rides the general particle | 15 |
+| *lēfea* | the which-word: asks which one of several; recognize it when you meet it, it is not drilled here | 21 |
+| *leʻi* | the not-yet word: says a thing has not happened so far but is expected to; normally used with the general particle | 15 |
 | *leʻi* | the not-yet word, met earlier: after *ʻaʻo* or *ʻae* it builds the before-pattern | 36 |
 | *leitio* | radio | 16 |
 | *lele* | fly | 11 |
 | *lelei* | good, well | 1 |
 | *lelei* | a judging verb: good | 46 |
-| *lenā* | that: points to something in view, and comes second in the naming sentence | 7 |
+| *lenā* | that: usually points to something in view, near the person spoken to, and comes second in the naming sentence | 7 |
 | *leo* | voice | 29 |
 | *lilo* | hide, be hidden | 37 |
 | *lima* | hand | 10 |
@@ -429,7 +435,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 
 | Sāmoan | English | Ch |
 |---|---|---|
-| *o* | the belonging word for *o*-words: joins a thing to the person it is part of, or whose it is by nature or by where they live | 10 |
+| *o* | the belonging word for *o*-words: usually joins a thing to the person it is part of, or whose it is by nature or by where they live | 10 |
 | *o* | the two belonging words, required on the owner of a belonging-sentence for every owner | 42 |
 | *o* | the belonging word, met earlier: inside a le-phrase it marks a non-doer, or leaves the doing unsaid, and it is the word on what a transitive event happened to whenever that stands as a belonging phrase | 45 |
 | *ʻO* | the presenting particle, met earlier: in front of a le-phrase it makes an exclamation | 46 |
@@ -526,6 +532,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *sasao* | blaze, burn fiercely | 29 |
 | *sata* | a ... of mine (*a*-word form, *o*-word form), said with feeling, for one thing of no particular identity | 51 |
 | *sau* | come | 2 |
+| *sau* | your, non-specific: the possessive form the have-question takes, asking about a thing of yours without picking out a particular one | 14 |
 | *saʻu* | a ... of mine (*a*-word form, *o*-word form), for one thing of no particular identity | 25 |
 | *sāuni* | prepare, get ready | 37 |
 | *saute* | South | 26 |
@@ -537,10 +544,11 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *sele* | shave, cut | 36 |
 | *sēleni* | shilling | 51 |
 | *sēmanū* | probably: often opens the main clause after an *ʻana* clause | 49 |
+| *sene* | cent | 22 |
 | *sesē* | wrong | 51 |
 | *si* | the article for one particular thing, carrying the speaker's feeling for it | 51 |
 | *siʻi* | move | 38 |
-| *sili* | better, best, more, most: it takes a complement clause after *ona* and raises that clause's degree, to the top on its own and to a comparison when *atu* and *i lo* follow | 31 |
+| *sili* | better, best, more, most: in this chapter's pattern it takes a complement clause after *ona* and raises that clause's degree; in this chapter's sentences it gives the top degree on its own and, with *atu* and *i lo*, a comparison | 31 |
 | *sili* | a judging verb: better, the best | 46 |
 | *silou* | slow | 39 |
 | *sina* | a little of, some of: marks a small portion of a thing, often politely | 14 |
@@ -601,6 +609,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *taimi* | time | 17 |
 | *taʻita* | the everyday-speech form of *ʻita* | 51 |
 | *tala* | story | 9 |
+| *tālā* | dollar | 22 |
 | *tala ane* | the space next to, alongside | 26 |
 | *tala atu* | the side away from the speaker, beyond | 26 |
 | *tala mai* | the side facing the speaker, this side | 26 |
@@ -632,7 +641,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *taʻu* | tell | 20 |
 | *tāua* | precious, important | 46 |
 | *tāuaso* | blind | 4 |
-| *taufi* | cover | 43 |
+| *taufi* | cover (the form used when more than one thing is covered) | 43 |
 | *taugatā* | expensive | 40 |
 | *taugōfie* | cheap | 40 |
 | *tauleʻaleʻa* | young man | 46 |
@@ -643,7 +652,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *tautala* | talk, speak | 14 |
 | *te* | the shape the general particle takes right after a pronoun | 13 |
 | *te* | the general particle in its after-a-pronoun shape, met earlier: it stands between a preverbal pronoun and *leʻi* | 36 |
-| *te* | the general particle, met earlier: at the head of a clause following the main clause it marks purpose, and it takes the shape *te* after a preverbal pronoun | 38 |
+| *te* | the general particle, met earlier: when a clause following the main clause says what the action is done for, it stands at the head of that clause, and it takes the shape *te* after a preverbal pronoun | 38 |
 | *tei* | little sister, small sibling | 24 |
 | *teine* | girl | 6 |
 | *teineitiiti* | girl | 47 |
@@ -657,6 +666,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *to* | hole | 8 |
 | *toʻa* | the counting prefix for people: usually put in front of a number when what you count is human beings | 22 |
 | *toʻa-* | the prefix on a number that counts human beings | 50 |
+| *toʻafia* | the how-many word with the people prefix: asks how many people | 22 |
 | *toeaʻina* | old man | 19 |
 | *tōfā* | goodbye | 9 |
 | *toga* | South | 26 |

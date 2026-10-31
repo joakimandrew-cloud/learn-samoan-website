@@ -24,7 +24,7 @@ is marked by *ʻi*, the place word from earlier in this book.
 English treats see, love, and want as verbs that take an object: you see the
 fish, you love the girl, the object sits bare right after the verb. English
 asking is looser, since you often ask for a thing rather than ask it, but Sāmoan
-treats asking the same as the rest. Sāmoan hands these verbs no bare object. It
+treats asking the same as the rest. In this pattern Sāmoan hands these verbs no bare object. It
 puts the one who does the seeing or asking right after the verb, then points at
 the other thing with *ʻi*, the same word that points at a place. You have already
 seen *ʻi* mark a place:
@@ -40,7 +40,7 @@ Compare them. Which word points at the village, and which points at the fish?
 It is the same word, *ʻi*, doing the same job both times: pointing at what the
 verb reaches. In the first sentence the verb is one of moving, so *ʻi* points at
 a place. In the second the verb is one of seeing, so *ʻi* points at the thing
-seen. The lesson underneath is one to hold onto: in Sāmoan you do not see the
+seen. The lesson underneath is one to hold onto: in this pattern you do not see the
 fish, you see toward it, the way you go toward a village.
 
 The pattern puts the verb first, then its two participants: the one who does the
@@ -66,8 +66,9 @@ sentence here is built with it.
 
 All four of the verbs above build the same shape. Whether the thing reached can
 be left out depends on the verb rather than on the meaning. With *mātamata* it
-can be left out. With *vaʻai* it cannot, unless the sentence carries a direction
-word, which this book teaches later. With *alofa* it can be left out too, and a
+can be left out. With *vaʻai* meaning to see something it cannot, unless the sentence carries a direction
+word, which this book teaches later; *vaʻai* on its own, in the sense of being able
+to see, as in the sentence you met earlier in this book "Now she sees", is complete. With *alofa* it can be left out too, and a
 sentence built that way is on record meaning that the person is full of
 sympathy. Every sentence in this chapter keeps the thing reached in place.
 
@@ -90,7 +91,7 @@ before the verb, and the thing reached still follows with *ʻi*:
 
 ## Wanting
 
-Sāmoan has two wanting words, and this chapter gives each of them one use. To
+This chapter teaches two wanting words and gives each of them one use. To
 want to do something, use *fia* in front of the action verb, the word met
 earlier in this book: *Sā ʻou fia ʻai* is "I wanted to eat", *Sā ia fia siva* is
 "she wanted to dance". To want a thing rather than an action, use *manaʻo*, and
@@ -147,15 +148,13 @@ whether that is a place, a thing, a person spoken to, or a thing asked about.
 
 ## Some of It, Not All
 
-Marking the thing with *ʻi* also carries a shade of meaning. Read this
-sentence, built on the verb *ʻai* (eat):
-
 ::: {.examples}
 *Sā ʻai le teine ʻi le iʻa.* The girl ate some fish.
 :::
 
-The fish is marked with *ʻi*, and the sentence says the girl ate some of the
-fish, not that she finished it. Pointing at the fish with the place word says
+This sentence is built on the verb *ʻai* (eat). Marking the thing with *ʻi* also
+carries a shade of meaning: the fish is marked with *ʻi*, and the sentence says the
+girl ate some of the fish, not that she finished it. Pointing at the fish with the place word says
 the action reached it, touched it, without saying it was wholly used up. To say
 the girl ate the whole fish, Sāmoan marks the doer with a different word, and
 that word draws a real contrast in meaning. The choice is not decorative:
@@ -163,7 +162,7 @@ getting it wrong changes what the sentence says.
 
 > **Preview:** The verbs in this chapter point at their target with the place
 > word *ʻi*, and a sentence built this way never takes the marker that sets apart
-> the doer of a fully completed action. That marker, and the contrast it draws
+> the doer in a sentence where the thing is wholly affected. That marker, and the contrast it draws
 > with *ʻi*, are completed in Chapter 27. For now, every sentence in this pattern
 > uses *ʻi*.
 
@@ -187,8 +186,8 @@ getting it wrong changes what the sentence says.
 
 The pattern itself adds no new grammar word. It reuses the place word *ʻi* from
 earlier in this book, now pointing at the thing a verb reaches, and the wanting
-word *fia*, and it puts *alofa* (love), met before, into a full sentence for the
-first time.
+word *fia*, and it puts *alofa* (love) and *vaʻai* (see), both met before, into a full sentence
+for the first time.
 
 ---
 

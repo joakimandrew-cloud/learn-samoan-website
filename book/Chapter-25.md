@@ -3,8 +3,9 @@
 This chapter completes the two belonging words *a* and *o*, adding the rule of
 control that decides between them, the four sets of possessive forms that track
 the articles across one thing and many, and the owners that come in pairs and
-groups, and the for-word *mo*, so you can speak of anyone's things in any number
-and say who a thing is for. Where the control rule runs out, a word's belonging
+groups, and the for-word *mo*, so you can speak of my things in any number, of
+the things of pairs and groups of owners and of a named owner, and say who a
+thing is for. Where the control rule runs out, a word's belonging
 type is a fact of that word, and this chapter gives the lists.
 
 ---
@@ -58,7 +59,7 @@ The *o*-words, mostly given rather than set up:
 | a part of a whole | *pito* (end) |
 | a thing's own quality | *lanu* (colour) |
 | clothes worn | *ʻie* (kilt), *ʻofu* (dress) |
-| old tools and weapons | *tao* (spear) |
+| a few traditional tools and weapons | *tao* (spear) |
 | boats | *vaʻa* (boat), *paopao* (canoe) |
 | where a person lives or comes from | *nuʻu* (village), *atunuʻu* (country), *fale* (house) |
 | a name | *igoa* (name) |
@@ -69,7 +70,7 @@ The *a*-words, mostly got, made, or taken on:
 |---|---|
 | one's children | *fānau* (children) |
 | a mother's son | *tama* (son) |
-| a spouse | *āvā* (wife) |
+| the everyday wife word | *āvā* (wife) |
 | people taken into a life | *uō* (friend), *pele* (darling), *maʻamusa* (lover) |
 | the beard | *ʻava* (beard) |
 | things got and used | *naifi* (knife), *ipu* (cup), *sipuni* (spoon), *fana* (gun), *taʻavale* (car), *meaʻai* (food) |
@@ -231,9 +232,9 @@ of names belonging to the two of us.
 > owners. It is not required there, and the forms this book prints leave it out.
 
 > **Preview:** An action can be named as a thing, the working, the telling, and
-> the person who does it is then joined to it with a belonging word, exactly as
-> an owner is joined to a thing. That use of *a* and *o* is completed in
-> Chapter 45.
+> the person who does it is then joined to it with a belonging word. Which of
+> *a* and *o* is used there is settled by its own rule, not the rule for
+> owners, and that use is completed in Chapter 45.
 
 ---
 
@@ -306,6 +307,9 @@ apart from the with-word *ma*.
 
 ### Exercise 2: Translate into Sāmoan
 
+Give each answer as the bare naming part, without the presenting *ʻo*, except
+items 3 and 4, which are given whole with *ʻo*, as in the examples.
+
 1. my kilt
 2. my spoons
 3. the son of the woman
@@ -351,6 +355,8 @@ Rewrite each phrase with the owners named in the brackets.
 1. *loʻu fale* (we, but not you)
 2. *laʻu ipu* (the two of them)
 3. *oʻu fale* (we, but not you)
+4. *loʻu fale* (you all)
+5. *aʻu ipu* (the two of them)
 
 ---
 
@@ -403,3 +409,5 @@ Rewrite each phrase with the owners named in the brackets.
 1. *le mātou fale*
 2. *le lā ipu*
 3. *mātou fale*
+4. *le ʻoutou fale*
+5. *lā ipu*

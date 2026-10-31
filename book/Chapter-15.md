@@ -2,8 +2,9 @@
 
 This chapter adds Sāmoan's two negative words for the statement: the not-word
 *lē*, which denies that something happened, and the not-yet word *leʻi*, which
-says it has not happened so far. Each drops into the slot right after the tense
-particle and in front of the verb, and the same machinery completes the naming
+says it has not happened so far. Each drops into the slot after the tense
+particle (and after the pronoun, when one stands there) and in front of the
+verb, and the same machinery completes the naming
 sentence taught earlier in this book, giving Sāmoan its way to say that
 something is not so.
 
@@ -25,7 +26,9 @@ into its denial. Nothing else moves: the tense particle stays, the doer stays,
 the word order stays, and *lē* drops into the gap between the particle and the
 verb.
 
-The not-word keeps this one position under every tense particle:
+The not-word keeps its place under the other tense particles in this section
+too: after the particle (and after the pronoun, when one stands there) and in
+front of the verb:
 
 | Sāmoan | English |
 |---|---|
@@ -35,8 +38,10 @@ The not-word keeps this one position under every tense particle:
 | *Sā lē malie le tamā.* | The father was not pleased. |
 
 These four span the past particle, the future particle, and the general
-particle. In each, the not-word holds the same seat between the particle and
-the verb.
+particle. The last row brings in two new words, *malie* (pleased) and *tamā*
+(father). In each, the not-word holds the same seat between the particle and
+the verb; in the second row the pronoun *ʻou* stands between the particle and
+the not-word, so the not-word follows the pronoun.
 
 > *Note:* Most of the time the not-word does just this and no more: it denies
 > the matching positive sentence and leaves everything else untouched. A few
@@ -94,8 +99,8 @@ same words can say what will not happen as well as what does not.
 
 > *Note:* When you answer "no" to a question built on the change particle, the
 > answer does not repeat that particle. Asked *ʻUa fiafia le tama?* "Is the boy
-> happy [now]?", the answer switches to the general particle with the not-word,
-> reporting that nothing has changed: *Leai, e lē ʻo fiafia le tama.* "No, the
+> happy [now]?", the answer switches to the general particle, the not-word and the short
+> happening-now *ʻo*, reporting that nothing has changed: *Leai, e lē ʻo fiafia le tama.* "No, the
 > boy isn't happy." The sense is that he has not changed to being happy.
 
 ---
@@ -107,9 +112,9 @@ same words can say what will not happen as well as what does not.
 :::
 
 The not-yet word *leʻi* says a thing has not happened so far, but is still
-expected to. Like the not-word, it sits after the tense particle and in front
-of the verb. It rides the general particle *e* (and *te* after a pronoun),
-which is the company it normally keeps:
+expected to. Like the not-word, it sits after the tense particle (and after the pronoun,
+when one stands there) and in front of the verb. It is normally used with the
+general particle *e* (and *te* after a pronoun):
 
 | Sāmoan | English |
 |---|---|
@@ -118,15 +123,15 @@ which is the company it normally keeps:
 | *ʻOu te leʻi alu.* | I have not gone yet. |
 | *E leʻi siva le teine.* | The girl has not danced yet. |
 
-The not-word *lē* and the not-yet word *leʻi* look alike, and they are not one
-word wearing two spellings. They differ in more than one way at once: *lē* holds
+The not-word *lē* and the not-yet word *leʻi* look alike, but they are two
+different words. They differ in more than one way at once: *lē* holds
 its vowel long, while *leʻi* carries the catch of the *ʻ* mark and an i at the
 end. They differ in meaning too. *E lē alu le teine* is "the girl does not go";
 *E leʻi alu le teine* is "the girl has not gone yet".
 
 > *Note:* You will mostly build *leʻi* on the general particle, as here. It
 > turns up now and then with the past particle or the happening-now particle,
-> but the general particle is its usual company. In some sentences *leʻi*
+> but the general particle is the usual one. In some sentences *leʻi*
 > simply means "no, not at all", denying that something expected ever happened.
 
 ---
@@ -155,6 +160,8 @@ the front. The order inside does not change. The denial is added as a shell.
 | *E lē ʻo se uō le tama.* | The boy is not a friend. |
 | *E lē ʻo se pepe le teine.* | The girl is not a baby. |
 | *E lē ʻo se iʻa le pusi.* | The cat is not a fish. |
+
+The new word *pepe* (baby) fills the naming slot in the second row.
 
 ---
 
@@ -193,8 +200,8 @@ to say a thing fails to exist. That is the there-is-none verb's own work.
 
 | Word | What it does |
 |---|---|
-| *lē* | the not-word: denies a statement or question; sits after the tense particle, before the verb |
-| *leʻi* | the not-yet word: says a thing has not happened so far but is expected to; usually rides the general particle |
+| *lē* | the not-word: denies a statement or question; sits after the tense particle (and any pronoun), before the verb |
+| *leʻi* | the not-yet word: says a thing has not happened so far but is expected to; normally used with the general particle |
 
 **New vocabulary** (memorize these meanings):
 
@@ -278,7 +285,7 @@ with the general particle *e* and the not-word *lē*.
 2. The boy is unhappy.
 3. The father has not come yet.
 4. The girl is not a baby.
-5. I do not go.
+5. I do not go. (or I will not go.)
 
 ### Exercise 2
 

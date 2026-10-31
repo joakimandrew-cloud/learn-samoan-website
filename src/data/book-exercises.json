@@ -311,7 +311,7 @@
       "id": "ch2-ex3",
       "number": 3,
       "title": "Fill the middle slot",
-      "instructions": "Put the right people-word into the gap so the Sāmoan matches the English.",
+      "instructions": "Put the right preverbal pronoun into the gap so the Sāmoan matches the English.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -466,13 +466,13 @@
           "id": "ch3-ex1-1",
           "n": 1,
           "prompt": "*Sā ia siva fiafia.*",
-          "answer": "She danced happily."
+          "answer": "She (or He) danced happily."
         },
         {
           "id": "ch3-ex1-2",
           "n": 2,
           "prompt": "*Sā ia tagi mālosi.*",
-          "answer": "She cried hard."
+          "answer": "She (or He) cried hard."
         },
         {
           "id": "ch3-ex1-3",
@@ -523,7 +523,7 @@
         {
           "id": "ch3-ex2-4",
           "n": 4,
-          "prompt": "We wanted to go fishing.",
+          "prompt": "We (but not you) wanted to go fishing.",
           "answer": "*Sā mātou fia fāgota.*"
         },
         {
@@ -545,31 +545,31 @@
         {
           "id": "ch3-ex3-1",
           "n": 1,
-          "prompt": "*Sā ia siva.* (fiafia)",
+          "prompt": "*Sā ia siva.* (*fiafia*)",
           "answer": "*Sā ia siva fiafia.*"
         },
         {
           "id": "ch3-ex3-2",
           "n": 2,
-          "prompt": "*Sā ia tagi.* (mālosi)",
+          "prompt": "*Sā ia tagi.* (*mālosi*)",
           "answer": "*Sā ia tagi mālosi.*"
         },
         {
           "id": "ch3-ex3-3",
           "n": 3,
-          "prompt": "*Sā ʻou foʻi.* (fiafia)",
+          "prompt": "*Sā ʻou foʻi.* (*fiafia*)",
           "answer": "*Sā ʻou foʻi fiafia.*"
         },
         {
           "id": "ch3-ex3-4",
           "n": 4,
-          "prompt": "*Sā ʻe eva.* (fiafia)",
+          "prompt": "*Sā ʻe eva.* (*fiafia*)",
           "answer": "*Sā ʻe eva fiafia.*"
         },
         {
           "id": "ch3-ex3-5",
           "n": 5,
-          "prompt": "*Sā ʻoutou siva.* (lelei)",
+          "prompt": "*Sā ʻoutou siva.* (*lelei*)",
           "answer": "*Sā ʻoutou siva lelei.*"
         }
       ]
@@ -639,6 +639,18 @@
           "n": 3,
           "prompt": "*Sā mātou mālosi tagi.* (meaning: We cried hard)",
           "answer": "*Sā mātou tagi mālosi.* (the describing verb *mālosi* comes after the action verb *tagi*)"
+        },
+        {
+          "id": "ch3-ex5-4",
+          "n": 4,
+          "prompt": "*Sā ʻe fiafia eva.* (meaning: You strolled happily)",
+          "answer": "*Sā ʻe eva fiafia.* (the describing verb *fiafia* comes after the action verb *eva*)"
+        },
+        {
+          "id": "ch3-ex5-5",
+          "n": 5,
+          "prompt": "*Sā ʻe foʻi fia.* (meaning: You wanted to return)",
+          "answer": "*Sā ʻe fia foʻi.* (the wanting word *fia* comes before the action verb *foʻi*)"
         }
       ]
     }
@@ -668,7 +680,7 @@
           "id": "ch4-ex1-3",
           "n": 3,
           "prompt": "*ʻOleʻā ia sau.*",
-          "answer": "She will come."
+          "answer": "She (or He) will come."
         },
         {
           "id": "ch4-ex1-4",
@@ -955,7 +967,7 @@
       "id": "ch5-ex3",
       "number": 3,
       "title": "Turn each statement into a command",
-      "instructions": "Drop the tense particle and the person word, and leave the bare verb.",
+      "instructions": "Drop the tense particle and the preverbal pronoun, and leave the bare verb.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -982,6 +994,12 @@
           "n": 4,
           "prompt": "*Sā ia faʻatali.*",
           "answer": "*Faʻatali.*"
+        },
+        {
+          "id": "ch5-ex3-5",
+          "n": 5,
+          "prompt": "*Sā ia fufulu.*",
+          "answer": "*Fufulu.*"
         }
       ]
     },
@@ -1030,7 +1048,7 @@
       "id": "ch5-ex5",
       "number": 5,
       "title": "Add the urging word *ia*",
-      "instructions": "Rewrite each command with *ia* added at the end.",
+      "instructions": "Rewrite each command with *ia* added straight after the verb.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -1051,6 +1069,18 @@
           "n": 3,
           "prompt": "*Faʻatali.*",
           "answer": "*Faʻatali ia.*"
+        },
+        {
+          "id": "ch5-ex5-4",
+          "n": 4,
+          "prompt": "*Salu.*",
+          "answer": "*Salu ia.*"
+        },
+        {
+          "id": "ch5-ex5-5",
+          "n": 5,
+          "prompt": "*Alu.*",
+          "answer": "*Alu ia.*"
         }
       ]
     }
@@ -1161,6 +1191,18 @@
           "n": 3,
           "prompt": "*le ipu*",
           "answer": "*ipu*"
+        },
+        {
+          "id": "ch6-ex3-4",
+          "n": 4,
+          "prompt": "*le mea*",
+          "answer": "*mea*"
+        },
+        {
+          "id": "ch6-ex3-5",
+          "n": 5,
+          "prompt": "*le tamaʻitaʻi*",
+          "answer": "*tamaʻitaʻi*"
         }
       ]
     },
@@ -1170,40 +1212,37 @@
       "title": "Choose *le* or *se*",
       "instructions": "Put *le* or *se* in the gap so the Sāmoan matches the English.",
       "placement": "exercises",
-      "type": "mcq",
+      "type": "reveal",
       "items": [
         {
           "id": "ch6-ex4-1",
           "n": 1,
           "prompt": "*___ mea* (one particular thing, the thing)",
-          "answer": "*le mea*",
-          "options": [
-            "*le*",
-            "*se*"
-          ],
-          "correct": "*le*"
+          "answer": "*le mea*"
         },
         {
           "id": "ch6-ex4-2",
           "n": 2,
           "prompt": "*___ ipu* (any cup, no particular one)",
-          "answer": "*se ipu*",
-          "options": [
-            "*le*",
-            "*se*"
-          ],
-          "correct": "*se*"
+          "answer": "*se ipu*"
         },
         {
           "id": "ch6-ex4-3",
           "n": 3,
           "prompt": "*___ teine* (the girl, that same girl again)",
-          "answer": "*le teine*",
-          "options": [
-            "*le*",
-            "*se*"
-          ],
-          "correct": "*le*"
+          "answer": "*le teine*"
+        },
+        {
+          "id": "ch6-ex4-4",
+          "n": 4,
+          "prompt": "*ʻUa sau ___ teine.* (a girl is coming; the speaker has one particular girl in mind)",
+          "answer": "*le*, so *ʻUa sau le teine.*"
+        },
+        {
+          "id": "ch6-ex4-5",
+          "n": 5,
+          "prompt": "*___ teine* (any girl at all)",
+          "answer": "*se teine*"
         }
       ]
     },
@@ -1238,6 +1277,12 @@
           "n": 4,
           "prompt": "*Sā fiafia teine.*",
           "answer": "The girls were happy."
+        },
+        {
+          "id": "ch6-ex5-5",
+          "n": 5,
+          "prompt": "*Sā fiafia le teine.*",
+          "answer": "The girl was happy."
         }
       ]
     }
@@ -1267,7 +1312,7 @@
           "id": "ch7-ex1-3",
           "n": 3,
           "prompt": "*ʻO ia ʻo se uō.*",
-          "answer": "He is a friend."
+          "answer": "He (or She) is a friend."
         },
         {
           "id": "ch7-ex1-4",
@@ -1278,8 +1323,8 @@
         {
           "id": "ch7-ex1-5",
           "n": 5,
-          "prompt": "*ʻO se tagata lelei le uō.*",
-          "answer": "The friend is a good person."
+          "prompt": "*ʻO se tama le uō.*",
+          "answer": "The friend is a boy."
         }
       ]
     },
@@ -1348,6 +1393,18 @@
           "n": 3,
           "prompt": "*le pusi* (the cat)",
           "answer": "*ʻO le pusi lenā.*"
+        },
+        {
+          "id": "ch7-ex3-4",
+          "n": 4,
+          "prompt": "*le lāʻau* (the tree)",
+          "answer": "*ʻO le lāʻau lenā.*"
+        },
+        {
+          "id": "ch7-ex3-5",
+          "n": 5,
+          "prompt": "*se uō* (a friend)",
+          "answer": "*ʻO se uō lenā.*"
         }
       ]
     },
@@ -1355,27 +1412,39 @@
       "id": "ch7-ex4",
       "number": 4,
       "title": "Add the presenting particle",
-      "instructions": "Put *ʻo* where it belongs so the Sāmoan matches the English. Some sentences need it once, one needs it twice.",
+      "instructions": "Each sentence below has lost its presenting particle *ʻo*, or is already correct. Write each one as it should stand. Some need *ʻo* once, some need it twice, and one needs nothing.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
         {
           "id": "ch7-ex4-1",
           "n": 1,
-          "prompt": "*___ se uō le teine.* (The girl is a friend.)",
+          "prompt": "*se uō le teine.* (The girl is a friend.)",
           "answer": "*ʻO se uō le teine.*"
         },
         {
           "id": "ch7-ex4-2",
           "n": 2,
-          "prompt": "*___ le lāʻau lenā.* (That is the tree.)",
+          "prompt": "*le lāʻau lenā.* (That is the tree.)",
           "answer": "*ʻO le lāʻau lenā.*"
         },
         {
           "id": "ch7-ex4-3",
           "n": 3,
-          "prompt": "*___ ia ___ se uō.* (He is a friend.)",
+          "prompt": "*ia se uō.* (He is a friend.)",
           "answer": "*ʻO ia ʻo se uō.*"
+        },
+        {
+          "id": "ch7-ex4-4",
+          "n": 4,
+          "prompt": "*ʻO le pusi lenā.* (That is the cat.)",
+          "answer": "*ʻO le pusi lenā.* (already correct)"
+        },
+        {
+          "id": "ch7-ex4-5",
+          "n": 5,
+          "prompt": "*aʻu se uō.* (I am a friend.)",
+          "answer": "*ʻO aʻu ʻo se uō.*"
         }
       ]
     },
@@ -1419,6 +1488,28 @@
             "*se*"
           ],
           "correct": "*le*"
+        },
+        {
+          "id": "ch7-ex5-4",
+          "n": 4,
+          "prompt": "*ʻO ___ lāʻau lenā.* (That is the tree, one particular tree.)",
+          "answer": "*ʻO le lāʻau lenā.*",
+          "options": [
+            "*le*",
+            "*se*"
+          ],
+          "correct": "*le*"
+        },
+        {
+          "id": "ch7-ex5-5",
+          "n": 5,
+          "prompt": "*ʻO ___ uō lenā.* (That is a friend, no particular one.)",
+          "answer": "*ʻO se uō lenā.*",
+          "options": [
+            "*le*",
+            "*se*"
+          ],
+          "correct": "*se*"
         }
       ]
     }
@@ -1535,6 +1626,12 @@
           "n": 4,
           "prompt": "*ʻO le to lenā.*",
           "answer": "*ʻO le ā lenā?*"
+        },
+        {
+          "id": "ch8-ex3-5",
+          "n": 5,
+          "prompt": "*ʻO le fale lenā.*",
+          "answer": "*ʻO le ā lenā?*"
         }
       ]
     },
@@ -1563,6 +1660,18 @@
           "n": 3,
           "prompt": "*ʻO le fale lenā.*",
           "answer": "*ʻO le fale lenā?* ↘"
+        },
+        {
+          "id": "ch8-ex4-4",
+          "n": 4,
+          "prompt": "*ʻO le teine lenā.*",
+          "answer": "*ʻO le teine lenā?* ↘"
+        },
+        {
+          "id": "ch8-ex4-5",
+          "n": 5,
+          "prompt": "*ʻO le suāsami lenā.*",
+          "answer": "*ʻO le suāsami lenā?* ↘"
         }
       ]
     },
@@ -1591,6 +1700,18 @@
           "n": 3,
           "prompt": "*ʻO ai le matua?* (*ʻea*)",
           "answer": "*ʻO ai ʻea le matua?*"
+        },
+        {
+          "id": "ch8-ex5-4",
+          "n": 4,
+          "prompt": "*ʻO ai le fafine?* (*po*)",
+          "answer": "*Po ʻo ai le fafine?*"
+        },
+        {
+          "id": "ch8-ex5-5",
+          "n": 5,
+          "prompt": "*ʻO le ā le tausaga?* (*po*)",
+          "answer": "*Po ʻo le ā le tausaga?*"
         }
       ]
     },
@@ -1645,6 +1766,17 @@
             "*ā*"
           ],
           "correct": "*ā*"
+        },
+        {
+          "id": "ch8-ex6-5",
+          "n": 5,
+          "prompt": "*ʻO ___ le fafine?* (Who is the woman?)",
+          "answer": "*ʻO ai le fafine?*",
+          "options": [
+            "*ai*",
+            "*ā*"
+          ],
+          "correct": "*ai*"
         }
       ]
     }
@@ -1872,7 +2004,7 @@
           "id": "ch10-ex1-4",
           "n": 4,
           "prompt": "*lona ulu*",
-          "answer": "her head"
+          "answer": "her head (or his head)"
         },
         {
           "id": "ch10-ex1-5",
@@ -1955,8 +2087,8 @@
         {
           "id": "ch10-ex3-3",
           "n": 3,
-          "prompt": "*le vae ___ le gata*",
-          "answer": "*le vae o le gata*",
+          "prompt": "*le ulu ___ le gata*",
+          "answer": "*le ulu o le gata*",
           "options": [
             "*a*",
             "*o*"
@@ -2245,6 +2377,12 @@
           "n": 4,
           "prompt": "*Na sau le teine.* (from the village)",
           "answer": "*Na sau le teine mai le nuʻu.*"
+        },
+        {
+          "id": "ch11-ex4-5",
+          "n": 5,
+          "prompt": "*Na sau le tama.* (from the house)",
+          "answer": "*Na sau le tama mai le fale.*"
         }
       ]
     },
@@ -2266,13 +2404,25 @@
           "id": "ch11-ex5-2",
           "n": 2,
           "prompt": "*Sā ia alu ʻi le fale.*",
-          "answer": "\"to\": She went to the house."
+          "answer": "\"to\": She (or He) went to the house."
         },
         {
           "id": "ch11-ex5-3",
           "n": 3,
           "prompt": "*Sā oso le pusi ʻi le lāʻau.*",
           "answer": "\"into\": The cat jumped into the tree."
+        },
+        {
+          "id": "ch11-ex5-4",
+          "n": 4,
+          "prompt": "*Sā lele le ʻāgelu ʻi le nuʻu.*",
+          "answer": "\"to\": The angel flew to the village."
+        },
+        {
+          "id": "ch11-ex5-5",
+          "n": 5,
+          "prompt": "*Sā nofo le tama ʻi le fale.*",
+          "answer": "\"in\": The boy stayed in the house."
         }
       ]
     }
@@ -2724,7 +2874,7 @@
       "id": "ch13-ex5",
       "number": 5,
       "title": "From past to general",
-      "instructions": "Each sentence is in the past. Rewrite it with the general particle so it speaks of a habit instead, keeping the same person. Remember to put the pronoun first.",
+      "instructions": "Each sentence is in the past. Rewrite it with the general particle, which states the sentence without fixing a time, keeping the same person. Remember to put the pronoun first.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -2914,7 +3064,7 @@
       "instructions": "",
       "placement": "exercises",
       "type": "matching",
-      "key": "1-c, 2-d, 3-a, 4-b.",
+      "key": "1-c, 2-d, 3-a, 4-b, 5-e.",
       "items": [
         {
           "id": "ch14-ex4-1",
@@ -2939,6 +3089,12 @@
           "n": 4,
           "prompt": "*E iai se gasegase.*",
           "answer": "There is a sickness."
+        },
+        {
+          "id": "ch14-ex4-5",
+          "n": 5,
+          "prompt": "*E iai sau tusi?*",
+          "answer": "Do you have a book?"
         }
       ]
     },
@@ -2973,6 +3129,12 @@
           "n": 4,
           "prompt": "*Sā tupu se mea.*",
           "answer": "Something happened."
+        },
+        {
+          "id": "ch14-ex5-5",
+          "n": 5,
+          "prompt": "*E fānau le fafine.*",
+          "answer": "The woman gives birth."
         }
       ]
     }
@@ -3014,7 +3176,7 @@
           "id": "ch15-ex1-5",
           "n": 5,
           "prompt": "*ʻOu te lē alu.*",
-          "answer": "I do not go."
+          "answer": "I do not go. (or I will not go.)"
         }
       ]
     },
@@ -3234,8 +3396,8 @@
         {
           "id": "ch16-ex1-4",
           "n": 4,
-          "prompt": "*ʻi le nuʻu sā nofo ai le teine.*",
-          "answer": "In the village the girl lived there."
+          "prompt": "*ʻI le nuʻu sā nofo ai le teine.*",
+          "answer": "In the village the girl lived. (Lit. \"In the village the girl lived there.\"; both renderings are accepted.)"
         },
         {
           "id": "ch16-ex1-5",
@@ -3275,7 +3437,7 @@
           "id": "ch16-ex2-4",
           "n": 4,
           "prompt": "In the class the girl was happy there.",
-          "answer": "*ʻi le vasega sā fiafia ai le teine.*"
+          "answer": "*ʻI le vasega sā fiafia ai le teine.*"
         },
         {
           "id": "ch16-ex2-5",
@@ -4613,6 +4775,36 @@
           "n": 5,
           "prompt": "*ʻi le itūlā e lima*",
           "answer": "at five o'clock"
+        },
+        {
+          "id": "ch22-ex1-6",
+          "n": 6,
+          "prompt": "*ni ipu se lua*",
+          "answer": "any two cups"
+        },
+        {
+          "id": "ch22-ex1-7",
+          "n": 7,
+          "prompt": "*le tolu o aso*",
+          "answer": "the three days, as one stretch"
+        },
+        {
+          "id": "ch22-ex1-8",
+          "n": 8,
+          "prompt": "*E toʻafia lau fānau?*",
+          "answer": "How many children do you have?"
+        },
+        {
+          "id": "ch22-ex1-9",
+          "n": 9,
+          "prompt": "*E lua tālā.*",
+          "answer": "It is two dollars."
+        },
+        {
+          "id": "ch22-ex1-10",
+          "n": 10,
+          "prompt": "*Na ʻātoa lelei le tolu o aso.*",
+          "answer": "The three days were fully complete."
         }
       ]
     },
@@ -4628,13 +4820,13 @@
           "id": "ch22-ex2-1",
           "n": 1,
           "prompt": "the four girls",
-          "answer": "*teine e fā*"
+          "answer": "*teine e fā* (the prefixed people count is also right)"
         },
         {
           "id": "ch22-ex2-2",
           "n": 2,
           "prompt": "the two girls, counted as people",
-          "answer": "*Teine e toʻalua.*"
+          "answer": "*teine e toʻalua*"
         },
         {
           "id": "ch22-ex2-3",
@@ -4740,7 +4932,7 @@
       "id": "ch22-ex5",
       "number": 5,
       "title": "Put things in order",
-      "instructions": "Rewrite each phrase to name its place in an order, using *lona* and the number.",
+      "instructions": "Rewrite each phrase to name its place in an order. Items 1 to 3 use *lona* and the number; items 4 and 5 use the words for first and last.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -4906,7 +5098,7 @@
           "id": "ch23-ex3-6",
           "n": 6,
           "prompt": "When did the boy sleep?",
-          "answer": "*ʻO anafea na moe ai le tama?*"
+          "answer": "*ʻO anafea na moe ai le tama?* (The when-word may also stay at the end of the sentence, with no pointing-back word.)"
         }
       ]
     },
@@ -5042,7 +5234,7 @@
           "id": "ch23-ex7-1",
           "n": 1,
           "prompt": "the three boys",
-          "answer": "*tama e tolu*"
+          "answer": "*tama e tolu* (Counting people with the prefix *toʻa* in front of the number is also right for boys, as Chapter 22 teaches.)"
         },
         {
           "id": "ch23-ex7-2",
@@ -5093,8 +5285,8 @@
         {
           "id": "ch23-ex8-3",
           "n": 3,
-          "prompt": "First speaker: *ʻO ai ʻoe?* (Who are you?)",
-          "given": true
+          "prompt": "First speaker: ___ (Who are you?)",
+          "answer": "*ʻO ai ʻoe?*"
         },
         {
           "id": "ch23-ex8-4",
@@ -5389,39 +5581,39 @@
       "id": "ch24-ex5",
       "number": 5,
       "title": "Say no the right way",
-      "instructions": "Each sentence should be denied or forbidden. Choose the tool that fits its kind of sentence, and write the corrected version.",
+      "instructions": "Each item gives you a meaning in English. Decide which way of saying no, or of stopping, fits it, and write the Sāmoan. Item 1 starts from a sentence you already have.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
         {
           "id": "ch24-ex5-1",
           "n": 1,
-          "prompt": "Deny the statement *Sā siva le tama* with the not-word, so it means \"The boy did not dance.\"",
+          "prompt": "Start from *Sā siva le tama* and write \"The boy did not dance.\"",
           "answer": "*Sā lē siva le tama.*"
         },
         {
           "id": "ch24-ex5-2",
           "n": 2,
-          "prompt": "Forbid the action in a command so it means \"Don't gossip.\"",
+          "prompt": "\"Don't gossip.\"",
           "answer": "*ʻAua ʻe te faitala.*"
         },
         {
           "id": "ch24-ex5-3",
           "n": 3,
-          "prompt": "Tell someone to stop an action so it means \"Stop crying.\"",
+          "prompt": "\"Stop crying.\"",
           "answer": "*Sōia ʻe te tagi.*"
         },
         {
           "id": "ch24-ex5-4",
           "n": 4,
-          "prompt": "Forbid the action in a command so it means \"Don't dance.\"",
-          "answer": "*ʻAua ʻe te siva.*"
+          "prompt": "\"Don't try.\"",
+          "answer": "*ʻAua ʻe te taumafai.*"
         },
         {
           "id": "ch24-ex5-5",
           "n": 5,
-          "prompt": "Tell someone to stop an action so it means \"Stop gossiping.\"",
-          "answer": "*Sōia ʻe te faitala.*"
+          "prompt": "\"Don't stay.\" (said to one person)",
+          "answer": "*ʻAua ʻe te nofo.*"
         }
       ]
     }
@@ -5477,7 +5669,7 @@
       "id": "ch25-ex2",
       "number": 2,
       "title": "Translate into Sāmoan",
-      "instructions": "",
+      "instructions": "Give each answer as the bare naming part, without the presenting *ʻo*, except items 3 and 4, which are given whole with *ʻo*, as in the examples.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -5689,6 +5881,18 @@
           "n": 3,
           "prompt": "*oʻu fale* (we, but not you)",
           "answer": "*mātou fale*"
+        },
+        {
+          "id": "ch25-ex6-4",
+          "n": 4,
+          "prompt": "*loʻu fale* (you all)",
+          "answer": "*le ʻoutou fale*"
+        },
+        {
+          "id": "ch25-ex6-5",
+          "n": 5,
+          "prompt": "*aʻu ipu* (the two of them)",
+          "answer": "*lā ipu*"
         }
       ]
     }
@@ -5887,6 +6091,12 @@
           "n": 7,
           "prompt": "further towards the west",
           "answer": "*gagafō*"
+        },
+        {
+          "id": "ch26-ex4-8",
+          "n": 8,
+          "prompt": "a little towards the sea",
+          "answer": "*gātai*"
         }
       ]
     },
@@ -5961,6 +6171,18 @@
           "n": 3,
           "prompt": "What does *tuāʻau* mean?",
           "answer": "The space behind the reef."
+        },
+        {
+          "id": "ch26-ex6-4",
+          "n": 4,
+          "prompt": "Which fused word means \"the front of the house\"?",
+          "answer": "*lumāfale*"
+        },
+        {
+          "id": "ch26-ex6-5",
+          "n": 5,
+          "prompt": "Which fused word means \"the space behind the reef\"?",
+          "answer": "*tuāʻau*"
         }
       ]
     },
@@ -6048,7 +6270,7 @@
           "id": "ch27-ex1-6",
           "n": 6,
           "prompt": "*Sā ia sasa le tama.*",
-          "answer": "He hit the boy."
+          "answer": "He (or She) hit the boy."
         }
       ]
     },
@@ -6486,8 +6708,8 @@
     {
       "id": "ch28-ex4",
       "number": 4,
-      "title": "Read a built word you have not met",
-      "instructions": "Each of these is built by a rule you have just learned, on a word from the list above. Take the prefix off, name the word inside, and give the meaning of the whole.",
+      "title": "Read a built word",
+      "instructions": "Each of these is built by a rule you have just learned, on a word from the list above. Take the prefix off, name the word inside, and give the meaning of the whole. The first two are built words you have not met in this chapter; the last three you have.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -6502,6 +6724,24 @@
           "n": 2,
           "prompt": "*faʻalētatau*",
           "answer": "*tatau*, fit, proper, with the not-word *lē* in the middle. The built word is the gentle negative, so *faʻalētatau* means in an unseemly fashion."
+        },
+        {
+          "id": "ch28-ex4-3",
+          "n": 3,
+          "prompt": "*faʻalētonu*",
+          "answer": "*tonu*, right, correct, with the not-word *lē* in the middle. The built word is the gentle negative, so *faʻalētonu* means uncertain, doubtful."
+        },
+        {
+          "id": "ch28-ex4-4",
+          "n": 4,
+          "prompt": "*faʻamāsima*",
+          "answer": "*māsima*, salt. The built word is the putting-a-thing-onto-something job, so *faʻamāsima* means to salt."
+        },
+        {
+          "id": "ch28-ex4-5",
+          "n": 5,
+          "prompt": "*faʻagoto*",
+          "answer": "*goto*, sink, set. The built word is the making-something-happen job, so *faʻagoto* means make sink."
         }
       ]
     },
@@ -6809,7 +7049,7 @@
         {
           "id": "ch29-ex3-2",
           "n": 2,
-          "prompt": "The girl cried out to her father.",
+          "prompt": "The girl cried out to her father, away from the speaker.",
           "answer": "*ʻUa tagi atu le teine ʻi lona tamā.* (*Na tagi atu le teine ʻi lona tamā*, with the one-off past particle, is also right; the English does not say which.)"
         },
         {
@@ -7026,7 +7266,7 @@
           "id": "ch30-ex1-6",
           "n": 6,
           "prompt": "*E faʻasā ona tausi ni pusi.*",
-          "answer": "It is forbidden to keep cats."
+          "answer": "It is forbidden to keep cats; someone has forbidden it."
         },
         {
           "id": "ch30-ex1-7",
@@ -7161,7 +7401,7 @@
           "id": "ch30-ex3-3",
           "n": 3,
           "prompt": "I can go.",
-          "answer": "*ʻOu te mafai ona ʻou alu.*"
+          "answer": "*ʻOu te mafai ona ʻou alu.* (*E mafai ona ʻou alu* is also right, with the speaker named only inside the clause.)"
         },
         {
           "id": "ch30-ex3-4",
@@ -7178,7 +7418,7 @@
         {
           "id": "ch30-ex3-6",
           "n": 6,
-          "prompt": "It is forbidden to keep cats.",
+          "prompt": "Someone has forbidden the keeping of cats.",
           "answer": "*E faʻasā ona tausi ni pusi.*"
         }
       ]
@@ -7311,7 +7551,7 @@
           "id": "ch30-ex6-6",
           "n": 6,
           "prompt": "*lavā*",
-          "answer": "be able, almost always as *lē lavā*, cannot"
+          "answer": "be able, mostly as *lē lavā*, cannot"
         },
         {
           "id": "ch30-ex6-7",
@@ -7659,7 +7899,7 @@
       "number": 2,
       "title": "Give the long form",
       "instructions": "Write both long forms of each verb.",
-      "answerNote": "Either ending is correct in every one of these. Of the two, *=a* is the one you will mostly hear in everyday speech and *=ina* the one you will mostly read.",
+      "answerNote": "Either ending is correct in every one of these. Of the two, *=a* is the one you will mostly hear in everyday speech and *=ina* the one you will meet more in formal writing.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -7741,6 +7981,7 @@
       "number": 4,
       "title": "Forbid it",
       "instructions": "Write each forbidding sentence in Sāmoan, using *ʻaua le* and the long form.",
+      "answerNote": "In item 4 the verb stands with no direction word, and the context makes it selling.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -7765,7 +8006,7 @@
         {
           "id": "ch32-ex4-4",
           "n": 4,
-          "prompt": "Don't sell that boat.",
+          "prompt": "Don't sell that boat. (Lit. \"Don't trade that boat.\")",
           "answer": "*ʻAua le faʻatau=a le vaʻa lenā.*"
         },
         {
@@ -8184,7 +8425,7 @@
           "id": "ch33-ex6-4",
           "n": 4,
           "prompt": "*ataliʻi*",
-          "answer": "son"
+          "answer": "a man's son"
         },
         {
           "id": "ch33-ex6-5",
@@ -8271,19 +8512,19 @@
         {
           "id": "ch34-ex2-1",
           "n": 1,
-          "prompt": "The girl worked in the plantation.",
+          "prompt": "The girl worked in the plantation, with the girl first.",
           "answer": "*ʻO le teine sā galue ʻi le faʻatoʻaga.*"
         },
         {
           "id": "ch34-ex2-2",
           "n": 2,
-          "prompt": "The girl ate (all of) the fish.",
+          "prompt": "The girl ate (all of) the fish, with the fish first.",
           "answer": "*ʻO le iʻa sā ʻai e le teine.*"
         },
         {
           "id": "ch34-ex2-3",
           "n": 3,
-          "prompt": "The service is finished.",
+          "prompt": "The service is finished, with the service first.",
           "answer": "*ʻO le lotu ʻua ʻuma.*"
         },
         {
@@ -8295,7 +8536,7 @@
         {
           "id": "ch34-ex2-5",
           "n": 5,
-          "prompt": "I live inside the house.",
+          "prompt": "I live inside the house, with \"I\" first.",
           "answer": "*ʻO aʻu ʻou te nofo ʻi totonu o le fale.*"
         },
         {
@@ -8310,7 +8551,7 @@
       "id": "ch34-ex3",
       "number": 3,
       "title": "Put the named participant first",
-      "instructions": "Rewrite each sentence with the participant named in brackets at the head, and give the verb the shape that goes with it.",
+      "instructions": "Rewrite each sentence with the participant named in brackets at the head, and give the verb the shape that goes with it. In item 5, *lagona* stays as it stands.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -8420,7 +8661,7 @@
           "id": "ch34-ex5-3",
           "n": 3,
           "prompt": "*___ le faʻatoʻaga sā galue ai le tama.* (In the plantation the boy worked there.)",
-          "answer": "*ʻi le faʻatoʻaga sā galue ai le tama.*",
+          "answer": "*ʻI le faʻatoʻaga sā galue ai le tama.*",
           "options": [
             "*ʻo*",
             "*ʻi*"
@@ -8972,7 +9213,7 @@
         {
           "id": "ch36-ex5-1",
           "n": 1,
-          "prompt": "It rained and the water overflowed.",
+          "prompt": "It rained and the water overflowed, with the tense particle repeated after *ma*.",
           "answer": "*Sā timu ma sā lolo le vai.*"
         },
         {
@@ -8990,7 +9231,7 @@
         {
           "id": "ch36-ex5-4",
           "n": 4,
-          "prompt": "The bus arrived before seven o'clock.",
+          "prompt": "The bus arrived before seven o'clock, using the *ʻaʻo* combination.",
           "answer": "*Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.*"
         },
         {
@@ -9002,7 +9243,7 @@
         {
           "id": "ch36-ex5-6",
           "n": 6,
-          "prompt": "The bus arrived and the girl went to the school.",
+          "prompt": "The bus arrived and the girl went to the school, with the tense particle repeated after *ma*.",
           "answer": "*Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.*"
         }
       ]
@@ -9048,8 +9289,8 @@
         {
           "id": "ch36-ex6-6",
           "n": 6,
-          "prompt": "*atili*",
-          "answer": "increase"
+          "prompt": "*māfaufau*",
+          "answer": "think, consider"
         },
         {
           "id": "ch36-ex6-7",
@@ -9280,25 +9521,25 @@
         {
           "id": "ch37-ex5-2",
           "n": 2,
-          "prompt": "Then the girl answered.",
+          "prompt": "Then the girl answered. (the full shape)",
           "answer": "*Ona tali atu lea ʻo le teine.*"
         },
         {
           "id": "ch37-ex5-3",
           "n": 3,
-          "prompt": "Then the ogre jumped into the sea.",
+          "prompt": "Then the ogre jumped into the sea. (the full shape)",
           "answer": "*Ona oso lea ʻo le saʻai ʻi le sami.*"
         },
         {
           "id": "ch37-ex5-4",
           "n": 4,
-          "prompt": "Then the river overflowed.",
+          "prompt": "Then the river overflowed. (the full shape)",
           "answer": "*Ona lolo lea ʻo le vaitafe.*"
         },
         {
           "id": "ch37-ex5-5",
           "n": 5,
-          "prompt": "Then the girl hid in the cluster of branches.",
+          "prompt": "Then the girl hid in the cluster of branches. (the full shape)",
           "answer": "*Ona lilo atu lea ʻo le teine ʻi le toga lālā.*"
         },
         {
@@ -9902,7 +10143,7 @@
         {
           "id": "ch39-ex5-1",
           "n": 1,
-          "prompt": "If you go to the village, I go.",
+          "prompt": "If you go to the village, I'll go.",
           "answer": "*ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.*"
         },
         {
@@ -10300,6 +10541,12 @@
           "n": 10,
           "prompt": "*taugōfie*",
           "answer": "cheap"
+        },
+        {
+          "id": "ch40-ex6-11",
+          "n": 11,
+          "prompt": "*fefe*",
+          "answer": "fear, be afraid"
         }
       ]
     }
@@ -10453,7 +10700,7 @@
       "id": "ch41-ex4",
       "number": 4,
       "title": "Translate into Sāmoan",
-      "instructions": "",
+      "instructions": "Use the particle given in brackets.",
       "placement": "inline",
       "type": "reveal",
       "items": [
@@ -10472,7 +10719,7 @@
         {
           "id": "ch41-ex4-3",
           "n": 3,
-          "prompt": "I must go.",
+          "prompt": "I must go. (*ʻua*)",
           "answer": "*ʻUa tatau ona ʻou alu.*"
         },
         {
@@ -11205,38 +11452,38 @@
       "id": "ch43-ex4",
       "number": 4,
       "title": "Translate into Sāmoan",
-      "instructions": "",
+      "instructions": "Use the particle given in brackets.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
         {
           "id": "ch43-ex4-1",
           "n": 1,
-          "prompt": "the woman who went to the village",
+          "prompt": "the woman who went to the village (*sā*)",
           "answer": "*ʻO le fafine sā alu ʻi le nuʻu.*"
         },
         {
           "id": "ch43-ex4-2",
           "n": 2,
-          "prompt": "the boy who slept in the house",
+          "prompt": "the boy who slept in the house (*sā*)",
           "answer": "*ʻO le tama sā moe ʻi le fale.*"
         },
         {
           "id": "ch43-ex4-3",
           "n": 3,
-          "prompt": "the wealth my friends got",
+          "prompt": "the wealth my friends got (*ʻua*)",
           "answer": "*le tamāoʻāiga ʻua maua e aʻu uō*"
         },
         {
           "id": "ch43-ex4-4",
           "n": 4,
-          "prompt": "the day the girl danced",
+          "prompt": "the day the girl danced (*sā*)",
           "answer": "*ʻO le aso sā siva ai le teine.*"
         },
         {
           "id": "ch43-ex4-5",
           "n": 5,
-          "prompt": "the one who was overanxious",
+          "prompt": "the one who was overanxious (*sā*)",
           "answer": "*ʻO lē sā popolevale.*"
         },
         {
@@ -11248,19 +11495,19 @@
         {
           "id": "ch43-ex4-7",
           "n": 7,
-          "prompt": "the man whose leg was hurt",
+          "prompt": "the man whose leg is hurt",
           "answer": "*ʻO le tamāloa e manuʻa le vae.*"
         },
         {
           "id": "ch43-ex4-8",
           "n": 8,
-          "prompt": "the place where the boy bathed",
+          "prompt": "the place where the boy bathed (*sā*)",
           "answer": "*ʻO le mea sā tāʻele ai le tama.*"
         },
         {
           "id": "ch43-ex4-9",
           "n": 9,
-          "prompt": "the day the man died",
+          "prompt": "the day the man died (*sā*)",
           "answer": "*ʻO le aso sā oti ai le tamāloa.*"
         }
       ]
@@ -11335,7 +11582,7 @@
           "id": "ch43-ex6-4",
           "n": 4,
           "prompt": "*taufi*",
-          "answer": "cover"
+          "answer": "cover (more than one thing covered)"
         },
         {
           "id": "ch43-ex6-5",
@@ -11423,7 +11670,7 @@
           "id": "ch44-ex2-1",
           "n": 1,
           "prompt": "*Talu ona ʻou alu ʻou te leʻi maua se mea lelei.*",
-          "answer": "*ona ʻou alu*, the clause after the since-word *talu*."
+          "answer": "*ʻou alu*, the clause after the since-word *talu*, opened by the that-word *ona*."
         },
         {
           "id": "ch44-ex2-2",
@@ -11440,8 +11687,8 @@
         {
           "id": "ch44-ex2-4",
           "n": 4,
-          "prompt": "*ʻO lona tolu o aso talu ona ʻou sau, sā ʻou vaʻai ʻi le teine.*",
-          "answer": "*ona ʻou sau*, the clause after the since-word, with the stretch of time *ʻo lona tolu o aso* named in front of it."
+          "prompt": "*ʻO lona tolu o aso talu ona ʻou sau, sā ʻou vaʻai atu ai ʻi le teine.*",
+          "answer": "*ʻou sau*, the clause after the since-word, opened by the that-word *ona*, with the stretch of time *ʻo lona tolu o aso* named in front of it."
         },
         {
           "id": "ch44-ex2-5",
@@ -11793,7 +12040,7 @@
       "id": "ch45-ex3",
       "number": 3,
       "title": "Make a le-phrase",
-      "instructions": "Rewrite each sentence as a le-phrase naming the one the event is about, and keep every other part of the sentence unchanged. Where the doing may be pointed at or left unsaid, point at it. Where a part of the sentence is left over after the le-phrase, write the whole line the way this chapter prints it, beginning with *ʻO*; where nothing is left over, write the phrase on its own.",
+      "instructions": "Rewrite each sentence as a le-phrase naming the one the event is about, and keep every other part of the sentence unchanged. Where the doing may be pointed at or left unsaid, point at it, except in items 1 to 3, which keep *o*. Where a part of the sentence is left over after the le-phrase, write the whole line the way this chapter prints it, beginning with *ʻO*; where nothing is left over, write the phrase on its own.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -12027,7 +12274,7 @@
           "id": "ch45-ex7-8",
           "n": 8,
           "prompt": "*kī*",
-          "answer": "key"
+          "answer": "key; switch on"
         }
       ]
     }
@@ -12209,7 +12456,7 @@
       "id": "ch46-ex5",
       "number": 5,
       "title": "Translate into Sāmoan",
-      "instructions": "",
+      "instructions": "Begin the exclamation with *ʻO*.",
       "placement": "exercises",
       "type": "reveal",
       "items": [
@@ -13785,7 +14032,7 @@
           "id": "ch50-ex5-3",
           "n": 3,
           "prompt": "tomorrow morning (*taeao*)",
-          "answer": "*ātaeao*"
+          "answer": "*ātaeao* (or *ʻātaeao*, the variant the page also prints for this word)"
         },
         {
           "id": "ch50-ex5-4",
@@ -13796,8 +14043,8 @@
         {
           "id": "ch50-ex5-5",
           "n": 5,
-          "prompt": "love one another (*alofa*)",
-          "answer": "*fealofani*"
+          "prompt": "go quickly, hurry (*alu*)",
+          "answer": "*fealuaʻi*"
         },
         {
           "id": "ch50-ex5-6",

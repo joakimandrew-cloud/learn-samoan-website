@@ -17,7 +17,7 @@ what should not happen.
 :::
 
 Neither sentence has a tense particle. In the first, *ʻia* stands where *sā* or
-*ʻua* would stand, in front of the preverbal pronoun *tātou* (we, you and I) and
+*ʻua* would stand, in front of the preverbal pronoun *tātou* (we, you and I and others) and
 the verb *ʻonosaʻi* (be patient). In the second, *seʻi* stands in the same place,
 in front of *oʻu*, the second shape of the word for I, and *alu muamua* (go
 first). Neither word says when the event happens. Each says how the speaker
@@ -227,8 +227,9 @@ at all; the clause names the clothes.
 not. Here the dirty finger-nails are what the not-touching guards against.
 *Tago* (touch) takes the place word before what is touched, *palapalā* (dirty)
 fills the verb slot of the second clause, and *atigi-lima* (finger-nail) is one
-word built from the words for shell and hand, joined by the equals sign. *Ona*
-is the her-word for more than one particular thing, formed as *oʻu* is for my.
+word built from the words for shell and hand, joined by a hyphen. *Ona* is the
+third-person (his, her or its) form for more than one particular thing, translated
+"her" here because the person is a woman, formed as *oʻu* is for my.
 
 A *neʻi* clause always depends on another clause and never stands alone as a
 sentence. That is what separates it from the not-word *lē*, which the first
@@ -249,9 +250,10 @@ leans on another clause.
 *ʻAua neʻi ʻe siva.* Don't dance.
 :::
 
-After the do-not verb *ʻaua*, what should not be done is said in one of two
-ways: with the general particle met earlier, *e* (*te* after a pronoun), or with
-*neʻi*. Both sentences here have the preverbal pronoun *ʻe*, so the first shows
+After the do-not verb *ʻaua*, when what should not be done is said as a clause
+with its own verb, it takes one of two forms: the general particle met earlier,
+*e* (*te* after a pronoun), or *neʻi*. The le-phrase met earlier still stands
+after *ʻaua* as well. Both sentences here have the preverbal pronoun *ʻe*, so the first shows
 *te*: the pronoun, then *te*, then the verb. The second has *neʻi*, then the
 pronoun, then the verb. The pronoun stands in front of *te* but behind *neʻi*.
 
@@ -276,8 +278,8 @@ noise.
 *ʻO le isi foʻi mea e popole ʻi ai le faifeʻau, neʻi tei ʻua foʻi le malaga ʻi Sāmoa.* Another thing the pastor was worried about was that the travel party might suddenly return to Sāmoa. (Lit. "The other also thing the pastor worries about, lest suddenly has returned the travel party to Sāmoa.")
 :::
 
-*Popole* (worry) names a feeling about something that should not happen, and the
-thing worried about is put in a *neʻi* clause. Here the *neʻi* clause names what
+In this example *popole* (worry) names a feeling about something that should not
+happen, and what the pastor worries about is put in a *neʻi* clause. Here the *neʻi* clause names what
 the *faifeʻau* (pastor) was worried about: the travel party coming back. *Foʻi*
 stands twice, meaning also the first time and return the second, and *tei* here
 means happen suddenly.

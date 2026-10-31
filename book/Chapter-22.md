@@ -2,8 +2,9 @@
 
 This chapter teaches the counting construction: a Sāmoan number is a kind of
 verb, so the number of particular things is set after the noun with the general
-particle *e* (*tama e tolu*, three boys), and the same shape tells the clock
-hour. It also adds the way to count people and to put things in order.
+particle *e* (*tama e tolu*, the three boys), and the same shape tells the clock
+hour. It also adds the way to count people, to state a price, and to put things
+in order.
 
 ---
 
@@ -73,7 +74,8 @@ counts like a number, taking the general particle *e*:
 ### Amounts and Buying
 
 When you count a thing by the container or measure it comes in, the number and
-the measure word sit together in front, after *le*: *le lua ipu* is "two cups".
+the measure word sit together in front, after *le*: *le lua ipu* is "two cups" as
+an amount.
 Add the thing measured and you can ask for an amount at a shop or a table:
 
 ::: {.examples}
@@ -85,7 +87,7 @@ not a particular one, "any two", the number takes the non-specific article *se*
 and follows the noun marked with *ni*:
 
 ::: {.examples}
-*ni ipu se lua*. two cups
+*ni ipu se lua*. any two cups
 :::
 
 And when you count a span as a whole rather than one by one, the number stands
@@ -93,12 +95,26 @@ first with the belonging word *o*: *le tolu o aso* is "the three days", counted
 as one stretch of time.
 
 ::: {.examples}
-*le tolu o aso*. the three days
+*le tolu o aso*. the three days, as one stretch
 :::
 
-> *Note:* The counting shape here is the same one a price uses: a number, a
-> measure such as the cup or the plate, and the thing measured. This chapter
-> counts amounts by the cup, the plate, and the day rather than in money.
+The span can also be said as complete: *ʻātoa* (complete) is followed by the whole
+count.
+
+::: {.examples}
+*Na ʻātoa lelei le tolu o aso.* The three days were fully complete. (Lit. "The three of the days were well complete.")
+:::
+
+A price uses the same number. A number and a money unit, *tālā* (dollar) or
+*sene* (cent), act together as the verb of the sentence, with no thing counted
+after them:
+
+::: {.examples}
+*E lua tālā.* It is two dollars.
+:::
+
+This chapter counts amounts by the cup and the day, and prices by the dollar and
+the cent.
 
 ---
 
@@ -110,13 +126,20 @@ front of it. *Teine e toʻalua* is "the two girls", the same counting shape as
 
 | Phrase | Meaning |
 |---|---|
-| *Teine e toʻalua.* | the two girls |
+| *teine e toʻalua* | the two girls |
 
 The prefix marks the number as counting human beings, and it joins the other
 numbers the same way. It is not strictly required: you will also hear people
 counted with the plain number, as in *teine e fā*, "the four girls". With people,
 though, the prefix is the careful form, and everyday speech often leaves it off.
 The number itself does not change; only the prefix is added.
+
+The how-many word takes the prefix in the same way when what you ask about is
+people: *fia* becomes *toʻafia*.
+
+::: {.examples}
+*E toʻafia lau fānau?* How many children do you have? (Lit. "How many are your offspring?")
+:::
 
 > **Preview:** Sāmoan also has number forms that mean "so many each", the shape
 > that spreads a number over each thing or each person in a group, as in "five
@@ -128,10 +151,10 @@ The number itself does not change; only the prefix is added.
 
 ## Telling the Time
 
-The clock hour is a counting sentence built on the word *itūlā* (hour). To say
-what hour it is, name the hour and count it: *ʻi le itūlā e tolu*, "at three
-o'clock", is "at the hour that is three", the same *e* and the same number you
-have been using all along.
+The clock hour is a counting phrase built on the word *itūlā* (hour). To say at
+what hour something happens, name the hour and count it: *ʻi le itūlā e tolu*,
+"at three o'clock", is "at the hour that is three", the same *e* and the same
+number you have been using all along.
 
 | Sāmoan | English |
 |---|---|
@@ -161,6 +184,8 @@ To say which part of the day, add the time word after the hour. *ʻi le taeao* i
 
 This tells the hour and no more. Counting the minutes past or before the hour,
 and forms like "half past" and "quarter to", are beyond what this chapter teaches.
+Saying what time it is now uses a different sentence, which this chapter does not
+teach.
 
 ---
 
@@ -193,9 +218,8 @@ means "last", each placed after the noun like a describing word:
 their place changes.
 
 > *Note:* A number set straight after the noun, with no *lona*, also names an
-> order in a few fixed uses, most often with dates: *le aso ono* is "the sixth
-> day". One other fixed use counts rather than orders. Use *lona* for the
-> everyday "the second", "the third".
+> order in a few fixed uses, and dates are one of them: *le aso ono* is "the sixth
+> day". Use *lona* for the everyday "the second", "the third".
 
 ---
 
@@ -209,6 +233,7 @@ their place changes.
 | *toʻa* | the counting prefix for people: usually put in front of a number when what you count is human beings |
 | *lona* | placed after a noun before a number, it names a place in an order (the second, the third) |
 | *uluaʻi* | first, placed in front of the noun (the same meaning as *muamua*) |
+| *toʻafia* | the how-many word with the people prefix: asks how many people |
 
 **New vocabulary** (memorize these meanings):
 
@@ -225,7 +250,12 @@ their place changes.
 | *sefulu* | ten |
 | *muamua* | first |
 | *mulimuli* | last |
-| *itūlā* | hour |
+| *ʻātoa* | complete |
+| *tālā* | dollar |
+| *sene* | cent |
+
+*Itūlā* (hour), met earlier in this book as a word to carry, comes into use in
+this chapter.
 
 ---
 
@@ -238,6 +268,11 @@ their place changes.
 3. *E fia aso?*
 4. *le fale lona lua*
 5. *ʻi le itūlā e lima*
+6. *ni ipu se lua*
+7. *le tolu o aso*
+8. *E toʻafia lau fānau?*
+9. *E lua tālā.*
+10. *Na ʻātoa lelei le tolu o aso.*
 
 ### Exercise 2: Translate into Sāmoan
 
@@ -272,7 +307,8 @@ two".
 
 ### Exercise 5: Put things in order
 
-Rewrite each phrase to name its place in an order, using *lona* and the number.
+Rewrite each phrase to name its place in an order. Items 1 to 3 use *lona* and
+the number; items 4 and 5 use the words for first and last.
 
 1. the house, second
 2. the day, third
@@ -291,11 +327,16 @@ Rewrite each phrase to name its place in an order, using *lona* and the number.
 3. How many days?
 4. the second house
 5. at five o'clock
+6. any two cups
+7. the three days, as one stretch
+8. How many children do you have?
+9. It is two dollars.
+10. The three days were fully complete.
 
 ### Exercise 2
 
-1. *teine e fā*
-2. *Teine e toʻalua.*
+1. *teine e fā* (the prefixed people count is also right)
+2. *teine e toʻalua*
 3. *ʻi le itūlā e iva*
 4. *le aso lona tolu*
 5. *le aso mulimuli*

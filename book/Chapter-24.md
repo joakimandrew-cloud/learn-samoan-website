@@ -39,10 +39,11 @@ is already plain from the moment:
 *ʻAua.* Don't.
 :::
 
-> **Preview:** When a forbidden action has a doer acting on something, its verb
-> often takes a longer shape than the plain one used here. That longer shape is
-> a fixed form to use as given for now; how it is built, and when it appears, is
-> taught in Chapter 32. The verbs in this chapter keep their plain shape.
+> **Preview:** When a forbidden action has a doer acting directly on something,
+> its verb often takes a longer shape than the plain one used here. That longer
+> shape is taught in Chapter 32. The verbs in this chapter keep their plain
+> shape: they either act on nothing, or reach what they act on with the place
+> word *ʻi*, as in *ʻAua ʻe te faʻasāunoa ʻi meaola*.
 
 ---
 
@@ -197,15 +198,15 @@ takes the singular verb, more than one takes the plural.
 
 ### Exercise 5: Say no the right way
 
-Each sentence should be denied or forbidden. Choose the tool that fits its kind
-of sentence, and write the corrected version.
+Each item gives you a meaning in English. Decide which way of saying no, or of
+stopping, fits it, and write the Sāmoan. Item 1 starts from a sentence you
+already have.
 
-1. Deny the statement *Sā siva le tama* with the not-word, so it means "The boy
-   did not dance."
-2. Forbid the action in a command so it means "Don't gossip."
-3. Tell someone to stop an action so it means "Stop crying."
-4. Forbid the action in a command so it means "Don't dance."
-5. Tell someone to stop an action so it means "Stop gossiping."
+1. Start from *Sā siva le tama* and write "The boy did not dance."
+2. "Don't gossip."
+3. "Stop crying."
+4. "Don't try."
+5. "Don't stay." (said to one person)
 
 ---
 
@@ -248,5 +249,5 @@ of sentence, and write the corrected version.
 1. *Sā lē siva le tama.*
 2. *ʻAua ʻe te faitala.*
 3. *Sōia ʻe te tagi.*
-4. *ʻAua ʻe te siva.*
-5. *Sōia ʻe te faitala.*
+4. *ʻAua ʻe te taumafai.*
+5. *ʻAua ʻe te nofo.*

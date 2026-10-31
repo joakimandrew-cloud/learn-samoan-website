@@ -62,8 +62,8 @@ measures away from a point the event fixes.
 *Na alu atu le tama.* The boy went off. (Lit. "Past go away the boy.")
 :::
 
-The direction word stands after the verb, in front of whoever did the action.
-Five of the six can be set in that slot on the verb *alu* (go), one after
+The direction word stands after the verb, and when the doer of the action is
+named after the verb, the direction word comes in front of it. Five of the six can be set in that slot on the verb *alu* (go), one after
 another, and nothing else moves:
 
 | Sāmoan | English |
@@ -88,8 +88,9 @@ comes before the direction word; the pointing-back word *ai* comes after it:
 | *Sā nofo aʻe ai le tama.* | The boy sat up there. |
 
 So the full order after the verb is: any describing word, then the direction
-word, then *ai* if the sentence has one. The doer of the action follows the
-whole group.
+word, then *ai* if the sentence has one. A doer named after the verb follows the
+whole group; a doer that stands in front of the verb, like the *ʻe* in
+*ʻE te lē popole mai* below, stays where it was.
 
 ---
 
@@ -169,7 +170,7 @@ telling it. *Sasao* (blaze, burn fiercely) and *afi* (fire) are new words here,
 and *sasao* stands as a noun in this sentence, the blaze of the fire.
 
 Both words of this pair are related to verbs of their own, *aʻe* (go up, climb)
-and *ifo* (bow down), and that is where their directions come from.
+and *ifo* (bow down).
 
 *Aʻe* can carry a note of politeness, and *ifo* sometimes carries one of humility
 or self-abasement, so you will meet *aʻe* on a verb of telling where nothing
@@ -269,7 +270,12 @@ Two of the nouns come with a sentence of their own:
 
 ::: {.examples}
 *ʻUa maua lou solosolo?* Have you got your handkerchief? (Lit. "Got your handkerchief?")
+
+*ʻO le tuagane o le fafine.* The brother of the woman.
 :::
+
+*Tuagane* is a brother seen from his sister's side, so this phrase names the
+brother of a woman, and the woman is the owner.
 
 *Solosolo* and *faʻamalu* are both o-words, so "your handkerchief" is
 *lou solosolo* and "your umbrella" is *lou faʻamalu*, with the possessive form
@@ -304,7 +310,7 @@ Fill the gap so the Sāmoan matches the English.
 ### Exercise 3: Translate into Sāmoan
 
 1. The boy went up.
-2. The girl cried out to her father.
+2. The girl cried out to her father, away from the speaker.
 3. Go away.
 4. The boy went past.
 5. The cat underneath the house.

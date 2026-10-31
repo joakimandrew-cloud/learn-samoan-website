@@ -20,20 +20,20 @@ The verb stands on its own.
 Read this pair aloud:
 
 ::: {.examples}
-*Sā ia nofo.* She stayed.
+*Sā ia nofo.* She sat down.
 
 *Nofo.* Sit down.
 :::
 
 Compare them. What is gone from the second?
 
-Two words are gone: the past particle *sā* and the person word *ia*. What
+Two words are gone: the past particle *sā* and the preverbal pronoun *ia*. What
 remains is the bare verb, and the bare verb is the command. A command carries
 no tense particle, and a bare command names no doer.
 
-In a bare command there is no word for the person you are speaking to. A command
-is aimed at whoever is listening, so Sāmoan leaves that person unsaid; the verb
-by itself already means "you, do this". The pattern of this chapter has one
+In the bare, one-person command of this chapter there is no word for the person
+you are speaking to. Such a command is aimed at whoever is listening, so the
+person is left unsaid; the verb by itself already means "you, do this". The pattern of this chapter has one
 part: the verb, with nothing in front of it.
 
 | Sāmoan | English |
@@ -68,9 +68,9 @@ pattern, because the words that negate a statement do not attach to a command.
 
 ## Commands with a Describing Word
 
-A command is a full verb phrase, so it can carry the describing word from the
-earlier chapter on describing verbs. Placed after the verb, the describing word
-says how the action is to be done:
+A command can carry a describing word, as a statement does in *Sā ia siva fiafia*
+("She danced happily"), where the describing word follows the verb. Placed after
+the verb in a command, the describing word says how the action is to be done:
 
 ::: {.examples}
 *Nofo vave.* Sit down at once.
@@ -83,8 +83,9 @@ word sits after the verb in a command, the same position it takes in a statement
 
 ## The Urging Words *Ia* and *ʻEa*
 
-Sāmoan often adds an urging word to the end of a command, giving it warmth or a
-push. The word *ia* attaches to commands almost to the exclusion of anything
+Sāmoan often adds an urging word to a command, straight after the verb, giving it
+warmth or a push. In this chapter's one-word commands that is also the end of the
+command. The word *ia* attaches to commands almost to the exclusion of anything
 else:
 
 ::: {.examples}
@@ -93,10 +94,15 @@ else:
 *Nofo ia.* Do sit down, then.
 :::
 
-A second urging word, *ʻea*, attaches to a command the same way. These words add
-force or friendliness; the command is complete without them.
+A second urging word, *ʻea*, attaches to a command the same way:
 
-> *Note:* The urging word *ia* is spelled the same as the person word *ia* (he,
+::: {.examples}
+*Nofo ʻea.* Do sit down.
+:::
+
+These words add force or friendliness; the command is complete without them.
+
+> *Note:* The urging word *ia* is spelled the same as the preverbal pronoun *ia* (he,
 > she) from the earlier chapters. In a bare command there is no tense particle
 > and no doer, so an *ia* sitting after the bare verb is the urging word, not
 > "he" or "she".
@@ -113,7 +119,7 @@ force or friendliness; the command is complete without them.
 
 | Word | What it does |
 |---|---|
-| *ia* | the urging word: added to the end of a command for warmth or a push (not the person word *ia*) |
+| *ia* | the urging word: added straight after the verb of a command for warmth or a push (not the preverbal pronoun *ia*) |
 | *ʻea* | a second urging word, added to a command the same way |
 
 **New vocabulary** (memorize these meanings):
@@ -153,12 +159,13 @@ Make a command for one person.
 
 ### Exercise 3: Turn each statement into a command
 
-Drop the tense particle and the person word, and leave the bare verb.
+Drop the tense particle and the preverbal pronoun, and leave the bare verb.
 
 1. *Sā ia nofo.*
 2. *Sā ia salu.*
 3. *Sā ia tāpuni.*
 4. *Sā ia faʻatali.*
+5. *Sā ia fufulu.*
 
 ### Exercise 4: Match each word to its meaning
 
@@ -176,11 +183,13 @@ e. shut
 
 ### Exercise 5: Add the urging word *ia*
 
-Rewrite each command with *ia* added at the end.
+Rewrite each command with *ia* added straight after the verb.
 
 1. *Sau.*
 2. *Nofo.*
 3. *Faʻatali.*
+4. *Salu.*
+5. *Alu.*
 
 ---
 
@@ -208,6 +217,7 @@ Rewrite each command with *ia* added at the end.
 2. *Salu.*
 3. *Tāpuni.*
 4. *Faʻatali.*
+5. *Fufulu.*
 
 ### Exercise 4
 
@@ -218,3 +228,5 @@ Rewrite each command with *ia* added at the end.
 1. *Sau ia.*
 2. *Nofo ia.*
 3. *Faʻatali ia.*
+4. *Salu ia.*
+5. *Alu ia.*

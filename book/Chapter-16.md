@@ -17,13 +17,14 @@ same work for the goal of a movement, the "to there" of going and coming.
 
 Compare the two sentences. The first ends with the place, *ʻi le nuʻu* (in the
 village). In the second the place is gone, and a single word, *ai*, stands
-straight after the verb. That word is *ai*, the **pointing-back word**: it
+straight after the verb here. That word is *ai*, the **pointing-back word**: it
 stands in for a place already named, so the village named in the first sentence
 need not be named again in the second.
 
 *Ai* takes its own seat. The place phrase *ʻi le nuʻu* comes at the end of its
-sentence, after the doer. *Ai* does not go there. It falls right after the verb
-and before the doer, and it keeps that seat under every tense particle.
+sentence, after the doer. *Ai* does not go there. In the sentences you can build so far, it falls right
+after the verb and before the doer, and it keeps that seat under each tense
+particle this chapter uses.
 
 | Sāmoan | English |
 |---|---|
@@ -67,21 +68,24 @@ A place phrase can also come first, at the front of the sentence. When it does,
 *ai* still points back to it from inside the verb phrase:
 
 ::: {.examples}
-*ʻi le nuʻu sā nofo ai le teine.* In the village the girl lived there.
+*ʻI le nuʻu sā nofo ai le teine.* In the village the girl lived. (Lit. "In the
+village the girl lived there.")
 
-*ʻi le vasega sā fiafia ai le teine.* In the class the girl was happy there.
+*ʻI le vasega sā fiafia ai le teine.* In the class the girl was happy. (Lit. "In
+the class the girl was happy there.")
 :::
 
 The place leads, *ʻi le nuʻu* (in the village) or *ʻi le vasega* (in the class),
-and *ai* answers it later in the sentence. English does not double the place
-this way, so the second "there" can feel like one word too many; in Sāmoan it
-is the ordinary shape.
+and *ai* answers it later in the sentence. The English beside each example is
+the natural rendering; the (Lit.) line shows the sentence word for word. English
+does not double the place this way, so the second "there" can feel like one
+word too many; in Sāmoan it is the ordinary shape.
 
 That said, the copy is not required. You will mostly hear *ai* answer a fronted
 place, but the sentence is also correct without it:
 
 ::: {.examples}
-*ʻi le nuʻu sā nofo le teine.* In the village the girl lived.
+*ʻI le nuʻu sā nofo le teine.* In the village the girl lived.
 :::
 
 Both are good Sāmoan. When the place is already at the front, *ai* may point
@@ -114,13 +118,15 @@ of staying or doing takes bare *ai* for "there"; a verb of moving usually takes
 *ʻi ai* for "to there":
 
 ::: {.examples}
-*Sā alu le teine ʻi ai.* The girl went there.
+*Sā alu le teine ʻi ai.* The girl went there. (Lit. "The girl went to there.")
 
 *Sā nofo ai le teine.* The girl lived there.
 :::
 
 *Sā alu le teine ʻi ai* sends the girl toward the place. *Sā nofo ai le teine*
-holds her at the place. The one word *ʻi* in front is the whole difference. That
+holds her at the place. Two things differ: the verb, and the form of the
+pointer, since *ʻi ai* takes the seat of the goal phrase at the end of the
+sentence while bare *ai* sits straight after the verb. That
 sorting holds most of the time rather than always: the two forms are drifting
 together, and a number of verbs of moving are found with either one.
 
@@ -137,7 +143,7 @@ together, and a number of verbs of moving are found with either one.
 
 | Word | What it does |
 |---|---|
-| *ai* | the pointing-back word: stands in for a place already named; sits after the verb, before the doer |
+| *ai* | the pointing-back word: stands in for a place already named; in this chapter's sentences it sits after the verb, before the doer |
 | *ʻi ai* | the "to there" form: the pointing-back word with the place word *ʻi* in front, for the goal of a movement |
 
 **New vocabulary** (memorize these meanings):
@@ -150,8 +156,16 @@ together, and a number of verbs of moving are found with either one.
 | *umu* | oven; oven-food |
 | *pito* | end |
 | *vasega* | class |
-| *isi* | other |
 | *leitio* | radio |
+
+**Words to carry** (learned now, used fully later in this book):
+
+| Word | Meaning |
+|---|---|
+| *isi* | other |
+
+*Isi* is learned now; it stands in front of a noun, and the sentences that put
+it there arrive later in this book.
 
 ---
 
@@ -162,7 +176,7 @@ together, and a number of verbs of moving are found with either one.
 1. *Sā nofo ai le teine.*
 2. *Sā mālōlō ai le tama.*
 3. *Sā alu le tama ʻi ai.*
-4. *ʻi le nuʻu sā nofo ai le teine.*
+4. *ʻI le nuʻu sā nofo ai le teine.*
 5. *Sā nofo ai le aitu.*
 
 ### Exercise 2: Translate into Sāmoan
@@ -218,7 +232,7 @@ e. answer
 1. The girl lived there.
 2. The boy rested there.
 3. The boy went there.
-4. In the village the girl lived there.
+4. In the village the girl lived. (Lit. "In the village the girl lived there."; both renderings are accepted.)
 5. The spirit lived there.
 
 ### Exercise 2
@@ -226,7 +240,7 @@ e. answer
 1. *Sā mālōlō ai le tama.*
 2. *Sā alu le teine ʻi ai.*
 3. *Sā nofo ai le teine.*
-4. *ʻi le vasega sā fiafia ai le teine.*
+4. *ʻI le vasega sā fiafia ai le teine.*
 5. *Sā nofo ai le aitu.*
 
 ### Exercise 3

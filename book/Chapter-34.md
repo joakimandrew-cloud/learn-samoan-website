@@ -16,6 +16,8 @@ pointing-back word *ai* both answer to that move.
 *ʻO le tama sā galue ʻi le faʻatoʻaga.* The boy worked in the plantation. (Lit. "Presenting the boy, past work in the plantation.")
 :::
 
+*faʻatoʻaga* means "plantation".
+
 Compare them, and ask which of the words has moved.
 
 The doer is what moved. In the first sentence the verb comes first and *le tama*
@@ -39,6 +41,8 @@ with that phrase's ordinary slot left empty.
 | *ʻO le tama sā galue ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
 | *ʻO le teine sā galue ʻi le faʻatoʻaga.* | The girl worked in the plantation. |
 | *ʻO le lotu ʻua ʻuma.* | The service is finished. |
+
+*ʻuma* means "be finished".
 
 The last row is the same move on a shorter sentence, and here is the pair it
 comes from:
@@ -69,6 +73,8 @@ required, since the front pronoun can stand alone.
 ::: {.examples}
 *Sā tapē e le tama le puaʻa.* The boy killed the pig.
 :::
+
+*tapē* means "kill".
 
 This sentence has two participants: *le tama*, the doer, marked with the agent
 marker *e*, and *le puaʻa*, the thing acted on. Either of them can go to the
@@ -122,6 +128,8 @@ What moves to the front is the whole phrase, however long it runs:
 *ʻO le leo o le pepe na lagona e le tinā.* The mother heard the voice of the baby.
 :::
 
+*lagona* means "hear".
+
 The thing heard is *le leo o le pepe*, the voice of the baby, and all five words
 travel to the front together.
 
@@ -150,6 +158,8 @@ carries neither *ʻo* nor the place word *ʻi* when it goes first.
 *Soʻo se tagata e tatau ona ʻaumai se falaoa.* Anybody should bring some bread.
 :::
 
+*falaoa* means "bread".
+
 *Naʻo* means "only", and it behaves the same way. It comes in front of the
 article, *naʻo le tama*, and the phrase goes to the head of the sentence bare:
 
@@ -169,9 +179,9 @@ way of doing it was taught earlier in this book: the phrase keeps the place word
 *ʻi*, and the pointing-back word *ai* answers it from inside the verb phrase.
 
 ::: {.examples}
-*ʻi le faʻatoʻaga sā galue ai le tama.* In the plantation the boy worked there.
+*ʻI le faʻatoʻaga sā galue ai le tama.* In the plantation the boy worked there.
 
-*ʻi le faʻatoʻaga sā galue le tama.* In the plantation the boy worked.
+*ʻI le faʻatoʻaga sā galue le tama.* In the plantation the boy worked.
 :::
 
 *Ai* is normal here and not compulsory, as the second sentence shows.
@@ -190,8 +200,8 @@ doer, and *ai* appears in both.
 | Sāmoan | English |
 |---|---|
 | *Sā galue le tama ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
-| *ʻi le faʻatoʻaga sā galue ai le tama.* | In the plantation the boy worked there. |
-| *ʻi le faʻatoʻaga sā galue le tama.* | In the plantation the boy worked. |
+| *ʻI le faʻatoʻaga sā galue ai le tama.* | In the plantation the boy worked there. |
+| *ʻI le faʻatoʻaga sā galue le tama.* | In the plantation the boy worked. |
 | *ʻO le faʻatoʻaga sā galue ai le tama.* | The boy worked in the plantation. |
 
 ---
@@ -217,9 +227,9 @@ at the front, and the two people are set against each other:
 *ʻO ʻoe ʻe te leʻi vaʻai ʻi ai.* You did not see it.
 :::
 
-The third job is weight on one word. Nothing else about *ʻO le tama sā tapē=ina
-le puaʻa* differs from the ordinary order, so moving the boy to the front is
-what marks him as the point of the sentence.
+The third job is weight on one word. No word of emphasis is added to *ʻO le tama
+sā tapē=ina le puaʻa*; the boy is put first, and being first is what marks him
+as the point of the sentence.
 
 The fourth job is the setting, the where and when of the sentence, which the
 place phrases in the section above were doing.
@@ -261,6 +271,8 @@ And when the part being named is a demonstrative, it must come second:
 
 *ʻO se uō lenā.* That is a friend.
 :::
+
+*faleoʻo* means "a small house".
 
 *Lenā* cannot lead, so the naming part comes first and the demonstrative follows
 it, every time.
@@ -309,7 +321,7 @@ it, every time.
 of can be put first like any other:
 
 ::: {.examples}
-*ʻUa leaga le taʻavale.* The car is broken.
+*ʻUa leaga le taʻavale.* The car is broken. (Lit. "Now bad the car.")
 
 *ʻO le taʻavale ʻua leaga.* The car is broken.
 :::
@@ -330,17 +342,18 @@ of can be put first like any other:
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The girl worked in the plantation.
-2. The girl ate (all of) the fish.
-3. The service is finished.
+1. The girl worked in the plantation, with the girl first.
+2. The girl ate (all of) the fish, with the fish first.
+3. The service is finished, with the service first.
 4. That is a friend.
-5. I live inside the house.
+5. I live inside the house, with "I" first.
 6. Anybody should bring some bread.
 
 ### Exercise 3: Put the named participant first
 
 Rewrite each sentence with the participant named in brackets at the head, and
-give the verb the shape that goes with it.
+give the verb the shape that goes with it. In item 5, *lagona* stays as it
+stands.
 
 1. *Sā tapē e le tama le puaʻa.* (the thing acted on)
 2. *Sā tapē e le tama le puaʻa.* (the doer)
@@ -422,7 +435,7 @@ Put *ʻo* or *ʻi* into the gap so the Sāmoan matches the English.
 
 1. *ʻO le faʻatoʻaga sā galue ai le tama.*
 2. *ʻO aʻu ʻou te nofo ʻi totonu o le fale.*
-3. *ʻi le faʻatoʻaga sā galue ai le tama.*
+3. *ʻI le faʻatoʻaga sā galue ai le tama.*
 4. *Naʻo le tama e nofo ʻi totonu o le potu.*
 5. *ʻO le lotu ʻua ʻuma.*
 

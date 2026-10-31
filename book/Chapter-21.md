@@ -1,9 +1,9 @@
 # Chapter 21: Question Words
 
-This chapter adds the question words of the verb sentence, who, what, where, when,
-and how, each standing in the place of the thing it asks about. The fact this
-chapter turns on is that the word for "when" comes in two shapes, one for future
-time and one for past.
+This chapter adds the set of question words for the verb sentence, with who,
+when (future and past) and how put to use, and what and where recalled from
+earlier sentence types. The fact this chapter turns on is that the word for
+"when" comes in two shapes, one for future time and one for past.
 
 ---
 
@@ -13,9 +13,9 @@ time and one for past.
 *ʻO ai na alu?* Who went?
 :::
 
-The question word for a person is *ai*, "who". It comes to the front of the
-sentence with the presenting particle *ʻo* in front of it, so the asking part is
-*ʻo ai*, and the action follows. Where a name or a noun phrase would tell you who
+The question word for a person is *ai*, "who". In the who-questions of this
+chapter it comes to the front of the sentence with the presenting particle *ʻo*
+in front of it, so the asking part is *ʻo ai*, and the action follows. Where a name or a noun phrase would tell you who
 did the going, *ʻo ai* asks for it instead.
 
 You have met this word before. Earlier in this book *ʻo ai* asked who someone is
@@ -46,12 +46,15 @@ is complete and are taught later in this book.
 | *fia* | how many |
 | *ʻaiseā* | why |
 
-Sāmoan also has *lēfea* (which), for asking which one of several. It is not
-drilled in this chapter.
+Sāmoan also has *lēfea* (which), for asking which one of several. It is one to
+recognize when you meet it; this chapter does not drill it.
 
 > **Preview:** The word *fia* asks "how many". It belongs with the counting
 > words, so its full use, as in *E fia aso?* ("How many days are there?"), is
 > taught with the numbers in Chapter 22.
+
+> *Note:* The *fia* that asks "how many" is a different word from the *fia*
+> "want" met earlier in this book. Same spelling, different job.
 
 > **Preview:** The word *ʻaiseā* asks "why". Asking why leans on machinery that
 > arrives later, so *ʻaiseā* is completed in Chapter 38.
@@ -79,16 +82,17 @@ when-word *anafea* rides a past sentence. Asking about future time with the past
 word, or about past time with the future word, does not match.
 
 This is the same split you met in the time words earlier in this book: a word
-beginning with *ana-* points back to past time, and a word beginning with *ʻā-*
-points forward to future time. The when-words carry that same front, *anafea*
-with the past *ana-* and *āfea* with the future *ʻā-*.
+beginning with *ana-* points back to past time, and a word beginning with *ā-*
+points forward to future time (print also shows this front with a catch, *ʻā-*).
+The when-words carry that same front, *anafea* with the past *ana-* and *āfea*
+with the future *ā-*.
 
 When the when-word comes to the front like this, the pointing-back word *ai*
 appears inside the verb, holding the place the when-word left. That is the *ai*
 sitting after *moe* in both questions above.
 
-> *Note:* This *ai* is not the question word for "who" met in Chapter 8. Same
-> spelling, different job: that *ai* opens a naming question after *ʻo*, while
+> *Note:* This *ai* is not the question word for "who" met earlier in this book.
+> Same spelling, different job: that *ai* stands at the front, after *ʻo*, while
 > this *ai* sits inside the verb and points back to the when-word fronted ahead
 > of it.
 
@@ -170,7 +174,7 @@ The same shape asks after any thing or person whose place you want:
 Not every question has a question word. A yes or no question has none: it keeps
 the words and the order of the statement, and often changes only the voice,
 which usually falls and stays low over the last two or three syllables. Sāmoan
-also has two small question-marking words, met earlier in this book, that a
+also has two question-marking words, met earlier in this book, that a
 speaker can add; they are optional, and this chapter leaves them aside. The
 falling tune is marked with the arrow ↘, the same way it was marked earlier in
 this book:
@@ -192,6 +196,16 @@ three syllables; this book marks the arrow on the yes or no questions.
 
 ## Words to Learn
 
+**New grammar words** (memorize how these work):
+
+| Word | What it does |
+|---|---|
+| *ai* | the who-word: asks who; in this chapter's questions it comes to the front after *ʻo* |
+| *āfea* | the future when-word: asks when about future time and goes with the future particle *ʻoleʻā*; it comes to the front after *ʻo*, copied by *ai* inside the verb, or stays at the end of the sentence |
+| *anafea* | the past when-word: asks when about past time and goes with the past particle *na*; it takes the same two places as *āfea* |
+| *faʻapefea* | the how-word: asks how, and stands where a describing word would stand |
+| *lēfea* | the which-word: asks which one of several; recognize it when you meet it, it is not drilled here |
+
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
@@ -205,15 +219,14 @@ three syllables; this book marks the arrow on the yes or no questions.
 
 **Words to carry** (learned now, used fully later in this book): *tausi* (take
 care of) needs the marker that names the doer of an action, which arrives in a
-later chapter, before you can say who takes care of whom; *ʻātoa* (complete) is one to recognize
-when you meet it, since this book does not build with it again.
+later chapter, before you can say who takes care of whom.
 
 | Word | Meaning |
 |---|---|
 | *tausi* | take care of |
-| *ʻātoa* | complete (to recognize only) |
 
-The question words themselves are set out in the table above, under Asking Who.
+The other question words, *ā*, *fea*, *fia* and *ʻaiseā*, are set out in the table
+under Asking Who.
 
 ---
 

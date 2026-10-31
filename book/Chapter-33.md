@@ -1,9 +1,10 @@
 # Chapter 33: Reported Speech
 
 This chapter adds reported speech, which Sāmoan builds from machinery already
-in place: after a knowing or ordering word the report is an ordinary clause
-keeping a tense particle of its own, and after the say-verb *fai* it is a
-sentence of its own. Reading that particle against the time the first half
+in place: after a knowing word the report is an ordinary clause keeping a tense
+particle of its own, after an ordering word it opens with the mood particle
+*ʻia* or with the general particle, and after the say-verb *fai* it is a
+sentence of its own. Reading the tense particle against the time the first half
 names, not against the moment of speaking, is the one new rule, and it is what
 lets you pass on anything anyone said, asked, ordered or knew.
 
@@ -41,6 +42,8 @@ iloa*, and the coming was already done then, which is "the girl had come".
 | *Na iloa e le tama ʻua sau le teine.* | The boy knew that the girl had come. |
 | *Na iloa e loʻu ataliʻi ʻua sau le teine.* | My son knew that the girl had come. |
 | *Na iloa e le tama ʻua sasae le ʻie.* | The boy knew that the cloth had been torn. |
+
+*sasae* means "tear" and *ataliʻi* means "a man's son".
 
 The one who knows is marked with the agent marker *e*, as it is with any verb
 that takes it, and the reported clause follows with nothing standing between.
@@ -101,7 +104,10 @@ there the general particle *e* sets no time of its own, so the English reads
 :::
 
 The future particle *ʻoleʻā* marks an event still to come at the time of the
-report.
+report. Both this sentence and the fourth row of the second table above read
+"would come" in English, but the future particle itself places the coming later,
+while under the general particle *e* the particle sets no time of its own and the
+still-to-come reading is not marked by it.
 
 ---
 
@@ -110,6 +116,8 @@ report.
 ::: {.examples}
 *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia sāisai le fusi.* The stewardess gave the order that the belt should be fastened. (Lit. "The girl of the airplane has ordered that the belt be tied.")
 :::
+
+*faʻatonu* means "order", *fusi* means "belt", and *vaʻalele* means "airplane".
 
 When what is reported is a command, the reported clause opens with the mood
 particle *ʻia* rather than with a tense particle. *ʻIa* fills that same first
@@ -138,9 +146,12 @@ slot, and what stands after it is what somebody is to do.
 *Na fai atu le teine ʻi le tama e ʻavatu le tusi.* The girl told the boy to give the book. (Lit. "The girl said to the boy that the book be given.")
 :::
 
-*Fai*, met earlier in this book for do and make, is also the word for say, and
-it is the most common of the verbs Sāmoan uses for speaking. It enters two
-patterns, and this chapter teaches one of them. In an English sentence like
+*ʻavatu* means "give (away from the speaker)".
+
+*Fai* was met earlier in this book with all four of its meanings (do, make, say
+and tell), and it is the most common of the verbs Sāmoan uses for speaking. It
+enters two patterns, and this chapter teaches the one it enters when it means
+say. In an English sentence like
 "The man said the word", what stands after "say" is what was said; in the
 pattern taught here the noun phrase after *fai* is the person who spoke, and
 what was said comes after it as a sentence in its own right. That sentence may
@@ -157,9 +168,9 @@ words, as in the second.
 > this book, *atu* for speech going away from the speaker and *mai* for speech
 > coming toward. Both appear with this verb in this chapter.
 
-What follows *fai* is not one of the noun phrases the sentence is about. It is
-a whole sentence, which has to follow the say-verb, and what was said may run
-to more than one sentence.
+What was said is not one of the noun phrases the sentence is about. It is a
+whole sentence, which has to follow the say-verb, and it may run to more than
+one sentence.
 
 ### Asking in a Report: *Pē*
 
@@ -188,7 +199,7 @@ question follows it.
 
 | Word | What it does |
 |---|---|
-| *fai* | the say-verb, met earlier for do and make: the person named after it is the speaker, and what was said follows as a sentence of its own |
+| *fai* | the say-verb, met earlier with all its meanings: the person named after it is the speaker, and what was said follows as a sentence of its own |
 | *ʻia* | the mood particle that opens a reported command, standing where a tense particle would otherwise stand |
 | *pē* | it opens a reported question; *po*, met earlier, is its other shape |
 
@@ -199,12 +210,12 @@ question follows it.
 | *sasae* | tear |
 | *tā* | beat, strike, play |
 | *ʻavatu* | give (away from the speaker) |
-| *ataliʻi* | son |
+| *ataliʻi* | a man's son |
 | *faʻatonu* | order, instruct: a verb here, and the one who gives the order takes the agent marker |
 | *fusi* | belt |
 | *vaʻalele* | airplane |
 
-*Ataliʻi* takes an o-word possessive form, as the words for close family do:
+*Ataliʻi* names a man's son, and a father's son takes an o-word possessive form:
 
 ::: {.examples}
 *ʻO loʻu ataliʻi.* My son.
@@ -335,7 +346,7 @@ report, before it, or after it.
 1. tear
 2. beat, strike, play
 3. give
-4. son
+4. a man's son
 5. order
 6. belt
 7. airplane

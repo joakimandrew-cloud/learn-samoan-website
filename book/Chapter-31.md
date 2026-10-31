@@ -35,6 +35,8 @@ after the verb.
 | *E laʻitiiti atu le manulele.* | The bird is smaller. |
 | *E vevela atu le koko.* | The cocoa is hotter. |
 
+*koko* means "cocoa" and *manulele* means "bird".
+
 Nothing in those four sentences says stronger than what, or deeper than what.
 Sāmoan leaves the other side of the comparison unsaid, and a sentence built
 this way is complete as it stands. Naming that other side takes
@@ -42,13 +44,15 @@ one more word.
 
 ---
 
-## Naming What You Compare With: *ʻi Lo*
+## Naming What You Compare With: *i lo*
 
 ::: {.examples}
 *E mālosi atu le tama i lo le teine.* The boy is stronger than the girl.
 
 *E laʻitiiti atu le manulele i lo le maile.* The bird is smaller than the dog.
 :::
+
+*maile* means "dog".
 
 The thing measured against comes last, and *i lo* is the word that introduces
 it. A phrase opened by *i lo* is the **than-word** phrase, and it says which
@@ -64,9 +68,12 @@ the sentence is about, then *i lo* and its noun phrase.
 | *E vevela atu le koko i lo le vai.* | The cocoa is hotter than the water. |
 | *E laʻitiiti atu le manulele i lo le maile.* | The bird is smaller than the dog. |
 
+*aʻau* means "reef" and *faitotoʻa* means "door".
+
 > *Note:* The *lo* can be dropped, leaving the place word *ʻi* on its own to
 > introduce what is compared. Both forms are correct. This book prints the
-> fuller *i lo* throughout.
+> fuller *i lo* throughout. Inside the than-word the place word is printed
+> without its mark, which is how the dictionary prints the phrase.
 
 ---
 
@@ -78,8 +85,8 @@ the sentence is about, then *i lo* and its noun phrase.
 *E sili ona mālosi le maile.* The dog is the strongest. (Lit. "It is best that the dog is strong.")
 :::
 
-*Sili* means better, best, more, most. It is one of the words that takes a
-complement clause, so *ona* follows it and the clause after *ona* carries no
+*Sili* means better, best, more, most. In this chapter's pattern it is one of
+the words that takes a complement clause, so *ona* follows it and the clause after *ona* carries no
 tense particle of its own. The quality and the thing that has it both go inside
 that clause, which is why the literal shape of the first sentence is "it is best
 that the house is good" and the plain English for it is "the house is the best".
@@ -124,7 +131,8 @@ a finished sentence, and it takes the general particle *e* in front of it. What
 follows *pei* in this chapter is one of two things. In the first sentence it is a clause with a
 tense particle of its own, *sā ʻi ai* (had been there). In the second it is a
 noun phrase opened by *o*, the presenting particle met earlier in this book,
-which the sources print without its mark in this position: *o se manulele*
+which the sources this chapter draws on print without its mark in this position,
+although other sources print it with the mark: *o se manulele*
 (a bird).
 
 | Sāmoan | English |
@@ -132,6 +140,8 @@ which the sources print without its mark in this position: *o se manulele*
 | *Sā tautala le tama e pei sā ʻi ai.* | The boy spoke as if he had been there. |
 | *Sā tagi le pepe e pei o se manulele.* | The baby cried like a bird. |
 | *E tautala le tama e pei o se saienitisi.* | The boy talks like a scientist. |
+
+*saienitisi* means "scientist".
 
 > *Note:* *Sā ʻi ai* is the where-sentence you already know, with *ʻi ai* (there)
 > as its place. Nothing inside it names who was there, because the first half of
@@ -144,6 +154,8 @@ the with-word:
 ::: {.examples}
 *Sā siva le teine e tusa ma le finagalo o le tamā.* The girl danced in accordance with the father's wish.
 :::
+
+*finagalo* means "wish".
 
 Nothing inside the *tusa* clause names who is the same, and nothing needs to:
 the first half of the sentence has already named her, so Sāmoan leaves the word
@@ -168,7 +180,7 @@ out rather than say it twice.
 |---|---|
 | *atu* | the direction word, met earlier for away from the speaker; set on a quality word it carries the comparative degree instead |
 | *i lo* | the than-word: it introduces what a thing is compared with, and its phrase comes last |
-| *sili* | better, best, more, most: it takes a complement clause after *ona* and raises that clause's degree, to the top on its own and to a comparison when *atu* and *i lo* follow |
+| *sili* | better, best, more, most: in this chapter's pattern it takes a complement clause after *ona* and raises that clause's degree; in this chapter's sentences it gives the top degree on its own and, with *atu* and *i lo*, a comparison |
 | *pei* | like, as if: it heads a clause of comparison and takes a clause or a noun phrase after it in this chapter's sentences |
 | *tusa* | equal, the same, in accordance with: it heads a clause of comparison and takes *ma* before what is compared |
 | *ma* | the with-word, met earlier; after *tusa* it introduces the thing the first half agrees with |

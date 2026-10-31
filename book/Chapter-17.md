@@ -73,8 +73,8 @@ fill that predicate slot in place of a place:
 :::
 
 Here *lumanaʻi* (the future) fills that slot, and the sentence sets the meeting
-in time rather than at a spot. The time words *aso* (day) and *taimi* (time)
-serve the same slot. This is why the where-sentence covers both where and when.
+in time rather than at a spot. This is why the where-sentence covers both where
+and when.
 
 ---
 
@@ -125,8 +125,7 @@ The answer names the place in the same fronted shape:
 
 The place leads with *ʻo*, and *ʻi ai* answers it. With the where-word *fea* for
 the question and *ʻi ai* for the answer, a place can be pointed at instead of
-named out in full, which completes the place-pointing words foreshadowed when
-you first met the place word *ʻi* earlier in this book.
+named out in full.
 
 ---
 
@@ -181,9 +180,17 @@ tell the two apart.
 | *fono* | village meeting, council |
 | *uafu* | wharf |
 | *tinā* | mother |
-| *aso* | day |
 | *taimi* | time |
 | *lumanaʻi* | future |
+
+**Words to carry** (learned now, used fully later in this book):
+
+| Word | Meaning |
+|---|---|
+| *aso* | day |
+
+*Aso* is learned now; the time phrases that put it to use arrive later in this
+book.
 
 ---
 

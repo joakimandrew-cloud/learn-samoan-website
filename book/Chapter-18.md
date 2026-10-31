@@ -2,26 +2,29 @@
 
 This chapter adds the time-word slot at the end of the sentence, a set of words
 such as *ananafi* (yesterday) and *ātaeao* (tomorrow morning) that fix a
-statement to a point in time. The word sits after everything else, and its front
-end points the same way in time as the tense particle at the start.
+statement to a point in time. In the sentences this chapter builds, the word
+sits after everything else, and its front end points the same way in time as
+the tense particle at the start.
 
 ---
 
 ## The Time-Word Slot
 
 ::: {.examples}
-*Na fānau le pepe anapō.* The baby was born last night.
+*Na fānau le pepe anapō.* The baby was born last night. (Lit. "Past give birth the baby last night.")
 :::
 
 This is a sentence you can already build, a past particle, a verb, and a doer,
-with one word added at the very end: *anapō* (last night). That word is a **time
+with one word added at the very end: *anapō* (last night). The verb *fānau*
+(give birth) is read with the baby in the doer slot, so the sentence says the
+baby was born. The word *anapō* is a **time
 word**, and in the pattern this chapter drills its place is fixed: it comes after
 the verb and after the doer, at the tail of the sentence, and it says when the
 whole thing happened.
 
 A time word changes nothing else. The verb keeps its shape, the doer keeps its
 place, and the tense particle stays at the front. Set a time word on the end and
-the sentence is anchored in time:
+the sentence is fixed to a point in time:
 
 | Sāmoan | English |
 |---|---|
@@ -38,7 +41,7 @@ the time word names the when.
 ## Time Past and Time to Come
 
 Two of the time words are built on one root, *taeao* (morning), and set side by
-side they show a pattern that runs through the whole set:
+side they show a pattern that runs through most of the set:
 
 ::: {.examples}
 *anataeao*. this morning
@@ -54,11 +57,11 @@ passed, "this morning". The front *ā-* points ahead, so *ātaeao* is the mornin
 still to come, "tomorrow morning". Every word for past time begins with *ana-*;
 the word for a coming morning begins with *ā-*.
 In print you will also meet the coming-morning word with a catch at the front,
-*ʻātaeao*, and it is the same word.
+*ʻātaeao*, and it is the same word, so the front is printed both *ā-* and *ʻā-*.
 
-That front end is why the two ends of a sentence agree. A word for time already
-gone rides a past frame, and the word for a coming time rides the future
-particle *ʻoleʻā*:
+In the sentences this chapter builds, that front end is why the two ends of a
+sentence agree. A word for time already gone is used with a past frame, and the
+word for a coming time takes the future particle *ʻoleʻā*:
 
 ::: {.examples}
 *Na siva le teine anataeao.* The girl danced this morning.
@@ -68,8 +71,13 @@ particle *ʻoleʻā*:
 
 The first sentence looks back: the past particle *na* at the front, a past time
 word at the end. The second looks ahead: the future particle *ʻoleʻā* at the
-front, a word for a coming time at the end. The front of the sentence and the
+front, a word for a coming time at the end. In these sentences the front of the sentence and the
 end point the same way.
+
+> *Note:* The sentences of this chapter speak from the present moment, so a
+> coming time is a time after now. The future front can also mark a time that is
+> later than some other point of reference, not only later than the moment of
+> speaking.
 
 The words for time gone by:
 
@@ -100,8 +108,8 @@ fixed forms:
 *nei*. now
 :::
 
-*Nānei* points ahead, to "later on", and rides the future particle like *ātaeao*
-does, and is also met with the general particle.
+*Nānei* points ahead, to "later on", and is used with the future particle like
+*ātaeao* does, and is also met with the general particle.
 *Nei* is "now", the present moment; it sits with the happening-now
 particle *ʻoloʻo* to say that something is going on as you speak:
 
@@ -142,13 +150,19 @@ The base word behind two of them:
 |---|---|
 | *taeao* | morning; also tomorrow |
 
-> *Note:* Two further words with the future-time front, *ʻāmulī* (after death, in
-> the last days) and *ʻātalī* (in the next world), are not used in the
-> end-of-sentence time slot. They work as describing words with fixed meanings,
-> *ʻāmulī* built on *muli*
-> (last). They are recorded only in that describing role, which is why this book
-> keeps them out of the time slot. You will meet them in reading, not in the
-> drills of this chapter.
+**Words to carry** (learned now, used fully later in this book):
+
+| Word | Meaning |
+|---|---|
+| *ʻāmulī* | after death, in the last days |
+| *ʻātalī* | in the next world |
+| *muli* | final, at the end |
+
+*ʻāmulī* and *ʻātalī* carry the future-time front, but they are recorded only as
+describing words with fixed meanings, never in the end-of-sentence time slot, and
+*ʻāmulī* is built on *muli* (last). Neither word is drilled here; they come
+into use when the book teaches how fronts like this one are added to words, later
+in this book.
 
 ---
 

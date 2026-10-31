@@ -159,7 +159,7 @@ the ending low.
 ## The Two Ways Sāmoan Is Spoken
 
 Sāmoan has two named speech styles, generally considered two pronunciation
-systems: *tautala lelei*, the careful style this book teaches, and
+systems, though they also differ in some points of grammar, met later in this book: *tautala lelei*, the careful style this book teaches, and
 *tautala leaga*, the everyday style you will hear. The careful style is the basis of
 written Sāmoan and of teaching in schools, and it is the style a learner is
 expected to use. Even so, Sāmoans will sometimes use the everyday style with a

@@ -24,8 +24,9 @@ word that opens it in both sentences above is *ʻāfai*, **the if-word**.
 
 The pattern has three parts in a fixed order: the if-word, then the condition,
 then the main clause. The condition is a clause in its own right and carries its
-own tense particle, the general particle *e* in both sentences here, and a comma
-separates it from the main clause.
+own tense particle, the general particle *e* in the first sentence and its *te*
+shape, after the pronoun *ʻe*, in the second, and a comma separates it from the
+main clause.
 
 | Part | In *ʻĀfai e timu taeao, e lē alu le malaga* | What it does |
 |---|---|---|
@@ -52,13 +53,13 @@ The word *tonu*, met earlier as "right, correct", stands here as a noun meaning
 | *ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.* | If you go to the village, I'll go. |
 | *ʻĀfai ʻo le tonu, ʻua lelei.* | If it is the decision, it is alright. |
 | *ʻĀfai e iai se apu, ʻou te ʻai.* | If there is an apple, I eat. |
-| *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.* | If the boy's will is strong, he does not obey. |
+| *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.* | If the boy's will is strong, he does not obey. (Lit. "If strong the will of the boy, does not obey.") |
 
 > **Preview:** Sāmoan has a second if-word for a condition the speaker knows did
 > not come true and is only imagining, which is the kind of sentence English
 > builds with "if I had" and "if I were". That word is not *ʻāfai*, and it works
-> differently. It is taught in Chapter 49. Everything in this chapter is the
-> real kind of condition, the one that might yet happen.
+> differently. It is taught in Chapter 49. The conditions in this chapter are the
+> real kind, not imagined ones.
 
 ---
 
@@ -125,7 +126,7 @@ English words is therefore the translator's rather than the Sāmoan sentence's.
 ::: {.examples}
 *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* When you go to the beach, bring the towel.
 
-*ʻĀ alu le tama ʻi le matāfaga, e fāgota.* When the boy goes to the beach, he fishes.
+*ʻĀ alu le tama ʻi le matāfaga, e fāgota.* When the boy goes to the beach, he fishes. (Lit. "When goes the boy to the beach, fishes.")
 :::
 
 The main clause standing behind a condition can be a command, as it is in the
@@ -173,7 +174,7 @@ The pattern has three parts in a fixed order: the main clause, then *pē*, then
 the condition clause with whatever opens it.
 
 ::: {.examples}
-*Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* Come quickly if you get the food.
+*Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* Come quickly if you get the food. (Lit. "Come quickly if will get the food.")
 
 *ʻOleʻā mālaia ʻia te ʻoe pē ʻāfai ʻe te lē usitaʻi ʻi le pōloaʻiga.* Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.")
 :::
@@ -216,10 +217,16 @@ the condition clause with whatever opens it.
 | *matāfaga* | beach |
 | *mālaia* | disaster |
 | *pōloaʻiga* | instruction |
-| *silou* | slow |
 | *solo* | towel |
 | *uosi* | waltz |
 | *usitaʻi* | obey |
+
+**Words to carry** (learned now, used fully later in this book): *silou*
+(slow) comes into use with the word for a song, which this book teaches later.
+
+| Word | Meaning |
+|---|---|
+| *silou* | slow |
 
 ---
 
@@ -268,7 +275,7 @@ Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
 
 ### Exercise 5: Translate into Sāmoan
 
-1. If you go to the village, I go.
+1. If you go to the village, I'll go.
 2. If there is an apple, I eat.
 3. If the boy has come, the girl will go.
 4. When the boy goes to the beach, he fishes.

@@ -89,7 +89,7 @@ one of the shortest sentences in this book.
 
 ## Asking Questions
 
-To turn a statement into a yes or no question, Sāmoan changes no words at all.
+To turn a statement into one of the yes or no questions of this chapter, Sāmoan changes no words at all.
 Read these two aloud:
 
 ::: {.examples}
@@ -114,7 +114,7 @@ statement with the ending kept low, and you have asked a question.
 *Sā ia siva?* ↘ Did she dance?
 :::
 
-To answer no, you already have the word. *Leai* means "no", and you can use it
+To answer no, here is a new word. *Leai* means "no", and you can use it
 on its own from your very first day.
 
 > **Preview:** *Leai* has a grammar of its own, and a story that is told later,

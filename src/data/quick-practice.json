@@ -22,13 +22,13 @@
         {
           "id": "ch2-qp-a-3",
           "n": 3,
-          "prompt": "we, you and I",
+          "prompt": "we (more than two), you and I",
           "answer": "*Sā tātou alu.*"
         },
         {
           "id": "ch2-qp-a-4",
           "n": 4,
-          "prompt": "we, but not you",
+          "prompt": "we (more than two), but not you",
           "answer": "*Sā mātou alu.*"
         }
       ]

@@ -1,7 +1,7 @@
 # Chapter 4: The Tense Particles
 
 Building on the past particle *sā*, this chapter completes the tense line by
-introducing the three remaining tense particles: the second past *na*, for a
+introducing three more tense particles: the second past *na*, for a
 single finished event; the change particle *ʻua*, for a change that usually
 leaves a new state in place; and the future particle *ʻoleʻā*.
 
@@ -39,7 +39,8 @@ difference between them is the first thing to learn.
 
 ## The Two Pasts
 
-Sāmoan has two past particles, and every past sentence chooses between them.
+Sāmoan has two past particles, and a sentence that carries a past particle takes
+one of the two.
 Here is the same verb with each particle:
 
 ::: {.examples}
@@ -82,11 +83,12 @@ stretch of time:
 | *Sā mātou fiafia.* | We were happy. |
 
 > *Note:* The two pasts overlap at the edges, and you will sometimes hear either
-> one where the other would also serve. The question above about the shape of the
+> one where the other would also serve, so the question about the shape of the
 > event will carry you through nearly every sentence. Where it does not settle
 > the choice, one more difference often does: the second past can report an event
 > as unexpected, while the past of how things were reports one that is common and
-> nothing out of the ordinary.
+> nothing out of the ordinary. The second past can also report a past habit, when
+> the speaker means the habit has definitely come to an end.
 
 ---
 
@@ -113,8 +115,8 @@ In each of these the new state is still in place as you speak. That is the usual
 case rather than a rule: the particle reports the change, and the state it
 leaves need not still hold at the moment you say it.
 
-Compare *ʻua* with *sā*. *Sā* closes a state off in the past; *ʻua* opens a new
-state that holds now:
+Compare *ʻua* with *sā*. *Sā* closes a state off in the past; *ʻua* usually opens a
+new state that holds now:
 
 ::: {.examples}
 *Sā ia tāuaso.* She was blind.
@@ -165,9 +167,7 @@ the short form especially in questions, as in *ʻĀ sau?* for "Is she coming?"
 | *ʻua* | the change particle: says something has changed and a new state is usually in place now |
 | *ʻoleʻā* | the future particle: places the event ahead of now (short form *ʻā*) |
 
-**New vocabulary** (memorize these meanings). Most of these verbs name a
-state, and they sit naturally with *ʻua* to report that the state has just set
-in:
+**New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
@@ -179,10 +179,10 @@ in:
 | *maʻalili* | cold |
 | *pisi* | busy |
 
-**Words to carry** (learned now, used fully later in this book): *fai* is one
-of the most common verbs in Sāmoan, covering "do", "make", "say", and
-"tell", but it leans on words for the thing done or said, which come later
-in this book.
+**Words to carry** (learned now, used fully later in this book): *fai* covers
+"do", "make", "say", and "tell", and it is the most common of the verbs Sāmoan
+uses for speaking, but it leans on words for the thing done or said, which come
+later in this book.
 
 | Word | Meaning |
 |---|---|
@@ -249,7 +249,7 @@ is still to come, using *ʻoleʻā*.
 
 1. I went.
 2. It has become hot.
-3. She will come.
+3. She (or He) will come.
 4. I was sick.
 5. I have become busy.
 

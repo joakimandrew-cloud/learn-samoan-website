@@ -2,18 +2,18 @@
  "generated_by": "scripts/build-sentence-bloom.mjs from scripts/sentence-bloom-spec.json, book/ and src/data/chapters.json. Do not edit by hand: change the spec or the book, then npm run bloom.",
  "sources": [
   "book/Chapter-01.md:31-40 | The Past Particle Sā",
-  "book/Chapter-04.md:93-132 | The Change Particle ʻUa",
-  "book/Chapter-04.md:136-154 | The Future Particle ʻOleʻā",
+  "book/Chapter-04.md:95-134 | The Change Particle ʻUa",
+  "book/Chapter-04.md:138-156 | The Future Particle ʻOleʻā",
   "book/Chapter-01.md:42-71 | The Preverbal Pronoun",
   "book/Chapter-01.md:22-29 | The Verb",
-  "book/Chapter-03.md:11-59 | The Describing Verb",
+  "book/Chapter-03.md:12-62 | The Describing Verb",
   "book/Chapter-06.md:24-67 | The Specific Article Le",
-  "book/Chapter-15.md:12-50 | The Not-Word Lē",
-  "book/Chapter-04.md:40-89 | The Two Pasts",
-  "book/Chapter-11.md:12-62 | The Place Word ʻi",
-  "book/Chapter-18.md:10-34 | The Time-Word Slot",
-  "book/Chapter-20.md:10-33 | The With-Word Ma",
-  "book/Chapter-20.md:10-33 | The With-Word Ma"
+  "book/Chapter-15.md:13-55 | The Not-Word Lē",
+  "book/Chapter-04.md:40-91 | The Two Pasts",
+  "book/Chapter-11.md:12-63 | The Place Word ʻi",
+  "book/Chapter-18.md:11-37 | The Time-Word Slot",
+  "book/Chapter-20.md:10-37 | The With-Word Ma",
+  "book/Chapter-20.md:10-37 | The With-Word Ma"
  ],
  "rows": {
   "tense-sa": {
@@ -194,7 +194,7 @@
   "who-matou": {
    "id": "who-matou",
    "lesson": 2,
-   "line": 63,
+   "line": 65,
    "sm": "Sā mātou siva.",
    "en": "We danced.",
    "punct": ".",
@@ -244,7 +244,7 @@
   "describe": {
    "id": "describe",
    "lesson": 3,
-   "line": 42,
+   "line": 44,
    "sm": "Sā ia siva fiafia.",
    "en": "She danced happily.",
    "punct": ".",
@@ -299,7 +299,7 @@
   "not": {
    "id": "not",
    "lesson": 15,
-   "line": 17,
+   "line": 18,
    "sm": "Sā lē siva le teine.",
    "en": "The girl did not dance.",
    "punct": ".",
@@ -359,7 +359,7 @@
   "time-morning": {
    "id": "time-morning",
    "lesson": 18,
-   "line": 29,
+   "line": 32,
    "sm": "Na siva le teine anataeao.",
    "en": "The girl danced this morning.",
    "punct": ".",
@@ -389,7 +389,7 @@
   "time-yesterday": {
    "id": "time-yesterday",
    "lesson": 18,
-   "line": 28,
+   "line": 31,
    "sm": "Na sau le tama ananafi.",
    "en": "The boy came yesterday.",
    "punct": ".",
@@ -419,7 +419,7 @@
   "time-tomorrow": {
    "id": "time-tomorrow",
    "lesson": 18,
-   "line": 66,
+   "line": 69,
    "sm": "ʻOleʻā siva le teine ātaeao.",
    "en": "The girl will dance tomorrow morning.",
    "punct": ".",
@@ -495,17 +495,17 @@
    "sm": "Sā tatala e le teine le pusa.",
    "en": "The girl opened the box."
   },
-  "ch36-l030": {
-   "id": "ch36-l030",
+  "ch36-l031": {
+   "id": "ch36-l031",
    "lesson": 36,
-   "line": 30,
+   "line": 31,
    "sm": "Sā timu ma sā nofo le teine ʻi le ana.",
    "en": "It rained and the girl stayed in the cave."
   },
-  "ch45-l117": {
-   "id": "ch45-l117",
+  "ch45-l120": {
+   "id": "ch45-l120",
    "lesson": 45,
-   "line": 117,
+   "line": 120,
    "sm": "Sā ita le tinā ʻona ʻo le lē pese o le teine.",
    "en": "The mother was angry because the girl did not sing."
   },
@@ -537,38 +537,38 @@
    "sm": "Sā lātou alu.",
    "en": "They went."
   },
-  "ch02-l061": {
-   "id": "ch02-l061",
+  "ch02-l063": {
+   "id": "ch02-l063",
    "lesson": 2,
-   "line": 61,
+   "line": 63,
    "sm": "Sā tātou siva.",
    "en": "We danced."
   },
-  "ch02-l119": {
-   "id": "ch02-l119",
+  "ch02-l122": {
+   "id": "ch02-l122",
    "lesson": 2,
-   "line": 119,
+   "line": 122,
    "sm": "ʻO aʻu.",
    "en": "It is me. (Lit. \"I\")"
   },
-  "ch03-l018": {
-   "id": "ch03-l018",
+  "ch03-l021": {
+   "id": "ch03-l021",
    "lesson": 3,
-   "line": 18,
+   "line": 21,
    "sm": "Sā ʻou foʻi fiafia.",
    "en": "I returned happily."
   },
-  "ch03-l042": {
-   "id": "ch03-l042",
+  "ch03-l044": {
+   "id": "ch03-l044",
    "lesson": 3,
-   "line": 42,
+   "line": 44,
    "sm": "Sā ia siva fiafia.",
    "en": "She danced happily."
   },
-  "ch03-l043": {
-   "id": "ch03-l043",
+  "ch03-l045": {
+   "id": "ch03-l045",
    "lesson": 3,
-   "line": 43,
+   "line": 45,
    "sm": "Sā ʻe eva fiafia.",
    "en": "You strolled happily."
   },
@@ -612,14 +612,7 @@
    "lesson": 5,
    "line": 23,
    "sm": "Sā ia nofo.",
-   "en": "She stayed."
-  },
-  "ch06-l049": {
-   "id": "ch06-l049",
-   "lesson": 6,
-   "line": 49,
-   "sm": "Sā alu le teine.",
-   "en": "The girl went."
+   "en": "She sat down."
   },
   "ch06-l064": {
    "id": "ch06-l064",
@@ -635,6 +628,13 @@
    "sm": "Sā nofo le tamaʻitaʻi.",
    "en": "The lady stayed."
   },
+  "ch06-l077": {
+   "id": "ch06-l077",
+   "lesson": 6,
+   "line": 77,
+   "sm": "ʻAumai se ipu.",
+   "en": "Bring a cup."
+  },
   "ch07-l042": {
    "id": "ch07-l042",
    "lesson": 7,
@@ -646,8 +646,8 @@
    "id": "ch07-l043",
    "lesson": 7,
    "line": 43,
-   "sm": "ʻO se tagata lelei le uō.",
-   "en": "The friend is a good person."
+   "sm": "ʻO se tama le uō.",
+   "en": "The friend is a boy."
   },
   "ch07-l044": {
    "id": "ch07-l044",
@@ -677,24 +677,24 @@
    "sm": "ʻO ai le teine?",
    "en": "Who is the girl?"
   },
-  "ch09-l031": {
-   "id": "ch09-l031",
+  "ch09-l032": {
+   "id": "ch09-l032",
    "lesson": 9,
-   "line": 31,
+   "line": 32,
    "sm": "Manuia le tausaga fou!",
    "en": "Happy New Year!"
   },
-  "ch09-l048": {
-   "id": "ch09-l048",
+  "ch09-l049": {
+   "id": "ch09-l049",
    "lesson": 9,
-   "line": 48,
+   "line": 49,
    "sm": "Tālofa.",
    "en": "Hello."
   },
-  "ch09-l058": {
-   "id": "ch09-l058",
+  "ch09-l059": {
+   "id": "ch09-l059",
    "lesson": 9,
-   "line": 58,
+   "line": 59,
    "sm": "Tōfā soifua.",
    "en": "Goodbye."
   },
@@ -705,17 +705,17 @@
    "sm": "ʻO le fale o le aliʻi.",
    "en": "The house of the chief."
   },
-  "ch10-l086": {
-   "id": "ch10-l086",
+  "ch10-l087": {
+   "id": "ch10-l087",
    "lesson": 10,
-   "line": 86,
+   "line": 87,
    "sm": "ʻO laʻu taʻavale.",
    "en": "My car."
   },
-  "ch10-l120": {
-   "id": "ch10-l120",
+  "ch10-l121": {
+   "id": "ch10-l121",
    "lesson": 10,
-   "line": 120,
+   "line": 121,
    "sm": "ʻO laʻu naifi lenā.",
    "en": "That is my knife."
   },
@@ -761,24 +761,24 @@
    "sm": "Sā mātamata le tama ʻi le pusi.",
    "en": "The boy watched the cat."
   },
-  "ch13-l014": {
-   "id": "ch13-l014",
+  "ch13-l015": {
+   "id": "ch13-l015",
    "lesson": 13,
-   "line": 14,
+   "line": 15,
    "sm": "E mālosi le tama.",
    "en": "The boy is strong."
   },
-  "ch13-l016": {
-   "id": "ch13-l016",
+  "ch13-l017": {
+   "id": "ch13-l017",
    "lesson": 13,
-   "line": 16,
+   "line": 17,
    "sm": "E loloto le vai.",
    "en": "The water is deep."
   },
-  "ch13-l036": {
-   "id": "ch13-l036",
+  "ch13-l037": {
+   "id": "ch13-l037",
    "lesson": 13,
-   "line": 36,
+   "line": 37,
    "sm": "E fiafia le teine.",
    "en": "The girl is happy."
   },
@@ -803,24 +803,24 @@
    "sm": "Sā iai le ulugāliʻi.",
    "en": "There was a couple."
   },
-  "ch15-l017": {
-   "id": "ch15-l017",
+  "ch15-l018": {
+   "id": "ch15-l018",
    "lesson": 15,
-   "line": 17,
+   "line": 18,
    "sm": "Sā lē siva le teine.",
    "en": "The girl did not dance."
   },
-  "ch15-l033": {
-   "id": "ch15-l033",
+  "ch15-l036": {
+   "id": "ch15-l036",
    "lesson": 15,
-   "line": 33,
+   "line": 36,
    "sm": "ʻOleʻā ʻou lē siva.",
    "en": "I will not dance."
   },
-  "ch15-l034": {
-   "id": "ch15-l034",
+  "ch15-l037": {
+   "id": "ch15-l037",
    "lesson": 15,
-   "line": 34,
+   "line": 37,
    "sm": "E lē mālosi le tama.",
    "en": "The boy is not strong."
   },
@@ -831,19 +831,19 @@
    "sm": "Sā nofo le teine ʻi le nuʻu.",
    "en": "The girl lived in the village."
   },
-  "ch16-l015": {
-   "id": "ch16-l015",
+  "ch16-l032": {
+   "id": "ch16-l032",
    "lesson": 16,
-   "line": 15,
-   "sm": "Sā nofo ai le teine.",
-   "en": "The girl lived there."
-  },
-  "ch16-l031": {
-   "id": "ch16-l031",
-   "lesson": 16,
-   "line": 31,
+   "line": 32,
    "sm": "Sā mālōlō ai le tama.",
    "en": "The boy rested there."
+  },
+  "ch16-l034": {
+   "id": "ch16-l034",
+   "lesson": 16,
+   "line": 34,
+   "sm": "Sā nofo ai le aitu.",
+   "en": "The spirit lived there."
   },
   "ch17-l016": {
    "id": "ch17-l016",
@@ -866,26 +866,26 @@
    "sm": "Sā ʻi le fono le aliʻi.",
    "en": "The chief was at the village meeting."
   },
-  "ch18-l013": {
-   "id": "ch18-l013",
+  "ch18-l031": {
+   "id": "ch18-l031",
    "lesson": 18,
-   "line": 13,
-   "sm": "Na fānau le pepe anapō.",
-   "en": "The baby was born last night."
-  },
-  "ch18-l028": {
-   "id": "ch18-l028",
-   "lesson": 18,
-   "line": 28,
+   "line": 31,
    "sm": "Na sau le tama ananafi.",
    "en": "The boy came yesterday."
   },
-  "ch18-l029": {
-   "id": "ch18-l029",
+  "ch18-l032": {
+   "id": "ch18-l032",
    "lesson": 18,
-   "line": 29,
+   "line": 32,
    "sm": "Na siva le teine anataeao.",
    "en": "The girl danced this morning."
+  },
+  "ch18-l033": {
+   "id": "ch18-l033",
+   "lesson": 18,
+   "line": 33,
+   "sm": "Na tāʻele le tama anapō.",
+   "en": "The boy bathed last night."
   },
   "ch19-l013": {
    "id": "ch19-l013",
@@ -943,24 +943,24 @@
    "sm": "ʻO ai na moe?",
    "en": "Who slept?"
   },
-  "ch22-l019": {
-   "id": "ch22-l019",
+  "ch22-l020": {
+   "id": "ch22-l020",
    "lesson": 22,
-   "line": 19,
+   "line": 20,
    "sm": "E tolu tama.",
    "en": "There are three boys."
   },
-  "ch22-l070": {
-   "id": "ch22-l070",
+  "ch22-l071": {
+   "id": "ch22-l071",
    "lesson": 22,
-   "line": 70,
+   "line": 71,
    "sm": "E fia aso?",
    "en": "How many days?"
   },
-  "ch22-l080": {
-   "id": "ch22-l080",
+  "ch22-l082": {
+   "id": "ch22-l082",
    "lesson": 22,
-   "line": 80,
+   "line": 82,
    "sm": "ʻAumai le lua ipu vai.",
    "en": "Bring two cups of water."
   },
@@ -999,45 +999,45 @@
    "sm": "ʻAua ʻe te faitala.",
    "en": "Don't gossip."
   },
-  "ch25-l015": {
-   "id": "ch25-l015",
+  "ch25-l016": {
+   "id": "ch25-l016",
    "lesson": 25,
-   "line": 15,
+   "line": 16,
    "sm": "ʻO le leitio a le aliʻi.",
    "en": "The radio of the chief."
   },
-  "ch25-l082": {
-   "id": "ch25-l082",
+  "ch25-l083": {
+   "id": "ch25-l083",
    "lesson": 25,
-   "line": 82,
+   "line": 83,
    "sm": "ʻO loʻu ʻie.",
    "en": "My kilt."
   },
-  "ch25-l084": {
-   "id": "ch25-l084",
+  "ch25-l085": {
+   "id": "ch25-l085",
    "lesson": 25,
-   "line": 84,
+   "line": 85,
    "sm": "ʻO laʻu sipuni.",
    "en": "My spoon."
   },
-  "ch26-l031": {
-   "id": "ch26-l031",
+  "ch26-l034": {
+   "id": "ch26-l034",
    "lesson": 26,
-   "line": 31,
+   "line": 34,
    "sm": "ʻO le taʻavale ʻi luma o le fale.",
    "en": "The car in front of the house."
   },
-  "ch26-l032": {
-   "id": "ch26-l032",
+  "ch26-l035": {
+   "id": "ch26-l035",
    "lesson": 26,
-   "line": 32,
+   "line": 35,
    "sm": "ʻO le pusi ʻi lalo o le fale.",
    "en": "The cat under the house."
   },
-  "ch26-l033": {
-   "id": "ch26-l033",
+  "ch26-l036": {
+   "id": "ch26-l036",
    "lesson": 26,
-   "line": 33,
+   "line": 36,
    "sm": "ʻO le ipu ʻi luga o le fala.",
    "en": "The cup on the mat."
   },
@@ -1111,12 +1111,12 @@
    "sm": "ʻUa mafai ona sau le teine.",
    "en": "The girl can come."
   },
-  "ch30-l037": {
-   "id": "ch30-l037",
+  "ch30-l059": {
+   "id": "ch30-l059",
    "lesson": 30,
-   "line": 37,
-   "sm": "E faʻasā ona tausi ni pusi.",
-   "en": "It is forbidden to keep cats."
+   "line": 59,
+   "sm": "ʻOu te lē mafai ona ʻou ʻai meaʻai.",
+   "en": "I cannot eat food."
   },
   "ch31-l034": {
    "id": "ch31-l034",
@@ -1125,17 +1125,17 @@
    "sm": "E loloto atu le vai.",
    "en": "The water is deeper."
   },
-  "ch31-l048": {
-   "id": "ch31-l048",
-   "lesson": 31,
-   "line": 48,
-   "sm": "E mālosi atu le tama i lo le teine.",
-   "en": "The boy is stronger than the girl."
-  },
   "ch31-l050": {
    "id": "ch31-l050",
    "lesson": 31,
    "line": 50,
+   "sm": "E mālosi atu le tama i lo le teine.",
+   "en": "The boy is stronger than the girl."
+  },
+  "ch31-l052": {
+   "id": "ch31-l052",
+   "lesson": 31,
+   "line": 52,
    "sm": "E laʻitiiti atu le manulele i lo le maile.",
    "en": "The bird is smaller than the dog."
   },
@@ -1146,38 +1146,38 @@
    "sm": "Sā fasi le tama e le teine.",
    "en": "The girl hit the boy."
   },
-  "ch32-l097": {
-   "id": "ch32-l097",
-   "lesson": 32,
-   "line": 97,
-   "sm": "ʻAi.",
-   "en": "Eat."
-  },
   "ch32-l099": {
    "id": "ch32-l099",
    "lesson": 32,
    "line": 99,
+   "sm": "ʻAi.",
+   "en": "Eat."
+  },
+  "ch32-l101": {
+   "id": "ch32-l101",
+   "lesson": 32,
+   "line": 101,
    "sm": "ʻAua le ʻaia le meaʻai lenā.",
    "en": "Don't eat that food."
-  },
-  "ch33-l042": {
-   "id": "ch33-l042",
-   "lesson": 33,
-   "line": 42,
-   "sm": "Na iloa e loʻu ataliʻi ʻua sau le teine.",
-   "en": "My son knew that the girl had come."
   },
   "ch33-l043": {
    "id": "ch33-l043",
    "lesson": 33,
    "line": 43,
+   "sm": "Na iloa e loʻu ataliʻi ʻua sau le teine.",
+   "en": "My son knew that the girl had come."
+  },
+  "ch33-l044": {
+   "id": "ch33-l044",
+   "lesson": 33,
+   "line": 44,
    "sm": "Na iloa e le tama ʻua sasae le ʻie.",
    "en": "The boy knew that the cloth had been torn."
   },
-  "ch33-l053": {
-   "id": "ch33-l053",
+  "ch33-l056": {
+   "id": "ch33-l056",
    "lesson": 33,
-   "line": 53,
+   "line": 56,
    "sm": "ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.",
    "en": "The boy knows that the girl is staying in the village."
   },
@@ -1188,17 +1188,17 @@
    "sm": "Sā galue le tama ʻi le faʻatoʻaga.",
    "en": "The boy worked in the plantation."
   },
-  "ch34-l040": {
-   "id": "ch34-l040",
+  "ch34-l042": {
+   "id": "ch34-l042",
    "lesson": 34,
-   "line": 40,
+   "line": 42,
    "sm": "ʻO le teine sā galue ʻi le faʻatoʻaga.",
    "en": "The girl worked in the plantation."
   },
-  "ch34-l041": {
-   "id": "ch34-l041",
+  "ch34-l043": {
+   "id": "ch34-l043",
    "lesson": 34,
-   "line": 41,
+   "line": 43,
    "sm": "ʻO le lotu ʻua ʻuma.",
    "en": "The service is finished."
   },
@@ -1230,40 +1230,33 @@
    "sm": "Sā timu ma sā lolo le vai.",
    "en": "It rained and the water overflowed."
   },
-  "ch36-l035": {
-   "id": "ch36-l035",
+  "ch36-l036": {
+   "id": "ch36-l036",
    "lesson": 36,
-   "line": 35,
+   "line": 36,
    "sm": "ʻUa ala le tama ma ʻua usu le teine.",
    "en": "The boy has woken and the girl has stood up."
   },
-  "ch37-l037": {
-   "id": "ch37-l037",
+  "ch37-l038": {
+   "id": "ch37-l038",
    "lesson": 37,
-   "line": 37,
+   "line": 38,
    "sm": "Ona tali atu lea ʻo le teine.",
    "en": "Then the girl answered."
-  },
-  "ch37-l044": {
-   "id": "ch37-l044",
-   "lesson": 37,
-   "line": 44,
-   "sm": "Ona oso lea ʻo le saʻai ʻi le sami.",
-   "en": "Then the ogre jumped into the sea."
   },
   "ch37-l045": {
    "id": "ch37-l045",
    "lesson": 37,
    "line": 45,
+   "sm": "Ona oso lea ʻo le saʻai ʻi le sami.",
+   "en": "Then the ogre jumped into the sea."
+  },
+  "ch37-l046": {
+   "id": "ch37-l046",
+   "lesson": 37,
+   "line": 46,
    "sm": "Ona lilo atu lea ʻo le teine ʻi le toga lālā.",
    "en": "Then the girl hid in the cluster of branches."
-  },
-  "ch38-l015": {
-   "id": "ch38-l015",
-   "lesson": 38,
-   "line": 15,
-   "sm": "E lē mafai ona alu le tama leaga e maʻi.",
-   "en": "The boy cannot go because he is sick."
   },
   "ch38-l038": {
    "id": "ch38-l038",
@@ -1279,6 +1272,13 @@
    "sm": "E leʻi mafai ona ʻou alu leaga sā timu.",
    "en": "I could not go because unfortunately it was raining."
   },
+  "ch38-l048": {
+   "id": "ch38-l048",
+   "lesson": 38,
+   "line": 48,
+   "sm": "ʻUa mālamalama le teine ʻauā ʻua tautala le tama.",
+   "en": "The girl understands because the boy has spoken."
+  },
   "ch39-l015": {
    "id": "ch39-l015",
    "lesson": 39,
@@ -1293,10 +1293,10 @@
    "sm": "ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.",
    "en": "If you go to the village, I'll go."
   },
-  "ch39-l046": {
-   "id": "ch39-l046",
+  "ch39-l047": {
+   "id": "ch39-l047",
    "lesson": 39,
-   "line": 46,
+   "line": 47,
    "sm": "ʻĀfai ʻo le tonu, ʻua lelei.",
    "en": "If it is the decision, it is alright."
   },
@@ -1307,17 +1307,17 @@
    "sm": "E uliuli le taʻavale.",
    "en": "The car is black."
   },
-  "ch40-l197": {
-   "id": "ch40-l197",
+  "ch40-l198": {
+   "id": "ch40-l198",
    "lesson": 40,
-   "line": 197,
+   "line": 198,
    "sm": "ʻO le pusa paʻepaʻe mānaia lenā.",
    "en": "That is the nice white box."
   },
-  "ch40-l207": {
-   "id": "ch40-l207",
+  "ch40-l208": {
+   "id": "ch40-l208",
    "lesson": 40,
-   "line": 207,
+   "line": 208,
    "sm": "E faigatā le gagana.",
    "en": "The language is difficult."
   },
@@ -1363,59 +1363,59 @@
    "sm": "E o mātou le fale.",
    "en": "The house is ours."
   },
-  "ch43-l033": {
-   "id": "ch43-l033",
+  "ch43-l034": {
+   "id": "ch43-l034",
    "lesson": 43,
-   "line": 33,
+   "line": 34,
    "sm": "ʻO le fafine sā alu ʻi le nuʻu.",
    "en": "The woman who went to the village."
   },
-  "ch43-l080": {
-   "id": "ch43-l080",
+  "ch43-l081": {
+   "id": "ch43-l081",
    "lesson": 43,
-   "line": 80,
+   "line": 81,
    "sm": "ʻO le tama sā moe ʻi le fale.",
    "en": "The boy who slept in the house."
   },
-  "ch43-l125": {
-   "id": "ch43-l125",
+  "ch43-l126": {
+   "id": "ch43-l126",
    "lesson": 43,
-   "line": 125,
+   "line": 126,
    "sm": "ʻO le mea sā ʻou nofo ai.",
    "en": "The place where I stayed."
+  },
+  "ch44-l042": {
+   "id": "ch44-l042",
+   "lesson": 44,
+   "line": 42,
+   "sm": "Talu ona ʻou sau ʻou te leʻi maua se mea fou.",
+   "en": "Since I came, I have not got anything new."
   },
   "ch44-l043": {
    "id": "ch44-l043",
    "lesson": 44,
    "line": 43,
-   "sm": "Talu ona ʻou sau ʻou te leʻi maua se mea fou.",
-   "en": "Since I came, I have not got anything new."
+   "sm": "Talu ona ʻou sau ʻou te leʻi maua se uō lelei.",
+   "en": "Since I came, I have not got a good friend."
   },
   "ch44-l044": {
    "id": "ch44-l044",
    "lesson": 44,
    "line": 44,
-   "sm": "Talu ona ʻou sau ʻou te leʻi maua se uō lelei.",
-   "en": "Since I came, I have not got a good friend."
-  },
-  "ch44-l045": {
-   "id": "ch44-l045",
-   "lesson": 44,
-   "line": 45,
    "sm": "Talu ona ʻou alu ʻou te leʻi maua se mea lelei.",
    "en": "Since I left, I have not got anything good."
   },
-  "ch45-l053": {
-   "id": "ch45-l053",
+  "ch45-l055": {
+   "id": "ch45-l055",
    "lesson": 45,
-   "line": 53,
+   "line": 55,
    "sm": "ʻO le taliga o le tama.",
    "en": "The boy's ear."
   },
-  "ch45-l131": {
-   "id": "ch45-l131",
+  "ch45-l134": {
+   "id": "ch45-l134",
    "lesson": 45,
-   "line": 131,
+   "line": 134,
    "sm": "E mānaia le pese soʻo o le tama.",
    "en": "It is nice that the boy often sings."
   },
@@ -1440,24 +1440,24 @@
    "sm": "E ʻese le taamilomilo solo o tala a le tauleʻaleʻa!",
    "en": "How fast the young man's words went around! (Lit. \"The going around everywhere of the stories of the young man is extraordinary!\")"
   },
-  "ch47-l048": {
-   "id": "ch47-l048",
+  "ch47-l047": {
+   "id": "ch47-l047",
    "lesson": 47,
-   "line": 48,
+   "line": 47,
    "sm": "E ʻonosaʻi le tinā.",
    "en": "The mother is patient."
   },
-  "ch47-l050": {
-   "id": "ch47-l050",
+  "ch47-l049": {
+   "id": "ch47-l049",
    "lesson": 47,
-   "line": 50,
+   "line": 49,
    "sm": "Sā alu le tama e momoli le tusi.",
    "en": "The boy went to deliver the letter."
   },
-  "ch47-l063": {
-   "id": "ch47-l063",
+  "ch47-l062": {
+   "id": "ch47-l062",
    "lesson": 47,
-   "line": 63,
+   "line": 62,
    "sm": "E uō le tama ma le teine.",
    "en": "The boy and the girl are friends."
   },
@@ -1503,45 +1503,45 @@
    "sm": "ʻOu te savali ʻi le āʻoga seʻiloga e timu.",
    "en": "I walk to school, unless it rains."
   },
-  "ch50-l230": {
-   "id": "ch50-l230",
-   "lesson": 50,
-   "line": 230,
-   "sm": "Sā nofo le teine.",
-   "en": "The girl stayed."
-  },
   "ch50-l232": {
    "id": "ch50-l232",
    "lesson": 50,
    "line": 232,
+   "sm": "Sā nofo le teine.",
+   "en": "The girl stayed."
+  },
+  "ch50-l234": {
+   "id": "ch50-l234",
+   "lesson": 50,
+   "line": 234,
    "sm": "Sā nonofo teine.",
    "en": "The girls stayed."
   },
-  "ch50-l298": {
-   "id": "ch50-l298",
+  "ch50-l300": {
+   "id": "ch50-l300",
    "lesson": 50,
-   "line": 298,
+   "line": 300,
    "sm": "E uliuli le pusi.",
    "en": "The cat is black."
   },
-  "ch51-l040": {
-   "id": "ch51-l040",
+  "ch51-l042": {
+   "id": "ch51-l042",
    "lesson": 51,
-   "line": 40,
+   "line": 42,
    "sm": "Sau si aʻu tama.",
    "en": "Come, my dear boy."
   },
-  "ch51-l080": {
-   "id": "ch51-l080",
+  "ch51-l081": {
+   "id": "ch51-l081",
    "lesson": 51,
-   "line": 80,
+   "line": 81,
    "sm": "ʻAumai sina vai.",
    "en": "Bring a little water."
   },
-  "ch51-l135": {
-   "id": "ch51-l135",
+  "ch51-l136": {
+   "id": "ch51-l136",
    "lesson": 51,
-   "line": 135,
+   "line": 136,
    "sm": "ʻO ni nāi teine.",
    "en": "Some dear girls."
   }
@@ -1574,8 +1574,8 @@
    "card": "ch02-l022",
    "preview": [
     "ch02-l022",
-    "ch02-l061",
-    "ch02-l119"
+    "ch02-l063",
+    "ch02-l122"
    ]
   },
   {
@@ -1586,11 +1586,11 @@
     "The Want Word *Fia*"
    ],
    "group": "beginner",
-   "card": "ch03-l018",
+   "card": "ch03-l021",
    "preview": [
-    "ch03-l018",
-    "ch03-l042",
-    "ch03-l043"
+    "ch03-l021",
+    "ch03-l044",
+    "ch03-l045"
    ]
   },
   {
@@ -1636,11 +1636,11 @@
     "One and Many: The Article Carries the Number"
    ],
    "group": "beginner",
-   "card": "ch06-l049",
+   "card": "ch06-l064",
    "preview": [
-    "ch06-l049",
     "ch06-l064",
-    "ch06-l066"
+    "ch06-l066",
+    "ch06-l077"
    ]
   },
   {
@@ -1689,11 +1689,11 @@
     "The Everyday Style"
    ],
    "group": "beginner",
-   "card": "ch09-l031",
+   "card": "ch09-l032",
    "preview": [
-    "ch09-l031",
-    "ch09-l048",
-    "ch09-l058"
+    "ch09-l032",
+    "ch09-l049",
+    "ch09-l059"
    ]
   },
   {
@@ -1708,8 +1708,8 @@
    "card": "ch10-l014",
    "preview": [
     "ch10-l014",
-    "ch10-l086",
-    "ch10-l120"
+    "ch10-l087",
+    "ch10-l121"
    ]
   },
   {
@@ -1754,11 +1754,11 @@
     "The Happening-Now Particle *ʻOloʻo*"
    ],
    "group": "beginner",
-   "card": "ch13-l014",
+   "card": "ch13-l015",
    "preview": [
-    "ch13-l014",
-    "ch13-l016",
-    "ch13-l036"
+    "ch13-l015",
+    "ch13-l017",
+    "ch13-l037"
    ]
   },
   {
@@ -1788,11 +1788,11 @@
     "One \"Not,\" Four Tools"
    ],
    "group": "beginner",
-   "card": "ch15-l017",
+   "card": "ch15-l018",
    "preview": [
-    "ch15-l017",
-    "ch15-l033",
-    "ch15-l034"
+    "ch15-l018",
+    "ch15-l036",
+    "ch15-l037"
    ]
   },
   {
@@ -1807,8 +1807,8 @@
    "card": "ch16-l013",
    "preview": [
     "ch16-l013",
-    "ch16-l015",
-    "ch16-l031"
+    "ch16-l032",
+    "ch16-l034"
    ]
   },
   {
@@ -1838,11 +1838,11 @@
     "Words That Stand on Their Own"
    ],
    "group": "beginner",
-   "card": "ch18-l013",
+   "card": "ch18-l031",
    "preview": [
-    "ch18-l013",
-    "ch18-l028",
-    "ch18-l029"
+    "ch18-l031",
+    "ch18-l032",
+    "ch18-l033"
    ]
   },
   {
@@ -1870,6 +1870,7 @@
     "The With-Word *Ma*",
     "Joining Two Doers",
     "The Number of the Verb Tells You Which",
+    "A Describing Word",
     "Other Jobs of *Ma*"
    ],
    "group": "beginner",
@@ -1908,11 +1909,11 @@
     "Putting Things in Order"
    ],
    "group": "beginner",
-   "card": "ch22-l019",
+   "card": "ch22-l020",
    "preview": [
-    "ch22-l019",
-    "ch22-l070",
-    "ch22-l080"
+    "ch22-l020",
+    "ch22-l071",
+    "ch22-l082"
    ]
   },
   {
@@ -1962,11 +1963,11 @@
     "The For-Word *Mo*"
    ],
    "group": "intermediate",
-   "card": "ch25-l015",
+   "card": "ch25-l016",
    "preview": [
-    "ch25-l015",
-    "ch25-l082",
-    "ch25-l084"
+    "ch25-l016",
+    "ch25-l083",
+    "ch25-l085"
    ]
   },
   {
@@ -1979,11 +1980,11 @@
     "Words That Fuse"
    ],
    "group": "intermediate",
-   "card": "ch26-l031",
+   "card": "ch26-l034",
    "preview": [
-    "ch26-l031",
-    "ch26-l032",
-    "ch26-l033"
+    "ch26-l034",
+    "ch26-l035",
+    "ch26-l036"
    ]
   },
   {
@@ -2059,7 +2060,7 @@
    "preview": [
     "ch30-l014",
     "ch30-l036",
-    "ch30-l037"
+    "ch30-l059"
    ]
   },
   {
@@ -2067,7 +2068,7 @@
    "title": "Comparison and Degree",
    "topics": [
     "The Comparative *Atu*",
-    "Naming What You Compare With: *ʻi Lo*",
+    "Naming What You Compare With: *i lo*",
     "The Most and the Best: *Sili*",
     "Saying Two Things Are Alike: *Pei* and *Tusa Ma*"
    ],
@@ -2075,8 +2076,8 @@
    "card": "ch31-l034",
    "preview": [
     "ch31-l034",
-    "ch31-l048",
-    "ch31-l050"
+    "ch31-l050",
+    "ch31-l052"
    ]
   },
   {
@@ -2092,8 +2093,8 @@
    "card": "ch32-l012",
    "preview": [
     "ch32-l012",
-    "ch32-l097",
-    "ch32-l099"
+    "ch32-l099",
+    "ch32-l101"
    ]
   },
   {
@@ -2106,11 +2107,11 @@
     "The Say-Verb *Fai*"
    ],
    "group": "intermediate",
-   "card": "ch33-l042",
+   "card": "ch33-l043",
    "preview": [
-    "ch33-l042",
     "ch33-l043",
-    "ch33-l053"
+    "ch33-l044",
+    "ch33-l056"
    ]
   },
   {
@@ -2128,8 +2129,8 @@
    "card": "ch34-l014",
    "preview": [
     "ch34-l014",
-    "ch34-l040",
-    "ch34-l041"
+    "ch34-l042",
+    "ch34-l043"
    ]
   },
   {
@@ -2163,8 +2164,8 @@
    "card": "ch36-l012",
    "preview": [
     "ch36-l012",
-    "ch36-l030",
-    "ch36-l035"
+    "ch36-l031",
+    "ch36-l036"
    ]
   },
   {
@@ -2177,11 +2178,11 @@
     "Clauses Under One Tense Particle"
    ],
    "group": "intermediate",
-   "card": "ch37-l037",
+   "card": "ch37-l038",
    "preview": [
-    "ch37-l037",
-    "ch37-l044",
-    "ch37-l045"
+    "ch37-l038",
+    "ch37-l045",
+    "ch37-l046"
    ]
   },
   {
@@ -2196,11 +2197,11 @@
     "Asking Why"
    ],
    "group": "intermediate",
-   "card": "ch38-l015",
+   "card": "ch38-l038",
    "preview": [
-    "ch38-l015",
     "ch38-l038",
-    "ch38-l040"
+    "ch38-l040",
+    "ch38-l048"
    ]
   },
   {
@@ -2217,7 +2218,7 @@
    "preview": [
     "ch39-l015",
     "ch39-l017",
-    "ch39-l046"
+    "ch39-l047"
    ]
   },
   {
@@ -2235,8 +2236,8 @@
    "card": "ch40-l014",
    "preview": [
     "ch40-l014",
-    "ch40-l197",
-    "ch40-l207"
+    "ch40-l198",
+    "ch40-l208"
    ]
   },
   {
@@ -2294,11 +2295,11 @@
     "Describing by What Somebody Has"
    ],
    "group": "advanced",
-   "card": "ch43-l033",
+   "card": "ch43-l034",
    "preview": [
-    "ch43-l033",
-    "ch43-l080",
-    "ch43-l125"
+    "ch43-l034",
+    "ch43-l081",
+    "ch43-l126"
    ]
   },
   {
@@ -2313,11 +2314,11 @@
     "Saying How Often"
    ],
    "group": "advanced",
-   "card": "ch44-l043",
+   "card": "ch44-l042",
    "preview": [
+    "ch44-l042",
     "ch44-l043",
-    "ch44-l044",
-    "ch44-l045"
+    "ch44-l044"
    ]
   },
   {
@@ -2335,11 +2336,11 @@
     "The Owner-as-Doer Pattern"
    ],
    "group": "advanced",
-   "card": "ch45-l053",
+   "card": "ch45-l055",
    "preview": [
-    "ch45-l053",
-    "ch45-l117",
-    "ch45-l131"
+    "ch45-l055",
+    "ch45-l120",
+    "ch45-l134"
    ]
   },
   {
@@ -2368,11 +2369,11 @@
     "The Five Kinds of Noun"
    ],
    "group": "advanced",
-   "card": "ch47-l048",
+   "card": "ch47-l047",
    "preview": [
-    "ch47-l048",
-    "ch47-l050",
-    "ch47-l063"
+    "ch47-l047",
+    "ch47-l049",
+    "ch47-l062"
    ]
   },
   {
@@ -2427,11 +2428,11 @@
     "What a Doubled Word Can Carry"
    ],
    "group": "advanced",
-   "card": "ch50-l230",
+   "card": "ch50-l232",
    "preview": [
-    "ch50-l230",
     "ch50-l232",
-    "ch50-l298"
+    "ch50-l234",
+    "ch50-l300"
    ]
   },
   {
@@ -2444,11 +2445,11 @@
     "The Emotional First Person"
    ],
    "group": "advanced",
-   "card": "ch51-l040",
+   "card": "ch51-l042",
    "preview": [
-    "ch51-l040",
-    "ch51-l080",
-    "ch51-l135"
+    "ch51-l042",
+    "ch51-l081",
+    "ch51-l136"
    ]
   }
  ],
@@ -2890,11 +2891,11 @@
    },
    {
     "lesson": 36,
-    "row": "ch36-l030"
+    "row": "ch36-l031"
    },
    {
     "lesson": 45,
-    "row": "ch45-l117"
+    "row": "ch45-l120"
    }
   ],
   "ending": [

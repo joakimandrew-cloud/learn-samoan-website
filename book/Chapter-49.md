@@ -155,8 +155,8 @@ general particle and the verb *ui* (granted), followed by a clause opened by the
 joining word *ina*. The second situation, the main clause, usually opens with the
 but-word *ʻae*. The two sentences bring in *poto* (clever) and *feʻau* (task).
 
-The pattern has three parts in a fixed order: *e ui* with its *ina* clause, then
-*ʻae*, then the main clause.
+The pattern usually has three parts in this order: *e ui* with its *ina* clause,
+then *ʻae*, then the main clause.
 
 | Part | Form | Function |
 |---|---|---|
@@ -185,6 +185,9 @@ phrase opened by the presenting particle *ʻo*.
 Here *ʻae* stands in front of *ui*, and *ui* takes *ʻi lea* (at that). The main
 clause follows with no *ʻae* of its own, which occasionally happens.
 
+> *Note:* The *e ui* clause usually opens the sentence, as in these sentences,
+> and less often follows the main clause.
+
 ---
 
 ## Saying Although with *Tīgā*
@@ -199,8 +202,9 @@ clause usually opens with *ʻae*. The sentence also brings in *ole* (beg). The
 pattern has three parts in a fixed order: *tīgā* with its *ona* clause, then
 *ʻae*, then the main clause.
 
-*Tīgā* differs from *ui* in one respect. Unlike *ui*, *tīgā* builds a clause
-that expresses a negative idea.
+Besides taking a clause opened by *ona* where *ui* takes one opened by *ina*,
+*tīgā* differs from *ui* in meaning: unlike *ui*, *tīgā* builds a clause that
+expresses a negative idea.
 
 | Part | *e ui* | *tīgā* |
 |---|---|---|
@@ -237,7 +241,7 @@ clause after it still decides which kind the sentence is.
 | After *tusa* | Example | English |
 |---|---|---|
 | *pē* and one clause | *E tusa pē timu* | even if |
-| *lava*, then *pē* ... *pē*, or *po* ... *po* | *e tusa lava pē timu pē leai* | whether ... or |
+| *lava*, then two question clauses, each opened by *pē* or *po* | *e tusa lava pē timu pē leai* | whether ... or |
 | *lava*, then *po ʻo* with *ā* (what) or *fea* (where) | *tusa lava po ʻo fea le nuʻu* | whatever, wherever |
 
 Keep the three apart in English. "Even if it rains" is one condition. "Whether it

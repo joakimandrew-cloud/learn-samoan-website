@@ -22,8 +22,8 @@ it. It takes a tense particle in front, here the general particle *e*, and it
 heads its own sentence. Sāmoan has no separate "is there" phrase; a question
 about whether something exists runs through this one verb.
 
-The thing whose existence is in question is usually left unfixed, so it takes a
-non-specific article rather than *le*. That article is *se* (a, any single one),
+A question about whether a thing exists takes a non-specific article rather than
+*le*, and so does every sentence with the there-is-none verb met below. That article is *se* (a, any single one),
 as in *se tusi*. There is also *sina* (a little of, some of), which marks a small
 portion of a thing rather than the whole of it, as in *sina vai*.
 
@@ -62,10 +62,10 @@ The question uses *sau*, which asks about a book of yours without picking out a
 particular one; the answer uses the forms you already know: *lau* (your), *laʻu*
 (my), *lana* (his, her).
 
-> *Note:* This *sau* has the same shape as the word for "come" met in Chapter 2.
-> Same string, two jobs: the come-word is the verb of the sentence and stands
-> after the tense particle, while this one sits in front of a noun and says
-> whose it is. What the word sits next to tells you which job it is doing.
+> *Note:* This *sau* has the same shape as the word for "come" met earlier, as in
+> the command *Sau* (come). Same string, two jobs: the come-word is the verb of
+> its sentence, in the verb's place or alone as a command, while this one sits in
+> front of a noun and says whose it is. What the word sits next to tells you which job it is doing.
 
 | Sāmoan | English |
 |---|---|
@@ -131,9 +131,7 @@ The thing that *leai* says is missing is always non-specific, so it takes *se*
 | *iai* | the there-is verb: says something exists or is present |
 | *leai* | the there-is-none verb: says something is absent (also the word for "no") |
 | *sina* | a little of, some of: marks a small portion of a thing, often politely |
-| *laʻu* | my (the possessive form used with *iai* to say what you have) |
-| *lau* | your (the possessive form used with *iai* to say what you have) |
-| *lana* | his, her (the possessive form used with *iai* to say what you have) |
+| *sau* | your, non-specific: the possessive form the have-question takes, asking about a thing of yours without picking out a particular one |
 
 **New vocabulary** (memorize these meanings):
 
@@ -185,11 +183,13 @@ sentence matches the English.
 2. *E leai se fana.*
 3. *E iai lana taʻavale.*
 4. *E iai se gasegase.*
+5. *E iai sau tusi?*
 
 a. She has a car.
 b. There is a sickness.
 c. There is a book.
 d. There is no gun.
+e. Do you have a book?
 
 ### Exercise 5: Translate into English
 
@@ -197,6 +197,7 @@ d. There is no gun.
 2. *E laʻitiiti le teine.*
 3. *E tautala le tama.*
 4. *Sā tupu se mea.*
+5. *E fānau le fafine.*
 
 ---
 
@@ -228,7 +229,7 @@ d. There is no gun.
 
 ### Exercise 4
 
-1-c, 2-d, 3-a, 4-b.
+1-c, 2-d, 3-a, 4-b, 5-e.
 
 ### Exercise 5
 
@@ -236,3 +237,4 @@ d. There is no gun.
 2. The girl is small.
 3. The boy talks.
 4. Something happened.
+5. The woman gives birth.

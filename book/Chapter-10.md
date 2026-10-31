@@ -33,10 +33,11 @@ foot) are parts of the body, not things a person acquires. Read that as an
 orientation rather than a test you can run on a new word, and learn each word's
 type as you meet it.
 English marks belonging with one set of words, "my", "your", "of", and never
-asks which type of belonging you mean. Sāmoan asks every time.
+asks which type of belonging you mean. In the phrases this chapter teaches, where
+the owner is a full noun or a single person, Sāmoan asks every time.
 
-The table below sets the two types side by side. In some rows the owner is a
-person or a creature, such as *gata* (snake):
+The table below sets the two types side by side. In every row the owner is a
+person except one, whose owner is an animal, *gata* (snake):
 
 | Sāmoan | English |
 |---|---|
@@ -64,8 +65,8 @@ meaning?
 
 The whole relationship changed. Under *a*, the house is something the boy made,
 a thing he produced by his own work. Under *o*, the house is where the boy
-lives, his home, a place that is his to live in. The three words are the same, and
-the belonging word alone decides which house is meant. This is why the sort
+lives, his home, a place that is his to live in. The two sentences differ only in
+the belonging word, and that word alone decides which house is meant. This is why the sort
 matters: choosing the wrong belonging word does not merely sound foreign, it
 can say something you did not mean.
 
@@ -75,8 +76,8 @@ can say something you did not mean.
 
 > **Preview:** You are learning which words are *a*-words and which are
 > *o*-words one word at a time. The reason behind the sort, stated as a rule you
-> can lean on, and the forms for plural and for our, your, and their things,
-> are completed in Chapter 25.
+> can lean on, and the forms for plural and for our, your (more than one person),
+> and their things, are completed in Chapter 25.
 
 ---
 
@@ -97,7 +98,7 @@ a **possessive form**.
 There are two possessive forms for each person, one for the *a*-words and one
 for the *o*-words, and they are chosen exactly as *a* and *o* are chosen.
 
-| person | *a*-word | *o*-word |
+| person | form used with *a*-words | form used with *o*-words |
 |---|---|---|
 | my | *laʻu* | *loʻu* |
 | your | *lau* | *lou* |
@@ -123,10 +124,12 @@ into the naming sentence exactly as it did before:
 :::
 
 > *Note:* The belonging word *o* has no ʻ mark. It is not the presenting
-> particle *ʻo* that opens a naming part. Position keeps them apart as well: the
-> presenting *ʻo* stands at the front of a naming part, while the belonging *o*
-> sits between a thing and its owner. In real Sāmoan print, where the ʻ mark is
-> often dropped, position is the surest guide.
+> particle *ʻo* that opens a naming part. Position usually keeps them apart as
+> well: the presenting *ʻo* stands at the front of a naming part, while the
+> belonging *o* sits between a thing and its owner. In real Sāmoan print, where
+> the ʻ mark is often dropped, position usually tells them apart, but in the slot
+> between a noun and a name that follows it, both can stand, and only the meaning
+> settles which is which.
 
 ---
 
@@ -138,7 +141,7 @@ into the naming sentence exactly as it did before:
 
 Earlier in this book you met the question that asks a person's name, and the
 word for "your" had not yet been taught. Now it has. In *ʻO ai lou igoa?* the
-part *lou igoa* is a possessive form and its thing: *lou* is the *o*-word for
+part *lou igoa* is a possessive form and its thing: *lou* is the *o*-word form of
 "your", and *igoa* is "name". A name is an *o*-word, because it is yours by the
 nature of things, not something you acquire.
 
@@ -162,8 +165,8 @@ like any other naming part:
 
 | Word | What it does |
 |---|---|
-| *a* | the belonging word for *a*-words: joins a thing to the person who got or uses it |
-| *o* | the belonging word for *o*-words: joins a thing to the person it is part of, or whose it is by nature or by where they live |
+| *a* | the belonging word for *a*-words: usually joins a thing to the person who got or uses it |
+| *o* | the belonging word for *o*-words: usually joins a thing to the person it is part of, or whose it is by nature or by where they live |
 | *laʻu*, *loʻu* | my (*a*-word form, *o*-word form) |
 | *lau*, *lou* | your (*a*-word form, *o*-word form) |
 | *lana*, *lona* | his, her, its (*a*-word form, *o*-word form) |
@@ -208,7 +211,7 @@ whether the thing is an *a*-word or an *o*-word.
 
 1. *le ulu ___ le pusi*
 2. *le naifi ___ le teine*
-3. *le vae ___ le gata*
+3. *le ulu ___ le gata*
 4. *le taʻavale ___ le aliʻi*
 5. *le lima ___ le teine*
 
@@ -242,7 +245,7 @@ Rewrite each phrase so the thing belongs to me, using the possessive form.
 1. the hand of the boy
 2. the woman's knife
 3. my car
-4. her head
+4. her head (or his head)
 5. the house of the chief
 
 ### Exercise 2
@@ -257,7 +260,7 @@ Rewrite each phrase so the thing belongs to me, using the possessive form.
 
 1. *le ulu o le pusi*
 2. *le naifi a le teine*
-3. *le vae o le gata*
+3. *le ulu o le gata*
 4. *le taʻavale a le aliʻi*
 5. *le lima o le teine*
 

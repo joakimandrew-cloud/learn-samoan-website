@@ -34,12 +34,12 @@
         "states": [
           {
             "label": "With the copy",
-            "sm": "ʻi le nuʻu sā nofo ai le teine.",
-            "en": "In the village the girl lived there."
+            "sm": "ʻI le nuʻu sā nofo ai le teine.",
+            "en": "In the village the girl lived."
           },
           {
             "label": "Without the copy",
-            "sm": "ʻi le nuʻu sā nofo le teine.",
+            "sm": "ʻI le nuʻu sā nofo le teine.",
             "en": "In the village the girl lived."
           }
         ]

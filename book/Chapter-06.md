@@ -46,7 +46,7 @@ A noun phrase built with *le* can do the work a person-word did in the earlier
 chapters. It can name who did something:
 
 ::: {.examples}
-*Sā alu le teine.* The girl went.
+*Sā alu le teine.* The girl went. (Lit. "past go the girl")
 :::
 
 *Sā* still stamps the sentence as past, and *alu* is still the verb. The new part
@@ -99,11 +99,20 @@ already knows which one; Sāmoan chooses *le* or *se* by whether the speaker has
 one particular thing in mind. The two questions are not the same, and where they
 part company, the English habit sends you to the wrong article.
 
+Here is a sentence where English says "a" and Sāmoan still uses *le*:
+
+::: {.examples}
+*ʻUa sau le teine.* A girl is coming.
+:::
+
+The speaker has one particular girl in mind, so *le* goes in front of *teine*, even
+though the English says "a".
+
 Ask one question instead of two: "do I have one particular thing in mind?" If
-yes, use *le*, even in places where English would say "a" (a storyteller opening
-with "there was a girl" who then carries that same girl through the whole tale
-has one particular girl in mind, and Sāmoan uses *le*). If any example of the
-thing would do, use *se*. You are not translating "the" and "a"; you are setting
+yes, use *le*, even in places where English would say "a" (a storyteller who
+opens with "there was a girl" and treats her as one particular, known girl often
+uses *le*, while a character whose exact identity is unknown or unimportant can
+be introduced with *se*). If any example of the thing would do, use *se*. You are not translating "the" and "a"; you are setting
 them aside and asking the Sāmoan question.
 
 ---
@@ -217,6 +226,8 @@ specific.
 1. *le teine*
 2. *le lāʻau*
 3. *le ipu*
+4. *le mea*
+5. *le tamaʻitaʻi*
 
 ### Exercise 4: Choose *le* or *se*
 
@@ -225,6 +236,8 @@ Put *le* or *se* in the gap so the Sāmoan matches the English.
 1. *___ mea* (one particular thing, the thing)
 2. *___ ipu* (any cup, no particular one)
 3. *___ teine* (the girl, that same girl again)
+4. *ʻUa sau ___ teine.* (a girl is coming; the speaker has one particular girl in mind)
+5. *___ teine* (any girl at all)
 
 ### Exercise 5: Translate into English
 
@@ -232,6 +245,7 @@ Put *le* or *se* in the gap so the Sāmoan matches the English.
 2. *Sā nofo le tamaʻitaʻi.*
 3. *ʻAumai ni ipu.*
 4. *Sā fiafia teine.*
+5. *Sā fiafia le teine.*
 
 ---
 
@@ -258,12 +272,16 @@ Put *le* or *se* in the gap so the Sāmoan matches the English.
 1. *teine*
 2. *lāʻau*
 3. *ipu*
+4. *mea*
+5. *tamaʻitaʻi*
 
 ### Exercise 4
 
 1. *le mea*
 2. *se ipu*
 3. *le teine*
+4. *le*, so *ʻUa sau le teine.*
+5. *se teine*
 
 ### Exercise 5
 
@@ -271,3 +289,4 @@ Put *le* or *se* in the gap so the Sāmoan matches the English.
 2. The lady stayed.
 3. Bring some cups.
 4. The girls were happy.
+5. The girl was happy.

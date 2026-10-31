@@ -34,8 +34,7 @@ The pattern has three parts in a fixed order.
 
 The clause after *ona* usually carries no tense particle. Nothing stands in the
 slot in front of *ʻou sau*, exactly as nothing stands in front of the clause
-after *ona* in the can-and-must pattern. *Talu* carries the time for both
-halves, and you will mostly meet the clause bare like this.
+after *ona* in the can-and-must pattern. You will mostly meet the clause bare like this.
 
 | Sāmoan | English |
 |---|---|
@@ -54,11 +53,11 @@ halves, and you will mostly meet the clause bare like this.
 :::
 
 The same two clauses, in the other order. A since-clause may open the sentence,
-as it did in the section above, or it may follow the main clause, as it does
-here. Neither order changes the meaning, and both are ordinary.
+as it did in the section above, or it may also follow the main clause, as it does
+here.
 
 ::: {.examples}
-*ʻO lona tolu o aso talu ona ʻou sau, sā ʻou vaʻai ʻi le teine.* On the third day since I came, I saw the girl. (Lit. "The third of the days since that I come, I saw the girl.")
+*ʻO lona tolu o aso talu ona ʻou sau, sā ʻou vaʻai atu ai ʻi le teine.* On the third day since I came, I saw the girl. (Lit. "The third of the days since that I come, I saw then the girl.")
 :::
 
 A since-clause often follows a stretch or a point of time named in front of it.
@@ -209,7 +208,7 @@ a number, and what it distributes is whatever noun stands beside it.
 ::: {.examples}
 *Sā galue le tama ʻi le maʻumaga.* The boy used to work in the taro patch.
 
-*E galue le tama ʻi le maʻumaga.* The boy works in the taro patch.
+*E galue le tama ʻi le maʻumaga.* The boy works in the taro patch. (One reading: the time is left open.)
 :::
 
 > *Note:* A repeated or customary happening is also carried by the tense
@@ -269,7 +268,7 @@ which word marks it.
 1. *Talu ona ʻou alu ʻou te leʻi maua se mea lelei.*
 2. *Sā māfatia le tama ina ʻua malama le taeao.*
 3. *ʻO le sau o le pasi, e ʻāmata ai le malaga.*
-4. *ʻO lona tolu o aso talu ona ʻou sau, sā ʻou vaʻai ʻi le teine.*
+4. *ʻO lona tolu o aso talu ona ʻou sau, sā ʻou vaʻai atu ai ʻi le teine.*
 5. *Ina ʻua sau le teine, sā fiafia le tama.*
 
 ### Exercise 3: Fill the gap
@@ -330,10 +329,10 @@ front of it.
 
 ### Exercise 2
 
-1. *ona ʻou alu*, the clause after the since-word *talu*.
+1. *ʻou alu*, the clause after the since-word *talu*, opened by the that-word *ona*.
 2. *ina ʻua malama le taeao*, the clause opened by the when-word, standing after the main clause.
 3. *ʻO le sau o le pasi*, the le-phrase at the head, marked by the presenting particle *ʻo* standing in front of it. The clause that follows carries the pointing-back word *ai*, which reaches back to that phrase rather than marking it.
-4. *ona ʻou sau*, the clause after the since-word, with the stretch of time *ʻo lona tolu o aso* named in front of it.
+4. *ʻou sau*, the clause after the since-word, opened by the that-word *ona*, with the stretch of time *ʻo lona tolu o aso* named in front of it.
 5. *ina ʻua sau le teine*, the clause opened by the when-word.
 
 ### Exercise 3

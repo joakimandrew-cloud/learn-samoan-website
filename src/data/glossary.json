@@ -13,7 +13,7 @@
   },
   {
     "samoan": "=ga",
-    "english": "the ending that makes a noun of a verb: something that comes of the event, or the event itself as a whole",
+    "english": "the ending that makes a noun of a verb: a fixed noun to be learned word by word, or the event itself as a whole",
     "chapter": 50,
     "letter": "Suffixes"
   },
@@ -49,7 +49,7 @@
   },
   {
     "samoan": "a",
-    "english": "the belonging word for *a*-words: joins a thing to the person who got or uses it",
+    "english": "the belonging word for *a*-words: usually joins a thing to the person who got or uses it",
     "chapter": 10,
     "letter": "A"
   },
@@ -144,6 +144,12 @@
     "letter": "A"
   },
   {
+    "samoan": "āfea",
+    "english": "the future when-word: asks when about future time and goes with the future particle *ʻoleʻā*; it comes to the front after *ʻo*, copied by *ai* inside the verb, or stays at the end of the sentence",
+    "chapter": 21,
+    "letter": "A"
+  },
+  {
     "samoan": "afi",
     "english": "fire",
     "chapter": 29,
@@ -163,8 +169,14 @@
   },
   {
     "samoan": "ai",
-    "english": "the pointing-back word: stands in for a place already named; sits after the verb, before the doer",
+    "english": "the pointing-back word: stands in for a place already named; in this chapter's sentences it sits after the verb, before the doer",
     "chapter": 16,
+    "letter": "A"
+  },
+  {
+    "samoan": "ai",
+    "english": "the who-word: asks who; in this chapter's questions it comes to the front after *ʻo*",
+    "chapter": 21,
     "letter": "A"
   },
   {
@@ -175,7 +187,7 @@
   },
   {
     "samoan": "ai",
-    "english": "the pointing-back word, met earlier: inside the then-construction it reaches back to everything said before it",
+    "english": "the pointing-back word, met earlier: inside the then-construction it usually reaches back to everything said before it",
     "chapter": 37,
     "letter": "A"
   },
@@ -252,6 +264,12 @@
     "letter": "A"
   },
   {
+    "samoan": "ʻāmulī",
+    "english": "after death, in the last days",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
     "samoan": "ana",
     "english": "cave",
     "chapter": 36,
@@ -273,6 +291,12 @@
     "samoan": "ana-",
     "english": "the prefix that makes a past time word",
     "chapter": 50,
+    "letter": "A"
+  },
+  {
+    "samoan": "anafea",
+    "english": "the past when-word: asks when about past time and goes with the past particle *na*; it takes the same two places as *āfea*",
+    "chapter": 21,
     "letter": "A"
   },
   {
@@ -378,8 +402,14 @@
     "letter": "A"
   },
   {
+    "samoan": "ʻātalī",
+    "english": "in the next world",
+    "chapter": 18,
+    "letter": "A"
+  },
+  {
     "samoan": "ataliʻi",
-    "english": "son",
+    "english": "a man's son",
     "chapter": 33,
     "letter": "A"
   },
@@ -390,12 +420,6 @@
     "letter": "A"
   },
   {
-    "samoan": "atili",
-    "english": "increase",
-    "chapter": 36,
-    "letter": "A"
-  },
-  {
     "samoan": "ʻato",
     "english": "basket",
     "chapter": 21,
@@ -403,8 +427,8 @@
   },
   {
     "samoan": "ʻātoa",
-    "english": "complete (to recognize only)",
-    "chapter": 21,
+    "english": "complete",
+    "chapter": 22,
     "letter": "A"
   },
   {
@@ -529,7 +553,7 @@
   },
   {
     "samoan": "e",
-    "english": "the general particle, met earlier: at the head of a clause following the main clause it marks purpose, and it takes the shape *te* after a preverbal pronoun",
+    "english": "the general particle, met earlier: when a clause following the main clause says what the action is done for, it stands at the head of that clause, and it takes the shape *te* after a preverbal pronoun",
     "chapter": 38,
     "letter": "E"
   },
@@ -579,6 +603,12 @@
     "samoan": "ʻenaʻena",
     "english": "brown",
     "chapter": 44,
+    "letter": "E"
+  },
+  {
+    "samoan": "ʻese",
+    "english": "strange, foreign",
+    "chapter": 9,
     "letter": "E"
   },
   {
@@ -672,6 +702,12 @@
     "letter": "F"
   },
   {
+    "samoan": "faʻapefea",
+    "english": "the how-word: asks how, and stands where a describing word would stand",
+    "chapter": 21,
+    "letter": "F"
+  },
+  {
     "samoan": "faʻasā",
     "english": "forbid",
     "chapter": 30,
@@ -757,7 +793,7 @@
   },
   {
     "samoan": "fai",
-    "english": "the say-verb, met earlier for do and make: the person named after it is the speaker, and what was said follows as a sentence of its own",
+    "english": "the say-verb, met earlier with all its meanings: the person named after it is the speaker, and what was said follows as a sentence of its own",
     "chapter": 33,
     "letter": "F"
   },
@@ -870,6 +906,12 @@
     "letter": "F"
   },
   {
+    "samoan": "fasi",
+    "english": "hit, beat",
+    "chapter": 9,
+    "letter": "F"
+  },
+  {
     "samoan": "fau",
     "english": "build",
     "chapter": 32,
@@ -903,6 +945,12 @@
     "samoan": "feʻau",
     "english": "work, task, errand",
     "chapter": 49,
+    "letter": "F"
+  },
+  {
+    "samoan": "fefe",
+    "english": "fear, be afraid",
+    "chapter": 40,
     "letter": "F"
   },
   {
@@ -1129,7 +1177,7 @@
   },
   {
     "samoan": "ia",
-    "english": "the urging word: added to the end of a command for warmth or a push (not the person word *ia*)",
+    "english": "the urging word: added straight after the verb of a command for warmth or a push (not the preverbal pronoun *ia*)",
     "chapter": 5,
     "letter": "I"
   },
@@ -1165,7 +1213,7 @@
   },
   {
     "samoan": "iā",
-    "english": "the shapes the place word takes before a person's name and in front of a person-word",
+    "english": "the shapes the place word takes: usually *iā* before a person's name, *ʻia te* in front of a singular person-word, and *iā* in front of person-words for two or more people",
     "chapter": 11,
     "letter": "I"
   },
@@ -1189,7 +1237,7 @@
   },
   {
     "samoan": "ʻia te",
-    "english": "the shapes the place word takes before a person's name and in front of a person-word",
+    "english": "the shapes the place word takes: usually *iā* before a person's name, *ʻia te* in front of a singular person-word, and *iā* in front of person-words for two or more people",
     "chapter": 11,
     "letter": "I"
   },
@@ -1321,7 +1369,7 @@
   },
   {
     "samoan": "kī",
-    "english": "key",
+    "english": "key; switch on",
     "chapter": 45,
     "letter": "K"
   },
@@ -1380,12 +1428,6 @@
     "letter": "L"
   },
   {
-    "samoan": "lana",
-    "english": "his, her (the possessive form used with *iai* to say what you have)",
-    "chapter": 14,
-    "letter": "L"
-  },
-  {
     "samoan": "lanu",
     "english": "colour",
     "chapter": 25,
@@ -1411,12 +1453,6 @@
   },
   {
     "samoan": "lau",
-    "english": "your (the possessive form used with *iai* to say what you have)",
-    "chapter": 14,
-    "letter": "L"
-  },
-  {
-    "samoan": "lau",
     "english": "leaf",
     "chapter": 21,
     "letter": "L"
@@ -1425,12 +1461,6 @@
     "samoan": "laʻu",
     "english": "my (*a*-word form, *o*-word form)",
     "chapter": 10,
-    "letter": "L"
-  },
-  {
-    "samoan": "laʻu",
-    "english": "my (the possessive form used with *iai* to say what you have)",
-    "chapter": 14,
     "letter": "L"
   },
   {
@@ -1471,7 +1501,7 @@
   },
   {
     "samoan": "lē",
-    "english": "the not-word: denies a statement or question; sits after the tense particle, before the verb",
+    "english": "the not-word: denies a statement or question; sits after the tense particle (and any pronoun), before the verb",
     "chapter": 15,
     "letter": "L"
   },
@@ -1548,8 +1578,14 @@
     "letter": "L"
   },
   {
+    "samoan": "lēfea",
+    "english": "the which-word: asks which one of several; recognize it when you meet it, it is not drilled here",
+    "chapter": 21,
+    "letter": "L"
+  },
+  {
     "samoan": "leʻi",
-    "english": "the not-yet word: says a thing has not happened so far but is expected to; usually rides the general particle",
+    "english": "the not-yet word: says a thing has not happened so far but is expected to; normally used with the general particle",
     "chapter": 15,
     "letter": "L"
   },
@@ -1585,7 +1621,7 @@
   },
   {
     "samoan": "lenā",
-    "english": "that: points to something in view, and comes second in the naming sentence",
+    "english": "that: usually points to something in view, near the person spoken to, and comes second in the naming sentence",
     "chapter": 7,
     "letter": "L"
   },
@@ -2239,7 +2275,7 @@
   },
   {
     "samoan": "o",
-    "english": "the belonging word for *o*-words: joins a thing to the person it is part of, or whose it is by nature or by where they live",
+    "english": "the belonging word for *o*-words: usually joins a thing to the person it is part of, or whose it is by nature or by where they live",
     "chapter": 10,
     "letter": "O"
   },
@@ -2760,6 +2796,12 @@
     "letter": "S"
   },
   {
+    "samoan": "sau",
+    "english": "your, non-specific: the possessive form the have-question takes, asking about a thing of yours without picking out a particular one",
+    "chapter": 14,
+    "letter": "S"
+  },
+  {
     "samoan": "saʻu",
     "english": "a ... of mine (*a*-word form, *o*-word form), for one thing of no particular identity",
     "chapter": 25,
@@ -2826,6 +2868,12 @@
     "letter": "S"
   },
   {
+    "samoan": "sene",
+    "english": "cent",
+    "chapter": 22,
+    "letter": "S"
+  },
+  {
     "samoan": "sesē",
     "english": "wrong",
     "chapter": 51,
@@ -2845,7 +2893,7 @@
   },
   {
     "samoan": "sili",
-    "english": "better, best, more, most: it takes a complement clause after *ona* and raises that clause's degree, to the top on its own and to a comparison when *atu* and *i lo* follow",
+    "english": "better, best, more, most: in this chapter's pattern it takes a complement clause after *ona* and raises that clause's degree; in this chapter's sentences it gives the top degree on its own and, with *atu* and *i lo*, a comparison",
     "chapter": 31,
     "letter": "S"
   },
@@ -3180,6 +3228,12 @@
     "letter": "T"
   },
   {
+    "samoan": "tālā",
+    "english": "dollar",
+    "chapter": 22,
+    "letter": "T"
+  },
+  {
     "samoan": "tala ane",
     "english": "the space next to, alongside",
     "chapter": 26,
@@ -3367,7 +3421,7 @@
   },
   {
     "samoan": "taufi",
-    "english": "cover",
+    "english": "cover (the form used when more than one thing is covered)",
     "chapter": 43,
     "letter": "T"
   },
@@ -3433,7 +3487,7 @@
   },
   {
     "samoan": "te",
-    "english": "the general particle, met earlier: at the head of a clause following the main clause it marks purpose, and it takes the shape *te* after a preverbal pronoun",
+    "english": "the general particle, met earlier: when a clause following the main clause says what the action is done for, it stands at the head of that clause, and it takes the shape *te* after a preverbal pronoun",
     "chapter": 38,
     "letter": "T"
   },
@@ -3513,6 +3567,12 @@
     "samoan": "toʻa-",
     "english": "the prefix on a number that counts human beings",
     "chapter": 50,
+    "letter": "T"
+  },
+  {
+    "samoan": "toʻafia",
+    "english": "the how-many word with the people prefix: asks how many people",
+    "chapter": 22,
     "letter": "T"
   },
   {

@@ -72,10 +72,6 @@ a noun in that slot never does.
 The pattern with a not-word has three parts in a fixed order: the article *le*,
 then *lē*, then the verb.
 
-> *Note:* The article and the not-word are told apart in writing by the
-> long-vowel mark alone. Print that drops the marks, which is most Sāmoan print,
-> writes the two the same way, and the reader takes them apart by sense.
-
 | Sāmoan | English |
 |---|---|
 | *le fiafia* | the being happy |
@@ -84,6 +80,10 @@ then *lē*, then the verb.
 | *le lē vāivai* | the not being tired |
 | *le nofo* | the staying |
 | *le lē nofo* | the not staying |
+
+> *Note:* The article and the not-word are told apart in writing by the
+> long-vowel mark alone. Print that drops the marks writes the two the same way,
+> and the reader takes them apart by sense.
 
 ::: {.examples}
 *Sā ʻou nofo ma le lē vāivai.* I stayed and was not tired.
@@ -129,7 +129,7 @@ the action as a le-phrase changes nothing about that choice.
 The pattern has three parts in a fixed order: the do-not verb, then the article
 *le*, then the verb of the event. In both sentences here, what the event names
 follows that verb with nothing in front of it. Sāmoan has a second way of naming
-it, and Chapter 45 teaches both.
+it, and both are taught later in this book.
 
 | Sāmoan | English |
 |---|---|

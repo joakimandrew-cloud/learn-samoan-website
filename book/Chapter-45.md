@@ -23,9 +23,11 @@ then adds a belonging word and a noun phrase behind it.
 
 This pattern has four parts in a fixed order: the article *le*, the verb, then
 *a* or *o*, then the one the event is about. It is the shape a le-phrase takes
-on a verb that carries no agent marker, and everything else in the event keeps
-the shape it had in an ordinary sentence. Verbs that do carry one behave
-differently, and they come later in this chapter.
+on a verb used without an agent marker, and everything else in the event keeps
+the shape it had in an ordinary sentence. A verb that can run both ways, as the
+biting verb of the first example can, takes this shape when it runs without one.
+Verbs used with an agent marker behave differently, and they come later in this
+chapter.
 
 | Sāmoan | English |
 |---|---|
@@ -105,7 +107,8 @@ thing a person does on purpose.
 > *Note:* The belonging word on a plain noun has not changed. An ear is still an
 > *o*-word and a cup is still an *a*-word, and that stays a fact to be learned
 > with the noun. The doer test is for the phrase that names the one a le-phrase's
-> event is about, and there it settles the choice on its own. A plain owner
+> event is about, and there the doer test, not the class of the noun, is what
+> applies, with the speaker's choice and the three forcing words as its limits. A plain owner
 > sitting on a noun inside the same le-phrase still takes the word that noun
 > takes.
 
@@ -141,9 +144,9 @@ event that happened.
 | *fia* | between the article and the verb | *o* |
 | *soʻo* | behind the verb | *o* |
 
-These three are the one part of this chapter with no soft edge. Wherever one of
-them stands with the verb of a le-phrase, the word on the one the event is about
-is *o*, and the doer test is not consulted.
+These three override the doer test whatever the verb is. Wherever one of them
+stands with the verb of a le-phrase, the word on the one the event is about is
+*o*, and the doer test is not consulted.
 
 ---
 
@@ -174,8 +177,10 @@ These are states a person is in rather than things a person does, which is why
 
 ## Hearing and Seeing
 
-Hearing and seeing sit between the two halves of this chapter, and Sāmoan uses
-the belonging word to say which kind of hearing or seeing is meant.
+Hearing and seeing sit between two groups: the verbs of doing, which take either
+belonging word, and the verbs about what goes on inside a person, which take only
+*o*. Sāmoan uses the belonging word to say which kind of hearing or seeing is
+meant.
 
 ::: {.examples}
 *ʻUa ʻese le faʻalogo mai a le teine ʻi totonu o le fale.* Inside the house, the girl listened attentively. (Lit. "The listening of the girl inside the house was extraordinary.")
@@ -215,9 +220,11 @@ The lady in that phrase was not listening out for a *kī* (key) of that
 *ʻO le alofa o le tama ʻi le teine.* The boy caring for the girl.
 :::
 
-Some verbs name a feeling pointed at somebody, and the place word *ʻi* carries
-what it is pointed at. When the sentence becomes a le-phrase, that part of it
-does not move and does not change.
+Some verbs name a mental activity aimed at somebody or something, such as loving,
+wanting or watching, and the place word *ʻi* carries what it is aimed at. When
+the sentence becomes a le-phrase, that part of it does not move and does not
+change. The sources print these le-phrases with *o* on the one the event is
+about, and you keep *o* on them.
 
 The second line has done one thing to the first. *Le tama* left the slot
 behind the verb and came back as *o le tama*, and *ʻi le teine* stayed exactly
@@ -240,8 +247,8 @@ Each sentence below is followed by the le-phrase built from it.
 
 ## The Doer That Keeps *E*
 
-Everything so far has been built on verbs that take no agent marker. With a verb
-that does take one, the le-phrase behaves differently.
+Everything so far has been built on verbs used without an agent marker. With a
+verb that does take one, the le-phrase behaves differently.
 
 ::: {.examples}
 *E faʻa=lē=lelei le faʻa=susu fagu e tinā palagi o pepe.* The palagi mothers' feeding of the babies with bottles is not good.
@@ -351,7 +358,9 @@ plain owner and not an event at all.
 :::
 
 The radio is an *a*-word for its owner, so the second belonging word is *a*; the
-first is *o* because the radio is what was switched on.
+first is *o* because the radio is what was switched on. In this phrase *kī* is the
+verb "switch on"; it is the same word as the noun "key" met earlier in this
+chapter.
 
 | Part | Form | Function |
 |---|---|---|
@@ -385,7 +394,7 @@ first is *o* because the radio is what was switched on.
 | *taʻamū* | taʻamū (a large edible tuber) |
 | *palagi* | European, white person |
 | *ituʻāiga* | kind, sort |
-| *kī* | key |
+| *kī* | key; switch on |
 
 ---
 
@@ -416,7 +425,7 @@ and be ready to say why.
 
 Rewrite each sentence as a le-phrase naming the one the event is about, and
 keep every other part of the sentence unchanged. Where the doing may be pointed
-at or left unsaid, point at it. Where a part of the sentence is left over after
+at or left unsaid, point at it, except in items 1 to 3, which keep *o*. Where a part of the sentence is left over after
 the le-phrase, write the whole line the way this chapter prints it, beginning
 with *ʻO*; where nothing is left over, write the phrase on its own.
 
@@ -531,4 +540,4 @@ Answer in English.
 
 ### Exercise 7
 
-1. deaf · 2. ear · 3. bottle · 4. mosquito · 5. taʻamū (a large edible tuber) · 6. European, white person · 7. kind, sort · 8. key
+1. deaf · 2. ear · 3. bottle · 4. mosquito · 5. taʻamū (a large edible tuber) · 6. European, white person · 7. kind, sort · 8. key; switch on

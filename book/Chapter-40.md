@@ -21,9 +21,10 @@ Compare the two lines. Where did *uliuli* go, and what did it stop doing?
 It moved in behind the name of the thing, and it stopped being the whole
 statement. On the first line *uliuli* is the verb of the sentence and says what
 the car is. On the second it stands inside the noun phrase and says which car is
-meant. The word did not change shape and it did not change class. A describing
-word in Sāmoan is a verb wherever it stands, and this is the position it takes
-when the thing it describes is a noun rather than an action.
+meant. The word did not change shape and it did not change class. The describing
+words taught in this chapter and in Chapter 3 are verbs wherever they stand, and
+this is the position they take when the thing they describe is a noun rather
+than an action.
 
 The pattern has three parts in a fixed order: the article, then the name of the
 thing, then the describing verb.
@@ -149,7 +150,7 @@ The noun being described is the one doing the action, or the place it happens in
 or the thing it is done with. In *le teine fai umu* it is the girl who does it.
 
 ::: {.examples}
-*le teine fai meaʻai*. the girl who makes the food
+*le teine fai meaʻai*. the food-making girl
 :::
 
 > *Note:* The verb inside a verb-and-noun compound usually keeps its short form.
@@ -171,7 +172,7 @@ phrase, or they can be joined by the with-word *ma*. The two phrases also show
 that the kinds can mix: the second one opens on a part-and-quality compound.
 
 In this construction, the with-word brings an article with it. What stands behind *ma* is *le fefe*,
-an article in front of a verb, which is the le-phrase taught earlier in this
+an article in front of a verb (*fefe*, fear, be afraid), which is the le-phrase taught earlier in this
 book: the being afraid, packed into a thing. So the with-word is doing here what
 it has always done, joining one thing to another, and the English "and" in the
 gloss covers a join Sāmoan makes between a description and a named feeling.
@@ -207,7 +208,7 @@ second as it does there.
 *E faigatā le gagana.* The language is difficult.
 :::
 
-Sāmoan has two endings that go on another word. The ending *=gatā* carries the
+Sāmoan has two endings that build its difficult-words and easy-words. The ending *=gatā* carries the
 meaning difficult and *=gōfie* carries the meaning easy, and each word they build
 has a meaning of its own, learned word by word. *Fai* is the verb for doing, so
 *faigatā* is difficult and *faigōfie* is easy.
@@ -238,9 +239,8 @@ of this chapter stand: after a noun, and as the verb of a sentence.
 *Faʻalogo* is to listen, and *faʻalogogatā* is disobedient rather than hard to
 hear. *Mau* is to have plenty, and *maugatā* is mean rather than hard to have.
 
-> *Note:* Both endings can also go on a verb that already carries the long-form
-> ending taught earlier in this book, and an ending can follow them in turn. This
-> chapter builds from a plain verb only.
+> *Note:* Both endings can follow another ending, and an ending can follow them
+> in turn. This chapter builds from a plain verb only.
 
 ---
 
@@ -268,6 +268,7 @@ hear. *Mau* is to have plenty, and *maugatā* is mean rather than hard to have.
 | *maugōfie* | generous |
 | *taugatā* | expensive |
 | *taugōfie* | cheap |
+| *fefe* | fear, be afraid |
 
 ---
 
@@ -338,6 +339,7 @@ Add *=gatā* or *=gōfie* to the word in brackets to give the word that means:
 8. *maugōfie*
 9. *taugatā*
 10. *taugōfie*
+11. *fefe*
 
 ---
 
@@ -390,4 +392,5 @@ Add *=gatā* or *=gōfie* to the word in brackets to give the word that means:
 ### Exercise 6
 
 1. difficult · 2. easy · 3. listen, hear · 4. disobedient · 5. obedient ·
-6. have plenty · 7. mean, tight-fisted · 8. generous · 9. expensive · 10. cheap
+6. have plenty · 7. mean, tight-fisted · 8. generous · 9. expensive · 10. cheap ·
+11. fear, be afraid

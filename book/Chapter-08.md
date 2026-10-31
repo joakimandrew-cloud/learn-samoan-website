@@ -58,7 +58,7 @@ answer is about, the presented part can stand alone:
 The question word *ā* asks after a thing. It does not stand next to *ʻo* the
 way *ai* does: the specific article *le* comes between them, so the asking part
 is *ʻo le ā*, literally "the what". The article is there because *ā* behaves
-like a noun, and a noun that names one thing takes an article in front of it.
+like an ordinary noun such as *teine* (girl) or *matua* (parent), and an ordinary noun that names one thing takes an article in front of it.
 *Ai* behaves like a pronoun, and a pronoun takes no article. That one difference gives the two
 question shapes: *ʻo ai* for who, *ʻo le ā* for what. Because *ā* is noun-like
 it can take the other articles too; the questions in this chapter all use *le*.
@@ -83,6 +83,16 @@ sentence. Here the answer introduces *suāsami* (salt water):
 *ʻO le suāsami lenā.* That is the salt water.
 :::
 
+Three more answers bring in *fale* (house), *ulāvai* (prawn) and *to* (hole):
+
+::: {.examples}
+*ʻO le fale lenā.* That is the house.
+
+*ʻO le ulāvai lenā.* That is the prawn.
+
+*ʻO le to lenā.* That is the hole.
+:::
+
 > *Note:* The question word *ā* and the future particle's short form *ʻā* differ
 > by the ʻ mark alone. The short future form carries the mark and stands in a
 > verb sentence's first slot; the question word has no mark and, in this
@@ -94,8 +104,8 @@ sentence. Here the answer introduces *suāsami* (salt water):
 > asked after. Sāmoan uses it to ask what someone wants to do, and why
 > something is so; the machinery that carries the rest of that sentence arrives
 > in a later chapter. The word *ā* itself also has a life inside verb
-> sentences, asking what the matter is, and that use too is taught in a later
-> chapter.
+> sentences, asking what the matter is; you may meet that use in conversation,
+> though this book does not teach it.
 
 ---
 
@@ -203,6 +213,7 @@ what-question it answers.
 2. *ʻO le suāsami lenā.*
 3. *ʻO le matua lenā.*
 4. *ʻO le to lenā.*
+5. *ʻO le fale lenā.*
 
 ### Exercise 4: Make each statement a yes or no question
 
@@ -211,6 +222,8 @@ Rewrite the sentence as a yes or no question, and mark the falling tune with ↘
 1. *ʻO le pusi lenā.*
 2. *ʻO se uō le teine.*
 3. *ʻO le fale lenā.*
+4. *ʻO le teine lenā.*
+5. *ʻO le suāsami lenā.*
 
 ### Exercise 5: Put the question marker in its place
 
@@ -220,6 +233,8 @@ belongs.
 1. *ʻO ai le teine?* (*po*)
 2. *ʻO le ā le tausaga?* (*ʻea*)
 3. *ʻO ai le matua?* (*ʻea*)
+4. *ʻO ai le fafine?* (*po*)
+5. *ʻO le ā le tausaga?* (*po*)
 
 ### Exercise 6: Choose *ai* or *ā*
 
@@ -229,6 +244,7 @@ Fill the blank so the question matches the English.
 2. *ʻO le ___ le ʻupu?* (What is the word?)
 3. *ʻO ___ lenā?* (Who is that?)
 4. *ʻO le ___ lenā?* (What is that?)
+5. *ʻO ___ le fafine?* (Who is the woman?)
 
 ---
 
@@ -256,18 +272,23 @@ Fill the blank so the question matches the English.
 2. *ʻO le ā lenā?*
 3. *ʻO ai lenā?*
 4. *ʻO le ā lenā?*
+5. *ʻO le ā lenā?*
 
 ### Exercise 4
 
 1. *ʻO le pusi lenā?* ↘
 2. *ʻO se uō le teine?* ↘
 3. *ʻO le fale lenā?* ↘
+4. *ʻO le teine lenā?* ↘
+5. *ʻO le suāsami lenā?* ↘
 
 ### Exercise 5
 
 1. *Po ʻo ai le teine?*
 2. *ʻO le ā ʻea le tausaga?*
 3. *ʻO ai ʻea le matua?*
+4. *Po ʻo ai le fafine?*
+5. *Po ʻo le ā le tausaga?*
 
 ### Exercise 6
 
@@ -275,3 +296,4 @@ Fill the blank so the question matches the English.
 2. *ʻO le ā le ʻupu?*
 3. *ʻO ai lenā?*
 4. *ʻO le ā lenā?*
+5. *ʻO ai le fafine?*

@@ -13,11 +13,12 @@ its events happened.
 *Ona alu lea ʻo le tama.* Then the boy went. (Lit. "Then go that, the boy.")
 :::
 
-Two words working as a pair to mark the next thing that happened are called
+Two words working as a pair to mark the next event in a sequence are called
 **the then-construction**, and the Sāmoan pair is *ona* and *lea*. *Ona* stands
 at the head of the clause, the verb phrase follows it, *lea* closes the verb
 phrase off, and the rest of the clause comes after that. A clause built this way
-always says the same thing about time: this happened, then that.
+always marks a sequence: this event, then that one. In a story the sequence is
+told in the past, and that is the case this chapter works with.
 
 The pattern has four parts in a fixed order: *ona*, then the verb phrase, then
 *lea*, then the rest of the clause.
@@ -45,8 +46,10 @@ plain form with nothing in front of it.
 | *Ona lilo atu lea ʻo le teine ʻi le toga lālā.* | Then the girl hid in the cluster of branches. |
 | *Ona lolo lea ʻo le vaitafe.* | Then the river overflowed. |
 
-A clause of this kind reports what happened next, so there is always something
-for it to come after. A story can be built out of these clauses one after
+*lilo* means "hide", *lālā* means "branch", *sami* means "sea", *saʻai* means "ogre", and *vaitafe* means "river".
+
+A clause of this kind reports the event that comes next in the sequence, so
+there is always something for it to come after. A story can be built out of these clauses one after
 another, and any one of them can stand as a sentence of its own, but a text
 never opens with one.
 
@@ -90,8 +93,8 @@ but to the whole of what has been said before it.
 *ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
 :::
 
-*Ai* here does not point at the branches or at the girl. It points at the hiding,
-and at everything the story has said up to that moment.
+*Ai* here is usually read as pointing not at the branches or at the girl but at
+the hiding, and at everything the story has said up to that moment.
 
 | Sāmoan | English |
 |---|---|
@@ -104,7 +107,8 @@ and at everything the story has said up to that moment.
 > stood in front of a verb with no tense particle and meant "that". Here it opens
 > the then-construction and is answered by *lea*, which, when it is there, marks
 > this *ona* as the then-construction. There is a third *ona*, meaning "because",
-> and the test that tells the other two apart is taught in Chapter 38.
+> and the test that tells the "that" *ona* from the "because" *ona* is taught in
+> Chapter 38.
 
 ---
 
@@ -148,6 +152,8 @@ Every sentence in the table below says "Then the boy went."
 *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* We then rested, and played in the house with the tin roof. (Lit. "We then rested, we played in the house-tin.")
 :::
 
+*tāʻaʻalo* means "play" and *ʻapa* means "tin".
+
 The second clause carries no tense particle. Nothing stands in the slot in front
 of *mātou tāʻaʻalo*, and nothing needs to: the *na* at the head of the first clause
 reaches over the whole run, so the second clause is read in the past the first
@@ -164,6 +170,8 @@ with the slot in front of each of them left empty.
 ::: {.examples}
 *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* My parents then rested, then I went to the village, and prepared the journey there.
 :::
+
+*sāuni* means "prepare" and *malaga* means "journey".
 
 Three clauses, one tense particle. *Na* stands in front of the first and in front
 of neither of the others. The then-word *loa* marks the succession twice over,
@@ -191,7 +199,7 @@ clauses.
 |---|---|
 | *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* | We then rested, and played in the house with the tin roof. |
 | *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* | My parents then rested, then I went to the village, and prepared the journey there. |
-| *Sā ʻou alu loa ʻi fafo, ʻou fufulu oʻu mata.* | I then went outside and washed my face. (Lit. "Wash my eyes.") |
+| *Sā ʻou alu loa ʻi fafo, ʻou fufulu oʻu mata.* | I then went outside and washed my face. (Lit. "I wash my eyes.") |
 | *Na alu le tama, oso le teine ʻi le sami.* | The boy went, and the girl jumped into the sea. |
 | *Sā ʻou alu loa ʻi fafo. Fufulu oʻu mata.* | I then went outside. I washed my face. (Lit. "Wash my eyes.") |
 
@@ -210,7 +218,7 @@ clauses.
 | *ona* | the opening word of the then-construction: it stands at the head of the clause |
 | *lea* | the closing word of the then-construction: it stands after the verb phrase |
 | *loa* | the then-word: it stands after the verb and marks its event as the one following on |
-| *ai* | the pointing-back word, met earlier: inside the then-construction it reaches back to everything said before it |
+| *ai* | the pointing-back word, met earlier: inside the then-construction it usually reaches back to everything said before it |
 
 **New vocabulary** (memorize these meanings):
 
@@ -276,10 +284,10 @@ taking it out of the second.
 ### Exercise 5: Translate into Sāmoan
 
 1. Then the boy went. (the full shape)
-2. Then the girl answered.
-3. Then the ogre jumped into the sea.
-4. Then the river overflowed.
-5. Then the girl hid in the cluster of branches.
+2. Then the girl answered. (the full shape)
+3. Then the ogre jumped into the sea. (the full shape)
+4. Then the river overflowed. (the full shape)
+5. Then the girl hid in the cluster of branches. (the full shape)
 6. We then rested, and played in the house with the tin roof.
 
 ### Exercise 6: Give the English

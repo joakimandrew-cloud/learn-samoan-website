@@ -27,7 +27,7 @@ The one word *ʻi* stands where English uses a whole handful of words. With a ve
 of staying it is heard as "in" or "at":
 *Sā nofo le tama ʻi le fale* is "the boy stayed in the house". With a verb of
 moving it is heard as "to": *Sā ʻou alu ʻi le nuʻu* is "I went to the village".
-The place word itself never changes. In the sentences here the verb in front of
+The place word does not change from one English meaning to the next. In the sentences here the verb in front of
 it decides whether *ʻi* lands in English as "in", "at", "to", or "into". The
 place named can decide as well, and where neither settles it, the rest of what
 is being said does.
@@ -54,9 +54,10 @@ moving, so with either one *ʻi* is heard as "to" or "into".
 
 ### The Place Word Before a Person
 
-Before a place, the word is *ʻi*. Before a person's name it changes shape to *iā*,
-and in front of a person-word it changes to *ʻia te*. You met the second of those
-earlier in the book without a name for it: "to me" is *ʻia te aʻu*, not *ʻi aʻu*.
+Before a place, the word is *ʻi*. Before a person's name it usually changes shape to *iā*,
+and in front of a singular person-word, such as "me" or "you", it changes to *ʻia te*;
+in front of person-words for two or more people it is *iā*. You met *ʻia te* earlier
+in the book without a name for it: "to me" is *ʻia te aʻu*, not *ʻi aʻu*.
 Before an ordinary word for a person, like "the girl", the place word stays *ʻi*.
 This book points out the changed shape where it is needed; the plain *ʻi* is the
 everyday form.
@@ -82,6 +83,12 @@ word, in front of the naming part for the source.
 | *Na sau le teine mai le nuʻu.* | The girl came from the village. |
 | *Na sau le tama mai le fale.* | The boy came from the house. |
 
+> *Note:* The from-word *mai* is often followed by the place word *ʻi*. Before a
+> common noun the two are normally said as one sound and frequently written as plain
+> *mai*, so a *mai* in print may stand for the pair. Take this as something to
+> recognise rather than to build; the examples in this book keep to *mai* alone in
+> front of the naming part.
+
 A sentence can hold both a place and a source at once, one marked by *ʻi* and one
 by *mai*, each in front of its own place: the place word for where the action
 sits or is headed, the from-word for where it began.
@@ -100,7 +107,7 @@ sits or is headed, the from-word for where it began.
 |---|---|
 | *ʻi* | the place word: marks where an action is or where it is headed (in, at, to) |
 | *mai* | the from-word: marks where something started (from) |
-| *iā*, *ʻia te* | the shapes the place word takes before a person's name and in front of a person-word |
+| *iā*, *ʻia te* | the shapes the place word takes: usually *iā* before a person's name, *ʻia te* in front of a singular person-word, and *iā* in front of person-words for two or more people |
 
 **New vocabulary** (memorize these meanings):
 
@@ -163,6 +170,7 @@ headed to and *mai* for a place you came from.
 2. *Sā ʻou alu.* (to the village)
 3. *Na oso le pusi.* (from the tree)
 4. *Na sau le teine.* (from the village)
+5. *Na sau le tama.* (from the house)
 
 ### Exercise 5: Match the place word to its English
 
@@ -172,6 +180,8 @@ Each Sāmoan sentence uses *ʻi*. Say whether *ʻi* lands in English as "in", "t
 1. *Sā nofo le pusi ʻi le lāʻau.*
 2. *Sā ia alu ʻi le fale.*
 3. *Sā oso le pusi ʻi le lāʻau.*
+4. *Sā lele le ʻāgelu ʻi le nuʻu.*
+5. *Sā nofo le tama ʻi le fale.*
 
 ---
 
@@ -207,9 +217,12 @@ Each Sāmoan sentence uses *ʻi*. Say whether *ʻi* lands in English as "in", "t
 2. *Sā ʻou alu ʻi le nuʻu.*
 3. *Na oso le pusi mai le lāʻau.*
 4. *Na sau le teine mai le nuʻu.*
+5. *Na sau le tama mai le fale.*
 
 ### Exercise 5
 
 1. "in": The cat stayed in the tree.
-2. "to": She went to the house.
+2. "to": She (or He) went to the house.
 3. "into": The cat jumped into the tree.
+4. "to": The angel flew to the village.
+5. "in": The boy stayed in the house.

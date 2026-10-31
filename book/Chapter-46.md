@@ -90,7 +90,7 @@ is about goes, as it does here, or after the place word *ʻi*.
 > the difference: the verb for "do, make, say" takes the ending whether the event
 > is one particular event or a general one.
 
-### *E ʻese* and *E Leai*
+### *E ʻEse* and *E Leai*
 
 ::: {.examples}
 *E ʻese le taamilomilo solo o tala a le tauleʻaleʻa!* How fast the young man's words went around! (Lit. "The going around everywhere of the stories of the young man is extraordinary!")
@@ -99,8 +99,9 @@ is about goes, as it does here, or after the place word *ʻi*.
 :::
 
 The first sentence is about a *tauleʻaleʻa* (young man) and how his stories
-*taamilomilo* (circulate around). The two judging verbs in this pair push in
-opposite directions. *E ʻese* with a le-phrase stresses that a quality of a
+*taamilomilo* (circulate around). The *solo* in that sentence is a different word
+from the towel word met earlier in this book: here it means "around, all about".
+The two judging verbs in this pair push in opposite directions. *E ʻese* with a le-phrase stresses that a quality of a
 thing or a person is out of the ordinary. *E leai* with a le-phrase stresses
 that a state of affairs does not exist at all. The other judging verbs work the
 same way, each saying something about the event its le-phrase names.
@@ -164,7 +165,8 @@ uses often.
 
 The presenting particle can be left off, as it is here, and the exclamation is
 still complete. The belonging word follows the doer test as it does in any
-le-phrase: crying is something the baby does, so the word is *a*.
+le-phrase: with *a*, the exclamation presents the baby as doing the crying. *O*
+is also heard there, as the note on verbs of doing earlier in this book says.
 
 ---
 
@@ -242,6 +244,8 @@ Rewrite each sentence as an exclamation built on a le-phrase, beginning with
 5. *E ita le tama.*
 
 ### Exercise 5: Translate into Sāmoan
+
+Begin the exclamation with *ʻO*.
 
 1. I stayed and was sad.
 2. It is good that the pig is fat.

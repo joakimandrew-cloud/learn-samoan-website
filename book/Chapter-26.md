@@ -17,13 +17,16 @@ already taught, so you can say where one thing sits in relation to another.
 Where English reaches for the preposition "behind", Sāmoan uses a noun, *tua*,
 that names the space at the back of something, and it sets that noun inside a
 place phrase. A noun that names a region of space belonging to a thing, its
-inside, its top, its back, is called a **spatial noun**.
+inside, its top, its back, is called a **spatial noun**. The class holds a
+second kind of member as well, the direction nouns, which name directions such
+as north and inland rather than parts of an object.
 
 The frame has four parts in a fixed order: the place word *ʻi*, then the spatial
 noun, then the belonging word *o*, then the thing the position is measured
-against. The belonging word in this frame is always *o*, never *a*. A thing's
-back and a thing's inside are parts of it, given rather than got, and a part of a
-whole takes *o*.
+against. The belonging word in this frame is always *o*, never *a*. The
+region of a thing is given rather than got: its back and its inside are not
+something the owner set going, and spatial relationships form a group of their
+own among the words that take *o*.
 
 | Sāmoan | English |
 |---|---|
@@ -281,6 +284,7 @@ Write the Sāmoan word.
 5. the direction inland
 6. a little way inland
 7. further towards the west
+8. a little towards the sea
 
 ### Exercise 5: Fill the frame
 
@@ -298,6 +302,8 @@ Put the missing spatial noun into the gap so the English matches.
 1. Which single word means the same as *tua o le fale*?
 2. What does *lumāfale* mean?
 3. What does *tuāʻau* mean?
+4. Which fused word means "the front of the house"?
+5. Which fused word means "the space behind the reef"?
 
 ### Exercise 7: Say where it is
 
@@ -350,6 +356,7 @@ Write the Sāmoan for each.
 5. *uta*
 6. *gāʻuta*
 7. *gagafō*
+8. *gātai*
 
 ### Exercise 5
 
@@ -365,6 +372,8 @@ Write the Sāmoan for each.
 1. *tuāfale*
 2. The front of the house.
 3. The space behind the reef.
+4. *lumāfale*
+5. *tuāʻau*
 
 ### Exercise 7
 

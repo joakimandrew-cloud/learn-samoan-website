@@ -1,10 +1,11 @@
 # Chapter 13: The General Particle *E*
 
 This chapter adds the general particle *e*, the tense particle for what holds in
-general rather than at one moment: a habit, a lasting quality, a plain truth, or
-something still to come. It is the one tense particle whose shape follows the
-pronoun, standing as *e* with no pronoun (*E alu le pasi*, the bus goes) and
-turning into *te* right after one (*ʻOu te alu*, I go).
+general rather than at one moment (a habit, a lasting quality, a plain truth, or
+something still to come), and the happening-now particle *ʻoloʻo*, for what is under
+way as you speak. The general particle is the one tense particle whose shape follows
+the pronoun: it is the plain *e* when nothing stands in front of it (*E alu le pasi*,
+the bus goes) and turns into *te* right after a pronoun (*ʻOu te alu*, I go).
 
 ---
 
@@ -16,12 +17,12 @@ turning into *te* right after one (*ʻOu te alu*, I go).
 *E loloto le vai.* The water is deep.
 :::
 
-Every past particle so far has fixed a sentence to a time: *Sā ʻou alu* puts the
+Every tense particle so far has fixed a sentence to a time: *Sā ʻou alu* puts the
 going behind you, *ʻUa vevela* reports a change that has just landed. These two
 sentences fix nothing to a time. The boy is strong as a matter of course, and
 the water is deep whether you look today or next year. The word that carries
 this timeless sense is *e*, the **general particle**. It fills the same first
-slot as the past particles, but instead of placing the sentence in the past or
+slot as the other tense particles, but instead of placing the sentence in the past or
 the future it says the thing simply holds, without asking when it began, how
 long it lasts, or when it ends.
 
@@ -43,6 +44,12 @@ the village, so it goes there as a rule. Read with
 the past particle for a single event, *Na alu le pasi ʻi le nuʻu* would report one
 trip that is over. With the general particle, *E alu le pasi ʻi le nuʻu* reports
 the standing habit.
+
+> *Note:* A general truth can also be about a whole kind of thing rather than one
+> particular thing. In a positive statement of that kind the kind is named with
+> the same *le* used above for one particular boy or bus, because *le* points to
+> one particular thing or to the whole class of what the noun names. This book
+> asks you only to recognize that reading when you meet it.
 
 > **Preview:** The general particle also states a quantity, such as how many
 > there are or how old someone is. Counting has a shape of its own, met later in
@@ -104,8 +111,9 @@ general particle asks about what someone means to do:
 :::
 
 Here the general particle reaches into the indefinite future. It asks about the
-listener's own intention, softer than a flat "you will write," which is why a
-speaker often chooses it when asking after someone's plans.
+listener's own intention, and it is the particle used for such questions: the
+future particle *ʻoleʻā*, which you have had since earlier in this book, might be impolite in
+this context.
 
 A fuller form of the same pattern places *e* at the front as well as *te* after
 the pronoun. *E tā te feiloaʻi* (we two will meet) says the same thing as the plain
@@ -120,8 +128,8 @@ The wanting word *fia* was taught early in this book, and every sentence built
 with it until now has stood in the past: *Sā ʻou fia alu* is "I wanted to go."
 That was how this book chose to practise wanting, not a limit the language sets.
 The general particle opens the other side of it. Put *fia* under the general
-particle and you say what someone wants right now, not only what they wanted
-before:
+particle and you state a want without fixing a time, which reads as a present want
+when nothing else sets the time, not only what they wanted before:
 
 ::: {.examples}
 *Sā ʻou fia alu.* I wanted to go.
@@ -260,8 +268,9 @@ the English.
 
 ### Exercise 5: From past to general
 
-Each sentence is in the past. Rewrite it with the general particle so it speaks of
-a habit instead, keeping the same person. Remember to put the pronoun first.
+Each sentence is in the past. Rewrite it with the general particle, which states
+the sentence without fixing a time, keeping the same person. Remember to put the
+pronoun first.
 
 1. *Sā ʻou alu.*
 2. *Sā ʻou fia ʻai.*

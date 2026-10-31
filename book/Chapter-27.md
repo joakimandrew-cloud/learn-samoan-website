@@ -1,7 +1,7 @@
 # Chapter 27: The Agent Marker *E*
 
-This chapter adds the agent marker *e*, the word that sets apart the doer in a
-sentence with two participants, and shows you how to say who did what to whom.
+This chapter adds the agent marker *e*, the word that sets apart the doer of an
+action done to something else, and shows you how to say who did what to whom.
 It also teaches what Sāmoan does in place of an English passive, which is to
 leave the doer out and put nothing where it stood.
 
@@ -17,7 +17,7 @@ boy, the hen.")
 :::
 
 The first sentence has one participant, and it stands bare after the verb:
-*le teine*, with no word in front of it. The second has two participants, and
+*le teine*, with no word in front of it. The second, built on the verb *fafaga* (feed), has two participants, and
 the doer among them, *le tama*, carries *e* in front of it. The one the action
 happened to, *le moa* (the hen), stands bare, in the same shape the single
 participant had. A word that marks the doer of an action done to something else
@@ -43,6 +43,9 @@ The same three slots carry any verb of this kind:
 | *Sā tausi e le fafine le pepe.* | The woman took care of the baby. |
 | *Sā ʻai e le puaʻa le popo.* | The pig ate the copra. |
 | *Na sāisai e le tamāloa le moa.* | The man tied up the hen. |
+
+Four words in these rows are new: *tatala* (open), *pusa* (box), *popo* (copra)
+and *sāisai* (tie, tie up).
 
 The marker rides on the doer rather than on a position in the sentence, so the
 two noun phrases can also run the other way round:
@@ -119,7 +122,7 @@ man as the one who did it.
 The verbs of wanting and seeing taught earlier in this book work the other way
 about. In the sense they were taught in, the one who wants or sees stands bare
 and the thing reached toward carries the place word *ʻi*, with no agent marker
-in the sentence:
+in the sentence, as in this one about the flying fox (*peʻa*):
 
 ::: {.examples}
 *Sā vaʻai le tama ʻi le peʻa.* The boy saw the flying fox.
@@ -188,7 +191,7 @@ word "by". English translations of these sentences reach for "by" often, and
 that is a fact about English rather than about *e*.
 
 The doer can also be left out where the English translation needs a word in the
-subject slot:
+subject slot, as in this sentence about taro (*talo*):
 
 ::: {.examples}
 *ʻUa ʻai laʻu talo.* I have eaten my taro. (Lit. "My taro is eaten.")
@@ -197,8 +200,8 @@ subject slot:
 Nobody at all is named as the eater. The English above puts "I" in that slot,
 while Sāmoan puts nothing there and the sentence is complete. Where English
 reaches for "one", as in "one does not do that", or
-for the "they" of nobody in particular, Sāmoan leaves the doer out in the same
-way.
+for the "they" of nobody in particular, Sāmoan can leave the doer out in the same
+way, and often does; leaving it out is not the only way to say it.
 
 ### When the Sentence Can Go Two Ways
 
@@ -217,7 +220,8 @@ take the surrounding context as part of what you are reading.
 > usually how it is put when the doer owns the thing the action happened to:
 > *Sā inu le susu a le tama.* The boy drank the milk. (Lit. "The milk of the
 > boy was drunk.") No agent marker appears anywhere in it, and the boy is named
-> by a belonging phrase sitting on the milk, so the words themselves say whose
+> by a belonging phrase sitting on the milk (*susu*), the thing drunk (*inu*, drink),
+> so the words themselves say whose
 > milk was drunk rather than who drank it. Where no other doer is named, the
 > owner is usually the one who did it. The construction is taught in full in
 > Chapter 45. Until then, build these sentences with the agent marker.
@@ -272,15 +276,16 @@ what came before.
 In writing, and in formal speech, the doer phrase always carries *e*. How often
 it is heard elsewhere depends on the setting. The greater the social distance
 between speaker and audience, the more likely the marking is. In intimate
-settings both men and women use it at low frequency, and away from them men use
-it a good deal more of the time than women do.
+settings both men and women use it at low frequency, and away from them men appear to
+use it a good deal more of the time than women do.
 
 ::: {.examples}
 *Na sāisai e le tamāloa le moa.* The man tied up the hen.
 :::
 
 Written down, a sentence like this one always carries the marker, while the
-same sentence said quickly at home often goes without it.
+same sentence said at home, among people close to each other, in the everyday
+style, often goes without it.
 
 > *Note:* The Introduction named the two speech styles. The dropped marker
 > belongs with the everyday one, alongside the sound changes described there.
@@ -405,7 +410,7 @@ Write the Sāmoan words that name the doer. If the sentence names none, say so.
 3. The pig ate the copra.
 4. The boy fed the hen.
 5. The pigs are rooting in the taro patch.
-6. He hit the boy.
+6. He (or She) hit the boy.
 
 ### Exercise 2
 

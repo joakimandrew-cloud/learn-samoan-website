@@ -21,8 +21,7 @@ place word and the article.
 
 A word's class is the kind of word it is: a verb, a noun, and so on. The slot a
 word fills tells you its class. The verb slot is the place where a word takes a
-tense particle in front of it, and where it can also take the not-word *lē* and
-describing words. A noun slot is the place where a word takes an article in
+tense particle in front of it, and where it can also take the not-word *lē*. A noun slot is the place where a word takes an article in
 front of it, or a possessive form standing where the article stands, and where
 the place word *ʻi* or the presenting particle *ʻo* can mark it. The rule that a
 word in the verb slot is a verb and a word in a noun slot is a noun is called
@@ -151,10 +150,11 @@ Under the slot rule, number follows the slot:
 
 > *Note:* Eight words break this pattern and change shape for number in both
 > slots; all eight name a person's age or married life, and each means the same
-> in either slot. You have met *matua* (parent), plural *mātua*, and *tamāloa* (a
-> married man) and *toeaʻina* (an old man), while *loʻomatua*, *ʻolomatua*,
-> *tamaitiiti*, *teineitiiti* and a word for a young man make up the eight, and
-> each plural shape is a separate word to learn. One further word, for a man's
+> in either slot. You have met *matua* (parent), plural *mātua*, *tamāloa* (a
+> married man), *toeaʻina* (an old man) and the word for a young man, while
+> *loʻomatua*, *ʻolomatua*, *tamaitiiti* and *teineitiiti*, the four new words of
+> this chapter, make up the rest of the eight, and each plural shape is a separate
+> word to learn. One further word, for a man's
 > sister, changes shape for number only in a noun slot.
 
 ---
@@ -261,7 +261,7 @@ used for its people can also take an article, the way an ordinary noun does.
 | *ʻi* | the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person |
 | *uō* | met earlier as a noun, friend; in the verb slot, be friends |
 
-*ʻĀiga* (family), first learned in Chapter 7, is reused here.
+*ʻĀiga* (family), met earlier in this book, is reused here.
 
 **New vocabulary** (memorize these meanings):
 

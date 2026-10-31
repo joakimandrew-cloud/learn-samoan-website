@@ -2,8 +2,10 @@
 
 This chapter completes the article system with the four articles that carry
 feeling, *si*, *sina*, *nāi* and *ni nāi*, and completes the first person with
-its emotional forms, *ʻita*, *taʻita* and the middle-slot *ta*. Together they
-mark sympathy, an amount presented as modest, humility, and an appeal for help.
+its emotional forms, *ʻita*, *taʻita* and the middle-slot *ta*. The feeling
+articles mark sympathy and an amount presented as modest, and the emotional first
+person marks above all that the speaker is emotionally involved, with humility
+and an appeal for help as frequent readings.
 
 ---
 
@@ -44,9 +46,8 @@ A belonging form can stand between *si* and the noun, and nothing about that
 form changes when it goes there. The order is fixed: the article, then the
 belonging form, then the noun.
 
-The form in this sentence is *aʻu*, and it is worth a second look. Of the four
-*a*-word forms taught earlier in this book, *aʻu* is the one carrying no article
-inside it. That is the kind of form used after *si*, because *si* is already
+The form in this sentence is *aʻu*. Of the four *a*-word forms taught earlier in
+this book, *aʻu* is the member of the set with no article inside it. That is the kind of form used after *si*, because *si* is already
 standing in the article slot and the belonging form brings no article of its
 own. The choice between the *a*-word and the *o*-word is made exactly as it
 always is. A father is an *o*-word noun, so after *si* he takes *oʻu*, the
@@ -150,11 +151,11 @@ Which singular article a plural answers to follows from that same split. *Si* is
 always specific, so its plural is *nāi* and nothing else. *Sina* runs either way,
 so it answers to both.
 
-| Singular | Plural | Reference |
+| Singular | Plural | Which ones the speaker has in mind |
 |---|---|---|
 | *si* | *nāi* | particular ones |
-| *sina* | *nāi* | a particular portion |
-| *sina* | *ni nāi* | any portion at all |
+| *sina* | *nāi* | particular ones |
+| *sina* | *ni nāi* | any ones at all |
 
 | Sāmoan | English |
 |---|---|

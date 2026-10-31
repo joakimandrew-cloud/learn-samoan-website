@@ -112,8 +112,10 @@ question of the relationship and answer it out loud: did the owner get the thing
 and put it to use, or does it belong to them the way a house or a name does. The
 first takes *a*, the second takes *o* for most words, and in this sentence there
 is no third way of writing it. Where the control question runs out, as it did
-for the son of the woman earlier in this book, the type is a fact of that word,
-and the sentence prints the type the word has.
+for the son of the woman earlier in this book, the type is learned as a fact of
+that word in that relationship, and the sentence prints the type the word has.
+For a child it depends on the owner: with the mother the word takes *a*, and
+with the father it takes *o*.
 
 ---
 
@@ -256,8 +258,8 @@ answer.
 > covered in this book.
 
 > *Note:* The form *ona* here is not the that-word that opens a clause, nor the
-> because-word, both met earlier in this book, and *ana* is not the word for a
-> cave. A tense particle straight in front, and a naming part behind, mark these
+> because-word, nor the word that opens the then-construction, all met earlier in
+> this book, and *ana* is not the word for a cave. A tense particle straight in front, and a naming part behind, mark these
 > two out as belonging forms.
 
 ---

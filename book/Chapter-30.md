@@ -2,9 +2,9 @@
 
 This chapter introduces the complement clause, a whole clause that stands where
 a noun phrase would otherwise stand, and the one word that opens it, *ona*
-(that). The words that take such a clause are the ability and obligation words
-*mafai* (can) and *tatau* (must), so you can say what people can, must, and
-should do.
+(that). The chapter teaches the construction through the ability and obligation
+words *mafai* (can) and *tatau* (must), which belong to a larger group of words
+that take such a clause, so you can say what people can, must, and should do.
 
 ---
 
@@ -16,7 +16,7 @@ should do.
 *ʻUa tatau ona ʻou alu.* I must go. (Lit. "It is necessary that I go.")
 :::
 
-Each sentence runs two verbs with one word between them. *Sā* (forbidden) and
+Each sentence runs two halves, the word that takes a clause and the clause itself, with one word between them. *Sā* (forbidden) and
 *tatau* (necessary) come first, in the ordinary predicate slot straight after
 the tense particle. What is forbidden, and what is necessary, then follows as a
 clause of its own: *ulaula* (smoke) in the first sentence, *ʻou alu* (I go) in
@@ -34,7 +34,9 @@ word that takes the complement, then *ona*, then the complement clause itself.
 | *E sā ona ulaula.* | It is forbidden to smoke. |
 | *ʻUa tatau ona ʻou alu.* | I must go. |
 | *ʻUa mafai ona sau le teine.* | The girl can come. |
-| *E faʻasā ona tausi ni pusi.* | It is forbidden to keep cats. |
+| *E faʻasā ona tausi ni pusi.* | It is forbidden to keep cats. (Someone has forbidden it.) |
+
+*faʻasā* means "forbid".
 
 The complement clause always follows the word that takes it, and nothing puts
 it in front. Read the first half of any of these sentences on its own and it is
@@ -75,6 +77,8 @@ or inside the complement clause alone.
 | *E mafai ona siva le uso.* | The sibling can dance. |
 | *ʻUa mafai ona sau le teine.* | The girl can come. |
 
+*uso* means "sibling: a man's brother, a woman's sister".
+
 To say that something cannot be done, put the not-word *lē* in front of
 *mafai*. That placement is what makes the whole ability negative: *Sā lē mafai
 ona ʻou alu* says that the going was not possible, not that a possible thing
@@ -106,7 +110,7 @@ complement clause, as *le tama* and *le teine* do here.
 ::: {.examples}
 *ʻUa taga ona inu ʻava mālosi.* It is allowed to drink alcohol. (Lit. "It is allowed to drink strong kava.")
 
-*E faʻasā ona tausi ni pusi.* It is forbidden to keep cats.
+*E faʻasā ona tausi ni pusi.* It is forbidden to keep cats. (Someone has forbidden it.)
 :::
 
 *Mafai* and *tatau* belong to a group of words built the same way. Each one
@@ -177,7 +181,8 @@ particle: it sits under the tense of the word in front of it.
 
 So in *E tatau ona alu le tama* the general particle *e* covers the whole
 sentence, the obligation and the going alike, and *alu* stands bare. Every word
-in the table above takes the *ona* kind of complement.
+in the table of words that take a complement clause, earlier in this chapter,
+takes the *ona* kind of complement.
 
 > **Preview:** The word *ona* has a second job. Usually written the same way, it also
 > opens a clause of reason and means "because". One test separates them: a
@@ -260,7 +265,7 @@ English.
 3. I can go.
 4. It is forbidden to drink.
 5. The girl cannot dance.
-6. It is forbidden to keep cats.
+6. Someone has forbidden the keeping of cats.
 
 ### Exercise 4: One tense particle or two?
 
@@ -307,7 +312,7 @@ For each sentence, say whether *sā* is the past particle or the word for
 3. The sibling can dance.
 4. I could not go.
 5. It is allowed to drink alcohol.
-6. It is forbidden to keep cats.
+6. It is forbidden to keep cats; someone has forbidden it.
 7. The boy knows that the girl has come.
 8. His slave.
 
@@ -328,7 +333,8 @@ alternative given in brackets is right as well.
 1. *E tatau ona alu le tama.* (*ʻUa tatau ona alu le tama* is also right, and
    either sentence covers "the boy should go".)
 2. *ʻUa mafai ona sau le teine.* (*E mafai ona sau le teine* is also right.)
-3. *ʻOu te mafai ona ʻou alu.*
+3. *ʻOu te mafai ona ʻou alu.* (*E mafai ona ʻou alu* is also right, with the speaker
+   named only inside the clause.)
 4. *E sā ona inu.*
 5. *E lē mafai ona siva le teine.* (*ʻUa lē mafai ona siva le teine* is also
    right.)
@@ -362,6 +368,6 @@ alternative given in brackets is right as well.
 3. allowed, may
 4. do as one pleases
 5. allow
-6. be able, almost always as *lē lavā*, cannot
+6. be able, mostly as *lē lavā*, cannot
 7. slave
 8. sibling: a man's brother, a woman's sister

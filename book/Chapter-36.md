@@ -23,8 +23,9 @@ book. *Sā timu* is a whole sentence on its own, and so is *sā lolo le vai*. Th
 pattern has three parts in a fixed order: the first clause, then *ma*, then the
 second clause.
 
-The two clauses do not have to be about the same person or thing. Each one names
-its own, and *ma* joins them all the same.
+The two clauses do not have to be about the same person or thing, and *ma* joins
+them all the same. In the sentence below the first clause is about the weather
+and names nobody, while the second names the girl.
 
 ::: {.examples}
 *Sā timu ma sā nofo le teine ʻi le ana.* It rained and the girl stayed in the cave.
@@ -151,14 +152,15 @@ head of either clause, so a sentence may open on it or reach it halfway through.
 *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.* The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.")
 :::
 
-Put the not-yet word *leʻi* straight after *ʻaʻo*, or straight after *ʻae*, and
-the sentence says that the first thing happened before the second. The literal
+Put the not-yet word *leʻi* straight after *ʻaʻo*, or straight after *ʻae* when
+no preverbal pronoun comes between them, and the sentence says that the first thing happened before the second. The literal
 lines show how it is built: the second clause reports what had not happened yet,
 and English gathers the two clauses into a single word, "before".
 
 The pattern has four parts in a fixed order: the first clause, then *ʻaʻo* or
-*ʻae*, then *leʻi*, then the clause naming what had not yet happened. Either
-combination does the work, and the two mean the same thing.
+*ʻae*, then *leʻi*, then the clause naming what had not yet happened, with the one addition set
+out below for a clause that has a preverbal pronoun. Either combination does the
+work, and the two mean the same thing.
 
 | Sāmoan | English |
 |---|---|
@@ -210,17 +212,6 @@ and *leʻi*.
 | *usu* | rise, stand up |
 | *ana* | cave |
 
-**Words to carry** (learned now, used fully later in this book): *atili*
-(increase) says that something grew or went further. In the sentence this
-chapter draws its cave clause from, it is followed by a clause naming what grew,
-tied in with the that-word *ona* and a pointing-back word reaching for a whole
-situation rather than a place or a time. That reach is taught later in this
-book, so the word is learned here and deployed there.
-
-| Word | Meaning |
-|---|---|
-| *atili* | increase |
-
 ---
 
 ## Exercises
@@ -267,12 +258,12 @@ becomes *ʻae leʻi* and *ʻae leʻi* becomes *ʻaʻo leʻi*.
 
 ### Exercise 5: Translate into Sāmoan
 
-1. It rained and the water overflowed.
+1. It rained and the water overflowed, with the tense particle repeated after *ma*.
 2. The girl has woken but the boy is sleeping.
 3. The girl stood up while the boy slept.
-4. The bus arrived before seven o'clock.
+4. The bus arrived before seven o'clock, using the *ʻaʻo* combination.
 5. I sat down and I thought.
-6. The bus arrived and the girl went to the school.
+6. The bus arrived and the girl went to the school, with the tense particle repeated after *ma*.
 
 ### Exercise 6: Give the English
 
@@ -281,7 +272,7 @@ becomes *ʻae leʻi* and *ʻae leʻi* becomes *ʻaʻo leʻi*.
 3. *taunuʻu*
 4. *usu*
 5. *ana*
-6. *atili*
+6. *māfaufau*
 7. *sele*
 8. *tuʻu*
 
@@ -334,4 +325,4 @@ becomes *ʻae leʻi* and *ʻae leʻi* becomes *ʻaʻo leʻi*.
 ### Exercise 6
 
 1. be awake, wake up · 2. overflow · 3. arrive, reach · 4. rise, stand up ·
-5. cave · 6. increase · 7. shave, cut · 8. leave, put, place
+5. cave · 6. think, consider · 7. shave, cut · 8. leave, put, place

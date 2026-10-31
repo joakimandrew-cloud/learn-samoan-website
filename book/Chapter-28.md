@@ -95,7 +95,7 @@ The prefix goes in front of nearly any noun, and in front of nearly any verb
 that takes no doer of its own. It does not go in front of a verb that already
 takes one, and it does not go in front of a spatial noun.
 
-One word breaks the rule about doers:
+The rule about doers has one exception that the chapter names:
 
 ::: {.examples}
 *faʻailoa*. show, make known
@@ -298,14 +298,18 @@ Write the word each built word is made from, and give that word's meaning.
 5. *faʻailoa*
 6. *faʻalēaogā*
 
-### Exercise 4: Read a built word you have not met
+### Exercise 4: Read a built word
 
 Each of these is built by a rule you have just learned, on a word from the list
 above. Take the prefix off, name the word inside, and give the meaning of the
-whole.
+whole. The first two are built words you have not met in this chapter; the last
+three you have.
 
 1. *faʻapata*
 2. *faʻalētatau*
+3. *faʻalētonu*
+4. *faʻamāsima*
+5. *faʻagoto*
 
 ### Exercise 5: Translate into Sāmoan
 
@@ -378,6 +382,12 @@ counting times, or saying a negative gently.
    *faʻapata* means to butter.
 2. *tatau*, fit, proper, with the not-word *lē* in the middle. The built word is
    the gentle negative, so *faʻalētatau* means in an unseemly fashion.
+3. *tonu*, right, correct, with the not-word *lē* in the middle. The built word is
+   the gentle negative, so *faʻalētonu* means uncertain, doubtful.
+4. *māsima*, salt. The built word is the putting-a-thing-onto-something job, so
+   *faʻamāsima* means to salt.
+5. *goto*, sink, set. The built word is the making-something-happen job, so
+   *faʻagoto* means make sink.
 
 ### Exercise 5
 

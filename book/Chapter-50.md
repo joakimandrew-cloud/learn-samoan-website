@@ -1,6 +1,6 @@
 # Chapter 50: Affixes and Doubling
 
-This chapter completes Sāmoan's word-building system, the two endings *=ga* and
+This chapter completes the word-building pieces it names, the two endings *=ga* and
 *=a*, the prefixes *fe-*, *taʻi-*, *toʻa-*, *ʻā-* and *ana-*, and the doubling
 of a word or of a piece of one, and shows you how to read a built word you have
 never met. Many of the plural forms learned one at a time earlier in this book
@@ -18,8 +18,8 @@ are made by that doubling, and this chapter names the process behind them.
 
 One word, then the same word said twice, and the meaning has moved. **Doubling**
 is saying a word, or one piece of a word, a second time in order to build a new
-word from it. It is the third of the three ways Sāmoan builds one word out of
-another. The other two are already familiar: a prefix goes on the front, the way
+word from it. It is a third way of building one word out of another, beside
+two already familiar ones: a prefix goes on the front, the way
 the maker-prefix *faʻa-* does, and an ending goes on the back, the way the
 long-form ending does.
 
@@ -44,9 +44,10 @@ Put *=ga* on the end of a verb and you have a noun. The ending does two jobs, an
 they are worth keeping apart, because one of them is a rule you can use and the
 other is a list of words you learn.
 
-The first job names something that comes of the event, and the noun then has a
-meaning of its own to be learned. *Savaliga* is a walk or a march, a thing
-somebody can go on. Nouns of this kind are numerous, and how far speakers still
+The first job gives a fixed noun whose meaning has to be learned word by word,
+and some of these nouns name the event itself, as *amoga* (carrying) does.
+*Savaliga* is a walk or a march, a thing somebody can go on. Nouns of this kind
+are numerous, and how far speakers still
 make new ones is hard to say.
 
 The second job names the event itself, taken as a whole entity, something to be
@@ -123,8 +124,9 @@ answering to the one the event is about rather than to the doer.
 On its own, *fe-* makes the plural form of a verb.
 
 The prefix is most at home on a verb that carries an ending behind it as well,
-*-aʻi* or *-ʻi*. That pattern is where *fe-* is most common, it is quite
-productive, and the two endings usually mean the same thing. An event happening
+*-aʻi*, or an ending in *i* that may have a consonant in front of it, the consonant differing from word to
+word, as in *fealofani*. The *-aʻi* pattern is where *fe-* is most common and it
+is quite productive, and the two endings usually mean the same thing. An event happening
 more than once with more than one participant is very often an event the
 participants do to each other, so the English that fits is often "one another":
 
@@ -147,7 +149,7 @@ all directions, or quickly:
 A verb built this way normally does not take the agent marker, and the exceptions
 to that are rare.
 
-> *Note:* Dictionaries and older grammars often gloss *fe-* itself as "one
+> *Note:* Older grammars and earlier descriptions often gloss *fe-* itself as "one
 > another". The one-another reading belongs to the pattern, the prefix together
 > with its ending; what the prefix says on its own is that the event happens
 > more than once. Their own word lists bear that out, because they give bare
@@ -315,9 +317,9 @@ case: the singular *uliuli* doubles the root, and the plural is the root itself.
 *Puʻupuʻu* (short), *paʻepaʻe* (white) and *itiiti* (few, small) all belong to
 this group, and each of those is the singular form.
 
-The group is small and closed, so this is a fact about these words rather than a
-rule for colour and size words in general. Everywhere else the two kinds of
-doubling do their ordinary jobs.
+The group is small, so this is a fact about these words rather than a rule for
+colour and size words in general. The same singular-by-doubling pattern also
+turns up in a few other words.
 
 ---
 
@@ -345,7 +347,7 @@ rather than a rule.
 
 | Word | What it does |
 |---|---|
-| *=ga* | the ending that makes a noun of a verb: something that comes of the event, or the event itself as a whole |
+| *=ga* | the ending that makes a noun of a verb: a fixed noun to be learned word by word, or the event itself as a whole |
 | *=a* | the ending that makes a describing verb of a noun: being affected by what the noun names |
 | *fe-* | the prefix that says the event happens more than once |
 | *taʻi-* | the prefix on a number that spreads it over each one |
@@ -424,7 +426,7 @@ the English.
 2. this morning (*taeao*)
 3. tomorrow morning (*taeao*)
 4. last night (*pō*)
-5. love one another (*alofa*)
+5. go quickly, hurry (*alu*)
 6. dirty (*ʻeleʻele*)
 
 ### Exercise 6: Match each word to its meaning
@@ -507,9 +509,9 @@ Answer each question from what this chapter teaches.
 
 1. *taʻitasi*
 2. *anataeao*
-3. *ātaeao*
+3. *ātaeao* (or *ʻātaeao*, the variant the page also prints for this word)
 4. *anapō*
-5. *fealofani*
+5. *fealuaʻi*
 6. *ʻeleʻelea*
 
 ### Exercise 6

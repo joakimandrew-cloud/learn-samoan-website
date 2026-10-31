@@ -32,6 +32,10 @@ In each row one person does the action and *ma* adds what came along with them,
 whether a thing like *le ili* (the fan) or a person like *le uō* (the friend).
 The doer stays single, so the verb stays singular.
 
+> *Note:* The with-word is the "with" of company and of things taken along, not
+> the "with" of a tool being used. A tool's "with" is marked by a different
+> word in Sāmoan.
+
 ---
 
 ## Joining Two Doers
@@ -76,26 +80,29 @@ the staying and the other came along, so *ma* is "with". The plural verb
 has a plural form to show, its number is the whole difference between a
 companion and a second doer.
 
-> *Note:* Do not mix the with-word *ma* with the for-word *mo*, one vowel apart.
-> *Ma* adds a companion or joins two doers; *mo* says who something is for. The
-> for-word is taught later in this book, together with a "for" sense the
-> with-word also carries.
-
 > **Preview:** The for-word *mo* means "for", as in *mo le vaiaso* (for a week).
 > Its full story, including the way it partly echoes the a-word and o-word split
 > you met earlier, is told in Chapter 25. Until then, keep *ma* for "with" and
 > "and".
 
+> *Note:* Do not mix the with-word *ma* with the for-word *mo*, one vowel apart.
+> *Ma* adds a companion or joins two doers; *mo* means "for". The for-word is
+> taught later in this book, together with a "for" sense the with-word also
+> carries.
+
 ---
 
-## Other Jobs of *Ma*
-
-The fan in the sentence Sāmoan draws this pattern from is a white one. The
-describing word for white is *paʻepaʻe*, and on its own it says how a thing is:
+## A Describing Word
 
 ::: {.examples}
 *E paʻepaʻe le ili.* The fan is white.
 :::
+
+The describing word *paʻepaʻe* (white) says how a thing is.
+
+---
+
+## Other Jobs of *Ma*
 
 The word *ma* reaches past "with" and "and" into a few further jobs, met in
 reading rather than drilled here. Placed after a word like *mamao* (far), it

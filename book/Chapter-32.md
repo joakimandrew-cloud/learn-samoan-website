@@ -56,14 +56,16 @@ ending**. A third ending, *=ia*, usually with a consonant in front of it, is
 used by some speakers in the same position, and a fourth, *=na*, is uncommon.
 Between them they are why one verb can have three or four long forms on record.
 
-> *Note:* This book prints the join with an equals sign, *fasi=a*, so that the
-> ending stays visible while you are learning where it goes. Ordinary Sāmoan
+> *Note:* Most long forms in this book print the join with an equals sign,
+> *fasi=a*, so that the ending stays visible while you are learning where it
+> goes. The *=a* form of *ʻai* is printed solid, *ʻaia*. Ordinary Sāmoan
 > writing runs the two parts together with no mark between them.
 
 Which of the two endings a verb takes is partly a matter of the verb and partly
 of the occasion. Where both are possible, *=a* is preferred in casual speech and
 *=ina* in more formal speaking and writing. Formal writing also runs to forms
-built from two endings at once, which are much rarer in casual speech.
+built from two endings at once, which turn up more in formal writing than in
+casual speech.
 
 ### The Ending on a Direction Word
 
@@ -83,8 +85,8 @@ and the direction word settles which way the trade runs: with *mai* it is
 buying, and with *atu* it is selling.
 
 > *Note:* A direction word is not the only thing that can carry the ending. When
-> a verb is followed by a second verb describing it, the kind of pair Chapter 3
-> taught, the ending goes onto that describing verb instead. Recognize the rule
+> a verb is followed by a second verb describing it, the kind of pair taught
+> earlier in this book, the ending goes onto that describing verb instead. Recognize the rule
 > when you meet it; this book does not work it, because the verbs the
 > description shows it on are not among the words taught here, and no sentence
 > in this chapter uses it.
@@ -129,7 +131,11 @@ to accept a short form in this position reject it as wrong.
 | *ʻAua le faitau=a le tusi lenā.* | Don't read that book. |
 | *ʻAua le tatala=ina le pusa lenā.* | Don't open that box. |
 | *ʻAua le fasi=a le maile lenā.* | Don't hit that dog. |
-| *ʻAua le faʻatau=a le vaʻa lenā.* | Don't sell that boat. |
+| *ʻAua le faʻatau=a le vaʻa lenā.* | Don't sell that boat. (Lit. "Don't trade that boat.") |
+
+The last sentence uses *faʻatau* with no direction word, so nothing in the words
+says which way the trade runs, and the context settles it: here the boat is being
+sold.
 
 The do-not verb *ʻaua* is the one taught earlier in this book. What is new is
 what follows it: *le*, and then the verb in its long form, and then the thing
@@ -165,8 +171,9 @@ pick. Set beside it a sentence with no doer in it at all:
 *Sā nonoa le ʻie ʻi le faʻamalama.* The cloth was tied at the window.
 :::
 
-Nobody is named as the tier, the attention is all on the cloth and what happened
-to it, and the verb is in the short form.
+Nobody is named as the tier (*nonoa* is tie up; *faʻamalama* is window), the
+attention is all on the cloth and what happened to it, and the verb is in the
+short form.
 
 That is the tendency the description points to. You will mostly hear the short
 form where the attention is on what happened to the thing acted on, and the long
@@ -176,8 +183,9 @@ form where the doer matters to what is being said.
 *Sā faitau e le teine le vāega.* The girl read the section.
 :::
 
-A plain report like this one, with a doer named and no weight on them, usually
-takes the short form, and that is the shape to reach for by default.
+A plain report like this one (*vāega* is section or part), with a doer named
+and no weight on them, usually takes the short form, and that is the shape to
+reach for by default.
 
 Past the two command rules, though, this is a tendency and not a rule, and it is
 as far as this book's source grammar takes it. Usage varies from speaker to
@@ -187,12 +195,13 @@ it had a grammar of its own. So learn the two command rules cold, use the short
 form as the default everywhere else, and listen for the long form where the
 sentence puts weight on the doer.
 
-> **Preview:** The long form is preferred in other places too, all of them
-> places that put weight on the doer. Two of them come later in this book: a
+> **Preview:** The long form is preferred in other places too, and in most of
+> them the weight is on the doer. Two of those come later in this book: a
 > sentence that moves a named doer to the front, standing where the question
-> word stood above, taught in Chapter 34, and a clause that describes a
-> participant, taught in Chapter 43. Until then, the two command rules above are
-> what to build on.
+> word stood above, taught in Chapter 34, and a clause that describes the doer,
+> taught in Chapter 43. The long form is also usual where the thing acted on is
+> not affected, as in a not-sentence like the first pair of this chapter. Until
+> then, the two command rules above are what to build on.
 
 ---
 
@@ -227,7 +236,7 @@ The nouns:
 | *tōtōga* | internal organs |
 | *vāega* | section, part |
 
-*ʻIe*, learned as kilt in Chapter 25, also means cloth here.
+*ʻIe*, learned earlier in this book as kilt, also means cloth here.
 
 ---
 
@@ -269,7 +278,7 @@ Write each forbidding sentence in Sāmoan, using *ʻaua le* and the long form.
 1. Don't read that book.
 2. Don't open that box.
 3. Don't hit that dog.
-4. Don't sell that boat.
+4. Don't sell that boat. (Lit. "Don't trade that boat.")
 5. Don't eat that food.
 
 ### Exercise 5: Translate into Sāmoan
@@ -324,7 +333,7 @@ reason in one phrase.
 5. *faʻatau=a*, *faʻatau=ina*
 
 Either ending is correct in every one of these. Of the two, *=a* is the one you
-will mostly hear in everyday speech and *=ina* the one you will mostly read.
+will mostly hear in everyday speech and *=ina* the one you will meet more in formal writing.
 
 ### Exercise 3
 
@@ -343,6 +352,9 @@ The *=ina* ending is equally correct in items 1, 3 and 5.
 3. *ʻAua le fasi=a le maile lenā.*
 4. *ʻAua le faʻatau=a le vaʻa lenā.*
 5. *ʻAua le ʻaia le meaʻai lenā.*
+
+In item 4 the verb stands with no direction word, and the context makes it
+selling.
 
 ### Exercise 5
 

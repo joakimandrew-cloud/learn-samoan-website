@@ -1,8 +1,8 @@
 # Chapter 43: Relative Clauses
 
 This chapter introduces the describing clause, a clause with a tense particle of
-its own standing behind a noun and saying which person, thing, place, or time is
-meant. It adds the one-who word *ē* and the pointing-back word inside the clause,
+its own standing behind a noun and describing it, usually to say which person,
+thing, place, or time is meant. It adds the one-who word *ē* and the pointing-back word inside the clause,
 and shows you how to build the person who left and the village you stayed in.
 
 ---
@@ -20,11 +20,12 @@ Compare them. What stands in the second phrase that is not in the first?
 The general particle *e*. In the first phrase, *loloto* follows the noun directly
 as a describing verb, the pattern taught earlier in this book. In the second,
 *e* opens the clause *e loloto tele*; *tele* adds "very", but *e* is the word
-that changes the structure. A clause standing behind a noun to say which one is
-meant is called **a describing clause**.
+that changes the structure. A clause standing behind a noun to describe it, with a
+tense particle of its own and usually saying which one is meant, is called
+**a describing clause**.
 
-Chapter 40 previewed the same contrast in *tagata tino leaga* (people with bad
-bodies) and *tagata e tino leaga* (people who have bad bodies). Their English
+Earlier in this book the same contrast was previewed in *tagata tino leaga*
+(people with bad bodies) and *tagata e tino leaga* (people who have bad bodies). Their English
 meanings are close, which is why the clearer water pair comes first here. The
 particle adds a whole clause in the describing position, with everything a
 clause can carry.
@@ -47,7 +48,7 @@ are:
 
 > *Note:* A clause behind a noun is a describing clause only when the noun has a
 > job inside it. Sāmoan puts other kinds of clause in the same position, and
-> those say what was thought or said rather than which one is meant.
+> those usually say what was thought or said rather than which one is meant.
 
 ---
 
@@ -69,8 +70,8 @@ named in front.
 So the job the named thing does inside its clause is shown in one of two main
 ways. Either the spot stays empty, or the pointing-back word stands in it. Which
 of the two applies is decided by the job itself, and the sections below take the
-jobs one at a time. One of those jobs allows a third possibility as well, and the
-section that teaches it says so there.
+jobs one at a time. Some of those jobs allow a further possibility as well, and the
+section that teaches each one says so there.
 
 ---
 
@@ -162,7 +163,8 @@ A point of time and a stretch of time take the same shape, and so does a cause.
 :::
 
 Two new words are in that phrase: *fue* (liana), the vine itself, and *taufi*
-(cover), what was done with it. The oven word stands here for what is in the
+(cover, the form used when more than one thing is covered), what was done
+with it. The oven word stands here for what is in the
 oven, which is why the English says food where the Sāmoan says oven.
 
 When the named thing is what the action was done with, the pointing-back word
@@ -183,6 +185,8 @@ of the pointing-back word and without it, and *manaʻo* is one of them.
 
 ::: {.examples}
 *ʻO le mea ʻou te manaʻo ai.* The thing I want.
+
+*ʻO le mea ʻou te manaʻo ʻi ai.* The thing I want.
 :::
 
 | Shape | The job the named thing does inside the clause |
@@ -222,8 +226,8 @@ The second of those brings another of this chapter's own words, *popolevale*
 When the tense particle of the clause is the general particle *e*, the one-who
 word can run together with it, and a single *e* then does both jobs.
 
-Earlier in this book a sentence that puts a person first was read one way, as
-weight on that person.
+Earlier in this book a sentence that puts a person first was read one way, as a
+contrast: that person set against another person.
 
 ::: {.examples}
 *ʻO aʻu na ʻou vaʻai ʻi ai.* I saw it.
@@ -241,8 +245,9 @@ sentence of that shape.
 | *ʻO lē sā popolevale.* | The one who was overanxious. |
 
 > *Note:* The one-who word can also stand behind a noun and describe it. In that
-> position it matches the noun in number, and it takes no case marking of its
-> own.
+> position it matches the noun in number, and it does not carry the marker the
+> described noun carries, though the presenting particle *ʻo* can stand in front
+> of it.
 
 > *Note:* A describing clause can pick out which one is meant, and it can add
 > something about a person or thing already picked out. Sāmoan does not mark that
@@ -257,8 +262,9 @@ sentence of that shape.
 *ʻO le tama e mālosi atu i lo le teine.* The boy who is stronger than the girl.
 :::
 
-Speakers prefer to put a comparison inside a describing clause rather than state
-it flat. The than-word phrase taught earlier in this book keeps its place at the
+Speakers prefer to build a comparison that describes a noun as a describing
+clause with its own particle, rather than as a describing verb standing straight
+after the noun. The than-word phrase taught earlier in this book keeps its place at the
 end, and the whole comparison sits behind the noun it describes.
 
 ---
@@ -274,7 +280,8 @@ is. The clause says only that the leg was hurt, and the leg is understood to be
 the man's because the man is standing in front of it. A belonging word is not
 needed when the situation makes the relationship plain.
 
-It is needed in one place. Where the clause is a there-is sentence saying that
+Among the describing clauses this chapter shows, it is needed in one place. Where
+the clause is a there-is sentence saying that
 somebody has something, the thing had carries a belonging word naming its owner,
 and the owner is what the clause describes.
 
@@ -300,7 +307,7 @@ and the owner is what the clause describes.
 | *manuʻa* | be hurt |
 | *mauʻoloa* | rich |
 | *popolevale* | overanxious |
-| *taufi* | cover |
+| *taufi* | cover (the form used when more than one thing is covered) |
 | *fue* | liana |
 | *tamāoʻāiga* | wealth |
 
@@ -345,15 +352,17 @@ job, give the one that is used for that job and no other.
 
 ### Exercise 4: Translate into Sāmoan
 
-1. the woman who went to the village
-2. the boy who slept in the house
-3. the wealth my friends got
-4. the day the girl danced
-5. the one who was overanxious
+Use the particle given in brackets.
+
+1. the woman who went to the village (*sā*)
+2. the boy who slept in the house (*sā*)
+3. the wealth my friends got (*ʻua*)
+4. the day the girl danced (*sā*)
+5. the one who was overanxious (*sā*)
 6. those who are rich
-7. the man whose leg was hurt
-8. the place where the boy bathed
-9. the day the man died
+7. the man whose leg is hurt
+8. the place where the boy bathed (*sā*)
+9. the day the man died (*sā*)
 
 ### Exercise 5: Rewrite each sentence as a phrase with a describing clause
 
@@ -430,4 +439,4 @@ particle, and leave the rest of the sentence behind it as the clause.
 
 ### Exercise 6
 
-1. be hurt · 2. rich · 3. overanxious · 4. cover · 5. liana · 6. wealth
+1. be hurt · 2. rich · 3. overanxious · 4. cover (more than one thing covered) · 5. liana · 6. wealth

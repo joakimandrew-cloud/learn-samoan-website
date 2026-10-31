@@ -1,8 +1,9 @@
 # Chapter 3: Describing Verbs
 
-This chapter expands the past particle + pronoun + verb pattern by adding the
-verb phrase's two modifier slots, and shows that the words which describe an
-action are themselves verbs. A describing verb follows the action verb, as in
+This chapter expands the past particle + pronoun + verb pattern with two
+additions, a describing verb after the action verb and the want word before it,
+and shows that the words which describe an action are themselves verbs. A
+describing verb follows the action verb, as in
 *Sā ʻou foʻi fiafia* ("I returned happily"); the want word *fia* stands before
 it, as in *Sā ʻou fia alu* ("I wanted to go").
 
@@ -10,7 +11,9 @@ it, as in *Sā ʻou fia alu* ("I wanted to go").
 
 ## The Describing Verb
 
-Compare the sentence taught already with the same sentence plus one word:
+Take a sentence on the frame you already know: the past particle, a preverbal pronoun,
+and a verb. The verb here is a new one, *foʻi* (return). Now compare that
+sentence with the same sentence plus one more word:
 
 ::: {.examples}
 *Sā ʻou foʻi.* I returned.
@@ -18,12 +21,11 @@ Compare the sentence taught already with the same sentence plus one word:
 *Sā ʻou foʻi fiafia.* I returned happily.
 :::
 
-Compare them. Which word is new, and what does it add?
+Compare them. Which word was added, and what does it add?
 
-The new word is *fiafia*, and it sits straight after the verb. *Foʻi* means
-"return"; *fiafia* means "happy", and here it tells you how the returning was
-done: happily, in a glad way. Nothing else in the sentence moved. The past
-particle *sā* still stands first, the person word *ʻou* still sits in the middle,
+The added word is *fiafia*, and it sits straight after the verb. *Fiafia* means
+"happy", and here it tells you how the returning was done: happily, in a glad way. Nothing else in the sentence moved. The past
+particle *sā* still stands first, the preverbal pronoun *ʻou* still sits in the middle,
 and the action verb *foʻi* still leads the pair. The describing word follows
 it.
 
@@ -45,7 +47,8 @@ the frame you know:
 | *Sā ʻoutou siva lelei.* | You all danced well. |
 
 *Mālosi* means "strong", and after an action verb it says the action was done
-with strength, which is the job it is doing in the fourth sentence above.
+with strength, which is the job it is doing in the fourth sentence above, where
+*tagi* (cry) is the action verb.
 *Lelei*, the word for "good" you already carry, does the same describing job in
 the fifth, and the same is true of the word for "happy" in the first three. A
 describing verb sitting after an action verb tells you how the action was done.
@@ -85,10 +88,9 @@ comes before it. The same order holds for every verb taught so far, down to
 | *Sā ʻou fia fesili.* | I wanted to ask. |
 
 > **Preview:** With the past particle *sā*, *fia* says "wanted". To say "want" as
-> something felt right now, in the present, Sāmoan sets a different particle in
-> front of the sentence. You meet it in Chapter 13. Until then, every *fia*
-> sentence you build is about what someone wanted. The same short word does a
-> second job elsewhere, asking "how many", and that use waits until Chapter 22.
+> something felt right now, in the present, Sāmoan uses a different particle
+> for the present-tense job. You meet it in Chapter 13. Until then, every *fia*
+> sentence you build is about what someone wanted.
 
 ---
 
@@ -140,7 +142,7 @@ means "almost", so meet it here as "reach" and expect the others in time.
 1. I returned happily.
 2. She wanted to dance.
 3. You all danced well.
-4. We wanted to go fishing.
+4. We (but not you) wanted to go fishing.
 5. I wanted to ask.
 
 ### Exercise 3: Add the describing word
@@ -148,11 +150,11 @@ means "almost", so meet it here as "reach" and expect the others in time.
 Rewrite each sentence with the describing
 verb in brackets in its correct place.
 
-1. *Sā ia siva.* (fiafia)
-2. *Sā ia tagi.* (mālosi)
-3. *Sā ʻou foʻi.* (fiafia)
-4. *Sā ʻe eva.* (fiafia)
-5. *Sā ʻoutou siva.* (lelei)
+1. *Sā ia siva.* (*fiafia*)
+2. *Sā ia tagi.* (*mālosi*)
+3. *Sā ʻou foʻi.* (*fiafia*)
+4. *Sā ʻe eva.* (*fiafia*)
+5. *Sā ʻoutou siva.* (*lelei*)
 
 ### Exercise 4: Put in *fia*
 
@@ -173,6 +175,8 @@ the corrected sentence.
 1. *Sā ʻou fiafia foʻi.* (meaning: I returned happily)
 2. *Sā ia siva fia.* (meaning: She wanted to dance)
 3. *Sā mātou mālosi tagi.* (meaning: We cried hard)
+4. *Sā ʻe fiafia eva.* (meaning: You strolled happily)
+5. *Sā ʻe foʻi fia.* (meaning: You wanted to return)
 
 ---
 
@@ -180,8 +184,8 @@ the corrected sentence.
 
 ### Exercise 1
 
-1. She danced happily.
-2. She cried hard.
+1. She (or He) danced happily.
+2. She (or He) cried hard.
 3. I wanted to go.
 4. You strolled happily.
 5. You wanted to return.
@@ -215,3 +219,5 @@ the corrected sentence.
 1. *Sā ʻou foʻi fiafia.* (the describing verb *fiafia* comes after the action verb *foʻi*)
 2. *Sā ia fia siva.* (the wanting word *fia* comes before the action verb *siva*)
 3. *Sā mātou tagi mālosi.* (the describing verb *mālosi* comes after the action verb *tagi*)
+4. *Sā ʻe eva fiafia.* (the describing verb *fiafia* comes after the action verb *eva*)
+5. *Sā ʻe fia foʻi.* (the wanting word *fia* comes before the action verb *foʻi*)

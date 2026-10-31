@@ -41,7 +41,7 @@
     "title": "Describing Verbs",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter expands the past particle + pronoun + verb pattern by adding the verb phrase's two modifier slots, and shows that the words which describe an action are themselves verbs. A describing verb follows the action verb, as in *Sā ʻou foʻi fiafia* (\"I returned happily\"); the want word *fia* stands before it, as in *Sā ʻou fia alu* (\"I wanted to go\").",
+    "intro": "This chapter expands the past particle + pronoun + verb pattern with two additions, a describing verb after the action verb and the want word before it, and shows that the words which describe an action are themselves verbs. A describing verb follows the action verb, as in *Sā ʻou foʻi fiafia* (\"I returned happily\"); the want word *fia* stands before it, as in *Sā ʻou fia alu* (\"I wanted to go\").",
     "sections": [
       "The Describing Verb",
       "The Want Word *Fia*",
@@ -59,7 +59,7 @@
     "title": "The Tense Particles",
     "level": "beginner",
     "group": "beginner",
-    "intro": "Building on the past particle *sā*, this chapter completes the tense line by introducing the three remaining tense particles: the second past *na*, for a single finished event; the change particle *ʻua*, for a change that usually leaves a new state in place; and the future particle *ʻoleʻā*.",
+    "intro": "Building on the past particle *sā*, this chapter completes the tense line by introducing three more tense particles: the second past *na*, for a single finished event; the change particle *ʻua*, for a change that usually leaves a new state in place; and the future particle *ʻoleʻā*.",
     "sections": [
       "The Four Tense Particles",
       "The Two Pasts",
@@ -157,7 +157,7 @@
     "title": "Greetings and Courtesy",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter gathers the everyday formulas of greeting, thanks, farewell, and good wishes, and shows that each is built on a sentence shape already taught: the tense-particle-free command and exclamation. It also carries the respect vocabulary (*ʻupu faʻaaloalo*) and the everyday speech style for recognition, completing the two speech styles named in the Introduction.",
+    "intro": "This chapter gathers the common formulas of greeting, thanks, farewell, and good wishes. It shows the command's tense-particle-free shape, already taught, put to a new use in the congratulation, well-wish, praise and invitation formulas, and it introduces the exclamation. It also carries the respect vocabulary (*ʻupu faʻaaloalo*) and the everyday speech style for recognition, completing the two speech styles named in the Introduction.",
     "sections": [
       "Sentences Without a Tense Particle",
       "Greetings and Farewells",
@@ -237,7 +237,7 @@
     "title": "The General Particle *E*",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter adds the general particle *e*, the tense particle for what holds in general rather than at one moment: a habit, a lasting quality, a plain truth, or something still to come. It is the one tense particle whose shape follows the pronoun, standing as *e* with no pronoun (*E alu le pasi*, the bus goes) and turning into *te* right after one (*ʻOu te alu*, I go).",
+    "intro": "This chapter adds the general particle *e*, the tense particle for what holds in general rather than at one moment (a habit, a lasting quality, a plain truth, or something still to come), and the happening-now particle *ʻoloʻo*, for what is under way as you speak. The general particle is the one tense particle whose shape follows the pronoun: it is the plain *e* when nothing stands in front of it (*E alu le pasi*, the bus goes) and turns into *te* right after a pronoun (*ʻOu te alu*, I go).",
     "sections": [
       "The General Particle *E*",
       "When a Pronoun Comes In: *Te*",
@@ -276,7 +276,7 @@
     "title": "The Negative",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter adds Sāmoan's two negative words for the statement: the not-word *lē*, which denies that something happened, and the not-yet word *leʻi*, which says it has not happened so far. Each drops into the slot right after the tense particle and in front of the verb, and the same machinery completes the naming sentence taught earlier in this book, giving Sāmoan its way to say that something is not so.",
+    "intro": "This chapter adds Sāmoan's two negative words for the statement: the not-word *lē*, which denies that something happened, and the not-yet word *leʻi*, which says it has not happened so far. Each drops into the slot after the tense particle (and after the pronoun, when one stands there) and in front of the verb, and the same machinery completes the naming sentence taught earlier in this book, giving Sāmoan its way to say that something is not so.",
     "sections": [
       "The Not-Word *Lē*",
       "Denying a Change, Denying a Habit",
@@ -337,7 +337,7 @@
     "title": "Time Words",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter adds the time-word slot at the end of the sentence, a set of words such as *ananafi* (yesterday) and *ātaeao* (tomorrow morning) that fix a statement to a point in time. The word sits after everything else, and its front end points the same way in time as the tense particle at the start.",
+    "intro": "This chapter adds the time-word slot at the end of the sentence, a set of words such as *ananafi* (yesterday) and *ātaeao* (tomorrow morning) that fix a statement to a point in time. In the sentences this chapter builds, the word sits after everything else, and its front end points the same way in time as the tense particle at the start.",
     "sections": [
       "The Time-Word Slot",
       "Time Past and Time to Come",
@@ -382,6 +382,7 @@
       "The With-Word *Ma*",
       "Joining Two Doers",
       "The Number of the Verb Tells You Which",
+      "A Describing Word",
       "Other Jobs of *Ma*",
       "Words to Learn",
       "Exercises"
@@ -397,7 +398,7 @@
     "title": "Question Words",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter adds the question words of the verb sentence, who, what, where, when, and how, each standing in the place of the thing it asks about. The fact this chapter turns on is that the word for \"when\" comes in two shapes, one for future time and one for past.",
+    "intro": "This chapter adds the set of question words for the verb sentence, with who, when (future and past) and how put to use, and what and where recalled from earlier sentence types. The fact this chapter turns on is that the word for \"when\" comes in two shapes, one for future time and one for past.",
     "sections": [
       "Asking Who",
       "Asking When: Past and Future",
@@ -418,7 +419,7 @@
     "title": "Numbers, Prices, and Time of Day",
     "level": "beginner",
     "group": "beginner",
-    "intro": "This chapter teaches the counting construction: a Sāmoan number is a kind of verb, so the number of particular things is set after the noun with the general particle *e* (*tama e tolu*, three boys), and the same shape tells the clock hour. It also adds the way to count people and to put things in order.",
+    "intro": "This chapter teaches the counting construction: a Sāmoan number is a kind of verb, so the number of particular things is set after the noun with the general particle *e* (*tama e tolu*, the three boys), and the same shape tells the clock hour. It also adds the way to count people, to state a price, and to put things in order.",
     "sections": [
       "Counting Things",
       "Counting People",
@@ -478,7 +479,7 @@
     "title": "The Possessive System in Full",
     "level": "intermediate",
     "group": "intermediate",
-    "intro": "This chapter completes the two belonging words *a* and *o*, adding the rule of control that decides between them, the four sets of possessive forms that track the articles across one thing and many, and the owners that come in pairs and groups, and the for-word *mo*, so you can speak of anyone's things in any number and say who a thing is for. Where the control rule runs out, a word's belonging type is a fact of that word, and this chapter gives the lists.",
+    "intro": "This chapter completes the two belonging words *a* and *o*, adding the rule of control that decides between them, the four sets of possessive forms that track the articles across one thing and many, and the owners that come in pairs and groups, and the for-word *mo*, so you can speak of my things in any number, of the things of pairs and groups of owners and of a named owner, and say who a thing is for. Where the control rule runs out, a word's belonging type is a fact of that word, and this chapter gives the lists.",
     "sections": [
       "The Meaning Behind *A* and *O*",
       "What Takes *A* and What Takes *O*",
@@ -520,7 +521,7 @@
     "title": "The Agent Marker *E*",
     "level": "intermediate",
     "group": "intermediate",
-    "intro": "This chapter adds the agent marker *e*, the word that sets apart the doer in a sentence with two participants, and shows you how to say who did what to whom. It also teaches what Sāmoan does in place of an English passive, which is to leave the doer out and put nothing where it stood.",
+    "intro": "This chapter adds the agent marker *e*, the word that sets apart the doer of an action done to something else, and shows you how to say who did what to whom. It also teaches what Sāmoan does in place of an English passive, which is to leave the doer out and put nothing where it stood.",
     "sections": [
       "The Agent Marker *E*",
       "Verbs That Take a Doer, and Verbs That Do Not",
@@ -587,7 +588,7 @@
     "title": "The Complement Clause: Can and Must",
     "level": "intermediate",
     "group": "intermediate",
-    "intro": "This chapter introduces the complement clause, a whole clause that stands where a noun phrase would otherwise stand, and the one word that opens it, *ona* (that). The words that take such a clause are the ability and obligation words *mafai* (can) and *tatau* (must), so you can say what people can, must, and should do.",
+    "intro": "This chapter introduces the complement clause, a whole clause that stands where a noun phrase would otherwise stand, and the one word that opens it, *ona* (that). The chapter teaches the construction through the ability and obligation words *mafai* (can) and *tatau* (must), which belong to a larger group of words that take such a clause, so you can say what people can, must, and should do.",
     "sections": [
       "The Complement Clause",
       "Saying What Can Be Done: *Mafai*",
@@ -611,7 +612,7 @@
     "intro": "This chapter adds the comparison patterns: the direction word *atu* carrying the comparative degree, the than-word *i lo* naming what a thing is measured against, and the verbs *sili* (best), *pei* (like) and *tusa* (the same). The quality word keeps its shape in every pattern here, so these separate words carry the whole job, and with them you can say that one thing has more of a quality than another, that one thing stands above the rest, and that two things are alike.",
     "sections": [
       "The Comparative *Atu*",
-      "Naming What You Compare With: *ʻi Lo*",
+      "Naming What You Compare With: *i lo*",
       "The Most and the Best: *Sili*",
       "Saying Two Things Are Alike: *Pei* and *Tusa Ma*",
       "Words to Learn",
@@ -648,7 +649,7 @@
     "title": "Reported Speech",
     "level": "intermediate",
     "group": "intermediate",
-    "intro": "This chapter adds reported speech, which Sāmoan builds from machinery already in place: after a knowing or ordering word the report is an ordinary clause keeping a tense particle of its own, and after the say-verb *fai* it is a sentence of its own. Reading that particle against the time the first half names, not against the moment of speaking, is the one new rule, and it is what lets you pass on anything anyone said, asked, ordered or knew.",
+    "intro": "This chapter adds reported speech, which Sāmoan builds from machinery already in place: after a knowing word the report is an ordinary clause keeping a tense particle of its own, after an ordering word it opens with the mood particle *ʻia* or with the general particle, and after the say-verb *fai* it is a sentence of its own. Reading the tense particle against the time the first half names, not against the moment of speaking, is the one new rule, and it is what lets you pass on anything anyone said, asked, ordered or knew.",
     "sections": [
       "Reporting What Someone Knew",
       "The Tense Particle Inside the Report",
@@ -860,7 +861,7 @@
     "title": "Relative Clauses",
     "level": "advanced",
     "group": "advanced",
-    "intro": "This chapter introduces the describing clause, a clause with a tense particle of its own standing behind a noun and saying which person, thing, place, or time is meant. It adds the one-who word *ē* and the pointing-back word inside the clause, and shows you how to build the person who left and the village you stayed in.",
+    "intro": "This chapter introduces the describing clause, a clause with a tense particle of its own standing behind a noun and describing it, usually to say which person, thing, place, or time is meant. It adds the one-who word *ē* and the pointing-back word inside the clause, and shows you how to build the person who left and the village you stayed in.",
     "sections": [
       "The Describing Clause",
       "The Two Ways the Missing Word Is Shown",
@@ -1013,7 +1014,7 @@
     "title": "Affixes and Doubling",
     "level": "advanced",
     "group": "advanced",
-    "intro": "This chapter completes Sāmoan's word-building system, the two endings *=ga* and *=a*, the prefixes *fe-*, *taʻi-*, *toʻa-*, *ʻā-* and *ana-*, and the doubling of a word or of a piece of one, and shows you how to read a built word you have never met. Many of the plural forms learned one at a time earlier in this book are made by that doubling, and this chapter names the process behind them.",
+    "intro": "This chapter completes the word-building pieces it names, the two endings *=ga* and *=a*, the prefixes *fe-*, *taʻi-*, *toʻa-*, *ʻā-* and *ana-*, and the doubling of a word or of a piece of one, and shows you how to read a built word you have never met. Many of the plural forms learned one at a time earlier in this book are made by that doubling, and this chapter names the process behind them.",
     "sections": [
       "How Sāmoan Builds a Word",
       "The Ending *=ga*",
@@ -1039,7 +1040,7 @@
     "title": "Emotional Articles and Pronouns",
     "level": "advanced",
     "group": "advanced",
-    "intro": "This chapter completes the article system with the four articles that carry feeling, *si*, *sina*, *nāi* and *ni nāi*, and completes the first person with its emotional forms, *ʻita*, *taʻita* and the middle-slot *ta*. Together they mark sympathy, an amount presented as modest, humility, and an appeal for help.",
+    "intro": "This chapter completes the article system with the four articles that carry feeling, *si*, *sina*, *nāi* and *ni nāi*, and completes the first person with its emotional forms, *ʻita*, *taʻita* and the middle-slot *ta*. The feeling articles mark sympathy and an amount presented as modest, and the emotional first person marks above all that the speaker is emotionally involved, with humility and an appeal for help as frequent readings.",
     "sections": [
       "The Article *Si*",
       "The Article *Sina*",
