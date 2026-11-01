@@ -9827,31 +9827,31 @@
       },
       {
         "id": "q2",
-        "prompt": "The words *ʻavatu*, *fusi* and *vaʻalele* are new in this chapter. What do they mean, in that order?",
+        "prompt": "The words *ʻavatu*, *fusi*, *vaʻalele* and *feiloaʻiga* are new in this chapter. What do they mean, in that order?",
         "options": [
           {
             "label": "A",
-            "text": "order, belt, airplane",
+            "text": "order, belt, airplane, meeting",
             "correct": false,
             "explanation": "Order or instruct is *faʻatonu*; *ʻavatu* is give, away from the speaker."
           },
           {
             "label": "B",
-            "text": "give (away from the speaker), cloth, airplane",
+            "text": "give (away from the speaker), cloth, airplane, meeting",
             "correct": false,
             "explanation": "Cloth is *ʻie*, met earlier in this book; *fusi* is belt."
           },
           {
             "label": "C",
-            "text": "give (away from the speaker), belt, airplane",
+            "text": "give (away from the speaker), belt, airplane, meeting",
             "correct": true,
-            "explanation": "Correct: *ʻavatu* is give, away from the speaker, *fusi* is belt, and *vaʻalele* is airplane."
+            "explanation": "Correct: *ʻavatu* is give, away from the speaker, *fusi* is belt, *vaʻalele* is airplane, and *feiloaʻiga* is meeting."
           },
           {
             "label": "D",
-            "text": "give (away from the speaker), belt, boat",
+            "text": "give (away from the speaker), belt, airplane, a man's son",
             "correct": false,
-            "explanation": "The word *vaʻalele* is airplane, not boat."
+            "explanation": "A man's son is *ataliʻi*; *feiloaʻiga* is meeting."
           }
         ]
       },

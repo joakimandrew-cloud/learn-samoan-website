@@ -133,6 +133,11 @@ slot, and what stands after it is what somebody is to do.
 > *Note:* The general particle *e* also stands in this slot in place of *ʻia*,
 > with the same reported-command reading.
 
+> *Note:* The stop verb *sōia*, met earlier in this book, can also be reported.
+> When you report that someone told another person to stop, *sōia* is marked by
+> the general particle *e*, the particle the Note above names. Recognize it when
+> you meet it; this chapter does not drill it.
+
 > *Note:* *ʻIa* belongs to a small family of mood particles taught fully in a
 > later chapter. Here it does one job, opening a reported command.
 
@@ -226,6 +231,15 @@ question follows it.
 > the verb stands, while the pronoun stands between the tense particle and the
 > verb, or inside a possessive phrase such as *le tā igoa* met earlier in this
 > book.
+
+**Words to carry** (learned now, used fully later in this book):
+
+| Word | Meaning |
+|---|---|
+| *feiloaʻiga* | meeting; reception, welcome |
+
+*Feiloaʻiga* is learned now. It is a naming word that stands after *le*, and the
+sentences that use it arrive in a later chapter.
 
 ---
 

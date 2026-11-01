@@ -3564,13 +3564,22 @@
     "id": "w0396"
   },
   {
+    "samoan": "feiloaʻiga",
+    "english": "meeting; reception, welcome",
+    "chapter": 33,
+    "list": "carry",
+    "listName": "Words to carry",
+    "column": "Meaning",
+    "id": "w0397"
+  },
+  {
     "samoan": "ʻo",
     "english": "the presenting particle, met earlier: at the head of a sentence it lifts a noun phrase out of its ordinary slot and holds it up",
     "chapter": 34,
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0397"
+    "id": "w0398"
   },
   {
     "samoan": "ai",
@@ -3579,7 +3588,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0398"
+    "id": "w0399"
   },
   {
     "samoan": "naʻo",
@@ -3588,7 +3597,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0399"
+    "id": "w0400"
   },
   {
     "samoan": "soʻo se",
@@ -3597,7 +3606,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0400"
+    "id": "w0401"
   },
   {
     "samoan": "lea, ia",
@@ -3606,7 +3615,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0401"
+    "id": "w0402"
   },
   {
     "samoan": "tapē",
@@ -3615,7 +3624,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0402"
+    "id": "w0403"
   },
   {
     "samoan": "lagona",
@@ -3624,7 +3633,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0403"
+    "id": "w0404"
   },
   {
     "samoan": "ʻuma",
@@ -3633,7 +3642,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0404"
+    "id": "w0405"
   },
   {
     "samoan": "leaga",
@@ -3642,7 +3651,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0405"
+    "id": "w0406"
   },
   {
     "samoan": "falaoa",
@@ -3651,7 +3660,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0406"
+    "id": "w0407"
   },
   {
     "samoan": "faleoʻo",
@@ -3660,7 +3669,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0407"
+    "id": "w0408"
   },
   {
     "samoan": "faʻatoʻaga",
@@ -3669,7 +3678,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0408"
+    "id": "w0409"
   },
   {
     "samoan": "le",
@@ -3678,7 +3687,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0409"
+    "id": "w0410"
   },
   {
     "samoan": "lē",
@@ -3687,7 +3696,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0410"
+    "id": "w0411"
   },
   {
     "samoan": "ʻaua",
@@ -3696,7 +3705,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0411"
+    "id": "w0412"
   },
   {
     "samoan": "sōia",
@@ -3705,7 +3714,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0412"
+    "id": "w0413"
   },
   {
     "samoan": "manatu",
@@ -3714,7 +3723,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0413"
+    "id": "w0414"
   },
   {
     "samoan": "māumau",
@@ -3723,7 +3732,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0414"
+    "id": "w0415"
   },
   {
     "samoan": "lavea",
@@ -3732,7 +3741,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0415"
+    "id": "w0416"
   },
   {
     "samoan": "paʻū",
@@ -3741,7 +3750,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0416"
+    "id": "w0417"
   },
   {
     "samoan": "taʻatia",
@@ -3750,7 +3759,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0417"
+    "id": "w0418"
   },
   {
     "samoan": "vāivai",
@@ -3759,7 +3768,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0418"
+    "id": "w0419"
   },
   {
     "samoan": "velo",
@@ -3768,7 +3777,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0419"
+    "id": "w0420"
   },
   {
     "samoan": "āʻoga",
@@ -3777,7 +3786,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0420"
+    "id": "w0421"
   },
   {
     "samoan": "manava",
@@ -3786,7 +3795,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0421"
+    "id": "w0422"
   },
   {
     "samoan": "ʻae",
@@ -3795,7 +3804,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0422"
+    "id": "w0423"
   },
   {
     "samoan": "ʻa",
@@ -3804,7 +3813,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0423"
+    "id": "w0424"
   },
   {
     "samoan": "ʻaʻo",
@@ -3813,7 +3822,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0424"
+    "id": "w0425"
   },
   {
     "samoan": "ʻae leʻi",
@@ -3822,7 +3831,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0425"
+    "id": "w0426"
   },
   {
     "samoan": "ma",
@@ -3831,7 +3840,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0426"
+    "id": "w0427"
   },
   {
     "samoan": "leʻi",
@@ -3840,7 +3849,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0427"
+    "id": "w0428"
   },
   {
     "samoan": "te",
@@ -3849,7 +3858,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0428"
+    "id": "w0429"
   },
   {
     "samoan": "ala",
@@ -3858,7 +3867,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0429"
+    "id": "w0430"
   },
   {
     "samoan": "lolo",
@@ -3867,7 +3876,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0430"
+    "id": "w0431"
   },
   {
     "samoan": "māfaufau",
@@ -3876,7 +3885,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0431"
+    "id": "w0432"
   },
   {
     "samoan": "mānatunatu",
@@ -3885,7 +3894,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0432"
+    "id": "w0433"
   },
   {
     "samoan": "sele",
@@ -3894,7 +3903,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0433"
+    "id": "w0434"
   },
   {
     "samoan": "taunuʻu",
@@ -3903,7 +3912,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0434"
+    "id": "w0435"
   },
   {
     "samoan": "tuʻu",
@@ -3912,7 +3921,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0435"
+    "id": "w0436"
   },
   {
     "samoan": "usu",
@@ -3921,7 +3930,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0436"
+    "id": "w0437"
   },
   {
     "samoan": "ana",
@@ -3930,7 +3939,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0437"
+    "id": "w0438"
   },
   {
     "samoan": "ona",
@@ -3939,7 +3948,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0438"
+    "id": "w0439"
   },
   {
     "samoan": "lea",
@@ -3948,7 +3957,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0439"
+    "id": "w0440"
   },
   {
     "samoan": "loa",
@@ -3957,7 +3966,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0440"
+    "id": "w0441"
   },
   {
     "samoan": "ai",
@@ -3966,7 +3975,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0441"
+    "id": "w0442"
   },
   {
     "samoan": "lilo",
@@ -3975,7 +3984,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0442"
+    "id": "w0443"
   },
   {
     "samoan": "sāuni",
@@ -3984,7 +3993,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0443"
+    "id": "w0444"
   },
   {
     "samoan": "tāʻaʻalo",
@@ -3993,7 +4002,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0444"
+    "id": "w0445"
   },
   {
     "samoan": "ʻapa",
@@ -4002,7 +4011,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0445"
+    "id": "w0446"
   },
   {
     "samoan": "ʻeleʻele",
@@ -4011,7 +4020,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0446"
+    "id": "w0447"
   },
   {
     "samoan": "lālā",
@@ -4020,7 +4029,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0447"
+    "id": "w0448"
   },
   {
     "samoan": "malaga",
@@ -4029,7 +4038,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0448"
+    "id": "w0449"
   },
   {
     "samoan": "sami",
@@ -4038,7 +4047,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0449"
+    "id": "w0450"
   },
   {
     "samoan": "saʻai",
@@ -4047,7 +4056,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0450"
+    "id": "w0451"
   },
   {
     "samoan": "vaitafe",
@@ -4056,7 +4065,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0451"
+    "id": "w0452"
   },
   {
     "samoan": "ʻauā",
@@ -4065,7 +4074,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0452"
+    "id": "w0453"
   },
   {
     "samoan": "leaga",
@@ -4074,7 +4083,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0453"
+    "id": "w0454"
   },
   {
     "samoan": "ʻona",
@@ -4083,7 +4092,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0454"
+    "id": "w0455"
   },
   {
     "samoan": "ʻona ʻo",
@@ -4092,7 +4101,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0455"
+    "id": "w0456"
   },
   {
     "samoan": "e, te",
@@ -4101,7 +4110,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0456"
+    "id": "w0457"
   },
   {
     "samoan": "neʻi",
@@ -4110,7 +4119,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0457"
+    "id": "w0458"
   },
   {
     "samoan": "ʻia",
@@ -4119,7 +4128,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0458"
+    "id": "w0459"
   },
   {
     "samoan": "ʻaiseā",
@@ -4128,7 +4137,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0459"
+    "id": "w0460"
   },
   {
     "samoan": "ʻata",
@@ -4137,7 +4146,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0460"
+    "id": "w0461"
   },
   {
     "samoan": "galo",
@@ -4146,7 +4155,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0461"
+    "id": "w0462"
   },
   {
     "samoan": "lē iloa",
@@ -4155,7 +4164,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0462"
+    "id": "w0463"
   },
   {
     "samoan": "mālamalama",
@@ -4164,7 +4173,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0463"
+    "id": "w0464"
   },
   {
     "samoan": "mālūlū",
@@ -4173,7 +4182,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0464"
+    "id": "w0465"
   },
   {
     "samoan": "punou",
@@ -4182,7 +4191,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0465"
+    "id": "w0466"
   },
   {
     "samoan": "siʻi",
@@ -4191,7 +4200,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0466"
+    "id": "w0467"
   },
   {
     "samoan": "tilotilo",
@@ -4200,7 +4209,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0467"
+    "id": "w0468"
   },
   {
     "samoan": "moli",
@@ -4209,7 +4218,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0468"
+    "id": "w0469"
   },
   {
     "samoan": "suga",
@@ -4218,7 +4227,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0469"
+    "id": "w0470"
   },
   {
     "samoan": "ʻāfai",
@@ -4227,7 +4236,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0470"
+    "id": "w0471"
   },
   {
     "samoan": "ʻā",
@@ -4236,7 +4245,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0471"
+    "id": "w0472"
   },
   {
     "samoan": "pē",
@@ -4245,7 +4254,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0472"
+    "id": "w0473"
   },
   {
     "samoan": "afā",
@@ -4254,7 +4263,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0473"
+    "id": "w0474"
   },
   {
     "samoan": "apu",
@@ -4263,7 +4272,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0474"
+    "id": "w0475"
   },
   {
     "samoan": "loto",
@@ -4272,7 +4281,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0475"
+    "id": "w0476"
   },
   {
     "samoan": "matāfaga",
@@ -4281,7 +4290,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0476"
+    "id": "w0477"
   },
   {
     "samoan": "mālaia",
@@ -4290,7 +4299,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0477"
+    "id": "w0478"
   },
   {
     "samoan": "pōloaʻiga",
@@ -4299,7 +4308,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0478"
+    "id": "w0479"
   },
   {
     "samoan": "solo",
@@ -4308,7 +4317,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0479"
+    "id": "w0480"
   },
   {
     "samoan": "uosi",
@@ -4317,7 +4326,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0480"
+    "id": "w0481"
   },
   {
     "samoan": "usitaʻi",
@@ -4326,7 +4335,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0481"
+    "id": "w0482"
   },
   {
     "samoan": "silou",
@@ -4335,7 +4344,7 @@
     "list": "carry",
     "listName": "Words to carry",
     "column": "Meaning",
-    "id": "w0482"
+    "id": "w0483"
   },
   {
     "samoan": "=gatā",
@@ -4344,7 +4353,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0483"
+    "id": "w0484"
   },
   {
     "samoan": "=gōfie",
@@ -4353,7 +4362,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0484"
+    "id": "w0485"
   },
   {
     "samoan": "ma",
@@ -4362,7 +4371,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0485"
+    "id": "w0486"
   },
   {
     "samoan": "faigatā",
@@ -4371,7 +4380,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0486"
+    "id": "w0487"
   },
   {
     "samoan": "faigōfie",
@@ -4380,7 +4389,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0487"
+    "id": "w0488"
   },
   {
     "samoan": "faʻalogo",
@@ -4389,7 +4398,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0488"
+    "id": "w0489"
   },
   {
     "samoan": "faʻalogogatā",
@@ -4398,7 +4407,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0489"
+    "id": "w0490"
   },
   {
     "samoan": "faʻalogogōfie",
@@ -4407,7 +4416,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0490"
+    "id": "w0491"
   },
   {
     "samoan": "mau",
@@ -4416,7 +4425,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0491"
+    "id": "w0492"
   },
   {
     "samoan": "maugatā",
@@ -4425,7 +4434,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0492"
+    "id": "w0493"
   },
   {
     "samoan": "maugōfie",
@@ -4434,7 +4443,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0493"
+    "id": "w0494"
   },
   {
     "samoan": "taugatā",
@@ -4443,7 +4452,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0494"
+    "id": "w0495"
   },
   {
     "samoan": "taugōfie",
@@ -4452,7 +4461,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0495"
+    "id": "w0496"
   },
   {
     "samoan": "fefe",
@@ -4461,7 +4470,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0496"
+    "id": "w0497"
   },
   {
     "samoan": "a, o",
@@ -4470,7 +4479,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0497"
+    "id": "w0498"
   },
   {
     "samoan": "aʻu, oʻu",
@@ -4479,7 +4488,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0498"
+    "id": "w0499"
   },
   {
     "samoan": "ana, ona",
@@ -4488,7 +4497,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0499"
+    "id": "w0500"
   },
   {
     "samoan": "a mātou, o mātou",
@@ -4497,7 +4506,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0500"
+    "id": "w0501"
   },
   {
     "samoan": "ʻO ai...?, Po ʻo ai...?",
@@ -4506,7 +4515,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0501"
+    "id": "w0502"
   },
   {
     "samoan": "tafao",
@@ -4515,7 +4524,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0502"
+    "id": "w0503"
   },
   {
     "samoan": "ʻeleʻelea",
@@ -4524,7 +4533,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0503"
+    "id": "w0504"
   },
   {
     "samoan": "mamafa",
@@ -4533,7 +4542,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0504"
+    "id": "w0505"
   },
   {
     "samoan": "maualuga",
@@ -4542,7 +4551,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0505"
+    "id": "w0506"
   },
   {
     "samoan": "paʻeʻe",
@@ -4551,7 +4560,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0506"
+    "id": "w0507"
   },
   {
     "samoan": "tele",
@@ -4560,7 +4569,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0507"
+    "id": "w0508"
   },
   {
     "samoan": "nifo",
@@ -4569,7 +4578,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0508"
+    "id": "w0509"
   },
   {
     "samoan": "uʻamea",
@@ -4578,7 +4587,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0509"
+    "id": "w0510"
   },
   {
     "samoan": "ē",
@@ -4587,7 +4596,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0510"
+    "id": "w0511"
   },
   {
     "samoan": "lē",
@@ -4596,7 +4605,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0511"
+    "id": "w0512"
   },
   {
     "samoan": "ai",
@@ -4605,7 +4614,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0512"
+    "id": "w0513"
   },
   {
     "samoan": "aʻi",
@@ -4614,7 +4623,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0513"
+    "id": "w0514"
   },
   {
     "samoan": "ʻi ai",
@@ -4623,7 +4632,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0514"
+    "id": "w0515"
   },
   {
     "samoan": "fai=a",
@@ -4632,7 +4641,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0515"
+    "id": "w0516"
   },
   {
     "samoan": "manuʻa",
@@ -4641,7 +4650,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0516"
+    "id": "w0517"
   },
   {
     "samoan": "mauʻoloa",
@@ -4650,7 +4659,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0517"
+    "id": "w0518"
   },
   {
     "samoan": "popolevale",
@@ -4659,7 +4668,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0518"
+    "id": "w0519"
   },
   {
     "samoan": "taufi",
@@ -4668,7 +4677,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0519"
+    "id": "w0520"
   },
   {
     "samoan": "fue",
@@ -4677,7 +4686,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0520"
+    "id": "w0521"
   },
   {
     "samoan": "tamāoʻāiga",
@@ -4686,7 +4695,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0521"
+    "id": "w0522"
   },
   {
     "samoan": "talu",
@@ -4695,7 +4704,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0522"
+    "id": "w0523"
   },
   {
     "samoan": "ona",
@@ -4704,7 +4713,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0523"
+    "id": "w0524"
   },
   {
     "samoan": "talu ai",
@@ -4713,7 +4722,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0524"
+    "id": "w0525"
   },
   {
     "samoan": "ina ʻua",
@@ -4722,7 +4731,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0525"
+    "id": "w0526"
   },
   {
     "samoan": "taʻi=",
@@ -4731,7 +4740,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0526"
+    "id": "w0527"
   },
   {
     "samoan": "ʻenaʻena",
@@ -4740,7 +4749,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0527"
+    "id": "w0528"
   },
   {
     "samoan": "māfatia",
@@ -4749,7 +4758,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0528"
+    "id": "w0529"
   },
   {
     "samoan": "malama",
@@ -4758,7 +4767,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0529"
+    "id": "w0530"
   },
   {
     "samoan": "soʻo",
@@ -4767,7 +4776,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0530"
+    "id": "w0531"
   },
   {
     "samoan": "talatalanoa",
@@ -4776,7 +4785,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0531"
+    "id": "w0532"
   },
   {
     "samoan": "vivini",
@@ -4785,7 +4794,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0532"
+    "id": "w0533"
   },
   {
     "samoan": "faiva",
@@ -4794,7 +4803,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0533"
+    "id": "w0534"
   },
   {
     "samoan": "pese",
@@ -4803,7 +4812,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0534"
+    "id": "w0535"
   },
   {
     "samoan": "a",
@@ -4812,7 +4821,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0535"
+    "id": "w0536"
   },
   {
     "samoan": "o",
@@ -4821,7 +4830,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0536"
+    "id": "w0537"
   },
   {
     "samoan": "e",
@@ -4830,7 +4839,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0537"
+    "id": "w0538"
   },
   {
     "samoan": "lē",
@@ -4839,7 +4848,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0538"
+    "id": "w0539"
   },
   {
     "samoan": "fia",
@@ -4848,7 +4857,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0539"
+    "id": "w0540"
   },
   {
     "samoan": "soʻo",
@@ -4857,7 +4866,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0540"
+    "id": "w0541"
   },
   {
     "samoan": "tuli",
@@ -4866,7 +4875,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0541"
+    "id": "w0542"
   },
   {
     "samoan": "taliga",
@@ -4875,7 +4884,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0542"
+    "id": "w0543"
   },
   {
     "samoan": "fagu",
@@ -4884,7 +4893,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0543"
+    "id": "w0544"
   },
   {
     "samoan": "namu",
@@ -4893,7 +4902,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0544"
+    "id": "w0545"
   },
   {
     "samoan": "taʻamū",
@@ -4902,7 +4911,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0545"
+    "id": "w0546"
   },
   {
     "samoan": "palagi",
@@ -4911,7 +4920,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0546"
+    "id": "w0547"
   },
   {
     "samoan": "ituʻāiga",
@@ -4920,7 +4929,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0547"
+    "id": "w0548"
   },
   {
     "samoan": "kī",
@@ -4929,7 +4938,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0548"
+    "id": "w0549"
   },
   {
     "samoan": "ma",
@@ -4938,7 +4947,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0549"
+    "id": "w0550"
   },
   {
     "samoan": "lelei",
@@ -4947,7 +4956,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0550"
+    "id": "w0551"
   },
   {
     "samoan": "sili",
@@ -4956,7 +4965,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0551"
+    "id": "w0552"
   },
   {
     "samoan": "faigatā",
@@ -4965,7 +4974,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0552"
+    "id": "w0553"
   },
   {
     "samoan": "faigōfie",
@@ -4974,7 +4983,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0553"
+    "id": "w0554"
   },
   {
     "samoan": "ʻese",
@@ -4983,7 +4992,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0554"
+    "id": "w0555"
   },
   {
     "samoan": "leai",
@@ -4992,7 +5001,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0555"
+    "id": "w0556"
   },
   {
     "samoan": "ʻO",
@@ -5001,7 +5010,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0556"
+    "id": "w0557"
   },
   {
     "samoan": "faʻanoanoa",
@@ -5010,7 +5019,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0557"
+    "id": "w0558"
   },
   {
     "samoan": "putaʻafa",
@@ -5019,7 +5028,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0558"
+    "id": "w0559"
   },
   {
     "samoan": "taamilomilo",
@@ -5028,7 +5037,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0559"
+    "id": "w0560"
   },
   {
     "samoan": "tāua",
@@ -5037,7 +5046,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0560"
+    "id": "w0561"
   },
   {
     "samoan": "meaalofa",
@@ -5046,7 +5055,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0561"
+    "id": "w0562"
   },
   {
     "samoan": "pō",
@@ -5055,7 +5064,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0562"
+    "id": "w0563"
   },
   {
     "samoan": "tauleʻaleʻa",
@@ -5064,7 +5073,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0563"
+    "id": "w0564"
   },
   {
     "samoan": "ʻula",
@@ -5073,7 +5082,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0564"
+    "id": "w0565"
   },
   {
     "samoan": "iā",
@@ -5082,7 +5091,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0565"
+    "id": "w0566"
   },
   {
     "samoan": "ʻi",
@@ -5091,7 +5100,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0566"
+    "id": "w0567"
   },
   {
     "samoan": "uō",
@@ -5100,7 +5109,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0567"
+    "id": "w0568"
   },
   {
     "samoan": "lafu",
@@ -5109,7 +5118,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0568"
+    "id": "w0569"
   },
   {
     "samoan": "momoli",
@@ -5118,7 +5127,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0569"
+    "id": "w0570"
   },
   {
     "samoan": "ʻonosaʻi",
@@ -5127,7 +5136,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0570"
+    "id": "w0571"
   },
   {
     "samoan": "loʻomatua",
@@ -5136,7 +5145,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0571"
+    "id": "w0572"
   },
   {
     "samoan": "tamaitiiti",
@@ -5145,7 +5154,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0572"
+    "id": "w0573"
   },
   {
     "samoan": "teineitiiti",
@@ -5154,7 +5163,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0573"
+    "id": "w0574"
   },
   {
     "samoan": "ʻolomatua",
@@ -5163,7 +5172,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0574"
+    "id": "w0575"
   },
   {
     "samoan": "ʻia",
@@ -5172,7 +5181,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0575"
+    "id": "w0576"
   },
   {
     "samoan": "seʻi",
@@ -5181,7 +5190,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0576"
+    "id": "w0577"
   },
   {
     "samoan": "seʻia",
@@ -5190,7 +5199,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0577"
+    "id": "w0578"
   },
   {
     "samoan": "neʻi",
@@ -5199,7 +5208,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0578"
+    "id": "w0579"
   },
   {
     "samoan": "ʻia neʻi",
@@ -5208,7 +5217,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0579"
+    "id": "w0580"
   },
   {
     "samoan": "musu",
@@ -5217,7 +5226,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0580"
+    "id": "w0581"
   },
   {
     "samoan": "palapalā",
@@ -5226,7 +5235,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0581"
+    "id": "w0582"
   },
   {
     "samoan": "tago",
@@ -5235,7 +5244,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0582"
+    "id": "w0583"
   },
   {
     "samoan": "atigi-lima",
@@ -5244,7 +5253,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0583"
+    "id": "w0584"
   },
   {
     "samoan": "faifeʻau",
@@ -5253,7 +5262,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0584"
+    "id": "w0585"
   },
   {
     "samoan": "pisa",
@@ -5262,7 +5271,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0585"
+    "id": "w0586"
   },
   {
     "samoan": "ʻana",
@@ -5271,7 +5280,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0586"
+    "id": "w0587"
   },
   {
     "samoan": "sēmanū",
@@ -5280,7 +5289,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0587"
+    "id": "w0588"
   },
   {
     "samoan": "seʻiloga",
@@ -5289,7 +5298,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0588"
+    "id": "w0589"
   },
   {
     "samoan": "ui",
@@ -5298,7 +5307,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0589"
+    "id": "w0590"
   },
   {
     "samoan": "tīgā",
@@ -5307,7 +5316,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0590"
+    "id": "w0591"
   },
   {
     "samoan": "tusa",
@@ -5316,7 +5325,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0591"
+    "id": "w0592"
   },
   {
     "samoan": "lava",
@@ -5325,7 +5334,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0592"
+    "id": "w0593"
   },
   {
     "samoan": "fōaʻi",
@@ -5334,7 +5343,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0593"
+    "id": "w0594"
   },
   {
     "samoan": "ole",
@@ -5343,7 +5352,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0594"
+    "id": "w0595"
   },
   {
     "samoan": "poto",
@@ -5352,7 +5361,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0595"
+    "id": "w0596"
   },
   {
     "samoan": "tamoe",
@@ -5361,7 +5370,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0596"
+    "id": "w0597"
   },
   {
     "samoan": "tīgā",
@@ -5370,7 +5379,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0597"
+    "id": "w0598"
   },
   {
     "samoan": "feʻau",
@@ -5379,7 +5388,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0598"
+    "id": "w0599"
   },
   {
     "samoan": "fomaʻi",
@@ -5388,7 +5397,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0599"
+    "id": "w0600"
   },
   {
     "samoan": "paʻa",
@@ -5397,7 +5406,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0600"
+    "id": "w0601"
   },
   {
     "samoan": "=ga",
@@ -5406,7 +5415,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0601"
+    "id": "w0602"
   },
   {
     "samoan": "=a",
@@ -5415,7 +5424,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0602"
+    "id": "w0603"
   },
   {
     "samoan": "fe-",
@@ -5424,7 +5433,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0603"
+    "id": "w0604"
   },
   {
     "samoan": "taʻi-",
@@ -5433,7 +5442,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0604"
+    "id": "w0605"
   },
   {
     "samoan": "toʻa-",
@@ -5442,7 +5451,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0605"
+    "id": "w0606"
   },
   {
     "samoan": "ʻā-",
@@ -5451,7 +5460,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0606"
+    "id": "w0607"
   },
   {
     "samoan": "ana-",
@@ -5460,7 +5469,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0607"
+    "id": "w0608"
   },
   {
     "samoan": "fealofani",
@@ -5469,7 +5478,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0608"
+    "id": "w0609"
   },
   {
     "samoan": "fealuaʻi",
@@ -5478,7 +5487,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0609"
+    "id": "w0610"
   },
   {
     "samoan": "folo",
@@ -5487,7 +5496,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0610"
+    "id": "w0611"
   },
   {
     "samoan": "ilo",
@@ -5496,7 +5505,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0611"
+    "id": "w0612"
   },
   {
     "samoan": "itiiti",
@@ -5505,7 +5514,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0612"
+    "id": "w0613"
   },
   {
     "samoan": "puʻupuʻu",
@@ -5514,7 +5523,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0613"
+    "id": "w0614"
   },
   {
     "samoan": "soli",
@@ -5523,7 +5532,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0614"
+    "id": "w0615"
   },
   {
     "samoan": "si",
@@ -5532,7 +5541,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0615"
+    "id": "w0616"
   },
   {
     "samoan": "sina",
@@ -5541,7 +5550,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0616"
+    "id": "w0617"
   },
   {
     "samoan": "nāi",
@@ -5550,7 +5559,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0617"
+    "id": "w0618"
   },
   {
     "samoan": "ni nāi",
@@ -5559,7 +5568,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0618"
+    "id": "w0619"
   },
   {
     "samoan": "ʻita",
@@ -5568,7 +5577,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0619"
+    "id": "w0620"
   },
   {
     "samoan": "taʻita",
@@ -5577,7 +5586,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0620"
+    "id": "w0621"
   },
   {
     "samoan": "ta",
@@ -5586,7 +5595,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0621"
+    "id": "w0622"
   },
   {
     "samoan": "lata, lota",
@@ -5595,7 +5604,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0622"
+    "id": "w0623"
   },
   {
     "samoan": "sata, sota",
@@ -5604,7 +5613,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0623"
+    "id": "w0624"
   },
   {
     "samoan": "ata, ota",
@@ -5613,7 +5622,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0624"
+    "id": "w0625"
   },
   {
     "samoan": "ni ata, ni ota",
@@ -5622,7 +5631,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0625"
+    "id": "w0626"
   },
   {
     "samoan": "sinaʻu, sinoʻu, sinata, sinota, sinau, sinou, sinana, sinona",
@@ -5631,7 +5640,7 @@
     "list": "grammar",
     "listName": "Grammar words",
     "column": "What it does",
-    "id": "w0626"
+    "id": "w0627"
   },
   {
     "samoan": "afe",
@@ -5640,7 +5649,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0627"
+    "id": "w0628"
   },
   {
     "samoan": "amo",
@@ -5649,7 +5658,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0628"
+    "id": "w0629"
   },
   {
     "samoan": "aʻa",
@@ -5658,7 +5667,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0629"
+    "id": "w0630"
   },
   {
     "samoan": "fanua",
@@ -5667,7 +5676,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0630"
+    "id": "w0631"
   },
   {
     "samoan": "lauulu",
@@ -5676,7 +5685,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0631"
+    "id": "w0632"
   },
   {
     "samoan": "polo",
@@ -5685,7 +5694,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0632"
+    "id": "w0633"
   },
   {
     "samoan": "sesē",
@@ -5694,7 +5703,7 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0633"
+    "id": "w0634"
   },
   {
     "samoan": "sēleni",
@@ -5703,6 +5712,6 @@
     "list": "vocabulary",
     "listName": "Vocabulary",
     "column": "Meaning",
-    "id": "w0634"
+    "id": "w0635"
   }
 ]

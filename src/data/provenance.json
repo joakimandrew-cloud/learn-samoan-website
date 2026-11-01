@@ -163,8 +163,8 @@
     },
     {
       "source": "book/Chapter-33.md",
-      "sha256": "8554197792e21bdaf624ccc6a8233a39a27ce9897952f9d978217d1165882e87",
-      "copy": "fc8e8dad48186987487349c25917a66765712448c24100aae9955bd3497995c2"
+      "sha256": "a3f7f54ea4bb47faecb2e909637d69b748cf2b519a7cce1caa26b10391981499",
+      "copy": "42be531f3082a44d8973ee3d58a527b7b1a15b79ba1183f5b5d9320a0b744232"
     },
     {
       "source": "book/Chapter-34.md",
@@ -238,8 +238,8 @@
     },
     {
       "source": "book/Chapter-48.md",
-      "sha256": "eee2349babc2b7de6db484614c1aaac6aef7be5024214af87ca8811d282449c5",
-      "copy": "1e3923306af0841a56563c7b48003a5ea94164d3e31d20fb0729467f301e0310"
+      "sha256": "c2abe6b2833fc2e168758e4ab51016aa231d53aa93e35a1448c169285f4a3593",
+      "copy": "6c6d1795eeb098c5ab3f6b78cb08bdfe7ac9315a29669edf2117ab3a74b78e40"
     },
     {
       "source": "book/Chapter-49.md",
@@ -263,8 +263,8 @@
     },
     {
       "source": "book/appendix-glossary.md",
-      "sha256": "6395335df69ea3a78cb43da5ce8e2ccbc90593c1e1cfa1903a3df9eaa5abab75",
-      "copy": "6db751bc4c4f1aa26560e2fa1774b8a6c26aa0c0e801a0342d651acbc1ad8c34"
+      "sha256": "778d9c20c0fa6ad5fe17ec4973770ae1532fc0c8e0f552fe7a11a7ed7239cc3a",
+      "copy": "8c4b59683b7dfe8aca3f44e39d1bbeb2c29384dce151f3ef6dd6f0dc99c03921"
     },
     {
       "source": "book/appendix-pronunciation.md",
@@ -406,7 +406,7 @@
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch33.md",
-      "sha256": "6c0c2fdbe4294bdb5a4ebed67fe7010621bcc2c2046b5ae2e7e190756760d5f5"
+      "sha256": "b82a99cd827b55370d36a04db8761d146979da48605e10b3737b1a9e8dc63a7f"
     },
     {
       "source": "quizzes/samoan_grammar_quiz_ch34.md",
@@ -485,8 +485,8 @@
     "chapters": 51,
     "quizzes": 51,
     "quizQuestions": 510,
-    "words": 634,
-    "glossary": 656,
+    "words": 635,
+    "glossary": 658,
     "exercises": 300,
     "exerciseItems": 1738,
     "givenItems": 3,

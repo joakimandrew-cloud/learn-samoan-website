@@ -144,6 +144,11 @@ that the speaker wants the event to come true, as in the third.
 > *Note:* *Seʻi* can also be combined with another tense particle. The meanings
 > in this section belong to *seʻi* standing on its own.
 
+> *Note:* The stop verb *sōia*, met earlier in this book, can also follow *seʻi*.
+> Said straight to a person, it is then a request to stop in the wish form of
+> this section, not the bare command taught earlier. Recognize it when you meet
+> it; this chapter does not drill it.
+
 ### How Firm the Request Is
 
 ::: {.examples}

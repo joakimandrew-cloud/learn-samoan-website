@@ -181,6 +181,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *feʻau* | work, task, errand | 49 |
 | *fefe* | fear, be afraid | 40 |
 | *feiloaʻi* | meet | 13 |
+| *feiloaʻiga* | meeting; reception, welcome | 33 |
 | *fesili* | ask | 3 |
 | *fesoasoani* | help | 5 |
 | *fia* | want: goes in front of the verb and says the action was wanted | 3 |
@@ -401,6 +402,7 @@ Every headword taught in the book's Words to Learn tables, in Sāmoan alphabetic
 | *momoli* | bring, deliver | 47 |
 | *moni* | true | 31 |
 | *muamua* | first | 22 |
+| *muli* | final, at the end | 18 |
 | *mulimuli* | last | 22 |
 | *musu* | dislike | 48 |
 
