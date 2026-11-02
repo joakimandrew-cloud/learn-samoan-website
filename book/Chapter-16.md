@@ -1,139 +1,196 @@
-# Chapter 16: The Pointing-Back Word *Ai*
+# Chapter 15: The Negative
 
-This chapter adds the pointing-back word *ai*, a word that sits inside the verb
-phrase and stands in for a place already named, so that a place mentioned once
-does not have to be named a second time. Its companion form *ʻi ai* does the
-same work for the goal of a movement, the "to there" of going and coming.
+This chapter adds Sāmoan's two negative words for the statement: the not-word
+*lē*, which denies that something happened, and the not-yet word *leʻi*, which
+says it has not happened so far. Each drops into the slot after the tense
+particle (and after the pronoun, when one stands there) and in front of the
+verb, and the same machinery completes the naming
+sentence taught earlier in this book, giving Sāmoan its way to say that
+something is not so.
 
 ---
 
-## Pointing Back to a Place
+## The Not-Word *Lē*
 
 ::: {.examples}
-*Sā nofo le teine ʻi le nuʻu.* The girl lived in the village.
+*Sā siva le teine.* The girl danced.
 
-*Sā nofo ai le teine.* The girl lived there.
+*Sā lē siva le teine.* The girl did not dance.
 :::
 
-Compare the two sentences. The first ends with the place, *ʻi le nuʻu* (in the
-village). In the second the place is gone, and a single word, *ai*, stands
-straight after the verb here. That word is *ai*, the **pointing-back word**: it
-stands in for a place already named, so the village named in the first sentence
-need not be named again in the second.
+Compare them. Which word is new, and where does it sit?
 
-*Ai* takes its own seat. The place phrase *ʻi le nuʻu* comes at the end of its
-sentence, after the doer. *Ai* does not go there. In the sentences you can build so far, it falls right
-after the verb and before the doer, and it keeps that seat under each tense
-particle this chapter uses.
+The new word is *lē*, the **not-word**. It falls in the slot right after the
+tense particle *sā* and in front of the verb *siva*, and it turns the statement
+into its denial. Nothing else moves: the tense particle stays, the doer stays,
+the word order stays, and *lē* drops into the gap between the particle and the
+verb.
+
+The not-word keeps its place under the other tense particles in this section
+too: after the particle (and after the pronoun, when one stands there) and in
+front of the verb:
 
 | Sāmoan | English |
 |---|---|
-| *Sā nofo ai le teine.* | The girl lived there. |
-| *Sā mālōlō ai le tama.* | The boy rested there. |
-| *Sā fiafia ai le teine.* | The girl was happy there. |
-| *Sā nofo ai le aitu.* | The spirit lived there. |
+| *Sā lē siva le teine.* | The girl did not dance. |
+| *ʻOleʻā ʻou lē siva.* | I will not dance. |
+| *E lē mālosi le tama.* | The boy is not strong. |
+| *Sā lē malie le tamā.* | The father was not pleased. |
 
-In each row the verb comes first, then *ai*, then the doer. Nothing names the
-place, because the place was named already and *ai* now carries it.
+These four span the past particle, the future particle, and the general
+particle. The last row brings in two new words, *malie* (pleased) and *tamā*
+(father). In each, the not-word holds the same seat between the particle and
+the verb; in the second row the pronoun *ʻou* stands between the particle and
+the not-word, so the not-word follows the pronoun.
 
-> *Note:* This *ai* has the same shape as the question word *ai* met earlier in
-> this book, the one that asks who someone is (*ʻO ai ʻoe?*, "Who are you?").
-> Same string, two jobs: the question word asks after a person and stands at the
-> front, while the pointing-back word stands in for a place and sits inside the
-> verb phrase. Where the word sits tells you which job it is doing.
+> *Note:* Most of the time the not-word does just this and no more: it denies
+> the matching positive sentence and leaves everything else untouched. A few
+> tense particles add a shade of meaning when *lē* joins them, shown in the
+> next section.
 
-The place *ai* points back to is usually named in the sentence just before, as
-the village was above. What *ai* stands for need not be a place word at all, as
-this pair from a story shows:
-
-::: {.examples}
-*ʻUa fai le umu.* The oven-food has been prepared.
-
-*ʻUa ʻai ai le aitu.* The spirit ate from it.
-:::
-
-The first sentence names the *umu*, an earth oven and the food cooked in it. The
-second says the spirit ate from it, and *ai* points back to that oven-food. One
-naming is enough; *ai* carries it forward.
-
-> **Preview:** When you tell a story, one event after another, *ai* threads the
-> clauses together, pointing back to a place or a scene set at the start. That
-> fuller storytelling role is taught in Chapter 37.
+> *Note:* Two look-alikes meet in *E lē mālosi le tama* (the boy is not
+> strong). The not-word *lē* carries the long-vowel mark and stands before the
+> verb; the specific article *le*, with no mark, stands before the noun.
+> Everyday print often leaves the mark off, so let position be your guide:
+> *lē* before a verb, *le* before a noun.
 
 ---
 
-## Putting the Place First
+## Denying a Change, Denying a Habit
 
-A place phrase can also come first, at the front of the sentence. When it does,
-*ai* still points back to it from inside the verb phrase:
-
-::: {.examples}
-*ʻI le nuʻu sā nofo ai le teine.* In the village the girl lived. (Lit. "In the
-village the girl lived there.")
-
-*ʻI le vasega sā fiafia ai le teine.* In the class the girl was happy. (Lit. "In
-the class the girl was happy there.")
-:::
-
-The place leads, *ʻi le nuʻu* (in the village) or *ʻi le vasega* (in the class),
-and *ai* answers it later in the sentence. The English beside each example is
-the natural rendering; the (Lit.) line shows the sentence word for word. English
-does not double the place this way, so the second "there" can feel like one
-word too many; in Sāmoan it is the ordinary shape.
-
-That said, the copy is not required. You will mostly hear *ai* answer a fronted
-place, but the sentence is also correct without it:
+The change particle *ʻua* reports that something is different now. Put the
+not-word after it and the sentence says a state that once held has ended:
 
 ::: {.examples}
-*ʻI le nuʻu sā nofo le teine.* In the village the girl lived.
+*ʻUa lē fiafia le tama.* The boy is unhappy.
 :::
 
-Both are good Sāmoan. When the place is already at the front, *ai* may point
-back to it or may be left out.
+*ʻUa fiafia le tama* would say the boy has become happy. Add *lē* and you have
+*ʻUa lē fiafia le tama*: the boy is not happy, and the shape carries the sense
+that he was happy before and has changed. The change particle still reports a
+change; the not-word tells you the change is away from the earlier state.
 
-> **Preview:** This same pointing-back copy does the work inside the kind of
-> phrase that picks out "the village where they lived" or "the day it happened".
-> That use is taught in Chapter 43.
+Under the general particle the not-word does two jobs, told apart by one added
+word. On its own it denies a habit:
+
+::: {.examples}
+*ʻOu te lē alu.* I do not go.
+:::
+
+Follow the not-word with *ʻo*, the short form of the happening-now particle,
+and the sentence denies the moment instead:
+
+::: {.examples}
+*ʻOu te lē ʻo alu.* I am not going.
+:::
+
+*ʻOu te lē alu* denies the habit: going is not something I do.
+*ʻOu te lē ʻo alu* denies right now: I am not in the middle of going. The short
+*ʻo* is the same happening-now particle met earlier in this book in its full
+form *ʻoloʻo*; after the not-word it appears in this short shape.
+Denying a habit with the not-word on its own also reaches future time: the
+same words can say what will not happen as well as what does not.
+
+| Sāmoan | English |
+|---|---|
+| *ʻOu te lē alu.* | I do not go. |
+| *ʻOu te lē ʻo alu.* | I am not going. |
+| *E lē siva le teine.* | The girl does not dance. |
+
+> *Note:* When you answer "no" to a question built on the change particle, the
+> answer does not repeat that particle. Asked *ʻUa fiafia le tama?* "Is the boy
+> happy [now]?", the answer switches to the general particle, the not-word and the short
+> happening-now *ʻo*, reporting that nothing has changed: *Leai, e lē ʻo fiafia le tama.* "No, the
+> boy isn't happy." The sense is that he has not changed to being happy.
 
 ---
 
-## Going There: *ʻi ai*
-
-For the goal of a movement, the "to there" of going and coming, *ai* takes the
-place word *ʻi* in front of it. The pair *ʻi ai* stands in for a place you are
-heading to, exactly where the full place phrase would stand:
+## The Not-Yet Word *Leʻi*
 
 ::: {.examples}
-*Sā alu le tama ʻi le fale.* The boy went to the house.
-
-*Sā alu le tama ʻi ai.* The boy went there.
+*E leʻi alu le teine.* The girl has not gone yet.
 :::
 
-In the first sentence the goal is *ʻi le fale* (to the house). In the second,
-*ʻi ai* takes that slot and means "to there". The two words cannot be split and
-nothing goes between them.
+The not-yet word *leʻi* says a thing has not happened so far, but is still
+expected to. Like the not-word, it sits after the tense particle (and after the pronoun,
+when one stands there) and in front of the verb. It is normally used with the
+general particle *e* (and *te* after a pronoun):
 
-This gives two ways to point back, sorted for the most part by the verb. A verb
-of staying or doing takes bare *ai* for "there"; a verb of moving usually takes
-*ʻi ai* for "to there":
+| Sāmoan | English |
+|---|---|
+| *E leʻi alu le teine.* | The girl has not gone yet. |
+| *E leʻi sau le tamā.* | The father has not come yet. |
+| *ʻOu te leʻi alu.* | I have not gone yet. |
+| *E leʻi siva le teine.* | The girl has not danced yet. |
+
+The not-word *lē* and the not-yet word *leʻi* look alike, but they are two
+different words. They differ in more than one way at once: *lē* holds
+its vowel long, while *leʻi* carries the catch of the *ʻ* mark and an i at the
+end. They differ in meaning too. *E lē alu le teine* is "the girl does not go";
+*E leʻi alu le teine* is "the girl has not gone yet".
+
+> *Note:* You will mostly build *leʻi* on the general particle, as here. It
+> turns up now and then with the past particle or the happening-now particle,
+> but the general particle is the usual one. In some sentences *leʻi*
+> simply means "no, not at all", denying that something expected ever happened.
+
+---
+
+## Saying Something Is Not So
+
+The naming sentence from earlier in this book sets two parts side by side with
+no verb: *ʻO se uō le tama* (the boy is a friend). Because it has no tense
+particle and no verb, there is no slot inside it for the not-word to fill. To
+deny it, Sāmoan builds a small shell around the whole sentence, the general
+particle *e* with the not-word *lē*, meaning "it is not the case", and tucks
+the naming sentence inside:
 
 ::: {.examples}
-*Sā alu le teine ʻi ai.* The girl went there. (Lit. "The girl went to there.")
+*ʻO se uō le tama.* The boy is a friend.
 
-*Sā nofo ai le teine.* The girl lived there.
+*E lē ʻo se uō le tama.* The boy is not a friend. (Lit. "It is not the case that the boy is a friend.")
 :::
 
-*Sā alu le teine ʻi ai* sends the girl toward the place. *Sā nofo ai le teine*
-holds her at the place. Two things differ: the verb, and the form of the
-pointer, since *ʻi ai* takes the seat of the goal phrase at the end of the
-sentence while bare *ai* sits straight after the verb. That
-sorting holds most of the time rather than always: the two forms are drifting
-together, and a number of verbs of moving are found with either one.
+The presenting particle *ʻo* still marks the naming part, exactly as it did in
+the plain naming sentence; the general particle and the not-word wrap around
+the front. The order inside does not change. The denial is added as a shell.
 
-> *Note:* The string *ʻi ai* does a second job in a kind of sentence taught in a
-> later chapter, where it means "is there", a location rather than a direction,
-> and there the pointing-back word must appear rather than being left out. In
-> this chapter *ʻi ai* always means "to there".
+| Sāmoan | English |
+|---|---|
+| *E lē ʻo se uō le tama.* | The boy is not a friend. |
+| *E lē ʻo se pepe le teine.* | The girl is not a baby. |
+| *E lē ʻo se iʻa le pusi.* | The cat is not a fish. |
+
+The new word *pepe* (baby) fills the naming slot in the second row.
+
+---
+
+## One "Not," Four Tools
+
+Sāmoan has no single word that does the work of English "not". It has a small
+set of tools, and the kind of sentence you are building chooses which one:
+
+- **A statement or a question.** The not-word *lē*: *Sā lē siva le teine* (the
+  girl did not dance).
+- **Something not done so far.** The not-yet word *leʻi*: *E leʻi alu le teine*
+  (the girl has not gone yet).
+- **Something that does not exist.** The there-is-none verb *leai*, met earlier
+  in this book, which carries the "not" inside the verb itself: *E leai se
+  tusi* (there is no book).
+- **A command.** Neither particle can touch it. Telling someone not to do a
+  thing uses a separate kind of verb, taught in a later chapter.
+
+The word *Leai* you have used for "no" since the start of this book is the
+answer word. Standing on its own, with nothing after it, it answers a question.
+It is the same word as the there-is-none verb met earlier in this book, which
+does its negating as the verb of its own sentence, as in *E leai se tusi*. In
+the sentences this book builds, that is the whole of its work: to deny a verb
+inside a sentence, reach for the not-word or the not-yet word.
+
+Before you reach for a negative, ask what kind of sentence you are building.
+The answer picks the tool, and the tools are not interchangeable: the not-word
+cannot deny a command, and it cannot be set in front of the there-is verb *iai*
+to say a thing fails to exist. That is the there-is-none verb's own work.
 
 ---
 
@@ -143,29 +200,27 @@ together, and a number of verbs of moving are found with either one.
 
 | Word | What it does |
 |---|---|
-| *ai* | the pointing-back word: stands in for a place already named; in this chapter's sentences it sits after the verb, before the doer |
-| *ʻi ai* | the "to there" form: the pointing-back word with the place word *ʻi* in front, for the goal of a movement |
+| *lē* | the not-word: denies a statement or question; sits after the tense particle (and any pronoun), before the verb |
+| *leʻi* | the not-yet word: says a thing has not happened so far but is expected to; normally used with the general particle |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *mālōlō* | rest |
-| *tali* | answer |
-| *aitu* | spirit |
-| *umu* | oven; oven-food |
-| *pito* | end |
-| *vasega* | class |
-| *leitio* | radio |
+| *malie* | pleased |
+| *gagana* | language |
+| *pepe* | baby |
+| *potu* | room |
+| *tamā* | father |
 
 **Words to carry** (learned now, used fully later in this book):
 
 | Word | Meaning |
 |---|---|
-| *isi* | other |
+| *itūlā* | hour |
 
-*Isi* is learned now; it stands in front of a noun, and the sentences that put
-it there arrive later in this book.
+*Itūlā* is learned now; the sentences that count hours and tell the time arrive
+later in this book.
 
 ---
 
@@ -173,55 +228,52 @@ it there arrive later in this book.
 
 ### Exercise 1: Translate into English
 
-1. *Sā nofo ai le teine.*
-2. *Sā mālōlō ai le tama.*
-3. *Sā alu le tama ʻi ai.*
-4. *ʻI le nuʻu sā nofo ai le teine.*
-5. *Sā nofo ai le aitu.*
+1. *Sā lē siva le teine.*
+2. *ʻUa lē fiafia le tama.*
+3. *E leʻi sau le tamā.*
+4. *E lē ʻo se pepe le teine.*
+5. *ʻOu te lē alu.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The boy rested there.
-2. The girl went there.
-3. The girl lived there.
-4. In the class the girl was happy there.
-5. The spirit lived there.
+1. The boy is not strong.
+2. I have not gone yet.
+3. The father was not pleased.
+4. The cat is not a fish.
+5. The girl has not danced yet.
 
-### Exercise 3: Point back to the place
+### Exercise 3: Make it negative
 
-Each first sentence names a place. Rewrite the second sentence so the place is
-not repeated, putting the pointing-back word *ai* right after the verb.
+Rewrite each sentence with the not-word *lē* so it denies what it now states.
+Keep the tense particle and the rest of the sentence in place.
 
-1. *Sā alu le tama ʻi le fale.* Then: the boy rested there.
-2. *Sā alu le teine ʻi le nuʻu.* Then: the girl lived there.
-3. *Sā nofo le tama ʻi le pito o le nuʻu.* Then: the boy was happy there.
-4. *Sā alu le teine ʻi le vasega.* Then: the girl rested there.
-5. *Sā nofo le aitu ʻi le fale.* Then: the spirit was happy there.
+1. *Sā siva le teine.*
+2. *E mālosi le tama.*
+3. *Sā malie le tamā.*
+4. *ʻOleʻā ʻou alu.*
+5. *E fiafia le teine.*
 
-### Exercise 4: Choose *ai* or *ʻi ai*
+### Exercise 4: Choose *lē* or *leʻi*
 
-Put *ai* or *ʻi ai* into each gap so the sentence matches the English. Use *ʻi ai*
-here for going to a place, bare *ai* for staying or doing at a place.
+Put the not-word *lē* or the not-yet word *leʻi* into each gap so the sentence
+matches the English.
 
-1. *Sā alu le teine ___.* (The girl went there.)
-2. *Sā mālōlō ___ le tama.* (The boy rested there.)
-3. *Sā nofo ___ le aitu.* (The spirit lived there.)
-4. *Sā alu le tama ___.* (The boy went there.)
-5. *Sā fiafia ___ le teine.* (The girl was happy there.)
+1. *Sā ___ siva le teine.* (The girl did not dance.)
+2. *E ___ alu le teine.* (The girl has not gone yet.)
+3. *ʻUa ___ fiafia le tama.* (The boy is unhappy.)
+4. *ʻOu te ___ alu.* (I have not gone yet.)
+5. *E ___ mālosi le tama.* (The boy is not strong.)
 
-### Exercise 5: Match each word to its meaning
+### Exercise 5: Say it is not so
 
-1. *mālōlō*
-2. *tali*
-3. *pito*
-4. *leitio*
-5. *vasega*
+Each sentence names what something is. Rewrite it as its denial, wrapping it
+with the general particle *e* and the not-word *lē*.
 
-a. radio
-b. end
-c. rest
-d. class
-e. answer
+1. *ʻO se uō le tama.*
+2. *ʻO se pepe le teine.*
+3. *ʻO se iʻa le pusi.*
+4. *ʻO se ʻiole le pusi.*
+5. *ʻO se tagata le ʻāgelu.*
 
 ---
 
@@ -229,36 +281,40 @@ e. answer
 
 ### Exercise 1
 
-1. The girl lived there.
-2. The boy rested there.
-3. The boy went there.
-4. In the village the girl lived. (Lit. "In the village the girl lived there."; both renderings are accepted.)
-5. The spirit lived there.
+1. The girl did not dance.
+2. The boy is unhappy.
+3. The father has not come yet.
+4. The girl is not a baby.
+5. I do not go. (or I will not go.)
 
 ### Exercise 2
 
-1. *Sā mālōlō ai le tama.*
-2. *Sā alu le teine ʻi ai.*
-3. *Sā nofo ai le teine.*
-4. *ʻI le vasega sā fiafia ai le teine.*
-5. *Sā nofo ai le aitu.*
+1. *E lē mālosi le tama.*
+2. *ʻOu te leʻi alu.*
+3. *Sā lē malie le tamā.*
+4. *E lē ʻo se iʻa le pusi.*
+5. *E leʻi siva le teine.*
 
 ### Exercise 3
 
-1. *Sā mālōlō ai le tama.*
-2. *Sā nofo ai le teine.*
-3. *Sā fiafia ai le tama.*
-4. *Sā mālōlō ai le teine.*
-5. *Sā fiafia ai le aitu.*
+1. *Sā lē siva le teine.*
+2. *E lē mālosi le tama.*
+3. *Sā lē malie le tamā.*
+4. *ʻOleʻā ʻou lē alu.*
+5. *E lē fiafia le teine.*
 
 ### Exercise 4
 
-1. *ʻi ai*
-2. *ai*
-3. *ai*
-4. *ʻi ai*
-5. *ai*
+1. *lē*
+2. *leʻi*
+3. *lē*
+4. *leʻi*
+5. *lē*
 
 ### Exercise 5
 
-1-c, 2-e, 3-b, 4-a, 5-d.
+1. *E lē ʻo se uō le tama.*
+2. *E lē ʻo se pepe le teine.*
+3. *E lē ʻo se iʻa le pusi.*
+4. *E lē ʻo se ʻiole le pusi.*
+5. *E lē ʻo se tagata le ʻāgelu.*

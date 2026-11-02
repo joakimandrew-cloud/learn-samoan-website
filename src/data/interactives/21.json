@@ -1,252 +1,56 @@
 {
-  "chapter": 21,
+  "chapter": 20,
   "items": [
     {
-      "id": "ch21-question-word-grid",
-      "kind": "grid",
-      "anchor": "asking-who",
-      "title": "The question-word set",
-      "caption": "Each word asks for a different missing piece. The two when-words split future time from past time.",
-      "data": {
-        "cols": [
-          "Question word"
-        ],
-        "rows": [
-          {
-            "label": "Who",
-            "cells": [
-              {
-                "sm": "ai",
-                "en": "who"
-              }
-            ]
-          },
-          {
-            "label": "What",
-            "cells": [
-              {
-                "sm": "ā",
-                "en": "what"
-              }
-            ]
-          },
-          {
-            "label": "Where",
-            "cells": [
-              {
-                "sm": "fea",
-                "en": "where"
-              }
-            ]
-          },
-          {
-            "label": "When, future",
-            "cells": [
-              {
-                "sm": "āfea",
-                "en": "when (future)"
-              }
-            ]
-          },
-          {
-            "label": "When, past",
-            "cells": [
-              {
-                "sm": "anafea",
-                "en": "when (past)"
-              }
-            ]
-          },
-          {
-            "label": "How",
-            "cells": [
-              {
-                "sm": "faʻapefea",
-                "en": "how"
-              }
-            ]
-          },
-          {
-            "label": "How many",
-            "cells": [
-              {
-                "sm": "fia",
-                "en": "how many"
-              }
-            ]
-          },
-          {
-            "label": "Why",
-            "cells": [
-              {
-                "sm": "ʻaiseā",
-                "en": "why"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "ch21-when-past-future",
+      "id": "ch20-with-and-and",
       "kind": "contrast",
-      "anchor": "asking-when-past-and-future",
-      "title": "The when-word and tense particle move together",
-      "caption": "Future *āfea* rides the future particle. Past *anafea* rides the past particle, and the pointing-back word holds the fronted time's place inside the verb phrase.",
+      "anchor": "the-number-of-the-verb-tells-you-which",
+      "title": "The verb tells with from and",
+      "caption": "Every word except the verb stays the same. The singular verb leaves one doer with a companion, while the plural verb makes both people doers.",
       "data": {
         "mode": "toggle",
         "states": [
-          {
-            "label": "Future",
-            "sm": "ʻO āfea ʻoleʻā moe ai le tama?",
-            "en": "When will the boy sleep?"
-          },
-          {
-            "label": "Past",
-            "sm": "ʻO anafea na moe ai le tama?",
-            "en": "When did the boy sleep?"
-          }
+          { "label": "With", "sm": "Sā nofo le tama ma le teine.", "en": "The boy stayed with the girl." },
+          { "label": "And", "sm": "Sā nonofo le tama ma le teine.", "en": "The boy and the girl stayed." }
         ]
       }
     },
     {
-      "id": "ch21-pick-question-word",
-      "kind": "pick",
-      "anchor": "asking-how",
-      "title": "Choose the missing question word",
-      "intro": "Choose the question word that completes each printed question.",
+      "id": "ch20-ma-jobs",
+      "kind": "grid",
+      "anchor": "joining-two-doers",
+      "title": "One word, two jobs",
+      "caption": "A singular verb keeps the companion outside the doer count. A plural verb shows that both joined names do the action.",
       "data": {
-        "question": "What information is the speaker asking for?",
-        "options": [
-          {
-            "id": "who",
-            "sm": "ai"
-          },
-          {
-            "id": "where",
-            "sm": "fea"
-          },
-          {
-            "id": "how",
-            "sm": "faʻapefea"
-          }
-        ],
-        "prompts": [
-          {
-            "sm": "ʻO ___ na sau?",
-            "en": "Who came?",
-            "answer": "who",
-            "why": "The question asks for the person who did the action."
-          },
-          {
-            "sm": "Sā ___ le aso?",
-            "en": "How was the day?",
-            "answer": "how",
-            "why": "The how-word stands where a describing verb would stand."
-          },
-          {
-            "sm": "ʻO ___ e ʻi ai le ʻofu?",
-            "en": "Where is the dress?",
-            "answer": "where",
-            "why": "The where-word comes to the front and *ʻi ai* holds its place later."
-          },
-          {
-            "sm": "ʻO ___ na faʻaipoipo?",
-            "en": "Who got married?",
-            "answer": "who",
-            "why": "The missing information is a person."
-          }
+        "cols": ["Printed sentence"],
+        "rows": [
+          { "label": "Companion", "cells": [ { "sm": "Sā alu le teine ma le uō.", "en": "The girl went with the friend." } ] },
+          { "label": "Companion thing", "cells": [ { "sm": "Sā fāgota le tama ma le vaʻa.", "en": "The boy went fishing with the canoe." } ] },
+          { "label": "Two doers", "cells": [ { "sm": "Sā nonofo le tama ma le teine.", "en": "The boy and the girl stayed." } ] }
         ]
       }
     },
     {
-      "id": "ch21-pick-question-answer",
+      "id": "ch20-pick-nofo-nonofo",
       "kind": "pick",
-      "anchor": "yes-or-no-questions",
-      "title": "Find the answer to the question",
-      "intro": "Read the question, then choose the answer the book gives for it.",
+      "anchor": "the-number-of-the-verb-tells-you-which",
+      "title": "Choose one doer or two",
+      "intro": "Read the English and choose the complete printed sentence that gives *ma* the intended job.",
       "data": {
-        "question": "Which is the answer?",
+        "question": "Which sentence says this?",
         "prompts": [
-          {
-            "sm": "ʻO ai lenā?",
-            "en": "Who is that?",
-            "options": [
-              {
-                "id": "a",
-                "sm": "ʻO le teine."
-              },
-              {
-                "id": "b",
-                "sm": "ʻO le suāsami lenā."
-              },
-              {
-                "id": "c",
-                "sm": "ʻO le fale e ʻi ai le teine."
-              }
-            ],
-            "answer": "a",
-            "why": "*Ai* asks after a person, and the answer names one: *ʻO le teine.*, the girl. When it is clear what the answer is about, the presented part can stand alone."
-          },
-          {
-            "sm": "ʻO le ā lenā?",
-            "en": "What is that?",
-            "options": [
-              {
-                "id": "a",
-                "sm": "ʻO le suāsami lenā."
-              },
-              {
-                "id": "b",
-                "sm": "ʻO le teine."
-              },
-              {
-                "id": "c",
-                "sm": "ʻO le fale e ʻi ai le teine."
-              }
-            ],
-            "answer": "a",
-            "why": "*Ā* asks after a thing, and the answer is a naming sentence about a thing: *ʻO le suāsami lenā.*, that is the salt water."
-          },
-          {
-            "sm": "ʻO fea e ʻi ai le teine?",
-            "en": "Where is the girl?",
-            "options": [
-              {
-                "id": "a",
-                "sm": "ʻO le fale e ʻi ai le teine."
-              },
-              {
-                "id": "b",
-                "sm": "ʻO le teine."
-              },
-              {
-                "id": "c",
-                "sm": "ʻO le suāsami lenā."
-              }
-            ],
-            "answer": "a",
-            "why": "*Fea* asks after a place, and the answer names the place in the same fronted shape, with *ʻi ai*: the girl is in the house."
-          },
-          {
-            "sm": "ʻUa fiafia le tama?",
-            "options": [
-              {
-                "id": "a",
-                "sm": "Leai, e lē ʻo fiafia le tama."
-              },
-              {
-                "id": "b",
-                "sm": "ʻO le teine."
-              },
-              {
-                "id": "c",
-                "sm": "ʻO le fale e ʻi ai le teine."
-              }
-            ],
-            "answer": "a",
-            "why": "This asks whether the boy is happy now, a yes or no question with no question word. The book's answer is no, and it does not repeat the change particle: it switches to the general particle with the not-word."
-          }
+          { "en": "The boy stayed with the girl.", "answer": "with", "options": [
+            { "id": "with", "sm": "Sā nofo le tama ma le teine." },
+            { "id": "and", "sm": "Sā nonofo le tama ma le teine." }
+          ], "why": "The singular verb leaves the girl as the companion." },
+          { "en": "The boy and the girl stayed.", "answer": "and", "options": [
+            { "id": "with", "sm": "Sā nofo le tama ma le teine." },
+            { "id": "and", "sm": "Sā nonofo le tama ma le teine." }
+          ], "why": "The plural verb shows that both joined people are doers." },
+          { "en": "The girl went with the friend.", "answer": "companion", "options": [
+            { "id": "companion", "sm": "Sā alu le teine ma le uō." },
+            { "id": "two", "sm": "Sā nonofo le teine ma le uō." }
+          ], "why": "The going sentence has one doer, and *ma* adds the friend as a companion." }
         ]
       }
     }

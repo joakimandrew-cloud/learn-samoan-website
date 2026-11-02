@@ -1,90 +1,122 @@
 {
-  "chapter": 39,
+  "chapter": 38,
   "items": [
     {
-      "id": "ch39-if-when",
+      "id": "ch38-reason-position",
       "kind": "contrast",
-      "anchor": "the-condition-clause-without-a-joining-word",
-      "title": "Two ways to open a condition",
+      "anchor": "the-because-word-ona",
+      "title": "Put the reason before or after",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "With the if-word",
-            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
-            "en": "If it rains tomorrow, the trip will not go.",
-            "note": "The if-word opens a condition with a tense particle of its own."
+            "label": "Reason last",
+            "sm": "Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.",
+            "en": "The boy went to the house because the girl was sick."
           },
           {
-            "label": "With the short future particle",
-            "sm": "ʻĀ timu taeao, e lē alu le malaga.",
-            "en": "When it rains tomorrow, the trip will not go.",
-            "note": "The short future particle stands alone. English may use if, when or whenever for this shape, according to the situation."
+            "label": "Reason first",
+            "sm": "ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.",
+            "en": "Because the girl was sick, the boy went to the house.",
+            "note": "*Ai* points back to the whole reason clause."
           }
         ]
       },
-      "caption": "The condition comes first in both. The second shape has no separate joining word before its short future particle."
+      "caption": "The because-clause keeps its own tense particle in both places. When it comes first, the other clause usually carries *ai*."
     },
     {
-      "id": "ch39-condition-certainty",
+      "id": "ch38-that-because",
       "kind": "contrast",
-      "anchor": "the-tense-particle-in-a-condition-clause",
-      "title": "An open condition or an expected one",
+      "anchor": "telling-ona-and-ona-apart",
+      "title": "Read the particle after the joining word",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Open",
-            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
-            "en": "If it rains tomorrow, the trip will not go.",
-            "note": "The general particle leaves the condition open."
+            "label": "A complement",
+            "sm": "ʻUa mafai ona sau le teine.",
+            "en": "The girl can come.",
+            "note": "The verb after *ona* has no tense particle: this is the that-word."
           },
           {
-            "label": "More expected",
-            "sm": "ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.",
-            "en": "If it is going to rain tomorrow, the trip will not go.",
-            "note": "The future particle carries a much higher degree of certainty than the general particle."
+            "label": "A reason",
+            "sm": "ʻUa alu le tama ʻona ʻua sau le teine.",
+            "en": "The boy went because the girl came.",
+            "note": "The verb after *ʻona* carries *ʻua*: this is the because-word."
           }
         ]
       },
-      "caption": "The if-word stays in place. The tense particle inside the condition changes how expected the condition is."
+      "caption": "Ordinary print often spells these joining words alike. The tense particle after them is the test; the then-construction is told apart by its closing *lea*."
     },
     {
-      "id": "ch39-condition-location",
-      "kind": "pick",
-      "anchor": "putting-the-condition-second",
-      "title": "Find the condition in the sentence",
+      "id": "ch38-purpose-reason",
+      "kind": "sort",
+      "anchor": "the-purpose-clause",
+      "title": "A reason or a purpose?",
       "data": {
-        "question": "Where does the condition stand?",
-        "options": [
+        "bins": [
           {
-            "id": "first",
-            "label": "Before the main clause"
+            "id": "reason",
+            "label": "A reason: why it happened"
           },
           {
-            "id": "last",
-            "label": "After the main clause"
+            "id": "purpose",
+            "label": "A purpose: what it was done for"
           }
         ],
-        "prompts": [
+        "items": [
           {
-            "sm": "ʻĀfai e iai se apu, ʻou te ʻai.",
-            "answer": "first",
-            "why": "The if-word opens the first clause; the eating follows it."
+            "sm": "Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.",
+            "en": "The girl lay down in the house because she was tired.",
+            "bin": "reason",
+            "why": "The because-word opens the reason under its own tense particle."
           },
           {
-            "sm": "Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.",
-            "answer": "last",
-            "why": "The command comes first. *Pē* stands in front of the following condition."
+            "sm": "E lē mafai ona alu le tama leaga e maʻi.",
+            "en": "The boy cannot go because he is sick.",
+            "bin": "reason",
+            "why": "*Leaga* gives the unwelcome reason for the main clause."
           },
           {
-            "sm": "E lē alu le tama ʻi le matāfaga pē ʻā afā.",
-            "answer": "last",
-            "why": "The main clause is followed by *pē* and the condition opened by the short future particle."
+            "sm": "Sā alu le tama e ʻaumai le niu.",
+            "en": "The boy went to bring the coconut.",
+            "bin": "purpose",
+            "why": "The clause headed by *e* says what the going was for."
+          },
+          {
+            "sm": "Sā ʻou alu neʻi tagi le tama.",
+            "en": "I went, so that the boy would not cry.",
+            "bin": "purpose",
+            "why": "The warning particle *neʻi* makes the purpose negative: what the going was intended to prevent."
           }
         ]
       },
-      "intro": "Read which clause says what has to be true, then choose its position."
+      "intro": "Choose whether the added clause explains a reason or names a purpose."
+    },
+    {
+      "id": "ch38-ask-why",
+      "kind": "dialogue",
+      "anchor": "asking-why",
+      "title": "A why-question and its answer",
+      "data": {
+        "speakers": {
+          "question": "Question",
+          "answer": "Answer"
+        },
+        "lines": [
+          {
+            "who": "question",
+            "sm": "ʻAiseā na alu ai le tamāloa ʻi le nuʻu?",
+            "en": "Why did the man go to the village?"
+          },
+          {
+            "who": "answer",
+            "sm": "ʻAuā ʻua maʻi le teine.",
+            "en": "Because the girl is sick."
+          }
+        ]
+      },
+      "caption": "The printed answer needs no main clause of its own. A because-word and its reason fill the whole turn."
     }
   ]
 }

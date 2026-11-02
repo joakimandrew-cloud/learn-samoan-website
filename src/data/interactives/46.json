@@ -1,148 +1,94 @@
 {
-  "chapter": 46,
+  "chapter": 45,
   "items": [
     {
-      "id": "ch46-state-while-acting",
+      "id": "ch45-intentional-hearing",
       "kind": "contrast",
-      "anchor": "saying-how-someone-acts",
-      "title": "The feeling while staying",
+      "anchor": "hearing-and-seeing",
+      "title": "Listening on purpose or hearing by accident",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Happy",
-            "sm": "Sā ʻou nofo ma le fiafia.",
-            "en": "I stayed and was happy.",
-            "note": "The le-phrase after *ma* names the speaker’s state while staying."
+            "label": "The doing marked",
+            "sm": "le faʻalogo a le tama",
+            "en": "the boy's listening",
+            "note": "The belonging word *a* marks the boy as a doer listening on purpose."
           },
           {
-            "label": "Unhappy",
-            "sm": "Sā ʻou nofo ma le lē fiafia.",
-            "en": "I stayed and was unhappy.",
-            "note": "The not-word changes the state named by the le-phrase."
+            "label": "The hearing happens to him",
+            "sm": "le faʻalogo o le tama",
+            "en": "the boy's hearing",
+            "note": "The belonging word *o* makes the hearing something that happened to him."
           }
         ]
       },
-      "caption": "The main action stays the same. The phrase after the with-word describes the person doing it."
+      "caption": "The same verb takes both belonging words with different readings. Hearing and seeing are the pair the chapter shows doing this."
     },
     {
-      "id": "ch46-judging-verbs",
-      "kind": "grid",
-      "anchor": "judging-an-event",
-      "title": "Ways to judge an event",
+      "id": "ch45-forced-o",
+      "kind": "pick",
+      "anchor": "when-the-choice-is-made-for-you",
+      "title": "What closes the choice?",
       "data": {
-        "cols": [
-          "Judging verb"
+        "question": "Which word forces *o* in this le-phrase?",
+        "options": [
+          {
+            "id": "not",
+            "label": "The not-word"
+          },
+          {
+            "id": "want",
+            "label": "The want-word"
+          },
+          {
+            "id": "often",
+            "label": "The often-word"
+          }
         ],
-        "rowLabel": "Judgement",
-        "quiz": true,
-        "rows": [
+        "prompts": [
           {
-            "label": "good",
-            "cells": [
-              {
-                "sm": "lelei",
-                "en": "good"
-              }
-            ]
+            "sm": "le lē pese o le teine",
+            "answer": "not",
+            "why": "A negated event did not take place. The not-word forces *o*."
           },
           {
-            "label": "better, the best",
-            "cells": [
-              {
-                "sm": "sili",
-                "en": "better, the best"
-              }
-            ]
+            "sm": "le fia pese o le teine",
+            "answer": "want",
+            "why": "Wanting to sing is not singing. The want-word forces *o*."
           },
           {
-            "label": "difficult",
-            "cells": [
-              {
-                "sm": "faigatā",
-                "en": "difficult"
-              }
-            ]
-          },
-          {
-            "label": "easy",
-            "cells": [
-              {
-                "sm": "faigōfie",
-                "en": "easy"
-              }
-            ]
-          },
-          {
-            "label": "extraordinary",
-            "cells": [
-              {
-                "sm": "ʻese",
-                "en": "extraordinary"
-              }
-            ]
-          },
-          {
-            "label": "does not exist",
-            "cells": [
-              {
-                "sm": "leai",
-                "en": "does not exist"
-              }
-            ]
+            "sm": "le pese soʻo o le tama",
+            "answer": "often",
+            "why": "The often-word makes this a habit rather than one event that happened, and forces *o*."
           }
         ]
       },
-      "caption": "These verbs often take a le-phrase as what the sentence is about. The verb passes judgement on the event named by the phrase."
+      "intro": "Find the word inside the event that settles the belonging word before the doer test can run."
     },
     {
-      "id": "ch46-phrase-use",
-      "kind": "sort",
-      "anchor": "exclaiming-with-a-le-phrase",
-      "title": "What is the whole le-phrase doing?",
+      "id": "ch45-two-participants",
+      "kind": "contrast",
+      "anchor": "the-doer-that-keeps-e",
+      "title": "Two participants, either order",
       "data": {
-        "bins": [
+        "mode": "toggle",
+        "states": [
           {
-            "id": "state",
-            "label": "Naming a state while acting"
+            "label": "Doer first",
+            "sm": "le fafaga e le tinā o le pepe",
+            "en": "the mother's feeding of the baby",
+            "note": "The mother keeps the agent marker because the thing fed is named with *o*."
           },
           {
-            "id": "judge",
-            "label": "An event being judged"
-          },
-          {
-            "id": "exclaim",
-            "label": "An immediate exclamation"
-          }
-        ],
-        "items": [
-          {
-            "sm": "Na ʻou tausi=a le pepe ma le fiafia.",
-            "en": "I took care of the baby happily.",
-            "bin": "state",
-            "why": "The phrase after *ma* names the doer’s feeling while caring for the baby."
-          },
-          {
-            "sm": "E lelei le putaʻafa o le puaʻa.",
-            "en": "It is good that the pig is fat.",
-            "bin": "judge",
-            "why": "The judging verb calls the event named by the le-phrase good."
-          },
-          {
-            "sm": "E ʻese le mānaia o le ʻula.",
-            "en": "The necklace is extremely nice.",
-            "bin": "judge",
-            "why": "The judging verb stresses that the quality is out of the ordinary."
-          },
-          {
-            "sm": "ʻO le fefe o le teine",
-            "en": "Look how scared the girl is",
-            "bin": "exclaim",
-            "why": "The presenting particle holds up the le-phrase as an immediate comment on the girl’s reaction."
+            "label": "Thing fed first",
+            "sm": "le fafaga o le pepe e le tinā",
+            "en": "the mother's feeding of the baby",
+            "note": "The same two marked phrases stand in the other order."
           }
         ]
       },
-      "intro": "Read the construction around the event phrase and choose its use."
+      "caption": "Both printed orders are ordinary Sāmoan. Moving the two phrases does not exchange their markers or their jobs."
     }
   ]
 }

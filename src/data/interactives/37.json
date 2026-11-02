@@ -1,111 +1,100 @@
 {
-  "chapter": 37,
+  "chapter": 36,
   "items": [
     {
-      "id": "ch37-then-shapes",
+      "id": "ch36-matching-tense",
       "kind": "contrast",
-      "anchor": "the-shorter-shapes-of-the-then-construction",
-      "title": "The full pair and its shorter shapes",
+      "anchor": "matching-the-tense-particle",
+      "title": "Repeat the tense particle or leave it out",
       "data": {
-        "mode": "steps",
+        "mode": "toggle",
         "states": [
           {
-            "label": "The full pair",
-            "sm": "Ona alu lea ʻo le tama.",
-            "en": "Then the boy went.",
-            "note": "*Ona* opens the clause and *lea* closes the verb phrase."
+            "label": "Particle repeated",
+            "sm": "Sā timu ma sā lolo le vai.",
+            "en": "It rained and the water overflowed.",
+            "note": "The second clause repeats the first clause’s tense particle."
           },
           {
-            "label": "Without *lea*",
-            "sm": "Ona alu le tama.",
-            "en": "Then the boy went.",
-            "note": "Without *lea*, the named participant stands in its plain form."
-          },
-          {
-            "label": "Without *ona*",
-            "sm": "Alu lea ʻo le tama.",
-            "en": "Then the boy went.",
-            "note": "*Lea* carries the succession, and the participant usually has the presenting particle."
+            "label": "Particle absent",
+            "sm": "Sā timu ma lolo le vai.",
+            "en": "It rained and the water overflowed.",
+            "note": "The second clause has no tense particle. The empty slot is a valid form."
           }
         ]
       },
-      "caption": "These are next-event examples from a story: a text needs something before them. Modern writing keeps the full pair; speech also uses the shorter shapes."
+      "caption": "Both shapes are printed and both are good Sāmoan. The chapter treats the choice as style rather than meaning."
     },
     {
-      "id": "ch37-recognise-pair",
-      "kind": "pick",
-      "anchor": "the-shorter-shapes-of-the-then-construction",
-      "title": "Which parts of the pair remain?",
+      "id": "ch36-clause-links",
+      "kind": "sort",
+      "anchor": "holding-two-events-together-with-ao",
+      "title": "Sort the links between clauses",
       "data": {
-        "question": "Which shape is printed here?",
-        "options": [
+        "bins": [
           {
-            "id": "both",
-            "label": "Both opening and closing words"
+            "id": "and",
+            "label": "And: joined events"
           },
           {
-            "id": "ona",
-            "label": "Only the opening word"
+            "id": "but",
+            "label": "But: a contrast"
           },
           {
-            "id": "lea",
-            "label": "Only the closing word"
+            "id": "while",
+            "label": "While: events held together in time"
           }
         ],
-        "prompts": [
+        "items": [
           {
-            "sm": "Ona alu loa lea ʻo le tama.",
-            "answer": "both",
-            "why": "Both *ona* and *lea* remain. The extra *loa* is the then-word inside the verb phrase."
+            "sm": "ʻUa ala le tama ma ʻua usu le teine.",
+            "en": "The boy has woken and the girl has stood up.",
+            "bin": "and",
+            "why": "*Ma* joins the two clauses."
           },
           {
-            "sm": "Ona alu le tama.",
-            "answer": "ona",
-            "why": "*Ona* carries the succession on its own, and *lea* is absent."
+            "sm": "Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.",
+            "en": "The bus arrived and the girl went to the school.",
+            "bin": "and",
+            "why": "The clauses are joined by *ma* and repeat the same past particle."
           },
           {
-            "sm": "Alu loa lea ʻo le tama.",
-            "answer": "lea",
-            "why": "*Ona* is absent. The then-word *loa* and the closing word *lea* remain."
+            "sm": "ʻUa ala le teine ʻae ʻoloʻo moe le tama.",
+            "en": "The girl has woken but the boy is sleeping.",
+            "bin": "but",
+            "why": "*ʻAe* opens the second clause and sets it against the first."
+          },
+          {
+            "sm": "Na usu le teine ʻaʻo moe le tama.",
+            "en": "The girl stood up while the boy slept.",
+            "bin": "while",
+            "why": "*ʻAʻo* holds the two events side by side in time."
           }
         ]
       },
-      "intro": "Find the opening and closing words, without treating the extra then-word as part of the pair."
+      "intro": "Choose the kind of link the joining word makes between the two clauses."
     },
     {
-      "id": "ch37-story-words",
-      "kind": "match",
-      "anchor": "words-to-learn",
-      "title": "Recall the story words",
+      "id": "ch36-before-pair",
+      "kind": "contrast",
+      "anchor": "saying-what-came-before",
+      "title": "Two ways to say before",
       "data": {
-        "pairs": [
+        "mode": "toggle",
+        "states": [
           {
-            "sm": "lilo",
-            "en": "hide, be hidden"
+            "label": "With *ʻaʻo leʻi*",
+            "sm": "Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.",
+            "en": "The bus arrived before six o'clock."
           },
           {
-            "sm": "sāuni",
-            "en": "prepare, get ready"
-          },
-          {
-            "sm": "lālā",
-            "en": "branch"
-          },
-          {
-            "sm": "sami",
-            "en": "sea"
-          },
-          {
-            "sm": "saʻai",
-            "en": "ogre"
-          },
-          {
-            "sm": "vaitafe",
-            "en": "river"
+            "label": "With *ʻae leʻi*",
+            "sm": "Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.",
+            "en": "The bus arrived before six o'clock."
           }
         ]
       },
-      "intro": "Match the printed words to the meanings used in this chapter’s stories."
+      "caption": "Either combination says that the second event had not happened yet when the first occurred. English gathers that relationship into before."
     }
   ]
 }

@@ -1,91 +1,108 @@
 {
-  "chapter": 13,
+  "chapter": 12,
   "items": [
     {
-      "id": "ch13-particle-position",
-      "kind": "contrast",
-      "anchor": "when-a-pronoun-comes-in-te",
-      "title": "The pronoun moves before the general particle",
-      "caption": "The past particle comes before the pronoun. With the general particle, the pronoun comes first and the particle takes the form *te*.",
+      "id": "ch12-reaching-with-i",
+      "kind": "grid",
+      "anchor": "the-two-participant-sentence",
+      "title": "Different verbs point at what they reach",
+      "caption": "Seeing, feeling, and watching all use *ʻi* before the second participant in these printed sentences.",
       "data": {
-        "mode": "toggle",
-        "states": [
-          {
-            "label": "Past",
-            "sm": "Sā ʻou alu.",
-            "en": "I went."
-          },
-          {
-            "label": "General",
-            "sm": "ʻOu te alu.",
-            "en": "I go."
-          }
-        ]
-      }
-    },
-    {
-      "id": "ch13-general-and-now",
-      "kind": "contrast",
-      "anchor": "the-happening-now-particle-oloo",
-      "title": "A habit and an event under way",
-      "caption": "The general particle says what holds as a rule. The happening-now particle marks the event under way at the moment of speaking.",
-      "data": {
-        "mode": "toggle",
-        "states": [
-          {
-            "label": "General",
-            "sm": "E siva le teine.",
-            "en": "The girl dances."
-          },
-          {
-            "label": "Happening now",
-            "sm": "ʻOloʻo siva le teine.",
-            "en": "The girl is dancing."
-          }
-        ]
-      }
-    },
-    {
-      "id": "ch13-sort-general-now",
-      "kind": "sort",
-      "anchor": "the-happening-now-particle-oloo",
-      "title": "Sort what holds generally and what is under way",
-      "intro": "Place each complete printed sentence under the time view it expresses.",
-      "data": {
-        "bins": [
-          {
-            "id": "general",
-            "label": "Holds generally"
-          },
-          {
-            "id": "now",
-            "label": "Happening now"
-          }
+        "cols": [
+          "Printed sentence"
         ],
+        "rows": [
+          {
+            "label": "Seeing",
+            "cells": [
+              {
+                "sm": "Sā vaʻai le teine ʻi le iʻa.",
+                "en": "The girl saw the fish."
+              }
+            ]
+          },
+          {
+            "label": "Watching",
+            "cells": [
+              {
+                "sm": "Sā mātamata le tama ʻi le pusi.",
+                "en": "The boy watched the cat."
+              }
+            ]
+          },
+          {
+            "label": "Feeling",
+            "cells": [
+              {
+                "sm": "Sā alofa le tama ʻi le teine.",
+                "en": "The boy loved the girl."
+              }
+            ]
+          },
+          {
+            "label": "Dislike",
+            "cells": [
+              {
+                "sm": "Sā ʻinoʻino le teine ʻi le ʻiole.",
+                "en": "The girl hated the rat."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch12-two-kinds-of-wanting",
+      "kind": "contrast",
+      "anchor": "wanting",
+      "title": "Want an action or want a thing",
+      "caption": "The word *fia* stands before an action. The verb *manaʻo* points at a wanted thing with *ʻi*.",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Wanted action",
+            "sm": "Sā ʻou fia ʻai",
+            "en": "I wanted to eat"
+          },
+          {
+            "label": "Wanted thing",
+            "sm": "ʻUa manaʻo le tama ʻi le meaʻai.",
+            "en": "The boy wanted some food."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch12-order-two-participants",
+      "kind": "order",
+      "anchor": "asking-and-calling",
+      "title": "Build the two-participant sentence",
+      "intro": "Put the printed words in order. The girl-and-fish sentence accepts both orders that the chapter gives after the verb.",
+      "data": {
         "items": [
           {
-            "sm": "E mālosi le tama.",
-            "en": "The boy is strong.",
-            "bin": "general",
-            "why": "The general particle presents a lasting quality."
+            "en": "The girl saw the fish.",
+            "sm": "Sā vaʻai le teine ʻi le iʻa.",
+            "accept": [
+              "Sā vaʻai ʻi le iʻa le teine"
+            ],
+            "why": "The verb comes first. The chapter allows the two parts after it in either printed order."
           },
           {
-            "sm": "E alu le pasi ʻi le nuʻu.",
-            "en": "The bus goes to the village.",
-            "bin": "general",
-            "why": "The general particle presents the trip as a standing habit."
+            "en": "I saw the fish.",
+            "sm": "Sā ʻou vaʻai ʻi le iʻa.",
+            "why": "The preverbal pronoun keeps its middle slot, and the thing seen follows with *ʻi*."
           },
           {
-            "sm": "ʻOloʻo siva le teine.",
-            "en": "The girl is dancing.",
-            "bin": "now",
-            "why": "The happening-now particle marks the dancing as under way."
+            "en": "She saw the cat.",
+            "sm": "Sā ia vaʻai ʻi le pusi.",
+            "why": "The preverbal pronoun comes before the verb, while the cat follows with *ʻi*."
           },
           {
-            "sm": "ʻOloʻo tusitusi le tama.",
-            "en": "The boy is writing.",
-            "bin": "now",
-            "why": "The happening-now particle marks the writing as under way."
+            "en": "I called to the friend.",
+            "sm": "Sā ʻou valaʻau ʻi le uō.",
+            "why": "The caller is in the middle slot, and the person called to follows with *ʻi*."
           }
         ]
       }

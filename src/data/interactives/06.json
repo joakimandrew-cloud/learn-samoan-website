@@ -1,235 +1,82 @@
 {
-  "chapter": 6,
+  "chapter": 5,
   "items": [
     {
-      "id": "ch6-article-grid",
-      "kind": "grid",
-      "anchor": "one-and-many-the-article-carries-the-number",
-      "title": "Four article choices",
-      "caption": "Each phrase answers two questions: one or many, and a particular thing or any at all. The specific plural has an empty article slot before the noun.",
-      "data": {
-        "rowLabel": "Reference",
-        "colLabel": "Number",
-        "cols": [
-          "One",
-          "Many"
-        ],
-        "rows": [
-          {
-            "label": "Specific",
-            "cells": [
-              {
-                "sm": "le teine",
-                "en": "the girl"
-              },
-              {
-                "sm": "teine",
-                "en": "the girls",
-                "note": "No article stands before the particular plural."
-              }
-            ]
-          },
-          {
-            "label": "Non-specific",
-            "cells": [
-              {
-                "sm": "se teine",
-                "en": "a girl (any girl)"
-              },
-              {
-                "sm": "ni teine",
-                "en": "some girls"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "ch6-one-and-many",
+      "id": "ch5-statement-to-command",
       "kind": "contrast",
-      "anchor": "one-and-many-the-article-carries-the-number",
-      "title": "The article carries the number",
-      "caption": "The noun keeps its shape. Dropping *le* changes one particular girl into particular girls.",
+      "anchor": "the-command",
+      "title": "A command leaves the bare verb",
+      "caption": "The statement names time and a person. The command drops both and leaves the verb on its own.",
       "data": {
-        "mode": "toggle",
+        "mode": "steps",
         "states": [
           {
-            "label": "One",
-            "sm": "le teine",
-            "en": "the girl"
+            "label": "Statement",
+            "sm": "Sā ia nofo.",
+            "en": "She sat down."
           },
           {
-            "label": "Many",
-            "sm": "teine",
-            "en": "the girls"
+            "label": "Command",
+            "sm": "Nofo.",
+            "en": "Sit down.",
+            "note": "A bare command names no doer and carries no tense particle."
           }
         ]
       }
     },
     {
-      "id": "ch6-sort-article-phrases",
-      "kind": "sort",
-      "anchor": "the-non-specific-articles-se-and-ni",
-      "title": "Specific or non-specific",
-      "intro": "Sort each printed phrase by whether the speaker has a particular thing in mind.",
+      "id": "ch5-urging-word",
+      "kind": "contrast",
+      "anchor": "the-urging-words-ia-and-ea",
+      "title": "An urging word follows the command",
+      "caption": "The command is complete on its own. Adding *ia* at the end gives it warmth or a push.",
       "data": {
-        "bins": [
+        "mode": "steps",
+        "states": [
           {
-            "id": "specific",
-            "label": "Specific"
+            "label": "Bare command",
+            "sm": "Nofo.",
+            "en": "Sit down."
           },
           {
-            "id": "non-specific",
-            "label": "Non-specific"
+            "label": "With urging",
+            "sm": "Nofo ia.",
+            "en": "Do sit down, then."
           }
-        ],
+        ]
+      }
+    },
+    {
+      "id": "ch5-type-commands",
+      "kind": "type",
+      "anchor": "words-to-learn",
+      "title": "Type the command verbs",
+      "intro": "Read the meaning and type the verb used for the command.",
+      "data": {
         "items": [
           {
-            "sm": "le teine",
-            "en": "the girl",
-            "bin": "specific",
-            "why": "The article *le* marks one particular girl."
+            "en": "wait",
+            "sm": "faʻatali"
           },
           {
-            "sm": "le ipu",
-            "en": "the cup",
-            "bin": "specific",
-            "why": "The article *le* marks one particular cup."
+            "en": "sit, stay",
+            "sm": "nofo"
           },
           {
-            "sm": "se teine",
-            "en": "a girl (any girl)",
-            "bin": "non-specific",
-            "why": "The article *se* marks any single girl, with no particular one chosen."
+            "en": "shut",
+            "sm": "tāpuni"
           },
           {
-            "sm": "se mea",
-            "en": "a thing, something",
-            "bin": "non-specific",
-            "why": "The article *se* marks one thing with no particular one chosen."
+            "en": "sweep",
+            "sm": "salu"
           },
           {
-            "sm": "ni teine",
-            "en": "some girls",
-            "bin": "non-specific",
-            "why": "The article *ni* marks more than one, with no particular ones chosen."
+            "en": "wash",
+            "sm": "fufulu"
           },
           {
-            "sm": "ni mea",
-            "en": "some things",
-            "bin": "non-specific",
-            "why": "The article *ni* marks more than one non-specific thing."
-          }
-        ]
-      }
-    },
-    {
-      "id": "ch6-pick-one-or-many",
-      "kind": "pick",
-      "anchor": "words-to-learn",
-      "title": "One or many?",
-      "intro": "Read the English, then choose the Sāmoan that says it. Watch the slot in front of the noun.",
-      "data": {
-        "question": "Which says this?",
-        "prompts": [
-          {
-            "en": "The girls were happy.",
-            "options": [
-              {
-                "id": "a",
-                "sm": "Sā fiafia teine."
-              },
-              {
-                "id": "b",
-                "sm": "Sā fiafia le teine."
-              }
-            ],
-            "answer": "a",
-            "why": "No article stands in front of *teine*, and that empty slot is the plural. With *le* it is one girl."
-          },
-          {
-            "en": "the tree",
-            "options": [
-              {
-                "id": "a",
-                "sm": "le lāʻau"
-              },
-              {
-                "id": "b",
-                "sm": "lāʻau"
-              }
-            ],
-            "answer": "a",
-            "why": "*Le* marks one particular tree. The bare *lāʻau*, with no article, is the trees."
-          },
-          {
-            "en": "Bring some cups.",
-            "options": [
-              {
-                "id": "a",
-                "sm": "ʻAumai ni ipu."
-              },
-              {
-                "id": "b",
-                "sm": "ʻAumai se ipu."
-              }
-            ],
-            "answer": "a",
-            "why": "*Ni* is the non-specific article for more than one: some cups, however many."
-          },
-          {
-            "en": "Bring a cup.",
-            "options": [
-              {
-                "id": "a",
-                "sm": "ʻAumai se ipu."
-              },
-              {
-                "id": "b",
-                "sm": "ʻAumai ni ipu."
-              }
-            ],
-            "answer": "a",
-            "why": "*Se* is the non-specific article for one thing: a cup, whichever cup is nearest."
-          },
-          {
-            "en": "some girls",
-            "options": [
-              {
-                "id": "a",
-                "sm": "ni teine"
-              },
-              {
-                "id": "b",
-                "sm": "teine"
-              },
-              {
-                "id": "c",
-                "sm": "se teine"
-              }
-            ],
-            "answer": "a",
-            "why": "Many and any ones at all takes *ni*. The bare *teine* is particular girls, and *se teine* is one girl."
-          },
-          {
-            "en": "the cup",
-            "options": [
-              {
-                "id": "a",
-                "sm": "le ipu"
-              },
-              {
-                "id": "b",
-                "sm": "se ipu"
-              },
-              {
-                "id": "c",
-                "sm": "ni ipu"
-              }
-            ],
-            "answer": "a",
-            "why": "One particular cup takes *le*. *Se* is any one cup, and *ni* is some cups, however many."
+            "en": "help",
+            "sm": "fesoasoani"
           }
         ]
       }

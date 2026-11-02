@@ -1,343 +1,263 @@
-# Chapter 50: Affixes and Doubling
+# Chapter 49: Counterfactuals and Concessives
 
-This chapter completes the word-building pieces it names, the two endings *=ga* and
-*=a*, the prefixes *fe-*, *taʻi-*, *toʻa-*, *ʻā-* and *ana-*, and the doubling
-of a word or of a piece of one, and shows you how to read a built word you have
-never met. Many of the plural forms learned one at a time earlier in this book
-are made by that doubling, and this chapter names the process behind them.
-
----
-
-## How Sāmoan Builds a Word
-
-::: {.examples}
-*folo*. swallow
-
-*folofolo*. swallow with difficulty
-:::
-
-One word, then the same word said twice, and the meaning has moved. **Doubling**
-is saying a word, or one piece of a word, a second time in order to build a new
-word from it. It is a third way of building one word out of another, beside
-two already familiar ones: a prefix goes on the front, the way
-the maker-prefix *faʻa-* does, and an ending goes on the back, the way the
-long-form ending does.
-
-The endings are the part of the system that resists rules. Sāmoan's endings come
-in families of related shapes, some of them common and some of them rare, and
-the shape of a word gives no clue about which member of a family that word takes.
-Speakers differ from one another over individual words as well. So a built word
-is partly a rule and partly a fact about the word, and this chapter teaches both:
-the rule where the language has one, and the word where it does not.
+This chapter completes the condition clause with the second if-word, *ʻana*,
+which opens a condition that did not come true, and shows you how to say what
+would have happened. It also adds *seʻiloga* (unless) and the sentences built on
+the verbs *ui* (granted), *tīgā* (painful) and *tusa* (the same), which say that
+one thing holds in spite of another.
 
 ---
 
-## The Ending *=ga*
+## The Second If-Word *ʻAna*
 
 ::: {.examples}
-*savali*. walk
+*ʻĀfai ʻe te lē sau, ʻou te alu atu.* If you do not come, I will go and see you. (Lit. "If you not come, I go away.")
 
-*savaliga*. a walk, a march
+*ʻAna ʻe lē sau, sēmanū ʻou te alu atu.* Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.")
 :::
 
-Put *=ga* on the end of a verb and you have a noun. The ending does two jobs, and
-they are worth keeping apart, because one of them is a rule you can use and the
-other is a list of words you learn.
+Compare the two sentences. Which words changed, and what did the change do to
+the meaning?
 
-The first job gives a fixed noun whose meaning has to be learned word by word,
-and some of these nouns name the event itself, as *amoga* (carrying) does.
-*Savaliga* is a walk or a march, a thing somebody can go on. Nouns of this kind
-are numerous, and how far speakers still
-make new ones is hard to say.
+Three things changed. The if-word *ʻāfai* has become *ʻana*, the *te* after *ʻe*
+is gone, and the main clause now opens with *sēmanū* (probably). The meaning
+changed with them. As the translations show, in the first sentence the coming
+has not happened yet, and it might still happen. In the second the coming did
+happen, and the speaker imagines the opposite in order to say what would have
+followed from it.
 
-The second job names the event itself, taken as a whole entity, something to be
-talked about the way an object is talked about. This job is productive: put *=ga*
-on a verb and you have that verb's event as a thing. Earlier in this book the
-article in front of a verb did the same work, the le-phrase that packs an event
-into a thing. The two are built differently. The le-phrase leaves the verb
-untouched and sets a word in front of it; *=ga* changes the word itself.
+*ʻAna* is the second if-word. A condition clause opened by *ʻana* names a
+situation that did not happen in the past, or that is not so now, and the main
+clause says what would have happened, or what would be so now, if it had. This
+is the kind of condition English builds with "if I had" and "if I were". A
+condition clause opened by *ʻāfai* is the real kind: the speaker imagines it as
+something that may be true, or may yet come true.
 
-Read these two aloud:
+The pattern has three parts in a fixed order: *ʻana*, then the condition, then
+the main clause.
 
-::: {.examples}
-*savaliga*. a walk, a march
-
-*sāvaliga*. people on the march
-:::
-
-Compare them. Which part changed?
-
-The vowel of the first syllable grew long. Many verbs make two nouns in *=ga*
-this way, one with that vowel short and one with it long, and the long-vowel form
-usually carries plurality or frequency: more than one of them, or again and again.
-
-| *=ga* noun | Long-vowel form | The two meanings |
+| Part | Form | Function |
 |---|---|---|
-| *savaliga* | *sāvaliga* | a walk, a march; people on the march |
-| *amoga* | *āmoga* | carrying; people carrying loads on yokes |
-| *aʻega* | *āʻega* | a rise, a climb; people returning at the same time |
+| the if-word | *ʻana* | announces a condition that did not come true |
+| the condition | *ʻe lē sau* | names what did not happen |
+| the main clause | *sēmanū ʻou te alu atu* | says what would have followed |
 
-> *Note:* The long vowel usually marks plurality or frequency, and for some of
-> these pairs the recorded evidence does not settle whether the two forms differ
-> in meaning at all. Learn such a pair as a pair, with both meanings.
+When the condition has a verb in it, it usually has no tense particle after
+*ʻana*. That is why *ʻana* is followed by *ʻe lē sau*, where *ʻāfai* is followed
+by *ʻe te lē sau*.
 
----
-
-## The Ending *=a*
-
-::: {.examples}
-*ʻeleʻele*. earth, soil, dirt
-
-*ʻeleʻelea*. dirty
-:::
-
-Put *=a* on the end of a noun and you have a describing verb, and its meaning is
-the same every time: being affected by the thing the noun names. Something
-*ʻeleʻelea* has dirt on it.
-
-This ending is productive. Put it on a noun and the describing verb is there,
-and speakers do this with words borrowed into Sāmoan as well as with old ones.
-Now and then it goes on a whole phrase rather than on a single noun, though that
-use is only sporadically recorded.
-
-One thing this ending cannot do is go on a word that doubles a piece of itself.
-
-> *Note:* The long form of a verb that takes the agent marker also ends in *=a*,
-> and the two endings are not the same ending. The long-form ending works on a
-> verb and leaves it a verb. This one works on a noun and makes a verb of it.
-
----
-
-## The Prefix *fe-*
+The main clause often opens with *sēmanū*. When it has a verb in it, the verb
+carries one of two particles: the general particle *e* (*te* after a pronoun),
+as in the sentence above, or the change particle *ʻua*.
 
 ::: {.examples}
-*alofa*. love
-
-*fealofani*. love one another
+*ʻAna ʻe sau, ʻua ʻou fiafia.* If you had come, I would have been happy. (Lit. "If you come, I have become happy.")
 :::
 
-*Fe-* on the front of a verb says, so far as the records go, that the event
-happens more than once: several times over, or as a connected run of events, or
-by each participant in turn. It counts the way the plural verb forms count,
-answering to the one the event is about rather than to the doer.
-
-On its own, *fe-* makes the plural form of a verb.
-
-The prefix is most at home on a verb that carries an ending behind it as well,
-*-aʻi*, or an ending in *i* that may have a consonant in front of it, the consonant differing from word to
-word, as in *fealofani*. The *-aʻi* pattern is where *fe-* is most common and it
-is quite productive, and the two endings usually mean the same thing. An event happening
-more than once with more than one participant is very often an event the
-participants do to each other, so the English that fits is often "one another":
-
-| Verb | Built word | Meaning |
-|---|---|---|
-| *alofa* (love) | *fealofani* | love one another |
-| *mata* (look) | *femātaaʻi* | look at one another |
-| *ilo* (perceive, sort out) | *feiloaʻi* | meet |
-
-You already use the third of these. *Feiloaʻi*, the word for meeting somebody, is
-the perceiving verb *ilo* with the prefix in front of it and the ending behind it.
-
-With verbs of movement or physical activity the same pattern means to and fro, in
-all directions, or quickly:
-
-| Verb | Built word | Meaning |
-|---|---|---|
-| *alu* (go) | *fealuaʻi* | go quickly, hurry |
-
-A verb built this way normally does not take the agent marker, and the exceptions
-to that are rare.
-
-> *Note:* Older grammars and earlier descriptions often gloss *fe-* itself as "one
-> another". The one-another reading belongs to the pattern, the prefix together
-> with its ending; what the prefix says on its own is that the event happens
-> more than once. Their own word lists bear that out, because they give bare
-> *fe-* forms that are plain plurals with no one-another meaning in them.
-
----
-
-## The Counting Prefixes *taʻi-* and *toʻa-*
-
-::: {.examples}
-*taʻitasi*. one each
-
-*taʻilima*. five each
-:::
-
-*Taʻi-* goes on the front of a number and spreads that number over each thing or
-each person: *tasi* is one, and *taʻitasi* is one each. It works on the how-many
-word as well, so a question can ask how many each.
-
-| Number | Built word | Meaning |
-|---|---|---|
-| *tasi* (one) | *taʻitasi* | one each |
-| *lima* (five) | *taʻilima* | five each |
-| *fia* (how many) | *taʻifia* | how many each |
-
-*Toʻa-* is the prefix already met with the numbers, the one that goes on a number
-when people are being counted. It goes on the numbers and on a few other words
-of quantity when what is counted is human beings, or a group or an organisation
-of them, as in *toʻalua*, two people.
-
-Two things about it belong to real speech. It is frequently said with the second
-vowel as an o rather than an a. And in spoken Sāmoan it tends to be dropped
-altogether, a tendency that turns up occasionally in writing too.
-
-The two prefixes can go on one number together, and in one order only: *taʻi-*
-first, then *toʻa-*, never the other way about.
-
----
-
-## The Time Prefixes *ā-* and *ana-*
-
-::: {.examples}
-*anapō*. last night
-
-*ātaeao*. tomorrow morning
-:::
-
-Two prefixes make words for time. *Ana-* puts the word in the past. The future
-front appears as *ā-* in *ātaeao* and with an initial catch in the fixed forms
-*ʻāmulī* and *ʻātalī*. Both fronts go mainly on words for a place or a time.
-
-| Base | Past word |
+| Sāmoan | English |
 |---|---|
-| *taeao* (morning) | *anataeao* (this morning) |
-| *pō* (night) | *anapō* (last night) |
+| *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.* | Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.") |
+| *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.* | Had you not come, I was probably going to run over to you. (Lit. "If you not come, probably I run away.") |
+| *ʻAna ʻe sau, ʻua ʻou fiafia.* | If you had come, I would have been happy. (Lit. "If you come, I have become happy.") |
+| *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.* | If you had given me a crab, I would have been happy. (Lit. "If you give toward me a crab, I have become happy.") |
+| *ʻAna ʻe lē sau, ʻou te ita.* | Had you not come, I would have been angry. |
 
-| Base | Future word |
+The table brings in three new words: *tamoe* (run), *fōaʻi* (give) and *paʻa*
+(crab).
+
+> *Note:* A condition with no tense particle after *ʻana* is the usual shape,
+> not a fixed rule. Two exceptions occur, both in wishes that cannot come true:
+> *ʻana ʻua*, with the change particle, and *ʻana seʻi ʻo*, with the
+> wish-and-permission particle followed by *ʻo*.
+
+> *Note:* The two particles of the main clause may not say quite the same thing.
+> *ʻUa* seems to be used only when the speaker thinks of what would have followed
+> as past. The general particle can place it in the past, the present or the
+> future.
+
+### Putting the Condition Second
+
+::: {.examples}
+*ʻOu te ita pē ʻana ʻe lē sau.* I would have been angry if you had not come.
+
+*Sēmanū ʻou te alu atu pē ʻana ʻe lē sau.* I was probably going to go and see you if you had not come. (Lit. "Probably I go away if you not come.")
+:::
+
+An *ʻana* clause can stand after the main clause. It then takes the question
+opener *pē* in front of it, exactly as *ʻāfai* does. The pattern has three parts
+in a fixed order: the main clause, then *pē*, then the *ʻana* clause.
+
+### A Naming Sentence as the Condition
+
+::: {.examples}
+*ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.* If I were you, I would not go back to the village. (Lit. "If ʻo I ʻo you, I not return away to the village.")
+:::
+
+The condition after *ʻana* does not have to have a verb in it. A naming sentence
+can stand there, as it can after *ʻāfai*: here *ʻo aʻu ʻo ʻoe* says that the
+speaker is the listener, which is not so.
+
+### A Wish That Cannot Come True
+
+::: {.examples}
+*ʻAna lē fia ʻai le tama ʻi le apu.* If only the boy had not wanted to eat the apple. (Lit. "If not want eat the boy at the apple.")
+:::
+
+This *ʻana* clause has no main clause at all. Used on its own in this way, an
+*ʻana* clause expresses a wish that cannot come true.
+
+---
+
+## Saying Unless with *Seʻiloga*
+
+::: {.examples}
+*ʻOu te savali ʻi le āʻoga seʻiloga e timu.* I walk to school, unless it rains.
+
+*E lē alu le malaga seʻiloga ʻua sau le tama.* The trip will not go unless the boy has come.
+:::
+
+*Seʻiloga* means unless. The clause it opens names the one situation that would
+stop the main clause from holding: the walk to school holds true only if it does
+not rain. When a *seʻiloga* clause works as a condition clause, it stands after
+the main clause.
+
+The pattern has three parts in a fixed order: the main clause, then *seʻiloga*,
+then the condition. In these sentences the condition carries a tense particle of
+its own, *e* in the first and *ʻua* in the second.
+
+| Sāmoan | English |
 |---|---|
-| *taeao* (morning) | *ātaeao* (tomorrow morning) |
-| *muli* (last) | *ʻāmulī* (after death, in the last days) |
-| *tali* (wait) | *ʻātalī* (in the next world) |
+| *ʻOu te savali ʻi le āʻoga seʻiloga e timu.* | I walk to school, unless it rains. |
+| *E lē alu le malaga seʻiloga ʻua sau le tama.* | The trip will not go unless the boy has come. |
+| *E lē alu le tama ʻi le āʻoga seʻiloga ʻua sau le fomaʻi.* | The boy will not go to school unless the doctor has come. |
 
-The coming-morning word is also printed *ʻātaeao*, with a catch at the front;
-it is the same word.
+The last row brings in the noun *fomaʻi* (doctor).
 
-A few time words built this way have no base word behind them. *Ananafi* is the
-word for yesterday, and taking *ana-* off it leaves nothing that stands as a word
-on its own; *analeilā*, earlier today, is the same. So the prefix is readable in
-those words without the rest of the word being readable.
-
-> *Note:* The ʻ mark on the future prefix is not a guide to build on. Some of
-> these future words carry it and some do not, and it may come from the future
-> particle rather than from the prefix itself.
+> *Note:* *Seʻiloga* begins with the same letters as the mood particles *seʻi*
+> and *seʻia*, and it is a different word with a different job. *Seʻia* says how
+> long something goes on; *seʻiloga* names what would stop the main clause from
+> holding.
 
 ---
 
-## Doubling a Piece of the Word
+## Saying Although with *E Ui*
 
 ::: {.examples}
-*Sā nofo le teine.* The girl stayed.
+*E ui ina laʻitiiti ʻo ia, ʻae poto.* Although he is young, he knows a great deal. (Lit. "Granted ina young he, but clever.")
 
-*Sā nonofo teine.* The girls stayed.
+*E ui ina faigatā le feʻau, ʻae ʻou te fiafia.* Although the task is difficult, I am happy.
 :::
 
-*Nonofo* is *nofo* with its second-to-last syllable repeated in front of itself,
-and that is the whole of the form. The Introduction taught that the stress falls
-on the second-to-last syllable, so the piece that gets doubled is the stressed
-one.
+Each sentence sets two situations against each other. Given the first, the
+second is not what one would expect, but rather its opposite: someone young is
+not expected to know a great deal. The first situation is said with *e ui*, the
+general particle and the verb *ui* (granted), followed by a clause opened by the
+joining word *ina*. The second situation, the main clause, usually opens with the
+but-word *ʻae*. The two sentences bring in *poto* (clever) and *feʻau* (task).
 
-The form works only when that syllable is one consonant plus one vowel. A word
-whose second-to-last syllable is a bare vowel has no doubled piece of this kind,
-which is why *ola* (live) and *sāuni* (prepare) cannot take one.
+The pattern usually has three parts in this order: *e ui* with its *ina* clause,
+then *ʻae*, then the main clause.
 
-Plurality is the basic thing the doubled piece means, and its most common job is
-the plural form of a verb. Many of the plural verb forms learned one at a time
-earlier in this book are made by this process, and now the process has a name and
-a shape. In plural forms the doubling often comes with a long vowel in the first
-syllable as well, and with roots of three syllables that lengthening is very
-common. Plurality is the basic job and not the only one, and the same doubling
-builds other kinds of word besides plurals.
-
-> *Note:* Doubling a piece of the word is not so clearly productive as doubling
-> the whole of it, though forms nobody had recorded keep turning up in modern
-> writing. Read a doubled piece as a plural first and let the meaning of the word
-> settle it; do not build plurals of your own from it.
-
----
-
-## Doubling the Whole Word
-
-::: {.examples}
-*soli*. tread on
-
-*solisoli*. tread repeatedly on
-:::
-
-Say a two-syllable word twice and the event happens several times, or goes on for
-a stretch of time. Repetition and duration are what the doubled word carries, and
-the shape says it: the event is shown twice because it happened more than once.
-
-| Verb | Doubled word | Meaning |
+| Part | Form | Function |
 |---|---|---|
-| *soli* (tread on) | *solisoli* | tread repeatedly on |
-| *folo* (swallow) | *folofolo* | swallow with difficulty |
+| *e ui* and the *ina* clause | *E ui ina laʻitiiti ʻo ia* | the situation that would lead one to expect the opposite |
+| the but-word | *ʻae* | usually opens the main clause |
+| the main clause | *poto* | what holds all the same |
 
-The meaning of *solisoli* states the repetition outright. The meaning of
-*folofolo* does not, and which of doubling's jobs a given doubled word carries is
-a fact about that word. Beside repetition, doubling the whole word can also
-strengthen or weaken what the verb says, so a doubled word is not always a word
-for something done again and again.
-
-Doubling the whole word is clearly productive, and it works on words borrowed
-into Sāmoan as well as on old ones. It also has a wide range of jobs beyond the
-two named here. Its basic meaning seems to be that something happens several
-times or lasts a while; past that, a doubled word is learned with its own meaning.
-
-> *Note:* Two syllables is the measure of this doubling. In a word of two
-> syllables, which is what every example here prints, those two are the whole of
-> it. A longer word doubles two of its syllables rather than all of them, and
-> which two it doubles follows no firm rule, so read a long doubled word when you
-> meet one instead of building your own.
-
----
-
-## Number in the Colour and Size Words
+The clause after *ina* can carry a tense particle. The only one this book can
+show there is the past particle *sā*:
 
 ::: {.examples}
-*E uliuli le pusi.* The cat is black.
-
-*E uli pusi.* The cats are black.
+*E ui ina sā ʻou faʻanoanoa, ʻae na ʻou ʻata.* Although I was sad, I laughed.
 :::
 
-A small group of words for colours and for size marks its number by which kind of
-doubling it carries. *Uliuli* is the singular and *uli* is the plural, the pair
-met with the plural verb forms earlier in this book, and the shape of it can now
-be read.
+When the clause after *ui* has no *ina* in front of it, its verb takes the
+general particle *e*.
 
-The root of the word decides the pattern, and there are two cases. Where the root
-runs consonant, vowel, consonant, vowel, the singular doubles the whole root and
-the plural doubles a piece of it. Where the root runs vowel, consonant, vowel, a
-piece of it cannot be doubled at all, by the rule of the section above, so the
-plural is the bare root and only the singular is doubled. *Uli* is that second
-case: the singular *uliuli* doubles the root, and the plural is the root itself.
+In place of the *ina* clause, *e ui* can also take a noun phrase opened by the
+place word *ʻi*, which says in spite of what the noun phrase names, or a noun
+phrase opened by the presenting particle *ʻo*.
 
-*Puʻupuʻu* (short), *paʻepaʻe* (white) and *itiiti* (few, small) all belong to
-this group, and each of those is the singular form.
+::: {.examples}
+*ʻAe ui ʻi lea, e leai se mea e mafai.* But despite that, nothing could be done. (Lit. "But granted at that, there is no thing that is possible.")
+:::
 
-The group is small, so this is a fact about these words rather than a rule for
-colour and size words in general. The same singular-by-doubling pattern also
-turns up in a few other words.
+Here *ʻae* stands in front of *ui*, and *ui* takes *ʻi lea* (at that). The main
+clause follows with no *ʻae* of its own, which occasionally happens.
+
+> *Note:* The *e ui* clause usually opens the sentence, as in these sentences,
+> and less often follows the main clause.
 
 ---
 
-## What a Doubled Word Can Carry
+## Saying Although with *Tīgā*
 
-The two kinds of doubling do not take affixes on equal terms.
+::: {.examples}
+*Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.* However much I begged my mother, I could not go. (Lit. "Painful that I beg away to my mother, but past not able that I go.")
+:::
 
-Doubling the whole word combines freely. It takes the maker-prefix *faʻa-* and
-most other prefixes, and it takes the endings *=ina* and *=a*.
+The verb *tīgā* (painful, distressing) sets two situations against each other in
+the same way. It takes a clause opened by the that-word *ona*, and the main
+clause usually opens with *ʻae*. The sentence also brings in *ole* (beg). The
+pattern has three parts in a fixed order: *tīgā* with its *ona* clause, then
+*ʻae*, then the main clause.
 
-Doubling a piece of the word hardly combines at all. Prefixes other than *faʻa-*
-are very seldom found on it, and a word that carries a doubled piece in its plain
-form drops that piece when a prefix goes on the front. The exception runs the
-other way about: *faʻa-* does combine with plural forms that carry a doubled
-piece, as *faʻamaga* (open the mouth) does in its plural. On the ending side, a
-word with a doubled piece normally takes only *=ina*. Modern Sāmoan shows a
-tendency to allow the long-form ending *=a* on it too, and that is a tendency
-rather than a rule.
+Besides taking a clause opened by *ona* where *ui* takes one opened by *ina*,
+*tīgā* differs from *ui* in meaning: unlike *ui*, *tīgā* builds a clause that
+expresses a negative idea.
+
+| Part | *e ui* | *tīgā* |
+|---|---|---|
+| the clause after it | opened by *ina* | opened by *ona* |
+| the first situation | leads one to expect the opposite | the same, as a negative idea |
+| the main clause | usually opens with *ʻae* | usually opens with *ʻae* |
+
+> *Note:* *Tīgā* can also have the general particle in front of it, as
+> *e tīgā*.
+
+---
+
+## Even If, Whether or Not, and Whatever with *Tusa*
+
+::: {.examples}
+*E tusa pē timu, ʻae ʻoleʻā alu le malaga.* Even if it rains, the trip will go. (Lit. "It is the same if it rains, but the trip will go.")
+
+*ʻOleʻā alu le malaga e tusa lava pē timu pē leai.* The trip will go whether it rains or not. (Lit. "The trip will go, it is the same whether it rains or not.")
+
+*E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo ʻi ai.* The boy prays, whatever village he is in. (Lit. "The boy prays, the same where is the village he is at.")
+:::
+
+These sentences say that the main clause holds either way. The verb *tusa* (the
+same), met earlier, takes a question clause after it, and the question clause
+names the condition that makes no difference. Sāmoan builds three kinds of
+sentence on *tusa* this way, and each answers to a different English.
+
+The whether-or and whatever kinds also carry *lava* (indeed), a word of
+emphasis, as in the second and third sentences. In those two kinds the order is
+fixed: *tusa*, then *lava*, then the question clause. The English translations,
+the literal ones included, give *lava* no word of its own, and the question
+clause after it still decides which kind the sentence is.
+
+| After *tusa* | Example | English |
+|---|---|---|
+| *pē* and one clause | *E tusa pē timu* | even if |
+| *lava*, then two question clauses, each opened by *pē* or *po* | *e tusa lava pē timu pē leai* | whether ... or |
+| *lava*, then *po ʻo* with *ā* (what) or *fea* (where) | *tusa lava po ʻo fea le nuʻu* | whatever, wherever |
+
+Keep the three apart in English. "Even if it rains" is one condition. "Whether it
+rains or not" names both answers. "Whatever village he is in" leaves the answer
+open.
+
+When the main clause follows the *tusa* clause, it opens with *ʻae*, as in the
+first sentence. After the whatever and wherever kind the *ʻae* can be left out.
+When the main clause comes first, as in the second and third sentences, no *ʻae*
+is needed.
+
+> *Note:* *Tusa* can have the general particle *e* in front of it, as in the
+> first two sentences, or stand without it, as in the third.
+
+> *Note:* The even-if kind can carry *lava* after *tusa* as well. It can also
+> stand without it, as in the first sentence.
 
 ---
 
@@ -347,25 +267,26 @@ rather than a rule.
 
 | Word | What it does |
 |---|---|
-| *=ga* | the ending that makes a noun of a verb: a fixed noun to be learned word by word, or the event itself as a whole |
-| *=a* | the ending that makes a describing verb of a noun: being affected by what the noun names |
-| *fe-* | the prefix that says the event happens more than once |
-| *taʻi-* | the prefix on a number that spreads it over each one |
-| *toʻa-* | the prefix on a number that counts human beings |
-| *ʻā-* | the prefix that makes a future time word |
-| *ana-* | the prefix that makes a past time word |
+| *ʻana* | the second if-word: opens a condition that did not come true; the condition usually has no tense particle, and *pē* stands in front of *ʻana* when the clause follows the main clause |
+| *sēmanū* | probably: often opens the main clause after an *ʻana* clause |
+| *seʻiloga* | unless (also "it only needs"): as a condition clause, it stands after the main clause |
+| *ui* | granted: *e ui* with an *ina* clause, or with a noun phrase opened by *ʻi* or *ʻo*, says although or in spite of |
+| *tīgā* | with an *ona* clause after it, says although, expressing a negative idea |
+| *tusa* | the same, met earlier: with a question clause after it, says even if, whether ... or, or whatever and wherever |
+| *lava* | indeed, a word of emphasis: stands right after *tusa* in the whether ... or kind and the whatever kind |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *fealofani* | love one another |
-| *fealuaʻi* | go quickly, hurry |
-| *folo* | swallow |
-| *ilo* | perceive, sort out |
-| *itiiti* | few, small |
-| *puʻupuʻu* | short |
-| *soli* | tread on |
+| *fōaʻi* | give |
+| *ole* | beg |
+| *poto* | intelligent, clever, know a great deal |
+| *tamoe* | run |
+| *tīgā* | painful, distressing |
+| *feʻau* | work, task, errand |
+| *fomaʻi* | doctor |
+| *paʻa* | crab |
 
 ---
 
@@ -373,88 +294,84 @@ rather than a rule.
 
 ### Exercise 1: Translate into English
 
-1. *taʻilima*
-2. *anapō*
-3. *solisoli*
-4. *fealofani*
-5. *savaliga*
-6. *ātaeao*
+1. *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.*
+2. *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.*
+3. *ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.*
+4. *E lē alu le tama ʻi le āʻoga seʻiloga ʻua sau le fomaʻi.*
+5. *E ui ina faigatā le feʻau, ʻae ʻou te fiafia.*
+6. *Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.*
+7. *E tusa pē timu, ʻae ʻoleʻā alu le malaga.*
+8. *E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo ʻi ai.*
 
-### Exercise 2: Name the piece that builds the word
+### Exercise 2: Real or Not
 
-For each word, say which prefix or ending is on it and what that piece
-contributes.
+For each sentence, name the if-word that opens the condition, and say whether
+the condition is real (it may be true, or may yet come true) or contrary to fact
+(it did not happen, or is not so).
 
-1. *femātaaʻi*
-2. *taʻitasi*
-3. *ʻeleʻelea*
-4. *analeilā*
-5. *fealuaʻi*
+1. *ʻĀfai ʻe te lē sau, ʻou te alu atu.*
+2. *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.*
+3. *ʻĀfai e timu taeao, e lē alu le malaga.*
+4. *ʻOu te ita pē ʻana ʻe lē sau.*
+5. *ʻAna ʻe sau, ʻua ʻou fiafia.*
+6. *ʻAna lē fia ʻai le tama ʻi le apu.*
 
-### Exercise 3: One or more than one
+### Exercise 3: Move the Condition to the Back
 
-For each item, say whether it is about one or about more than one, and say which
-part of it tells you.
+Rewrite each sentence with the main clause first and the *ʻana* clause after it,
+putting *pē* in front of *ʻana*.
 
-1. *E uliuli le pusi.*
-2. *Sā nonofo teine.*
-3. *E uli pusi.*
-4. *Sā nofo le teine.*
-5. *nofo*
-6. *nonofo*
-7. *uliuli*
-8. *uli*
+1. *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.*
+2. *ʻAna ʻe lē sau, ʻou te ita.*
+3. *ʻAna ʻe sau, ʻua ʻou fiafia.*
+4. *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.*
+5. *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.*
 
-### Exercise 4: Which kind of doubling
+### Exercise 4: Fill the Gap
 
-For each word, say whether the whole word is doubled or a piece of it is, and
-what that doubling does in the word.
+Put *ʻāfai*, *ʻana*, *seʻiloga*, *ui*, *tīgā* or *tusa* into the gap so the
+sentence matches the English.
 
-1. *nonofo*
-2. *solisoli*
-3. *uliuli*
-4. *folofolo*
-5. *puʻupuʻu*
-6. *paʻepaʻe*
+1. *\_\_\_ ʻe lē sau, sēmanū ʻou te alu atu.* (Had you not come, I was probably going to go and see you.)
+2. *\_\_\_ ʻe te lē sau, ʻou te alu atu.* (If you do not come, I will go and see you.)
+3. *ʻOu te savali ʻi le āʻoga \_\_\_ e timu.* (I walk to school, unless it rains.)
+4. *E \_\_\_ ina laʻitiiti ʻo ia, ʻae poto.* (Although he is young, he knows a great deal.)
+5. *\_\_\_ ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.* (However much I begged my mother, I could not go.)
+6. *ʻOleʻā alu le malaga e \_\_\_ lava pē timu pē leai.* (The trip will go whether it rains or not.)
+7. *E lē alu le malaga \_\_\_ ʻua sau le tama.* (The trip will not go unless the boy has come.)
 
-### Exercise 5: Build the word
+### Exercise 5: Answer in English
 
-Put the right prefix or ending on the word in brackets so the built word matches
-the English.
+1. In *ʻAna ʻe lē sau, sēmanū ʻou te alu atu*, did the listener come?
+2. Why is there no *te* after *ʻe* in *ʻAna ʻe lē sau*?
+3. Name the two exceptions to the usual shape of the condition after *ʻana*, and say what kind of sentence they occur in.
+4. What is missing from *ʻAna lē fia ʻai le tama ʻi le apu*, and what does the sentence express?
+5. Where does a *seʻiloga* clause stand when it works as a condition clause?
+6. In *E ui ina laʻitiiti ʻo ia, ʻae poto*, which word opens the main clause, and is that word always there?
+7. What does a *tīgā* clause express that an *ui* clause does not?
+8. Besides an *ina* clause, what two kinds of phrase can follow *e ui*?
+9. Name the three kinds of sentence built on *tusa* by the English each answers to.
+10. Why does *ʻOleʻā alu le malaga e tusa lava pē timu pē leai* have no *ʻae*?
 
-1. one each (*tasi*)
-2. this morning (*taeao*)
-3. tomorrow morning (*taeao*)
-4. last night (*pō*)
-5. go quickly, hurry (*alu*)
-6. dirty (*ʻeleʻele*)
+### Exercise 6: Translate into Sāmoan
 
-### Exercise 6: Match each word to its meaning
+1. If you had come, I would have been happy.
+2. I would have been angry if you had not come.
+3. The trip will not go unless the boy has come.
+4. Although I was sad, I laughed.
+5. Even if it rains, the trip will go.
+6. If I were you, I would not go back to the village.
 
-1. *āmoga*
-2. *amoga*
-3. *taʻifia*
-4. *feiloaʻi*
-5. *faʻamaga*
+### Exercise 7: Give the English
 
-a. how many each
-b. carrying
-c. open the mouth
-d. people carrying loads on yokes
-e. meet
-
-### Exercise 7: Say what the rule is
-
-Answer each question from what this chapter teaches.
-
-1. The ending *=ga* does two jobs. Which of the two can you do to a verb you have
-   not met before, and what does the other job ask of you?
-2. Two prefixes can go on one number together. Which of them goes first?
-3. Which kind of doubling takes prefixes freely, and which kind hardly takes them
-   at all?
-4. One prefix does go on the front of a word that carries a doubled piece. Which
-   prefix is it?
-5. Which ending does a word with a doubled piece normally take?
+1. *fōaʻi*
+2. *ole*
+3. *poto*
+4. *tamoe*
+5. *tīgā*
+6. *feʻau*
+7. *fomaʻi*
+8. *paʻa*
 
 ---
 
@@ -462,74 +379,58 @@ Answer each question from what this chapter teaches.
 
 ### Exercise 1
 
-1. five each
-2. last night
-3. tread repeatedly on
-4. love one another
-5. a walk, a march
-6. tomorrow morning
+1. Had you not come, I was probably going to run over to you. (Lit. "If you not come, probably I run away.")
+2. If you had given me a crab, I would have been happy. (Lit. "If you give toward me a crab, I have become happy.")
+3. If I were you, I would not go back to the village. (Lit. "If ʻo I ʻo you, I not return away to the village.")
+4. The boy will not go to school unless the doctor has come.
+5. Although the task is difficult, I am happy.
+6. However much I begged my mother, I could not go. (Lit. "Painful that I beg away to my mother, but past not able that I go.")
+7. Even if it rains, the trip will go. (Lit. "It is the same if it rains, but the trip will go.")
+8. The boy prays, whatever village he is in. (Lit. "The boy prays, the same where is the village he is at.")
 
 ### Exercise 2
 
-1. The prefix *fe-*, which says the event happens more than once, with the
-   ending *-aʻi* behind the verb; together they give the one-another reading.
-2. The prefix *taʻi-*, which spreads the number over each one.
-3. The ending *=a*, which makes a describing verb of a noun: being affected by
-   what the noun names.
-4. The prefix *ana-*, which puts the word in the past. This is one of the words
-   with no base word behind the prefix.
-5. The prefix *fe-* with the ending *-aʻi* behind the verb, on a verb of
-   movement, which gives the to-and-fro and quickly reading.
+1. *ʻĀfai*; the condition is real.
+2. *ʻAna*; the condition is contrary to fact.
+3. *ʻĀfai*; the condition is real.
+4. *ʻAna*; the condition is contrary to fact.
+5. *ʻAna*; the condition is contrary to fact.
+6. *ʻAna*; the condition is contrary to fact, and the sentence is a wish that cannot come true.
 
 ### Exercise 3
 
-1. One. The singular *uliuli*, and the article *le*.
-2. More than one. The plural verb *nonofo*, and the empty article slot.
-3. More than one. The plural *uli*, and the empty article slot.
-4. One. The singular verb *nofo*, and the article *le*.
-5. One. No piece is doubled.
-6. More than one. The doubled second-to-last syllable.
-7. One. In this group of colour and size words the whole doubled word is the
-   singular.
-8. More than one. The bare root, with nothing doubled, is the plural in this
-   group.
+1. *Sēmanū ʻou te alu atu pē ʻana ʻe lē sau.*
+2. *ʻOu te ita pē ʻana ʻe lē sau.*
+3. *ʻUa ʻou fiafia pē ʻana ʻe sau.*
+4. *Sēmanū ʻou te tamoe atu pē ʻana ʻe lē sau.*
+5. *ʻUa ʻou fiafia pē ʻana ʻe fōaʻi mai se paʻa.*
 
 ### Exercise 4
 
-1. A piece of the word, the second-to-last syllable. It makes the plural form.
-2. The whole word. It says the treading happened over and over.
-3. The whole word. In this group of colour and size words that marks the
-   singular.
-4. The whole word. What the doubling does here is carried in the word's own
-   meaning, swallowing with difficulty, and not in plain repetition.
-5. The whole word, and in this group that marks the singular.
-6. The whole word, and in this group that marks the singular.
+1. *ʻAna* · 2. *ʻĀfai* · 3. *seʻiloga* · 4. *ui* · 5. *Tīgā* · 6. *tusa* · 7. *seʻiloga*
 
 ### Exercise 5
 
-1. *taʻitasi*
-2. *anataeao*
-3. *ātaeao* (or *ʻātaeao*, the variant the page also prints for this word)
-4. *anapō*
-5. *fealuaʻi*
-6. *ʻeleʻelea*
+1. Yes. The *ʻana* clause names what did not happen, so the not-coming is only imagined.
+2. A condition with a verb in it usually has no tense particle after *ʻana*.
+3. *ʻAna ʻua* and *ʻana seʻi ʻo*, both in wishes that cannot come true.
+4. The main clause is missing. The sentence expresses a wish that cannot come true.
+5. After the main clause.
+6. *ʻAe*. It usually opens the main clause, but not always.
+7. A negative idea.
+8. A noun phrase opened by the place word *ʻi*, and a noun phrase opened by the presenting particle *ʻo*.
+9. Even if; whether ... or; whatever or wherever.
+10. The main clause comes first, and *ʻae* opens the main clause only when it follows the *tusa* clause.
 
 ### Exercise 6
 
-1. d
-2. b
-3. a
-4. e
-5. c
+1. *ʻAna ʻe sau, ʻua ʻou fiafia.*
+2. *ʻOu te ita pē ʻana ʻe lē sau.*
+3. *E lē alu le malaga seʻiloga ʻua sau le tama.*
+4. *E ui ina sā ʻou faʻanoanoa, ʻae na ʻou ʻata.*
+5. *E tusa pē timu, ʻae ʻoleʻā alu le malaga.*
+6. *ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.*
 
 ### Exercise 7
 
-1. The job that names the event itself, taken as a whole entity. That job is
-   productive, so you can put *=ga* on a verb and have the event as a thing. The
-   other job names something that comes of the event, and the noun it gives has a
-   meaning of its own that has to be learned word by word.
-2. *Taʻi-* goes first and *toʻa-* second, never the other way about.
-3. Doubling the whole word combines freely. Doubling a piece of the word hardly
-   combines at all.
-4. The maker-prefix *faʻa-*.
-5. The ending *=ina*.
+1. give · 2. beg · 3. intelligent, clever, know a great deal · 4. run · 5. painful, distressing · 6. work, task, errand · 7. doctor · 8. crab

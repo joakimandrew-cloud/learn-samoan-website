@@ -1,151 +1,251 @@
 {
-  "chapter": 22,
+  "chapter": 21,
   "items": [
     {
-      "id": "ch22-number-line",
-      "kind": "scale",
-      "anchor": "counting-things",
-      "title": "The numbers from one to ten",
-      "caption": "The number words follow a fixed order. Five is the same printed word as hand, which appeared earlier in the book.",
+      "id": "ch21-question-word-grid",
+      "kind": "grid",
+      "anchor": "asking-who",
+      "title": "The question-word set",
+      "caption": "Each word asks for a different missing piece. The two when-words split future time from past time.",
       "data": {
-        "layout": "line",
-        "axis": {
-          "from": "One",
-          "to": "Ten"
-        },
-        "points": [
+        "cols": [
+          "Question word"
+        ],
+        "rows": [
           {
-            "x": 0,
-            "label": "tasi",
-            "gloss": "one"
+            "label": "Who",
+            "cells": [
+              {
+                "sm": "ai",
+                "en": "who"
+              }
+            ]
           },
           {
-            "x": 11,
-            "label": "lua",
-            "gloss": "two"
+            "label": "What",
+            "cells": [
+              {
+                "sm": "ā",
+                "en": "what"
+              }
+            ]
           },
           {
-            "x": 22,
-            "label": "tolu",
-            "gloss": "three"
+            "label": "Where",
+            "cells": [
+              {
+                "sm": "fea",
+                "en": "where"
+              }
+            ]
           },
           {
-            "x": 33,
-            "label": "fā",
-            "gloss": "four"
+            "label": "When, future",
+            "cells": [
+              {
+                "sm": "āfea",
+                "en": "when (future)"
+              }
+            ]
           },
           {
-            "x": 44,
-            "label": "lima",
-            "gloss": "five"
+            "label": "When, past",
+            "cells": [
+              {
+                "sm": "anafea",
+                "en": "when (past)"
+              }
+            ]
           },
           {
-            "x": 56,
-            "label": "ono",
-            "gloss": "six"
+            "label": "How",
+            "cells": [
+              {
+                "sm": "faʻapefea",
+                "en": "how"
+              }
+            ]
           },
           {
-            "x": 67,
-            "label": "fitu",
-            "gloss": "seven"
+            "label": "How many",
+            "cells": [
+              {
+                "sm": "fia",
+                "en": "how many"
+              }
+            ]
           },
           {
-            "x": 78,
-            "label": "valu",
-            "gloss": "eight"
-          },
-          {
-            "x": 89,
-            "label": "iva",
-            "gloss": "nine"
-          },
-          {
-            "x": 100,
-            "label": "sefulu",
-            "gloss": "ten"
+            "label": "Why",
+            "cells": [
+              {
+                "sm": "ʻaiseā",
+                "en": "why"
+              }
+            ]
           }
         ]
       }
     },
     {
-      "id": "ch22-count-things-people",
+      "id": "ch21-when-past-future",
       "kind": "contrast",
-      "anchor": "counting-people",
-      "title": "Counting people adds the people prefix",
-      "caption": "The general counting shape stays in place. The careful form adds *toʻa* to the number when the things counted are people.",
+      "anchor": "asking-when-past-and-future",
+      "title": "The when-word and tense particle move together",
+      "caption": "Future *āfea* rides the future particle. Past *anafea* rides the past particle, and the pointing-back word holds the fronted time's place inside the verb phrase.",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Things",
-            "sm": "ipu e lua",
-            "en": "the two cups"
+            "label": "Future",
+            "sm": "ʻO āfea ʻoleʻā moe ai le tama?",
+            "en": "When will the boy sleep?"
           },
           {
-            "label": "People",
-            "sm": "teine e toʻalua",
-            "en": "the two girls"
+            "label": "Past",
+            "sm": "ʻO anafea na moe ai le tama?",
+            "en": "When did the boy sleep?"
           }
         ]
       }
     },
     {
-      "id": "ch22-sort-number-phrases",
-      "kind": "sort",
-      "anchor": "putting-things-in-order",
-      "title": "Sort three jobs for numbers",
-      "intro": "Place each complete printed phrase with counting things, telling the hour, or naming a place in an order.",
+      "id": "ch21-pick-question-word",
+      "kind": "pick",
+      "anchor": "asking-how",
+      "title": "Choose the missing question word",
+      "intro": "Choose the question word that completes each printed question.",
       "data": {
-        "bins": [
+        "question": "What information is the speaker asking for?",
+        "options": [
           {
-            "id": "count",
-            "label": "Count things"
+            "id": "who",
+            "sm": "ai"
           },
           {
-            "id": "clock",
-            "label": "Tell the hour"
+            "id": "where",
+            "sm": "fea"
           },
           {
-            "id": "order",
-            "label": "Place in an order"
+            "id": "how",
+            "sm": "faʻapefea"
           }
         ],
-        "items": [
+        "prompts": [
           {
-            "sm": "ipu e lua",
-            "en": "the two cups",
-            "bin": "count",
-            "why": "The general particle links the number to the noun it counts."
+            "sm": "ʻO ___ na sau?",
+            "en": "Who came?",
+            "answer": "who",
+            "why": "The question asks for the person who did the action."
           },
           {
-            "sm": "tama e tolu",
-            "en": "the three boys",
-            "bin": "count",
-            "why": "The number follows the noun with *e* in front."
+            "sm": "Sā ___ le aso?",
+            "en": "How was the day?",
+            "answer": "how",
+            "why": "The how-word stands where a describing verb would stand."
           },
           {
-            "sm": "ʻi le itūlā e tolu",
-            "en": "at three o'clock",
-            "bin": "clock",
-            "why": "The clock hour counts the word for hour."
+            "sm": "ʻO ___ e ʻi ai le ʻofu?",
+            "en": "Where is the dress?",
+            "answer": "where",
+            "why": "The where-word comes to the front and *ʻi ai* holds its place later."
           },
           {
-            "sm": "ʻi le itūlā e iva",
-            "en": "at nine o'clock",
-            "bin": "clock",
-            "why": "The same counting construction tells the hour."
+            "sm": "ʻO ___ na faʻaipoipo?",
+            "en": "Who got married?",
+            "answer": "who",
+            "why": "The missing information is a person."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch21-pick-question-answer",
+      "kind": "pick",
+      "anchor": "yes-or-no-questions",
+      "title": "Find the answer to the question",
+      "intro": "Read the question, then choose the answer the book gives for it.",
+      "data": {
+        "question": "Which is the answer?",
+        "prompts": [
+          {
+            "sm": "ʻO ai lenā?",
+            "en": "Who is that?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO le teine."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le suāsami lenā."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "*Ai* asks after a person, and the answer names one: *ʻO le teine.*, the girl. When it is clear what the answer is about, the presented part can stand alone."
           },
           {
-            "sm": "le fale lona lua",
-            "en": "the second house",
-            "bin": "order",
-            "why": "The word *lona* turns the plain number into a place in an order."
+            "sm": "ʻO le ā lenā?",
+            "en": "What is that?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO le suāsami lenā."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le teine."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "*Ā* asks after a thing, and the answer is a naming sentence about a thing: *ʻO le suāsami lenā.*, that is the salt water."
           },
           {
-            "sm": "le ipu lona fā",
-            "en": "the fourth cup",
-            "bin": "order",
-            "why": "The noun is followed by *lona* and the number."
+            "sm": "ʻO fea e ʻi ai le teine?",
+            "en": "Where is the girl?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le teine."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le suāsami lenā."
+              }
+            ],
+            "answer": "a",
+            "why": "*Fea* asks after a place, and the answer names the place in the same fronted shape, with *ʻi ai*: the girl is in the house."
+          },
+          {
+            "sm": "ʻUa fiafia le tama?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Leai, e lē ʻo fiafia le tama."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO le teine."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "This asks whether the boy is happy now, a yes or no question with no question word. The book's answer is no, and it does not repeat the change particle: it switches to the general particle with the not-word."
           }
         ]
       }

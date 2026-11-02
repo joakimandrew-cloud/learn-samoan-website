@@ -1,157 +1,127 @@
-# Chapter 19: Plural Verb Forms
+# Chapter 18: Time Words
 
-This chapter adds the plural verb form, the shape a verb takes when what it is
-about is more than one, so that *nofo* (one person stays) becomes *nonofo*
-(several stay). The same number appears on describing verbs, reaches plural
-commands, and settles onto group words such as *ʻāiga* (family).
+This chapter adds the time-word slot at the end of the sentence, a set of words
+such as *ananafi* (yesterday) and *ātaeao* (tomorrow morning) that fix a
+statement to a point in time. In the sentences this chapter builds, the word
+sits after everything else, and its front end points the same way in time as
+the tense particle at the start.
 
 ---
 
-## The Verb Shows Number
+## The Time-Word Slot
 
 ::: {.examples}
-*Sā nofo le teine.* The girl stayed.
-
-*Sā nonofo teine.* The girls stayed.
+*Na fānau le pepe anapō.* The baby was born last night. (Lit. "Past give birth the baby last night.")
 :::
 
-Compare them. Which words changed?
+This is a sentence you can already build, a past particle, a verb, and a doer,
+with one word added at the very end: *anapō* (last night). The verb *fānau*
+(give birth) is read with the baby in the doer slot, so the sentence says the
+baby was born. The word *anapō* is a **time
+word**, and in the pattern this chapter drills its place is fixed: it comes after
+the verb and after the doer, at the tail of the sentence, and it says when the
+whole thing happened.
 
-Two words changed together. The article *le* is gone, which is how a particular
-plural was marked earlier in this book: drop *le* and the bare noun *teine*
-means "the girls". The verb changed too, from *nofo* to *nonofo*. That second
-change is the new one. When the subject of a verb is more than one, the verb
-takes a different shape, its **plural verb form**. Number now shows in two
-places: on the article slot, as before, and on the verb.
-
-A single doer takes the singular verb *nofo*; more than one takes the plural
-verb *nonofo*, and nothing else in the sentence moves:
+A time word changes nothing else. The verb keeps its shape, the doer keeps its
+place, and the tense particle stays at the front. Set a time word on the end and
+the sentence is fixed to a point in time:
 
 | Sāmoan | English |
 |---|---|
-| *Sā nofo le teine.* | The girl stayed. |
-| *Sā nonofo teine.* | The girls stayed. |
-| *Sā nofo le puaʻa.* | The pig stayed. |
-| *Sā nonofo puaʻa.* | The pigs stayed. |
+| *Na sau le tama ananafi.* | The boy came yesterday. |
+| *Na siva le teine anataeao.* | The girl danced this morning. |
+| *Na tāʻele le tama anapō.* | The boy bathed last night. |
 
-To find the number of a sentence like these, read the verb and the article,
-never the noun on its own. The noun *teine* keeps one shape in "the girl" and
-"the girls"; it is the empty article slot and the doubled verb that carry the
-count. The count answers only to the subject, however much follows it.
-*Sā nonofo puaʻa ʻi le maʻumaga* ("The pigs stayed at the taro patch") names a
-place at the end, yet the plural verb still answers to the subject, the pigs.
-
-> **Preview:** In every sentence above the doer is the only participant, so the
-> verb counts the doer. When a sentence has both someone doing an action and
-> something the action is done to, the verb counts the thing it is done to, not
-> the doer. An English speaker meets those sentences expecting a passive, and
-> Sāmoan has none: leaving the doer out is what does that work. The marking that
-> builds those two-participant sentences is taught in Chapter 27; until then,
-> every plural sentence here has a single participant.
+In each row the time word sits last, and everything in front of it is a
+sentence from an earlier chapter. The tense particle still carries the tense;
+the time word names the when.
 
 ---
 
-## Learning Each Plural Form
+## Time Past and Time to Come
 
-The plural verb form is a fact about each word, learned one word at a time, the
-way the meaning of a word is learned. About three hundred and fifty Sāmoan
-verbs have a separate plural form. One way of building it is to double a piece
-of the singular, the way *nofo* doubles its first part to make *nonofo*:
-
-| Singular | Plural | Meaning |
-|---|---|---|
-| *nofo* | *nonofo* | stay, sit |
-| *uliuli* | *uli* | black |
-
-The pair *uliuli* and *uli* runs the other way. Here the singular *uliuli* is
-the longer word and the plural *uli* is the shorter one: a few words drop a
-piece instead of doubling one. There is no way to read the plural form off the
-singular, so each plural is learned with its word.
-
-> **Preview:** Doubling a piece of a word is a tool Sāmoan uses for more than
-> plurals. The full account of doubling, and of the other small changes that
-> build these plural forms, is gathered together in Chapter 50. Here each plural
-> form is met as a word to learn.
-
-> *Note:* A verb's plural form belongs to the verb; the noun it is about keeps
-> one shape and shows its number through the article and the verb. A small group
-> of person-words break this pattern and change shape as nouns as well: *matua*
-> (parent) becomes *mātua* (parents), and a few others for age or married life
-> do the same, such as *tamāloa* (a married man) and *toeaʻina* (an old man).
-> This book prints only the plural shape of *matua*; *tamāloa* and *toeaʻina*
-> are learned in their singular form.
-
----
-
-## Describing a Group
-
-A describing verb is a verb too, so it also has a plural form and shows number.
-Set a quality like *uliuli* (black) as what a sentence says about its subject,
-and it behaves exactly as *nofo* did:
+Two of the time words are built on one root, *taeao* (morning), and set side by
+side they show a pattern that runs through most of the set:
 
 ::: {.examples}
-*E uliuli le pusi.* The cat is black.
+*anataeao*. this morning
 
-*E uli pusi.* The cats are black.
+*ātaeao*. tomorrow morning
 :::
 
-One cat takes the singular *uliuli*; more than one takes the plural *uli*. The
-describing verb counts the number of what it describes, the same rule the action
-verb follows:
+Compare the two words. What has changed at the front?
+
+The root *taeao* is the same in both, and only the front differs. The front
+*ana-* points back to time already gone, so *anataeao* is the morning that has
+passed, "this morning". The front *ā-* points ahead, so *ātaeao* is the morning
+still to come, "tomorrow morning". Every word for past time begins with *ana-*;
+the word for a coming morning begins with *ā-*.
+In print you will also meet the coming-morning word with a catch at the front,
+*ʻātaeao*, and it is the same word, so the front is printed both *ā-* and *ʻā-*.
+
+In the sentences this chapter builds, that front end is why the two ends of a
+sentence agree. A word for time already gone is used with a past frame, and the
+word for a coming time takes the future particle *ʻoleʻā*:
+
+::: {.examples}
+*Na siva le teine anataeao.* The girl danced this morning.
+
+*ʻOleʻā siva le teine ātaeao.* The girl will dance tomorrow morning.
+:::
+
+The first sentence looks back: the past particle *na* at the front, a past time
+word at the end. The second looks ahead: the future particle *ʻoleʻā* at the
+front, a word for a coming time at the end. In these sentences the front of the sentence and the
+end point the same way.
+
+> *Note:* The sentences of this chapter speak from the present moment, so a
+> coming time is a time after now. The future front can also mark a time that is
+> later than some other point of reference, not only later than the moment of
+> speaking.
+
+The words for time gone by:
 
 | Sāmoan | English |
 |---|---|
-| *E uliuli le pusi.* | The cat is black. |
-| *E uli pusi.* | The cats are black. |
+| *ananafi* | yesterday |
+| *anapō* | last night |
+| *anataeao* | this morning |
+| *analeilā* | earlier today |
+| *ananei* | just a short time ago |
+| *anamua* | formerly |
+| *anamuā* | in days of old |
 
-A describing verb can also stand next to a noun to describe it, a black cat
-rather than a cat that is black, and there too it matches the noun's number.
-That fuller use comes later in this book; the number rule is the same wherever
-the describing verb sits.
-
----
-
-## Group Words
-
-Some nouns name a whole group with a single word: *ʻāiga* (family) and
-*ulugāliʻi* (couple). A group word is singular in shape, taking the
-article *le* like any single thing, yet it stands for many. Because the verb
-counts the meaning and not the shape, a group word usually takes the plural
-verb form:
-
-::: {.examples}
-*Sā nonofo le ʻāiga.* The family stayed.
-:::
-
-*Le ʻāiga* is one word with *le* in front of it, but the people in it are many,
-so the verb is the plural *nonofo*, not the singular *nofo*. The singular verb
-is possible with a group word as well, though the plural is the usual choice.
-
-> *Note:* This is why the verb follows the meaning of the subject and not its
-> written shape. A group word looks singular and takes a plural verb; the
-> reverse happens with a few verbs, the verbs for going and coming, which stay
-> singular when a plural subject is not a living, moving thing, as with days
-> going and coming. Other verbs take the plural as usual. The question is always
-> what the subject means, not what shape the word has.
+All seven begin with *ana-*, the mark of time gone by. The last two reach
+furthest back, to "formerly" and to "days of old", and they part from each
+other by one thing only: the long-vowel mark on the final vowel of *anamuā*.
 
 ---
 
-## Plural Commands
+## Words That Stand on Their Own
 
-A command is a bare verb with no tense particle, aimed at whoever is listening.
-Earlier in this book the command was aimed at one person. To aim it at several,
-use the plural verb form:
+Two time words are not built from *ana-* or *ā-*. They are learned whole, as
+fixed forms:
 
 ::: {.examples}
-*Nofo.* Sit down. (to one person)
+*nānei*. later on
 
-*Nonofo.* Sit down. (to several people)
+*nei*. now
 :::
 
-The words are the same command; only the number of the listeners changes, and
-the verb changes shape to match. Where a verb has a separate plural form, the
-shape of the verb in a command with no pronoun tells the listener whether one
-person or several are meant.
+*Nānei* points ahead, to "later on", and is used with the future particle like
+*ātaeao* does, and is also met with the general particle.
+*Nei* is "now", the present moment; it sits with the happening-now
+particle *ʻoloʻo* to say that something is going on as you speak:
+
+::: {.examples}
+*ʻOloʻo timu nei.* It is raining now.
+:::
+
+> *Note:* A time word can also stand at the front of a sentence, or sit inside a
+> noun phrase to mark which day or night is meant. When it opens the sentence,
+> the pointing-back word met earlier in this book stands in for it later in the
+> clause. This book drills the end-of-sentence use; the other two you will meet
+> in reading.
 
 ---
 
@@ -159,26 +129,40 @@ person or several are meant.
 
 **New vocabulary** (memorize these meanings):
 
+The time words that fill the end slot:
+
 | Word | Meaning |
 |---|---|
-| *nonofo* | stay, sit (said of more than one) |
-| *uli* | black (said of more than one) |
-| *mātua* | parents |
-| *puaʻa* | pig |
-| *maʻumaga* | taro patch |
-| *fuāmoa* | egg |
-| *tamāloa* | man, married man |
-| *toeaʻina* | old man |
+| *ananafi* | yesterday |
+| *anapō* | last night |
+| *anataeao* | this morning |
+| *analeilā* | earlier today |
+| *ananei* | just a short time ago |
+| *anamua* | formerly |
+| *anamuā* | in days of old |
+| *ātaeao* | tomorrow morning |
+| *nānei* | later on |
+| *nei* | now |
+
+The base word behind two of them:
+
+| Word | Meaning |
+|---|---|
+| *taeao* | morning; also tomorrow |
 
 **Words to carry** (learned now, used fully later in this book):
 
 | Word | Meaning |
 |---|---|
-| *sua* | uproot, root up |
+| *ʻāmulī* | after death, in the last days |
+| *ʻātalī* | in the next world |
+| *muli* | final, at the end |
 
-*Sua* names one thing acting on another, a pig rooting up a taro patch. The
-sentence that says who does it to what needs the marker taught later in this
-book, so *sua* is learned now as a word and used in full then.
+*ʻāmulī* and *ʻātalī* carry the future-time front, but they are recorded only as
+describing words with fixed meanings, never in the end-of-sentence time slot, and
+*ʻāmulī* is built on *muli* (last). Neither word is drilled here; they come
+into use when the book teaches how fronts like this one are added to words, later
+in this book.
 
 ---
 
@@ -186,49 +170,54 @@ book, so *sua* is learned now as a word and used in full then.
 
 ### Exercise 1: Translate into English
 
-1. *Sā nonofo teine.*
-2. *E uli pusi.*
-3. *Sā nofo le puaʻa.*
-4. *Sā nonofo le ʻāiga.*
-5. *E uliuli le pusi.*
+1. *Na sau le tama ananafi.*
+2. *Na fānau le pepe anapō.*
+3. *ʻOleʻā siva le teine ātaeao.*
+4. *Na siva le teine analeilā.*
+5. *ʻOloʻo timu nei.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The girls stayed.
-2. The cat is black.
-3. The pigs stayed.
-4. The boy stayed.
-5. The cats are black.
+1. The boy bathed last night.
+2. The girl danced this morning.
+3. The baby was born yesterday.
+4. The boy will come tomorrow morning.
+5. It rained just a short time ago.
 
-### Exercise 3: Make it plural
+### Exercise 3: Choose the tense particle
 
-Rewrite each sentence so it speaks of more than one. Drop the article where a
-plural needs it dropped, and put the verb in its plural form.
+Read the time word at the end of each sentence. Put *na* or *ʻoleʻā* in the gap
+so the front of the sentence points the same way in time as the end.
 
-1. *Sā nofo le teine.*
-2. *Sā nofo le puaʻa.*
-3. *E uliuli le pusi.*
-4. *Nofo.*
-5. *Sā nofo le tama.*
+1. *___ sau le tama ananafi.*
+2. *___ siva le teine ātaeao.*
+3. *___ tāʻele le tama anapō.*
+4. *___ sau le teine nānei.*
+5. *___ siva le teine analeilā.*
 
-### Exercise 4: Choose the verb form
+### Exercise 4: Put the time word in
 
-Put the singular or the plural verb form into each gap so it agrees with the
-subject. Where the subject is a group word, give the usual plural.
+Add the time word to the end of each sentence so it matches the English.
 
-1. *Sā ___ le teine.* (nofo / nonofo)
-2. *Sā ___ teine.* (nofo / nonofo)
-3. *Sā ___ le ʻāiga.* (nofo / nonofo)
-4. *E ___ pusi.* (uliuli / uli)
-5. *E ___ le pusi.* (uliuli / uli)
+1. *Na siva le teine ___.* (The girl danced this morning.)
+2. *Na sau le tama ___.* (The boy came yesterday.)
+3. *ʻOleʻā siva le teine ___.* (The girl will dance tomorrow morning.)
+4. *Na fānau le pepe ___.* (The baby was born last night.)
+5. *ʻOloʻo timu ___.* (It is raining now.)
 
-### Exercise 5: Translate into English
+### Exercise 5: Match each time word to its meaning
 
-1. *Sā nonofo mātua.*
-2. *E iai ni fuāmoa.*
-3. *Sā nonofo puaʻa ʻi le maʻumaga.*
-4. *Sā nonofo le ulugāliʻi.*
-5. *Nonofo.*
+1. *ananafi*
+2. *anapō*
+3. *analeilā*
+4. *ātaeao*
+5. *nei*
+
+a. now
+b. yesterday
+c. tomorrow morning
+d. last night
+e. earlier today
 
 ---
 
@@ -236,41 +225,36 @@ subject. Where the subject is a group word, give the usual plural.
 
 ### Exercise 1
 
-1. The girls stayed.
-2. The cats are black.
-3. The pig stayed.
-4. The family stayed.
-5. The cat is black.
+1. The boy came yesterday.
+2. The baby was born last night.
+3. The girl will dance tomorrow morning.
+4. The girl danced earlier today.
+5. It is raining now.
 
 ### Exercise 2
 
-1. *Sā nonofo teine.*
-2. *E uliuli le pusi.*
-3. *Sā nonofo puaʻa.*
-4. *Sā nofo le tama.*
-5. *E uli pusi.*
+1. *Na tāʻele le tama anapō.*
+2. *Na siva le teine anataeao.*
+3. *Na fānau le pepe ananafi.*
+4. *ʻOleʻā sau le tama ātaeao.*
+5. *Na timu ananei.*
 
 ### Exercise 3
 
-1. *Sā nonofo teine.*
-2. *Sā nonofo puaʻa.*
-3. *E uli pusi.*
-4. *Nonofo.*
-5. *Sā nonofo tama.*
+1. *na*
+2. *ʻoleʻā*
+3. *na*
+4. *ʻoleʻā*
+5. *na*
 
 ### Exercise 4
 
-1. *nofo*
-2. *nonofo*
-3. *nonofo* (the usual choice with a group word; as the chapter says, the
-   singular is possible here too)
-4. *uli*
-5. *uliuli*
+1. *anataeao*
+2. *ananafi*
+3. *ātaeao*
+4. *anapō*
+5. *nei*
 
 ### Exercise 5
 
-1. The parents stayed.
-2. There are some eggs.
-3. The pigs stayed at the taro patch.
-4. The couple stayed.
-5. Sit down. (said to several people)
+1-b, 2-d, 3-e, 4-c, 5-a.

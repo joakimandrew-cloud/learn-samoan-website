@@ -1,162 +1,121 @@
-# Chapter 8: Who and What Questions
+# Chapter 7: The Naming Sentence
 
-This chapter introduces the question words of the naming sentence, *ai* ("who")
-and *ā* ("what"), together with the optional question markers *po* and *ʻea*,
-and shows you how to ask who someone is and what something is.
+This chapter introduces the naming sentence, a second sentence type that sets
+two naming parts side by side with the presenting particle *ʻo* and no verb, and
+shows you how to say who someone is and what something is.
 
 ---
 
-## Asking Who
+## Naming Without a Verb
 
 ::: {.examples}
-*ʻO ai ʻoe?* Who are you?
+*ʻO se uō le tama.* The boy is a friend. (Lit. "a friend, the boy")
 :::
 
-English builds "who are you?" around its verb "are". The naming sentence has no
-verb, and its question needs none either. A word that asks instead of naming is
-a **question word**. The question word *ai* asks after a person. It stands
-where a naming part would stand, with the presenting particle in front of it,
-so the asking part is *ʻo ai*. The asking part comes first in the sentence, and
-the person you are asking about follows; in this kind of question the order
-never runs the other way.
+English builds this sentence around the verb "is". Sāmoan has no such verb. In
+the naming sentence, Sāmoan sets two naming parts next to each other and adds
+no verb at all. Here the two parts are *se uō* ("a friend") and *le tama* ("the
+boy"), each one a noun with its article, the kind of naming part you built with
+the article system. Put them side by side and the sentence already means "the
+boy is a friend". Nothing stands between them, and nothing is missing.
 
-Two of the words below are new: *fafine* (woman) and *matua* (parent).
+The pattern has one more part. The word *ʻo* goes in front of the naming part
+that does the telling, the part that says what the other one is. It is the
+**presenting particle**: it presents the naming part, holding it up and marking
+it as the one that names. In *ʻO se uō le tama* the presenting particle marks
+*se uō*, so the sentence tells you that the boy is a friend, not that the friend
+is a boy. Nearly all naming sentences mark the telling part this way, and the few
+that do not are outside what this chapter builds.
+
+> *Note:* The presenting particle *ʻo* is written with the ʻ mark, the catch in
+> the voice from the Introduction, and that mark is part of the word. Later in
+> this book you will meet other words that look almost the same with and
+> without the mark. The mark tells them apart, and where a word sits in the
+> sentence tells you its job.
+
+The naming part with *ʻo* usually comes first, and the part it is about comes
+second, with no article change and no marking of its own.
 
 | Sāmoan | English |
 |---|---|
-| *ʻO ai ʻoe?* | Who are you? |
-| *ʻO ai lenā?* | Who is that? |
-| *ʻO ai le teine?* | Who is the girl? |
-| *ʻO ai le fafine?* | Who is the woman? |
-| *ʻO ai le matua?* | Who is the parent? |
+| *ʻO se uō le tama.* | The boy is a friend. |
+| *ʻO se uō le teine.* | The girl is a friend. |
+| *ʻO se tama le uō.* | The friend is a boy. |
+| *ʻO le uō le tama.* | The boy is the friend. |
 
-A who-question is answered with a naming sentence. When it is clear what the
-answer is about, the presented part can stand alone:
-
-::: {.examples}
-*ʻO ai lenā?* Who is that?
-
-*ʻO le teine.* The girl.
-:::
-
-> *Note:* Sāmoan asks for a person's name with *ai* as well, because the answer
-> to a name question is a person's name. Building that question takes the word
-> for "your", which arrives later in this book.
-
-> **Preview:** Alongside who and what stands whose: asking whose house or whose
-> word something is. That question rides on the belonging words, and it is
-> completed in Chapter 42.
+The last row uses *le* on both parts. When the naming part is one particular
+thing, it takes the specific article *le*; when it is any example of a thing, it
+takes *se*, exactly as the article system already taught you.
 
 ---
 
-## Asking What
-
-::: {.examples}
-*ʻO le ā?* What is it? (Lit. "The what?")
-:::
-
-The question word *ā* asks after a thing. It does not stand next to *ʻo* the
-way *ai* does: the specific article *le* comes between them, so the asking part
-is *ʻo le ā*, literally "the what". The article is there because *ā* behaves
-like an ordinary noun such as *teine* (girl) or *matua* (parent), and an ordinary noun that names one thing takes an article in front of it.
-*Ai* behaves like a pronoun, and a pronoun takes no article. That one difference gives the two
-question shapes: *ʻo ai* for who, *ʻo le ā* for what. Because *ā* is noun-like
-it can take the other articles too; the questions in this chapter all use *le*.
-Where more than one particular thing is asked after, no article stands in that slot.
-
-The words *faʻasalalauga* (broadcast, broadcasting) and *tausaga* (year) are
-new here:
-
-| Sāmoan | English |
-|---|---|
-| *ʻO le ā lenā?* | What is that? |
-| *ʻO le ā le faʻasalalauga?* | What is the broadcast? |
-| *ʻO le ā le tausaga?* | What is the year? |
-| *ʻO le ā le ʻupu?* | What is the word? |
-
-A what-question is answered the same way as a who-question, with a naming
-sentence. Here the answer introduces *suāsami* (salt water):
-
-::: {.examples}
-*ʻO le ā lenā?* What is that?
-
-*ʻO le suāsami lenā.* That is the salt water.
-:::
-
-Three more answers bring in *fale* (house), *ulāvai* (prawn) and *to* (hole):
-
-::: {.examples}
-*ʻO le fale lenā.* That is the house.
-
-*ʻO le ulāvai lenā.* That is the prawn.
-
-*ʻO le to lenā.* That is the hole.
-:::
-
-> *Note:* The question word *ā* and the future particle's short form *ʻā* differ
-> by the ʻ mark alone. The short future form carries the mark and stands in a
-> verb sentence's first slot; the question word has no mark and, in this
-> chapter's questions, stands after *ʻo le*. The mark and the position keep
-> them apart.
-
-> *Note:* You will often hear a longer what-question built on *mea* (thing): it
-> opens with *ʻo le ā le mea* and goes on to say more about the thing being
-> asked after. Sāmoan uses it to ask what someone wants to do, and why
-> something is so; the machinery that carries the rest of that sentence arrives
-> in a later chapter. The word *ā* itself also has a life inside verb
-> sentences, asking what the matter is; you may meet that use in conversation,
-> though this book does not teach it.
-
----
-
-## Asking Yes or No
+## Pointing Something Out
 
 ::: {.examples}
 *ʻO le pusi lenā.* That is the cat.
-
-*ʻO le pusi lenā?* ↘ Is that the cat?
 :::
 
-The naming sentence asks yes or no exactly as the verb sentence does: the words
-stay, the order stays, and the voice usually falls, staying low over the last
-two or three syllables. The same falling tune that turns *Sā ia alu* into a question
-does the work here, and the arrow ↘ marks it in this book the same way.
-
-::: {.examples}
-*ʻO se uō le tama?* ↘ Is the boy a friend?
-:::
-
----
-
-## The Question Markers *Po* and *ʻEa*
-
-::: {.examples}
-*Po ʻo ai le fafine?* Who is the woman?
-
-*ʻO se uō ʻea le tama?* Is the boy a friend?
-:::
-
-Sāmoan has two words whose whole job is to mark a sentence as a question: *po*
-and *ʻea*. *Po* stands at the very front, before the asking part. *ʻEa* follows
-the first part of the sentence instead. Both appear in who-questions and
-what-questions as well as in yes or no questions. They add no meaning of their
-own, the question is complete without them, and you will usually hear one or
-the other, not both.
+The word *lenā* means "that". It usually points to something in view, near the
+person you are speaking to. In this
+kind of naming sentence the order is fixed: the naming part with *ʻo* comes
+first, and *lenā* comes second. It never runs the other way. Learn the shape
+once and every "that is a ..." sentence follows it. The earlier pattern is
+looser, which is why its order was given as the usual one rather than the only
+one.
 
 | Sāmoan | English |
 |---|---|
-| *Po ʻo ai le fafine?* | Who is the woman? |
-| *Po ʻo le ā le tausaga?* | What is the year? |
-| *ʻO ai ʻea le matua?* | Who is the parent? |
-| *ʻO se uō ʻea le tama?* | Is the boy a friend? |
+| *ʻO le pusi lenā.* | That is the cat. |
+| *ʻO le tama lenā.* | That is the boy. |
+| *ʻO le lāʻau lenā.* | That is the tree. |
+| *ʻO le ʻāiga lenā.* | That is the family. |
+| *ʻO se uō lenā.* | That is a friend. |
 
-The last sentence is a yes or no question: the naming sentence stays exactly
-as it was, and *ʻea* follows its first part. A question with *po* or *ʻea* asks
-the same thing as its bare twin; the marker only makes the asking visible.
+The naming part still chooses its article the usual way: *le pusi* for one
+particular cat, *se uō* for a friend, no particular one.
 
-> *Note:* This *ʻea* is spelled like the urging word *ʻea* that warms a
-> command. Position tells them apart: the urging word follows a bare command
-> verb, and the question marker follows the first part of a question.
+---
+
+## Naming a Person
+
+::: {.examples}
+*ʻO ia ʻo se uō.* He is a friend.
+
+*ʻO aʻu ʻo se uō.* I am a friend.
+:::
+
+When you name who a person is with a pronoun (he, she, I), the person can come
+first. Then both naming parts take the presenting particle *ʻo*: one for the
+person out in front, and one for the naming part that follows. This is why *ʻo*
+can appear twice in one naming sentence. For a pronoun, person-first is the order
+this book teaches you to build. With anyone but the speaker, Sāmoan itself allows
+either order, and the naming part leads often enough that you will meet both.
+With a noun such as "the boy", this chapter builds the naming part first, as in
+*ʻO se uō le tama*.
+
+::: {.examples}
+*ʻO ia ʻo se tagata tino mālosi.* He is a person with a strong body.
+:::
+
+Here *ia* ("he" or "she") is the person, and *se tagata tino mālosi* names what
+he is, a person with a strong body. After *tagata* come *tino* ("body") and
+*mālosi* ("strong"), a body part plus what it is like.
+
+> **Preview:** In *se tagata tino mālosi*, the words after *tagata* say what the
+> person is like by naming a body part and its quality. That structure, a noun
+> followed by a part and its quality, is taught in Chapter 40. Until then, take the
+> whole phrase as one piece.
+
+> *Note:* When it is already clear who or what you mean, the part the sentence is
+> about can be left out, and the telling part with *ʻo* stands on its own. *ʻO le
+> pusi* on its own says "it is the cat" (Lit. "the cat"), with the thing it is
+> about understood from what came before.
+
+> **Preview:** A naming sentence can be turned into its opposite, "the boy is
+> not a friend". Sāmoan does that by wrapping the whole naming sentence inside a
+> longer structure, so it waits until the words that make sentences negative are
+> in place. That is taught in Chapter 15. For now, build naming sentences only
+> in the positive.
 
 ---
 
@@ -166,23 +125,21 @@ the same thing as its bare twin; the marker only makes the asking visible.
 
 | Word | What it does |
 |---|---|
-| *ai* | the question word for who: stands after *ʻo* at the front of a who-question |
-| *ā* | the question word for what: stands after *ʻo le* at the front of a what-question |
-| *po* | marks a question from the very front of the sentence |
-| *ʻea* | marks a question from inside it, after the first part |
+| *ʻo* | the presenting particle: goes in front of the naming part that says what something is |
+| *lenā* | that: usually points to something in view, near the person spoken to, and comes second in the naming sentence |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *fafine* | woman |
-| *matua* | parent |
-| *fale* | house |
-| *tausaga* | year |
-| *faʻasalalauga* | broadcast, broadcasting |
-| *suāsami* | salt water |
-| *ulāvai* | prawn |
-| *to* | hole |
+| *tama* | boy |
+| *uō* | friend |
+| *tagata* | person |
+| *pusi* | cat |
+| *tino* | body |
+| *ʻāiga* | home, family |
+| *igoa* | name |
+| *ʻupu* | word |
 
 ---
 
@@ -190,61 +147,52 @@ the same thing as its bare twin; the marker only makes the asking visible.
 
 ### Exercise 1: Translate into English
 
-1. *ʻO ai le fafine?*
-2. *ʻO le ā lenā?*
-3. *ʻO le ulāvai lenā.*
-4. *Po ʻo ai le teine?*
-5. *ʻO le ā le faʻasalalauga?*
+1. *ʻO se uō le tama.*
+2. *ʻO le pusi lenā.*
+3. *ʻO ia ʻo se uō.*
+4. *ʻO le tama lenā.*
+5. *ʻO se tama le uō.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. Who are you?
-2. What is the year?
-3. Who is the parent?
-4. That is the house.
-5. What is it?
+1. The girl is a friend.
+2. That is the cat.
+3. I am a friend.
+4. That is the tree.
+5. The boy is the friend.
 
-### Exercise 3: Ask the right question
+### Exercise 3: Point it out
 
-Each item is an answer that points something out. Write the who-question or
-what-question it answers.
+Each item names a thing. Write a naming sentence that points to it with *lenā*
+("that"), keeping the fixed order.
 
-1. *ʻO le teine lenā.*
-2. *ʻO le suāsami lenā.*
-3. *ʻO le matua lenā.*
-4. *ʻO le to lenā.*
-5. *ʻO le fale lenā.*
+1. *le tama* (the boy)
+2. *le ʻāiga* (the family)
+3. *le pusi* (the cat)
+4. *le lāʻau* (the tree)
+5. *se uō* (a friend)
 
-### Exercise 4: Make each statement a yes or no question
+### Exercise 4: Add the presenting particle
 
-Rewrite the sentence as a yes or no question, and mark the falling tune with ↘.
+Each sentence below has lost its presenting particle *ʻo*, or is already correct.
+Write each one as it should stand. Some need *ʻo* once, some need it twice, and
+one needs nothing.
 
-1. *ʻO le pusi lenā.*
-2. *ʻO se uō le teine.*
-3. *ʻO le fale lenā.*
-4. *ʻO le teine lenā.*
-5. *ʻO le suāsami lenā.*
+1. *se uō le teine.* (The girl is a friend.)
+2. *le lāʻau lenā.* (That is the tree.)
+3. *ia se uō.* (He is a friend.)
+4. *ʻO le pusi lenā.* (That is the cat.)
+5. *aʻu se uō.* (I am a friend.)
 
-### Exercise 5: Put the question marker in its place
+### Exercise 5: Choose *le* or *se*
 
-Rewrite each question with the marker shown in parentheses, placing it where it
-belongs.
+Put *le* or *se* into the naming part so the Sāmoan matches the English.
 
-1. *ʻO ai le teine?* (*po*)
-2. *ʻO le ā le tausaga?* (*ʻea*)
-3. *ʻO ai le matua?* (*ʻea*)
-4. *ʻO ai le fafine?* (*po*)
-5. *ʻO le ā le tausaga?* (*po*)
-
-### Exercise 6: Choose *ai* or *ā*
-
-Fill the blank so the question matches the English.
-
-1. *ʻO ___ le tamaʻitaʻi?* (Who is the lady?)
-2. *ʻO le ___ le ʻupu?* (What is the word?)
-3. *ʻO ___ lenā?* (Who is that?)
-4. *ʻO le ___ lenā?* (What is that?)
-5. *ʻO ___ le fafine?* (Who is the woman?)
+1. *ʻO ___ pusi lenā.* (That is the cat, one particular cat.)
+2. *ʻO ___ uō le tama.* (The boy is a friend, no particular one.)
+3. *ʻO ___ tama lenā.* (That is the boy, that same boy.)
+4. *ʻO ___ lāʻau lenā.* (That is the tree, one particular tree.)
+5. *ʻO ___ uō lenā.* (That is a friend, no particular one.)
 
 ---
 
@@ -252,48 +200,40 @@ Fill the blank so the question matches the English.
 
 ### Exercise 1
 
-1. Who is the woman?
-2. What is that?
-3. That is the prawn.
-4. Who is the girl?
-5. What is the broadcast?
+1. The boy is a friend.
+2. That is the cat.
+3. He (or She) is a friend.
+4. That is the boy.
+5. The friend is a boy.
 
 ### Exercise 2
 
-1. *ʻO ai ʻoe?*
-2. *ʻO le ā le tausaga?*
-3. *ʻO ai le matua?*
-4. *ʻO le fale lenā.*
-5. *ʻO le ā?*
+1. *ʻO se uō le teine.*
+2. *ʻO le pusi lenā.*
+3. *ʻO aʻu ʻo se uō.*
+4. *ʻO le lāʻau lenā.*
+5. *ʻO le uō le tama.*
 
 ### Exercise 3
 
-1. *ʻO ai lenā?*
-2. *ʻO le ā lenā?*
-3. *ʻO ai lenā?*
-4. *ʻO le ā lenā?*
-5. *ʻO le ā lenā?*
+1. *ʻO le tama lenā.*
+2. *ʻO le ʻāiga lenā.*
+3. *ʻO le pusi lenā.*
+4. *ʻO le lāʻau lenā.*
+5. *ʻO se uō lenā.*
 
 ### Exercise 4
 
-1. *ʻO le pusi lenā?* ↘
-2. *ʻO se uō le teine?* ↘
-3. *ʻO le fale lenā?* ↘
-4. *ʻO le teine lenā?* ↘
-5. *ʻO le suāsami lenā?* ↘
+1. *ʻO se uō le teine.*
+2. *ʻO le lāʻau lenā.*
+3. *ʻO ia ʻo se uō.*
+4. *ʻO le pusi lenā.* (already correct)
+5. *ʻO aʻu ʻo se uō.*
 
 ### Exercise 5
 
-1. *Po ʻo ai le teine?*
-2. *ʻO le ā ʻea le tausaga?*
-3. *ʻO ai ʻea le matua?*
-4. *Po ʻo ai le fafine?*
-5. *Po ʻo le ā le tausaga?*
-
-### Exercise 6
-
-1. *ʻO ai le tamaʻitaʻi?*
-2. *ʻO le ā le ʻupu?*
-3. *ʻO ai lenā?*
-4. *ʻO le ā lenā?*
-5. *ʻO ai le fafine?*
+1. *ʻO le pusi lenā.*
+2. *ʻO se uō le tama.*
+3. *ʻO le tama lenā.*
+4. *ʻO le lāʻau lenā.*
+5. *ʻO se uō lenā.*

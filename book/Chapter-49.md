@@ -1,263 +1,297 @@
-# Chapter 49: Counterfactuals and Concessives
+# Chapter 48: The Mood Particles
 
-This chapter completes the condition clause with the second if-word, *ʻana*,
-which opens a condition that did not come true, and shows you how to say what
-would have happened. It also adds *seʻiloga* (unless) and the sentences built on
-the verbs *ui* (granted), *tīgā* (painful) and *tusa* (the same), which say that
-one thing holds in spite of another.
+This chapter completes the tense particles with the four mood particles,
+polite-command *ʻia*, wish-and-permission *seʻi*, until *seʻia* and warning
+*neʻi*, which stand where a tense particle stands, and shows you how to make a
+polite command, ask permission, make a wish, say until when, and warn against
+what should not happen.
 
 ---
 
-## The Second If-Word *ʻAna*
+## The Four Mood Particles
 
 ::: {.examples}
-*ʻĀfai ʻe te lē sau, ʻou te alu atu.* If you do not come, I will go and see you. (Lit. "If you not come, I go away.")
+*ʻIa tātou ʻonosaʻi.* Let's be patient.
 
-*ʻAna ʻe lē sau, sēmanū ʻou te alu atu.* Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.")
+*Seʻi oʻu alu muamua.* Let me go first.
 :::
 
-Compare the two sentences. Which words changed, and what did the change do to
-the meaning?
+Neither sentence has a tense particle. In the first, *ʻia* stands where *sā* or
+*ʻua* would stand, in front of the preverbal pronoun *tātou* (we, you and I and others) and
+the verb *ʻonosaʻi* (be patient). In the second, *seʻi* stands in the same place,
+in front of *oʻu*, the second shape of the word for I, and *alu muamua* (go
+first). Neither word says when the event happens. Each says how the speaker
+stands toward it: asked for, wanted, allowed.
 
-Three things changed. The if-word *ʻāfai* has become *ʻana*, the *te* after *ʻe*
-is gone, and the main clause now opens with *sēmanū* (probably). The meaning
-changed with them. As the translations show, in the first sentence the coming
-has not happened yet, and it might still happen. In the second the coming did
-happen, and the speaker imagines the opposite in order to say what would have
-followed from it.
+A word that stands in the tense particle's slot and says how an event is
+wanted, waited for or warned against is called a **mood particle**. Sāmoan has
+four, and each is named by its job:
 
-*ʻAna* is the second if-word. A condition clause opened by *ʻana* names a
-situation that did not happen in the past, or that is not so now, and the main
-clause says what would have happened, or what would be so now, if it had. This
-is the kind of condition English builds with "if I had" and "if I were". A
-condition clause opened by *ʻāfai* is the real kind: the speaker imagines it as
-something that may be true, or may yet come true.
+| Particle | Job |
+|---|---|
+| *ʻia* | a polite command: something requested or wanted |
+| *seʻi* | a wish, a request for permission, a polite request |
+| *seʻia* | until |
+| *neʻi* | a warning: something that should not happen |
 
-The pattern has three parts in a fixed order: *ʻana*, then the condition, then
-the main clause.
+The order is the one the tense particles use: the mood particle comes first,
+then a preverbal pronoun if the clause has one, then the verb. You have met two
+of the four already, *ʻia* opening a reported command and *neʻi* after the
+do-not verb and in a purpose clause.
 
-| Part | Form | Function |
-|---|---|---|
-| the if-word | *ʻana* | announces a condition that did not come true |
-| the condition | *ʻe lē sau* | names what did not happen |
-| the main clause | *sēmanū ʻou te alu atu* | says what would have followed |
+> *Note:* The four look alike, and it is easy to take one for another. Keep
+> them apart on one line of jobs: *seʻi* wishes and asks, *ʻia* commands
+> politely, *seʻia* waits until, *neʻi* warns. *Seʻia* is also the only one of
+> the four that never takes a preverbal pronoun.
 
-When the condition has a verb in it, it usually has no tense particle after
-*ʻana*. That is why *ʻana* is followed by *ʻe lē sau*, where *ʻāfai* is followed
-by *ʻe te lē sau*.
+---
 
-The main clause often opens with *sēmanū*. When it has a verb in it, the verb
-carries one of two particles: the general particle *e* (*te* after a pronoun),
-as in the sentence above, or the change particle *ʻua*.
+## The Polite-Command Particle *ʻIa*
 
 ::: {.examples}
-*ʻAna ʻe sau, ʻua ʻou fiafia.* If you had come, I would have been happy. (Lit. "If you come, I have become happy.")
+*ʻIa ʻe ʻonosaʻi.* Be patient.
+
+*ʻIa manuia le malaga.* Have a nice trip. (Lit. "May the journey be nice.")
 :::
+
+*ʻIa* marks what the verb names as something requested or wanted. Said to the
+person you are talking to, it makes a polite command, as in the first sentence.
+Said of something else, it asks for that thing to come about, as in the second,
+one of the everyday wishes for a trip, a day or a night. *ʻIa* asks plainly: it
+has none of the hopeful colouring that *seʻi* has.
+
+The pattern has three parts in a fixed order: *ʻia*, then a preverbal pronoun or
+nothing, then the verb. A noun naming who or what the clause is about comes
+after the verb.
 
 | Sāmoan | English |
 |---|---|
-| *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.* | Had you not come, I was probably going to go and see you. (Lit. "If you not come, probably I go away.") |
-| *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.* | Had you not come, I was probably going to run over to you. (Lit. "If you not come, probably I run away.") |
-| *ʻAna ʻe sau, ʻua ʻou fiafia.* | If you had come, I would have been happy. (Lit. "If you come, I have become happy.") |
-| *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.* | If you had given me a crab, I would have been happy. (Lit. "If you give toward me a crab, I have become happy.") |
-| *ʻAna ʻe lē sau, ʻou te ita.* | Had you not come, I would have been angry. |
+| *ʻIa tātou ʻonosaʻi.* | Let's be patient. |
+| *ʻIa ʻe ʻonosaʻi.* | Be patient. |
+| *ʻIa manuia le malaga.* | Have a nice trip. (Lit. "May the journey be nice.") |
+| *ʻIa manuia le aso.* | Have a nice day. (Lit. "May the day be nice.") |
 
-The table brings in three new words: *tamoe* (run), *fōaʻi* (give) and *paʻa*
-(crab).
+An *ʻia* clause can stand as a whole sentence, as these do. It can also sit
+inside a longer sentence, in the two uses below.
 
-> *Note:* A condition with no tense particle after *ʻana* is the usual shape,
-> not a fixed rule. Two exceptions occur, both in wishes that cannot come true:
-> *ʻana ʻua*, with the change particle, and *ʻana seʻi ʻo*, with the
-> wish-and-permission particle followed by *ʻo*.
-
-> *Note:* The two particles of the main clause may not say quite the same thing.
-> *ʻUa* seems to be used only when the speaker thinks of what would have followed
-> as past. The general particle can place it in the past, the present or the
-> future.
-
-### Putting the Condition Second
+### Reporting a Command
 
 ::: {.examples}
-*ʻOu te ita pē ʻana ʻe lē sau.* I would have been angry if you had not come.
+*Faʻatali.* Wait.
 
-*Sēmanū ʻou te alu atu pē ʻana ʻe lē sau.* I was probably going to go and see you if you had not come. (Lit. "Probably I go away if you not come.")
+*ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.* The boy gave the order that the girl should wait.
 :::
 
-An *ʻana* clause can stand after the main clause. It then takes the question
-opener *pē* in front of it, exactly as *ʻāfai* does. The pattern has three parts
-in a fixed order: the main clause, then *pē*, then the *ʻana* clause.
+The first sentence is a command said straight to a person: the bare verb, with
+no particle. The second passes that command on, and the reported clause opens
+with *ʻia*. A bare command like *Faʻatali* can be passed on in this way, as an
+*ʻia* clause. This is the reported command you met with the say-verbs, and it
+is the same *ʻia*.
 
-### A Naming Sentence as the Condition
+### Saying What an Action Is For
 
 ::: {.examples}
-*ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.* If I were you, I would not go back to the village. (Lit. "If ʻo I ʻo you, I not return away to the village.")
+*Tatalo ʻina ʻia maua se fesoasoani.* Pray in order to get some help.
+
+*Tatalo ʻia maua se fesoasoani.* Pray to get some help.
 :::
 
-The condition after *ʻana* does not have to have a verb in it. A naming sentence
-can stand there, as it can after *ʻāfai*: here *ʻo aʻu ʻo ʻoe* says that the
-speaker is the listener, which is not so.
+An *ʻia* clause after another clause can say what the first action is for. In
+the first sentence *ʻina* stands in front of *ʻia*, and the pair *ʻina ʻia* means
+in order to. The joining word *ʻina* marks the clause as part of the sentence
+before it. After a verb of saying or ordering, *ʻina ʻia* reports a command
+instead.
 
-### A Wish That Cannot Come True
-
-::: {.examples}
-*ʻAna lē fia ʻai le tama ʻi le apu.* If only the boy had not wanted to eat the apple. (Lit. "If not want eat the boy at the apple.")
-:::
-
-This *ʻana* clause has no main clause at all. Used on its own in this way, an
-*ʻana* clause expresses a wish that cannot come true.
-
----
-
-## Saying Unless with *Seʻiloga*
-
-::: {.examples}
-*ʻOu te savali ʻi le āʻoga seʻiloga e timu.* I walk to school, unless it rains.
-
-*E lē alu le malaga seʻiloga ʻua sau le tama.* The trip will not go unless the boy has come.
-:::
-
-*Seʻiloga* means unless. The clause it opens names the one situation that would
-stop the main clause from holding: the walk to school holds true only if it does
-not rain. When a *seʻiloga* clause works as a condition clause, it stands after
-the main clause.
-
-The pattern has three parts in a fixed order: the main clause, then *seʻiloga*,
-then the condition. In these sentences the condition carries a tense particle of
-its own, *e* in the first and *ʻua* in the second.
-
-| Sāmoan | English |
-|---|---|
-| *ʻOu te savali ʻi le āʻoga seʻiloga e timu.* | I walk to school, unless it rains. |
-| *E lē alu le malaga seʻiloga ʻua sau le tama.* | The trip will not go unless the boy has come. |
-| *E lē alu le tama ʻi le āʻoga seʻiloga ʻua sau le fomaʻi.* | The boy will not go to school unless the doctor has come. |
-
-The last row brings in the noun *fomaʻi* (doctor).
-
-> *Note:* *Seʻiloga* begins with the same letters as the mood particles *seʻi*
-> and *seʻia*, and it is a different word with a different job. *Seʻia* says how
-> long something goes on; *seʻiloga* names what would stop the main clause from
-> holding.
-
----
-
-## Saying Although with *E Ui*
-
-::: {.examples}
-*E ui ina laʻitiiti ʻo ia, ʻae poto.* Although he is young, he knows a great deal. (Lit. "Granted ina young he, but clever.")
-
-*E ui ina faigatā le feʻau, ʻae ʻou te fiafia.* Although the task is difficult, I am happy.
-:::
-
-Each sentence sets two situations against each other. Given the first, the
-second is not what one would expect, but rather its opposite: someone young is
-not expected to know a great deal. The first situation is said with *e ui*, the
-general particle and the verb *ui* (granted), followed by a clause opened by the
-joining word *ina*. The second situation, the main clause, usually opens with the
-but-word *ʻae*. The two sentences bring in *poto* (clever) and *feʻau* (task).
-
-The pattern usually has three parts in this order: *e ui* with its *ina* clause,
-then *ʻae*, then the main clause.
+In the second sentence no word joins the two clauses. The *ʻia* clause still
+says what the praying is for, and this is the purpose clause met earlier, with
+*ʻia* in the place of the general particle. What is not settled is how closely
+such a clause belongs to the one before it, since nothing in its words shows the
+link. Read it for its meaning, a purpose.
 
 | Part | Form | Function |
 |---|---|---|
-| *e ui* and the *ina* clause | *E ui ina laʻitiiti ʻo ia* | the situation that would lead one to expect the opposite |
-| the but-word | *ʻae* | usually opens the main clause |
-| the main clause | *poto* | what holds all the same |
-
-The clause after *ina* can carry a tense particle. The only one this book can
-show there is the past particle *sā*:
-
-::: {.examples}
-*E ui ina sā ʻou faʻanoanoa, ʻae na ʻou ʻata.* Although I was sad, I laughed.
-:::
-
-When the clause after *ui* has no *ina* in front of it, its verb takes the
-general particle *e*.
-
-In place of the *ina* clause, *e ui* can also take a noun phrase opened by the
-place word *ʻi*, which says in spite of what the noun phrase names, or a noun
-phrase opened by the presenting particle *ʻo*.
-
-::: {.examples}
-*ʻAe ui ʻi lea, e leai se mea e mafai.* But despite that, nothing could be done. (Lit. "But granted at that, there is no thing that is possible.")
-:::
-
-Here *ʻae* stands in front of *ui*, and *ui* takes *ʻi lea* (at that). The main
-clause follows with no *ʻae* of its own, which occasionally happens.
-
-> *Note:* The *e ui* clause usually opens the sentence, as in these sentences,
-> and less often follows the main clause.
+| first clause | *Tatalo* | the action |
+| joining word | *ʻina*, or none | marks the link, when present |
+| *ʻia* clause | *ʻia maua se fesoasoani* | what the action is for |
 
 ---
 
-## Saying Although with *Tīgā*
+## The Wish-and-Permission Particle *Seʻi*
 
 ::: {.examples}
-*Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.* However much I begged my mother, I could not go. (Lit. "Painful that I beg away to my mother, but past not able that I go.")
+*Seʻi oʻu fesili.* Let me ask.
+
+*Faʻamolemole, seʻi faʻatali.* Please wait.
+
+*Seʻi sau se isi.* May someone come. (Lit. "Let someone come.")
 :::
 
-The verb *tīgā* (painful, distressing) sets two situations against each other in
-the same way. It takes a clause opened by the that-word *ona*, and the main
-clause usually opens with *ʻae*. The sentence also brings in *ole* (beg). The
-pattern has three parts in a fixed order: *tīgā* with its *ona* clause, then
-*ʻae*, then the main clause.
+*Seʻi* marks an event that has not happened yet and that the speaker, or
+somebody else, wants to happen. What it does depends on who the clause is
+about. About the speaker, it asks permission politely, as in the first
+sentence. Addressed to the person spoken to, it makes a polite request, as in
+the second. About someone who is neither the speaker nor the listener, it says
+that the speaker wants the event to come true, as in the third.
 
-Besides taking a clause opened by *ona* where *ui* takes one opened by *ina*,
-*tīgā* differs from *ui* in meaning: unlike *ui*, *tīgā* builds a clause that
-expresses a negative idea.
-
-| Part | *e ui* | *tīgā* |
+| Sāmoan | English | Job |
 |---|---|---|
-| the clause after it | opened by *ina* | opened by *ona* |
-| the first situation | leads one to expect the opposite | the same, as a negative idea |
-| the main clause | usually opens with *ʻae* | usually opens with *ʻae* |
+| *Seʻi oʻu alu muamua.* | Let me go first. | asks permission |
+| *Seʻi oʻu fesili.* | Let me ask. | asks permission |
+| *Faʻamolemole, seʻi faʻatali.* | Please wait. | polite request |
+| *Seʻi sau se isi.* | May someone come. | wish |
+| *Seʻi sau le tama.* | May the boy come. | wish |
 
-> *Note:* *Tīgā* can also have the general particle in front of it, as
-> *e tīgā*.
+> *Note:* *Seʻi* can also be combined with another tense particle. The meanings
+> in this section belong to *seʻi* standing on its own.
+
+> *Note:* The stop verb *sōia*, met earlier in this book, can also follow *seʻi*.
+> Said straight to a person, it is then a request to stop in the wish form of
+> this section, not the bare command taught earlier. Recognize it when you meet
+> it; this chapter does not drill it.
+
+### How Firm the Request Is
+
+::: {.examples}
+*Seʻi alofa atu, ʻia alofa atu.* Please take pity on me, take pity on me. (Lit. "Seʻi love away, ʻia love away.")
+:::
+
+Compare the two halves. Which word changed, and what did the change do?
+
+The verb *alofa* and the direction word *atu* stay. *Seʻi* has become *ʻia*,
+and the speaker, saying the plea a second time, makes it firmer. *Seʻi* puts a
+wish or a request less absolutely than *ʻia* does, so a request made with
+*seʻi* can be repeated more strongly by putting *ʻia* where *seʻi* stood. The
+two particles are not two ways of saying the same thing: *seʻi* is the softer,
+more hopeful one, and *ʻia* the plainer and firmer one.
+
+### A Second Clause with *Seʻi*
+
+::: {.examples}
+*ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua.* I want to go to Sāmoa to take care of my parents. (Lit. "I want to go to Sāmoa, seʻi look toward my parents.")
+
+*Faʻamolemole, ʻaumai se moli seʻi ʻai ai le loʻomatua.* Please bring an orange for the old woman to eat. (Lit. "Please bring an orange, let the old woman eat from it.")
+:::
+
+Each of these sentences has two clauses, and the second opens with *seʻi*. The
+second clause says what the speaker wishes for through the first: the going is
+for the parents, the orange is for the old woman. The first clause can carry a
+word of wanting, as *fia* (want to) does in the first sentence, or a request, as
+in the second.
+
+The pattern has two parts in a fixed order: the first clause, then *seʻi* with
+the verb of the second clause.
+
+No joining word ties the *seʻi* clause to the first, and nothing in the grammar
+of the words marks it as part of the first. The way Sāmoan speakers say such
+sentences, and the way Sāmoan writers punctuate them, suggests that the second
+clause belongs to the first.
+
+> *Note:* *Oʻu* in *oʻu mātua* is the my-word for more than one particular
+> thing, met earlier, not the word for I. *Ai* in the second sentence is the
+> pointing-back word: the old woman eats from the orange.
 
 ---
 
-## Even If, Whether or Not, and Whatever with *Tusa*
+## The Until Particle *Seʻia*
 
 ::: {.examples}
-*E tusa pē timu, ʻae ʻoleʻā alu le malaga.* Even if it rains, the trip will go. (Lit. "It is the same if it rains, but the trip will go.")
+*Faʻatali seʻia sau le tama.* Wait until the boy comes.
 
-*ʻOleʻā alu le malaga e tusa lava pē timu pē leai.* The trip will go whether it rains or not. (Lit. "The trip will go, it is the same whether it rains or not.")
-
-*E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo ʻi ai.* The boy prays, whatever village he is in. (Lit. "The boy prays, the same where is the village he is at.")
+*Faʻatali seʻia fai oʻu ʻofu.* Wait until I have put on my clothes. (Lit. "Wait until do my clothes.")
 :::
 
-These sentences say that the main clause holds either way. The verb *tusa* (the
-same), met earlier, takes a question clause after it, and the question clause
-names the condition that makes no difference. Sāmoan builds three kinds of
-sentence on *tusa* this way, and each answers to a different English.
+*Seʻia* means until. It is mostly used to say how long something goes on: here,
+the waiting lasts until the boy comes. The pattern has three parts in a fixed
+order: the main clause, then *seʻia*, then the verb, with any noun naming who
+or what that clause is about after the verb.
 
-The whether-or and whatever kinds also carry *lava* (indeed), a word of
-emphasis, as in the second and third sentences. In those two kinds the order is
-fixed: *tusa*, then *lava*, then the question clause. The English translations,
-the literal ones included, give *lava* no word of its own, and the question
-clause after it still decides which kind the sentence is.
+*Seʻia* never takes a preverbal pronoun. No *oʻu*, *ʻe* or *tātou* ever stands
+after it. In the second sentence the person dressing is not named by a pronoun
+at all; the clause names the clothes.
 
-| After *tusa* | Example | English |
+| Sāmoan | English |
+|---|---|
+| *Faʻatali seʻia sau le tama.* | Wait until the boy comes. |
+| *Faʻatali seʻia sau lou tinā.* | Wait until your mother comes. |
+| *Sā ʻou faʻatali seʻia sau le pasi.* | I waited until the bus came. |
+| *Faʻatali seʻia fai oʻu ʻofu.* | Wait until I have put on my clothes. (Lit. "Wait until do my clothes.") |
+
+> *Note:* Sometimes *seʻi* also means until, and then it can take a preverbal
+> pronoun, as in *ʻAua ʻe te alu seʻi oʻu sau.* Don't go until I come. (Lit.
+> "Don't go, I want to come.") *Seʻia* is the word whose job is until.
+
+---
+
+## The Warning Particle *Neʻi*
+
+::: {.examples}
+*E lē tago ʻi se mea neʻi palapalā ona atigi-lima.* She did not touch anything, in order not to get dirty finger-nails. (Lit. "Not touch any thing, lest dirty her finger-nails.")
+:::
+
+*Neʻi* marks an event that has not happened, that might happen, and that should
+not. Here the dirty finger-nails are what the not-touching guards against.
+*Tago* (touch) takes the place word before what is touched, *palapalā* (dirty)
+fills the verb slot of the second clause, and *atigi-lima* (finger-nail) is one
+word built from the words for shell and hand, joined by a hyphen. *Ona* is the
+third-person (his, her or its) form for more than one particular thing, translated
+"her" here because the person is a woman, formed as *oʻu* is for my.
+
+A *neʻi* clause always depends on another clause and never stands alone as a
+sentence. That is what separates it from the not-word *lē*, which the first
+clause of the same sentence uses: *lē* says that something is not so, while
+*neʻi* speaks of something that has not happened and should not, and it always
+leans on another clause.
+
+| Part | Form | Function |
 |---|---|---|
-| *pē* and one clause | *E tusa pē timu* | even if |
-| *lava*, then two question clauses, each opened by *pē* or *po* | *e tusa lava pē timu pē leai* | whether ... or |
-| *lava*, then *po ʻo* with *ā* (what) or *fea* (where) | *tusa lava po ʻo fea le nuʻu* | whatever, wherever |
+| first clause | *E lē tago ʻi se mea* | what is done, or not done |
+| *neʻi* clause | *neʻi palapalā ona atigi-lima* | what should not happen |
 
-Keep the three apart in English. "Even if it rains" is one condition. "Whether it
-rains or not" names both answers. "Whatever village he is in" leaves the answer
-open.
+### After the Do-Not Verb
 
-When the main clause follows the *tusa* clause, it opens with *ʻae*, as in the
-first sentence. After the whatever and wherever kind the *ʻae* can be left out.
-When the main clause comes first, as in the second and third sentences, no *ʻae*
-is needed.
+::: {.examples}
+*ʻAua ʻe te siva.* Don't dance.
 
-> *Note:* *Tusa* can have the general particle *e* in front of it, as in the
-> first two sentences, or stand without it, as in the third.
+*ʻAua neʻi ʻe siva.* Don't dance.
+:::
 
-> *Note:* The even-if kind can carry *lava* after *tusa* as well. It can also
-> stand without it, as in the first sentence.
+After the do-not verb *ʻaua*, when what should not be done is said as a clause
+with its own verb, it takes one of two forms: the general particle met earlier,
+*e* (*te* after a pronoun), or *neʻi*. The le-phrase met earlier still stands
+after *ʻaua* as well. Both sentences here have the preverbal pronoun *ʻe*, so the first shows
+*te*: the pronoun, then *te*, then the verb. The second has *neʻi*, then the
+pronoun, then the verb. The pronoun stands in front of *te* but behind *neʻi*.
+
+| After *ʻaua*, with a pronoun | Order |
+|---|---|
+| *te* | pronoun, *te*, verb |
+| *neʻi* | *neʻi*, pronoun, verb |
+
+::: {.examples}
+*ʻAua neʻi ʻe pisa.* Don't make any noise.
+:::
+
+In this sentence *pisa* (noise) fills the verb slot, where it means make a
+noise.
+
+> *Note:* The *neʻi* version can carry the force of a warning: *ʻAua neʻi ʻe
+> pisa* can be heard as "don't you dare make any noise".
+
+### After Worry, Fear and Dislike
+
+::: {.examples}
+*ʻO le isi foʻi mea e popole ʻi ai le faifeʻau, neʻi tei ʻua foʻi le malaga ʻi Sāmoa.* Another thing the pastor was worried about was that the travel party might suddenly return to Sāmoa. (Lit. "The other also thing the pastor worries about, lest suddenly has returned the travel party to Sāmoa.")
+:::
+
+In this example *popole* (worry) names a feeling about something that should not
+happen, and what the pastor worries about is put in a *neʻi* clause. Here the *neʻi* clause names what
+the *faifeʻau* (pastor) was worried about: the travel party coming back. *Foʻi*
+stands twice, meaning also the first time and return the second, and *tei* here
+means happen suddenly.
+
+*Fefe* (be afraid) and *musu* (dislike) take the same kind of *neʻi* clause, and
+perhaps a few other verbs of thinking and feeling do too. After these verbs
+*ʻia* and *neʻi* are sometimes used together, as *ʻia neʻi*.
 
 ---
 
@@ -267,26 +301,22 @@ is needed.
 
 | Word | What it does |
 |---|---|
-| *ʻana* | the second if-word: opens a condition that did not come true; the condition usually has no tense particle, and *pē* stands in front of *ʻana* when the clause follows the main clause |
-| *sēmanū* | probably: often opens the main clause after an *ʻana* clause |
-| *seʻiloga* | unless (also "it only needs"): as a condition clause, it stands after the main clause |
-| *ui* | granted: *e ui* with an *ina* clause, or with a noun phrase opened by *ʻi* or *ʻo*, says although or in spite of |
-| *tīgā* | with an *ona* clause after it, says although, expressing a negative idea |
-| *tusa* | the same, met earlier: with a question clause after it, says even if, whether ... or, or whatever and wherever |
-| *lava* | indeed, a word of emphasis: stands right after *tusa* in the whether ... or kind and the whatever kind |
+| *ʻia* | the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ʻina ʻia*, in order to) |
+| *seʻi* | the wish-and-permission particle: asks permission about the speaker, makes a polite request to the listener, states a wish about someone else; less absolute than *ʻia* |
+| *seʻia* | the until particle: never takes a preverbal pronoun |
+| *neʻi* | the warning particle, met earlier: something that should not happen; its clause always depends on another |
+| *ʻia neʻi* | *ʻia* and *neʻi* used together, sometimes, after verbs of worry, fear and dislike |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *fōaʻi* | give |
-| *ole* | beg |
-| *poto* | intelligent, clever, know a great deal |
-| *tamoe* | run |
-| *tīgā* | painful, distressing |
-| *feʻau* | work, task, errand |
-| *fomaʻi* | doctor |
-| *paʻa* | crab |
+| *musu* | dislike |
+| *palapalā* | dirty |
+| *tago* | touch |
+| *atigi-lima* | finger-nail |
+| *faifeʻau* | pastor |
+| *pisa* | noise; in the verb slot, make a noise |
 
 ---
 
@@ -294,84 +324,75 @@ is needed.
 
 ### Exercise 1: Translate into English
 
-1. *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.*
-2. *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.*
-3. *ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.*
-4. *E lē alu le tama ʻi le āʻoga seʻiloga ʻua sau le fomaʻi.*
-5. *E ui ina faigatā le feʻau, ʻae ʻou te fiafia.*
-6. *Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.*
-7. *E tusa pē timu, ʻae ʻoleʻā alu le malaga.*
-8. *E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo ʻi ai.*
+1. *ʻIa tātou ʻonosaʻi.*
+2. *Seʻi oʻu fesili.*
+3. *Faʻatali seʻia sau le tama.*
+4. *ʻAua neʻi ʻe tagi.*
+5. *ʻIa manuia le aso.*
+6. *Tatalo ʻia maua se fesoasoani.*
+7. *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu uso.*
+8. *Faʻamolemole, ʻaumai se meaʻai seʻi ʻai ai le toeaʻina.*
 
-### Exercise 2: Real or Not
+### Exercise 2: Translate into Sāmoan
 
-For each sentence, name the if-word that opens the condition, and say whether
-the condition is real (it may be true, or may yet come true) or contrary to fact
-(it did not happen, or is not so).
+Use the mood particle named after each sentence.
 
-1. *ʻĀfai ʻe te lē sau, ʻou te alu atu.*
-2. *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.*
-3. *ʻĀfai e timu taeao, e lē alu le malaga.*
-4. *ʻOu te ita pē ʻana ʻe lē sau.*
-5. *ʻAna ʻe sau, ʻua ʻou fiafia.*
-6. *ʻAna lē fia ʻai le tama ʻi le apu.*
+1. Let me go first. (*seʻi*)
+2. Wait until your mother comes. (*seʻia*)
+3. Don't dance. (*neʻi*)
+4. Be patient. (*ʻia*)
+5. I waited until the bus came. (*seʻia*)
+6. Please bring an orange for the old woman to eat. (*seʻi*)
 
-### Exercise 3: Move the Condition to the Back
+### Exercise 3: Put *te* or *neʻi* in the gap
 
-Rewrite each sentence with the main clause first and the *ʻana* clause after it,
-putting *pē* in front of *ʻana*.
+1. *ʻAua ʻe \_\_\_ siva.*
+2. *ʻAua \_\_\_ ʻe siva.*
+3. *ʻAua \_\_\_ ʻe tagi.*
+4. *ʻAua ʻe \_\_\_ nofo.*
+5. *ʻAua ʻe \_\_\_ alu seʻi oʻu sau.*
 
-1. *ʻAna ʻe lē sau, sēmanū ʻou te alu atu.*
-2. *ʻAna ʻe lē sau, ʻou te ita.*
-3. *ʻAna ʻe sau, ʻua ʻou fiafia.*
-4. *ʻAna ʻe lē sau, sēmanū ʻou te tamoe atu.*
-5. *ʻAna ʻe fōaʻi mai se paʻa, ʻua ʻou fiafia.*
+### Exercise 4: Rewrite with *neʻi*
 
-### Exercise 4: Fill the Gap
+Rewrite each prohibition with *neʻi* in place of *te*, putting the pronoun where
+*neʻi* needs it.
 
-Put *ʻāfai*, *ʻana*, *seʻiloga*, *ui*, *tīgā* or *tusa* into the gap so the
-sentence matches the English.
+1. *ʻAua ʻe te nofo.*
+2. *ʻAua ʻe te moe.*
+3. *ʻAua ʻe te taumafai.*
+4. *ʻAua ʻe te faitala.*
+5. *ʻAua ʻe te pisa.*
 
-1. *\_\_\_ ʻe lē sau, sēmanū ʻou te alu atu.* (Had you not come, I was probably going to go and see you.)
-2. *\_\_\_ ʻe te lē sau, ʻou te alu atu.* (If you do not come, I will go and see you.)
-3. *ʻOu te savali ʻi le āʻoga \_\_\_ e timu.* (I walk to school, unless it rains.)
-4. *E \_\_\_ ina laʻitiiti ʻo ia, ʻae poto.* (Although he is young, he knows a great deal.)
-5. *\_\_\_ ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.* (However much I begged my mother, I could not go.)
-6. *ʻOleʻā alu le malaga e \_\_\_ lava pē timu pē leai.* (The trip will go whether it rains or not.)
-7. *E lē alu le malaga \_\_\_ ʻua sau le tama.* (The trip will not go unless the boy has come.)
+### Exercise 5: What does *seʻi* do?
 
-### Exercise 5: Answer in English
+Say whether each sentence asks permission, makes a polite request, or states a
+wish.
 
-1. In *ʻAna ʻe lē sau, sēmanū ʻou te alu atu*, did the listener come?
-2. Why is there no *te* after *ʻe* in *ʻAna ʻe lē sau*?
-3. Name the two exceptions to the usual shape of the condition after *ʻana*, and say what kind of sentence they occur in.
-4. What is missing from *ʻAna lē fia ʻai le tama ʻi le apu*, and what does the sentence express?
-5. Where does a *seʻiloga* clause stand when it works as a condition clause?
-6. In *E ui ina laʻitiiti ʻo ia, ʻae poto*, which word opens the main clause, and is that word always there?
-7. What does a *tīgā* clause express that an *ui* clause does not?
-8. Besides an *ina* clause, what two kinds of phrase can follow *e ui*?
-9. Name the three kinds of sentence built on *tusa* by the English each answers to.
-10. Why does *ʻOleʻā alu le malaga e tusa lava pē timu pē leai* have no *ʻae*?
+1. *Seʻi oʻu alu muamua.*
+2. *Faʻamolemole, seʻi faʻatali.*
+3. *Seʻi sau le tama.*
+4. *Seʻi oʻu fesili.*
+5. *Seʻi sau se isi.*
 
-### Exercise 6: Translate into Sāmoan
+### Exercise 6: Answer in English
 
-1. If you had come, I would have been happy.
-2. I would have been angry if you had not come.
-3. The trip will not go unless the boy has come.
-4. Although I was sad, I laughed.
-5. Even if it rains, the trip will go.
-6. If I were you, I would not go back to the village.
+1. In *ʻAua ʻe te alu seʻi oʻu sau*, why could *seʻia* not stand where *seʻi* stands?
+2. Which is the firmer plea, *seʻi alofa atu* or *ʻia alofa atu*?
+3. Can a *neʻi* clause stand on its own as a sentence?
+4. In *E lē tago ʻi se mea neʻi palapalā ona atigi-lima*, what does the *neʻi* clause name?
+5. In *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua*, what suggests that the *seʻi* clause belongs to the first clause?
+6. Name three verbs of feeling that take a *neʻi* clause about something that should not happen.
+7. In *Tatalo ʻina ʻia maua se fesoasoani*, what does the word *ʻina* do?
+8. In *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine*, which word opens the reported command, and which bare command does the sentence pass on?
 
 ### Exercise 7: Give the English
 
-1. *fōaʻi*
-2. *ole*
-3. *poto*
-4. *tamoe*
-5. *tīgā*
-6. *feʻau*
-7. *fomaʻi*
-8. *paʻa*
+1. *musu*
+2. *palapalā*
+3. *tago*
+4. *atigi-lima*
+5. *faifeʻau*
+6. *pisa*
 
 ---
 
@@ -379,58 +400,51 @@ sentence matches the English.
 
 ### Exercise 1
 
-1. Had you not come, I was probably going to run over to you. (Lit. "If you not come, probably I run away.")
-2. If you had given me a crab, I would have been happy. (Lit. "If you give toward me a crab, I have become happy.")
-3. If I were you, I would not go back to the village. (Lit. "If ʻo I ʻo you, I not return away to the village.")
-4. The boy will not go to school unless the doctor has come.
-5. Although the task is difficult, I am happy.
-6. However much I begged my mother, I could not go. (Lit. "Painful that I beg away to my mother, but past not able that I go.")
-7. Even if it rains, the trip will go. (Lit. "It is the same if it rains, but the trip will go.")
-8. The boy prays, whatever village he is in. (Lit. "The boy prays, the same where is the village he is at.")
+1. Let's be patient.
+2. Let me ask.
+3. Wait until the boy comes.
+4. Don't cry.
+5. Have a nice day.
+6. Pray to get some help.
+7. I want to go to Sāmoa to take care of my siblings.
+8. Please bring some food for the old man to eat.
 
 ### Exercise 2
 
-1. *ʻĀfai*; the condition is real.
-2. *ʻAna*; the condition is contrary to fact.
-3. *ʻĀfai*; the condition is real.
-4. *ʻAna*; the condition is contrary to fact.
-5. *ʻAna*; the condition is contrary to fact.
-6. *ʻAna*; the condition is contrary to fact, and the sentence is a wish that cannot come true.
+1. *Seʻi oʻu alu muamua.*
+2. *Faʻatali seʻia sau lou tinā.*
+3. *ʻAua neʻi ʻe siva.*
+4. *ʻIa ʻe ʻonosaʻi.*
+5. *Sā ʻou faʻatali seʻia sau le pasi.*
+6. *Faʻamolemole, ʻaumai se moli seʻi ʻai ai le loʻomatua.*
 
 ### Exercise 3
 
-1. *Sēmanū ʻou te alu atu pē ʻana ʻe lē sau.*
-2. *ʻOu te ita pē ʻana ʻe lē sau.*
-3. *ʻUa ʻou fiafia pē ʻana ʻe sau.*
-4. *Sēmanū ʻou te tamoe atu pē ʻana ʻe lē sau.*
-5. *ʻUa ʻou fiafia pē ʻana ʻe fōaʻi mai se paʻa.*
+1. *te* · 2. *neʻi* · 3. *neʻi* · 4. *te* · 5. *te*
 
 ### Exercise 4
 
-1. *ʻAna* · 2. *ʻĀfai* · 3. *seʻiloga* · 4. *ui* · 5. *Tīgā* · 6. *tusa* · 7. *seʻiloga*
+1. *ʻAua neʻi ʻe nofo.*
+2. *ʻAua neʻi ʻe moe.*
+3. *ʻAua neʻi ʻe taumafai.*
+4. *ʻAua neʻi ʻe faitala.*
+5. *ʻAua neʻi ʻe pisa.*
 
 ### Exercise 5
 
-1. Yes. The *ʻana* clause names what did not happen, so the not-coming is only imagined.
-2. A condition with a verb in it usually has no tense particle after *ʻana*.
-3. *ʻAna ʻua* and *ʻana seʻi ʻo*, both in wishes that cannot come true.
-4. The main clause is missing. The sentence expresses a wish that cannot come true.
-5. After the main clause.
-6. *ʻAe*. It usually opens the main clause, but not always.
-7. A negative idea.
-8. A noun phrase opened by the place word *ʻi*, and a noun phrase opened by the presenting particle *ʻo*.
-9. Even if; whether ... or; whatever or wherever.
-10. The main clause comes first, and *ʻae* opens the main clause only when it follows the *tusa* clause.
+1. asks permission · 2. makes a polite request · 3. states a wish · 4. asks permission · 5. states a wish
 
 ### Exercise 6
 
-1. *ʻAna ʻe sau, ʻua ʻou fiafia.*
-2. *ʻOu te ita pē ʻana ʻe lē sau.*
-3. *E lē alu le malaga seʻiloga ʻua sau le tama.*
-4. *E ui ina sā ʻou faʻanoanoa, ʻae na ʻou ʻata.*
-5. *E tusa pē timu, ʻae ʻoleʻā alu le malaga.*
-6. *ʻAna ʻo aʻu ʻo ʻoe, ʻou te lē foʻi atu ʻi le nuʻu.*
+1. A preverbal pronoun, *oʻu*, follows the gap, and *seʻia* never takes a preverbal pronoun.
+2. *ʻIa alofa atu*. *Seʻi* is less absolute, and putting *ʻia* in its place makes the request firmer.
+3. No. A *neʻi* clause always depends on another clause.
+4. Something that should not happen: her finger-nails getting dirty.
+5. Nothing in the words. The way Sāmoan speakers say such sentences, and the way Sāmoan writers punctuate them, suggests it.
+6. *Popole* (worry), *fefe* (be afraid) and *musu* (dislike).
+7. It joins the *ʻia* clause to *tatalo* and marks it as part of the sentence before it; *ʻina ʻia* means in order to.
+8. *ʻIa* opens it. The sentence passes on the bare command *Faʻatali* (Wait).
 
 ### Exercise 7
 
-1. give · 2. beg · 3. intelligent, clever, know a great deal · 4. run · 5. painful, distressing · 6. work, task, errand · 7. doctor · 8. crab
+1. dislike · 2. dirty · 3. touch · 4. finger-nail · 5. pastor · 6. noise; in the verb slot, make a noise

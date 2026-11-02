@@ -1,160 +1,235 @@
 {
-  "chapter": 7,
+  "chapter": 6,
   "items": [
     {
-      "id": "ch7-naming-articles",
+      "id": "ch6-article-grid",
+      "kind": "grid",
+      "anchor": "one-and-many-the-article-carries-the-number",
+      "title": "Four article choices",
+      "caption": "Each phrase answers two questions: one or many, and a particular thing or any at all. The specific plural has an empty article slot before the noun.",
+      "data": {
+        "rowLabel": "Reference",
+        "colLabel": "Number",
+        "cols": [
+          "One",
+          "Many"
+        ],
+        "rows": [
+          {
+            "label": "Specific",
+            "cells": [
+              {
+                "sm": "le teine",
+                "en": "the girl"
+              },
+              {
+                "sm": "teine",
+                "en": "the girls",
+                "note": "No article stands before the particular plural."
+              }
+            ]
+          },
+          {
+            "label": "Non-specific",
+            "cells": [
+              {
+                "sm": "se teine",
+                "en": "a girl (any girl)"
+              },
+              {
+                "sm": "ni teine",
+                "en": "some girls"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch6-one-and-many",
       "kind": "contrast",
-      "anchor": "naming-without-a-verb",
-      "title": "The naming part chooses its article",
-      "caption": "The presenting particle marks the part that does the naming. Its article shows whether that part is particular or any example of a thing.",
+      "anchor": "one-and-many-the-article-carries-the-number",
+      "title": "The article carries the number",
+      "caption": "The noun keeps its shape. Dropping *le* changes one particular girl into particular girls.",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Any friend",
-            "sm": "ʻO se uō le tama.",
-            "en": "The boy is a friend."
+            "label": "One",
+            "sm": "le teine",
+            "en": "the girl"
           },
           {
-            "label": "The particular friend",
-            "sm": "ʻO le uō le tama.",
-            "en": "The boy is the friend."
+            "label": "Many",
+            "sm": "teine",
+            "en": "the girls"
           }
         ]
       }
     },
     {
-      "id": "ch7-pointing-builder",
-      "kind": "builder",
-      "anchor": "pointing-something-out",
-      "title": "Point to the thing in view",
-      "caption": "The naming part with *ʻo* comes first and *lenā* comes second. Choose a naming part to see a complete printed sentence.",
+      "id": "ch6-sort-article-phrases",
+      "kind": "sort",
+      "anchor": "the-non-specific-articles-se-and-ni",
+      "title": "Specific or non-specific",
+      "intro": "Sort each printed phrase by whether the speaker has a particular thing in mind.",
       "data": {
-        "slots": [
+        "bins": [
           {
-            "key": "thing",
-            "label": "Naming part",
-            "options": [
-              {
-                "id": "cat",
-                "sm": "le pusi",
-                "en": "the cat"
-              },
-              {
-                "id": "boy",
-                "sm": "le tama",
-                "en": "the boy"
-              },
-              {
-                "id": "tree",
-                "sm": "le lāʻau",
-                "en": "the tree"
-              },
-              {
-                "id": "friend",
-                "sm": "se uō",
-                "en": "a friend"
-              }
-            ]
+            "id": "specific",
+            "label": "Specific"
+          },
+          {
+            "id": "non-specific",
+            "label": "Non-specific"
           }
         ],
-        "sentences": [
+        "items": [
           {
-            "pick": {
-              "thing": "cat"
-            },
-            "sm": "ʻO le pusi lenā.",
-            "en": "That is the cat."
+            "sm": "le teine",
+            "en": "the girl",
+            "bin": "specific",
+            "why": "The article *le* marks one particular girl."
           },
           {
-            "pick": {
-              "thing": "boy"
-            },
-            "sm": "ʻO le tama lenā.",
-            "en": "That is the boy."
+            "sm": "le ipu",
+            "en": "the cup",
+            "bin": "specific",
+            "why": "The article *le* marks one particular cup."
           },
           {
-            "pick": {
-              "thing": "tree"
-            },
-            "sm": "ʻO le lāʻau lenā.",
-            "en": "That is the tree."
+            "sm": "se teine",
+            "en": "a girl (any girl)",
+            "bin": "non-specific",
+            "why": "The article *se* marks any single girl, with no particular one chosen."
           },
           {
-            "pick": {
-              "thing": "friend"
-            },
-            "sm": "ʻO se uō lenā.",
-            "en": "That is a friend."
+            "sm": "se mea",
+            "en": "a thing, something",
+            "bin": "non-specific",
+            "why": "The article *se* marks one thing with no particular one chosen."
+          },
+          {
+            "sm": "ni teine",
+            "en": "some girls",
+            "bin": "non-specific",
+            "why": "The article *ni* marks more than one, with no particular ones chosen."
+          },
+          {
+            "sm": "ni mea",
+            "en": "some things",
+            "bin": "non-specific",
+            "why": "The article *ni* marks more than one non-specific thing."
           }
         ]
       }
     },
     {
-      "id": "ch7-pick-naming-sentence",
+      "id": "ch6-pick-one-or-many",
       "kind": "pick",
-      "anchor": "naming-a-person",
-      "title": "Choose the naming sentence",
-      "intro": "Read the English and choose the printed Sāmoan sentence that says it.",
+      "anchor": "words-to-learn",
+      "title": "One or many?",
+      "intro": "Read the English, then choose the Sāmoan that says it. Watch the slot in front of the noun.",
       "data": {
-        "question": "Which sentence says this?",
+        "question": "Which says this?",
         "prompts": [
           {
-            "en": "I am a friend.",
-            "answer": "a",
+            "en": "The girls were happy.",
             "options": [
               {
                 "id": "a",
-                "sm": "ʻO aʻu ʻo se uō."
+                "sm": "Sā fiafia teine."
               },
               {
                 "id": "b",
-                "sm": "ʻO ia ʻo se uō."
-              },
-              {
-                "id": "c",
-                "sm": "ʻO se uō le tama."
+                "sm": "Sā fiafia le teine."
               }
             ],
-            "why": "The person comes first, and *aʻu* is the independent form for the speaker."
+            "answer": "a",
+            "why": "No article stands in front of *teine*, and that empty slot is the plural. With *le* it is one girl."
           },
           {
-            "en": "He is a friend.",
-            "answer": "a",
+            "en": "the tree",
             "options": [
               {
                 "id": "a",
-                "sm": "ʻO ia ʻo se uō."
+                "sm": "le lāʻau"
               },
               {
                 "id": "b",
-                "sm": "ʻO aʻu ʻo se uō."
-              },
-              {
-                "id": "c",
-                "sm": "ʻO se uō le teine."
+                "sm": "lāʻau"
               }
             ],
-            "why": "The person-first pattern carries *ʻo* before both naming parts."
+            "answer": "a",
+            "why": "*Le* marks one particular tree. The bare *lāʻau*, with no article, is the trees."
           },
           {
-            "en": "That is the family.",
-            "answer": "a",
+            "en": "Bring some cups.",
             "options": [
               {
                 "id": "a",
-                "sm": "ʻO le ʻāiga lenā."
+                "sm": "ʻAumai ni ipu."
               },
               {
                 "id": "b",
-                "sm": "ʻO le pusi lenā."
+                "sm": "ʻAumai se ipu."
+              }
+            ],
+            "answer": "a",
+            "why": "*Ni* is the non-specific article for more than one: some cups, however many."
+          },
+          {
+            "en": "Bring a cup.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻAumai se ipu."
+              },
+              {
+                "id": "b",
+                "sm": "ʻAumai ni ipu."
+              }
+            ],
+            "answer": "a",
+            "why": "*Se* is the non-specific article for one thing: a cup, whichever cup is nearest."
+          },
+          {
+            "en": "some girls",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ni teine"
+              },
+              {
+                "id": "b",
+                "sm": "teine"
               },
               {
                 "id": "c",
-                "sm": "ʻO le tama lenā."
+                "sm": "se teine"
               }
             ],
-            "why": "In the pointing pattern, the named thing comes first and *lenā* comes second."
+            "answer": "a",
+            "why": "Many and any ones at all takes *ni*. The bare *teine* is particular girls, and *se teine* is one girl."
+          },
+          {
+            "en": "the cup",
+            "options": [
+              {
+                "id": "a",
+                "sm": "le ipu"
+              },
+              {
+                "id": "b",
+                "sm": "se ipu"
+              },
+              {
+                "id": "c",
+                "sm": "ni ipu"
+              }
+            ],
+            "answer": "a",
+            "why": "One particular cup takes *le*. *Se* is any one cup, and *ni* is some cups, however many."
           }
         ]
       }

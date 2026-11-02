@@ -1,158 +1,107 @@
 {
-  "chapter": 32,
+  "chapter": 31,
   "items": [
     {
-      "id": "ch32-verb-shapes",
-      "kind": "grid",
-      "anchor": "the-two-shapes-of-the-verb",
-      "title": "One short form, two long choices",
-      "data": {
-        "cols": [
-          "Short",
-          "With *=a*",
-          "With *=ina*"
-        ],
-        "rowLabel": "Verb meaning",
-        "quiz": true,
-        "rows": [
-          {
-            "label": "eat",
-            "cells": [
-              {
-                "sm": "ʻai"
-              },
-              {
-                "sm": "ʻaia"
-              },
-              {
-                "sm": "ʻai=ina"
-              }
-            ]
-          },
-          {
-            "label": "hit, beat",
-            "cells": [
-              {
-                "sm": "fasi"
-              },
-              {
-                "sm": "fasi=a"
-              },
-              {
-                "sm": "fasi=ina"
-              }
-            ]
-          },
-          {
-            "label": "count, read",
-            "cells": [
-              {
-                "sm": "faitau"
-              },
-              {
-                "sm": "faitau=a"
-              },
-              {
-                "sm": "faitau=ina"
-              }
-            ]
-          },
-          {
-            "label": "build",
-            "cells": [
-              {
-                "sm": "fau"
-              },
-              {
-                "sm": "fau=a"
-              },
-              {
-                "sm": "fau=ina"
-              }
-            ]
-          },
-          {
-            "label": "sell, buy",
-            "cells": [
-              {
-                "sm": "faʻatau"
-              },
-              {
-                "sm": "faʻatau=a"
-              },
-              {
-                "sm": "faʻatau=ina"
-              }
-            ]
-          }
-        ]
-      },
-      "caption": "Both long forms are printed for every verb here. The equals sign keeps the join visible in this book; ordinary writing joins the parts without it."
-    },
-    {
-      "id": "ch32-ending-position",
+      "id": "ch31-comparison-steps",
       "kind": "contrast",
-      "anchor": "the-ending-on-a-direction-word",
-      "title": "The ending has two possible homes",
+      "anchor": "naming-what-you-compare-with-i-lo",
+      "title": "Add the degree, then the other side",
       "data": {
-        "mode": "toggle",
+        "mode": "steps",
         "states": [
           {
-            "label": "On the verb",
-            "sm": "ʻO ai na faʻatau=a mai le tusi?",
-            "en": "Who bought the book?",
-            "note": "The long-form ending is on the verb."
+            "label": "A quality",
+            "sm": "E mālosi le tama.",
+            "en": "The boy is strong.",
+            "note": "The quality word has its ordinary shape."
           },
           {
-            "label": "On the direction word",
-            "sm": "ʻO ai na faʻatau mai=a le tusi?",
-            "en": "Who bought the book?",
-            "note": "The ending sits on the following direction word instead. Both positions are accepted."
+            "label": "A higher degree",
+            "sm": "E mālosi atu le tama.",
+            "en": "The boy is stronger.",
+            "note": "*Atu* carries the comparative degree. The quality word keeps its shape."
+          },
+          {
+            "label": "The other side named",
+            "sm": "E mālosi atu le tama i lo le teine.",
+            "en": "The boy is stronger than the girl.",
+            "note": "The phrase with *i lo* comes last and names what the boy is compared with."
           }
         ]
       },
-      "caption": "The ending moves; the meaning stays the same. Both printed forms ask the same question."
+      "caption": "Step through the printed sentences. Degree and the other side of the comparison arrive as separate words."
     },
     {
-      "id": "ch32-command-rules",
+      "id": "ch31-alike-or-agree",
       "kind": "pick",
-      "anchor": "when-the-choice-is-yours",
-      "title": "Which rule settles the shape?",
+      "anchor": "saying-two-things-are-alike-pei-and-tusa-ma",
+      "title": "Likeness or agreement?",
       "data": {
-        "question": "Which statement applies here?",
+        "question": "What does the comparison claim?",
         "options": [
           {
-            "id": "short",
-            "label": "A command requires the short form"
+            "id": "like",
+            "label": "Likeness or an imagined situation"
           },
           {
-            "id": "long",
-            "label": "Forbidding requires the long form"
-          },
-          {
-            "id": "open",
-            "label": "The choice is open outside the command rules"
+            "id": "agree",
+            "label": "Agreement with something"
           }
         ],
         "prompts": [
           {
-            "sm": "Faitau.",
-            "answer": "short",
-            "why": "A command to do something takes the short form."
+            "sm": "Sā tautala le tama e pei sā ʻi ai.",
+            "answer": "like",
+            "why": "*Pei* can compare with an imagined situation: as if he had been there."
           },
           {
-            "sm": "ʻAua le tatala=ina le pusa lenā.",
-            "answer": "long",
-            "why": "Forbidding with *ʻaua le* requires the long form."
+            "sm": "E tautala le tama e pei o se saienitisi.",
+            "answer": "like",
+            "why": "*Pei* likens the way the boy talks to a scientist."
           },
           {
-            "sm": "Sā faitau e le teine le vāega.",
-            "answer": "open",
-            "why": "This plain report uses the short form as the default. Outside the two command positions, the chapter gives tendencies rather than a fixed rule."
+            "sm": "Sā siva le teine e tusa ma le finagalo o le tamā.",
+            "answer": "agree",
+            "why": "*Tusa ma* says that the dancing is in accordance with the wish."
           }
         ]
       },
-      "intro": "Read the printed sentence and decide whether a command rule fixes the verb form."
+      "intro": "Read the comparison at the end and choose the kind of link it makes."
+    },
+    {
+      "id": "ch31-comparison-words",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Recall the things being compared",
+      "data": {
+        "pairs": [
+          {
+            "sm": "aʻau",
+            "en": "reef"
+          },
+          {
+            "sm": "faitotoʻa",
+            "en": "door"
+          },
+          {
+            "sm": "koko",
+            "en": "cocoa"
+          },
+          {
+            "sm": "maile",
+            "en": "dog"
+          },
+          {
+            "sm": "manulele",
+            "en": "bird"
+          },
+          {
+            "sm": "saienitisi",
+            "en": "scientist"
+          }
+        ]
+      },
+      "intro": "Match each printed noun to its meaning."
     }
   ]
 }

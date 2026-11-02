@@ -1,100 +1,92 @@
 {
-  "chapter": 34,
+  "chapter": 33,
   "items": [
     {
-      "id": "ch34-fronted-participant",
+      "id": "ch33-report-time",
       "kind": "contrast",
-      "anchor": "the-shape-of-the-verb",
-      "title": "Put either participant first",
-      "data": {
-        "mode": "steps",
-        "states": [
-          {
-            "label": "Ordinary order",
-            "sm": "Sā tapē e le tama le puaʻa.",
-            "en": "The boy killed the pig.",
-            "note": "The action comes first, followed by the marked doer and the thing acted on."
-          },
-          {
-            "label": "Thing acted on first",
-            "sm": "ʻO le puaʻa sā tapē e le tama.",
-            "en": "The boy killed the pig.",
-            "note": "The pig is presented first. The verb keeps the short form."
-          },
-          {
-            "label": "Doer first",
-            "sm": "ʻO le tama sā tapē=ina le puaʻa.",
-            "en": "The boy killed the pig.",
-            "note": "The boy is presented first. The verb takes the long form here."
-          }
-        ]
-      },
-      "caption": "The three printed forms have the same English. Short and long forms here follow tendencies; the two command rules remain the only exceptionless ones."
-    },
-    {
-      "id": "ch34-first-phrase",
-      "kind": "pick",
-      "anchor": "putting-the-setting-first",
-      "title": "What has been put first?",
-      "data": {
-        "question": "Which part is at the head of this sentence?",
-        "options": [
-          {
-            "id": "doer",
-            "label": "The doer"
-          },
-          {
-            "id": "acted",
-            "label": "The thing acted on"
-          },
-          {
-            "id": "setting",
-            "label": "The setting"
-          }
-        ],
-        "prompts": [
-          {
-            "sm": "ʻO le teine sā tatala=ina le faitotoʻa.",
-            "answer": "doer",
-            "why": "The girl, who opened the door, has been put first."
-          },
-          {
-            "sm": "ʻO le leo o le pepe na lagona e le tinā.",
-            "answer": "acted",
-            "why": "The whole phrase naming the voice travels to the front together."
-          },
-          {
-            "sm": "ʻI le faʻatoʻaga sā galue ai le tama.",
-            "answer": "setting",
-            "why": "The place phrase goes first, and *ai* points back to it from after the verb."
-          }
-        ]
-      },
-      "intro": "Look at the whole phrase before the rest of the sentence begins."
-    },
-    {
-      "id": "ch34-naming-order",
-      "kind": "contrast",
-      "anchor": "order-in-the-naming-sentence",
-      "title": "Two orders for the same naming sentence",
+      "anchor": "reporting-what-someone-knew",
+      "title": "Move the report, keep its clause",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Naming part first",
-            "sm": "ʻO se uō le tama.",
-            "en": "The boy is a friend.",
-            "note": "The naming part carries the presenting particle. The boy follows it."
+            "label": "Knowing now",
+            "sm": "ʻUa iloa e le tama ʻua sau le teine.",
+            "en": "The boy knows that the girl has come.",
+            "note": "The coming is already done at the time of the knowing."
           },
           {
-            "label": "The one being named first",
-            "sm": "ʻO le tama ʻo se uō.",
-            "en": "The boy is a friend.",
-            "note": "The boy carries the presenting particle because he comes first; the naming part keeps its own particle too."
+            "label": "Knowing then",
+            "sm": "Na iloa e le tama ʻua sau le teine.",
+            "en": "The boy knew that the girl had come.",
+            "note": "The report is in the past. The coming was already done then, and its Sāmoan particle has not moved."
           }
         ]
       },
-      "caption": "Both printed sentences say the same thing. The order is largely free, with the speaker and demonstrative exceptions explained above."
+      "caption": "The first tense particle changes. The reported clause stays word for word the same, while English changes has come to had come."
+    },
+    {
+      "id": "ch33-ongoing-report",
+      "kind": "contrast",
+      "anchor": "the-tense-particle-inside-the-report",
+      "title": "Staying at the time of the report",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "Report at now",
+            "sm": "ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.",
+            "en": "The boy knows that the girl is staying in the village."
+          },
+          {
+            "label": "Report in the past",
+            "sm": "Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.",
+            "en": "The boy knew that the girl was staying in the village."
+          }
+        ]
+      },
+      "caption": "The happening-now particle inside the report places the staying at the same time as the knowing, whether that knowing is now or in the past."
+    },
+    {
+      "id": "ch33-kind-of-report",
+      "kind": "pick",
+      "anchor": "asking-in-a-report-pe",
+      "title": "What is being passed on?",
+      "data": {
+        "question": "What kind of report is this?",
+        "options": [
+          {
+            "id": "knowledge",
+            "label": "What someone knew"
+          },
+          {
+            "id": "command",
+            "label": "A command"
+          },
+          {
+            "id": "question",
+            "label": "A question"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "Na iloa e le tama ʻua sasae le ʻie.",
+            "answer": "knowledge",
+            "why": "A knowing word is followed by an ordinary clause with its own tense particle."
+          },
+          {
+            "sm": "ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.",
+            "answer": "command",
+            "why": "The mood particle *ʻia* opens the reported command."
+          },
+          {
+            "sm": "Na fai mai le teine pē nofo le tama ʻi le nuʻu.",
+            "answer": "question",
+            "why": "*Pē* opens the reported question after the say-verb."
+          }
+        ]
+      },
+      "intro": "Read how the reported part begins and choose what is being reported."
     }
   ]
 }

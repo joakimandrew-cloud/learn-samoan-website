@@ -1,168 +1,196 @@
-# Chapter 18: Time Words
+# Chapter 17: The Where-Sentence
 
-This chapter adds the time-word slot at the end of the sentence, a set of words
-such as *ananafi* (yesterday) and *ātaeao* (tomorrow morning) that fix a
-statement to a point in time. In the sentences this chapter builds, the word
-sits after everything else, and its front end points the same way in time as
-the tense particle at the start.
+This chapter adds the where-sentence, the third kind of Sāmoan sentence, in
+which a tense particle sits in front of a place or a time, standing where a verb
+would stand, so the sentence says where or when someone or something is. It also
+teaches the where-question, *ʻO fea...?* ("Where...?"), which runs through the
+same frame.
 
 ---
 
-## The Time-Word Slot
+## The Where-Sentence
 
 ::: {.examples}
-*Na fānau le pepe anapō.* The baby was born last night. (Lit. "Past give birth the baby last night.")
+*Sā ʻi le fale le teine.* The girl was in the house. (Lit. "Past at the house the girl.")
+
+*Sā ʻi le nuʻu le tama.* The boy was in the village.
 :::
 
-This is a sentence you can already build, a past particle, a verb, and a doer,
-with one word added at the very end: *anapō* (last night). The verb *fānau*
-(give birth) is read with the baby in the doer slot, so the sentence says the
-baby was born. The word *anapō* is a **time
-word**, and in the pattern this chapter drills its place is fixed: it comes after
-the verb and after the doer, at the tail of the sentence, and it says when the
-whole thing happened.
+Neither sentence has a verb. Read the first one part by part: *sā*, the past
+particle, then *ʻi le fale* (in the house), then *le teine* (the girl). Where a
+verb sentence would put an action word straight after *sā*, this sentence puts a
+place. The place itself, with a tense particle in front of it, is the whole
+predicate, and the sentence says the girl was located there.
 
-A time word changes nothing else. The verb keeps its shape, the doer keeps its
-place, and the tense particle stays at the front. Set a time word on the end and
-the sentence is fixed to a point in time:
+This is the third kind of Sāmoan sentence. The verb sentence puts an action
+after the tense particle. The naming sentence sets two naming parts side by side
+to say who or what something is. This one, a sentence that says where someone or
+something is, is called the **where-sentence**. Its predicate is a place, not a
+verb and not a naming part.
+
+In its basic form the parts come in a fixed order: the tense particle, then
+the place with the place word *ʻi* in front of it, then the person or thing
+located there.
 
 | Sāmoan | English |
 |---|---|
-| *Na sau le tama ananafi.* | The boy came yesterday. |
-| *Na siva le teine anataeao.* | The girl danced this morning. |
-| *Na tāʻele le tama anapō.* | The boy bathed last night. |
+| *Sā ʻi le fale le teine.* | The girl was in the house. |
+| *Sā ʻi le uafu le tinā.* | The mother was at the wharf. |
+| *Sā ʻi le fono le aliʻi.* | The chief was at the village meeting. |
+| *Sā ʻi le potu le pusi.* | The cat was in the room. |
 
-In each row the time word sits last, and everything in front of it is a
-sentence from an earlier chapter. The tense particle still carries the tense;
-the time word names the when.
-
----
-
-## Time Past and Time to Come
-
-Two of the time words are built on one root, *taeao* (morning), and set side by
-side they show a pattern that runs through most of the set:
-
-::: {.examples}
-*anataeao*. this morning
-
-*ātaeao*. tomorrow morning
-:::
-
-Compare the two words. What has changed at the front?
-
-The root *taeao* is the same in both, and only the front differs. The front
-*ana-* points back to time already gone, so *anataeao* is the morning that has
-passed, "this morning". The front *ā-* points ahead, so *ātaeao* is the morning
-still to come, "tomorrow morning". Every word for past time begins with *ana-*;
-the word for a coming morning begins with *ā-*.
-In print you will also meet the coming-morning word with a catch at the front,
-*ʻātaeao*, and it is the same word, so the front is printed both *ā-* and *ʻā-*.
-
-In the sentences this chapter builds, that front end is why the two ends of a
-sentence agree. A word for time already gone is used with a past frame, and the
-word for a coming time takes the future particle *ʻoleʻā*:
-
-::: {.examples}
-*Na siva le teine anataeao.* The girl danced this morning.
-
-*ʻOleʻā siva le teine ātaeao.* The girl will dance tomorrow morning.
-:::
-
-The first sentence looks back: the past particle *na* at the front, a past time
-word at the end. The second looks ahead: the future particle *ʻoleʻā* at the
-front, a word for a coming time at the end. In these sentences the front of the sentence and the
-end point the same way.
-
-> *Note:* The sentences of this chapter speak from the present moment, so a
-> coming time is a time after now. The future front can also mark a time that is
-> later than some other point of reference, not only later than the moment of
-> speaking.
-
-The words for time gone by:
-
-| Sāmoan | English |
-|---|---|
-| *ananafi* | yesterday |
-| *anapō* | last night |
-| *anataeao* | this morning |
-| *analeilā* | earlier today |
-| *ananei* | just a short time ago |
-| *anamua* | formerly |
-| *anamuā* | in days of old |
-
-All seven begin with *ana-*, the mark of time gone by. The last two reach
-furthest back, to "formerly" and to "days of old", and they part from each
-other by one thing only: the long-vowel mark on the final vowel of *anamuā*.
+Three of the words here are new: *uafu* (wharf), *fono* (a village meeting or
+council), and *tinā* (mother). The place word *ʻi*, learned earlier in this book
+for saying where an action happened, does the same pointing here. What is new is
+that nothing else carries the sentence: no verb stands between the particle and
+the place.
 
 ---
 
-## Words That Stand on Their Own
+## The Tense Particle on a Place
 
-Two time words are not built from *ana-* or *ā-*. They are learned whole, as
-fixed forms:
-
-::: {.examples}
-*nānei*. later on
-
-*nei*. now
-:::
-
-*Nānei* points ahead, to "later on", and is used with the future particle like
-*ātaeao* does, and is also met with the general particle.
-*Nei* is "now", the present moment; it sits with the happening-now
-particle *ʻoloʻo* to say that something is going on as you speak:
+The tense particle in front of the place works exactly as it does in front of a
+verb. Change it, and you move the location through time:
 
 ::: {.examples}
-*ʻOloʻo timu nei.* It is raining now.
+*Sā ʻi le fale le teine.* The girl was in the house.
+
+*ʻUa ʻi le fale le teine.* The girl is now in the house.
+
+*ʻOleʻā ʻi le fale le teine.* The girl will be in the house.
 :::
 
-> *Note:* A time word can also stand at the front of a sentence, or sit inside a
-> noun phrase to mark which day or night is meant. When it opens the sentence,
-> the pointing-back word met earlier in this book stands in for it later in the
-> clause. This book drills the end-of-sentence use; the other two you will meet
-> in reading.
+The past particle *sā* sets the location in the past, the change particle *ʻua*
+reports that she is now there, and the future particle *ʻoleʻā* puts it ahead of
+now. The place stays put; the tense particle in front of it carries the time,
+just as it does for a verb.
+
+The same frame also locates something in time rather than in space. A time can
+fill that predicate slot in place of a place:
+
+::: {.examples}
+*ʻUa ʻi lumanaʻi le fono.* The village meeting is in the future. (Lit. "Now at the future the village meeting.")
+:::
+
+Here *lumanaʻi* (the future) fills that slot, and the sentence sets the meeting
+in time rather than at a spot. This is why the where-sentence covers both where
+and when.
+
+---
+
+## A Person in the Where-Sentence
+
+When the person located somewhere is a pronoun, it can stand in the middle slot,
+right after the tense particle, exactly where a preverbal pronoun stands in a
+verb sentence:
+
+::: {.examples}
+*Sā ʻou ʻi le fono.* I was in the village meeting.
+
+*ʻUa ʻou ʻi le fale.* I am now in the house.
+:::
+
+*ʻOu* (I) sits between the particle and the place. A full noun phrase like *le
+teine* comes after the place, while a preverbal pronoun can come before it,
+in this middle slot, just as it does in a verb sentence.
+
+---
+
+## Asking Where
+
+To ask where someone or something is, put the where-word *fea* at the front and
+answer it later in the sentence with *ʻi ai*:
+
+::: {.examples}
+*ʻO fea e ʻi ai le teine?* Where is the girl?
+
+*ʻO fea e ʻi ai le tama?* Where is the boy?
+:::
+
+The question opens with the presenting particle *ʻo* and the where-word *fea*,
+then the general particle *e*, then *ʻi ai*. That *ʻi ai* is the place word *ʻi*
+plus the pointing-back word *ai*, the pair met earlier in this book for "to
+there". Here it does a settled-in-place job: it holds the spot the answer will
+fill, "the place where". When the place is pulled to the front like this, *ʻi ai*
+is not optional. It must appear, unlike the pointing-back word after a fronted
+place in a verb sentence, which may be left out.
+
+The answer names the place in the same fronted shape:
+
+::: {.examples}
+*ʻO le fale e ʻi ai le teine.* The girl is in the house.
+
+*ʻO le nuʻu e ʻi ai le teine.* The girl is in the village.
+:::
+
+The place leads with *ʻo*, and *ʻi ai* answers it. With the where-word *fea* for
+the question and *ʻi ai* for the answer, a place can be pointed at instead of
+named out in full.
+
+---
+
+## The Where-Sentence and the There-Is Verb
+
+The string *ʻi ai* in the where-sentence looks close to the there-is verb *iai*
+met earlier in this book, the one that says something exists. They are not the
+same, and the difference shows itself when each is made negative. Compare these
+two:
+
+::: {.examples}
+*E leai se taʻavale ʻi le nuʻu.* There is no car in the village.
+
+*ʻO le nuʻu e lē ʻi ai le teine.* The girl is not in the village.
+:::
+
+Both deny something, but the "not" is built differently in each. In the first,
+existence is denied: the one word *leai*, the there-is-none verb, carries the
+"not" inside it. In the second, a location is denied: the "not" is the separate
+not-word *lē* standing in front of *ʻi ai*. So *iai* is one solid word about
+whether a thing exists at all, while *ʻi ai* is two words, the place word plus
+the pointing-back word, about where a thing is. Existence turns to *leai*;
+location turns to *lē ʻi ai*. That split in the negative is the surest way to
+tell the two apart.
+
+> *Note:* The where-sentence states where a person or thing is, not where it is
+> going. When *ʻi ai* carries motion, "to there", the sentence has a verb of
+> moving, as you saw earlier in this book. Inside a where-sentence, *ʻi ai*
+> stands still and means "is there". The where-sentence has no command form: it
+> reports a position, it does not send anyone anywhere.
+
+> **Preview:** The same frame has a second flavour that says a thing belongs to
+> someone, the belonging-sentence, which answers "whose is it?". That use is
+> taught in Chapter 42.
 
 ---
 
 ## Words to Learn
 
+**New grammar words** (memorize how these work):
+
+| Word | What it does |
+|---|---|
+| *fea* | the where-word: asks where, standing first in the where-question |
+| *ʻi ai* | the settled-in-place form at the heart of the where-sentence: "is there", the spot the answer fills; the copy is required when the place is fronted |
+| *lē ʻi ai* | the negative of that form: "is not there" |
+
 **New vocabulary** (memorize these meanings):
 
-The time words that fill the end slot:
-
 | Word | Meaning |
 |---|---|
-| *ananafi* | yesterday |
-| *anapō* | last night |
-| *anataeao* | this morning |
-| *analeilā* | earlier today |
-| *ananei* | just a short time ago |
-| *anamua* | formerly |
-| *anamuā* | in days of old |
-| *ātaeao* | tomorrow morning |
-| *nānei* | later on |
-| *nei* | now |
-
-The base word behind two of them:
-
-| Word | Meaning |
-|---|---|
-| *taeao* | morning; also tomorrow |
+| *fono* | village meeting, council |
+| *uafu* | wharf |
+| *tinā* | mother |
+| *taimi* | time |
+| *lumanaʻi* | future |
 
 **Words to carry** (learned now, used fully later in this book):
 
 | Word | Meaning |
 |---|---|
-| *ʻāmulī* | after death, in the last days |
-| *ʻātalī* | in the next world |
-| *muli* | final, at the end |
+| *aso* | day |
 
-*ʻāmulī* and *ʻātalī* carry the future-time front, but they are recorded only as
-describing words with fixed meanings, never in the end-of-sentence time slot, and
-*ʻāmulī* is built on *muli* (last). Neither word is drilled here; they come
-into use when the book teaches how fronts like this one are added to words, later
-in this book.
+*Aso* is learned now; the time phrases that put it to use arrive later in this
+book.
 
 ---
 
@@ -170,54 +198,57 @@ in this book.
 
 ### Exercise 1: Translate into English
 
-1. *Na sau le tama ananafi.*
-2. *Na fānau le pepe anapō.*
-3. *ʻOleʻā siva le teine ātaeao.*
-4. *Na siva le teine analeilā.*
-5. *ʻOloʻo timu nei.*
+1. *Sā ʻi le fale le teine.*
+2. *Sā ʻi le uafu le tinā.*
+3. *ʻUa ʻi le fale le teine.*
+4. *Sā ʻou ʻi le fono.*
+5. *ʻO fea e ʻi ai le tama?*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The boy bathed last night.
-2. The girl danced this morning.
-3. The baby was born yesterday.
-4. The boy will come tomorrow morning.
-5. It rained just a short time ago.
+1. The boy was in the village.
+2. The chief was at the village meeting.
+3. The cat is now in the room.
+4. Where is the mother?
+5. The girl is in the house.
 
-### Exercise 3: Choose the tense particle
+### Exercise 3: Put the place first
 
-Read the time word at the end of each sentence. Put *na* or *ʻoleʻā* in the gap
-so the front of the sentence points the same way in time as the end.
+Each sentence has the place after the tense particle. Rewrite it as a
+where-question, putting the where-word *fea* first and answering it with *ʻi ai*.
 
-1. *___ sau le tama ananafi.*
-2. *___ siva le teine ātaeao.*
-3. *___ tāʻele le tama anapō.*
-4. *___ sau le teine nānei.*
-5. *___ siva le teine analeilā.*
+1. *Sā ʻi le fale le teine.* (Ask: where is the girl?)
+2. *Sā ʻi le nuʻu le tama.* (Ask: where is the boy?)
+3. *Sā ʻi le uafu le tinā.* (Ask: where is the mother?)
+4. *Sā ʻi le fono le aliʻi.* (Ask: where is the chief?)
+5. *Sā ʻi le potu le pusi.* (Ask: where is the cat?)
 
-### Exercise 4: Put the time word in
+### Exercise 4: Existence or location
 
-Add the time word to the end of each sentence so it matches the English.
+Put *leai* or *lē ʻi ai* into each gap so the sentence matches the English. Use
+*leai* when existence is denied, *lē ʻi ai* when a location is denied.
 
-1. *Na siva le teine ___.* (The girl danced this morning.)
-2. *Na sau le tama ___.* (The boy came yesterday.)
-3. *ʻOleʻā siva le teine ___.* (The girl will dance tomorrow morning.)
-4. *Na fānau le pepe ___.* (The baby was born last night.)
-5. *ʻOloʻo timu ___.* (It is raining now.)
+1. *E ___ se taʻavale ʻi le nuʻu.* (There is no car in the village.)
+2. *ʻO le fale e ___ le teine.* (The girl is not in the house.)
+3. *E ___ se pusi ʻi le potu.* (There is no cat in the room.)
+4. *ʻO le nuʻu e ___ le tama.* (The boy is not in the village.)
+5. *ʻO le fale e ___ le aliʻi.* (The chief is not in the house.)
 
-### Exercise 5: Match each time word to its meaning
+### Exercise 5: Match each word to its meaning
 
-1. *ananafi*
-2. *anapō*
-3. *analeilā*
-4. *ātaeao*
-5. *nei*
+1. *fono*
+2. *uafu*
+3. *tinā*
+4. *lumanaʻi*
+5. *taimi*
+6. *aso*
 
-a. now
-b. yesterday
-c. tomorrow morning
-d. last night
-e. earlier today
+a. wharf
+b. future
+c. village meeting
+d. time
+e. mother
+f. day
 
 ---
 
@@ -225,36 +256,36 @@ e. earlier today
 
 ### Exercise 1
 
-1. The boy came yesterday.
-2. The baby was born last night.
-3. The girl will dance tomorrow morning.
-4. The girl danced earlier today.
-5. It is raining now.
+1. The girl was in the house.
+2. The mother was at the wharf.
+3. The girl is now in the house.
+4. I was in the village meeting.
+5. Where is the boy?
 
 ### Exercise 2
 
-1. *Na tāʻele le tama anapō.*
-2. *Na siva le teine anataeao.*
-3. *Na fānau le pepe ananafi.*
-4. *ʻOleʻā sau le tama ātaeao.*
-5. *Na timu ananei.*
+1. *Sā ʻi le nuʻu le tama.*
+2. *Sā ʻi le fono le aliʻi.*
+3. *ʻUa ʻi le potu le pusi.*
+4. *ʻO fea e ʻi ai le tinā?*
+5. *ʻO le fale e ʻi ai le teine.*
 
 ### Exercise 3
 
-1. *na*
-2. *ʻoleʻā*
-3. *na*
-4. *ʻoleʻā*
-5. *na*
+1. *ʻO fea e ʻi ai le teine?*
+2. *ʻO fea e ʻi ai le tama?*
+3. *ʻO fea e ʻi ai le tinā?*
+4. *ʻO fea e ʻi ai le aliʻi?*
+5. *ʻO fea e ʻi ai le pusi?*
 
 ### Exercise 4
 
-1. *anataeao*
-2. *ananafi*
-3. *ātaeao*
-4. *anapō*
-5. *nei*
+1. *leai*
+2. *lē ʻi ai*
+3. *leai*
+4. *lē ʻi ai*
+5. *lē ʻi ai*
 
 ### Exercise 5
 
-1-b, 2-d, 3-e, 4-c, 5-a.
+1-c, 2-a, 3-e, 4-b, 5-d, 6-f.

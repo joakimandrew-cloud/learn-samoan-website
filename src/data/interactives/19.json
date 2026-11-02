@@ -1,51 +1,104 @@
 {
-  "chapter": 19,
+  "chapter": 18,
   "items": [
     {
-      "id": "ch19-number-in-two-places",
+      "id": "ch18-time-slot",
       "kind": "contrast",
-      "anchor": "the-verb-shows-number",
-      "title": "Number appears on the article slot and the verb",
-      "caption": "The particular plural drops *le*, and the verb changes from its singular form to its plural form.",
+      "anchor": "the-time-word-slot",
+      "title": "The time word sits at the end",
+      "caption": "The complete sentence comes first. The time word added at the tail says when the whole event happened.",
+      "data": {
+        "mode": "steps",
+        "states": [
+          {
+            "label": "Event",
+            "sm": "Na sau le tama",
+            "en": "The boy came"
+          },
+          {
+            "label": "Time anchored",
+            "sm": "Na sau le tama ananafi.",
+            "en": "The boy came yesterday."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch18-morning-directions",
+      "kind": "contrast",
+      "anchor": "time-past-and-time-to-come",
+      "title": "The front of the word points through time",
+      "caption": "The shared root names morning. The front *ana-* looks back, while *ā-* looks ahead.",
       "data": {
         "mode": "toggle",
         "states": [
-          { "label": "One", "sm": "Sā nofo le teine.", "en": "The girl stayed." },
-          { "label": "More than one", "sm": "Sā nonofo teine.", "en": "The girls stayed." }
+          {
+            "label": "Past",
+            "sm": "anataeao",
+            "en": "this morning"
+          },
+          {
+            "label": "Future",
+            "sm": "ātaeao",
+            "en": "tomorrow morning"
+          }
         ]
       }
     },
     {
-      "id": "ch19-verb-pairs",
-      "kind": "grid",
-      "anchor": "learning-each-plural-form",
-      "title": "Learn each singular and plural pair",
-      "caption": "One pair grows longer and one grows shorter. The chapter treats each plural form as a fact of its verb.",
+      "id": "ch18-sort-time-words",
+      "kind": "sort",
+      "anchor": "words-to-learn",
+      "title": "Sort time gone by and time ahead",
+      "intro": "Place each time word on the side of now that it points toward.",
       "data": {
-        "cols": ["Singular", "Plural"],
-        "rows": [
-          { "label": "Stay or sit", "cells": [
-            { "sm": "nofo", "en": "stay, sit" },
-            { "sm": "nonofo", "en": "stay, sit" }
-          ] },
-          { "label": "Black", "cells": [
-            { "sm": "uliuli", "en": "black" },
-            { "sm": "uli", "en": "black" }
-          ] }
-        ]
-      }
-    },
-    {
-      "id": "ch19-type-plural-forms",
-      "kind": "type",
-      "anchor": "describing-a-group",
-      "title": "Type the plural forms",
-      "intro": "Read the plural meaning and type the printed Sāmoan form.",
-      "data": {
+        "bins": [
+          {
+            "id": "past",
+            "label": "Time gone by"
+          },
+          {
+            "id": "future",
+            "label": "Time ahead"
+          }
+        ],
         "items": [
-          { "en": "stay, sit (said of more than one)", "sm": "nonofo" },
-          { "en": "black (said of more than one)", "sm": "uli" },
-          { "en": "parents", "sm": "mātua" }
+          {
+            "sm": "ananafi",
+            "en": "yesterday",
+            "bin": "past",
+            "why": "The *ana-* front points back to time already gone."
+          },
+          {
+            "sm": "anapō",
+            "en": "last night",
+            "bin": "past",
+            "why": "This is one of the chapter's time words for the past."
+          },
+          {
+            "sm": "analeilā",
+            "en": "earlier today",
+            "bin": "past",
+            "why": "Earlier today is already behind the moment of speaking."
+          },
+          {
+            "sm": "anamua",
+            "en": "formerly",
+            "bin": "past",
+            "why": "This word reaches back to a former time."
+          },
+          {
+            "sm": "ātaeao",
+            "en": "tomorrow morning",
+            "bin": "future",
+            "why": "The *ā-* front points ahead to the coming morning."
+          },
+          {
+            "sm": "nānei",
+            "en": "later on",
+            "bin": "future",
+            "why": "This fixed time word points ahead."
+          }
         ]
       }
     }

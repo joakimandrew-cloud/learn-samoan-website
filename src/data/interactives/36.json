@@ -1,100 +1,92 @@
 {
-  "chapter": 36,
+  "chapter": 35,
   "items": [
     {
-      "id": "ch36-matching-tense",
+      "id": "ch35-negative-event",
       "kind": "contrast",
-      "anchor": "matching-the-tense-particle",
-      "title": "Repeat the tense particle or leave it out",
+      "anchor": "the-verb-inside-the-phrase",
+      "title": "Put the not-word inside the event",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Particle repeated",
-            "sm": "Sā timu ma sā lolo le vai.",
-            "en": "It rained and the water overflowed.",
-            "note": "The second clause repeats the first clause’s tense particle."
+            "label": "The event",
+            "sm": "le fiafia",
+            "en": "the being happy",
+            "note": "The article makes a noun phrase out of the verb."
           },
           {
-            "label": "Particle absent",
-            "sm": "Sā timu ma lolo le vai.",
-            "en": "It rained and the water overflowed.",
-            "note": "The second clause has no tense particle. The empty slot is a valid form."
+            "label": "The denied event",
+            "sm": "le lē fiafia",
+            "en": "the not being happy",
+            "note": "The not-word sits between the article and the verb. The article and the not-word differ by the long-vowel mark."
           }
         ]
       },
-      "caption": "Both shapes are printed and both are good Sāmoan. The chapter treats the choice as style rather than meaning."
+      "caption": "The word inside the phrase is still a verb, so it can take the not-word. No tense particle stands inside a le-phrase."
     },
     {
-      "id": "ch36-clause-links",
-      "kind": "sort",
-      "anchor": "holding-two-events-together-with-ao",
-      "title": "Sort the links between clauses",
+      "id": "ch35-read-event",
+      "kind": "pick",
+      "anchor": "the-verb-inside-the-phrase",
+      "title": "Which event does the phrase name?",
       "data": {
-        "bins": [
+        "question": "Choose the printed phrase for this meaning.",
+        "options": [
           {
-            "id": "and",
-            "label": "And: joined events"
+            "id": "happy",
+            "sm": "le fiafia"
           },
           {
-            "id": "but",
-            "label": "But: a contrast"
+            "id": "not-happy",
+            "sm": "le lē fiafia"
           },
           {
-            "id": "while",
-            "label": "While: events held together in time"
+            "id": "not-tired",
+            "sm": "le lē vāivai"
           }
         ],
-        "items": [
+        "prompts": [
           {
-            "sm": "ʻUa ala le tama ma ʻua usu le teine.",
-            "en": "The boy has woken and the girl has stood up.",
-            "bin": "and",
-            "why": "*Ma* joins the two clauses."
+            "en": "the being happy",
+            "answer": "happy",
+            "why": "The article stands directly before the verb, without a not-word."
           },
           {
-            "sm": "Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.",
-            "en": "The bus arrived and the girl went to the school.",
-            "bin": "and",
-            "why": "The clauses are joined by *ma* and repeat the same past particle."
+            "en": "the not being happy",
+            "answer": "not-happy",
+            "why": "The not-word *lē* stands between *le* and *fiafia*."
           },
           {
-            "sm": "ʻUa ala le teine ʻae ʻoloʻo moe le tama.",
-            "en": "The girl has woken but the boy is sleeping.",
-            "bin": "but",
-            "why": "*ʻAe* opens the second clause and sets it against the first."
-          },
-          {
-            "sm": "Na usu le teine ʻaʻo moe le tama.",
-            "en": "The girl stood up while the boy slept.",
-            "bin": "while",
-            "why": "*ʻAʻo* holds the two events side by side in time."
+            "en": "the not being tired",
+            "answer": "not-tired",
+            "why": "The not-word denies *vāivai* inside the phrase."
           }
         ]
       },
-      "intro": "Choose the kind of link the joining word makes between the two clauses."
+      "intro": "Read the English carefully, including whether the event is denied."
     },
     {
-      "id": "ch36-before-pair",
+      "id": "ch35-number-event",
       "kind": "contrast",
-      "anchor": "saying-what-came-before",
-      "title": "Two ways to say before",
+      "anchor": "number-inside-the-phrase",
+      "title": "Number stays inside the verb",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "With *ʻaʻo leʻi*",
-            "sm": "Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.",
-            "en": "The bus arrived before six o'clock."
+            "label": "One",
+            "sm": "le nofo",
+            "en": "the staying of one"
           },
           {
-            "label": "With *ʻae leʻi*",
-            "sm": "Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.",
-            "en": "The bus arrived before six o'clock."
+            "label": "More than one",
+            "sm": "le nonofo",
+            "en": "the staying of more than one"
           }
         ]
       },
-      "caption": "Either combination says that the second event had not happened yet when the first occurred. English gathers that relationship into before."
+      "caption": "The article stays the same. A verb with a plural shape takes it inside a le-phrase when the phrase is about more than one."
     }
   ]
 }

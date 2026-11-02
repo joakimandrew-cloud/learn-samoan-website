@@ -1,103 +1,112 @@
 {
-  "chapter": 18,
+  "chapter": 17,
   "items": [
     {
-      "id": "ch18-time-slot",
+      "id": "ch17-location-through-time",
       "kind": "contrast",
-      "anchor": "the-time-word-slot",
-      "title": "The time word sits at the end",
-      "caption": "The complete sentence comes first. The time word added at the tail says when the whole event happened.",
+      "anchor": "the-tense-particle-on-a-place",
+      "title": "The particle moves the location through time",
+      "caption": "The place and the person stay fixed. Changing the tense particle moves the location from the past, through a change now, to the future.",
       "data": {
         "mode": "steps",
         "states": [
           {
-            "label": "Event",
-            "sm": "Na sau le tama",
-            "en": "The boy came"
+            "label": "Past",
+            "sm": "Sā ʻi le fale le teine.",
+            "en": "The girl was in the house."
           },
           {
-            "label": "Time anchored",
-            "sm": "Na sau le tama ananafi.",
-            "en": "The boy came yesterday."
+            "label": "Now there",
+            "sm": "ʻUa ʻi le fale le teine.",
+            "en": "The girl is now in the house."
+          },
+          {
+            "label": "Future",
+            "sm": "ʻOleʻā ʻi le fale le teine.",
+            "en": "The girl will be in the house."
           }
         ]
       }
     },
     {
-      "id": "ch18-morning-directions",
+      "id": "ch17-existence-location",
       "kind": "contrast",
-      "anchor": "time-past-and-time-to-come",
-      "title": "The front of the word points through time",
-      "caption": "The shared root names morning. The front *ana-* looks back, while *ā-* looks ahead.",
+      "anchor": "the-where-sentence-and-the-there-is-verb",
+      "title": "Deny existence or deny a location",
+      "caption": "The one-word there-is-none verb denies that a car exists there. The separate not-word before *ʻi ai* denies the girl's location.",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Past",
-            "sm": "anataeao",
-            "en": "this morning"
+            "label": "Existence denied",
+            "sm": "E leai se taʻavale ʻi le nuʻu.",
+            "en": "There is no car in the village."
           },
           {
-            "label": "Future",
-            "sm": "ātaeao",
-            "en": "tomorrow morning"
+            "label": "Location denied",
+            "sm": "ʻO le nuʻu e lē ʻi ai le teine.",
+            "en": "The girl is not in the village."
           }
         ]
       }
     },
     {
-      "id": "ch18-sort-time-words",
-      "kind": "sort",
-      "anchor": "words-to-learn",
-      "title": "Sort time gone by and time ahead",
-      "intro": "Place each time word on the side of now that it points toward.",
+      "id": "ch17-pick-location-negative",
+      "kind": "pick",
+      "anchor": "the-where-sentence-and-the-there-is-verb",
+      "title": "Choose absence or not there",
+      "intro": "Read the English and choose the printed sentence that matches it.",
       "data": {
-        "bins": [
+        "question": "Which sentence makes the intended distinction?",
+        "prompts": [
           {
-            "id": "past",
-            "label": "Time gone by"
+            "en": "There is no car in the village.",
+            "answer": "absence",
+            "options": [
+              {
+                "id": "absence",
+                "sm": "E leai se taʻavale ʻi le nuʻu."
+              },
+              {
+                "id": "location",
+                "sm": "ʻO le nuʻu e lē ʻi ai le teine."
+              }
+            ],
+            "why": "The there-is-none verb denies that the car exists there."
           },
           {
-            "id": "future",
-            "label": "Time ahead"
-          }
-        ],
-        "items": [
-          {
-            "sm": "ananafi",
-            "en": "yesterday",
-            "bin": "past",
-            "why": "The *ana-* front points back to time already gone."
+            "en": "The girl is not in the village.",
+            "answer": "location",
+            "options": [
+              {
+                "id": "absence",
+                "sm": "E leai se taʻavale ʻi le nuʻu."
+              },
+              {
+                "id": "location",
+                "sm": "ʻO le nuʻu e lē ʻi ai le teine."
+              }
+            ],
+            "why": "The separate not-word denies the girl's location."
           },
           {
-            "sm": "anapō",
-            "en": "last night",
-            "bin": "past",
-            "why": "This is one of the chapter's time words for the past."
-          },
-          {
-            "sm": "analeilā",
-            "en": "earlier today",
-            "bin": "past",
-            "why": "Earlier today is already behind the moment of speaking."
-          },
-          {
-            "sm": "anamua",
-            "en": "formerly",
-            "bin": "past",
-            "why": "This word reaches back to a former time."
-          },
-          {
-            "sm": "ātaeao",
-            "en": "tomorrow morning",
-            "bin": "future",
-            "why": "The *ā-* front points ahead to the coming morning."
-          },
-          {
-            "sm": "nānei",
-            "en": "later on",
-            "bin": "future",
-            "why": "This fixed time word points ahead."
+            "en": "The girl is in the house.",
+            "answer": "located",
+            "options": [
+              {
+                "id": "located",
+                "sm": "ʻO le fale e ʻi ai le teine."
+              },
+              {
+                "id": "past",
+                "sm": "Sā ʻi le fale le teine."
+              },
+              {
+                "id": "question",
+                "sm": "ʻO fea e ʻi ai le teine?"
+              }
+            ],
+            "why": "The place leads, and *ʻi ai* answers it later in the where-sentence."
           }
         ]
       }

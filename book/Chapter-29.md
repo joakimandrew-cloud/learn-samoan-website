@@ -1,233 +1,229 @@
-# Chapter 29: Directional Particles
+# Chapter 28: The Maker-Prefix *Faʻa-*
 
-This chapter introduces the direction words, the six particles that stand after
-a verb and say which way its action is turned, toward the speaker, away from the
-speaker, up, down, along or away, and shows you how to orient an action in
-space relative to yourself and the person you are speaking to. The same words
-also stand inside a spatial noun, as in *ʻi lalo ifo o le fale* (underneath the
-house).
+This chapter introduces the maker-prefix *faʻa-*, which stands in front of a
+noun or a verb and builds a new word out of it, and shows you how to read a
+built word by reading the word standing inside it. It is the most common prefix
+in Sāmoan, and the word it builds is usually a verb.
 
 ---
 
-## The Six Direction Words
+## Building a Word with *Faʻa-*
 
 ::: {.examples}
-*Faʻatali mai.* Wait for me. (Lit. "Wait, toward me.")
+*alu*. go
 
-*Faʻatali atu.* Wait here until I come back. (Lit. "Wait, away from me.")
+*faʻaalu*. make go
 :::
 
-Compare them. Which word changed?
+Compare them. What has been added, and what has it done to the meaning?
 
-Only the last word changed. *Faʻatali* is the verb "wait" in both, the same
-command you met earlier in this book, and the word after it says which way the
-waiting is turned. *Mai* turns it toward the speaker: the other person is
-leaving, and the speaker wants to be waited for. *Atu* turns it away from the
-speaker: the speaker is the one leaving, and wants the other person to stay put
-until the speaker returns. A word that stands after a verb and says which way its
-action is turned is called a **direction word**. The pattern of this chapter has
-two parts in a fixed order: the verb, then the direction word.
+*Faʻa-* has been added to the front, and the meaning has gained a second person
+in it: somebody who makes the going happen. *Faʻa-*, the piece put in front of a
+word to build a new word out of it, is called **the maker-prefix**. The prefix
+never changes its own shape, the word behind it keeps its spelling and its
+marks, and the two are written together as one word. The pattern of this chapter
+has two parts in a fixed order: *faʻa-* first, then the noun or verb it is built
+on.
 
-The English on those two lines says more than the Sāmoan does. The two words
-say only "wait" and a direction; that the listener stays put until the speaker
-returns, or that the listener waits so the speaker can catch up, is the
-situation each phrase is used in, and neither word carries it on its own. The
-line marked Lit. shows what the words themselves say, and this book prints one
-wherever its English adds something the Sāmoan leaves unsaid.
+Five of its jobs are taught in this chapter, and one pair of words stands for
+each of them here.
 
-Sāmoan has six direction words, and they fall into two groups.
+| Word | Meaning | Built word | What the built word means |
+|---|---|---|---|
+| *alu* | go | *faʻaalu* | make go |
+| *māsima* | salt | *faʻamāsima* | to salt |
+| *mauga* | mountain | *faʻamauga* | like a mountain |
+| *tolu* | three | *faʻatolu* | three times |
+| *tonu* | right, correct | *faʻalētonu* | uncertain, doubtful |
 
-| Word | Meaning |
-|---|---|
-| *mai* | toward the speaker |
-| *atu* | away from the speaker, and usually toward the person spoken to |
-| *ane* | along, passing the speaker by |
-| *aʻe* | up |
-| *ifo* | down |
-| *ʻese* | away from a point |
+Read down the right-hand column and one thing is constant: the meaning of the
+built word is the meaning of the word inside it, turned to a new use. Reading a
+word you have never met therefore starts the same way every time. Take *faʻa-*
+off the front, recognise what is left, and the rest of the work is deciding
+which of the five jobs is in play. That is where reading a built word starts,
+and it is not always where it ends: a few built words have drifted from the
+meaning of the word inside them, and many are built on a piece that is no word
+on its own.
 
-The first three take their bearings from the speaker. *Mai* points at the
-speaker, *atu* points away from the speaker, and *ane* goes past. The point they
-measure from is usually the speaker, but it can be another person or thing the
-speaker picks out instead, most often the one a story is following. The other
-three take their bearings from the event, state or thing itself, not from where
-anyone is standing: up is up and down is down whoever is speaking, and *ʻese*
-measures away from a point the event fixes.
+> **Preview:** *Faʻa-* is the most common of a set of prefixes Sāmoan uses
+> to build new words from old ones. The rest of that set is taught in Chapter
+> 50. Every built word in this chapter uses this one.
 
 ---
 
-## Where the Direction Word Stands
+## Making Something Happen
 
 ::: {.examples}
-*Na alu atu le tama.* The boy went off. (Lit. "Past go away the boy.")
+*Sā faʻamoe e le teine le pepe.* The girl put the baby to sleep.
 :::
 
-The direction word stands after the verb, and when the doer of the action is
-named after the verb, the direction word comes in front of it. Five of the six can be set in that slot on the verb *alu* (go), one after
-another, and nothing else moves:
+*Moe* is what the baby does. *Faʻamoe* is what the girl does to the baby, and
+saying it takes two participants: the doer, carrying the agent marker *e*, and
+the one it was done to, standing bare after the verb.
+
+Built on a verb, the prefix makes a verb of causing, and the built word means
+to make somebody or something do or be what the base verb names. The verbs it
+is built on here are verbs that take no doer of their own. *Alu*, *goto* (sink,
+set) and *moe* each name something one person or thing does with nobody else in
+the sentence, and the built word puts somebody else in.
+
+| Word | Meaning | Built word | What the built word means |
+|---|---|---|---|
+| *alu* | go | *faʻaalu* | make go |
+| *goto* | sink, set | *faʻagoto* | make sink |
+| *moe* | sleep | *faʻamoe* | put to sleep |
+
+A verb built this way can always take a doer, which is why this chapter waited
+for the agent marker. Each of the three sits in the same sentence shape, with
+*e* in front of whoever did it:
 
 | Sāmoan | English |
 |---|---|
-| *Na alu atu le tama.* | The boy went off (away from me, toward you). |
-| *Na alu ane le tama.* | The boy went past. |
-| *Na alu aʻe le tama.* | The boy went up. |
-| *Na alu ifo le tama.* | The boy went down. |
-| *Na alu ʻese le tama.* | The boy went away. |
+| *Sā faʻamoe e le teine le pepe.* | The girl put the baby to sleep. |
+| *Sā faʻaalu e le tama le taʻavale.* | The boy made the car go. |
+| *Sā faʻagoto e le tama le vaʻa.* | The boy made the boat sink. |
 
-The verb is "go" in every row, and the direction word after it is the whole
-difference between going off, going past, up, down or away. The sixth word,
-*mai*, you have already seen on *faʻatali*, and it is taught on its own below.
+> *Note:* Some verbs run in both patterns, with a doer and without one. Where
+> the prefix is built on one of those, it appears to attach to the side that
+> takes no doer.
 
-Two other kinds of word can stand in the same stretch after the verb, and
-their order is fixed. A describing word, the kind you met early in this book,
-comes before the direction word; the pointing-back word *ai* comes after it:
+---
+
+## Which Words the Prefix Takes
+
+The prefix goes in front of nearly any noun, and in front of nearly any verb
+that takes no doer of its own. It does not go in front of a verb that already
+takes one, and it does not go in front of a spatial noun.
+
+The rule about doers has one exception that the chapter names:
+
+::: {.examples}
+*faʻailoa*. show, make known
+:::
+
+*Iloa* (know, see, notice) takes a doer of its own, so by the rule above it
+should refuse the prefix. It takes it anyway, and it is the one exception the
+rule names. Learn *faʻailoa* as itself rather than as the head of a set.
+
+::: {.examples}
+*Sā faʻailoa e le teine le tala.* The girl made the story known.
+:::
+
+---
+
+## Putting a Thing on Something
+
+::: {.examples}
+*māsima*. salt
+
+*faʻamāsima*. to salt
+:::
+
+*Māsima* is salt, the thing itself, and *faʻamāsima* is what somebody does with
+it to the food. Built on a noun in this sense, the prefix makes a verb meaning
+to apply what the noun names to somebody or something, and that verb takes a
+doer like the verbs of the section above. The nouns of the kitchen make a
+natural set here.
+
+| Word | Meaning | Built word | What the built word means |
+|---|---|---|---|
+| *māsima* | salt | *faʻamāsima* | to salt |
+| *suka* | sugar | *faʻasuka* | to sweeten, to sugar |
 
 | Sāmoan | English |
 |---|---|
-| *Na alu vave atu le tama.* | The boy went off quickly. |
-| *Sā nofo aʻe ai le tama.* | The boy sat up there. |
-
-So the full order after the verb is: any describing word, then the direction
-word, then *ai* if the sentence has one. A doer named after the verb follows the
-whole group; a doer that stands in front of the verb, like the *ʻe* in
-*ʻE te lē popole mai* below, stays where it was.
+| *Sā faʻamāsima e le teine le iʻa.* | The girl salted the fish. |
+| *Sā faʻasuka e le teine le vai.* | The girl sweetened the water. |
 
 ---
 
-## The Pair *Mai* and *Atu*
+## Being Like Something
 
 ::: {.examples}
-*ʻE te lē popole mai.* You do not worry about me. (Lit. "You do not worry, toward me.")
+*mauga*. mountain
 
-*ʻOu te lē popole atu ʻia te ʻoe.* I do not worry about you.
+*faʻamauga*. like a mountain
 :::
 
-Both sentences carry the verb *popole* (worry), and nobody in either of them is
-going anywhere. *Mai* on the first turns the worrying toward the speaker: the
-worry is yours, and the speaker is what it is about. *Atu* on the second turns
-it away from the speaker and toward the person spoken to. Talk swings between
-the two constantly, because every exchange has a speaker and a person spoken to.
-
-The two turn up on all sorts of verb, and a movement is not required:
+*Faʻamauga* is not a second mountain but a way of being, having the qualities of
+one. Built in this sense, on a noun or on a phrase, the prefix means having the
+qualities of, or being similar to, what stands behind it. A word built this way
+takes no doer at all, and it usually stands beside another word to describe it:
 
 ::: {.examples}
-*ʻUa tagi atu le teine ʻi lona tamā.* The girl cried out to her father.
-
-*ʻUa tagi mai le teine ʻi lona tamā.* The girl cried out to her father (toward the speaker).
-
-*ʻOloʻo taʻoto mai le teine ʻi le fale.* The girl is lying here in the house. (Lit. "The girl is lying, toward me, in the house.")
+*E leai se tagata e tū faʻamauga.* No man stands like a mountain.
 :::
 
-In the first pair the crying is aimed at someone, and the direction word says
-which way: *atu* when the father is away from the speaker, *mai* when the
-speaker is where he is. In the third sentence the girl is not moving at all.
-*Taʻoto* (lie down) is the verb, and *mai* says that she lies where the speaker
-is, or turned the speaker's way. English usually leaves that unsaid, or reaches
-for a word like "here".
+The words after *se tagata* say what kind of person is meant. *Tū* is the verb
+"stand", and the general particle *e* holds it in place, so the sentence says
+that there is no person who stands like a mountain. You met the same shape
+earlier in this book, where a number sat after a noun and counted it; here what
+sits after the noun is an ordinary verb, and *faʻamauga* says how the standing
+is done. This sense of the prefix is one of the important ways Sāmoan builds a
+metaphor.
 
-> *Note:* Direction words are used very idiomatically, often where English feels
-> no need of any such word. *Tagi atu* is to cry out to someone, *fesili mai* is
-> to ask me (or us), *taʻu mai* is to tell me, *vaʻai atu* is to look at
-> something, and in each the direction word says whose way the action is turned
-> rather than that anything moved. Do not hunt for a movement to translate; hear
-> the word as part of the verb it follows, and use it the same way.
+> *Note:* Words built in this sense are characteristic of a literary and formal
+> style.
 
-*Mai* is also the from-word you met earlier in this book, and the spelling is the
-same. What follows the word tells the two jobs apart. A place noun directly
-after *mai* makes it the from-word. Nothing after it, or the doer of the action
-after it, makes it the direction word:
-
-::: {.examples}
-*Na sau le tama mai le fale.* The boy came from the house.
-
-*ʻUa tagi mai le teine ʻi lona tamā.* The girl cried out to her father (toward the speaker).
-:::
-
-In *ʻOloʻo taʻoto mai le teine ʻi le fale* the phrase opened by the place word
-*ʻi* says where she lies, so *mai* is the direction word there too.
-
-The word *ʻaumai* (bring), one of the first commands in this book, is an old verb
-of taking with *mai* fused onto the end of it: take, toward me.
-
-> **Preview:** *Atu* has one more job. Set on a quality word, it says that one
-> thing has more of that quality than another, which is how Sāmoan compares two
-> things. That use is taught in Chapter 31. In this chapter *atu* only points
-> away from the speaker.
+> *Note:* The prefix can also take a whole phrase, article and all, rather than
+> a single word. Constructions of that kind are used only to describe something
+> else, and they are seldom heard in the spoken language.
 
 ---
 
-## Up and Down: *Aʻe* and *Ifo*
+## Counting Times
 
 ::: {.examples}
-*ʻUa alu aʻe le sasao o le afi.* The fire has flared up. (Lit. "The blaze of the fire has gone up.")
+*tolu*. three
 
-*Na alu ifo le tama.* The boy went down.
+*faʻatolu*. three times
 :::
 
-*Aʻe* is up and *ifo* is down, and the two stand in opposition. Neither takes
-its bearing from the speaker: a flame goes up and a boy climbs down whoever is
-telling it. *Sasao* (blaze, burn fiercely) and *afi* (fire) are new words here,
-and *sasao* stands as a noun in this sentence, the blaze of the fire.
+In front of a number the prefix counts occasions rather than things, so the
+built word says how many times something happened.
 
-Both words of this pair are related to verbs of their own, *aʻe* (go up, climb)
-and *ifo* (bow down).
+::: {.examples}
+*ʻUa tagi faʻatolu le tama.* The boy has cried three times.
+:::
 
-*Aʻe* can carry a note of politeness, and *ifo* sometimes carries one of humility
-or self-abasement, so you will meet *aʻe* on a verb of telling where nothing
-rises.
-
-A word of this second group can also be followed by *mai*, *atu* or *ane*, so
-one sentence can say both which way a thing went and whose way it was turned.
-
-> *Note:* Two of the compass nouns from earlier in this book carry this pair
-> inside them. *Sasaʻe* (east) holds *aʻe*, up, and *sisifo* (west) holds *ifo*,
-> down, very likely from the rising and the setting of the sun.
+In this sentence the built word sits after the verb it counts, and the one doing
+the crying follows it.
 
 ---
 
-## Along and Away: *Ane* and *ʻEse*
+## Saying a Negative Gently
 
 ::: {.examples}
-*Na alu ane le tama.* The boy went past.
+*tonu*. right, correct
 
-*Alu ʻese.* Go away.
+*faʻalētonu*. uncertain, doubtful
 :::
 
-*Ane* says that something moves along or past the speaker's position, taking
-neither of the directions *atu* and *mai* give. It often does no more than
-underline the direction already in the verb, and you will hear it on verbs of
-asking and going where English often says nothing.
+Between *tonu* and the prefix stands *lē*, the not-word taught earlier in this
+book, and the three pieces are written as one word. The shape is the prefix,
+then *lē*, then the word being denied.
 
-*ʻEse* is the word for "different, strange" doing a second job. After a verb it
-means away from a point: the thing moves away. It differs from *atu* in what it
-measures from. *Atu* is measured from the speaker, away from me and toward you;
-*ʻese* is measured from a point the event itself fixes, not from where the
-speaker stands.
+| Word | Meaning | Built word | What the built word means |
+|---|---|---|---|
+| *tonu* | right, correct | *faʻalētonu* | uncertain, doubtful |
+| *aogā* | use, useful | *faʻalēaogā* | cancel, annul |
 
----
-
-## A Direction Word Inside a Spatial Noun
-
-::: {.examples}
-*ʻi lalo ifo o le fale*. underneath the house
-:::
-
-The direction words modify verbs, and they modify spatial nouns as well. The
-four-part frame from earlier in this book runs: the place word, the spatial
-noun, the belonging word, then the thing the position is measured against. The
-direction word goes directly after the spatial noun, and it keeps its
-direction:
+The two run in different patterns, and each has to be learned with the word.
+*Faʻalētonu* describes something and takes no doer; *faʻalēaogā* takes a doer
+with *e*:
 
 | Sāmoan | English |
 |---|---|
-| *ʻO le pusi ʻi lalo o le fale.* | The cat under the house. |
-| *ʻO le pusi ʻi lalo ifo o le fale.* | The cat underneath the house. |
-| *ʻO le taʻavale ʻi fafo atu o le fale.* | The car outside the house. |
+| *E faʻalētonu le tala.* | The story is uncertain. |
+| *Sā faʻalēaogā e le aliʻi le fono.* | The chief cancelled the village meeting. |
 
-> *Note:* You have met two of these words in this position already. The spatial
-> nouns *tala mai* (this side) and *tala atu* (the far side) are *tala* (next
-> to) with a direction word after it, and the two point exactly as *mai* and
-> *atu* do on a verb.
+A negative put this way is a polite one. A bare quality word is the bluntest way
+of saying that something is not right, denying the opposite quality with the
+not-word alone is gentler, and wrapping the not-word inside a built word is
+gentler still.
+
+> *Note:* The not-yet word *leʻi* sometimes stands in the middle in place of
+> *lē*.
 
 ---
 
@@ -237,12 +233,7 @@ direction:
 
 | Word | What it does |
 |---|---|
-| *mai* | the direction word for toward the speaker |
-| *atu* | the direction word for away from the speaker, usually toward the person spoken to |
-| *ane* | the direction word for along, passing the speaker by |
-| *aʻe* | the direction word for up |
-| *ifo* | the direction word for down |
-| *ʻese* | the direction word for away from a point |
+| *faʻa-* | the maker-prefix: stands in front of a noun or a verb and builds a new word out of it |
 
 **New vocabulary** (memorize these meanings):
 
@@ -250,36 +241,25 @@ The verbs:
 
 | Word | Meaning |
 |---|---|
-| *ita* | angry, be angry |
-| *osofaʻi* | attack |
-| *popole* | worry |
-| *sasao* | blaze, burn fiercely |
-| *taʻoto* | lie (down) |
+| *aogā* | use, useful |
+| *faʻailoa* | show, make known |
+| *goto* | sink, set |
+| *iloa* | know, see, notice |
+| *tatalo* | pray |
+| *tatau* | fit, proper |
+| *tonu* | right, correct |
+| *tū* | stand |
 
 The nouns:
 
 | Word | Meaning |
 |---|---|
-| *afi* | fire |
-| *faʻamalu* | umbrella |
-| *leo* | voice |
-| *solosolo* | handkerchief |
-| *tuagane* | brother (of a woman) |
-
-Two of the nouns come with a sentence of their own:
-
-::: {.examples}
-*ʻUa maua lou solosolo?* Have you got your handkerchief? (Lit. "Got your handkerchief?")
-
-*ʻO le tuagane o le fafine.* The brother of the woman.
-:::
-
-*Tuagane* is a brother seen from his sister's side, so this phrase names the
-brother of a woman, and the woman is the owner.
-
-*Solosolo* and *faʻamalu* are both o-words, so "your handkerchief" is
-*lou solosolo* and "your umbrella" is *lou faʻamalu*, with the possessive form
-taught earlier in this book.
+| *lotu* | religion |
+| *mauga* | mountain |
+| *māsima* | salt |
+| *pata* | butter |
+| *suka* | sugar |
+| *tulāfono* | law |
 
 ---
 
@@ -287,67 +267,82 @@ taught earlier in this book.
 
 ### Exercise 1: Translate into English
 
-1. *Faʻatali mai.*
-2. *Na alu ifo le tama.*
-3. *ʻUa alu aʻe le sasao o le afi.*
-4. *Na alu atu le tama.*
-5. *ʻOu te lē popole atu ʻia te ʻoe.*
-6. *ʻO le pusi ʻi lalo ifo o le fale.*
-7. *Alu ʻese.*
-8. *ʻUa maua lou solosolo?*
+1. *faʻaalu*
+2. *faʻasuka*
+3. *Sā faʻamoe e le teine le pepe.*
+4. *E leai se tagata e tū faʻamauga.*
+5. *ʻUa tagi faʻatolu le tama.*
+6. *Sā faʻalēaogā e le aliʻi le fono.*
 
-### Exercise 2: Choose *mai* or *atu*
+### Exercise 2: Build the word
 
-Fill the gap so the Sāmoan matches the English.
+Put *faʻa-* in front of each word, and give the meaning of the word you have
+built.
 
-1. *Faʻatali ___.* (Wait for me.)
-2. *Na alu ___ le tama.* (The boy went off.)
-3. *ʻE te lē popole ___.* (You do not worry about me.)
-4. *ʻOloʻo taʻoto ___ le teine ʻi le fale.* (The girl is lying here in the house.)
-5. *Faʻatali ___.* (Wait here until I come back.)
-6. *ʻUa tagi ___ le teine ʻi lona tamā.* (The girl cried out to her father, away from the speaker.)
+1. *alu*
+2. *goto*
+3. *moe*
+4. *māsima*
+5. *suka*
+6. *mauga*
+7. *tolu*
 
-### Exercise 3: Translate into Sāmoan
+### Exercise 3: Find the word inside
 
-1. The boy went up.
-2. The girl cried out to her father, away from the speaker.
-3. Go away.
-4. The boy went past.
-5. The cat underneath the house.
-6. Have you got your umbrella?
+Write the word each built word is made from, and give that word's meaning.
 
-### Exercise 4: Which way is it turned?
+1. *faʻamoe*
+2. *faʻagoto*
+3. *faʻamauga*
+4. *faʻatolu*
+5. *faʻailoa*
+6. *faʻalēaogā*
 
-For each sentence, say whether the direction word turns the action toward the
-speaker, away from the speaker, up, down, along, or away from a point.
+### Exercise 4: Read a built word
 
-1. *Na alu ane le tama.*
-2. *ʻUa tagi atu le teine ʻi lona tamā.*
-3. *Na alu ʻese le tama.*
-4. *Sā nofo aʻe ai le tama.*
-5. *ʻUa tagi mai le teine ʻi lona tamā.*
-6. *Na alu ifo le tama.*
+Each of these is built by a rule you have just learned, on a word from the list
+above. Take the prefix off, name the word inside, and give the meaning of the
+whole. The first two are built words you have not met in this chapter; the last
+three you have.
 
-### Exercise 5: Put the direction word in its place
+1. *faʻapata*
+2. *faʻalētatau*
+3. *faʻalētonu*
+4. *faʻamāsima*
+5. *faʻagoto*
 
-Rewrite each sentence with the direction word given, set in its correct slot.
+### Exercise 5: Translate into Sāmoan
 
-1. *Na alu le tama*, with *atu*.
-2. *Na alu vave le tama*, with *atu*.
-3. *Sā nofo ai le tama*, with *aʻe*.
-4. *ʻO le pusi ʻi lalo o le fale*, with *ifo*.
-5. *ʻUa tagi le teine ʻi lona tamā*, with *mai*.
+1. The girl salted the fish.
+2. The boy made the car go.
+3. The woman put the baby to sleep.
+4. The girl made the story known.
+5. The boy made the boat sink.
+6. The story is uncertain.
 
-### Exercise 6: Give the meaning
+### Exercise 6: What is the prefix doing?
 
-1. *ita*
-2. *osofaʻi*
-3. *leo*
-4. *tuagane*
-5. *afi*
-6. *faʻamalu*
-7. *taʻoto*
-8. *popole*
+For each built word, name which of these five jobs the prefix is doing: making
+something happen, putting a thing onto something, being like something,
+counting times, or saying a negative gently.
+
+1. *faʻamauga*
+2. *faʻatolu*
+3. *faʻagoto*
+4. *faʻalētonu*
+5. *faʻasuka*
+
+### Exercise 7: Give the meaning
+
+1. *aogā*
+2. *goto*
+3. *iloa*
+4. *lotu*
+5. *pata*
+6. *tatalo*
+7. *tatau*
+8. *tū*
+9. *tulāfono*
 
 ---
 
@@ -355,58 +350,74 @@ Rewrite each sentence with the direction word given, set in its correct slot.
 
 ### Exercise 1
 
-1. Wait for me.
-2. The boy went down.
-3. The fire has flared up.
-4. The boy went off.
-5. I do not worry about you.
-6. The cat underneath the house.
-7. Go away.
-8. Have you got your handkerchief?
+1. make go
+2. to sweeten, to sugar
+3. The girl put the baby to sleep.
+4. No man stands like a mountain.
+5. The boy has cried three times.
+6. The chief cancelled the village meeting.
 
 ### Exercise 2
 
-1. *Faʻatali mai.*
-2. *Na alu atu le tama.*
-3. *ʻE te lē popole mai.*
-4. *ʻOloʻo taʻoto mai le teine ʻi le fale.*
-5. *Faʻatali atu.*
-6. *ʻUa tagi atu le teine ʻi lona tamā.*
+1. *faʻaalu*, make go
+2. *faʻagoto*, make sink
+3. *faʻamoe*, put to sleep
+4. *faʻamāsima*, to salt
+5. *faʻasuka*, to sweeten, to sugar
+6. *faʻamauga*, like a mountain
+7. *faʻatolu*, three times
 
 ### Exercise 3
 
-1. *Na alu aʻe le tama.*
-2. *ʻUa tagi atu le teine ʻi lona tamā.* (*Na tagi atu le teine ʻi lona tamā*, with the
-   one-off past particle, is also right; the English does not say which.)
-3. *Alu ʻese.*
-4. *Na alu ane le tama.*
-5. *ʻO le pusi ʻi lalo ifo o le fale.*
-6. *ʻUa maua lou faʻamalu?*
+1. *moe*, sleep
+2. *goto*, sink, set
+3. *mauga*, mountain
+4. *tolu*, three
+5. *iloa*, know, see, notice
+6. *aogā*, use, useful
 
 ### Exercise 4
 
-1. along
-2. away from the speaker
-3. away from a point
-4. up
-5. toward the speaker
-6. down
+1. *pata*, butter. The built word is the putting-a-thing-onto-something job, so
+   *faʻapata* means to butter.
+2. *tatau*, fit, proper, with the not-word *lē* in the middle. The built word is
+   the gentle negative, so *faʻalētatau* means in an unseemly fashion.
+3. *tonu*, right, correct, with the not-word *lē* in the middle. The built word is
+   the gentle negative, so *faʻalētonu* means uncertain, doubtful.
+4. *māsima*, salt. The built word is the putting-a-thing-onto-something job, so
+   *faʻamāsima* means to salt.
+5. *goto*, sink, set. The built word is the making-something-happen job, so
+   *faʻagoto* means make sink.
 
 ### Exercise 5
 
-1. *Na alu atu le tama.*
-2. *Na alu vave atu le tama.* (the describing word comes before the direction word)
-3. *Sā nofo aʻe ai le tama.* (the direction word comes before *ai*)
-4. *ʻO le pusi ʻi lalo ifo o le fale.* (the direction word goes directly after the spatial noun)
-5. *ʻUa tagi mai le teine ʻi lona tamā.*
+1. *Sā faʻamāsima e le teine le iʻa.*
+2. *Sā faʻaalu e le tama le taʻavale.*
+3. *Sā faʻamoe e le fafine le pepe.*
+4. *Sā faʻailoa e le teine le tala.*
+5. *Sā faʻagoto e le tama le vaʻa.*
+6. *E faʻalētonu le tala.*
+
+None of the English sentences in items 1 to 5 says whether the thing happened
+once or was how things were, so either past particle is right. Where you wrote
+*na* for a *sā* above, count it correct.
 
 ### Exercise 6
 
-1. angry, be angry
-2. attack
-3. voice
-4. brother (of a woman)
-5. fire
-6. umbrella
-7. lie (down)
-8. worry
+1. being like something
+2. counting times
+3. making something happen
+4. saying a negative gently
+5. putting a thing onto something
+
+### Exercise 7
+
+1. use, useful
+2. sink, set
+3. know, see, notice
+4. religion
+5. butter
+6. pray
+7. fit, proper
+8. stand
+9. law

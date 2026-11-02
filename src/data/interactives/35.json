@@ -1,92 +1,100 @@
 {
-  "chapter": 35,
+  "chapter": 34,
   "items": [
     {
-      "id": "ch35-negative-event",
+      "id": "ch34-fronted-participant",
       "kind": "contrast",
-      "anchor": "the-verb-inside-the-phrase",
-      "title": "Put the not-word inside the event",
+      "anchor": "the-shape-of-the-verb",
+      "title": "Put either participant first",
       "data": {
-        "mode": "toggle",
+        "mode": "steps",
         "states": [
           {
-            "label": "The event",
-            "sm": "le fiafia",
-            "en": "the being happy",
-            "note": "The article makes a noun phrase out of the verb."
+            "label": "Ordinary order",
+            "sm": "Sā tapē e le tama le puaʻa.",
+            "en": "The boy killed the pig.",
+            "note": "The action comes first, followed by the marked doer and the thing acted on."
           },
           {
-            "label": "The denied event",
-            "sm": "le lē fiafia",
-            "en": "the not being happy",
-            "note": "The not-word sits between the article and the verb. The article and the not-word differ by the long-vowel mark."
+            "label": "Thing acted on first",
+            "sm": "ʻO le puaʻa sā tapē e le tama.",
+            "en": "The boy killed the pig.",
+            "note": "The pig is presented first. The verb keeps the short form."
+          },
+          {
+            "label": "Doer first",
+            "sm": "ʻO le tama sā tapē=ina le puaʻa.",
+            "en": "The boy killed the pig.",
+            "note": "The boy is presented first. The verb takes the long form here."
           }
         ]
       },
-      "caption": "The word inside the phrase is still a verb, so it can take the not-word. No tense particle stands inside a le-phrase."
+      "caption": "The three printed forms have the same English. Short and long forms here follow tendencies; the two command rules remain the only exceptionless ones."
     },
     {
-      "id": "ch35-read-event",
+      "id": "ch34-first-phrase",
       "kind": "pick",
-      "anchor": "the-verb-inside-the-phrase",
-      "title": "Which event does the phrase name?",
+      "anchor": "putting-the-setting-first",
+      "title": "What has been put first?",
       "data": {
-        "question": "Choose the printed phrase for this meaning.",
+        "question": "Which part is at the head of this sentence?",
         "options": [
           {
-            "id": "happy",
-            "sm": "le fiafia"
+            "id": "doer",
+            "label": "The doer"
           },
           {
-            "id": "not-happy",
-            "sm": "le lē fiafia"
+            "id": "acted",
+            "label": "The thing acted on"
           },
           {
-            "id": "not-tired",
-            "sm": "le lē vāivai"
+            "id": "setting",
+            "label": "The setting"
           }
         ],
         "prompts": [
           {
-            "en": "the being happy",
-            "answer": "happy",
-            "why": "The article stands directly before the verb, without a not-word."
+            "sm": "ʻO le teine sā tatala=ina le faitotoʻa.",
+            "answer": "doer",
+            "why": "The girl, who opened the door, has been put first."
           },
           {
-            "en": "the not being happy",
-            "answer": "not-happy",
-            "why": "The not-word *lē* stands between *le* and *fiafia*."
+            "sm": "ʻO le leo o le pepe na lagona e le tinā.",
+            "answer": "acted",
+            "why": "The whole phrase naming the voice travels to the front together."
           },
           {
-            "en": "the not being tired",
-            "answer": "not-tired",
-            "why": "The not-word denies *vāivai* inside the phrase."
+            "sm": "ʻI le faʻatoʻaga sā galue ai le tama.",
+            "answer": "setting",
+            "why": "The place phrase goes first, and *ai* points back to it from after the verb."
           }
         ]
       },
-      "intro": "Read the English carefully, including whether the event is denied."
+      "intro": "Look at the whole phrase before the rest of the sentence begins."
     },
     {
-      "id": "ch35-number-event",
+      "id": "ch34-naming-order",
       "kind": "contrast",
-      "anchor": "number-inside-the-phrase",
-      "title": "Number stays inside the verb",
+      "anchor": "order-in-the-naming-sentence",
+      "title": "Two orders for the same naming sentence",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "One",
-            "sm": "le nofo",
-            "en": "the staying of one"
+            "label": "Naming part first",
+            "sm": "ʻO se uō le tama.",
+            "en": "The boy is a friend.",
+            "note": "The naming part carries the presenting particle. The boy follows it."
           },
           {
-            "label": "More than one",
-            "sm": "le nonofo",
-            "en": "the staying of more than one"
+            "label": "The one being named first",
+            "sm": "ʻO le tama ʻo se uō.",
+            "en": "The boy is a friend.",
+            "note": "The boy carries the presenting particle because he comes first; the naming part keeps its own particle too."
           }
         ]
       },
-      "caption": "The article stays the same. A verb with a plural shape takes it inside a le-phrase when the phrase is about more than one."
+      "caption": "Both printed sentences say the same thing. The order is largely free, with the speaker and demonstrative exceptions explained above."
     }
   ]
 }

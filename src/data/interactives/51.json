@@ -1,263 +1,250 @@
 {
-  "chapter": 51,
+  "chapter": 50,
   "items": [
     {
-      "id": "ch51-feeling-articles",
+      "id": "ch50-ending-jobs",
       "kind": "grid",
-      "anchor": "the-article-sina",
-      "title": "Feeling and a small portion are different jobs",
+      "anchor": "the-ending-a",
+      "title": "An ending changes the kind of word",
       "data": {
         "cols": [
-          "Printed phrase"
+          "Base",
+          "Built word"
         ],
-        "rowLabel": "Article",
+        "rowLabel": "Ending",
         "rows": [
           {
-            "label": "*si*",
+            "label": "*=ga*",
             "cells": [
               {
-                "sm": "si pepe",
-                "en": "the dear baby",
-                "note": "One particular baby, with the speaker’s feeling left to the situation."
+                "sm": "savali",
+                "en": "walk"
+              },
+              {
+                "sm": "savaliga",
+                "en": "a walk, a march",
+                "note": "The verb becomes a noun; this particular noun has its own meaning to learn."
               }
             ]
           },
           {
-            "label": "*sina*",
+            "label": "*=a*",
             "cells": [
               {
-                "sm": "sina meaʻai",
-                "en": "a little food",
-                "note": "A small portion, which may be particular or not."
+                "sm": "ʻeleʻele",
+                "en": "earth, soil, dirt"
+              },
+              {
+                "sm": "ʻeleʻelea",
+                "en": "dirty",
+                "note": "The noun becomes a describing verb: affected by the thing the noun names."
               }
             ]
           }
         ]
       },
-      "caption": "The first article always marks a particular one. The portion article can go either way; politeness is frequent with it, rather than guaranteed."
+      "caption": "These endings change the word itself. The noun-making ending has both event-naming and learned-word jobs; the describing ending is different from a verb’s long-form ending."
     },
     {
-      "id": "ch51-plural-feeling",
+      "id": "ch50-counting-time",
+      "kind": "grid",
+      "anchor": "the-time-prefixes-a-and-ana",
+      "title": "Read the job of the prefix",
+      "data": {
+        "cols": [
+          "Base",
+          "Built word"
+        ],
+        "rowLabel": "Job",
+        "rows": [
+          {
+            "label": "Each one",
+            "cells": [
+              {
+                "sm": "lima",
+                "en": "five"
+              },
+              {
+                "sm": "taʻilima",
+                "en": "five each"
+              }
+            ]
+          },
+          {
+            "label": "Past time",
+            "cells": [
+              {
+                "sm": "taeao",
+                "en": "morning"
+              },
+              {
+                "sm": "anataeao",
+                "en": "this morning"
+              }
+            ]
+          },
+          {
+            "label": "Future time",
+            "cells": [
+              {
+                "sm": "taeao",
+                "en": "morning"
+              },
+              {
+                "sm": "ātaeao",
+                "en": "tomorrow morning"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "The counting prefix spreads a number over each one. The time prefixes place their words in past or future time; not every time word has a base that stands on its own."
+    },
+    {
+      "id": "ch50-piece-doubled",
       "kind": "contrast",
-      "anchor": "the-plural-articles-nai-and-ni-nai",
-      "title": "Feeling stays while reference changes",
+      "anchor": "doubling-a-piece-of-the-word",
+      "title": "A repeated piece makes this plural",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Particular girls",
-            "sm": "ʻO nāi teine.",
-            "en": "The dear girls.",
-            "note": "The speaker has particular girls in mind."
+            "label": "One girl",
+            "sm": "Sā nofo le teine.",
+            "en": "The girl stayed.",
+            "note": "The verb has no doubled piece and the noun carries *le*."
           },
           {
-            "label": "No particular girls",
-            "sm": "ʻO ni nāi teine.",
-            "en": "Some dear girls.",
-            "note": "The added *ni* makes the plural non-specific."
+            "label": "More than one girl",
+            "sm": "Sā nonofo teine.",
+            "en": "The girls stayed.",
+            "note": "The second-to-last syllable is repeated, and the particular plural has no article in front."
           }
         ]
       },
-      "caption": "Both forms carry feeling. Only *nāi* answers to the always-specific *si*, while *sina* can answer to either plural."
+      "caption": "The doubled piece is the stressed syllable. Plurality is its most common job; the chapter asks you to recognize printed forms rather than build new plurals."
     },
     {
-      "id": "ch51-emotional-speaker",
+      "id": "ch50-colour-exception",
       "kind": "contrast",
-      "anchor": "the-emotional-first-person",
-      "title": "The English stays I",
+      "anchor": "number-in-the-colour-and-size-words",
+      "title": "This small group goes the other way",
       "data": {
-        "mode": "steps",
+        "mode": "toggle",
         "states": [
           {
-            "label": "Ordinary middle slot",
-            "sm": "ʻOu te alu.",
-            "en": "I go."
+            "label": "One cat",
+            "sm": "E uliuli le pusi.",
+            "en": "The cat is black.",
+            "note": "The whole root is doubled in the singular."
           },
           {
-            "label": "Emotional middle slot",
-            "sm": "Ta te alu.",
-            "en": "I go.",
-            "note": "The speaker is emotionally involved. Humility or an appeal for help is a frequent reading, rather than a required one."
-          },
-          {
-            "label": "Named in both slots",
-            "sm": "Ta te alu ʻita.",
-            "en": "I go.",
-            "note": "The middle-slot form and the independent form both name the speaker."
+            "label": "More than one cat",
+            "sm": "E uli pusi.",
+            "en": "The cats are black.",
+            "note": "The bare root is the plural here."
           }
         ]
       },
-      "caption": "The emotional middle-slot form is *ta*, with a short vowel. *Tā*, with a long vowel, is the middle-slot word for we two, you and I."
+      "caption": "This is a small closed group of colour and size words. The doubled form is singular in this pair, so doubling by itself does not always mean more than one."
     },
     {
-      "id": "ch51-emotional-belonging",
-      "kind": "grid",
-      "anchor": "the-emotional-belonging-forms",
-      "title": "The same four belonging choices",
-      "data": {
-        "cols": [
-          "*a*-word",
-          "*o*-word"
-        ],
-        "rowLabel": "What is possessed",
-        "quiz": true,
-        "rows": [
-          {
-            "label": "One particular thing",
-            "cells": [
-              {
-                "sm": "lata taʻavale",
-                "en": "my car"
-              },
-              {
-                "sm": "lota fale",
-                "en": "my house"
-              }
-            ]
-          },
-          {
-            "label": "One thing, any one",
-            "cells": [
-              {
-                "sm": "sata taʻavale",
-                "en": "a car of mine"
-              },
-              {
-                "sm": "sota fale",
-                "en": "a house of mine"
-              }
-            ]
-          },
-          {
-            "label": "More than one, particular",
-            "cells": [
-              {
-                "sm": "ata taʻavale",
-                "en": "my cars"
-              },
-              {
-                "sm": "ota fale",
-                "en": "my houses"
-              }
-            ]
-          },
-          {
-            "label": "More than one, any ones",
-            "cells": [
-              {
-                "sm": "ni ata taʻavale",
-                "en": "some cars of mine"
-              },
-              {
-                "sm": "ni ota fale",
-                "en": "some houses of mine"
-              }
-            ]
-          }
-        ]
-      },
-      "caption": "The article element changes for number and reference, while the emotional person stays joined behind the belonging word. The English is the same as for the ordinary forms."
-    },
-    {
-      "id": "ch51-read-belonging",
-      "kind": "sort",
-      "anchor": "the-emotional-belonging-forms",
-      "title": "Keep number and reference apart",
-      "data": {
-        "bins": [
-          {
-            "id": "one-specific",
-            "label": "One particular thing"
-          },
-          {
-            "id": "one-any",
-            "label": "One thing, any one"
-          },
-          {
-            "id": "many-specific",
-            "label": "More than one, particular"
-          },
-          {
-            "id": "many-any",
-            "label": "More than one, any ones"
-          }
-        ],
-        "items": [
-          {
-            "sm": "lota fale",
-            "en": "my house",
-            "bin": "one-specific",
-            "why": "The form carries the specific singular article element."
-          },
-          {
-            "sm": "sota fale",
-            "en": "a house of mine",
-            "bin": "one-any",
-            "why": "The form carries the non-specific singular article element."
-          },
-          {
-            "sm": "ata taʻavale",
-            "en": "my cars",
-            "bin": "many-specific",
-            "why": "The plural form has no article element for the particular cars."
-          },
-          {
-            "sm": "ni ota fale",
-            "en": "some houses of mine",
-            "bin": "many-any",
-            "why": "The separate *ni* marks more than one, with no particular houses meant."
-          }
-        ]
-      },
-      "intro": "Choose both how many things are named and whether particular ones are meant."
-    },
-    {
-      "id": "ch51-pick-feeling-article",
+      "id": "ch50-built-meaning",
       "kind": "pick",
-      "anchor": "the-article-sina",
-      "place": "end",
-      "title": "Dear one or a little of it",
-      "intro": "Fill the gap with the article that gives the English.",
+      "anchor": "what-a-doubled-word-can-carry",
+      "title": "Read the built word, not just its shape",
       "data": {
-        "question": "Which article fills the gap?",
+        "question": "What does this printed built word express?",
         "options": [
           {
-            "id": "si",
-            "sm": "si"
+            "id": "repeated",
+            "label": "Treading repeatedly"
           },
           {
-            "id": "sina",
-            "sm": "sina"
+            "id": "difficulty",
+            "label": "Swallowing with difficulty"
           },
           {
-            "id": "le",
-            "sm": "le"
+            "id": "mutual",
+            "label": "Loving one another"
+          },
+          {
+            "id": "affected",
+            "label": "Being dirty"
           }
         ],
         "prompts": [
           {
-            "sm": "___ teine",
-            "en": "the dear girl",
-            "answer": "si",
-            "why": "*Si* names one particular girl and carries the speaker's feeling for her. *Le* names her and leaves the feeling unsaid."
+            "sm": "solisoli",
+            "answer": "repeated",
+            "why": "This doubled word states repetition directly."
           },
           {
-            "sm": "ʻAumai ___ vai.",
-            "en": "Bring a little water.",
-            "answer": "sina",
-            "why": "*Sina* names a small portion of what the noun names: not the water, a little water."
+            "sm": "folofolo",
+            "answer": "difficulty",
+            "why": "The doubled word has a learned meaning, swallowing with difficulty, rather than a plain again-and-again translation."
           },
           {
-            "sm": "___ maile",
-            "en": "the poor dog",
-            "answer": "si",
-            "why": "Sympathy for one particular dog is the job of *si*. *Sina* would name a portion, not a dog."
+            "sm": "fealofani",
+            "answer": "mutual",
+            "why": "The prefix and ending together give the one-another reading."
           },
           {
-            "sm": "___ taimi",
-            "en": "a little time",
-            "answer": "sina",
-            "why": "A little of something is a portion, so the article is *sina*. *Si* always names one particular one."
+            "sm": "ʻeleʻelea",
+            "answer": "affected",
+            "why": "The noun becomes a describing verb: affected by the dirt the noun names."
+          }
+        ]
+      },
+      "intro": "Use the chapter’s meaning for the whole word; a visible piece does not settle every meaning."
+    },
+    {
+      "id": "ch50-pick-one-another",
+      "kind": "pick",
+      "anchor": "the-prefix-fe",
+      "place": "end",
+      "title": "Each other, or to and fro",
+      "intro": "Read the English, then choose the built word that means it.",
+      "data": {
+        "question": "Which built word means this?",
+        "options": [
+          {
+            "id": "fealofani",
+            "sm": "fealofani"
+          },
+          {
+            "id": "femataai",
+            "sm": "femātaaʻi"
+          },
+          {
+            "id": "feiloai",
+            "sm": "feiloaʻi"
+          },
+          {
+            "id": "fealuai",
+            "sm": "fealuaʻi"
+          }
+        ],
+        "prompts": [
+          {
+            "en": "love one another",
+            "answer": "fealofani",
+            "why": "*Fealofani* is *alofa* (love) with *fe-* in front: the loving runs between the participants."
+          },
+          {
+            "en": "look at one another",
+            "answer": "femataai",
+            "why": "*Femātaaʻi* is built on *mata* (look), with *fe-* in front and the ending *-aʻi* behind."
+          },
+          {
+            "en": "meet",
+            "answer": "feiloai",
+            "why": "*Feiloaʻi* is the perceiving verb *ilo* with *fe-* in front and *-aʻi* behind, the word you already use for meeting somebody."
+          },
+          {
+            "en": "go quickly, hurry",
+            "answer": "fealuai",
+            "why": "*Fealuaʻi* is built on *alu* (go). On a verb of movement the same pattern means to and fro or quickly, not one another."
           }
         ]
       }

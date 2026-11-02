@@ -1,297 +1,253 @@
-# Chapter 48: The Mood Particles
+# Chapter 47: Word Class Flexibility
 
-This chapter completes the tense particles with the four mood particles,
-polite-command *ʻia*, wish-and-permission *seʻi*, until *seʻia* and warning
-*neʻi*, which stand where a tense particle stands, and shows you how to make a
-polite command, ask permission, make a wish, say until when, and warn against
-what should not happen.
-
----
-
-## The Four Mood Particles
-
-::: {.examples}
-*ʻIa tātou ʻonosaʻi.* Let's be patient.
-
-*Seʻi oʻu alu muamua.* Let me go first.
-:::
-
-Neither sentence has a tense particle. In the first, *ʻia* stands where *sā* or
-*ʻua* would stand, in front of the preverbal pronoun *tātou* (we, you and I and others) and
-the verb *ʻonosaʻi* (be patient). In the second, *seʻi* stands in the same place,
-in front of *oʻu*, the second shape of the word for I, and *alu muamua* (go
-first). Neither word says when the event happens. Each says how the speaker
-stands toward it: asked for, wanted, allowed.
-
-A word that stands in the tense particle's slot and says how an event is
-wanted, waited for or warned against is called a **mood particle**. Sāmoan has
-four, and each is named by its job:
-
-| Particle | Job |
-|---|---|
-| *ʻia* | a polite command: something requested or wanted |
-| *seʻi* | a wish, a request for permission, a polite request |
-| *seʻia* | until |
-| *neʻi* | a warning: something that should not happen |
-
-The order is the one the tense particles use: the mood particle comes first,
-then a preverbal pronoun if the clause has one, then the verb. You have met two
-of the four already, *ʻia* opening a reported command and *neʻi* after the
-do-not verb and in a purpose clause.
-
-> *Note:* The four look alike, and it is easy to take one for another. Keep
-> them apart on one line of jobs: *seʻi* wishes and asks, *ʻia* commands
-> politely, *seʻia* waits until, *neʻi* warns. *Seʻia* is also the only one of
-> the four that never takes a preverbal pronoun.
+This chapter completes the principle set out in the Introduction as the slot
+rule, under which a word such as *uō* (friend) is a verb when it fills the verb
+slot of a sentence and a noun when it fills a noun slot. It also sorts the nouns
+that rule produces into five kinds, and shows you how to read a word's class
+from its slot and why a name that refers to people takes the place word *iā*.
 
 ---
 
-## The Polite-Command Particle *ʻIa*
+## The Slot Rule
 
 ::: {.examples}
-*ʻIa ʻe ʻonosaʻi.* Be patient.
-
-*ʻIa manuia le malaga.* Have a nice trip. (Lit. "May the journey be nice.")
+*E alofa le tama ʻi le teine.* The boy loves the girl.
 :::
 
-*ʻIa* marks what the verb names as something requested or wanted. Said to the
-person you are talking to, it makes a polite command, as in the first sentence.
-Said of something else, it asks for that thing to come about, as in the second,
-one of the everyday wishes for a trip, a day or a night. *ʻIa* asks plainly: it
-has none of the hopeful colouring that *seʻi* has.
+This sentence has three words that carry meaning of their own, and each one
+stands in a slot. *Alofa* (love) stands after the general particle *e*. *Tama*
+(boy) stands after the article *le*. *Teine* (girl) stands after *ʻi le*, the
+place word and the article.
 
-The pattern has three parts in a fixed order: *ʻia*, then a preverbal pronoun or
-nothing, then the verb. A noun naming who or what the clause is about comes
-after the verb.
+A word's class is the kind of word it is: a verb, a noun, and so on. The slot a
+word fills tells you its class. The verb slot is the place where a word takes a
+tense particle in front of it, and where it can also take the not-word *lē*. A noun slot is the place where a word takes an article in
+front of it, or a possessive form standing where the article stands, and where
+the place word *ʻi* or the presenting particle *ʻo* can mark it. The rule that a
+word in the verb slot is a verb and a word in a noun slot is a noun is called
+the **slot rule**. Read the slot, and you know the class.
 
-| Sāmoan | English |
-|---|---|
-| *ʻIa tātou ʻonosaʻi.* | Let's be patient. |
-| *ʻIa ʻe ʻonosaʻi.* | Be patient. |
-| *ʻIa manuia le malaga.* | Have a nice trip. (Lit. "May the journey be nice.") |
-| *ʻIa manuia le aso.* | Have a nice day. (Lit. "May the day be nice.") |
+The rule has two halves:
 
-An *ʻia* clause can stand as a whole sentence, as these do. It can also sit
-inside a longer sentence, in the two uses below.
-
-### Reporting a Command
-
-::: {.examples}
-*Faʻatali.* Wait.
-
-*ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.* The boy gave the order that the girl should wait.
-:::
-
-The first sentence is a command said straight to a person: the bare verb, with
-no particle. The second passes that command on, and the reported clause opens
-with *ʻia*. A bare command like *Faʻatali* can be passed on in this way, as an
-*ʻia* clause. This is the reported command you met with the say-verbs, and it
-is the same *ʻia*.
-
-### Saying What an Action Is For
-
-::: {.examples}
-*Tatalo ʻina ʻia maua se fesoasoani.* Pray in order to get some help.
-
-*Tatalo ʻia maua se fesoasoani.* Pray to get some help.
-:::
-
-An *ʻia* clause after another clause can say what the first action is for. In
-the first sentence *ʻina* stands in front of *ʻia*, and the pair *ʻina ʻia* means
-in order to. The joining word *ʻina* marks the clause as part of the sentence
-before it. After a verb of saying or ordering, *ʻina ʻia* reports a command
-instead.
-
-In the second sentence no word joins the two clauses. The *ʻia* clause still
-says what the praying is for, and this is the purpose clause met earlier, with
-*ʻia* in the place of the general particle. What is not settled is how closely
-such a clause belongs to the one before it, since nothing in its words shows the
-link. Read it for its meaning, a purpose.
-
-| Part | Form | Function |
+| Slot | In front of the word | Class |
 |---|---|---|
-| first clause | *Tatalo* | the action |
-| joining word | *ʻina*, or none | marks the link, when present |
-| *ʻia* clause | *ʻia maua se fesoasoani* | what the action is for |
+| verb slot | a tense particle such as *e*, *sā* or *ʻua* | verb |
+| noun slot | an article such as *le*, or a possessive form | noun |
+
+The slot rule covers the words that carry meaning of their own, in the ordinary
+verb sentence this book has built on from the start. Particles such as
+*le* and *e* are not sorted by it. Nor does it reach inside a le-phrase: there an
+article stands in front of a verb, and the word is still a verb, which is why it
+can still take the not-word *lē*. The Introduction called this principle "a
+word is what it does", and the book has leaned on it ever since: the describing
+words are verbs, *leai* is a verb, and a number is a kind of verb. Each of those
+is a word doing a verb's job in the verb slot.
+
+::: {.examples}
+*E ʻonosaʻi le tinā.* The mother is patient.
+
+*Sā alu le tama e momoli le tusi.* The boy went to deliver the letter.
+:::
+
+In the first sentence *ʻonosaʻi* (be patient) follows *e*, so it is a verb, and
+*tinā* (mother) follows *le*, so it is a noun. In the second, *momoli* (bring,
+deliver) follows the *e* that heads a purpose clause, so it is a verb too, and
+*tusi* (letter) follows *le*.
 
 ---
 
-## The Wish-and-Permission Particle *Seʻi*
+## One Word in Two Slots
 
 ::: {.examples}
-*Seʻi oʻu fesili.* Let me ask.
+*E uō le tama ma le teine.* The boy and the girl are friends.
 
-*Faʻamolemole, seʻi faʻatali.* Please wait.
-
-*Seʻi sau se isi.* May someone come. (Lit. "Let someone come.")
+*E alofa le tama ʻi lana uō.* The boy loves his friend.
 :::
 
-*Seʻi* marks an event that has not happened yet and that the speaker, or
-somebody else, wants to happen. What it does depends on who the clause is
-about. About the speaker, it asks permission politely, as in the first
-sentence. Addressed to the person spoken to, it makes a polite request, as in
-the second. About someone who is neither the speaker nor the listener, it says
-that the speaker wants the event to come true, as in the third.
+Compare the two sentences. Which slot does *uō* fill in each?
 
-| Sāmoan | English | Job |
+In the first sentence *uō* stands straight after the general particle *e*. It
+fills the verb slot, so there it is a verb, "be friends". In the second it
+stands after *lana* (his), the possessive form in the article's place. It fills
+a noun slot, so there it is a noun, "friend".
+
+This is not a noun pressed into service as a verb, and it is not two different
+words that happen to sound alike. *Uō* has no fixed class of its own. What it
+brings with it is the ability to fill either kind of slot, and the sentence
+decides which one it fills. Many word roots, perhaps the majority, work
+this way.
+
+::: {.examples}
+*Sā nofo le loʻomatua.* The old woman stayed.
+
+*ʻUa loʻomatua aʻu.* I have become an old woman.
+:::
+
+*Loʻomatua* (old woman) fills a noun slot after *le* in the first sentence and
+the verb slot after the change particle *ʻua* in the second. The meaning stays
+the same in both slots: an old woman, and being an old woman.
+
+::: {.examples}
+*Sā nofo le teine.* The girl stayed.
+
+*Sā teine lona tinā.* His mother was once a girl. (Lit. "Past girl his mother.")
+:::
+
+*Teine*, one of the first nouns in this book, fills the verb slot after the past
+particle *sā* in the second sentence. The same goes for the other words in this
+table:
+
+| Word | As a noun | As a verb |
 |---|---|---|
-| *Seʻi oʻu alu muamua.* | Let me go first. | asks permission |
-| *Seʻi oʻu fesili.* | Let me ask. | asks permission |
-| *Faʻamolemole, seʻi faʻatali.* | Please wait. | polite request |
-| *Seʻi sau se isi.* | May someone come. | wish |
-| *Seʻi sau le tama.* | May the boy come. | wish |
+| *uō* | friend | be friends |
+| *loʻomatua* | old woman | be an old woman |
+| *ʻolomatua* | old woman | be an old woman |
+| *teine* | girl | be a girl |
+| *teineitiiti* | girl | be a girl |
+| *tamaitiiti* | boy, child | be a child |
 
-> *Note:* *Seʻi* can also be combined with another tense particle. The meanings
-> in this section belong to *seʻi* standing on its own.
+*ʻOlomatua* is a second word for an old woman, and *teineitiiti* a second word
+for a girl; *tamaitiiti* means a boy or a child.
 
-> *Note:* The stop verb *sōia*, met earlier in this book, can also follow *seʻi*.
-> Said straight to a person, it is then a request to stop in the wish form of
-> this section, not the bare command taught earlier. Recognize it when you meet
-> it; this chapter does not drill it.
-
-### How Firm the Request Is
-
-::: {.examples}
-*Seʻi alofa atu, ʻia alofa atu.* Please take pity on me, take pity on me. (Lit. "Seʻi love away, ʻia love away.")
-:::
-
-Compare the two halves. Which word changed, and what did the change do?
-
-The verb *alofa* and the direction word *atu* stay. *Seʻi* has become *ʻia*,
-and the speaker, saying the plea a second time, makes it firmer. *Seʻi* puts a
-wish or a request less absolutely than *ʻia* does, so a request made with
-*seʻi* can be repeated more strongly by putting *ʻia* where *seʻi* stood. The
-two particles are not two ways of saying the same thing: *seʻi* is the softer,
-more hopeful one, and *ʻia* the plainer and firmer one.
-
-### A Second Clause with *Seʻi*
-
-::: {.examples}
-*ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua.* I want to go to Sāmoa to take care of my parents. (Lit. "I want to go to Sāmoa, seʻi look toward my parents.")
-
-*Faʻamolemole, ʻaumai se moli seʻi ʻai ai le loʻomatua.* Please bring an orange for the old woman to eat. (Lit. "Please bring an orange, let the old woman eat from it.")
-:::
-
-Each of these sentences has two clauses, and the second opens with *seʻi*. The
-second clause says what the speaker wishes for through the first: the going is
-for the parents, the orange is for the old woman. The first clause can carry a
-word of wanting, as *fia* (want to) does in the first sentence, or a request, as
-in the second.
-
-The pattern has two parts in a fixed order: the first clause, then *seʻi* with
-the verb of the second clause.
-
-No joining word ties the *seʻi* clause to the first, and nothing in the grammar
-of the words marks it as part of the first. The way Sāmoan speakers say such
-sentences, and the way Sāmoan writers punctuate them, suggests that the second
-clause belongs to the first.
-
-> *Note:* *Oʻu* in *oʻu mātua* is the my-word for more than one particular
-> thing, met earlier, not the word for I. *Ai* in the second sentence is the
-> pointing-back word: the old woman eats from the orange.
+> *Note:* Not every root turns up equally often in both slots. Some are found
+> mostly as verbs and others mostly as nouns, and a word's meaning makes one use
+> more likely than the other, but a word's class is far from predictable from its
+> meaning. *Alu* (go) has not been recorded in a noun slot, nor *mea* (thing) in
+> the verb slot, and neither is ruled out, while *iʻa* (fish), which looks like a
+> word for a thing and nothing else, has been found in the verb slot.
 
 ---
 
-## The Until Particle *Seʻia*
+## Number in the Two Slots
 
 ::: {.examples}
-*Faʻatali seʻia sau le tama.* Wait until the boy comes.
+*Sā nofo le teine.* The girl stayed.
 
-*Faʻatali seʻia fai oʻu ʻofu.* Wait until I have put on my clothes. (Lit. "Wait until do my clothes.")
+*Sā nonofo teine.* The girls stayed.
 :::
 
-*Seʻia* means until. It is mostly used to say how long something goes on: here,
-the waiting lasts until the boy comes. The pattern has three parts in a fixed
-order: the main clause, then *seʻia*, then the verb, with any noun naming who
-or what that clause is about after the verb.
+These sentences recall the plural verb forms. The verb changes shape for more
+than one: *nofo* becomes *nonofo*, as *uliuli* (black) becomes *uli*. The noun
+*teine* keeps one shape, and its number shows in the article, *le* for one
+particular girl and no article for the particular girls. About 350 words have a
+plural shape when they fill the verb slot, but not when they fill a noun slot.
 
-*Seʻia* never takes a preverbal pronoun. No *oʻu*, *ʻe* or *tātou* ever stands
-after it. In the second sentence the person dressing is not named by a pronoun
-at all; the clause names the clothes.
+The word *fana* shows both halves. In the verb slot, meaning "shoot", it has a
+plural shape of its own. In a noun slot, meaning "gun", it keeps one shape:
 
-| Sāmoan | English |
+::: {.examples}
+*ʻo le fana*. the gun
+
+*ʻo fana*. the guns
+:::
+
+Under the slot rule, number follows the slot:
+
+| Slot | Where number shows |
 |---|---|
-| *Faʻatali seʻia sau le tama.* | Wait until the boy comes. |
-| *Faʻatali seʻia sau lou tinā.* | Wait until your mother comes. |
-| *Sā ʻou faʻatali seʻia sau le pasi.* | I waited until the bus came. |
-| *Faʻatali seʻia fai oʻu ʻofu.* | Wait until I have put on my clothes. (Lit. "Wait until do my clothes.") |
+| verb slot | in the verb's own shape, for a verb that has a plural form |
+| noun slot | in the article |
 
-> *Note:* Sometimes *seʻi* also means until, and then it can take a preverbal
-> pronoun, as in *ʻAua ʻe te alu seʻi oʻu sau.* Don't go until I come. (Lit.
-> "Don't go, I want to come.") *Seʻia* is the word whose job is until.
+> *Note:* Eight words break this pattern and change shape for number in both
+> slots; all eight name a person's age or married life, and each means the same
+> in either slot. You have met *matua* (parent), plural *mātua*, *tamāloa* (a
+> married man), *toeaʻina* (an old man) and the word for a young man, while
+> *loʻomatua*, *ʻolomatua*, *tamaitiiti* and *teineitiiti*, the four new words of
+> this chapter, make up the rest of the eight, and each plural shape is a separate
+> word to learn. One further word, for a man's
+> sister, changes shape for number only in a noun slot.
 
 ---
 
-## The Warning Particle *Neʻi*
+## The Five Kinds of Noun
 
 ::: {.examples}
-*E lē tago ʻi se mea neʻi palapalā ona atigi-lima.* She did not touch anything, in order not to get dirty finger-nails. (Lit. "Not touch any thing, lest dirty her finger-nails.")
+*ʻo le lafu*. the herd
+
+*ʻo se lafu*. a herd, any herd
+
+*ʻo lafu*. the herds
+
+*ʻo ni lafu*. some herds, any herds
 :::
 
-*Neʻi* marks an event that has not happened, that might happen, and that should
-not. Here the dirty finger-nails are what the not-touching guards against.
-*Tago* (touch) takes the place word before what is touched, *palapalā* (dirty)
-fills the verb slot of the second clause, and *atigi-lima* (finger-nail) is one
-word built from the words for shell and hand, joined by a hyphen. *Ona* is the
-third-person (his, her or its) form for more than one particular thing, translated
-"her" here because the person is a woman, formed as *oʻu* is for my.
+Once the slot rule has made a word a noun, that noun belongs to one of five
+kinds, sorted by how it behaves in the sentence. The sorting is called **the
+five kinds of noun**. It is the noun half of the slot rule, not a second system:
+every word below is a noun of its kind only while it fills a noun slot.
 
-A *neʻi* clause always depends on another clause and never stands alone as a
-sentence. That is what separates it from the not-word *lē*, which the first
-clause of the same sentence uses: *lē* says that something is not so, while
-*neʻi* speaks of something that has not happened and should not, and it always
-leans on another clause.
-
-| Part | Form | Function |
+| Kind | Example | Articles |
 |---|---|---|
-| first clause | *E lē tago ʻi se mea* | what is done, or not done |
-| *neʻi* clause | *neʻi palapalā ona atigi-lima* | what should not happen |
+| ordinary noun | *fale* (house) | yes |
+| group word | *lafu* (herd) | yes |
+| spatial noun | *totonu* (inside) | usually none |
+| name | *Ulika*, *Sāmoa* | usually none |
+| calling word | not taught here | none |
 
-### After the Do-Not Verb
+An ordinary noun names one thing of its kind, and a group word names a group of
+people or animals taken as one unit. Both take the articles, which mark one or
+more and a particular one or any one, as the four phrases above show for the
+group word *lafu* (herd).
 
 ::: {.examples}
-*ʻAua ʻe te siva.* Don't dance.
-
-*ʻAua neʻi ʻe siva.* Don't dance.
+*ʻO totonu o le fale.* The inside of the house.
 :::
 
-After the do-not verb *ʻaua*, when what should not be done is said as a clause
-with its own verb, it takes one of two forms: the general particle met earlier,
-*e* (*te* after a pronoun), or *neʻi*. The le-phrase met earlier still stands
-after *ʻaua* as well. Both sentences here have the preverbal pronoun *ʻe*, so the first shows
-*te*: the pronoun, then *te*, then the verb. The second has *neʻi*, then the
-pronoun, then the verb. The pronoun stands in front of *te* but behind *neʻi*.
+A spatial noun and a name usually take no article, with a few exceptions,
+because each already points at one particular thing: one region of space, one
+person, one place. In this phrase the spatial noun *totonu* has no article, and
+the ordinary noun *fale* has *le*. The fifth kind, the calling words, are the
+words used to call out to someone and catch their attention. They belong to
+casual, familiar speech and are not taught in this chapter.
 
-| After *ʻaua*, with a pronoun | Order |
+Two further divisions cut across all five kinds: a noun names a person or it
+does not, and it names a person or an animal or it does not.
+
+### Group Words
+
+::: {.examples}
+*Sā nonofo le ʻāiga.* The family stayed.
+:::
+
+*ʻĀiga* (family) is a group word, like *lafu* (herd), *fānau* (offspring) and
+*ulugāliʻi* (couple). The group word itself stays singular in shape, with *le*
+in front of it, and the verb often takes its plural form, because a family is
+many people. That is the plural verb form met earlier, now given its place in
+the noun system: a group word is the kind of noun that behaves this way.
+
+### Names and the Place Word *Iā*
+
+::: {.examples}
+*Alu iā Ulika.* Go to Ulika.
+
+*Alu ʻi Sāmoa.* Go to Sāmoa.
+:::
+
+Names are the one kind of noun that changes the place word in front of them.
+Before the name of a person, the place word takes the shape *iā*. Before the
+name of a place, it stays *ʻi*. What selects *iā* is that the name refers to
+people:
+
+::: {.examples}
+*ʻi Sāmoa*. in Sāmoa
+
+*iā Sāmoa*. among the Sāmoans
+:::
+
+When *Sāmoa* names the place, it takes *ʻi*. When it names the people who live
+there, it takes *iā*. So the rule is not that every name takes *iā*: a name
+takes *iā* when it refers to a person or a people. An ordinary noun keeps *ʻi*
+even when it names a person, as in *E alofa le tama ʻi le teine*. A place name
+used for its people can also take an article, the way an ordinary noun does.
+
+| Word | Stands before |
 |---|---|
-| *te* | pronoun, *te*, verb |
-| *neʻi* | *neʻi*, pronoun, verb |
+| *iā* | a name that refers to a person or a people |
+| *ʻi* | a name that refers to a place, or an ordinary noun |
 
-::: {.examples}
-*ʻAua neʻi ʻe pisa.* Don't make any noise.
-:::
-
-In this sentence *pisa* (noise) fills the verb slot, where it means make a
-noise.
-
-> *Note:* The *neʻi* version can carry the force of a warning: *ʻAua neʻi ʻe
-> pisa* can be heard as "don't you dare make any noise".
-
-### After Worry, Fear and Dislike
-
-::: {.examples}
-*ʻO le isi foʻi mea e popole ʻi ai le faifeʻau, neʻi tei ʻua foʻi le malaga ʻi Sāmoa.* Another thing the pastor was worried about was that the travel party might suddenly return to Sāmoa. (Lit. "The other also thing the pastor worries about, lest suddenly has returned the travel party to Sāmoa.")
-:::
-
-In this example *popole* (worry) names a feeling about something that should not
-happen, and what the pastor worries about is put in a *neʻi* clause. Here the *neʻi* clause names what
-the *faifeʻau* (pastor) was worried about: the travel party coming back. *Foʻi*
-stands twice, meaning also the first time and return the second, and *tei* here
-means happen suddenly.
-
-*Fefe* (be afraid) and *musu* (dislike) take the same kind of *neʻi* clause, and
-perhaps a few other verbs of thinking and feeling do too. After these verbs
-*ʻia* and *neʻi* are sometimes used together, as *ʻia neʻi*.
+> *Note:* In the Sāmoan of the Bible, and now and then in modern writing, *iā*
+> also appears before the names of months. Everyday modern Sāmoan uses *ʻi*
+> there.
 
 ---
 
@@ -301,98 +257,113 @@ perhaps a few other verbs of thinking and feeling do too. After these verbs
 
 | Word | What it does |
 |---|---|
-| *ʻia* | the polite-command particle, met earlier: asks plainly for what is wanted; heads a sentence, a reported command, or a purpose clause (*ʻina ʻia*, in order to) |
-| *seʻi* | the wish-and-permission particle: asks permission about the speaker, makes a polite request to the listener, states a wish about someone else; less absolute than *ʻia* |
-| *seʻia* | the until particle: never takes a preverbal pronoun |
-| *neʻi* | the warning particle, met earlier: something that should not happen; its clause always depends on another |
-| *ʻia neʻi* | *ʻia* and *neʻi* used together, sometimes, after verbs of worry, fear and dislike |
+| *iā* | the place word before a person, met earlier: stands before a name that refers to a person or a people |
+| *ʻi* | the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person |
+| *uō* | met earlier as a noun, friend; in the verb slot, be friends |
+
+*ʻĀiga* (family), met earlier in this book, is reused here.
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *musu* | dislike |
-| *palapalā* | dirty |
-| *tago* | touch |
-| *atigi-lima* | finger-nail |
-| *faifeʻau* | pastor |
-| *pisa* | noise; in the verb slot, make a noise |
+| *lafu* | herd |
+| *momoli* | bring, deliver |
+| *ʻonosaʻi* | be patient |
+| *loʻomatua* | old woman |
+| *tamaitiiti* | boy, child |
+| *teineitiiti* | girl |
+| *ʻolomatua* | old woman |
 
 ---
 
 ## Exercises
 
-### Exercise 1: Translate into English
+### Exercise 1: Verb or noun
 
-1. *ʻIa tātou ʻonosaʻi.*
-2. *Seʻi oʻu fesili.*
-3. *Faʻatali seʻia sau le tama.*
-4. *ʻAua neʻi ʻe tagi.*
-5. *ʻIa manuia le aso.*
-6. *Tatalo ʻia maua se fesoasoani.*
-7. *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu uso.*
-8. *Faʻamolemole, ʻaumai se meaʻai seʻi ʻai ai le toeaʻina.*
+Say whether the word named after each sentence fills the verb slot or a noun
+slot, and so whether it is a verb or a noun in that sentence.
 
-### Exercise 2: Translate into Sāmoan
+1. *E uō le tama ma le teine.* (*uō*)
+2. *E alofa le teine ʻi lana uō.* (*uō*)
+3. *ʻUa loʻomatua aʻu.* (*loʻomatua*)
+4. *Sā nofo le loʻomatua.* (*loʻomatua*)
+5. *Sā teine lona tinā.* (*teine*)
+6. *E ʻonosaʻi le tamaitiiti.* (*ʻonosaʻi*)
+7. *Sā tamaitiiti lona tamā.* (*tamaitiiti*)
+8. *Sā alu le teine e momoli le ipu.* (*ipu*)
 
-Use the mood particle named after each sentence.
+### Exercise 2: Translate into English
 
-1. Let me go first. (*seʻi*)
-2. Wait until your mother comes. (*seʻia*)
-3. Don't dance. (*neʻi*)
-4. Be patient. (*ʻia*)
-5. I waited until the bus came. (*seʻia*)
-6. Please bring an orange for the old woman to eat. (*seʻi*)
+1. *E alofa le tama ʻi le teine.*
+2. *ʻUa ʻolomatua aʻu.*
+3. *Sā teineitiiti lona tinā.*
+4. *Sā nonofo le ʻāiga.*
+5. *Sā alu le teine e momoli le tusi.*
+6. *E ʻonosaʻi le teine.*
+7. *Sā nofo le tamaitiiti.*
 
-### Exercise 3: Put *te* or *neʻi* in the gap
+### Exercise 3: Make it plural
 
-1. *ʻAua ʻe \_\_\_ siva.*
-2. *ʻAua \_\_\_ ʻe siva.*
-3. *ʻAua \_\_\_ ʻe tagi.*
-4. *ʻAua ʻe \_\_\_ nofo.*
-5. *ʻAua ʻe \_\_\_ alu seʻi oʻu sau.*
+Rewrite each so that it speaks of more than one, changing only what has to
+change. Then say which word changed shape, if any did.
 
-### Exercise 4: Rewrite with *neʻi*
+1. *Sā nofo le teine.*
+2. *E uliuli le pusi.*
+3. *ʻo le fana*
+4. *ʻo le lafu*
+5. *ʻo le uō*
+6. *ʻo le pusi*
+7. *ʻo le teine*
 
-Rewrite each prohibition with *neʻi* in place of *te*, putting the pronoun where
-*neʻi* needs it.
+### Exercise 4: Choose *ʻi* or *iā*
 
-1. *ʻAua ʻe te nofo.*
-2. *ʻAua ʻe te moe.*
-3. *ʻAua ʻe te taumafai.*
-4. *ʻAua ʻe te faitala.*
-5. *ʻAua ʻe te pisa.*
+Fill the gap so that the Sāmoan matches the English.
 
-### Exercise 5: What does *seʻi* do?
+1. *Alu \_\_\_ Ulika.* (Go to Ulika.)
+2. *Alu \_\_\_ Sāmoa.* (Go to Sāmoa.)
+3. *\_\_\_ Sāmoa* (among the Sāmoans)
+4. *\_\_\_ Sāmoa* (in Sāmoa)
+5. *E alofa le tama \_\_\_ le teine.* (The boy loves the girl.)
+6. *Sā nonofo \_\_\_ Sāmoa.* (They lived in Sāmoa.) (Lit. "Past live in Sāmoa.")
 
-Say whether each sentence asks permission, makes a polite request, or states a
-wish.
+### Exercise 5: Name the kind of noun
 
-1. *Seʻi oʻu alu muamua.*
-2. *Faʻamolemole, seʻi faʻatali.*
-3. *Seʻi sau le tama.*
-4. *Seʻi oʻu fesili.*
-5. *Seʻi sau se isi.*
+1. *fale*
+2. *ʻāiga*
+3. *totonu*
+4. *Ulika*
+5. *lafu*
+6. *tama*
+7. *ulugāliʻi*
 
-### Exercise 6: Answer in English
+### Exercise 6: Translate into Sāmoan
 
-1. In *ʻAua ʻe te alu seʻi oʻu sau*, why could *seʻia* not stand where *seʻi* stands?
-2. Which is the firmer plea, *seʻi alofa atu* or *ʻia alofa atu*?
-3. Can a *neʻi* clause stand on its own as a sentence?
-4. In *E lē tago ʻi se mea neʻi palapalā ona atigi-lima*, what does the *neʻi* clause name?
-5. In *ʻOu te fia alu ʻi Sāmoa seʻi vaʻai atu oʻu mātua*, what suggests that the *seʻi* clause belongs to the first clause?
-6. Name three verbs of feeling that take a *neʻi* clause about something that should not happen.
-7. In *Tatalo ʻina ʻia maua se fesoasoani*, what does the word *ʻina* do?
-8. In *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine*, which word opens the reported command, and which bare command does the sentence pass on?
+1. The boy loves his friend.
+2. I have become an old woman.
+3. The family stayed.
+4. Go to Ulika.
+5. The girls stayed.
+6. The mother is patient.
 
-### Exercise 7: Give the English
+### Exercise 7: Answer in English
 
-1. *musu*
-2. *palapalā*
-3. *tago*
-4. *atigi-lima*
-5. *faifeʻau*
-6. *pisa*
+1. In *E uō le tama ma le teine*, what tells you that *uō* is a verb?
+2. Is *uō* in that sentence a noun that has been turned into a verb?
+3. Why does *Sāmoa* take *iā* in *iā Sāmoa* but *ʻi* in *ʻi Sāmoa*?
+4. In *Sā nonofo le ʻāiga*, why is the verb plural when *le* marks one family?
+5. What do the eight words that change shape for number in both slots have in common?
+
+### Exercise 8: Give the English
+
+1. *lafu*
+2. *momoli*
+3. *ʻonosaʻi*
+4. *loʻomatua*
+5. *tamaitiiti*
+6. *teineitiiti*
+7. *ʻolomatua*
+8. *ʻāiga*
 
 ---
 
@@ -400,51 +371,65 @@ wish.
 
 ### Exercise 1
 
-1. Let's be patient.
-2. Let me ask.
-3. Wait until the boy comes.
-4. Don't cry.
-5. Have a nice day.
-6. Pray to get some help.
-7. I want to go to Sāmoa to take care of my siblings.
-8. Please bring some food for the old man to eat.
+1. Verb slot, after the general particle *e*: a verb.
+2. Noun slot, after the possessive form *lana*: a noun.
+3. Verb slot, after the change particle *ʻua*: a verb.
+4. Noun slot, after the article *le*: a noun.
+5. Verb slot, after the past particle *sā*: a verb.
+6. Verb slot, after the general particle *e*: a verb.
+7. Verb slot, after the past particle *sā*: a verb.
+8. Noun slot, after the article *le*: a noun.
 
 ### Exercise 2
 
-1. *Seʻi oʻu alu muamua.*
-2. *Faʻatali seʻia sau lou tinā.*
-3. *ʻAua neʻi ʻe siva.*
-4. *ʻIa ʻe ʻonosaʻi.*
-5. *Sā ʻou faʻatali seʻia sau le pasi.*
-6. *Faʻamolemole, ʻaumai se moli seʻi ʻai ai le loʻomatua.*
+1. The boy loves the girl.
+2. I have become an old woman.
+3. His mother was once a girl. (Lit. "Past girl his mother.") (or "Her mother")
+4. The family stayed.
+5. The girl went to deliver the letter.
+6. The girl is patient.
+7. The child stayed.
 
 ### Exercise 3
 
-1. *te* · 2. *neʻi* · 3. *neʻi* · 4. *te* · 5. *te*
+1. *Sā nonofo teine.* The verb changed shape; the noun *teine* did not.
+2. *E uli pusi.* The verb changed shape; the noun *pusi* did not.
+3. *ʻo fana*. No word changed shape; the article went.
+4. *ʻo lafu*. No word changed shape; the article went.
+5. *ʻo uō*. No word changed shape; the article went.
+6. *ʻo pusi*. No word changed shape; the article went.
+7. *ʻo teine*. No word changed shape; the article went.
 
 ### Exercise 4
 
-1. *ʻAua neʻi ʻe nofo.*
-2. *ʻAua neʻi ʻe moe.*
-3. *ʻAua neʻi ʻe taumafai.*
-4. *ʻAua neʻi ʻe faitala.*
-5. *ʻAua neʻi ʻe pisa.*
+1. *Alu iā Ulika.*
+2. *Alu ʻi Sāmoa.*
+3. *iā Sāmoa*
+4. *ʻi Sāmoa*
+5. *E alofa le tama ʻi le teine.*
+6. *Sā nonofo ʻi Sāmoa.*
 
 ### Exercise 5
 
-1. asks permission · 2. makes a polite request · 3. states a wish · 4. asks permission · 5. states a wish
+1. ordinary noun · 2. group word · 3. spatial noun · 4. name · 5. group word · 6. ordinary noun · 7. group word
 
 ### Exercise 6
 
-1. A preverbal pronoun, *oʻu*, follows the gap, and *seʻia* never takes a preverbal pronoun.
-2. *ʻIa alofa atu*. *Seʻi* is less absolute, and putting *ʻia* in its place makes the request firmer.
-3. No. A *neʻi* clause always depends on another clause.
-4. Something that should not happen: her finger-nails getting dirty.
-5. Nothing in the words. The way Sāmoan speakers say such sentences, and the way Sāmoan writers punctuate them, suggests it.
-6. *Popole* (worry), *fefe* (be afraid) and *musu* (dislike).
-7. It joins the *ʻia* clause to *tatalo* and marks it as part of the sentence before it; *ʻina ʻia* means in order to.
-8. *ʻIa* opens it. The sentence passes on the bare command *Faʻatali* (Wait).
+1. *E alofa le tama ʻi lana uō.*
+2. *ʻUa loʻomatua aʻu.* (or *ʻUa ʻolomatua aʻu.*)
+3. *Sā nonofo le ʻāiga.*
+4. *Alu iā Ulika.*
+5. *Sā nonofo teine.*
+6. *E ʻonosaʻi le tinā.*
 
 ### Exercise 7
 
-1. dislike · 2. dirty · 3. touch · 4. finger-nail · 5. pastor · 6. noise; in the verb slot, make a noise
+1. It stands straight after the general particle *e*, in the verb slot.
+2. No. *Uō* has no fixed class of its own; the verb slot makes it a verb in this sentence, and a noun slot makes it a noun in another.
+3. In *iā Sāmoa* the name refers to the people who live in Sāmoa; in *ʻi Sāmoa* it refers to the place.
+4. *ʻĀiga* is a group word: singular in shape, but it names many people, so the verb often takes its plural form.
+5. They all name a person's age or married life.
+
+### Exercise 8
+
+1. herd · 2. bring, deliver · 3. be patient · 4. old woman · 5. boy, child · 6. girl · 7. old woman · 8. family

@@ -1,208 +1,167 @@
 {
-  "chapter": 27,
+  "chapter": 26,
   "items": [
     {
-      "id": "ch27-agent-parts",
-      "kind": "anatomy",
-      "anchor": "the-agent-marker-e",
-      "title": "Find the marked doer",
+      "id": "ch26-spatial-frame",
+      "kind": "grid",
+      "anchor": "the-spatial-noun-frame",
+      "title": "The spatial noun changes the position",
+      "caption": "Each printed example keeps the spatial noun between the place word and the belonging word. The noun names a region of the thing that follows.",
       "data": {
-        "sentence": {
-          "sm": "Sā fafaga e le tama le moa.",
-          "en": "The boy fed the hen."
-        },
-        "parts": [
+        "cols": [
+          "Printed sentence"
+        ],
+        "rows": [
           {
-            "sm": "Sā fafaga",
-            "gloss": "fed",
-            "role": "Particle and verb",
-            "note": "The action comes first."
+            "label": "Behind",
+            "cells": [
+              {
+                "sm": "ʻO le lāʻau ʻi tua o le fale.",
+                "en": "The tree behind the house."
+              }
+            ]
           },
           {
-            "sm": "e le tama",
-            "gloss": "the boy",
-            "role": "Marked doer",
-            "note": "The agent marker *e* marks the boy as the one who fed the hen."
+            "label": "In front",
+            "cells": [
+              {
+                "sm": "ʻO le taʻavale ʻi luma o le fale.",
+                "en": "The car in front of the house."
+              }
+            ]
           },
           {
-            "sm": "le moa.",
-            "gloss": "the hen",
-            "role": "Unmarked participant",
-            "note": "The hen is the one the action happened to. It stands bare."
+            "label": "Under",
+            "cells": [
+              {
+                "sm": "ʻO le pusi ʻi lalo o le fale.",
+                "en": "The cat under the house."
+              }
+            ]
+          },
+          {
+            "label": "On",
+            "cells": [
+              {
+                "sm": "ʻO le ipu ʻi luga o le fala.",
+                "en": "The cup on the mat."
+              }
+            ]
+          },
+          {
+            "label": "Inside",
+            "cells": [
+              {
+                "sm": "ʻO le naifi ʻi totonu o le ʻato.",
+                "en": "The knife inside the basket."
+              }
+            ]
           }
         ]
-      },
-      "caption": "Tap each part. The agent marker marks the doer; the one the action happened to is unmarked."
+      }
     },
     {
-      "id": "ch27-doer-choice",
-      "kind": "pick",
-      "anchor": "the-two-words-spelled-e",
-      "title": "Who does the action?",
+      "id": "ch26-compass",
+      "kind": "scale",
+      "anchor": "the-directions",
+      "title": "The compass directions",
+      "caption": "Four compass positions are shown. The chapter prints two words for south, *saute* and *toga*, at the same bearing.",
       "data": {
-        "question": "Who is named as the doer?",
-        "options": [
+        "layout": "map",
+        "points": [
           {
-            "id": "boy",
-            "label": "The boy"
+            "x": 50,
+            "y": 0,
+            "label": "mātū",
+            "gloss": "North"
           },
           {
-            "id": "girl",
-            "label": "The girl"
+            "x": 0,
+            "y": 50,
+            "label": "sisifo",
+            "gloss": "West"
           },
           {
-            "id": "woman",
-            "label": "The woman"
+            "x": 100,
+            "y": 50,
+            "label": "sasaʻe",
+            "gloss": "East"
+          },
+          {
+            "x": 50,
+            "y": 100,
+            "label": "saute",
+            "gloss": "South",
+            "note": "The chapter also prints *toga* for South."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch26-sort-space-direction",
+      "kind": "sort",
+      "anchor": "words-to-learn",
+      "title": "Sort regions and directions",
+      "intro": "Place each printed noun with the regions of an object or the direction system.",
+      "data": {
+        "bins": [
+          {
+            "id": "region",
+            "label": "Region of an object"
+          },
+          {
+            "id": "direction",
+            "label": "Direction"
           }
         ],
-        "prompts": [
+        "items": [
           {
-            "sm": "Sā fafaga e le tama le moa.",
-            "answer": "boy",
-            "why": "The phrase *e le tama* marks the boy as the doer."
+            "sm": "totonu",
+            "en": "inside",
+            "bin": "region",
+            "why": "This noun names the inside region of a thing."
           },
           {
-            "sm": "Sā tatala e le teine le pusa.",
-            "answer": "girl",
-            "why": "The phrase *e le teine* marks the girl as the doer."
+            "sm": "tua",
+            "en": "back, behind",
+            "bin": "region",
+            "why": "This noun names the space at the back of a thing."
           },
           {
-            "sm": "E tausi pepe e le fafine.",
-            "answer": "woman",
-            "why": "The first *e* is the general particle; the second marks *le fafine* as the doer."
-          }
-        ]
-      },
-      "intro": "Look for the marker after the verb, then choose the person it marks."
-    },
-    {
-      "id": "ch27-omit-doer",
-      "kind": "contrast",
-      "anchor": "leaving-the-doer-out",
-      "title": "The doer can disappear",
-      "data": {
-        "mode": "toggle",
-        "states": [
-          {
-            "label": "With the doer",
-            "sm": "Sā tatala e le teine le pusa.",
-            "en": "The girl opened the box.",
-            "note": "The girl is named with the agent marker."
+            "sm": "luga",
+            "en": "top, above, on",
+            "bin": "region",
+            "why": "This noun names a top or upper region."
           },
           {
-            "label": "Without the doer",
-            "sm": "Sā tatala le pusa.",
-            "en": "The box was opened.",
-            "note": "The doer is gone. The verb keeps its shape and the box stays bare."
-          }
-        ]
-      },
-      "caption": "Switch between the printed sentences. Removing the doer adds no replacement word and makes no change to the verb."
-    },
-    {
-      "id": "ch27-pick-read-it-back",
-      "kind": "pick",
-      "anchor": "leaving-words-out",
-      "place": "end",
-      "title": "Read it back into English",
-      "intro": "Read the Sāmoan sentence, then choose the English that says what it says.",
-      "data": {
-        "question": "What does this sentence say?",
-        "prompts": [
-          {
-            "sm": "E tausi pepe e le fafine.",
-            "answer": "a",
-            "options": [
-              {
-                "id": "a",
-                "label": "The woman takes care of the babies."
-              },
-              {
-                "id": "b",
-                "label": "The woman took care of the baby."
-              },
-              {
-                "id": "c",
-                "label": "The girl took care of the baby."
-              }
-            ],
-            "why": "The first *e* stands before the bare verb and states a habit; the second stands before *le fafine* and marks her as the doer."
+            "sm": "tafatafa",
+            "en": "the side of, beside",
+            "bin": "region",
+            "why": "This noun names the side region."
           },
           {
-            "sm": "Na sāisai le moa.",
-            "answer": "a",
-            "options": [
-              {
-                "id": "a",
-                "label": "The hen was tied up."
-              },
-              {
-                "id": "b",
-                "label": "The man tied up the hen."
-              },
-              {
-                "id": "c",
-                "label": "The hen was fed."
-              }
-            ],
-            "why": "No *e*-phrase, so no doer is named: the hen is the one the tying happened to. *Sāisai* is tie up, not feed."
+            "sm": "mātū",
+            "en": "North",
+            "bin": "direction",
+            "why": "This is one of the compass direction nouns."
           },
           {
-            "sm": "Sā ʻai e le teine le iʻa.",
-            "answer": "a",
-            "options": [
-              {
-                "id": "a",
-                "label": "The girl ate (all of) the fish."
-              },
-              {
-                "id": "b",
-                "label": "The girl ate some fish."
-              },
-              {
-                "id": "c",
-                "label": "The fish was eaten."
-              }
-            ],
-            "why": "The agent marker is on the girl, so the fish is wholly used up. With the place word *ʻi* she would have eaten some of it."
+            "sm": "sisifo",
+            "en": "West",
+            "bin": "direction",
+            "why": "This is one of the compass direction nouns."
           },
           {
-            "sm": "Sā sasa le teine.",
-            "answer": "a",
-            "options": [
-              {
-                "id": "a",
-                "label": "The girl was hit."
-              },
-              {
-                "id": "b",
-                "label": "The girl went."
-              },
-              {
-                "id": "c",
-                "label": "He hit the boy."
-              }
-            ],
-            "why": "*Sasa* names something done to somebody, so the bare *le teine* is the one hit, and nobody is named as the hitter."
+            "sm": "tai",
+            "en": "the direction towards the sea; the sea, the seaside",
+            "bin": "direction",
+            "why": "This noun points along the seaward and inland line."
           },
           {
-            "sm": "Sā tatala e le tama.",
-            "answer": "a",
-            "options": [
-              {
-                "id": "a",
-                "label": "The boy opened it."
-              },
-              {
-                "id": "b",
-                "label": "The box was opened."
-              },
-              {
-                "id": "c",
-                "label": "The girl opened the box."
-              }
-            ],
-            "why": "*E le tama* names the boy as the doer. What he opened is left out because it has already been named."
+            "sm": "uta",
+            "en": "the direction inland; inland",
+            "bin": "direction",
+            "why": "This noun points inland."
           }
         ]
       }

@@ -1,121 +1,110 @@
 {
-  "chapter": 44,
+  "chapter": 43,
   "items": [
     {
-      "id": "ch44-since-position",
+      "id": "ch43-describing-clause",
       "kind": "contrast",
-      "anchor": "where-the-since-clause-stands",
-      "title": "The since-clause can stand on either side",
+      "anchor": "the-describing-clause",
+      "title": "Give the description a clause of its own",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Since-clause first",
-            "sm": "Talu ona ʻou sau ʻou te leʻi maua se mea lelei.",
-            "en": "Since I came, I have not got anything good."
+            "label": "Describing verb",
+            "sm": "le vai loloto",
+            "en": "the deep water",
+            "note": "The describing verb follows the noun directly."
           },
           {
-            "label": "Since-clause last",
-            "sm": "ʻOu te leʻi maua se mea lelei talu ona ʻou sau.",
-            "en": "I have not got anything good since I came."
+            "label": "Describing clause",
+            "sm": "le vai e loloto tele",
+            "en": "the water that is very deep",
+            "note": "The particle *e* opens a whole describing clause. The word *tele* also adds very."
           }
         ]
       },
-      "caption": "The order changes and the meaning does not. The clause after *ona* usually has no tense particle of its own."
+      "caption": "The particle changes the structure; the added *tele* changes the degree. The water pair shows both differences without changing the noun."
     },
     {
-      "id": "ch44-time-tools",
+      "id": "ch43-missing-spot",
       "kind": "sort",
-      "anchor": "the-le-phrase-at-the-head-of-a-sentence",
-      "title": "Which tool sets the time?",
+      "anchor": "the-thing-it-was-done-with-and-the-thing-it-was-aimed-at",
+      "title": "An empty spot or a pointing-back word?",
       "data": {
         "bins": [
           {
-            "id": "since",
-            "label": "A since-clause"
+            "id": "empty",
+            "label": "The spot stays empty"
           },
           {
-            "id": "when",
-            "label": "A when-clause"
-          },
-          {
-            "id": "event",
-            "label": "An event packed into a le-phrase"
+            "id": "held",
+            "label": "A pointing-back word holds the spot"
           }
         ],
         "items": [
           {
-            "sm": "Talu ona ʻou alu ʻou te leʻi maua se mea fou.",
-            "en": "Since I left, I have not got anything new.",
-            "bin": "since",
-            "why": "*Talu* counts from the event in its complement clause."
+            "sm": "ʻO le tama sā moe ʻi le fale.",
+            "en": "The boy who slept in the house.",
+            "bin": "empty",
+            "why": "The boy is the one who slept; no word inside the clause stands for him."
           },
           {
-            "sm": "Ina ʻua malama le taeao, sā sau le pasi ʻenaʻena.",
-            "en": "When the morning broke, the brown bus came.",
-            "bin": "when",
-            "why": "The when-word opens the clause naming the event that turns the situation."
+            "sm": "le meaʻai ʻua maua e le teine",
+            "en": "the food the girl got",
+            "bin": "empty",
+            "why": "The food is the thing acted on, and its spot stays empty."
           },
           {
-            "sm": "Sā māfatia le tama ina ʻua malama le taeao.",
-            "en": "The boy was exhausted when the morning broke.",
-            "bin": "when",
-            "why": "The when-clause follows the main clause here."
+            "sm": "ʻO le aso sā siva ai le teine.",
+            "en": "The day the girl danced.",
+            "bin": "held",
+            "why": "The pointing-back word *ai* holds the time’s spot."
           },
           {
-            "sm": "ʻO le sau o le pasi, e ʻāmata ai le malaga.",
-            "en": "When the bus comes, the journey begins.",
-            "bin": "event",
-            "why": "The fronted le-phrase names the bus coming, and *ai* in the other clause points back to it."
+            "sm": "le fue na taufi aʻi le umu",
+            "en": "the liana the food in the oven was covered with",
+            "bin": "held",
+            "why": "The dedicated shape for what the action was done with is *aʻi*; *ai* is heard in that job too."
+          },
+          {
+            "sm": "ʻO le mea sā alu atu le teine ʻi ai.",
+            "en": "The place where the girl went to.",
+            "bin": "held",
+            "why": "The pair *ʻi ai* is the usual shape for the place a movement is aimed at."
           }
         ]
       },
-      "intro": "Choose the construction that times the rest of each printed sentence."
+      "intro": "Find how the clause shows the job of the person or thing named in front."
     },
     {
-      "id": "ch44-frequency-forms",
-      "kind": "grid",
-      "anchor": "saying-how-often",
-      "title": "Read how often",
+      "id": "ch43-one-who",
+      "kind": "contrast",
+      "anchor": "the-one-who-word-e",
+      "title": "A person described without a noun",
       "data": {
-        "cols": [
-          "Printed expression"
-        ],
-        "rowLabel": "Meaning",
-        "rows": [
+        "mode": "steps",
+        "states": [
           {
-            "label": "Often",
-            "cells": [
-              {
-                "sm": "le talatalanoa soʻo",
-                "en": "the frequent talking",
-                "note": "The frequency word stands behind the verb inside the le-phrase."
-              }
-            ]
+            "label": "One particular person",
+            "sm": "ʻO lē sā mauʻoloa.",
+            "en": "The one who was rich.",
+            "note": "The one-who word joins the specific article as *lē*. This example is in the past."
           },
           {
-            "label": "Each day",
-            "cells": [
-              {
-                "sm": "ʻi le taʻi=tasi aso",
-                "en": "each day",
-                "note": "The distributive number phrase comes before the time noun."
-              }
-            ]
+            "label": "More than one",
+            "sm": "ʻO ē e mauʻoloa.",
+            "en": "Those who are rich.",
+            "note": "The one-who word stands on its own. This example uses the general particle."
           },
           {
-            "label": "Every morning",
-            "cells": [
-              {
-                "sm": "ʻi taeao o aso taʻi=tasi",
-                "en": "every morning",
-                "note": "The number phrase follows the time noun here."
-              }
-            ]
+            "label": "The two words run together",
+            "sm": "e mauʻoloa",
+            "en": "the rich",
+            "note": "With the general particle, one *e* can do both jobs."
           }
         ]
       },
-      "caption": "The frequency word follows its verb. The distributive form works on a number inside a noun phrase; it is not a free-standing word for every."
+      "caption": "No noun names the people. The one-who word stands in that position and the clause describes them."
     }
   ]
 }

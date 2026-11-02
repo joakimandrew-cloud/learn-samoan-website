@@ -1,255 +1,188 @@
-# Chapter 9: Greetings and Courtesy
+# Chapter 8: Who and What Questions
 
-This chapter gathers the common formulas of greeting, thanks, farewell, and
-good wishes. It shows the command's tense-particle-free shape, already taught,
-put to a new use in the congratulation, well-wish, praise and invitation
-formulas, and it introduces the exclamation. It also carries the respect
-vocabulary (*ʻupu faʻaaloalo*) and the everyday speech style for recognition,
-completing the two speech styles named in the Introduction.
+This chapter introduces the question words of the naming sentence, *ai* ("who")
+and *ā* ("what"), together with the optional question markers *po* and *ʻea*,
+and shows you how to ask who someone is and what something is.
 
 ---
 
-## Sentences Without a Tense Particle
+## Asking Who
 
 ::: {.examples}
-*Mānaia le meaʻai!* The food is nice! (Lit. "Nice the food!")
+*ʻO ai ʻoe?* Who are you?
 :::
 
-A command drops the tense particle: *Nofo* ("Sit down") has no *sā*, *na*,
-*ʻua*, or *ʻoleʻā* in front of it. An exclamation drops it the same way. *Mānaia le
-meaʻai!* has no tense particle either, because it is not placing an event in
-time. It is a describing verb, *mānaia* (nice), standing in front of an
-article-marked noun phrase, *le meaʻai* (the food), and calling out a quality
-right now.
+English builds "who are you?" around its verb "are". The naming sentence has no
+verb, and its question needs none either. A word that asks instead of naming is
+a **question word**. The question word *ai* asks after a person. It stands
+where a naming part would stand, with the presenting particle in front of it,
+so the asking part is *ʻo ai*. The asking part comes first in the sentence, and
+the person you are asking about follows; in this kind of question the order
+never runs the other way.
 
-Congratulations and good wishes use the same shape. A verb of congratulating or
-well-being stands first, with no tense particle, and the noun phrase that
-follows names what is congratulated or wished for:
-
-::: {.examples}
-*Mālō le gālue!* Congratulations on your work! (Lit. "Congratulate the work")
-
-*Manuia le tausaga fou!* Happy New Year!
-:::
-
-*Mālō* is the congratulating verb, *manuia* the well-wishing one. The pattern is
-the one you already know from commands, put to a new use: verb first, no tense
-particle, and here a noun phrase to round it off.
-
----
-
-## Greetings and Farewells
-
-The greeting a learner uses everywhere is *tālofa*. It opens an encounter, and
-the person greeted answers with *tālofa* in return.
-The reply can also carry a second word alongside it, which this book does not
-teach.
-
-::: {.examples}
-*Tālofa.* Hello.
-:::
-
-*Mālō*, the same word that congratulates, also works as a lighter, casual
-"hi". One way to close an encounter is to pair a word for goodbye with a word
-for good health, and either word on its own also closes one:
-
-::: {.examples}
-*Soifua.* Good health. (a farewell)
-
-*Tōfā soifua.* Goodbye.
-:::
-
-*Tālofa* carries a second use. Said to someone in trouble or grief, the same
-word becomes an expression of sympathy, close to the English "I feel for you".
-Take that second use as one to recognize rather than one to build. It belongs to
-a small family of feeling words that carry machinery this book does not teach, so
-you will know what is meant when *tālofa* is said to you that way, and you are
-not asked to make sentences of that kind yourself.
-
-A greeting often turns at once to names. Asking a person's name, and giving your
-own, is part of every first meeting.
-
-> **Preview:** The name question is *ʻO ai lou igoa?* ("What is your name?";
-> Lit. "Who is your name?", asked with the who-word *ai* of Chapter 8).
-> It carries the word for "your", a possessive form. Possessive forms are
-> taught in Chapter 10, where this question becomes real grammar you can build.
-> For now, take it whole, as a set phrase like the greetings above.
-
----
-
-## Thanks and Asking Politely
-
-The thanks formula is *faʻafetai* and the please formula, for a polite request,
-is *faʻamolemole*.
-
-::: {.examples}
-*Faʻafetai.* Thank you.
-
-*Faʻamolemole.* Please.
-:::
-
-Sāmoan speakers say "thank you" less often than English speakers do, not from
-any lack of courtesy but because the conventions differ. The thanks formula also
-declines: it can mean "no thank you".
-
----
-
-## Good Wishes and Congratulations
-
-*Manuia* and *mālō* head the well-wishing and congratulating formulas, each on
-the tense-particle-free shape from the first section. Change the noun phrase and
-the wish moves to a new occasion:
+Two of the words below are new: *fafine* (woman) and *matua* (parent).
 
 | Sāmoan | English |
 |---|---|
-| *Manuia le tausaga fou!* | Happy New Year! |
-| *Manuia le ʻāiga!* | Blessings on the family! |
-| *Mālō le gālue!* | Congratulations on your work! |
-| *Mālō le fāgota!* | Well done on the fishing! |
-| *Mālō le siva!* | Well done on the dancing! |
+| *ʻO ai ʻoe?* | Who are you? |
+| *ʻO ai lenā?* | Who is that? |
+| *ʻO ai le teine?* | Who is the girl? |
+| *ʻO ai le fafine?* | Who is the woman? |
+| *ʻO ai le matua?* | Who is the parent? |
 
-The describing verb *mānaia* fills the same frame to praise a thing outright:
+A who-question is answered with a naming sentence. When it is clear what the
+answer is about, the presented part can stand alone:
+
+::: {.examples}
+*ʻO ai lenā?* Who is that?
+
+*ʻO le teine.* The girl.
+:::
+
+> *Note:* Sāmoan asks for a person's name with *ai* as well, because the answer
+> to a name question is a person's name. Building that question takes the word
+> for "your", which arrives later in this book.
+
+> **Preview:** Alongside who and what stands whose: asking whose house or whose
+> word something is. That question rides on the belonging words, and it is
+> completed in Chapter 42.
+
+---
+
+## Asking What
+
+::: {.examples}
+*ʻO le ā?* What is it? (Lit. "The what?")
+:::
+
+The question word *ā* asks after a thing. It does not stand next to *ʻo* the
+way *ai* does: the specific article *le* comes between them, so the asking part
+is *ʻo le ā*, literally "the what". The article is there because *ā* behaves
+like an ordinary noun such as *teine* (girl) or *matua* (parent), and an ordinary noun that names one thing takes an article in front of it.
+*Ai* behaves like a pronoun, and a pronoun takes no article. That one difference gives the two
+question shapes: *ʻo ai* for who, *ʻo le ā* for what. Because *ā* is noun-like
+it can take the other articles too; the questions in this chapter all use *le*.
+Where more than one particular thing is asked after, no article stands in that slot.
+
+The words *faʻasalalauga* (broadcast, broadcasting) and *tausaga* (year) are
+new here:
 
 | Sāmoan | English |
 |---|---|
-| *Mānaia le meaʻai!* | The food is nice! |
-| *Mānaia le tala!* | The story is lovely! |
-| *Mānaia le nuʻu!* | The village is beautiful! |
+| *ʻO le ā lenā?* | What is that? |
+| *ʻO le ā le faʻasalalauga?* | What is the broadcast? |
+| *ʻO le ā le tausaga?* | What is the year? |
+| *ʻO le ā le ʻupu?* | What is the word? |
 
-> **Preview:** Sāmoan has an idiomatic exclamation that comments on how a person
-> is reacting, as in *ʻO le fefe o Ulika!* ("Look how scared Ulika is!", Lit.
-> "The fear of Ulika!"). It is
-> a fixed expression here; the machinery that builds it, an event packed into a
-> thing, is taught later in this book and completed in Chapter 46.
-
----
-
-## Inviting Others Along
-
-In the two invitation formulas below, the word for "we" that includes the
-listener, *tātou* or *tā*, which you already know, stands in front of the verb
-with no tense particle. The result is a warm "let's":
+A what-question is answered the same way as a who-question, with a naming
+sentence. Here the answer introduces *suāsami* (salt water):
 
 ::: {.examples}
-*Tā ō!* Let's go, you and me.
+*ʻO le ā lenā?* What is that?
 
-*Tātou ō!* Let's all go.
+*ʻO le suāsami lenā.* That is the salt water.
 :::
 
-*Tā* is the "we" of just two people, *tātou* the "we" of more than two, and each
-takes the listener in. These are the common invitation formulas; take them
-whole for now.
+Three more answers bring in *fale* (house), *ulāvai* (prawn) and *to* (hole):
+
+::: {.examples}
+*ʻO le fale lenā.* That is the house.
+
+*ʻO le ulāvai lenā.* That is the prawn.
+
+*ʻO le to lenā.* That is the hole.
+:::
+
+> *Note:* The question word *ā* and the future particle's short form *ʻā* differ
+> by the ʻ mark alone. The short future form carries the mark and stands in a
+> verb sentence's first slot; the question word has no mark and, in this
+> chapter's questions, stands after *ʻo le*. The mark and the position keep
+> them apart.
+
+> *Note:* You will often hear a longer what-question built on *mea* (thing): it
+> opens with *ʻo le ā le mea* and goes on to say more about the thing being
+> asked after. Sāmoan uses it to ask what someone wants to do, and why
+> something is so; the machinery that carries the rest of that sentence arrives
+> in a later chapter. The word *ā* itself also has a life inside verb
+> sentences, asking what the matter is; you may meet that use in conversation,
+> though this book does not teach it.
 
 ---
 
-## The Respect Vocabulary
+## Asking Yes or No
 
-Sāmoan carries a layer of polite words, the *ʻupu faʻaaloalo* or **respect
-words**, used when speaking to or about chiefs, pastors, elders, and other
-honoured people. A respect word replaces its plain counterpart: where you
-would say *fale* for a house, respect speech says *maota*.
+::: {.examples}
+*ʻO le pusi lenā.* That is the cat.
 
-You are not asked to produce these words. The careful style this book teaches is
-the right one for a learner to speak. The skill here is recognition: knowing,
-when you hear a respect word, which plain word stands behind it.
+*ʻO le pusi lenā?* ↘ Is that the cat?
+:::
 
-| Plain word | Respect word | Meaning |
-|---|---|---|
-| *ʻai* | *taumafa* | eat |
-| *fale* | *maota* | house |
-| *igoa* | *suafa* | name |
-| *oti* | *maliu* | die |
-| *tāʻele* | *faʻamālū* | bathe |
+The naming sentence asks yes or no exactly as the verb sentence does: the words
+stay, the order stays, and the voice usually falls, staying low over the last
+two or three syllables. The same falling tune that turns *Sā ia alu* into a question
+does the work here, and the arrow ↘ marks it in this book the same way.
 
-> *Note:* The respect words are a limited set, learned a few at a time as you
-> meet them. Two of the rows above have a second respect word alongside the one
-> printed, chosen by the rank of the person spoken to. This table is for
-> recognition only, so read across it, from the respect word back to the plain
-> word, which you already know or meet in this table.
+::: {.examples}
+*ʻO se uō le tama?* ↘ Is the boy a friend?
+:::
 
 ---
 
-## The Everyday Style
+## The Question Markers *Po* and *ʻEa*
 
-The Introduction named the two speech styles: *tautala lelei*, the careful style
-this book teaches, and *tautala leaga*, the everyday style you will hear. Here
-the everyday style is completed.
+::: {.examples}
+*Po ʻo ai le fafine?* Who is the woman?
 
-The everyday style folds three pairs of sounds together. Those folds are not
-the whole of the difference. Where the careful style has t, the everyday style
-says k; where the careful style has n, it says the ng sound, written g; and
-where the careful style has r, it says l. So the careful
-greeting *tālofa* is heard as *kālofa*, and *faʻafetai* as *faʻafekai*:
+*ʻO se uō ʻea le tama?* Is the boy a friend?
+:::
 
-| Careful style | Everyday style | Meaning |
-|---|---|---|
-| *tālofa* | *kālofa* | hello |
-| *manuia* | *maguia* | fine, blessed |
-| *faʻafetai* | *faʻafekai* | thank you |
+Sāmoan has two words whose whole job is to mark a sentence as a question: *po*
+and *ʻea*. *Po* stands at the very front, before the asking part. *ʻEa* follows
+the first part of the sentence instead. Both appear in who-questions and
+what-questions as well as in yes or no questions. They add no meaning of their
+own, the question is complete without them, and you will usually hear one or
+the other, not both.
 
-The folding runs one way only. The careful style keeps the distinctions the
-everyday style erases, and never the reverse, so you can always hear through an
-everyday form back to the careful one you learned, but you could not rebuild the
-careful form from the everyday one without knowing the word already. That is why
-the skill is recognition: you speak one Sāmoan, and your ear learns to
-understand two.
+| Sāmoan | English |
+|---|---|
+| *Po ʻo ai le fafine?* | Who is the woman? |
+| *Po ʻo le ā le tausaga?* | What is the year? |
+| *ʻO ai ʻea le matua?* | Who is the parent? |
+| *ʻO se uō ʻea le tama?* | Is the boy a friend? |
 
-> *Note:* This table too is for recognition only. Keep speaking the careful
-> style; the everyday forms are here so that a *kālofa* called across a road does
-> not leave you lost.
+The last sentence is a yes or no question: the naming sentence stays exactly
+as it was, and *ʻea* follows its first part. A question with *po* or *ʻea* asks
+the same thing as its bare twin; the marker only makes the asking visible.
+
+> *Note:* This *ʻea* is spelled like the urging word *ʻea* that warms a
+> command. Position tells them apart: the urging word follows a bare command
+> verb, and the question marker follows the first part of a question.
 
 ---
 
 ## Words to Learn
 
+**New grammar words** (memorize how these work):
+
+| Word | What it does |
+|---|---|
+| *ai* | the question word for who: stands after *ʻo* at the front of a who-question |
+| *ā* | the question word for what: stands after *ʻo le* at the front of a what-question |
+| *po* | marks a question from the very front of the sentence |
+| *ʻea* | marks a question from inside it, after the first part |
+
 **New vocabulary** (memorize these meanings):
 
-Greetings, thanks, and farewells:
-
 | Word | Meaning |
 |---|---|
-| *tālofa* | hello; feel sympathy |
-| *tōfā* | goodbye |
-| *soifua* | good health, life |
-| *faʻafetai* | thank you |
-| *faʻamolemole* | please |
-
-The congratulating and well-wishing verbs:
-
-| Word | Meaning |
-|---|---|
-| *mālō* | congratulate; hi |
-| *manuia* | happy, blessed |
-| *mānaia* | nice |
-
-Other words used in this chapter:
-
-| Word | Meaning |
-|---|---|
-| *galue* | work |
-| *meaʻai* | food |
-| *ʻai* | eat |
-| *oti* | die |
-| *tala* | story |
-| *nuʻu* | village |
-
-The work verb is *galue*. In the greeting *Mālō le gālue!*, the word names
-the work, and its first vowel is long.
-
-**Words to carry** (learned now, used fully later in this book): *fasi* (hit,
-beat) names an action done to someone, and the word that marks who does the
-hitting comes later in this book. The word *ʻese* (strange,
-foreign) is a describing verb, and the sentences that put it to work also come
-later.
-
-| Word | Meaning |
-|---|---|
-| *fasi* | hit, beat |
-| *ʻese* | strange, foreign |
-
-For recognition only, three names carry over from the sections above:
-*tautala lelei* (the careful style), *tautala leaga* (the everyday style), and
-*ʻupu faʻaaloalo* (the respect words). You are not asked to produce them.
+| *fafine* | woman |
+| *matua* | parent |
+| *fale* | house |
+| *tausaga* | year |
+| *faʻasalalauga* | broadcast, broadcasting |
+| *suāsami* | salt water |
+| *ulāvai* | prawn |
+| *to* | hole |
 
 ---
 
@@ -257,46 +190,61 @@ For recognition only, three names carry over from the sections above:
 
 ### Exercise 1: Translate into English
 
-1. *Tālofa.*
-2. *Faʻafetai.*
-3. *Manuia le tausaga fou!*
-4. *Mālō le gālue!*
-5. *Mānaia le meaʻai!*
+1. *ʻO ai le fafine?*
+2. *ʻO le ā lenā?*
+3. *ʻO le ulāvai lenā.*
+4. *Po ʻo ai le teine?*
+5. *ʻO le ā le faʻasalalauga?*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. Please.
-2. Goodbye.
-3. Hello.
-4. The food is nice!
-5. Blessings on the family!
+1. Who are you?
+2. What is the year?
+3. Who is the parent?
+4. That is the house.
+5. What is it?
 
-### Exercise 3: Choose the formula
+### Exercise 3: Ask the right question
 
-Write the Sāmoan formula that fits each situation.
+Each item is an answer that points something out. Write the who-question or
+what-question it answers.
 
-1. You meet a friend on the road.
-2. Someone has helped you, and you want to thank them.
-3. It is the first of January.
-4. You are leaving, and want to wish good health.
-5. You want to praise a fine meal.
-6. You want one other person to go with you.
-7. You want a whole group to go with you.
+1. *ʻO le teine lenā.*
+2. *ʻO le suāsami lenā.*
+3. *ʻO le matua lenā.*
+4. *ʻO le to lenā.*
+5. *ʻO le fale lenā.*
 
-### Exercise 4: Find the word you say
+### Exercise 4: Make each statement a yes or no question
 
-Each word below is one you learn to recognize, not to say: a respect word or an
-everyday-style form. Write the word behind it, the one this book teaches you to
-say.
+Rewrite the sentence as a yes or no question, and mark the falling tune with ↘.
 
-1. *maota*
-2. *suafa*
-3. *maliu*
-4. *taumafa*
-5. *faʻamālū*
-6. *kālofa*
-7. *faʻafekai*
-8. *maguia*
+1. *ʻO le pusi lenā.*
+2. *ʻO se uō le teine.*
+3. *ʻO le fale lenā.*
+4. *ʻO le teine lenā.*
+5. *ʻO le suāsami lenā.*
+
+### Exercise 5: Put the question marker in its place
+
+Rewrite each question with the marker shown in parentheses, placing it where it
+belongs.
+
+1. *ʻO ai le teine?* (*po*)
+2. *ʻO le ā le tausaga?* (*ʻea*)
+3. *ʻO ai le matua?* (*ʻea*)
+4. *ʻO ai le fafine?* (*po*)
+5. *ʻO le ā le tausaga?* (*po*)
+
+### Exercise 6: Choose *ai* or *ā*
+
+Fill the blank so the question matches the English.
+
+1. *ʻO ___ le tamaʻitaʻi?* (Who is the lady?)
+2. *ʻO le ___ le ʻupu?* (What is the word?)
+3. *ʻO ___ lenā?* (Who is that?)
+4. *ʻO le ___ lenā?* (What is that?)
+5. *ʻO ___ le fafine?* (Who is the woman?)
 
 ---
 
@@ -304,37 +252,48 @@ say.
 
 ### Exercise 1
 
-1. Hello.
-2. Thank you.
-3. Happy New Year!
-4. Congratulations on your work!
-5. The food is nice!
+1. Who is the woman?
+2. What is that?
+3. That is the prawn.
+4. Who is the girl?
+5. What is the broadcast?
 
 ### Exercise 2
 
-1. *Faʻamolemole.*
-2. *Tōfā soifua.* (the first word on its own is also a goodbye)
-3. *Tālofa.*
-4. *Mānaia le meaʻai!*
-5. *Manuia le ʻāiga!*
+1. *ʻO ai ʻoe?*
+2. *ʻO le ā le tausaga?*
+3. *ʻO ai le matua?*
+4. *ʻO le fale lenā.*
+5. *ʻO le ā?*
 
 ### Exercise 3
 
-1. *Tālofa.*
-2. *Faʻafetai.*
-3. *Manuia le tausaga fou!*
-4. *Soifua.* (or *Tōfā soifua.*)
-5. *Mānaia le meaʻai!*
-6. *Tā ō!*
-7. *Tātou ō!*
+1. *ʻO ai lenā?*
+2. *ʻO le ā lenā?*
+3. *ʻO ai lenā?*
+4. *ʻO le ā lenā?*
+5. *ʻO le ā lenā?*
 
 ### Exercise 4
 
-1. *fale* (house)
-2. *igoa* (name)
-3. *oti* (die)
-4. *ʻai* (eat)
-5. *tāʻele* (bathe)
-6. *tālofa* (hello)
-7. *faʻafetai* (thank you)
-8. *manuia* (fine, blessed)
+1. *ʻO le pusi lenā?* ↘
+2. *ʻO se uō le teine?* ↘
+3. *ʻO le fale lenā?* ↘
+4. *ʻO le teine lenā?* ↘
+5. *ʻO le suāsami lenā?* ↘
+
+### Exercise 5
+
+1. *Po ʻo ai le teine?*
+2. *ʻO le ā ʻea le tausaga?*
+3. *ʻO ai ʻea le matua?*
+4. *Po ʻo ai le fafine?*
+5. *Po ʻo le ā le tausaga?*
+
+### Exercise 6
+
+1. *ʻO ai le tamaʻitaʻi?*
+2. *ʻO le ā le ʻupu?*
+3. *ʻO ai lenā?*
+4. *ʻO le ā lenā?*
+5. *ʻO ai le fafine?*

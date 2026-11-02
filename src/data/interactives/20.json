@@ -1,56 +1,51 @@
 {
-  "chapter": 20,
+  "chapter": 19,
   "items": [
     {
-      "id": "ch20-with-and-and",
+      "id": "ch19-number-in-two-places",
       "kind": "contrast",
-      "anchor": "the-number-of-the-verb-tells-you-which",
-      "title": "The verb tells with from and",
-      "caption": "Every word except the verb stays the same. The singular verb leaves one doer with a companion, while the plural verb makes both people doers.",
+      "anchor": "the-verb-shows-number",
+      "title": "Number appears on the article slot and the verb",
+      "caption": "The particular plural drops *le*, and the verb changes from its singular form to its plural form.",
       "data": {
         "mode": "toggle",
         "states": [
-          { "label": "With", "sm": "Sā nofo le tama ma le teine.", "en": "The boy stayed with the girl." },
-          { "label": "And", "sm": "Sā nonofo le tama ma le teine.", "en": "The boy and the girl stayed." }
+          { "label": "One", "sm": "Sā nofo le teine.", "en": "The girl stayed." },
+          { "label": "More than one", "sm": "Sā nonofo teine.", "en": "The girls stayed." }
         ]
       }
     },
     {
-      "id": "ch20-ma-jobs",
+      "id": "ch19-verb-pairs",
       "kind": "grid",
-      "anchor": "joining-two-doers",
-      "title": "One word, two jobs",
-      "caption": "A singular verb keeps the companion outside the doer count. A plural verb shows that both joined names do the action.",
+      "anchor": "learning-each-plural-form",
+      "title": "Learn each singular and plural pair",
+      "caption": "One pair grows longer and one grows shorter. The chapter treats each plural form as a fact of its verb.",
       "data": {
-        "cols": ["Printed sentence"],
+        "cols": ["Singular", "Plural"],
         "rows": [
-          { "label": "Companion", "cells": [ { "sm": "Sā alu le teine ma le uō.", "en": "The girl went with the friend." } ] },
-          { "label": "Companion thing", "cells": [ { "sm": "Sā fāgota le tama ma le vaʻa.", "en": "The boy went fishing with the canoe." } ] },
-          { "label": "Two doers", "cells": [ { "sm": "Sā nonofo le tama ma le teine.", "en": "The boy and the girl stayed." } ] }
+          { "label": "Stay or sit", "cells": [
+            { "sm": "nofo", "en": "stay, sit" },
+            { "sm": "nonofo", "en": "stay, sit" }
+          ] },
+          { "label": "Black", "cells": [
+            { "sm": "uliuli", "en": "black" },
+            { "sm": "uli", "en": "black" }
+          ] }
         ]
       }
     },
     {
-      "id": "ch20-pick-nofo-nonofo",
-      "kind": "pick",
-      "anchor": "the-number-of-the-verb-tells-you-which",
-      "title": "Choose one doer or two",
-      "intro": "Read the English and choose the complete printed sentence that gives *ma* the intended job.",
+      "id": "ch19-type-plural-forms",
+      "kind": "type",
+      "anchor": "describing-a-group",
+      "title": "Type the plural forms",
+      "intro": "Read the plural meaning and type the printed Sāmoan form.",
       "data": {
-        "question": "Which sentence says this?",
-        "prompts": [
-          { "en": "The boy stayed with the girl.", "answer": "with", "options": [
-            { "id": "with", "sm": "Sā nofo le tama ma le teine." },
-            { "id": "and", "sm": "Sā nonofo le tama ma le teine." }
-          ], "why": "The singular verb leaves the girl as the companion." },
-          { "en": "The boy and the girl stayed.", "answer": "and", "options": [
-            { "id": "with", "sm": "Sā nofo le tama ma le teine." },
-            { "id": "and", "sm": "Sā nonofo le tama ma le teine." }
-          ], "why": "The plural verb shows that both joined people are doers." },
-          { "en": "The girl went with the friend.", "answer": "companion", "options": [
-            { "id": "companion", "sm": "Sā alu le teine ma le uō." },
-            { "id": "two", "sm": "Sā nonofo le teine ma le uō." }
-          ], "why": "The going sentence has one doer, and *ma* adds the friend as a companion." }
+        "items": [
+          { "en": "stay, sit (said of more than one)", "sm": "nonofo" },
+          { "en": "black (said of more than one)", "sm": "uli" },
+          { "en": "parents", "sm": "mātua" }
         ]
       }
     }

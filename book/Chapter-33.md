@@ -1,200 +1,207 @@
-# Chapter 33: Reported Speech
+# Chapter 32: Short and Long Verb Forms
 
-This chapter adds reported speech, which Sāmoan builds from machinery already
-in place: after a knowing word the report is an ordinary clause keeping a tense
-particle of its own, after an ordering word it opens with the mood particle
-*ʻia* or with the general particle, and after the say-verb *fai* it is a
-sentence of its own. Reading the tense particle against the time the first half
-names, not against the moment of speaking, is the one new rule, and it is what
-lets you pass on anything anyone said, asked, ordered or knew.
+This chapter introduces the long form of the verb, a second shape that verbs
+taking the agent marker carry beside the plain one, and shows you how to build
+it and the two places where the choice is settled for you.
 
 ---
 
-## Reporting What Someone Knew
+## The Two Shapes of the Verb
 
 ::: {.examples}
-*ʻUa iloa e le tama ʻua sau le teine.* The boy knows that the girl has come. (Lit. "Now know, doer the boy, now come the girl.")
+*Sā fasi le tama e le teine.* The girl hit the boy.
 
-*Na iloa e le tama ʻua sau le teine.* The boy knew that the girl had come. (Lit. "Past know, doer the boy, now come the girl.")
+*Sā lē fasi=a le tama e le teine.* The girl did not hit the boy.
 :::
 
-Read that pair once more before going on. Which word changed?
+Compare them. What has happened to the verb?
 
-Only the first one did. *ʻUa iloa* became *Na iloa*, and the second half of the
-sentence stayed word for word the same, *ʻua sau le teine*, while the English
-moved from "has come" to "had come".
+An ending has arrived on it. The verb is *fasi* in the first sentence and
+*fasi=a* in the second, and everything else about the verb is unchanged. The
+not-word *lē* is the other difference between the two sentences, and it is the
+one carrying the change of meaning; the ending on the verb is the subject of
+this chapter.
 
-That is the mechanism of **reported speech**, the pattern for passing on what
-somebody knew, ordered or said. For a report of what somebody knew, Sāmoan
-holds no construction reserved for it. The report is an ordinary clause set
-down after the knowing word with nothing joining the two, and it keeps a tense
-particle of its own. What that particle measures from is not the moment of
-speaking. It is the time the first half of the sentence names.
+Verbs that take the agent marker have two shapes like this. The plain one
+is the **short form**, and the one carrying an ending is the **long form**. A
+verb that runs in both patterns, with the agent marker and without it, has both
+shapes as well, in the uses where the marker appears. The exception is a verb
+that was itself made into an agent-taking verb by an ending in the first place.
+A verb of that kind is often used with one shape doing the work of both,
+though some speakers do give it a long form by adding a further ending, and use
+that form less often than they use the long form of other verbs.
 
-So *ʻua sau le teine* says the coming was already done by whatever time the
-first half sets. Set that first half at now, with *ʻUa iloa*, and the coming is
-already done now, which is "the girl has come". Set it in the past, with *Na
-iloa*, and the coming was already done then, which is "the girl had come".
+Five verbs, in both of their shapes:
 
-| Sāmoan | English |
-|---|---|
-| *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. |
-| *Na iloa e le tama ʻua sau le teine.* | The boy knew that the girl had come. |
-| *Na iloa e loʻu ataliʻi ʻua sau le teine.* | My son knew that the girl had come. |
-| *Na iloa e le tama ʻua sasae le ʻie.* | The boy knew that the cloth had been torn. |
+| Short form | Long form | Meaning |
+|---|---|---|
+| *ʻai* | *ʻaia*, *ʻai=ina* | eat |
+| *fasi* | *fasi=a*, *fasi=ina* | hit, beat |
+| *faitau* | *faitau=a*, *faitau=ina* | count, read |
+| *fau* | *fau=a*, *fau=ina* | build |
+| *faʻatau* | *faʻatau=a*, *faʻatau=ina* | sell, buy |
 
-*sasae* means "tear" and *ataliʻi* means "a man's son".
-
-The one who knows is marked with the agent marker *e*, as it is with any verb
-that takes it, and the reported clause follows with nothing standing between.
+Two of the five were taught earlier in this book. *Faitau* (count, read), *fau*
+(build) and *faʻatau* (sell, buy) are new here. Read down the middle column and
+one thing stands out: each of them has more than one long form, and all of the
+forms listed are in use.
 
 ---
 
-## The Tense Particle Inside the Report
+## Building the Long Form
+
+A long form is the short form plus an ending, and there are two ordinary
+choices, *=a* and *=ina*. An ending that does this job is a **long-form
+ending**. A third ending, *=ia*, usually with a consonant in front of it, is
+used by some speakers in the same position, and a fourth, *=na*, is uncommon.
+Between them they are why one verb can have three or four long forms on record.
+
+> *Note:* Most long forms in this book print the join with an equals sign,
+> *fasi=a*, so that the ending stays visible while you are learning where it
+> goes. The *=a* form of *ʻai* is printed solid, *ʻaia*. Ordinary Sāmoan
+> writing runs the two parts together with no mark between them.
+
+Which of the two endings a verb takes is partly a matter of the verb and partly
+of the occasion. Where both are possible, *=a* is preferred in casual speech and
+*=ina* in more formal speaking and writing. Formal writing also runs to forms
+built from two endings at once, which turn up more in formal writing than in
+casual speech.
+
+### The Ending on a Direction Word
+
+When a direction word follows the verb, the ending has a second place it can go.
+It can sit on the verb, as it always does, or it can move onto the direction
+word:
 
 ::: {.examples}
-*ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knows that the girl is staying in the village.
+*ʻO ai na faʻatau=a mai le tusi?* Who bought the book? (Lit. "Who traded the
+book toward here?")
 
-*Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knew that the girl was staying in the village.
+*ʻO ai na faʻatau mai=a le tusi?* Who bought the book?
 :::
 
-Any of the tense particles can stand in the report. The ones that set a time
-place the reported event against the time of the first half, not against now:
-the happening-now particle *ʻoloʻo* puts the event at the same time as the
-report, the past particles *sā* and *na* put it earlier, and the future
-particle *ʻoleʻā* puts it later. The general particle *e* also stands there, as
-the last row of each table shows, and sets no time of its own.
+Speakers accept both, and both mean the same thing. *Faʻatau* is the trading verb,
+and the direction word settles which way the trade runs: with *mai* it is
+buying, and with *atu* it is selling.
 
-The two tables below set the same report at two different times: at now in the
-first and in the past in the second. Their first three rows carry the same
-reported clause as each other, and nothing inside it changes between the tables.
-Their fourth rows carry different clauses, so read that row down each table on
-its own rather than across the two.
-
-| Report set at now | English |
-|---|---|
-| *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. |
-| *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* | The boy knows that the girl is staying in the village. |
-| *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.* | The boy knows that the girl had stayed in the village. |
-| *ʻUa iloa e le tama e nofo le teine ʻi le nuʻu.* | The boy knows that the girl will stay in the village. |
-
-| Report set in the past | English |
-|---|---|
-| *Na iloa e le tama ʻua sau le teine.* | The boy knew that the girl had come. |
-| *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* | The boy knew that the girl was staying in the village. |
-| *Na iloa e le tama sā nofo le teine ʻi le nuʻu.* | The boy knew that the girl had stayed in the village. |
-| *Na iloa e le tama e sau le teine.* | The boy knew that the girl would come. |
-
-Read the first three rows of the two tables side by side. The first half does
-change between them: its tense particle is the one that sets the report at now
-in the first table and a past one in the second. What does not change is the
-reported clause after it, which stands in both tables particle for particle in
-all three rows. On the English side, compare the reported halves against each
-other. The first two shift, "has come" becoming "had come" and "is staying"
-becoming "was staying", because an English report after a past verb usually
-shifts the reported verb back a step. The third does not shift: "had stayed"
-reads the same under either report. Sāmoan leaves the reported particle where it
-is in all three rows and lets the first half of the sentence supply the anchor.
-In the fourth row of each table the reported clause is a different one, and
-there the general particle *e* sets no time of its own, so the English reads
-"will stay" under a report at now and "would come" under a report in the past.
-
-::: {.examples}
-*Na iloa e le tama ʻoleʻā sau le teine.* The boy knew that the girl would come.
-:::
-
-The future particle *ʻoleʻā* marks an event still to come at the time of the
-report. Both this sentence and the fourth row of the second table above read
-"would come" in English, but the future particle itself places the coming later,
-while under the general particle *e* the particle sets no time of its own and the
-still-to-come reading is not marked by it.
+> *Note:* A direction word is not the only thing that can carry the ending. When
+> a verb is followed by a second verb describing it, the kind of pair taught
+> earlier in this book, the ending goes onto that describing verb instead. Recognize the rule
+> when you meet it; this book does not work it, because the verbs the
+> description shows it on are not among the words taught here, and no sentence
+> in this chapter uses it.
 
 ---
 
-## Reporting a Command
+## Commands: The Two Rules That Hold
 
 ::: {.examples}
-*ʻUa faʻatonu mai e le teine o le vaʻalele ʻia sāisai le fusi.* The stewardess gave the order that the belt should be fastened. (Lit. "The girl of the airplane has ordered that the belt be tied.")
+*ʻAi.* Eat.
+
+*ʻAua le ʻaia le meaʻai lenā.* Don't eat that food.
 :::
 
-*faʻatonu* means "order", *fusi* means "belt", and *vaʻalele* means "airplane".
+The first sentence tells someone to do something, and its verb is the short
+form. The second forbids the same action, and its verb is the long form. Neither
+sentence has any choice in the matter, and these are the only two places where
+the description of Sāmoan settles the choice for you.
 
-When what is reported is a command, the reported clause opens with the mood
-particle *ʻia* rather than with a tense particle. *ʻIa* fills that same first
-slot, and what stands after it is what somebody is to do.
+### A Command Takes the Short Form
+
+A command to do something carries no tense particle, and it takes the short
+form. The long form never appears in one.
 
 | Sāmoan | English |
 |---|---|
-| *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia sāisai le fusi.* | The stewardess gave the order that the belt should be fastened. |
-| *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.* | The stewardess gave the order that the person should sit. |
-| *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.* | The boy gave the order that the girl should wait. |
-| *ʻUa faʻatonu mai e le tama ʻia sau le teine.* | The boy gave the order that the girl should come. |
+| *ʻAi.* | Eat. |
+| *Faitau.* | Read. |
+| *Fau.* | Build. |
 
-> *Note:* The general particle *e* also stands in this slot in place of *ʻia*,
-> with the same reported-command reading.
+A command is about the event getting done and about the thing it gets done to,
+not about the person who is to do it. That is why the short form belongs here.
 
-> *Note:* The stop verb *sōia*, met earlier in this book, can also be reported.
-> When you report that someone told another person to stop, *sōia* is marked by
-> the general particle *e*, the particle the Note above names. Recognize it when
-> you meet it; this chapter does not drill it.
+### Forbidding Takes the Long Form
 
-> *Note:* *ʻIa* belongs to a small family of mood particles taught fully in a
-> later chapter. Here it does one job, opening a reported command.
+A forbidding sentence built with *ʻaua le* takes the long form. Speakers asked
+to accept a short form in this position reject it as wrong.
+
+| Sāmoan | English |
+|---|---|
+| *ʻAua le ʻaia le meaʻai lenā.* | Don't eat that food. |
+| *ʻAua le faitau=a le tusi lenā.* | Don't read that book. |
+| *ʻAua le tatala=ina le pusa lenā.* | Don't open that box. |
+| *ʻAua le fasi=a le maile lenā.* | Don't hit that dog. |
+| *ʻAua le faʻatau=a le vaʻa lenā.* | Don't sell that boat. (Lit. "Don't trade that boat.") |
+
+The last sentence uses *faʻatau* with no direction word, so nothing in the words
+says which way the trade runs, and the context settles it: here the boat is being
+sold.
+
+The do-not verb *ʻaua* is the one taught earlier in this book. What is new is
+what follows it: *le*, and then the verb in its long form, and then the thing
+acted on. The *le* is the specific article, sitting where the pattern taught
+earlier put the person and the general particle instead. What that article is
+doing there is taken up later in this book.
+
+A forbidding sentence taught earlier, such as *ʻAua ʻe te faitala* ("Don't
+gossip"), leaves its verb alone for a different reason: *faitala* takes no agent
+marker, and a verb of that kind has only one shape to offer. The longer shape
+flagged there is this one, and these two rules are the whole of what it is
+obliged to do.
 
 ---
 
-## The Say-Verb *Fai*
+## When the Choice Is Yours
+
+Outside those two positions the choice is open: the same speaker may use one
+shape on one occasion and the other on the next, in the same slot of the same
+kind of sentence.
 
 ::: {.examples}
-*Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."* The man said: "You will wait." (Lit. "Say away the man: 'You will wait.'")
-
-*Na fai atu le teine ʻi le tama e ʻavatu le tusi.* The girl told the boy to give the book. (Lit. "The girl said to the boy that the book be given.")
+*ʻO ai na fasi=a le tama?* Who hit the boy?
 :::
 
-*ʻavatu* means "give (away from the speaker)".
-
-*Fai* was met earlier in this book with all four of its meanings (do, make, say
-and tell), and it is the most common of the verbs Sāmoan uses for speaking. It
-enters two patterns, and this chapter teaches the one it enters when it means
-say. In an English sentence like
-"The man said the word", what stands after "say" is what was said; in the
-pattern taught here the noun phrase after *fai* is the person who spoke, and
-what was said comes after it as a sentence in its own right. That sentence may
-be quoted word for word, as in the first example, or reported in your own
-words, as in the second.
-
-| Sāmoan | English |
-|---|---|
-| *Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."* | The man said: "You will wait." |
-| *Fai atu le teine: "ʻOleʻā ʻou alu."* | The girl said: "I will go." |
-| *Na fai atu le teine ʻi le tama e ʻavatu le tusi.* | The girl told the boy to give the book. |
-
-> *Note:* *Fai atu* and *fai mai* carry the direction words taught earlier in
-> this book, *atu* for speech going away from the speaker and *mai* for speech
-> coming toward. Both appear with this verb in this chapter.
-
-What was said is not one of the noun phrases the sentence is about. It is a
-whole sentence, which has to follow the say-verb, and it may run to more than
-one sentence.
-
-### Asking in a Report: *Pē*
+The question word stands at the front, as it did when it asked who went, and it
+carries the presenting particle *ʻo* in place of the agent marker: a doer asked
+for this way takes *ʻo ai* and no *e*. The question is after the doer, and the
+long form is what speakers choose for a sentence like it when they are asked to
+pick. Set beside it a sentence with no doer in it at all:
 
 ::: {.examples}
-*Na fai mai le teine pē alu le tama.* The girl asked whether the boy would go. (Lit. "The girl said whether the boy goes.")
+*Sā nonoa le ʻie ʻi le faʻamalama.* The cloth was tied at the window.
 :::
 
-When what is reported is a question, the reported sentence opens with *pē*.
-Nothing else about the pattern changes: *fai* still names the speaker, and the
-question follows it.
+Nobody is named as the tier (*nonoa* is tie up; *faʻamalama* is window), the
+attention is all on the cloth and what happened to it, and the verb is in the
+short form.
 
-| Sāmoan | English |
-|---|---|
-| *Na fai mai le teine pē alu le tama.* | The girl asked whether the boy would go. |
-| *Na fai mai le tama pē sau le teine.* | The boy asked whether the girl would come. |
-| *Na fai mai le teine pē nofo le tama ʻi le nuʻu.* | The girl asked whether the boy was staying in the village. |
+That is the tendency the description points to. You will mostly hear the short
+form where the attention is on what happened to the thing acted on, and the long
+form where the doer matters to what is being said.
 
-> *Note:* *Pē* has a second shape, *po*, the question marker met earlier in
-> this book at the front of a question. Either shape opens a reported question.
+::: {.examples}
+*Sā faitau e le teine le vāega.* The girl read the section.
+:::
+
+A plain report like this one (*vāega* is section or part), with a doer named
+and no weight on them, usually takes the short form, and that is the shape to
+reach for by default.
+
+Past the two command rules, though, this is a tendency and not a rule, and it is
+as far as this book's source grammar takes it. Usage varies from speaker to
+speaker, it varies between one speaker's careful style and their casual one, and
+it varies verb by verb, closely enough that each verb behaves almost as though
+it had a grammar of its own. So learn the two command rules cold, use the short
+form as the default everywhere else, and listen for the long form where the
+sentence puts weight on the doer.
+
+> **Preview:** The long form is preferred in other places too, and in most of
+> them the weight is on the doer. Two of those come later in this book: a
+> sentence that moves a named doer to the front, standing where the question
+> word stood above, taught in Chapter 34, and a clause that describes the doer,
+> taught in Chapter 43. The long form is also usual where the thing acted on is
+> not affected, as in a not-sentence like the first pair of this chapter. Until
+> then, the two command rules above are what to build on.
 
 ---
 
@@ -204,42 +211,32 @@ question follows it.
 
 | Word | What it does |
 |---|---|
-| *fai* | the say-verb, met earlier with all its meanings: the person named after it is the speaker, and what was said follows as a sentence of its own |
-| *ʻia* | the mood particle that opens a reported command, standing where a tense particle would otherwise stand |
-| *pē* | it opens a reported question; *po*, met earlier, is its other shape |
+| *=a* | a long-form ending: joins to the short form, and is the everyday choice |
+| *=ina* | a long-form ending: the same job, preferred in formal speech and writing |
+| *=ia* | a long-form ending some speakers use, usually with a consonant in front of it |
+| *=na* | a long-form ending, uncommon: recognise it, and build with *=a* or *=ina* |
+| *ʻaua le* | forbids an action, and takes the long form of the verb after it |
 
 **New vocabulary** (memorize these meanings):
 
-| Word | Meaning |
-|---|---|
-| *sasae* | tear |
-| *tā* | beat, strike, play |
-| *ʻavatu* | give (away from the speaker) |
-| *ataliʻi* | a man's son |
-| *faʻatonu* | order, instruct: a verb here, and the one who gives the order takes the agent marker |
-| *fusi* | belt |
-| *vaʻalele* | airplane |
-
-*Ataliʻi* names a man's son, and a father's son takes an o-word possessive form:
-
-::: {.examples}
-*ʻO loʻu ataliʻi.* My son.
-:::
-
-> *Note:* *Tā* is spelled like the word for "you and I" taught earlier in this
-> book. Position tells them apart: this *tā* is the verb itself, standing where
-> the verb stands, while the pronoun stands between the tense particle and the
-> verb, or inside a possessive phrase such as *le tā igoa* met earlier in this
-> book.
-
-**Words to carry** (learned now, used fully later in this book):
+The verbs:
 
 | Word | Meaning |
 |---|---|
-| *feiloaʻiga* | meeting; reception, welcome |
+| *faitau* | count, read |
+| *fau* | build |
+| *faʻatau* | sell, buy |
+| *nonoa* | tie up |
 
-*Feiloaʻiga* is learned now. It is a naming word that stands after *le*, and the
-sentences that use it arrive in a later chapter.
+The nouns:
+
+| Word | Meaning |
+|---|---|
+| *faʻamalama* | window |
+| *tōtōga* | internal organs |
+| *vāega* | section, part |
+
+*ʻIe*, learned earlier in this book as kilt, also means cloth here.
 
 ---
 
@@ -247,64 +244,72 @@ sentences that use it arrive in a later chapter.
 
 ### Exercise 1: Translate into English
 
-1. *ʻUa iloa e le tama ʻua sau le teine.*
-2. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
-3. *ʻUa faʻatonu mai e le tama ʻia sau le teine.*
-4. *Fai atu le teine: "ʻOleʻā ʻou alu."*
-5. *Na fai mai le tama pē sau le teine.*
-6. *Na iloa e loʻu ataliʻi ʻua sasae le ʻie.*
+1. *ʻAua le faitau=a le tusi lenā.*
+2. *Sā faitau e le teine le vāega.*
+3. *ʻO ai na fasi=a le tama?*
+4. *Sā nonoa le ʻie ʻi le faʻamalama.*
+5. *ʻAua le tatala=ina le pusa lenā.*
+6. *Sā lē fasi=a le tama e le teine.*
 
-### Exercise 2: Translate into Sāmoan
+### Exercise 2: Give the long form
 
-1. The boy knew that the girl had come.
-2. The boy knows that the girl is staying in the village.
-3. The boy gave the order that the girl should wait.
-4. The man said: "You will wait."
-5. The girl asked whether the boy would go.
-6. The girl told the boy to give the book.
+Write both long forms of each verb.
 
-### Exercise 3: Move the report into the past
+1. *ʻai*
+2. *fasi*
+3. *faitau*
+4. *fau*
+5. *faʻatau*
 
-Each sentence reports at the present moment. Rewrite it with *Na iloa* in place
-of *ʻUa iloa*, leaving the second half exactly as it stands, and give the new
-English.
+### Exercise 3: Short form or long form
 
-1. *ʻUa iloa e le tama ʻua sau le teine.*
-2. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
-3. *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.*
-4. *ʻUa iloa e le tama ʻua sasae le ʻie.*
-5. *ʻUa iloa e loʻu ataliʻi ʻua sau le teine.*
+Put the verb in brackets into the gap in the shape the sentence requires.
 
-### Exercise 4: Choose *ʻia* or *pē*
+1. *ʻAua le ___ le meaʻai lenā.* (*ʻai*)
+2. *___.* Read. (*faitau*)
+3. *ʻAua le ___ le vaʻa lenā.* (*faʻatau*)
+4. *___.* Build. (*fau*)
+5. *ʻAua le ___ le maile lenā.* (*fasi*)
 
-Fill each gap so that the Sāmoan matches the English.
+### Exercise 4: Forbid it
 
-1. *ʻUa faʻatonu mai e le tama ___ sau le teine.* (The boy gave the order that the girl should come.)
-2. *Na fai mai le teine ___ alu le tama.* (The girl asked whether the boy would go.)
-3. *ʻUa faʻatonu mai e le tama ___ faʻatali le teine.* (The boy gave the order that the girl should wait.)
-4. *Na fai mai le tama ___ sau le teine.* (The boy asked whether the girl would come.)
-5. *ʻUa faʻatonu mai e le teine o le vaʻalele ___ nofo le tagata.* (The stewardess gave the order that the person should sit.)
+Write each forbidding sentence in Sāmoan, using *ʻaua le* and the long form.
 
-### Exercise 5: Place the reported event
+1. Don't read that book.
+2. Don't open that box.
+3. Don't hit that dog.
+4. Don't sell that boat. (Lit. "Don't trade that boat.")
+5. Don't eat that food.
 
-For each sentence, say whether the reported event is at the same time as the
-report, before it, or after it.
+### Exercise 5: Translate into Sāmoan
 
-1. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
-2. *Na iloa e le tama ʻua sau le teine.*
-3. *Na iloa e le tama ʻoleʻā sau le teine.*
-4. *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.*
-5. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+1. The girl read the section.
+2. The boy built the house.
+3. The cloth was tied at the window.
+4. Who hit the boy?
+5. Who bought the book?
 
-### Exercise 6: Give the meaning
+### Exercise 6: Which shape, and why
 
-1. *sasae*
-2. *tā*
-3. *ʻavatu*
-4. *ataliʻi*
-5. *faʻatonu*
-6. *fusi*
-7. *vaʻalele*
+Say whether each sentence uses the short form or the long form, and give the
+reason in one phrase.
+
+1. *ʻAi.*
+2. *ʻAua le ʻaia le meaʻai lenā.*
+3. *Sā faitau e le teine le vāega.*
+4. *ʻO ai na fasi=a le tama?*
+5. *Sā nonoa le ʻie ʻi le faʻamalama.*
+
+### Exercise 7: Give the meaning
+
+1. *faitau*
+2. *fau*
+3. *faʻatau*
+4. *nonoa*
+5. *faʻamalama*
+6. *ʻie*
+7. *tōtōga*
+8. *vāega*
 
 ---
 
@@ -312,55 +317,71 @@ report, before it, or after it.
 
 ### Exercise 1
 
-1. The boy knows that the girl has come.
-2. The boy knew that the girl was staying in the village.
-3. The boy gave the order that the girl should come.
-4. The girl said: "I will go."
-5. The boy asked whether the girl would come.
-6. My son knew that the cloth had been torn.
+1. Don't read that book.
+2. The girl read the section.
+3. Who hit the boy?
+4. The cloth was tied at the window.
+5. Don't open that box.
+6. The girl did not hit the boy.
 
 ### Exercise 2
 
-1. *Na iloa e le tama ʻua sau le teine.*
-2. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
-3. *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.*
-4. *Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."*
-5. *Na fai mai le teine pē alu le tama.*
-6. *Na fai atu le teine ʻi le tama e ʻavatu le tusi.*
+1. *ʻaia*, *ʻai=ina*
+2. *fasi=a*, *fasi=ina*
+3. *faitau=a*, *faitau=ina*
+4. *fau=a*, *fau=ina*
+5. *faʻatau=a*, *faʻatau=ina*
+
+Either ending is correct in every one of these. Of the two, *=a* is the one you
+will mostly hear in everyday speech and *=ina* the one you will meet more in formal writing.
 
 ### Exercise 3
 
-1. *Na iloa e le tama ʻua sau le teine.* The boy knew that the girl had come.
-2. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knew that the
-   girl was staying in the village.
-3. *Na iloa e le tama sā nofo le teine ʻi le nuʻu.* The boy knew that the girl
-   had stayed in the village. The English of the reported half does not move
-   here, since it was already "had stayed" under the present report.
-4. *Na iloa e le tama ʻua sasae le ʻie.* The boy knew that the cloth had been torn.
-5. *Na iloa e loʻu ataliʻi ʻua sau le teine.* My son knew that the girl had come.
+1. *ʻAua le ʻaia le meaʻai lenā.*
+2. *Faitau.*
+3. *ʻAua le faʻatau=a le vaʻa lenā.*
+4. *Fau.*
+5. *ʻAua le fasi=a le maile lenā.*
+
+The *=ina* ending is equally correct in items 1, 3 and 5.
 
 ### Exercise 4
 
-1. *ʻUa faʻatonu mai e le tama ʻia sau le teine.*
-2. *Na fai mai le teine pē alu le tama.*
-3. *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.*
-4. *Na fai mai le tama pē sau le teine.*
-5. *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.*
+1. *ʻAua le faitau=a le tusi lenā.*
+2. *ʻAua le tatala=ina le pusa lenā.*
+3. *ʻAua le fasi=a le maile lenā.*
+4. *ʻAua le faʻatau=a le vaʻa lenā.*
+5. *ʻAua le ʻaia le meaʻai lenā.*
+
+In item 4 the verb stands with no direction word, and the context makes it
+selling.
 
 ### Exercise 5
 
-1. At the same time as the report.
-2. Before the report.
-3. After the report.
-4. Before the report.
-5. At the same time as the report.
+1. *Sā faitau e le teine le vāega.*
+2. *Sā fau e le tama le fale.*
+3. *Sā nonoa le ʻie ʻi le faʻamalama.*
+4. *ʻO ai na fasi=a le tama?*
+5. *ʻO ai na faʻatau=a mai le tusi?*
+
+In item 5, *ʻO ai na faʻatau mai=a le tusi?* is equally correct.
 
 ### Exercise 6
 
-1. tear
-2. beat, strike, play
-3. give
-4. a man's son
-5. order
-6. belt
-7. airplane
+1. Short form: a command to do something always takes it.
+2. Long form: a forbidding sentence with *ʻaua le* takes it, and speakers reject
+   the short form there.
+3. Short form: a plain report with no weight on the doer.
+4. Long form: the question is after the doer.
+5. Short form: no doer is named, and the attention is on the cloth.
+
+### Exercise 7
+
+1. count, read
+2. build
+3. sell, buy
+4. tie up
+5. window
+6. cloth
+7. internal organs
+8. section, part

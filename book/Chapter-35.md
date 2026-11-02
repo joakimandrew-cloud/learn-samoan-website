@@ -1,177 +1,289 @@
-# Chapter 35: The Le-Phrase
+# Chapter 34: Putting Things First
 
-This chapter introduces the le-phrase, an article standing in front of a verb so
-that the two of them together work as a noun phrase, and shows you how to pack a
-whole event into a thing you can put wherever a noun phrase goes.
-
----
-
-## Making a Le-Phrase
-
-::: {.examples}
-*ʻOu te lē fia manatu ʻi le mea lea.* I do not want to think about that.
-
-*ʻOu te lē fia manatu ʻi le leai o se mea ʻi loʻu manava.* I do not want to think about having nothing in my stomach. (Lit. "...to think of the being absent of anything in my stomach.")
-:::
-
-Compare them. What stands after the place word *ʻi* in each?
-
-In the first sentence it is an ordinary noun phrase, *le mea lea*: an article, a
-noun, and the pointing word *lea*, which stands after the noun the way *lenā*
-does. A thing, in other words. In the second it is an event, the speaker
-having nothing in the stomach. Everything before *ʻi* is the same in both, so
-whatever Sāmoan has done to that event, it has left it able to stand exactly
-where the thing stood. The words *o se mea* inside that second phrase name what
-is absent, and how a le-phrase names the people and things in its event is taken
-up later in this book.
-
-What it has done is put an article in front of a verb. An article and a verb
-working together as a noun phrase are a **le-phrase**: an event packed into a
-thing. The verb keeps its own meaning, and the article makes the whole of it
-into something a sentence can use where a noun would go.
-
-The pattern has two parts in a fixed order: the article *le*, then the verb. No
-tense particle stands anywhere inside it, and that is what a le-phrase never
-carries. Any verb you already know can head one.
-
-| Sāmoan | English |
-|---|---|
-| *le nofo* | the staying |
-| *le taʻatia* | the lying down |
-| *le paʻū* | the falling |
-| *le lavea* | the being hurt |
-| *le vāivai* | the being tired |
-| *le velo* | the hurling of a spear |
-| *le manatu* | the thinking |
-
-The English that fits is usually the "-ing" form of the verb, or "the being"
-with a description after it. Neither of those is a new Sāmoan word: *nofo* is
-still the verb *nofo*, and only the article in front of it has changed what the
-phrase can do.
-
-> **Preview:** Sāmoan has a second way of making an event into a word, by adding
-> an ending to the verb itself. That system is taught in Chapter 50. Every event
-> word in this chapter is made the first way, with the article.
+This chapter teaches putting things first, the pattern that moves a noun phrase
+out of its ordinary place to the head of the sentence under the presenting
+particle *ʻo*, and shows you how to mark a topic, draw a contrast, put weight on
+one word, or say where and when. The shape of the verb and the
+pointing-back word *ai* both answer to that move.
 
 ---
 
-## The Verb Inside the Phrase
+## Moving the Doer to the Front
 
 ::: {.examples}
-*Sā ʻou nofo ma le lē fiafia.* I stayed and was unhappy. (Lit. "I stayed with the not being happy.")
+*Sā galue le tama ʻi le faʻatoʻaga.* The boy worked in the plantation.
+
+*ʻO le tama sā galue ʻi le faʻatoʻaga.* The boy worked in the plantation. (Lit. "Presenting the boy, past work in the plantation.")
 :::
 
-The phrase after the with-word *ma* is *le lē fiafia*, "the not being happy". The
-not-word *lē* stands between the article and the verb, in the same place it
-takes in front of a verb in an ordinary sentence.
+*faʻatoʻaga* means "plantation".
 
-This is one thing that tells a le-phrase apart from a plain noun phrase built on
-a noun. The word in the middle is still a verb, so it can take the not-word, and
-a noun in that slot never does.
+Compare them, and ask which of the words has moved.
 
-The pattern with a not-word has three parts in a fixed order: the article *le*,
-then *lē*, then the verb.
+The doer is what moved. In the first sentence the verb comes first and *le tama*
+follows it, which is the order every sentence with a named doer in this book has
+used so far. In the second, *le tama* stands at the head of the sentence with the
+presenting particle *ʻo* in front of it, and the verb phrase comes after.
+Nothing else changed, and the English is the same either way.
+
+Until now the action has come before the named doer in every sentence of this
+book, and this is where Sāmoan does not. Moving a noun phrase to the head of the
+sentence like this is **putting things first**, and it is available for any
+participant in the sentence: the doer, the thing acted on, or the place and
+time.
+
+The pattern has two parts in a fixed order. First the presenting particle *ʻo*
+with the noun phrase it holds up, then the rest of the sentence built as usual,
+with that phrase's ordinary slot left empty.
 
 | Sāmoan | English |
 |---|---|
-| *le fiafia* | the being happy |
-| *le lē fiafia* | the not being happy |
-| *le vāivai* | the being tired |
-| *le lē vāivai* | the not being tired |
-| *le nofo* | the staying |
-| *le lē nofo* | the not staying |
+| *ʻO le tama sā galue ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
+| *ʻO le teine sā galue ʻi le faʻatoʻaga.* | The girl worked in the plantation. |
+| *ʻO le lotu ʻua ʻuma.* | The service is finished. |
 
-> *Note:* The article and the not-word are told apart in writing by the
-> long-vowel mark alone. Print that drops the marks writes the two the same way,
-> and the reader takes them apart by sense.
+*ʻuma* means "be finished".
+
+The last row is the same move on a shorter sentence, and here is the pair it
+comes from:
 
 ::: {.examples}
-*Sā ʻou nofo ma le lē vāivai.* I stayed and was not tired.
+*ʻUa ʻuma le lotu.* The service is finished.
+
+*ʻO le lotu ʻua ʻuma.* The service is finished.
 :::
 
-Because a le-phrase works as a noun phrase, the words that mark a noun phrase
-mark it too. The place word *ʻi* marked one in the opening pair and the with-word
-*ma* marks this one, and the other slots a noun phrase can fill are open to it
-too.
+A doer put first can be said twice, once at the front and once in its ordinary
+middle slot:
 
-> **Preview:** A le-phrase can also stand at the head of a sentence, where it
-> sets the time for what follows, the way an English sentence can open with
-> "when". That use is taught in Chapter 44.
+::: {.examples}
+*ʻO aʻu ʻou te nofo ʻi totonu o le fale.* I live inside the house.
+:::
+
+*Aʻu* is the independent pronoun, the one held up at the front, and *ʻou* is the
+middle-slot pronoun filling the place before the verb where the doer usually
+sits. Both name the same person, so the sentence says that person twice. You
+will often hear this doubling with the words for "I" and "you", though it is not
+required, since the front pronoun can stand alone.
 
 ---
 
-## Forbidding an Event
-
-You have built sentences of this shape already, with *ʻaua* and an article
-standing in front of a long-form verb. The article was left unexplained there.
-It is the article of a le-phrase.
+## The Shape of the Verb
 
 ::: {.examples}
-*Sōia le maumau=ina le taimi.* Stop wasting time.
+*Sā tapē e le tama le puaʻa.* The boy killed the pig.
 :::
 
-The do-not verb *sōia* is followed here by a le-phrase rather than by a person
-and a verb. What is forbidden is *le maumau=ina le taimi*, the wasting of the
-time, named as a thing. The verb of that event is *māumau*, and inside this
-phrase it stands in its long form, *maumau=ina*, with the thing being wasted,
-*le taimi*, after it.
+*tapē* means "kill".
 
-The other do-not verb takes a le-phrase the same way:
+This sentence has two participants: *le tama*, the doer, marked with the agent
+marker *e*, and *le puaʻa*, the thing acted on. Either of them can go to the
+front, and which one goes there settles the shape of the verb.
 
 ::: {.examples}
-*ʻAua le maumau=ina le taimi.* Do not waste time.
+*ʻO le puaʻa sā tapē e le tama.* The boy killed the pig.
+
+*ʻO le tama sā tapē=ina le puaʻa.* The boy killed the pig.
 :::
 
-The difference between the two verbs is the one you already have. *ʻAua*
-forbids an action, and *sōia* stops an action that is already under way. Naming
-the action as a le-phrase changes nothing about that choice.
-
-The pattern has three parts in a fixed order: the do-not verb, then the article
-*le*, then the verb of the event. In both sentences here, what the event names
-follows that verb with nothing in front of it. Sāmoan has a second way of naming
-it, and both are taught later in this book.
+Put the thing acted on first and the verb mostly keeps the short form, *tapē*.
+Put the doer first and the verb usually takes the long form, *tapē=ina*. This is
+the same choice of shapes taught earlier in this book, now with two more places
+where speakers lean one way.
 
 | Sāmoan | English |
 |---|---|
-| *ʻAua le taʻatia.* | Do not lie down. |
-| *ʻAua le velo.* | Do not hurl a spear. |
-| *ʻAua le nofo.* | Do not stay. |
-| *Sōia le tagi.* | Stop crying. |
-| *Sōia le taʻatia.* | Stop lying down. |
+| *Sā tapē e le tama le puaʻa.* | The boy killed the pig. |
+| *ʻO le puaʻa sā tapē e le tama.* | The boy killed the pig. |
+| *ʻO le tama sā tapē=ina le puaʻa.* | The boy killed the pig. |
+| *Sā tatala e le teine le faitotoʻa.* | The girl opened the door. |
+| *ʻO le faitotoʻa sā tatala e le teine.* | The girl opened the door. |
+| *ʻO le teine sā tatala=ina le faitotoʻa.* | The girl opened the door. |
 
-> **Preview:** A le-phrase can name the person who does the event as well as the
-> thing it is done to. How each of them is marked follows a rule of its own, not
-> the rule you learned for belonging, and part of it turns on whether both of
-> them are named at once. That rule is taught in Chapter 45.
+A third pair, with the same short form on a different verb:
+
+::: {.examples}
+*Sā ʻai e le teine le iʻa.* The girl ate (all of) the fish.
+
+*ʻO le iʻa sā ʻai e le teine.* The girl ate (all of) the fish.
+:::
+
+> *Note:* When you move a participant, make two checks: if the word you moved is
+> the thing acted on, keep the short form, and if it is the doer, reach for the
+> long form. Both of those are tendencies and not rules, in the same way the two
+> shapes were tendencies where they were first taught. Usage varies from speaker
+> to speaker and verb by verb, and the two command rules stay the only
+> exceptionless ones.
+
+A sentence with the thing acted on at the front reads two ways in English.
+*ʻO le puaʻa sā tapē e le tama* is "the boy killed the pig" and it is equally
+"the pig was killed by the boy". Sāmoan does not choose between the two, because
+there is one sentence here and English has two ways of saying it.
+
+What moves to the front is the whole phrase, however long it runs:
+
+::: {.examples}
+*Na lagona e le tinā le leo o le pepe.* The mother heard the voice of the baby.
+
+*ʻO le leo o le pepe na lagona e le tinā.* The mother heard the voice of the baby.
+:::
+
+*lagona* means "hear".
+
+The thing heard is *le leo o le pepe*, the voice of the baby, and all five words
+travel to the front together.
+
+> *Note:* A doer put first can be answered by a middle-slot pronoun, as *aʻu*
+> was answered by *ʻou* above, but a thing acted on put first is not. What can
+> point back to it instead is the demonstrative *lea*, or *ia* where more than
+> one thing is meant, standing later in the sentence, after the verb in the
+> pattern this book follows. This *ia* is spelled like the middle-slot word for
+> "he" and "she", which stands between the tense particle and the verb.
 
 ---
 
-## Number Inside the Phrase
+## Only and Any at the Front
+
+This chapter has two words that put a noun phrase at the front without the
+presenting particle.
 
 ::: {.examples}
-*le nofo*. the staying (of one)
-
-*le nonofo*. the staying (of more than one)
+*soʻo se tagata*. any person
 :::
 
-The verb inside a le-phrase behaves as a verb in one further way: it marks
-number. *Nofo* and *nonofo* are the singular and the plural shape of one verb,
-and the rule inside a le-phrase is the rule you already have for a sentence. A
-verb that has a plural shape takes it when what the phrase is about is more than
-one.
+*Soʻo se* means "any". It stands in front of the noun, and a phrase it heads
+carries neither *ʻo* nor the place word *ʻi* when it goes first.
+
+::: {.examples}
+*Soʻo se tagata e tatau ona ʻaumai se falaoa.* Anybody should bring some bread.
+:::
+
+*falaoa* means "bread".
+
+*Naʻo* means "only", and it behaves the same way. It comes in front of the
+article, *naʻo le tama*, and the phrase goes to the head of the sentence bare:
+
+::: {.examples}
+*Naʻo le tama e nofo ʻi totonu o le potu.* Only the boy is staying inside the room.
+:::
+
+> *Note:* Sāmoan writers usually print *naʻo* as two words, *na o*. This book
+> prints it as one.
+
+---
+
+## Putting the Setting First
+
+A phrase saying where or when something happened can go to the front too. One
+way of doing it was taught earlier in this book: the phrase keeps the place word
+*ʻi*, and the pointing-back word *ai* answers it from inside the verb phrase.
+
+::: {.examples}
+*ʻI le faʻatoʻaga sā galue ai le tama.* In the plantation the boy worked there.
+
+*ʻI le faʻatoʻaga sā galue le tama.* In the plantation the boy worked.
+:::
+
+*Ai* is normal here and not compulsory, as the second sentence shows.
+
+The same setting can go first the other way, presented with *ʻo* in place of the
+place word:
+
+::: {.examples}
+*ʻO le faʻatoʻaga sā galue ai le tama.* The boy worked in the plantation. (Lit. "Presenting the plantation, past work there the boy.")
+:::
+
+The pointing-back word stands after the verb here as well. So a setting has two
+front positions open to it, one keeping its place word and one presented like a
+doer, and *ai* appears in both.
 
 | Sāmoan | English |
 |---|---|
-| *le nofo* | the staying of one |
-| *le nonofo* | the staying of more than one |
+| *Sā galue le tama ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
+| *ʻI le faʻatoʻaga sā galue ai le tama.* | In the plantation the boy worked there. |
+| *ʻI le faʻatoʻaga sā galue le tama.* | In the plantation the boy worked. |
+| *ʻO le faʻatoʻaga sā galue ai le tama.* | The boy worked in the plantation. |
+
+---
+
+## The Four Jobs of Putting Things First
+
+Putting a noun phrase first does four jobs, and the sentences above have already
+shown three of them.
+
+The first job is naming the topic. A phrase put first announces what the rest is
+going to be about, which is why Sāmoan stories so often open this way:
 
 ::: {.examples}
-*ʻAua le nonofo teine ʻi le āʻoga.* The girls should not stay at the school.
+*ʻO aʻu ʻou te nofo ʻi totonu o le fale.* I live inside the house.
 :::
 
-The phrase is about *teine*, the girls, and they are more than one, so the verb
-inside it is the plural *nonofo*. If the phrase were about one girl the verb
-inside it would be the singular *nofo*.
+The second job is contrast. Set two sentences side by side, each with its person
+at the front, and the two people are set against each other:
+
+::: {.examples}
+*ʻO aʻu na ʻou vaʻai ʻi ai.* I saw it.
+
+*ʻO ʻoe ʻe te leʻi vaʻai ʻi ai.* You did not see it.
+:::
+
+The third job is weight on one word. No word of emphasis is added to *ʻO le tama
+sā tapē=ina le puaʻa*; the boy is put first, and being first is what marks him
+as the point of the sentence.
+
+The fourth job is the setting, the where and when of the sentence, which the
+place phrases in the section above were doing.
+
+> **Preview:** The contrasting pair can also be read a second way, as a sentence
+> that begins by naming somebody, "it is me", and then describes what that
+> person did. That second reading is the shape behind phrases like "the one who
+> saw it", and it is taught in Chapter 43.
+
+---
+
+## Order in the Naming Sentence
+
+The naming sentence was built earlier in this book with the naming part in
+front. It can also run the other way round:
+
+::: {.examples}
+*ʻO se uō le tama.* The boy is a friend.
+
+*ʻO le tama ʻo se uō.* The boy is a friend.
+:::
+
+Both are good Sāmoan and both say the same thing. The naming part nearly always
+carries *ʻo*, wherever it stands, while the other part, the one being named,
+carries *ʻo* only when it comes first. That is why the second sentence has two of
+them and the first has one.
+
+Which order a speaker picks is largely free, and no rule settles it. Two cases
+are settled, though. When the part being named is the speaker, it comes first:
+
+::: {.examples}
+*ʻO aʻu ʻo se uō.* I am a friend.
+:::
+
+And when the part being named is a demonstrative, it must come second:
+
+::: {.examples}
+*ʻO le faleoʻo lenā.* That is the small house.
+
+*ʻO se uō lenā.* That is a friend.
+:::
+
+*faleoʻo* means "a small house".
+
+*Lenā* cannot lead, so the naming part comes first and the demonstrative follows
+it, every time.
+
+| Sāmoan | English |
+|---|---|
+| *ʻO se uō le tama.* | The boy is a friend. |
+| *ʻO le tama ʻo se uō.* | The boy is a friend. |
+| *ʻO aʻu ʻo se uō.* | I am a friend. |
+| *ʻO le faleoʻo lenā.* | That is the small house. |
+| *ʻO se uō lenā.* | That is a friend. |
 
 ---
 
@@ -181,24 +293,38 @@ inside it would be the singular *nofo*.
 
 | Word | What it does |
 |---|---|
-| *le* | the article, met earlier: standing in front of a verb it heads a le-phrase and packs the event into a thing |
-| *lē* | the not-word, met earlier: inside a le-phrase it stands between the article and the verb |
-| *ʻaua* | the do-not verb for an action to be forbidden, met earlier: it can take a le-phrase in place of a person and a verb |
-| *sōia* | the do-not verb for stopping what is under way, met earlier: it takes a le-phrase the same way |
+| *ʻo* | the presenting particle, met earlier: at the head of a sentence it lifts a noun phrase out of its ordinary slot and holds it up |
+| *ai* | the pointing-back word, met earlier: it answers a setting put first, from inside the verb phrase |
+| *naʻo* | only: it goes in front of the article, and the phrase it heads takes no *ʻo* and no *ʻi* at the front of a sentence |
+| *soʻo se* | any: it goes in front of the noun, and behaves the same bare way at the front of a sentence |
+| *lea*, *ia* | the demonstrative that can point back to a thing acted on put first, *lea* for one and *ia* for more than one |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *manatu* | think; feel lonely |
-| *māumau* | waste |
-| *lavea* | be hurt, be wounded |
-| *paʻū* | fall |
-| *taʻatia* | lie down |
-| *vāivai* | be weak, be tired |
-| *velo* | hurl a spear (at someone) |
-| *āʻoga* | school |
-| *manava* | stomach |
+| *tapē* | kill |
+| *lagona* | hear, feel |
+| *ʻuma* | be finished |
+| *leaga* | bad |
+| *falaoa* | bread |
+| *faleoʻo* | a small house |
+| *faʻatoʻaga* | plantation |
+
+*Lagona* takes the agent marker, so the one who hears is marked with *e*:
+
+::: {.examples}
+*Na lagona e le tinā le leo o le pepe.* The mother heard the voice of the baby.
+:::
+
+*Leaga* is a verb, so it stands where the verb stands, and the thing it is said
+of can be put first like any other:
+
+::: {.examples}
+*ʻUa leaga le taʻavale.* The car is broken. (Lit. "Now bad the car.")
+
+*ʻO le taʻavale ʻua leaga.* The car is broken.
+:::
 
 ---
 
@@ -206,60 +332,65 @@ inside it would be the singular *nofo*.
 
 ### Exercise 1: Translate into English
 
-1. *le nofo*
-2. *le lē fiafia*
-3. *le taʻatia*
-4. *le lē vāivai*
-5. *le nonofo*
-6. *le velo*
+1. *ʻO le tama sā galue ʻi le faʻatoʻaga.*
+2. *ʻO le puaʻa sā tapē e le tama.*
+3. *ʻO le teine sā tatala=ina le faitotoʻa.*
+4. *ʻO le faʻatoʻaga sā galue ai le tama.*
+5. *ʻO le faleoʻo lenā.*
+6. *Naʻo le tama e nofo ʻi totonu o le potu.*
+7. *ʻO le leo o le pepe na lagona e le tinā.*
 
-### Exercise 2: Make a le-phrase
+### Exercise 2: Translate into Sāmoan
 
-Put the article *le* in front of each verb, and give the English.
+1. The girl worked in the plantation, with the girl first.
+2. The girl ate (all of) the fish, with the fish first.
+3. The service is finished, with the service first.
+4. That is a friend.
+5. I live inside the house, with "I" first.
+6. Anybody should bring some bread.
 
-1. *paʻū*
-2. *lavea*
-3. *vāivai*
-4. *manatu*
-5. *tagi*
+### Exercise 3: Put the named participant first
 
-### Exercise 3: Put the not-word in
+Rewrite each sentence with the participant named in brackets at the head, and
+give the verb the shape that goes with it. In item 5, *lagona* stays as it
+stands.
 
-Rewrite each le-phrase with the not-word *lē* inside it, and give the English.
+1. *Sā tapē e le tama le puaʻa.* (the thing acted on)
+2. *Sā tapē e le tama le puaʻa.* (the doer)
+3. *Sā tatala e le teine le faitotoʻa.* (the thing acted on)
+4. *Sā tatala e le teine le faitotoʻa.* (the doer)
+5. *Na lagona e le tinā le leo o le pepe.* (the thing acted on)
 
-1. *le fiafia*
-2. *le vāivai*
-3. *le nofo*
-4. *le manatu*
-5. *le lavea*
+### Exercise 4: Which shape
 
-### Exercise 4: Forbid it
+For each sentence, say whether the verb is in the short form or the long form,
+and say which participant was put first.
 
-Put *ʻaua* in front of each le-phrase, and give the English.
+1. *ʻO le puaʻa sā tapē e le tama.*
+2. *ʻO le teine sā tatala=ina le faitotoʻa.*
+3. *ʻO le faitotoʻa sā tatala e le teine.*
+4. *ʻO le tama sā tapē=ina le puaʻa.*
+5. *ʻO le iʻa sā ʻai e le teine.*
 
-1. *le taʻatia*
-2. *le velo*
-3. *le nofo*
-4. *le tagi*
-5. *le paʻū*
+### Exercise 5: Fill the gap
 
-### Exercise 5: Translate into Sāmoan
+Put *ʻo* or *ʻi* into the gap so the Sāmoan matches the English.
 
-1. the being tired
-2. the not being tired
-3. the lying down
-4. the staying of more than one
-5. Stop crying.
-6. Do not waste time.
-7. I stayed and was not tired.
+1. *___ le faʻatoʻaga sā galue ai le tama.* (The boy worked in the plantation.)
+2. *___ aʻu ʻou te nofo ʻi totonu o le fale.* (I live inside the house.)
+3. *___ le faʻatoʻaga sā galue ai le tama.* (In the plantation the boy worked there.)
+4. *Naʻo le tama e nofo ___ totonu o le potu.* (Only the boy is staying inside the room.)
+5. *___ le lotu ʻua ʻuma.* (The service is finished.)
 
-### Exercise 6: Translate into English
+### Exercise 6: Give the meaning
 
-1. *Sā ʻou nofo ma le lē fiafia.*
-2. *Sōia le maumau=ina le taimi.*
-3. *ʻAua le nonofo teine ʻi le āʻoga.*
-4. *ʻOu te lē fia manatu ʻi le mea lea.*
-5. *Sā ʻou nofo ma le lē vāivai.*
+1. *tapē*
+2. *lagona*
+3. *ʻuma*
+4. *leaga*
+5. *falaoa*
+6. *faleoʻo*
+7. *faʻatoʻaga*
 
 ---
 
@@ -267,51 +398,53 @@ Put *ʻaua* in front of each le-phrase, and give the English.
 
 ### Exercise 1
 
-1. the staying
-2. the not being happy
-3. the lying down
-4. the not being tired
-5. the staying of more than one
-6. the hurling of a spear
+1. The boy worked in the plantation.
+2. The boy killed the pig. (Equally: the pig was killed by the boy.)
+3. The girl opened the door.
+4. The boy worked in the plantation.
+5. That is the small house.
+6. Only the boy is staying inside the room.
+7. The mother heard the voice of the baby.
 
 ### Exercise 2
 
-1. *le paʻū*, the falling
-2. *le lavea*, the being hurt
-3. *le vāivai*, the being tired
-4. *le manatu*, the thinking
-5. *le tagi*, the crying
+1. *ʻO le teine sā galue ʻi le faʻatoʻaga.*
+2. *ʻO le iʻa sā ʻai e le teine.*
+3. *ʻO le lotu ʻua ʻuma.*
+4. *ʻO se uō lenā.*
+5. *ʻO aʻu ʻou te nofo ʻi totonu o le fale.*
+6. *Soʻo se tagata e tatau ona ʻaumai se falaoa.*
 
 ### Exercise 3
 
-1. *le lē fiafia*, the not being happy
-2. *le lē vāivai*, the not being tired
-3. *le lē nofo*, the not staying
-4. *le lē manatu*, the not thinking
-5. *le lē lavea*, the not being hurt
+1. *ʻO le puaʻa sā tapē e le tama.*
+2. *ʻO le tama sā tapē=ina le puaʻa.*
+3. *ʻO le faitotoʻa sā tatala e le teine.*
+4. *ʻO le teine sā tatala=ina le faitotoʻa.*
+5. *ʻO le leo o le pepe na lagona e le tinā.*
 
 ### Exercise 4
 
-1. *ʻAua le taʻatia.* Do not lie down.
-2. *ʻAua le velo.* Do not hurl a spear.
-3. *ʻAua le nofo.* Do not stay.
-4. *ʻAua le tagi.* Do not cry.
-5. *ʻAua le paʻū.* Do not fall.
+1. Short form; the thing acted on was put first.
+2. Long form; the doer was put first.
+3. Short form; the thing acted on was put first.
+4. Long form; the doer was put first.
+5. Short form; the thing acted on was put first.
 
 ### Exercise 5
 
-1. *le vāivai*
-2. *le lē vāivai*
-3. *le taʻatia*
-4. *le nonofo*
-5. *Sōia le tagi.*
-6. *ʻAua le maumau=ina le taimi.*
-7. *Sā ʻou nofo ma le lē vāivai.*
+1. *ʻO le faʻatoʻaga sā galue ai le tama.*
+2. *ʻO aʻu ʻou te nofo ʻi totonu o le fale.*
+3. *ʻI le faʻatoʻaga sā galue ai le tama.*
+4. *Naʻo le tama e nofo ʻi totonu o le potu.*
+5. *ʻO le lotu ʻua ʻuma.*
 
 ### Exercise 6
 
-1. I stayed and was unhappy.
-2. Stop wasting time.
-3. The girls should not stay at the school.
-4. I do not want to think about that.
-5. I stayed and was not tired.
+1. kill
+2. hear, feel
+3. be finished
+4. bad
+5. bread
+6. a small house
+7. plantation

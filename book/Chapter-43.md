@@ -1,289 +1,266 @@
-# Chapter 43: Relative Clauses
+# Chapter 42: The Belonging Sentence
 
-This chapter introduces the describing clause, a clause with a tense particle of
-its own standing behind a noun and describing it, usually to say which person,
-thing, place, or time is meant. It adds the one-who word *ē* and the pointing-back word inside the clause,
-and shows you how to build the person who left and the village you stayed in.
+This chapter adds the belonging-sentence, in which a tense particle sits in
+front of an owner joined to a belonging word, so the sentence says who a thing
+belongs to. It also completes the whose-question, *ʻO ai...?* ("Whose...?"),
+which runs through the same frame.
 
 ---
 
-## The Describing Clause
+## The Belonging Sentence
 
 ::: {.examples}
-*le vai loloto*. the deep water
+*E a mātou le taʻavale.* The car is ours. (Lit. "Ours the car.")
 
-*le vai e loloto tele*. the water that is very deep
+*E aʻu le naifi.* The knife is mine.
 :::
 
-Compare them. What stands in the second phrase that is not in the first?
+Neither sentence has a verb. Read the first one part by part: *e*, the general
+particle, then *a mātou* (ours), then *le taʻavale* (the car). Where a verb
+sentence would put an action word straight after the particle, this sentence
+puts an owner. The owner, with a tense particle in front of it, is the whole
+predicate, and the sentence says the car belongs to that owner.
 
-The general particle *e*. In the first phrase, *loloto* follows the noun directly
-as a describing verb, the pattern taught earlier in this book. In the second,
-*e* opens the clause *e loloto tele*; *tele* adds "very", but *e* is the word
-that changes the structure. A clause standing behind a noun to describe it, with a
-tense particle of its own and usually saying which one is meant, is called
-**a describing clause**.
+This is the same frame as the where-sentence, met earlier in this book, carrying
+a second load. There the predicate was a place and the sentence said where
+something is. Here the predicate is an owner and the sentence says whose
+something is. A sentence built this way is called the **belonging-sentence**.
 
-Earlier in this book the same contrast was previewed in *tagata tino leaga*
-(people with bad bodies) and *tagata e tino leaga* (people who have bad bodies). Their English
-meanings are close, which is why the clearer water pair comes first here. The
-particle adds a whole clause in the describing position, with everything a
-clause can carry.
+In its basic form the parts come in a fixed order: the tense particle, then
+the belonging word with its owner, then the thing owned.
 
-::: {.examples}
-*ʻO le fafine sā alu ʻi le nuʻu.* The woman who went to the village.
-:::
+| Sāmoan | English |
+|---|---|
+| *E aʻu le naifi.* | The knife is mine. |
+| *E oʻu le fale.* | The house is mine. |
+| *E ana le taʻavale.* | The car is his. |
+| *E ona le fale.* | The house is his. |
+| *E a mātou le taʻavale.* | The car is ours. |
+| *E o mātou le fale.* | The house is ours. |
 
-The woman is named once, in front. Inside the clause *sā alu ʻi le nuʻu* she is
-not named again, and she is still the one who went. That is the construction:
-the article, then the noun the clause is about, then the clause, with the noun
-doing a job inside it without standing in it. In this example, the three parts
-are:
+The general particle *e* carries the time here as it does in front of a verb,
+and every belonging-sentence in this book takes it.
 
-| Part | Form | Function |
+---
+
+## The Belonging Forms
+
+Every person has an *a*-form and an *o*-form. In the forms printed here, the
+belonging word and the person fuse into a single word in the singular and stand
+as two words for a pair or a group:
+
+| Owner | *a*-word form | *o*-word form |
 |---|---|---|
-| the article | *le* | picks out one particular woman |
-| the noun | *fafine* | names the person being described |
-| the describing clause | *sā alu ʻi le nuʻu* | identifies which woman is meant |
+| I | *aʻu* | *oʻu* |
+| he, she | *ana* | *ona* |
+| we two (you and I) | *a tā* | *o tā* |
+| they two | *a lā* | *o lā* |
+| we (but not you) | *a mātou* | *o mātou* |
+| we (all of us) | *a tātou* | *o tātou* |
+| you (all of you) | *a ʻoutou* | *o ʻoutou* |
+| they | *a lātou* | *o lātou* |
 
-> *Note:* A clause behind a noun is a describing clause only when the noun has a
-> job inside it. Sāmoan puts other kinds of clause in the same position, and
-> those usually say what was thought or said rather than which one is meant.
+The choice between the columns is the one made earlier in this book: a knife is
+got and used, so it takes *a*, and a house is lived in rather than set up, so it
+takes *o*. Nothing about that choice changes here. What changes is that the
+sentence cannot be built without making it.
 
----
+The table has no row for one person addressed. The form for saying a thing is
+yours, to one person, is not taught in this book.
 
-## The Two Ways the Missing Word Is Shown
-
-::: {.examples}
-*ʻO le fafine sā alu ʻi le nuʻu.* The woman who went to the village.
-
-*ʻO le mea sā nofo ai le fafine.* The place where the woman stayed. (Lit. "the place, the woman stayed there")
-:::
-
-Both phrases name something in front and describe it with a clause. They differ
-in what the clause does about the spot the named thing would have filled. In the
-first the spot is left empty, and nothing inside *sā alu ʻi le nuʻu* stands for the
-woman. In the second the clause keeps a word in the spot, *ai*, the
-pointing-back word met earlier in this book, and it points back to the place
-named in front.
-
-So the job the named thing does inside its clause is shown in one of two main
-ways. Either the spot stays empty, or the pointing-back word stands in it. Which
-of the two applies is decided by the job itself, and the sections below take the
-jobs one at a time. Some of those jobs allow a further possibility as well, and the
-section that teaches each one says so there.
+> *Note:* These same forms also stand in front of a naming word, and the pair
+> you have met there is *aʻu* and *oʻu*; the slot tells the two jobs apart:
+> behind a tense particle, with the thing owned and its article after them, they
+> are the predicate and mean "mine" (*E aʻu le naifi*); straight in front of a
+> naming word carrying no article, they mean "my" and the thing is more than one
+> (*aʻu taʻavale*, my cars). *Aʻu* standing on its own is the word for "me". The
+> form that carries its own article, *laʻu naifi*, is the singular of the second
+> of those and is "my knife"; it is the one form here that stands in no other
+> slot.
 
 ---
 
-## When the Spot Stays Empty
+## The Belonging Word Stays In
+
+Compare these two. Which word is in the first and missing from the second?
 
 ::: {.examples}
-*ʻO le tama sā moe ʻi le fale.* The boy who slept in the house.
+*E a mātou le taʻavale.* The car is ours.
+
+*ʻO le mātou taʻavale.* Our car.
 :::
 
-The spot stays empty when the named thing is the one doing what the verb says and
-the verb has nothing it is done to.
+The belonging word *a*. Both say the car is ours, and only the first prints the
+word that sorts it into a type. Earlier in this book, a pair or a group of
+owners standing in front of a naming word could leave the belonging word out,
+and *ʻo le mātou taʻavale* leaves it out: nothing in it says whether a car is
+an *a*-word or an *o*-word.
 
-::: {.examples}
-*le tamāoʻāiga ʻua maua e aʻu uō*. the wealth my friends got
-:::
-
-It also stays empty when the named thing is the one the action is done to. Here
-*tamāoʻāiga* (wealth) is what was got, and nothing inside the clause stands for
-it. The ones who did the getting are named, and they keep the agent marker *e* in
-front of them, exactly as they would in a sentence of their own. Describing the
-thing acted on takes nothing away from the doer.
+The belonging-sentence does not allow that. Here the belonging word is
+required for every owner, singular, pair, and group alike, and the two types
+stay apart in every row of the table above.
 
 | Sāmoan | English |
 |---|---|
-| *ʻO le fafine sā alu ʻi le nuʻu.* | The woman who went to the village. |
-| *ʻO le tama sā moe ʻi le fale.* | The boy who slept in the house. |
-| *le tamāoʻāiga ʻua maua e aʻu uō* | the wealth my friends got |
-| *le meaʻai ʻua maua e le teine* | the food the girl got |
+| *E a mātou le taʻavale.* | The car is ours. |
+| *ʻO le mātou taʻavale.* | Our car. |
+| *E o mātou le fale.* | The house is ours. |
+| *ʻO le mātou fale.* | Our house. |
+
+So the belonging-sentence is where the sort has to be decided. Ask the control
+question of the relationship and answer it out loud: did the owner get the thing
+and put it to use, or does it belong to them the way a house or a name does. The
+first takes *a*, the second takes *o* for most words, and in this sentence there
+is no third way of writing it. Where the control question runs out, as it did
+for the son of the woman earlier in this book, the type is learned as a fact of
+that word in that relationship, and the sentence prints the type the word has.
+For a child it depends on the owner: with the mother the word takes *a*, and
+with the father it takes *o*.
 
 ---
 
-## When the Doer Is the Missing Word
+## Describing the Thing Owned
+
+The thing owned is an ordinary naming part, so a describing word can stand
+behind it as it does behind any naming part, the pattern met earlier in this
+book:
 
 ::: {.examples}
-*ʻO tagata sā fai=a le puaʻa.* The people who were attending the pig. (Lit. "the people who were doing the pig")
+*le tagata tafao*. the tourist (Lit. "the person wander about")
+
+*le pusa mamafa*. the heavy box
+
+*le masini uʻamea maualuga*. the high steel machine
 :::
 
-When the named thing is the doer of an action done to something else, the verb of
-that clause usually takes its long form, the shape taught earlier in this book
-with the long-form ending on it. *Fai* becomes *fai=a*. The
-rule is a preference and not a law: this is the shape you will usually hear and
-read in such a clause.
-
-A pronoun naming the doer may also stand in front of the verb inside the clause.
-It is optional, and the clause is complete without it.
-
----
-
-## Places and Times
+A person who wanders about, *tafao* (wander about), is a tourist. The other two
+phrases carry *mamafa* (heavy), *uʻamea* (steel, iron) and *maualuga* (high).
+*Uʻamea* names a material and also works as a describing word, which is why it
+can stand behind *masini* here. Two more describing words work the same way:
+*ʻeleʻelea* (dirty) and *tele* (big, and also many).
 
 ::: {.examples}
-*ʻO le mea sā ʻou nofo ai.* The place where I stayed.
+*E ʻeleʻelea le taʻavale.* The car is dirty.
+
+*se maile nifo tele*. a dog with big teeth (Lit. "a dog tooth big")
 :::
 
-When the named thing is a place, the pointing-back word stands inside the verb
-phrase, behind the verb, with no place word in front of it. This is the same *ai*
-that kept a place already named from being said twice, earlier in this book,
-doing that work inside a describing clause.
-
-A point of time and a stretch of time take the same shape, and so does a cause.
+*Nifo* (tooth) with *tele* behind a naming word says what a part of the thing is
+like, the pattern met earlier in this book. *Paʻeʻe* (lean) fills the same slot:
 
 ::: {.examples}
-*ʻO le nuʻu sā nofo ai le teine.* The village where the girl lived.
-
-*ʻO le aso sā siva ai le teine.* The day the girl danced.
+*tagata tino paʻeʻe*. people with lean bodies (Lit. "people body lean")
 :::
+
+Any of these can fill the owned slot of a belonging-sentence:
 
 | Sāmoan | English |
 |---|---|
-| *ʻO le mea sā ʻou nofo ai.* | The place where I stayed. |
-| *ʻO le fale sā moe ai le tama.* | The house where the boy slept. |
-| *ʻO le nuʻu sā nofo ai le teine.* | The village where the girl lived. |
-| *ʻO le aso sā siva ai le teine.* | The day the girl danced. |
+| *E aʻu le masini uʻamea.* | The steel machine is mine. |
+| *E ana le taʻavale ʻeleʻelea.* | The dirty car is his. |
+| *E a le tagata tafao le pusa mamafa.* | The heavy box belongs to the tourist. |
+| *E o le aliʻi le fale ʻeleʻelea.* | The dirty house belongs to the chief. |
 
-> *Note:* The who-word *ai* of a question and the pointing-back word *ai* are two
-> different words that look alike. The one at work here is the pointing-back
-> word, holding the spot of a place, a time, or a cause. The job separates them:
-> the who-word asks which person is meant, and the pointing-back word points back
-> to something already named. The slot helps too: in the question pattern taught
-> earlier in this book the who-word opens its sentence, and the pointing-back
-> word never opens one, because it stands behind a verb.
+The last two sentences name their owner instead of pointing at one.
 
 ---
 
-## The Thing It Was Done With, and the Thing It Was Aimed At
+## Naming the Owner
+
+An owner can be a person named in full rather than a form standing for one. The
+belonging word takes the naming part straight after it:
 
 ::: {.examples}
-*le fue na taufi aʻi le umu*. the liana the food in the oven was covered with (Lit. "the liana the oven was covered with")
+*E a le fafine le naifi.* The knife belongs to the woman. (Lit. "The woman's, the knife.")
+
+*E o le aliʻi le fale.* The house belongs to the chief.
 :::
 
-Two new words are in that phrase: *fue* (liana), the vine itself, and *taufi*
-(cover, the form used when more than one thing is covered), what was done
-with it. The oven word stands here for what is in the
-oven, which is why the English says food where the Sāmoan says oven.
-
-When the named thing is what the action was done with, the pointing-back word
-takes the shape *aʻi*. That shape is used for nothing else. In this job, though,
-*ai* is heard as well, so *aʻi* marks the thing used and does not have the job to
-itself.
-
-::: {.examples}
-*ʻO le mea sā alu atu le teine ʻi ai.* The place where the girl went to.
-:::
-
-When the named thing is where a movement is going, or what a wanting or a seeing
-is aimed at, the place word *ʻi* usually stands in front of the pointing-back
-word, and the pair *ʻi ai* is the "to there" form taught earlier in this book.
-
-With some verbs the same clause is heard both ways, with the place word in front
-of the pointing-back word and without it, and *manaʻo* is one of them.
-
-::: {.examples}
-*ʻO le mea ʻou te manaʻo ai.* The thing I want.
-
-*ʻO le mea ʻou te manaʻo ʻi ai.* The thing I want.
-:::
-
-| Shape | The job the named thing does inside the clause |
-|---|---|
-| *ai* after the verb | a place, a time, or a cause, and the thing an action was done with as well |
-| *aʻi* after the verb | the thing the action was done with, and nothing else |
-| *ʻi ai* after the verb phrase | usually, where a movement or a wanting is aimed |
-
----
-
-## The One-Who Word *Ē*
-
-::: {.examples}
-*ʻO lē sā mauʻoloa.* The one who was rich.
-:::
-
-There is not always a noun to name. When the clause describes a person nobody has
-named, the word *ē* stands in the noun's place at the front of the construction:
-**the one-who word *ē***. Where the person is one particular person, *ē* joins
-the specific article and the two are written *lē*. For more than one, *ē* stands
-on its own. The quality word in that phrase, *mauʻoloa* (rich), is one of this
-chapter's own.
-
-::: {.examples}
-*ʻO ē e mauʻoloa.* Those who are rich.
-
-*ʻO lē sā popolevale.* The one who was overanxious.
-:::
-
-The second of those brings another of this chapter's own words, *popolevale*
-(overanxious).
-
-::: {.examples}
-*e mauʻoloa*. the rich
-:::
-
-When the tense particle of the clause is the general particle *e*, the one-who
-word can run together with it, and a single *e* then does both jobs.
-
-Earlier in this book a sentence that puts a person first was read one way, as a
-contrast: that person set against another person.
-
-::: {.examples}
-*ʻO aʻu na ʻou vaʻai ʻi ai.* I saw it.
-:::
-
-It can also be read the way this chapter reads things: "it is me", and then a
-clause describing me, the one who saw it. Both readings are available for a
-sentence of that shape.
+The frame has not moved. *A le fafine* stands where *aʻu* stood,
+and *o le aliʻi* stands where *oʻu* stood.
+Everything the sentence claims sits in that one part: the belonging word says
+which type of belonging, and the naming part behind it says whose.
 
 | Sāmoan | English |
 |---|---|
-| *ʻO lē sā mauʻoloa.* | The one who was rich. |
-| *ʻO ē e mauʻoloa.* | Those who are rich. |
-| *e mauʻoloa* | the rich |
-| *ʻO lē sā popolevale.* | The one who was overanxious. |
-
-> *Note:* The one-who word can also stand behind a noun and describe it. In that
-> position it matches the noun in number, and it does not carry the marker the
-> described noun carries, though the presenting particle *ʻo* can stand in front
-> of it.
-
-> *Note:* A describing clause can pick out which one is meant, and it can add
-> something about a person or thing already picked out. Sāmoan does not mark that
-> difference. The clause standing straight behind a noun and the construction
-> built on the one-who word each cover both readings.
+| *E a le teine le naifi.* | The knife belongs to the girl. |
+| *E a le tama le maile.* | The dog belongs to the boy. |
+| *E o le tamāloa le fale.* | The house belongs to the man. |
+| *E o le teine le igoa.* | The name belongs to the girl. |
 
 ---
 
-## Comparison Inside a Describing Clause
+## Asking Whose
+
+To ask whether a thing is somebody's, print the belonging-sentence with a
+question mark. The words do not change:
 
 ::: {.examples}
-*ʻO le tama e mālosi atu i lo le teine.* The boy who is stronger than the girl.
+*E ana le taʻavale?* Is the car his?
 :::
 
-Speakers prefer to build a comparison that describes a noun as a describing
-clause with its own particle, rather than as a describing verb standing straight
-after the noun. The than-word phrase taught earlier in this book keeps its place at the
-end, and the whole comparison sits behind the noun it describes.
+To ask whose a thing is, put the who-word *ai* at the front under the presenting
+particle *ʻo*, and let the belonging form answer it later in the sentence:
+
+::: {.examples}
+*ʻO ai e ana le taʻavale?* Whose is the car? (Lit. "Who, the car is his?")
+
+*ʻO ai e ona le fale?* Whose is the house?
+:::
+
+The question opens with *ʻO ai*, the who-question met earlier in this book, and
+then runs the belonging-sentence behind it with the third person form *ana* or
+*ona* standing where the owner would stand. That form points back at the
+question word. The type still has to be chosen: a car is an *a*-word, so the
+question about a car uses *ana*, and a house is an *o*-word, so the question
+about a house uses *ona*.
+
+The question marker *po* stands at the front here as it does elsewhere:
+
+| Sāmoan | English |
+|---|---|
+| *ʻO ai e ana le taʻavale?* | Whose is the car? |
+| *Po ʻo ai e ana le taʻavale?* | Whose is the car? |
+| *ʻO ai e ona le fale?* | Whose is the house? |
+| *ʻO ai e ana le maile?* | Whose is the dog? |
 
 ---
 
-## Describing by What Somebody Has
+## Putting the Thing First
+
+The thing owned can be pulled to the front of the sentence. It leads with the
+presenting particle *ʻo*, and the rest of the belonging-sentence follows it
+whole:
 
 ::: {.examples}
-*ʻO le tamāloa e manuʻa le vae.* The man whose leg was hurt. (Lit. "the man, the leg is hurt")
+*ʻO le naifi e a le fafine.* This is the woman's knife. (Lit. "The knife, the woman's.")
+
+*ʻO le fale e o le aliʻi.* This is the chief's house. (Lit. "The house, the chief's.")
 :::
 
-The verb there is *manuʻa* (be hurt), and nothing in that clause says whose leg it
-is. The clause says only that the leg was hurt, and the leg is understood to be
-the man's because the man is standing in front of it. A belonging word is not
-needed when the situation makes the relationship plain.
+Compare this with the where-sentence. There it was the place itself, the
+predicate, that was pulled to the front, and it had to be answered by *ʻi ai*
+later in the sentence. Here it is the thing owned that moves, not the owner. The
+belonging word and its owner stay where they stood, so nothing is left behind to
+answer.
 
-Among the describing clauses this chapter shows, it is needed in one place. Where
-the clause is a there-is sentence saying that
-somebody has something, the thing had carries a belonging word naming its owner,
-and the owner is what the clause describes.
+| Sāmoan | English |
+|---|---|
+| *ʻO le naifi e a le fafine.* | This is the woman's knife. (Lit. "The knife, the woman's.") |
+| *ʻO le fale e o le aliʻi.* | This is the chief's house. (Lit. "The house, the chief's.") |
+| *ʻO le maile e a le tama.* | This is the boy's dog. (Lit. "The dog, the boy's.") |
+| *ʻO le taʻavale e a le teine.* | This is the girl's car. (Lit. "The car, the girl's.") |
+
+> *Note:* The belonging-sentence, in every shape shown in this chapter, has no
+> negative form. The where-sentence turns to *lē ʻi ai*, and the naming sentence
+> is wrapped in *e lē*, as you met earlier in this book, but a not-word does not
+> go into this frame. How a speaker denies that a thing is someone's is not
+> covered in this book.
+
+> *Note:* The form *ona* here is not the that-word that opens a clause, nor the
+> because-word, nor the word that opens the then-construction, all met earlier in
+> this book, and *ana* is not the word for a cave. A tense particle straight in front, and a naming part behind, mark these
+> two out as belonging forms.
 
 ---
 
@@ -293,23 +270,24 @@ and the owner is what the clause describes.
 
 | Word | What it does |
 |---|---|
-| *ē* | the one-who word: it stands in front of a describing clause where no noun is named, and means the one who or those who |
-| *lē* | the one-who word joined to the specific article, for one particular person |
-| *ai* | the pointing-back word, met earlier: inside a describing clause it holds the spot of a place, a time, or a cause, and is heard for the thing an action was done with too |
-| *aʻi* | the pointing-back word in the shape it takes for the thing an action was done with, a job no other shape has to itself |
-| *ʻi ai* | the pointing-back word with the place word in front, the usual shape for where a movement or a wanting is aimed |
-| *fai=a* | the long form of *fai*, the shape the verb usually takes in a clause whose missing word is the doer of an action done to something else |
+| *a*, *o* | the two belonging words, required on the owner of a belonging-sentence for every owner |
+| *aʻu*, *oʻu* | the belonging forms for "mine": *aʻu* with an *a*-word, *oʻu* with an *o*-word |
+| *ana*, *ona* | the belonging forms for "his" or "hers", and the forms that answer a whose-question |
+| *a mātou*, *o mātou* | the belonging forms for "ours" (we, but not you); the belonging word and the pronoun stay two words, as they do in every pair and group row of the table |
+| *ʻO ai...?*, *Po ʻo ai...?* | the whose-opener, the who-question carried forward; *po* is the question marker met earlier in this book and adds no meaning |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *manuʻa* | be hurt |
-| *mauʻoloa* | rich |
-| *popolevale* | overanxious |
-| *taufi* | cover (the form used when more than one thing is covered) |
-| *fue* | liana |
-| *tamāoʻāiga* | wealth |
+| *tafao* | wander about |
+| *ʻeleʻelea* | dirty |
+| *mamafa* | heavy |
+| *maualuga* | high |
+| *paʻeʻe* | lean |
+| *tele* | big, many |
+| *nifo* | tooth |
+| *uʻamea* | steel, iron |
 
 ---
 
@@ -317,72 +295,56 @@ and the owner is what the clause describes.
 
 ### Exercise 1: Translate into English
 
-1. *ʻO le fafine sā alu ʻi le nuʻu.*
-2. *ʻO le mea sā ʻou nofo ai.*
-3. *ʻO le nuʻu sā nofo ai le teine.*
-4. *le fue na taufi aʻi le umu*
-5. *ʻO le mea sā alu atu le teine ʻi ai.*
-6. *ʻO lē sā mauʻoloa.*
-7. *ʻO ē e mauʻoloa.*
-8. *ʻO le tamāloa e manuʻa le vae.*
-9. *ʻO tagata sā fai=a le puaʻa.*
-10. *ʻO le tama e mālosi atu i lo le teine.*
+1. *E aʻu le naifi.*
+2. *E ona le fale.*
+3. *E a le teine le naifi.*
+4. *ʻO ai e ana le taʻavale?*
+5. *ʻO le maile e a le tama.*
 
-### Exercise 2: Say what holds the named thing's spot
+### Exercise 2: Translate into Sāmoan
 
-For each phrase, say whether the spot the named thing would fill is left empty or
-is held by the pointing-back word, and in that case which shape stands there.
+1. The house is mine.
+2. The car is ours.
+3. The dog belongs to the boy.
+4. Whose is the house?
+5. This is the chief's house.
 
-1. *ʻO le tama sā moe ʻi le fale.*
-2. *ʻO le mea sā ʻou nofo ai.*
-3. *le fue na taufi aʻi le umu*
-4. *ʻO le mea sā alu atu le teine ʻi ai.*
-5. *le tamāoʻāiga ʻua maua e aʻu uō*
+### Exercise 3: Put in the belonging word
 
-### Exercise 3: Put in the pointing-back word
+Put *a* or *o* into each gap so the sentence matches the English.
 
-Fill each gap with *ai*, *aʻi*, or *ʻi ai*. Where two shapes are heard in the same
-job, give the one that is used for that job and no other.
+1. *E ___ le tama le maile.* (The dog belongs to the boy.)
+2. *E ___ le tamāloa le fale.* (The house belongs to the man.)
+3. *E ___ le teine le naifi.* (The knife belongs to the girl.)
+4. *E ___ le teine le igoa.* (The name belongs to the girl.)
+5. *E ___ le aliʻi le fale.* (The house belongs to the chief.)
 
-1. *ʻO le mea sā ʻou nofo \_\_\_.*
-2. *ʻO le nuʻu sā nofo \_\_\_ le teine.*
-3. *le fue na taufi \_\_\_ le umu*
-4. *ʻO le mea sā alu atu le teine \_\_\_.*
-5. *ʻO le aso sā siva \_\_\_ le teine.*
+### Exercise 4: Ask whose
 
-### Exercise 4: Translate into Sāmoan
+Each sentence names the owner. Rewrite it as a question asking whose the thing
+is, opening with *ʻO ai*.
 
-Use the particle given in brackets.
+1. *E a le teine le naifi.*
+2. *E o le tamāloa le fale.*
+3. *E a le tama le maile.*
+4. *E a le tagata tafao le pusa mamafa.*
+5. *E o le aliʻi le fale ʻeleʻelea.*
 
-1. the woman who went to the village (*sā*)
-2. the boy who slept in the house (*sā*)
-3. the wealth my friends got (*ʻua*)
-4. the day the girl danced (*sā*)
-5. the one who was overanxious (*sā*)
-6. those who are rich
-7. the man whose leg is hurt
-8. the place where the boy bathed (*sā*)
-9. the day the man died (*sā*)
+### Exercise 5: Match each word to its meaning
 
-### Exercise 5: Rewrite each sentence as a phrase with a describing clause
+1. *tafao*
+2. *ʻeleʻelea*
+3. *mamafa*
+4. *maualuga*
+5. *nifo*
+6. *uʻamea*
 
-Take the sentence, put the one doing the action in front under the presenting
-particle, and leave the rest of the sentence behind it as the clause.
-
-1. *Sā nofo le aliʻi ʻi le nuʻu.*
-2. *Sā alu le teine ʻi le maʻumaga.*
-3. *Sā siva le fafine.*
-4. *Sā tāʻele le tama ʻi le vai.*
-5. *Sā moe le pusi ʻi le fale.*
-
-### Exercise 6: Give the English
-
-1. *manuʻa*
-2. *mauʻoloa*
-3. *popolevale*
-4. *taufi*
-5. *fue*
-6. *tamāoʻāiga*
+a. heavy
+b. tooth
+c. wander about
+d. steel, iron
+e. high
+f. dirty
 
 ---
 
@@ -390,53 +352,36 @@ particle, and leave the rest of the sentence behind it as the clause.
 
 ### Exercise 1
 
-1. The woman who went to the village.
-2. The place where I stayed.
-3. The village where the girl lived.
-4. the liana the food in the oven was covered with
-5. The place where the girl went to.
-6. The one who was rich.
-7. Those who are rich.
-8. The man whose leg was hurt.
-9. The people who were attending the pig.
-10. The boy who is stronger than the girl.
+1. The knife is mine.
+2. The house is his. (or "hers"; the form covers both)
+3. The knife belongs to the girl.
+4. Whose is the car?
+5. This is the boy's dog.
 
 ### Exercise 2
 
-1. Empty: the boy is the one who slept, and nothing inside the clause stands for him.
-2. Held by the pointing-back word *ai*, standing after the verb for a place.
-3. Held by the pointing-back word in the shape *aʻi*, for the thing the covering was done with.
-4. Held by *ʻi ai*, for the place the going was aimed at.
-5. Empty: the wealth is what was got, and nothing inside the clause stands for it.
+1. *E oʻu le fale.*
+2. *E a mātou le taʻavale.*
+3. *E a le tama le maile.*
+4. *ʻO ai e ona le fale?*
+5. *ʻO le fale e o le aliʻi.*
 
 ### Exercise 3
 
-1. *ʻO le mea sā ʻou nofo ai.*
-2. *ʻO le nuʻu sā nofo ai le teine.*
-3. *le fue na taufi aʻi le umu*
-4. *ʻO le mea sā alu atu le teine ʻi ai.*
-5. *ʻO le aso sā siva ai le teine.*
+1. *a*
+2. *o*
+3. *a*
+4. *o*
+5. *o*
 
 ### Exercise 4
 
-1. *ʻO le fafine sā alu ʻi le nuʻu.*
-2. *ʻO le tama sā moe ʻi le fale.*
-3. *le tamāoʻāiga ʻua maua e aʻu uō*
-4. *ʻO le aso sā siva ai le teine.*
-5. *ʻO lē sā popolevale.*
-6. *ʻO ē e mauʻoloa.*
-7. *ʻO le tamāloa e manuʻa le vae.*
-8. *ʻO le mea sā tāʻele ai le tama.*
-9. *ʻO le aso sā oti ai le tamāloa.*
+1. *ʻO ai e ana le naifi?*
+2. *ʻO ai e ona le fale?*
+3. *ʻO ai e ana le maile?*
+4. *ʻO ai e ana le pusa mamafa?*
+5. *ʻO ai e ona le fale ʻeleʻelea?*
 
 ### Exercise 5
 
-1. *ʻO le aliʻi sā nofo ʻi le nuʻu.*
-2. *ʻO le teine sā alu ʻi le maʻumaga.*
-3. *ʻO le fafine sā siva.*
-4. *ʻO le tama sā tāʻele ʻi le vai.*
-5. *ʻO le pusi sā moe ʻi le fale.*
-
-### Exercise 6
-
-1. be hurt · 2. rich · 3. overanxious · 4. cover (more than one thing covered) · 5. liana · 6. wealth
+1-c, 2-f, 3-a, 4-e, 5-b, 6-d.

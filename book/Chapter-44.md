@@ -1,222 +1,289 @@
-# Chapter 44: Time Expressions
+# Chapter 43: Relative Clauses
 
-This chapter completes the time-expression system with the since-word *talu* and
-the clause that follows it, the when-word *ina ʻua*, the le-phrase set at the
-head of a sentence as a way to set the time in a story, and the ways Sāmoan
-says how often. It shows you how to place a whole episode in time, from
-*talu ona ʻou sau* (since I came) to *ʻi taeao o aso taʻi=tasi* (every morning).
+This chapter introduces the describing clause, a clause with a tense particle of
+its own standing behind a noun and describing it, usually to say which person,
+thing, place, or time is meant. It adds the one-who word *ē* and the pointing-back word inside the clause,
+and shows you how to build the person who left and the village you stayed in.
 
 ---
 
-## The Since-Word *Talu*
+## The Describing Clause
 
 ::: {.examples}
-*Talu ona ʻou sau ʻou te leʻi maua se mea lelei.* Since I came, I have not got anything good. (Lit. "Since that I come, I have not yet got a good thing.")
+*le vai loloto*. the deep water
+
+*le vai e loloto tele*. the water that is very deep
 :::
 
-That sentence counts from an event. *Talu* stands at its head and carries the
-meaning "since": it is **the since-word *talu***, and what has been true since
-then is the rest of the sentence. Put *talu* in front of a clause and you have
-said how long something has been so.
+Compare them. What stands in the second phrase that is not in the first?
 
-The clause it counts from is opened by the that-word *ona*, the same word that
-opens the clause after can and must, taught earlier in this book. *Talu* stands
-where those words stand, in the predicate slot, and takes a tense particle of
-its own or none at all.
+The general particle *e*. In the first phrase, *loloto* follows the noun directly
+as a describing verb, the pattern taught earlier in this book. In the second,
+*e* opens the clause *e loloto tele*; *tele* adds "very", but *e* is the word
+that changes the structure. A clause standing behind a noun to describe it, with a
+tense particle of its own and usually saying which one is meant, is called
+**a describing clause**.
 
-The pattern has three parts in a fixed order.
+Earlier in this book the same contrast was previewed in *tagata tino leaga*
+(people with bad bodies) and *tagata e tino leaga* (people who have bad bodies). Their English
+meanings are close, which is why the clearer water pair comes first here. The
+particle adds a whole clause in the describing position, with everything a
+clause can carry.
+
+::: {.examples}
+*ʻO le fafine sā alu ʻi le nuʻu.* The woman who went to the village.
+:::
+
+The woman is named once, in front. Inside the clause *sā alu ʻi le nuʻu* she is
+not named again, and she is still the one who went. That is the construction:
+the article, then the noun the clause is about, then the clause, with the noun
+doing a job inside it without standing in it. In this example, the three parts
+are:
 
 | Part | Form | Function |
 |---|---|---|
-| the since-word | *talu* | marks what follows as the point time is counted from |
-| the that-word | *ona* | opens the clause |
-| the clause | *ʻou sau* | names the event the counting starts at |
+| the article | *le* | picks out one particular woman |
+| the noun | *fafine* | names the person being described |
+| the describing clause | *sā alu ʻi le nuʻu* | identifies which woman is meant |
 
-The clause after *ona* usually carries no tense particle. Nothing stands in the
-slot in front of *ʻou sau*, exactly as nothing stands in front of the clause
-after *ona* in the can-and-must pattern. You will mostly meet the clause bare like this.
+> *Note:* A clause behind a noun is a describing clause only when the noun has a
+> job inside it. Sāmoan puts other kinds of clause in the same position, and
+> those usually say what was thought or said rather than which one is meant.
+
+---
+
+## The Two Ways the Missing Word Is Shown
+
+::: {.examples}
+*ʻO le fafine sā alu ʻi le nuʻu.* The woman who went to the village.
+
+*ʻO le mea sā nofo ai le fafine.* The place where the woman stayed. (Lit. "the place, the woman stayed there")
+:::
+
+Both phrases name something in front and describe it with a clause. They differ
+in what the clause does about the spot the named thing would have filled. In the
+first the spot is left empty, and nothing inside *sā alu ʻi le nuʻu* stands for the
+woman. In the second the clause keeps a word in the spot, *ai*, the
+pointing-back word met earlier in this book, and it points back to the place
+named in front.
+
+So the job the named thing does inside its clause is shown in one of two main
+ways. Either the spot stays empty, or the pointing-back word stands in it. Which
+of the two applies is decided by the job itself, and the sections below take the
+jobs one at a time. Some of those jobs allow a further possibility as well, and the
+section that teaches each one says so there.
+
+---
+
+## When the Spot Stays Empty
+
+::: {.examples}
+*ʻO le tama sā moe ʻi le fale.* The boy who slept in the house.
+:::
+
+The spot stays empty when the named thing is the one doing what the verb says and
+the verb has nothing it is done to.
+
+::: {.examples}
+*le tamāoʻāiga ʻua maua e aʻu uō*. the wealth my friends got
+:::
+
+It also stays empty when the named thing is the one the action is done to. Here
+*tamāoʻāiga* (wealth) is what was got, and nothing inside the clause stands for
+it. The ones who did the getting are named, and they keep the agent marker *e* in
+front of them, exactly as they would in a sentence of their own. Describing the
+thing acted on takes nothing away from the doer.
 
 | Sāmoan | English |
 |---|---|
-| *Talu ona ʻou sau ʻou te leʻi maua se mea lelei.* | Since I came, I have not got anything good. |
-| *Talu ona ʻou sau ʻou te leʻi maua se mea fou.* | Since I came, I have not got anything new. |
-| *Talu ona ʻou sau ʻou te leʻi maua se uō lelei.* | Since I came, I have not got a good friend. |
-| *Talu ona ʻou alu ʻou te leʻi maua se mea lelei.* | Since I left, I have not got anything good. |
-| *Talu ona ʻou alu ʻou te leʻi maua se mea fou.* | Since I left, I have not got anything new. |
+| *ʻO le fafine sā alu ʻi le nuʻu.* | The woman who went to the village. |
+| *ʻO le tama sā moe ʻi le fale.* | The boy who slept in the house. |
+| *le tamāoʻāiga ʻua maua e aʻu uō* | the wealth my friends got |
+| *le meaʻai ʻua maua e le teine* | the food the girl got |
 
 ---
 
-## Where the Since-Clause Stands
+## When the Doer Is the Missing Word
 
 ::: {.examples}
-*ʻOu te leʻi maua se mea lelei talu ona ʻou sau.* I have not got anything good since I came.
+*ʻO tagata sā fai=a le puaʻa.* The people who were attending the pig. (Lit. "the people who were doing the pig")
 :::
 
-The same two clauses, in the other order. A since-clause may open the sentence,
-as it did in the section above, or it may also follow the main clause, as it does
-here.
+When the named thing is the doer of an action done to something else, the verb of
+that clause usually takes its long form, the shape taught earlier in this book
+with the long-form ending on it. *Fai* becomes *fai=a*. The
+rule is a preference and not a law: this is the shape you will usually hear and
+read in such a clause.
+
+A pronoun naming the doer may also stand in front of the verb inside the clause.
+It is optional, and the clause is complete without it.
+
+---
+
+## Places and Times
 
 ::: {.examples}
-*ʻO lona tolu o aso talu ona ʻou sau, sā ʻou vaʻai atu ai ʻi le teine.* On the third day since I came, I saw the girl. (Lit. "The third of the days since that I come, I saw then the girl.")
+*ʻO le mea sā ʻou nofo ai.* The place where I stayed.
 :::
 
-A since-clause often follows a stretch or a point of time named in front of it.
-The counting phrase comes first, *ʻo lona tolu o aso*, the third day; then
-*talu ona* and its clause say what the counting started from; then the main
-clause says what happened.
+When the named thing is a place, the pointing-back word stands inside the verb
+phrase, behind the verb, with no place word in front of it. This is the same *ai*
+that kept a place already named from being said twice, earlier in this book,
+doing that work inside a describing clause.
+
+A point of time and a stretch of time take the same shape, and so does a cause.
+
+::: {.examples}
+*ʻO le nuʻu sā nofo ai le teine.* The village where the girl lived.
+
+*ʻO le aso sā siva ai le teine.* The day the girl danced.
+:::
 
 | Sāmoan | English |
 |---|---|
-| *Talu ona ʻou sau ʻou te leʻi maua se mea lelei.* | Since I came, I have not got anything good. |
-| *ʻOu te leʻi maua se mea lelei talu ona ʻou sau.* | I have not got anything good since I came. |
-| *ʻOu te leʻi maua se mea fou talu ona ʻou sau.* | I have not got anything new since I came. |
+| *ʻO le mea sā ʻou nofo ai.* | The place where I stayed. |
+| *ʻO le fale sā moe ai le tama.* | The house where the boy slept. |
+| *ʻO le nuʻu sā nofo ai le teine.* | The village where the girl lived. |
+| *ʻO le aso sā siva ai le teine.* | The day the girl danced. |
+
+> *Note:* The who-word *ai* of a question and the pointing-back word *ai* are two
+> different words that look alike. The one at work here is the pointing-back
+> word, holding the spot of a place, a time, or a cause. The job separates them:
+> the who-word asks which person is meant, and the pointing-back word points back
+> to something already named. The slot helps too: in the question pattern taught
+> earlier in this book the who-word opens its sentence, and the pointing-back
+> word never opens one, because it stands behind a verb.
 
 ---
 
-## Counting Back with *Talu ai*
+## The Thing It Was Done With, and the Thing It Was Aimed At
 
 ::: {.examples}
-*ʻi le māsina talu ai*. last month (Lit. "in the month since then")
+*le fue na taufi aʻi le umu*. the liana the food in the oven was covered with (Lit. "the liana the oven was covered with")
 :::
 
-Set the pointing-back word *ai* straight behind *talu* and the pair counts from
-a point already fixed. After a word for a stretch of time it gives the English
-"last" or "later". Every phrase in this chapter gives "last": the month since
-then is last month.
+Two new words are in that phrase: *fue* (liana), the vine itself, and *taufi*
+(cover, the form used when more than one thing is covered), what was done
+with it. The oven word stands here for what is in the
+oven, which is why the English says food where the Sāmoan says oven.
+
+When the named thing is what the action was done with, the pointing-back word
+takes the shape *aʻi*. That shape is used for nothing else. In this job, though,
+*ai* is heard as well, so *aʻi* marks the thing used and does not have the job to
+itself.
+
+::: {.examples}
+*ʻO le mea sā alu atu le teine ʻi ai.* The place where the girl went to.
+:::
+
+When the named thing is where a movement is going, or what a wanting or a seeing
+is aimed at, the place word *ʻi* usually stands in front of the pointing-back
+word, and the pair *ʻi ai* is the "to there" form taught earlier in this book.
+
+With some verbs the same clause is heard both ways, with the place word in front
+of the pointing-back word and without it, and *manaʻo* is one of them.
+
+::: {.examples}
+*ʻO le mea ʻou te manaʻo ai.* The thing I want.
+
+*ʻO le mea ʻou te manaʻo ʻi ai.* The thing I want.
+:::
+
+| Shape | The job the named thing does inside the clause |
+|---|---|
+| *ai* after the verb | a place, a time, or a cause, and the thing an action was done with as well |
+| *aʻi* after the verb | the thing the action was done with, and nothing else |
+| *ʻi ai* after the verb phrase | usually, where a movement or a wanting is aimed |
+
+---
+
+## The One-Who Word *Ē*
+
+::: {.examples}
+*ʻO lē sā mauʻoloa.* The one who was rich.
+:::
+
+There is not always a noun to name. When the clause describes a person nobody has
+named, the word *ē* stands in the noun's place at the front of the construction:
+**the one-who word *ē***. Where the person is one particular person, *ē* joins
+the specific article and the two are written *lē*. For more than one, *ē* stands
+on its own. The quality word in that phrase, *mauʻoloa* (rich), is one of this
+chapter's own.
+
+::: {.examples}
+*ʻO ē e mauʻoloa.* Those who are rich.
+
+*ʻO lē sā popolevale.* The one who was overanxious.
+:::
+
+The second of those brings another of this chapter's own words, *popolevale*
+(overanxious).
+
+::: {.examples}
+*e mauʻoloa*. the rich
+:::
+
+When the tense particle of the clause is the general particle *e*, the one-who
+word can run together with it, and a single *e* then does both jobs.
+
+Earlier in this book a sentence that puts a person first was read one way, as a
+contrast: that person set against another person.
+
+::: {.examples}
+*ʻO aʻu na ʻou vaʻai ʻi ai.* I saw it.
+:::
+
+It can also be read the way this chapter reads things: "it is me", and then a
+clause describing me, the one who saw it. Both readings are available for a
+sentence of that shape.
 
 | Sāmoan | English |
 |---|---|
-| *ʻi le māsina talu ai* | last month (Lit. "in the month since then") |
-| *ʻi le vaiaso talu ai* | last week (Lit. "in the week since then") |
-| *ʻi le tausaga talu ai* | last year (Lit. "in the year since then") |
+| *ʻO lē sā mauʻoloa.* | The one who was rich. |
+| *ʻO ē e mauʻoloa.* | Those who are rich. |
+| *e mauʻoloa* | the rich |
+| *ʻO lē sā popolevale.* | The one who was overanxious. |
 
-> *Note:* *Talu ai* has a second job, giving the reason for something rather
-> than the time of it. This chapter teaches the time job alone. What the
-> pointing-back word points back to inside this pair is not settled, and the
-> pair is learned whole.
+> *Note:* The one-who word can also stand behind a noun and describe it. In that
+> position it matches the noun in number, and it does not carry the marker the
+> described noun carries, though the presenting particle *ʻo* can stand in front
+> of it.
 
----
-
-## The When-Word *Ina ʻua*
-
-::: {.examples}
-*Ina ʻua malama le taeao o le isi aso, sā māfatia le tama.* When the next morning broke, the boy was exhausted. (Lit. "When the morning of the other day broke, the boy was exhausted.")
-:::
-
-A clause opened by *ina ʻua* names an event that came before the event of the
-main clause or happened together with it. That is **the when-word *ina ʻua***,
-and the second half of it is the change particle *ʻua*, taught earlier in this
-book for something being different now. The particle is doing its usual work
-here: the event the when-clause names is new, and it turns the situation the
-rest of the sentence describes. Two new words stand in that sentence: *malama*
-(break, of the morning), which is what a morning does, and *māfatia*
-(exhausted), which is how the boy was left.
-
-The pattern has the when-word, then the clause naming that event, then the main
-clause. Like a since-clause, it may open the sentence or follow the main clause.
-One more new word rides in the table below, *ʻenaʻena* (brown), standing behind
-the noun it describes.
-
-| Sāmoan | English |
-|---|---|
-| *Ina ʻua malama le taeao, sā sau le pasi ʻenaʻena.* | When the morning broke, the brown bus came. |
-| *Ina ʻua malama le taeao, sā alu le teine ʻi le maʻumaga.* | When the morning broke, the girl went to the taro patch. |
-| *Ina ʻua sau le teine, sā fiafia le tama.* | When the girl came, the boy was happy. |
-| *Sā māfatia le tama ina ʻua malama le taeao.* | The boy was exhausted when the morning broke. |
+> *Note:* A describing clause can pick out which one is meant, and it can add
+> something about a person or thing already picked out. Sāmoan does not mark that
+> difference. The clause standing straight behind a noun and the construction
+> built on the one-who word each cover both readings.
 
 ---
 
-## The Le-Phrase at the Head of a Sentence
+## Comparison Inside a Describing Clause
 
 ::: {.examples}
-*ʻO le vivini a moa, e ʻāmata sāuni ai faiva.* When the roosters crow, people begin preparing for fishing trips. (Lit. "The crowing of the fowls, begin prepare then fishing trips.")
+*ʻO le tama e mālosi atu i lo le teine.* The boy who is stronger than the girl.
 :::
 
-The phrase at the front is a le-phrase, an event packed into a thing, taught
-earlier in this book, and the presenting particle *ʻo* stands in front of it.
-Set there, at the head of everything else, it does not name a participant. It
-sets the time the rest of the sentence runs against, and that is one way a
-Sāmoan story sets its time. Two new words are inside it, *vivini* (crow, of a
-rooster) and *faiva* (fishing trip). The phrase also names whose crowing it is,
-*a moa*; how a le-phrase marks the one who does the event follows a rule of its
-own, taught in a later chapter, so here the phrase is taken whole as it stands.
-
-What follows it comes in two shapes. One puts the main predication on the
-but-word *ʻae*.
-
-::: {.examples}
-*ʻO le vivini a moa, ʻae ʻāmata le pese.* When the roosters crow, the song begins. (Lit. "The crowing of the fowls, but begins the song.")
-:::
-
-That one brings in *pese* (song). The other shape is a clause with a tense
-particle of its own, which usually carries the pointing-back word *ai* reaching
-back to the fronted phrase.
-
-::: {.examples}
-*ʻO le sau o le pasi, e ʻāmata ai le malaga.* When the bus comes, the journey begins. (Lit. "The coming of the bus, begins then the journey.")
-:::
-
-| Shape | Example |
-|---|---|
-| the fronted le-phrase, then *ʻae* | *ʻO le vivini a moa, ʻae ʻāmata le pese.* |
-| the fronted le-phrase, then a tense particle and *ai* | *ʻO le vivini a moa, e ʻāmata sāuni ai faiva.* |
-
-> *Note:* A le-phrase at the head of a sentence can give the reason for what
-> follows instead of the time of it. The shape is the same, and the sense of the
-> two halves is what tells them apart.
+Speakers prefer to build a comparison that describes a noun as a describing
+clause with its own particle, rather than as a describing verb standing straight
+after the noun. The than-word phrase taught earlier in this book keeps its place at the
+end, and the whole comparison sits behind the noun it describes.
 
 ---
 
-## Saying How Often
+## Describing by What Somebody Has
 
 ::: {.examples}
-*le talatalanoa soʻo*. the frequent talking
+*ʻO le tamāloa e manuʻa le vae.* The man whose leg was hurt. (Lit. "the man, the leg is hurt")
 :::
 
-*Soʻo* means "often", and it stands behind the verb it is about. The verb it
-stands behind there is *talatalanoa* (talk, chat). The phrase above is a
-le-phrase with *soʻo* inside it, behind the verb and in front of everything the
-phrase adds after that.
+The verb there is *manuʻa* (be hurt), and nothing in that clause says whose leg it
+is. The clause says only that the leg was hurt, and the leg is understood to be
+the man's because the man is standing in front of it. A belonging word is not
+needed when the situation makes the relationship plain.
 
-::: {.examples}
-*le talatalanoa soʻo o oʻu mātua*. the frequent talking of my parents
-
-*E talatalanoa soʻo oʻu mātua.* My parents talk often.
-:::
-
-The second of those is an ordinary sentence, with the general particle at the
-front and *soʻo* in the same place, straight behind the verb.
-
-::: {.examples}
-*ʻi le taʻi=tasi aso*. each day
-
-*ʻi taeao o aso taʻi=tasi*. every morning (Lit. "on the mornings of the days one by one")
-:::
-
-Compare them. Where does *taʻi=tasi* stand in each?
-
-In the first it comes before the time noun, in the second after it. *Taʻi=* goes
-on the front of a number word, and *tasi* is the word for one, so *taʻi=tasi* is
-one by one, one to each. Both orders are used: the number phrase can head the
-noun phrase with the time noun behind it, as in the day phrase, or the time noun
-can head it with the number phrase behind, as in the morning phrase, which says
-literally that this happens on the mornings of the days one by one.
-
-This is not a free-standing word for "every". It works inside a noun phrase, on
-a number, and what it distributes is whatever noun stands beside it.
-
-::: {.examples}
-*Sā galue le tama ʻi le maʻumaga.* The boy used to work in the taro patch.
-
-*E galue le tama ʻi le maʻumaga.* The boy works in the taro patch. (One reading: the time is left open.)
-:::
-
-> *Note:* A repeated or customary happening is also carried by the tense
-> particle itself. The past particle *sā*, taught earlier in this book for how
-> things were, is the one used for habits and for customary, recurring events,
-> where *na* usually does not occur. The general particle *e* covers a habit
-> too, and where it does, the time is not in the particle: past, present, or
-> future is read from what stands around it.
+Among the describing clauses this chapter shows, it is needed in one place. Where
+the clause is a there-is sentence saying that
+somebody has something, the thing had carries a belonging word naming its owner,
+and the owner is what the clause describes.
 
 ---
 
@@ -226,24 +293,23 @@ a number, and what it distributes is whatever noun stands beside it.
 
 | Word | What it does |
 |---|---|
-| *talu* | the since-word: it stands at the head with a clause after it and says what the time is counted from |
-| *ona* | the that-word, met earlier: it opens the clause after *talu*, and that clause usually carries no tense particle |
-| *talu ai* | *talu* with the pointing-back word behind it: after a word for a stretch of time it gives "last" or "later" |
-| *ina ʻua* | the when-word: it opens a clause naming an event that came before the main event or happened with it |
-| *taʻi=* | it goes on the front of a number word and spreads that number out, so many to each |
+| *ē* | the one-who word: it stands in front of a describing clause where no noun is named, and means the one who or those who |
+| *lē* | the one-who word joined to the specific article, for one particular person |
+| *ai* | the pointing-back word, met earlier: inside a describing clause it holds the spot of a place, a time, or a cause, and is heard for the thing an action was done with too |
+| *aʻi* | the pointing-back word in the shape it takes for the thing an action was done with, a job no other shape has to itself |
+| *ʻi ai* | the pointing-back word with the place word in front, the usual shape for where a movement or a wanting is aimed |
+| *fai=a* | the long form of *fai*, the shape the verb usually takes in a clause whose missing word is the doer of an action done to something else |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *ʻenaʻena* | brown |
-| *māfatia* | exhausted |
-| *malama* | break, of the morning |
-| *soʻo* | often |
-| *talatalanoa* | talk, chat |
-| *vivini* | crow, of a rooster |
-| *faiva* | fishing trip |
-| *pese* | song |
+| *manuʻa* | be hurt |
+| *mauʻoloa* | rich |
+| *popolevale* | overanxious |
+| *taufi* | cover (the form used when more than one thing is covered) |
+| *fue* | liana |
+| *tamāoʻāiga* | wealth |
 
 ---
 
@@ -251,66 +317,72 @@ a number, and what it distributes is whatever noun stands beside it.
 
 ### Exercise 1: Translate into English
 
-1. *Talu ona ʻou sau ʻou te leʻi maua se mea lelei.*
-2. *ʻOu te leʻi maua se mea lelei talu ona ʻou sau.*
-3. *ʻi le māsina talu ai*
-4. *Ina ʻua malama le taeao, sā sau le pasi ʻenaʻena.*
-5. *ʻO le vivini a moa, e ʻāmata sāuni ai faiva.*
-6. *ʻO le vivini a moa, ʻae ʻāmata le pese.*
-7. *E talatalanoa soʻo oʻu mātua.*
-8. *ʻi taeao o aso taʻi=tasi*
+1. *ʻO le fafine sā alu ʻi le nuʻu.*
+2. *ʻO le mea sā ʻou nofo ai.*
+3. *ʻO le nuʻu sā nofo ai le teine.*
+4. *le fue na taufi aʻi le umu*
+5. *ʻO le mea sā alu atu le teine ʻi ai.*
+6. *ʻO lē sā mauʻoloa.*
+7. *ʻO ē e mauʻoloa.*
+8. *ʻO le tamāloa e manuʻa le vae.*
+9. *ʻO tagata sā fai=a le puaʻa.*
+10. *ʻO le tama e mālosi atu i lo le teine.*
 
-### Exercise 2: Say which part sets the time
+### Exercise 2: Say what holds the named thing's spot
 
-For each sentence, say which part names the event the rest is timed against, and
-which word marks it.
+For each phrase, say whether the spot the named thing would fill is left empty or
+is held by the pointing-back word, and in that case which shape stands there.
 
-1. *Talu ona ʻou alu ʻou te leʻi maua se mea lelei.*
-2. *Sā māfatia le tama ina ʻua malama le taeao.*
-3. *ʻO le sau o le pasi, e ʻāmata ai le malaga.*
-4. *ʻO lona tolu o aso talu ona ʻou sau, sā ʻou vaʻai atu ai ʻi le teine.*
-5. *Ina ʻua sau le teine, sā fiafia le tama.*
+1. *ʻO le tama sā moe ʻi le fale.*
+2. *ʻO le mea sā ʻou nofo ai.*
+3. *le fue na taufi aʻi le umu*
+4. *ʻO le mea sā alu atu le teine ʻi ai.*
+5. *le tamāoʻāiga ʻua maua e aʻu uō*
 
-### Exercise 3: Fill the gap
+### Exercise 3: Put in the pointing-back word
 
-Put *talu*, *ina ʻua*, or *talu ai* into each gap so the English matches.
+Fill each gap with *ai*, *aʻi*, or *ʻi ai*. Where two shapes are heard in the same
+job, give the one that is used for that job and no other.
 
-1. *\_\_\_ ona ʻou sau ʻou te leʻi maua se mea lelei.* (Since I came, I have not got anything good.)
-2. *\_\_\_ malama le taeao, sā māfatia le tama.* (When the morning broke, the boy was exhausted.)
-3. *ʻi le vaiaso \_\_\_* (last week)
-4. *\_\_\_ sau le teine, sā fiafia le tama.* (When the girl came, the boy was happy.)
-5. *\_\_\_ ona ʻou alu ʻou te leʻi maua se uō lelei.* (Since I left, I have not got a good friend.)
+1. *ʻO le mea sā ʻou nofo \_\_\_.*
+2. *ʻO le nuʻu sā nofo \_\_\_ le teine.*
+3. *le fue na taufi \_\_\_ le umu*
+4. *ʻO le mea sā alu atu le teine \_\_\_.*
+5. *ʻO le aso sā siva \_\_\_ le teine.*
 
 ### Exercise 4: Translate into Sāmoan
 
-1. Since I came, I have not got anything new.
-2. last year
-3. When the morning broke, the boy worked.
-4. When the bus came, the girl went.
-5. My parents talk often.
-6. each day
+Use the particle given in brackets.
 
-### Exercise 5: Put the time clause second
+1. the woman who went to the village (*sā*)
+2. the boy who slept in the house (*sā*)
+3. the wealth my friends got (*ʻua*)
+4. the day the girl danced (*sā*)
+5. the one who was overanxious (*sā*)
+6. those who are rich
+7. the man whose leg is hurt
+8. the place where the boy bathed (*sā*)
+9. the day the man died (*sā*)
 
-Rewrite each sentence with the time clause after the main clause instead of in
-front of it.
+### Exercise 5: Rewrite each sentence as a phrase with a describing clause
 
-1. *Talu ona ʻou sau ʻou te leʻi maua se mea fou.*
-2. *Ina ʻua sau le teine, sā fiafia le tama.*
-3. *Ina ʻua malama le taeao, sā māfatia le tama.*
-4. *Ina ʻua malama le taeao, sā galue le tama.*
-5. *Ina ʻua malama le taeao, sā alu le teine ʻi le maʻumaga.*
+Take the sentence, put the one doing the action in front under the presenting
+particle, and leave the rest of the sentence behind it as the clause.
+
+1. *Sā nofo le aliʻi ʻi le nuʻu.*
+2. *Sā alu le teine ʻi le maʻumaga.*
+3. *Sā siva le fafine.*
+4. *Sā tāʻele le tama ʻi le vai.*
+5. *Sā moe le pusi ʻi le fale.*
 
 ### Exercise 6: Give the English
 
-1. *ʻenaʻena*
-2. *māfatia*
-3. *malama*
-4. *soʻo*
-5. *talatalanoa*
-6. *vivini*
-7. *faiva*
-8. *pese*
+1. *manuʻa*
+2. *mauʻoloa*
+3. *popolevale*
+4. *taufi*
+5. *fue*
+6. *tamāoʻāiga*
 
 ---
 
@@ -318,48 +390,53 @@ front of it.
 
 ### Exercise 1
 
-1. Since I came, I have not got anything good.
-2. I have not got anything good since I came.
-3. last month
-4. When the morning broke, the brown bus came.
-5. When the roosters crow, people begin preparing for fishing trips.
-6. When the roosters crow, the song begins.
-7. My parents talk often.
-8. every morning
+1. The woman who went to the village.
+2. The place where I stayed.
+3. The village where the girl lived.
+4. the liana the food in the oven was covered with
+5. The place where the girl went to.
+6. The one who was rich.
+7. Those who are rich.
+8. The man whose leg was hurt.
+9. The people who were attending the pig.
+10. The boy who is stronger than the girl.
 
 ### Exercise 2
 
-1. *ʻou alu*, the clause after the since-word *talu*, opened by the that-word *ona*.
-2. *ina ʻua malama le taeao*, the clause opened by the when-word, standing after the main clause.
-3. *ʻO le sau o le pasi*, the le-phrase at the head, marked by the presenting particle *ʻo* standing in front of it. The clause that follows carries the pointing-back word *ai*, which reaches back to that phrase rather than marking it.
-4. *ʻou sau*, the clause after the since-word, opened by the that-word *ona*, with the stretch of time *ʻo lona tolu o aso* named in front of it.
-5. *ina ʻua sau le teine*, the clause opened by the when-word.
+1. Empty: the boy is the one who slept, and nothing inside the clause stands for him.
+2. Held by the pointing-back word *ai*, standing after the verb for a place.
+3. Held by the pointing-back word in the shape *aʻi*, for the thing the covering was done with.
+4. Held by *ʻi ai*, for the place the going was aimed at.
+5. Empty: the wealth is what was got, and nothing inside the clause stands for it.
 
 ### Exercise 3
 
-1. *Talu ona ʻou sau ʻou te leʻi maua se mea lelei.*
-2. *Ina ʻua malama le taeao, sā māfatia le tama.*
-3. *ʻi le vaiaso talu ai*
-4. *Ina ʻua sau le teine, sā fiafia le tama.*
-5. *Talu ona ʻou alu ʻou te leʻi maua se uō lelei.*
+1. *ʻO le mea sā ʻou nofo ai.*
+2. *ʻO le nuʻu sā nofo ai le teine.*
+3. *le fue na taufi aʻi le umu*
+4. *ʻO le mea sā alu atu le teine ʻi ai.*
+5. *ʻO le aso sā siva ai le teine.*
 
 ### Exercise 4
 
-1. *Talu ona ʻou sau ʻou te leʻi maua se mea fou.*
-2. *ʻi le tausaga talu ai*
-3. *Ina ʻua malama le taeao, sā galue le tama.*
-4. *Ina ʻua sau le pasi, sā alu le teine.*
-5. *E talatalanoa soʻo oʻu mātua.*
-6. *ʻi le taʻi=tasi aso*
+1. *ʻO le fafine sā alu ʻi le nuʻu.*
+2. *ʻO le tama sā moe ʻi le fale.*
+3. *le tamāoʻāiga ʻua maua e aʻu uō*
+4. *ʻO le aso sā siva ai le teine.*
+5. *ʻO lē sā popolevale.*
+6. *ʻO ē e mauʻoloa.*
+7. *ʻO le tamāloa e manuʻa le vae.*
+8. *ʻO le mea sā tāʻele ai le tama.*
+9. *ʻO le aso sā oti ai le tamāloa.*
 
 ### Exercise 5
 
-1. *ʻOu te leʻi maua se mea fou talu ona ʻou sau.*
-2. *Sā fiafia le tama ina ʻua sau le teine.*
-3. *Sā māfatia le tama ina ʻua malama le taeao.*
-4. *Sā galue le tama ina ʻua malama le taeao.*
-5. *Sā alu le teine ʻi le maʻumaga ina ʻua malama le taeao.*
+1. *ʻO le aliʻi sā nofo ʻi le nuʻu.*
+2. *ʻO le teine sā alu ʻi le maʻumaga.*
+3. *ʻO le fafine sā siva.*
+4. *ʻO le tama sā tāʻele ʻi le vai.*
+5. *ʻO le pusi sā moe ʻi le fale.*
 
 ### Exercise 6
 
-1. brown · 2. exhausted · 3. break, of the morning · 4. often · 5. talk, chat · 6. crow, of a rooster · 7. fishing trip · 8. song
+1. be hurt · 2. rich · 3. overanxious · 4. cover (more than one thing covered) · 5. liana · 6. wealth

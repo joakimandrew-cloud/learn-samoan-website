@@ -1,291 +1,345 @@
-# Chapter 41: Checkpoint 2: The Intermediate Consolidation
+# Chapter 40: Modifiers in Depth
 
-This chapter adds no new grammar and no new words, and consolidates the
-Intermediate band, from the do-not verbs and the agent marker to the condition
-clause and the describing verb inside a noun phrase. It sets those systems to
-work in the same sentences through mixed exercises and a closing self-run, and
-shows you how to narrate, argue, compare, report and explain with agent marking
-and clause combining running together.
+This chapter takes the describing verb into the noun phrase, where it stands
+after the name of a thing instead of after an action, and adds the two compound
+shapes that fill the same position, so you can pack a whole description into one
+noun phrase. It also shows what happens when several describing verbs stand on
+one noun, and where the pointing word goes when they do.
 
 ---
 
-## Who Did What to Whom
+## The Describing Verb After a Noun
 
 ::: {.examples}
-*Sā tatala e le teine le pusa.* The girl opened the box.
+*E uliuli le taʻavale.* The car is black.
 
-*Sā tatala le pusa.* The box was opened.
-
-*ʻAua le tatala=ina le pusa lenā.* Don't open that box.
+*le taʻavale uliuli*. the black car (Lit. "the car black")
 :::
 
-A verb that takes a doer marks a doer phrase standing after it with the agent
-marker *e*, and the one the action happened to stands bare. A doer said as a
-preverbal pronoun, in front of the verb, takes no marker. Leave the doer out and
-nothing takes its place: the second sentence is the first with *e le teine*
-removed, and that is what Sāmoan does where English reaches for a passive. The
-same verb has a short form, *tatala*, and a long form, *tatala=ina*. Most of the
-time the choice between them is a tendency, but two rules are firm. A command
-takes the short form, without exception. Forbidding with *ʻaua le* takes the
-long form, and speakers reject the short form there, though a few short forms
-turn up in print. A verb that takes no agent marker has only one shape to offer,
-and keeps it in both.
+Compare the two lines. Where did *uliuli* go, and what did it stop doing?
 
-The *le* in *ʻaua le* is the article of a le-phrase, an event packed into a
-thing, and the other do-not verb, *sōia*, takes a le-phrase the same way, as
-in *Sōia le tagi* ("Stop crying"). The do-not verb *ʻaua* can also take the
-person and the general particle *te* before the verb, as in *ʻAua ʻe te siva*
-("Don't dance").
+It moved in behind the name of the thing, and it stopped being the whole
+statement. On the first line *uliuli* is the verb of the sentence and says what
+the car is. On the second it stands inside the noun phrase and says which car is
+meant. The word did not change shape and it did not change class. The describing
+words taught in this chapter and in Chapter 3 are verbs wherever they stand, and
+this is the position they take when the thing they describe is a noun rather
+than an action.
 
-Two more tools work inside this same sentence. Built on a verb, the maker-prefix
-*faʻa-* makes a verb of causing, and a verb built this way can always take a
-doer marked with *e*. A direction word after the verb says which way its action
-is turned: *mai* toward the speaker, *atu* away from the speaker, *aʻe* up and
-*ifo* down.
+The pattern has three parts in a fixed order: the article, then the name of the
+thing, then the describing verb.
+
+| Part | In *le taʻavale uliuli* | What it does |
+|---|---|---|
+| the article | *le* | picks out one particular one |
+| the name of the thing | *taʻavale* | says what is being talked about |
+| the describing verb | *uliuli* | says what that thing is like |
+
+::: {.examples}
+*tagata oti*. dead people
+:::
+
+The noun in front of a describing verb is not always the one doing what the verb
+says. It can be the place the action happens in.
+
+::: {.examples}
+*ʻO le potu moe.* A bedroom. (Lit. "the room sleep")
+:::
+
+The same description can also appear with the general particle *e* in front of
+the describing verb, and then the words behind the noun are a clause with a tense
+particle of their own.
+
+::: {.examples}
+*tagata tino leaga*. people with bad bodies (Lit. "people body bad")
+
+*tagata e tino leaga*. people who have bad bodies
+:::
+
+The two phrases do the same work. The English gloss beside the second one uses a
+relative clause, "people who have bad bodies", and the gloss beside the first does
+not. Sāmoan can do both, and the shorter one does the work of the longer one
+without the particle. That is what a describing verb after a noun does: it works
+as a clause of its own, with no joining word and no tense particle showing.
+*Le taʻavale uliuli* is the car that is black, and *tagata oti* are people who
+have died.
+
+> **Preview:** The phrase with *e* in it above is a full clause standing inside a
+> noun phrase. Sāmoan builds those with a tense particle, and in some of them,
+> depending on the part the noun plays inside the clause, with a pointing-back
+> word as well. That whole construction is taught in Chapter 43.
+
+The describing slot holds more than a single word. A describing verb can carry a
+place phrase behind it, and the whole of it still stands in the one position.
+
+::: {.examples}
+*le pasi alu ʻi le nuʻu*. the bus going to the village
+:::
+
+---
+
+## Plural Describing Verbs After a Noun
+
+::: {.examples}
+*le pusi uliuli*. the black cat
+
+*pusi uli*. black cats
+:::
+
+A describing verb that follows a noun takes the plural form it would take as the
+verb of a sentence with a single participant, where the noun is that participant.
+One cat is *le pusi uliuli*. More than one is *pusi uli*, with the plural *uli*
+in the describing slot and the plural of the noun marked by leaving the article
+off.
+
+| Sāmoan | English |
+|---|---|
+| *E uliuli le pusi.* | The cat is black. |
+| *E uli pusi.* | The cats are black. |
+| *le pusi uliuli* | the black cat |
+| *pusi uli* | black cats |
+
+The agreement holds where the describing verb stands to the noun the way it would
+stand to the subject of a sentence with a single participant. *E uli pusi* is
+such a sentence, so *pusi uli* takes the plural. Where the relation between the
+noun and the describing verb is a different one, the rule taught here does not
+reach it, and this book states none.
+
+---
+
+## The Part-and-Quality Compound
+
+::: {.examples}
+*ʻUa ʻou isu mamafa.* I have a cold. (Lit. "I have a heavy nose.")
+:::
+
+Two words carry that sentence: *isu* (nose) and *mamafa* (heavy). A noun naming a
+part of something, with a describing verb behind it saying what that part is
+like, is called **a part-and-quality compound**. The compound says that somebody
+or something has a part of that quality, which is how two words meaning nose and
+heavy come out in English as having a cold. This kind of compound is named after
+that very example, *isu mamafa*.
+
+A part-and-quality compound works as one describing verb. It can be the verb of a
+sentence, as it is above, and it can stand after a noun and describe it. The
+phrase *tagata tino leaga* earlier in this chapter is one of these: *tino* names
+a body and *leaga* says what that body is like, and the compound describes the
+people in front of it.
+
+| Compound | Its two parts | What the compound says |
+|---|---|---|
+| *isu mamafa* | *isu* (nose), *mamafa* (heavy) | to have a cold |
+| *tino leaga* | *tino* (body), *leaga* (bad) | to have a bad body |
+
+---
+
+## The Verb-and-Noun Compound
+
+::: {.examples}
+*le teine fai umu*. the cooking girl (Lit. "the girl do oven")
+:::
+
+*Fai*, carried since the chapter on the tense particles as do, make, say and
+tell, is also a verb of the kind that takes the agent marker, and *umu* is a bare
+noun standing straight behind it with no article in front of it. A verb of that
+kind with a bare noun behind it naming the sort of thing it acts on is called
+**a verb-and-noun compound**, and the pair works as one describing verb on the
+noun in front of them.
+
+The noun being described is the one doing the action, or the place it happens in,
+or the thing it is done with. In *le teine fai umu* it is the girl who does it.
+
+::: {.examples}
+*le teine fai meaʻai*. the food-making girl
+:::
+
+> *Note:* The verb inside a verb-and-noun compound usually keeps its short form.
+> The long-form ending taught earlier in this book is rare in this position.
+
+---
+
+## Describing Verbs in a Row
+
+::: {.examples}
+*le pusa paʻepaʻe mānaia*. the nice white box
+
+*le tagata loto vāivai ma le fefe*. the timid and frightened person (Lit. "the person heart weak and the afraid")
+:::
+
+More than one describing verb can stand on one noun. They can sit one behind the
+other with nothing between them, as *paʻepaʻe* and *mānaia* do in the first
+phrase, or they can be joined by the with-word *ma*. The two phrases also show
+that the kinds can mix: the second one opens on a part-and-quality compound.
+
+In this construction, the with-word brings an article with it. What stands behind *ma* is *le fefe*,
+an article in front of a verb (*fefe*, fear, be afraid), which is the le-phrase taught earlier in this
+book: the being afraid, packed into a thing. So the with-word is doing here what
+it has always done, joining one thing to another, and the English "and" in the
+gloss covers a join Sāmoan makes between a description and a named feeling.
+
+A pointing word comes after the describing verbs.
+
+::: {.examples}
+*le pusa paʻepaʻe mānaia lenā*. that nice white box
+:::
+
+| Position | In *le pusa paʻepaʻe mānaia lenā* |
+|---|---|
+| the article | *le* |
+| the name of the thing | *pusa* |
+| the describing verbs | *paʻepaʻe mānaia* |
+| the pointing word | *lenā* |
+
+Put the presenting particle in front of that phrase and you have a naming
+sentence of the kind taught earlier in this book, with the pointing word standing
+second as it does there.
+
+::: {.examples}
+*ʻO le pusa paʻepaʻe mānaia lenā.* That is the nice white box.
+:::
+
+---
+
+## The Endings *=gatā* and *=gōfie*
+
+::: {.examples}
+*le taʻavale taugatā*. the expensive car
+
+*E faigatā le gagana.* The language is difficult.
+:::
+
+Sāmoan has two endings that build its difficult-words and easy-words. The ending *=gatā* carries the
+meaning difficult and *=gōfie* carries the meaning easy, and each word they build
+has a meaning of its own, learned word by word. *Fai* is the verb for doing, so
+*faigatā* is difficult and *faigōfie* is easy.
+
+| Base | With *=gatā* | With *=gōfie* |
+|---|---|---|
+| *fai* (do) | *faigatā* (difficult) | *faigōfie* (easy) |
+| *faʻalogo* (listen, hear) | *faʻalogogatā* (disobedient) | *faʻalogogōfie* (obedient) |
+| *tau* (cost, price) | *taugatā* (expensive) | *taugōfie* (cheap) |
+| *mau* (have plenty) | *maugatā* (mean, tight-fisted) | *maugōfie* (generous) |
+
+The words these endings build are verbs, so they stand where the describing verbs
+of this chapter stand: after a noun, and as the verb of a sentence.
+
+::: {.examples}
+*le tama faʻalogogōfie*. the obedient boy
+
+*E taugōfie le pusa.* The box is cheap.
+:::
+
+| Sāmoan | English |
+|---|---|
+| *le tagata maugatā* | the mean person |
+| *le tagata maugōfie* | the generous person |
+| *le tagata faʻalogogatā* | the disobedient person |
+| *le taʻavale taugatā* | the expensive car |
+
+*Faʻalogo* is to listen, and *faʻalogogatā* is disobedient rather than hard to
+hear. *Mau* is to have plenty, and *maugatā* is mean rather than hard to have.
+
+> *Note:* Both endings can follow another ending, and an ending can follow them
+> in turn. This chapter builds from a plain verb only.
+
+---
+
+## Words to Learn
+
+**New grammar words** (memorize how these work):
+
+| Word | What it does |
+|---|---|
+| *=gatā* | the ending that builds a difficult-word out of the verb it goes on; it is never a word standing on its own |
+| *=gōfie* | the ending that builds an easy-word the same way |
+| *ma* | the with-word, met earlier: inside one noun phrase it joins a describing verb to a le-phrase behind it, and reads as "and" |
+
+**New vocabulary** (memorize these meanings):
+
+| Word | Meaning |
+|---|---|
+| *faigatā* | difficult |
+| *faigōfie* | easy |
+| *faʻalogo* | listen, hear |
+| *faʻalogogatā* | disobedient |
+| *faʻalogogōfie* | obedient |
+| *mau* | have plenty |
+| *maugatā* | mean, tight-fisted |
+| *maugōfie* | generous |
+| *taugatā* | expensive |
+| *taugōfie* | cheap |
+| *fefe* | fear, be afraid |
+
+---
+
+## Exercises
 
 ### Exercise 1: Translate into English
 
-1. *Na sāisai e le tamāloa le moa.*
-2. *Sā tausi le pepe.*
-3. *ʻO ai na fasi=a le tama?*
-4. *ʻAua le faitau=a le tusi lenā.*
-5. *Sā faʻagoto e le tama le vaʻa.*
-6. *Na alu ifo le tama.*
-7. *ʻAua ʻe te faitala.*
-8. *Sōia le taʻatia.*
+1. *le taʻavale uliuli*
+2. *tagata oti*
+3. *le teine fai umu*
+4. *tagata tino leaga*
+5. *le pusa paʻepaʻe mānaia*
+6. *le taʻavale taugatā*
+7. *le tagata loto vāivai ma le fefe*
 
-### Exercise 2: Translate into Sāmoan
+### Exercise 2: Name what fills the describing slot
 
-Use the past particle given in brackets.
+For each phrase, say whether the slot holds a single describing verb, a
+part-and-quality compound, a verb-and-noun compound, or a describing verb
+carrying a place phrase.
 
-1. The woman opened the box. (*sā*)
-2. The hen was tied up. (*na*)
-3. Don't hit that dog.
-4. The girl put the baby to sleep. (*sā*)
-5. The boy went up. (*na*)
+1. *le pasi alu ʻi le nuʻu*
+2. *tagata tino leaga*
+3. *le teine fai meaʻai*
+4. *le tama faʻalogogōfie*
+5. *tagata oti*
 
----
+### Exercise 3: Move the describing verb into the noun phrase
 
-## Belonging, Place, and Description
+Rewrite each sentence as a noun phrase, with the describing verb standing behind
+the name of the thing.
 
-::: {.examples}
-*ʻO le taʻavale ʻi luma o le fale.* The car in front of the house.
+1. *E uliuli le taʻavale.*
+2. *E uli pusi.*
+3. *E faigatā le gagana.*
+4. *E taugōfie le pusa.*
+5. *E uliuli le pusi.*
 
-*le taʻavale uliuli*. the black car
-:::
+### Exercise 4: Build the word
 
-The belonging word *a* marks a relationship the owner started and controls, such
-as a thing got and put to use. The belonging word *o* marks a relationship that
-is given, such as the house a person lives in, a part of the person, or a
-quality of the thing itself. This distinction guides the choice. Where it runs
-out, some relationships take their belonging word by convention and are learned
-word by word. A spatial noun names a region of space around a
-thing, and it sits in a frame of four parts: the place word *ʻi*, the spatial
-noun, the belonging word *o*, then the thing the position is measured against.
-A describing verb can also stand inside a noun phrase, after the name of the
-thing, where it says which one is meant.
+Add *=gatā* or *=gōfie* to the word in brackets to give the word that means:
 
-### Exercise 3: Translate into Sāmoan
+1. difficult (*fai*)
+2. easy (*fai*)
+3. expensive (*tau*)
+4. cheap (*tau*)
+5. obedient (*faʻalogo*)
+6. generous (*mau*)
 
-1. The radio of the chief.
-2. The house of the chief.
-3. The cat under the house.
-4. The cup on the mat.
-5. The book outside the room.
-6. the black cat
+### Exercise 5: Translate into Sāmoan
 
----
+1. the black car
+2. dead people
+3. the cooking girl
+4. the nice white box
+5. That is the nice white box.
+6. The language is difficult.
 
-## Can, Must, and Comparison
+### Exercise 6: Give the English
 
-::: {.examples}
-*ʻUa tatau ona alu le tama.* The boy must go.
-
-*E sā ona ulaula.* It is forbidden to smoke.
-
-*E mālosi atu le tama i lo le teine.* The boy is stronger than the girl.
-
-*E sili ona mālosi le maile.* The dog is the strongest.
-:::
-
-A complement clause is a whole clause standing where a noun phrase would stand.
-*Mafai* (can), *tatau* (must) and *sā* (forbidden) each take one, and after
-these three the that-word *ona* opens it. The clause after *ona* names the event, and the word
-in front of it grades that event as possible, necessary or forbidden.
-
-Comparison adds no ending to the quality word. The direction word *atu* after it
-raises the degree, the than-word *i lo* names what it is weighed against, and
-*sili ona* in front of it picks out the one that stands above the rest.
-
-### Exercise 4: Translate into Sāmoan
-
-Use the particle given in brackets.
-
-1. The girl can come.
-2. The girl cannot dance.
-3. I must go. (*ʻua*)
-4. It is forbidden for the girl to come.
-5. The cocoa is hotter than the water.
-6. The reef is further away than the wharf.
-7. The water is the deepest.
-
----
-
-## Reported Speech
-
-::: {.examples}
-*ʻUa iloa e le tama ʻua sau le teine.* The boy knows that the girl has come.
-
-*Na iloa e le tama ʻua sau le teine.* The boy knew that the girl had come.
-:::
-
-After a knowing word, the report is an ordinary clause with a tense particle of
-its own, and nothing joins the two halves. That particle is read against the
-time the first half names, not against the moment of speaking, so
-*ʻua sau le teine* stays word for word the same while the English moves from
-"has come" to "had come". A reported command opens with the mood particle *ʻia* in place of a
-tense particle, and the general particle *e* can stand in that slot with the
-same reading. After the say-verb *fai*, what was said follows as a sentence of
-its own: quoted word for word, or opened by *pē* (whether) when it is a
-question.
-
-### Exercise 5: Translate into English
-
-1. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
-2. *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.*
-3. *Na iloa e loʻu ataliʻi ʻua sasae le ʻie.*
-4. *Na fai mai le tama pē sau le teine.*
-5. *ʻUa faʻatonu mai e le tama ʻia sau le teine.*
-6. *Fai atu le teine: "ʻOleʻā ʻou alu."*
-
----
-
-## Putting Things First
-
-::: {.examples}
-*Sā tapē e le tama le puaʻa.* The boy killed the pig.
-
-*ʻO le puaʻa sā tapē e le tama.* The boy killed the pig.
-
-*ʻO le tama sā tapē=ina le puaʻa.* The boy killed the pig.
-:::
-
-In the pattern practised here, putting a participant first moves its noun phrase
-to the head of the sentence behind the presenting particle *ʻo* and leaves its
-ordinary slot empty, and the English stays the same. When the thing acted on
-goes first, the verb mostly keeps its short form. When the doer goes first, the
-verb usually takes the long form. Both are tendencies, unlike the two command
-rules. What moves is the whole phrase, however many words it runs to. Other
-fronting patterns from Chapter 34 work differently, such as a phrase headed by
-"only" or "any", which goes first with no *ʻo*, and they are not drilled here.
-
-### Exercise 6: Put the phrase in brackets first
-
-Rewrite each sentence with the phrase in brackets at the front. Where the verb
-has two forms, use the one speakers usually choose.
-
-1. *Sā galue le tama ʻi le faʻatoʻaga.* (*le tama*)
-2. *Sā tatala e le teine le faitotoʻa.* (*le faitotoʻa*)
-3. *Sā tatala e le teine le faitotoʻa.* (*le teine*)
-4. *ʻUa leaga le taʻavale.* (*le taʻavale*)
-5. *Na lagona e le tinā le leo o le pepe.* (*le leo o le pepe*)
-6. *Sā ʻai e le teine le iʻa.* (*le iʻa*)
-
----
-
-## Joining Clauses and Telling What Happened Next
-
-::: {.examples}
-*Sā timu ma sā lolo le vai.* It rained and the water overflowed.
-
-*Sā nofo le teine ʻi le ana ʻae sā alu le tama.* The girl stayed in the cave but the boy went.
-
-*Na usu le tama ʻaʻo moe le teine.* The boy stood up while the girl slept.
-
-*Ona alu lea ʻo le tama.* Then the boy went.
-
-*Na alu le tama, oso le teine ʻi le sami.* The boy went, and the girl jumped into the sea.
-:::
-
-The with-word *ma* joins two clauses, and when the second clause carries a
-tense particle it repeats the one in front of the first. The exception is the
-one Chapter 36 set aside in a Note: a pointing phrase standing straight after
-*ma*. The but-word *ʻae*
-opens the second of two contrasted clauses and never the first. *ʻAʻo* holds two
-events together in time, very often as "while", and can open either clause. To
-tell what happened next, the then-construction wraps a verb phrase in *ona* and
-*lea*. A run of clauses can also share the one tense particle at its head, with
-the slot in front of every later clause left empty.
-
-### Exercise 7: Translate into Sāmoan
-
-Use the past particle given in brackets.
-
-1. The boy has woken but the girl is sleeping.
-2. I stayed but the girl went. (*sā*)
-3. The girl stood up while the boy slept. (*na*)
-4. It rained and the girl stayed in the cave. (*sā*)
-5. Then the girl answered.
-
----
-
-## Reasons, Purposes, and Conditions
-
-::: {.examples}
-*ʻUa alu le tama ʻona ʻua sau le teine.* The boy went because the girl came.
-
-*Sā alu le tama e ʻaumai le niu.* The boy went to bring the coconut.
-
-*ʻĀfai e timu taeao, e lē alu le malaga.* If it rains tomorrow, the trip will not go.
-:::
-
-A because-word opens a clause giving the reason for what was just said, and that
-clause keeps a tense particle of its own. *ʻAuā* is the plain one, *leaga* gives
-a reason that is unwelcome, and *ʻona* can also go first. *ʻOna* also takes a
-noun phrase, with the presenting particle *ʻo* between the two: *ʻona ʻo*
-(because of). The plain purpose clause practised here follows the
-main clause with no joining word. The general particle *e* heads it (*te* after
-a preverbal pronoun), the mood particle *ʻia* can head it in place of *e*, and
-the warning particle *neʻi* takes that place when the action is done to prevent
-something. Sāmoan also has other ways to mark purpose. A condition clause opens with the if-word
-*ʻāfai*, or with *ʻā*, the short form of the future particle, which English
-renders "if", "when" or "whenever". Placed after the main clause, a condition
-takes *pē* in front of it. To ask for a reason, *ʻaiseā* (why) stands at the
-front, with the pointing-back word *ai* after the verb.
-
-### Exercise 8: Translate into English
-
-1. *ʻUa mālamalama le teine ʻauā ʻua tautala le tama.*
-2. *E lē mafai ona ʻe alu ʻona ʻo le timu.*
-3. *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.*
-4. *Sā ʻou alu ʻou te ʻaumai le niu.*
-5. *Sā ʻou alu neʻi tagi le tama.*
-6. *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.*
-7. *ʻOleʻā alu le teine pē ʻāfai ʻua sau le tama.*
-8. *ʻĀ timu taeao, e lē alu le malaga.*
-9. *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?*
-
----
-
-## Can You Do This?
-
-Here is the whole Intermediate band in thirteen tasks. Do each one out loud in
-Sāmoan, then check the model answer. If a task feels shaky, go back to the
-chapter that built it before moving into the Advanced band.
-
-1. Tell someone not to do something to a thing, and tell someone to stop crying.
-2. Say whose a thing is, once with each belonging word.
-3. Say where one thing is in relation to another, and say which way someone went.
-4. Say who did what to whom, then say it again with the doer left out.
-5. Say that someone made something happen.
-6. Say what someone can do, and what someone must do.
-7. Compare two things, then pick out the one that stands above the rest.
-8. Pass on what someone knew, and what someone asked.
-9. Put the thing acted on at the front of a sentence.
-10. Set one event against another, then tell what happened next.
-11. Ask why, then give a reason.
-12. Say what will happen if something turns out to be true.
-13. Describe a thing inside one noun phrase.
+1. *faigatā*
+2. *faigōfie*
+3. *faʻalogo*
+4. *faʻalogogatā*
+5. *faʻalogogōfie*
+6. *mau*
+7. *maugatā*
+8. *maugōfie*
+9. *taugatā*
+10. *taugōfie*
+11. *fefe*
 
 ---
 
@@ -293,92 +347,50 @@ chapter that built it before moving into the Advanced band.
 
 ### Exercise 1
 
-1. The man tied up the hen.
-2. The baby was taken care of.
-3. Who hit the boy?
-4. Don't read that book.
-5. The boy made the boat sink.
-6. The boy went down.
-7. Don't gossip.
-8. Stop lying down.
+1. the black car
+2. dead people
+3. the cooking girl
+4. people with bad bodies
+5. the nice white box
+6. the expensive car
+7. the timid and frightened person
 
 ### Exercise 2
 
-1. *Sā tatala e le fafine le pusa.*
-2. *Na sāisai le moa.*
-3. *ʻAua le fasi=a le maile lenā.*
-4. *Sā faʻamoe e le teine le pepe.*
-5. *Na alu aʻe le tama.*
+1. A describing verb carrying a place phrase: *alu* with *ʻi le nuʻu* behind it.
+2. A part-and-quality compound: *tino* names a part and *leaga* says what it is like.
+3. A verb-and-noun compound: *fai* with the bare noun *meaʻai* behind it.
+4. A single describing verb: *faʻalogogōfie*.
+5. A single describing verb: *oti*.
 
 ### Exercise 3
 
-1. *ʻO le leitio a le aliʻi.*
-2. *ʻO le fale o le aliʻi.*
-3. *ʻO le pusi ʻi lalo o le fale.*
-4. *ʻO le ipu ʻi luga o le fala.*
-5. *ʻO le tusi ʻi fafo o le potu.*
-6. *le pusi uliuli*
+1. *le taʻavale uliuli*
+2. *pusi uli*
+3. *le gagana faigatā*
+4. *le pusa taugōfie*
+5. *le pusi uliuli*
 
 ### Exercise 4
 
-1. *E mafai ona sau le teine.* (or *ʻUa mafai ona sau le teine.*)
-2. *E lē mafai ona siva le teine.* (or *ʻUa lē mafai ona siva le teine.*)
-3. *ʻUa tatau ona ʻou alu.*
-4. *E sā ona sau le teine.*
-5. *E vevela atu le koko i lo le vai.*
-6. *E mamao atu le aʻau i lo le uafu.*
-7. *E sili ona loloto le vai.*
+1. *faigatā*
+2. *faigōfie*
+3. *taugatā*
+4. *taugōfie*
+5. *faʻalogogōfie*
+6. *maugōfie*
 
 ### Exercise 5
 
-1. The boy knew that the girl was staying in the village.
-2. The boy knows that the girl had stayed in the village.
-3. My son knew that the cloth had been torn.
-4. The boy asked whether the girl would come.
-5. The boy gave the order that the girl should come.
-6. The girl said: "I will go."
+1. *le taʻavale uliuli*
+2. *tagata oti*
+3. *le teine fai umu*
+4. *le pusa paʻepaʻe mānaia*
+5. *ʻO le pusa paʻepaʻe mānaia lenā.*
+6. *E faigatā le gagana.*
 
 ### Exercise 6
 
-1. *ʻO le tama sā galue ʻi le faʻatoʻaga.*
-2. *ʻO le faitotoʻa sā tatala e le teine.*
-3. *ʻO le teine sā tatala=ina le faitotoʻa.*
-4. *ʻO le taʻavale ʻua leaga.*
-5. *ʻO le leo o le pepe na lagona e le tinā.*
-6. *ʻO le iʻa sā ʻai e le teine.*
-
-### Exercise 7
-
-1. *ʻUa ala le tama ʻae ʻoloʻo moe le teine.*
-2. *Sā ʻou nofo ʻae sā alu le teine.*
-3. *Na usu le teine ʻaʻo moe le tama.*
-4. *Sā timu ma sā nofo le teine ʻi le ana.*
-5. *Ona tali atu lea ʻo le teine.*
-
-### Exercise 8
-
-1. The girl understands because the boy has spoken.
-2. It is not possible for you to go because of the rain.
-3. The boy went to the house because the girl was sick.
-4. I went to bring the coconut.
-5. I went, so that the boy would not cry.
-6. If the boy has come, the girl will go.
-7. The girl will go if the boy has come.
-8. When it rains tomorrow, the trip will not go. (or "If it rains tomorrow")
-9. Why did the man go to the village?
-
-### Can You Do This?
-
-1. *ʻAua le faʻatau=a le vaʻa lenā.* / *Sōia ʻe te tagi.*
-2. *ʻO le sipuni a le fafine.* / *ʻO le igoa o le teine.*
-3. *ʻO le naifi ʻi totonu o le ʻato.* / *Na alu atu le tama.*
-4. *Na fasi e le tamāloa le gata.* / *Na fasi le gata.*
-5. *Sā faʻaalu e le tama le taʻavale.*
-6. *E mafai ona siva le uso.* / *E tatau ona alu le tama.*
-7. *E laʻitiiti atu le manulele i lo le maile.* / *E sili ona fou le faitotoʻa.*
-8. *Na iloa e le tama ʻoleʻā sau le teine.* / *Na fai mai le teine pē alu le tama.*
-9. *ʻO le faitotoʻa sā tatala e le teine.*
-10. *ʻUa ala le teine ʻae ʻoloʻo moe le tama.* / *Ona lolo lea ʻo le vaitafe.*
-11. *ʻAiseā?* / *ʻUa mālūlū le vaitafe ʻona ʻo le timu.*
-12. *ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.*
-13. *le taʻavale taugatā*
+1. difficult · 2. easy · 3. listen, hear · 4. disobedient · 5. obedient ·
+6. have plenty · 7. mean, tight-fisted · 8. generous · 9. expensive · 10. cheap ·
+11. fear, be afraid

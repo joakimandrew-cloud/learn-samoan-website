@@ -1,165 +1,139 @@
-# Chapter 17: The Where-Sentence
+# Chapter 16: The Pointing-Back Word *Ai*
 
-This chapter adds the where-sentence, the third kind of Sāmoan sentence, in
-which a tense particle sits in front of a place or a time, standing where a verb
-would stand, so the sentence says where or when someone or something is. It also
-teaches the where-question, *ʻO fea...?* ("Where...?"), which runs through the
-same frame.
+This chapter adds the pointing-back word *ai*, a word that sits inside the verb
+phrase and stands in for a place already named, so that a place mentioned once
+does not have to be named a second time. Its companion form *ʻi ai* does the
+same work for the goal of a movement, the "to there" of going and coming.
 
 ---
 
-## The Where-Sentence
+## Pointing Back to a Place
 
 ::: {.examples}
-*Sā ʻi le fale le teine.* The girl was in the house. (Lit. "Past at the house the girl.")
+*Sā nofo le teine ʻi le nuʻu.* The girl lived in the village.
 
-*Sā ʻi le nuʻu le tama.* The boy was in the village.
+*Sā nofo ai le teine.* The girl lived there.
 :::
 
-Neither sentence has a verb. Read the first one part by part: *sā*, the past
-particle, then *ʻi le fale* (in the house), then *le teine* (the girl). Where a
-verb sentence would put an action word straight after *sā*, this sentence puts a
-place. The place itself, with a tense particle in front of it, is the whole
-predicate, and the sentence says the girl was located there.
+Compare the two sentences. The first ends with the place, *ʻi le nuʻu* (in the
+village). In the second the place is gone, and a single word, *ai*, stands
+straight after the verb here. That word is *ai*, the **pointing-back word**: it
+stands in for a place already named, so the village named in the first sentence
+need not be named again in the second.
 
-This is the third kind of Sāmoan sentence. The verb sentence puts an action
-after the tense particle. The naming sentence sets two naming parts side by side
-to say who or what something is. This one, a sentence that says where someone or
-something is, is called the **where-sentence**. Its predicate is a place, not a
-verb and not a naming part.
-
-In its basic form the parts come in a fixed order: the tense particle, then
-the place with the place word *ʻi* in front of it, then the person or thing
-located there.
+*Ai* takes its own seat. The place phrase *ʻi le nuʻu* comes at the end of its
+sentence, after the doer. *Ai* does not go there. In the sentences you can build so far, it falls right
+after the verb and before the doer, and it keeps that seat under each tense
+particle this chapter uses.
 
 | Sāmoan | English |
 |---|---|
-| *Sā ʻi le fale le teine.* | The girl was in the house. |
-| *Sā ʻi le uafu le tinā.* | The mother was at the wharf. |
-| *Sā ʻi le fono le aliʻi.* | The chief was at the village meeting. |
-| *Sā ʻi le potu le pusi.* | The cat was in the room. |
+| *Sā nofo ai le teine.* | The girl lived there. |
+| *Sā mālōlō ai le tama.* | The boy rested there. |
+| *Sā fiafia ai le teine.* | The girl was happy there. |
+| *Sā nofo ai le aitu.* | The spirit lived there. |
 
-Three of the words here are new: *uafu* (wharf), *fono* (a village meeting or
-council), and *tinā* (mother). The place word *ʻi*, learned earlier in this book
-for saying where an action happened, does the same pointing here. What is new is
-that nothing else carries the sentence: no verb stands between the particle and
-the place.
+In each row the verb comes first, then *ai*, then the doer. Nothing names the
+place, because the place was named already and *ai* now carries it.
+
+> *Note:* This *ai* has the same shape as the question word *ai* met earlier in
+> this book, the one that asks who someone is (*ʻO ai ʻoe?*, "Who are you?").
+> Same string, two jobs: the question word asks after a person and stands at the
+> front, while the pointing-back word stands in for a place and sits inside the
+> verb phrase. Where the word sits tells you which job it is doing.
+
+The place *ai* points back to is usually named in the sentence just before, as
+the village was above. What *ai* stands for need not be a place word at all, as
+this pair from a story shows:
+
+::: {.examples}
+*ʻUa fai le umu.* The oven-food has been prepared.
+
+*ʻUa ʻai ai le aitu.* The spirit ate from it.
+:::
+
+The first sentence names the *umu*, an earth oven and the food cooked in it. The
+second says the spirit ate from it, and *ai* points back to that oven-food. One
+naming is enough; *ai* carries it forward.
+
+> **Preview:** When you tell a story, one event after another, *ai* threads the
+> clauses together, pointing back to a place or a scene set at the start. That
+> fuller storytelling role is taught in Chapter 37.
 
 ---
 
-## The Tense Particle on a Place
+## Putting the Place First
 
-The tense particle in front of the place works exactly as it does in front of a
-verb. Change it, and you move the location through time:
-
-::: {.examples}
-*Sā ʻi le fale le teine.* The girl was in the house.
-
-*ʻUa ʻi le fale le teine.* The girl is now in the house.
-
-*ʻOleʻā ʻi le fale le teine.* The girl will be in the house.
-:::
-
-The past particle *sā* sets the location in the past, the change particle *ʻua*
-reports that she is now there, and the future particle *ʻoleʻā* puts it ahead of
-now. The place stays put; the tense particle in front of it carries the time,
-just as it does for a verb.
-
-The same frame also locates something in time rather than in space. A time can
-fill that predicate slot in place of a place:
+A place phrase can also come first, at the front of the sentence. When it does,
+*ai* still points back to it from inside the verb phrase:
 
 ::: {.examples}
-*ʻUa ʻi lumanaʻi le fono.* The village meeting is in the future. (Lit. "Now at the future the village meeting.")
+*ʻI le nuʻu sā nofo ai le teine.* In the village the girl lived. (Lit. "In the
+village the girl lived there.")
+
+*ʻI le vasega sā fiafia ai le teine.* In the class the girl was happy. (Lit. "In
+the class the girl was happy there.")
 :::
 
-Here *lumanaʻi* (the future) fills that slot, and the sentence sets the meeting
-in time rather than at a spot. This is why the where-sentence covers both where
-and when.
+The place leads, *ʻi le nuʻu* (in the village) or *ʻi le vasega* (in the class),
+and *ai* answers it later in the sentence. The English beside each example is
+the natural rendering; the (Lit.) line shows the sentence word for word. English
+does not double the place this way, so the second "there" can feel like one
+word too many; in Sāmoan it is the ordinary shape.
+
+That said, the copy is not required. You will mostly hear *ai* answer a fronted
+place, but the sentence is also correct without it:
+
+::: {.examples}
+*ʻI le nuʻu sā nofo le teine.* In the village the girl lived.
+:::
+
+Both are good Sāmoan. When the place is already at the front, *ai* may point
+back to it or may be left out.
+
+> **Preview:** This same pointing-back copy does the work inside the kind of
+> phrase that picks out "the village where they lived" or "the day it happened".
+> That use is taught in Chapter 43.
 
 ---
 
-## A Person in the Where-Sentence
+## Going There: *ʻi ai*
 
-When the person located somewhere is a pronoun, it can stand in the middle slot,
-right after the tense particle, exactly where a preverbal pronoun stands in a
-verb sentence:
-
-::: {.examples}
-*Sā ʻou ʻi le fono.* I was in the village meeting.
-
-*ʻUa ʻou ʻi le fale.* I am now in the house.
-:::
-
-*ʻOu* (I) sits between the particle and the place. A full noun phrase like *le
-teine* comes after the place, while a preverbal pronoun can come before it,
-in this middle slot, just as it does in a verb sentence.
-
----
-
-## Asking Where
-
-To ask where someone or something is, put the where-word *fea* at the front and
-answer it later in the sentence with *ʻi ai*:
+For the goal of a movement, the "to there" of going and coming, *ai* takes the
+place word *ʻi* in front of it. The pair *ʻi ai* stands in for a place you are
+heading to, exactly where the full place phrase would stand:
 
 ::: {.examples}
-*ʻO fea e ʻi ai le teine?* Where is the girl?
+*Sā alu le tama ʻi le fale.* The boy went to the house.
 
-*ʻO fea e ʻi ai le tama?* Where is the boy?
+*Sā alu le tama ʻi ai.* The boy went there.
 :::
 
-The question opens with the presenting particle *ʻo* and the where-word *fea*,
-then the general particle *e*, then *ʻi ai*. That *ʻi ai* is the place word *ʻi*
-plus the pointing-back word *ai*, the pair met earlier in this book for "to
-there". Here it does a settled-in-place job: it holds the spot the answer will
-fill, "the place where". When the place is pulled to the front like this, *ʻi ai*
-is not optional. It must appear, unlike the pointing-back word after a fronted
-place in a verb sentence, which may be left out.
+In the first sentence the goal is *ʻi le fale* (to the house). In the second,
+*ʻi ai* takes that slot and means "to there". The two words cannot be split and
+nothing goes between them.
 
-The answer names the place in the same fronted shape:
+This gives two ways to point back, sorted for the most part by the verb. A verb
+of staying or doing takes bare *ai* for "there"; a verb of moving usually takes
+*ʻi ai* for "to there":
 
 ::: {.examples}
-*ʻO le fale e ʻi ai le teine.* The girl is in the house.
+*Sā alu le teine ʻi ai.* The girl went there. (Lit. "The girl went to there.")
 
-*ʻO le nuʻu e ʻi ai le teine.* The girl is in the village.
+*Sā nofo ai le teine.* The girl lived there.
 :::
 
-The place leads with *ʻo*, and *ʻi ai* answers it. With the where-word *fea* for
-the question and *ʻi ai* for the answer, a place can be pointed at instead of
-named out in full.
+*Sā alu le teine ʻi ai* sends the girl toward the place. *Sā nofo ai le teine*
+holds her at the place. Two things differ: the verb, and the form of the
+pointer, since *ʻi ai* takes the seat of the goal phrase at the end of the
+sentence while bare *ai* sits straight after the verb. That
+sorting holds most of the time rather than always: the two forms are drifting
+together, and a number of verbs of moving are found with either one.
 
----
-
-## The Where-Sentence and the There-Is Verb
-
-The string *ʻi ai* in the where-sentence looks close to the there-is verb *iai*
-met earlier in this book, the one that says something exists. They are not the
-same, and the difference shows itself when each is made negative. Compare these
-two:
-
-::: {.examples}
-*E leai se taʻavale ʻi le nuʻu.* There is no car in the village.
-
-*ʻO le nuʻu e lē ʻi ai le teine.* The girl is not in the village.
-:::
-
-Both deny something, but the "not" is built differently in each. In the first,
-existence is denied: the one word *leai*, the there-is-none verb, carries the
-"not" inside it. In the second, a location is denied: the "not" is the separate
-not-word *lē* standing in front of *ʻi ai*. So *iai* is one solid word about
-whether a thing exists at all, while *ʻi ai* is two words, the place word plus
-the pointing-back word, about where a thing is. Existence turns to *leai*;
-location turns to *lē ʻi ai*. That split in the negative is the surest way to
-tell the two apart.
-
-> *Note:* The where-sentence states where a person or thing is, not where it is
-> going. When *ʻi ai* carries motion, "to there", the sentence has a verb of
-> moving, as you saw earlier in this book. Inside a where-sentence, *ʻi ai*
-> stands still and means "is there". The where-sentence has no command form: it
-> reports a position, it does not send anyone anywhere.
-
-> **Preview:** The same frame has a second flavour that says a thing belongs to
-> someone, the belonging-sentence, which answers "whose is it?". That use is
-> taught in Chapter 42.
+> *Note:* The string *ʻi ai* does a second job in a kind of sentence taught in a
+> later chapter, where it means "is there", a location rather than a direction,
+> and there the pointing-back word must appear rather than being left out. In
+> this chapter *ʻi ai* always means "to there".
 
 ---
 
@@ -169,28 +143,29 @@ tell the two apart.
 
 | Word | What it does |
 |---|---|
-| *fea* | the where-word: asks where, standing first in the where-question |
-| *ʻi ai* | the settled-in-place form at the heart of the where-sentence: "is there", the spot the answer fills; the copy is required when the place is fronted |
-| *lē ʻi ai* | the negative of that form: "is not there" |
+| *ai* | the pointing-back word: stands in for a place already named; in this chapter's sentences it sits after the verb, before the doer |
+| *ʻi ai* | the "to there" form: the pointing-back word with the place word *ʻi* in front, for the goal of a movement |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *fono* | village meeting, council |
-| *uafu* | wharf |
-| *tinā* | mother |
-| *taimi* | time |
-| *lumanaʻi* | future |
+| *mālōlō* | rest |
+| *tali* | answer |
+| *aitu* | spirit |
+| *umu* | oven; oven-food |
+| *pito* | end |
+| *vasega* | class |
+| *leitio* | radio |
 
 **Words to carry** (learned now, used fully later in this book):
 
 | Word | Meaning |
 |---|---|
-| *aso* | day |
+| *isi* | other |
 
-*Aso* is learned now; the time phrases that put it to use arrive later in this
-book.
+*Isi* is learned now; it stands in front of a noun, and the sentences that put
+it there arrive later in this book.
 
 ---
 
@@ -198,57 +173,55 @@ book.
 
 ### Exercise 1: Translate into English
 
-1. *Sā ʻi le fale le teine.*
-2. *Sā ʻi le uafu le tinā.*
-3. *ʻUa ʻi le fale le teine.*
-4. *Sā ʻou ʻi le fono.*
-5. *ʻO fea e ʻi ai le tama?*
+1. *Sā nofo ai le teine.*
+2. *Sā mālōlō ai le tama.*
+3. *Sā alu le tama ʻi ai.*
+4. *ʻI le nuʻu sā nofo ai le teine.*
+5. *Sā nofo ai le aitu.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The boy was in the village.
-2. The chief was at the village meeting.
-3. The cat is now in the room.
-4. Where is the mother?
-5. The girl is in the house.
+1. The boy rested there.
+2. The girl went there.
+3. The girl lived there.
+4. In the class the girl was happy there.
+5. The spirit lived there.
 
-### Exercise 3: Put the place first
+### Exercise 3: Point back to the place
 
-Each sentence has the place after the tense particle. Rewrite it as a
-where-question, putting the where-word *fea* first and answering it with *ʻi ai*.
+Each first sentence names a place. Rewrite the second sentence so the place is
+not repeated, putting the pointing-back word *ai* right after the verb.
 
-1. *Sā ʻi le fale le teine.* (Ask: where is the girl?)
-2. *Sā ʻi le nuʻu le tama.* (Ask: where is the boy?)
-3. *Sā ʻi le uafu le tinā.* (Ask: where is the mother?)
-4. *Sā ʻi le fono le aliʻi.* (Ask: where is the chief?)
-5. *Sā ʻi le potu le pusi.* (Ask: where is the cat?)
+1. *Sā alu le tama ʻi le fale.* Then: the boy rested there.
+2. *Sā alu le teine ʻi le nuʻu.* Then: the girl lived there.
+3. *Sā nofo le tama ʻi le pito o le nuʻu.* Then: the boy was happy there.
+4. *Sā alu le teine ʻi le vasega.* Then: the girl rested there.
+5. *Sā nofo le aitu ʻi le fale.* Then: the spirit was happy there.
 
-### Exercise 4: Existence or location
+### Exercise 4: Choose *ai* or *ʻi ai*
 
-Put *leai* or *lē ʻi ai* into each gap so the sentence matches the English. Use
-*leai* when existence is denied, *lē ʻi ai* when a location is denied.
+Put *ai* or *ʻi ai* into each gap so the sentence matches the English. Use *ʻi ai*
+here for going to a place, bare *ai* for staying or doing at a place.
 
-1. *E ___ se taʻavale ʻi le nuʻu.* (There is no car in the village.)
-2. *ʻO le fale e ___ le teine.* (The girl is not in the house.)
-3. *E ___ se pusi ʻi le potu.* (There is no cat in the room.)
-4. *ʻO le nuʻu e ___ le tama.* (The boy is not in the village.)
-5. *ʻO le fale e ___ le aliʻi.* (The chief is not in the house.)
+1. *Sā alu le teine ___.* (The girl went there.)
+2. *Sā mālōlō ___ le tama.* (The boy rested there.)
+3. *Sā nofo ___ le aitu.* (The spirit lived there.)
+4. *Sā alu le tama ___.* (The boy went there.)
+5. *Sā fiafia ___ le teine.* (The girl was happy there.)
 
 ### Exercise 5: Match each word to its meaning
 
-1. *fono*
-2. *uafu*
-3. *tinā*
-4. *lumanaʻi*
-5. *taimi*
-6. *aso*
+1. *mālōlō*
+2. *tali*
+3. *pito*
+4. *leitio*
+5. *vasega*
 
-a. wharf
-b. future
-c. village meeting
-d. time
-e. mother
-f. day
+a. radio
+b. end
+c. rest
+d. class
+e. answer
 
 ---
 
@@ -256,36 +229,36 @@ f. day
 
 ### Exercise 1
 
-1. The girl was in the house.
-2. The mother was at the wharf.
-3. The girl is now in the house.
-4. I was in the village meeting.
-5. Where is the boy?
+1. The girl lived there.
+2. The boy rested there.
+3. The boy went there.
+4. In the village the girl lived. (Lit. "In the village the girl lived there."; both renderings are accepted.)
+5. The spirit lived there.
 
 ### Exercise 2
 
-1. *Sā ʻi le nuʻu le tama.*
-2. *Sā ʻi le fono le aliʻi.*
-3. *ʻUa ʻi le potu le pusi.*
-4. *ʻO fea e ʻi ai le tinā?*
-5. *ʻO le fale e ʻi ai le teine.*
+1. *Sā mālōlō ai le tama.*
+2. *Sā alu le teine ʻi ai.*
+3. *Sā nofo ai le teine.*
+4. *ʻI le vasega sā fiafia ai le teine.*
+5. *Sā nofo ai le aitu.*
 
 ### Exercise 3
 
-1. *ʻO fea e ʻi ai le teine?*
-2. *ʻO fea e ʻi ai le tama?*
-3. *ʻO fea e ʻi ai le tinā?*
-4. *ʻO fea e ʻi ai le aliʻi?*
-5. *ʻO fea e ʻi ai le pusi?*
+1. *Sā mālōlō ai le tama.*
+2. *Sā nofo ai le teine.*
+3. *Sā fiafia ai le tama.*
+4. *Sā mālōlō ai le teine.*
+5. *Sā fiafia ai le aitu.*
 
 ### Exercise 4
 
-1. *leai*
-2. *lē ʻi ai*
-3. *leai*
-4. *lē ʻi ai*
-5. *lē ʻi ai*
+1. *ʻi ai*
+2. *ai*
+3. *ai*
+4. *ʻi ai*
+5. *ai*
 
 ### Exercise 5
 
-1-c, 2-a, 3-e, 4-b, 5-d, 6-f.
+1-c, 2-e, 3-b, 4-a, 5-d.

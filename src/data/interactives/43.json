@@ -1,110 +1,175 @@
 {
-  "chapter": 43,
+  "chapter": 42,
   "items": [
     {
-      "id": "ch43-describing-clause",
+      "id": "ch42-belonging-forms",
+      "kind": "grid",
+      "anchor": "the-belonging-forms",
+      "title": "The owner keeps a belonging word",
+      "data": {
+        "cols": [
+          "*a*-form",
+          "*o*-form"
+        ],
+        "rowLabel": "Owner",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "I",
+            "cells": [
+              {
+                "sm": "aʻu"
+              },
+              {
+                "sm": "oʻu"
+              }
+            ]
+          },
+          {
+            "label": "He, she",
+            "cells": [
+              {
+                "sm": "ana"
+              },
+              {
+                "sm": "ona"
+              }
+            ]
+          },
+          {
+            "label": "We two, you and I",
+            "cells": [
+              {
+                "sm": "a tā"
+              },
+              {
+                "sm": "o tā"
+              }
+            ]
+          },
+          {
+            "label": "They two",
+            "cells": [
+              {
+                "sm": "a lā"
+              },
+              {
+                "sm": "o lā"
+              }
+            ]
+          },
+          {
+            "label": "We, but not you",
+            "cells": [
+              {
+                "sm": "a mātou"
+              },
+              {
+                "sm": "o mātou"
+              }
+            ]
+          },
+          {
+            "label": "We, all of us",
+            "cells": [
+              {
+                "sm": "a tātou"
+              },
+              {
+                "sm": "o tātou"
+              }
+            ]
+          },
+          {
+            "label": "You, all of you",
+            "cells": [
+              {
+                "sm": "a ʻoutou"
+              },
+              {
+                "sm": "o ʻoutou"
+              }
+            ]
+          },
+          {
+            "label": "They",
+            "cells": [
+              {
+                "sm": "a lātou"
+              },
+              {
+                "sm": "o lātou"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Every owner here has both types, and the belonging word is required in the belonging-sentence. This book does not teach a form for one person addressed."
+    },
+    {
+      "id": "ch42-predication-phrase",
       "kind": "contrast",
-      "anchor": "the-describing-clause",
-      "title": "Give the description a clause of its own",
+      "anchor": "the-belonging-word-stays-in",
+      "title": "The belonging-sentence must show the type",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Describing verb",
-            "sm": "le vai loloto",
-            "en": "the deep water",
-            "note": "The describing verb follows the noun directly."
+            "label": "Belonging-sentence",
+            "sm": "E a mātou le taʻavale.",
+            "en": "The car is ours.",
+            "note": "The owner stands after a tense particle and must carry the belonging word."
           },
           {
-            "label": "Describing clause",
-            "sm": "le vai e loloto tele",
-            "en": "the water that is very deep",
-            "note": "The particle *e* opens a whole describing clause. The word *tele* also adds very."
+            "label": "Naming phrase",
+            "sm": "ʻO le mātou taʻavale.",
+            "en": "Our car.",
+            "note": "Here the group owner before the naming word leaves the belonging word out."
           }
         ]
       },
-      "caption": "The particle changes the structure; the added *tele* changes the degree. The water pair shows both differences without changing the noun."
+      "caption": "The two printed forms put ownership in different slots. Only the belonging-sentence requires the type to be printed for every owner."
     },
     {
-      "id": "ch43-missing-spot",
-      "kind": "sort",
-      "anchor": "the-thing-it-was-done-with-and-the-thing-it-was-aimed-at",
-      "title": "An empty spot or a pointing-back word?",
+      "id": "ch42-whose-question",
+      "kind": "pick",
+      "anchor": "asking-whose",
+      "title": "Keep the type in the whose-question",
       "data": {
-        "bins": [
+        "question": "Which printed question asks this?",
+        "options": [
           {
-            "id": "empty",
-            "label": "The spot stays empty"
+            "id": "car",
+            "sm": "ʻO ai e ana le taʻavale?"
           },
           {
-            "id": "held",
-            "label": "A pointing-back word holds the spot"
+            "id": "house",
+            "sm": "ʻO ai e ona le fale?"
+          },
+          {
+            "id": "dog",
+            "sm": "ʻO ai e ana le maile?"
           }
         ],
-        "items": [
+        "prompts": [
           {
-            "sm": "ʻO le tama sā moe ʻi le fale.",
-            "en": "The boy who slept in the house.",
-            "bin": "empty",
-            "why": "The boy is the one who slept; no word inside the clause stands for him."
+            "en": "Whose is the car?",
+            "answer": "car",
+            "why": "The car is an *a*-word, so the question uses *ana*."
           },
           {
-            "sm": "le meaʻai ʻua maua e le teine",
-            "en": "the food the girl got",
-            "bin": "empty",
-            "why": "The food is the thing acted on, and its spot stays empty."
+            "en": "Whose is the house?",
+            "answer": "house",
+            "why": "The house is an *o*-word, so the question uses *ona*."
           },
           {
-            "sm": "ʻO le aso sā siva ai le teine.",
-            "en": "The day the girl danced.",
-            "bin": "held",
-            "why": "The pointing-back word *ai* holds the time’s spot."
-          },
-          {
-            "sm": "le fue na taufi aʻi le umu",
-            "en": "the liana the food in the oven was covered with",
-            "bin": "held",
-            "why": "The dedicated shape for what the action was done with is *aʻi*; *ai* is heard in that job too."
-          },
-          {
-            "sm": "ʻO le mea sā alu atu le teine ʻi ai.",
-            "en": "The place where the girl went to.",
-            "bin": "held",
-            "why": "The pair *ʻi ai* is the usual shape for the place a movement is aimed at."
+            "en": "Whose is the dog?",
+            "answer": "dog",
+            "why": "The dog takes the *a*-form *ana* in the printed question."
           }
         ]
       },
-      "intro": "Find how the clause shows the job of the person or thing named in front."
-    },
-    {
-      "id": "ch43-one-who",
-      "kind": "contrast",
-      "anchor": "the-one-who-word-e",
-      "title": "A person described without a noun",
-      "data": {
-        "mode": "steps",
-        "states": [
-          {
-            "label": "One particular person",
-            "sm": "ʻO lē sā mauʻoloa.",
-            "en": "The one who was rich.",
-            "note": "The one-who word joins the specific article as *lē*. This example is in the past."
-          },
-          {
-            "label": "More than one",
-            "sm": "ʻO ē e mauʻoloa.",
-            "en": "Those who are rich.",
-            "note": "The one-who word stands on its own. This example uses the general particle."
-          },
-          {
-            "label": "The two words run together",
-            "sm": "e mauʻoloa",
-            "en": "the rich",
-            "note": "With the general particle, one *e* can do both jobs."
-          }
-        ]
-      },
-      "caption": "No noun names the people. The one-who word stands in that position and the clause describes them."
+      "intro": "Choose the whole question, keeping both the thing asked about and its belonging type."
     }
   ]
 }

@@ -1,92 +1,158 @@
 {
-  "chapter": 33,
+  "chapter": 32,
   "items": [
     {
-      "id": "ch33-report-time",
+      "id": "ch32-verb-shapes",
+      "kind": "grid",
+      "anchor": "the-two-shapes-of-the-verb",
+      "title": "One short form, two long choices",
+      "data": {
+        "cols": [
+          "Short",
+          "With *=a*",
+          "With *=ina*"
+        ],
+        "rowLabel": "Verb meaning",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "eat",
+            "cells": [
+              {
+                "sm": "ʻai"
+              },
+              {
+                "sm": "ʻaia"
+              },
+              {
+                "sm": "ʻai=ina"
+              }
+            ]
+          },
+          {
+            "label": "hit, beat",
+            "cells": [
+              {
+                "sm": "fasi"
+              },
+              {
+                "sm": "fasi=a"
+              },
+              {
+                "sm": "fasi=ina"
+              }
+            ]
+          },
+          {
+            "label": "count, read",
+            "cells": [
+              {
+                "sm": "faitau"
+              },
+              {
+                "sm": "faitau=a"
+              },
+              {
+                "sm": "faitau=ina"
+              }
+            ]
+          },
+          {
+            "label": "build",
+            "cells": [
+              {
+                "sm": "fau"
+              },
+              {
+                "sm": "fau=a"
+              },
+              {
+                "sm": "fau=ina"
+              }
+            ]
+          },
+          {
+            "label": "sell, buy",
+            "cells": [
+              {
+                "sm": "faʻatau"
+              },
+              {
+                "sm": "faʻatau=a"
+              },
+              {
+                "sm": "faʻatau=ina"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Both long forms are printed for every verb here. The equals sign keeps the join visible in this book; ordinary writing joins the parts without it."
+    },
+    {
+      "id": "ch32-ending-position",
       "kind": "contrast",
-      "anchor": "reporting-what-someone-knew",
-      "title": "Move the report, keep its clause",
+      "anchor": "the-ending-on-a-direction-word",
+      "title": "The ending has two possible homes",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Knowing now",
-            "sm": "ʻUa iloa e le tama ʻua sau le teine.",
-            "en": "The boy knows that the girl has come.",
-            "note": "The coming is already done at the time of the knowing."
+            "label": "On the verb",
+            "sm": "ʻO ai na faʻatau=a mai le tusi?",
+            "en": "Who bought the book?",
+            "note": "The long-form ending is on the verb."
           },
           {
-            "label": "Knowing then",
-            "sm": "Na iloa e le tama ʻua sau le teine.",
-            "en": "The boy knew that the girl had come.",
-            "note": "The report is in the past. The coming was already done then, and its Sāmoan particle has not moved."
+            "label": "On the direction word",
+            "sm": "ʻO ai na faʻatau mai=a le tusi?",
+            "en": "Who bought the book?",
+            "note": "The ending sits on the following direction word instead. Both positions are accepted."
           }
         ]
       },
-      "caption": "The first tense particle changes. The reported clause stays word for word the same, while English changes has come to had come."
+      "caption": "The ending moves; the meaning stays the same. Both printed forms ask the same question."
     },
     {
-      "id": "ch33-ongoing-report",
-      "kind": "contrast",
-      "anchor": "the-tense-particle-inside-the-report",
-      "title": "Staying at the time of the report",
-      "data": {
-        "mode": "toggle",
-        "states": [
-          {
-            "label": "Report at now",
-            "sm": "ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.",
-            "en": "The boy knows that the girl is staying in the village."
-          },
-          {
-            "label": "Report in the past",
-            "sm": "Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.",
-            "en": "The boy knew that the girl was staying in the village."
-          }
-        ]
-      },
-      "caption": "The happening-now particle inside the report places the staying at the same time as the knowing, whether that knowing is now or in the past."
-    },
-    {
-      "id": "ch33-kind-of-report",
+      "id": "ch32-command-rules",
       "kind": "pick",
-      "anchor": "asking-in-a-report-pe",
-      "title": "What is being passed on?",
+      "anchor": "when-the-choice-is-yours",
+      "title": "Which rule settles the shape?",
       "data": {
-        "question": "What kind of report is this?",
+        "question": "Which statement applies here?",
         "options": [
           {
-            "id": "knowledge",
-            "label": "What someone knew"
+            "id": "short",
+            "label": "A command requires the short form"
           },
           {
-            "id": "command",
-            "label": "A command"
+            "id": "long",
+            "label": "Forbidding requires the long form"
           },
           {
-            "id": "question",
-            "label": "A question"
+            "id": "open",
+            "label": "The choice is open outside the command rules"
           }
         ],
         "prompts": [
           {
-            "sm": "Na iloa e le tama ʻua sasae le ʻie.",
-            "answer": "knowledge",
-            "why": "A knowing word is followed by an ordinary clause with its own tense particle."
+            "sm": "Faitau.",
+            "answer": "short",
+            "why": "A command to do something takes the short form."
           },
           {
-            "sm": "ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.",
-            "answer": "command",
-            "why": "The mood particle *ʻia* opens the reported command."
+            "sm": "ʻAua le tatala=ina le pusa lenā.",
+            "answer": "long",
+            "why": "Forbidding with *ʻaua le* requires the long form."
           },
           {
-            "sm": "Na fai mai le teine pē nofo le tama ʻi le nuʻu.",
-            "answer": "question",
-            "why": "*Pē* opens the reported question after the say-verb."
+            "sm": "Sā faitau e le teine le vāega.",
+            "answer": "open",
+            "why": "This plain report uses the short form as the default. Outside the two command positions, the chapter gives tendencies rather than a fixed rule."
           }
         ]
       },
-      "intro": "Read how the reported part begins and choose what is being reported."
+      "intro": "Read the printed sentence and decide whether a command rule fixes the verb form."
     }
   ]
 }

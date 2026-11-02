@@ -1,211 +1,186 @@
-# Chapter 37: Narrative Chains
+# Chapter 36: Conjunctions
 
-This chapter adds two of the ways Sāmoan sets one event after another, the
-then-construction built out of *ona* and *lea* and the run of clauses that carry
-no tense particle of their own, and shows you how to tell a story in the order
-its events happened.
+This chapter adds the words that join two whole clauses, *ma* (and), *ʻae* (but)
+and *ʻaʻo* (while), together with the rule that settles the tense particle of the
+second clause, and shows you how to build one sentence out of two.
 
 ---
 
-## The Then-Construction *Ona* and *Lea*
+## Joining Two Clauses with *Ma*
 
 ::: {.examples}
-*Ona alu lea ʻo le tama.* Then the boy went. (Lit. "Then go that, the boy.")
+*Sā timu ma sā lolo le vai.* It rained and the water overflowed.
 :::
 
-Two words working as a pair to mark the next event in a sequence are called
-**the then-construction**, and the Sāmoan pair is *ona* and *lea*. *Ona* stands
-at the head of the clause, the verb phrase follows it, *lea* closes the verb
-phrase off, and the rest of the clause comes after that. A clause built this way
-always marks a sequence: this event, then that one. In a story the sequence is
-told in the past, and that is the case this chapter works with.
+The with-word *ma* stood between two doers in an earlier chapter, where it joined
+them into one subject. Here it does a larger job. Put *ma* between two clauses,
+each with a verb of its own, and it joins them into one sentence. Joining clauses
+this way usually sets one thing after another in time: the rain came first, the
+overflowing after it.
 
-The pattern has four parts in a fixed order: *ona*, then the verb phrase, then
-*lea*, then the rest of the clause.
+Each half is a clause of the kind you have been building since the start of the
+book. *Sā timu* is a whole sentence on its own, and so is *sā lolo le vai*. The
+pattern has three parts in a fixed order: the first clause, then *ma*, then the
+second clause.
 
-| Part | In *Ona alu lea ʻo le tama* | What it does |
-|---|---|---|
-| *ona* | *Ona* | opens the construction |
-| the verb phrase | *alu* | names the event |
-| *lea* | *lea* | closes the verb phrase off |
-| the rest of the clause | *ʻo le tama* | names who or what |
-
-The word in front of what the clause names is the presenting particle *ʻo*.
-After *lea* it is there often, and what the clause names can also stand in its
-plain form with nothing in front of it.
+The two clauses do not have to be about the same person or thing, and *ma* joins
+them all the same. In the sentence below the first clause is about the weather
+and names nobody, while the second names the girl.
 
 ::: {.examples}
-*Ona tali atu lea ʻo le teine.* Then the girl answered.
+*Sā timu ma sā nofo le teine ʻi le ana.* It rained and the girl stayed in the cave.
 :::
 
 | Sāmoan | English |
 |---|---|
-| *Ona alu lea ʻo le tama.* | Then the boy went. |
-| *Ona tali atu lea ʻo le teine.* | Then the girl answered. |
-| *Ona oso lea ʻo le saʻai ʻi le sami.* | Then the ogre jumped into the sea. |
-| *Ona lilo atu lea ʻo le teine ʻi le toga lālā.* | Then the girl hid in the cluster of branches. |
-| *Ona lolo lea ʻo le vaitafe.* | Then the river overflowed. |
-
-*lilo* means "hide", *lālā* means "branch", *sami* means "sea", *saʻai* means "ogre", and *vaitafe* means "river".
-
-A clause of this kind reports the event that comes next in the sequence, so
-there is always something for it to come after. A story can be built out of these clauses one after
-another, and any one of them can stand as a sentence of its own, but a text
-never opens with one.
-
-::: {.examples}
-*ʻUa lilo atu ʻi le toga lālā le teine, ona oso lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
-:::
-
-The first clause carries the change particle *ʻua* and reports the hiding. The
-then-construction follows it and reports what happened after that. Take the
-first clause away and nothing is left for the second one to follow.
-
-> *Note:* The word *toga* was learned earlier as the name of a direction. In
-> *le toga lālā* it carries a second meaning, a cluster, and *lālā*, branch,
-> follows it and says what the cluster is of.
+| *ʻUa ala le tama ma ʻua usu le teine.* | The boy has woken and the girl has stood up. |
+| *Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.* | The bus arrived and the girl went to the school. |
+| *ʻUa ʻou nofo ma ʻua ʻou māfaufau.* | I sat down and I thought. |
+| *Sā timu ma sā lolo le vai.* | It rained and the water overflowed. |
 
 ---
 
-## Adding *Loa* and the Pointing-Back Word
+## Matching the Tense Particle
 
 ::: {.examples}
-*Ona alu lea ʻo le tama.* Then the boy went.
+*Sā timu ma sā lolo le vai.* It rained and the water overflowed.
 
-*Ona alu loa lea ʻo le tama.* Then the boy went.
+*ʻUa ala le tama ma ʻua usu le teine.* The boy has woken and the girl has stood up.
 :::
 
-Which word was added to the second sentence, and what did the English do?
+Compare them. Which word opens each half of each sentence?
 
-The added word is *loa*, and the English did nothing at all. A word that stands
-after the verb and marks its event as the one following on is called **the
-then-word**, and the Sāmoan one is *loa*. It carries the succession by itself,
-so putting it inside a construction that already carries the succession changes
-little if anything. The then-word on its own, the construction without it, and
-the construction with it inside all come out the same way in English.
+The same one, twice over. The first sentence runs *sā* and then *sā*, the second
+*ʻua* and then *ʻua*. That is the rule for the clause after *ma*: when it carries
+a tense particle of its own, the particle is the one already standing in front of
+the first clause. You do not choose it a second time, and a sentence that changes
+particle across *ma* is not the pattern this chapter teaches.
 
-The pointing-back word *ai* can stand in the same verb phrase, after the verb.
-You met it reaching back to a place or a time. Inside the then-construction it
-does something wider: it does not usually reach back to one word or one phrase,
-but to the whole of what has been said before it.
+The clause after *ma* can also go without a tense particle altogether. Nothing
+replaces it, and the empty slot is a form rather than a gap.
 
 ::: {.examples}
-*ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
+*ʻUa ʻou nofo ma ʻou māfaufau.* I sat down and thought.
 :::
 
-*Ai* here is usually read as pointing not at the branches or at the girl but at
-the hiding, and at everything the story has said up to that moment.
+The second clause here is *ʻou māfaufau*, a preverbal pronoun and a verb with an
+empty slot in front of them. Set it beside the version that fills the slot and
+you have the two shapes side by side.
 
 | Sāmoan | English |
 |---|---|
-| *Ona alu lea ʻo le tama.* | Then the boy went. |
-| *Ona alu loa lea ʻo le tama.* | Then the boy went. |
-| *ʻUa lilo atu ʻi le toga lālā le teine, ona oso lea ʻi lalo le tama.* | The girl hid in the cluster of branches and then the boy jumped down. |
-| *ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.* | The girl hid in the cluster of branches and then the boy jumped down. |
+| *ʻUa ʻou nofo ma ʻua ʻou māfaufau.* | I sat down and I thought. |
+| *ʻUa ʻou nofo ma ʻou māfaufau.* | I sat down and thought. |
+| *Sā timu ma sā lolo le vai.* | It rained and the water overflowed. |
+| *Sā timu ma lolo le vai.* | It rained and the water overflowed. |
 
-> **Preview:** You have now met *ona* doing two jobs. In an earlier chapter it
-> stood in front of a verb with no tense particle and meant "that". Here it opens
-> the then-construction and is answered by *lea*, which, when it is there, marks
-> this *ona* as the then-construction. There is a third *ona*, meaning "because",
-> and the test that tells the "that" *ona* from the "because" *ona* is taught in
-> Chapter 38.
+Both shapes are good Sāmoan, and as far as the grammar can tell the choice
+between them is one of style rather than of meaning.
 
----
-
-## The Shorter Shapes of the Then-Construction
-
-::: {.examples}
-*Ona alu le tama.* Then the boy went.
-
-*Alu lea ʻo le tama.* Then the boy went.
-:::
-
-Spoken Sāmoan also runs the construction short, and it can drop either of the
-two words. Drop *lea* and *ona* carries the succession on its own; drop *ona*
-and *lea* carries it. What the clause names changes shape with them: with *lea*
-gone it stands in its plain form, and after *lea* it usually takes the
-presenting particle *ʻo*, whether *ona* is there or not.
-
-Modern writing and the Sāmoan of the Bible keep the full shape. There the
-construction is always *ona*, then the verb phrase, then *lea*, then the rest of
-the clause.
-
-Every sentence in the table below says "Then the boy went."
-
-| Shape | Sāmoan |
-|---|---|
-| the full shape | *Ona alu lea ʻo le tama.* |
-| the full shape with the then-word | *Ona alu loa lea ʻo le tama.* |
-| without *lea* | *Ona alu le tama.* |
-| without *ona* | *Alu lea ʻo le tama.* |
-| without *ona*, with the then-word | *Alu loa lea ʻo le tama.* |
-
-> *Note:* The then-construction is typical of storytelling. It is extremely
-> frequent in spoken narrative, usually somewhat more restricted in modern
-> writing, and virtually never heard in a formal speech.
+> *Note:* The matching does not reach every clause after *ma*. When the word
+> straight after *ma* is a pointing phrase such as *ʻo lea* (then), the
+> presenting particle with the pointing word *lea*, the clause behind it takes
+> whatever tense particle it needs, and no matching applies.
 
 ---
 
-## Clauses Under One Tense Particle
+## Contrasting Two Clauses with *ʻAe*
 
 ::: {.examples}
-*Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* We then rested, and played in the house with the tin roof. (Lit. "We then rested, we played in the house-tin.")
+*ʻUa ala le tama ʻae ʻoloʻo moe le teine.* The boy has woken but the girl is sleeping.
 :::
 
-*tāʻaʻalo* means "play" and *ʻapa* means "tin".
+A word that sets one clause against another is called **the but-word**, and the
+Sāmoan one is *ʻae*. It stands at the head of the second clause and joins it to
+the first, and the two clauses are then heard as a contrast, one set against the
+other.
 
-The second clause carries no tense particle. Nothing stands in the slot in front
-of *mātou tāʻaʻalo*, and nothing needs to: the *na* at the head of the first clause
-reaches over the whole run, so the second clause is read in the past the first
-one set. Leaving that slot empty is what ties the two together, and it says the
-second event followed straight on from the first, or happened at the same time.
-
-The pattern has one tense particle at the front and a run of clauses after it,
-with the slot in front of each of them left empty.
-
-> *Note:* The equals sign in *fale=ʻapa* is not the one you met on a long-form
-> verb. Here it joins two nouns into a single compound noun, *fale* naming the
-> house and *ʻapa* saying what its roof is made of.
+The pattern has three parts in a fixed order: the first clause, then *ʻae*, then
+the second clause. That order never turns around. *ʻAe* opens the second of the
+two joined clauses and never the first.
 
 ::: {.examples}
-*Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* My parents then rested, then I went to the village, and prepared the journey there.
+*Sā ʻou nofo ʻae sā alu le teine.* I stayed but the girl went.
 :::
-
-*sāuni* means "prepare" and *malaga* means "journey".
-
-Three clauses, one tense particle. *Na* stands in front of the first and in front
-of neither of the others. The then-word *loa* marks the succession twice over,
-and the pointing-back word *ai* in the last clause reaches back to the village.
-
-A run like this does not have to stop where the full stop does. The particle at
-its head can reach on into the sentence that follows.
-
-::: {.examples}
-*Sā ʻou alu loa ʻi fafo.* I then went outside.
-
-*Fufulu oʻu mata.* I washed my face. (Lit. "Wash my eyes.")
-:::
-
-The second sentence carries no tense particle and no word for who did the
-washing. Both come from the sentence in front of it: *sā* sets the time, and
-*ʻou* says who.
-
-An earlier chapter showed the clause after the with-word *ma* either repeating
-the tense particle of the first clause or carrying none at all. A chain is that
-second option run out to its full length, with no joining word between the
-clauses.
 
 | Sāmoan | English |
 |---|---|
-| *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* | We then rested, and played in the house with the tin roof. |
-| *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* | My parents then rested, then I went to the village, and prepared the journey there. |
-| *Sā ʻou alu loa ʻi fafo, ʻou fufulu oʻu mata.* | I then went outside and washed my face. (Lit. "I wash my eyes.") |
-| *Na alu le tama, oso le teine ʻi le sami.* | The boy went, and the girl jumped into the sea. |
-| *Sā ʻou alu loa ʻi fafo. Fufulu oʻu mata.* | I then went outside. I washed my face. (Lit. "Wash my eyes.") |
+| *ʻUa ala le tama ʻae ʻoloʻo moe le teine.* | The boy has woken but the girl is sleeping. |
+| *ʻUa ala le teine ʻae ʻoloʻo moe le tama.* | The girl has woken but the boy is sleeping. |
+| *Sā ʻou nofo ʻae sā alu le teine.* | I stayed but the girl went. |
+| *Sā nofo le teine ʻi le ana ʻae sā alu le tama.* | The girl stayed in the cave but the boy went. |
 
-> **Preview:** Sāmoan can open a sentence by putting a whole when-clause at the
-> front of everything else, setting the background the events run against. That
-> opening is taught in Chapter 44.
+When the clause after *ʻae* opens on its verb phrase, as every sentence in this
+chapter does, it takes any tense particle you have learned save one, since the
+general particle *e* does not appear there. *ʻAe* and *e* run together in speech
+and in print, and what you see is *ʻae* standing alone.
+
+---
+
+## Holding Two Events Together with *ʻAʻo*
+
+::: {.examples}
+*ʻAʻo ʻou alu atu ʻi le āʻoga, sā ʻou mānatunatu ʻi le teine.* While I was going to the school, I was thinking of the girl.
+:::
+
+In the sentences of this chapter *ʻaʻo* is two words run together. The first is
+*ʻa*, which is close to the but-word in meaning and takes a different position,
+and the second is *ʻo*, the short form of the happening-now particle. Together they hold two events side by
+side in time, and the English that fits is very often "while" or "whereas".
+
+That position is where the two contrast words differ. *ʻAe* stands at the head
+of the second clause and nowhere else. *ʻAʻo* stands at the
+head of either clause, so a sentence may open on it or reach it halfway through.
+
+::: {.examples}
+*Na usu le tama ʻaʻo moe le teine.* The boy stood up while the girl slept.
+:::
+
+| Sāmoan | English |
+|---|---|
+| *ʻAʻo ʻou alu atu ʻi le āʻoga, sā ʻou mānatunatu ʻi le teine.* | While I was going to the school, I was thinking of the girl. |
+| *Na usu le tama ʻaʻo moe le teine.* | The boy stood up while the girl slept. |
+| *Na usu le teine ʻaʻo moe le tama.* | The girl stood up while the boy slept. |
+
+---
+
+## Saying What Came Before
+
+::: {.examples}
+*Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.* The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.")
+
+*Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.* The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.")
+:::
+
+Put the not-yet word *leʻi* straight after *ʻaʻo*, or straight after *ʻae* when
+no preverbal pronoun comes between them, and the sentence says that the first thing happened before the second. The literal
+lines show how it is built: the second clause reports what had not happened yet,
+and English gathers the two clauses into a single word, "before".
+
+The pattern has four parts in a fixed order: the first clause, then *ʻaʻo* or
+*ʻae*, then *leʻi*, then the clause naming what had not yet happened, with the one addition set
+out below for a clause that has a preverbal pronoun. Either combination does the
+work, and the two mean the same thing.
+
+| Sāmoan | English |
+|---|---|
+| *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.* | The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.") |
+| *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.* | The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.") |
+| *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.* | The bus arrived before seven o'clock. (Lit. "The bus arrived but it was not yet striking the seven.") |
+
+One shape of the general particle turns up inside this pattern. When a preverbal
+pronoun stands between *ʻae* and *leʻi*, the general particle takes the *te*
+shape it always takes after a preverbal pronoun, and it sits between the pronoun
+and *leʻi*.
+
+::: {.examples}
+*Na sele laʻu ʻava ʻae ʻou te leʻi tuʻu=a loʻu fale.* I shaved before I left the house. (Lit. "My beard was shaved but I had not yet left my house.")
+:::
+
+> **Preview:** A tense particle left out after *ma* is the first step toward
+> something Sāmoan does at length: a run of clauses that all sit under the one
+> particle standing at the front of the first. Those chains are taught in
+> Chapter 37.
 
 ---
 
@@ -215,25 +190,27 @@ clauses.
 
 | Word | What it does |
 |---|---|
-| *ona* | the opening word of the then-construction: it stands at the head of the clause |
-| *lea* | the closing word of the then-construction: it stands after the verb phrase |
-| *loa* | the then-word: it stands after the verb and marks its event as the one following on |
-| *ai* | the pointing-back word, met earlier: inside the then-construction it usually reaches back to everything said before it |
+| *ʻae* | the but-word: it opens the second clause and sets it against the first |
+| *ʻa* | the partner of the but-word, which combines with the happening-now particle |
+| *ʻaʻo* | in this chapter, *ʻa* and the short *ʻo* together: while, whereas; it opens either clause |
+| *ʻae leʻi* | the but-word with the not-yet word: before |
+| *ma* | the with-word, met earlier: between two clauses it joins them and is read "and" |
+| *leʻi* | the not-yet word, met earlier: after *ʻaʻo* or *ʻae* it builds the before-pattern |
+| *te* | the general particle in its after-a-pronoun shape, met earlier: it stands between a preverbal pronoun and *leʻi* |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *lilo* | hide, be hidden |
-| *sāuni* | prepare, get ready |
-| *tāʻaʻalo* | play (said of more than one) |
-| *ʻapa* | tin (in *le fale=ʻapa*, a house with a tin roof) |
-| *ʻeleʻele* | earth |
-| *lālā* | branch |
-| *malaga* | journey, travel party |
-| *sami* | sea |
-| *saʻai* | ogre |
-| *vaitafe* | river |
+| *ala* | be awake, wake up |
+| *lolo* | overflow |
+| *māfaufau* | think, consider |
+| *mānatunatu* | reflect, think about |
+| *sele* | shave, cut |
+| *taunuʻu* | arrive, reach |
+| *tuʻu* | leave, put, place |
+| *usu* | rise, stand up |
+| *ana* | cave |
 
 ---
 
@@ -241,67 +218,63 @@ clauses.
 
 ### Exercise 1: Translate into English
 
-1. *Ona alu lea ʻo le tama.*
-2. *Ona tali atu lea ʻo le teine.*
-3. *Ona oso lea ʻo le saʻai ʻi le sami.*
-4. *ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.*
-5. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
-6. *Ona lolo lea ʻo le vaitafe.*
+1. *Sā timu ma sā lolo le vai.*
+2. *ʻUa ala le tama ma ʻua usu le teine.*
+3. *ʻUa ʻou nofo ma ʻou māfaufau.*
+4. *Sā ʻou nofo ʻae sā alu le teine.*
+5. *Na usu le tama ʻaʻo moe le teine.*
+6. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.*
 
-### Exercise 2: Fill the gap
+### Exercise 2: Fill the tense particle
 
-Put *ona*, *lea* or *loa* into the gap so the sentence has the shape named after
-it.
+Put the particle the matching rule calls for into the gap.
 
-1. *___ alu lea ʻo le tama.* (the full shape)
-2. *Ona alu ___ ʻo le tama.* (the full shape)
-3. *Ona alu ___ lea ʻo le tama.* (the full shape, with an extra word after the verb)
-4. *Alu ___ lea ʻo le tama.* (without *ona*, with an extra word after the verb)
-5. *___ oso lea ʻo le saʻai ʻi le sami.* (the full shape)
+1. *Sā timu ma ___ lolo le vai.*
+2. *ʻUa ala le tama ma ___ usu le teine.*
+3. *ʻUa ʻou nofo ma ___ ʻou māfaufau.*
+4. *Na taunuʻu mai le pasi ma ___ alu le teine ʻi le āʻoga.*
+5. *Sā timu ma ___ nofo le teine ʻi le ana.*
 
-### Exercise 3: Write the shorter shape
+### Exercise 3: Choose the joining word
 
-Rewrite each sentence without *lea*. Remember what happens to the word in front
-of what the clause names.
+Put *ma*, *ʻae* or *ʻaʻo* into the gap so the English matches.
 
-1. *Ona alu lea ʻo le tama.*
-2. *Ona tali atu lea ʻo le teine.*
-3. *Ona lolo lea ʻo le vaitafe.*
-4. *Ona lolo lea ʻo le ʻeleʻele.*
-5. *Ona oso lea ʻo le saʻai ʻi le sami.*
+1. *ʻUa ala le tama ___ ʻoloʻo moe le teine.* (The boy has woken but the girl is sleeping.)
+2. *Sā timu ___ sā nofo le teine ʻi le ana.* (It rained and the girl stayed in the cave.)
+3. *Na usu le tama ___ moe le teine.* (The boy stood up while the girl slept.)
+4. *Sā nofo le teine ʻi le ana ___ sā alu le tama.* (The girl stayed in the cave but the boy went.)
+5. *ʻUa ala le teine ___ ʻoloʻo moe le tama.* (The girl has woken but the boy is sleeping.)
 
-### Exercise 4: Join the pair into one chain
+### Exercise 4: Say what came before
 
-Write the two sentences as one, keeping the tense particle of the first and
-taking it out of the second.
+Rewrite each sentence with the other before-combination, so that *ʻaʻo leʻi*
+becomes *ʻae leʻi* and *ʻae leʻi* becomes *ʻaʻo leʻi*.
 
-1. *Na mātou mālōlō loa.* and *Na mātou tāʻaʻalo ʻi le fale=ʻapa.*
-2. *Na mālōlō loa oʻu mātua.* and *Na ʻou alu loa ʻi le nuʻu.*
-3. *Sā ʻou alu loa ʻi fafo.* and *Sā ʻou fufulu oʻu mata.*
-4. *Na alu le tama.* and *Na oso le teine ʻi le sami.*
-5. *Sā lilo le teine.* and *Sā alu le tama ʻi le nuʻu.*
+1. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.*
+2. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.*
+3. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.*
+4. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le fitu.*
+5. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le valu.*
 
 ### Exercise 5: Translate into Sāmoan
 
-1. Then the boy went. (the full shape)
-2. Then the girl answered. (the full shape)
-3. Then the ogre jumped into the sea. (the full shape)
-4. Then the river overflowed. (the full shape)
-5. Then the girl hid in the cluster of branches. (the full shape)
-6. We then rested, and played in the house with the tin roof.
+1. It rained and the water overflowed, with the tense particle repeated after *ma*.
+2. The girl has woken but the boy is sleeping.
+3. The girl stood up while the boy slept.
+4. The bus arrived before seven o'clock, using the *ʻaʻo* combination.
+5. I sat down and I thought.
+6. The bus arrived and the girl went to the school, with the tense particle repeated after *ma*.
 
 ### Exercise 6: Give the English
 
-1. *lilo*
-2. *sāuni*
-3. *tāʻaʻalo*
-4. *ʻapa*
-5. *ʻeleʻele*
-6. *lālā*
-7. *malaga*
-8. *sami*
-9. *saʻai*
-10. *vaitafe*
+1. *ala*
+2. *lolo*
+3. *taunuʻu*
+4. *usu*
+5. *ana*
+6. *māfaufau*
+7. *sele*
+8. *tuʻu*
 
 ---
 
@@ -309,48 +282,47 @@ taking it out of the second.
 
 ### Exercise 1
 
-1. Then the boy went.
-2. Then the girl answered.
-3. Then the ogre jumped into the sea.
-4. The girl hid in the cluster of branches and then the boy jumped down.
-5. We then rested, and played in the house with the tin roof.
-6. Then the river overflowed.
+1. It rained and the water overflowed.
+2. The boy has woken and the girl has stood up.
+3. I sat down and thought.
+4. I stayed but the girl went.
+5. The boy stood up while the girl slept.
+6. The bus arrived before six o'clock.
 
 ### Exercise 2
 
-1. *Ona*
-2. *lea*
-3. *loa*
-4. *loa*
-5. *Ona*
+1. *sā*
+2. *ʻua*
+3. *ʻua*
+4. *na*
+5. *sā*
 
 ### Exercise 3
 
-1. *Ona alu le tama.*
-2. *Ona tali atu le teine.*
-3. *Ona lolo le vaitafe.*
-4. *Ona lolo le ʻeleʻele.*
-5. *Ona oso le saʻai ʻi le sami.*
+1. *ʻae*
+2. *ma*
+3. *ʻaʻo*
+4. *ʻae*
+5. *ʻae*
 
 ### Exercise 4
 
-1. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
-2. *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu.*
-3. *Sā ʻou alu loa ʻi fafo, ʻou fufulu oʻu mata.*
-4. *Na alu le tama, oso le teine ʻi le sami.*
-5. *Sā lilo le teine, alu le tama ʻi le nuʻu.*
+1. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.*
+2. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.*
+3. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le fitu.*
+4. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.*
+5. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le valu.*
 
 ### Exercise 5
 
-1. *Ona alu lea ʻo le tama.*
-2. *Ona tali atu lea ʻo le teine.*
-3. *Ona oso lea ʻo le saʻai ʻi le sami.*
-4. *Ona lolo lea ʻo le vaitafe.*
-5. *Ona lilo atu lea ʻo le teine ʻi le toga lālā.*
-6. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
+1. *Sā timu ma sā lolo le vai.*
+2. *ʻUa ala le teine ʻae ʻoloʻo moe le tama.*
+3. *Na usu le teine ʻaʻo moe le tama.*
+4. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.*
+5. *ʻUa ʻou nofo ma ʻua ʻou māfaufau.*
+6. *Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.*
 
 ### Exercise 6
 
-1. hide, be hidden · 2. prepare, get ready · 3. play (said of more than one) ·
-4. tin · 5. earth ·
-6. branch · 7. journey, travel party · 8. sea · 9. ogre · 10. river
+1. be awake, wake up · 2. overflow · 3. arrive, reach · 4. rise, stand up ·
+5. cave · 6. think, consider · 7. shave, cut · 8. leave, put, place

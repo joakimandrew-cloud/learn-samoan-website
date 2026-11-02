@@ -1,225 +1,196 @@
-# Chapter 22: Numbers, Prices, and Time of Day
+# Chapter 21: Question Words
 
-This chapter teaches the counting construction: a Sāmoan number is a kind of
-verb, so the number of particular things is set after the noun with the general
-particle *e* (*tama e tolu*, the three boys), and the same shape tells the clock
-hour. It also adds the way to count people, to state a price, and to put things
-in order.
-
----
-
-## Counting Things
-
-You met the general particle *e* earlier in this book as the word for what holds
-in general, a quality or a habit: *E mālosi le tama*, the boy is strong. A
-number works the same way. Read these two sentences aloud:
-
-::: {.examples}
-*E mālosi le tama.* The boy is strong.
-
-*E tolu tama.* There are three boys.
-:::
-
-Compare them. Where does the number *tolu* stand?
-
-It stands exactly where *mālosi* stands, in the place a verb takes. A Sāmoan
-number is a kind of verb, and like the quality verb it takes the general
-particle *e* in front of it. *E tolu tama* says the boys are three, the way *E
-mālosi le tama* says the boy is strong. This is what makes counting fall into
-place: you already know the machine, and the number rides it.
-
-Here are the numbers from one to ten. Five, *lima*, is the word you already know
-for "hand".
-
-| Sāmoan | English |
-|---|---|
-| *tasi* | one |
-| *lua* | two |
-| *tolu* | three |
-| *fā* | four |
-| *lima* | five |
-| *ono* | six |
-| *fitu* | seven |
-| *valu* | eight |
-| *iva* | nine |
-| *sefulu* | ten |
-
-### Naming a Number of Things
-
-To point to a particular set of things and say how many, put the number after
-the noun with *e* in front of it. *Tama e tolu* is "the three boys", built as
-"boys that are three": the piece *e tolu* is a number acting as a verb, set in
-behind the noun to describe it.
-
-| Sāmoan | English |
-|---|---|
-| *ipu e lua* | the two cups |
-| *tama e tolu* | the three boys |
-| *teine e fā* | the four girls |
-| *tusi e lima* | the five books |
-| *fale e ono* | the six houses |
-
-The noun keeps its plain shape and the number does the counting. Notice that the
-noun carries no article: a particular plural drops *le*, exactly as it did when
-you first met plurals earlier in this book, so *tama e tolu* is "the three boys",
-not "three of some boys".
-
-To ask how many, use *fia*, the how-many word promised earlier in this book. It
-counts like a number, taking the general particle *e*:
-
-::: {.examples}
-*E fia aso?* How many days?
-:::
-
-### Amounts and Buying
-
-When you count a thing by the container or measure it comes in, the number and
-the measure word sit together in front, after *le*: *le lua ipu* is "two cups" as
-an amount.
-Add the thing measured and you can ask for an amount at a shop or a table:
-
-::: {.examples}
-*ʻAumai le lua ipu vai.* Bring two cups of water.
-:::
-
-Two more shapes count the same things from a different angle. When the thing is
-not a particular one, "any two", the number takes the non-specific article *se*
-and follows the noun marked with *ni*:
-
-::: {.examples}
-*ni ipu se lua*. any two cups
-:::
-
-And when you count a span as a whole rather than one by one, the number stands
-first with the belonging word *o*: *le tolu o aso* is "the three days", counted
-as one stretch of time.
-
-::: {.examples}
-*le tolu o aso*. the three days, as one stretch
-:::
-
-The span can also be said as complete: *ʻātoa* (complete) is followed by the whole
-count.
-
-::: {.examples}
-*Na ʻātoa lelei le tolu o aso.* The three days were fully complete. (Lit. "The three of the days were well complete.")
-:::
-
-A price uses the same number. A number and a money unit, *tālā* (dollar) or
-*sene* (cent), act together as the verb of the sentence, with no thing counted
-after them:
-
-::: {.examples}
-*E lua tālā.* It is two dollars.
-:::
-
-This chapter counts amounts by the cup and the day, and prices by the dollar and
-the cent.
+This chapter adds the set of question words for the verb sentence, with who,
+when (future and past) and how put to use, and what and where recalled from
+earlier sentence types. The fact this chapter turns on is that the word for
+"when" comes in two shapes, one for future time and one for past.
 
 ---
 
-## Counting People
-
-When what you count is people, the number usually takes the prefix *toʻa* in
-front of it. *Teine e toʻalua* is "the two girls", the same counting shape as
-*ipu e lua* with *toʻa* added to the number because girls are people:
-
-| Phrase | Meaning |
-|---|---|
-| *teine e toʻalua* | the two girls |
-
-The prefix marks the number as counting human beings, and it joins the other
-numbers the same way. It is not strictly required: you will also hear people
-counted with the plain number, as in *teine e fā*, "the four girls". With people,
-though, the prefix is the careful form, and everyday speech often leaves it off.
-The number itself does not change; only the prefix is added.
-
-The how-many word takes the prefix in the same way when what you ask about is
-people: *fia* becomes *toʻafia*.
+## Asking Who
 
 ::: {.examples}
-*E toʻafia lau fānau?* How many children do you have? (Lit. "How many are your offspring?")
+*ʻO ai na alu?* Who went?
 :::
 
-> **Preview:** Sāmoan also has number forms that mean "so many each", the shape
-> that spreads a number over each thing or each person in a group, as in "five
-> each" or "each day". They are made by a piece added to the front of the number,
-> introduced in a later chapter and completed in Chapter 50. This chapter counts
-> how many there are, not how many each.
+The question word for a person is *ai*, "who". In the who-questions of this
+chapter it comes to the front of the sentence with the presenting particle *ʻo*
+in front of it, so the asking part is *ʻo ai*, and the action follows. Where a name or a noun phrase would tell you who
+did the going, *ʻo ai* asks for it instead.
+
+You have met this word before. Earlier in this book *ʻo ai* asked who someone is
+in a naming sentence, as in *ʻO ai ʻoe?* ("Who are you?"). It is the same word,
+doing the same job, now placed in front of a whole action:
+
+| Sāmoan | English |
+|---|---|
+| *ʻO ai na alu?* | Who went? |
+| *ʻO ai na sau?* | Who came? |
+| *ʻO ai na moe?* | Who slept? |
+| *ʻO ai na siva?* | Who danced? |
+| *ʻO ai na faʻaipoipo?* | Who got married? |
+
+Here is the set of question words this book uses for the verb sentence. Most
+of them you
+will use in this chapter; two of them, *fia* and *ʻaiseā*, are shown so the set
+is complete and are taught later in this book.
+
+| Question word | Asks about |
+|---|---|
+| *ai* | who |
+| *ā* | what |
+| *fea* | where |
+| *āfea* | when (future) |
+| *anafea* | when (past) |
+| *faʻapefea* | how |
+| *fia* | how many |
+| *ʻaiseā* | why |
+
+Sāmoan also has *lēfea* (which), for asking which one of several. It is one to
+recognize when you meet it; this chapter does not drill it.
+
+> **Preview:** The word *fia* asks "how many". It belongs with the counting
+> words, so its full use, as in *E fia aso?* ("How many days are there?"), is
+> taught with the numbers in Chapter 22.
+
+> *Note:* The *fia* that asks "how many" is a different word from the *fia*
+> "want" met earlier in this book. Same spelling, different job.
+
+> **Preview:** The word *ʻaiseā* asks "why". Asking why leans on machinery that
+> arrives later, so *ʻaiseā* is completed in Chapter 38.
 
 ---
 
-## Telling the Time
+## Asking When: Past and Future
 
-The clock hour is a counting phrase built on the word *itūlā* (hour). To say at
-what hour something happens, name the hour and count it: *ʻi le itūlā e tolu*,
-"at three o'clock", is "at the hour that is three", the same *e* and the same
-number you have been using all along.
-
-| Sāmoan | English |
-|---|---|
-| *ʻi le itūlā e tolu* | at three o'clock |
-| *ʻi le itūlā e lima* | at five o'clock |
-| *ʻi le itūlā e iva* | at nine o'clock |
-
-For the hours past ten, Sāmoan counts on. Eleven is "ten and one" and twelve is
-"ten and two", joined by the with-word *ma* you met earlier in this book. So
-eleven is *sefulu ma le tasi*, and twelve is *sefulu ma le lua*. That joined form
-is the literary one, and it is the form inside the clock phrase this chapter
-follows. Sāmoan also counts the teens by setting the two numbers side by side
-with no joining word, and today that shorter form is the ordinary one in speech
-and in writing.
-
-| Sāmoan | English |
-|---|---|
-| *ʻi le itūlā e sefulu ma le tasi* | at eleven o'clock |
-| *ʻi le itūlā e sefulu ma le lua* | at twelve o'clock |
-
-To say which part of the day, add the time word after the hour. *ʻi le taeao* is
-"in the morning":
+Sāmoan does not have one word for "when". It has two, and the choice is settled by
+time: one word asks about future time, the other asks about past time. Read this
+pair, the same question except for the time being asked about:
 
 ::: {.examples}
-*ʻi le itūlā e sefulu ma le tasi ʻi le taeao*. at eleven o'clock in the morning
+*ʻO āfea ʻoleʻā moe ai le tama?* When will the boy sleep?
+
+*ʻO anafea na moe ai le tama?* When did the boy sleep?
 :::
 
-This tells the hour and no more. Counting the minutes past or before the hour,
-and forms like "half past" and "quarter to", are beyond what this chapter teaches.
-Saying what time it is now uses a different sentence, which this chapter does not
-teach.
+Compare them. Which words changed?
+
+Two words moved together. The when-word changed from *āfea* to *anafea*, and the
+tense particle changed with it, from the future particle *ʻoleʻā* to the past
+particle *na*. The future when-word *āfea* rides a future sentence; the past
+when-word *anafea* rides a past sentence. Asking about future time with the past
+word, or about past time with the future word, does not match.
+
+This is the same split you met in the time words earlier in this book: a word
+beginning with *ana-* points back to past time, and a word beginning with *ā-*
+points forward to future time (print also shows this front with a catch, *ʻā-*).
+The when-words carry that same front, *anafea* with the past *ana-* and *āfea*
+with the future *ā-*.
+
+When the when-word comes to the front like this, the pointing-back word *ai*
+appears inside the verb, holding the place the when-word left. That is the *ai*
+sitting after *moe* in both questions above.
+
+> *Note:* This *ai* is not the question word for "who" met earlier in this book.
+> Same spelling, different job: that *ai* stands at the front, after *ʻo*, while
+> this *ai* sits inside the verb and points back to the when-word fronted ahead
+> of it.
+
+The when-word does not have to come to the front. It can stay in its own place at
+the end of the sentence, and then no *ai* is needed:
+
+::: {.examples}
+*Na lā faʻaipoipo anafea?* When did the two of them get married?
+:::
+
+Here *anafea* sits at the end, in the plain place a time word takes, so the verb
+holds no *ai*. Fronting the when-word and copying it with *ai*, or leaving it at
+the end, are two ways to ask the same question.
+
+| Sāmoan | English |
+|---|---|
+| *ʻO āfea ʻoleʻā moe ai le tama?* | When will the boy sleep? |
+| *ʻO āfea ʻoleʻā sau ai le teine?* | When will the girl come? |
+| *ʻO anafea na moe ai le tama?* | When did the boy sleep? |
+| *ʻO anafea na siva ai le teine?* | When did the girl dance? |
+| *Na lā faʻaipoipo anafea?* | When did the two of them get married? |
 
 ---
 
-## Putting Things in Order
+## Asking How
 
-Sāmoan has no separate number-words for putting things in order the way English's
-second, third, and fourth run. It builds an order out of the plain numbers
-instead. Put the word *lona* after the noun, then the number: *le fale lona lua*
-is "the second house", built as "the house, its two".
+::: {.examples}
+*Sā faʻapefea le aso?* How was the day?
+:::
 
-| Sāmoan | English |
-|---|---|
-| *le fale lona lua* | the second house |
-| *le aso lona tolu* | the third day |
-| *le ipu lona fā* | the fourth cup |
-
-*Lona* is the belonging word for "his, her" you met earlier in this book; here it
-turns a plain number into a place in an order.
-
-"First" and "last" have words of their own. *Muamua* means "first" and *mulimuli*
-means "last", each placed after the noun like a describing word:
+The question word for "how" is *faʻapefea*. It behaves like a describing verb: it
+stands where a word like *lelei* (good) would stand, and asks after the manner or
+the state of something. *Sā faʻapefea le aso?* puts *faʻapefea* in the place a
+describing word would fill and leaves it open for the answer.
 
 | Sāmoan | English |
 |---|---|
-| *le tama muamua* | the first boy |
-| *le aso mulimuli* | the last day |
+| *Sā faʻapefea le aso?* | How was the day? |
+| *E faʻapefea le teine?* | How is the girl? |
+| *E faʻapefea le fale?* | How is the house? |
 
-"First" has a second form, *uluaʻi*, which stands in front of the noun instead:
-*le uluaʻi tama* is also "the first boy". The two forms mean the same thing; only
-their place changes.
+---
 
-> *Note:* A number set straight after the noun, with no *lona*, also names an
-> order in a few fixed uses, and dates are one of them: *le aso ono* is "the sixth
-> day". Use *lona* for the everyday "the second", "the third".
+## Asking What and Where
+
+You can already ask what and where with sentences from earlier in this book, and
+this chapter lists both words in the verb sentence's set.
+
+For "what", the word is *ā*. You met it in the naming sentence, where the asking
+part *ʻo le ā* means "what is it". A longer pattern built on *ā* asks what a thing
+caught up in an action is, opening with *ʻo le ā le mea*; the machinery that
+carries the rest of that question arrives in a later chapter. Until then, ask
+"what" with the naming sentence you already know.
+
+For "where", the word is *fea*. You met it in the where-sentence, where *ʻo fea*
+asks after a place and the answer comes back with *ʻi ai*:
+
+::: {.examples}
+*ʻO fea e ʻi ai le ʻato?* Where is the basket?
+:::
+
+The same shape asks after any thing or person whose place you want:
+
+| Sāmoan | English |
+|---|---|
+| *ʻO fea e ʻi ai le ʻato?* | Where is the basket? |
+| *ʻO fea e ʻi ai le fala?* | Where is the mat? |
+| *ʻO fea e ʻi ai le lau?* | Where is the leaf? |
+| *ʻO fea e ʻi ai le ʻofu?* | Where is the dress? |
+
+> *Note:* The leaf word *lau* is spelled like the belonging form *lau* ("your")
+> met earlier in this book. The article *le* in front, as in *le lau* (the
+> leaf), marks it as the naming word for a leaf.
+
+---
+
+## Yes or No Questions
+
+Not every question has a question word. A yes or no question has none: it keeps
+the words and the order of the statement, and often changes only the voice,
+which usually falls and stays low over the last two or three syllables. Sāmoan
+also has two question-marking words, met earlier in this book, that a
+speaker can add; they are optional, and this chapter leaves them aside. The
+falling tune is marked with the arrow ↘, the same way it was marked earlier in
+this book:
+
+::: {.examples}
+*E lelei le fale o le aliʻi.* The chief's house is good.
+
+*E lelei le fale o le aliʻi?* ↘ Is the chief's house good?
+:::
+
+A question word and the falling tune do different work. A word like *ʻo ai* or
+*āfea* names the missing piece, who or when. A yes or no question has no such
+word: it leaves the statement whole and asks whether the whole of it is so. The
+tune is not the difference between them. A question with a question word is
+spoken on the question tune as well, the voice usually low over the last two or
+three syllables; this book marks the arrow on the yes or no questions.
 
 ---
 
@@ -229,33 +200,33 @@ their place changes.
 
 | Word | What it does |
 |---|---|
-| *e* | the general particle, here linking a number to the thing it counts |
-| *toʻa* | the counting prefix for people: usually put in front of a number when what you count is human beings |
-| *lona* | placed after a noun before a number, it names a place in an order (the second, the third) |
-| *uluaʻi* | first, placed in front of the noun (the same meaning as *muamua*) |
-| *toʻafia* | the how-many word with the people prefix: asks how many people |
+| *ai* | the who-word: asks who; in this chapter's questions it comes to the front after *ʻo* |
+| *āfea* | the future when-word: asks when about future time and goes with the future particle *ʻoleʻā*; it comes to the front after *ʻo*, copied by *ai* inside the verb, or stays at the end of the sentence |
+| *anafea* | the past when-word: asks when about past time and goes with the past particle *na*; it takes the same two places as *āfea* |
+| *faʻapefea* | the how-word: asks how, and stands where a describing word would stand |
+| *lēfea* | the which-word: asks which one of several; recognize it when you meet it, it is not drilled here |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *tasi* | one |
-| *lua* | two |
-| *tolu* | three |
-| *fā* | four |
-| *ono* | six |
-| *fitu* | seven |
-| *valu* | eight |
-| *iva* | nine |
-| *sefulu* | ten |
-| *muamua* | first |
-| *mulimuli* | last |
-| *ʻātoa* | complete |
-| *tālā* | dollar |
-| *sene* | cent |
+| *faʻaipoipo* | marry |
+| *moe* | sleep (said of one person) |
+| *ʻato* | basket |
+| *fala* | pandanus, mat |
+| *lau* | leaf |
+| *ʻofu* | dress |
 
-*Itūlā* (hour), met earlier in this book as a word to carry, comes into use in
-this chapter.
+**Words to carry** (learned now, used fully later in this book): *tausi* (take
+care of) needs the marker that names the doer of an action, which arrives in a
+later chapter, before you can say who takes care of whom.
+
+| Word | Meaning |
+|---|---|
+| *tausi* | take care of |
+
+The other question words, *ā*, *fea*, *fia* and *ʻaiseā*, are set out in the table
+under Asking Who.
 
 ---
 
@@ -263,58 +234,50 @@ this chapter.
 
 ### Exercise 1: Translate into English
 
-1. *E tolu tama.*
-2. *ipu e lua*
-3. *E fia aso?*
-4. *le fale lona lua*
-5. *ʻi le itūlā e lima*
-6. *ni ipu se lua*
-7. *le tolu o aso*
-8. *E toʻafia lau fānau?*
-9. *E lua tālā.*
-10. *Na ʻātoa lelei le tolu o aso.*
+1. *ʻO ai na alu?*
+2. *ʻO āfea ʻoleʻā moe ai le tama?*
+3. *ʻO anafea na siva ai le teine?*
+4. *Sā faʻapefea le aso?*
+5. *ʻO fea e ʻi ai le ʻato?*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. the four girls
-2. the two girls, counted as people
-3. at nine o'clock
-4. the third day
-5. the last day
+1. Who came?
+2. When did the boy sleep?
+3. When will the girl come?
+4. How is the house?
+5. Where is the mat?
 
-### Exercise 3: Count the things named
+### Exercise 3: Past or future when-word
 
-Write each phrase as "noun *e* number", the way you say a particular set of
-things.
+Each English question asks about past time or future time. Fill the blank with
+*āfea* or *anafea* so the when-word matches.
 
-1. two cups
-2. three books
-3. six houses
-4. four girls
-5. five books
+1. *ʻO ___ ʻoleʻā moe ai le tama?* (When will the boy sleep?)
+2. *ʻO ___ na siva ai le teine?* (When did the girl dance?)
+3. *ʻO ___ ʻoleʻā sau ai le teine?* (When will the girl come?)
+4. *ʻO ___ na alu ai le tama?* (When did the boy go?)
+5. *ʻO ___ ʻoleʻā moe ai le teine?* (When will the girl sleep?)
 
-### Exercise 4: Tell the time
+### Exercise 4: Choose the question word
 
-Write the Sāmoan for each clock hour. Remember that inside the clock phrase this
-chapter follows, eleven and twelve are counted as "ten and one" and "ten and
-two".
+Fill the blank so the question matches the English.
 
-1. at three o'clock
-2. at five o'clock
-3. at nine o'clock
-4. at eleven o'clock
-5. at twelve o'clock
+1. *ʻO ___ na sau?* (Who came?)
+2. *Sā ___ le aso?* (How was the day?)
+3. *ʻO ___ e ʻi ai le ʻofu?* (Where is the dress?)
+4. *ʻO ___ na faʻaipoipo?* (Who got married?)
+5. *ʻO ___ e ʻi ai le fala?* (Where is the mat?)
 
-### Exercise 5: Put things in order
+### Exercise 5: Make the yes or no question
 
-Rewrite each phrase to name its place in an order. Items 1 to 3 use *lona* and
-the number; items 4 and 5 use the words for first and last.
+Rewrite each statement as a yes or no question, and mark the falling tune with ↘.
 
-1. the house, second
-2. the day, third
-3. the cup, fourth
-4. the boy, first (use *muamua*)
-5. the day, last
+1. *E lelei le fale o le aliʻi.*
+2. *Sā moe le tama.*
+3. *Sā siva le teine.*
+4. *Sā faʻaipoipo le teine.*
+5. *Sā sau le tama.*
 
 ---
 
@@ -322,45 +285,40 @@ the number; items 4 and 5 use the words for first and last.
 
 ### Exercise 1
 
-1. There are three boys.
-2. the two cups
-3. How many days?
-4. the second house
-5. at five o'clock
-6. any two cups
-7. the three days, as one stretch
-8. How many children do you have?
-9. It is two dollars.
-10. The three days were fully complete.
+1. Who went?
+2. When will the boy sleep?
+3. When did the girl dance?
+4. How was the day?
+5. Where is the basket?
 
 ### Exercise 2
 
-1. *teine e fā* (the prefixed people count is also right)
-2. *teine e toʻalua*
-3. *ʻi le itūlā e iva*
-4. *le aso lona tolu*
-5. *le aso mulimuli*
+1. *ʻO ai na sau?*
+2. *ʻO anafea na moe ai le tama?*
+3. *ʻO āfea ʻoleʻā sau ai le teine?*
+4. *E faʻapefea le fale?*
+5. *ʻO fea e ʻi ai le fala?*
 
 ### Exercise 3
 
-1. *ipu e lua*
-2. *tusi e tolu*
-3. *fale e ono*
-4. *teine e fā*
-5. *tusi e lima*
+1. *āfea*
+2. *anafea*
+3. *āfea*
+4. *anafea*
+5. *āfea*
 
 ### Exercise 4
 
-1. *ʻi le itūlā e tolu*
-2. *ʻi le itūlā e lima*
-3. *ʻi le itūlā e iva*
-4. *ʻi le itūlā e sefulu ma le tasi*
-5. *ʻi le itūlā e sefulu ma le lua*
+1. *ai*
+2. *faʻapefea*
+3. *fea*
+4. *ai*
+5. *fea*
 
 ### Exercise 5
 
-1. *le fale lona lua*
-2. *le aso lona tolu*
-3. *le ipu lona fā*
-4. *le tama muamua*
-5. *le aso mulimuli*
+1. *E lelei le fale o le aliʻi?* ↘
+2. *Sā moe le tama?* ↘
+3. *Sā siva le teine?* ↘
+4. *Sā faʻaipoipo le teine?* ↘
+5. *Sā sau le tama?* ↘

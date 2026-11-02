@@ -1,293 +1,343 @@
-# Chapter 51: Emotional Articles and Pronouns
+# Chapter 50: Affixes and Doubling
 
-This chapter completes the article system with the four articles that carry
-feeling, *si*, *sina*, *nāi* and *ni nāi*, and completes the first person with
-its emotional forms, *ʻita*, *taʻita* and the middle-slot *ta*. The feeling
-articles mark sympathy and an amount presented as modest, and the emotional first
-person marks above all that the speaker is emotionally involved, with humility
-and an appeal for help as frequent readings.
-
----
-
-## The Article *Si*
-
-::: {.examples}
-*si teine*. the dear girl
-:::
-
-*Si* stands where *le* would stand, in front of the noun, and it does two things
-at once. It marks the noun as one particular one, the job *le* does, and it
-carries the speaker's feeling about what it names: sympathy for it, or a low
-opinion of it. Which of the two the phrase carries is left to the situation.
-
-*Si* is always specific. It names a particular one and never any one at all, so
-a phrase built with it takes no other article in front of it.
-
-*Si* is an option and never a requirement. No noun asks for it, and a noun
-standing with the ordinary article has not been slighted. The feeling has simply
-been left unsaid.
-
-| Sāmoan | English |
-|---|---|
-| *si teine* | the dear girl |
-| *si tama* | the dear boy |
-| *si pepe* | the dear baby |
-| *si maile* | the poor dog |
-| *si pusi* | the dear cat |
-| *si tamā* | the dear father |
-
-### A Belonging Form After *Si*
-
-::: {.examples}
-*Sau si aʻu tama.* Come, my dear boy.
-:::
-
-A belonging form can stand between *si* and the noun, and nothing about that
-form changes when it goes there. The order is fixed: the article, then the
-belonging form, then the noun.
-
-The form in this sentence is *aʻu*. Of the four *a*-word forms taught earlier in
-this book, *aʻu* is the member of the set with no article inside it. That is the kind of form used after *si*, because *si* is already
-standing in the article slot and the belonging form brings no article of its
-own. The choice between the *a*-word and the *o*-word is made exactly as it
-always is. A father is an *o*-word noun, so after *si* he takes *oʻu*, the
-*o*-word form with no article inside it.
-
-| Sāmoan | English |
-|---|---|
-| *si aʻu pepe* | my dear baby |
-| *si aʻu maile* | my poor dog |
-| *si aʻu pusi* | my dear cat |
-| *si oʻu tamā* | my dear father |
-
-### Amounts
-
-::: {.examples}
-*si sēleni*. the shilling
-:::
-
-*Si* also stands in front of a noun naming an amount, money especially, as it
-does above in front of *sēleni* (shilling). There it can show that the speaker
-regards the amount as small or modest, or wants to give the impression of
-regarding it that way. The phrase above names one
-shilling and presents it as a modest sum. The same use can be turned around and
-meant ironically, of an amount nobody would call modest.
+This chapter completes the word-building pieces it names, the two endings *=ga* and
+*=a*, the prefixes *fe-*, *taʻi-*, *toʻa-*, *ʻā-* and *ana-*, and the doubling
+of a word or of a piece of one, and shows you how to read a built word you have
+never met. Many of the plural forms learned one at a time earlier in this book
+are made by that doubling, and this chapter names the process behind them.
 
 ---
 
-## The Article *Sina*
+## How Sāmoan Builds a Word
 
 ::: {.examples}
-*ʻAumai sina vai.* Bring a little water.
+*folo*. swallow
+
+*folofolo*. swallow with difficulty
 :::
 
-*Sina* stands in the same slot and marks the phrase as naming a small portion or
-a piece of what the noun names. Not the water, a little water. *Sina* has
-already been in use earlier in this book, in the question asking whether there
-was any water at all, and the portion it names is what put it there.
+One word, then the same word said twice, and the meaning has moved. **Doubling**
+is saying a word, or one piece of a word, a second time in order to build a new
+word from it. It is a third way of building one word out of another, beside
+two already familiar ones: a prefix goes on the front, the way
+the maker-prefix *faʻa-* does, and an ending goes on the back, the way the
+long-form ending does.
 
-*Sina* parts from *si* in a second way. *Si* is always a particular one, while
-*sina* can name a particular portion or any portion at all.
+The endings are the part of the system that resists rules. Sāmoan's endings come
+in families of related shapes, some of them common and some of them rare, and
+the shape of a word gives no clue about which member of a family that word takes.
+Speakers differ from one another over individual words as well. So a built word
+is partly a rule and partly a fact about the word, and this chapter teaches both:
+the rule where the language has one, and the word where it does not.
 
-*Sina* often carries a connotation of politeness and humility as well. Often is
-the whole of the claim: the connotation is a tendency of the word and not part
-of what it means, so a phrase is not made polite by having *sina* in it.
+---
+
+## The Ending *=ga*
 
 ::: {.examples}
-*sina meaʻai*. a little food
+*savali*. walk
 
-*sina taimi*. a little time
+*savaliga*. a walk, a march
 :::
 
-> *Note:* When the belonging form for one owner (my, your, his or her) follows
-> *sina*, the two can run together into one word, though they are also found
-> written apart. After *si* and *nāi*, in the careful style this book teaches,
-> the belonging form stays exactly as it was.
+Put *=ga* on the end of a verb and you have a noun. The ending does two jobs, and
+they are worth keeping apart, because one of them is a rule you can use and the
+other is a list of words you learn.
+
+The first job gives a fixed noun whose meaning has to be learned word by word,
+and some of these nouns name the event itself, as *amoga* (carrying) does.
+*Savaliga* is a walk or a march, a thing somebody can go on. Nouns of this kind
+are numerous, and how far speakers still
+make new ones is hard to say.
+
+The second job names the event itself, taken as a whole entity, something to be
+talked about the way an object is talked about. This job is productive: put *=ga*
+on a verb and you have that verb's event as a thing. Earlier in this book the
+article in front of a verb did the same work, the le-phrase that packs an event
+into a thing. The two are built differently. The le-phrase leaves the verb
+untouched and sets a word in front of it; *=ga* changes the word itself.
+
+Read these two aloud:
 
 ::: {.examples}
-*sinaʻu vai*. a little water for me (Lit. "a little of my water")
+*savaliga*. a walk, a march
+
+*sāvaliga*. people on the march
 :::
 
-*Sinaʻu* is *sina* and *aʻu* run together. Four owners have a pair of these
-run-together forms, one form for the *a*-words and one for the *o*-words:
+Compare them. Which part changed?
 
-| One owner | *a*-word | *o*-word |
+The vowel of the first syllable grew long. Many verbs make two nouns in *=ga*
+this way, one with that vowel short and one with it long, and the long-vowel form
+usually carries plurality or frequency: more than one of them, or again and again.
+
+| *=ga* noun | Long-vowel form | The two meanings |
 |---|---|---|
-| my | *sinaʻu* (*sina aʻu*) | *sinoʻu* (*sina oʻu*) |
-| my, with feeling | *sinata* (*sina ata*) | *sinota* (*sina ota*) |
-| your (one person) | *sinau* | *sinou* |
-| his, her | *sinana* (*sina ana*) | *sinona* (*sina ona*) |
+| *savaliga* | *sāvaliga* | a walk, a march; people on the march |
+| *amoga* | *āmoga* | carrying; people carrying loads on yokes |
+| *aʻega* | *āʻega* | a rise, a climb; people returning at the same time |
 
-The two words in brackets are the ones each form is made from. The "your" pair
-is made from the article-less forms for "your", said to one person, which this
-book does not print on their own. The pair said with feeling is made from *ata*
-and *ota*, the emotional belonging forms set out with the emotional first
-person below. These eight are *sina* and a belonging form joined, not a set of
-forms of their own, and the choice between the *a*-word and the *o*-word is
-made as it always is.
+> *Note:* The long vowel usually marks plurality or frequency, and for some of
+> these pairs the recorded evidence does not settle whether the two forms differ
+> in meaning at all. Learn such a pair as a pair, with both meanings.
 
 ---
 
-## The Plural Articles *Nāi* and *Ni Nāi*
+## The Ending *=a*
 
 ::: {.examples}
-*ʻO nāi teine.* The dear girls.
+*ʻeleʻele*. earth, soil, dirt
 
-*ʻO ni nāi teine.* Some dear girls.
+*ʻeleʻelea*. dirty
 :::
 
-Compare them. Which word was added, and what does it do?
+Put *=a* on the end of a noun and you have a describing verb, and its meaning is
+the same every time: being affected by the thing the noun names. Something
+*ʻeleʻelea* has dirt on it.
 
-*Ni* was added, the non-specific plural article from earlier in this book. *Nāi*
-on its own names particular girls. *Ni nāi* names some girls, with no particular
-ones meant. The feeling articles split in the plural the way the ordinary
-articles split, by whether the speaker has particular ones in mind.
+This ending is productive. Put it on a noun and the describing verb is there,
+and speakers do this with words borrowed into Sāmoan as well as with old ones.
+Now and then it goes on a whole phrase rather than on a single noun, though that
+use is only sporadically recorded.
 
-Both plural articles carry the feeling the singular articles carry, and both can
-present the number as small as well: *ʻO nāi teine* is the dear girls, and it is
-also the few girls.
+One thing this ending cannot do is go on a word that doubles a piece of itself.
 
-Which singular article a plural answers to follows from that same split. *Si* is
-always specific, so its plural is *nāi* and nothing else. *Sina* runs either way,
-so it answers to both.
-
-| Singular | Plural | Which ones the speaker has in mind |
-|---|---|---|
-| *si* | *nāi* | particular ones |
-| *sina* | *nāi* | particular ones |
-| *sina* | *ni nāi* | any ones at all |
-
-| Sāmoan | English |
-|---|---|
-| *nāi tama* | the dear boys |
-| *nāi pepe* | the dear babies |
-| *nāi maile* | the poor dogs |
-| *nāi pusi* | the dear cats |
-| *nāi mātua* | the dear parents |
-| *ni nāi tama* | some dear boys |
-| *ni nāi pepe* | some dear babies |
-| *ni nāi maile* | some poor dogs |
-| *ni nāi pusi* | some dear cats |
-
-A belonging form can stand after *nāi*, between the article and the noun, and
-there too it stays exactly as it was: *nāi oʻu mātua* (my poor parents). Parents
-take the *o*-word, as a father does.
+> *Note:* The long form of a verb that takes the agent marker also ends in *=a*,
+> and the two endings are not the same ending. The long-form ending works on a
+> verb and leaves it a verb. This one works on a noun and makes a verb of it.
 
 ---
 
-## The Emotional First Person
+## The Prefix *fe-*
 
 ::: {.examples}
-*ʻOu te alu.* I go.
+*alofa*. love
 
-*Ta te alu.* I go.
+*fealofani*. love one another
 :::
 
-Two sentences, one English translation. The word in the middle slot changed, and
-English has a single word for both. *Ta* is the first person singular used when
-the speaker is emotionally involved in what is being said, and it stands in the
-middle slot, in front of the verb, where *ʻou* stands.
+*Fe-* on the front of a verb says, so far as the records go, that the event
+happens more than once: several times over, or as a connected run of events, or
+by each participant in turn. It counts the way the plural verb forms count,
+answering to the one the event is about rather than to the doer.
 
-Standing on its own, outside that slot, the form is *ʻita*. *ʻOu* and *ta* are
-the middle-slot pair; *aʻu* and *ʻita* are the pair that stands on its own.
+On its own, *fe-* makes the plural form of a verb.
 
-| Where it stands | Ordinary form | Emotional form |
+The prefix is most at home on a verb that carries an ending behind it as well,
+*-aʻi*, or an ending in *i* that may have a consonant in front of it, the consonant differing from word to
+word, as in *fealofani*. The *-aʻi* pattern is where *fe-* is most common and it
+is quite productive, and the two endings usually mean the same thing. An event happening
+more than once with more than one participant is very often an event the
+participants do to each other, so the English that fits is often "one another":
+
+| Verb | Built word | Meaning |
 |---|---|---|
-| in the middle slot, before the verb | *ʻou* | *ta* |
-| standing on its own | *aʻu* | *ʻita* |
+| *alofa* (love) | *fealofani* | love one another |
+| *mata* (look) | *femātaaʻi* | look at one another |
+| *ilo* (perceive, sort out) | *feiloaʻi* | meet |
 
-What these forms mark, above everything else, is that the speaker is emotionally
-involved in the situation. They frequently indicate self-abasement, humility, or
-an appeal for help, and those readings are frequent rather than required.
+You already use the third of these. *Feiloaʻi*, the word for meeting somebody, is
+the perceiving verb *ilo* with the prefix in front of it and the ending behind it.
+
+With verbs of movement or physical activity the same pattern means to and fro, in
+all directions, or quickly:
+
+| Verb | Built word | Meaning |
+|---|---|---|
+| *alu* (go) | *fealuaʻi* | go quickly, hurry |
+
+A verb built this way normally does not take the agent marker, and the exceptions
+to that are rare.
+
+> *Note:* Older grammars and earlier descriptions often gloss *fe-* itself as "one
+> another". The one-another reading belongs to the pattern, the prefix together
+> with its ending; what the prefix says on its own is that the event happens
+> more than once. Their own word lists bear that out, because they give bare
+> *fe-* forms that are plain plurals with no one-another meaning in them.
+
+---
+
+## The Counting Prefixes *taʻi-* and *toʻa-*
 
 ::: {.examples}
-*Ta te alu ʻita.* I go.
+*taʻitasi*. one each
+
+*taʻilima*. five each
 :::
 
-A sentence can name the speaker in both places at once, in the middle slot and
-again after the verb, and then both words are emotional forms.
+*Taʻi-* goes on the front of a number and spreads that number over each thing or
+each person: *tasi* is one, and *taʻitasi* is one each. It works on the how-many
+word as well, so a question can ask how many each.
 
-| Sāmoan | English |
+| Number | Built word | Meaning |
+|---|---|---|
+| *tasi* (one) | *taʻitasi* | one each |
+| *lima* (five) | *taʻilima* | five each |
+| *fia* (how many) | *taʻifia* | how many each |
+
+*Toʻa-* is the prefix already met with the numbers, the one that goes on a number
+when people are being counted. It goes on the numbers and on a few other words
+of quantity when what is counted is human beings, or a group or an organisation
+of them, as in *toʻalua*, two people.
+
+Two things about it belong to real speech. It is frequently said with the second
+vowel as an o rather than an a. And in spoken Sāmoan it tends to be dropped
+altogether, a tendency that turns up occasionally in writing too.
+
+The two prefixes can go on one number together, and in one order only: *taʻi-*
+first, then *toʻa-*, never the other way about.
+
+---
+
+## The Time Prefixes *ā-* and *ana-*
+
+::: {.examples}
+*anapō*. last night
+
+*ātaeao*. tomorrow morning
+:::
+
+Two prefixes make words for time. *Ana-* puts the word in the past. The future
+front appears as *ā-* in *ātaeao* and with an initial catch in the fixed forms
+*ʻāmulī* and *ʻātalī*. Both fronts go mainly on words for a place or a time.
+
+| Base | Past word |
 |---|---|
-| *Ta te alu.* | I go. |
-| *Ta te sau.* | I come. |
-| *Ta te siva.* | I dance. |
-| *Ta te moe.* | I sleep. |
-| *Ta te tāʻele.* | I bathe. |
-| *Ta te fāgota.* | I go fishing. |
+| *taeao* (morning) | *anataeao* (this morning) |
+| *pō* (night) | *anapō* (last night) |
 
-> *Note:* *Taʻita* is a second form for *ʻita*, belonging to everyday speech.
-> Recognize it when it is said; the form this book uses is *ʻita*.
-
-> *Note:* *ʻIta* opens with a piece of its own, *ʻi*, and on this pronoun that
-> piece is never left off. Some other independent pronouns can take the same
-> piece or do without it, and modern Sāmoan leans toward doing without it, but
-> never on *ʻita*.
-
-> *Note:* In the middle slot, the long-vowel mark is the whole of the
-> difference between *ta*, the emotional "I", and *tā*, the word for "we two,
-> you and I". Both stand there.
-
-### Mixing the Two Sets
-
-::: {.examples}
-*ʻUa ta sesē lava ʻi loʻu loto.* In my heart I was wrong.
-:::
-
-A speaker who reaches for the emotional forms normally keeps to them across the
-sentence, and a speaker using the ordinary forms normally keeps to those. The
-sentence above does neither. *Ta* in the middle slot, in front of *sesē*
-(wrong), is the emotional form, and *loʻu*, the belonging form later in the
-sentence, is the ordinary one. The two are found
-together, so this is a tendency and not a rule.
-
-### The Emotional Belonging Forms
-
-::: {.examples}
-*lota tino*. my body
-:::
-
-The emotional first person has belonging forms of its own as well, standing
-beside the ordinary ones taught earlier in this book. *Lota* is the emotional
-partner of *loʻu*. Both hold the specific article and the *o*, and then the
-person: *loʻu* carries the ordinary person joined behind the *o*, and *lota*
-carries *ta*, joined in the same place. A body is an *o*-word, so it takes the
-*o*-word form.
-
-The emotional forms answer the same two questions that decide every belonging
-form, one or more than one and a particular one or any one, and they make the
-same choice between an *a*-word and an *o*-word. That gives four pairs, each
-standing where an ordinary pair stands:
-
-| The thing possessed | *a*-word form | *o*-word form | Ordinary pair |
-|---|---|---|---|
-| one particular thing | *lata* | *lota* | *laʻu*, *loʻu* |
-| one thing, any one | *sata* | *sota* | *saʻu*, *soʻu* |
-| more than one, particular | *ata* | *ota* | *aʻu*, *oʻu* |
-| more than one, any ones | *ni ata* | *ni ota* | *ni aʻu*, *ni oʻu* |
-
-The article element moves down the column exactly as it does in the ordinary
-set, and *ta* holds its place through all four.
-
-| Sāmoan | English |
+| Base | Future word |
 |---|---|
-| *lata taʻavale* | my car |
-| *sata taʻavale* | a car of mine |
-| *ata taʻavale* | my cars |
-| *ni ata taʻavale* | some cars of mine |
-| *lota fale* | my house |
-| *sota fale* | a house of mine |
-| *ota fale* | my houses |
-| *ni ota fale* | some houses of mine |
+| *taeao* (morning) | *ātaeao* (tomorrow morning) |
+| *muli* (last) | *ʻāmulī* (after death, in the last days) |
+| *tali* (wait) | *ʻātalī* (in the next world) |
 
-The English is the same as for the ordinary forms. What the emotional form adds
-is the speaker's involvement, the same thing *ta* adds in the middle slot.
+The coming-morning word is also printed *ʻātaeao*, with a catch at the front;
+it is the same word.
 
-> *Note:* The emotional piece joined behind the *a* or the *o* is also written
-> with the long-vowel mark, *tā*. Both spellings go behind either belonging
-> word, and the forms in the table carry the first. Joined into one word it is
-> the emotional "my"; *tā* standing as a separate word after *a* or *o* is "of
-> us two".
+A few time words built this way have no base word behind them. *Ananafi* is the
+word for yesterday, and taking *ana-* off it leaves nothing that stands as a word
+on its own; *analeilā*, earlier today, is the same. So the prefix is readable in
+those words without the rest of the word being readable.
+
+> *Note:* The ʻ mark on the future prefix is not a guide to build on. Some of
+> these future words carry it and some do not, and it may come from the future
+> particle rather than from the prefix itself.
+
+---
+
+## Doubling a Piece of the Word
+
+::: {.examples}
+*Sā nofo le teine.* The girl stayed.
+
+*Sā nonofo teine.* The girls stayed.
+:::
+
+*Nonofo* is *nofo* with its second-to-last syllable repeated in front of itself,
+and that is the whole of the form. The Introduction taught that the stress falls
+on the second-to-last syllable, so the piece that gets doubled is the stressed
+one.
+
+The form works only when that syllable is one consonant plus one vowel. A word
+whose second-to-last syllable is a bare vowel has no doubled piece of this kind,
+which is why *ola* (live) and *sāuni* (prepare) cannot take one.
+
+Plurality is the basic thing the doubled piece means, and its most common job is
+the plural form of a verb. Many of the plural verb forms learned one at a time
+earlier in this book are made by this process, and now the process has a name and
+a shape. In plural forms the doubling often comes with a long vowel in the first
+syllable as well, and with roots of three syllables that lengthening is very
+common. Plurality is the basic job and not the only one, and the same doubling
+builds other kinds of word besides plurals.
+
+> *Note:* Doubling a piece of the word is not so clearly productive as doubling
+> the whole of it, though forms nobody had recorded keep turning up in modern
+> writing. Read a doubled piece as a plural first and let the meaning of the word
+> settle it; do not build plurals of your own from it.
+
+---
+
+## Doubling the Whole Word
+
+::: {.examples}
+*soli*. tread on
+
+*solisoli*. tread repeatedly on
+:::
+
+Say a two-syllable word twice and the event happens several times, or goes on for
+a stretch of time. Repetition and duration are what the doubled word carries, and
+the shape says it: the event is shown twice because it happened more than once.
+
+| Verb | Doubled word | Meaning |
+|---|---|---|
+| *soli* (tread on) | *solisoli* | tread repeatedly on |
+| *folo* (swallow) | *folofolo* | swallow with difficulty |
+
+The meaning of *solisoli* states the repetition outright. The meaning of
+*folofolo* does not, and which of doubling's jobs a given doubled word carries is
+a fact about that word. Beside repetition, doubling the whole word can also
+strengthen or weaken what the verb says, so a doubled word is not always a word
+for something done again and again.
+
+Doubling the whole word is clearly productive, and it works on words borrowed
+into Sāmoan as well as on old ones. It also has a wide range of jobs beyond the
+two named here. Its basic meaning seems to be that something happens several
+times or lasts a while; past that, a doubled word is learned with its own meaning.
+
+> *Note:* Two syllables is the measure of this doubling. In a word of two
+> syllables, which is what every example here prints, those two are the whole of
+> it. A longer word doubles two of its syllables rather than all of them, and
+> which two it doubles follows no firm rule, so read a long doubled word when you
+> meet one instead of building your own.
+
+---
+
+## Number in the Colour and Size Words
+
+::: {.examples}
+*E uliuli le pusi.* The cat is black.
+
+*E uli pusi.* The cats are black.
+:::
+
+A small group of words for colours and for size marks its number by which kind of
+doubling it carries. *Uliuli* is the singular and *uli* is the plural, the pair
+met with the plural verb forms earlier in this book, and the shape of it can now
+be read.
+
+The root of the word decides the pattern, and there are two cases. Where the root
+runs consonant, vowel, consonant, vowel, the singular doubles the whole root and
+the plural doubles a piece of it. Where the root runs vowel, consonant, vowel, a
+piece of it cannot be doubled at all, by the rule of the section above, so the
+plural is the bare root and only the singular is doubled. *Uli* is that second
+case: the singular *uliuli* doubles the root, and the plural is the root itself.
+
+*Puʻupuʻu* (short), *paʻepaʻe* (white) and *itiiti* (few, small) all belong to
+this group, and each of those is the singular form.
+
+The group is small, so this is a fact about these words rather than a rule for
+colour and size words in general. The same singular-by-doubling pattern also
+turns up in a few other words.
+
+---
+
+## What a Doubled Word Can Carry
+
+The two kinds of doubling do not take affixes on equal terms.
+
+Doubling the whole word combines freely. It takes the maker-prefix *faʻa-* and
+most other prefixes, and it takes the endings *=ina* and *=a*.
+
+Doubling a piece of the word hardly combines at all. Prefixes other than *faʻa-*
+are very seldom found on it, and a word that carries a doubled piece in its plain
+form drops that piece when a prefix goes on the front. The exception runs the
+other way about: *faʻa-* does combine with plural forms that carry a doubled
+piece, as *faʻamaga* (open the mouth) does in its plural. On the ending side, a
+word with a doubled piece normally takes only *=ina*. Modern Sāmoan shows a
+tendency to allow the long-form ending *=a* on it too, and that is a tendency
+rather than a rule.
 
 ---
 
@@ -297,31 +347,25 @@ is the speaker's involvement, the same thing *ta* adds in the middle slot.
 
 | Word | What it does |
 |---|---|
-| *si* | the article for one particular thing, carrying the speaker's feeling for it |
-| *sina* | the article for a small portion or piece of a thing, often carrying politeness |
-| *nāi* | the plural article for particular ones, the plural of both *si* and *sina* |
-| *ni nāi* | the plural article for ones that are not particular, the plural of *sina* |
-| *ʻita* | I, me, when the speaker is emotionally involved: the form standing on its own |
-| *taʻita* | the everyday-speech form of *ʻita* |
-| *ta* | I, when the speaker is emotionally involved: the form in the middle slot |
-| *lata*, *lota* | my (*a*-word form, *o*-word form), said with feeling, for one particular thing |
-| *sata*, *sota* | a ... of mine (*a*-word form, *o*-word form), said with feeling, for one thing of no particular identity |
-| *ata*, *ota* | my (*a*-word form, *o*-word form), said with feeling, for more than one particular thing |
-| *ni ata*, *ni ota* | some ... of mine (*a*-word form, *o*-word form), said with feeling, for more than one of no particular identity |
-| *sinaʻu*, *sinoʻu*, *sinata*, *sinota*, *sinau*, *sinou*, *sinana*, *sinona* | *sina* run together with a belonging form for one owner; the two are also found written apart |
+| *=ga* | the ending that makes a noun of a verb: a fixed noun to be learned word by word, or the event itself as a whole |
+| *=a* | the ending that makes a describing verb of a noun: being affected by what the noun names |
+| *fe-* | the prefix that says the event happens more than once |
+| *taʻi-* | the prefix on a number that spreads it over each one |
+| *toʻa-* | the prefix on a number that counts human beings |
+| *ʻā-* | the prefix that makes a future time word |
+| *ana-* | the prefix that makes a past time word |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *afe* | lift up |
-| *amo* | carry, yoke |
-| *aʻa* | kick |
-| *fanua* | land, property |
-| *lauulu* | hair |
-| *polo* | ball |
-| *sesē* | wrong |
-| *sēleni* | shilling |
+| *fealofani* | love one another |
+| *fealuaʻi* | go quickly, hurry |
+| *folo* | swallow |
+| *ilo* | perceive, sort out |
+| *itiiti* | few, small |
+| *puʻupuʻu* | short |
+| *soli* | tread on |
 
 ---
 
@@ -329,119 +373,88 @@ is the speaker's involvement, the same thing *ta* adds in the middle slot.
 
 ### Exercise 1: Translate into English
 
-1. *si teine*
-2. *ʻAumai sina vai.*
-3. *ʻO nāi teine.*
-4. *Sau si aʻu tama.*
-5. *Ta te alu.*
-6. *nāi oʻu mātua*
-7. *lota tino*
-8. *sinaʻu vai*
+1. *taʻilima*
+2. *anapō*
+3. *solisoli*
+4. *fealofani*
+5. *savaliga*
+6. *ātaeao*
 
-### Exercise 2: Translate into Sāmoan
+### Exercise 2: Name the piece that builds the word
 
-1. the dear boy
-2. some dear girls
-3. Bring a little food.
-4. my poor dog
-5. I come. (said by a speaker who is emotionally involved)
-6. my dear father
-7. my body (said by a speaker who is emotionally involved)
+For each word, say which prefix or ending is on it and what that piece
+contributes.
 
-### Exercise 3: One or more than one, particular or not
+1. *femātaaʻi*
+2. *taʻitasi*
+3. *ʻeleʻelea*
+4. *analeilā*
+5. *fealuaʻi*
 
-For each phrase, say whether it names one or more than one, and whether the
-speaker has a particular one in mind.
+### Exercise 3: One or more than one
 
-1. *si teine*
-2. *nāi tama*
-3. *ni nāi maile*
-4. *sina meaʻai*
-5. *si sēleni*
-6. *ota fale*
-7. *sata taʻavale*
-8. *ni ata taʻavale*
+For each item, say whether it is about one or about more than one, and say which
+part of it tells you.
 
-### Exercise 4: Say what each form does
+1. *E uliuli le pusi.*
+2. *Sā nonofo teine.*
+3. *E uli pusi.*
+4. *Sā nofo le teine.*
+5. *nofo*
+6. *nonofo*
+7. *uliuli*
+8. *uli*
 
-Each form below is written as a separate word. Say what it means and where in
-the sentence it stands. Where this chapter gives a form more than one place,
-name each place and what the form means there.
+### Exercise 4: Which kind of doubling
 
-1. *ta*
-2. *ʻita*
-3. *taʻita*
-4. *tā*
-5. *ʻou*
+For each word, say whether the whole word is doubled or a piece of it is, and
+what that doubling does in the word.
 
-### Exercise 5: Match each word to its meaning
+1. *nonofo*
+2. *solisoli*
+3. *uliuli*
+4. *folofolo*
+5. *puʻupuʻu*
+6. *paʻepaʻe*
 
-1. *afe*
-2. *amo*
-3. *aʻa*
-4. *fanua*
-5. *lauulu*
-6. *polo*
-7. *sesē*
-8. *sēleni*
+### Exercise 5: Build the word
 
-a. ball
-b. hair
-c. shilling
-d. kick
-e. carry, yoke
-f. wrong
-g. land, property
-h. lift up
+Put the right prefix or ending on the word in brackets so the built word matches
+the English.
 
-### Exercise 6: Say what the rule is
+1. one each (*tasi*)
+2. this morning (*taeao*)
+3. tomorrow morning (*taeao*)
+4. last night (*pō*)
+5. go quickly, hurry (*alu*)
+6. dirty (*ʻeleʻele*)
+
+### Exercise 6: Match each word to its meaning
+
+1. *āmoga*
+2. *amoga*
+3. *taʻifia*
+4. *feiloaʻi*
+5. *faʻamaga*
+
+a. how many each
+b. carrying
+c. open the mouth
+d. people carrying loads on yokes
+e. meet
+
+### Exercise 7: Say what the rule is
 
 Answer each question from what this chapter teaches.
 
-1. Why does a phrase built with *si* take no other article in front of it?
-2. *Si* answers to one plural article and *sina* answers to two. Why?
-3. What does *sina* mark that *si* does not?
-4. Where does *ta* stand in a sentence, and which form stands in its place
-   outside that slot?
-5. A speaker normally keeps to one set of first person forms across a sentence.
-   What does the sentence in this chapter that mixes them show about that?
-6. In *si oʻu tamā*, why is the belonging form *oʻu* and not *aʻu*?
-7. What happens to a belonging form after *si* or *nāi*, and what can happen to
-   one after *sina*?
-8. What is the opening *ʻi* of *ʻita*, and can it be left off?
-9. Where an ordinary belonging form carries the ordinary person behind the *a*
-   or the *o*, what do the emotional belonging forms carry?
-10. The emotional piece joined behind the *a* or the *o* is written two ways.
-    What are the two spellings, and which belonging word does each go behind?
-
-### Exercise 7: Choose the emotional belonging form
-
-Fill in the emotional belonging form that matches the English. A dog is an
-*a*-word and a boat is an *o*-word.
-
-1. *___ maile* (my dog)
-2. *___ vaʻa* (my boats)
-3. *___ maile* (some dogs of mine)
-4. *___ vaʻa* (a boat of mine)
-5. *___ maile* (my dogs)
-6. *___ vaʻa* (my boat)
-7. *___ maile* (a dog of mine)
-8. *___ vaʻa* (some boats of mine)
-
-### Exercise 8: Take the run-together form apart
-
-Each form is *sina* run together with a belonging form. For items 1 to 6, write
-the two words it is made from. Item 7 is made from a form this book does not
-print on its own, so for item 7 say only whose it is and whether it is the
-*a*-word or the *o*-word form.
-
-1. *sinoʻu*
-2. *sinata*
-3. *sinona*
-4. *sinaʻu*
-5. *sinota*
-6. *sinana*
-7. *sinou*
+1. The ending *=ga* does two jobs. Which of the two can you do to a verb you have
+   not met before, and what does the other job ask of you?
+2. Two prefixes can go on one number together. Which of them goes first?
+3. Which kind of doubling takes prefixes freely, and which kind hardly takes them
+   at all?
+4. One prefix does go on the front of a word that carries a doubled piece. Which
+   prefix is it?
+5. Which ending does a word with a doubled piece normally take?
 
 ---
 
@@ -449,106 +462,74 @@ print on its own, so for item 7 say only whose it is and whether it is the
 
 ### Exercise 1
 
-1. the dear girl (or "the poor girl")
-2. Bring a little water.
-3. The dear girls. (or "The poor girls", or "The few girls")
-4. Come, my dear boy. (or "Come, my poor boy.")
-5. I go.
-6. my poor parents (or "my dear parents")
-7. my body (said by a speaker who is emotionally involved)
-8. a little water for me (Lit. "a little of my water")
+1. five each
+2. last night
+3. tread repeatedly on
+4. love one another
+5. a walk, a march
+6. tomorrow morning
 
 ### Exercise 2
 
-1. *si tama*
-2. *ʻO ni nāi teine.* (The presenting *ʻo* may be left off, since the item
-   asks only for the phrase.)
-3. *ʻAumai sina meaʻai.*
-4. *si aʻu maile*
-5. *Ta te sau.* (This chapter also teaches naming the speaker a second time,
-   after the verb, as in *Ta te alu ʻita.* Adding *ʻita* is not wrong here.)
-6. *si oʻu tamā*
-7. *lota tino*
+1. The prefix *fe-*, which says the event happens more than once, with the
+   ending *-aʻi* behind the verb; together they give the one-another reading.
+2. The prefix *taʻi-*, which spreads the number over each one.
+3. The ending *=a*, which makes a describing verb of a noun: being affected by
+   what the noun names.
+4. The prefix *ana-*, which puts the word in the past. This is one of the words
+   with no base word behind the prefix.
+5. The prefix *fe-* with the ending *-aʻi* behind the verb, on a verb of
+   movement, which gives the to-and-fro and quickly reading.
 
 ### Exercise 3
 
-1. One, and a particular one. *Si* is always specific.
-2. More than one, and particular ones. *Nāi* is the specific plural.
-3. More than one, and no particular ones. *Ni* marks it non-specific.
-4. A portion of one thing, and the phrase leaves open whether the portion is a
-   particular one.
-5. One, and a particular one, with the amount presented as modest.
-6. More than one, and particular ones. *Ota* is the specific plural form.
-7. One, and no particular one. *Sata* is the form for one thing, any one.
-8. More than one, and no particular ones. *Ni* marks it non-specific.
+1. One. The singular *uliuli*, and the article *le*.
+2. More than one. The plural verb *nonofo*, and the empty article slot.
+3. More than one. The plural *uli*, and the empty article slot.
+4. One. The singular verb *nofo*, and the article *le*.
+5. One. No piece is doubled.
+6. More than one. The doubled second-to-last syllable.
+7. One. In this group of colour and size words the whole doubled word is the
+   singular.
+8. More than one. The bare root, with nothing doubled, is the plural in this
+   group.
 
 ### Exercise 4
 
-1. "I", when the speaker is emotionally involved. It stands in the middle slot,
-   in front of the verb.
-2. "I" or "me", when the speaker is emotionally involved. It stands on its own,
-   outside the middle slot.
-3. The same as *ʻita*, in the form belonging to everyday speech.
-4. Two places. In the middle slot, in front of the verb, it is "we two, you
-   and I". As a separate word after *a* or *o*, it is "of us two". (Joined
-   into one word behind *a* or *o*, *tā* is also the second spelling of the
-   emotional *ta*; that is not a separate word, and Exercise 6 asks about it.)
-5. "I", the ordinary form. It stands in the middle slot.
+1. A piece of the word, the second-to-last syllable. It makes the plural form.
+2. The whole word. It says the treading happened over and over.
+3. The whole word. In this group of colour and size words that marks the
+   singular.
+4. The whole word. What the doubling does here is carried in the word's own
+   meaning, swallowing with difficulty, and not in plain repetition.
+5. The whole word, and in this group that marks the singular.
+6. The whole word, and in this group that marks the singular.
 
 ### Exercise 5
 
-1. h
-2. e
-3. d
-4. g
-5. b
-6. a
-7. f
-8. c
+1. *taʻitasi*
+2. *anataeao*
+3. *ātaeao* (or *ʻātaeao*, the variant the page also prints for this word)
+4. *anapō*
+5. *fealuaʻi*
+6. *ʻeleʻelea*
 
 ### Exercise 6
 
-1. *Si* is itself an article, and it is always specific, so it already does the
-   work a second article would do.
-2. The plural splits by whether the speaker has particular ones in mind. *Si* is
-   always specific, so only the specific plural *nāi* answers to it. *Sina* can
-   be either, so both *nāi* and *ni nāi* answer to it.
-3. That the phrase names a small portion or a piece of the thing rather than the
-   whole of it.
-4. *Ta* stands in the middle slot, in front of the verb. Outside that slot the
-   form is *ʻita*.
-5. That keeping to one set is a tendency and not a rule, since the two are found
-   together in one sentence.
-6. The choice between the *a*-word and the *o*-word after *si* is made as it
-   always is. A father is an *o*-word noun, so the *o*-word form with no article
-   inside it, *oʻu*, follows *si*.
-7. After *si* and *nāi* the belonging form stays exactly as it was. After
-   *sina*, the belonging form for one owner can run together with it into one
-   word, though the two are also found written apart.
-8. It is a piece joined to the front of some independent pronouns. Some of
-   those pronouns can do without it, but on *ʻita* it is never left off.
-9. *Ta*, the emotional first person, joined behind the *a* or the *o* in the
-   same place.
-10. *Ta* and *tā*. Either spelling goes behind either belonging word, *a* or
-    *o*.
+1. d
+2. b
+3. a
+4. e
+5. c
 
 ### Exercise 7
 
-1. *lata maile*
-2. *ota vaʻa*
-3. *ni ata maile*
-4. *sota vaʻa*
-5. *ata maile*
-6. *lota vaʻa*
-7. *sata maile*
-8. *ni ota vaʻa*
-
-### Exercise 8
-
-1. *sina oʻu*
-2. *sina ata*
-3. *sina ona*
-4. *sina aʻu*
-5. *sina ota*
-6. *sina ana*
-7. Your (one person), the *o*-word form.
+1. The job that names the event itself, taken as a whole entity. That job is
+   productive, so you can put *=ga* on a verb and have the event as a thing. The
+   other job names something that comes of the event, and the noun it gives has a
+   meaning of its own that has to be learned word by word.
+2. *Taʻi-* goes first and *toʻa-* second, never the other way about.
+3. Doubling the whole word combines freely. Doubling a piece of the word hardly
+   combines at all.
+4. The maker-prefix *faʻa-*.
+5. The ending *=ina*.

@@ -1,193 +1,134 @@
-# Chapter 12: Verbs of Wanting and Seeing
+# Chapter 11: Location and Direction
 
-This chapter introduces the two-participant sentence: a verb of seeing,
-feeling, wanting, or asking, then the one who does it, then the thing it
-reaches, marked by the place word *ʻi*. The pattern points at that thing with
-the same *ʻi* that sets an action in a place, as in *Sā alofa le tama ʻi le teine*
-(the boy loved the girl).
+This chapter introduces the place word *ʻi*, which sets an action in a place or
+sends it toward one, and the from-word *mai*, which marks where something
+started. The place word stretches a sentence like *Sā ʻou alu* (I went) into
+*Sā ʻou alu ʻi le nuʻu* (I went to the village), and the from-word answers where
+a thing came from, as in *Na oso le tama mai le solofanua* (the boy jumped from
+the horse).
 
 ---
 
-## The Two-Participant Sentence
-
-::: {.examples}
-*Sā vaʻai le teine ʻi le iʻa.* The girl saw the fish.
-
-*Sā alofa le tama ʻi le teine.* The boy loved the girl.
-:::
-
-The pattern you know best names one participant: who went, who danced, who
-stayed in the house. These two name a second. The verb comes first, then the
-one who sees or loves, then the thing that is seen or loved. That second thing
-is marked by *ʻi*, the place word from earlier in this book.
-
-English treats see, love, and want as verbs that take an object: you see the
-fish, you love the girl, the object sits bare right after the verb. English
-asking is looser, since you often ask for a thing rather than ask it, but Sāmoan
-treats asking the same as the rest. In this pattern Sāmoan hands these verbs no bare object. It
-puts the one who does the seeing or asking right after the verb, then points at
-the other thing with *ʻi*, the same word that points at a place. You have already
-seen *ʻi* mark a place:
+## The Place Word *ʻi*
 
 ::: {.examples}
 *Sā ʻou alu ʻi le nuʻu.* I went to the village.
 
-*Sā vaʻai le teine ʻi le iʻa.* The girl saw the fish.
+*Sā nofo le tama ʻi le fale.* The boy stayed in the house.
 :::
 
-Compare them. Which word points at the village, and which points at the fish?
+Each of these sentences is one you could already build, with one part added at
+the end: a place. The word that ties the action to the place is *ʻi*, the place
+word. Put *ʻi* in front of a naming part for a place and the sentence gains a
+where. It comes after the verb and its subject, at the end, and that is the
+order to build with first.
 
-It is the same word, *ʻi*, doing the same job both times: pointing at what the
-verb reaches. In the first sentence the verb is one of moving, so *ʻi* points at
-a place. In the second the verb is one of seeing, so *ʻi* points at the thing
-seen. The lesson underneath is one to hold onto: in this pattern you do not see the
-fish, you see toward it, the way you go toward a village.
-
-The pattern puts the verb first, then its two participants: the one who does the
-seeing or feeling, and, marked by *ʻi*, the thing reached.
+The one word *ʻi* stands where English uses a whole handful of words. With a verb
+of staying it is heard as "in" or "at":
+*Sā nofo le tama ʻi le fale* is "the boy stayed in the house". With a verb of
+moving it is heard as "to": *Sā ʻou alu ʻi le nuʻu* is "I went to the village".
+The place word does not change from one English meaning to the next. In the sentences here the verb in front of
+it decides whether *ʻi* lands in English as "in", "at", "to", or "into". The
+place named can decide as well, and where neither settles it, the rest of what
+is being said does.
 
 | Sāmoan | English |
 |---|---|
-| *Sā vaʻai le teine ʻi le iʻa.* | The girl saw the fish. |
-| *Sā mātamata le tama ʻi le pusi.* | The boy watched the cat. |
-| *Sā alofa le tama ʻi le teine.* | The boy loved the girl. |
-| *Sā ʻinoʻino le teine ʻi le ʻiole.* | The girl hated the rat. |
+| *Sā ʻou alu ʻi le nuʻu.* | I went to the village. |
+| *Sā ia alu ʻi le fale.* | She went to the house. |
+| *Sā nofo le tama ʻi le fale.* | The boy stayed in the house. |
+| *Sā nofo le pusi ʻi le lāʻau.* | The cat stayed in the tree. |
+| *Sā oso le pusi ʻi le lāʻau.* | The cat jumped into the tree. |
+| *Sā lele le ʻāgelu ʻi le nuʻu.* | The angel flew to the village. |
 
-Two of these verbs are for seeing: *vaʻai* (see) and *mātamata* (look at,
-watch). Two are for feeling: *alofa* (love), carried since early in this book and
-now able to join a full sentence, and its opposite *ʻinoʻino* (hate, dislike).
-Two of the things these verbs reach are new to you here: *iʻa* (fish) and
-*ʻiole* (rat).
+Two of the verbs here are new: *oso* (jump) and *lele* (fly). Both name a way of
+moving, so with either one *ʻi* is heard as "to" or "into".
 
-Sāmoan has a third word for looking, *sisila* (look steadily, stare), and this
-book asks you only to know what it means. It belongs to the polite speech used
-about people of rank, and no one uses that speech about themselves, so no
-sentence here is built with it.
+> *Note:* English has a different word for nearly every kind of place: in, at,
+> to, into. Sāmoan uses the one word *ʻi* for all of them and leaves the
+> difference to the verb, to the place named, and to the rest of what is said.
+> The same word even marks the tool an action is done with. To
+> say someone cut the weeds, *vao*, with a bush-knife, Sāmoan sets the bush-knife
+> in a place phrase, *ʻi le sapelu* (with a bush-knife); there is no separate word
+> for "with a tool". That fuller sentence uses grammar taught later in this book.
 
-All four of the verbs above build the same shape. Whether the thing reached can
-be left out depends on the verb rather than on the meaning. With *mātamata* it
-can be left out. With *vaʻai* meaning to see something it cannot, unless the sentence carries a direction
-word, which this book teaches later; *vaʻai* on its own, in the sense of being able
-to see, as in the sentence you met earlier in this book "Now she sees", is complete. With *alofa* it can be left out too, and a
-sentence built that way is on record meaning that the person is full of
-sympathy. Every sentence in this chapter keeps the thing reached in place.
+### The Place Word Before a Person
 
-The one who does the seeing or feeling can also be a preverbal pronoun, the
-*ʻou* or *ia* met earlier in this book. It keeps its place in the middle slot
-before the verb, and the thing reached still follows with *ʻi*:
-
-::: {.examples}
-*Sā ʻou vaʻai ʻi le iʻa.* I saw the fish.
-
-*Sā ia vaʻai ʻi le pusi.* She saw the cat.
-:::
-
-> *Note:* The one who sees and the thing reached can come in either order. Both
-> *Sā vaʻai le teine ʻi le iʻa* and *Sā vaʻai ʻi le iʻa le teine* say "the girl
-> saw the fish". The verb stays first; the two parts after it are not locked in
-> place.
+Before a place, the word is *ʻi*. Before a person's name it usually changes shape to *iā*,
+and in front of a singular person-word, such as "me" or "you", it changes to *ʻia te*;
+in front of person-words for two or more people it is *iā*. You met *ʻia te* earlier
+in the book without a name for it: "to me" is *ʻia te aʻu*, not *ʻi aʻu*.
+Before an ordinary word for a person, like "the girl", the place word stays *ʻi*.
+This book points out the changed shape where it is needed; the plain *ʻi* is the
+everyday form.
 
 ---
 
-## Wanting
-
-This chapter teaches two wanting words and gives each of them one use. To
-want to do something, use *fia* in front of the action verb, the word met
-earlier in this book: *Sā ʻou fia ʻai* is "I wanted to eat", *Sā ia fia siva* is
-"she wanted to dance". To want a thing rather than an action, use *manaʻo*, and
-the thing wanted is usually marked by *ʻi*, exactly like the thing seen or loved:
+## The From-Word *mai*
 
 ::: {.examples}
-*ʻUa manaʻo le ulugāliʻi ʻi le meaʻai.* The couple wanted some food.
+*Na oso le tama mai le solofanua.* The boy jumped from the horse.
 :::
 
-*Manaʻo* is the wanting verb for a thing. Here it carries the change particle
-*ʻua*, marking the wanting as a state now in place. The couple, *ulugāliʻi*, is
-the one who wants; the food, *meaʻai*, is the thing wanted, pointed at with *ʻi*.
+Where *ʻi* points to a place or sits in one, *mai* points away from one. It is the
+from-word: it marks where something started. The new word here is *solofanua*
+(horse), and *mai le solofanua* is "from the horse", while *mai le fale* is "from
+the house". The from-word sits in the same end-of-sentence spot as the place
+word, in front of the naming part for the source.
 
 | Sāmoan | English |
 |---|---|
-| *ʻUa manaʻo le ulugāliʻi ʻi le meaʻai.* | The couple wanted some food. |
-| *ʻUa manaʻo le tama ʻi le meaʻai.* | The boy wanted some food. |
-| *ʻUa manaʻo le teine ʻi le niu.* | The girl wanted a coconut. |
+| *Na oso le tama mai le solofanua.* | The boy jumped from the horse. |
+| *Na oso le pusi mai le lāʻau.* | The cat jumped from the tree. |
+| *Na sau le teine mai le nuʻu.* | The girl came from the village. |
+| *Na sau le tama mai le fale.* | The boy came from the house. |
 
-So in the sentences of this chapter, *fia* takes an action and *manaʻo* takes a
-thing. Every wanting sentence here still speaks of what someone wanted, in the
-past or as a state now reached. Saying want as something happening at this
-moment waits for a particle taught later in this book.
+> *Note:* The from-word *mai* is often followed by the place word *ʻi*. Before a
+> common noun the two are normally said as one sound and frequently written as plain
+> *mai*, so a *mai* in print may stand for the pair. Take this as something to
+> recognise rather than to build; the examples in this book keep to *mai* alone in
+> front of the naming part.
 
----
+A sentence can hold both a place and a source at once, one marked by *ʻi* and one
+by *mai*, each in front of its own place: the place word for where the action
+sits or is headed, the from-word for where it began.
 
-## Asking and Calling
-
-Verbs of asking and calling work the same way. The one who asks or calls comes
-right after the verb here, though the two parts after the verb are not locked in
-place, and the person or thing reached, the one asked or called to, is marked
-by *ʻi*:
-
-::: {.examples}
-*Sā valaʻau le fafine ʻi le teine.* The woman called to the girl.
-
-*Sā fesili le ʻōfisa ʻi loʻu igoa.* The official asked for my name.
-:::
-
-*Valaʻau* is "call", and *ʻi le teine* is who was called to. *Fesili* is "ask",
-met earlier in this book; *le ʻōfisa* is the official who asked, and *ʻi loʻu igoa*
-is what was asked for, "my name". The verb points at what it reaches with *ʻi*,
-whether that is a place, a thing, a person spoken to, or a thing asked about.
-
-| Sāmoan | English |
-|---|---|
-| *Sā valaʻau le fafine ʻi le teine.* | The woman called to the girl. |
-| *Sā valaʻau le tama ʻi le teine.* | The boy called to the girl. |
-| *Sā fesili le ʻōfisa ʻi loʻu igoa.* | The official asked for my name. |
-| *Sā fesili le tama ʻi loʻu igoa.* | The boy asked for my name. |
-| *Sā ʻou valaʻau ʻi le uō.* | I called to the friend. |
-
----
-
-## Some of It, Not All
-
-::: {.examples}
-*Sā ʻai le teine ʻi le iʻa.* The girl ate some fish.
-:::
-
-This sentence is built on the verb *ʻai* (eat). Marking the thing with *ʻi* also
-carries a shade of meaning: the fish is marked with *ʻi*, and the sentence says the
-girl ate some of the fish, not that she finished it. Pointing at the fish with the place word says
-the action reached it, touched it, without saying it was wholly used up. To say
-the girl ate the whole fish, Sāmoan marks the doer with a different word, and
-that word draws a real contrast in meaning. The choice is not decorative:
-getting it wrong changes what the sentence says.
-
-> **Preview:** The verbs in this chapter point at their target with the place
-> word *ʻi*, and a sentence built this way never takes the marker that sets apart
-> the doer in a sentence where the thing is wholly affected. That marker, and the contrast it draws
-> with *ʻi*, are completed in Chapter 27. For now, every sentence in this pattern
-> uses *ʻi*.
+> **Preview:** Sāmoan also has words that name a spot on their own, like "up" and
+> "down" and "inside". They work together with the place word *ʻi*, and they are
+> completed in Chapter 26.
 
 ---
 
 ## Words to Learn
 
+**New grammar words** (memorize how these work):
+
+| Word | What it does |
+|---|---|
+| *ʻi* | the place word: marks where an action is or where it is headed (in, at, to) |
+| *mai* | the from-word: marks where something started (from) |
+| *iā*, *ʻia te* | the shapes the place word takes: usually *iā* before a person's name, *ʻia te* in front of a singular person-word, and *iā* in front of person-words for two or more people |
+
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *mātamata* | look at, watch |
-| *sisila* | look steadily, stare (a polite word, to recognize only) |
-| *ʻinoʻino* | hate, dislike |
-| *manaʻo* | want (a thing) |
-| *valaʻau* | call |
-| *iʻa* | fish |
-| *ʻiole* | rat |
-| *ʻōfisa* | office; official |
-| *ulugāliʻi* | couple |
+| *oso* | jump |
+| *solofanua* | horse |
+| *sapelu* | bush-knife |
+| *vao* | weeds, bush |
+| *lele* | fly |
 
-The pattern itself adds no new grammar word. It reuses the place word *ʻi* from
-earlier in this book, now pointing at the thing a verb reaches, and the wanting
-word *fia*, and it puts *alofa* (love) and *vaʻai* (see), both met before, into a full sentence
-for the first time.
+**Words to carry** (learned now, used fully later in this book): *vili*, *masini*,
+and *ʻogālāʻau* name a scene where a machine turns a log. Saying it as a full
+sentence needs a way to mark who does the action, taught later in this book, so
+for now learn the three words and meet the sentence there.
+
+| Word | Meaning |
+|---|---|
+| *vili* | rotate, spin |
+| *masini* | machine |
+| *ʻogālāʻau* | log |
 
 ---
 
@@ -195,54 +136,52 @@ for the first time.
 
 ### Exercise 1: Translate into English
 
-1. *Sā vaʻai le teine ʻi le iʻa.*
-2. *Sā alofa le tama ʻi le teine.*
-3. *ʻUa manaʻo le teine ʻi le niu.*
-4. *Sā valaʻau le fafine ʻi le teine.*
-5. *Sā ʻai le teine ʻi le iʻa.*
+1. *Sā nofo le pusi ʻi le lāʻau.*
+2. *Na oso le tama mai le solofanua.*
+3. *Sā ʻou alu ʻi le nuʻu.*
+4. *Na sau le teine mai le nuʻu.*
+5. *Sā lele le ʻāgelu ʻi le nuʻu.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The boy watched the cat.
-2. I saw the fish.
-3. The couple wanted some food.
-4. The official asked for my name.
-5. The girl hated the rat.
+1. The boy went to the house.
+2. The cat stayed in the tree.
+3. The girl jumped from the horse.
+4. She went to the village.
+5. The boy came from the house.
 
-### Exercise 3: Add the thing reached
+### Exercise 3: Choose *ʻi* or *mai*
 
-Each sentence below is missing the thing the verb reaches, so none of them is yet
-the two-participant sentence this chapter teaches. Rewrite each one with the
-thing given, marking it with the place word *ʻi*.
+Fill in the place word *ʻi* or the from-word *mai* so the phrase matches the
+English.
 
-1. *Sā vaʻai le tama.* (the cat)
-2. *Sā alofa le teine.* (the boy)
-3. *ʻUa manaʻo le tama.* (some food)
-4. *Sā valaʻau le fafine.* (the friend)
-5. *Sā ʻinoʻino le teine.* (the rat)
+1. *Sā nofo le tama ___ le fale.* (stayed in the house)
+2. *Na oso le pusi ___ le lāʻau.* (jumped from the tree)
+3. *Sā ʻou alu ___ le nuʻu.* (went to the village)
+4. *Na sau le teine ___ le fale.* (came from the house)
+5. *Sā ia alu ___ le fale.* (went to the house)
 
-### Exercise 4: Choose the wanting word
+### Exercise 4: Add the place
 
-Fill each gap with *fia* (to want to do something) or *manaʻo* (to want a
-thing), so the sentence matches the English.
+Rewrite each sentence with the place given, using *ʻi* for a place you are in or
+headed to and *mai* for a place you came from.
 
-1. *Sā ʻou ___ ʻai.* (I wanted to eat.)
-2. *ʻUa ___ le teine ʻi le niu.* (The girl wanted a coconut.)
-3. *Sā ia ___ siva.* (She wanted to dance.)
-4. *Sā ʻou ___ siva.* (I wanted to dance.)
-5. *ʻUa ___ le ulugāliʻi ʻi le meaʻai.* (The couple wanted some food.)
+1. *Sā nofo le tama.* (in the house)
+2. *Sā ʻou alu.* (to the village)
+3. *Na oso le pusi.* (from the tree)
+4. *Na sau le teine.* (from the village)
+5. *Na sau le tama.* (from the house)
 
-### Exercise 5: Swap in the preverbal pronoun
+### Exercise 5: Match the place word to its English
 
-Each sentence names the one who sees, loves, or calls with an article. Rewrite
-it with the preverbal pronoun *ʻou* (I) in the middle slot instead, keeping the
-thing reached.
+Each Sāmoan sentence uses *ʻi*. Say whether *ʻi* lands in English as "in", "to", or
+"into", and translate the sentence.
 
-1. *Sā vaʻai le teine ʻi le iʻa.*
-2. *Sā vaʻai le tama ʻi le pusi.*
-3. *Sā alofa le tama ʻi le teine.*
-4. *Sā valaʻau le fafine ʻi le teine.*
-5. *Sā valaʻau le fafine ʻi le uō.*
+1. *Sā nofo le pusi ʻi le lāʻau.*
+2. *Sā ia alu ʻi le fale.*
+3. *Sā oso le pusi ʻi le lāʻau.*
+4. *Sā lele le ʻāgelu ʻi le nuʻu.*
+5. *Sā nofo le tama ʻi le fale.*
 
 ---
 
@@ -250,40 +189,40 @@ thing reached.
 
 ### Exercise 1
 
-1. The girl saw the fish.
-2. The boy loved the girl.
-3. The girl wanted a coconut.
-4. The woman called to the girl.
-5. The girl ate some fish.
+1. The cat stayed in the tree.
+2. The boy jumped from the horse.
+3. I went to the village.
+4. The girl came from the village.
+5. The angel flew to the village.
 
 ### Exercise 2
 
-1. *Sā mātamata le tama ʻi le pusi.*
-2. *Sā ʻou vaʻai ʻi le iʻa.*
-3. *ʻUa manaʻo le ulugāliʻi ʻi le meaʻai.*
-4. *Sā fesili le ʻōfisa ʻi loʻu igoa.*
-5. *Sā ʻinoʻino le teine ʻi le ʻiole.*
+1. *Sā alu le tama ʻi le fale.*
+2. *Sā nofo le pusi ʻi le lāʻau.*
+3. *Na oso le teine mai le solofanua.*
+4. *Sā ia alu ʻi le nuʻu.*
+5. *Na sau le tama mai le fale.*
 
 ### Exercise 3
 
-1. *Sā vaʻai le tama ʻi le pusi.*
-2. *Sā alofa le teine ʻi le tama.*
-3. *ʻUa manaʻo le tama ʻi le meaʻai.*
-4. *Sā valaʻau le fafine ʻi le uō.*
-5. *Sā ʻinoʻino le teine ʻi le ʻiole.*
+1. *ʻi*
+2. *mai*
+3. *ʻi*
+4. *mai*
+5. *ʻi*
 
 ### Exercise 4
 
-1. *fia*
-2. *manaʻo*
-3. *fia*
-4. *fia*
-5. *manaʻo*
+1. *Sā nofo le tama ʻi le fale.*
+2. *Sā ʻou alu ʻi le nuʻu.*
+3. *Na oso le pusi mai le lāʻau.*
+4. *Na sau le teine mai le nuʻu.*
+5. *Na sau le tama mai le fale.*
 
 ### Exercise 5
 
-1. *Sā ʻou vaʻai ʻi le iʻa.*
-2. *Sā ʻou vaʻai ʻi le pusi.*
-3. *Sā ʻou alofa ʻi le teine.*
-4. *Sā ʻou valaʻau ʻi le teine.*
-5. *Sā ʻou valaʻau ʻi le uō.*
+1. "in": The cat stayed in the tree.
+2. "to": She (or He) went to the house.
+3. "into": The cat jumped into the tree.
+4. "to": The angel flew to the village.
+5. "in": The boy stayed in the house.

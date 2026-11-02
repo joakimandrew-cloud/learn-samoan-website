@@ -1,175 +1,84 @@
 {
-  "chapter": 42,
+  "chapter": 41,
   "items": [
     {
-      "id": "ch42-belonging-forms",
-      "kind": "grid",
-      "anchor": "the-belonging-forms",
-      "title": "The owner keeps a belonging word",
-      "data": {
-        "cols": [
-          "*a*-form",
-          "*o*-form"
-        ],
-        "rowLabel": "Owner",
-        "quiz": true,
-        "rows": [
-          {
-            "label": "I",
-            "cells": [
-              {
-                "sm": "aʻu"
-              },
-              {
-                "sm": "oʻu"
-              }
-            ]
-          },
-          {
-            "label": "He, she",
-            "cells": [
-              {
-                "sm": "ana"
-              },
-              {
-                "sm": "ona"
-              }
-            ]
-          },
-          {
-            "label": "We two, you and I",
-            "cells": [
-              {
-                "sm": "a tā"
-              },
-              {
-                "sm": "o tā"
-              }
-            ]
-          },
-          {
-            "label": "They two",
-            "cells": [
-              {
-                "sm": "a lā"
-              },
-              {
-                "sm": "o lā"
-              }
-            ]
-          },
-          {
-            "label": "We, but not you",
-            "cells": [
-              {
-                "sm": "a mātou"
-              },
-              {
-                "sm": "o mātou"
-              }
-            ]
-          },
-          {
-            "label": "We, all of us",
-            "cells": [
-              {
-                "sm": "a tātou"
-              },
-              {
-                "sm": "o tātou"
-              }
-            ]
-          },
-          {
-            "label": "You, all of you",
-            "cells": [
-              {
-                "sm": "a ʻoutou"
-              },
-              {
-                "sm": "o ʻoutou"
-              }
-            ]
-          },
-          {
-            "label": "They",
-            "cells": [
-              {
-                "sm": "a lātou"
-              },
-              {
-                "sm": "o lātou"
-              }
-            ]
-          }
-        ]
-      },
-      "caption": "Every owner here has both types, and the belonging word is required in the belonging-sentence. This book does not teach a form for one person addressed."
-    },
-    {
-      "id": "ch42-predication-phrase",
+      "id": "ch41-agent-review",
       "kind": "contrast",
-      "anchor": "the-belonging-word-stays-in",
-      "title": "The belonging-sentence must show the type",
+      "anchor": "who-did-what-to-whom",
+      "title": "A report, an agentless report, a prohibition",
       "data": {
-        "mode": "toggle",
+        "mode": "steps",
         "states": [
           {
-            "label": "Belonging-sentence",
-            "sm": "E a mātou le taʻavale.",
-            "en": "The car is ours.",
-            "note": "The owner stands after a tense particle and must carry the belonging word."
+            "label": "The doer named",
+            "sm": "Sā tatala e le teine le pusa.",
+            "en": "The girl opened the box.",
+            "note": "The doer is marked and the box stands bare."
           },
           {
-            "label": "Naming phrase",
-            "sm": "ʻO le mātou taʻavale.",
-            "en": "Our car.",
-            "note": "Here the group owner before the naming word leaves the belonging word out."
+            "label": "The doer absent",
+            "sm": "Sā tatala le pusa.",
+            "en": "The box was opened.",
+            "note": "The doer is removed and nothing replaces it."
+          },
+          {
+            "label": "The action forbidden",
+            "sm": "ʻAua le tatala=ina le pusa lenā.",
+            "en": "Don't open that box.",
+            "note": "Forbidding with *ʻaua le* requires the long form."
           }
         ]
       },
-      "caption": "The two printed forms put ownership in different slots. Only the belonging-sentence requires the type to be printed for every owner."
+      "caption": "Review three uses of the same verb. The last sentence follows a firm command rule, while the ordinary report uses the short form as its default."
     },
     {
-      "id": "ch42-whose-question",
-      "kind": "pick",
-      "anchor": "asking-whose",
-      "title": "Keep the type in the whose-question",
+      "id": "ch41-clause-review",
+      "kind": "sort",
+      "anchor": "reasons-purposes-and-conditions",
+      "title": "Read the relationship between clauses",
       "data": {
-        "question": "Which printed question asks this?",
-        "options": [
+        "bins": [
           {
-            "id": "car",
-            "sm": "ʻO ai e ana le taʻavale?"
+            "id": "reason",
+            "label": "Reason"
           },
           {
-            "id": "house",
-            "sm": "ʻO ai e ona le fale?"
+            "id": "purpose",
+            "label": "Purpose"
           },
           {
-            "id": "dog",
-            "sm": "ʻO ai e ana le maile?"
+            "id": "condition",
+            "label": "Condition"
           }
         ],
-        "prompts": [
+        "items": [
           {
-            "en": "Whose is the car?",
-            "answer": "car",
-            "why": "The car is an *a*-word, so the question uses *ana*."
+            "sm": "ʻUa alu le tama ʻona ʻua sau le teine.",
+            "en": "The boy went because the girl came.",
+            "bin": "reason",
+            "why": "The because-word opens a clause with its own tense particle."
           },
           {
-            "en": "Whose is the house?",
-            "answer": "house",
-            "why": "The house is an *o*-word, so the question uses *ona*."
+            "sm": "ʻUa mālamalama le teine ʻauā ʻua tautala le tama.",
+            "en": "The girl understands because the boy has spoken.",
+            "bin": "reason",
+            "why": "The second clause gives the reason for the first."
           },
           {
-            "en": "Whose is the dog?",
-            "answer": "dog",
-            "why": "The dog takes the *a*-form *ana* in the printed question."
+            "sm": "Sā alu le tama e ʻaumai le niu.",
+            "en": "The boy went to bring the coconut.",
+            "bin": "purpose",
+            "why": "The clause headed by *e* tells what the going was for."
+          },
+          {
+            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
+            "en": "If it rains tomorrow, the trip will not go.",
+            "bin": "condition",
+            "why": "The first clause says what has to be true before the main clause follows."
           }
         ]
       },
-      "intro": "Choose the whole question, keeping both the thing asked about and its belonging type."
+      "intro": "Choose what the added clause contributes, using the patterns already learned."
     }
   ]
 }

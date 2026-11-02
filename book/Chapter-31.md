@@ -1,174 +1,194 @@
-# Chapter 31: Comparison and Degree
+# Chapter 30: The Complement Clause: Can and Must
 
-This chapter adds the comparison patterns: the direction word *atu* carrying the
-comparative degree, the than-word *i lo* naming what a thing is measured
-against, and the verbs *sili* (best), *pei* (like) and *tusa* (the same). The
-quality word keeps its shape in every pattern here, so these separate words
-carry the whole job, and with them you can say that one thing has more of a quality than
-another, that one thing stands above the rest, and that two things are alike.
-
----
-
-## The Comparative *Atu*
-
-::: {.examples}
-*E mālosi le tama.* The boy is strong.
-
-*E mālosi atu le tama.* The boy is stronger.
-:::
-
-Read that pair once more before going on. Which word was added?
-
-*Atu*, the direction word for away from the speaker. Set on a quality word it
-does a second job and raises the degree, so that *mālosi* is strong and *mālosi
-atu* is stronger. No ending is added to the quality word: the degree arrives as
-a word standing after it, and *mālosi* is *mālosi* in both sentences above.
-
-The pattern has three parts in a fixed order: the tense particle, then the
-quality word, then *atu*. What the sentence is about follows in its usual place,
-after the verb.
-
-| Sāmoan | English |
-|---|---|
-| *E mālosi atu le tama.* | The boy is stronger. |
-| *E loloto atu le vai.* | The water is deeper. |
-| *E laʻitiiti atu le manulele.* | The bird is smaller. |
-| *E vevela atu le koko.* | The cocoa is hotter. |
-
-*koko* means "cocoa" and *manulele* means "bird".
-
-Nothing in those four sentences says stronger than what, or deeper than what.
-Sāmoan leaves the other side of the comparison unsaid, and a sentence built
-this way is complete as it stands. Naming that other side takes
-one more word.
+This chapter introduces the complement clause, a whole clause that stands where
+a noun phrase would otherwise stand, and the one word that opens it, *ona*
+(that). The chapter teaches the construction through the ability and obligation
+words *mafai* (can) and *tatau* (must), which belong to a larger group of words
+that take such a clause, so you can say what people can, must, and should do.
 
 ---
 
-## Naming What You Compare With: *i lo*
+## The Complement Clause
 
 ::: {.examples}
-*E mālosi atu le tama i lo le teine.* The boy is stronger than the girl.
+*E sā ona ulaula.* It is forbidden to smoke.
 
-*E laʻitiiti atu le manulele i lo le maile.* The bird is smaller than the dog.
+*ʻUa tatau ona ʻou alu.* I must go. (Lit. "It is necessary that I go.")
 :::
 
-*maile* means "dog".
+Each sentence runs two halves, the word that takes a clause and the clause itself, with one word between them. *Sā* (forbidden) and
+*tatau* (necessary) come first, in the ordinary predicate slot straight after
+the tense particle. What is forbidden, and what is necessary, then follows as a
+clause of its own: *ulaula* (smoke) in the first sentence, *ʻou alu* (I go) in
+the second. Between the two halves stands *ona*, the only joining word Sāmoan
+uses to open a clause in this position.
 
-The thing measured against comes last, and *i lo* is the word that introduces
-it. A phrase opened by *i lo* is the **than-word** phrase, and it says which
-other thing the quality is being weighed against. Everything in front of it
-keeps the order it already had: tense particle, quality word, *atu*, then what
-the sentence is about, then *i lo* and its noun phrase.
+A clause that fills the slot a noun phrase would otherwise fill, the slot for
+what the sentence is about rather than for a doer marked with *e*, is called a
+**complement clause**, and *ona* is the **that-word** that opens it. The pattern
+of this chapter has four parts in a fixed order: the tense particle, then the
+word that takes the complement, then *ona*, then the complement clause itself.
 
 | Sāmoan | English |
 |---|---|
-| *E mālosi atu le tama i lo le teine.* | The boy is stronger than the girl. |
-| *E mamao atu le aʻau i lo le uafu.* | The reef is further away than the wharf. |
-| *E fou atu le faitotoʻa i lo le fale.* | The door is newer than the house. |
-| *E vevela atu le koko i lo le vai.* | The cocoa is hotter than the water. |
-| *E laʻitiiti atu le manulele i lo le maile.* | The bird is smaller than the dog. |
+| *E sā ona ulaula.* | It is forbidden to smoke. |
+| *ʻUa tatau ona ʻou alu.* | I must go. |
+| *ʻUa mafai ona sau le teine.* | The girl can come. |
+| *E faʻasā ona tausi ni pusi.* | It is forbidden to keep cats. (Someone has forbidden it.) |
 
-*aʻau* means "reef" and *faitotoʻa* means "door".
+*faʻasā* means "forbid".
 
-> *Note:* The *lo* can be dropped, leaving the place word *ʻi* on its own to
-> introduce what is compared. Both forms are correct. This book prints the
-> fuller *i lo* throughout. Inside the than-word the place word is printed
-> without its mark, which is how the dictionary prints the phrase.
+The complement clause always follows the word that takes it, and nothing puts
+it in front. Read the first half of any of these sentences on its own and it is
+unfinished, in the way *ʻUa tatau* on its own is unfinished: the clause after
+*ona* is what the sentence is about, and the word in front of it says something
+about that clause.
+
+The two halves are not two separate happenings. In *ʻUa tatau ona ʻou alu*
+nobody is doing one thing called being
+necessary and another thing called going. There is one event, the going, and
+*tatau* qualifies it as the necessary one. The same reading holds throughout
+this chapter: the clause after *ona* names the event, and the word in front
+grades it as possible, necessary, permitted or forbidden.
 
 ---
 
-## The Most and the Best: *Sili*
+## Saying What Can Be Done: *Mafai*
 
 ::: {.examples}
-*E sili ona lelei le fale.* The house is the best. (Lit. "It is best that the house is good.")
+*ʻOu te lē mafai ona ʻou ʻai meaʻai.* I cannot eat food.
 
-*E sili ona mālosi le maile.* The dog is the strongest. (Lit. "It is best that the dog is strong.")
+*Sā lē mafai ona ʻou alu.* I could not go.
 :::
 
-*Sili* means better, best, more, most. In this chapter's pattern it is one of
-the words that takes a complement clause, so *ona* follows it and the clause after *ona* carries no
-tense particle of its own. The quality and the thing that has it both go inside
-that clause, which is why the literal shape of the first sentence is "it is best
-that the house is good" and the plain English for it is "the house is the best".
+Both sentences say what the speaker could not do, and both name the speaker
+inside the complement clause with the preverbal pronoun *ʻou* (I). They part
+company in the first half. In the first sentence *ʻou te* stands in front of
+*mafai*, so the person is named on both sides of *ona*. In the second, *mafai*
+carries no person at all, and the sentence says that the going could not be
+done; the complement clause alone supplies who would have done it. *Mafai*
+takes the person either way: on itself as well as inside the complement clause,
+or inside the complement clause alone.
 
 | Sāmoan | English |
 |---|---|
-| *E sili ona lelei le fale.* | The house is the best. |
-| *E sili ona mālosi le maile.* | The dog is the strongest. |
-| *E sili ona loloto le vai.* | The water is the deepest. |
-| *E sili ona fou le faitotoʻa.* | The door is the newest. |
+| *ʻOu te mafai ona ʻou alu.* | I can go. |
+| *Sā lē mafai ona ʻou alu.* | I could not go. |
+| *E mafai ona siva le uso.* | The sibling can dance. |
+| *ʻUa mafai ona sau le teine.* | The girl can come. |
 
-*Sili* takes *atu* too, and with *i lo* after it the comparison has two named
-sides again:
+*uso* means "sibling: a man's brother, a woman's sister".
 
-::: {.examples}
-*E sili atu ona mālosi le maile i lo le manulele.* The dog is stronger than the bird. (Lit. "It is more that the dog is strong than the bird.")
-:::
-
-That sentence compares the same two animals as
-*E mālosi atu le maile i lo le manulele.* The two routes differ in where the
-degree sits: on the quality word itself in the first pattern, and on *sili* in
-front of the clause in this one.
-
-> **Preview:** Speakers often build a comparison inside a clause that describes
-> the thing compared rather than stating it flat, so that "her brothers are
-> older than she is" comes out as "her brothers who are older than she is".
-> That kind of clause is taught in Chapter 43, and comparison is one of the
-> places Sāmoan prefers it.
+To say that something cannot be done, put the not-word *lē* in front of
+*mafai*. That placement is what makes the whole ability negative: *Sā lē mafai
+ona ʻou alu* says that the going was not possible, not that a possible thing
+failed to happen.
 
 ---
 
-## Saying Two Things Are Alike: *Pei* and *Tusa Ma*
+## Saying What Must Be Done: *Tatau*
 
 ::: {.examples}
-*Sā tautala le tama e pei sā ʻi ai.* The boy spoke as if he had been there. (Lit. "Past speak the boy, as if past there.")
+*E tatau ona alu le tama.* The boy must go.
 
-*Sā tagi le pepe e pei o se manulele.* The baby cried like a bird.
+*ʻUa tatau ona sau le teine.* The girl must come.
 :::
 
-*Pei* means "like, as if". It heads a clause of its own that hangs on the end of
-a finished sentence, and it takes the general particle *e* in front of it. What
-follows *pei* in this chapter is one of two things. In the first sentence it is a clause with a
-tense particle of its own, *sā ʻi ai* (had been there). In the second it is a
-noun phrase opened by *o*, the presenting particle met earlier in this book,
-which the sources this chapter draws on print without its mark in this position,
-although other sources print it with the mark: *o se manulele*
-(a bird).
+*Tatau* is the word you met earlier in this book for "fit, proper". With a
+complement clause after it, it is the obligation word: necessary, must. Because
+the same word covers what is fitting as well as what is required, it is also
+where English "should" lands: *E tatau ona alu le tama* covers "the boy should
+go" as much as "the boy must go". The construction names no one who is doing the
+requiring. It says that a state of
+affairs is called for, and the person who has to act appears inside the
+complement clause, as *le tama* and *le teine* do here.
 
-| Sāmoan | English |
+---
+
+## The Words That Take a Complement Clause
+
+::: {.examples}
+*ʻUa taga ona inu ʻava mālosi.* It is allowed to drink alcohol. (Lit. "It is allowed to drink strong kava.")
+
+*E faʻasā ona tausi ni pusi.* It is forbidden to keep cats. (Someone has forbidden it.)
+:::
+
+*Mafai* and *tatau* belong to a group of words built the same way. Each one
+grades the clause after *ona* as permitted, forbidden, necessary or possible,
+and every one of them set in a sentence in this chapter carries a tense particle
+in front of it.
+
+| Word | Meaning |
 |---|---|
-| *Sā tautala le tama e pei sā ʻi ai.* | The boy spoke as if he had been there. |
-| *Sā tagi le pepe e pei o se manulele.* | The baby cried like a bird. |
-| *E tautala le tama e pei o se saienitisi.* | The boy talks like a scientist. |
+| *sā* | forbidden, must not |
+| *taga* | allowed, may |
+| *tatau* | necessary, must |
+| *mafai* | can, able |
+| *lē lavā* | cannot, be unable, exhausted |
+| *faitalia* | do as one pleases |
+| *faʻasā* | forbid |
+| *faʻataga* | allow |
 
-*saienitisi* means "scientist".
+The last two are the maker-prefix at work on the first two. *Sā* is forbidden
+and *faʻasā* is to make forbidden, which is to forbid; *taga* is allowed and
+*faʻataga* is to make allowed, which is to allow. *Faʻasā* keeps the same
+complement clause after it that *sā* takes, so *E faʻasā ona tausi ni pusi* says
+that someone has forbidden the keeping of cats, where *E sā ona ulaula* says
+only that smoking is forbidden. *Faʻataga* stands beside it as a word of the
+same kind, and this book sets no sentence with it.
 
-> *Note:* *Sā ʻi ai* is the where-sentence you already know, with *ʻi ai* (there)
-> as its place. Nothing inside it names who was there, because the first half of
-> the sentence has already said so.
+*Lavā* (be able) is mostly met with the not-word in front of it, as *lē lavā*,
+cannot or be unable. *Faitalia* (do as one pleases) leaves the matter to whoever
+is named.
 
-*Tusa* is the other verb of this pair, and it means equal, the same, in
-accordance with. What the first half is measured against comes in after *ma*,
-the with-word:
+> *Note:* The word *sā* does two jobs. As the past particle it comes straight
+> before the person and the verb, with no tense particle in front of it:
+> *Sā ʻou alu* (I went). As the word for "forbidden" it stands in the predicate
+> slot, with a tense particle of its own in front of it: *E sā ona ulaula*. What
+> stands in front of *sā*, and what follows it, tells the two apart.
+
+> **Preview:** The words in this table are not the only ones that take a clause
+> after *ona*. Later in this book you will meet a word meaning "since" that is
+> built the same way: it stands in the predicate slot, and the thing that has
+> been true since then follows as a clause opened by *ona*. That construction is
+> taught in Chapter 44.
+
+---
+
+## When the Second Verb Keeps Its Own Tense
 
 ::: {.examples}
-*Sā siva le teine e tusa ma le finagalo o le tamā.* The girl danced in accordance with the father's wish.
+*ʻUa iloa e le tama ʻua sau le teine.* The boy knows that the girl has come.
+
+*ʻUa mafai ona sau le teine.* The girl can come.
 :::
 
-*finagalo* means "wish".
+Compare them. Which sentence carries two tense particles?
 
-Nothing inside the *tusa* clause names who is the same, and nothing needs to:
-the first half of the sentence has already named her, so Sāmoan leaves the word
-out rather than say it twice.
+The first sentence carries two. *ʻUa iloa* opens it and *ʻua sau* opens the clause that
+follows, and that clause has no *ona* in front of it at all. Sāmoan has two ways
+of joining a complement clause to the word that takes it. One sets the clause
+down with nothing between, and in the sentences this chapter shows, that clause
+keeps a tense particle of its own, read against the time of the first half. The
+other opens the clause with *ona*, and then the clause carries no tense
+particle: it sits under the tense of the word in front of it.
 
-> *Note:* The two verbs do different work. *Pei* likens one thing to another,
-> which is why the same word covers both "like" and "as if". Where a clause
-> follows it, as in the first sentence above, the comparison is with a
-> situation imagined rather than one that actually happened. Sāmoan has a third
-> thing that can follow *pei*, used when the compared situation really did
-> occur, and this chapter does not teach it. *Tusa ma* claims sameness or
-> agreement, and it is the word this chapter's own sentence uses for acting in
-> accordance with a wish.
+| Sāmoan | English | Tense particles |
+|---|---|---|
+| *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. | two |
+| *ʻUa mafai ona sau le teine.* | The girl can come. | one |
+| *E tatau ona alu le tama.* | The boy must go. | one |
+
+So in *E tatau ona alu le tama* the general particle *e* covers the whole
+sentence, the obligation and the going alike, and *alu* stands bare. Every word
+in the table of words that take a complement clause, earlier in this chapter,
+takes the *ona* kind of complement.
+
+> **Preview:** The word *ona* has a second job. Usually written the same way, it also
+> opens a clause of reason and means "because". One test separates them: a
+> clause meaning "because" carries a tense particle of its own, while the
+> complement clause of this chapter carries none. That second job is taught in
+> Chapter 38.
 
 ---
 
@@ -178,38 +198,37 @@ out rather than say it twice.
 
 | Word | What it does |
 |---|---|
-| *atu* | the direction word, met earlier for away from the speaker; set on a quality word it carries the comparative degree instead |
-| *i lo* | the than-word: it introduces what a thing is compared with, and its phrase comes last |
-| *sili* | better, best, more, most: in this chapter's pattern it takes a complement clause after *ona* and raises that clause's degree; in this chapter's sentences it gives the top degree on its own and, with *atu* and *i lo*, a comparison |
-| *pei* | like, as if: it heads a clause of comparison and takes a clause or a noun phrase after it in this chapter's sentences |
-| *tusa* | equal, the same, in accordance with: it heads a clause of comparison and takes *ma* before what is compared |
-| *ma* | the with-word, met earlier; after *tusa* it introduces the thing the first half agrees with |
+| *ona* | the that-word: the only joining word that opens a complement clause, and the clause after it never carries a tense particle |
+| *tatau* | the obligation word: necessary, must. Met earlier as "fit, proper"; here it takes a complement clause after *ona* |
+| *sā* | the word for forbidden, must not. Spelled like the past particle, and told apart by position, since this *sā* stands in the predicate slot with a tense particle of its own in front |
 
 **New vocabulary** (memorize these meanings):
 
+The verbs:
+
 | Word | Meaning |
 |---|---|
-| *moni* | true |
-| *aʻau* | reef |
-| *faitotoʻa* | door |
-| *finagalo* | wish (a polite word: used of the wish of God, a chief, a stranger or anyone of higher rank, never of your own) |
-| *isu* | nose |
-| *koko* | cocoa |
-| *maile* | dog |
-| *manulele* | bird |
-| *ōfaga* | nest |
-| *saienitisi* | scientist |
+| *mafai* | can, able |
+| *taga* | allowed, may |
+| *faʻasā* | forbid |
+| *faʻataga* | allow |
+| *faitalia* | do as one pleases |
+| *lavā* | be able (mostly as *lē lavā*, cannot) |
+| *ulaula* | smoke |
 
-*Moni* also stands inside a fixed phrase for the truth:
+The nouns:
+
+| Word | Meaning |
+|---|---|
+| *ʻava* | kava, and in *ʻava mālosi* alcohol |
+| *pologa* | slave |
+| *uso* | sibling: a man's brother, a woman's sister |
+
+*Pologa* takes an o-word possessive form, with the belonging types taught
+earlier in this book:
 
 ::: {.examples}
-*le mea moni*. the truth
-:::
-
-Three of the new words meet in one phrase:
-
-::: {.examples}
-*ʻO le ōfaga o le manulele ʻi luga o le koko.* The nest of the bird in the cocoa tree. (Lit. "The nest of the bird on top of the cocoa.")
+*ʻO lona pologa.* His slave.
 :::
 
 ---
@@ -218,59 +237,69 @@ Three of the new words meet in one phrase:
 
 ### Exercise 1: Translate into English
 
-1. *E mālosi atu le tama.*
-2. *E vevela atu le koko i lo le vai.*
-3. *E sili ona lelei le fale.*
-4. *Sā tagi le pepe e pei o se manulele.*
-5. *E laʻitiiti atu le manulele i lo le maile.*
-6. *E laʻitiiti atu le isu o le pusi i lo le isu o le maile.*
+1. *E sā ona ulaula.*
+2. *ʻUa tatau ona ʻou alu.*
+3. *E mafai ona siva le uso.*
+4. *Sā lē mafai ona ʻou alu.*
+5. *ʻUa taga ona inu ʻava mālosi.*
+6. *E faʻasā ona tausi ni pusi.*
+7. *ʻUa iloa e le tama ʻua sau le teine.*
+8. *ʻO lona pologa.*
 
-### Exercise 2: Translate into Sāmoan
+### Exercise 2: Choose the word in front of *ona*
 
-1. The water is deeper.
-2. The door is newer than the house.
-3. The dog is the strongest.
-4. The reef is further away than the wharf.
-5. The boy talks like a scientist.
-6. The story is true.
+Fill the gap with *mafai*, *tatau*, *sā* or *taga* so the Sāmoan matches the
+English.
 
-### Exercise 3: Make each sentence compare
+1. *E ___ ona ulaula.* (It is forbidden to smoke.)
+2. *ʻUa ___ ona ʻou alu.* (I must go.)
+3. *ʻUa ___ ona sau le teine.* (The girl can come.)
+4. *ʻUa ___ ona inu ʻava mālosi.* (It is allowed to drink alcohol.)
+5. *E ___ ona alu le tama.* (The boy must go.)
+6. *E ___ ona siva le uso.* (The sibling can dance.)
 
-Put *atu* in its place after the quality word and write the sentence out.
+### Exercise 3: Translate into Sāmoan
 
-1. *E loloto le vai.*
-2. *E fou le faitotoʻa.*
-3. *E mamao le aʻau.*
-4. *E mālosi le maile.*
-5. *E lelei le fale.*
+1. The boy must go.
+2. The girl can come.
+3. I can go.
+4. It is forbidden to drink.
+5. The girl cannot dance.
+6. Someone has forbidden the keeping of cats.
 
-### Exercise 4: Name the other side
+### Exercise 4: One tense particle or two?
 
-Add *i lo* and the noun phrase in brackets to the end of each sentence.
+For each sentence, say how many tense particles it carries, and whether the
+second clause is opened by *ona*.
 
-1. *E laʻitiiti atu le manulele.* (*le maile*)
-2. *E vevela atu le koko.* (*le vai*)
-3. *E mālosi atu le tama.* (*le teine*)
-4. *E fou atu le faitotoʻa.* (*le fale*)
-5. *E mamao atu le aʻau.* (*le uafu*)
+1. *ʻUa mafai ona sau le teine.*
+2. *ʻUa iloa e le teine ʻua sau le tama.*
+3. *E tatau ona alu le tama.*
+4. *ʻUa iloa e le tama ʻua sau le teine.*
+5. *ʻOu te mafai ona ʻou alu.*
+6. *E sā ona inu.*
 
-### Exercise 5: Choose *e pei* or *e tusa ma*
+### Exercise 5: Which *sā*?
 
-Fill each gap so that the Sāmoan matches the English.
+For each sentence, say whether *sā* is the past particle or the word for
+"forbidden", and how you can tell.
 
-1. *Sā siva le teine ___ le finagalo o le tamā.* (The girl danced in accordance with the father's wish.)
-2. *E tautala le tama ___ o se saienitisi.* (The boy talks like a scientist.)
-3. *Sā tautala le tama ___ sā ʻi ai.* (The boy spoke as if he had been there.)
-4. *Sā tagi le pepe ___ o se manulele.* (The baby cried like a bird.)
-5. *Sā alu le tama ___ le finagalo o le tamā.* (The boy went in accordance with the father's wish.)
+1. *Sā ʻou alu.*
+2. *E sā ona ulaula.*
+3. *E sā ona inu.*
+4. *Sā lē mafai ona ʻou alu.*
+5. *E sā ona sau le teine.*
 
 ### Exercise 6: Give the meaning
 
-1. *aʻau*
-2. *isu*
-3. *koko*
-4. *finagalo*
-5. *ōfaga*
+1. *ona*
+2. *mafai*
+3. *taga*
+4. *faitalia*
+5. *faʻataga*
+6. *lavā*
+7. *pologa*
+8. *uso*
 
 ---
 
@@ -278,50 +307,67 @@ Fill each gap so that the Sāmoan matches the English.
 
 ### Exercise 1
 
-1. The boy is stronger.
-2. The cocoa is hotter than the water.
-3. The house is the best.
-4. The baby cried like a bird.
-5. The bird is smaller than the dog.
-6. The cat's nose is smaller than the dog's nose.
+1. It is forbidden to smoke.
+2. I must go.
+3. The sibling can dance.
+4. I could not go.
+5. It is allowed to drink alcohol.
+6. It is forbidden to keep cats; someone has forbidden it.
+7. The boy knows that the girl has come.
+8. His slave.
 
 ### Exercise 2
 
-1. *E loloto atu le vai.*
-2. *E fou atu le faitotoʻa i lo le fale.*
-3. *E sili ona mālosi le maile.*
-4. *E mamao atu le aʻau i lo le uafu.*
-5. *E tautala le tama e pei o se saienitisi.*
-6. *E moni le tala.*
+1. *E sā ona ulaula.*
+2. *ʻUa tatau ona ʻou alu.*
+3. *ʻUa mafai ona sau le teine.*
+4. *ʻUa taga ona inu ʻava mālosi.*
+5. *E tatau ona alu le tama.*
+6. *E mafai ona siva le uso.*
 
 ### Exercise 3
 
-1. *E loloto atu le vai.*
-2. *E fou atu le faitotoʻa.*
-3. *E mamao atu le aʻau.*
-4. *E mālosi atu le maile.*
-5. *E lelei atu le fale.*
+The English of items 1, 2 and 5 does not say which tense particle to use, so the
+alternative given in brackets is right as well.
+
+1. *E tatau ona alu le tama.* (*ʻUa tatau ona alu le tama* is also right, and
+   either sentence covers "the boy should go".)
+2. *ʻUa mafai ona sau le teine.* (*E mafai ona sau le teine* is also right.)
+3. *ʻOu te mafai ona ʻou alu.* (*E mafai ona ʻou alu* is also right, with the speaker
+   named only inside the clause.)
+4. *E sā ona inu.*
+5. *E lē mafai ona siva le teine.* (*ʻUa lē mafai ona siva le teine* is also
+   right.)
+6. *E faʻasā ona tausi ni pusi.*
 
 ### Exercise 4
 
-1. *E laʻitiiti atu le manulele i lo le maile.*
-2. *E vevela atu le koko i lo le vai.*
-3. *E mālosi atu le tama i lo le teine.*
-4. *E fou atu le faitotoʻa i lo le fale.*
-5. *E mamao atu le aʻau i lo le uafu.*
+1. One, and the second clause is opened by *ona*.
+2. Two, and the second clause is not opened by *ona*.
+3. One, and the second clause is opened by *ona*.
+4. Two, and the second clause is not opened by *ona*.
+5. One, and the second clause is opened by *ona*.
+6. One, and the second clause is opened by *ona*.
 
 ### Exercise 5
 
-1. *Sā siva le teine e tusa ma le finagalo o le tamā.*
-2. *E tautala le tama e pei o se saienitisi.*
-3. *Sā tautala le tama e pei sā ʻi ai.*
-4. *Sā tagi le pepe e pei o se manulele.*
-5. *Sā alu le tama e tusa ma le finagalo o le tamā.*
+1. The past particle, with nothing in front of it and the person and the verb
+   following.
+2. The word for "forbidden". The general particle *e* stands in front of it, so
+   *sā* is in the predicate slot.
+3. The word for "forbidden", for the same reason.
+4. The past particle. Nothing stands in front of it, and the predicate slot
+   after it holds *lē mafai*.
+5. The word for "forbidden". The general particle *e* stands in front of it, so
+   *sā* is in the predicate slot, and a clause opened by *ona* follows.
 
 ### Exercise 6
 
-1. reef
-2. nose
-3. cocoa
-4. wish
-5. nest
+1. the that-word, which opens a complement clause
+2. can, able
+3. allowed, may
+4. do as one pleases
+5. allow
+6. be able, mostly as *lē lavā*, cannot
+7. slave
+8. sibling: a man's brother, a woman's sister

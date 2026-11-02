@@ -1,196 +1,123 @@
-# Chapter 21: Question Words
+# Chapter 20: The With-Word *Ma*
 
-This chapter adds the set of question words for the verb sentence, with who,
-when (future and past) and how put to use, and what and where recalled from
-earlier sentence types. The fact this chapter turns on is that the word for
-"when" comes in two shapes, one for future time and one for past.
+This chapter adds the with-word *ma*, a single word that joins a companion to an
+action as "with" and joins two doers as "and". Whether *ma* means "with" or
+"and" is read from the number of the verb, where the verb has a plural form to
+show: singular for "with", plural for "and".
 
 ---
 
-## Asking Who
+## The With-Word *Ma*
 
 ::: {.examples}
-*ʻO ai na alu?* Who went?
+*Sā fāgota le tama ma le vaʻa.* The boy went fishing with the canoe.
 :::
 
-The question word for a person is *ai*, "who". In the who-questions of this
-chapter it comes to the front of the sentence with the presenting particle *ʻo*
-in front of it, so the asking part is *ʻo ai*, and the action follows. Where a name or a noun phrase would tell you who
-did the going, *ʻo ai* asks for it instead.
+The sentence in front of *ma* is one you could already build: a past particle, a
+verb, and a doer. The new word is *ma*, the **with-word**: it stands in front of
+a companion and adds it to the sentence. Here the companion is *le vaʻa* (the
+canoe), the thing the boy took along.
 
-You have met this word before. Earlier in this book *ʻo ai* asked who someone is
-in a naming sentence, as in *ʻO ai ʻoe?* ("Who are you?"). It is the same word,
-doing the same job, now placed in front of a whole action:
+A companion is a thing carried along or a person who comes too. It goes at the
+end, after the doer, with *ma* in front of it. The doer is still one person, so
+the verb keeps its singular shape and nothing else in the sentence moves:
 
 | Sāmoan | English |
 |---|---|
-| *ʻO ai na alu?* | Who went? |
-| *ʻO ai na sau?* | Who came? |
-| *ʻO ai na moe?* | Who slept? |
-| *ʻO ai na siva?* | Who danced? |
-| *ʻO ai na faʻaipoipo?* | Who got married? |
+| *Sā siva le teine ma le ili.* | The girl danced with the fan. |
+| *Sā alu le teine ma le uō.* | The girl went with the friend. |
+| *Sā fāgota le tama ma le vaʻa.* | The boy went fishing with the canoe. |
 
-Here is the set of question words this book uses for the verb sentence. Most
-of them you
-will use in this chapter; two of them, *fia* and *ʻaiseā*, are shown so the set
-is complete and are taught later in this book.
+In each row one person does the action and *ma* adds what came along with them,
+whether a thing like *le ili* (the fan) or a person like *le uō* (the friend).
+The doer stays single, so the verb stays singular.
 
-| Question word | Asks about |
-|---|---|
-| *ai* | who |
-| *ā* | what |
-| *fea* | where |
-| *āfea* | when (future) |
-| *anafea* | when (past) |
-| *faʻapefea* | how |
-| *fia* | how many |
-| *ʻaiseā* | why |
-
-Sāmoan also has *lēfea* (which), for asking which one of several. It is one to
-recognize when you meet it; this chapter does not drill it.
-
-> **Preview:** The word *fia* asks "how many". It belongs with the counting
-> words, so its full use, as in *E fia aso?* ("How many days are there?"), is
-> taught with the numbers in Chapter 22.
-
-> *Note:* The *fia* that asks "how many" is a different word from the *fia*
-> "want" met earlier in this book. Same spelling, different job.
-
-> **Preview:** The word *ʻaiseā* asks "why". Asking why leans on machinery that
-> arrives later, so *ʻaiseā* is completed in Chapter 38.
+> *Note:* The with-word is the "with" of company and of things taken along, not
+> the "with" of a tool being used. A tool's "with" is marked by a different
+> word in Sāmoan.
 
 ---
 
-## Asking When: Past and Future
+## Joining Two Doers
 
-Sāmoan does not have one word for "when". It has two, and the choice is settled by
-time: one word asks about future time, the other asks about past time. Read this
-pair, the same question except for the time being asked about:
-
-::: {.examples}
-*ʻO āfea ʻoleʻā moe ai le tama?* When will the boy sleep?
-
-*ʻO anafea na moe ai le tama?* When did the boy sleep?
-:::
-
-Compare them. Which words changed?
-
-Two words moved together. The when-word changed from *āfea* to *anafea*, and the
-tense particle changed with it, from the future particle *ʻoleʻā* to the past
-particle *na*. The future when-word *āfea* rides a future sentence; the past
-when-word *anafea* rides a past sentence. Asking about future time with the past
-word, or about past time with the future word, does not match.
-
-This is the same split you met in the time words earlier in this book: a word
-beginning with *ana-* points back to past time, and a word beginning with *ā-*
-points forward to future time (print also shows this front with a catch, *ʻā-*).
-The when-words carry that same front, *anafea* with the past *ana-* and *āfea*
-with the future *ā-*.
-
-When the when-word comes to the front like this, the pointing-back word *ai*
-appears inside the verb, holding the place the when-word left. That is the *ai*
-sitting after *moe* in both questions above.
-
-> *Note:* This *ai* is not the question word for "who" met earlier in this book.
-> Same spelling, different job: that *ai* stands at the front, after *ʻo*, while
-> this *ai* sits inside the verb and points back to the when-word fronted ahead
-> of it.
-
-The when-word does not have to come to the front. It can stay in its own place at
-the end of the sentence, and then no *ai* is needed:
+The same word *ma* does a second job. Put it between two doers and it joins them
+into one pair who do the action together, the "and" of "the boy and the girl":
 
 ::: {.examples}
-*Na lā faʻaipoipo anafea?* When did the two of them get married?
+*Sā nonofo le tama ma le teine.* The boy and the girl stayed.
 :::
 
-Here *anafea* sits at the end, in the plain place a time word takes, so the verb
-holds no *ai*. Fronting the when-word and copying it with *ai*, or leaving it at
-the end, are two ways to ask the same question.
+Now *le tama* and *le teine* are both doers, joined by *ma* into a single pair.
+Because two people do the staying, the verb takes its plural shape: *nonofo*, the
+plural of *nofo* met earlier in this book. The plural verb is the sign that both
+names are doers and that *ma* here means "and", not "with".
 
 | Sāmoan | English |
 |---|---|
-| *ʻO āfea ʻoleʻā moe ai le tama?* | When will the boy sleep? |
-| *ʻO āfea ʻoleʻā sau ai le teine?* | When will the girl come? |
-| *ʻO anafea na moe ai le tama?* | When did the boy sleep? |
-| *ʻO anafea na siva ai le teine?* | When did the girl dance? |
-| *Na lā faʻaipoipo anafea?* | When did the two of them get married? |
+| *Sā nonofo le tama ma le teine.* | The boy and the girl stayed. |
+| *Sā nonofo le teine ma le uō.* | The girl and the friend stayed. |
 
 ---
 
-## Asking How
+## The Number of the Verb Tells You Which
+
+English keeps "with" and "and" apart with two different words. Sāmoan uses the
+one word *ma* for both, and lets the verb settle which is meant. Read this pair,
+the same words each time except for the verb:
 
 ::: {.examples}
-*Sā faʻapefea le aso?* How was the day?
+*Sā nofo le tama ma le teine.* The boy stayed with the girl.
+
+*Sā nonofo le tama ma le teine.* The boy and the girl stayed.
 :::
 
-The question word for "how" is *faʻapefea*. It behaves like a describing verb: it
-stands where a word like *lelei* (good) would stand, and asks after the manner or
-the state of something. *Sā faʻapefea le aso?* puts *faʻapefea* in the place a
-describing word would fill and leaves it open for the answer.
+Compare them. Which word changed?
 
-| Sāmoan | English |
-|---|---|
-| *Sā faʻapefea le aso?* | How was the day? |
-| *E faʻapefea le teine?* | How is the girl? |
-| *E faʻapefea le fale?* | How is the house? |
+Only the verb: *nofo* in the first, *nonofo* in the second. Every other word is
+the same, and in the same order. The singular verb *nofo* means one person did
+the staying and the other came along, so *ma* is "with". The plural verb
+*nonofo* means both did the staying together, so *ma* is "and". Where the verb
+has a plural form to show, its number is the whole difference between a
+companion and a second doer.
+
+> **Preview:** The for-word *mo* means "for", as in *mo le vaiaso* (for a week).
+> Its full story, including the way it partly echoes the a-word and o-word split
+> you met earlier, is told in Chapter 25. Until then, keep *ma* for "with" and
+> "and".
+
+> *Note:* Do not mix the with-word *ma* with the for-word *mo*, one vowel apart.
+> *Ma* adds a companion or joins two doers; *mo* means "for". The for-word is
+> taught later in this book, together with a "for" sense the with-word also
+> carries.
 
 ---
 
-## Asking What and Where
-
-You can already ask what and where with sentences from earlier in this book, and
-this chapter lists both words in the verb sentence's set.
-
-For "what", the word is *ā*. You met it in the naming sentence, where the asking
-part *ʻo le ā* means "what is it". A longer pattern built on *ā* asks what a thing
-caught up in an action is, opening with *ʻo le ā le mea*; the machinery that
-carries the rest of that question arrives in a later chapter. Until then, ask
-"what" with the naming sentence you already know.
-
-For "where", the word is *fea*. You met it in the where-sentence, where *ʻo fea*
-asks after a place and the answer comes back with *ʻi ai*:
+## A Describing Word
 
 ::: {.examples}
-*ʻO fea e ʻi ai le ʻato?* Where is the basket?
+*E paʻepaʻe le ili.* The fan is white.
 :::
 
-The same shape asks after any thing or person whose place you want:
-
-| Sāmoan | English |
-|---|---|
-| *ʻO fea e ʻi ai le ʻato?* | Where is the basket? |
-| *ʻO fea e ʻi ai le fala?* | Where is the mat? |
-| *ʻO fea e ʻi ai le lau?* | Where is the leaf? |
-| *ʻO fea e ʻi ai le ʻofu?* | Where is the dress? |
-
-> *Note:* The leaf word *lau* is spelled like the belonging form *lau* ("your")
-> met earlier in this book. The article *le* in front, as in *le lau* (the
-> leaf), marks it as the naming word for a leaf.
+The describing word *paʻepaʻe* (white) says how a thing is.
 
 ---
 
-## Yes or No Questions
+## Other Jobs of *Ma*
 
-Not every question has a question word. A yes or no question has none: it keeps
-the words and the order of the statement, and often changes only the voice,
-which usually falls and stays low over the last two or three syllables. Sāmoan
-also has two question-marking words, met earlier in this book, that a
-speaker can add; they are optional, and this chapter leaves them aside. The
-falling tune is marked with the arrow ↘, the same way it was marked earlier in
-this book:
+The word *ma* reaches past "with" and "and" into a few further jobs, met in
+reading rather than drilled here. Placed after a word like *mamao* (far), it
+says "far from", and more widely it marks what one thing is separated from,
+distant from, or different from: Sāmoan describes a boat lying far from its home
+village that way. As a plain describing word, *mamao* says only that something
+is far off:
 
 ::: {.examples}
-*E lelei le fale o le aliʻi.* The chief's house is good.
-
-*E lelei le fale o le aliʻi?* ↘ Is the chief's house good?
+*E mamao le nuʻu.* The village is far.
 :::
 
-A question word and the falling tune do different work. A word like *ʻo ai* or
-*āfea* names the missing piece, who or when. A yes or no question has no such
-word: it leaves the statement whole and asks whether the whole of it is so. The
-tune is not the difference between them. A question with a question word is
-spoken on the question tune as well, the voice usually low over the last two or
-three syllables; this book marks the arrow on the yes or no questions.
+*Ma* also turns up in a fixed phrase for becoming something, alongside the word
+*ʻavea* (become). These uses are for recognition; the drills of this chapter
+keep *ma* to "with" and "and".
 
 ---
 
@@ -200,33 +127,30 @@ three syllables; this book marks the arrow on the yes or no questions.
 
 | Word | What it does |
 |---|---|
-| *ai* | the who-word: asks who; in this chapter's questions it comes to the front after *ʻo* |
-| *āfea* | the future when-word: asks when about future time and goes with the future particle *ʻoleʻā*; it comes to the front after *ʻo*, copied by *ai* inside the verb, or stays at the end of the sentence |
-| *anafea* | the past when-word: asks when about past time and goes with the past particle *na*; it takes the same two places as *āfea* |
-| *faʻapefea* | the how-word: asks how, and stands where a describing word would stand |
-| *lēfea* | the which-word: asks which one of several; recognize it when you meet it, it is not drilled here |
+| *ma* | the with-word: "with" before a companion, "and" between two doers; where the verb has a plural form to show, its number tells you which |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *faʻaipoipo* | marry |
-| *moe* | sleep (said of one person) |
-| *ʻato* | basket |
-| *fala* | pandanus, mat |
-| *lau* | leaf |
-| *ʻofu* | dress |
+| *vaʻa* | boat, canoe |
+| *ili* | fan |
+| *paʻepaʻe* | white |
+| *mamao* | far |
 
-**Words to carry** (learned now, used fully later in this book): *tausi* (take
-care of) needs the marker that names the doer of an action, which arrives in a
-later chapter, before you can say who takes care of whom.
+**Words to carry** (learned now, used fully later in this book): *vaiaso*
+(week) rides the for-word *mo*, taught later in this book; *taʻu* (tell) joins a
+full sentence once the marker that names the doer of an action arrives in a later
+chapter. *ʻavea* (become) is learned here for its meaning alone. It never stands
+by itself: it always takes a following phrase naming what someone or something
+becomes, the fixed use of *ma* named in the section above, and that phrase is not
+built anywhere in this book.
 
 | Word | Meaning |
 |---|---|
-| *tausi* | take care of |
-
-The other question words, *ā*, *fea*, *fia* and *ʻaiseā*, are set out in the table
-under Asking Who.
+| *vaiaso* | week |
+| *taʻu* | tell |
+| *ʻavea* | become |
 
 ---
 
@@ -234,50 +158,53 @@ under Asking Who.
 
 ### Exercise 1: Translate into English
 
-1. *ʻO ai na alu?*
-2. *ʻO āfea ʻoleʻā moe ai le tama?*
-3. *ʻO anafea na siva ai le teine?*
-4. *Sā faʻapefea le aso?*
-5. *ʻO fea e ʻi ai le ʻato?*
+1. *Sā fāgota le tama ma le vaʻa.*
+2. *Sā siva le teine ma le ili.*
+3. *Sā nonofo le tama ma le teine.*
+4. *Sā alu le teine ma le uō.*
+5. *E mamao le nuʻu.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. Who came?
-2. When did the boy sleep?
-3. When will the girl come?
-4. How is the house?
-5. Where is the mat?
+1. The girl danced with the fan.
+2. The boy and the girl stayed.
+3. The boy went fishing with the canoe.
+4. The fan is white.
+5. The girl went with the friend.
 
-### Exercise 3: Past or future when-word
+### Exercise 3: With or and
 
-Each English question asks about past time or future time. Fill the blank with
-*āfea* or *anafea* so the when-word matches.
+Read the verb in each sentence. Where the verb has a plural form to show, a
+singular verb makes *ma* "with" and a plural verb makes *ma* "and". Write "with"
+or "and" for each.
 
-1. *ʻO ___ ʻoleʻā moe ai le tama?* (When will the boy sleep?)
-2. *ʻO ___ na siva ai le teine?* (When did the girl dance?)
-3. *ʻO ___ ʻoleʻā sau ai le teine?* (When will the girl come?)
-4. *ʻO ___ na alu ai le tama?* (When did the boy go?)
-5. *ʻO ___ ʻoleʻā moe ai le teine?* (When will the girl sleep?)
+1. *Sā nofo le tama ma le teine.*
+2. *Sā nonofo le tama ma le teine.*
+3. *Sā fāgota le tama ma le vaʻa.*
+4. *Sā nonofo le teine ma le uō.*
+5. *Sā siva le teine ma le ili.*
 
-### Exercise 4: Choose the question word
+### Exercise 4: Choose the verb
 
-Fill the blank so the question matches the English.
+The English tells you whether one person acts with a companion or two people act
+together. Put *nofo* or *nonofo* in the gap.
 
-1. *ʻO ___ na sau?* (Who came?)
-2. *Sā ___ le aso?* (How was the day?)
-3. *ʻO ___ e ʻi ai le ʻofu?* (Where is the dress?)
-4. *ʻO ___ na faʻaipoipo?* (Who got married?)
-5. *ʻO ___ e ʻi ai le fala?* (Where is the mat?)
+1. *Sā ___ le tama ma le teine.* (The boy stayed with the girl.)
+2. *Sā ___ le tama ma le teine.* (The boy and the girl stayed.)
+3. *Sā ___ le teine ma le uō.* (The girl and the friend stayed.)
+4. *Sā ___ le teine ma le uō.* (The girl stayed with the friend.)
+5. *Sā ___ le tama ma le uō.* (The boy and the friend stayed.)
 
-### Exercise 5: Make the yes or no question
+### Exercise 5: Add the companion
 
-Rewrite each statement as a yes or no question, and mark the falling tune with ↘.
+Add *ma* and the companion to the end of each sentence so it matches the
+English.
 
-1. *E lelei le fale o le aliʻi.*
-2. *Sā moe le tama.*
-3. *Sā siva le teine.*
-4. *Sā faʻaipoipo le teine.*
-5. *Sā sau le tama.*
+1. *Sā fāgota le tama ___.* (The boy went fishing with the canoe.)
+2. *Sā siva le teine ___.* (The girl danced with the fan.)
+3. *Sā alu le teine ___.* (The girl went with the friend.)
+4. *Sā nofo le tama ___.* (The boy stayed with the girl.)
+5. *Sā nofo le teine ___.* (The girl stayed with the boy.)
 
 ---
 
@@ -285,40 +212,40 @@ Rewrite each statement as a yes or no question, and mark the falling tune with �
 
 ### Exercise 1
 
-1. Who went?
-2. When will the boy sleep?
-3. When did the girl dance?
-4. How was the day?
-5. Where is the basket?
+1. The boy went fishing with the canoe.
+2. The girl danced with the fan.
+3. The boy and the girl stayed.
+4. The girl went with the friend.
+5. The village is far.
 
 ### Exercise 2
 
-1. *ʻO ai na sau?*
-2. *ʻO anafea na moe ai le tama?*
-3. *ʻO āfea ʻoleʻā sau ai le teine?*
-4. *E faʻapefea le fale?*
-5. *ʻO fea e ʻi ai le fala?*
+1. *Sā siva le teine ma le ili.*
+2. *Sā nonofo le tama ma le teine.*
+3. *Sā fāgota le tama ma le vaʻa.*
+4. *E paʻepaʻe le ili.*
+5. *Sā alu le teine ma le uō.*
 
 ### Exercise 3
 
-1. *āfea*
-2. *anafea*
-3. *āfea*
-4. *anafea*
-5. *āfea*
+1. with
+2. and
+3. with
+4. and
+5. with
 
 ### Exercise 4
 
-1. *ai*
-2. *faʻapefea*
-3. *fea*
-4. *ai*
-5. *fea*
+1. *nofo*
+2. *nonofo*
+3. *nonofo*
+4. *nofo*
+5. *nonofo*
 
 ### Exercise 5
 
-1. *E lelei le fale o le aliʻi?* ↘
-2. *Sā moe le tama?* ↘
-3. *Sā siva le teine?* ↘
-4. *Sā faʻaipoipo le teine?* ↘
-5. *Sā sau le tama?* ↘
+1. *ma le vaʻa*
+2. *ma le ili*
+3. *ma le uō*
+4. *ma le teine*
+5. *ma le tama*

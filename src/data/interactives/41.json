@@ -1,84 +1,225 @@
 {
-  "chapter": 41,
+  "chapter": 40,
   "items": [
     {
-      "id": "ch41-agent-review",
+      "id": "ch40-description-position",
       "kind": "contrast",
-      "anchor": "who-did-what-to-whom",
-      "title": "A report, an agentless report, a prohibition",
+      "anchor": "the-describing-verb-after-a-noun",
+      "title": "A statement becomes a description",
       "data": {
-        "mode": "steps",
+        "mode": "toggle",
         "states": [
           {
-            "label": "The doer named",
-            "sm": "Sā tatala e le teine le pusa.",
-            "en": "The girl opened the box.",
-            "note": "The doer is marked and the box stands bare."
+            "label": "A whole statement",
+            "sm": "E uliuli le taʻavale.",
+            "en": "The car is black.",
+            "note": "The describing verb is the verb of the sentence."
           },
           {
-            "label": "The doer absent",
-            "sm": "Sā tatala le pusa.",
-            "en": "The box was opened.",
-            "note": "The doer is removed and nothing replaces it."
-          },
-          {
-            "label": "The action forbidden",
-            "sm": "ʻAua le tatala=ina le pusa lenā.",
-            "en": "Don't open that box.",
-            "note": "Forbidding with *ʻaua le* requires the long form."
+            "label": "Inside a noun phrase",
+            "sm": "le taʻavale uliuli",
+            "en": "the black car",
+            "note": "The same verb follows the noun and says which car is meant."
           }
         ]
       },
-      "caption": "Review three uses of the same verb. The last sentence follows a firm command rule, while the ordinary report uses the short form as its default."
+      "caption": "The describing word keeps its shape and remains a verb. Its position changes what the whole expression does."
     },
     {
-      "id": "ch41-clause-review",
+      "id": "ch40-description-number",
+      "kind": "contrast",
+      "anchor": "plural-describing-verbs-after-a-noun",
+      "title": "The describing verb has number too",
+      "data": {
+        "mode": "toggle",
+        "states": [
+          {
+            "label": "One cat",
+            "sm": "le pusi uliuli",
+            "en": "the black cat"
+          },
+          {
+            "label": "More than one cat",
+            "sm": "pusi uli",
+            "en": "black cats"
+          }
+        ]
+      },
+      "caption": "The article disappears for the particular plural, and the describing verb takes its plural form. This is the agreement pattern taught for the noun as the verb’s single participant."
+    },
+    {
+      "id": "ch40-description-kinds",
       "kind": "sort",
-      "anchor": "reasons-purposes-and-conditions",
-      "title": "Read the relationship between clauses",
+      "anchor": "describing-verbs-in-a-row",
+      "title": "What fills the describing slot?",
       "data": {
         "bins": [
           {
-            "id": "reason",
-            "label": "Reason"
+            "id": "single",
+            "label": "One describing verb"
           },
           {
-            "id": "purpose",
-            "label": "Purpose"
+            "id": "part",
+            "label": "A part and its quality"
           },
           {
-            "id": "condition",
-            "label": "Condition"
+            "id": "verb-noun",
+            "label": "A verb and a bare noun"
+          },
+          {
+            "id": "place",
+            "label": "A verb with a place phrase"
           }
         ],
         "items": [
           {
-            "sm": "ʻUa alu le tama ʻona ʻua sau le teine.",
-            "en": "The boy went because the girl came.",
-            "bin": "reason",
-            "why": "The because-word opens a clause with its own tense particle."
+            "sm": "le tama faʻalogogōfie",
+            "en": "the obedient boy",
+            "bin": "single",
+            "why": "The one built word stands as the describing verb."
           },
           {
-            "sm": "ʻUa mālamalama le teine ʻauā ʻua tautala le tama.",
-            "en": "The girl understands because the boy has spoken.",
-            "bin": "reason",
-            "why": "The second clause gives the reason for the first."
+            "sm": "tagata tino leaga",
+            "en": "people with bad bodies",
+            "bin": "part",
+            "why": "The word *tino* names a body and *leaga* describes its quality."
           },
           {
-            "sm": "Sā alu le tama e ʻaumai le niu.",
-            "en": "The boy went to bring the coconut.",
-            "bin": "purpose",
-            "why": "The clause headed by *e* tells what the going was for."
+            "sm": "le teine fai umu",
+            "en": "the cooking girl",
+            "bin": "verb-noun",
+            "why": "The verb *fai* has the bare noun *umu* after it."
           },
           {
-            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
-            "en": "If it rains tomorrow, the trip will not go.",
-            "bin": "condition",
-            "why": "The first clause says what has to be true before the main clause follows."
+            "sm": "le pasi alu ʻi le nuʻu",
+            "en": "the bus going to the village",
+            "bin": "place",
+            "why": "The verb *alu* carries the whole place phrase *ʻi le nuʻu* in the describing slot."
           }
         ]
       },
-      "intro": "Choose what the added clause contributes, using the patterns already learned."
+      "intro": "Choose the kind of description after the noun."
+    },
+    {
+      "id": "ch40-order-describing-words",
+      "kind": "order",
+      "anchor": "the-describing-verb-after-a-noun",
+      "place": "end",
+      "title": "The describing word comes after",
+      "intro": "Tap the words to build the Sāmoan for each English. One word on offer does not belong.",
+      "data": {
+        "prompt": "Say this in Sāmoan",
+        "items": [
+          {
+            "en": "She cried hard.",
+            "sm": "Sā ia tagi mālosi.",
+            "extra": [
+              "fia"
+            ],
+            "why": "The action verb *tagi* leads, and the describing verb *mālosi* follows it to say how the crying was done."
+          },
+          {
+            "en": "You all danced well.",
+            "sm": "Sā ʻoutou siva lelei.",
+            "extra": [
+              "fia"
+            ],
+            "why": "*Lelei* does the describing job after the action verb *siva*: danced, and danced well."
+          },
+          {
+            "en": "the black car",
+            "sm": "le taʻavale uliuli",
+            "extra": [
+              "pusi"
+            ],
+            "why": "Three parts in a fixed order: the article *le*, the name of the thing *taʻavale*, then the describing verb *uliuli*."
+          },
+          {
+            "en": "the cooking girl",
+            "sm": "le teine fai umu",
+            "extra": [
+              "tama"
+            ],
+            "why": "The verb-and-noun compound *fai umu* works as one describing verb, and it stands behind the noun it describes."
+          },
+          {
+            "en": "the bus going to the village",
+            "sm": "le pasi alu ʻi le nuʻu",
+            "extra": [
+              "tama"
+            ],
+            "why": "The describing verb *alu* carries its place phrase *ʻi le nuʻu* behind it, and the whole of it stands in the one position after *le pasi*."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch40-difficult-easy",
+      "kind": "grid",
+      "anchor": "the-endings-gata-and-gofie",
+      "title": "Learn the meanings of the built words",
+      "data": {
+        "cols": [
+          "With *=gatā*",
+          "With *=gōfie*"
+        ],
+        "rowLabel": "Base",
+        "rows": [
+          {
+            "label": "*fai*",
+            "cells": [
+              {
+                "sm": "faigatā",
+                "en": "difficult"
+              },
+              {
+                "sm": "faigōfie",
+                "en": "easy"
+              }
+            ]
+          },
+          {
+            "label": "*faʻalogo*",
+            "cells": [
+              {
+                "sm": "faʻalogogatā",
+                "en": "disobedient"
+              },
+              {
+                "sm": "faʻalogogōfie",
+                "en": "obedient"
+              }
+            ]
+          },
+          {
+            "label": "*tau*",
+            "cells": [
+              {
+                "sm": "taugatā",
+                "en": "expensive"
+              },
+              {
+                "sm": "taugōfie",
+                "en": "cheap"
+              }
+            ]
+          },
+          {
+            "label": "*mau*",
+            "cells": [
+              {
+                "sm": "maugatā",
+                "en": "mean, tight-fisted"
+              },
+              {
+                "sm": "maugōfie",
+                "en": "generous"
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Each built word has its own meaning. The chapter says to learn them word by word, rather than translate every one as difficult or easy."
     }
   ]
 }

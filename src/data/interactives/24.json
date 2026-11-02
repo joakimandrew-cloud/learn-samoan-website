@@ -1,57 +1,85 @@
 {
-  "chapter": 24,
+  "chapter": 23,
   "items": [
     {
-      "id": "ch24-dont-or-stop",
-      "kind": "contrast",
-      "anchor": "the-stop-verb-soia",
-      "title": "Forbid an action or stop one under way",
-      "caption": "The two do-not verbs take the same person and verb after them. Their difference is whether the action is forbidden or already under way.",
-      "data": {
-        "mode": "toggle",
-        "states": [
-          { "label": "Forbid", "sm": "ʻAua ʻe te siva.", "en": "Don't dance." },
-          { "label": "Stop", "sm": "Sōia ʻe te siva.", "en": "Stop dancing." }
-        ]
-      }
-    },
-    {
-      "id": "ch24-four-negative-tools",
+      "id": "ch23-three-sentence-types",
       "kind": "grid",
-      "anchor": "a-command-has-no-not-word",
-      "title": "Four negative tools for four jobs",
-      "caption": "A statement, an event not yet completed, missing existence, and a forbidden command use different negative tools.",
+      "anchor": "the-three-sentence-types",
+      "title": "Three sentence frames",
+      "caption": "A verb sentence carries an action, a naming sentence identifies, and a where-sentence puts a place where a verb would stand.",
       "data": {
-        "cols": ["Printed example"],
+        "cols": [
+          "Model sentence"
+        ],
         "rows": [
-          { "label": "Statement denied", "cells": [ { "sm": "Sā lē siva le tama.", "en": "The boy did not dance." } ] },
-          { "label": "Not yet", "cells": [ { "sm": "E leʻi alu le teine.", "en": "The girl has not gone yet." } ] },
-          { "label": "Nothing exists", "cells": [ { "sm": "E leai se tusi.", "en": "There is no book." } ] },
-          { "label": "Action forbidden", "cells": [ { "sm": "ʻAua ʻe te faitala.", "en": "Don't gossip." } ] }
+          {
+            "label": "Verb sentence",
+            "cells": [
+              {
+                "sm": "Sā ʻou alu.",
+                "en": "I went."
+              }
+            ]
+          },
+          {
+            "label": "Naming sentence",
+            "cells": [
+              {
+                "sm": "ʻO se uō le tama.",
+                "en": "The boy is a friend."
+              }
+            ]
+          },
+          {
+            "label": "Where-sentence",
+            "cells": [
+              {
+                "sm": "Sā ʻi le fale le teine.",
+                "en": "The girl was in the house."
+              }
+            ]
+          }
         ]
       }
     },
     {
-      "id": "ch24-pick-aua-soia",
+      "id": "ch23-pick-sentence-type",
       "kind": "pick",
-      "anchor": "the-stop-verb-soia",
-      "title": "Choose do not or stop",
-      "intro": "Read the English and choose the complete printed prohibition.",
+      "anchor": "the-three-sentence-types",
+      "title": "Name the sentence type",
+      "intro": "Read each sentence and choose the frame it uses.",
       "data": {
-        "question": "Which sentence says this?",
+        "question": "Which sentence type is this?",
+        "options": [
+          {
+            "id": "verb",
+            "label": "Verb sentence"
+          },
+          {
+            "id": "naming",
+            "label": "Naming sentence"
+          },
+          {
+            "id": "where",
+            "label": "Where-sentence"
+          }
+        ],
         "prompts": [
-          { "en": "Don't gossip.", "answer": "forbid", "options": [
-            { "id": "forbid", "sm": "ʻAua ʻe te faitala." },
-            { "id": "stop", "sm": "Sōia ʻe te faitala." }
-          ], "why": "The do-not verb forbids the action." },
-          { "en": "Stop dancing.", "answer": "stop", "options": [
-            { "id": "forbid", "sm": "ʻAua ʻe te siva." },
-            { "id": "stop", "sm": "Sōia ʻe te siva." }
-          ], "why": "The stop verb tells the listener to end the action already under way." },
-          { "en": "Stop crying.", "answer": "stop", "options": [
-            { "id": "forbid", "sm": "ʻAua ʻe te siva." },
-            { "id": "stop", "sm": "Sōia ʻe te tagi." }
-          ], "why": "The crying is treated as already under way." }
+          {
+            "sm": "Sā ʻou alu.",
+            "answer": "verb",
+            "why": "A tense particle stands in front of the action verb."
+          },
+          {
+            "sm": "ʻO se uō le tama.",
+            "answer": "naming",
+            "why": "Two naming parts identify the boy as a friend."
+          },
+          {
+            "sm": "Sā ʻi le fale le teine.",
+            "answer": "where",
+            "why": "A place stands after the tense particle where a verb would stand."
+          }
         ]
       }
     }

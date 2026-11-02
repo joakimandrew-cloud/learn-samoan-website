@@ -1,84 +1,151 @@
 {
-  "chapter": 23,
+  "chapter": 22,
   "items": [
     {
-      "id": "ch23-three-sentence-types",
-      "kind": "grid",
-      "anchor": "the-three-sentence-types",
-      "title": "Three sentence frames",
-      "caption": "A verb sentence carries an action, a naming sentence identifies, and a where-sentence puts a place where a verb would stand.",
+      "id": "ch22-number-line",
+      "kind": "scale",
+      "anchor": "counting-things",
+      "title": "The numbers from one to ten",
+      "caption": "The number words follow a fixed order. Five is the same printed word as hand, which appeared earlier in the book.",
       "data": {
-        "cols": [
-          "Model sentence"
-        ],
-        "rows": [
+        "layout": "line",
+        "axis": {
+          "from": "One",
+          "to": "Ten"
+        },
+        "points": [
           {
-            "label": "Verb sentence",
-            "cells": [
-              {
-                "sm": "Sā ʻou alu.",
-                "en": "I went."
-              }
-            ]
+            "x": 0,
+            "label": "tasi",
+            "gloss": "one"
           },
           {
-            "label": "Naming sentence",
-            "cells": [
-              {
-                "sm": "ʻO se uō le tama.",
-                "en": "The boy is a friend."
-              }
-            ]
+            "x": 11,
+            "label": "lua",
+            "gloss": "two"
           },
           {
-            "label": "Where-sentence",
-            "cells": [
-              {
-                "sm": "Sā ʻi le fale le teine.",
-                "en": "The girl was in the house."
-              }
-            ]
+            "x": 22,
+            "label": "tolu",
+            "gloss": "three"
+          },
+          {
+            "x": 33,
+            "label": "fā",
+            "gloss": "four"
+          },
+          {
+            "x": 44,
+            "label": "lima",
+            "gloss": "five"
+          },
+          {
+            "x": 56,
+            "label": "ono",
+            "gloss": "six"
+          },
+          {
+            "x": 67,
+            "label": "fitu",
+            "gloss": "seven"
+          },
+          {
+            "x": 78,
+            "label": "valu",
+            "gloss": "eight"
+          },
+          {
+            "x": 89,
+            "label": "iva",
+            "gloss": "nine"
+          },
+          {
+            "x": 100,
+            "label": "sefulu",
+            "gloss": "ten"
           }
         ]
       }
     },
     {
-      "id": "ch23-pick-sentence-type",
-      "kind": "pick",
-      "anchor": "the-three-sentence-types",
-      "title": "Name the sentence type",
-      "intro": "Read each sentence and choose the frame it uses.",
+      "id": "ch22-count-things-people",
+      "kind": "contrast",
+      "anchor": "counting-people",
+      "title": "Counting people adds the people prefix",
+      "caption": "The general counting shape stays in place. The careful form adds *toʻa* to the number when the things counted are people.",
       "data": {
-        "question": "Which sentence type is this?",
-        "options": [
+        "mode": "toggle",
+        "states": [
           {
-            "id": "verb",
-            "label": "Verb sentence"
+            "label": "Things",
+            "sm": "ipu e lua",
+            "en": "the two cups"
           },
           {
-            "id": "naming",
-            "label": "Naming sentence"
+            "label": "People",
+            "sm": "teine e toʻalua",
+            "en": "the two girls"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch22-sort-number-phrases",
+      "kind": "sort",
+      "anchor": "putting-things-in-order",
+      "title": "Sort three jobs for numbers",
+      "intro": "Place each complete printed phrase with counting things, telling the hour, or naming a place in an order.",
+      "data": {
+        "bins": [
+          {
+            "id": "count",
+            "label": "Count things"
           },
           {
-            "id": "where",
-            "label": "Where-sentence"
+            "id": "clock",
+            "label": "Tell the hour"
+          },
+          {
+            "id": "order",
+            "label": "Place in an order"
           }
         ],
-        "prompts": [
+        "items": [
           {
-            "sm": "Sā ʻou alu.",
-            "answer": "verb",
-            "why": "A tense particle stands in front of the action verb."
+            "sm": "ipu e lua",
+            "en": "the two cups",
+            "bin": "count",
+            "why": "The general particle links the number to the noun it counts."
           },
           {
-            "sm": "ʻO se uō le tama.",
-            "answer": "naming",
-            "why": "Two naming parts identify the boy as a friend."
+            "sm": "tama e tolu",
+            "en": "the three boys",
+            "bin": "count",
+            "why": "The number follows the noun with *e* in front."
           },
           {
-            "sm": "Sā ʻi le fale le teine.",
-            "answer": "where",
-            "why": "A place stands after the tense particle where a verb would stand."
+            "sm": "ʻi le itūlā e tolu",
+            "en": "at three o'clock",
+            "bin": "clock",
+            "why": "The clock hour counts the word for hour."
+          },
+          {
+            "sm": "ʻi le itūlā e iva",
+            "en": "at nine o'clock",
+            "bin": "clock",
+            "why": "The same counting construction tells the hour."
+          },
+          {
+            "sm": "le fale lona lua",
+            "en": "the second house",
+            "bin": "order",
+            "why": "The word *lona* turns the plain number into a place in an order."
+          },
+          {
+            "sm": "le ipu lona fā",
+            "en": "the fourth cup",
+            "bin": "order",
+            "why": "The noun is followed by *lona* and the number."
           }
         ]
       }

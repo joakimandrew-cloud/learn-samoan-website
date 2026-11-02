@@ -1,112 +1,91 @@
 {
-  "chapter": 17,
+  "chapter": 16,
   "items": [
     {
-      "id": "ch17-location-through-time",
+      "id": "ch16-place-to-ai",
       "kind": "contrast",
-      "anchor": "the-tense-particle-on-a-place",
-      "title": "The particle moves the location through time",
-      "caption": "The place and the person stay fixed. Changing the tense particle moves the location from the past, through a change now, to the future.",
+      "anchor": "pointing-back-to-a-place",
+      "title": "Replace the named place with *ai*",
+      "caption": "The full place phrase sits at the end. The pointing-back word replaces it and moves directly after the verb, before the doer.",
       "data": {
         "mode": "steps",
         "states": [
           {
-            "label": "Past",
-            "sm": "Sā ʻi le fale le teine.",
-            "en": "The girl was in the house."
+            "label": "Place named",
+            "sm": "Sā nofo le teine ʻi le nuʻu.",
+            "en": "The girl lived in the village."
           },
           {
-            "label": "Now there",
-            "sm": "ʻUa ʻi le fale le teine.",
-            "en": "The girl is now in the house."
-          },
-          {
-            "label": "Future",
-            "sm": "ʻOleʻā ʻi le fale le teine.",
-            "en": "The girl will be in the house."
+            "label": "Place carried forward",
+            "sm": "Sā nofo ai le teine.",
+            "en": "The girl lived there."
           }
         ]
       }
     },
     {
-      "id": "ch17-existence-location",
+      "id": "ch16-fronted-place",
       "kind": "contrast",
-      "anchor": "the-where-sentence-and-the-there-is-verb",
-      "title": "Deny existence or deny a location",
-      "caption": "The one-word there-is-none verb denies that a car exists there. The separate not-word before *ʻi ai* denies the girl's location.",
+      "anchor": "putting-the-place-first",
+      "title": "A fronted place can be copied inside",
+      "caption": "Both printed forms are good Sāmoan. The pointing-back copy after the verb is common but optional when the place already leads.",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Existence denied",
-            "sm": "E leai se taʻavale ʻi le nuʻu.",
-            "en": "There is no car in the village."
+            "label": "With the copy",
+            "sm": "ʻI le nuʻu sā nofo ai le teine.",
+            "en": "In the village the girl lived. (Lit. \"In the village the girl lived there.\")"
           },
           {
-            "label": "Location denied",
-            "sm": "ʻO le nuʻu e lē ʻi ai le teine.",
-            "en": "The girl is not in the village."
+            "label": "Without the copy",
+            "sm": "ʻI le nuʻu sā nofo le teine.",
+            "en": "In the village the girl lived."
           }
         ]
       }
     },
     {
-      "id": "ch17-pick-location-negative",
-      "kind": "pick",
-      "anchor": "the-where-sentence-and-the-there-is-verb",
-      "title": "Choose absence or not there",
-      "intro": "Read the English and choose the printed sentence that matches it.",
+      "id": "ch16-sort-ai-i-ai",
+      "kind": "sort",
+      "anchor": "going-there-i-ai",
+      "title": "Sort there and to there",
+      "intro": "Place each complete sentence under the pointing-back form it uses.",
       "data": {
-        "question": "Which sentence makes the intended distinction?",
-        "prompts": [
+        "bins": [
           {
-            "en": "There is no car in the village.",
-            "answer": "absence",
-            "options": [
-              {
-                "id": "absence",
-                "sm": "E leai se taʻavale ʻi le nuʻu."
-              },
-              {
-                "id": "location",
-                "sm": "ʻO le nuʻu e lē ʻi ai le teine."
-              }
-            ],
-            "why": "The there-is-none verb denies that the car exists there."
+            "id": "there",
+            "label": "There"
           },
           {
-            "en": "The girl is not in the village.",
-            "answer": "location",
-            "options": [
-              {
-                "id": "absence",
-                "sm": "E leai se taʻavale ʻi le nuʻu."
-              },
-              {
-                "id": "location",
-                "sm": "ʻO le nuʻu e lē ʻi ai le teine."
-              }
-            ],
-            "why": "The separate not-word denies the girl's location."
+            "id": "to-there",
+            "label": "To there"
+          }
+        ],
+        "items": [
+          {
+            "sm": "Sā nofo ai le teine.",
+            "en": "The girl lived there.",
+            "bin": "there",
+            "why": "A verb of staying uses the bare pointing-back word here."
           },
           {
-            "en": "The girl is in the house.",
-            "answer": "located",
-            "options": [
-              {
-                "id": "located",
-                "sm": "ʻO le fale e ʻi ai le teine."
-              },
-              {
-                "id": "past",
-                "sm": "Sā ʻi le fale le teine."
-              },
-              {
-                "id": "question",
-                "sm": "ʻO fea e ʻi ai le teine?"
-              }
-            ],
-            "why": "The place leads, and *ʻi ai* answers it later in the where-sentence."
+            "sm": "Sā mālōlō ai le tama.",
+            "en": "The boy rested there.",
+            "bin": "there",
+            "why": "The bare form sits after the verb and before the doer."
+          },
+          {
+            "sm": "Sā alu le tama ʻi ai.",
+            "en": "The boy went there.",
+            "bin": "to-there",
+            "why": "A movement toward the goal usually takes the place word before *ai*."
+          },
+          {
+            "sm": "Sā alu le teine ʻi ai.",
+            "en": "The girl went there.",
+            "bin": "to-there",
+            "why": "The two-word form fills the goal slot of the movement verb."
           }
         ]
       }

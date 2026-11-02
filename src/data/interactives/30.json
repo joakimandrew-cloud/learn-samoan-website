@@ -1,122 +1,103 @@
 {
-  "chapter": 30,
+  "chapter": 29,
   "items": [
     {
-      "id": "ch30-ability-obligation",
+      "id": "ch29-wait-direction",
       "kind": "contrast",
-      "anchor": "saying-what-must-be-done-tatau",
-      "title": "Possible or necessary?",
+      "anchor": "the-six-direction-words",
+      "title": "The same verb, a different direction",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Ability",
-            "sm": "ʻUa mafai ona sau le teine.",
-            "en": "The girl can come.",
-            "note": "The clause after *ona* names the event. *Mafai* grades it as possible."
+            "label": "Toward the speaker",
+            "sm": "Faʻatali mai.",
+            "en": "Wait for me.",
+            "note": "The other person is leaving, and the speaker wants to be waited for."
           },
           {
-            "label": "Obligation",
-            "sm": "ʻUa tatau ona sau le teine.",
-            "en": "The girl must come.",
-            "note": "The same event is graded as necessary by *tatau*."
+            "label": "Away from the speaker",
+            "sm": "Faʻatali atu.",
+            "en": "Wait here until I come back.",
+            "note": "The speaker is leaving and asks the other person to stay until the speaker returns."
           }
         ]
       },
-      "caption": "Only the word before *ona* changes. The clause naming the coming stays the same."
+      "caption": "The last word turns the waiting toward or away from the speaker. The English translations include the situation in which each phrase is used."
     },
     {
-      "id": "ch30-complement-words",
-      "kind": "grid",
-      "anchor": "the-words-that-take-a-complement-clause",
-      "title": "Words that grade a clause",
+      "id": "ch29-event-directions",
+      "kind": "scale",
+      "anchor": "up-and-down-ae-and-ifo",
+      "title": "Directions measured from the event",
       "data": {
-        "cols": [
-          "Printed form"
-        ],
-        "rowLabel": "Meaning",
-        "quiz": true,
-        "rows": [
+        "layout": "map",
+        "points": [
           {
-            "label": "Forbidden",
-            "cells": [
-              {
-                "sm": "sā",
-                "en": "forbidden, must not"
-              }
-            ]
+            "x": 50,
+            "y": 0,
+            "label": "aʻe",
+            "gloss": "up",
+            "note": "Up stays up whoever is speaking."
           },
           {
-            "label": "Allowed",
-            "cells": [
-              {
-                "sm": "taga",
-                "en": "allowed, may"
-              }
-            ]
+            "x": 50,
+            "y": 100,
+            "label": "ifo",
+            "gloss": "down",
+            "note": "Down stays down whoever is speaking."
           },
           {
-            "label": "Necessary",
-            "cells": [
-              {
-                "sm": "tatau",
-                "en": "necessary, must"
-              }
-            ]
-          },
-          {
-            "label": "Possible",
-            "cells": [
-              {
-                "sm": "mafai",
-                "en": "can, able"
-              }
-            ]
+            "x": 100,
+            "y": 50,
+            "label": "ʻese",
+            "gloss": "away from a point",
+            "note": "This direction is measured from a point fixed by the event, rather than from the speaker."
           }
         ]
       },
-      "caption": "Each word grades the event named in the complement clause. Find the form tests the four meanings."
+      "caption": "These three words take their bearings from the event or thing itself. This is a schematic map of their directions, not a compass."
     },
     {
-      "id": "ch30-read-complement",
+      "id": "ch29-read-direction",
       "kind": "pick",
-      "anchor": "when-the-second-verb-keeps-its-own-tense",
-      "title": "Read the first half",
+      "anchor": "a-direction-word-inside-a-spatial-noun",
+      "title": "Hear the direction",
       "data": {
-        "question": "How is the event graded?",
+        "question": "Which direction does the marked word give?",
         "options": [
           {
-            "id": "possible",
-            "label": "Possible"
+            "id": "up",
+            "label": "up"
           },
           {
-            "id": "necessary",
-            "label": "Necessary"
+            "id": "down",
+            "label": "down"
           },
           {
-            "id": "forbidden",
-            "label": "Forbidden"
+            "id": "away",
+            "label": "away from the speaker"
           }
         ],
         "prompts": [
           {
-            "sm": "E sā ona ulaula.",
-            "answer": "forbidden",
-            "why": "The general particle *e* comes before *sā*, so here *sā* means forbidden rather than past."
+            "sm": "Na alu vave atu le tama.",
+            "answer": "away",
+            "why": "The describing word *vave* comes before the direction word *atu*, which points away from the speaker."
           },
           {
-            "sm": "ʻUa tatau ona ʻou alu.",
-            "answer": "necessary",
-            "why": "*Tatau* says that the event in the complement clause is necessary."
+            "sm": "Sā nofo aʻe ai le tama.",
+            "answer": "up",
+            "why": "The direction word *aʻe* comes after the verb and before *ai*."
           },
           {
-            "sm": "E mafai ona siva le uso.",
-            "answer": "possible",
-            "why": "*Mafai* grades the dancing as possible. The clause after *ona* has no tense particle of its own."
+            "sm": "ʻO le pusi ʻi lalo ifo o le fale.",
+            "answer": "down",
+            "why": "The direction word *ifo* follows the spatial noun and keeps its downward direction."
           }
         ]
       },
-      "intro": "Choose what the word before the complement says about the event."
+      "intro": "Read the whole sentence, then choose the direction supplied by its direction word."
     }
   ]
 }

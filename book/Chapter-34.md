@@ -1,289 +1,200 @@
-# Chapter 34: Putting Things First
+# Chapter 33: Reported Speech
 
-This chapter teaches putting things first, the pattern that moves a noun phrase
-out of its ordinary place to the head of the sentence under the presenting
-particle *ʻo*, and shows you how to mark a topic, draw a contrast, put weight on
-one word, or say where and when. The shape of the verb and the
-pointing-back word *ai* both answer to that move.
+This chapter adds reported speech, which Sāmoan builds from machinery already
+in place: after a knowing word the report is an ordinary clause keeping a tense
+particle of its own, after an ordering word it opens with the mood particle
+*ʻia* or with the general particle, and after the say-verb *fai* it is a
+sentence of its own. Reading the tense particle against the time the first half
+names, not against the moment of speaking, is the one new rule, and it is what
+lets you pass on anything anyone said, asked, ordered or knew.
 
 ---
 
-## Moving the Doer to the Front
+## Reporting What Someone Knew
 
 ::: {.examples}
-*Sā galue le tama ʻi le faʻatoʻaga.* The boy worked in the plantation.
+*ʻUa iloa e le tama ʻua sau le teine.* The boy knows that the girl has come. (Lit. "Now know, doer the boy, now come the girl.")
 
-*ʻO le tama sā galue ʻi le faʻatoʻaga.* The boy worked in the plantation. (Lit. "Presenting the boy, past work in the plantation.")
+*Na iloa e le tama ʻua sau le teine.* The boy knew that the girl had come. (Lit. "Past know, doer the boy, now come the girl.")
 :::
 
-*faʻatoʻaga* means "plantation".
+Read that pair once more before going on. Which word changed?
 
-Compare them, and ask which of the words has moved.
+Only the first one did. *ʻUa iloa* became *Na iloa*, and the second half of the
+sentence stayed word for word the same, *ʻua sau le teine*, while the English
+moved from "has come" to "had come".
 
-The doer is what moved. In the first sentence the verb comes first and *le tama*
-follows it, which is the order every sentence with a named doer in this book has
-used so far. In the second, *le tama* stands at the head of the sentence with the
-presenting particle *ʻo* in front of it, and the verb phrase comes after.
-Nothing else changed, and the English is the same either way.
+That is the mechanism of **reported speech**, the pattern for passing on what
+somebody knew, ordered or said. For a report of what somebody knew, Sāmoan
+holds no construction reserved for it. The report is an ordinary clause set
+down after the knowing word with nothing joining the two, and it keeps a tense
+particle of its own. What that particle measures from is not the moment of
+speaking. It is the time the first half of the sentence names.
 
-Until now the action has come before the named doer in every sentence of this
-book, and this is where Sāmoan does not. Moving a noun phrase to the head of the
-sentence like this is **putting things first**, and it is available for any
-participant in the sentence: the doer, the thing acted on, or the place and
-time.
-
-The pattern has two parts in a fixed order. First the presenting particle *ʻo*
-with the noun phrase it holds up, then the rest of the sentence built as usual,
-with that phrase's ordinary slot left empty.
+So *ʻua sau le teine* says the coming was already done by whatever time the
+first half sets. Set that first half at now, with *ʻUa iloa*, and the coming is
+already done now, which is "the girl has come". Set it in the past, with *Na
+iloa*, and the coming was already done then, which is "the girl had come".
 
 | Sāmoan | English |
 |---|---|
-| *ʻO le tama sā galue ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
-| *ʻO le teine sā galue ʻi le faʻatoʻaga.* | The girl worked in the plantation. |
-| *ʻO le lotu ʻua ʻuma.* | The service is finished. |
+| *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. |
+| *Na iloa e le tama ʻua sau le teine.* | The boy knew that the girl had come. |
+| *Na iloa e loʻu ataliʻi ʻua sau le teine.* | My son knew that the girl had come. |
+| *Na iloa e le tama ʻua sasae le ʻie.* | The boy knew that the cloth had been torn. |
 
-*ʻuma* means "be finished".
+*sasae* means "tear" and *ataliʻi* means "a man's son".
 
-The last row is the same move on a shorter sentence, and here is the pair it
-comes from:
-
-::: {.examples}
-*ʻUa ʻuma le lotu.* The service is finished.
-
-*ʻO le lotu ʻua ʻuma.* The service is finished.
-:::
-
-A doer put first can be said twice, once at the front and once in its ordinary
-middle slot:
-
-::: {.examples}
-*ʻO aʻu ʻou te nofo ʻi totonu o le fale.* I live inside the house.
-:::
-
-*Aʻu* is the independent pronoun, the one held up at the front, and *ʻou* is the
-middle-slot pronoun filling the place before the verb where the doer usually
-sits. Both name the same person, so the sentence says that person twice. You
-will often hear this doubling with the words for "I" and "you", though it is not
-required, since the front pronoun can stand alone.
+The one who knows is marked with the agent marker *e*, as it is with any verb
+that takes it, and the reported clause follows with nothing standing between.
 
 ---
 
-## The Shape of the Verb
+## The Tense Particle Inside the Report
 
 ::: {.examples}
-*Sā tapē e le tama le puaʻa.* The boy killed the pig.
+*ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knows that the girl is staying in the village.
+
+*Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knew that the girl was staying in the village.
 :::
 
-*tapē* means "kill".
+Any of the tense particles can stand in the report. The ones that set a time
+place the reported event against the time of the first half, not against now:
+the happening-now particle *ʻoloʻo* puts the event at the same time as the
+report, the past particles *sā* and *na* put it earlier, and the future
+particle *ʻoleʻā* puts it later. The general particle *e* also stands there, as
+the last row of each table shows, and sets no time of its own.
 
-This sentence has two participants: *le tama*, the doer, marked with the agent
-marker *e*, and *le puaʻa*, the thing acted on. Either of them can go to the
-front, and which one goes there settles the shape of the verb.
+The two tables below set the same report at two different times: at now in the
+first and in the past in the second. Their first three rows carry the same
+reported clause as each other, and nothing inside it changes between the tables.
+Their fourth rows carry different clauses, so read that row down each table on
+its own rather than across the two.
+
+| Report set at now | English |
+|---|---|
+| *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. |
+| *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* | The boy knows that the girl is staying in the village. |
+| *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.* | The boy knows that the girl had stayed in the village. |
+| *ʻUa iloa e le tama e nofo le teine ʻi le nuʻu.* | The boy knows that the girl will stay in the village. |
+
+| Report set in the past | English |
+|---|---|
+| *Na iloa e le tama ʻua sau le teine.* | The boy knew that the girl had come. |
+| *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* | The boy knew that the girl was staying in the village. |
+| *Na iloa e le tama sā nofo le teine ʻi le nuʻu.* | The boy knew that the girl had stayed in the village. |
+| *Na iloa e le tama e sau le teine.* | The boy knew that the girl would come. |
+
+Read the first three rows of the two tables side by side. The first half does
+change between them: its tense particle is the one that sets the report at now
+in the first table and a past one in the second. What does not change is the
+reported clause after it, which stands in both tables particle for particle in
+all three rows. On the English side, compare the reported halves against each
+other. The first two shift, "has come" becoming "had come" and "is staying"
+becoming "was staying", because an English report after a past verb usually
+shifts the reported verb back a step. The third does not shift: "had stayed"
+reads the same under either report. Sāmoan leaves the reported particle where it
+is in all three rows and lets the first half of the sentence supply the anchor.
+In the fourth row of each table the reported clause is a different one, and
+there the general particle *e* sets no time of its own, so the English reads
+"will stay" under a report at now and "would come" under a report in the past.
 
 ::: {.examples}
-*ʻO le puaʻa sā tapē e le tama.* The boy killed the pig.
-
-*ʻO le tama sā tapē=ina le puaʻa.* The boy killed the pig.
+*Na iloa e le tama ʻoleʻā sau le teine.* The boy knew that the girl would come.
 :::
 
-Put the thing acted on first and the verb mostly keeps the short form, *tapē*.
-Put the doer first and the verb usually takes the long form, *tapē=ina*. This is
-the same choice of shapes taught earlier in this book, now with two more places
-where speakers lean one way.
+The future particle *ʻoleʻā* marks an event still to come at the time of the
+report. Both this sentence and the fourth row of the second table above read
+"would come" in English, but the future particle itself places the coming later,
+while under the general particle *e* the particle sets no time of its own and the
+still-to-come reading is not marked by it.
+
+---
+
+## Reporting a Command
+
+::: {.examples}
+*ʻUa faʻatonu mai e le teine o le vaʻalele ʻia sāisai le fusi.* The stewardess gave the order that the belt should be fastened. (Lit. "The girl of the airplane has ordered that the belt be tied.")
+:::
+
+*faʻatonu* means "order", *fusi* means "belt", and *vaʻalele* means "airplane".
+
+When what is reported is a command, the reported clause opens with the mood
+particle *ʻia* rather than with a tense particle. *ʻIa* fills that same first
+slot, and what stands after it is what somebody is to do.
 
 | Sāmoan | English |
 |---|---|
-| *Sā tapē e le tama le puaʻa.* | The boy killed the pig. |
-| *ʻO le puaʻa sā tapē e le tama.* | The boy killed the pig. |
-| *ʻO le tama sā tapē=ina le puaʻa.* | The boy killed the pig. |
-| *Sā tatala e le teine le faitotoʻa.* | The girl opened the door. |
-| *ʻO le faitotoʻa sā tatala e le teine.* | The girl opened the door. |
-| *ʻO le teine sā tatala=ina le faitotoʻa.* | The girl opened the door. |
+| *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia sāisai le fusi.* | The stewardess gave the order that the belt should be fastened. |
+| *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.* | The stewardess gave the order that the person should sit. |
+| *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.* | The boy gave the order that the girl should wait. |
+| *ʻUa faʻatonu mai e le tama ʻia sau le teine.* | The boy gave the order that the girl should come. |
 
-A third pair, with the same short form on a different verb:
+> *Note:* The general particle *e* also stands in this slot in place of *ʻia*,
+> with the same reported-command reading.
 
-::: {.examples}
-*Sā ʻai e le teine le iʻa.* The girl ate (all of) the fish.
+> *Note:* The stop verb *sōia*, met earlier in this book, can also be reported.
+> When you report that someone told another person to stop, *sōia* is marked by
+> the general particle *e*, the particle the Note above names. Recognize it when
+> you meet it; this chapter does not drill it.
 
-*ʻO le iʻa sā ʻai e le teine.* The girl ate (all of) the fish.
-:::
-
-> *Note:* When you move a participant, make two checks: if the word you moved is
-> the thing acted on, keep the short form, and if it is the doer, reach for the
-> long form. Both of those are tendencies and not rules, in the same way the two
-> shapes were tendencies where they were first taught. Usage varies from speaker
-> to speaker and verb by verb, and the two command rules stay the only
-> exceptionless ones.
-
-A sentence with the thing acted on at the front reads two ways in English.
-*ʻO le puaʻa sā tapē e le tama* is "the boy killed the pig" and it is equally
-"the pig was killed by the boy". Sāmoan does not choose between the two, because
-there is one sentence here and English has two ways of saying it.
-
-What moves to the front is the whole phrase, however long it runs:
-
-::: {.examples}
-*Na lagona e le tinā le leo o le pepe.* The mother heard the voice of the baby.
-
-*ʻO le leo o le pepe na lagona e le tinā.* The mother heard the voice of the baby.
-:::
-
-*lagona* means "hear".
-
-The thing heard is *le leo o le pepe*, the voice of the baby, and all five words
-travel to the front together.
-
-> *Note:* A doer put first can be answered by a middle-slot pronoun, as *aʻu*
-> was answered by *ʻou* above, but a thing acted on put first is not. What can
-> point back to it instead is the demonstrative *lea*, or *ia* where more than
-> one thing is meant, standing later in the sentence, after the verb in the
-> pattern this book follows. This *ia* is spelled like the middle-slot word for
-> "he" and "she", which stands between the tense particle and the verb.
+> *Note:* *ʻIa* belongs to a small family of mood particles taught fully in a
+> later chapter. Here it does one job, opening a reported command.
 
 ---
 
-## Only and Any at the Front
-
-This chapter has two words that put a noun phrase at the front without the
-presenting particle.
+## The Say-Verb *Fai*
 
 ::: {.examples}
-*soʻo se tagata*. any person
+*Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."* The man said: "You will wait." (Lit. "Say away the man: 'You will wait.'")
+
+*Na fai atu le teine ʻi le tama e ʻavatu le tusi.* The girl told the boy to give the book. (Lit. "The girl said to the boy that the book be given.")
 :::
 
-*Soʻo se* means "any". It stands in front of the noun, and a phrase it heads
-carries neither *ʻo* nor the place word *ʻi* when it goes first.
+*ʻavatu* means "give (away from the speaker)".
 
-::: {.examples}
-*Soʻo se tagata e tatau ona ʻaumai se falaoa.* Anybody should bring some bread.
-:::
-
-*falaoa* means "bread".
-
-*Naʻo* means "only", and it behaves the same way. It comes in front of the
-article, *naʻo le tama*, and the phrase goes to the head of the sentence bare:
-
-::: {.examples}
-*Naʻo le tama e nofo ʻi totonu o le potu.* Only the boy is staying inside the room.
-:::
-
-> *Note:* Sāmoan writers usually print *naʻo* as two words, *na o*. This book
-> prints it as one.
-
----
-
-## Putting the Setting First
-
-A phrase saying where or when something happened can go to the front too. One
-way of doing it was taught earlier in this book: the phrase keeps the place word
-*ʻi*, and the pointing-back word *ai* answers it from inside the verb phrase.
-
-::: {.examples}
-*ʻI le faʻatoʻaga sā galue ai le tama.* In the plantation the boy worked there.
-
-*ʻI le faʻatoʻaga sā galue le tama.* In the plantation the boy worked.
-:::
-
-*Ai* is normal here and not compulsory, as the second sentence shows.
-
-The same setting can go first the other way, presented with *ʻo* in place of the
-place word:
-
-::: {.examples}
-*ʻO le faʻatoʻaga sā galue ai le tama.* The boy worked in the plantation. (Lit. "Presenting the plantation, past work there the boy.")
-:::
-
-The pointing-back word stands after the verb here as well. So a setting has two
-front positions open to it, one keeping its place word and one presented like a
-doer, and *ai* appears in both.
+*Fai* was met earlier in this book with all four of its meanings (do, make, say
+and tell), and it is the most common of the verbs Sāmoan uses for speaking. It
+enters two patterns, and this chapter teaches the one it enters when it means
+say. In an English sentence like
+"The man said the word", what stands after "say" is what was said; in the
+pattern taught here the noun phrase after *fai* is the person who spoke, and
+what was said comes after it as a sentence in its own right. That sentence may
+be quoted word for word, as in the first example, or reported in your own
+words, as in the second.
 
 | Sāmoan | English |
 |---|---|
-| *Sā galue le tama ʻi le faʻatoʻaga.* | The boy worked in the plantation. |
-| *ʻI le faʻatoʻaga sā galue ai le tama.* | In the plantation the boy worked there. |
-| *ʻI le faʻatoʻaga sā galue le tama.* | In the plantation the boy worked. |
-| *ʻO le faʻatoʻaga sā galue ai le tama.* | The boy worked in the plantation. |
+| *Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."* | The man said: "You will wait." |
+| *Fai atu le teine: "ʻOleʻā ʻou alu."* | The girl said: "I will go." |
+| *Na fai atu le teine ʻi le tama e ʻavatu le tusi.* | The girl told the boy to give the book. |
 
----
+> *Note:* *Fai atu* and *fai mai* carry the direction words taught earlier in
+> this book, *atu* for speech going away from the speaker and *mai* for speech
+> coming toward. Both appear with this verb in this chapter.
 
-## The Four Jobs of Putting Things First
+What was said is not one of the noun phrases the sentence is about. It is a
+whole sentence, which has to follow the say-verb, and it may run to more than
+one sentence.
 
-Putting a noun phrase first does four jobs, and the sentences above have already
-shown three of them.
-
-The first job is naming the topic. A phrase put first announces what the rest is
-going to be about, which is why Sāmoan stories so often open this way:
-
-::: {.examples}
-*ʻO aʻu ʻou te nofo ʻi totonu o le fale.* I live inside the house.
-:::
-
-The second job is contrast. Set two sentences side by side, each with its person
-at the front, and the two people are set against each other:
+### Asking in a Report: *Pē*
 
 ::: {.examples}
-*ʻO aʻu na ʻou vaʻai ʻi ai.* I saw it.
-
-*ʻO ʻoe ʻe te leʻi vaʻai ʻi ai.* You did not see it.
+*Na fai mai le teine pē alu le tama.* The girl asked whether the boy would go. (Lit. "The girl said whether the boy goes.")
 :::
 
-The third job is weight on one word. No word of emphasis is added to *ʻO le tama
-sā tapē=ina le puaʻa*; the boy is put first, and being first is what marks him
-as the point of the sentence.
-
-The fourth job is the setting, the where and when of the sentence, which the
-place phrases in the section above were doing.
-
-> **Preview:** The contrasting pair can also be read a second way, as a sentence
-> that begins by naming somebody, "it is me", and then describes what that
-> person did. That second reading is the shape behind phrases like "the one who
-> saw it", and it is taught in Chapter 43.
-
----
-
-## Order in the Naming Sentence
-
-The naming sentence was built earlier in this book with the naming part in
-front. It can also run the other way round:
-
-::: {.examples}
-*ʻO se uō le tama.* The boy is a friend.
-
-*ʻO le tama ʻo se uō.* The boy is a friend.
-:::
-
-Both are good Sāmoan and both say the same thing. The naming part nearly always
-carries *ʻo*, wherever it stands, while the other part, the one being named,
-carries *ʻo* only when it comes first. That is why the second sentence has two of
-them and the first has one.
-
-Which order a speaker picks is largely free, and no rule settles it. Two cases
-are settled, though. When the part being named is the speaker, it comes first:
-
-::: {.examples}
-*ʻO aʻu ʻo se uō.* I am a friend.
-:::
-
-And when the part being named is a demonstrative, it must come second:
-
-::: {.examples}
-*ʻO le faleoʻo lenā.* That is the small house.
-
-*ʻO se uō lenā.* That is a friend.
-:::
-
-*faleoʻo* means "a small house".
-
-*Lenā* cannot lead, so the naming part comes first and the demonstrative follows
-it, every time.
+When what is reported is a question, the reported sentence opens with *pē*.
+Nothing else about the pattern changes: *fai* still names the speaker, and the
+question follows it.
 
 | Sāmoan | English |
 |---|---|
-| *ʻO se uō le tama.* | The boy is a friend. |
-| *ʻO le tama ʻo se uō.* | The boy is a friend. |
-| *ʻO aʻu ʻo se uō.* | I am a friend. |
-| *ʻO le faleoʻo lenā.* | That is the small house. |
-| *ʻO se uō lenā.* | That is a friend. |
+| *Na fai mai le teine pē alu le tama.* | The girl asked whether the boy would go. |
+| *Na fai mai le tama pē sau le teine.* | The boy asked whether the girl would come. |
+| *Na fai mai le teine pē nofo le tama ʻi le nuʻu.* | The girl asked whether the boy was staying in the village. |
+
+> *Note:* *Pē* has a second shape, *po*, the question marker met earlier in
+> this book at the front of a question. Either shape opens a reported question.
 
 ---
 
@@ -293,38 +204,42 @@ it, every time.
 
 | Word | What it does |
 |---|---|
-| *ʻo* | the presenting particle, met earlier: at the head of a sentence it lifts a noun phrase out of its ordinary slot and holds it up |
-| *ai* | the pointing-back word, met earlier: it answers a setting put first, from inside the verb phrase |
-| *naʻo* | only: it goes in front of the article, and the phrase it heads takes no *ʻo* and no *ʻi* at the front of a sentence |
-| *soʻo se* | any: it goes in front of the noun, and behaves the same bare way at the front of a sentence |
-| *lea*, *ia* | the demonstrative that can point back to a thing acted on put first, *lea* for one and *ia* for more than one |
+| *fai* | the say-verb, met earlier with all its meanings: the person named after it is the speaker, and what was said follows as a sentence of its own |
+| *ʻia* | the mood particle that opens a reported command, standing where a tense particle would otherwise stand |
+| *pē* | it opens a reported question; *po*, met earlier, is its other shape |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *tapē* | kill |
-| *lagona* | hear, feel |
-| *ʻuma* | be finished |
-| *leaga* | bad |
-| *falaoa* | bread |
-| *faleoʻo* | a small house |
-| *faʻatoʻaga* | plantation |
+| *sasae* | tear |
+| *tā* | beat, strike, play |
+| *ʻavatu* | give (away from the speaker) |
+| *ataliʻi* | a man's son |
+| *faʻatonu* | order, instruct: a verb here, and the one who gives the order takes the agent marker |
+| *fusi* | belt |
+| *vaʻalele* | airplane |
 
-*Lagona* takes the agent marker, so the one who hears is marked with *e*:
-
-::: {.examples}
-*Na lagona e le tinā le leo o le pepe.* The mother heard the voice of the baby.
-:::
-
-*Leaga* is a verb, so it stands where the verb stands, and the thing it is said
-of can be put first like any other:
+*Ataliʻi* names a man's son, and a father's son takes an o-word possessive form:
 
 ::: {.examples}
-*ʻUa leaga le taʻavale.* The car is broken. (Lit. "Now bad the car.")
-
-*ʻO le taʻavale ʻua leaga.* The car is broken.
+*ʻO loʻu ataliʻi.* My son.
 :::
+
+> *Note:* *Tā* is spelled like the word for "you and I" taught earlier in this
+> book. Position tells them apart: this *tā* is the verb itself, standing where
+> the verb stands, while the pronoun stands between the tense particle and the
+> verb, or inside a possessive phrase such as *le tā igoa* met earlier in this
+> book.
+
+**Words to carry** (learned now, used fully later in this book):
+
+| Word | Meaning |
+|---|---|
+| *feiloaʻiga* | meeting; reception, welcome |
+
+*Feiloaʻiga* is learned now. It is a naming word that stands after *le*, and the
+sentences that use it arrive in a later chapter.
 
 ---
 
@@ -332,65 +247,64 @@ of can be put first like any other:
 
 ### Exercise 1: Translate into English
 
-1. *ʻO le tama sā galue ʻi le faʻatoʻaga.*
-2. *ʻO le puaʻa sā tapē e le tama.*
-3. *ʻO le teine sā tatala=ina le faitotoʻa.*
-4. *ʻO le faʻatoʻaga sā galue ai le tama.*
-5. *ʻO le faleoʻo lenā.*
-6. *Naʻo le tama e nofo ʻi totonu o le potu.*
-7. *ʻO le leo o le pepe na lagona e le tinā.*
+1. *ʻUa iloa e le tama ʻua sau le teine.*
+2. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+3. *ʻUa faʻatonu mai e le tama ʻia sau le teine.*
+4. *Fai atu le teine: "ʻOleʻā ʻou alu."*
+5. *Na fai mai le tama pē sau le teine.*
+6. *Na iloa e loʻu ataliʻi ʻua sasae le ʻie.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The girl worked in the plantation, with the girl first.
-2. The girl ate (all of) the fish, with the fish first.
-3. The service is finished, with the service first.
-4. That is a friend.
-5. I live inside the house, with "I" first.
-6. Anybody should bring some bread.
+1. The boy knew that the girl had come.
+2. The boy knows that the girl is staying in the village.
+3. The boy gave the order that the girl should wait.
+4. The man said: "You will wait."
+5. The girl asked whether the boy would go.
+6. The girl told the boy to give the book.
 
-### Exercise 3: Put the named participant first
+### Exercise 3: Move the report into the past
 
-Rewrite each sentence with the participant named in brackets at the head, and
-give the verb the shape that goes with it. In item 5, *lagona* stays as it
-stands.
+Each sentence reports at the present moment. Rewrite it with *Na iloa* in place
+of *ʻUa iloa*, leaving the second half exactly as it stands, and give the new
+English.
 
-1. *Sā tapē e le tama le puaʻa.* (the thing acted on)
-2. *Sā tapē e le tama le puaʻa.* (the doer)
-3. *Sā tatala e le teine le faitotoʻa.* (the thing acted on)
-4. *Sā tatala e le teine le faitotoʻa.* (the doer)
-5. *Na lagona e le tinā le leo o le pepe.* (the thing acted on)
+1. *ʻUa iloa e le tama ʻua sau le teine.*
+2. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+3. *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.*
+4. *ʻUa iloa e le tama ʻua sasae le ʻie.*
+5. *ʻUa iloa e loʻu ataliʻi ʻua sau le teine.*
 
-### Exercise 4: Which shape
+### Exercise 4: Choose *ʻia* or *pē*
 
-For each sentence, say whether the verb is in the short form or the long form,
-and say which participant was put first.
+Fill each gap so that the Sāmoan matches the English.
 
-1. *ʻO le puaʻa sā tapē e le tama.*
-2. *ʻO le teine sā tatala=ina le faitotoʻa.*
-3. *ʻO le faitotoʻa sā tatala e le teine.*
-4. *ʻO le tama sā tapē=ina le puaʻa.*
-5. *ʻO le iʻa sā ʻai e le teine.*
+1. *ʻUa faʻatonu mai e le tama ___ sau le teine.* (The boy gave the order that the girl should come.)
+2. *Na fai mai le teine ___ alu le tama.* (The girl asked whether the boy would go.)
+3. *ʻUa faʻatonu mai e le tama ___ faʻatali le teine.* (The boy gave the order that the girl should wait.)
+4. *Na fai mai le tama ___ sau le teine.* (The boy asked whether the girl would come.)
+5. *ʻUa faʻatonu mai e le teine o le vaʻalele ___ nofo le tagata.* (The stewardess gave the order that the person should sit.)
 
-### Exercise 5: Fill the gap
+### Exercise 5: Place the reported event
 
-Put *ʻo* or *ʻi* into the gap so the Sāmoan matches the English.
+For each sentence, say whether the reported event is at the same time as the
+report, before it, or after it.
 
-1. *___ le faʻatoʻaga sā galue ai le tama.* (The boy worked in the plantation.)
-2. *___ aʻu ʻou te nofo ʻi totonu o le fale.* (I live inside the house.)
-3. *___ le faʻatoʻaga sā galue ai le tama.* (In the plantation the boy worked there.)
-4. *Naʻo le tama e nofo ___ totonu o le potu.* (Only the boy is staying inside the room.)
-5. *___ le lotu ʻua ʻuma.* (The service is finished.)
+1. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+2. *Na iloa e le tama ʻua sau le teine.*
+3. *Na iloa e le tama ʻoleʻā sau le teine.*
+4. *ʻUa iloa e le tama sā nofo le teine ʻi le nuʻu.*
+5. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
 
 ### Exercise 6: Give the meaning
 
-1. *tapē*
-2. *lagona*
-3. *ʻuma*
-4. *leaga*
-5. *falaoa*
-6. *faleoʻo*
-7. *faʻatoʻaga*
+1. *sasae*
+2. *tā*
+3. *ʻavatu*
+4. *ataliʻi*
+5. *faʻatonu*
+6. *fusi*
+7. *vaʻalele*
 
 ---
 
@@ -398,53 +312,55 @@ Put *ʻo* or *ʻi* into the gap so the Sāmoan matches the English.
 
 ### Exercise 1
 
-1. The boy worked in the plantation.
-2. The boy killed the pig. (Equally: the pig was killed by the boy.)
-3. The girl opened the door.
-4. The boy worked in the plantation.
-5. That is the small house.
-6. Only the boy is staying inside the room.
-7. The mother heard the voice of the baby.
+1. The boy knows that the girl has come.
+2. The boy knew that the girl was staying in the village.
+3. The boy gave the order that the girl should come.
+4. The girl said: "I will go."
+5. The boy asked whether the girl would come.
+6. My son knew that the cloth had been torn.
 
 ### Exercise 2
 
-1. *ʻO le teine sā galue ʻi le faʻatoʻaga.*
-2. *ʻO le iʻa sā ʻai e le teine.*
-3. *ʻO le lotu ʻua ʻuma.*
-4. *ʻO se uō lenā.*
-5. *ʻO aʻu ʻou te nofo ʻi totonu o le fale.*
-6. *Soʻo se tagata e tatau ona ʻaumai se falaoa.*
+1. *Na iloa e le tama ʻua sau le teine.*
+2. *ʻUa iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.*
+3. *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.*
+4. *Fai atu le tamāloa: "ʻOleʻā ʻe faʻatali."*
+5. *Na fai mai le teine pē alu le tama.*
+6. *Na fai atu le teine ʻi le tama e ʻavatu le tusi.*
 
 ### Exercise 3
 
-1. *ʻO le puaʻa sā tapē e le tama.*
-2. *ʻO le tama sā tapē=ina le puaʻa.*
-3. *ʻO le faitotoʻa sā tatala e le teine.*
-4. *ʻO le teine sā tatala=ina le faitotoʻa.*
-5. *ʻO le leo o le pepe na lagona e le tinā.*
+1. *Na iloa e le tama ʻua sau le teine.* The boy knew that the girl had come.
+2. *Na iloa e le tama ʻoloʻo nofo le teine ʻi le nuʻu.* The boy knew that the
+   girl was staying in the village.
+3. *Na iloa e le tama sā nofo le teine ʻi le nuʻu.* The boy knew that the girl
+   had stayed in the village. The English of the reported half does not move
+   here, since it was already "had stayed" under the present report.
+4. *Na iloa e le tama ʻua sasae le ʻie.* The boy knew that the cloth had been torn.
+5. *Na iloa e loʻu ataliʻi ʻua sau le teine.* My son knew that the girl had come.
 
 ### Exercise 4
 
-1. Short form; the thing acted on was put first.
-2. Long form; the doer was put first.
-3. Short form; the thing acted on was put first.
-4. Long form; the doer was put first.
-5. Short form; the thing acted on was put first.
+1. *ʻUa faʻatonu mai e le tama ʻia sau le teine.*
+2. *Na fai mai le teine pē alu le tama.*
+3. *ʻUa faʻatonu mai e le tama ʻia faʻatali le teine.*
+4. *Na fai mai le tama pē sau le teine.*
+5. *ʻUa faʻatonu mai e le teine o le vaʻalele ʻia nofo le tagata.*
 
 ### Exercise 5
 
-1. *ʻO le faʻatoʻaga sā galue ai le tama.*
-2. *ʻO aʻu ʻou te nofo ʻi totonu o le fale.*
-3. *ʻI le faʻatoʻaga sā galue ai le tama.*
-4. *Naʻo le tama e nofo ʻi totonu o le potu.*
-5. *ʻO le lotu ʻua ʻuma.*
+1. At the same time as the report.
+2. Before the report.
+3. After the report.
+4. Before the report.
+5. At the same time as the report.
 
 ### Exercise 6
 
-1. kill
-2. hear, feel
-3. be finished
-4. bad
-5. bread
-6. a small house
-7. plantation
+1. tear
+2. beat, strike, play
+3. give
+4. a man's son
+5. order
+6. belt
+7. airplane

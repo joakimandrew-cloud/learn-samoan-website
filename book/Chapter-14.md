@@ -1,124 +1,203 @@
-# Chapter 14: The There-Is Verbs
+# Chapter 13: The General Particle *E*
 
-This chapter adds the two there-is verbs, *iai* (there is) and its built-in
-negative *leai* (there is none), each a full verb that carries its own tense
-particle. The same verb *iai* also says what someone has, by saying that the
-thing exists.
+This chapter adds the general particle *e*, the tense particle for what holds in
+general rather than at one moment (a habit, a lasting quality, a plain truth, or
+something still to come), and the happening-now particle *ʻoloʻo*, for what is under
+way as you speak. The general particle is the one tense particle whose shape follows
+the pronoun: it is the plain *e* when nothing stands in front of it (*E alu le pasi*,
+the bus goes) and turns into *te* right after a pronoun (*ʻOu te alu*, I go).
 
 ---
 
-## The There-Is Verb *Iai*
+## The General Particle *E*
 
 ::: {.examples}
-*E iai sina vai?* Is there any water?
+*E mālosi le tama.* The boy is strong.
 
-*E iai se tusi.* There is a book.
+*E loloto le vai.* The water is deep.
 :::
 
-Both sentences are built on *iai*, the **there-is verb**: the word that says
-something exists or is present. It behaves like any other verb, with an
-exception met later in this chapter: you do not put a separate "not" in front of
-it. It takes a tense particle in front, here the general particle *e*, and it
-heads its own sentence. Sāmoan has no separate "is there" phrase; a question
-about whether something exists runs through this one verb.
+Every tense particle so far has fixed a sentence to a time: *Sā ʻou alu* puts the
+going behind you, *ʻUa vevela* reports a change that has just landed. These two
+sentences fix nothing to a time. The boy is strong as a matter of course, and
+the water is deep whether you look today or next year. The word that carries
+this timeless sense is *e*, the **general particle**. It fills the same first
+slot as the other tense particles, but instead of placing the sentence in the past or
+the future it says the thing simply holds, without asking when it began, how
+long it lasts, or when it ends.
 
-A question about whether a thing exists takes a non-specific article rather than
-*le*, and so does every sentence with the there-is-none verb met below. That article is *se* (a, any single one),
-as in *se tusi*. There is also *sina* (a little of, some of), which marks a small
-portion of a thing rather than the whole of it, as in *sina vai*.
+The general particle covers four kinds of statement, all of them free of a
+particular time: a lasting quality, a general truth, a habit, and something still
+to come.
 
-*Iai* also carries the past particle and can name a particular thing. With *sā*
-in front and the specific naming part *le ulugāliʻi*, it opens a story:
+| Sāmoan | English |
+|---|---|
+| *E mālosi le tama.* | The boy is strong. |
+| *E loloto le vai.* | The water is deep. |
+| *E fiafia le teine.* | The girl is happy. |
+| *E lelei le ʻāiga.* | The family is good. |
+| *E alu le pasi ʻi le nuʻu.* | The bus goes to the village. |
+
+The first four state a quality that holds, and a general truth is said in the
+same shape. The last states a habit: the bus is the kind of bus that goes to
+the village, so it goes there as a rule. Read with
+the past particle for a single event, *Na alu le pasi ʻi le nuʻu* would report one
+trip that is over. With the general particle, *E alu le pasi ʻi le nuʻu* reports
+the standing habit.
+
+> *Note:* A general truth can also be about a whole kind of thing rather than one
+> particular thing. In a positive statement of that kind the kind is named with
+> the same *le* used above for one particular boy or bus, because *le* points to
+> one particular thing or to the whole class of what the noun names. This book
+> asks you only to recognize that reading when you meet it.
+
+> **Preview:** The general particle also states a quantity, such as how many
+> there are or how old someone is. Counting has a shape of its own, met later in
+> this book and completed in Chapter 22. This chapter states qualities, truths,
+> and habits; the counting sentences wait for that chapter.
+
+---
+
+## When a Pronoun Comes In: *Te*
+
+You have said *Sā ʻou alu* (I went) since the first chapter of this book. To say
+"I go", as a plain habit, the general particle joins the same three parts, but
+watch where it lands:
 
 ::: {.examples}
-*Sā iai le ulugāliʻi.* There was a couple.
+*Sā ʻou alu.* I went.
+
+*ʻOu te alu.* I go.
+:::
+
+Compare them. Where does the particle sit?
+
+In *Sā ʻou alu* the particle *sā* comes first, then the pronoun *ʻou*. In
+*ʻOu te alu* the pronoun *ʻou* comes first, and the particle follows it. This is
+the one place the order you have used in every sentence so far flips. The general
+particle is the only particle a pronoun stands in front of, and when a pronoun
+comes first the particle takes the shape *te*, sitting right after it. When the
+sentence names who or what it is about with a noun instead, as in
+*E alu le pasi ʻi le nuʻu* (the bus goes to the village), nothing stands in front
+of the particle and it is the plain *e*.
+
+One thing to recognize rather than to build: in conversation a speaker can leave
+the word for I or for you unsaid and still say *te*, when the talk already makes
+plain who is meant. Every *te* sentence you build in this book keeps its
+pronoun.
+
+| Sāmoan | English |
+|---|---|
+| *ʻOu te alu.* | I go. |
+| *ʻE te alu.* | You go. |
+| *Na te alu.* | He goes. She goes. |
+
+The third row holds a second surprise. The word for he or she here is not the
+*ia* you have used all along. Before *te*, the word for he or she is *na*, and
+*ia* is not used in this spot at all. The pronoun grid earlier in this book set
+*na* aside for exactly this construction, and this is where it arrives.
+
+> *Note:* In *Na te alu*, *na* is the word for he or she and *te* is the general
+> particle, so the sentence means he goes. The same shape *na* also serves as a
+> past particle from earlier in this book, so *Na alu*, with no *te*, means he
+> went (Lit. "past go"). The general particle *te* is what tells the two apart.
+
+The general particle carries the same four senses with a pronoun as without one.
+*ʻOu te galue ʻi le nuʻu* is a habit, "I work in the village." A question with the
+general particle asks about what someone means to do:
+
+::: {.examples}
+*ʻE te tusitusi?* Will you write?
+:::
+
+Here the general particle reaches into the indefinite future. It asks about the
+listener's own intention, and it is the particle used for such questions: the
+future particle *ʻoleʻā*, which you have had since earlier in this book, might be impolite in
+this context.
+
+A fuller form of the same pattern places *e* at the front as well as *te* after
+the pronoun. *E tā te feiloaʻi* (we two will meet) says the same thing as the plain
+*te* form; the two are one pattern, and no difference of meaning is recorded
+between them.
+
+---
+
+## Wanting, in the Present
+
+The wanting word *fia* was taught early in this book, and every sentence built
+with it until now has stood in the past: *Sā ʻou fia alu* is "I wanted to go."
+That was how this book chose to practise wanting, not a limit the language sets.
+The general particle opens the other side of it. Put *fia* under the general
+particle and you state a want without fixing a time, which reads as a present want
+when nothing else sets the time, not only what they wanted before:
+
+::: {.examples}
+*Sā ʻou fia alu.* I wanted to go.
+
+*ʻOu te fia alu.* I want to go.
+:::
+
+The pattern is the one just taught: the pronoun first, then *te*, then *fia* in
+front of the verb. The everyday sentence for being hungry is built exactly this
+way, from *fia* and *ʻai* (eat):
+
+::: {.examples}
+*ʻOu te fia ʻai.* I want to eat.
 :::
 
 | Sāmoan | English |
 |---|---|
-| *E iai sina vai?* | Is there any water? |
-| *E iai se tusi.* | There is a book. |
-| *E iai se fana.* | There is a gun. |
-| *Sā iai le ulugāliʻi.* | There was a couple. |
+| *Sā ʻou fia alu.* | I wanted to go. |
+| *ʻOu te fia alu.* | I want to go. |
+| *ʻOu te fia ʻai.* | I want to eat. |
+| *Na te fia alu.* | He wants to go. |
 
-> **Preview:** The there-is verb *iai* has a close look-alike, a two-word phrase
-> that says a thing is located in a particular place rather than that it exists
-> at all. The two are set side by side in Chapter 17, where the where-sentence is
-> taught. In this chapter *iai* always means "there is".
+The past particle still says what someone wanted; the general particle now says
+what they want.
 
 ---
 
-## Saying What You Have
+## The Happening-Now Particle *ʻOloʻo*
+
+A general truth and an event going on at this moment are not the same, and Sāmoan
+keeps them apart with two different particles. Set these side by side:
 
 ::: {.examples}
-*E iai sau tusi?* Do you have a book? (Lit. "Does your book exist?")
+*E siva le teine.* The girl dances.
+
+*ʻOloʻo siva le teine.* The girl is dancing.
 :::
 
-In this pattern, having is said as existing. To say someone has a thing, you say
-the thing exists, using *iai* with a possessive form. *E iai sau tusi?* asks,
-word for word, whether your book exists, and that is the everyday way to ask
-whether you have a book. The question and the answer take different possessive forms.
-The question uses *sau*, which asks about a book of yours without picking out a
-particular one; the answer uses the forms you already know: *lau* (your), *laʻu*
-(my), *lana* (his, her).
-
-> *Note:* This *sau* has the same shape as the word for "come" met earlier, as in
-> the command *Sau* (come). Same string, two jobs: the come-word is the verb of
-> its sentence, in the verb's place or alone as a command, while this one sits in
-> front of a noun and says whose it is. What the word sits next to tells you which job it is doing.
+The first is the general particle: the girl dances as a rule, she is a dancer.
+The second reports what is happening right now, at the moment of speaking. The
+word for this is *ʻoloʻo*, the **happening-now particle**. It fills the first slot
+like the other particles and marks the event as under way, running at the same
+time as the moment being talked about. In every sentence in this chapter that
+moment is the moment you speak. Told inside a story, the same particle can mark
+an event running alongside something else in the telling, and that use is one to
+recognize rather than to build here.
 
 | Sāmoan | English |
 |---|---|
-| *E iai sau tusi?* | Do you have a book? |
-| *E iai laʻu naifi.* | I have a knife. |
-| *E iai lana fana.* | He has a gun. |
-| *E iai lana taʻavale.* | She has a car. |
+| *ʻOloʻo siva le teine.* | The girl is dancing. |
+| *ʻOloʻo tusitusi le tama.* | The boy is writing. |
+| *ʻOloʻo iai le vai.* | There is water. |
+| *ʻOloʻo iai le ʻauivi ʻi le fale.* | There is a skeleton in the house. |
 
-> *Note:* English reaches for the verb "have". This pattern asks instead whether
-> the thing exists for you. Build these sentences with *iai* and a possessive
-> form, and let the thing's own existence carry the meaning.
+The verb *iai* means "be present, be there," and *tusitusi* means "write." With
+*ʻoloʻo* in front, each names something true at this moment: the water is present
+now, the boy is writing now.
 
----
+The happening-now particle has a shorter form, *ʻo*, which turns up in patterns
+taught later in this book; this chapter uses the full form *ʻoloʻo* throughout.
+The full form is the one that belongs in a plain statement standing on its own.
 
-## The There-Is-None Verb *Leai*
-
-::: {.examples}
-*E iai se tusi.* There is a book.
-
-*E leai se tusi.* There is no book.
-:::
-
-Compare them. Which word changed?
-
-Only the verb. *Iai* became *leai*, and "there is" became "there is not". *Leai*
-is the **there-is-none verb**, the negative twin of *iai*. The negation is built
-into the word itself: you do not put a separate "not" in front of *iai*, you
-reach for its own opposite. This is the word you have used for "no" since the
-start of this book. On its own, *Leai* answers a question with "no"; here it
-stands as a full verb, saying that a thing is absent.
-
-The thing that *leai* says is missing is always non-specific, so it takes *se*
-(or *sina*), never *le*:
-
-::: {.examples}
-*E leai se mea.* There is nothing.
-:::
-
-*Leai* takes the general particle *e* for a plain fact, and the change particle
-*ʻua* to report that a thing has run out:
-
-| Sāmoan | English |
-|---|---|
-| *E leai se mea.* | There is nothing. |
-| *E leai se tusi.* | There is no book. |
-| *E leai se fana.* | There is no gun. |
-| *ʻUa leai se vai.* | There is now no water. |
-
-> *Note:* *Leai* negates existence, and it does so by being its own verb. Saying
-> that other kinds of sentence are not so, an ordinary statement or an "A is B"
-> sentence, uses different words, taught in a later chapter. To say you do not
-> have a thing you also use *leai*, but with a possessive form met later in this
-> book; for now *leai* says a thing is simply not there.
+> *Note:* That short *ʻo* joins two look-alikes you already know. The presenting
+> particle *ʻo* stands at the front of a naming part, as in *ʻO le pusi lenā*
+> (that is the cat). The belonging word *o*, with no mark, sits between a thing
+> and its owner, as in *le ulu o le tama* (the head of the boy). The happening-now
+> short *ʻo* sits in front of a verb. Position tells the three apart, and the mark
+> separates the two that carry it from the one that does not.
 
 ---
 
@@ -128,23 +207,21 @@ The thing that *leai* says is missing is always non-specific, so it takes *se*
 
 | Word | What it does |
 |---|---|
-| *iai* | the there-is verb: says something exists or is present |
-| *leai* | the there-is-none verb: says something is absent (also the word for "no") |
-| *sina* | a little of, some of: marks a small portion of a thing, often politely |
-| *sau* | your, non-specific: the possessive form the have-question takes, asking about a thing of yours without picking out a particular one |
+| *e* | the general particle: marks a statement true in general, with no tie to a time |
+| *te* | the shape the general particle takes right after a pronoun |
+| *ʻoloʻo* | the happening-now particle: marks an event under way at the moment being talked about, which in this chapter is the moment you speak |
+| *na* | the word for he, she before *te* (in place of *ia*) |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *tusi* | letter, book (also: write) |
-| *fana* | gun (also: shoot) |
-| *gasegase* | sickness (a polite word: said of another person, never of yourself) |
-| *fānau* | give birth; children, offspring |
-| *tautala* | talk, speak |
-| *tupu* | happen |
-| *laʻitiiti* | small, young |
-| *uliuli* | black |
+| *pasi* | bus |
+| *vai* | water |
+| *ʻauivi* | skeleton |
+| *feiloaʻi* | meet |
+| *tusitusi* | write |
+| *iai* | be present, be there |
 
 ---
 
@@ -152,52 +229,54 @@ The thing that *leai* says is missing is always non-specific, so it takes *se*
 
 ### Exercise 1: Translate into English
 
-1. *E iai se tusi.*
-2. *E leai se mea.*
-3. *E iai lana fana.*
-4. *E iai sina vai?*
-5. *ʻUa leai se vai.*
+1. *E mālosi le tama.*
+2. *ʻOu te alu.*
+3. *ʻOu te fia ʻai.*
+4. *ʻOloʻo siva le teine.*
+5. *E alu le pasi ʻi le nuʻu.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. There is a gun.
-2. I have a knife.
-3. There is no book.
-4. Do you have a book?
-5. There is nothing.
+1. The water is deep.
+2. I go.
+3. The girl is dancing.
+4. I want to go.
+5. The boy is writing.
 
-### Exercise 3: Choose *iai* or *leai*
+### Exercise 3: Choose *e* or *te*
 
-Put the there-is verb *iai* or the there-is-none verb *leai* into the gap so the
-sentence matches the English.
+Put *e* or *te* in the gap. Use *e* when no pronoun stands in front of the
+particle, and *te* when a pronoun does.
 
-1. *E ___ se fana.* (There is a gun.)
-2. *E ___ se mea.* (There is nothing.)
-3. *E ___ sau tusi?* (Do you have a book?)
-4. *ʻUa ___ se vai.* (There is now no water.)
-5. *E ___ se tusi.* (There is no book.)
+1. *___ loloto le vai.*
+2. *ʻOu ___ galue ʻi le nuʻu.*
+3. *___ alu le pasi ʻi le nuʻu.*
+4. *ʻE ___ tusitusi?*
+5. *___ fiafia le teine.*
 
-### Exercise 4: Match the Sāmoan to its English
+### Exercise 4: Choose the particle
 
-1. *E iai se tusi.*
-2. *E leai se fana.*
-3. *E iai lana taʻavale.*
-4. *E iai se gasegase.*
-5. *E iai sau tusi?*
+Fill each gap with the general particle (*e* or *te*) for something true in
+general, or *ʻoloʻo* for something happening right now, so the sentence matches
+the English.
 
-a. She has a car.
-b. There is a sickness.
-c. There is a book.
-d. There is no gun.
-e. Do you have a book?
+1. *___ siva le teine.* (The girl is dancing right now.)
+2. *___ mālosi le tama.* (The boy is strong.)
+3. *___ tusitusi le tama.* (The boy is writing right now.)
+4. *ʻOu ___ alu.* (I go.)
+5. *___ loloto le vai.* (The water is deep.)
 
-### Exercise 5: Translate into English
+### Exercise 5: From past to general
 
-1. *E uliuli le pusi.*
-2. *E laʻitiiti le teine.*
-3. *E tautala le tama.*
-4. *Sā tupu se mea.*
-5. *E fānau le fafine.*
+Each sentence is in the past. Rewrite it with the general particle, which states
+the sentence without fixing a time, keeping the same person. Remember to put the
+pronoun first.
+
+1. *Sā ʻou alu.*
+2. *Sā ʻou fia ʻai.*
+3. *Sā ʻou galue ʻi le nuʻu.*
+4. *Sā ʻou siva.*
+5. *Sā ʻou tusitusi.*
 
 ---
 
@@ -205,36 +284,40 @@ e. Do you have a book?
 
 ### Exercise 1
 
-1. There is a book.
-2. There is nothing.
-3. He has a gun.
-4. Is there any water?
-5. There is now no water.
+1. The boy is strong.
+2. I go.
+3. I want to eat.
+4. The girl is dancing.
+5. The bus goes to the village.
 
 ### Exercise 2
 
-1. *E iai se fana.*
-2. *E iai laʻu naifi.*
-3. *E leai se tusi.*
-4. *E iai sau tusi?*
-5. *E leai se mea.*
+1. *E loloto le vai.*
+2. *ʻOu te alu.*
+3. *ʻOloʻo siva le teine.*
+4. *ʻOu te fia alu.*
+5. *ʻOloʻo tusitusi le tama.*
 
 ### Exercise 3
 
-1. *iai*
-2. *leai*
-3. *iai*
-4. *leai*
-5. *leai*
+1. *e*
+2. *te*
+3. *e*
+4. *te*
+5. *e*
 
 ### Exercise 4
 
-1-c, 2-d, 3-a, 4-b, 5-e.
+1. *ʻoloʻo*
+2. *e*
+3. *ʻoloʻo*
+4. *te*
+5. *e*
 
 ### Exercise 5
 
-1. The cat is black.
-2. The girl is small.
-3. The boy talks.
-4. Something happened.
-5. The woman gives birth.
+1. *ʻOu te alu.*
+2. *ʻOu te fia ʻai.*
+3. *ʻOu te galue ʻi le nuʻu.*
+4. *ʻOu te siva.*
+5. *ʻOu te tusitusi.*

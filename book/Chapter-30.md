@@ -1,194 +1,233 @@
-# Chapter 30: The Complement Clause: Can and Must
+# Chapter 29: Directional Particles
 
-This chapter introduces the complement clause, a whole clause that stands where
-a noun phrase would otherwise stand, and the one word that opens it, *ona*
-(that). The chapter teaches the construction through the ability and obligation
-words *mafai* (can) and *tatau* (must), which belong to a larger group of words
-that take such a clause, so you can say what people can, must, and should do.
-
----
-
-## The Complement Clause
-
-::: {.examples}
-*E sā ona ulaula.* It is forbidden to smoke.
-
-*ʻUa tatau ona ʻou alu.* I must go. (Lit. "It is necessary that I go.")
-:::
-
-Each sentence runs two halves, the word that takes a clause and the clause itself, with one word between them. *Sā* (forbidden) and
-*tatau* (necessary) come first, in the ordinary predicate slot straight after
-the tense particle. What is forbidden, and what is necessary, then follows as a
-clause of its own: *ulaula* (smoke) in the first sentence, *ʻou alu* (I go) in
-the second. Between the two halves stands *ona*, the only joining word Sāmoan
-uses to open a clause in this position.
-
-A clause that fills the slot a noun phrase would otherwise fill, the slot for
-what the sentence is about rather than for a doer marked with *e*, is called a
-**complement clause**, and *ona* is the **that-word** that opens it. The pattern
-of this chapter has four parts in a fixed order: the tense particle, then the
-word that takes the complement, then *ona*, then the complement clause itself.
-
-| Sāmoan | English |
-|---|---|
-| *E sā ona ulaula.* | It is forbidden to smoke. |
-| *ʻUa tatau ona ʻou alu.* | I must go. |
-| *ʻUa mafai ona sau le teine.* | The girl can come. |
-| *E faʻasā ona tausi ni pusi.* | It is forbidden to keep cats. (Someone has forbidden it.) |
-
-*faʻasā* means "forbid".
-
-The complement clause always follows the word that takes it, and nothing puts
-it in front. Read the first half of any of these sentences on its own and it is
-unfinished, in the way *ʻUa tatau* on its own is unfinished: the clause after
-*ona* is what the sentence is about, and the word in front of it says something
-about that clause.
-
-The two halves are not two separate happenings. In *ʻUa tatau ona ʻou alu*
-nobody is doing one thing called being
-necessary and another thing called going. There is one event, the going, and
-*tatau* qualifies it as the necessary one. The same reading holds throughout
-this chapter: the clause after *ona* names the event, and the word in front
-grades it as possible, necessary, permitted or forbidden.
+This chapter introduces the direction words, the six particles that stand after
+a verb and say which way its action is turned, toward the speaker, away from the
+speaker, up, down, along or away, and shows you how to orient an action in
+space relative to yourself and the person you are speaking to. The same words
+also stand inside a spatial noun, as in *ʻi lalo ifo o le fale* (underneath the
+house).
 
 ---
 
-## Saying What Can Be Done: *Mafai*
+## The Six Direction Words
 
 ::: {.examples}
-*ʻOu te lē mafai ona ʻou ʻai meaʻai.* I cannot eat food.
+*Faʻatali mai.* Wait for me. (Lit. "Wait, toward me.")
 
-*Sā lē mafai ona ʻou alu.* I could not go.
+*Faʻatali atu.* Wait here until I come back. (Lit. "Wait, away from me.")
 :::
 
-Both sentences say what the speaker could not do, and both name the speaker
-inside the complement clause with the preverbal pronoun *ʻou* (I). They part
-company in the first half. In the first sentence *ʻou te* stands in front of
-*mafai*, so the person is named on both sides of *ona*. In the second, *mafai*
-carries no person at all, and the sentence says that the going could not be
-done; the complement clause alone supplies who would have done it. *Mafai*
-takes the person either way: on itself as well as inside the complement clause,
-or inside the complement clause alone.
+Compare them. Which word changed?
 
-| Sāmoan | English |
-|---|---|
-| *ʻOu te mafai ona ʻou alu.* | I can go. |
-| *Sā lē mafai ona ʻou alu.* | I could not go. |
-| *E mafai ona siva le uso.* | The sibling can dance. |
-| *ʻUa mafai ona sau le teine.* | The girl can come. |
+Only the last word changed. *Faʻatali* is the verb "wait" in both, the same
+command you met earlier in this book, and the word after it says which way the
+waiting is turned. *Mai* turns it toward the speaker: the other person is
+leaving, and the speaker wants to be waited for. *Atu* turns it away from the
+speaker: the speaker is the one leaving, and wants the other person to stay put
+until the speaker returns. A word that stands after a verb and says which way its
+action is turned is called a **direction word**. The pattern of this chapter has
+two parts in a fixed order: the verb, then the direction word.
 
-*uso* means "sibling: a man's brother, a woman's sister".
+The English on those two lines says more than the Sāmoan does. The two words
+say only "wait" and a direction; that the listener stays put until the speaker
+returns, or that the listener waits so the speaker can catch up, is the
+situation each phrase is used in, and neither word carries it on its own. The
+line marked Lit. shows what the words themselves say, and this book prints one
+wherever its English adds something the Sāmoan leaves unsaid.
 
-To say that something cannot be done, put the not-word *lē* in front of
-*mafai*. That placement is what makes the whole ability negative: *Sā lē mafai
-ona ʻou alu* says that the going was not possible, not that a possible thing
-failed to happen.
-
----
-
-## Saying What Must Be Done: *Tatau*
-
-::: {.examples}
-*E tatau ona alu le tama.* The boy must go.
-
-*ʻUa tatau ona sau le teine.* The girl must come.
-:::
-
-*Tatau* is the word you met earlier in this book for "fit, proper". With a
-complement clause after it, it is the obligation word: necessary, must. Because
-the same word covers what is fitting as well as what is required, it is also
-where English "should" lands: *E tatau ona alu le tama* covers "the boy should
-go" as much as "the boy must go". The construction names no one who is doing the
-requiring. It says that a state of
-affairs is called for, and the person who has to act appears inside the
-complement clause, as *le tama* and *le teine* do here.
-
----
-
-## The Words That Take a Complement Clause
-
-::: {.examples}
-*ʻUa taga ona inu ʻava mālosi.* It is allowed to drink alcohol. (Lit. "It is allowed to drink strong kava.")
-
-*E faʻasā ona tausi ni pusi.* It is forbidden to keep cats. (Someone has forbidden it.)
-:::
-
-*Mafai* and *tatau* belong to a group of words built the same way. Each one
-grades the clause after *ona* as permitted, forbidden, necessary or possible,
-and every one of them set in a sentence in this chapter carries a tense particle
-in front of it.
+Sāmoan has six direction words, and they fall into two groups.
 
 | Word | Meaning |
 |---|---|
-| *sā* | forbidden, must not |
-| *taga* | allowed, may |
-| *tatau* | necessary, must |
-| *mafai* | can, able |
-| *lē lavā* | cannot, be unable, exhausted |
-| *faitalia* | do as one pleases |
-| *faʻasā* | forbid |
-| *faʻataga* | allow |
+| *mai* | toward the speaker |
+| *atu* | away from the speaker, and usually toward the person spoken to |
+| *ane* | along, passing the speaker by |
+| *aʻe* | up |
+| *ifo* | down |
+| *ʻese* | away from a point |
 
-The last two are the maker-prefix at work on the first two. *Sā* is forbidden
-and *faʻasā* is to make forbidden, which is to forbid; *taga* is allowed and
-*faʻataga* is to make allowed, which is to allow. *Faʻasā* keeps the same
-complement clause after it that *sā* takes, so *E faʻasā ona tausi ni pusi* says
-that someone has forbidden the keeping of cats, where *E sā ona ulaula* says
-only that smoking is forbidden. *Faʻataga* stands beside it as a word of the
-same kind, and this book sets no sentence with it.
-
-*Lavā* (be able) is mostly met with the not-word in front of it, as *lē lavā*,
-cannot or be unable. *Faitalia* (do as one pleases) leaves the matter to whoever
-is named.
-
-> *Note:* The word *sā* does two jobs. As the past particle it comes straight
-> before the person and the verb, with no tense particle in front of it:
-> *Sā ʻou alu* (I went). As the word for "forbidden" it stands in the predicate
-> slot, with a tense particle of its own in front of it: *E sā ona ulaula*. What
-> stands in front of *sā*, and what follows it, tells the two apart.
-
-> **Preview:** The words in this table are not the only ones that take a clause
-> after *ona*. Later in this book you will meet a word meaning "since" that is
-> built the same way: it stands in the predicate slot, and the thing that has
-> been true since then follows as a clause opened by *ona*. That construction is
-> taught in Chapter 44.
+The first three take their bearings from the speaker. *Mai* points at the
+speaker, *atu* points away from the speaker, and *ane* goes past. The point they
+measure from is usually the speaker, but it can be another person or thing the
+speaker picks out instead, most often the one a story is following. The other
+three take their bearings from the event, state or thing itself, not from where
+anyone is standing: up is up and down is down whoever is speaking, and *ʻese*
+measures away from a point the event fixes.
 
 ---
 
-## When the Second Verb Keeps Its Own Tense
+## Where the Direction Word Stands
 
 ::: {.examples}
-*ʻUa iloa e le tama ʻua sau le teine.* The boy knows that the girl has come.
-
-*ʻUa mafai ona sau le teine.* The girl can come.
+*Na alu atu le tama.* The boy went off. (Lit. "Past go away the boy.")
 :::
 
-Compare them. Which sentence carries two tense particles?
+The direction word stands after the verb, and when the doer of the action is
+named after the verb, the direction word comes in front of it. Five of the six can be set in that slot on the verb *alu* (go), one after
+another, and nothing else moves:
 
-The first sentence carries two. *ʻUa iloa* opens it and *ʻua sau* opens the clause that
-follows, and that clause has no *ona* in front of it at all. Sāmoan has two ways
-of joining a complement clause to the word that takes it. One sets the clause
-down with nothing between, and in the sentences this chapter shows, that clause
-keeps a tense particle of its own, read against the time of the first half. The
-other opens the clause with *ona*, and then the clause carries no tense
-particle: it sits under the tense of the word in front of it.
+| Sāmoan | English |
+|---|---|
+| *Na alu atu le tama.* | The boy went off (away from me, toward you). |
+| *Na alu ane le tama.* | The boy went past. |
+| *Na alu aʻe le tama.* | The boy went up. |
+| *Na alu ifo le tama.* | The boy went down. |
+| *Na alu ʻese le tama.* | The boy went away. |
 
-| Sāmoan | English | Tense particles |
-|---|---|---|
-| *ʻUa iloa e le tama ʻua sau le teine.* | The boy knows that the girl has come. | two |
-| *ʻUa mafai ona sau le teine.* | The girl can come. | one |
-| *E tatau ona alu le tama.* | The boy must go. | one |
+The verb is "go" in every row, and the direction word after it is the whole
+difference between going off, going past, up, down or away. The sixth word,
+*mai*, you have already seen on *faʻatali*, and it is taught on its own below.
 
-So in *E tatau ona alu le tama* the general particle *e* covers the whole
-sentence, the obligation and the going alike, and *alu* stands bare. Every word
-in the table of words that take a complement clause, earlier in this chapter,
-takes the *ona* kind of complement.
+Two other kinds of word can stand in the same stretch after the verb, and
+their order is fixed. A describing word, the kind you met early in this book,
+comes before the direction word; the pointing-back word *ai* comes after it:
 
-> **Preview:** The word *ona* has a second job. Usually written the same way, it also
-> opens a clause of reason and means "because". One test separates them: a
-> clause meaning "because" carries a tense particle of its own, while the
-> complement clause of this chapter carries none. That second job is taught in
-> Chapter 38.
+| Sāmoan | English |
+|---|---|
+| *Na alu vave atu le tama.* | The boy went off quickly. |
+| *Sā nofo aʻe ai le tama.* | The boy sat up there. |
+
+So the full order after the verb is: any describing word, then the direction
+word, then *ai* if the sentence has one. A doer named after the verb follows the
+whole group; a doer that stands in front of the verb, like the *ʻe* in
+*ʻE te lē popole mai* below, stays where it was.
+
+---
+
+## The Pair *Mai* and *Atu*
+
+::: {.examples}
+*ʻE te lē popole mai.* You do not worry about me. (Lit. "You do not worry, toward me.")
+
+*ʻOu te lē popole atu ʻia te ʻoe.* I do not worry about you.
+:::
+
+Both sentences carry the verb *popole* (worry), and nobody in either of them is
+going anywhere. *Mai* on the first turns the worrying toward the speaker: the
+worry is yours, and the speaker is what it is about. *Atu* on the second turns
+it away from the speaker and toward the person spoken to. Talk swings between
+the two constantly, because every exchange has a speaker and a person spoken to.
+
+The two turn up on all sorts of verb, and a movement is not required:
+
+::: {.examples}
+*ʻUa tagi atu le teine ʻi lona tamā.* The girl cried out to her father.
+
+*ʻUa tagi mai le teine ʻi lona tamā.* The girl cried out to her father (toward the speaker).
+
+*ʻOloʻo taʻoto mai le teine ʻi le fale.* The girl is lying here in the house. (Lit. "The girl is lying, toward me, in the house.")
+:::
+
+In the first pair the crying is aimed at someone, and the direction word says
+which way: *atu* when the father is away from the speaker, *mai* when the
+speaker is where he is. In the third sentence the girl is not moving at all.
+*Taʻoto* (lie down) is the verb, and *mai* says that she lies where the speaker
+is, or turned the speaker's way. English usually leaves that unsaid, or reaches
+for a word like "here".
+
+> *Note:* Direction words are used very idiomatically, often where English feels
+> no need of any such word. *Tagi atu* is to cry out to someone, *fesili mai* is
+> to ask me (or us), *taʻu mai* is to tell me, *vaʻai atu* is to look at
+> something, and in each the direction word says whose way the action is turned
+> rather than that anything moved. Do not hunt for a movement to translate; hear
+> the word as part of the verb it follows, and use it the same way.
+
+*Mai* is also the from-word you met earlier in this book, and the spelling is the
+same. What follows the word tells the two jobs apart. A place noun directly
+after *mai* makes it the from-word. Nothing after it, or the doer of the action
+after it, makes it the direction word:
+
+::: {.examples}
+*Na sau le tama mai le fale.* The boy came from the house.
+
+*ʻUa tagi mai le teine ʻi lona tamā.* The girl cried out to her father (toward the speaker).
+:::
+
+In *ʻOloʻo taʻoto mai le teine ʻi le fale* the phrase opened by the place word
+*ʻi* says where she lies, so *mai* is the direction word there too.
+
+The word *ʻaumai* (bring), one of the first commands in this book, is an old verb
+of taking with *mai* fused onto the end of it: take, toward me.
+
+> **Preview:** *Atu* has one more job. Set on a quality word, it says that one
+> thing has more of that quality than another, which is how Sāmoan compares two
+> things. That use is taught in Chapter 31. In this chapter *atu* only points
+> away from the speaker.
+
+---
+
+## Up and Down: *Aʻe* and *Ifo*
+
+::: {.examples}
+*ʻUa alu aʻe le sasao o le afi.* The fire has flared up. (Lit. "The blaze of the fire has gone up.")
+
+*Na alu ifo le tama.* The boy went down.
+:::
+
+*Aʻe* is up and *ifo* is down, and the two stand in opposition. Neither takes
+its bearing from the speaker: a flame goes up and a boy climbs down whoever is
+telling it. *Sasao* (blaze, burn fiercely) and *afi* (fire) are new words here,
+and *sasao* stands as a noun in this sentence, the blaze of the fire.
+
+Both words of this pair are related to verbs of their own, *aʻe* (go up, climb)
+and *ifo* (bow down).
+
+*Aʻe* can carry a note of politeness, and *ifo* sometimes carries one of humility
+or self-abasement, so you will meet *aʻe* on a verb of telling where nothing
+rises.
+
+A word of this second group can also be followed by *mai*, *atu* or *ane*, so
+one sentence can say both which way a thing went and whose way it was turned.
+
+> *Note:* Two of the compass nouns from earlier in this book carry this pair
+> inside them. *Sasaʻe* (east) holds *aʻe*, up, and *sisifo* (west) holds *ifo*,
+> down, very likely from the rising and the setting of the sun.
+
+---
+
+## Along and Away: *Ane* and *ʻEse*
+
+::: {.examples}
+*Na alu ane le tama.* The boy went past.
+
+*Alu ʻese.* Go away.
+:::
+
+*Ane* says that something moves along or past the speaker's position, taking
+neither of the directions *atu* and *mai* give. It often does no more than
+underline the direction already in the verb, and you will hear it on verbs of
+asking and going where English often says nothing.
+
+*ʻEse* is the word for "different, strange" doing a second job. After a verb it
+means away from a point: the thing moves away. It differs from *atu* in what it
+measures from. *Atu* is measured from the speaker, away from me and toward you;
+*ʻese* is measured from a point the event itself fixes, not from where the
+speaker stands.
+
+---
+
+## A Direction Word Inside a Spatial Noun
+
+::: {.examples}
+*ʻi lalo ifo o le fale*. underneath the house
+:::
+
+The direction words modify verbs, and they modify spatial nouns as well. The
+four-part frame from earlier in this book runs: the place word, the spatial
+noun, the belonging word, then the thing the position is measured against. The
+direction word goes directly after the spatial noun, and it keeps its
+direction:
+
+| Sāmoan | English |
+|---|---|
+| *ʻO le pusi ʻi lalo o le fale.* | The cat under the house. |
+| *ʻO le pusi ʻi lalo ifo o le fale.* | The cat underneath the house. |
+| *ʻO le taʻavale ʻi fafo atu o le fale.* | The car outside the house. |
+
+> *Note:* You have met two of these words in this position already. The spatial
+> nouns *tala mai* (this side) and *tala atu* (the far side) are *tala* (next
+> to) with a direction word after it, and the two point exactly as *mai* and
+> *atu* do on a verb.
 
 ---
 
@@ -198,9 +237,12 @@ takes the *ona* kind of complement.
 
 | Word | What it does |
 |---|---|
-| *ona* | the that-word: the only joining word that opens a complement clause, and the clause after it never carries a tense particle |
-| *tatau* | the obligation word: necessary, must. Met earlier as "fit, proper"; here it takes a complement clause after *ona* |
-| *sā* | the word for forbidden, must not. Spelled like the past particle, and told apart by position, since this *sā* stands in the predicate slot with a tense particle of its own in front |
+| *mai* | the direction word for toward the speaker |
+| *atu* | the direction word for away from the speaker, usually toward the person spoken to |
+| *ane* | the direction word for along, passing the speaker by |
+| *aʻe* | the direction word for up |
+| *ifo* | the direction word for down |
+| *ʻese* | the direction word for away from a point |
 
 **New vocabulary** (memorize these meanings):
 
@@ -208,28 +250,36 @@ The verbs:
 
 | Word | Meaning |
 |---|---|
-| *mafai* | can, able |
-| *taga* | allowed, may |
-| *faʻasā* | forbid |
-| *faʻataga* | allow |
-| *faitalia* | do as one pleases |
-| *lavā* | be able (mostly as *lē lavā*, cannot) |
-| *ulaula* | smoke |
+| *ita* | angry, be angry |
+| *osofaʻi* | attack |
+| *popole* | worry |
+| *sasao* | blaze, burn fiercely |
+| *taʻoto* | lie (down) |
 
 The nouns:
 
 | Word | Meaning |
 |---|---|
-| *ʻava* | kava, and in *ʻava mālosi* alcohol |
-| *pologa* | slave |
-| *uso* | sibling: a man's brother, a woman's sister |
+| *afi* | fire |
+| *faʻamalu* | umbrella |
+| *leo* | voice |
+| *solosolo* | handkerchief |
+| *tuagane* | brother (of a woman) |
 
-*Pologa* takes an o-word possessive form, with the belonging types taught
-earlier in this book:
+Two of the nouns come with a sentence of their own:
 
 ::: {.examples}
-*ʻO lona pologa.* His slave.
+*ʻUa maua lou solosolo?* Have you got your handkerchief? (Lit. "Got your handkerchief?")
+
+*ʻO le tuagane o le fafine.* The brother of the woman.
 :::
+
+*Tuagane* is a brother seen from his sister's side, so this phrase names the
+brother of a woman, and the woman is the owner.
+
+*Solosolo* and *faʻamalu* are both o-words, so "your handkerchief" is
+*lou solosolo* and "your umbrella" is *lou faʻamalu*, with the possessive form
+taught earlier in this book.
 
 ---
 
@@ -237,69 +287,67 @@ earlier in this book:
 
 ### Exercise 1: Translate into English
 
-1. *E sā ona ulaula.*
-2. *ʻUa tatau ona ʻou alu.*
-3. *E mafai ona siva le uso.*
-4. *Sā lē mafai ona ʻou alu.*
-5. *ʻUa taga ona inu ʻava mālosi.*
-6. *E faʻasā ona tausi ni pusi.*
-7. *ʻUa iloa e le tama ʻua sau le teine.*
-8. *ʻO lona pologa.*
+1. *Faʻatali mai.*
+2. *Na alu ifo le tama.*
+3. *ʻUa alu aʻe le sasao o le afi.*
+4. *Na alu atu le tama.*
+5. *ʻOu te lē popole atu ʻia te ʻoe.*
+6. *ʻO le pusi ʻi lalo ifo o le fale.*
+7. *Alu ʻese.*
+8. *ʻUa maua lou solosolo?*
 
-### Exercise 2: Choose the word in front of *ona*
+### Exercise 2: Choose *mai* or *atu*
 
-Fill the gap with *mafai*, *tatau*, *sā* or *taga* so the Sāmoan matches the
-English.
+Fill the gap so the Sāmoan matches the English.
 
-1. *E ___ ona ulaula.* (It is forbidden to smoke.)
-2. *ʻUa ___ ona ʻou alu.* (I must go.)
-3. *ʻUa ___ ona sau le teine.* (The girl can come.)
-4. *ʻUa ___ ona inu ʻava mālosi.* (It is allowed to drink alcohol.)
-5. *E ___ ona alu le tama.* (The boy must go.)
-6. *E ___ ona siva le uso.* (The sibling can dance.)
+1. *Faʻatali ___.* (Wait for me.)
+2. *Na alu ___ le tama.* (The boy went off.)
+3. *ʻE te lē popole ___.* (You do not worry about me.)
+4. *ʻOloʻo taʻoto ___ le teine ʻi le fale.* (The girl is lying here in the house.)
+5. *Faʻatali ___.* (Wait here until I come back.)
+6. *ʻUa tagi ___ le teine ʻi lona tamā.* (The girl cried out to her father, away from the speaker.)
 
 ### Exercise 3: Translate into Sāmoan
 
-1. The boy must go.
-2. The girl can come.
-3. I can go.
-4. It is forbidden to drink.
-5. The girl cannot dance.
-6. Someone has forbidden the keeping of cats.
+1. The boy went up.
+2. The girl cried out to her father, away from the speaker.
+3. Go away.
+4. The boy went past.
+5. The cat underneath the house.
+6. Have you got your umbrella?
 
-### Exercise 4: One tense particle or two?
+### Exercise 4: Which way is it turned?
 
-For each sentence, say how many tense particles it carries, and whether the
-second clause is opened by *ona*.
+For each sentence, say whether the direction word turns the action toward the
+speaker, away from the speaker, up, down, along, or away from a point.
 
-1. *ʻUa mafai ona sau le teine.*
-2. *ʻUa iloa e le teine ʻua sau le tama.*
-3. *E tatau ona alu le tama.*
-4. *ʻUa iloa e le tama ʻua sau le teine.*
-5. *ʻOu te mafai ona ʻou alu.*
-6. *E sā ona inu.*
+1. *Na alu ane le tama.*
+2. *ʻUa tagi atu le teine ʻi lona tamā.*
+3. *Na alu ʻese le tama.*
+4. *Sā nofo aʻe ai le tama.*
+5. *ʻUa tagi mai le teine ʻi lona tamā.*
+6. *Na alu ifo le tama.*
 
-### Exercise 5: Which *sā*?
+### Exercise 5: Put the direction word in its place
 
-For each sentence, say whether *sā* is the past particle or the word for
-"forbidden", and how you can tell.
+Rewrite each sentence with the direction word given, set in its correct slot.
 
-1. *Sā ʻou alu.*
-2. *E sā ona ulaula.*
-3. *E sā ona inu.*
-4. *Sā lē mafai ona ʻou alu.*
-5. *E sā ona sau le teine.*
+1. *Na alu le tama*, with *atu*.
+2. *Na alu vave le tama*, with *atu*.
+3. *Sā nofo ai le tama*, with *aʻe*.
+4. *ʻO le pusi ʻi lalo o le fale*, with *ifo*.
+5. *ʻUa tagi le teine ʻi lona tamā*, with *mai*.
 
 ### Exercise 6: Give the meaning
 
-1. *ona*
-2. *mafai*
-3. *taga*
-4. *faitalia*
-5. *faʻataga*
-6. *lavā*
-7. *pologa*
-8. *uso*
+1. *ita*
+2. *osofaʻi*
+3. *leo*
+4. *tuagane*
+5. *afi*
+6. *faʻamalu*
+7. *taʻoto*
+8. *popole*
 
 ---
 
@@ -307,67 +355,58 @@ For each sentence, say whether *sā* is the past particle or the word for
 
 ### Exercise 1
 
-1. It is forbidden to smoke.
-2. I must go.
-3. The sibling can dance.
-4. I could not go.
-5. It is allowed to drink alcohol.
-6. It is forbidden to keep cats; someone has forbidden it.
-7. The boy knows that the girl has come.
-8. His slave.
+1. Wait for me.
+2. The boy went down.
+3. The fire has flared up.
+4. The boy went off.
+5. I do not worry about you.
+6. The cat underneath the house.
+7. Go away.
+8. Have you got your handkerchief?
 
 ### Exercise 2
 
-1. *E sā ona ulaula.*
-2. *ʻUa tatau ona ʻou alu.*
-3. *ʻUa mafai ona sau le teine.*
-4. *ʻUa taga ona inu ʻava mālosi.*
-5. *E tatau ona alu le tama.*
-6. *E mafai ona siva le uso.*
+1. *Faʻatali mai.*
+2. *Na alu atu le tama.*
+3. *ʻE te lē popole mai.*
+4. *ʻOloʻo taʻoto mai le teine ʻi le fale.*
+5. *Faʻatali atu.*
+6. *ʻUa tagi atu le teine ʻi lona tamā.*
 
 ### Exercise 3
 
-The English of items 1, 2 and 5 does not say which tense particle to use, so the
-alternative given in brackets is right as well.
-
-1. *E tatau ona alu le tama.* (*ʻUa tatau ona alu le tama* is also right, and
-   either sentence covers "the boy should go".)
-2. *ʻUa mafai ona sau le teine.* (*E mafai ona sau le teine* is also right.)
-3. *ʻOu te mafai ona ʻou alu.* (*E mafai ona ʻou alu* is also right, with the speaker
-   named only inside the clause.)
-4. *E sā ona inu.*
-5. *E lē mafai ona siva le teine.* (*ʻUa lē mafai ona siva le teine* is also
-   right.)
-6. *E faʻasā ona tausi ni pusi.*
+1. *Na alu aʻe le tama.*
+2. *ʻUa tagi atu le teine ʻi lona tamā.* (*Na tagi atu le teine ʻi lona tamā*, with the
+   one-off past particle, is also right; the English does not say which.)
+3. *Alu ʻese.*
+4. *Na alu ane le tama.*
+5. *ʻO le pusi ʻi lalo ifo o le fale.*
+6. *ʻUa maua lou faʻamalu?*
 
 ### Exercise 4
 
-1. One, and the second clause is opened by *ona*.
-2. Two, and the second clause is not opened by *ona*.
-3. One, and the second clause is opened by *ona*.
-4. Two, and the second clause is not opened by *ona*.
-5. One, and the second clause is opened by *ona*.
-6. One, and the second clause is opened by *ona*.
+1. along
+2. away from the speaker
+3. away from a point
+4. up
+5. toward the speaker
+6. down
 
 ### Exercise 5
 
-1. The past particle, with nothing in front of it and the person and the verb
-   following.
-2. The word for "forbidden". The general particle *e* stands in front of it, so
-   *sā* is in the predicate slot.
-3. The word for "forbidden", for the same reason.
-4. The past particle. Nothing stands in front of it, and the predicate slot
-   after it holds *lē mafai*.
-5. The word for "forbidden". The general particle *e* stands in front of it, so
-   *sā* is in the predicate slot, and a clause opened by *ona* follows.
+1. *Na alu atu le tama.*
+2. *Na alu vave atu le tama.* (the describing word comes before the direction word)
+3. *Sā nofo aʻe ai le tama.* (the direction word comes before *ai*)
+4. *ʻO le pusi ʻi lalo ifo o le fale.* (the direction word goes directly after the spatial noun)
+5. *ʻUa tagi mai le teine ʻi lona tamā.*
 
 ### Exercise 6
 
-1. the that-word, which opens a complement clause
-2. can, able
-3. allowed, may
-4. do as one pleases
-5. allow
-6. be able, mostly as *lē lavā*, cannot
-7. slave
-8. sibling: a man's brother, a woman's sister
+1. angry, be angry
+2. attack
+3. voice
+4. brother (of a woman)
+5. fire
+6. umbrella
+7. lie (down)
+8. worry

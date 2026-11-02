@@ -1,122 +1,111 @@
 {
-  "chapter": 38,
+  "chapter": 37,
   "items": [
     {
-      "id": "ch38-reason-position",
+      "id": "ch37-then-shapes",
       "kind": "contrast",
-      "anchor": "the-because-word-ona",
-      "title": "Put the reason before or after",
+      "anchor": "the-shorter-shapes-of-the-then-construction",
+      "title": "The full pair and its shorter shapes",
       "data": {
-        "mode": "toggle",
+        "mode": "steps",
         "states": [
           {
-            "label": "Reason last",
-            "sm": "Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.",
-            "en": "The boy went to the house because the girl was sick."
+            "label": "The full pair",
+            "sm": "Ona alu lea ʻo le tama.",
+            "en": "Then the boy went.",
+            "note": "*Ona* opens the clause and *lea* closes the verb phrase."
           },
           {
-            "label": "Reason first",
-            "sm": "ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.",
-            "en": "Because the girl was sick, the boy went to the house.",
-            "note": "*Ai* points back to the whole reason clause."
+            "label": "Without *lea*",
+            "sm": "Ona alu le tama.",
+            "en": "Then the boy went.",
+            "note": "Without *lea*, the named participant stands in its plain form."
+          },
+          {
+            "label": "Without *ona*",
+            "sm": "Alu lea ʻo le tama.",
+            "en": "Then the boy went.",
+            "note": "*Lea* carries the succession, and the participant usually has the presenting particle."
           }
         ]
       },
-      "caption": "The because-clause keeps its own tense particle in both places. When it comes first, the other clause usually carries *ai*."
+      "caption": "These are next-event examples from a story: a text needs something before them. Modern writing keeps the full pair; speech also uses the shorter shapes."
     },
     {
-      "id": "ch38-that-because",
-      "kind": "contrast",
-      "anchor": "telling-ona-and-ona-apart",
-      "title": "Read the particle after the joining word",
+      "id": "ch37-recognise-pair",
+      "kind": "pick",
+      "anchor": "the-shorter-shapes-of-the-then-construction",
+      "title": "Which parts of the pair remain?",
       "data": {
-        "mode": "toggle",
-        "states": [
+        "question": "Which shape is printed here?",
+        "options": [
           {
-            "label": "A complement",
-            "sm": "ʻUa mafai ona sau le teine.",
-            "en": "The girl can come.",
-            "note": "The verb after *ona* has no tense particle: this is the that-word."
+            "id": "both",
+            "label": "Both opening and closing words"
           },
           {
-            "label": "A reason",
-            "sm": "ʻUa alu le tama ʻona ʻua sau le teine.",
-            "en": "The boy went because the girl came.",
-            "note": "The verb after *ʻona* carries *ʻua*: this is the because-word."
-          }
-        ]
-      },
-      "caption": "Ordinary print often spells these joining words alike. The tense particle after them is the test; the then-construction is told apart by its closing *lea*."
-    },
-    {
-      "id": "ch38-purpose-reason",
-      "kind": "sort",
-      "anchor": "the-purpose-clause",
-      "title": "A reason or a purpose?",
-      "data": {
-        "bins": [
-          {
-            "id": "reason",
-            "label": "A reason: why it happened"
+            "id": "ona",
+            "label": "Only the opening word"
           },
           {
-            "id": "purpose",
-            "label": "A purpose: what it was done for"
+            "id": "lea",
+            "label": "Only the closing word"
           }
         ],
-        "items": [
+        "prompts": [
           {
-            "sm": "Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.",
-            "en": "The girl lay down in the house because she was tired.",
-            "bin": "reason",
-            "why": "The because-word opens the reason under its own tense particle."
+            "sm": "Ona alu loa lea ʻo le tama.",
+            "answer": "both",
+            "why": "Both *ona* and *lea* remain. The extra *loa* is the then-word inside the verb phrase."
           },
           {
-            "sm": "E lē mafai ona alu le tama leaga e maʻi.",
-            "en": "The boy cannot go because he is sick.",
-            "bin": "reason",
-            "why": "*Leaga* gives the unwelcome reason for the main clause."
+            "sm": "Ona alu le tama.",
+            "answer": "ona",
+            "why": "*Ona* carries the succession on its own, and *lea* is absent."
           },
           {
-            "sm": "Sā alu le tama e ʻaumai le niu.",
-            "en": "The boy went to bring the coconut.",
-            "bin": "purpose",
-            "why": "The clause headed by *e* says what the going was for."
-          },
-          {
-            "sm": "Sā ʻou alu neʻi tagi le tama.",
-            "en": "I went, so that the boy would not cry.",
-            "bin": "purpose",
-            "why": "The warning particle *neʻi* makes the purpose negative: what the going was intended to prevent."
+            "sm": "Alu loa lea ʻo le tama.",
+            "answer": "lea",
+            "why": "*Ona* is absent. The then-word *loa* and the closing word *lea* remain."
           }
         ]
       },
-      "intro": "Choose whether the added clause explains a reason or names a purpose."
+      "intro": "Find the opening and closing words, without treating the extra then-word as part of the pair."
     },
     {
-      "id": "ch38-ask-why",
-      "kind": "dialogue",
-      "anchor": "asking-why",
-      "title": "A why-question and its answer",
+      "id": "ch37-story-words",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Recall the story words",
       "data": {
-        "speakers": {
-          "question": "Question",
-          "answer": "Answer"
-        },
-        "lines": [
+        "pairs": [
           {
-            "who": "question",
-            "sm": "ʻAiseā na alu ai le tamāloa ʻi le nuʻu?",
-            "en": "Why did the man go to the village?"
+            "sm": "lilo",
+            "en": "hide, be hidden"
           },
           {
-            "who": "answer",
-            "sm": "ʻAuā ʻua maʻi le teine.",
-            "en": "Because the girl is sick."
+            "sm": "sāuni",
+            "en": "prepare, get ready"
+          },
+          {
+            "sm": "lālā",
+            "en": "branch"
+          },
+          {
+            "sm": "sami",
+            "en": "sea"
+          },
+          {
+            "sm": "saʻai",
+            "en": "ogre"
+          },
+          {
+            "sm": "vaitafe",
+            "en": "river"
           }
         ]
       },
-      "caption": "The printed answer needs no main clause of its own. A because-word and its reason fill the whole turn."
+      "intro": "Match the printed words to the meanings used in this chapter’s stories."
     }
   ]
 }

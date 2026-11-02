@@ -1,212 +1,149 @@
-# Chapter 24: Prohibitions
+# Chapter 23: Checkpoint 1: The Beginner Consolidation
 
-This chapter adds the two do-not verbs, *ʻaua* and *sōia*, each standing at the
-head of the sentence in front of the person and verb for what must not be done,
-so you can tell someone not to do something. A command takes no not-word; to
-forbid an action, Sāmoan reaches for a verb of its own.
+This checkpoint adds no new grammar. It gathers the whole Beginner band into one
+place and puts the systems to work together. By now you have built three
+sentence types, the verb sentence, the naming sentence, and the where-sentence,
+and with them you can greet, identify, locate, describe, negate, question, count,
+and command. The exercises and the self-run that follow put those abilities to
+work together.
+
+::: {.examples}
+*Sā ʻou alu.* I went.
+
+*ʻO se uō le tama.* The boy is a friend.
+
+*Sā ʻi le fale le teine.* The girl was in the house.
+:::
 
 ---
 
-## The Do-Not Verb *ʻAua*
+## The Three Sentence Types
 
-::: {.examples}
-*ʻAua ʻe te faʻasāunoa ʻi meaola.* Do not torture animals.
-:::
+The three sentence types are the frame everything else hangs on: a verb sentence
+puts a tense particle in front of an action or a describing verb, a naming sentence sets two naming
+parts side by side with the presenting particle *ʻo*, and a where-sentence puts a
+place, with a tense particle in front of it, where a verb would stand.
 
-The word *ʻaua* is the **do-not verb**: it stands first and forbids the action
-that follows. After it comes the person spoken to, then the verb for what must
-not be done. The person and verb are joined by the general particle you met for
-habits and truths, in the shape *te* that follows a pronoun, the same *te* as in
-*ʻou te alu* (I go). Here the person is *ʻe* (you) and the action is
-*faʻasāunoa* (torture); the thing the action reaches, *meaola* (animals), is
-pointed at with the place word *ʻi*, the way a verb of feeling or seeing reaches
-its object. (Lit. "Do not, you, torture at living things.")
+### Exercise 1: Name the sentence type
 
-The pattern has three parts after *ʻaua*: the person, the general particle *te*,
-then the verb. Change the verb and you forbid a different action.
+Each sentence below is a verb sentence, a naming sentence, or a where-sentence.
+Name the type of each.
 
-| Sāmoan | English |
-|---|---|
-| *ʻAua ʻe te faitala.* | Don't gossip. |
-| *ʻAua ʻe te siva.* | Don't dance. |
-| *ʻAua ʻe te taumafai.* | Don't try. |
-| *ʻAua ʻe te moe.* | Don't sleep. |
-
-*ʻAua* can also stand on its own, with no verb after it, when what is forbidden
-is already plain from the moment:
-
-::: {.examples}
-*ʻAua.* Don't.
-:::
-
-> **Preview:** When a forbidden action has a doer acting directly on something,
-> its verb often takes a longer shape than the plain one used here. That longer
-> shape is taught in Chapter 32. The verbs in this chapter keep their plain
-> shape: they either act on nothing, or reach what they act on with the place
-> word *ʻi*, as in *ʻAua ʻe te faʻasāunoa ʻi meaola*.
+1. *Sā ia siva.*
+2. *ʻO le pusi lenā.*
+3. *Sā ʻi le nuʻu le tama.*
+4. *ʻO se uō le teine.*
+5. *E mālosi le tama.*
 
 ---
 
-## A Command Has No Not-Word
+## Reading and Building
 
-This book has four ways of saying no; you have now met the last of them. To see
-why a command needs its own, look first at how a statement is denied. Earlier in
-this book the not-word *lē* denied a statement, sitting after the tense particle:
+### Exercise 2: Translate into English
 
-::: {.examples}
-*Sā lē siva le tama.* The boy did not dance.
-:::
+1. *Sā ʻou alu ʻi le nuʻu.*
+2. *ʻO fea e ʻi ai le teine?*
+3. *E leʻi alu le teine.*
+4. *Sā nofo le tama ma le teine.*
+5. *ʻO āfea ʻoleʻā moe ai le tama?*
+6. *Sā faʻapefea le aso?*
 
-A command like *siva* (dance) carries no tense particle. Compare the statement
-above with the command: the statement has *sā* for *lē* to follow, and the
-command has nothing. There is no slot for the not-word to fill, so a command can
-never be denied with a particle. You cannot say *lē siva*. To forbid the action,
-Sāmoan uses a verb instead, the do-not verb *ʻaua*.
+### Exercise 3: Translate into Sāmoan
 
-That fills in the last of the four ways of saying no this book has been
-building, each for a different job:
-the not-word *lē* denies a statement, the not-yet word *leʻi* says
-something has not happened, the there-is-none verb *leai* says a thing does not
-exist, and the do-not verb forbids a command. A command is forbidden with a
-verb, never with a particle.
+1. The girl did not dance.
+2. Who went?
+3. That is my knife.
+4. The cat is black.
+5. The boy and the girl stayed.
+6. When did the boy sleep?
 
 ---
 
-## The Stop Verb *Sōia*
+## Tense, Time, and Negation
 
-::: {.examples}
-*Sōia ʻe te faitala.* Stop gossiping.
-:::
+### Exercise 4: Anchor each sentence in time
 
-*Sōia* is the second do-not verb. Where *ʻaua* forbids an action, *sōia* tells
-someone to stop an action already under way. It takes the same parts after it:
-the person, the general particle *te*, then the verb.
+Put the time word into the gap so the sentence matches the English.
 
-| Sāmoan | English |
-|---|---|
-| *Sōia ʻe te siva.* | Stop dancing. |
-| *Sōia ʻe te tagi.* | Stop crying. |
+1. *Na sau le tama ___.* (yesterday)
+2. *ʻOleʻā siva le teine ___.* (tomorrow morning)
+3. *ʻOloʻo timu ___.* (now)
+4. *Na tāʻele le tama ___.* (last night)
+5. *ʻOleʻā sau le teine ___.* (later on)
 
-Like *ʻaua*, *sōia* can stand on its own when what to stop is clear:
+### Exercise 5: Make each sentence negative
 
-::: {.examples}
-*Sōia.* Stop.
-:::
+Rewrite each sentence as its opposite, reaching for the right negation tool.
 
-> *Note:* In the pattern taught here, said straight to a person, *sōia* stands as
-> a command, with no tense particle of its own. When you report that someone told
-> another person to stop, *sōia* takes the general particle *e*; that fuller
-> pattern belongs with reported speech, taught later in this book. The same is
-> true of the do-not verb met at the start of this chapter: it is used in
-> reported commands as well as in commands said straight to a person.
-
-> *Note:* After *ʻaua* you will sometimes meet the word *neʻi* in place of *te*,
-> another way to mark what is forbidden. It belongs to a family of mood words
-> taught later in this book; here it is enough to recognize it.
-
-> **Preview:** Sāmoan has a second way to forbid something, by naming the
-> forbidden action as a thing rather than spelling it out with a person and a
-> verb. That form is taught in Chapter 35. Until then, forbid an action with the
-> person-and-verb pattern of this chapter.
+1. *Sā siva le teine.*
+2. *E mālosi le tama.*
+3. *ʻO se uō le tama.*
+4. *E iai se tusi.*
+5. *ʻO se iʻa le pusi.*
 
 ---
 
-## When More Than One Is Meant
+## Asking and Answering
 
-The verb inside a prohibition marks number the same way it does in any other
-clause. Spoken to one person, the verb keeps its singular shape; about more than
-one, it takes
-its plural form, exactly as the command *Nofo* (stay, to one) became *Nonofo*
-(stay, to several) earlier in this book.
+### Exercise 6: Make each statement a yes or no question
 
-::: {.examples}
-*ʻAua ʻe te nofo.* Don't stay.
+In Sāmoan the words do not change to make a yes or no question; the voice usually
+falls at the end instead. In writing, the question mark is usually all you add;
+the two question-marking words you have already learned are the other route. Mark the
+falling tune with ↘.
 
-*ʻAua tātou te nonofo.* Let us not stay.
-:::
+1. *Sā moe le tama.*
+2. *Sā siva le teine.*
+3. *Sā sau le tama.*
+4. *E lelei le fale o le aliʻi.*
+5. *Sā faʻaipoipo le teine.*
 
-In the first, one person is told not to stay, and the verb is the singular
-*nofo*. In the second, the group includes the speaker, so the pronoun is *tātou*
-(we, you and I). Because the group is more than one, the verb agrees and takes
-its plural form *nonofo*.
+### Exercise 7: Count and tell the time
 
----
+Translate into Sāmoan.
 
-## Words to Learn
-
-**New grammar words** (memorize how these work):
-
-| Word | What it does |
-|---|---|
-| *ʻaua* | the do-not verb: forbids an action, "don't", "should not" |
-| *sōia* | the do-not verb for stopping: "stop" what is already under way |
-
-**New vocabulary** (memorize these meanings):
-
-| Word | Meaning |
-|---|---|
-| *faitala* | gossip |
-| *faʻasāunoa* | torture, be cruel to |
-| *taumafai* | try |
-| *filemū* | quiet, calm |
-| *ola* | life; live |
-| *meaola* | animals, living things |
-| *pisupo* | corned beef |
-| *tei* | little sister, small sibling |
+1. the three boys
+2. the two girls, counted as people
+3. at three o'clock
+4. the second house
+5. How many days are there?
 
 ---
 
-## Exercises
+## Putting It Together
 
-### Exercise 1: Translate into English
+### Exercise 8: Complete the conversation
 
-1. *ʻAua ʻe te faitala.*
-2. *Sōia ʻe te siva.*
-3. *ʻAua ʻe te faʻasāunoa ʻi meaola.*
-4. *ʻAua ʻe te taumafai.*
-5. *Sōia ʻe te tagi.*
+Two people meet. Fill each blank with a whole Sāmoan sentence that fits the
+English in the brackets.
 
-### Exercise 2: Translate into Sāmoan
+1. First speaker: *Tālofa.* (Hello.)
+2. Second speaker: ___ (Hello.)
+3. First speaker: ___ (Who are you?)
+4. Second speaker: ___ (I am a friend.)
+5. First speaker: *ʻO fea e ʻi ai le teine?* (Where is the girl?)
+6. Second speaker: ___ (The girl is in the house.)
+7. First speaker: ___ (Thank you.)
+8. Second speaker: *Tōfā soifua.* (Goodbye.)
 
-1. Don't dance.
-2. Stop gossiping.
-3. Don't sleep.
-4. Don't eat any of the corned beef.
-5. Stop dancing.
+---
 
-### Exercise 3: Don't or stop
+## Can You Do This?
 
-One verb forbids an action, the other tells someone to stop an action already
-under way. Put *ʻaua* or *sōia* in the gap so the English matches.
+Here is the whole Beginner band in ten tasks. Do each one out loud in Sāmoan,
+then check the model answer. If a task feels shaky, go back to the chapter that
+built it before moving into the Intermediate band.
 
-1. *___ ʻe te faitala.* (Stop gossiping.)
-2. *___ ʻe te moe.* (Don't sleep.)
-3. *___ ʻe te tagi.* (Stop crying.)
-4. *___ ʻe te siva.* (Don't dance.)
-5. *___ ʻe te taumafai.* (Don't try.)
-
-### Exercise 4: Put the verb in the gap
-
-Read the English and put the right verb in the gap. Watch the number: one person
-takes the singular verb, more than one takes the plural.
-
-1. *ʻAua ʻe te ___.* (Don't gossip.)
-2. *ʻAua ʻe te ___.* (Don't stay. Said to one person.)
-3. *ʻAua tātou te ___.* (Let us not stay.)
-4. *Sōia ʻe te ___.* (Stop dancing.)
-5. *ʻAua ʻe te ___.* (Don't sleep.)
-
-### Exercise 5: Say no the right way
-
-Each item gives you a meaning in English. Decide which way of saying no, or of
-stopping, fits it, and write the Sāmoan. Item 1 starts from a sentence you
-already have.
-
-1. Start from *Sā siva le tama* and write "The boy did not dance."
-2. "Don't gossip."
-3. "Stop crying."
-4. "Don't try."
-5. "Don't stay." (said to one person)
+1. Greet someone, thank them, and say goodbye.
+2. Say what someone did, then ask whether they did it.
+3. Say who you are.
+4. Point at something and say what it is.
+5. Say where someone was, and ask where someone is.
+6. Describe someone or something.
+7. Say that something is not so, in a verb sentence and in a naming sentence.
+8. Ask a question with a question word.
+9. Count some things, and tell the time.
+10. Tell one person to sit down, then tell several people to sit down.
 
 ---
 
@@ -214,40 +151,79 @@ already have.
 
 ### Exercise 1
 
-1. Don't gossip.
-2. Stop dancing.
-3. Do not torture animals.
-4. Don't try.
-5. Stop crying.
+1. verb sentence
+2. naming sentence
+3. where-sentence
+4. naming sentence
+5. verb sentence
 
 ### Exercise 2
 
-1. *ʻAua ʻe te siva.*
-2. *Sōia ʻe te faitala.*
-3. *ʻAua ʻe te moe.*
-4. *ʻAua ʻe te ʻai ʻi le pisupo.*
-5. *Sōia ʻe te siva.*
+1. I went to the village.
+2. Where is the girl?
+3. The girl has not gone yet.
+4. The boy stayed with the girl.
+5. When will the boy sleep?
+6. How was the day?
 
 ### Exercise 3
 
-1. *Sōia*
-2. *ʻAua*
-3. *Sōia*
-4. *ʻAua*
-5. *ʻAua*
+1. *Sā lē siva le teine.*
+2. *ʻO ai na alu?*
+3. *ʻO laʻu naifi lenā.*
+4. *E uliuli le pusi.*
+5. *Sā nonofo le tama ma le teine.*
+6. *ʻO anafea na moe ai le tama?* (The when-word may also stay at the end of the sentence, with no pointing-back word.)
 
 ### Exercise 4
 
-1. *faitala*
-2. *nofo*
-3. *nonofo*
-4. *siva*
-5. *moe*
+1. *Na sau le tama ananafi.*
+2. *ʻOleʻā siva le teine ātaeao.*
+3. *ʻOloʻo timu nei.*
+4. *Na tāʻele le tama anapō.*
+5. *ʻOleʻā sau le teine nānei.*
 
 ### Exercise 5
 
-1. *Sā lē siva le tama.*
-2. *ʻAua ʻe te faitala.*
-3. *Sōia ʻe te tagi.*
-4. *ʻAua ʻe te taumafai.*
-5. *ʻAua ʻe te nofo.*
+1. *Sā lē siva le teine.*
+2. *E lē mālosi le tama.*
+3. *E lē ʻo se uō le tama.*
+4. *E leai se tusi.*
+5. *E lē ʻo se iʻa le pusi.*
+
+### Exercise 6
+
+1. *Sā moe le tama?* ↘
+2. *Sā siva le teine?* ↘
+3. *Sā sau le tama?* ↘
+4. *E lelei le fale o le aliʻi?* ↘
+5. *Sā faʻaipoipo le teine?* ↘
+
+### Exercise 7
+
+1. *tama e tolu* (Counting people with the prefix *toʻa* in front of the number is also right for boys, as Chapter 22 teaches.)
+2. *Teine e toʻalua.*
+3. *ʻi le itūlā e tolu*
+4. *le fale lona lua*
+5. *E fia aso?*
+
+### Exercise 8
+
+2. *Tālofa.*
+3. *ʻO ai ʻoe?*
+4. *ʻO aʻu ʻo se uō.*
+6. *ʻO le fale e ʻi ai le teine.*
+7. *Faʻafetai.*
+
+### Can You Do This?
+
+1. *Tālofa.* / *Faʻafetai.* / *Tōfā soifua.*
+2. *Sā siva le teine.* / *Sā siva le teine?* ↘
+3. *ʻO aʻu ʻo se uō.*
+4. *ʻO le pusi lenā.*
+5. *Sā ʻi le fale le teine.* / *ʻO fea e ʻi ai le tama?*
+6. *E mālosi le tama.*
+7. *Sā lē siva le teine.* / *E lē ʻo se uō le tama.*
+8. *ʻO ai na alu?*
+9. *tama e tolu* / *ʻi le itūlā e tolu*
+10. *Nofo.* / *Nonofo.*

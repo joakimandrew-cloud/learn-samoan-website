@@ -1,207 +1,174 @@
-# Chapter 32: Short and Long Verb Forms
+# Chapter 31: Comparison and Degree
 
-This chapter introduces the long form of the verb, a second shape that verbs
-taking the agent marker carry beside the plain one, and shows you how to build
-it and the two places where the choice is settled for you.
-
----
-
-## The Two Shapes of the Verb
-
-::: {.examples}
-*Sā fasi le tama e le teine.* The girl hit the boy.
-
-*Sā lē fasi=a le tama e le teine.* The girl did not hit the boy.
-:::
-
-Compare them. What has happened to the verb?
-
-An ending has arrived on it. The verb is *fasi* in the first sentence and
-*fasi=a* in the second, and everything else about the verb is unchanged. The
-not-word *lē* is the other difference between the two sentences, and it is the
-one carrying the change of meaning; the ending on the verb is the subject of
-this chapter.
-
-Verbs that take the agent marker have two shapes like this. The plain one
-is the **short form**, and the one carrying an ending is the **long form**. A
-verb that runs in both patterns, with the agent marker and without it, has both
-shapes as well, in the uses where the marker appears. The exception is a verb
-that was itself made into an agent-taking verb by an ending in the first place.
-A verb of that kind is often used with one shape doing the work of both,
-though some speakers do give it a long form by adding a further ending, and use
-that form less often than they use the long form of other verbs.
-
-Five verbs, in both of their shapes:
-
-| Short form | Long form | Meaning |
-|---|---|---|
-| *ʻai* | *ʻaia*, *ʻai=ina* | eat |
-| *fasi* | *fasi=a*, *fasi=ina* | hit, beat |
-| *faitau* | *faitau=a*, *faitau=ina* | count, read |
-| *fau* | *fau=a*, *fau=ina* | build |
-| *faʻatau* | *faʻatau=a*, *faʻatau=ina* | sell, buy |
-
-Two of the five were taught earlier in this book. *Faitau* (count, read), *fau*
-(build) and *faʻatau* (sell, buy) are new here. Read down the middle column and
-one thing stands out: each of them has more than one long form, and all of the
-forms listed are in use.
+This chapter adds the comparison patterns: the direction word *atu* carrying the
+comparative degree, the than-word *i lo* naming what a thing is measured
+against, and the verbs *sili* (best), *pei* (like) and *tusa* (the same). The
+quality word keeps its shape in every pattern here, so these separate words
+carry the whole job, and with them you can say that one thing has more of a quality than
+another, that one thing stands above the rest, and that two things are alike.
 
 ---
 
-## Building the Long Form
-
-A long form is the short form plus an ending, and there are two ordinary
-choices, *=a* and *=ina*. An ending that does this job is a **long-form
-ending**. A third ending, *=ia*, usually with a consonant in front of it, is
-used by some speakers in the same position, and a fourth, *=na*, is uncommon.
-Between them they are why one verb can have three or four long forms on record.
-
-> *Note:* Most long forms in this book print the join with an equals sign,
-> *fasi=a*, so that the ending stays visible while you are learning where it
-> goes. The *=a* form of *ʻai* is printed solid, *ʻaia*. Ordinary Sāmoan
-> writing runs the two parts together with no mark between them.
-
-Which of the two endings a verb takes is partly a matter of the verb and partly
-of the occasion. Where both are possible, *=a* is preferred in casual speech and
-*=ina* in more formal speaking and writing. Formal writing also runs to forms
-built from two endings at once, which turn up more in formal writing than in
-casual speech.
-
-### The Ending on a Direction Word
-
-When a direction word follows the verb, the ending has a second place it can go.
-It can sit on the verb, as it always does, or it can move onto the direction
-word:
+## The Comparative *Atu*
 
 ::: {.examples}
-*ʻO ai na faʻatau=a mai le tusi?* Who bought the book? (Lit. "Who traded the
-book toward here?")
+*E mālosi le tama.* The boy is strong.
 
-*ʻO ai na faʻatau mai=a le tusi?* Who bought the book?
+*E mālosi atu le tama.* The boy is stronger.
 :::
 
-Speakers accept both, and both mean the same thing. *Faʻatau* is the trading verb,
-and the direction word settles which way the trade runs: with *mai* it is
-buying, and with *atu* it is selling.
+Read that pair once more before going on. Which word was added?
 
-> *Note:* A direction word is not the only thing that can carry the ending. When
-> a verb is followed by a second verb describing it, the kind of pair taught
-> earlier in this book, the ending goes onto that describing verb instead. Recognize the rule
-> when you meet it; this book does not work it, because the verbs the
-> description shows it on are not among the words taught here, and no sentence
-> in this chapter uses it.
+*Atu*, the direction word for away from the speaker. Set on a quality word it
+does a second job and raises the degree, so that *mālosi* is strong and *mālosi
+atu* is stronger. No ending is added to the quality word: the degree arrives as
+a word standing after it, and *mālosi* is *mālosi* in both sentences above.
 
----
-
-## Commands: The Two Rules That Hold
-
-::: {.examples}
-*ʻAi.* Eat.
-
-*ʻAua le ʻaia le meaʻai lenā.* Don't eat that food.
-:::
-
-The first sentence tells someone to do something, and its verb is the short
-form. The second forbids the same action, and its verb is the long form. Neither
-sentence has any choice in the matter, and these are the only two places where
-the description of Sāmoan settles the choice for you.
-
-### A Command Takes the Short Form
-
-A command to do something carries no tense particle, and it takes the short
-form. The long form never appears in one.
+The pattern has three parts in a fixed order: the tense particle, then the
+quality word, then *atu*. What the sentence is about follows in its usual place,
+after the verb.
 
 | Sāmoan | English |
 |---|---|
-| *ʻAi.* | Eat. |
-| *Faitau.* | Read. |
-| *Fau.* | Build. |
+| *E mālosi atu le tama.* | The boy is stronger. |
+| *E loloto atu le vai.* | The water is deeper. |
+| *E laʻitiiti atu le manulele.* | The bird is smaller. |
+| *E vevela atu le koko.* | The cocoa is hotter. |
 
-A command is about the event getting done and about the thing it gets done to,
-not about the person who is to do it. That is why the short form belongs here.
+*koko* means "cocoa" and *manulele* means "bird".
 
-### Forbidding Takes the Long Form
-
-A forbidding sentence built with *ʻaua le* takes the long form. Speakers asked
-to accept a short form in this position reject it as wrong.
-
-| Sāmoan | English |
-|---|---|
-| *ʻAua le ʻaia le meaʻai lenā.* | Don't eat that food. |
-| *ʻAua le faitau=a le tusi lenā.* | Don't read that book. |
-| *ʻAua le tatala=ina le pusa lenā.* | Don't open that box. |
-| *ʻAua le fasi=a le maile lenā.* | Don't hit that dog. |
-| *ʻAua le faʻatau=a le vaʻa lenā.* | Don't sell that boat. (Lit. "Don't trade that boat.") |
-
-The last sentence uses *faʻatau* with no direction word, so nothing in the words
-says which way the trade runs, and the context settles it: here the boat is being
-sold.
-
-The do-not verb *ʻaua* is the one taught earlier in this book. What is new is
-what follows it: *le*, and then the verb in its long form, and then the thing
-acted on. The *le* is the specific article, sitting where the pattern taught
-earlier put the person and the general particle instead. What that article is
-doing there is taken up later in this book.
-
-A forbidding sentence taught earlier, such as *ʻAua ʻe te faitala* ("Don't
-gossip"), leaves its verb alone for a different reason: *faitala* takes no agent
-marker, and a verb of that kind has only one shape to offer. The longer shape
-flagged there is this one, and these two rules are the whole of what it is
-obliged to do.
+Nothing in those four sentences says stronger than what, or deeper than what.
+Sāmoan leaves the other side of the comparison unsaid, and a sentence built
+this way is complete as it stands. Naming that other side takes
+one more word.
 
 ---
 
-## When the Choice Is Yours
-
-Outside those two positions the choice is open: the same speaker may use one
-shape on one occasion and the other on the next, in the same slot of the same
-kind of sentence.
+## Naming What You Compare With: *i lo*
 
 ::: {.examples}
-*ʻO ai na fasi=a le tama?* Who hit the boy?
+*E mālosi atu le tama i lo le teine.* The boy is stronger than the girl.
+
+*E laʻitiiti atu le manulele i lo le maile.* The bird is smaller than the dog.
 :::
 
-The question word stands at the front, as it did when it asked who went, and it
-carries the presenting particle *ʻo* in place of the agent marker: a doer asked
-for this way takes *ʻo ai* and no *e*. The question is after the doer, and the
-long form is what speakers choose for a sentence like it when they are asked to
-pick. Set beside it a sentence with no doer in it at all:
+*maile* means "dog".
+
+The thing measured against comes last, and *i lo* is the word that introduces
+it. A phrase opened by *i lo* is the **than-word** phrase, and it says which
+other thing the quality is being weighed against. Everything in front of it
+keeps the order it already had: tense particle, quality word, *atu*, then what
+the sentence is about, then *i lo* and its noun phrase.
+
+| Sāmoan | English |
+|---|---|
+| *E mālosi atu le tama i lo le teine.* | The boy is stronger than the girl. |
+| *E mamao atu le aʻau i lo le uafu.* | The reef is further away than the wharf. |
+| *E fou atu le faitotoʻa i lo le fale.* | The door is newer than the house. |
+| *E vevela atu le koko i lo le vai.* | The cocoa is hotter than the water. |
+| *E laʻitiiti atu le manulele i lo le maile.* | The bird is smaller than the dog. |
+
+*aʻau* means "reef" and *faitotoʻa* means "door".
+
+> *Note:* The *lo* can be dropped, leaving the place word *ʻi* on its own to
+> introduce what is compared. Both forms are correct. This book prints the
+> fuller *i lo* throughout. Inside the than-word the place word is printed
+> without its mark, which is how the dictionary prints the phrase.
+
+---
+
+## The Most and the Best: *Sili*
 
 ::: {.examples}
-*Sā nonoa le ʻie ʻi le faʻamalama.* The cloth was tied at the window.
+*E sili ona lelei le fale.* The house is the best. (Lit. "It is best that the house is good.")
+
+*E sili ona mālosi le maile.* The dog is the strongest. (Lit. "It is best that the dog is strong.")
 :::
 
-Nobody is named as the tier (*nonoa* is tie up; *faʻamalama* is window), the
-attention is all on the cloth and what happened to it, and the verb is in the
-short form.
+*Sili* means better, best, more, most. In this chapter's pattern it is one of
+the words that takes a complement clause, so *ona* follows it and the clause after *ona* carries no
+tense particle of its own. The quality and the thing that has it both go inside
+that clause, which is why the literal shape of the first sentence is "it is best
+that the house is good" and the plain English for it is "the house is the best".
 
-That is the tendency the description points to. You will mostly hear the short
-form where the attention is on what happened to the thing acted on, and the long
-form where the doer matters to what is being said.
+| Sāmoan | English |
+|---|---|
+| *E sili ona lelei le fale.* | The house is the best. |
+| *E sili ona mālosi le maile.* | The dog is the strongest. |
+| *E sili ona loloto le vai.* | The water is the deepest. |
+| *E sili ona fou le faitotoʻa.* | The door is the newest. |
+
+*Sili* takes *atu* too, and with *i lo* after it the comparison has two named
+sides again:
 
 ::: {.examples}
-*Sā faitau e le teine le vāega.* The girl read the section.
+*E sili atu ona mālosi le maile i lo le manulele.* The dog is stronger than the bird. (Lit. "It is more that the dog is strong than the bird.")
 :::
 
-A plain report like this one (*vāega* is section or part), with a doer named
-and no weight on them, usually takes the short form, and that is the shape to
-reach for by default.
+That sentence compares the same two animals as
+*E mālosi atu le maile i lo le manulele.* The two routes differ in where the
+degree sits: on the quality word itself in the first pattern, and on *sili* in
+front of the clause in this one.
 
-Past the two command rules, though, this is a tendency and not a rule, and it is
-as far as this book's source grammar takes it. Usage varies from speaker to
-speaker, it varies between one speaker's careful style and their casual one, and
-it varies verb by verb, closely enough that each verb behaves almost as though
-it had a grammar of its own. So learn the two command rules cold, use the short
-form as the default everywhere else, and listen for the long form where the
-sentence puts weight on the doer.
+> **Preview:** Speakers often build a comparison inside a clause that describes
+> the thing compared rather than stating it flat, so that "her brothers are
+> older than she is" comes out as "her brothers who are older than she is".
+> That kind of clause is taught in Chapter 43, and comparison is one of the
+> places Sāmoan prefers it.
 
-> **Preview:** The long form is preferred in other places too, and in most of
-> them the weight is on the doer. Two of those come later in this book: a
-> sentence that moves a named doer to the front, standing where the question
-> word stood above, taught in Chapter 34, and a clause that describes the doer,
-> taught in Chapter 43. The long form is also usual where the thing acted on is
-> not affected, as in a not-sentence like the first pair of this chapter. Until
-> then, the two command rules above are what to build on.
+---
+
+## Saying Two Things Are Alike: *Pei* and *Tusa Ma*
+
+::: {.examples}
+*Sā tautala le tama e pei sā ʻi ai.* The boy spoke as if he had been there. (Lit. "Past speak the boy, as if past there.")
+
+*Sā tagi le pepe e pei o se manulele.* The baby cried like a bird.
+:::
+
+*Pei* means "like, as if". It heads a clause of its own that hangs on the end of
+a finished sentence, and it takes the general particle *e* in front of it. What
+follows *pei* in this chapter is one of two things. In the first sentence it is a clause with a
+tense particle of its own, *sā ʻi ai* (had been there). In the second it is a
+noun phrase opened by *o*, the presenting particle met earlier in this book,
+which the sources this chapter draws on print without its mark in this position,
+although other sources print it with the mark: *o se manulele*
+(a bird).
+
+| Sāmoan | English |
+|---|---|
+| *Sā tautala le tama e pei sā ʻi ai.* | The boy spoke as if he had been there. |
+| *Sā tagi le pepe e pei o se manulele.* | The baby cried like a bird. |
+| *E tautala le tama e pei o se saienitisi.* | The boy talks like a scientist. |
+
+*saienitisi* means "scientist".
+
+> *Note:* *Sā ʻi ai* is the where-sentence you already know, with *ʻi ai* (there)
+> as its place. Nothing inside it names who was there, because the first half of
+> the sentence has already said so.
+
+*Tusa* is the other verb of this pair, and it means equal, the same, in
+accordance with. What the first half is measured against comes in after *ma*,
+the with-word:
+
+::: {.examples}
+*Sā siva le teine e tusa ma le finagalo o le tamā.* The girl danced in accordance with the father's wish.
+:::
+
+*finagalo* means "wish".
+
+Nothing inside the *tusa* clause names who is the same, and nothing needs to:
+the first half of the sentence has already named her, so Sāmoan leaves the word
+out rather than say it twice.
+
+> *Note:* The two verbs do different work. *Pei* likens one thing to another,
+> which is why the same word covers both "like" and "as if". Where a clause
+> follows it, as in the first sentence above, the comparison is with a
+> situation imagined rather than one that actually happened. Sāmoan has a third
+> thing that can follow *pei*, used when the compared situation really did
+> occur, and this chapter does not teach it. *Tusa ma* claims sameness or
+> agreement, and it is the word this chapter's own sentence uses for acting in
+> accordance with a wish.
 
 ---
 
@@ -211,32 +178,39 @@ sentence puts weight on the doer.
 
 | Word | What it does |
 |---|---|
-| *=a* | a long-form ending: joins to the short form, and is the everyday choice |
-| *=ina* | a long-form ending: the same job, preferred in formal speech and writing |
-| *=ia* | a long-form ending some speakers use, usually with a consonant in front of it |
-| *=na* | a long-form ending, uncommon: recognise it, and build with *=a* or *=ina* |
-| *ʻaua le* | forbids an action, and takes the long form of the verb after it |
+| *atu* | the direction word, met earlier for away from the speaker; set on a quality word it carries the comparative degree instead |
+| *i lo* | the than-word: it introduces what a thing is compared with, and its phrase comes last |
+| *sili* | better, best, more, most: in this chapter's pattern it takes a complement clause after *ona* and raises that clause's degree; in this chapter's sentences it gives the top degree on its own and, with *atu* and *i lo*, a comparison |
+| *pei* | like, as if: it heads a clause of comparison and takes a clause or a noun phrase after it in this chapter's sentences |
+| *tusa* | equal, the same, in accordance with: it heads a clause of comparison and takes *ma* before what is compared |
+| *ma* | the with-word, met earlier; after *tusa* it introduces the thing the first half agrees with |
 
 **New vocabulary** (memorize these meanings):
 
-The verbs:
-
 | Word | Meaning |
 |---|---|
-| *faitau* | count, read |
-| *fau* | build |
-| *faʻatau* | sell, buy |
-| *nonoa* | tie up |
+| *moni* | true |
+| *aʻau* | reef |
+| *faitotoʻa* | door |
+| *finagalo* | wish (a polite word: used of the wish of God, a chief, a stranger or anyone of higher rank, never of your own) |
+| *isu* | nose |
+| *koko* | cocoa |
+| *maile* | dog |
+| *manulele* | bird |
+| *ōfaga* | nest |
+| *saienitisi* | scientist |
 
-The nouns:
+*Moni* also stands inside a fixed phrase for the truth:
 
-| Word | Meaning |
-|---|---|
-| *faʻamalama* | window |
-| *tōtōga* | internal organs |
-| *vāega* | section, part |
+::: {.examples}
+*le mea moni*. the truth
+:::
 
-*ʻIe*, learned earlier in this book as kilt, also means cloth here.
+Three of the new words meet in one phrase:
+
+::: {.examples}
+*ʻO le ōfaga o le manulele ʻi luga o le koko.* The nest of the bird in the cocoa tree. (Lit. "The nest of the bird on top of the cocoa.")
+:::
 
 ---
 
@@ -244,72 +218,59 @@ The nouns:
 
 ### Exercise 1: Translate into English
 
-1. *ʻAua le faitau=a le tusi lenā.*
-2. *Sā faitau e le teine le vāega.*
-3. *ʻO ai na fasi=a le tama?*
-4. *Sā nonoa le ʻie ʻi le faʻamalama.*
-5. *ʻAua le tatala=ina le pusa lenā.*
-6. *Sā lē fasi=a le tama e le teine.*
+1. *E mālosi atu le tama.*
+2. *E vevela atu le koko i lo le vai.*
+3. *E sili ona lelei le fale.*
+4. *Sā tagi le pepe e pei o se manulele.*
+5. *E laʻitiiti atu le manulele i lo le maile.*
+6. *E laʻitiiti atu le isu o le pusi i lo le isu o le maile.*
 
-### Exercise 2: Give the long form
+### Exercise 2: Translate into Sāmoan
 
-Write both long forms of each verb.
+1. The water is deeper.
+2. The door is newer than the house.
+3. The dog is the strongest.
+4. The reef is further away than the wharf.
+5. The boy talks like a scientist.
+6. The story is true.
 
-1. *ʻai*
-2. *fasi*
-3. *faitau*
-4. *fau*
-5. *faʻatau*
+### Exercise 3: Make each sentence compare
 
-### Exercise 3: Short form or long form
+Put *atu* in its place after the quality word and write the sentence out.
 
-Put the verb in brackets into the gap in the shape the sentence requires.
+1. *E loloto le vai.*
+2. *E fou le faitotoʻa.*
+3. *E mamao le aʻau.*
+4. *E mālosi le maile.*
+5. *E lelei le fale.*
 
-1. *ʻAua le ___ le meaʻai lenā.* (*ʻai*)
-2. *___.* Read. (*faitau*)
-3. *ʻAua le ___ le vaʻa lenā.* (*faʻatau*)
-4. *___.* Build. (*fau*)
-5. *ʻAua le ___ le maile lenā.* (*fasi*)
+### Exercise 4: Name the other side
 
-### Exercise 4: Forbid it
+Add *i lo* and the noun phrase in brackets to the end of each sentence.
 
-Write each forbidding sentence in Sāmoan, using *ʻaua le* and the long form.
+1. *E laʻitiiti atu le manulele.* (*le maile*)
+2. *E vevela atu le koko.* (*le vai*)
+3. *E mālosi atu le tama.* (*le teine*)
+4. *E fou atu le faitotoʻa.* (*le fale*)
+5. *E mamao atu le aʻau.* (*le uafu*)
 
-1. Don't read that book.
-2. Don't open that box.
-3. Don't hit that dog.
-4. Don't sell that boat. (Lit. "Don't trade that boat.")
-5. Don't eat that food.
+### Exercise 5: Choose *e pei* or *e tusa ma*
 
-### Exercise 5: Translate into Sāmoan
+Fill each gap so that the Sāmoan matches the English.
 
-1. The girl read the section.
-2. The boy built the house.
-3. The cloth was tied at the window.
-4. Who hit the boy?
-5. Who bought the book?
+1. *Sā siva le teine ___ le finagalo o le tamā.* (The girl danced in accordance with the father's wish.)
+2. *E tautala le tama ___ o se saienitisi.* (The boy talks like a scientist.)
+3. *Sā tautala le tama ___ sā ʻi ai.* (The boy spoke as if he had been there.)
+4. *Sā tagi le pepe ___ o se manulele.* (The baby cried like a bird.)
+5. *Sā alu le tama ___ le finagalo o le tamā.* (The boy went in accordance with the father's wish.)
 
-### Exercise 6: Which shape, and why
+### Exercise 6: Give the meaning
 
-Say whether each sentence uses the short form or the long form, and give the
-reason in one phrase.
-
-1. *ʻAi.*
-2. *ʻAua le ʻaia le meaʻai lenā.*
-3. *Sā faitau e le teine le vāega.*
-4. *ʻO ai na fasi=a le tama?*
-5. *Sā nonoa le ʻie ʻi le faʻamalama.*
-
-### Exercise 7: Give the meaning
-
-1. *faitau*
-2. *fau*
-3. *faʻatau*
-4. *nonoa*
-5. *faʻamalama*
-6. *ʻie*
-7. *tōtōga*
-8. *vāega*
+1. *aʻau*
+2. *isu*
+3. *koko*
+4. *finagalo*
+5. *ōfaga*
 
 ---
 
@@ -317,71 +278,50 @@ reason in one phrase.
 
 ### Exercise 1
 
-1. Don't read that book.
-2. The girl read the section.
-3. Who hit the boy?
-4. The cloth was tied at the window.
-5. Don't open that box.
-6. The girl did not hit the boy.
+1. The boy is stronger.
+2. The cocoa is hotter than the water.
+3. The house is the best.
+4. The baby cried like a bird.
+5. The bird is smaller than the dog.
+6. The cat's nose is smaller than the dog's nose.
 
 ### Exercise 2
 
-1. *ʻaia*, *ʻai=ina*
-2. *fasi=a*, *fasi=ina*
-3. *faitau=a*, *faitau=ina*
-4. *fau=a*, *fau=ina*
-5. *faʻatau=a*, *faʻatau=ina*
-
-Either ending is correct in every one of these. Of the two, *=a* is the one you
-will mostly hear in everyday speech and *=ina* the one you will meet more in formal writing.
+1. *E loloto atu le vai.*
+2. *E fou atu le faitotoʻa i lo le fale.*
+3. *E sili ona mālosi le maile.*
+4. *E mamao atu le aʻau i lo le uafu.*
+5. *E tautala le tama e pei o se saienitisi.*
+6. *E moni le tala.*
 
 ### Exercise 3
 
-1. *ʻAua le ʻaia le meaʻai lenā.*
-2. *Faitau.*
-3. *ʻAua le faʻatau=a le vaʻa lenā.*
-4. *Fau.*
-5. *ʻAua le fasi=a le maile lenā.*
-
-The *=ina* ending is equally correct in items 1, 3 and 5.
+1. *E loloto atu le vai.*
+2. *E fou atu le faitotoʻa.*
+3. *E mamao atu le aʻau.*
+4. *E mālosi atu le maile.*
+5. *E lelei atu le fale.*
 
 ### Exercise 4
 
-1. *ʻAua le faitau=a le tusi lenā.*
-2. *ʻAua le tatala=ina le pusa lenā.*
-3. *ʻAua le fasi=a le maile lenā.*
-4. *ʻAua le faʻatau=a le vaʻa lenā.*
-5. *ʻAua le ʻaia le meaʻai lenā.*
-
-In item 4 the verb stands with no direction word, and the context makes it
-selling.
+1. *E laʻitiiti atu le manulele i lo le maile.*
+2. *E vevela atu le koko i lo le vai.*
+3. *E mālosi atu le tama i lo le teine.*
+4. *E fou atu le faitotoʻa i lo le fale.*
+5. *E mamao atu le aʻau i lo le uafu.*
 
 ### Exercise 5
 
-1. *Sā faitau e le teine le vāega.*
-2. *Sā fau e le tama le fale.*
-3. *Sā nonoa le ʻie ʻi le faʻamalama.*
-4. *ʻO ai na fasi=a le tama?*
-5. *ʻO ai na faʻatau=a mai le tusi?*
-
-In item 5, *ʻO ai na faʻatau mai=a le tusi?* is equally correct.
+1. *Sā siva le teine e tusa ma le finagalo o le tamā.*
+2. *E tautala le tama e pei o se saienitisi.*
+3. *Sā tautala le tama e pei sā ʻi ai.*
+4. *Sā tagi le pepe e pei o se manulele.*
+5. *Sā alu le tama e tusa ma le finagalo o le tamā.*
 
 ### Exercise 6
 
-1. Short form: a command to do something always takes it.
-2. Long form: a forbidding sentence with *ʻaua le* takes it, and speakers reject
-   the short form there.
-3. Short form: a plain report with no weight on the doer.
-4. Long form: the question is after the doer.
-5. Short form: no doer is named, and the attention is on the cloth.
-
-### Exercise 7
-
-1. count, read
-2. build
-3. sell, buy
-4. tie up
-5. window
-6. cloth
-7. internal organs
-8. section, part
+1. reef
+2. nose
+3. cocoa
+4. wish
+5. nest

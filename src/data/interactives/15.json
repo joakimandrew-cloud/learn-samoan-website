@@ -1,91 +1,135 @@
 {
-  "chapter": 15,
+  "chapter": 14,
   "items": [
     {
-      "id": "ch15-negative-slot",
+      "id": "ch14-there-is-or-none",
       "kind": "contrast",
-      "anchor": "the-not-word-le",
-      "title": "The not-word fills one slot",
-      "caption": "The tense particle, verb, and doer keep their order. The not-word enters between the particle and the verb.",
-      "data": {
-        "mode": "steps",
-        "states": [
-          {
-            "label": "Statement",
-            "sm": "Sā siva le teine.",
-            "en": "The girl danced."
-          },
-          {
-            "label": "Denied",
-            "sm": "Sā lē siva le teine.",
-            "en": "The girl did not dance."
-          }
-        ]
-      }
-    },
-    {
-      "id": "ch15-habit-or-now",
-      "kind": "contrast",
-      "anchor": "denying-a-change-denying-a-habit",
-      "title": "Deny a habit or deny this moment",
-      "caption": "The bare not-word under the general particle denies the habit. Adding the short happening-now particle denies what is under way now.",
+      "anchor": "the-there-is-none-verb-leai",
+      "title": "Existence changes by changing the verb",
+      "caption": "The positive sentence uses the there-is verb. Its negative twin carries the absence inside the verb itself.",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "Habit",
-            "sm": "ʻOu te lē alu.",
-            "en": "I do not go."
+            "label": "Present",
+            "sm": "E iai se tusi.",
+            "en": "There is a book."
           },
           {
-            "label": "Right now",
-            "sm": "ʻOu te lē ʻo alu.",
-            "en": "I am not going."
+            "label": "Absent",
+            "sm": "E leai se tusi.",
+            "en": "There is no book."
           }
         ]
       }
     },
     {
-      "id": "ch15-sort-negative",
+      "id": "ch14-having-as-existing",
+      "kind": "grid",
+      "anchor": "saying-what-you-have",
+      "title": "Having is said as existing",
+      "caption": "The there-is verb stays in place while the possessive form names whose thing exists.",
+      "data": {
+        "cols": [
+          "Printed sentence"
+        ],
+        "rows": [
+          {
+            "label": "A book of yours",
+            "cells": [
+              {
+                "sm": "E iai sau tusi?",
+                "en": "Do you have a book?"
+              }
+            ]
+          },
+          {
+            "label": "My knife",
+            "cells": [
+              {
+                "sm": "E iai laʻu naifi.",
+                "en": "I have a knife."
+              }
+            ]
+          },
+          {
+            "label": "His gun",
+            "cells": [
+              {
+                "sm": "E iai lana fana.",
+                "en": "He has a gun."
+              }
+            ]
+          },
+          {
+            "label": "Her car",
+            "cells": [
+              {
+                "sm": "E iai lana taʻavale.",
+                "en": "She has a car."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch14-sort-there-is",
       "kind": "sort",
-      "anchor": "the-not-yet-word-lei",
-      "title": "Sort not and not yet",
-      "intro": "Place each complete printed sentence under the kind of negative it uses.",
+      "anchor": "the-there-is-none-verb-leai",
+      "title": "Sort existence, absence, and possession",
+      "intro": "Place each complete printed sentence under the job its there-is verb performs.",
       "data": {
         "bins": [
           {
-            "id": "not",
-            "label": "Not"
+            "id": "exists",
+            "label": "Existence without an owner"
           },
           {
-            "id": "not-yet",
-            "label": "Not yet"
+            "id": "absent",
+            "label": "Absent"
+          },
+          {
+            "id": "has",
+            "label": "Existence with an owner"
           }
         ],
         "items": [
           {
-            "sm": "Sā lē siva le teine.",
-            "en": "The girl did not dance.",
-            "bin": "not",
-            "why": "The not-word denies the matching past statement."
+            "sm": "E iai se tusi.",
+            "en": "There is a book.",
+            "bin": "exists",
+            "why": "The there-is verb states that a book exists."
           },
           {
-            "sm": "E lē mālosi le tama.",
-            "en": "The boy is not strong.",
-            "bin": "not",
-            "why": "The not-word denies the lasting quality."
+            "sm": "E iai se fana.",
+            "en": "There is a gun.",
+            "bin": "exists",
+            "why": "The non-specific noun names what exists."
           },
           {
-            "sm": "E leʻi alu le teine.",
-            "en": "The girl has not gone yet.",
-            "bin": "not-yet",
-            "why": "The event has not happened so far but is still expected."
+            "sm": "E leai se tusi.",
+            "en": "There is no book.",
+            "bin": "absent",
+            "why": "The there-is-none verb carries absence inside it."
           },
           {
-            "sm": "ʻOu te leʻi alu.",
-            "en": "I have not gone yet.",
-            "bin": "not-yet",
-            "why": "The not-yet word follows the general particle after the pronoun."
+            "sm": "ʻUa leai se vai.",
+            "en": "There is now no water.",
+            "bin": "absent",
+            "why": "The change particle reports that the water has run out."
+          },
+          {
+            "sm": "E iai laʻu naifi.",
+            "en": "I have a knife.",
+            "bin": "has",
+            "why": "The possessive form says whose knife exists."
+          },
+          {
+            "sm": "E iai lana taʻavale.",
+            "en": "She has a car.",
+            "bin": "has",
+            "why": "Having is expressed through the existence of the possessed thing."
           }
         ]
       }

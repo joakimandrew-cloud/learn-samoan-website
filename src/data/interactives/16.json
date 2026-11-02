@@ -1,91 +1,91 @@
 {
-  "chapter": 16,
+  "chapter": 15,
   "items": [
     {
-      "id": "ch16-place-to-ai",
+      "id": "ch15-negative-slot",
       "kind": "contrast",
-      "anchor": "pointing-back-to-a-place",
-      "title": "Replace the named place with *ai*",
-      "caption": "The full place phrase sits at the end. The pointing-back word replaces it and moves directly after the verb, before the doer.",
+      "anchor": "the-not-word-le",
+      "title": "The not-word fills one slot",
+      "caption": "The tense particle, verb, and doer keep their order. The not-word enters between the particle and the verb.",
       "data": {
         "mode": "steps",
         "states": [
           {
-            "label": "Place named",
-            "sm": "Sā nofo le teine ʻi le nuʻu.",
-            "en": "The girl lived in the village."
+            "label": "Statement",
+            "sm": "Sā siva le teine.",
+            "en": "The girl danced."
           },
           {
-            "label": "Place carried forward",
-            "sm": "Sā nofo ai le teine.",
-            "en": "The girl lived there."
+            "label": "Denied",
+            "sm": "Sā lē siva le teine.",
+            "en": "The girl did not dance."
           }
         ]
       }
     },
     {
-      "id": "ch16-fronted-place",
+      "id": "ch15-habit-or-now",
       "kind": "contrast",
-      "anchor": "putting-the-place-first",
-      "title": "A fronted place can be copied inside",
-      "caption": "Both printed forms are good Sāmoan. The pointing-back copy after the verb is common but optional when the place already leads.",
+      "anchor": "denying-a-change-denying-a-habit",
+      "title": "Deny a habit or deny this moment",
+      "caption": "The bare not-word under the general particle denies the habit. Adding the short happening-now particle denies what is under way now.",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "With the copy",
-            "sm": "ʻI le nuʻu sā nofo ai le teine.",
-            "en": "In the village the girl lived. (Lit. \"In the village the girl lived there.\")"
+            "label": "Habit",
+            "sm": "ʻOu te lē alu.",
+            "en": "I do not go."
           },
           {
-            "label": "Without the copy",
-            "sm": "ʻI le nuʻu sā nofo le teine.",
-            "en": "In the village the girl lived."
+            "label": "Right now",
+            "sm": "ʻOu te lē ʻo alu.",
+            "en": "I am not going."
           }
         ]
       }
     },
     {
-      "id": "ch16-sort-ai-i-ai",
+      "id": "ch15-sort-negative",
       "kind": "sort",
-      "anchor": "going-there-i-ai",
-      "title": "Sort there and to there",
-      "intro": "Place each complete sentence under the pointing-back form it uses.",
+      "anchor": "the-not-yet-word-lei",
+      "title": "Sort not and not yet",
+      "intro": "Place each complete printed sentence under the kind of negative it uses.",
       "data": {
         "bins": [
           {
-            "id": "there",
-            "label": "There"
+            "id": "not",
+            "label": "Not"
           },
           {
-            "id": "to-there",
-            "label": "To there"
+            "id": "not-yet",
+            "label": "Not yet"
           }
         ],
         "items": [
           {
-            "sm": "Sā nofo ai le teine.",
-            "en": "The girl lived there.",
-            "bin": "there",
-            "why": "A verb of staying uses the bare pointing-back word here."
+            "sm": "Sā lē siva le teine.",
+            "en": "The girl did not dance.",
+            "bin": "not",
+            "why": "The not-word denies the matching past statement."
           },
           {
-            "sm": "Sā mālōlō ai le tama.",
-            "en": "The boy rested there.",
-            "bin": "there",
-            "why": "The bare form sits after the verb and before the doer."
+            "sm": "E lē mālosi le tama.",
+            "en": "The boy is not strong.",
+            "bin": "not",
+            "why": "The not-word denies the lasting quality."
           },
           {
-            "sm": "Sā alu le tama ʻi ai.",
-            "en": "The boy went there.",
-            "bin": "to-there",
-            "why": "A movement toward the goal usually takes the place word before *ai*."
+            "sm": "E leʻi alu le teine.",
+            "en": "The girl has not gone yet.",
+            "bin": "not-yet",
+            "why": "The event has not happened so far but is still expected."
           },
           {
-            "sm": "Sā alu le teine ʻi ai.",
-            "en": "The girl went there.",
-            "bin": "to-there",
-            "why": "The two-word form fills the goal slot of the movement verb."
+            "sm": "ʻOu te leʻi alu.",
+            "en": "I have not gone yet.",
+            "bin": "not-yet",
+            "why": "The not-yet word follows the general particle after the pronoun."
           }
         ]
       }

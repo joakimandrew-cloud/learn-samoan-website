@@ -1,225 +1,90 @@
 {
-  "chapter": 40,
+  "chapter": 39,
   "items": [
     {
-      "id": "ch40-description-position",
+      "id": "ch39-if-when",
       "kind": "contrast",
-      "anchor": "the-describing-verb-after-a-noun",
-      "title": "A statement becomes a description",
+      "anchor": "the-condition-clause-without-a-joining-word",
+      "title": "Two ways to open a condition",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "A whole statement",
-            "sm": "E uliuli le taʻavale.",
-            "en": "The car is black.",
-            "note": "The describing verb is the verb of the sentence."
+            "label": "With the if-word",
+            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
+            "en": "If it rains tomorrow, the trip will not go.",
+            "note": "The if-word opens a condition with a tense particle of its own."
           },
           {
-            "label": "Inside a noun phrase",
-            "sm": "le taʻavale uliuli",
-            "en": "the black car",
-            "note": "The same verb follows the noun and says which car is meant."
+            "label": "With the short future particle",
+            "sm": "ʻĀ timu taeao, e lē alu le malaga.",
+            "en": "When it rains tomorrow, the trip will not go.",
+            "note": "The short future particle stands alone. English may use if, when or whenever for this shape, according to the situation."
           }
         ]
       },
-      "caption": "The describing word keeps its shape and remains a verb. Its position changes what the whole expression does."
+      "caption": "The condition comes first in both. The second shape has no separate joining word before its short future particle."
     },
     {
-      "id": "ch40-description-number",
+      "id": "ch39-condition-certainty",
       "kind": "contrast",
-      "anchor": "plural-describing-verbs-after-a-noun",
-      "title": "The describing verb has number too",
+      "anchor": "the-tense-particle-in-a-condition-clause",
+      "title": "An open condition or an expected one",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "One cat",
-            "sm": "le pusi uliuli",
-            "en": "the black cat"
+            "label": "Open",
+            "sm": "ʻĀfai e timu taeao, e lē alu le malaga.",
+            "en": "If it rains tomorrow, the trip will not go.",
+            "note": "The general particle leaves the condition open."
           },
           {
-            "label": "More than one cat",
-            "sm": "pusi uli",
-            "en": "black cats"
+            "label": "More expected",
+            "sm": "ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.",
+            "en": "If it is going to rain tomorrow, the trip will not go.",
+            "note": "The future particle carries a much higher degree of certainty than the general particle."
           }
         ]
       },
-      "caption": "The article disappears for the particular plural, and the describing verb takes its plural form. This is the agreement pattern taught for the noun as the verb’s single participant."
+      "caption": "The if-word stays in place. The tense particle inside the condition changes how expected the condition is."
     },
     {
-      "id": "ch40-description-kinds",
-      "kind": "sort",
-      "anchor": "describing-verbs-in-a-row",
-      "title": "What fills the describing slot?",
+      "id": "ch39-condition-location",
+      "kind": "pick",
+      "anchor": "putting-the-condition-second",
+      "title": "Find the condition in the sentence",
       "data": {
-        "bins": [
+        "question": "Where does the condition stand?",
+        "options": [
           {
-            "id": "single",
-            "label": "One describing verb"
+            "id": "first",
+            "label": "Before the main clause"
           },
           {
-            "id": "part",
-            "label": "A part and its quality"
-          },
-          {
-            "id": "verb-noun",
-            "label": "A verb and a bare noun"
-          },
-          {
-            "id": "place",
-            "label": "A verb with a place phrase"
+            "id": "last",
+            "label": "After the main clause"
           }
         ],
-        "items": [
+        "prompts": [
           {
-            "sm": "le tama faʻalogogōfie",
-            "en": "the obedient boy",
-            "bin": "single",
-            "why": "The one built word stands as the describing verb."
+            "sm": "ʻĀfai e iai se apu, ʻou te ʻai.",
+            "answer": "first",
+            "why": "The if-word opens the first clause; the eating follows it."
           },
           {
-            "sm": "tagata tino leaga",
-            "en": "people with bad bodies",
-            "bin": "part",
-            "why": "The word *tino* names a body and *leaga* describes its quality."
+            "sm": "Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.",
+            "answer": "last",
+            "why": "The command comes first. *Pē* stands in front of the following condition."
           },
           {
-            "sm": "le teine fai umu",
-            "en": "the cooking girl",
-            "bin": "verb-noun",
-            "why": "The verb *fai* has the bare noun *umu* after it."
-          },
-          {
-            "sm": "le pasi alu ʻi le nuʻu",
-            "en": "the bus going to the village",
-            "bin": "place",
-            "why": "The verb *alu* carries the whole place phrase *ʻi le nuʻu* in the describing slot."
+            "sm": "E lē alu le tama ʻi le matāfaga pē ʻā afā.",
+            "answer": "last",
+            "why": "The main clause is followed by *pē* and the condition opened by the short future particle."
           }
         ]
       },
-      "intro": "Choose the kind of description after the noun."
-    },
-    {
-      "id": "ch40-order-describing-words",
-      "kind": "order",
-      "anchor": "the-describing-verb-after-a-noun",
-      "place": "end",
-      "title": "The describing word comes after",
-      "intro": "Tap the words to build the Sāmoan for each English. One word on offer does not belong.",
-      "data": {
-        "prompt": "Say this in Sāmoan",
-        "items": [
-          {
-            "en": "She cried hard.",
-            "sm": "Sā ia tagi mālosi.",
-            "extra": [
-              "fia"
-            ],
-            "why": "The action verb *tagi* leads, and the describing verb *mālosi* follows it to say how the crying was done."
-          },
-          {
-            "en": "You all danced well.",
-            "sm": "Sā ʻoutou siva lelei.",
-            "extra": [
-              "fia"
-            ],
-            "why": "*Lelei* does the describing job after the action verb *siva*: danced, and danced well."
-          },
-          {
-            "en": "the black car",
-            "sm": "le taʻavale uliuli",
-            "extra": [
-              "pusi"
-            ],
-            "why": "Three parts in a fixed order: the article *le*, the name of the thing *taʻavale*, then the describing verb *uliuli*."
-          },
-          {
-            "en": "the cooking girl",
-            "sm": "le teine fai umu",
-            "extra": [
-              "tama"
-            ],
-            "why": "The verb-and-noun compound *fai umu* works as one describing verb, and it stands behind the noun it describes."
-          },
-          {
-            "en": "the bus going to the village",
-            "sm": "le pasi alu ʻi le nuʻu",
-            "extra": [
-              "tama"
-            ],
-            "why": "The describing verb *alu* carries its place phrase *ʻi le nuʻu* behind it, and the whole of it stands in the one position after *le pasi*."
-          }
-        ]
-      }
-    },
-    {
-      "id": "ch40-difficult-easy",
-      "kind": "grid",
-      "anchor": "the-endings-gata-and-gofie",
-      "title": "Learn the meanings of the built words",
-      "data": {
-        "cols": [
-          "With *=gatā*",
-          "With *=gōfie*"
-        ],
-        "rowLabel": "Base",
-        "rows": [
-          {
-            "label": "*fai*",
-            "cells": [
-              {
-                "sm": "faigatā",
-                "en": "difficult"
-              },
-              {
-                "sm": "faigōfie",
-                "en": "easy"
-              }
-            ]
-          },
-          {
-            "label": "*faʻalogo*",
-            "cells": [
-              {
-                "sm": "faʻalogogatā",
-                "en": "disobedient"
-              },
-              {
-                "sm": "faʻalogogōfie",
-                "en": "obedient"
-              }
-            ]
-          },
-          {
-            "label": "*tau*",
-            "cells": [
-              {
-                "sm": "taugatā",
-                "en": "expensive"
-              },
-              {
-                "sm": "taugōfie",
-                "en": "cheap"
-              }
-            ]
-          },
-          {
-            "label": "*mau*",
-            "cells": [
-              {
-                "sm": "maugatā",
-                "en": "mean, tight-fisted"
-              },
-              {
-                "sm": "maugōfie",
-                "en": "generous"
-              }
-            ]
-          }
-        ]
-      },
-      "caption": "Each built word has its own meaning. The chapter says to learn them word by word, rather than translate every one as difficult or easy."
+      "intro": "Read which clause says what has to be true, then choose its position."
     }
   ]
 }

@@ -1,179 +1,115 @@
-# Chapter 6: Articles and Plurals
+# Chapter 5: Commands
 
-This chapter introduces the article system, the words that stand in front of a
-noun to mark whether the speaker means one particular thing or just any thing,
-and whether one or many, and it shows you how to talk about a thing, the thing,
-and things.
+This chapter introduces the command: a bare verb with no tense particle in front
+of it, and shows you how to tell one person to do something.
 
 ---
 
-## Naming Things
-
-The sentence pattern you know best is a verb with a person-word in front of it.
-*Sā ʻou alu* means "I went", and *Sā ia siva* means "She danced". This chapter
-adds the other half of a language, the words that name people and things. A word
-that names a person or a thing is called a **noun**. *Teine* is a noun, "girl".
-*Ipu* is a noun, "cup".
-
-A Sāmoan noun usually takes a word in front of it, called an **article**, and
-the article does a job English hands to "the", "a", and "some". One of the four
-cells you meet in this chapter leaves that slot empty.
-
----
-
-## The Specific Article *Le*
+## The Command
 
 ::: {.examples}
-*le teine*. the girl
+*Nofo.* Sit down.
 
-*le ipu*. the cup
+*Faʻatali.* Wait.
 :::
 
-The word *le* is the **specific article**: it marks the noun as one particular
-thing the speaker already has in mind. Put *le* in front of a noun and you have
-named one particular, single thing. It keeps the same shape in front of any noun.
+The past, change and future sentences of the earlier chapters all began with a
+tense particle: *sā*, *na*, *ʻua*, or *ʻoleʻā*. A command drops that particle.
+The verb stands on its own.
+
+Read this pair aloud:
+
+::: {.examples}
+*Sā ia nofo.* She sat down.
+
+*Nofo.* Sit down.
+:::
+
+Compare them. What is gone from the second?
+
+Two words are gone: the past particle *sā* and the preverbal pronoun *ia*. What
+remains is the bare verb, and the bare verb is the command. A command carries
+no tense particle, and a bare command names no doer.
+
+In the bare, one-person command of this chapter there is no word for the person
+you are speaking to. Such a command is aimed at whoever is listening, so the
+person is left unsaid; the verb by itself already means "you, do this". The pattern of this chapter has one
+part: the verb, with nothing in front of it.
 
 | Sāmoan | English |
 |---|---|
-| *le teine* | the girl |
-| *le tamaʻitaʻi* | the lady |
-| *le ʻāgelu* | the angel |
-| *le ipu* | the cup |
-| *le mea* | the thing |
-| *le lāʻau* | the tree |
+| *Nofo.* | Sit down. |
+| *Faʻatali.* | Wait. |
+| *Tāʻele.* | Have a bath. |
+| *Salu.* | Sweep. |
+| *Fufulu.* | Wash up. (Lit. "Wash") |
+| *ʻAumai.* | Bring it here. (Lit. "Bring") |
+| *Fesoasoani.* | Help. |
+| *Alu.* | Go. |
 
-A noun phrase built with *le* can do the work a person-word did in the earlier
-chapters. It can name who did something:
+The commands in this chapter draw on seven new action verbs: *nofo* (sit, stay),
+*faʻatali* (wait), *salu* (sweep), *fufulu* (wash), *ʻaumai* (bring), *tāpuni*
+(shut), and *fesoasoani* (help).
 
-::: {.examples}
-*Sā alu le teine.* The girl went. (Lit. "past go the girl")
-:::
+Every command here speaks to one person.
 
-*Sā* still stamps the sentence as past, and *alu* is still the verb. The new part
-is *le teine*, the doer, sitting after the verb.
+> **Preview:** Telling more than one person to do something (a plural command)
+> uses a special plural form of the verb, where the verb has one. You meet it in
+> Chapter 19. Until then, every command in this book speaks to one person.
 
-> *Note:* In sentences like these, where one person or thing does something on
-> its own, the doer follows the verb with only its article in front of it. No
-> extra word marks it as the one doing the action. Sentences that bring a second
-> participant in alongside the doer can mark the doer differently, and those come
-> later in the book.
+A command tells someone what to do. Telling someone what not to do is a separate
+pattern, because the words that negate a statement do not attach to a command.
 
-Swap the verb, and the same doer takes a different action:
-
-::: {.examples}
-*Sā siva le teine.* The girl danced.
-
-*Sā nofo le tamaʻitaʻi.* The lady stayed.
-:::
+> **Preview:** To tell someone not to do something (a prohibition), Sāmoan uses
+> its own do-not verbs rather than adding a negative word to the command. That
+> pattern is taught in Chapter 24.
 
 ---
 
-## The Non-Specific Articles *Se* and *Ni*
+## Commands with a Describing Word
 
-Sometimes the speaker does not have one particular thing in mind. Any one will
-do. For that, Sāmoan uses a different set of articles.
-
-::: {.examples}
-*ʻAumai se ipu.* Bring a cup.
-
-*ʻAumai ni ipu.* Bring some cups.
-:::
-
-The word *se* is the **non-specific article** for one thing: it means any single
-one, no particular one chosen. The word *ni* is its partner for more than one: it
-means some, any ones at all. *ʻAumai se ipu* asks for a cup, whichever cup is
-nearest; *ʻAumai ni ipu* asks for some cups, however many.
-
-| Sāmoan | English |
-|---|---|
-| *se teine* | a girl (any girl) |
-| *se mea* | a thing, something |
-| *ni teine* | some girls |
-| *ni mea* | some things |
-
-### *Le* and *Se* Are Not "the" and "a"
-
-It is tempting to read *le* as English "the" and *se* as English "a". That
-mapping breaks quickly. English chooses "the" or "a" by whether the hearer
-already knows which one; Sāmoan chooses *le* or *se* by whether the speaker has
-one particular thing in mind. The two questions are not the same, and where they
-part company, the English habit sends you to the wrong article.
-
-Here is a sentence where English says "a" and Sāmoan still uses *le*:
+A command can carry a describing word, as a statement does in *Sā ia siva fiafia*
+("She danced happily"), where the describing word follows the verb. Placed after
+the verb in a command, the describing word says how the action is to be done:
 
 ::: {.examples}
-*ʻUa sau le teine.* A girl is coming.
+*Nofo vave.* Sit down at once.
 :::
 
-The speaker has one particular girl in mind, so *le* goes in front of *teine*, even
-though the English says "a".
-
-Ask one question instead of two: "do I have one particular thing in mind?" If
-yes, use *le*, even in places where English would say "a" (a storyteller who
-opens with "there was a girl" and treats her as one particular, known girl often
-uses *le*, while a character whose exact identity is unknown or unimportant can
-be introduced with *se*). If any example of the thing would do, use *se*. You are not translating "the" and "a"; you are setting
-them aside and asking the Sāmoan question.
+Here *vave* (quick, soon) follows *nofo* and presses for speed. The describing
+word sits after the verb in a command, the same position it takes in a statement.
 
 ---
 
-## One and Many: The Article Carries the Number
+## The Urging Words *Ia* and *ʻEa*
 
-Read these two aloud.
-
-::: {.examples}
-*le teine*. the girl
-
-*teine*. the girls
-:::
-
-Compare them. Which word changed?
-
-The article did. To go from "the girl" to "the girls", *le* is dropped and
-nothing takes its place. There is no separate plural article for particular
-things: the specific plural is marked by the absence of *le*. The bare noun,
-with no article at all, is the plural.
+Sāmoan often adds an urging word to a command, straight after the verb, giving it
+warmth or a push. In this chapter's one-word commands that is also the end of the
+command. The word *ia* attaches to commands almost to the exclusion of anything
+else:
 
 ::: {.examples}
-*le lāʻau*. the tree
+*Sau ia.* Do come.
 
-*lāʻau*. the trees
+*Nofo ia.* Do sit down, then.
 :::
 
-Number rides on the article, almost never on the noun. The noun *teine* is the
-same whether it is one girl or many; *lāʻau* is the same for one tree or a forest. What
-tells you the number is almost always the slot in front of the noun, not the
-noun itself.
-
-> *Note:* To find the number of a specific noun phrase, look at the article slot,
-> not the noun. An empty slot in front of a particular noun is not a mistake or a
-> missing word. The emptiness is the plural.
-
-The full set fits in one grid. Each cell answers two questions at once: one thing
-or many, and one particular thing or any at all.
-
-| | one | many |
-|---|---|---|
-| **specific** (a particular one) | *le* | (no article) |
-| **non-specific** (any at all) | *se* | *ni* |
-
-Put the noun *teine* through all four cells: *le teine* (the girl), *teine* (the
-girls), *se teine* (a girl), *ni teine* (some girls). Four ways to point at girls,
-and the article carries the whole distinction.
-
-A full sentence works the same way. Drop *le* from the noun and the sentence
-speaks of many:
+A second urging word, *ʻea*, attaches to a command the same way:
 
 ::: {.examples}
-*Sā fiafia le teine.* The girl was happy.
-
-*Sā fiafia teine.* The girls were happy.
+*Nofo ʻea.* Do sit down.
 :::
 
-> **Preview:** Sāmoan has one more small set of articles, used to add warmth,
-> tenderness, or a sense of smallness to a noun. They round out the article
-> system and are taught in Chapter 51. The four articles in this chapter are the
-> everyday set you will use constantly.
+These words add force or friendliness; the command is complete without them.
+
+> *Note:* The urging word *ia* is spelled the same as the preverbal pronoun *ia* (he,
+> she) from the earlier chapters. In a bare command there is no tense particle
+> and no doer, so an *ia* sitting after the bare verb is the urging word, not
+> "he" or "she".
+
+> **Preview:** A softer, more polite way to ask someone to do something, a
+> request rather than a flat command, uses a mood particle. You meet it in
+> Chapter 48.
 
 ---
 
@@ -183,20 +119,21 @@ speaks of many:
 
 | Word | What it does |
 |---|---|
-| *le* | the specific article: one particular thing the speaker has in mind |
-| *se* | the non-specific article, one thing: any single one |
-| *ni* | the non-specific article, many: some, any ones at all |
+| *ia* | the urging word: added straight after the verb of a command for warmth or a push (not the preverbal pronoun *ia*) |
+| *ʻea* | a second urging word, added to a command the same way |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *teine* | girl |
-| *tamaʻitaʻi* | lady |
-| *ʻāgelu* | angel |
-| *ipu* | cup |
-| *mea* | thing |
-| *lāʻau* | tree (the bare form *lāʻau* is itself the plural, "trees", while one tree is *le lāʻau*) |
+| *faʻatali* | wait |
+| *nofo* | sit, stay |
+| *vave* | quick, soon |
+| *ʻaumai* | bring, take (hither) |
+| *tāpuni* | shut |
+| *salu* | sweep |
+| *fufulu* | wash |
+| *fesoasoani* | help |
 
 ---
 
@@ -204,48 +141,55 @@ speaks of many:
 
 ### Exercise 1: Translate into English
 
-1. *le ipu*
-2. *ni teine*
-3. *se mea*
-4. *lāʻau*
-5. *le tamaʻitaʻi*
+1. *Nofo.*
+2. *Faʻatali.*
+3. *Salu.*
+4. *ʻAumai.*
+5. *Fesoasoani.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. the angel
-2. a cup
-3. the trees
-4. some things
-5. the girl
+Make a command for one person.
 
-### Exercise 3: Make it plural
+1. Wash up.
+2. Go.
+3. Sit down.
+4. Have a bath.
+5. Sweep.
 
-Each phrase names one particular thing. Rewrite it to name many, keeping it
-specific.
+### Exercise 3: Turn each statement into a command
 
-1. *le teine*
-2. *le lāʻau*
-3. *le ipu*
-4. *le mea*
-5. *le tamaʻitaʻi*
+Drop the tense particle and the preverbal pronoun, and leave the bare verb.
 
-### Exercise 4: Choose *le* or *se*
+1. *Sā ia nofo.*
+2. *Sā ia salu.*
+3. *Sā ia tāpuni.*
+4. *Sā ia faʻatali.*
+5. *Sā ia fufulu.*
 
-Put *le* or *se* in the gap so the Sāmoan matches the English.
+### Exercise 4: Match each word to its meaning
 
-1. *___ mea* (one particular thing, the thing)
-2. *___ ipu* (any cup, no particular one)
-3. *___ teine* (the girl, that same girl again)
-4. *ʻUa sau ___ teine.* (a girl is coming; the speaker has one particular girl in mind)
-5. *___ teine* (any girl at all)
+1. *faʻatali*
+2. *nofo*
+3. *tāpuni*
+4. *salu*
+5. *fufulu*
 
-### Exercise 5: Translate into English
+a. sweep
+b. wait
+c. wash
+d. sit, stay
+e. shut
 
-1. *Sā alu le teine.*
-2. *Sā nofo le tamaʻitaʻi.*
-3. *ʻAumai ni ipu.*
-4. *Sā fiafia teine.*
-5. *Sā fiafia le teine.*
+### Exercise 5: Add the urging word *ia*
+
+Rewrite each command with *ia* added straight after the verb.
+
+1. *Sau.*
+2. *Nofo.*
+3. *Faʻatali.*
+4. *Salu.*
+5. *Alu.*
 
 ---
 
@@ -253,40 +197,36 @@ Put *le* or *se* in the gap so the Sāmoan matches the English.
 
 ### Exercise 1
 
-1. the cup
-2. some girls
-3. a thing, something
-4. the trees
-5. the lady
+1. Sit down.
+2. Wait.
+3. Sweep.
+4. Bring it here.
+5. Help.
 
 ### Exercise 2
 
-1. *le ʻāgelu*
-2. *se ipu*
-3. *lāʻau*
-4. *ni mea*
-5. *le teine*
+1. *Fufulu.*
+2. *Alu.*
+3. *Nofo.*
+4. *Tāʻele.*
+5. *Salu.*
 
 ### Exercise 3
 
-1. *teine*
-2. *lāʻau*
-3. *ipu*
-4. *mea*
-5. *tamaʻitaʻi*
+1. *Nofo.*
+2. *Salu.*
+3. *Tāpuni.*
+4. *Faʻatali.*
+5. *Fufulu.*
 
 ### Exercise 4
 
-1. *le mea*
-2. *se ipu*
-3. *le teine*
-4. *le*, so *ʻUa sau le teine.*
-5. *se teine*
+1-b, 2-d, 3-e, 4-a, 5-c.
 
 ### Exercise 5
 
-1. The girl went.
-2. The lady stayed.
-3. Bring some cups.
-4. The girls were happy.
-5. The girl was happy.
+1. *Sau ia.*
+2. *Nofo ia.*
+3. *Faʻatali ia.*
+4. *Salu ia.*
+5. *Alu ia.*

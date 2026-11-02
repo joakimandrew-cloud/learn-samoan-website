@@ -1,188 +1,255 @@
-# Chapter 10: Possessives
+# Chapter 9: Greetings and Courtesy
 
-This chapter introduces the two belonging words *a* and *o*, which join a thing
-to the person it belongs to, and the singular possessive forms *laʻu* (my),
-*lou* (your), *lona* (her), and their partners, and shows you how to speak of
-my, your, and her things and put real grammar behind the name question met
-earlier in this book.
+This chapter gathers the common formulas of greeting, thanks, farewell, and
+good wishes. It shows the command's tense-particle-free shape, already taught,
+put to a new use in the congratulation, well-wish, praise and invitation
+formulas, and it introduces the exclamation. It also carries the respect
+vocabulary (*ʻupu faʻaaloalo*) and the everyday speech style for recognition,
+completing the two speech styles named in the Introduction.
 
 ---
 
-## The Belonging Words *a* and *o*
+## Sentences Without a Tense Particle
 
 ::: {.examples}
-*ʻO le fale o le aliʻi.* The house of the chief.
-
-*ʻO le naifi a le fafine.* The woman's knife. (Lit. "the knife of the woman")
+*Mānaia le meaʻai!* The food is nice! (Lit. "Nice the food!")
 :::
 
-To join a thing to the person it belongs to, Sāmoan puts the thing first, then
-a belonging word, then the owner, and the owner keeps its own article. In
-*ʻo le fale o le aliʻi* (the house of the chief), the owner *aliʻi* (chief)
-follows the thing. English can run the same way, "the knife of the woman", or it
-can put the owner first with an apostrophe, "the woman's knife"; with a full-noun
-owner, Sāmoan keeps the thing first.
+A command drops the tense particle: *Nofo* ("Sit down") has no *sā*, *na*,
+*ʻua*, or *ʻoleʻā* in front of it. An exclamation drops it the same way. *Mānaia le
+meaʻai!* has no tense particle either, because it is not placing an event in
+time. It is a describing verb, *mānaia* (nice), standing in front of an
+article-marked noun phrase, *le meaʻai* (the food), and calling out a quality
+right now.
 
-The belonging word is *o* in the first phrase and *a* in the second, and the
-choice is not free. Sāmoan sorts belonging into two types, and the rough sense of
-the split runs like this. Things a person gets, makes, or uses tend to be
-*a*-words: *naifi* (knife), *taʻavale* (car), and *ipu* (cup) are acquired and
-put to use. Things that are part of a person, or are theirs by nature or by where
-they live, tend to be *o*-words: *ulu* (head), *lima* (hand), and *vae* (leg,
-foot) are parts of the body, not things a person acquires. Read that as an
-orientation rather than a test you can run on a new word, and learn each word's
-type as you meet it.
-English marks belonging with one set of words, "my", "your", "of", and never
-asks which type of belonging you mean. In the phrases this chapter teaches, where
-the owner is a full noun or a single person, Sāmoan asks every time.
+Congratulations and good wishes use the same shape. A verb of congratulating or
+well-being stands first, with no tense particle, and the noun phrase that
+follows names what is congratulated or wished for:
 
-The table below sets the two types side by side. In every row the owner is a
-person except one, whose owner is an animal, *gata* (snake):
+::: {.examples}
+*Mālō le gālue!* Congratulations on your work! (Lit. "Congratulate the work")
+
+*Manuia le tausaga fou!* Happy New Year!
+:::
+
+*Mālō* is the congratulating verb, *manuia* the well-wishing one. The pattern is
+the one you already know from commands, put to a new use: verb first, no tense
+particle, and here a noun phrase to round it off.
+
+---
+
+## Greetings and Farewells
+
+The greeting a learner uses everywhere is *tālofa*. It opens an encounter, and
+the person greeted answers with *tālofa* in return.
+The reply can also carry a second word alongside it, which this book does not
+teach.
+
+::: {.examples}
+*Tālofa.* Hello.
+:::
+
+*Mālō*, the same word that congratulates, also works as a lighter, casual
+"hi". One way to close an encounter is to pair a word for goodbye with a word
+for good health, and either word on its own also closes one:
+
+::: {.examples}
+*Soifua.* Good health. (a farewell)
+
+*Tōfā soifua.* Goodbye.
+:::
+
+*Tālofa* carries a second use. Said to someone in trouble or grief, the same
+word becomes an expression of sympathy, close to the English "I feel for you".
+Take that second use as one to recognize rather than one to build. It belongs to
+a small family of feeling words that carry machinery this book does not teach, so
+you will know what is meant when *tālofa* is said to you that way, and you are
+not asked to make sentences of that kind yourself.
+
+A greeting often turns at once to names. Asking a person's name, and giving your
+own, is part of every first meeting.
+
+> **Preview:** The name question is *ʻO ai lou igoa?* ("What is your name?";
+> Lit. "Who is your name?", asked with the who-word *ai* of Chapter 8).
+> It carries the word for "your", a possessive form. Possessive forms are
+> taught in Chapter 10, where this question becomes real grammar you can build.
+> For now, take it whole, as a set phrase like the greetings above.
+
+---
+
+## Thanks and Asking Politely
+
+The thanks formula is *faʻafetai* and the please formula, for a polite request,
+is *faʻamolemole*.
+
+::: {.examples}
+*Faʻafetai.* Thank you.
+
+*Faʻamolemole.* Please.
+:::
+
+Sāmoan speakers say "thank you" less often than English speakers do, not from
+any lack of courtesy but because the conventions differ. The thanks formula also
+declines: it can mean "no thank you".
+
+---
+
+## Good Wishes and Congratulations
+
+*Manuia* and *mālō* head the well-wishing and congratulating formulas, each on
+the tense-particle-free shape from the first section. Change the noun phrase and
+the wish moves to a new occasion:
 
 | Sāmoan | English |
 |---|---|
-| *le ulu o le tama* | the head of the boy |
-| *le vae o le tama* | the leg of the boy |
-| *le lima o le tama* | the hand of the boy |
-| *le naifi a le fafine* | the woman's knife |
-| *le taʻavale a le aliʻi* | the chief's car |
-| *le ulu o le gata* | the snake's head |
+| *Manuia le tausaga fou!* | Happy New Year! |
+| *Manuia le ʻāiga!* | Blessings on the family! |
+| *Mālō le gālue!* | Congratulations on your work! |
+| *Mālō le fāgota!* | Well done on the fishing! |
+| *Mālō le siva!* | Well done on the dancing! |
 
-### When One Word Takes Both
+The describing verb *mānaia* fills the same frame to praise a thing outright:
 
-A few things can take either belonging word, and there the choice decides the
-meaning. Read this pair:
+| Sāmoan | English |
+|---|---|
+| *Mānaia le meaʻai!* | The food is nice! |
+| *Mānaia le tala!* | The story is lovely! |
+| *Mānaia le nuʻu!* | The village is beautiful! |
 
-::: {.examples}
-*ʻO le fale a le tama.* The house the boy built. (Lit. "The house belonging to
-the boy")
-
-*ʻO le fale o le tama.* The boy's house (the house he lives in).
-:::
-
-Compare them. One belonging word changed, from *a* to *o*. What happened to the
-meaning?
-
-The whole relationship changed. Under *a*, the house is something the boy made,
-a thing he produced by his own work. Under *o*, the house is where the boy
-lives, his home, a place that is his to live in. The two sentences differ only in
-the belonging word, and that word alone decides which house is meant. This is why the sort
-matters: choosing the wrong belonging word does not merely sound foreign, it
-can say something you did not mean.
-
-> *Note:* The sort is not fully predictable. Some words take the belonging word
-> you would not expect, and no single rule covers every case. The safe course
-> is to learn each word's type as you meet it, the way you learn its meaning.
-
-> **Preview:** You are learning which words are *a*-words and which are
-> *o*-words one word at a time. The reason behind the sort, stated as a rule you
-> can lean on, and the forms for plural and for our, your (more than one person),
-> and their things, are completed in Chapter 25.
+> **Preview:** Sāmoan has an idiomatic exclamation that comments on how a person
+> is reacting, as in *ʻO le fefe o Ulika!* ("Look how scared Ulika is!", Lit.
+> "The fear of Ulika!"). It is
+> a fixed expression here; the machinery that builds it, an event packed into a
+> thing, is taught later in this book and completed in Chapter 46.
 
 ---
 
-## My, Your, and Her
+## Inviting Others Along
+
+In the two invitation formulas below, the word for "we" that includes the
+listener, *tātou* or *tā*, which you already know, stands in front of the verb
+with no tense particle. The result is a warm "let's":
 
 ::: {.examples}
-*ʻO laʻu taʻavale.* My car.
+*Tā ō!* Let's go, you and me.
+
+*Tātou ō!* Let's all go.
 :::
 
-When the owner is not a full noun but a single person, my, your, his or her,
-Sāmoan does not use a separate word for the owner in the phrases you build here.
-Instead the belonging word and the person fold together with the article into
-one written word.
-*ʻo laʻu taʻavale* is "my car": the one word *laʻu* carries the article, the
-belonging word *a*, and the person "my", all at once. A word built this way is
-a **possessive form**.
+*Tā* is the "we" of just two people, *tātou* the "we" of more than two, and each
+takes the listener in. These are the common invitation formulas; take them
+whole for now.
 
-There are two possessive forms for each person, one for the *a*-words and one
-for the *o*-words, and they are chosen exactly as *a* and *o* are chosen.
+---
 
-| person | form used with *a*-words | form used with *o*-words |
+## The Respect Vocabulary
+
+Sāmoan carries a layer of polite words, the *ʻupu faʻaaloalo* or **respect
+words**, used when speaking to or about chiefs, pastors, elders, and other
+honoured people. A respect word replaces its plain counterpart: where you
+would say *fale* for a house, respect speech says *maota*.
+
+You are not asked to produce these words. The careful style this book teaches is
+the right one for a learner to speak. The skill here is recognition: knowing,
+when you hear a respect word, which plain word stands behind it.
+
+| Plain word | Respect word | Meaning |
 |---|---|---|
-| my | *laʻu* | *loʻu* |
-| your | *lau* | *lou* |
-| his, her, its | *lana* | *lona* |
+| *ʻai* | *taumafa* | eat |
+| *fale* | *maota* | house |
+| *igoa* | *suafa* | name |
+| *oti* | *maliu* | die |
+| *tāʻele* | *faʻamālū* | bathe |
 
-Because a knife is an *a*-word, "my knife" is *laʻu naifi*. Because a head is an
-*o*-word, "my head" is *loʻu ulu*. The thing decides the form:
-
-| Sāmoan | English |
-|---|---|
-| *laʻu naifi* | my knife |
-| *loʻu ulu* | my head |
-| *lau ipu* | your cup |
-| *lona lima* | her hand |
-
-A possessive form and its thing make a naming part, and a naming part slots
-into the naming sentence exactly as it did before:
-
-::: {.examples}
-*ʻO laʻu naifi lenā.* That is my knife.
-
-*ʻO lana taʻavale lenā.* That is his car.
-:::
-
-> *Note:* The belonging word *o* has no ʻ mark. It is not the presenting
-> particle *ʻo* that opens a naming part. Position usually keeps them apart as
-> well: the presenting *ʻo* stands at the front of a naming part, while the
-> belonging *o* sits between a thing and its owner. In real Sāmoan print, where
-> the ʻ mark is often dropped, position usually tells them apart, but in the slot
-> between a noun and a name that follows it, both can stand, and only the meaning
-> settles which is which.
+> *Note:* The respect words are a limited set, learned a few at a time as you
+> meet them. Two of the rows above have a second respect word alongside the one
+> printed, chosen by the rank of the person spoken to. This table is for
+> recognition only, so read across it, from the respect word back to the plain
+> word, which you already know or meet in this table.
 
 ---
 
-## The Name Question
+## The Everyday Style
 
-::: {.examples}
-*ʻO ai lou igoa?* What is your name?
-:::
+The Introduction named the two speech styles: *tautala lelei*, the careful style
+this book teaches, and *tautala leaga*, the everyday style you will hear. Here
+the everyday style is completed.
 
-Earlier in this book you met the question that asks a person's name, and the
-word for "your" had not yet been taught. Now it has. In *ʻO ai lou igoa?* the
-part *lou igoa* is a possessive form and its thing: *lou* is the *o*-word form of
-"your", and *igoa* is "name". A name is an *o*-word, because it is yours by the
-nature of things, not something you acquire.
+The everyday style folds three pairs of sounds together. Those folds are not
+the whole of the difference. Where the careful style has t, the everyday style
+says k; where the careful style has n, it says the ng sound, written g; and
+where the careful style has r, it says l. So the careful
+greeting *tālofa* is heard as *kālofa*, and *faʻafetai* as *faʻafekai*:
 
-The same belonging runs the other way for your own name. The *o*-word form for
-"my" is *loʻu*, so "my name" is *loʻu igoa*, and it slots into a naming sentence
-like any other naming part:
+| Careful style | Everyday style | Meaning |
+|---|---|---|
+| *tālofa* | *kālofa* | hello |
+| *manuia* | *maguia* | fine, blessed |
+| *faʻafetai* | *faʻafekai* | thank you |
 
-::: {.examples}
-*ʻO loʻu igoa lenā.* That is my name.
-:::
+The folding runs one way only. The careful style keeps the distinctions the
+everyday style erases, and never the reverse, so you can always hear through an
+everyday form back to the careful one you learned, but you could not rebuild the
+careful form from the everyday one without knowing the word already. That is why
+the skill is recognition: you speak one Sāmoan, and your ear learns to
+understand two.
 
-> **Preview:** Saying that a thing is mine, on its own, and asking whose
-> something is, use belonging in a different sentence shape. That shape is
-> completed in Chapter 42.
+> *Note:* This table too is for recognition only. Keep speaking the careful
+> style; the everyday forms are here so that a *kālofa* called across a road does
+> not leave you lost.
 
 ---
 
 ## Words to Learn
 
-**New grammar words** (memorize how these work):
-
-| Word | What it does |
-|---|---|
-| *a* | the belonging word for *a*-words: usually joins a thing to the person who got or uses it |
-| *o* | the belonging word for *o*-words: usually joins a thing to the person it is part of, or whose it is by nature or by where they live |
-| *laʻu*, *loʻu* | my (*a*-word form, *o*-word form) |
-| *lau*, *lou* | your (*a*-word form, *o*-word form) |
-| *lana*, *lona* | his, her, its (*a*-word form, *o*-word form) |
-
 **New vocabulary** (memorize these meanings):
+
+Greetings, thanks, and farewells:
 
 | Word | Meaning |
 |---|---|
-| *ulu* | head |
-| *vae* | leg, foot |
-| *lima* | hand |
-| *naifi* | knife |
-| *taʻavale* | car |
-| *niu* | coconut |
-| *aliʻi* | chief |
-| *gata* | snake |
+| *tālofa* | hello; feel sympathy |
+| *tōfā* | goodbye |
+| *soifua* | good health, life |
+| *faʻafetai* | thank you |
+| *faʻamolemole* | please |
+
+The congratulating and well-wishing verbs:
+
+| Word | Meaning |
+|---|---|
+| *mālō* | congratulate; hi |
+| *manuia* | happy, blessed |
+| *mānaia* | nice |
+
+Other words used in this chapter:
+
+| Word | Meaning |
+|---|---|
+| *galue* | work |
+| *meaʻai* | food |
+| *ʻai* | eat |
+| *oti* | die |
+| *tala* | story |
+| *nuʻu* | village |
+
+The work verb is *galue*. In the greeting *Mālō le gālue!*, the word names
+the work, and its first vowel is long.
+
+**Words to carry** (learned now, used fully later in this book): *fasi* (hit,
+beat) names an action done to someone, and the word that marks who does the
+hitting comes later in this book. The word *ʻese* (strange,
+foreign) is a describing verb, and the sentences that put it to work also come
+later.
+
+| Word | Meaning |
+|---|---|
+| *fasi* | hit, beat |
+| *ʻese* | strange, foreign |
+
+For recognition only, three names carry over from the sections above:
+*tautala lelei* (the careful style), *tautala leaga* (the everyday style), and
+*ʻupu faʻaaloalo* (the respect words). You are not asked to produce them.
 
 ---
 
@@ -190,51 +257,46 @@ like any other naming part:
 
 ### Exercise 1: Translate into English
 
-1. *le lima o le tama*
-2. *ʻo le naifi a le fafine*
-3. *laʻu taʻavale*
-4. *lona ulu*
-5. *ʻo le fale o le aliʻi*
+1. *Tālofa.*
+2. *Faʻafetai.*
+3. *Manuia le tausaga fou!*
+4. *Mālō le gālue!*
+5. *Mānaia le meaʻai!*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. my knife
-2. the boy's leg
-3. your name
-4. the chief's car
-5. her hand
+1. Please.
+2. Goodbye.
+3. Hello.
+4. The food is nice!
+5. Blessings on the family!
 
-### Exercise 3: Choose *a* or *o*
+### Exercise 3: Choose the formula
 
-Fill the belonging word so the phrase is correct. Each choice depends on
-whether the thing is an *a*-word or an *o*-word.
+Write the Sāmoan formula that fits each situation.
 
-1. *le ulu ___ le pusi*
-2. *le naifi ___ le teine*
-3. *le ulu ___ le gata*
-4. *le taʻavale ___ le aliʻi*
-5. *le lima ___ le teine*
+1. You meet a friend on the road.
+2. Someone has helped you, and you want to thank them.
+3. It is the first of January.
+4. You are leaving, and want to wish good health.
+5. You want to praise a fine meal.
+6. You want one other person to go with you.
+7. You want a whole group to go with you.
 
-### Exercise 4: Choose the possessive form
+### Exercise 4: Find the word you say
 
-Fill in the possessive form that matches the English. Watch whether the thing
-is an *a*-word or an *o*-word.
+Each word below is one you learn to recognize, not to say: a respect word or an
+everyday-style form. Write the word behind it, the one this book teaches you to
+say.
 
-1. *___ naifi* (my knife)
-2. *___ ulu* (my head)
-3. *___ taʻavale* (your car)
-4. *___ igoa* (your name)
-5. *___ lima* (her hand)
-
-### Exercise 5: Make it mine
-
-Rewrite each phrase so the thing belongs to me, using the possessive form.
-
-1. *le naifi a le tama*
-2. *le ulu o le tama*
-3. *le taʻavale a le aliʻi*
-4. *le lima o le teine*
-5. *le vae o le tama*
+1. *maota*
+2. *suafa*
+3. *maliu*
+4. *taumafa*
+5. *faʻamālū*
+6. *kālofa*
+7. *faʻafekai*
+8. *maguia*
 
 ---
 
@@ -242,40 +304,37 @@ Rewrite each phrase so the thing belongs to me, using the possessive form.
 
 ### Exercise 1
 
-1. the hand of the boy
-2. the woman's knife
-3. my car
-4. her head (or his head)
-5. the house of the chief
+1. Hello.
+2. Thank you.
+3. Happy New Year!
+4. Congratulations on your work!
+5. The food is nice!
 
 ### Exercise 2
 
-1. *laʻu naifi*
-2. *le vae o le tama*
-3. *lou igoa*
-4. *le taʻavale a le aliʻi*
-5. *lona lima*
+1. *Faʻamolemole.*
+2. *Tōfā soifua.* (the first word on its own is also a goodbye)
+3. *Tālofa.*
+4. *Mānaia le meaʻai!*
+5. *Manuia le ʻāiga!*
 
 ### Exercise 3
 
-1. *le ulu o le pusi*
-2. *le naifi a le teine*
-3. *le ulu o le gata*
-4. *le taʻavale a le aliʻi*
-5. *le lima o le teine*
+1. *Tālofa.*
+2. *Faʻafetai.*
+3. *Manuia le tausaga fou!*
+4. *Soifua.* (or *Tōfā soifua.*)
+5. *Mānaia le meaʻai!*
+6. *Tā ō!*
+7. *Tātou ō!*
 
 ### Exercise 4
 
-1. *laʻu naifi*
-2. *loʻu ulu*
-3. *lau taʻavale*
-4. *lou igoa*
-5. *lona lima*
-
-### Exercise 5
-
-1. *laʻu naifi*
-2. *loʻu ulu*
-3. *laʻu taʻavale*
-4. *loʻu lima*
-5. *loʻu vae*
+1. *fale* (house)
+2. *igoa* (name)
+3. *oti* (die)
+4. *ʻai* (eat)
+5. *tāʻele* (bathe)
+6. *tālofa* (hello)
+7. *faʻafetai* (thank you)
+8. *manuia* (fine, blessed)

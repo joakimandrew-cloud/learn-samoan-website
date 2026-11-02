@@ -1,126 +1,246 @@
 {
-  "chapter": 49,
+  "chapter": 48,
   "items": [
     {
-      "id": "ch49-real-unreal",
+      "id": "ch48-mood-jobs",
+      "kind": "grid",
+      "anchor": "the-four-mood-particles",
+      "title": "Four particles, four jobs",
+      "data": {
+        "cols": [
+          "Mood particle"
+        ],
+        "rowLabel": "Job",
+        "quiz": true,
+        "rows": [
+          {
+            "label": "Polite command",
+            "cells": [
+              {
+                "sm": "ʻia",
+                "en": "a polite command"
+              }
+            ]
+          },
+          {
+            "label": "Wish and permission",
+            "cells": [
+              {
+                "sm": "seʻi",
+                "en": "a wish"
+              }
+            ]
+          },
+          {
+            "label": "Until",
+            "cells": [
+              {
+                "sm": "seʻia",
+                "en": "until",
+                "note": "This particle never takes a preverbal pronoun."
+              }
+            ]
+          },
+          {
+            "label": "Warning",
+            "cells": [
+              {
+                "sm": "neʻi",
+                "en": "a warning",
+                "note": "Its clause always depends on another clause."
+              }
+            ]
+          }
+        ]
+      },
+      "caption": "Mood particles fill the tense particle’s slot but say how the event is wanted, waited for or warned against, rather than when it happens."
+    },
+    {
+      "id": "ch48-purpose-link",
       "kind": "contrast",
-      "anchor": "the-second-if-word-ana",
-      "title": "A possible condition or an imagined opposite",
+      "anchor": "saying-what-an-action-is-for",
+      "title": "Purpose with or without a joining word",
       "data": {
         "mode": "toggle",
         "states": [
           {
-            "label": "May yet happen",
-            "sm": "ʻĀfai ʻe te lē sau, ʻou te alu atu.",
-            "en": "If you do not come, I will go and see you.",
-            "note": "The listener may still come or not come."
+            "label": "With *ʻina*",
+            "sm": "Tatalo ʻina ʻia maua se fesoasoani.",
+            "en": "Pray in order to get some help.",
+            "note": "The joining word explicitly marks the purpose clause as part of the first sentence."
           },
           {
-            "label": "Did not happen",
-            "sm": "ʻAna ʻe lē sau, sēmanū ʻou te alu atu.",
-            "en": "Had you not come, I was probably going to go and see you.",
-            "note": "The listener did come. The speaker imagines the not-coming instead."
+            "label": "Without *ʻina*",
+            "sm": "Tatalo ʻia maua se fesoasoani.",
+            "en": "Pray to get some help.",
+            "note": "The second clause still expresses purpose, even though no joining word shows the link."
           }
         ]
       },
-      "caption": "Three things change together: the if-word, the missing *te* in the condition, and *sēmanū* in the main clause. The condition after *ʻana* usually has no tense particle."
+      "caption": "Both printed sentences express what the praying is for. The first one marks the link with *ʻina*."
     },
     {
-      "id": "ch49-condition-second",
-      "kind": "contrast",
-      "anchor": "putting-the-condition-second",
-      "title": "Put the imagined condition second",
+      "id": "ch48-mood-reading",
+      "kind": "pick",
+      "anchor": "the-until-particle-seia",
+      "title": "Read the mood in its clause",
       "data": {
-        "mode": "toggle",
-        "states": [
+        "question": "What is the particle doing in this sentence?",
+        "options": [
           {
-            "label": "Condition first",
-            "sm": "ʻAna ʻe lē sau, ʻou te ita.",
-            "en": "Had you not come, I would have been angry."
+            "id": "permission",
+            "label": "Asking permission"
           },
           {
-            "label": "Condition second",
-            "sm": "ʻOu te ita pē ʻana ʻe lē sau.",
-            "en": "I would have been angry if you had not come."
-          }
-        ]
-      },
-      "caption": "When the condition follows the main clause, *pē* stands in front of *ʻana*. The imagined situation stays the same."
-    },
-    {
-      "id": "ch49-relations",
-      "kind": "sort",
-      "anchor": "saying-although-with-tiga",
-      "title": "Does the second situation stop the first?",
-      "data": {
-        "bins": [
-          {
-            "id": "unless",
-            "label": "An unless-condition"
+            "id": "command",
+            "label": "Making a polite command"
           },
           {
-            "id": "although",
-            "label": "An unexpected contrast"
+            "id": "until",
+            "label": "Saying until when"
+          },
+          {
+            "id": "purpose",
+            "label": "Stating purpose"
           }
         ],
-        "items": [
+        "prompts": [
           {
-            "sm": "ʻOu te savali ʻi le āʻoga seʻiloga e timu.",
-            "en": "I walk to school, unless it rains.",
-            "bin": "unless",
-            "why": "Rain is the exception that stops the walk from holding true."
+            "sm": "Seʻi oʻu fesili.",
+            "answer": "permission",
+            "why": "About the speaker, *seʻi* politely asks permission."
           },
           {
-            "sm": "E ui ina faigatā le feʻau, ʻae ʻou te fiafia.",
-            "en": "Although the task is difficult, I am happy.",
-            "bin": "although",
-            "why": "The happiness holds despite what the difficult task might lead someone to expect."
+            "sm": "ʻIa ʻe ʻonosaʻi.",
+            "answer": "command",
+            "why": "Addressed to the listener, *ʻia* makes a polite command."
           },
           {
-            "sm": "Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.",
-            "en": "However much I begged my mother, I could not go.",
-            "bin": "although",
-            "why": "The main clause holds despite the begging. *Tīgā* presents the contrast as a negative idea."
+            "sm": "Faʻatali seʻia sau lou tinā.",
+            "answer": "until",
+            "why": "The waiting lasts until the event after *seʻia*."
           },
           {
-            "sm": "E lē alu le malaga seʻiloga ʻua sau le tama.",
-            "en": "The trip will not go unless the boy has come.",
-            "bin": "unless",
-            "why": "The boy’s coming is the exception to the trip not going."
+            "sm": "Tatalo ʻina ʻia maua se fesoasoani.",
+            "answer": "purpose",
+            "why": "The linked *ʻia* clause says what the praying is for."
           }
         ]
       },
-      "intro": "Choose between a condition that makes an exception and a contrast that still holds."
+      "intro": "Use the whole sentence to identify the job of the mood clause."
     },
     {
-      "id": "ch49-tusa-readings",
+      "id": "ch48-warning-order",
       "kind": "contrast",
-      "anchor": "even-if-whether-or-not-and-whatever-with-tusa",
-      "title": "The question clause decides the reading",
+      "anchor": "after-the-do-not-verb",
+      "title": "The pronoun changes sides",
       "data": {
-        "mode": "steps",
+        "mode": "toggle",
         "states": [
           {
-            "label": "One condition",
-            "sm": "E tusa pē timu, ʻae ʻoleʻā alu le malaga.",
-            "en": "Even if it rains, the trip will go.",
-            "note": "One condition is named, and the trip holds despite it."
+            "label": "With *te*",
+            "sm": "ʻAua ʻe te siva.",
+            "en": "Don't dance.",
+            "note": "The preverbal pronoun stands before the general particle’s *te* form."
           },
           {
-            "label": "Both answers",
-            "sm": "ʻOleʻā alu le malaga e tusa lava pē timu pē leai.",
-            "en": "The trip will go whether it rains or not.",
-            "note": "Both raining and not raining are named; either answer leaves the trip unchanged."
-          },
-          {
-            "label": "An open answer",
-            "sm": "E tatalo le tama, tusa lava po ʻo fea le nuʻu ʻo ʻi ai.",
-            "en": "The boy prays, whatever village he is in.",
-            "note": "The question leaves the village open, and the praying holds wherever it is."
+            "label": "With *neʻi*",
+            "sm": "ʻAua neʻi ʻe siva.",
+            "en": "Don't dance.",
+            "note": "The pronoun stands behind the warning particle."
           }
         ]
       },
-      "caption": "The English follows the question after *tusa*: even if, whether or not, or whatever. *Lava* belongs in the last two patterns; it is optional in the even-if pattern."
+      "caption": "Both printed forms forbid dancing. The pronoun comes before *te* and after *neʻi*, so changing the particle changes their order."
+    },
+    {
+      "id": "ch48-pick-let-or-may",
+      "kind": "pick",
+      "anchor": "the-wish-and-permission-particle-sei",
+      "place": "lead",
+      "title": "Let me, let us, or may it happen",
+      "intro": "Read the English, then choose the Sāmoan sentence that says it.",
+      "data": {
+        "question": "Which sentence says this?",
+        "prompts": [
+          {
+            "en": "Let's be patient.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻIa tātou ʻonosaʻi."
+              },
+              {
+                "id": "b",
+                "sm": "ʻIa ʻe ʻonosaʻi."
+              },
+              {
+                "id": "c",
+                "sm": "Seʻi oʻu alu muamua."
+              }
+            ],
+            "why": "*ʻIa* asks plainly for what is wanted, and *tātou* is we, you and I. With *ʻe* the same request is made to the listener alone: be patient."
+          },
+          {
+            "en": "Let me go first.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Seʻi oʻu alu muamua."
+              },
+              {
+                "id": "b",
+                "sm": "ʻIa tātou ʻonosaʻi."
+              },
+              {
+                "id": "c",
+                "sm": "Seʻi sau le tama."
+              }
+            ],
+            "why": "*Seʻi* about the speaker, with *oʻu* for I, asks permission. *Seʻi sau le tama* is about someone else, so it is a wish."
+          },
+          {
+            "en": "May the boy come.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Seʻi sau le tama."
+              },
+              {
+                "id": "b",
+                "sm": "Faʻatali seʻia sau le tama."
+              },
+              {
+                "id": "c",
+                "sm": "Seʻi oʻu fesili."
+              }
+            ],
+            "why": "*Seʻi* about someone who is neither the speaker nor the listener says the speaker wants it to happen. *Seʻia* means until: wait until the boy comes."
+          },
+          {
+            "en": "Let me ask.",
+            "answer": "a",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Seʻi oʻu fesili."
+              },
+              {
+                "id": "b",
+                "sm": "Seʻi sau se isi."
+              },
+              {
+                "id": "c",
+                "sm": "ʻIa ʻe ʻonosaʻi."
+              }
+            ],
+            "why": "*Seʻi oʻu* puts the speaker in the clause, so it politely asks permission. *Seʻi sau se isi* wishes for someone else to come."
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,186 +1,177 @@
-# Chapter 36: Conjunctions
+# Chapter 35: The Le-Phrase
 
-This chapter adds the words that join two whole clauses, *ma* (and), *ʻae* (but)
-and *ʻaʻo* (while), together with the rule that settles the tense particle of the
-second clause, and shows you how to build one sentence out of two.
-
----
-
-## Joining Two Clauses with *Ma*
-
-::: {.examples}
-*Sā timu ma sā lolo le vai.* It rained and the water overflowed.
-:::
-
-The with-word *ma* stood between two doers in an earlier chapter, where it joined
-them into one subject. Here it does a larger job. Put *ma* between two clauses,
-each with a verb of its own, and it joins them into one sentence. Joining clauses
-this way usually sets one thing after another in time: the rain came first, the
-overflowing after it.
-
-Each half is a clause of the kind you have been building since the start of the
-book. *Sā timu* is a whole sentence on its own, and so is *sā lolo le vai*. The
-pattern has three parts in a fixed order: the first clause, then *ma*, then the
-second clause.
-
-The two clauses do not have to be about the same person or thing, and *ma* joins
-them all the same. In the sentence below the first clause is about the weather
-and names nobody, while the second names the girl.
-
-::: {.examples}
-*Sā timu ma sā nofo le teine ʻi le ana.* It rained and the girl stayed in the cave.
-:::
-
-| Sāmoan | English |
-|---|---|
-| *ʻUa ala le tama ma ʻua usu le teine.* | The boy has woken and the girl has stood up. |
-| *Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.* | The bus arrived and the girl went to the school. |
-| *ʻUa ʻou nofo ma ʻua ʻou māfaufau.* | I sat down and I thought. |
-| *Sā timu ma sā lolo le vai.* | It rained and the water overflowed. |
+This chapter introduces the le-phrase, an article standing in front of a verb so
+that the two of them together work as a noun phrase, and shows you how to pack a
+whole event into a thing you can put wherever a noun phrase goes.
 
 ---
 
-## Matching the Tense Particle
+## Making a Le-Phrase
 
 ::: {.examples}
-*Sā timu ma sā lolo le vai.* It rained and the water overflowed.
+*ʻOu te lē fia manatu ʻi le mea lea.* I do not want to think about that.
 
-*ʻUa ala le tama ma ʻua usu le teine.* The boy has woken and the girl has stood up.
+*ʻOu te lē fia manatu ʻi le leai o se mea ʻi loʻu manava.* I do not want to think about having nothing in my stomach. (Lit. "...to think of the being absent of anything in my stomach.")
 :::
 
-Compare them. Which word opens each half of each sentence?
+Compare them. What stands after the place word *ʻi* in each?
 
-The same one, twice over. The first sentence runs *sā* and then *sā*, the second
-*ʻua* and then *ʻua*. That is the rule for the clause after *ma*: when it carries
-a tense particle of its own, the particle is the one already standing in front of
-the first clause. You do not choose it a second time, and a sentence that changes
-particle across *ma* is not the pattern this chapter teaches.
+In the first sentence it is an ordinary noun phrase, *le mea lea*: an article, a
+noun, and the pointing word *lea*, which stands after the noun the way *lenā*
+does. A thing, in other words. In the second it is an event, the speaker
+having nothing in the stomach. Everything before *ʻi* is the same in both, so
+whatever Sāmoan has done to that event, it has left it able to stand exactly
+where the thing stood. The words *o se mea* inside that second phrase name what
+is absent, and how a le-phrase names the people and things in its event is taken
+up later in this book.
 
-The clause after *ma* can also go without a tense particle altogether. Nothing
-replaces it, and the empty slot is a form rather than a gap.
+What it has done is put an article in front of a verb. An article and a verb
+working together as a noun phrase are a **le-phrase**: an event packed into a
+thing. The verb keeps its own meaning, and the article makes the whole of it
+into something a sentence can use where a noun would go.
 
-::: {.examples}
-*ʻUa ʻou nofo ma ʻou māfaufau.* I sat down and thought.
-:::
-
-The second clause here is *ʻou māfaufau*, a preverbal pronoun and a verb with an
-empty slot in front of them. Set it beside the version that fills the slot and
-you have the two shapes side by side.
+The pattern has two parts in a fixed order: the article *le*, then the verb. No
+tense particle stands anywhere inside it, and that is what a le-phrase never
+carries. Any verb you already know can head one.
 
 | Sāmoan | English |
 |---|---|
-| *ʻUa ʻou nofo ma ʻua ʻou māfaufau.* | I sat down and I thought. |
-| *ʻUa ʻou nofo ma ʻou māfaufau.* | I sat down and thought. |
-| *Sā timu ma sā lolo le vai.* | It rained and the water overflowed. |
-| *Sā timu ma lolo le vai.* | It rained and the water overflowed. |
+| *le nofo* | the staying |
+| *le taʻatia* | the lying down |
+| *le paʻū* | the falling |
+| *le lavea* | the being hurt |
+| *le vāivai* | the being tired |
+| *le velo* | the hurling of a spear |
+| *le manatu* | the thinking |
 
-Both shapes are good Sāmoan, and as far as the grammar can tell the choice
-between them is one of style rather than of meaning.
+The English that fits is usually the "-ing" form of the verb, or "the being"
+with a description after it. Neither of those is a new Sāmoan word: *nofo* is
+still the verb *nofo*, and only the article in front of it has changed what the
+phrase can do.
 
-> *Note:* The matching does not reach every clause after *ma*. When the word
-> straight after *ma* is a pointing phrase such as *ʻo lea* (then), the
-> presenting particle with the pointing word *lea*, the clause behind it takes
-> whatever tense particle it needs, and no matching applies.
+> **Preview:** Sāmoan has a second way of making an event into a word, by adding
+> an ending to the verb itself. That system is taught in Chapter 50. Every event
+> word in this chapter is made the first way, with the article.
 
 ---
 
-## Contrasting Two Clauses with *ʻAe*
+## The Verb Inside the Phrase
 
 ::: {.examples}
-*ʻUa ala le tama ʻae ʻoloʻo moe le teine.* The boy has woken but the girl is sleeping.
+*Sā ʻou nofo ma le lē fiafia.* I stayed and was unhappy. (Lit. "I stayed with the not being happy.")
 :::
 
-A word that sets one clause against another is called **the but-word**, and the
-Sāmoan one is *ʻae*. It stands at the head of the second clause and joins it to
-the first, and the two clauses are then heard as a contrast, one set against the
-other.
+The phrase after the with-word *ma* is *le lē fiafia*, "the not being happy". The
+not-word *lē* stands between the article and the verb, in the same place it
+takes in front of a verb in an ordinary sentence.
 
-The pattern has three parts in a fixed order: the first clause, then *ʻae*, then
-the second clause. That order never turns around. *ʻAe* opens the second of the
-two joined clauses and never the first.
+This is one thing that tells a le-phrase apart from a plain noun phrase built on
+a noun. The word in the middle is still a verb, so it can take the not-word, and
+a noun in that slot never does.
 
-::: {.examples}
-*Sā ʻou nofo ʻae sā alu le teine.* I stayed but the girl went.
-:::
+The pattern with a not-word has three parts in a fixed order: the article *le*,
+then *lē*, then the verb.
 
 | Sāmoan | English |
 |---|---|
-| *ʻUa ala le tama ʻae ʻoloʻo moe le teine.* | The boy has woken but the girl is sleeping. |
-| *ʻUa ala le teine ʻae ʻoloʻo moe le tama.* | The girl has woken but the boy is sleeping. |
-| *Sā ʻou nofo ʻae sā alu le teine.* | I stayed but the girl went. |
-| *Sā nofo le teine ʻi le ana ʻae sā alu le tama.* | The girl stayed in the cave but the boy went. |
+| *le fiafia* | the being happy |
+| *le lē fiafia* | the not being happy |
+| *le vāivai* | the being tired |
+| *le lē vāivai* | the not being tired |
+| *le nofo* | the staying |
+| *le lē nofo* | the not staying |
 
-When the clause after *ʻae* opens on its verb phrase, as every sentence in this
-chapter does, it takes any tense particle you have learned save one, since the
-general particle *e* does not appear there. *ʻAe* and *e* run together in speech
-and in print, and what you see is *ʻae* standing alone.
+> *Note:* The article and the not-word are told apart in writing by the
+> long-vowel mark alone. Print that drops the marks writes the two the same way,
+> and the reader takes them apart by sense.
+
+::: {.examples}
+*Sā ʻou nofo ma le lē vāivai.* I stayed and was not tired.
+:::
+
+Because a le-phrase works as a noun phrase, the words that mark a noun phrase
+mark it too. The place word *ʻi* marked one in the opening pair and the with-word
+*ma* marks this one, and the other slots a noun phrase can fill are open to it
+too.
+
+> **Preview:** A le-phrase can also stand at the head of a sentence, where it
+> sets the time for what follows, the way an English sentence can open with
+> "when". That use is taught in Chapter 44.
 
 ---
 
-## Holding Two Events Together with *ʻAʻo*
+## Forbidding an Event
+
+You have built sentences of this shape already, with *ʻaua* and an article
+standing in front of a long-form verb. The article was left unexplained there.
+It is the article of a le-phrase.
 
 ::: {.examples}
-*ʻAʻo ʻou alu atu ʻi le āʻoga, sā ʻou mānatunatu ʻi le teine.* While I was going to the school, I was thinking of the girl.
+*Sōia le maumau=ina le taimi.* Stop wasting time.
 :::
 
-In the sentences of this chapter *ʻaʻo* is two words run together. The first is
-*ʻa*, which is close to the but-word in meaning and takes a different position,
-and the second is *ʻo*, the short form of the happening-now particle. Together they hold two events side by
-side in time, and the English that fits is very often "while" or "whereas".
+The do-not verb *sōia* is followed here by a le-phrase rather than by a person
+and a verb. What is forbidden is *le maumau=ina le taimi*, the wasting of the
+time, named as a thing. The verb of that event is *māumau*, and inside this
+phrase it stands in its long form, *maumau=ina*, with the thing being wasted,
+*le taimi*, after it.
 
-That position is where the two contrast words differ. *ʻAe* stands at the head
-of the second clause and nowhere else. *ʻAʻo* stands at the
-head of either clause, so a sentence may open on it or reach it halfway through.
+The other do-not verb takes a le-phrase the same way:
 
 ::: {.examples}
-*Na usu le tama ʻaʻo moe le teine.* The boy stood up while the girl slept.
+*ʻAua le maumau=ina le taimi.* Do not waste time.
 :::
+
+The difference between the two verbs is the one you already have. *ʻAua*
+forbids an action, and *sōia* stops an action that is already under way. Naming
+the action as a le-phrase changes nothing about that choice.
+
+The pattern has three parts in a fixed order: the do-not verb, then the article
+*le*, then the verb of the event. In both sentences here, what the event names
+follows that verb with nothing in front of it. Sāmoan has a second way of naming
+it, and both are taught later in this book.
 
 | Sāmoan | English |
 |---|---|
-| *ʻAʻo ʻou alu atu ʻi le āʻoga, sā ʻou mānatunatu ʻi le teine.* | While I was going to the school, I was thinking of the girl. |
-| *Na usu le tama ʻaʻo moe le teine.* | The boy stood up while the girl slept. |
-| *Na usu le teine ʻaʻo moe le tama.* | The girl stood up while the boy slept. |
+| *ʻAua le taʻatia.* | Do not lie down. |
+| *ʻAua le velo.* | Do not hurl a spear. |
+| *ʻAua le nofo.* | Do not stay. |
+| *Sōia le tagi.* | Stop crying. |
+| *Sōia le taʻatia.* | Stop lying down. |
+
+> **Preview:** A le-phrase can name the person who does the event as well as the
+> thing it is done to. How each of them is marked follows a rule of its own, not
+> the rule you learned for belonging, and part of it turns on whether both of
+> them are named at once. That rule is taught in Chapter 45.
 
 ---
 
-## Saying What Came Before
+## Number Inside the Phrase
 
 ::: {.examples}
-*Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.* The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.")
+*le nofo*. the staying (of one)
 
-*Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.* The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.")
+*le nonofo*. the staying (of more than one)
 :::
 
-Put the not-yet word *leʻi* straight after *ʻaʻo*, or straight after *ʻae* when
-no preverbal pronoun comes between them, and the sentence says that the first thing happened before the second. The literal
-lines show how it is built: the second clause reports what had not happened yet,
-and English gathers the two clauses into a single word, "before".
-
-The pattern has four parts in a fixed order: the first clause, then *ʻaʻo* or
-*ʻae*, then *leʻi*, then the clause naming what had not yet happened, with the one addition set
-out below for a clause that has a preverbal pronoun. Either combination does the
-work, and the two mean the same thing.
+The verb inside a le-phrase behaves as a verb in one further way: it marks
+number. *Nofo* and *nonofo* are the singular and the plural shape of one verb,
+and the rule inside a le-phrase is the rule you already have for a sentence. A
+verb that has a plural shape takes it when what the phrase is about is more than
+one.
 
 | Sāmoan | English |
 |---|---|
-| *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.* | The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.") |
-| *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.* | The bus arrived before six o'clock. (Lit. "The bus arrived but it was not yet striking the six.") |
-| *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.* | The bus arrived before seven o'clock. (Lit. "The bus arrived but it was not yet striking the seven.") |
-
-One shape of the general particle turns up inside this pattern. When a preverbal
-pronoun stands between *ʻae* and *leʻi*, the general particle takes the *te*
-shape it always takes after a preverbal pronoun, and it sits between the pronoun
-and *leʻi*.
+| *le nofo* | the staying of one |
+| *le nonofo* | the staying of more than one |
 
 ::: {.examples}
-*Na sele laʻu ʻava ʻae ʻou te leʻi tuʻu=a loʻu fale.* I shaved before I left the house. (Lit. "My beard was shaved but I had not yet left my house.")
+*ʻAua le nonofo teine ʻi le āʻoga.* The girls should not stay at the school.
 :::
 
-> **Preview:** A tense particle left out after *ma* is the first step toward
-> something Sāmoan does at length: a run of clauses that all sit under the one
-> particle standing at the front of the first. Those chains are taught in
-> Chapter 37.
+The phrase is about *teine*, the girls, and they are more than one, so the verb
+inside it is the plural *nonofo*. If the phrase were about one girl the verb
+inside it would be the singular *nofo*.
 
 ---
 
@@ -190,27 +181,24 @@ and *leʻi*.
 
 | Word | What it does |
 |---|---|
-| *ʻae* | the but-word: it opens the second clause and sets it against the first |
-| *ʻa* | the partner of the but-word, which combines with the happening-now particle |
-| *ʻaʻo* | in this chapter, *ʻa* and the short *ʻo* together: while, whereas; it opens either clause |
-| *ʻae leʻi* | the but-word with the not-yet word: before |
-| *ma* | the with-word, met earlier: between two clauses it joins them and is read "and" |
-| *leʻi* | the not-yet word, met earlier: after *ʻaʻo* or *ʻae* it builds the before-pattern |
-| *te* | the general particle in its after-a-pronoun shape, met earlier: it stands between a preverbal pronoun and *leʻi* |
+| *le* | the article, met earlier: standing in front of a verb it heads a le-phrase and packs the event into a thing |
+| *lē* | the not-word, met earlier: inside a le-phrase it stands between the article and the verb |
+| *ʻaua* | the do-not verb for an action to be forbidden, met earlier: it can take a le-phrase in place of a person and a verb |
+| *sōia* | the do-not verb for stopping what is under way, met earlier: it takes a le-phrase the same way |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *ala* | be awake, wake up |
-| *lolo* | overflow |
-| *māfaufau* | think, consider |
-| *mānatunatu* | reflect, think about |
-| *sele* | shave, cut |
-| *taunuʻu* | arrive, reach |
-| *tuʻu* | leave, put, place |
-| *usu* | rise, stand up |
-| *ana* | cave |
+| *manatu* | think; feel lonely |
+| *māumau* | waste |
+| *lavea* | be hurt, be wounded |
+| *paʻū* | fall |
+| *taʻatia* | lie down |
+| *vāivai* | be weak, be tired |
+| *velo* | hurl a spear (at someone) |
+| *āʻoga* | school |
+| *manava* | stomach |
 
 ---
 
@@ -218,63 +206,60 @@ and *leʻi*.
 
 ### Exercise 1: Translate into English
 
-1. *Sā timu ma sā lolo le vai.*
-2. *ʻUa ala le tama ma ʻua usu le teine.*
-3. *ʻUa ʻou nofo ma ʻou māfaufau.*
-4. *Sā ʻou nofo ʻae sā alu le teine.*
-5. *Na usu le tama ʻaʻo moe le teine.*
-6. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.*
+1. *le nofo*
+2. *le lē fiafia*
+3. *le taʻatia*
+4. *le lē vāivai*
+5. *le nonofo*
+6. *le velo*
 
-### Exercise 2: Fill the tense particle
+### Exercise 2: Make a le-phrase
 
-Put the particle the matching rule calls for into the gap.
+Put the article *le* in front of each verb, and give the English.
 
-1. *Sā timu ma ___ lolo le vai.*
-2. *ʻUa ala le tama ma ___ usu le teine.*
-3. *ʻUa ʻou nofo ma ___ ʻou māfaufau.*
-4. *Na taunuʻu mai le pasi ma ___ alu le teine ʻi le āʻoga.*
-5. *Sā timu ma ___ nofo le teine ʻi le ana.*
+1. *paʻū*
+2. *lavea*
+3. *vāivai*
+4. *manatu*
+5. *tagi*
 
-### Exercise 3: Choose the joining word
+### Exercise 3: Put the not-word in
 
-Put *ma*, *ʻae* or *ʻaʻo* into the gap so the English matches.
+Rewrite each le-phrase with the not-word *lē* inside it, and give the English.
 
-1. *ʻUa ala le tama ___ ʻoloʻo moe le teine.* (The boy has woken but the girl is sleeping.)
-2. *Sā timu ___ sā nofo le teine ʻi le ana.* (It rained and the girl stayed in the cave.)
-3. *Na usu le tama ___ moe le teine.* (The boy stood up while the girl slept.)
-4. *Sā nofo le teine ʻi le ana ___ sā alu le tama.* (The girl stayed in the cave but the boy went.)
-5. *ʻUa ala le teine ___ ʻoloʻo moe le tama.* (The girl has woken but the boy is sleeping.)
+1. *le fiafia*
+2. *le vāivai*
+3. *le nofo*
+4. *le manatu*
+5. *le lavea*
 
-### Exercise 4: Say what came before
+### Exercise 4: Forbid it
 
-Rewrite each sentence with the other before-combination, so that *ʻaʻo leʻi*
-becomes *ʻae leʻi* and *ʻae leʻi* becomes *ʻaʻo leʻi*.
+Put *ʻaua* in front of each le-phrase, and give the English.
 
-1. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.*
-2. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.*
-3. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.*
-4. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le fitu.*
-5. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le valu.*
+1. *le taʻatia*
+2. *le velo*
+3. *le nofo*
+4. *le tagi*
+5. *le paʻū*
 
 ### Exercise 5: Translate into Sāmoan
 
-1. It rained and the water overflowed, with the tense particle repeated after *ma*.
-2. The girl has woken but the boy is sleeping.
-3. The girl stood up while the boy slept.
-4. The bus arrived before seven o'clock, using the *ʻaʻo* combination.
-5. I sat down and I thought.
-6. The bus arrived and the girl went to the school, with the tense particle repeated after *ma*.
+1. the being tired
+2. the not being tired
+3. the lying down
+4. the staying of more than one
+5. Stop crying.
+6. Do not waste time.
+7. I stayed and was not tired.
 
-### Exercise 6: Give the English
+### Exercise 6: Translate into English
 
-1. *ala*
-2. *lolo*
-3. *taunuʻu*
-4. *usu*
-5. *ana*
-6. *māfaufau*
-7. *sele*
-8. *tuʻu*
+1. *Sā ʻou nofo ma le lē fiafia.*
+2. *Sōia le maumau=ina le taimi.*
+3. *ʻAua le nonofo teine ʻi le āʻoga.*
+4. *ʻOu te lē fia manatu ʻi le mea lea.*
+5. *Sā ʻou nofo ma le lē vāivai.*
 
 ---
 
@@ -282,47 +267,51 @@ becomes *ʻae leʻi* and *ʻae leʻi* becomes *ʻaʻo leʻi*.
 
 ### Exercise 1
 
-1. It rained and the water overflowed.
-2. The boy has woken and the girl has stood up.
-3. I sat down and thought.
-4. I stayed but the girl went.
-5. The boy stood up while the girl slept.
-6. The bus arrived before six o'clock.
+1. the staying
+2. the not being happy
+3. the lying down
+4. the not being tired
+5. the staying of more than one
+6. the hurling of a spear
 
 ### Exercise 2
 
-1. *sā*
-2. *ʻua*
-3. *ʻua*
-4. *na*
-5. *sā*
+1. *le paʻū*, the falling
+2. *le lavea*, the being hurt
+3. *le vāivai*, the being tired
+4. *le manatu*, the thinking
+5. *le tagi*, the crying
 
 ### Exercise 3
 
-1. *ʻae*
-2. *ma*
-3. *ʻaʻo*
-4. *ʻae*
-5. *ʻae*
+1. *le lē fiafia*, the not being happy
+2. *le lē vāivai*, the not being tired
+3. *le lē nofo*, the not staying
+4. *le lē manatu*, the not thinking
+5. *le lē lavea*, the not being hurt
 
 ### Exercise 4
 
-1. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.*
-2. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le ono.*
-3. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le fitu.*
-4. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.*
-5. *Na taunuʻu mai le pasi ʻae leʻi tā=ina le valu.*
+1. *ʻAua le taʻatia.* Do not lie down.
+2. *ʻAua le velo.* Do not hurl a spear.
+3. *ʻAua le nofo.* Do not stay.
+4. *ʻAua le tagi.* Do not cry.
+5. *ʻAua le paʻū.* Do not fall.
 
 ### Exercise 5
 
-1. *Sā timu ma sā lolo le vai.*
-2. *ʻUa ala le teine ʻae ʻoloʻo moe le tama.*
-3. *Na usu le teine ʻaʻo moe le tama.*
-4. *Na taunuʻu mai le pasi ʻaʻo leʻi tā=ina le fitu.*
-5. *ʻUa ʻou nofo ma ʻua ʻou māfaufau.*
-6. *Na taunuʻu mai le pasi ma na alu le teine ʻi le āʻoga.*
+1. *le vāivai*
+2. *le lē vāivai*
+3. *le taʻatia*
+4. *le nonofo*
+5. *Sōia le tagi.*
+6. *ʻAua le maumau=ina le taimi.*
+7. *Sā ʻou nofo ma le lē vāivai.*
 
 ### Exercise 6
 
-1. be awake, wake up · 2. overflow · 3. arrive, reach · 4. rise, stand up ·
-5. cave · 6. think, consider · 7. shave, cut · 8. leave, put, place
+1. I stayed and was unhappy.
+2. Stop wasting time.
+3. The girls should not stay at the school.
+4. I do not want to think about that.
+5. I stayed and was not tired.

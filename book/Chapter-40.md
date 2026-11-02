@@ -1,246 +1,199 @@
-# Chapter 40: Modifiers in Depth
+# Chapter 39: Conditionals and When-Clauses
 
-This chapter takes the describing verb into the noun phrase, where it stands
-after the name of a thing instead of after an action, and adds the two compound
-shapes that fill the same position, so you can pack a whole description into one
-noun phrase. It also shows what happens when several describing verbs stand on
-one noun, and where the pointing word goes when they do.
+This chapter adds the condition clause, which says what has to be true before
+the rest of the sentence can happen, and teaches its two shapes: the one opened
+by the if-word *ʻāfai*, and the one that opens with the short form of the future
+particle and no joining word at all. It also shows where the condition clause
+stands when it comes after the main clause instead of in front of it, so you can
+say what depends on what in either order.
 
 ---
 
-## The Describing Verb After a Noun
+## The Condition Clause with *ʻĀfai*
 
 ::: {.examples}
-*E uliuli le taʻavale.* The car is black.
+*ʻĀfai e timu taeao, e lē alu le malaga.* If it rains tomorrow, the trip will not go.
 
-*le taʻavale uliuli*. the black car (Lit. "the car black")
+*ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.* If you go to the village, I'll go.
 :::
 
-Compare the two lines. Where did *uliuli* go, and what did it stop doing?
+Each of those sentences has two clauses, one saying what has to be true and the
+other saying what follows from it. A clause that says what has to be true before
+the rest of the sentence can happen is called **a condition clause**, and the
+word that opens it in both sentences above is *ʻāfai*, **the if-word**.
 
-It moved in behind the name of the thing, and it stopped being the whole
-statement. On the first line *uliuli* is the verb of the sentence and says what
-the car is. On the second it stands inside the noun phrase and says which car is
-meant. The word did not change shape and it did not change class. The describing
-words taught in this chapter and in Chapter 3 are verbs wherever they stand, and
-this is the position they take when the thing they describe is a noun rather
-than an action.
+The pattern has three parts in a fixed order: the if-word, then the condition,
+then the main clause. The condition is a clause in its own right and carries its
+own tense particle, the general particle *e* in the first sentence and its *te*
+shape, after the pronoun *ʻe*, in the second, and a comma separates it from the
+main clause.
 
-The pattern has three parts in a fixed order: the article, then the name of the
-thing, then the describing verb.
-
-| Part | In *le taʻavale uliuli* | What it does |
+| Part | In *ʻĀfai e timu taeao, e lē alu le malaga* | What it does |
 |---|---|---|
-| the article | *le* | picks out one particular one |
-| the name of the thing | *taʻavale* | says what is being talked about |
-| the describing verb | *uliuli* | says what that thing is like |
+| the if-word | *ʻāfai* | announces a condition |
+| the condition | *e timu taeao* | says what has to be true, under its own tense particle |
+| the main clause | *e lē alu le malaga* | says what follows from it |
+
+A condition clause can stand in front of the main clause, as both of these do,
+or it can stand after it. The second order takes an extra word in front of the
+condition and is taught in the last section of this chapter.
+
+The condition does not have to be a clause with a verb in it, because a naming
+sentence can stand as the condition, opened by the presenting particle *ʻo*.
+The word *tonu*, met earlier as "right, correct", stands here as a noun meaning
+"decision".
 
 ::: {.examples}
-*tagata oti*. dead people
-:::
-
-The noun in front of a describing verb is not always the one doing what the verb
-says. It can be the place the action happens in.
-
-::: {.examples}
-*ʻO le potu moe.* A bedroom. (Lit. "the room sleep")
-:::
-
-The same description can also appear with the general particle *e* in front of
-the describing verb, and then the words behind the noun are a clause with a tense
-particle of their own.
-
-::: {.examples}
-*tagata tino leaga*. people with bad bodies (Lit. "people body bad")
-
-*tagata e tino leaga*. people who have bad bodies
-:::
-
-The two phrases do the same work. The English gloss beside the second one uses a
-relative clause, "people who have bad bodies", and the gloss beside the first does
-not. Sāmoan can do both, and the shorter one does the work of the longer one
-without the particle. That is what a describing verb after a noun does: it works
-as a clause of its own, with no joining word and no tense particle showing.
-*Le taʻavale uliuli* is the car that is black, and *tagata oti* are people who
-have died.
-
-> **Preview:** The phrase with *e* in it above is a full clause standing inside a
-> noun phrase. Sāmoan builds those with a tense particle, and in some of them,
-> depending on the part the noun plays inside the clause, with a pointing-back
-> word as well. That whole construction is taught in Chapter 43.
-
-The describing slot holds more than a single word. A describing verb can carry a
-place phrase behind it, and the whole of it still stands in the one position.
-
-::: {.examples}
-*le pasi alu ʻi le nuʻu*. the bus going to the village
-:::
-
----
-
-## Plural Describing Verbs After a Noun
-
-::: {.examples}
-*le pusi uliuli*. the black cat
-
-*pusi uli*. black cats
-:::
-
-A describing verb that follows a noun takes the plural form it would take as the
-verb of a sentence with a single participant, where the noun is that participant.
-One cat is *le pusi uliuli*. More than one is *pusi uli*, with the plural *uli*
-in the describing slot and the plural of the noun marked by leaving the article
-off.
-
-| Sāmoan | English |
-|---|---|
-| *E uliuli le pusi.* | The cat is black. |
-| *E uli pusi.* | The cats are black. |
-| *le pusi uliuli* | the black cat |
-| *pusi uli* | black cats |
-
-The agreement holds where the describing verb stands to the noun the way it would
-stand to the subject of a sentence with a single participant. *E uli pusi* is
-such a sentence, so *pusi uli* takes the plural. Where the relation between the
-noun and the describing verb is a different one, the rule taught here does not
-reach it, and this book states none.
-
----
-
-## The Part-and-Quality Compound
-
-::: {.examples}
-*ʻUa ʻou isu mamafa.* I have a cold. (Lit. "I have a heavy nose.")
-:::
-
-Two words carry that sentence: *isu* (nose) and *mamafa* (heavy). A noun naming a
-part of something, with a describing verb behind it saying what that part is
-like, is called **a part-and-quality compound**. The compound says that somebody
-or something has a part of that quality, which is how two words meaning nose and
-heavy come out in English as having a cold. This kind of compound is named after
-that very example, *isu mamafa*.
-
-A part-and-quality compound works as one describing verb. It can be the verb of a
-sentence, as it is above, and it can stand after a noun and describe it. The
-phrase *tagata tino leaga* earlier in this chapter is one of these: *tino* names
-a body and *leaga* says what that body is like, and the compound describes the
-people in front of it.
-
-| Compound | Its two parts | What the compound says |
-|---|---|---|
-| *isu mamafa* | *isu* (nose), *mamafa* (heavy) | to have a cold |
-| *tino leaga* | *tino* (body), *leaga* (bad) | to have a bad body |
-
----
-
-## The Verb-and-Noun Compound
-
-::: {.examples}
-*le teine fai umu*. the cooking girl (Lit. "the girl do oven")
-:::
-
-*Fai*, carried since the chapter on the tense particles as do, make, say and
-tell, is also a verb of the kind that takes the agent marker, and *umu* is a bare
-noun standing straight behind it with no article in front of it. A verb of that
-kind with a bare noun behind it naming the sort of thing it acts on is called
-**a verb-and-noun compound**, and the pair works as one describing verb on the
-noun in front of them.
-
-The noun being described is the one doing the action, or the place it happens in,
-or the thing it is done with. In *le teine fai umu* it is the girl who does it.
-
-::: {.examples}
-*le teine fai meaʻai*. the food-making girl
-:::
-
-> *Note:* The verb inside a verb-and-noun compound usually keeps its short form.
-> The long-form ending taught earlier in this book is rare in this position.
-
----
-
-## Describing Verbs in a Row
-
-::: {.examples}
-*le pusa paʻepaʻe mānaia*. the nice white box
-
-*le tagata loto vāivai ma le fefe*. the timid and frightened person (Lit. "the person heart weak and the afraid")
-:::
-
-More than one describing verb can stand on one noun. They can sit one behind the
-other with nothing between them, as *paʻepaʻe* and *mānaia* do in the first
-phrase, or they can be joined by the with-word *ma*. The two phrases also show
-that the kinds can mix: the second one opens on a part-and-quality compound.
-
-In this construction, the with-word brings an article with it. What stands behind *ma* is *le fefe*,
-an article in front of a verb (*fefe*, fear, be afraid), which is the le-phrase taught earlier in this
-book: the being afraid, packed into a thing. So the with-word is doing here what
-it has always done, joining one thing to another, and the English "and" in the
-gloss covers a join Sāmoan makes between a description and a named feeling.
-
-A pointing word comes after the describing verbs.
-
-::: {.examples}
-*le pusa paʻepaʻe mānaia lenā*. that nice white box
-:::
-
-| Position | In *le pusa paʻepaʻe mānaia lenā* |
-|---|---|
-| the article | *le* |
-| the name of the thing | *pusa* |
-| the describing verbs | *paʻepaʻe mānaia* |
-| the pointing word | *lenā* |
-
-Put the presenting particle in front of that phrase and you have a naming
-sentence of the kind taught earlier in this book, with the pointing word standing
-second as it does there.
-
-::: {.examples}
-*ʻO le pusa paʻepaʻe mānaia lenā.* That is the nice white box.
-:::
-
----
-
-## The Endings *=gatā* and *=gōfie*
-
-::: {.examples}
-*le taʻavale taugatā*. the expensive car
-
-*E faigatā le gagana.* The language is difficult.
-:::
-
-Sāmoan has two endings that build its difficult-words and easy-words. The ending *=gatā* carries the
-meaning difficult and *=gōfie* carries the meaning easy, and each word they build
-has a meaning of its own, learned word by word. *Fai* is the verb for doing, so
-*faigatā* is difficult and *faigōfie* is easy.
-
-| Base | With *=gatā* | With *=gōfie* |
-|---|---|---|
-| *fai* (do) | *faigatā* (difficult) | *faigōfie* (easy) |
-| *faʻalogo* (listen, hear) | *faʻalogogatā* (disobedient) | *faʻalogogōfie* (obedient) |
-| *tau* (cost, price) | *taugatā* (expensive) | *taugōfie* (cheap) |
-| *mau* (have plenty) | *maugatā* (mean, tight-fisted) | *maugōfie* (generous) |
-
-The words these endings build are verbs, so they stand where the describing verbs
-of this chapter stand: after a noun, and as the verb of a sentence.
-
-::: {.examples}
-*le tama faʻalogogōfie*. the obedient boy
-
-*E taugōfie le pusa.* The box is cheap.
+*ʻĀfai ʻo le tonu, ʻua lelei.* If it is the decision, it is alright.
 :::
 
 | Sāmoan | English |
 |---|---|
-| *le tagata maugatā* | the mean person |
-| *le tagata maugōfie* | the generous person |
-| *le tagata faʻalogogatā* | the disobedient person |
-| *le taʻavale taugatā* | the expensive car |
+| *ʻĀfai e timu taeao, e lē alu le malaga.* | If it rains tomorrow, the trip will not go. |
+| *ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.* | If you go to the village, I'll go. |
+| *ʻĀfai ʻo le tonu, ʻua lelei.* | If it is the decision, it is alright. |
+| *ʻĀfai e iai se apu, ʻou te ʻai.* | If there is an apple, I eat. |
+| *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.* | If the boy's will is strong, he does not obey. (Lit. "If strong the will of the boy, does not obey.") |
 
-*Faʻalogo* is to listen, and *faʻalogogatā* is disobedient rather than hard to
-hear. *Mau* is to have plenty, and *maugatā* is mean rather than hard to have.
+> **Preview:** Sāmoan has a second if-word for a condition the speaker knows did
+> not come true and is only imagining, which is the kind of sentence English
+> builds with "if I had" and "if I were". That word is not *ʻāfai*, and it works
+> differently. It is taught in Chapter 49. The conditions in this chapter are the
+> real kind, not imagined ones.
 
-> *Note:* Both endings can follow another ending, and an ending can follow them
-> in turn. This chapter builds from a plain verb only.
+---
+
+## The Tense Particle in a Condition Clause
+
+::: {.examples}
+*ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.* If the boy has come, the girl will go.
+
+*ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.* If it is going to rain tomorrow, the trip will not go.
+:::
+
+A condition clause with a verb in it carries a tense particle, and this chapter
+teaches three of them, each saying something different about the condition.
+The general particle *e*
+leaves the condition open. The change particle *ʻua* presents it as something
+new that has come about. The future particle *ʻoleʻā* carries a much higher
+degree of certainty than the general particle does, because it points at
+something expected to happen soon.
+
+| Tense particle | In a condition clause | English |
+|---|---|---|
+| the general particle *e* | *ʻĀfai e timu taeao, e lē alu le malaga.* | If it rains tomorrow, the trip will not go. |
+| the change particle *ʻua* | *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.* | If the boy has come, the girl will go. |
+| the future particle *ʻoleʻā* | *ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.* | If it is going to rain tomorrow, the trip will not go. |
+
+The general particle carries two readings inside a condition clause. It can say
+that the speaker is not sure the condition will come true, and it can mean
+"whenever the condition is given", and the Sāmoan is the same either way.
+
+::: {.examples}
+*ʻĀfai e timu, e lē alu le malaga.* If it rains, the trip does not go.
+:::
+
+Read that sentence the second way and it says: whenever it rains, the trip does
+not go. Nothing on the Sāmoan line has changed between the two readings, and
+nothing in the Sāmoan chooses between them, so a condition clause under the
+general particle will sometimes need both English sentences to carry the whole
+of it.
+
+---
+
+## The Condition Clause Without a Joining Word
+
+::: {.examples}
+*ʻĀfai e timu taeao, e lē alu le malaga.* If it rains tomorrow, the trip will not go.
+
+*ʻĀ timu taeao, e lē alu le malaga.* When it rains tomorrow, the trip will not go.
+:::
+
+Compare the two sentences and say which words changed.
+
+The if-word and the tense particle behind it are both gone from the second
+sentence, and one word stands where the two of them were: *ʻā*, the short form
+of the future particle. A condition clause can open on *ʻā* with no joining word
+in front of it at all, and stringing two clauses together that way is a very
+common way of expressing a condition in Sāmoan.
+
+A clause opened by *ʻā* says that what it names has to be in place before the
+other clause can happen. English renders it "if", "when" or "whenever",
+according to how expected the speaker thinks the condition is, and Sāmoan does
+not mark that difference anywhere in the sentence. The choice among the three
+English words is therefore the translator's rather than the Sāmoan sentence's.
+
+::: {.examples}
+*ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* When you go to the beach, bring the towel.
+
+*ʻĀ alu le tama ʻi le matāfaga, e fāgota.* When the boy goes to the beach, he fishes. (Lit. "When goes the boy to the beach, fishes.")
+:::
+
+The main clause standing behind a condition can be a command, as it is in the
+first of those two sentences.
+
+The relationship between the condition and what follows it does not have to be a
+future one. The same shape reads back into the past, where it says that whenever
+one thing happened, another used to follow.
+
+::: {.examples}
+*ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.* When the couple had children, the family was happy.
+
+*ʻĀ siva le ʻāiga, ʻua uosi.* Whenever the family dances, they waltz. (Lit. "...has waltzed.")
+:::
+
+| Sāmoan | English |
+|---|---|
+| *ʻĀ timu taeao, e lē alu le malaga.* | When it rains tomorrow, the trip will not go. |
+| *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* | When you go to the beach, bring the towel. |
+| *ʻĀ alu le tama ʻi le matāfaga, e fāgota.* | When the boy goes to the beach, he fishes. |
+| *ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.* | When the couple had children, the family was happy. |
+| *ʻĀ siva le ʻāiga, ʻua uosi.* | Whenever the family dances, they waltz. (Lit. "...has waltzed.") |
+
+> **Preview:** A condition clause opened by *ʻā* says what has to happen first.
+> English says how long something goes on before that point with "until", and
+> Sāmoan says it with a particle of its own. That particle belongs with the mood
+> particles and is taught in Chapter 48.
+
+---
+
+## Putting the Condition Second
+
+::: {.examples}
+*E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.* You cannot love, if you hate.
+
+*E lē alu le malaga pē ʻā afā.* There will be no trip when there is a storm. (Lit. "The trip does not go when storm.")
+:::
+
+When the condition clause follows the main clause instead of opening the
+sentence, the question opener *pē* stands in front of it. One rule covers both
+shapes: *pē ʻāfai* for the clause with the if-word in it, and *pē ʻā* for the
+clause with no joining word.
+
+The pattern has three parts in a fixed order: the main clause, then *pē*, then
+the condition clause with whatever opens it.
+
+::: {.examples}
+*Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* Come quickly if you get the food. (Lit. "Come quickly if will get the food.")
+
+*ʻOleʻā mālaia ʻia te ʻoe pē ʻāfai ʻe te lē usitaʻi ʻi le pōloaʻiga.* Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.")
+:::
+
+| Sāmoan | English |
+|---|---|
+| *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.* | You cannot love, if you hate. |
+| *Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* | Come quickly if you get the food. |
+| *ʻOleʻā mālaia ʻia te ʻoe pē ʻāfai ʻe te lē usitaʻi ʻi le pōloaʻiga.* | Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.") |
+| *E lē alu le malaga pē ʻā afā.* | There will be no trip when there is a storm. (Lit. "The trip does not go when storm.") |
+| *E lē alu le tama ʻi le matāfaga pē ʻā afā.* | The boy will not go to the beach when there is a storm. (Lit. "The boy does not go to the beach when storm.") |
+
+> *Note:* A condition clause standing in front of the main clause is
+> occasionally opened by *pē* as well. The usual shape is the one taught above,
+> with nothing in front of the if-word or the short future particle.
+
+> *Note:* The short future particle is written *ʻā* here, and it has a second
+> written shape, *ʻa*. What decides the choice is not known, and mostly the two
+> look like free alternatives. After *pē* only the long shape appears.
 
 ---
 
@@ -250,25 +203,30 @@ hear. *Mau* is to have plenty, and *maugatā* is mean rather than hard to have.
 
 | Word | What it does |
 |---|---|
-| *=gatā* | the ending that builds a difficult-word out of the verb it goes on; it is never a word standing on its own |
-| *=gōfie* | the ending that builds an easy-word the same way |
-| *ma* | the with-word, met earlier: inside one noun phrase it joins a describing verb to a le-phrase behind it, and reads as "and" |
+| *ʻāfai* | the if-word: it opens a condition clause, and when the clause behind it has a verb in it, that verb carries a tense particle of its own |
+| *ʻā* | the short form of the future particle, met earlier: at the head of the first of two clauses, with no joining word in front of it, it makes that clause the condition for the second |
+| *pē* | the question opener, met earlier: it stands in front of a condition clause that follows the main clause |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *faigatā* | difficult |
-| *faigōfie* | easy |
-| *faʻalogo* | listen, hear |
-| *faʻalogogatā* | disobedient |
-| *faʻalogogōfie* | obedient |
-| *mau* | have plenty |
-| *maugatā* | mean, tight-fisted |
-| *maugōfie* | generous |
-| *taugatā* | expensive |
-| *taugōfie* | cheap |
-| *fefe* | fear, be afraid |
+| *afā* | storm |
+| *apu* | apple |
+| *loto* | will; heart |
+| *matāfaga* | beach |
+| *mālaia* | disaster |
+| *pōloaʻiga* | instruction |
+| *solo* | towel |
+| *uosi* | waltz |
+| *usitaʻi* | obey |
+
+**Words to carry** (learned now, used fully later in this book): *silou*
+(slow) comes into use with the word for a song, which this book teaches later.
+
+| Word | Meaning |
+|---|---|
+| *silou* | slow |
 
 ---
 
@@ -276,70 +234,66 @@ hear. *Mau* is to have plenty, and *maugatā* is mean rather than hard to have.
 
 ### Exercise 1: Translate into English
 
-1. *le taʻavale uliuli*
-2. *tagata oti*
-3. *le teine fai umu*
-4. *tagata tino leaga*
-5. *le pusa paʻepaʻe mānaia*
-6. *le taʻavale taugatā*
-7. *le tagata loto vāivai ma le fefe*
+1. *ʻĀfai e timu taeao, e lē alu le malaga.*
+2. *ʻĀfai ʻo le tonu, ʻua lelei.*
+3. *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.*
+4. *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.*
+5. *ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.*
+6. *E lē alu le malaga pē ʻā afā.*
 
-### Exercise 2: Name what fills the describing slot
+### Exercise 2: Name the shape
 
-For each phrase, say whether the slot holds a single describing verb, a
-part-and-quality compound, a verb-and-noun compound, or a describing verb
-carrying a place phrase.
+For each sentence, say what opens the condition clause and whether the condition
+stands in front of the main clause or after it.
 
-1. *le pasi alu ʻi le nuʻu*
-2. *tagata tino leaga*
-3. *le teine fai meaʻai*
-4. *le tama faʻalogogōfie*
-5. *tagata oti*
+1. *ʻĀfai e iai se apu, ʻou te ʻai.*
+2. *ʻĀ siva le ʻāiga, ʻua uosi.*
+3. *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.*
+4. *ʻĀ alu le tama ʻi le matāfaga, e fāgota.*
+5. *E lē alu le tama ʻi le matāfaga pē ʻā afā.*
 
-### Exercise 3: Move the describing verb into the noun phrase
+### Exercise 3: Move the condition to the back
 
-Rewrite each sentence as a noun phrase, with the describing verb standing behind
-the name of the thing.
+Rewrite each sentence with the main clause first and the condition clause after
+it, putting *pē* in front of the condition.
 
-1. *E uliuli le taʻavale.*
-2. *E uli pusi.*
-3. *E faigatā le gagana.*
-4. *E taugōfie le pusa.*
-5. *E uliuli le pusi.*
+1. *ʻĀfai e timu taeao, e lē alu le malaga.*
+2. *ʻĀ timu taeao, e lē alu le malaga.*
+3. *ʻĀfai e iai se apu, ʻou te ʻai.*
+4. *ʻĀ siva le ʻāiga, ʻua uosi.*
+5. *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.*
 
-### Exercise 4: Build the word
+### Exercise 4: Fill the gap
 
-Add *=gatā* or *=gōfie* to the word in brackets to give the word that means:
+Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
 
-1. difficult (*fai*)
-2. easy (*fai*)
-3. expensive (*tau*)
-4. cheap (*tau*)
-5. obedient (*faʻalogo*)
-6. generous (*mau*)
+1. *___ e timu taeao, e lē alu le malaga.* (If it rains tomorrow, the trip will not go.)
+2. *___ timu taeao, e lē alu le malaga.* (When it rains tomorrow, the trip will not go.)
+3. *E lē alu le malaga ___ ʻā afā.* (There will be no trip when there is a storm.)
+4. *___ ʻe alu ʻi le matāfaga, ʻaumai le solo.* (When you go to the beach, bring the towel.)
+5. *___ ʻoleʻā timu taeao, e lē alu le malaga.* (If it is going to rain tomorrow, the trip will not go.)
 
 ### Exercise 5: Translate into Sāmoan
 
-1. the black car
-2. dead people
-3. the cooking girl
-4. the nice white box
-5. That is the nice white box.
-6. The language is difficult.
+1. If you go to the village, I'll go.
+2. If there is an apple, I eat.
+3. If the boy has come, the girl will go.
+4. When the boy goes to the beach, he fishes.
+5. You cannot love, if you hate.
+6. Come quickly if you get the food.
 
 ### Exercise 6: Give the English
 
-1. *faigatā*
-2. *faigōfie*
-3. *faʻalogo*
-4. *faʻalogogatā*
-5. *faʻalogogōfie*
-6. *mau*
-7. *maugatā*
-8. *maugōfie*
-9. *taugatā*
-10. *taugōfie*
-11. *fefe*
+1. *afā*
+2. *apu*
+3. *loto*
+4. *matāfaga*
+5. *mālaia*
+6. *pōloaʻiga*
+7. *silou*
+8. *solo*
+9. *uosi*
+10. *usitaʻi*
 
 ---
 
@@ -347,50 +301,47 @@ Add *=gatā* or *=gōfie* to the word in brackets to give the word that means:
 
 ### Exercise 1
 
-1. the black car
-2. dead people
-3. the cooking girl
-4. people with bad bodies
-5. the nice white box
-6. the expensive car
-7. the timid and frightened person
+1. If it rains tomorrow, the trip will not go.
+2. If it is the decision, it is alright.
+3. If the boy's will is strong, he does not obey.
+4. When you go to the beach, bring the towel.
+5. When the couple had children, the family was happy.
+6. There will be no trip when there is a storm.
 
 ### Exercise 2
 
-1. A describing verb carrying a place phrase: *alu* with *ʻi le nuʻu* behind it.
-2. A part-and-quality compound: *tino* names a part and *leaga* says what it is like.
-3. A verb-and-noun compound: *fai* with the bare noun *meaʻai* behind it.
-4. A single describing verb: *faʻalogogōfie*.
-5. A single describing verb: *oti*.
+1. The if-word *ʻāfai* opens the condition, and the condition stands in front of the main clause.
+2. Nothing opens the condition except the short future particle *ʻā*, and the condition stands in front of the main clause.
+3. The question opener and the if-word, *pē ʻāfai*, open the condition, and the condition follows the main clause.
+4. Nothing opens the condition except the short future particle *ʻā*, and the condition stands in front of the main clause.
+5. The question opener and the short future particle, *pē ʻā*, open the condition, and the condition follows the main clause.
 
 ### Exercise 3
 
-1. *le taʻavale uliuli*
-2. *pusi uli*
-3. *le gagana faigatā*
-4. *le pusa taugōfie*
-5. *le pusi uliuli*
+1. *E lē alu le malaga pē ʻāfai e timu taeao.*
+2. *E lē alu le malaga pē ʻā timu taeao.*
+3. *ʻOu te ʻai pē ʻāfai e iai se apu.*
+4. *ʻUa uosi pē ʻā siva le ʻāiga.*
+5. *ʻOleʻā alu le teine pē ʻāfai ʻua sau le tama.*
 
 ### Exercise 4
 
-1. *faigatā*
-2. *faigōfie*
-3. *taugatā*
-4. *taugōfie*
-5. *faʻalogogōfie*
-6. *maugōfie*
+1. *ʻĀfai*
+2. *ʻĀ*
+3. *pē*
+4. *ʻĀ*
+5. *ʻĀfai*
 
 ### Exercise 5
 
-1. *le taʻavale uliuli*
-2. *tagata oti*
-3. *le teine fai umu*
-4. *le pusa paʻepaʻe mānaia*
-5. *ʻO le pusa paʻepaʻe mānaia lenā.*
-6. *E faigatā le gagana.*
+1. *ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.*
+2. *ʻĀfai e iai se apu, ʻou te ʻai.*
+3. *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.*
+4. *ʻĀ alu le tama ʻi le matāfaga, e fāgota.*
+5. *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.*
+6. *Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.*
 
 ### Exercise 6
 
-1. difficult · 2. easy · 3. listen, hear · 4. disobedient · 5. obedient ·
-6. have plenty · 7. mean, tight-fisted · 8. generous · 9. expensive · 10. cheap ·
-11. fear, be afraid
+1. storm · 2. apple · 3. will; heart · 4. beach · 5. disaster · 6. instruction ·
+7. slow · 8. towel · 9. waltz · 10. obey

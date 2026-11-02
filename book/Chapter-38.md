@@ -1,272 +1,211 @@
-# Chapter 38: Purpose and Reason
+# Chapter 37: Narrative Chains
 
-This chapter adds the three because-words *ʻauā*, *leaga* and *ʻona*, each of
-which opens a clause giving the reason for what was just said, and the purpose
-clause, which says what an action is done for. It also teaches the why-question,
-so you can ask for a reason as well as give one.
+This chapter adds two of the ways Sāmoan sets one event after another, the
+then-construction built out of *ona* and *lea* and the run of clauses that carry
+no tense particle of their own, and shows you how to tell a story in the order
+its events happened.
 
 ---
 
-## The Because-Words *ʻAuā* and *Leaga*
+## The Then-Construction *Ona* and *Lea*
 
 ::: {.examples}
-*Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* The girl lay down in the house because she was tired. (Lit. "...because has become tired.")
-
-*E lē mafai ona alu le tama leaga e maʻi.* The boy cannot go because he is sick. (Lit. "It is not possible that the boy go, because unfortunately is sick.")
+*Ona alu lea ʻo le tama.* Then the boy went. (Lit. "Then go that, the boy.")
 :::
 
-Each sentence says something and then says why. A word that opens a clause
-giving the reason for what was just said is called **a because-word**, and this
-chapter teaches three of them. Two of the three are in the sentences above:
-*ʻauā*, which is the plain one, and *leaga*, which you met earlier as the word
-for "bad" and which is doing a second job here.
+Two words working as a pair to mark the next event in a sequence are called
+**the then-construction**, and the Sāmoan pair is *ona* and *lea*. *Ona* stands
+at the head of the clause, the verb phrase follows it, *lea* closes the verb
+phrase off, and the rest of the clause comes after that. A clause built this way
+always marks a sequence: this event, then that one. In a story the sequence is
+told in the past, and that is the case this chapter works with.
 
-The pattern has three parts in a fixed order: the main clause, then the
-because-word, then the clause that gives the reason. That last clause carries a
-tense particle of its own, *ʻua* in the first sentence and *e* in the second.
+The pattern has four parts in a fixed order: *ona*, then the verb phrase, then
+*lea*, then the rest of the clause.
 
-| Part | In *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai* | What it does |
+| Part | In *Ona alu lea ʻo le tama* | What it does |
 |---|---|---|
-| the main clause | *Sā taʻatia le teine ʻi le fale* | says what happened |
-| the because-word | *ʻauā* | announces a reason |
-| the reason | *ʻua vāivai* | gives it, under its own tense particle |
+| *ona* | *Ona* | opens the construction |
+| the verb phrase | *alu* | names the event |
+| *lea* | *lea* | closes the verb phrase off |
+| the rest of the clause | *ʻo le tama* | names who or what |
 
-*Leaga* opens a reason that is a bad or unwelcome thing, so "because
-unfortunately" is its nearest English.
-
-::: {.examples}
-*ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.* I am crying because unfortunately my dog is lost.
-
-*E leʻi mafai ona ʻou alu leaga sā timu.* I could not go because unfortunately it was raining.
-:::
-
-*lē iloa* means "be lost".
-
-| Sāmoan | English |
-|---|---|
-| *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* | The girl lay down in the house because she was tired. |
-| *ʻUa mālamalama le teine ʻauā ʻua tautala le tama.* | The girl understands because the boy has spoken. |
-| *E lē mafai ona alu le tama leaga e maʻi.* | The boy cannot go because he is sick. (Lit. "It is not possible that the boy go, because unfortunately is sick.") |
-| *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.* | I am crying because unfortunately my dog is lost. |
-| *E leʻi mafai ona ʻou alu leaga sā timu.* | I could not go because unfortunately it was raining. |
-
-*mālamalama* means "understand".
-
-> *Note:* A clause opened by *ʻauā* normally comes after the main clause, and
-> putting it first is rare. *Leaga* is not put first at all. A reason clause with
-> *leaga* belongs to everyday speech; you will seldom meet the word doing this
-> job in writing or in formal language.
-
----
-
-## The Because-Word *ʻOna*
+The word in front of what the clause names is the presenting particle *ʻo*.
+After *lea* it is there often, and what the clause names can also stand in its
+plain form with nothing in front of it.
 
 ::: {.examples}
-*Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.* I cried because the girl's family moved to the village.
-:::
-
-*siʻi* means "move".
-
-*ʻOna* is the third because-word, and it opens the same kind of clause, under
-its own tense particle, in the same place after the main clause. What sets it
-apart is that it can also go first.
-
-::: {.examples}
-*ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.* Because the girl was sick, the boy went to the house.
-:::
-
-When the reason comes first, the other clause usually carries the pointing-back
-word *ai* after its verb. *Ai* here reaches back to the whole reason clause, not
-to any one word inside it: the reason the boy went was the girl being sick.
-
-| Sāmoan | English |
-|---|---|
-| *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.* | The boy went to the house because the girl was sick. |
-| *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.* | Because the girl was sick, the boy went to the house. |
-| *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.* | I cried because the girl's family moved to the village. |
-| *ʻOna ʻua siʻi ʻi le nuʻu le ʻāiga o le teine, sā ʻou tagi ai.* | Because the girl's family moved to the village, I cried. |
-
----
-
-## *ʻOna ʻo* Before a Noun Phrase
-
-::: {.examples}
-*E lē mafai ona alu ʻona ʻo le timu.* It is not possible to go because of the rain.
-:::
-
-A reason does not have to arrive as a clause with a verb in it. *ʻOna* also
-takes a noun phrase, and when it does, the presenting particle *ʻo* stands
-between the two: *ʻona ʻo*, then the noun phrase. What follows is very often a
-le-phrase, an event packed into a thing, which is how *le timu* puts the raining
-where a noun would go.
-
-This shape moves to the front too, and the clause behind it usually carries the
-same pointing-back word.
-
-::: {.examples}
-*ʻOna ʻo le timu e lē mafai ai ona ʻe alu.* Because of the rain you cannot go.
+*Ona tali atu lea ʻo le teine.* Then the girl answered.
 :::
 
 | Sāmoan | English |
 |---|---|
-| *E lē mafai ona alu ʻona ʻo le timu.* | It is not possible to go because of the rain. |
-| *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.* | Because of the rain you cannot go. |
-| *ʻUa mālūlū le vaitafe ʻona ʻo le timu.* | The river is cool because of the rain. |
-| *ʻOna ʻo le timu ʻua galo ai le malaga.* | Because of the rain the journey was forgotten. |
+| *Ona alu lea ʻo le tama.* | Then the boy went. |
+| *Ona tali atu lea ʻo le teine.* | Then the girl answered. |
+| *Ona oso lea ʻo le saʻai ʻi le sami.* | Then the ogre jumped into the sea. |
+| *Ona lilo atu lea ʻo le teine ʻi le toga lālā.* | Then the girl hid in the cluster of branches. |
+| *Ona lolo lea ʻo le vaitafe.* | Then the river overflowed. |
 
-*mālūlū* means "cool" and *galo* means "forget".
+*lilo* means "hide", *lālā* means "branch", *sami* means "sea", *saʻai* means "ogre", and *vaitafe* means "river".
+
+A clause of this kind reports the event that comes next in the sequence, so
+there is always something for it to come after. A story can be built out of these clauses one after
+another, and any one of them can stand as a sentence of its own, but a text
+never opens with one.
+
+::: {.examples}
+*ʻUa lilo atu ʻi le toga lālā le teine, ona oso lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
+:::
+
+The first clause carries the change particle *ʻua* and reports the hiding. The
+then-construction follows it and reports what happened after that. Take the
+first clause away and nothing is left for the second one to follow.
+
+> *Note:* The word *toga* was learned earlier as the name of a direction. In
+> *le toga lālā* it carries a second meaning, a cluster, and *lālā*, branch,
+> follows it and says what the cluster is of.
 
 ---
 
-## Telling *Ona* and *ʻOna* Apart
+## Adding *Loa* and the Pointing-Back Word
 
 ::: {.examples}
-*ʻUa mafai ona sau le teine.* The girl can come.
+*Ona alu lea ʻo le tama.* Then the boy went.
 
-*ʻUa alu le tama ʻona ʻua sau le teine.* The boy went because the girl came.
+*Ona alu loa lea ʻo le tama.* Then the boy went.
 :::
 
-Read what follows *ona* in each sentence. What stands in front of the verb?
+Which word was added to the second sentence, and what did the English do?
 
-In the first sentence nothing does: *sau le teine* runs straight on from *ona*
-with no tense particle at all. In the second, *ʻua* stands in front of *sau*,
-and that one difference is the whole test.
+The added word is *loa*, and the English did nothing at all. A word that stands
+after the verb and marks its event as the one following on is called **the
+then-word**, and the Sāmoan one is *loa*. It carries the succession by itself,
+so putting it inside a construction that already carries the succession changes
+little if anything. The then-word on its own, the construction without it, and
+the construction with it inside all come out the same way in English.
 
-The that-word *ona*, which opens a complement clause, takes a clause with no
-tense particle. The because-word *ʻona* takes a clause that carries one. The
-two are written apart here, the because-word with the ʻ mark and the that-word
-without it, but in ordinary Sāmoan they are usually both written *ona*, so the
-tense particle is the test to use.
-
-| After *ona* | What *ona* means | Example |
-|---|---|---|
-| no tense particle | that | *ʻUa mafai ona sau le teine.* |
-| a tense particle | because | *ʻUa alu le tama ʻona ʻua sau le teine.* |
-
-One sentence can carry both. In *E lē mafai ona alu ʻona ʻo le timu* the first
-*ona* is the that-word, with *alu* standing bare after it, and the second is the
-because-word, with the presenting particle and a noun phrase after it rather
-than a clause of any kind.
-
-There is a third *ona*, the one that opens the then-construction and is answered
-by *lea*. Its verb phrase carries no tense particle either, so the test above
-does not separate it from the that-word, and the trailing *lea* is what does.
-
----
-
-## The Purpose Clause
+The pointing-back word *ai* can stand in the same verb phrase, after the verb.
+You met it reaching back to a place or a time. Inside the then-construction it
+does something wider: it does not usually reach back to one word or one phrase,
+but to the whole of what has been said before it.
 
 ::: {.examples}
-*Sā alu le tama e ʻaumai le niu.* The boy went to bring the coconut.
+*ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.
 :::
 
-A clause that says what an action is done for is called **a purpose clause**.
-No joining word attaches it: it follows the main clause directly, and the
-general particle *e* stands at its head where a tense particle would stand in an
-ordinary clause. After a preverbal pronoun that particle takes its other shape,
-*te*, exactly as it does after any preverbal pronoun.
-
-The pattern has three parts in a fixed order: the main clause, then *e* or *te*,
-then the verb of the purpose clause.
-
-::: {.examples}
-*Alu atu e ʻaumai fasimoli.* Go to bring soap.
-
-*Sā ʻou alu ʻou te ʻaumai le niu.* I went to bring the coconut.
-:::
-
-To say what an action is done to prevent, put *neʻi* at the head of the purpose
-clause instead of *e*. *Neʻi* is the warning particle you met with the do-not
-verbs, and here it makes the purpose a negative one.
-
-::: {.examples}
-*Sā ʻou alu neʻi tagi le tama.* I went, so that the boy would not cry.
-:::
-
-When the purpose clause has a preverbal pronoun of its own, *neʻi* still stands
-at the head of the clause, and the pronoun comes after it, in front of the verb.
-The general particle is the only particle a pronoun stands in front of, so when
-*neʻi* takes the place of *te*, the pronoun moves behind *neʻi*.
-
-::: {.examples}
-*Sā ʻou alu neʻi ʻe tagi.* I went, so that you would not cry.
-:::
-
-A negative purpose clause can leave out the thing that is not to be noticed,
-when a sentence before it has already named that thing.
-
-::: {.examples}
-*ʻOloʻo ʻou tilotilo atu.* I am watching.
-
-*ʻUa ʻou ʻata ma ʻou punou ʻi lalo neʻi iloa mai e le tama.* I laughed and bent down, so that the boy would not notice.
-:::
-
-*tilotilo* means "watch", *ʻata* means "laugh", and *punou* means "bend down".
-
-The watching is named in the first sentence, so the second does not name it
-again. That is the leaving-words-out rule you met with the agent marker, working
-across the gap between two sentences.
-
-In that second sentence *e* turns up once and marks no purpose at all: *e le
-tama* is the agent marker with the noun that follows it. Read the word by its
-slot, as you have since it was first taught, with *e* in front of a verb
-carrying the tense and *e* in front of a noun naming who did it.
+*Ai* here is usually read as pointing not at the branches or at the girl but at
+the hiding, and at everything the story has said up to that moment.
 
 | Sāmoan | English |
 |---|---|
-| *Sā alu le tama e ʻaumai le niu.* | The boy went to bring the coconut. |
-| *Sā ʻou alu ʻou te ʻaumai le niu.* | I went to bring the coconut. |
-| *Alu atu e ʻaumai fasimoli.* | Go to bring soap. |
-| *Sā ʻou alu neʻi tagi le tama.* | I went, so that the boy would not cry. |
-| *ʻUa ʻou ʻata ma ʻou punou ʻi lalo neʻi iloa mai e le tama.* | I laughed and bent down, so that the boy would not notice. |
+| *Ona alu lea ʻo le tama.* | Then the boy went. |
+| *Ona alu loa lea ʻo le tama.* | Then the boy went. |
+| *ʻUa lilo atu ʻi le toga lālā le teine, ona oso lea ʻi lalo le tama.* | The girl hid in the cluster of branches and then the boy jumped down. |
+| *ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.* | The girl hid in the cluster of branches and then the boy jumped down. |
 
-A purpose clause can also be headed by the mood particle *ʻia* in place of the
-general particle.
-
-> *Note:* *Fasimoli* is one word, the word for a piece of soap, and it contains
-> *moli*. On its own *moli* covers soap and the orange both.
-
-> **Preview:** Sāmoan marks purpose a second way, with the joining word *ʻina*
-> standing in front of the mood particle *ʻia*. That combination belongs with the
-> rest of the mood particles and is taught in Chapter 48.
+> **Preview:** You have now met *ona* doing two jobs. In an earlier chapter it
+> stood in front of a verb with no tense particle and meant "that". Here it opens
+> the then-construction and is answered by *lea*, which, when it is there, marks
+> this *ona* as the then-construction. There is a third *ona*, meaning "because",
+> and the test that tells the "that" *ona* from the "because" *ona* is taught in
+> Chapter 38.
 
 ---
 
-## Asking Why
+## The Shorter Shapes of the Then-Construction
 
 ::: {.examples}
-*ʻAiseā?* Why?
+*Ona alu le tama.* Then the boy went.
 
-*ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* Why did the man go to the village?
+*Alu lea ʻo le tama.* Then the boy went.
 :::
 
-*ʻAiseā* (why) was named earlier in this book and left until now. In the full
-question taught here it stands at the front of its clause, and the verb phrase
-after it carries the pointing-back word *ai*, reaching back to *ʻaiseā* itself.
+Spoken Sāmoan also runs the construction short, and it can drop either of the
+two words. Drop *lea* and *ona* carries the succession on its own; drop *ona*
+and *lea* carries it. What the clause names changes shape with them: with *lea*
+gone it stands in its plain form, and after *lea* it usually takes the
+presenting particle *ʻo*, whether *ona* is there or not.
 
-*ʻAiseā* is used mainly on its own, as the one-word question. In more formal
-language you can hear the full sentence.
+Modern writing and the Sāmoan of the Bible keep the full shape. There the
+construction is always *ona*, then the verb phrase, then *lea*, then the rest of
+the clause.
 
-An answer needs no main clause of its own. *ʻAuā* and its reason can stand as
-the whole of a turn.
+Every sentence in the table below says "Then the boy went."
+
+| Shape | Sāmoan |
+|---|---|
+| the full shape | *Ona alu lea ʻo le tama.* |
+| the full shape with the then-word | *Ona alu loa lea ʻo le tama.* |
+| without *lea* | *Ona alu le tama.* |
+| without *ona* | *Alu lea ʻo le tama.* |
+| without *ona*, with the then-word | *Alu loa lea ʻo le tama.* |
+
+> *Note:* The then-construction is typical of storytelling. It is extremely
+> frequent in spoken narrative, usually somewhat more restricted in modern
+> writing, and virtually never heard in a formal speech.
+
+---
+
+## Clauses Under One Tense Particle
 
 ::: {.examples}
-*ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* Why did the man go to the village?
-
-*ʻAuā ʻua maʻi le teine.* Because the girl is sick.
+*Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* We then rested, and played in the house with the tin roof. (Lit. "We then rested, we played in the house-tin.")
 :::
+
+*tāʻaʻalo* means "play" and *ʻapa* means "tin".
+
+The second clause carries no tense particle. Nothing stands in the slot in front
+of *mātou tāʻaʻalo*, and nothing needs to: the *na* at the head of the first clause
+reaches over the whole run, so the second clause is read in the past the first
+one set. Leaving that slot empty is what ties the two together, and it says the
+second event followed straight on from the first, or happened at the same time.
+
+The pattern has one tense particle at the front and a run of clauses after it,
+with the slot in front of each of them left empty.
+
+> *Note:* The equals sign in *fale=ʻapa* is not the one you met on a long-form
+> verb. Here it joins two nouns into a single compound noun, *fale* naming the
+> house and *ʻapa* saying what its roof is made of.
+
+::: {.examples}
+*Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* My parents then rested, then I went to the village, and prepared the journey there.
+:::
+
+*sāuni* means "prepare" and *malaga* means "journey".
+
+Three clauses, one tense particle. *Na* stands in front of the first and in front
+of neither of the others. The then-word *loa* marks the succession twice over,
+and the pointing-back word *ai* in the last clause reaches back to the village.
+
+A run like this does not have to stop where the full stop does. The particle at
+its head can reach on into the sentence that follows.
+
+::: {.examples}
+*Sā ʻou alu loa ʻi fafo.* I then went outside.
+
+*Fufulu oʻu mata.* I washed my face. (Lit. "Wash my eyes.")
+:::
+
+The second sentence carries no tense particle and no word for who did the
+washing. Both come from the sentence in front of it: *sā* sets the time, and
+*ʻou* says who.
+
+An earlier chapter showed the clause after the with-word *ma* either repeating
+the tense particle of the first clause or carrying none at all. A chain is that
+second option run out to its full length, with no joining word between the
+clauses.
 
 | Sāmoan | English |
 |---|---|
-| *ʻAiseā?* | Why? |
-| *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* | Why did the man go to the village? |
-| *ʻAuā ʻua maʻi le teine.* | Because the girl is sick. |
+| *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.* | We then rested, and played in the house with the tin roof. |
+| *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu, sāuni ai le malaga.* | My parents then rested, then I went to the village, and prepared the journey there. |
+| *Sā ʻou alu loa ʻi fafo, ʻou fufulu oʻu mata.* | I then went outside and washed my face. (Lit. "I wash my eyes.") |
+| *Na alu le tama, oso le teine ʻi le sami.* | The boy went, and the girl jumped into the sea. |
+| *Sā ʻou alu loa ʻi fafo. Fufulu oʻu mata.* | I then went outside. I washed my face. (Lit. "Wash my eyes.") |
 
-> *Note:* An older description of Sāmoan also allows a why-phrase at the end of
-> the sentence: *ʻai se ā*, the parts of *ʻaiseā* written apart, or *ʻi se ā*, both
-> meaning "on account of what". It is given here only so that you can recognise
-> it if you meet it. This book does not teach it for use, and the question you
-> build keeps *ʻaiseā* at the front, with *ai* after the verb.
+> **Preview:** Sāmoan can open a sentence by putting a whole when-clause at the
+> front of everything else, setting the background the events run against. That
+> opening is taught in Chapter 44.
 
 ---
 
@@ -276,29 +215,25 @@ the whole of a turn.
 
 | Word | What it does |
 |---|---|
-| *ʻauā* | the plain because-word: it stands between the two clauses and normally does not open the sentence |
-| *leaga* | the because-word for a bad or unwelcome reason, met earlier as the word for "bad" |
-| *ʻona* | the because-word that stands between the clauses or opens the sentence |
-| *ʻona ʻo* | *ʻona* with the presenting particle, standing in front of a noun phrase instead of a clause |
-| *e*, *te* | the general particle, met earlier: when a clause following the main clause says what the action is done for, it stands at the head of that clause, and it takes the shape *te* after a preverbal pronoun |
-| *neʻi* | the warning particle, met earlier: at the head of a purpose clause it makes the purpose negative |
-| *ʻia* | the mood particle, met earlier: it can head a purpose clause in place of *e* |
-| *ʻaiseā* | why: in the full question it opens its clause, and *ai* in the verb phrase points back to it |
+| *ona* | the opening word of the then-construction: it stands at the head of the clause |
+| *lea* | the closing word of the then-construction: it stands after the verb phrase |
+| *loa* | the then-word: it stands after the verb and marks its event as the one following on |
+| *ai* | the pointing-back word, met earlier: inside the then-construction it usually reaches back to everything said before it |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *ʻata* | laugh |
-| *galo* | forget |
-| *lē iloa* | lose, be lost |
-| *mālamalama* | understand; daylight |
-| *mālūlū* | cool |
-| *punou* | bend down |
-| *siʻi* | move |
-| *tilotilo* | watch, look |
-| *moli* | soap (in *fasimoli*); also the orange |
-| *suga* | the word you call out to a girl |
+| *lilo* | hide, be hidden |
+| *sāuni* | prepare, get ready |
+| *tāʻaʻalo* | play (said of more than one) |
+| *ʻapa* | tin (in *le fale=ʻapa*, a house with a tin roof) |
+| *ʻeleʻele* | earth |
+| *lālā* | branch |
+| *malaga* | journey, travel party |
+| *sami* | sea |
+| *saʻai* | ogre |
+| *vaitafe* | river |
 
 ---
 
@@ -306,66 +241,67 @@ the whole of a turn.
 
 ### Exercise 1: Translate into English
 
-1. *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.*
-2. *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.*
-3. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
-4. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
-5. *E lē mafai ona alu ʻona ʻo le timu.*
-6. *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?*
+1. *Ona alu lea ʻo le tama.*
+2. *Ona tali atu lea ʻo le teine.*
+3. *Ona oso lea ʻo le saʻai ʻi le sami.*
+4. *ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.*
+5. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
+6. *Ona lolo lea ʻo le vaitafe.*
 
-### Exercise 2: That or because
+### Exercise 2: Fill the gap
 
-For each sentence, say what stands in front of the verb of the clause after
-*ona*, and say what *ona* means there.
+Put *ona*, *lea* or *loa* into the gap so the sentence has the shape named after
+it.
 
-1. *ʻUa mafai ona sau le teine.*
-2. *ʻUa alu le tama ʻona ʻua sau le teine.*
-3. *E lē mafai ona alu le tama leaga e maʻi.*
-4. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
-5. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
+1. *___ alu lea ʻo le tama.* (the full shape)
+2. *Ona alu ___ ʻo le tama.* (the full shape)
+3. *Ona alu ___ lea ʻo le tama.* (the full shape, with an extra word after the verb)
+4. *Alu ___ lea ʻo le tama.* (without *ona*, with an extra word after the verb)
+5. *___ oso lea ʻo le saʻai ʻi le sami.* (the full shape)
 
-### Exercise 3: Move the reason to the front
+### Exercise 3: Write the shorter shape
 
-Rewrite each sentence with the *ʻona* clause first, and put the pointing-back
-word *ai* after the verb of the other clause.
+Rewrite each sentence without *lea*. Remember what happens to the word in front
+of what the clause names.
 
-1. *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.*
-2. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
-3. *E lē mafai ona ʻe alu ʻona ʻo le timu.*
-4. *ʻUa mālūlū le vaitafe ʻona ʻo le timu.*
-5. *ʻUa alu le tama ʻona ʻua sau le teine.*
+1. *Ona alu lea ʻo le tama.*
+2. *Ona tali atu lea ʻo le teine.*
+3. *Ona lolo lea ʻo le vaitafe.*
+4. *Ona lolo lea ʻo le ʻeleʻele.*
+5. *Ona oso lea ʻo le saʻai ʻi le sami.*
 
-### Exercise 4: Fill the gap
+### Exercise 4: Join the pair into one chain
 
-Put *e*, *te* or *neʻi* into the gap so the English matches.
+Write the two sentences as one, keeping the tense particle of the first and
+taking it out of the second.
 
-1. *Sā alu le tama ___ ʻaumai le niu.* (The boy went to bring the coconut.)
-2. *Sā ʻou alu ___ tagi le tama.* (I went, so that the boy would not cry.)
-3. *Alu atu ___ ʻaumai fasimoli.* (Go to bring soap.)
-4. *Sā ʻou alu ʻou ___ ʻaumai le niu.* (I went to bring the coconut.)
-5. *ʻUa ʻou ʻata ma ʻou punou ʻi lalo ___ iloa mai e le tama.* (I laughed and bent down, so that the boy would not notice.)
+1. *Na mātou mālōlō loa.* and *Na mātou tāʻaʻalo ʻi le fale=ʻapa.*
+2. *Na mālōlō loa oʻu mātua.* and *Na ʻou alu loa ʻi le nuʻu.*
+3. *Sā ʻou alu loa ʻi fafo.* and *Sā ʻou fufulu oʻu mata.*
+4. *Na alu le tama.* and *Na oso le teine ʻi le sami.*
+5. *Sā lilo le teine.* and *Sā alu le tama ʻi le nuʻu.*
 
 ### Exercise 5: Translate into Sāmoan
 
-1. The boy cannot go because he is sick.
-2. I am crying because unfortunately my dog is lost.
-3. The boy went to bring the coconut.
-4. Because the girl was sick, the boy went to the house.
-5. Why did the man go to the village?
-6. It is not possible to go because of the rain.
+1. Then the boy went. (the full shape)
+2. Then the girl answered. (the full shape)
+3. Then the ogre jumped into the sea. (the full shape)
+4. Then the river overflowed. (the full shape)
+5. Then the girl hid in the cluster of branches. (the full shape)
+6. We then rested, and played in the house with the tin roof.
 
 ### Exercise 6: Give the English
 
-1. *ʻata*
-2. *galo*
-3. *lē iloa*
-4. *mālamalama*
-5. *mālūlū*
-6. *punou*
-7. *siʻi*
-8. *tilotilo*
-9. *moli*
-10. *suga*
+1. *lilo*
+2. *sāuni*
+3. *tāʻaʻalo*
+4. *ʻapa*
+5. *ʻeleʻele*
+6. *lālā*
+7. *malaga*
+8. *sami*
+9. *saʻai*
+10. *vaitafe*
 
 ---
 
@@ -373,50 +309,48 @@ Put *e*, *te* or *neʻi* into the gap so the English matches.
 
 ### Exercise 1
 
-1. The girl lay down in the house because she was tired.
-2. I am crying because unfortunately my dog is lost.
-3. I cried because the girl's family moved to the village.
-4. Because the girl was sick, the boy went to the house.
-5. It is not possible to go because of the rain.
-6. Why did the man go to the village?
+1. Then the boy went.
+2. Then the girl answered.
+3. Then the ogre jumped into the sea.
+4. The girl hid in the cluster of branches and then the boy jumped down.
+5. We then rested, and played in the house with the tin roof.
+6. Then the river overflowed.
 
 ### Exercise 2
 
-1. Nothing stands in front of *sau*, so *ona* means "that".
-2. *ʻUa* stands in front of *sau*, so *ʻona* means "because".
-3. Nothing stands in front of *alu*, so *ona* means "that", and the reason in
-   this sentence is carried by *leaga*.
-4. *ʻUa* stands in front of *siʻi*, so *ʻona* means "because".
-5. *ʻUa* stands in front of *maʻi*, so *ʻona* means "because", and the reason
-   has been moved to the front.
+1. *Ona*
+2. *lea*
+3. *loa*
+4. *loa*
+5. *Ona*
 
 ### Exercise 3
 
-1. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
-2. *ʻOna ʻua siʻi ʻi le nuʻu le ʻāiga o le teine, sā ʻou tagi ai.*
-3. *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.*
-4. *ʻOna ʻo le timu ʻua mālūlū ai le vaitafe.*
-5. *ʻOna ʻua sau le teine, ʻua alu ai le tama.*
+1. *Ona alu le tama.*
+2. *Ona tali atu le teine.*
+3. *Ona lolo le vaitafe.*
+4. *Ona lolo le ʻeleʻele.*
+5. *Ona oso le saʻai ʻi le sami.*
 
 ### Exercise 4
 
-1. *e*
-2. *neʻi*
-3. *e*
-4. *te*
-5. *neʻi*
+1. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
+2. *Na mālōlō loa oʻu mātua, ʻou alu loa ʻi le nuʻu.*
+3. *Sā ʻou alu loa ʻi fafo, ʻou fufulu oʻu mata.*
+4. *Na alu le tama, oso le teine ʻi le sami.*
+5. *Sā lilo le teine, alu le tama ʻi le nuʻu.*
 
 ### Exercise 5
 
-1. *E lē mafai ona alu le tama leaga e maʻi.*
-2. *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.*
-3. *Sā alu le tama e ʻaumai le niu.*
-4. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
-5. *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?*
-6. *E lē mafai ona alu ʻona ʻo le timu.*
+1. *Ona alu lea ʻo le tama.*
+2. *Ona tali atu lea ʻo le teine.*
+3. *Ona oso lea ʻo le saʻai ʻi le sami.*
+4. *Ona lolo lea ʻo le vaitafe.*
+5. *Ona lilo atu lea ʻo le teine ʻi le toga lālā.*
+6. *Na mātou mālōlō loa, mātou tāʻaʻalo ʻi le fale=ʻapa.*
 
 ### Exercise 6
 
-1. laugh · 2. forget · 3. lose, be lost · 4. understand · 5. cool ·
-6. bend down · 7. move · 8. watch, look · 9. soap (in *fasimoli*); also the
-orange · 10. the word you call out to a girl
+1. hide, be hidden · 2. prepare, get ready · 3. play (said of more than one) ·
+4. tin · 5. earth ·
+6. branch · 7. journey, travel party · 8. sea · 9. ogre · 10. river

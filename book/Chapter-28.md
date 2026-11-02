@@ -1,229 +1,296 @@
-# Chapter 28: The Maker-Prefix *Faʻa-*
+# Chapter 27: The Agent Marker *E*
 
-This chapter introduces the maker-prefix *faʻa-*, which stands in front of a
-noun or a verb and builds a new word out of it, and shows you how to read a
-built word by reading the word standing inside it. It is the most common prefix
-in Sāmoan, and the word it builds is usually a verb.
-
----
-
-## Building a Word with *Faʻa-*
-
-::: {.examples}
-*alu*. go
-
-*faʻaalu*. make go
-:::
-
-Compare them. What has been added, and what has it done to the meaning?
-
-*Faʻa-* has been added to the front, and the meaning has gained a second person
-in it: somebody who makes the going happen. *Faʻa-*, the piece put in front of a
-word to build a new word out of it, is called **the maker-prefix**. The prefix
-never changes its own shape, the word behind it keeps its spelling and its
-marks, and the two are written together as one word. The pattern of this chapter
-has two parts in a fixed order: *faʻa-* first, then the noun or verb it is built
-on.
-
-Five of its jobs are taught in this chapter, and one pair of words stands for
-each of them here.
-
-| Word | Meaning | Built word | What the built word means |
-|---|---|---|---|
-| *alu* | go | *faʻaalu* | make go |
-| *māsima* | salt | *faʻamāsima* | to salt |
-| *mauga* | mountain | *faʻamauga* | like a mountain |
-| *tolu* | three | *faʻatolu* | three times |
-| *tonu* | right, correct | *faʻalētonu* | uncertain, doubtful |
-
-Read down the right-hand column and one thing is constant: the meaning of the
-built word is the meaning of the word inside it, turned to a new use. Reading a
-word you have never met therefore starts the same way every time. Take *faʻa-*
-off the front, recognise what is left, and the rest of the work is deciding
-which of the five jobs is in play. That is where reading a built word starts,
-and it is not always where it ends: a few built words have drifted from the
-meaning of the word inside them, and many are built on a piece that is no word
-on its own.
-
-> **Preview:** *Faʻa-* is the most common of a set of prefixes Sāmoan uses
-> to build new words from old ones. The rest of that set is taught in Chapter
-> 50. Every built word in this chapter uses this one.
+This chapter adds the agent marker *e*, the word that sets apart the doer of an
+action done to something else, and shows you how to say who did what to whom.
+It also teaches what Sāmoan does in place of an English passive, which is to
+leave the doer out and put nothing where it stood.
 
 ---
 
-## Making Something Happen
+## The Agent Marker *E*
 
 ::: {.examples}
-*Sā faʻamoe e le teine le pepe.* The girl put the baby to sleep.
+*Sā alu le teine.* The girl went.
+
+*Sā fafaga e le tama le moa.* The boy fed the hen. (Lit. "Past feed, doer the
+boy, the hen.")
 :::
 
-*Moe* is what the baby does. *Faʻamoe* is what the girl does to the baby, and
-saying it takes two participants: the doer, carrying the agent marker *e*, and
-the one it was done to, standing bare after the verb.
+The first sentence has one participant, and it stands bare after the verb:
+*le teine*, with no word in front of it. The second, built on the verb *fafaga* (feed), has two participants, and
+the doer among them, *le tama*, carries *e* in front of it. The one the action
+happened to, *le moa* (the hen), stands bare, in the same shape the single
+participant had. A word that marks the doer of an action done to something else
+is called the **agent marker**.
 
-Built on a verb, the prefix makes a verb of causing, and the built word means
-to make somebody or something do or be what the base verb names. The verbs it
-is built on here are verbs that take no doer of their own. *Alu*, *goto* (sink,
-set) and *moe* each name something one person or thing does with nobody else in
-the sentence, and the built word puts somebody else in.
+The pattern of this chapter has three parts in this order: the tense
+particle with its verb, then the doer with *e* in front of it, then the one
+the action happened to.
 
-| Word | Meaning | Built word | What the built word means |
-|---|---|---|---|
-| *alu* | go | *faʻaalu* | make go |
-| *goto* | sink, set | *faʻagoto* | make sink |
-| *moe* | sleep | *faʻamoe* | put to sleep |
+| Sāmoan | What it is | English |
+|---|---|---|
+| *Sā fafaga* | the tense particle and the verb | fed |
+| *e le tama* | the doer, marked with *e* | the boy |
+| *le moa* | the one it happened to, unmarked | the hen |
 
-A verb built this way can always take a doer, which is why this chapter waited
-for the agent marker. Each of the three sits in the same sentence shape, with
-*e* in front of whoever did it:
+The same three slots carry any verb of this kind:
 
 | Sāmoan | English |
 |---|---|
-| *Sā faʻamoe e le teine le pepe.* | The girl put the baby to sleep. |
-| *Sā faʻaalu e le tama le taʻavale.* | The boy made the car go. |
-| *Sā faʻagoto e le tama le vaʻa.* | The boy made the boat sink. |
+| *Sā fafaga e le tama le moa.* | The boy fed the hen. |
+| *Na fasi e le tama le gata.* | The boy killed the snake. |
+| *Sā tatala e le teine le pusa.* | The girl opened the box. |
+| *Sā tausi e le fafine le pepe.* | The woman took care of the baby. |
+| *Sā ʻai e le puaʻa le popo.* | The pig ate the copra. |
+| *Na sāisai e le tamāloa le moa.* | The man tied up the hen. |
 
-> *Note:* Some verbs run in both patterns, with a doer and without one. Where
-> the prefix is built on one of those, it appears to attach to the side that
-> takes no doer.
+Four words in these rows are new: *tatala* (open), *pusa* (box), *popo* (copra)
+and *sāisai* (tie, tie up).
+
+The marker rides on the doer rather than on a position in the sentence, so the
+two noun phrases can also run the other way round:
+
+::: {.examples}
+*Sā fafaga le moa e le tama.* The boy fed the hen.
+:::
+
+Both orders are found, and the marker settles who did it either way. What
+changes is where the weight falls, since the phrase standing right after the
+verb is the one being put forward as the new part. Reading a sentence of this
+pattern means finding *e* and taking whatever follows it as the doer, never
+counting places along the line.
+
+### The Doer as a Preverbal Pronoun
+
+When the doer sits in the preverbal slot taught in the opening chapters, in
+front of the verb, it takes no marker at all.
+
+::: {.examples}
+*Sā ia sasa le tama.* He hit the boy.
+:::
+
+*Ia* sits where *ʻou* and *ia* have sat since the first chapter of this book,
+and the one the action happened to, *le tama*, still stands bare after the verb.
+
+### The Two Words Spelled *E*
+
+Two different words are written *e*. One is the general particle taught earlier
+in this book, which goes in front of a bare verb and states a truth or a habit.
+The other is the agent marker, which goes after the verb and in front of a
+noun. A single sentence can hold both of them:
+
+::: {.examples}
+*E tausi pepe e le fafine.* The woman takes care of the babies.
+:::
+
+The first *e* stands before the verb *tausi* and carries the tense, and the
+second stands before *le fafine* and marks her as the doer. Position separates
+them every time: *e* in front of a bare verb is the general particle, and *e*
+in front of a noun after the verb is the agent marker.
+
+The two words meet again in the sentence promised when *vili*, *masini* and
+*ʻogālāʻau* were taught:
+
+::: {.examples}
+*E vili e le masini le ʻogālāʻau.* The machine rotates the log.
+:::
+
+> **Preview:** Some verbs have a second, longer shape, and agent-marked
+> sentences are one of the places where it turns up. Those forms are taught in
+> Chapter 32. Every verb in this chapter keeps its short shape.
 
 ---
 
-## Which Words the Prefix Takes
+## Verbs That Take a Doer, and Verbs That Do Not
 
-The prefix goes in front of nearly any noun, and in front of nearly any verb
-that takes no doer of its own. It does not go in front of a verb that already
-takes one, and it does not go in front of a spatial noun.
-
-The rule about doers has one exception that the chapter names:
+The agent marker is not available to every verb. Compare these two sentences,
+which have the same three words in the same order and differ only in the verb:
 
 ::: {.examples}
-*faʻailoa*. show, make known
+*Sā alu le teine.* The girl went.
+
+*Sā sasa le teine.* The girl was hit.
 :::
 
-*Iloa* (know, see, notice) takes a doer of its own, so by the rule above it
-should refuse the prefix. It takes it anyway, and it is the one exception the
-rule names. Learn *faʻailoa* as itself rather than as the head of a set.
+In the first, *le teine* is the one who went. In the second, she is the one the
+hitting happened to, and the sentence says nothing about who hit her. The verb
+decides which reading the bare noun gets. *Alu* names something a person does
+alone and never takes an agent phrase, while *sasa* names something done to
+somebody, so it can take one, and *Sā sasa le teine e le tamāloa* would name the
+man as the one who did it.
+
+The verbs of wanting and seeing taught earlier in this book work the other way
+about. In the sense they were taught in, the one who wants or sees stands bare
+and the thing reached toward carries the place word *ʻi*, with no agent marker
+in the sentence, as in this one about the flying fox (*peʻa*):
 
 ::: {.examples}
-*Sā faʻailoa e le teine le tala.* The girl made the story known.
+*Sā vaʻai le tama ʻi le peʻa.* The boy saw the flying fox.
 :::
+
+A few of these verbs carry a second sense that does take the marker, and the
+marker is what tells the two senses apart. That is a matter of the individual
+word rather than of the pattern, so meet those senses as they come.
+
+### One Verb, Both Patterns
+
+A verb can also run in both patterns, and then the choice between them carries
+meaning:
+
+::: {.examples}
+*Sā ʻai le teine ʻi le iʻa.* The girl ate some fish.
+
+*Sā ʻai e le teine le iʻa.* The girl ate (all of) the fish.
+:::
+
+With the place word *ʻi*, the eating reached the fish without finishing it. With
+the agent marker on the girl, the fish is wholly used up. This completes the
+promise made when those verbs were first taught: the marker the *ʻi* pattern
+does without is this one, and putting it in changes what the sentence says.
 
 ---
 
-## Putting a Thing on Something
+## Leaving the Doer Out
 
 ::: {.examples}
-*māsima*. salt
+*Sā tatala e le teine le pusa.* The girl opened the box.
 
-*faʻamāsima*. to salt
+*Sā tatala le pusa.* The box was opened.
 :::
 
-*Māsima* is salt, the thing itself, and *faʻamāsima* is what somebody does with
-it to the food. Built on a noun in this sense, the prefix makes a verb meaning
-to apply what the noun names to somebody or something, and that verb takes a
-doer like the verbs of the section above. The nouns of the kitchen make a
-natural set here.
+Compare them. What is gone from the second one?
 
-| Word | Meaning | Built word | What the built word means |
-|---|---|---|---|
-| *māsima* | salt | *faʻamāsima* | to salt |
-| *suka* | sugar | *faʻasuka* | to sweeten, to sugar |
+The doer has gone, and nothing has moved in to fill the gap: the verb keeps its
+shape, no word has been added, and the box still stands bare after the verb. The
+agent phrase is never required in the first place, because a verb of this kind
+needs only the one the action happened to.
 
-| Sāmoan | English |
+The same subtraction works on every verb of this kind:
+
+| With the doer | Without the doer |
 |---|---|
-| *Sā faʻamāsima e le teine le iʻa.* | The girl salted the fish. |
-| *Sā faʻasuka e le teine le vai.* | The girl sweetened the water. |
+| *Sā tatala e le teine le pusa.* The girl opened the box. | *Sā tatala le pusa.* The box was opened. |
+| *Sā fafaga e le tama le moa.* The boy fed the hen. | *Sā fafaga le moa.* The hen was fed. |
+| *Na sāisai e le tamāloa le moa.* The man tied up the hen. | *Na sāisai le moa.* The hen was tied up. |
+| *Sā ʻai e le puaʻa le popo.* The pig ate the copra. | *Sā ʻai le popo.* The copra was eaten. |
+
+Read down the right-hand column and nothing has been added to any of them.
+
+### Sāmoan Has No Passive
+
+An English sentence of this kind can be built two ways, "the girl opened the
+box" and "the box was opened", and getting from the first to the second moves
+words about and changes the verb. Sāmoan uses one clause and the verb keeps the
+shape it already had, and dropping the *e*-phrase does the whole job on its own.
+There is no passive here to look for.
+
+Two working habits follow from this. The first is to stop hunting for a passive
+form, since the agentless sentence above is the whole of it. The second is to
+read *e* as the mark of the one who did the action, and never as the English
+word "by". English translations of these sentences reach for "by" often, and
+that is a fact about English rather than about *e*.
+
+The doer can also be left out where the English translation needs a word in the
+subject slot, as in this sentence about taro (*talo*):
+
+::: {.examples}
+*ʻUa ʻai laʻu talo.* I have eaten my taro. (Lit. "My taro is eaten.")
+:::
+
+Nobody at all is named as the eater. The English above puts "I" in that slot,
+while Sāmoan puts nothing there and the sentence is complete. Where English
+reaches for "one", as in "one does not do that", or
+for the "they" of nobody in particular, Sāmoan can leave the doer out in the same
+way, and often does; leaving it out is not the only way to say it.
+
+### When the Sentence Can Go Two Ways
+
+Some verbs run in both patterns without changing shape, and with the doer left
+out a sentence built on one of them is genuinely open:
+
+::: {.examples}
+*Sā ʻai le iʻa.* The fish ate. / The fish was eaten.
+:::
+
+Both readings are correct Sāmoan, and the words give no clue which one is
+meant. What settles it is the talk around the sentence, so expect this, and
+take the surrounding context as part of what you are reading.
+
+> **Preview:** There is one more way to say who did something, and it is
+> usually how it is put when the doer owns the thing the action happened to:
+> *Sā inu le susu a le tama.* The boy drank the milk. (Lit. "The milk of the
+> boy was drunk.") No agent marker appears anywhere in it, and the boy is named
+> by a belonging phrase sitting on the milk (*susu*), the thing drunk (*inu*, drink),
+> so the words themselves say whose
+> milk was drunk rather than who drank it. Where no other doer is named, the
+> owner is usually the one who did it. The construction is taught in full in
+> Chapter 45. Until then, build these sentences with the agent marker.
 
 ---
 
-## Being Like Something
+## Which Participant the Verb Counts
+
+The plural verb forms taught earlier in this book answer to one participant,
+and in a sentence whose doer is marked with *e* it is not that doer.
 
 ::: {.examples}
-*mauga*. mountain
-
-*faʻamauga*. like a mountain
+*ʻUa sua le maʻumaga e puaʻa.* The pigs are rooting in the taro patch.
 :::
 
-*Faʻamauga* is not a second mountain but a way of being, having the qualities of
-one. Built in this sense, on a noun or on a phrase, the prefix means having the
-qualities of, or being similar to, what stands behind it. A word built this way
-takes no doer at all, and it usually stands beside another word to describe it:
-
-::: {.examples}
-*E leai se tagata e tū faʻamauga.* No man stands like a mountain.
-:::
-
-The words after *se tagata* say what kind of person is meant. *Tū* is the verb
-"stand", and the general particle *e* holds it in place, so the sentence says
-that there is no person who stands like a mountain. You met the same shape
-earlier in this book, where a number sat after a noun and counted it; here what
-sits after the noun is an ordinary verb, and *faʻamauga* says how the standing
-is done. This sense of the prefix is one of the important ways Sāmoan builds a
-metaphor.
-
-> *Note:* Words built in this sense are characteristic of a literary and formal
-> style.
-
-> *Note:* The prefix can also take a whole phrase, article and all, rather than
-> a single word. Constructions of that kind are used only to describe something
-> else, and they are seldom heard in the spoken language.
+*Puaʻa* here is plural, the pigs, and *le maʻumaga* is one taro patch. The verb
+*sua* is the singular form, and it answers to the taro patch. This completes
+the rule left open when the plural forms were taught: when a sentence marks its
+doer with *e*, the verb counts the unmarked one, never the one carrying the
+marker.
 
 ---
 
-## Counting Times
+## Leaving Words Out
 
 ::: {.examples}
-*tolu*. three
+*Sā tatala e le teine le pusa.* The girl opened the box.
 
-*faʻatolu*. three times
+*Sā tatala e le tama.* The boy opened it.
 :::
 
-In front of a number the prefix counts occasions rather than things, so the
-built word says how many times something happened.
+The box is named in the first sentence and left out of the second, which still
+says what was opened because the first one has already said it. Dropping a part
+of a sentence whose reference is already plain is called
+**leaving words out**, and it runs a good deal wider than the doer.
 
-::: {.examples}
-*ʻUa tagi faʻatolu le tama.* The boy has cried three times.
-:::
+The three parts are not equal in it. The doer goes freely, under no condition
+at all, and so does the single participant of a sentence about a passing state
+of affairs. The one the action happens to is the part that has to be there, and
+it can be left out only when the thing in question has already been named in
+what came before.
 
-In this sentence the built word sits after the verb it counts, and the one doing
-the crying follows it.
+> *Note:* Where two clauses are joined, all three can go once the speaker
+> judges their referents plain from the context. A place phrase is the
+> exception: it cannot simply be dropped, and the pointing-back word *ai*
+> stands in for it.
 
 ---
 
-## Saying a Negative Gently
+## When the Marker Is Heard
+
+In writing, and in formal speech, the doer phrase always carries *e*. How often
+it is heard elsewhere depends on the setting. The greater the social distance
+between speaker and audience, the more likely the marking is. In intimate
+settings both men and women use it at low frequency, and away from them men appear to
+use it a good deal more of the time than women do.
 
 ::: {.examples}
-*tonu*. right, correct
-
-*faʻalētonu*. uncertain, doubtful
+*Na sāisai e le tamāloa le moa.* The man tied up the hen.
 :::
 
-Between *tonu* and the prefix stands *lē*, the not-word taught earlier in this
-book, and the three pieces are written as one word. The shape is the prefix,
-then *lē*, then the word being denied.
+Written down, a sentence like this one always carries the marker, while the
+same sentence said at home, among people close to each other, in the everyday
+style, often goes without it.
 
-| Word | Meaning | Built word | What the built word means |
-|---|---|---|---|
-| *tonu* | right, correct | *faʻalētonu* | uncertain, doubtful |
-| *aogā* | use, useful | *faʻalēaogā* | cancel, annul |
-
-The two run in different patterns, and each has to be learned with the word.
-*Faʻalētonu* describes something and takes no doer; *faʻalēaogā* takes a doer
-with *e*:
-
-| Sāmoan | English |
-|---|---|
-| *E faʻalētonu le tala.* | The story is uncertain. |
-| *Sā faʻalēaogā e le aliʻi le fono.* | The chief cancelled the village meeting. |
-
-A negative put this way is a polite one. A bare quality word is the bluntest way
-of saying that something is not right, denying the opposite quality with the
-not-word alone is gentler, and wrapping the not-word inside a built word is
-gentler still.
-
-> *Note:* The not-yet word *leʻi* sometimes stands in the middle in place of
-> *lē*.
+> *Note:* The Introduction named the two speech styles. The dropped marker
+> belongs with the everyday one, alongside the sound changes described there.
+> Learn to hear a doer that carries no marker, and keep printing the marker,
+> and saying it, yourself.
 
 ---
 
@@ -233,7 +300,7 @@ gentler still.
 
 | Word | What it does |
 |---|---|
-| *faʻa-* | the maker-prefix: stands in front of a noun or a verb and builds a new word out of it |
+| *e* | the agent marker: goes in front of the doer of an action done to something else |
 
 **New vocabulary** (memorize these meanings):
 
@@ -241,25 +308,23 @@ The verbs:
 
 | Word | Meaning |
 |---|---|
-| *aogā* | use, useful |
-| *faʻailoa* | show, make known |
-| *goto* | sink, set |
-| *iloa* | know, see, notice |
-| *tatalo* | pray |
-| *tatau* | fit, proper |
-| *tonu* | right, correct |
-| *tū* | stand |
+| *fafaga* | feed |
+| *inu* | drink |
+| *sāisai* | tie, tie up |
+| *tatala* | open |
 
 The nouns:
 
 | Word | Meaning |
 |---|---|
-| *lotu* | religion |
-| *mauga* | mountain |
-| *māsima* | salt |
-| *pata* | butter |
-| *suka* | sugar |
-| *tulāfono* | law |
+| *māsina* | month |
+| *mata* | eye |
+| *moa* | hen, chicken, rooster |
+| *peʻa* | flying fox |
+| *popo* | copra |
+| *pusa* | box |
+| *susu* | milk; suck |
+| *talo* | taro |
 
 ---
 
@@ -267,82 +332,72 @@ The nouns:
 
 ### Exercise 1: Translate into English
 
-1. *faʻaalu*
-2. *faʻasuka*
-3. *Sā faʻamoe e le teine le pepe.*
-4. *E leai se tagata e tū faʻamauga.*
-5. *ʻUa tagi faʻatolu le tama.*
-6. *Sā faʻalēaogā e le aliʻi le fono.*
+1. *Na fasi e le tama le gata.*
+2. *Sā tatala le pusa.*
+3. *Sā ʻai e le puaʻa le popo.*
+4. *Sā fafaga le moa e le tama.*
+5. *ʻUa sua le maʻumaga e puaʻa.*
+6. *Sā ia sasa le tama.*
 
-### Exercise 2: Build the word
+### Exercise 2: Translate into Sāmoan
 
-Put *faʻa-* in front of each word, and give the meaning of the word you have
-built.
+1. The girl fed the hen.
+2. The boy ate the fish.
+3. The man opened the box.
+4. The woman tied up the hen.
+5. The pig ate the taro.
+6. The girl took care of the baby.
+7. The man fed the pig.
+8. The boy opened the box.
 
-1. *alu*
-2. *goto*
-3. *moe*
-4. *māsima*
-5. *suka*
-6. *mauga*
-7. *tolu*
+### Exercise 3: Take the doer out
 
-### Exercise 3: Find the word inside
+Rewrite each sentence without its doer, so that it reports only what happened.
+Item 9 works the other way: there the thing acted on has already been named in
+what came before, so leave that out and keep the doer.
 
-Write the word each built word is made from, and give that word's meaning.
+1. *Sā tatala e le teine le pusa.*
+2. *Sā ʻai e le teine le iʻa.*
+3. *Sā tausi e le fafine le pepe.*
+4. *Na sāisai e le tamāloa le moa.*
+5. *Sā ʻai e le puaʻa le popo.*
+6. *Sā fafaga e le tama le moa.*
+7. *Sā ʻai e le puaʻa le talo.*
+8. *Na fasi e le tamāloa le gata.*
+9. *Sā tatala e le teine le pusa.* (the box has already been named)
 
-1. *faʻamoe*
-2. *faʻagoto*
-3. *faʻamauga*
-4. *faʻatolu*
-5. *faʻailoa*
-6. *faʻalēaogā*
+### Exercise 4: Put the doer back in
 
-### Exercise 4: Read a built word
+Rewrite each sentence with the doer given in brackets, marked with *e*.
 
-Each of these is built by a rule you have just learned, on a word from the list
-above. Take the prefix off, name the word inside, and give the meaning of the
-whole. The first two are built words you have not met in this chapter; the last
-three you have.
+1. *Sā tausi le pepe.* (the woman)
+2. *Na sāisai le moa.* (the man)
+3. *Sā ʻai le popo.* (the pig)
+4. *Sā fafaga le moa.* (the girl)
+5. *Sā tatala le pusa.* (the man)
 
-1. *faʻapata*
-2. *faʻalētatau*
-3. *faʻalētonu*
-4. *faʻamāsima*
-5. *faʻagoto*
+### Exercise 5: Choose *e* or *ʻi*
 
-### Exercise 5: Translate into Sāmoan
+Put the agent marker *e* or the place word *ʻi* in the gap, so that the Sāmoan
+says what the English says.
 
-1. The girl salted the fish.
-2. The boy made the car go.
-3. The woman put the baby to sleep.
-4. The girl made the story known.
-5. The boy made the boat sink.
-6. The story is uncertain.
+1. *Sā ʻai ___ le teine le iʻa.* (The girl ate the whole fish.)
+2. *Sā ʻai le teine ___ le iʻa.* (The girl ate part of the fish.)
+3. *Na fasi ___ le tama le gata.* (The boy killed the snake.)
+4. *Sā vaʻai le tama ___ le peʻa.* (The boy saw the flying fox.)
+5. *Sā vaʻai le fafine ___ le peʻa.* (The woman saw the flying fox.)
+6. *Na fasi ___ le tamāloa le gata.* (The man killed the snake.)
 
-### Exercise 6: What is the prefix doing?
+### Exercise 6: Name the doer
 
-For each built word, name which of these five jobs the prefix is doing: making
-something happen, putting a thing onto something, being like something,
-counting times, or saying a negative gently.
+Write the Sāmoan words that name the doer. If the sentence names none, say so.
 
-1. *faʻamauga*
-2. *faʻatolu*
-3. *faʻagoto*
-4. *faʻalētonu*
-5. *faʻasuka*
-
-### Exercise 7: Give the meaning
-
-1. *aogā*
-2. *goto*
-3. *iloa*
-4. *lotu*
-5. *pata*
-6. *tatalo*
-7. *tatau*
-8. *tū*
-9. *tulāfono*
+1. *Sā fafaga le moa e le tama.*
+2. *Na fasi e le tama le gata.*
+3. *ʻUa sua le maʻumaga e puaʻa.*
+4. *E tausi pepe e le fafine.*
+5. *Sā tatala le pusa.*
+6. *Sā tatala e le fafine le pusa.*
 
 ---
 
@@ -350,74 +405,62 @@ counting times, or saying a negative gently.
 
 ### Exercise 1
 
-1. make go
-2. to sweeten, to sugar
-3. The girl put the baby to sleep.
-4. No man stands like a mountain.
-5. The boy has cried three times.
-6. The chief cancelled the village meeting.
+1. The boy killed the snake.
+2. The box was opened.
+3. The pig ate the copra.
+4. The boy fed the hen.
+5. The pigs are rooting in the taro patch.
+6. He (or She) hit the boy.
 
 ### Exercise 2
 
-1. *faʻaalu*, make go
-2. *faʻagoto*, make sink
-3. *faʻamoe*, put to sleep
-4. *faʻamāsima*, to salt
-5. *faʻasuka*, to sweeten, to sugar
-6. *faʻamauga*, like a mountain
-7. *faʻatolu*, three times
+1. *Na fafaga e le teine le moa.*
+2. *Sā ʻai e le tama le iʻa.*
+3. *Sā tatala e le tamāloa le pusa.*
+4. *Na sāisai e le fafine le moa.*
+5. *Sā ʻai e le puaʻa le talo.*
+6. *Sā tausi e le teine le pepe.*
+7. *Na fafaga e le tamāloa le puaʻa.*
+8. *Sā tatala e le tama le pusa.*
+
+None of these English sentences says whether the thing happened once or was how
+things were, so either past particle is right. Where you wrote *sā* for a *na*
+above, or *na* for a *sā*, count it correct.
 
 ### Exercise 3
 
-1. *moe*, sleep
-2. *goto*, sink, set
-3. *mauga*, mountain
-4. *tolu*, three
-5. *iloa*, know, see, notice
-6. *aogā*, use, useful
+1. *Sā tatala le pusa.*
+2. *Sā ʻai le iʻa.*
+3. *Sā tausi le pepe.*
+4. *Na sāisai le moa.*
+5. *Sā ʻai le popo.*
+6. *Sā fafaga le moa.*
+7. *Sā ʻai le talo.*
+8. *Na fasi le gata.*
+9. *Sā tatala e le teine.*
 
 ### Exercise 4
 
-1. *pata*, butter. The built word is the putting-a-thing-onto-something job, so
-   *faʻapata* means to butter.
-2. *tatau*, fit, proper, with the not-word *lē* in the middle. The built word is
-   the gentle negative, so *faʻalētatau* means in an unseemly fashion.
-3. *tonu*, right, correct, with the not-word *lē* in the middle. The built word is
-   the gentle negative, so *faʻalētonu* means uncertain, doubtful.
-4. *māsima*, salt. The built word is the putting-a-thing-onto-something job, so
-   *faʻamāsima* means to salt.
-5. *goto*, sink, set. The built word is the making-something-happen job, so
-   *faʻagoto* means make sink.
+1. *Sā tausi e le fafine le pepe.*
+2. *Na sāisai e le tamāloa le moa.*
+3. *Sā ʻai e le puaʻa le popo.*
+4. *Sā fafaga e le teine le moa.*
+5. *Sā tatala e le tamāloa le pusa.*
 
 ### Exercise 5
 
-1. *Sā faʻamāsima e le teine le iʻa.*
-2. *Sā faʻaalu e le tama le taʻavale.*
-3. *Sā faʻamoe e le fafine le pepe.*
-4. *Sā faʻailoa e le teine le tala.*
-5. *Sā faʻagoto e le tama le vaʻa.*
-6. *E faʻalētonu le tala.*
-
-None of the English sentences in items 1 to 5 says whether the thing happened
-once or was how things were, so either past particle is right. Where you wrote
-*na* for a *sā* above, count it correct.
+1. *Sā ʻai e le teine le iʻa.*
+2. *Sā ʻai le teine ʻi le iʻa.*
+3. *Na fasi e le tama le gata.*
+4. *Sā vaʻai le tama ʻi le peʻa.*
+5. *Sā vaʻai le fafine ʻi le peʻa.*
+6. *Na fasi e le tamāloa le gata.*
 
 ### Exercise 6
 
-1. being like something
-2. counting times
-3. making something happen
-4. saying a negative gently
-5. putting a thing onto something
-
-### Exercise 7
-
-1. use, useful
-2. sink, set
-3. know, see, notice
-4. religion
-5. butter
-6. pray
-7. fit, proper
-8. stand
-9. law
+1. *e le tama*
+2. *e le tama*
+3. *e puaʻa*
+4. *e le fafine*
+5. No doer is named.
+6. *e le fafine*

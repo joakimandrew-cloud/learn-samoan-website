@@ -1,199 +1,272 @@
-# Chapter 39: Conditionals and When-Clauses
+# Chapter 38: Purpose and Reason
 
-This chapter adds the condition clause, which says what has to be true before
-the rest of the sentence can happen, and teaches its two shapes: the one opened
-by the if-word *ʻāfai*, and the one that opens with the short form of the future
-particle and no joining word at all. It also shows where the condition clause
-stands when it comes after the main clause instead of in front of it, so you can
-say what depends on what in either order.
+This chapter adds the three because-words *ʻauā*, *leaga* and *ʻona*, each of
+which opens a clause giving the reason for what was just said, and the purpose
+clause, which says what an action is done for. It also teaches the why-question,
+so you can ask for a reason as well as give one.
 
 ---
 
-## The Condition Clause with *ʻĀfai*
+## The Because-Words *ʻAuā* and *Leaga*
 
 ::: {.examples}
-*ʻĀfai e timu taeao, e lē alu le malaga.* If it rains tomorrow, the trip will not go.
+*Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* The girl lay down in the house because she was tired. (Lit. "...because has become tired.")
 
-*ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.* If you go to the village, I'll go.
+*E lē mafai ona alu le tama leaga e maʻi.* The boy cannot go because he is sick. (Lit. "It is not possible that the boy go, because unfortunately is sick.")
 :::
 
-Each of those sentences has two clauses, one saying what has to be true and the
-other saying what follows from it. A clause that says what has to be true before
-the rest of the sentence can happen is called **a condition clause**, and the
-word that opens it in both sentences above is *ʻāfai*, **the if-word**.
+Each sentence says something and then says why. A word that opens a clause
+giving the reason for what was just said is called **a because-word**, and this
+chapter teaches three of them. Two of the three are in the sentences above:
+*ʻauā*, which is the plain one, and *leaga*, which you met earlier as the word
+for "bad" and which is doing a second job here.
 
-The pattern has three parts in a fixed order: the if-word, then the condition,
-then the main clause. The condition is a clause in its own right and carries its
-own tense particle, the general particle *e* in the first sentence and its *te*
-shape, after the pronoun *ʻe*, in the second, and a comma separates it from the
-main clause.
+The pattern has three parts in a fixed order: the main clause, then the
+because-word, then the clause that gives the reason. That last clause carries a
+tense particle of its own, *ʻua* in the first sentence and *e* in the second.
 
-| Part | In *ʻĀfai e timu taeao, e lē alu le malaga* | What it does |
+| Part | In *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai* | What it does |
 |---|---|---|
-| the if-word | *ʻāfai* | announces a condition |
-| the condition | *e timu taeao* | says what has to be true, under its own tense particle |
-| the main clause | *e lē alu le malaga* | says what follows from it |
+| the main clause | *Sā taʻatia le teine ʻi le fale* | says what happened |
+| the because-word | *ʻauā* | announces a reason |
+| the reason | *ʻua vāivai* | gives it, under its own tense particle |
 
-A condition clause can stand in front of the main clause, as both of these do,
-or it can stand after it. The second order takes an extra word in front of the
-condition and is taught in the last section of this chapter.
-
-The condition does not have to be a clause with a verb in it, because a naming
-sentence can stand as the condition, opened by the presenting particle *ʻo*.
-The word *tonu*, met earlier as "right, correct", stands here as a noun meaning
-"decision".
+*Leaga* opens a reason that is a bad or unwelcome thing, so "because
+unfortunately" is its nearest English.
 
 ::: {.examples}
-*ʻĀfai ʻo le tonu, ʻua lelei.* If it is the decision, it is alright.
+*ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.* I am crying because unfortunately my dog is lost.
+
+*E leʻi mafai ona ʻou alu leaga sā timu.* I could not go because unfortunately it was raining.
+:::
+
+*lē iloa* means "be lost".
+
+| Sāmoan | English |
+|---|---|
+| *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.* | The girl lay down in the house because she was tired. |
+| *ʻUa mālamalama le teine ʻauā ʻua tautala le tama.* | The girl understands because the boy has spoken. |
+| *E lē mafai ona alu le tama leaga e maʻi.* | The boy cannot go because he is sick. (Lit. "It is not possible that the boy go, because unfortunately is sick.") |
+| *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.* | I am crying because unfortunately my dog is lost. |
+| *E leʻi mafai ona ʻou alu leaga sā timu.* | I could not go because unfortunately it was raining. |
+
+*mālamalama* means "understand".
+
+> *Note:* A clause opened by *ʻauā* normally comes after the main clause, and
+> putting it first is rare. *Leaga* is not put first at all. A reason clause with
+> *leaga* belongs to everyday speech; you will seldom meet the word doing this
+> job in writing or in formal language.
+
+---
+
+## The Because-Word *ʻOna*
+
+::: {.examples}
+*Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.* I cried because the girl's family moved to the village.
+:::
+
+*siʻi* means "move".
+
+*ʻOna* is the third because-word, and it opens the same kind of clause, under
+its own tense particle, in the same place after the main clause. What sets it
+apart is that it can also go first.
+
+::: {.examples}
+*ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.* Because the girl was sick, the boy went to the house.
+:::
+
+When the reason comes first, the other clause usually carries the pointing-back
+word *ai* after its verb. *Ai* here reaches back to the whole reason clause, not
+to any one word inside it: the reason the boy went was the girl being sick.
+
+| Sāmoan | English |
+|---|---|
+| *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.* | The boy went to the house because the girl was sick. |
+| *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.* | Because the girl was sick, the boy went to the house. |
+| *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.* | I cried because the girl's family moved to the village. |
+| *ʻOna ʻua siʻi ʻi le nuʻu le ʻāiga o le teine, sā ʻou tagi ai.* | Because the girl's family moved to the village, I cried. |
+
+---
+
+## *ʻOna ʻo* Before a Noun Phrase
+
+::: {.examples}
+*E lē mafai ona alu ʻona ʻo le timu.* It is not possible to go because of the rain.
+:::
+
+A reason does not have to arrive as a clause with a verb in it. *ʻOna* also
+takes a noun phrase, and when it does, the presenting particle *ʻo* stands
+between the two: *ʻona ʻo*, then the noun phrase. What follows is very often a
+le-phrase, an event packed into a thing, which is how *le timu* puts the raining
+where a noun would go.
+
+This shape moves to the front too, and the clause behind it usually carries the
+same pointing-back word.
+
+::: {.examples}
+*ʻOna ʻo le timu e lē mafai ai ona ʻe alu.* Because of the rain you cannot go.
 :::
 
 | Sāmoan | English |
 |---|---|
-| *ʻĀfai e timu taeao, e lē alu le malaga.* | If it rains tomorrow, the trip will not go. |
-| *ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.* | If you go to the village, I'll go. |
-| *ʻĀfai ʻo le tonu, ʻua lelei.* | If it is the decision, it is alright. |
-| *ʻĀfai e iai se apu, ʻou te ʻai.* | If there is an apple, I eat. |
-| *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.* | If the boy's will is strong, he does not obey. (Lit. "If strong the will of the boy, does not obey.") |
+| *E lē mafai ona alu ʻona ʻo le timu.* | It is not possible to go because of the rain. |
+| *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.* | Because of the rain you cannot go. |
+| *ʻUa mālūlū le vaitafe ʻona ʻo le timu.* | The river is cool because of the rain. |
+| *ʻOna ʻo le timu ʻua galo ai le malaga.* | Because of the rain the journey was forgotten. |
 
-> **Preview:** Sāmoan has a second if-word for a condition the speaker knows did
-> not come true and is only imagining, which is the kind of sentence English
-> builds with "if I had" and "if I were". That word is not *ʻāfai*, and it works
-> differently. It is taught in Chapter 49. The conditions in this chapter are the
-> real kind, not imagined ones.
+*mālūlū* means "cool" and *galo* means "forget".
 
 ---
 
-## The Tense Particle in a Condition Clause
+## Telling *Ona* and *ʻOna* Apart
 
 ::: {.examples}
-*ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.* If the boy has come, the girl will go.
+*ʻUa mafai ona sau le teine.* The girl can come.
 
-*ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.* If it is going to rain tomorrow, the trip will not go.
+*ʻUa alu le tama ʻona ʻua sau le teine.* The boy went because the girl came.
 :::
 
-A condition clause with a verb in it carries a tense particle, and this chapter
-teaches three of them, each saying something different about the condition.
-The general particle *e*
-leaves the condition open. The change particle *ʻua* presents it as something
-new that has come about. The future particle *ʻoleʻā* carries a much higher
-degree of certainty than the general particle does, because it points at
-something expected to happen soon.
+Read what follows *ona* in each sentence. What stands in front of the verb?
 
-| Tense particle | In a condition clause | English |
+In the first sentence nothing does: *sau le teine* runs straight on from *ona*
+with no tense particle at all. In the second, *ʻua* stands in front of *sau*,
+and that one difference is the whole test.
+
+The that-word *ona*, which opens a complement clause, takes a clause with no
+tense particle. The because-word *ʻona* takes a clause that carries one. The
+two are written apart here, the because-word with the ʻ mark and the that-word
+without it, but in ordinary Sāmoan they are usually both written *ona*, so the
+tense particle is the test to use.
+
+| After *ona* | What *ona* means | Example |
 |---|---|---|
-| the general particle *e* | *ʻĀfai e timu taeao, e lē alu le malaga.* | If it rains tomorrow, the trip will not go. |
-| the change particle *ʻua* | *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.* | If the boy has come, the girl will go. |
-| the future particle *ʻoleʻā* | *ʻĀfai ʻoleʻā timu taeao, e lē alu le malaga.* | If it is going to rain tomorrow, the trip will not go. |
+| no tense particle | that | *ʻUa mafai ona sau le teine.* |
+| a tense particle | because | *ʻUa alu le tama ʻona ʻua sau le teine.* |
 
-The general particle carries two readings inside a condition clause. It can say
-that the speaker is not sure the condition will come true, and it can mean
-"whenever the condition is given", and the Sāmoan is the same either way.
+One sentence can carry both. In *E lē mafai ona alu ʻona ʻo le timu* the first
+*ona* is the that-word, with *alu* standing bare after it, and the second is the
+because-word, with the presenting particle and a noun phrase after it rather
+than a clause of any kind.
 
-::: {.examples}
-*ʻĀfai e timu, e lē alu le malaga.* If it rains, the trip does not go.
-:::
-
-Read that sentence the second way and it says: whenever it rains, the trip does
-not go. Nothing on the Sāmoan line has changed between the two readings, and
-nothing in the Sāmoan chooses between them, so a condition clause under the
-general particle will sometimes need both English sentences to carry the whole
-of it.
+There is a third *ona*, the one that opens the then-construction and is answered
+by *lea*. Its verb phrase carries no tense particle either, so the test above
+does not separate it from the that-word, and the trailing *lea* is what does.
 
 ---
 
-## The Condition Clause Without a Joining Word
+## The Purpose Clause
 
 ::: {.examples}
-*ʻĀfai e timu taeao, e lē alu le malaga.* If it rains tomorrow, the trip will not go.
-
-*ʻĀ timu taeao, e lē alu le malaga.* When it rains tomorrow, the trip will not go.
+*Sā alu le tama e ʻaumai le niu.* The boy went to bring the coconut.
 :::
 
-Compare the two sentences and say which words changed.
+A clause that says what an action is done for is called **a purpose clause**.
+No joining word attaches it: it follows the main clause directly, and the
+general particle *e* stands at its head where a tense particle would stand in an
+ordinary clause. After a preverbal pronoun that particle takes its other shape,
+*te*, exactly as it does after any preverbal pronoun.
 
-The if-word and the tense particle behind it are both gone from the second
-sentence, and one word stands where the two of them were: *ʻā*, the short form
-of the future particle. A condition clause can open on *ʻā* with no joining word
-in front of it at all, and stringing two clauses together that way is a very
-common way of expressing a condition in Sāmoan.
-
-A clause opened by *ʻā* says that what it names has to be in place before the
-other clause can happen. English renders it "if", "when" or "whenever",
-according to how expected the speaker thinks the condition is, and Sāmoan does
-not mark that difference anywhere in the sentence. The choice among the three
-English words is therefore the translator's rather than the Sāmoan sentence's.
+The pattern has three parts in a fixed order: the main clause, then *e* or *te*,
+then the verb of the purpose clause.
 
 ::: {.examples}
-*ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* When you go to the beach, bring the towel.
+*Alu atu e ʻaumai fasimoli.* Go to bring soap.
 
-*ʻĀ alu le tama ʻi le matāfaga, e fāgota.* When the boy goes to the beach, he fishes. (Lit. "When goes the boy to the beach, fishes.")
+*Sā ʻou alu ʻou te ʻaumai le niu.* I went to bring the coconut.
 :::
 
-The main clause standing behind a condition can be a command, as it is in the
-first of those two sentences.
-
-The relationship between the condition and what follows it does not have to be a
-future one. The same shape reads back into the past, where it says that whenever
-one thing happened, another used to follow.
+To say what an action is done to prevent, put *neʻi* at the head of the purpose
+clause instead of *e*. *Neʻi* is the warning particle you met with the do-not
+verbs, and here it makes the purpose a negative one.
 
 ::: {.examples}
-*ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.* When the couple had children, the family was happy.
+*Sā ʻou alu neʻi tagi le tama.* I went, so that the boy would not cry.
+:::
 
-*ʻĀ siva le ʻāiga, ʻua uosi.* Whenever the family dances, they waltz. (Lit. "...has waltzed.")
+When the purpose clause has a preverbal pronoun of its own, *neʻi* still stands
+at the head of the clause, and the pronoun comes after it, in front of the verb.
+The general particle is the only particle a pronoun stands in front of, so when
+*neʻi* takes the place of *te*, the pronoun moves behind *neʻi*.
+
+::: {.examples}
+*Sā ʻou alu neʻi ʻe tagi.* I went, so that you would not cry.
+:::
+
+A negative purpose clause can leave out the thing that is not to be noticed,
+when a sentence before it has already named that thing.
+
+::: {.examples}
+*ʻOloʻo ʻou tilotilo atu.* I am watching.
+
+*ʻUa ʻou ʻata ma ʻou punou ʻi lalo neʻi iloa mai e le tama.* I laughed and bent down, so that the boy would not notice.
+:::
+
+*tilotilo* means "watch", *ʻata* means "laugh", and *punou* means "bend down".
+
+The watching is named in the first sentence, so the second does not name it
+again. That is the leaving-words-out rule you met with the agent marker, working
+across the gap between two sentences.
+
+In that second sentence *e* turns up once and marks no purpose at all: *e le
+tama* is the agent marker with the noun that follows it. Read the word by its
+slot, as you have since it was first taught, with *e* in front of a verb
+carrying the tense and *e* in front of a noun naming who did it.
+
+| Sāmoan | English |
+|---|---|
+| *Sā alu le tama e ʻaumai le niu.* | The boy went to bring the coconut. |
+| *Sā ʻou alu ʻou te ʻaumai le niu.* | I went to bring the coconut. |
+| *Alu atu e ʻaumai fasimoli.* | Go to bring soap. |
+| *Sā ʻou alu neʻi tagi le tama.* | I went, so that the boy would not cry. |
+| *ʻUa ʻou ʻata ma ʻou punou ʻi lalo neʻi iloa mai e le tama.* | I laughed and bent down, so that the boy would not notice. |
+
+A purpose clause can also be headed by the mood particle *ʻia* in place of the
+general particle.
+
+> *Note:* *Fasimoli* is one word, the word for a piece of soap, and it contains
+> *moli*. On its own *moli* covers soap and the orange both.
+
+> **Preview:** Sāmoan marks purpose a second way, with the joining word *ʻina*
+> standing in front of the mood particle *ʻia*. That combination belongs with the
+> rest of the mood particles and is taught in Chapter 48.
+
+---
+
+## Asking Why
+
+::: {.examples}
+*ʻAiseā?* Why?
+
+*ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* Why did the man go to the village?
+:::
+
+*ʻAiseā* (why) was named earlier in this book and left until now. In the full
+question taught here it stands at the front of its clause, and the verb phrase
+after it carries the pointing-back word *ai*, reaching back to *ʻaiseā* itself.
+
+*ʻAiseā* is used mainly on its own, as the one-word question. In more formal
+language you can hear the full sentence.
+
+An answer needs no main clause of its own. *ʻAuā* and its reason can stand as
+the whole of a turn.
+
+::: {.examples}
+*ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* Why did the man go to the village?
+
+*ʻAuā ʻua maʻi le teine.* Because the girl is sick.
 :::
 
 | Sāmoan | English |
 |---|---|
-| *ʻĀ timu taeao, e lē alu le malaga.* | When it rains tomorrow, the trip will not go. |
-| *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.* | When you go to the beach, bring the towel. |
-| *ʻĀ alu le tama ʻi le matāfaga, e fāgota.* | When the boy goes to the beach, he fishes. |
-| *ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.* | When the couple had children, the family was happy. |
-| *ʻĀ siva le ʻāiga, ʻua uosi.* | Whenever the family dances, they waltz. (Lit. "...has waltzed.") |
+| *ʻAiseā?* | Why? |
+| *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?* | Why did the man go to the village? |
+| *ʻAuā ʻua maʻi le teine.* | Because the girl is sick. |
 
-> **Preview:** A condition clause opened by *ʻā* says what has to happen first.
-> English says how long something goes on before that point with "until", and
-> Sāmoan says it with a particle of its own. That particle belongs with the mood
-> particles and is taught in Chapter 48.
-
----
-
-## Putting the Condition Second
-
-::: {.examples}
-*E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.* You cannot love, if you hate.
-
-*E lē alu le malaga pē ʻā afā.* There will be no trip when there is a storm. (Lit. "The trip does not go when storm.")
-:::
-
-When the condition clause follows the main clause instead of opening the
-sentence, the question opener *pē* stands in front of it. One rule covers both
-shapes: *pē ʻāfai* for the clause with the if-word in it, and *pē ʻā* for the
-clause with no joining word.
-
-The pattern has three parts in a fixed order: the main clause, then *pē*, then
-the condition clause with whatever opens it.
-
-::: {.examples}
-*Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* Come quickly if you get the food. (Lit. "Come quickly if will get the food.")
-
-*ʻOleʻā mālaia ʻia te ʻoe pē ʻāfai ʻe te lē usitaʻi ʻi le pōloaʻiga.* Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.")
-:::
-
-| Sāmoan | English |
-|---|---|
-| *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.* | You cannot love, if you hate. |
-| *Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.* | Come quickly if you get the food. |
-| *ʻOleʻā mālaia ʻia te ʻoe pē ʻāfai ʻe te lē usitaʻi ʻi le pōloaʻiga.* | Something terrible will happen to you if you do not obey the instruction. (Lit. "Will be disaster to you if you do not obey the instruction.") |
-| *E lē alu le malaga pē ʻā afā.* | There will be no trip when there is a storm. (Lit. "The trip does not go when storm.") |
-| *E lē alu le tama ʻi le matāfaga pē ʻā afā.* | The boy will not go to the beach when there is a storm. (Lit. "The boy does not go to the beach when storm.") |
-
-> *Note:* A condition clause standing in front of the main clause is
-> occasionally opened by *pē* as well. The usual shape is the one taught above,
-> with nothing in front of the if-word or the short future particle.
-
-> *Note:* The short future particle is written *ʻā* here, and it has a second
-> written shape, *ʻa*. What decides the choice is not known, and mostly the two
-> look like free alternatives. After *pē* only the long shape appears.
+> *Note:* An older description of Sāmoan also allows a why-phrase at the end of
+> the sentence: *ʻai se ā*, the parts of *ʻaiseā* written apart, or *ʻi se ā*, both
+> meaning "on account of what". It is given here only so that you can recognise
+> it if you meet it. This book does not teach it for use, and the question you
+> build keeps *ʻaiseā* at the front, with *ai* after the verb.
 
 ---
 
@@ -203,30 +276,29 @@ the condition clause with whatever opens it.
 
 | Word | What it does |
 |---|---|
-| *ʻāfai* | the if-word: it opens a condition clause, and when the clause behind it has a verb in it, that verb carries a tense particle of its own |
-| *ʻā* | the short form of the future particle, met earlier: at the head of the first of two clauses, with no joining word in front of it, it makes that clause the condition for the second |
-| *pē* | the question opener, met earlier: it stands in front of a condition clause that follows the main clause |
+| *ʻauā* | the plain because-word: it stands between the two clauses and normally does not open the sentence |
+| *leaga* | the because-word for a bad or unwelcome reason, met earlier as the word for "bad" |
+| *ʻona* | the because-word that stands between the clauses or opens the sentence |
+| *ʻona ʻo* | *ʻona* with the presenting particle, standing in front of a noun phrase instead of a clause |
+| *e*, *te* | the general particle, met earlier: when a clause following the main clause says what the action is done for, it stands at the head of that clause, and it takes the shape *te* after a preverbal pronoun |
+| *neʻi* | the warning particle, met earlier: at the head of a purpose clause it makes the purpose negative |
+| *ʻia* | the mood particle, met earlier: it can head a purpose clause in place of *e* |
+| *ʻaiseā* | why: in the full question it opens its clause, and *ai* in the verb phrase points back to it |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *afā* | storm |
-| *apu* | apple |
-| *loto* | will; heart |
-| *matāfaga* | beach |
-| *mālaia* | disaster |
-| *pōloaʻiga* | instruction |
-| *solo* | towel |
-| *uosi* | waltz |
-| *usitaʻi* | obey |
-
-**Words to carry** (learned now, used fully later in this book): *silou*
-(slow) comes into use with the word for a song, which this book teaches later.
-
-| Word | Meaning |
-|---|---|
-| *silou* | slow |
+| *ʻata* | laugh |
+| *galo* | forget |
+| *lē iloa* | lose, be lost |
+| *mālamalama* | understand; daylight |
+| *mālūlū* | cool |
+| *punou* | bend down |
+| *siʻi* | move |
+| *tilotilo* | watch, look |
+| *moli* | soap (in *fasimoli*); also the orange |
+| *suga* | the word you call out to a girl |
 
 ---
 
@@ -234,66 +306,66 @@ the condition clause with whatever opens it.
 
 ### Exercise 1: Translate into English
 
-1. *ʻĀfai e timu taeao, e lē alu le malaga.*
-2. *ʻĀfai ʻo le tonu, ʻua lelei.*
-3. *ʻĀfai e mālosi le loto o le tama, e lē usitaʻi.*
-4. *ʻĀ ʻe alu ʻi le matāfaga, ʻaumai le solo.*
-5. *ʻĀ fānau mai le ulugāliʻi, e fiafia le ʻāiga.*
-6. *E lē alu le malaga pē ʻā afā.*
+1. *Sā taʻatia le teine ʻi le fale ʻauā ʻua vāivai.*
+2. *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.*
+3. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
+4. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
+5. *E lē mafai ona alu ʻona ʻo le timu.*
+6. *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?*
 
-### Exercise 2: Name the shape
+### Exercise 2: That or because
 
-For each sentence, say what opens the condition clause and whether the condition
-stands in front of the main clause or after it.
+For each sentence, say what stands in front of the verb of the clause after
+*ona*, and say what *ona* means there.
 
-1. *ʻĀfai e iai se apu, ʻou te ʻai.*
-2. *ʻĀ siva le ʻāiga, ʻua uosi.*
-3. *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.*
-4. *ʻĀ alu le tama ʻi le matāfaga, e fāgota.*
-5. *E lē alu le tama ʻi le matāfaga pē ʻā afā.*
+1. *ʻUa mafai ona sau le teine.*
+2. *ʻUa alu le tama ʻona ʻua sau le teine.*
+3. *E lē mafai ona alu le tama leaga e maʻi.*
+4. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
+5. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
 
-### Exercise 3: Move the condition to the back
+### Exercise 3: Move the reason to the front
 
-Rewrite each sentence with the main clause first and the condition clause after
-it, putting *pē* in front of the condition.
+Rewrite each sentence with the *ʻona* clause first, and put the pointing-back
+word *ai* after the verb of the other clause.
 
-1. *ʻĀfai e timu taeao, e lē alu le malaga.*
-2. *ʻĀ timu taeao, e lē alu le malaga.*
-3. *ʻĀfai e iai se apu, ʻou te ʻai.*
-4. *ʻĀ siva le ʻāiga, ʻua uosi.*
-5. *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.*
+1. *Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.*
+2. *Sā ʻou tagi ʻona ʻua siʻi ʻi le nuʻu le ʻāiga o le teine.*
+3. *E lē mafai ona ʻe alu ʻona ʻo le timu.*
+4. *ʻUa mālūlū le vaitafe ʻona ʻo le timu.*
+5. *ʻUa alu le tama ʻona ʻua sau le teine.*
 
 ### Exercise 4: Fill the gap
 
-Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
+Put *e*, *te* or *neʻi* into the gap so the English matches.
 
-1. *___ e timu taeao, e lē alu le malaga.* (If it rains tomorrow, the trip will not go.)
-2. *___ timu taeao, e lē alu le malaga.* (When it rains tomorrow, the trip will not go.)
-3. *E lē alu le malaga ___ ʻā afā.* (There will be no trip when there is a storm.)
-4. *___ ʻe alu ʻi le matāfaga, ʻaumai le solo.* (When you go to the beach, bring the towel.)
-5. *___ ʻoleʻā timu taeao, e lē alu le malaga.* (If it is going to rain tomorrow, the trip will not go.)
+1. *Sā alu le tama ___ ʻaumai le niu.* (The boy went to bring the coconut.)
+2. *Sā ʻou alu ___ tagi le tama.* (I went, so that the boy would not cry.)
+3. *Alu atu ___ ʻaumai fasimoli.* (Go to bring soap.)
+4. *Sā ʻou alu ʻou ___ ʻaumai le niu.* (I went to bring the coconut.)
+5. *ʻUa ʻou ʻata ma ʻou punou ʻi lalo ___ iloa mai e le tama.* (I laughed and bent down, so that the boy would not notice.)
 
 ### Exercise 5: Translate into Sāmoan
 
-1. If you go to the village, I'll go.
-2. If there is an apple, I eat.
-3. If the boy has come, the girl will go.
-4. When the boy goes to the beach, he fishes.
-5. You cannot love, if you hate.
-6. Come quickly if you get the food.
+1. The boy cannot go because he is sick.
+2. I am crying because unfortunately my dog is lost.
+3. The boy went to bring the coconut.
+4. Because the girl was sick, the boy went to the house.
+5. Why did the man go to the village?
+6. It is not possible to go because of the rain.
 
 ### Exercise 6: Give the English
 
-1. *afā*
-2. *apu*
-3. *loto*
-4. *matāfaga*
-5. *mālaia*
-6. *pōloaʻiga*
-7. *silou*
-8. *solo*
-9. *uosi*
-10. *usitaʻi*
+1. *ʻata*
+2. *galo*
+3. *lē iloa*
+4. *mālamalama*
+5. *mālūlū*
+6. *punou*
+7. *siʻi*
+8. *tilotilo*
+9. *moli*
+10. *suga*
 
 ---
 
@@ -301,47 +373,50 @@ Put *ʻāfai*, *ʻā* or *pē* into the gap so the sentence matches the English.
 
 ### Exercise 1
 
-1. If it rains tomorrow, the trip will not go.
-2. If it is the decision, it is alright.
-3. If the boy's will is strong, he does not obey.
-4. When you go to the beach, bring the towel.
-5. When the couple had children, the family was happy.
-6. There will be no trip when there is a storm.
+1. The girl lay down in the house because she was tired.
+2. I am crying because unfortunately my dog is lost.
+3. I cried because the girl's family moved to the village.
+4. Because the girl was sick, the boy went to the house.
+5. It is not possible to go because of the rain.
+6. Why did the man go to the village?
 
 ### Exercise 2
 
-1. The if-word *ʻāfai* opens the condition, and the condition stands in front of the main clause.
-2. Nothing opens the condition except the short future particle *ʻā*, and the condition stands in front of the main clause.
-3. The question opener and the if-word, *pē ʻāfai*, open the condition, and the condition follows the main clause.
-4. Nothing opens the condition except the short future particle *ʻā*, and the condition stands in front of the main clause.
-5. The question opener and the short future particle, *pē ʻā*, open the condition, and the condition follows the main clause.
+1. Nothing stands in front of *sau*, so *ona* means "that".
+2. *ʻUa* stands in front of *sau*, so *ʻona* means "because".
+3. Nothing stands in front of *alu*, so *ona* means "that", and the reason in
+   this sentence is carried by *leaga*.
+4. *ʻUa* stands in front of *siʻi*, so *ʻona* means "because".
+5. *ʻUa* stands in front of *maʻi*, so *ʻona* means "because", and the reason
+   has been moved to the front.
 
 ### Exercise 3
 
-1. *E lē alu le malaga pē ʻāfai e timu taeao.*
-2. *E lē alu le malaga pē ʻā timu taeao.*
-3. *ʻOu te ʻai pē ʻāfai e iai se apu.*
-4. *ʻUa uosi pē ʻā siva le ʻāiga.*
-5. *ʻOleʻā alu le teine pē ʻāfai ʻua sau le tama.*
+1. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
+2. *ʻOna ʻua siʻi ʻi le nuʻu le ʻāiga o le teine, sā ʻou tagi ai.*
+3. *ʻOna ʻo le timu e lē mafai ai ona ʻe alu.*
+4. *ʻOna ʻo le timu ʻua mālūlū ai le vaitafe.*
+5. *ʻOna ʻua sau le teine, ʻua alu ai le tama.*
 
 ### Exercise 4
 
-1. *ʻĀfai*
-2. *ʻĀ*
-3. *pē*
-4. *ʻĀ*
-5. *ʻĀfai*
+1. *e*
+2. *neʻi*
+3. *e*
+4. *te*
+5. *neʻi*
 
 ### Exercise 5
 
-1. *ʻĀfai ʻe te alu ʻi le nuʻu, ʻou te alu.*
-2. *ʻĀfai e iai se apu, ʻou te ʻai.*
-3. *ʻĀfai ʻua sau le tama, ʻoleʻā alu le teine.*
-4. *ʻĀ alu le tama ʻi le matāfaga, e fāgota.*
-5. *E lē mafai ona ʻe alofa pē ʻāfai ʻe te ʻinoʻino.*
-6. *Sau vave pē ʻāfai ʻoleʻā maua le meaʻai.*
+1. *E lē mafai ona alu le tama leaga e maʻi.*
+2. *ʻUa ʻou tagi leaga ʻua lē iloa laʻu maile.*
+3. *Sā alu le tama e ʻaumai le niu.*
+4. *ʻOna ʻua maʻi le teine, na alu ai le tama ʻi le fale.*
+5. *ʻAiseā na alu ai le tamāloa ʻi le nuʻu?*
+6. *E lē mafai ona alu ʻona ʻo le timu.*
 
 ### Exercise 6
 
-1. storm · 2. apple · 3. will; heart · 4. beach · 5. disaster · 6. instruction ·
-7. slow · 8. towel · 9. waltz · 10. obey
+1. laugh · 2. forget · 3. lose, be lost · 4. understand · 5. cool ·
+6. bend down · 7. move · 8. watch, look · 9. soap (in *fasimoli*); also the
+orange · 10. the word you call out to a girl

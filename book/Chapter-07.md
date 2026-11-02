@@ -1,121 +1,179 @@
-# Chapter 7: The Naming Sentence
+# Chapter 6: Articles and Plurals
 
-This chapter introduces the naming sentence, a second sentence type that sets
-two naming parts side by side with the presenting particle *ʻo* and no verb, and
-shows you how to say who someone is and what something is.
+This chapter introduces the article system, the words that stand in front of a
+noun to mark whether the speaker means one particular thing or just any thing,
+and whether one or many, and it shows you how to talk about a thing, the thing,
+and things.
 
 ---
 
-## Naming Without a Verb
+## Naming Things
+
+The sentence pattern you know best is a verb with a person-word in front of it.
+*Sā ʻou alu* means "I went", and *Sā ia siva* means "She danced". This chapter
+adds the other half of a language, the words that name people and things. A word
+that names a person or a thing is called a **noun**. *Teine* is a noun, "girl".
+*Ipu* is a noun, "cup".
+
+A Sāmoan noun usually takes a word in front of it, called an **article**, and
+the article does a job English hands to "the", "a", and "some". One of the four
+cells you meet in this chapter leaves that slot empty.
+
+---
+
+## The Specific Article *Le*
 
 ::: {.examples}
-*ʻO se uō le tama.* The boy is a friend. (Lit. "a friend, the boy")
+*le teine*. the girl
+
+*le ipu*. the cup
 :::
 
-English builds this sentence around the verb "is". Sāmoan has no such verb. In
-the naming sentence, Sāmoan sets two naming parts next to each other and adds
-no verb at all. Here the two parts are *se uō* ("a friend") and *le tama* ("the
-boy"), each one a noun with its article, the kind of naming part you built with
-the article system. Put them side by side and the sentence already means "the
-boy is a friend". Nothing stands between them, and nothing is missing.
-
-The pattern has one more part. The word *ʻo* goes in front of the naming part
-that does the telling, the part that says what the other one is. It is the
-**presenting particle**: it presents the naming part, holding it up and marking
-it as the one that names. In *ʻO se uō le tama* the presenting particle marks
-*se uō*, so the sentence tells you that the boy is a friend, not that the friend
-is a boy. Nearly all naming sentences mark the telling part this way, and the few
-that do not are outside what this chapter builds.
-
-> *Note:* The presenting particle *ʻo* is written with the ʻ mark, the catch in
-> the voice from the Introduction, and that mark is part of the word. Later in
-> this book you will meet other words that look almost the same with and
-> without the mark. The mark tells them apart, and where a word sits in the
-> sentence tells you its job.
-
-The naming part with *ʻo* usually comes first, and the part it is about comes
-second, with no article change and no marking of its own.
+The word *le* is the **specific article**: it marks the noun as one particular
+thing the speaker already has in mind. Put *le* in front of a noun and you have
+named one particular, single thing. It keeps the same shape in front of any noun.
 
 | Sāmoan | English |
 |---|---|
-| *ʻO se uō le tama.* | The boy is a friend. |
-| *ʻO se uō le teine.* | The girl is a friend. |
-| *ʻO se tama le uō.* | The friend is a boy. |
-| *ʻO le uō le tama.* | The boy is the friend. |
+| *le teine* | the girl |
+| *le tamaʻitaʻi* | the lady |
+| *le ʻāgelu* | the angel |
+| *le ipu* | the cup |
+| *le mea* | the thing |
+| *le lāʻau* | the tree |
 
-The last row uses *le* on both parts. When the naming part is one particular
-thing, it takes the specific article *le*; when it is any example of a thing, it
-takes *se*, exactly as the article system already taught you.
+A noun phrase built with *le* can do the work a person-word did in the earlier
+chapters. It can name who did something:
+
+::: {.examples}
+*Sā alu le teine.* The girl went. (Lit. "past go the girl")
+:::
+
+*Sā* still stamps the sentence as past, and *alu* is still the verb. The new part
+is *le teine*, the doer, sitting after the verb.
+
+> *Note:* In sentences like these, where one person or thing does something on
+> its own, the doer follows the verb with only its article in front of it. No
+> extra word marks it as the one doing the action. Sentences that bring a second
+> participant in alongside the doer can mark the doer differently, and those come
+> later in the book.
+
+Swap the verb, and the same doer takes a different action:
+
+::: {.examples}
+*Sā siva le teine.* The girl danced.
+
+*Sā nofo le tamaʻitaʻi.* The lady stayed.
+:::
 
 ---
 
-## Pointing Something Out
+## The Non-Specific Articles *Se* and *Ni*
+
+Sometimes the speaker does not have one particular thing in mind. Any one will
+do. For that, Sāmoan uses a different set of articles.
 
 ::: {.examples}
-*ʻO le pusi lenā.* That is the cat.
+*ʻAumai se ipu.* Bring a cup.
+
+*ʻAumai ni ipu.* Bring some cups.
 :::
 
-The word *lenā* means "that". It usually points to something in view, near the
-person you are speaking to. In this
-kind of naming sentence the order is fixed: the naming part with *ʻo* comes
-first, and *lenā* comes second. It never runs the other way. Learn the shape
-once and every "that is a ..." sentence follows it. The earlier pattern is
-looser, which is why its order was given as the usual one rather than the only
-one.
+The word *se* is the **non-specific article** for one thing: it means any single
+one, no particular one chosen. The word *ni* is its partner for more than one: it
+means some, any ones at all. *ʻAumai se ipu* asks for a cup, whichever cup is
+nearest; *ʻAumai ni ipu* asks for some cups, however many.
 
 | Sāmoan | English |
 |---|---|
-| *ʻO le pusi lenā.* | That is the cat. |
-| *ʻO le tama lenā.* | That is the boy. |
-| *ʻO le lāʻau lenā.* | That is the tree. |
-| *ʻO le ʻāiga lenā.* | That is the family. |
-| *ʻO se uō lenā.* | That is a friend. |
+| *se teine* | a girl (any girl) |
+| *se mea* | a thing, something |
+| *ni teine* | some girls |
+| *ni mea* | some things |
 
-The naming part still chooses its article the usual way: *le pusi* for one
-particular cat, *se uō* for a friend, no particular one.
+### *Le* and *Se* Are Not "the" and "a"
+
+It is tempting to read *le* as English "the" and *se* as English "a". That
+mapping breaks quickly. English chooses "the" or "a" by whether the hearer
+already knows which one; Sāmoan chooses *le* or *se* by whether the speaker has
+one particular thing in mind. The two questions are not the same, and where they
+part company, the English habit sends you to the wrong article.
+
+Here is a sentence where English says "a" and Sāmoan still uses *le*:
+
+::: {.examples}
+*ʻUa sau le teine.* A girl is coming.
+:::
+
+The speaker has one particular girl in mind, so *le* goes in front of *teine*, even
+though the English says "a".
+
+Ask one question instead of two: "do I have one particular thing in mind?" If
+yes, use *le*, even in places where English would say "a" (a storyteller who
+opens with "there was a girl" and treats her as one particular, known girl often
+uses *le*, while a character whose exact identity is unknown or unimportant can
+be introduced with *se*). If any example of the thing would do, use *se*. You are not translating "the" and "a"; you are setting
+them aside and asking the Sāmoan question.
 
 ---
 
-## Naming a Person
+## One and Many: The Article Carries the Number
+
+Read these two aloud.
 
 ::: {.examples}
-*ʻO ia ʻo se uō.* He is a friend.
+*le teine*. the girl
 
-*ʻO aʻu ʻo se uō.* I am a friend.
+*teine*. the girls
 :::
 
-When you name who a person is with a pronoun (he, she, I), the person can come
-first. Then both naming parts take the presenting particle *ʻo*: one for the
-person out in front, and one for the naming part that follows. This is why *ʻo*
-can appear twice in one naming sentence. For a pronoun, person-first is the order
-this book teaches you to build. With anyone but the speaker, Sāmoan itself allows
-either order, and the naming part leads often enough that you will meet both.
-With a noun such as "the boy", this chapter builds the naming part first, as in
-*ʻO se uō le tama*.
+Compare them. Which word changed?
+
+The article did. To go from "the girl" to "the girls", *le* is dropped and
+nothing takes its place. There is no separate plural article for particular
+things: the specific plural is marked by the absence of *le*. The bare noun,
+with no article at all, is the plural.
 
 ::: {.examples}
-*ʻO ia ʻo se tagata tino mālosi.* He is a person with a strong body.
+*le lāʻau*. the tree
+
+*lāʻau*. the trees
 :::
 
-Here *ia* ("he" or "she") is the person, and *se tagata tino mālosi* names what
-he is, a person with a strong body. After *tagata* come *tino* ("body") and
-*mālosi* ("strong"), a body part plus what it is like.
+Number rides on the article, almost never on the noun. The noun *teine* is the
+same whether it is one girl or many; *lāʻau* is the same for one tree or a forest. What
+tells you the number is almost always the slot in front of the noun, not the
+noun itself.
 
-> **Preview:** In *se tagata tino mālosi*, the words after *tagata* say what the
-> person is like by naming a body part and its quality. That structure, a noun
-> followed by a part and its quality, is taught in Chapter 40. Until then, take the
-> whole phrase as one piece.
+> *Note:* To find the number of a specific noun phrase, look at the article slot,
+> not the noun. An empty slot in front of a particular noun is not a mistake or a
+> missing word. The emptiness is the plural.
 
-> *Note:* When it is already clear who or what you mean, the part the sentence is
-> about can be left out, and the telling part with *ʻo* stands on its own. *ʻO le
-> pusi* on its own says "it is the cat" (Lit. "the cat"), with the thing it is
-> about understood from what came before.
+The full set fits in one grid. Each cell answers two questions at once: one thing
+or many, and one particular thing or any at all.
 
-> **Preview:** A naming sentence can be turned into its opposite, "the boy is
-> not a friend". Sāmoan does that by wrapping the whole naming sentence inside a
-> longer structure, so it waits until the words that make sentences negative are
-> in place. That is taught in Chapter 15. For now, build naming sentences only
-> in the positive.
+| | one | many |
+|---|---|---|
+| **specific** (a particular one) | *le* | (no article) |
+| **non-specific** (any at all) | *se* | *ni* |
+
+Put the noun *teine* through all four cells: *le teine* (the girl), *teine* (the
+girls), *se teine* (a girl), *ni teine* (some girls). Four ways to point at girls,
+and the article carries the whole distinction.
+
+A full sentence works the same way. Drop *le* from the noun and the sentence
+speaks of many:
+
+::: {.examples}
+*Sā fiafia le teine.* The girl was happy.
+
+*Sā fiafia teine.* The girls were happy.
+:::
+
+> **Preview:** Sāmoan has one more small set of articles, used to add warmth,
+> tenderness, or a sense of smallness to a noun. They round out the article
+> system and are taught in Chapter 51. The four articles in this chapter are the
+> everyday set you will use constantly.
 
 ---
 
@@ -125,21 +183,20 @@ he is, a person with a strong body. After *tagata* come *tino* ("body") and
 
 | Word | What it does |
 |---|---|
-| *ʻo* | the presenting particle: goes in front of the naming part that says what something is |
-| *lenā* | that: usually points to something in view, near the person spoken to, and comes second in the naming sentence |
+| *le* | the specific article: one particular thing the speaker has in mind |
+| *se* | the non-specific article, one thing: any single one |
+| *ni* | the non-specific article, many: some, any ones at all |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *tama* | boy |
-| *uō* | friend |
-| *tagata* | person |
-| *pusi* | cat |
-| *tino* | body |
-| *ʻāiga* | home, family |
-| *igoa* | name |
-| *ʻupu* | word |
+| *teine* | girl |
+| *tamaʻitaʻi* | lady |
+| *ʻāgelu* | angel |
+| *ipu* | cup |
+| *mea* | thing |
+| *lāʻau* | tree (the bare form *lāʻau* is itself the plural, "trees", while one tree is *le lāʻau*) |
 
 ---
 
@@ -147,52 +204,48 @@ he is, a person with a strong body. After *tagata* come *tino* ("body") and
 
 ### Exercise 1: Translate into English
 
-1. *ʻO se uō le tama.*
-2. *ʻO le pusi lenā.*
-3. *ʻO ia ʻo se uō.*
-4. *ʻO le tama lenā.*
-5. *ʻO se tama le uō.*
+1. *le ipu*
+2. *ni teine*
+3. *se mea*
+4. *lāʻau*
+5. *le tamaʻitaʻi*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The girl is a friend.
-2. That is the cat.
-3. I am a friend.
-4. That is the tree.
-5. The boy is the friend.
+1. the angel
+2. a cup
+3. the trees
+4. some things
+5. the girl
 
-### Exercise 3: Point it out
+### Exercise 3: Make it plural
 
-Each item names a thing. Write a naming sentence that points to it with *lenā*
-("that"), keeping the fixed order.
+Each phrase names one particular thing. Rewrite it to name many, keeping it
+specific.
 
-1. *le tama* (the boy)
-2. *le ʻāiga* (the family)
-3. *le pusi* (the cat)
-4. *le lāʻau* (the tree)
-5. *se uō* (a friend)
+1. *le teine*
+2. *le lāʻau*
+3. *le ipu*
+4. *le mea*
+5. *le tamaʻitaʻi*
 
-### Exercise 4: Add the presenting particle
+### Exercise 4: Choose *le* or *se*
 
-Each sentence below has lost its presenting particle *ʻo*, or is already correct.
-Write each one as it should stand. Some need *ʻo* once, some need it twice, and
-one needs nothing.
+Put *le* or *se* in the gap so the Sāmoan matches the English.
 
-1. *se uō le teine.* (The girl is a friend.)
-2. *le lāʻau lenā.* (That is the tree.)
-3. *ia se uō.* (He is a friend.)
-4. *ʻO le pusi lenā.* (That is the cat.)
-5. *aʻu se uō.* (I am a friend.)
+1. *___ mea* (one particular thing, the thing)
+2. *___ ipu* (any cup, no particular one)
+3. *___ teine* (the girl, that same girl again)
+4. *ʻUa sau ___ teine.* (a girl is coming; the speaker has one particular girl in mind)
+5. *___ teine* (any girl at all)
 
-### Exercise 5: Choose *le* or *se*
+### Exercise 5: Translate into English
 
-Put *le* or *se* into the naming part so the Sāmoan matches the English.
-
-1. *ʻO ___ pusi lenā.* (That is the cat, one particular cat.)
-2. *ʻO ___ uō le tama.* (The boy is a friend, no particular one.)
-3. *ʻO ___ tama lenā.* (That is the boy, that same boy.)
-4. *ʻO ___ lāʻau lenā.* (That is the tree, one particular tree.)
-5. *ʻO ___ uō lenā.* (That is a friend, no particular one.)
+1. *Sā alu le teine.*
+2. *Sā nofo le tamaʻitaʻi.*
+3. *ʻAumai ni ipu.*
+4. *Sā fiafia teine.*
+5. *Sā fiafia le teine.*
 
 ---
 
@@ -200,40 +253,40 @@ Put *le* or *se* into the naming part so the Sāmoan matches the English.
 
 ### Exercise 1
 
-1. The boy is a friend.
-2. That is the cat.
-3. He (or She) is a friend.
-4. That is the boy.
-5. The friend is a boy.
+1. the cup
+2. some girls
+3. a thing, something
+4. the trees
+5. the lady
 
 ### Exercise 2
 
-1. *ʻO se uō le teine.*
-2. *ʻO le pusi lenā.*
-3. *ʻO aʻu ʻo se uō.*
-4. *ʻO le lāʻau lenā.*
-5. *ʻO le uō le tama.*
+1. *le ʻāgelu*
+2. *se ipu*
+3. *lāʻau*
+4. *ni mea*
+5. *le teine*
 
 ### Exercise 3
 
-1. *ʻO le tama lenā.*
-2. *ʻO le ʻāiga lenā.*
-3. *ʻO le pusi lenā.*
-4. *ʻO le lāʻau lenā.*
-5. *ʻO se uō lenā.*
+1. *teine*
+2. *lāʻau*
+3. *ipu*
+4. *mea*
+5. *tamaʻitaʻi*
 
 ### Exercise 4
 
-1. *ʻO se uō le teine.*
-2. *ʻO le lāʻau lenā.*
-3. *ʻO ia ʻo se uō.*
-4. *ʻO le pusi lenā.* (already correct)
-5. *ʻO aʻu ʻo se uō.*
+1. *le mea*
+2. *se ipu*
+3. *le teine*
+4. *le*, so *ʻUa sau le teine.*
+5. *se teine*
 
 ### Exercise 5
 
-1. *ʻO le pusi lenā.*
-2. *ʻO se uō le tama.*
-3. *ʻO le tama lenā.*
-4. *ʻO le lāʻau lenā.*
-5. *ʻO se uō lenā.*
+1. The girl went.
+2. The lady stayed.
+3. Bring some cups.
+4. The girls were happy.
+5. The girl was happy.

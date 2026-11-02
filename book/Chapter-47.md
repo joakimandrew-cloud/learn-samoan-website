@@ -1,253 +1,172 @@
-# Chapter 47: Word Class Flexibility
+# Chapter 46: Uses of the Le-Phrase
 
-This chapter completes the principle set out in the Introduction as the slot
-rule, under which a word such as *uō* (friend) is a verb when it fills the verb
-slot of a sentence and a noun when it fills a noun slot. It also sorts the nouns
-that rule produces into five kinds, and shows you how to read a word's class
-from its slot and why a name that refers to people takes the place word *iā*.
-
----
-
-## The Slot Rule
-
-::: {.examples}
-*E alofa le tama ʻi le teine.* The boy loves the girl.
-:::
-
-This sentence has three words that carry meaning of their own, and each one
-stands in a slot. *Alofa* (love) stands after the general particle *e*. *Tama*
-(boy) stands after the article *le*. *Teine* (girl) stands after *ʻi le*, the
-place word and the article.
-
-A word's class is the kind of word it is: a verb, a noun, and so on. The slot a
-word fills tells you its class. The verb slot is the place where a word takes a
-tense particle in front of it, and where it can also take the not-word *lē*. A noun slot is the place where a word takes an article in
-front of it, or a possessive form standing where the article stands, and where
-the place word *ʻi* or the presenting particle *ʻo* can mark it. The rule that a
-word in the verb slot is a verb and a word in a noun slot is a noun is called
-the **slot rule**. Read the slot, and you know the class.
-
-The rule has two halves:
-
-| Slot | In front of the word | Class |
-|---|---|---|
-| verb slot | a tense particle such as *e*, *sā* or *ʻua* | verb |
-| noun slot | an article such as *le*, or a possessive form | noun |
-
-The slot rule covers the words that carry meaning of their own, in the ordinary
-verb sentence this book has built on from the start. Particles such as
-*le* and *e* are not sorted by it. Nor does it reach inside a le-phrase: there an
-article stands in front of a verb, and the word is still a verb, which is why it
-can still take the not-word *lē*. The Introduction called this principle "a
-word is what it does", and the book has leaned on it ever since: the describing
-words are verbs, *leai* is a verb, and a number is a kind of verb. Each of those
-is a word doing a verb's job in the verb slot.
-
-::: {.examples}
-*E ʻonosaʻi le tinā.* The mother is patient.
-
-*Sā alu le tama e momoli le tusi.* The boy went to deliver the letter.
-:::
-
-In the first sentence *ʻonosaʻi* (be patient) follows *e*, so it is a verb, and
-*tinā* (mother) follows *le*, so it is a noun. In the second, *momoli* (bring,
-deliver) follows the *e* that heads a purpose clause, so it is a verb too, and
-*tusi* (letter) follows *le*.
+This chapter teaches three uses of the le-phrase: after the with-word *ma*,
+after a verb that passes judgement such as *lelei* (good), and standing on its
+own as an exclamation. It shows you how to say what state someone is in while
+acting, how to pass judgement on an event, and how to comment on the way
+someone is reacting.
 
 ---
 
-## One Word in Two Slots
+## Saying How Someone Acts
 
 ::: {.examples}
-*E uō le tama ma le teine.* The boy and the girl are friends.
-
-*E alofa le tama ʻi lana uō.* The boy loves his friend.
+*Sā ʻou nofo ma le lē fiafia.* I stayed and was unhappy. (Lit. "I stayed with the not being happy.")
 :::
 
-Compare the two sentences. Which slot does *uō* fill in each?
-
-In the first sentence *uō* stands straight after the general particle *e*. It
-fills the verb slot, so there it is a verb, "be friends". In the second it
-stands after *lana* (his), the possessive form in the article's place. It fills
-a noun slot, so there it is a noun, "friend".
-
-This is not a noun pressed into service as a verb, and it is not two different
-words that happen to sound alike. *Uō* has no fixed class of its own. What it
-brings with it is the ability to fill either kind of slot, and the sentence
-decides which one it fills. Many word roots, perhaps the majority, work
-this way.
+This sentence first appeared when the le-phrase was new, to show the not-word
+standing inside one. What it also shows is a use of the whole phrase. After the
+with-word *ma*, a le-phrase names the state the doer is in while doing what the
+rest of the sentence says. The speaker stayed, and was unhappy while staying.
 
 ::: {.examples}
-*Sā nofo le loʻomatua.* The old woman stayed.
+*Na ʻou tausi=a le pepe ma le fiafia.* I took care of the baby happily.
 
-*ʻUa loʻomatua aʻu.* I have become an old woman.
+*ʻUa tausi=a ma le fiafia e le tinā le pepe.* The mother was happy as she took care of the baby.
 :::
 
-*Loʻomatua* (old woman) fills a noun slot after *le* in the first sentence and
-the verb slot after the change particle *ʻua* in the second. The meaning stays
-the same in both slots: an old woman, and being an old woman.
+These two sentences run on one verb, *tausi=a*, the long form of *tausi* (take
+care of). In each of them the le-phrase *le fiafia* describes the one doing the
+caring: the speaker in the first, the mother in the second. The state can be a
+feeling, as it is here, or a state of the body, such as being tired.
 
-::: {.examples}
-*Sā nofo le teine.* The girl stayed.
+The pattern adds two parts to a sentence you can already build: the with-word
+*ma*, then a le-phrase naming the doer's feeling or bodily state. The *ma*
+phrase follows the verb. It can stand straight after it, before the doer and the
+thing acted on, as in the mother's sentence, or after the thing acted on, as in
+the speaker's.
 
-*Sā teine lona tinā.* His mother was once a girl. (Lit. "Past girl his mother.")
-:::
-
-*Teine*, one of the first nouns in this book, fills the verb slot after the past
-particle *sā* in the second sentence. The same goes for the other words in this
-table:
-
-| Word | As a noun | As a verb |
-|---|---|---|
-| *uō* | friend | be friends |
-| *loʻomatua* | old woman | be an old woman |
-| *ʻolomatua* | old woman | be an old woman |
-| *teine* | girl | be a girl |
-| *teineitiiti* | girl | be a girl |
-| *tamaitiiti* | boy, child | be a child |
-
-*ʻOlomatua* is a second word for an old woman, and *teineitiiti* a second word
-for a girl; *tamaitiiti* means a boy or a child.
-
-> *Note:* Not every root turns up equally often in both slots. Some are found
-> mostly as verbs and others mostly as nouns, and a word's meaning makes one use
-> more likely than the other, but a word's class is far from predictable from its
-> meaning. *Alu* (go) has not been recorded in a noun slot, nor *mea* (thing) in
-> the verb slot, and neither is ruled out, while *iʻa* (fish), which looks like a
-> word for a thing and nothing else, has been found in the verb slot.
-
----
-
-## Number in the Two Slots
-
-::: {.examples}
-*Sā nofo le teine.* The girl stayed.
-
-*Sā nonofo teine.* The girls stayed.
-:::
-
-These sentences recall the plural verb forms. The verb changes shape for more
-than one: *nofo* becomes *nonofo*, as *uliuli* (black) becomes *uli*. The noun
-*teine* keeps one shape, and its number shows in the article, *le* for one
-particular girl and no article for the particular girls. About 350 words have a
-plural shape when they fill the verb slot, but not when they fill a noun slot.
-
-The word *fana* shows both halves. In the verb slot, meaning "shoot", it has a
-plural shape of its own. In a noun slot, meaning "gun", it keeps one shape:
-
-::: {.examples}
-*ʻo le fana*. the gun
-
-*ʻo fana*. the guns
-:::
-
-Under the slot rule, number follows the slot:
-
-| Slot | Where number shows |
+| Sāmoan | English |
 |---|---|
-| verb slot | in the verb's own shape, for a verb that has a plural form |
-| noun slot | in the article |
+| *Sā ʻou nofo ma le lē fiafia.* | I stayed and was unhappy. |
+| *Sā ʻou nofo ma le lē vāivai.* | I stayed and was not tired. |
+| *Sā ʻou nofo ma le faʻanoanoa.* | I stayed and was sad. |
+| *Sā ʻou nofo ma le fiafia.* | I stayed and was happy. |
 
-> *Note:* Eight words break this pattern and change shape for number in both
-> slots; all eight name a person's age or married life, and each means the same
-> in either slot. You have met *matua* (parent), plural *mātua*, *tamāloa* (a
-> married man), *toeaʻina* (an old man) and the word for a young man, while
-> *loʻomatua*, *ʻolomatua*, *tamaitiiti* and *teineitiiti*, the four new words of
-> this chapter, make up the rest of the eight, and each plural shape is a separate
-> word to learn. One further word, for a man's
-> sister, changes shape for number only in a noun slot.
+*Faʻanoanoa* (sad) is one of the verbs about what goes on inside a person, the
+same group as *fiafia* and *ita*.
+
+> *Note:* *Ma* means both "and" and "with", and in this pattern it can be read
+> either way: "I stayed with unhappiness" or "I stayed and was unhappy". The
+> English translations in this chapter use whichever reads more naturally.
 
 ---
 
-## The Five Kinds of Noun
+## Judging an Event
 
 ::: {.examples}
-*ʻo le lafu*. the herd
-
-*ʻo se lafu*. a herd, any herd
-
-*ʻo lafu*. the herds
-
-*ʻo ni lafu*. some herds, any herds
+*E lelei le putaʻafa o le puaʻa.* It is good that the pig is fat. (Lit. "The being fat of the pig is good.")
 :::
 
-Once the slot rule has made a word a noun, that noun belongs to one of five
-kinds, sorted by how it behaves in the sentence. The sorting is called **the
-five kinds of noun**. It is the noun half of the slot rule, not a second system:
-every word below is a noun of its kind only while it fills a noun slot.
+The verb after the general particle is *lelei*, and what it calls good is not a
+thing but an event: *le putaʻafa o le puaʻa*, the pig's being *putaʻafa* (fat). A
+verb that passes judgement on the event a le-phrase names is called a **judging
+verb**. The belonging word on the pig is *o*, by the doer test: being fat is not
+something anybody does.
 
-| Kind | Example | Articles |
-|---|---|---|
-| ordinary noun | *fale* (house) | yes |
-| group word | *lafu* (herd) | yes |
-| spatial noun | *totonu* (inside) | usually none |
-| name | *Ulika*, *Sāmoa* | usually none |
-| calling word | not taught here | none |
+This pattern has three parts in this order: the tense particle, the judging
+verb, then the le-phrase, with a belonging phrase inside it when the event is
+about someone or something.
 
-An ordinary noun names one thing of its kind, and a group word names a group of
-people or animals taken as one unit. Both take the articles, which mark one or
-more and a particular one or any one, as the four phrases above show for the
-group word *lafu* (herd).
-
-::: {.examples}
-*ʻO totonu o le fale.* The inside of the house.
-:::
-
-A spatial noun and a name usually take no article, with a few exceptions,
-because each already points at one particular thing: one region of space, one
-person, one place. In this phrase the spatial noun *totonu* has no article, and
-the ordinary noun *fale* has *le*. The fifth kind, the calling words, are the
-words used to call out to someone and catch their attention. They belong to
-casual, familiar speech and are not taught in this chapter.
-
-Two further divisions cut across all five kinds: a noun names a person or it
-does not, and it names a person or an animal or it does not.
-
-### Group Words
-
-::: {.examples}
-*Sā nonofo le ʻāiga.* The family stayed.
-:::
-
-*ʻĀiga* (family) is a group word, like *lafu* (herd), *fānau* (offspring) and
-*ulugāliʻi* (couple). The group word itself stays singular in shape, with *le*
-in front of it, and the verb often takes its plural form, because a family is
-many people. That is the plural verb form met earlier, now given its place in
-the noun system: a group word is the kind of noun that behaves this way.
-
-### Names and the Place Word *Iā*
-
-::: {.examples}
-*Alu iā Ulika.* Go to Ulika.
-
-*Alu ʻi Sāmoa.* Go to Sāmoa.
-:::
-
-Names are the one kind of noun that changes the place word in front of them.
-Before the name of a person, the place word takes the shape *iā*. Before the
-name of a place, it stays *ʻi*. What selects *iā* is that the name refers to
-people:
-
-::: {.examples}
-*ʻi Sāmoa*. in Sāmoa
-
-*iā Sāmoa*. among the Sāmoans
-:::
-
-When *Sāmoa* names the place, it takes *ʻi*. When it names the people who live
-there, it takes *iā*. So the rule is not that every name takes *iā*: a name
-takes *iā* when it refers to a person or a people. An ordinary noun keeps *ʻi*
-even when it names a person, as in *E alofa le tama ʻi le teine*. A place name
-used for its people can also take an article, the way an ordinary noun does.
-
-| Word | Stands before |
+| Verb | Judgement |
 |---|---|
-| *iā* | a name that refers to a person or a people |
-| *ʻi* | a name that refers to a place, or an ordinary noun |
+| *lelei* | good |
+| *sili* | better, the best |
+| *faigatā* | difficult |
+| *faigōfie* | easy |
+| *ʻese* | extraordinary |
+| *leai* | does not exist |
 
-> *Note:* In the Sāmoan of the Bible, and now and then in modern writing, *iā*
-> also appears before the names of months. Everyday modern Sāmoan uses *ʻi*
-> there.
+These six are among the verbs that often take a le-phrase in this slot. Inside
+an ordinary sentence a le-phrase most often stands where the thing the sentence
+is about goes, as it does here, or after the place word *ʻi*.
+
+> *Note:* A le-phrase can also be built on an event word that carries an
+> ending, the second way of packing an event into a word, taught later in this
+> book. That kind names one particular, well-defined event, in most contexts
+> one that has already happened, seen as a whole. The difference is similar to
+> the one between the two pasts, *na* for one-off events and *sā* for how things
+> were, and the two kinds do the same jobs in a sentence. Not every verb makes
+> the difference: the verb for "do, make, say" takes the ending whether the event
+> is one particular event or a general one.
+
+### *E ʻEse* and *E Leai*
+
+::: {.examples}
+*E ʻese le taamilomilo solo o tala a le tauleʻaleʻa!* How fast the young man's words went around! (Lit. "The going around everywhere of the stories of the young man is extraordinary!")
+
+*E leai se faigatā o ni tali.* Answering is not at all difficult. (Lit. "There is no being difficult of any answers.")
+:::
+
+The first sentence is about a *tauleʻaleʻa* (young man) and how his stories
+*taamilomilo* (circulate around). The *solo* in that sentence is a different word
+from the towel word met earlier in this book: here it means "around, all about".
+The two judging verbs in this pair push in opposite directions. *E ʻese* with a le-phrase stresses that a quality of a
+thing or a person is out of the ordinary. *E leai* with a le-phrase stresses
+that a state of affairs does not exist at all. The other judging verbs work the
+same way, each saying something about the event its le-phrase names.
+
+After *leai* the le-phrase in the second sentence carries the non-specific article
+*se*, the article *leai* takes in front of a noun as well: *E leai se tusi*
+(There is no book).
+
+Two short phrases show *e ʻese* at its plainest:
+
+::: {.examples}
+*e ʻese le lelei*. be extremely good (Lit. "the being good is extraordinary")
+
+*e ʻese le mānaia*. be extremely nice (Lit. "the being nice is extraordinary")
+:::
+
+Add a belonging phrase naming what has the quality, and the phrase becomes a
+sentence:
+
+| Sāmoan | Word for word | Meaning |
+|---|---|---|
+| *E ʻese le mānaia o le ʻula.* | The being nice of the necklace is extraordinary. | The necklace is extremely nice. |
+| *E ʻese le mānaia o le pō.* | The being nice of the night is extraordinary. | The night is extremely nice. |
+| *E ʻese le tāua o le meaalofa.* | The being precious of the gift is extraordinary. | The gift is extremely precious. |
+| *E ʻese le lelei o le tala.* | The being good of the story is extraordinary. | The story is extremely good. |
+
+An *ʻula* is a necklace, a *pō* is a night, and a *meaalofa* is a gift, literally
+a thing of love; *tāua* means precious or important. In every row the belonging
+word is *o*, because a quality is not something anybody does.
+
+---
+
+## Exclaiming with a Le-Phrase
+
+::: {.examples}
+*ʻO le fefe o Ulika!* Look how scared Ulika is! (Lit. "The fear of Ulika!")
+:::
+
+Earlier in this book this exclamation was a fixed expression, learned whole.
+Every part of it is now familiar. *ʻO* is the presenting particle, *le fefe* is
+a le-phrase, the being afraid, and *o Ulika* names the one the event is about,
+with *o* because fear is one of the verbs that take only *o*. Put the presenting
+particle in front of a le-phrase about a person, and the result is an
+exclamation about how that person is reacting.
+
+The exclamation has three parts in this order: the presenting particle *ʻO*, the
+le-phrase, and a belonging phrase naming the person. It is used as an immediate
+comment on somebody's reaction or behaviour, and it is one of the idioms Sāmoan
+uses often.
+
+| Sāmoan | Word for word | Meaning |
+|---|---|---|
+| *ʻO le fefe o le teine!* | The fear of the girl! | Look how scared the girl is! |
+| *ʻO le faʻanoanoa o le tama!* | The being sad of the boy! | Look how sad the boy is! |
+| *ʻO le ita o le tinā!* | The anger of the mother! | Look how angry the mother is! |
+| *ʻO le fiafia o le teine!* | The being happy of the girl! | Look how happy the girl is! |
+
+::: {.examples}
+*Le tagi a le pepe!* Look how the baby is crying! (Lit. "The crying of the baby!")
+:::
+
+The presenting particle can be left off, as it is here, and the exclamation is
+still complete. The belonging word follows the doer test as it does in any
+le-phrase: with *a*, the exclamation presents the baby as doing the crying. *O*
+is also heard there, as the note on verbs of doing earlier in this book says.
 
 ---
 
@@ -257,113 +176,103 @@ used for its people can also take an article, the way an ordinary noun does.
 
 | Word | What it does |
 |---|---|
-| *iā* | the place word before a person, met earlier: stands before a name that refers to a person or a people |
-| *ʻi* | the place word, met earlier: stands before a place name, and before an ordinary noun even when it names a person |
-| *uō* | met earlier as a noun, friend; in the verb slot, be friends |
-
-*ʻĀiga* (family), met earlier in this book, is reused here.
+| *ma* | the with-word, met earlier: in front of a le-phrase it names the state the doer is in while acting |
+| *lelei* | a judging verb: good |
+| *sili* | a judging verb: better, the best |
+| *faigatā* | a judging verb: difficult |
+| *faigōfie* | a judging verb: easy |
+| *ʻese* | a judging verb: stresses that a quality is out of the ordinary |
+| *leai* | a judging verb: stresses that a state of affairs does not exist |
+| *ʻO* | the presenting particle, met earlier: in front of a le-phrase it makes an exclamation |
 
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *lafu* | herd |
-| *momoli* | bring, deliver |
-| *ʻonosaʻi* | be patient |
-| *loʻomatua* | old woman |
-| *tamaitiiti* | boy, child |
-| *teineitiiti* | girl |
-| *ʻolomatua* | old woman |
+| *faʻanoanoa* | sad |
+| *putaʻafa* | fat |
+| *taamilomilo* | circulate around |
+| *tāua* | precious, important |
+| *meaalofa* | gift (a thing of love) |
+| *pō* | night |
+| *tauleʻaleʻa* | young man |
+| *ʻula* | necklace |
 
 ---
 
 ## Exercises
 
-### Exercise 1: Verb or noun
+### Exercise 1: Translate into English
 
-Say whether the word named after each sentence fills the verb slot or a noun
-slot, and so whether it is a verb or a noun in that sentence.
+1. *Sā ʻou nofo ma le faʻanoanoa.*
+2. *Na ʻou tausi=a le pepe ma le fiafia.*
+3. *E lelei le putaʻafa o le puaʻa.*
+4. *E ʻese le tāua o le meaalofa.*
+5. *E ʻese le mānaia o le ʻula.*
+6. *ʻO le faʻanoanoa o le tama!*
+7. *Le tagi a le pepe!*
 
-1. *E uō le tama ma le teine.* (*uō*)
-2. *E alofa le teine ʻi lana uō.* (*uō*)
-3. *ʻUa loʻomatua aʻu.* (*loʻomatua*)
-4. *Sā nofo le loʻomatua.* (*loʻomatua*)
-5. *Sā teine lona tinā.* (*teine*)
-6. *E ʻonosaʻi le tamaitiiti.* (*ʻonosaʻi*)
-7. *Sā tamaitiiti lona tamā.* (*tamaitiiti*)
-8. *Sā alu le teine e momoli le ipu.* (*ipu*)
+### Exercise 2: Say the state the doer was in
 
-### Exercise 2: Translate into English
+Add *ma* and a le-phrase to each sentence so that it matches the English.
 
-1. *E alofa le tama ʻi le teine.*
-2. *ʻUa ʻolomatua aʻu.*
-3. *Sā teineitiiti lona tinā.*
-4. *Sā nonofo le ʻāiga.*
-5. *Sā alu le teine e momoli le tusi.*
-6. *E ʻonosaʻi le teine.*
-7. *Sā nofo le tamaitiiti.*
+1. *Sā ʻou nofo.* (I stayed and was sad.)
+2. *Na ʻou tausi=a le pepe.* (I took care of the baby happily.)
+3. *Sā ʻou nofo.* (I stayed and was not tired.)
+4. *Sā ʻou nofo.* (I stayed and was unhappy.)
+5. *Sā ʻou nofo.* (I stayed and was happy.)
 
-### Exercise 3: Make it plural
+### Exercise 3: Put in the judging verb and the article
 
-Rewrite each so that it speaks of more than one, changing only what has to
-change. Then say which word changed shape, if any did.
+Fill both gaps so that the sentence matches the English.
 
-1. *Sā nofo le teine.*
-2. *E uliuli le pusi.*
-3. *ʻo le fana*
-4. *ʻo le lafu*
-5. *ʻo le uō*
-6. *ʻo le pusi*
-7. *ʻo le teine*
+1. *E \_\_\_ \_\_\_ mānaia o le ʻula.* (The necklace is extremely nice.)
+2. *E \_\_\_ \_\_\_ faigatā o ni tali.* (Answering is not at all difficult.)
+3. *E \_\_\_ \_\_\_ tāua o le meaalofa.* (The gift is extremely precious.)
+4. *E \_\_\_ \_\_\_ mānaia o le pō.* (The night is extremely nice.)
+5. *E \_\_\_ \_\_\_ lelei o le tala.* (The story is extremely good.)
 
-### Exercise 4: Choose *ʻi* or *iā*
+### Exercise 4: Make an exclamation
 
-Fill the gap so that the Sāmoan matches the English.
+Rewrite each sentence as an exclamation built on a le-phrase, beginning with
+*ʻO*.
 
-1. *Alu \_\_\_ Ulika.* (Go to Ulika.)
-2. *Alu \_\_\_ Sāmoa.* (Go to Sāmoa.)
-3. *\_\_\_ Sāmoa* (among the Sāmoans)
-4. *\_\_\_ Sāmoa* (in Sāmoa)
-5. *E alofa le tama \_\_\_ le teine.* (The boy loves the girl.)
-6. *Sā nonofo \_\_\_ Sāmoa.* (They lived in Sāmoa.) (Lit. "Past live in Sāmoa.")
+1. *E fefe le teine.*
+2. *E faʻanoanoa le tama.*
+3. *E ita le tinā.*
+4. *E fiafia le teine.*
+5. *E ita le tama.*
 
-### Exercise 5: Name the kind of noun
+### Exercise 5: Translate into Sāmoan
 
-1. *fale*
-2. *ʻāiga*
-3. *totonu*
-4. *Ulika*
-5. *lafu*
-6. *tama*
-7. *ulugāliʻi*
+Begin the exclamation with *ʻO*.
 
-### Exercise 6: Translate into Sāmoan
+1. I stayed and was sad.
+2. It is good that the pig is fat.
+3. The gift is extremely precious.
+4. The night is extremely nice.
+5. Look how scared the girl is!
 
-1. The boy loves his friend.
-2. I have become an old woman.
-3. The family stayed.
-4. Go to Ulika.
-5. The girls stayed.
-6. The mother is patient.
+### Exercise 6: Say what the pattern does
 
-### Exercise 7: Answer in English
+Answer in English.
 
-1. In *E uō le tama ma le teine*, what tells you that *uō* is a verb?
-2. Is *uō* in that sentence a noun that has been turned into a verb?
-3. Why does *Sāmoa* take *iā* in *iā Sāmoa* but *ʻi* in *ʻi Sāmoa*?
-4. In *Sā nonofo le ʻāiga*, why is the verb plural when *le* marks one family?
-5. What do the eight words that change shape for number in both slots have in common?
+1. *Sā ʻou nofo ma le lē fiafia.* What does the le-phrase after *ma* tell you about the speaker?
+2. *E ʻese le mānaia o le ʻula.* What does *ʻese* stress?
+3. *E leai se faigatā o ni tali.* What does *leai* stress, and which article does the le-phrase take after it?
+4. *Le tagi a le pepe!* Which part of the usual exclamation is left off, and is the exclamation still complete?
+5. *ʻO le fefe o Ulika!* Why is the belonging word *o* and not *a*?
 
-### Exercise 8: Give the English
+### Exercise 7: Give the English
 
-1. *lafu*
-2. *momoli*
-3. *ʻonosaʻi*
-4. *loʻomatua*
-5. *tamaitiiti*
-6. *teineitiiti*
-7. *ʻolomatua*
-8. *ʻāiga*
+1. *faʻanoanoa*
+2. *putaʻafa*
+3. *taamilomilo*
+4. *tāua*
+5. *meaalofa*
+6. *pō*
+7. *tauleʻaleʻa*
+8. *ʻula*
 
 ---
 
@@ -371,65 +280,54 @@ Fill the gap so that the Sāmoan matches the English.
 
 ### Exercise 1
 
-1. Verb slot, after the general particle *e*: a verb.
-2. Noun slot, after the possessive form *lana*: a noun.
-3. Verb slot, after the change particle *ʻua*: a verb.
-4. Noun slot, after the article *le*: a noun.
-5. Verb slot, after the past particle *sā*: a verb.
-6. Verb slot, after the general particle *e*: a verb.
-7. Verb slot, after the past particle *sā*: a verb.
-8. Noun slot, after the article *le*: a noun.
+1. I stayed and was sad.
+2. I took care of the baby happily.
+3. It is good that the pig is fat.
+4. The gift is extremely precious.
+5. The necklace is extremely nice.
+6. Look how sad the boy is!
+7. Look how the baby is crying!
 
 ### Exercise 2
 
-1. The boy loves the girl.
-2. I have become an old woman.
-3. His mother was once a girl. (Lit. "Past girl his mother.") (or "Her mother")
-4. The family stayed.
-5. The girl went to deliver the letter.
-6. The girl is patient.
-7. The child stayed.
+1. *Sā ʻou nofo ma le faʻanoanoa.*
+2. *Na ʻou tausi=a le pepe ma le fiafia.*
+3. *Sā ʻou nofo ma le lē vāivai.*
+4. *Sā ʻou nofo ma le lē fiafia.*
+5. *Sā ʻou nofo ma le fiafia.*
 
 ### Exercise 3
 
-1. *Sā nonofo teine.* The verb changed shape; the noun *teine* did not.
-2. *E uli pusi.* The verb changed shape; the noun *pusi* did not.
-3. *ʻo fana*. No word changed shape; the article went.
-4. *ʻo lafu*. No word changed shape; the article went.
-5. *ʻo uō*. No word changed shape; the article went.
-6. *ʻo pusi*. No word changed shape; the article went.
-7. *ʻo teine*. No word changed shape; the article went.
+1. *E ʻese le mānaia o le ʻula.*
+2. *E leai se faigatā o ni tali.*
+3. *E ʻese le tāua o le meaalofa.*
+4. *E ʻese le mānaia o le pō.*
+5. *E ʻese le lelei o le tala.*
 
 ### Exercise 4
 
-1. *Alu iā Ulika.*
-2. *Alu ʻi Sāmoa.*
-3. *iā Sāmoa*
-4. *ʻi Sāmoa*
-5. *E alofa le tama ʻi le teine.*
-6. *Sā nonofo ʻi Sāmoa.*
+1. *ʻO le fefe o le teine!*
+2. *ʻO le faʻanoanoa o le tama!*
+3. *ʻO le ita o le tinā!*
+4. *ʻO le fiafia o le teine!*
+5. *ʻO le ita o le tama!*
 
 ### Exercise 5
 
-1. ordinary noun · 2. group word · 3. spatial noun · 4. name · 5. group word · 6. ordinary noun · 7. group word
+1. *Sā ʻou nofo ma le faʻanoanoa.*
+2. *E lelei le putaʻafa o le puaʻa.*
+3. *E ʻese le tāua o le meaalofa.*
+4. *E ʻese le mānaia o le pō.*
+5. *ʻO le fefe o le teine!*
 
 ### Exercise 6
 
-1. *E alofa le tama ʻi lana uō.*
-2. *ʻUa loʻomatua aʻu.* (or *ʻUa ʻolomatua aʻu.*)
-3. *Sā nonofo le ʻāiga.*
-4. *Alu iā Ulika.*
-5. *Sā nonofo teine.*
-6. *E ʻonosaʻi le tinā.*
+1. The state the speaker was in while staying: unhappy.
+2. That a quality, here the necklace's niceness, is out of the ordinary.
+3. That a state of affairs, here any difficulty in answering, does not exist at all. The le-phrase takes the non-specific article *se*.
+4. The presenting particle *ʻO* is left off, and the exclamation is still complete.
+5. Fear is one of the verbs that take only *o*.
 
 ### Exercise 7
 
-1. It stands straight after the general particle *e*, in the verb slot.
-2. No. *Uō* has no fixed class of its own; the verb slot makes it a verb in this sentence, and a noun slot makes it a noun in another.
-3. In *iā Sāmoa* the name refers to the people who live in Sāmoa; in *ʻi Sāmoa* it refers to the place.
-4. *ʻĀiga* is a group word: singular in shape, but it names many people, so the verb often takes its plural form.
-5. They all name a person's age or married life.
-
-### Exercise 8
-
-1. herd · 2. bring, deliver · 3. be patient · 4. old woman · 5. boy, child · 6. girl · 7. old woman · 8. family
+1. sad · 2. fat · 3. circulate around · 4. precious, important · 5. gift · 6. night · 7. young man · 8. necklace

@@ -1,227 +1,193 @@
-# Chapter 13: The General Particle *E*
+# Chapter 12: Verbs of Wanting and Seeing
 
-This chapter adds the general particle *e*, the tense particle for what holds in
-general rather than at one moment (a habit, a lasting quality, a plain truth, or
-something still to come), and the happening-now particle *ʻoloʻo*, for what is under
-way as you speak. The general particle is the one tense particle whose shape follows
-the pronoun: it is the plain *e* when nothing stands in front of it (*E alu le pasi*,
-the bus goes) and turns into *te* right after a pronoun (*ʻOu te alu*, I go).
-
----
-
-## The General Particle *E*
-
-::: {.examples}
-*E mālosi le tama.* The boy is strong.
-
-*E loloto le vai.* The water is deep.
-:::
-
-Every tense particle so far has fixed a sentence to a time: *Sā ʻou alu* puts the
-going behind you, *ʻUa vevela* reports a change that has just landed. These two
-sentences fix nothing to a time. The boy is strong as a matter of course, and
-the water is deep whether you look today or next year. The word that carries
-this timeless sense is *e*, the **general particle**. It fills the same first
-slot as the other tense particles, but instead of placing the sentence in the past or
-the future it says the thing simply holds, without asking when it began, how
-long it lasts, or when it ends.
-
-The general particle covers four kinds of statement, all of them free of a
-particular time: a lasting quality, a general truth, a habit, and something still
-to come.
-
-| Sāmoan | English |
-|---|---|
-| *E mālosi le tama.* | The boy is strong. |
-| *E loloto le vai.* | The water is deep. |
-| *E fiafia le teine.* | The girl is happy. |
-| *E lelei le ʻāiga.* | The family is good. |
-| *E alu le pasi ʻi le nuʻu.* | The bus goes to the village. |
-
-The first four state a quality that holds, and a general truth is said in the
-same shape. The last states a habit: the bus is the kind of bus that goes to
-the village, so it goes there as a rule. Read with
-the past particle for a single event, *Na alu le pasi ʻi le nuʻu* would report one
-trip that is over. With the general particle, *E alu le pasi ʻi le nuʻu* reports
-the standing habit.
-
-> *Note:* A general truth can also be about a whole kind of thing rather than one
-> particular thing. In a positive statement of that kind the kind is named with
-> the same *le* used above for one particular boy or bus, because *le* points to
-> one particular thing or to the whole class of what the noun names. This book
-> asks you only to recognize that reading when you meet it.
-
-> **Preview:** The general particle also states a quantity, such as how many
-> there are or how old someone is. Counting has a shape of its own, met later in
-> this book and completed in Chapter 22. This chapter states qualities, truths,
-> and habits; the counting sentences wait for that chapter.
+This chapter introduces the two-participant sentence: a verb of seeing,
+feeling, wanting, or asking, then the one who does it, then the thing it
+reaches, marked by the place word *ʻi*. The pattern points at that thing with
+the same *ʻi* that sets an action in a place, as in *Sā alofa le tama ʻi le teine*
+(the boy loved the girl).
 
 ---
 
-## When a Pronoun Comes In: *Te*
-
-You have said *Sā ʻou alu* (I went) since the first chapter of this book. To say
-"I go", as a plain habit, the general particle joins the same three parts, but
-watch where it lands:
+## The Two-Participant Sentence
 
 ::: {.examples}
-*Sā ʻou alu.* I went.
+*Sā vaʻai le teine ʻi le iʻa.* The girl saw the fish.
 
-*ʻOu te alu.* I go.
+*Sā alofa le tama ʻi le teine.* The boy loved the girl.
 :::
 
-Compare them. Where does the particle sit?
+The pattern you know best names one participant: who went, who danced, who
+stayed in the house. These two name a second. The verb comes first, then the
+one who sees or loves, then the thing that is seen or loved. That second thing
+is marked by *ʻi*, the place word from earlier in this book.
 
-In *Sā ʻou alu* the particle *sā* comes first, then the pronoun *ʻou*. In
-*ʻOu te alu* the pronoun *ʻou* comes first, and the particle follows it. This is
-the one place the order you have used in every sentence so far flips. The general
-particle is the only particle a pronoun stands in front of, and when a pronoun
-comes first the particle takes the shape *te*, sitting right after it. When the
-sentence names who or what it is about with a noun instead, as in
-*E alu le pasi ʻi le nuʻu* (the bus goes to the village), nothing stands in front
-of the particle and it is the plain *e*.
+English treats see, love, and want as verbs that take an object: you see the
+fish, you love the girl, the object sits bare right after the verb. English
+asking is looser, since you often ask for a thing rather than ask it, but Sāmoan
+treats asking the same as the rest. In this pattern Sāmoan hands these verbs no bare object. It
+puts the one who does the seeing or asking right after the verb, then points at
+the other thing with *ʻi*, the same word that points at a place. You have already
+seen *ʻi* mark a place:
 
-One thing to recognize rather than to build: in conversation a speaker can leave
-the word for I or for you unsaid and still say *te*, when the talk already makes
-plain who is meant. Every *te* sentence you build in this book keeps its
-pronoun.
+::: {.examples}
+*Sā ʻou alu ʻi le nuʻu.* I went to the village.
+
+*Sā vaʻai le teine ʻi le iʻa.* The girl saw the fish.
+:::
+
+Compare them. Which word points at the village, and which points at the fish?
+
+It is the same word, *ʻi*, doing the same job both times: pointing at what the
+verb reaches. In the first sentence the verb is one of moving, so *ʻi* points at
+a place. In the second the verb is one of seeing, so *ʻi* points at the thing
+seen. The lesson underneath is one to hold onto: in this pattern you do not see the
+fish, you see toward it, the way you go toward a village.
+
+The pattern puts the verb first, then its two participants: the one who does the
+seeing or feeling, and, marked by *ʻi*, the thing reached.
 
 | Sāmoan | English |
 |---|---|
-| *ʻOu te alu.* | I go. |
-| *ʻE te alu.* | You go. |
-| *Na te alu.* | He goes. She goes. |
+| *Sā vaʻai le teine ʻi le iʻa.* | The girl saw the fish. |
+| *Sā mātamata le tama ʻi le pusi.* | The boy watched the cat. |
+| *Sā alofa le tama ʻi le teine.* | The boy loved the girl. |
+| *Sā ʻinoʻino le teine ʻi le ʻiole.* | The girl hated the rat. |
 
-The third row holds a second surprise. The word for he or she here is not the
-*ia* you have used all along. Before *te*, the word for he or she is *na*, and
-*ia* is not used in this spot at all. The pronoun grid earlier in this book set
-*na* aside for exactly this construction, and this is where it arrives.
+Two of these verbs are for seeing: *vaʻai* (see) and *mātamata* (look at,
+watch). Two are for feeling: *alofa* (love), carried since early in this book and
+now able to join a full sentence, and its opposite *ʻinoʻino* (hate, dislike).
+Two of the things these verbs reach are new to you here: *iʻa* (fish) and
+*ʻiole* (rat).
 
-> *Note:* In *Na te alu*, *na* is the word for he or she and *te* is the general
-> particle, so the sentence means he goes. The same shape *na* also serves as a
-> past particle from earlier in this book, so *Na alu*, with no *te*, means he
-> went (Lit. "past go"). The general particle *te* is what tells the two apart.
+Sāmoan has a third word for looking, *sisila* (look steadily, stare), and this
+book asks you only to know what it means. It belongs to the polite speech used
+about people of rank, and no one uses that speech about themselves, so no
+sentence here is built with it.
 
-The general particle carries the same four senses with a pronoun as without one.
-*ʻOu te galue ʻi le nuʻu* is a habit, "I work in the village." A question with the
-general particle asks about what someone means to do:
+All four of the verbs above build the same shape. Whether the thing reached can
+be left out depends on the verb rather than on the meaning. With *mātamata* it
+can be left out. With *vaʻai* meaning to see something it cannot, unless the sentence carries a direction
+word, which this book teaches later; *vaʻai* on its own, in the sense of being able
+to see, as in the sentence you met earlier in this book "Now she sees", is complete. With *alofa* it can be left out too, and a
+sentence built that way is on record meaning that the person is full of
+sympathy. Every sentence in this chapter keeps the thing reached in place.
+
+The one who does the seeing or feeling can also be a preverbal pronoun, the
+*ʻou* or *ia* met earlier in this book. It keeps its place in the middle slot
+before the verb, and the thing reached still follows with *ʻi*:
 
 ::: {.examples}
-*ʻE te tusitusi?* Will you write?
+*Sā ʻou vaʻai ʻi le iʻa.* I saw the fish.
+
+*Sā ia vaʻai ʻi le pusi.* She saw the cat.
 :::
 
-Here the general particle reaches into the indefinite future. It asks about the
-listener's own intention, and it is the particle used for such questions: the
-future particle *ʻoleʻā*, which you have had since earlier in this book, might be impolite in
-this context.
-
-A fuller form of the same pattern places *e* at the front as well as *te* after
-the pronoun. *E tā te feiloaʻi* (we two will meet) says the same thing as the plain
-*te* form; the two are one pattern, and no difference of meaning is recorded
-between them.
+> *Note:* The one who sees and the thing reached can come in either order. Both
+> *Sā vaʻai le teine ʻi le iʻa* and *Sā vaʻai ʻi le iʻa le teine* say "the girl
+> saw the fish". The verb stays first; the two parts after it are not locked in
+> place.
 
 ---
 
-## Wanting, in the Present
+## Wanting
 
-The wanting word *fia* was taught early in this book, and every sentence built
-with it until now has stood in the past: *Sā ʻou fia alu* is "I wanted to go."
-That was how this book chose to practise wanting, not a limit the language sets.
-The general particle opens the other side of it. Put *fia* under the general
-particle and you state a want without fixing a time, which reads as a present want
-when nothing else sets the time, not only what they wanted before:
-
-::: {.examples}
-*Sā ʻou fia alu.* I wanted to go.
-
-*ʻOu te fia alu.* I want to go.
-:::
-
-The pattern is the one just taught: the pronoun first, then *te*, then *fia* in
-front of the verb. The everyday sentence for being hungry is built exactly this
-way, from *fia* and *ʻai* (eat):
+This chapter teaches two wanting words and gives each of them one use. To
+want to do something, use *fia* in front of the action verb, the word met
+earlier in this book: *Sā ʻou fia ʻai* is "I wanted to eat", *Sā ia fia siva* is
+"she wanted to dance". To want a thing rather than an action, use *manaʻo*, and
+the thing wanted is usually marked by *ʻi*, exactly like the thing seen or loved:
 
 ::: {.examples}
-*ʻOu te fia ʻai.* I want to eat.
+*ʻUa manaʻo le ulugāliʻi ʻi le meaʻai.* The couple wanted some food.
 :::
+
+*Manaʻo* is the wanting verb for a thing. Here it carries the change particle
+*ʻua*, marking the wanting as a state now in place. The couple, *ulugāliʻi*, is
+the one who wants; the food, *meaʻai*, is the thing wanted, pointed at with *ʻi*.
 
 | Sāmoan | English |
 |---|---|
-| *Sā ʻou fia alu.* | I wanted to go. |
-| *ʻOu te fia alu.* | I want to go. |
-| *ʻOu te fia ʻai.* | I want to eat. |
-| *Na te fia alu.* | He wants to go. |
+| *ʻUa manaʻo le ulugāliʻi ʻi le meaʻai.* | The couple wanted some food. |
+| *ʻUa manaʻo le tama ʻi le meaʻai.* | The boy wanted some food. |
+| *ʻUa manaʻo le teine ʻi le niu.* | The girl wanted a coconut. |
 
-The past particle still says what someone wanted; the general particle now says
-what they want.
+So in the sentences of this chapter, *fia* takes an action and *manaʻo* takes a
+thing. Every wanting sentence here still speaks of what someone wanted, in the
+past or as a state now reached. Saying want as something happening at this
+moment waits for a particle taught later in this book.
 
 ---
 
-## The Happening-Now Particle *ʻOloʻo*
+## Asking and Calling
 
-A general truth and an event going on at this moment are not the same, and Sāmoan
-keeps them apart with two different particles. Set these side by side:
+Verbs of asking and calling work the same way. The one who asks or calls comes
+right after the verb here, though the two parts after the verb are not locked in
+place, and the person or thing reached, the one asked or called to, is marked
+by *ʻi*:
 
 ::: {.examples}
-*E siva le teine.* The girl dances.
+*Sā valaʻau le fafine ʻi le teine.* The woman called to the girl.
 
-*ʻOloʻo siva le teine.* The girl is dancing.
+*Sā fesili le ʻōfisa ʻi loʻu igoa.* The official asked for my name.
 :::
 
-The first is the general particle: the girl dances as a rule, she is a dancer.
-The second reports what is happening right now, at the moment of speaking. The
-word for this is *ʻoloʻo*, the **happening-now particle**. It fills the first slot
-like the other particles and marks the event as under way, running at the same
-time as the moment being talked about. In every sentence in this chapter that
-moment is the moment you speak. Told inside a story, the same particle can mark
-an event running alongside something else in the telling, and that use is one to
-recognize rather than to build here.
+*Valaʻau* is "call", and *ʻi le teine* is who was called to. *Fesili* is "ask",
+met earlier in this book; *le ʻōfisa* is the official who asked, and *ʻi loʻu igoa*
+is what was asked for, "my name". The verb points at what it reaches with *ʻi*,
+whether that is a place, a thing, a person spoken to, or a thing asked about.
 
 | Sāmoan | English |
 |---|---|
-| *ʻOloʻo siva le teine.* | The girl is dancing. |
-| *ʻOloʻo tusitusi le tama.* | The boy is writing. |
-| *ʻOloʻo iai le vai.* | There is water. |
-| *ʻOloʻo iai le ʻauivi ʻi le fale.* | There is a skeleton in the house. |
+| *Sā valaʻau le fafine ʻi le teine.* | The woman called to the girl. |
+| *Sā valaʻau le tama ʻi le teine.* | The boy called to the girl. |
+| *Sā fesili le ʻōfisa ʻi loʻu igoa.* | The official asked for my name. |
+| *Sā fesili le tama ʻi loʻu igoa.* | The boy asked for my name. |
+| *Sā ʻou valaʻau ʻi le uō.* | I called to the friend. |
 
-The verb *iai* means "be present, be there," and *tusitusi* means "write." With
-*ʻoloʻo* in front, each names something true at this moment: the water is present
-now, the boy is writing now.
+---
 
-The happening-now particle has a shorter form, *ʻo*, which turns up in patterns
-taught later in this book; this chapter uses the full form *ʻoloʻo* throughout.
-The full form is the one that belongs in a plain statement standing on its own.
+## Some of It, Not All
 
-> *Note:* That short *ʻo* joins two look-alikes you already know. The presenting
-> particle *ʻo* stands at the front of a naming part, as in *ʻO le pusi lenā*
-> (that is the cat). The belonging word *o*, with no mark, sits between a thing
-> and its owner, as in *le ulu o le tama* (the head of the boy). The happening-now
-> short *ʻo* sits in front of a verb. Position tells the three apart, and the mark
-> separates the two that carry it from the one that does not.
+::: {.examples}
+*Sā ʻai le teine ʻi le iʻa.* The girl ate some fish.
+:::
+
+This sentence is built on the verb *ʻai* (eat). Marking the thing with *ʻi* also
+carries a shade of meaning: the fish is marked with *ʻi*, and the sentence says the
+girl ate some of the fish, not that she finished it. Pointing at the fish with the place word says
+the action reached it, touched it, without saying it was wholly used up. To say
+the girl ate the whole fish, Sāmoan marks the doer with a different word, and
+that word draws a real contrast in meaning. The choice is not decorative:
+getting it wrong changes what the sentence says.
+
+> **Preview:** The verbs in this chapter point at their target with the place
+> word *ʻi*, and a sentence built this way never takes the marker that sets apart
+> the doer in a sentence where the thing is wholly affected. That marker, and the contrast it draws
+> with *ʻi*, are completed in Chapter 27. For now, every sentence in this pattern
+> uses *ʻi*.
 
 ---
 
 ## Words to Learn
 
-**New grammar words** (memorize how these work):
-
-| Word | What it does |
-|---|---|
-| *e* | the general particle: marks a statement true in general, with no tie to a time |
-| *te* | the shape the general particle takes right after a pronoun |
-| *ʻoloʻo* | the happening-now particle: marks an event under way at the moment being talked about, which in this chapter is the moment you speak |
-| *na* | the word for he, she before *te* (in place of *ia*) |
-
 **New vocabulary** (memorize these meanings):
 
 | Word | Meaning |
 |---|---|
-| *pasi* | bus |
-| *vai* | water |
-| *ʻauivi* | skeleton |
-| *feiloaʻi* | meet |
-| *tusitusi* | write |
-| *iai* | be present, be there |
+| *mātamata* | look at, watch |
+| *sisila* | look steadily, stare (a polite word, to recognize only) |
+| *ʻinoʻino* | hate, dislike |
+| *manaʻo* | want (a thing) |
+| *valaʻau* | call |
+| *iʻa* | fish |
+| *ʻiole* | rat |
+| *ʻōfisa* | office; official |
+| *ulugāliʻi* | couple |
+
+The pattern itself adds no new grammar word. It reuses the place word *ʻi* from
+earlier in this book, now pointing at the thing a verb reaches, and the wanting
+word *fia*, and it puts *alofa* (love) and *vaʻai* (see), both met before, into a full sentence
+for the first time.
 
 ---
 
@@ -229,54 +195,54 @@ The full form is the one that belongs in a plain statement standing on its own.
 
 ### Exercise 1: Translate into English
 
-1. *E mālosi le tama.*
-2. *ʻOu te alu.*
-3. *ʻOu te fia ʻai.*
-4. *ʻOloʻo siva le teine.*
-5. *E alu le pasi ʻi le nuʻu.*
+1. *Sā vaʻai le teine ʻi le iʻa.*
+2. *Sā alofa le tama ʻi le teine.*
+3. *ʻUa manaʻo le teine ʻi le niu.*
+4. *Sā valaʻau le fafine ʻi le teine.*
+5. *Sā ʻai le teine ʻi le iʻa.*
 
 ### Exercise 2: Translate into Sāmoan
 
-1. The water is deep.
-2. I go.
-3. The girl is dancing.
-4. I want to go.
-5. The boy is writing.
+1. The boy watched the cat.
+2. I saw the fish.
+3. The couple wanted some food.
+4. The official asked for my name.
+5. The girl hated the rat.
 
-### Exercise 3: Choose *e* or *te*
+### Exercise 3: Add the thing reached
 
-Put *e* or *te* in the gap. Use *e* when no pronoun stands in front of the
-particle, and *te* when a pronoun does.
+Each sentence below is missing the thing the verb reaches, so none of them is yet
+the two-participant sentence this chapter teaches. Rewrite each one with the
+thing given, marking it with the place word *ʻi*.
 
-1. *___ loloto le vai.*
-2. *ʻOu ___ galue ʻi le nuʻu.*
-3. *___ alu le pasi ʻi le nuʻu.*
-4. *ʻE ___ tusitusi?*
-5. *___ fiafia le teine.*
+1. *Sā vaʻai le tama.* (the cat)
+2. *Sā alofa le teine.* (the boy)
+3. *ʻUa manaʻo le tama.* (some food)
+4. *Sā valaʻau le fafine.* (the friend)
+5. *Sā ʻinoʻino le teine.* (the rat)
 
-### Exercise 4: Choose the particle
+### Exercise 4: Choose the wanting word
 
-Fill each gap with the general particle (*e* or *te*) for something true in
-general, or *ʻoloʻo* for something happening right now, so the sentence matches
-the English.
+Fill each gap with *fia* (to want to do something) or *manaʻo* (to want a
+thing), so the sentence matches the English.
 
-1. *___ siva le teine.* (The girl is dancing right now.)
-2. *___ mālosi le tama.* (The boy is strong.)
-3. *___ tusitusi le tama.* (The boy is writing right now.)
-4. *ʻOu ___ alu.* (I go.)
-5. *___ loloto le vai.* (The water is deep.)
+1. *Sā ʻou ___ ʻai.* (I wanted to eat.)
+2. *ʻUa ___ le teine ʻi le niu.* (The girl wanted a coconut.)
+3. *Sā ia ___ siva.* (She wanted to dance.)
+4. *Sā ʻou ___ siva.* (I wanted to dance.)
+5. *ʻUa ___ le ulugāliʻi ʻi le meaʻai.* (The couple wanted some food.)
 
-### Exercise 5: From past to general
+### Exercise 5: Swap in the preverbal pronoun
 
-Each sentence is in the past. Rewrite it with the general particle, which states
-the sentence without fixing a time, keeping the same person. Remember to put the
-pronoun first.
+Each sentence names the one who sees, loves, or calls with an article. Rewrite
+it with the preverbal pronoun *ʻou* (I) in the middle slot instead, keeping the
+thing reached.
 
-1. *Sā ʻou alu.*
-2. *Sā ʻou fia ʻai.*
-3. *Sā ʻou galue ʻi le nuʻu.*
-4. *Sā ʻou siva.*
-5. *Sā ʻou tusitusi.*
+1. *Sā vaʻai le teine ʻi le iʻa.*
+2. *Sā vaʻai le tama ʻi le pusi.*
+3. *Sā alofa le tama ʻi le teine.*
+4. *Sā valaʻau le fafine ʻi le teine.*
+5. *Sā valaʻau le fafine ʻi le uō.*
 
 ---
 
@@ -284,40 +250,40 @@ pronoun first.
 
 ### Exercise 1
 
-1. The boy is strong.
-2. I go.
-3. I want to eat.
-4. The girl is dancing.
-5. The bus goes to the village.
+1. The girl saw the fish.
+2. The boy loved the girl.
+3. The girl wanted a coconut.
+4. The woman called to the girl.
+5. The girl ate some fish.
 
 ### Exercise 2
 
-1. *E loloto le vai.*
-2. *ʻOu te alu.*
-3. *ʻOloʻo siva le teine.*
-4. *ʻOu te fia alu.*
-5. *ʻOloʻo tusitusi le tama.*
+1. *Sā mātamata le tama ʻi le pusi.*
+2. *Sā ʻou vaʻai ʻi le iʻa.*
+3. *ʻUa manaʻo le ulugāliʻi ʻi le meaʻai.*
+4. *Sā fesili le ʻōfisa ʻi loʻu igoa.*
+5. *Sā ʻinoʻino le teine ʻi le ʻiole.*
 
 ### Exercise 3
 
-1. *e*
-2. *te*
-3. *e*
-4. *te*
-5. *e*
+1. *Sā vaʻai le tama ʻi le pusi.*
+2. *Sā alofa le teine ʻi le tama.*
+3. *ʻUa manaʻo le tama ʻi le meaʻai.*
+4. *Sā valaʻau le fafine ʻi le uō.*
+5. *Sā ʻinoʻino le teine ʻi le ʻiole.*
 
 ### Exercise 4
 
-1. *ʻoloʻo*
-2. *e*
-3. *ʻoloʻo*
-4. *te*
-5. *e*
+1. *fia*
+2. *manaʻo*
+3. *fia*
+4. *fia*
+5. *manaʻo*
 
 ### Exercise 5
 
-1. *ʻOu te alu.*
-2. *ʻOu te fia ʻai.*
-3. *ʻOu te galue ʻi le nuʻu.*
-4. *ʻOu te siva.*
-5. *ʻOu te tusitusi.*
+1. *Sā ʻou vaʻai ʻi le iʻa.*
+2. *Sā ʻou vaʻai ʻi le pusi.*
+3. *Sā ʻou alofa ʻi le teine.*
+4. *Sā ʻou valaʻau ʻi le teine.*
+5. *Sā ʻou valaʻau ʻi le uō.*

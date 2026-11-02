@@ -1,59 +1,121 @@
 {
-  "chapter": 26,
+  "chapter": 25,
   "items": [
     {
-      "id": "ch26-spatial-frame",
-      "kind": "grid",
-      "anchor": "the-spatial-noun-frame",
-      "title": "The spatial noun changes the position",
-      "caption": "Each printed example keeps the spatial noun between the place word and the belonging word. The noun names a region of the thing that follows.",
+      "id": "ch25-pick-owner-after-thing",
+      "kind": "pick",
+      "anchor": "the-meaning-behind-a-and-o",
+      "title": "The owner after the thing: *a* or *o*?",
+      "intro": "The thing comes first, then the belonging word, then the owner. Choose the belonging word that fits the English.",
       "data": {
-        "cols": [
-          "Printed sentence"
+        "question": "Which belonging word?",
+        "options": [
+          {
+            "id": "a",
+            "sm": "a"
+          },
+          {
+            "id": "o",
+            "sm": "o"
+          }
         ],
+        "prompts": [
+          {
+            "sm": "ʻO le leitio ___ le aliʻi.",
+            "en": "The radio of the chief.",
+            "answer": "a",
+            "why": "A chief buys a radio and puts it to use, a relationship he started and controls, so it joins to him with *a*."
+          },
+          {
+            "sm": "ʻO le fale ___ le tama.",
+            "en": "The house the boy built.",
+            "answer": "a",
+            "why": "Under *a*, the house is something the boy made by his own work."
+          },
+          {
+            "sm": "ʻO le fale ___ le tama.",
+            "en": "The boy's house (the house he lives in).",
+            "answer": "o",
+            "why": "Under *o*, the house is the place the boy lives in, not a thing he went out and got."
+          },
+          {
+            "sm": "le naifi ___ le fafine",
+            "en": "the woman's knife",
+            "answer": "a",
+            "why": "A knife is got and put to use, so it takes *a*."
+          },
+          {
+            "sm": "le ulu ___ le gata",
+            "en": "the snake's head",
+            "answer": "o",
+            "why": "A head is a part of the body, and parts of the body take *o*."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch25-possessive-grid",
+      "kind": "grid",
+      "anchor": "the-four-sets-of-possessive-forms",
+      "title": "Four article choices inside possessive forms",
+      "caption": "The rows track one or many and particular or non-specific. The two columns keep the *a*-word and *o*-word forms side by side.",
+      "data": {
+        "rowLabel": "The thing possessed",
+        "cols": [
+          "*a*-word form",
+          "*o*-word form"
+        ],
+        "quiz": true,
         "rows": [
           {
-            "label": "Behind",
+            "label": "One particular thing",
             "cells": [
               {
-                "sm": "ʻO le lāʻau ʻi tua o le fale.",
-                "en": "The tree behind the house."
+                "sm": "laʻu",
+                "en": "my"
+              },
+              {
+                "sm": "loʻu",
+                "en": "my"
               }
             ]
           },
           {
-            "label": "In front",
+            "label": "One thing, any one",
             "cells": [
               {
-                "sm": "ʻO le taʻavale ʻi luma o le fale.",
-                "en": "The car in front of the house."
+                "sm": "saʻu",
+                "en": "a ... of mine"
+              },
+              {
+                "sm": "soʻu",
+                "en": "a ... of mine"
               }
             ]
           },
           {
-            "label": "Under",
+            "label": "More than one, particular",
             "cells": [
               {
-                "sm": "ʻO le pusi ʻi lalo o le fale.",
-                "en": "The cat under the house."
+                "sm": "aʻu",
+                "en": "my"
+              },
+              {
+                "sm": "oʻu",
+                "en": "my"
               }
             ]
           },
           {
-            "label": "On",
+            "label": "More than one, any ones",
             "cells": [
               {
-                "sm": "ʻO le ipu ʻi luga o le fala.",
-                "en": "The cup on the mat."
-              }
-            ]
-          },
-          {
-            "label": "Inside",
-            "cells": [
+                "sm": "ni aʻu",
+                "en": "some ... of mine"
+              },
               {
-                "sm": "ʻO le naifi ʻi totonu o le ʻato.",
-                "en": "The knife inside the basket."
+                "sm": "ni oʻu",
+                "en": "some ... of mine"
               }
             ]
           }
@@ -61,107 +123,185 @@
       }
     },
     {
-      "id": "ch26-compass",
-      "kind": "scale",
-      "anchor": "the-directions",
-      "title": "The compass directions",
-      "caption": "Four compass positions are shown. The chapter prints two words for south, *saute* and *toga*, at the same bearing.",
-      "data": {
-        "layout": "map",
-        "points": [
-          {
-            "x": 50,
-            "y": 0,
-            "label": "mātū",
-            "gloss": "North"
-          },
-          {
-            "x": 0,
-            "y": 50,
-            "label": "sisifo",
-            "gloss": "West"
-          },
-          {
-            "x": 100,
-            "y": 50,
-            "label": "sasaʻe",
-            "gloss": "East"
-          },
-          {
-            "x": 50,
-            "y": 100,
-            "label": "saute",
-            "gloss": "South",
-            "note": "The chapter also prints *toga* for South."
-          }
-        ]
-      }
-    },
-    {
-      "id": "ch26-sort-space-direction",
+      "id": "ch25-sort-a-o",
       "kind": "sort",
-      "anchor": "words-to-learn",
-      "title": "Sort regions and directions",
-      "intro": "Place each printed noun with the regions of an object or the direction system.",
+      "anchor": "what-takes-a-and-what-takes-o",
+      "title": "Sort the belonging types",
+      "intro": "Place each printed word under the belonging type this chapter gives it.",
       "data": {
         "bins": [
           {
-            "id": "region",
-            "label": "Region of an object"
+            "id": "a",
+            "label": "*a*-words",
+            "hint": "mostly got, made, or taken on"
           },
           {
-            "id": "direction",
-            "label": "Direction"
+            "id": "o",
+            "label": "*o*-words",
+            "hint": "mostly given rather than set up"
           }
         ],
         "items": [
           {
-            "sm": "totonu",
-            "en": "inside",
-            "bin": "region",
-            "why": "This noun names the inside region of a thing."
+            "sm": "ulu",
+            "en": "head",
+            "bin": "o",
+            "why": "A head is part of the person, and parts of the body take *o*."
           },
           {
-            "sm": "tua",
-            "en": "back, behind",
-            "bin": "region",
-            "why": "This noun names the space at the back of a thing."
+            "sm": "ʻie",
+            "en": "kilt",
+            "bin": "o",
+            "why": "Clothes worn are listed as *o*-words."
           },
           {
-            "sm": "luga",
-            "en": "top, above, on",
-            "bin": "region",
-            "why": "This noun names a top or upper region."
+            "sm": "lanu",
+            "en": "colour",
+            "bin": "o",
+            "why": "A thing's own quality is given rather than set up."
           },
           {
-            "sm": "tafatafa",
-            "en": "the side of, beside",
-            "bin": "region",
-            "why": "This noun names the side region."
+            "sm": "fale",
+            "en": "house",
+            "bin": "o",
+            "why": "A house lived in is the place its owner belongs to."
           },
           {
-            "sm": "mātū",
-            "en": "North",
-            "bin": "direction",
-            "why": "This is one of the compass direction nouns."
+            "sm": "sipuni",
+            "en": "spoon",
+            "bin": "a",
+            "why": "A spoon is got and used."
           },
           {
-            "sm": "sisifo",
-            "en": "West",
-            "bin": "direction",
-            "why": "This is one of the compass direction nouns."
+            "sm": "leitio",
+            "en": "radio",
+            "bin": "a",
+            "why": "A radio is got and put to use."
           },
           {
-            "sm": "tai",
-            "en": "the direction towards the sea; the sea, the seaside",
-            "bin": "direction",
-            "why": "This noun points along the seaward and inland line."
+            "sm": "uō",
+            "en": "friend",
+            "bin": "a",
+            "why": "A friend is among the people taken into a life."
           },
           {
-            "sm": "uta",
-            "en": "the direction inland; inland",
-            "bin": "direction",
-            "why": "This noun points inland."
+            "sm": "āvā",
+            "en": "wife",
+            "bin": "a",
+            "why": "A spouse is taken on rather than given by birth."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch25-pick-family-a-o",
+      "kind": "pick",
+      "anchor": "where-the-rule-runs-out",
+      "title": "Family words: *a* or *o*?",
+      "intro": "Each family word joins its owner with *a* or with *o*. Choose the one it takes.",
+      "data": {
+        "question": "Which belonging word?",
+        "options": [
+          {
+            "id": "a",
+            "sm": "a"
+          },
+          {
+            "id": "o",
+            "sm": "o"
+          }
+        ],
+        "prompts": [
+          {
+            "sm": "tamā",
+            "en": "father",
+            "answer": "o",
+            "why": "Family by birth is given, not set up by the owner, so a father takes *o*."
+          },
+          {
+            "sm": "fānau",
+            "en": "children",
+            "answer": "a",
+            "why": "One's children are in the *a* group, with what is mostly got, made, or taken on."
+          },
+          {
+            "sm": "āvā",
+            "en": "wife",
+            "answer": "a",
+            "why": "A spouse is in the *a* group: taken on, not given by birth."
+          },
+          {
+            "sm": "ʻO le tama ___ le fafine.",
+            "en": "The son of the woman.",
+            "answer": "a",
+            "why": "A mother's son is joined to her with *a*. Control does not explain it, and no reason for it is known: learn it as a fact."
+          },
+          {
+            "sm": "ʻO le tama ___ le tamāloa.",
+            "en": "The son of the man.",
+            "answer": "o",
+            "why": "A father's son is joined to him with *o*. It is the same person as the son of the woman, with the other belonging word."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch25-sort-possessive-number",
+      "kind": "sort",
+      "anchor": "the-four-sets-of-possessive-forms",
+      "title": "Sort the possessive forms by article choice",
+      "intro": "Use number and specificity to place each printed form.",
+      "data": {
+        "bins": [
+          {
+            "id": "one",
+            "label": "One particular thing"
+          },
+          {
+            "id": "many",
+            "label": "More than one, particular"
+          },
+          {
+            "id": "many-any",
+            "label": "More than one, any ones"
+          }
+        ],
+        "items": [
+          {
+            "sm": "laʻu",
+            "en": "my",
+            "bin": "one",
+            "why": "This form carries the specific article for one thing."
+          },
+          {
+            "sm": "loʻu",
+            "en": "my",
+            "bin": "one",
+            "why": "This is the *o*-word partner for one particular thing."
+          },
+          {
+            "sm": "aʻu",
+            "en": "my",
+            "bin": "many",
+            "why": "The missing article marks a particular plural."
+          },
+          {
+            "sm": "oʻu",
+            "en": "my",
+            "bin": "many",
+            "why": "This is the *o*-word form with the article-less particular plural."
+          },
+          {
+            "sm": "ni aʻu",
+            "en": "some ... of mine",
+            "bin": "many-any",
+            "why": "The non-specific plural article *ni* is visible in the form."
+          },
+          {
+            "sm": "ni oʻu",
+            "en": "some ... of mine",
+            "bin": "many-any",
+            "why": "This is the *o*-word partner with the same non-specific plural article."
           }
         ]
       }

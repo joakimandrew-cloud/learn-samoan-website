@@ -1,64 +1,245 @@
 {
-  "chapter": 10,
+  "chapter": 9,
   "items": [
     {
-      "id": "ch10-house-meaning",
+      "id": "ch9-greeting-and-farewell",
       "kind": "contrast",
-      "anchor": "when-one-word-takes-both",
-      "title": "The belonging word changes the relationship",
-      "caption": "The surrounding words stay the same. The choice between *a* and *o* decides whether the house was built by the boy or is his home.",
+      "anchor": "greetings-and-farewells",
+      "title": "Recognize a greeting and two farewells",
+      "caption": "These are separate printed formulas. The complete greeting reply carries another word that this book does not teach.",
       "data": {
-        "mode": "toggle",
+        "mode": "steps",
         "states": [
-          { "label": "Built by him", "sm": "ʻO le fale a le tama.", "en": "The house the boy built." },
-          { "label": "His home", "sm": "ʻO le fale o le tama.", "en": "The boy's house (the house he lives in)." }
+          {
+            "label": "Greeting",
+            "sm": "Tālofa.",
+            "en": "Hello."
+          },
+          {
+            "label": "Farewell",
+            "sm": "Tōfā soifua.",
+            "en": "Goodbye."
+          },
+          {
+            "label": "A wish of good health",
+            "sm": "Soifua.",
+            "en": "Good health. (a farewell)"
+          }
         ]
       }
     },
     {
-      "id": "ch10-possessive-grid",
+      "id": "ch9-pick-first-meeting",
+      "kind": "pick",
+      "anchor": "thanks-and-asking-politely",
+      "title": "A first meeting, start to finish",
+      "intro": "Read the English, then choose the Sāmoan that says it: the greeting, who you are, thanks, and goodbye.",
+      "data": {
+        "question": "Which says this?",
+        "prompts": [
+          {
+            "en": "Hello.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Tālofa."
+              },
+              {
+                "id": "b",
+                "sm": "Tōfā soifua."
+              },
+              {
+                "id": "c",
+                "sm": "Faʻafetai."
+              }
+            ],
+            "answer": "a",
+            "why": "*Tālofa* opens an encounter, and the person greeted answers with *tālofa* in return."
+          },
+          {
+            "en": "Who are you?",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO ai ʻoe?"
+              },
+              {
+                "id": "b",
+                "sm": "ʻO ai lenā?"
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le ā lenā?"
+              }
+            ],
+            "answer": "a",
+            "why": "*ʻO ai* asks after a person, and *ʻoe* is you. *Lenā* would make it who is that, and *ʻo le ā* asks what."
+          },
+          {
+            "en": "It is me.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO aʻu."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO ʻoe."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO le teine."
+              }
+            ],
+            "answer": "a",
+            "why": "The presenting word *ʻo* in front of *aʻu*, the independent form for I, says it is me."
+          },
+          {
+            "en": "I am a friend.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "ʻO aʻu ʻo se uō."
+              },
+              {
+                "id": "b",
+                "sm": "ʻO ia ʻo se uō."
+              },
+              {
+                "id": "c",
+                "sm": "ʻO se uō le tama."
+              }
+            ],
+            "answer": "a",
+            "why": "The person comes first, and both naming parts take *ʻo*: *ʻo aʻu*, then *ʻo se uō*."
+          },
+          {
+            "en": "Thank you.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Faʻafetai."
+              },
+              {
+                "id": "b",
+                "sm": "Faʻamolemole."
+              },
+              {
+                "id": "c",
+                "sm": "Tālofa."
+              }
+            ],
+            "answer": "a",
+            "why": "*Faʻafetai* is the thanks formula. *Faʻamolemole* is please."
+          },
+          {
+            "en": "Goodbye.",
+            "options": [
+              {
+                "id": "a",
+                "sm": "Tōfā soifua."
+              },
+              {
+                "id": "b",
+                "sm": "Tālofa."
+              },
+              {
+                "id": "c",
+                "sm": "Faʻamolemole."
+              }
+            ],
+            "answer": "a",
+            "why": "To close an encounter, Sāmoan pairs two words of well-being: *Tōfā soifua*."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch9-careful-everyday",
       "kind": "grid",
-      "anchor": "my-your-and-her",
-      "title": "Possessive forms in two columns",
-      "caption": "Each person has an *a*-word form and an *o*-word form. The thing possessed decides the column.",
+      "anchor": "the-everyday-style",
+      "title": "Hear the careful form through everyday speech",
+      "caption": "The everyday style folds sound distinctions together. The chapter asks you to recognize these forms while continuing to speak the careful style.",
       "data": {
-        "rowLabel": "Person",
-        "cols": ["*a*-word", "*o*-word"],
-        "quiz": true,
+        "cols": [
+          "Careful style",
+          "Everyday style"
+        ],
         "rows": [
-          { "label": "My", "cells": [
-            { "sm": "laʻu", "en": "my" },
-            { "sm": "loʻu", "en": "my" }
-          ] },
-          { "label": "Your", "cells": [
-            { "sm": "lau", "en": "your" },
-            { "sm": "lou", "en": "your" }
-          ] },
-          { "label": "His, her, its", "cells": [
-            { "sm": "lana", "en": "his, her, its" },
-            { "sm": "lona", "en": "his, her, its" }
-          ] }
+          {
+            "label": "Hello",
+            "cells": [
+              {
+                "sm": "tālofa",
+                "en": "hello"
+              },
+              {
+                "sm": "kālofa",
+                "en": "hello"
+              }
+            ]
+          },
+          {
+            "label": "Fine or blessed",
+            "cells": [
+              {
+                "sm": "manuia",
+                "en": "fine, blessed"
+              },
+              {
+                "sm": "maguia",
+                "en": "fine, blessed"
+              }
+            ]
+          },
+          {
+            "label": "Thank you",
+            "cells": [
+              {
+                "sm": "faʻafetai",
+                "en": "thank you"
+              },
+              {
+                "sm": "faʻafekai",
+                "en": "thank you"
+              }
+            ]
+          }
         ]
       }
     },
     {
-      "id": "ch10-sort-a-o-words",
-      "kind": "sort",
-      "anchor": "the-belonging-words-a-and-o",
-      "title": "Sort the things by belonging type",
-      "intro": "Place each printed word under the belonging word used with it in this chapter.",
+      "id": "ch9-match-courtesy",
+      "kind": "match",
+      "anchor": "words-to-learn",
+      "title": "Match the courtesy formulas",
+      "intro": "Pair each formula with the meaning printed in this chapter.",
       "data": {
-        "bins": [
-          { "id": "a", "label": "*a*-words" },
-          { "id": "o", "label": "*o*-words" }
-        ],
-        "items": [
-          { "sm": "naifi", "en": "knife", "bin": "a", "why": "A knife is acquired and put to use, so the chapter prints it with *a*." },
-          { "sm": "taʻavale", "en": "car", "bin": "a", "why": "A car is acquired and put to use, so the chapter prints it with *a*." },
-          { "sm": "ipu", "en": "cup", "bin": "a", "why": "The chapter lists a cup among the things acquired and put to use." },
-          { "sm": "ulu", "en": "head", "bin": "o", "why": "A head is part of the person, so the chapter prints it with *o*." },
-          { "sm": "lima", "en": "hand", "bin": "o", "why": "A hand is part of the person, so the chapter prints it with *o*." },
-          { "sm": "vae", "en": "leg, foot", "bin": "o", "why": "A leg or foot is part of the person, so the chapter prints it with *o*." }
+        "pairs": [
+          {
+            "sm": "tālofa",
+            "en": "hello; feel sympathy"
+          },
+          {
+            "sm": "tōfā",
+            "en": "goodbye"
+          },
+          {
+            "sm": "soifua",
+            "en": "good health, life"
+          },
+          {
+            "sm": "faʻafetai",
+            "en": "thank you"
+          },
+          {
+            "sm": "faʻamolemole",
+            "en": "please"
+          },
+          {
+            "sm": "mālō",
+            "en": "congratulate; hi"
+          }
         ]
       }
     }
