@@ -1,4 +1,4 @@
-# Chapter 24: Prohibitions
+# Chapter 25: Prohibitions
 
 This chapter adds the two do-not verbs, *ʻaua* and *sōia*, each standing at the
 head of the sentence in front of the person and verb for what must not be done,
@@ -41,7 +41,7 @@ is already plain from the moment:
 
 > **Preview:** When a forbidden action has a doer acting directly on something,
 > its verb often takes a longer shape than the plain one used here. That longer
-> shape is taught in Chapter 32. The verbs in this chapter keep their plain
+> shape is taught in Chapter 33. The verbs in this chapter keep their plain
 > shape: they either act on nothing, or reach what they act on with the place
 > word *ʻi*, as in *ʻAua ʻe te faʻasāunoa ʻi meaola*.
 
@@ -106,7 +106,7 @@ Like *ʻaua*, *sōia* can stand on its own when what to stop is clear:
 
 > **Preview:** Sāmoan has a second way to forbid something, by naming the
 > forbidden action as a thing rather than spelling it out with a person and a
-> verb. That form is taught in Chapter 35. Until then, forbid an action with the
+> verb. That form is taught in Chapter 36. Until then, forbid an action with the
 > person-and-verb pattern of this chapter.
 
 ---

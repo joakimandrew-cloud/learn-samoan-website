@@ -17,7 +17,7 @@ const pad = n => String(n).padStart(2, '0')
 describe('synced course', () => {
   it('has every chapter in order', () => {
     expect(chapters.map(c => c.chapter)).toEqual(Array.from({ length: chapters.length }, (_, i) => i + 1))
-    expect(chapters.length).toBe(51)
+    expect(chapters.length).toBe(52)
   })
 
   it('keeps author-only material out of every learner copy', () => {

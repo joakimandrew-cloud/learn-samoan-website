@@ -13,7 +13,7 @@ const APP = path.join(__dirname, '..')
 const fixture = JSON.parse(fs.readFileSync(path.join(APP, 'src/premium/components/interactive/fixtures/grid.json'), 'utf8'))
 
 it('renders printed italic spans inside cell meanings without exposing Markdown', () => {
-  const chapter = JSON.parse(fs.readFileSync(path.join(APP, 'src/data/interactives/08.json'), 'utf8'))
+  const chapter = JSON.parse(fs.readFileSync(path.join(APP, 'src/data/interactives/09.json'), 'utf8'))
   const html = renderToStaticMarkup(createElement(Grid, { data: chapter.items[0].data }))
   expect(html).not.toContain('*ʻo*')
   expect(html).not.toContain('*ʻo le*')

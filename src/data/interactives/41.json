@@ -1,8 +1,8 @@
 {
-  "chapter": 40,
+  "chapter": 41,
   "items": [
     {
-      "id": "ch40-description-position",
+      "id": "ch41-description-position",
       "kind": "contrast",
       "anchor": "the-describing-verb-after-a-noun",
       "title": "A statement becomes a description",
@@ -26,7 +26,7 @@
       "caption": "The describing word keeps its shape and remains a verb. Its position changes what the whole expression does."
     },
     {
-      "id": "ch40-description-number",
+      "id": "ch41-description-number",
       "kind": "contrast",
       "anchor": "plural-describing-verbs-after-a-noun",
       "title": "The describing verb has number too",
@@ -48,7 +48,7 @@
       "caption": "The article disappears for the particular plural, and the describing verb takes its plural form. This is the agreement pattern taught for the noun as the verb’s single participant."
     },
     {
-      "id": "ch40-description-kinds",
+      "id": "ch41-description-kinds",
       "kind": "sort",
       "anchor": "describing-verbs-in-a-row",
       "title": "What fills the describing slot?",
@@ -101,7 +101,7 @@
       "intro": "Choose the kind of description after the noun."
     },
     {
-      "id": "ch40-order-describing-words",
+      "id": "ch41-order-describing-words",
       "kind": "order",
       "anchor": "the-describing-verb-after-a-noun",
       "place": "end",
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "ch40-difficult-easy",
+      "id": "ch41-difficult-easy",
       "kind": "grid",
       "anchor": "the-endings-gata-and-gofie",
       "title": "Learn the meanings of the built words",

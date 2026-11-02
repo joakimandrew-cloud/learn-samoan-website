@@ -1,8 +1,8 @@
 {
-  "chapter": 41,
+  "chapter": 42,
   "items": [
     {
-      "id": "ch41-agent-review",
+      "id": "ch42-agent-review",
       "kind": "contrast",
       "anchor": "who-did-what-to-whom",
       "title": "A report, an agentless report, a prohibition",
@@ -32,7 +32,7 @@
       "caption": "Review three uses of the same verb. The last sentence follows a firm command rule, while the ordinary report uses the short form as its default."
     },
     {
-      "id": "ch41-clause-review",
+      "id": "ch42-clause-review",
       "kind": "sort",
       "anchor": "reasons-purposes-and-conditions",
       "title": "Read the relationship between clauses",

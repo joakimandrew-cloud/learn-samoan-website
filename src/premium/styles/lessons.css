@@ -15,7 +15,7 @@
 .resume-ex .to { color: #fff; font-size: 19px; margin-right: 6px; }
 .resume .btn { width: 100%; }
 .resume-meter { margin-top: 22px; display: flex; flex-direction: column; gap: 8px; font-size: 13px; color: var(--on-band-muted); }
-.resume-bars { display: grid; grid-template-columns: repeat(var(--bars, 51), 1fr); gap: 2px; }
+.resume-bars { display: grid; grid-template-columns: repeat(var(--bars, 52), 1fr); gap: 2px; }
 .resume-bars i { height: 8px; border-radius: 2px; background: rgba(255,255,255,.1); }
 .resume-bars i.on { background: var(--orange); }
 

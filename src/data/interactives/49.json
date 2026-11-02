@@ -1,8 +1,8 @@
 {
-  "chapter": 48,
+  "chapter": 49,
   "items": [
     {
-      "id": "ch48-mood-jobs",
+      "id": "ch49-mood-jobs",
       "kind": "grid",
       "anchor": "the-four-mood-particles",
       "title": "Four particles, four jobs",
@@ -56,7 +56,7 @@
       "caption": "Mood particles fill the tense particle’s slot but say how the event is wanted, waited for or warned against, rather than when it happens."
     },
     {
-      "id": "ch48-purpose-link",
+      "id": "ch49-purpose-link",
       "kind": "contrast",
       "anchor": "saying-what-an-action-is-for",
       "title": "Purpose with or without a joining word",
@@ -80,7 +80,7 @@
       "caption": "Both printed sentences express what the praying is for. The first one marks the link with *ʻina*."
     },
     {
-      "id": "ch48-mood-reading",
+      "id": "ch49-mood-reading",
       "kind": "pick",
       "anchor": "the-until-particle-seia",
       "title": "Read the mood in its clause",
@@ -130,7 +130,7 @@
       "intro": "Use the whole sentence to identify the job of the mood clause."
     },
     {
-      "id": "ch48-warning-order",
+      "id": "ch49-warning-order",
       "kind": "contrast",
       "anchor": "after-the-do-not-verb",
       "title": "The pronoun changes sides",
@@ -154,7 +154,7 @@
       "caption": "Both printed forms forbid dancing. The pronoun comes before *te* and after *neʻi*, so changing the particle changes their order."
     },
     {
-      "id": "ch48-pick-let-or-may",
+      "id": "ch49-pick-let-or-may",
       "kind": "pick",
       "anchor": "the-wish-and-permission-particle-sei",
       "place": "lead",

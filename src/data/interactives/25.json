@@ -1,8 +1,8 @@
 {
-  "chapter": 24,
+  "chapter": 25,
   "items": [
     {
-      "id": "ch24-dont-or-stop",
+      "id": "ch25-dont-or-stop",
       "kind": "contrast",
       "anchor": "the-stop-verb-soia",
       "title": "Forbid an action or stop one under way",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "id": "ch24-four-negative-tools",
+      "id": "ch25-four-negative-tools",
       "kind": "grid",
       "anchor": "a-command-has-no-not-word",
       "title": "Four negative tools for four jobs",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "ch24-pick-aua-soia",
+      "id": "ch25-pick-aua-soia",
       "kind": "pick",
       "anchor": "the-stop-verb-soia",
       "title": "Choose do not or stop",

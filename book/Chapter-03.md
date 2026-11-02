@@ -55,11 +55,11 @@ describing verb sitting after an action verb tells you how the action was done.
 
 > **Preview:** When more than one person is involved, a describing verb can change
 > its shape to match, the way an action verb does. Those plural forms are taught
-> in Chapter 19.
+> in Chapter 20.
 
 > **Preview:** These describing verbs will also attach to the names of things once
 > you have them, a happy child or a deep hole, and there each one works like a
-> small sentence of its own. That fuller picture is completed in Chapter 40.
+> small sentence of its own. That fuller picture is completed in Chapter 41.
 
 ---
 
@@ -89,7 +89,7 @@ comes before it. The same order holds for every verb taught so far, down to
 
 > **Preview:** With the past particle *sā*, *fia* says "wanted". To say "want" as
 > something felt right now, in the present, Sāmoan uses a different particle
-> for the present-tense job. You meet it in Chapter 13. Until then, every *fia*
+> for the present-tense job. You meet it in Chapter 14. Until then, every *fia*
 > sentence you build is about what someone wanted.
 
 ---

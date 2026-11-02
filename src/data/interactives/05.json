@@ -1,8 +1,8 @@
 {
-  "chapter": 4,
+  "chapter": 5,
   "items": [
     {
-      "id": "ch4-tense-line",
+      "id": "ch5-tense-line",
       "kind": "contrast",
       "anchor": "the-four-tense-particles",
       "title": "One sentence across four particles",
@@ -13,14 +13,14 @@
           {
             "label": "*sā*",
             "sm": "Sā ʻou alu.",
-            "en": "I went.",
-            "note": "This past presents how things were over a stretch of time."
+            "en": "I went (how things were: I was going, I used to go).",
+            "note": "That's how it was: a stretch of time back then."
           },
           {
             "label": "*na*",
             "sm": "Na ʻou alu.",
-            "en": "I went.",
-            "note": "This past presents a single, bounded, finished, or unexpected event."
+            "en": "I went (one trip, begun and finished).",
+            "note": "It happened: one event, a moment you could point to."
           },
           {
             "label": "*ʻua*",
@@ -38,11 +38,11 @@
       }
     },
     {
-      "id": "ch4-state-and-change",
+      "id": "ch5-state-and-change",
       "kind": "contrast",
       "anchor": "the-change-particle-ua",
       "title": "Past state and present change",
-      "caption": "The past particle closes off the earlier state. The change particle reports what holds after the change.",
+      "caption": "The past particle places the earlier state back then. The change particle reports what holds after the change.",
       "data": {
         "mode": "steps",
         "states": [
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "ch4-type-state-verbs",
+      "id": "ch5-type-state-verbs",
       "kind": "type",
       "anchor": "words-to-learn",
       "title": "Type the state words",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "ch4-pick-fill-the-word",
+      "id": "ch5-pick-fill-the-word",
       "kind": "pick",
       "anchor": "words-to-learn",
       "place": "end",

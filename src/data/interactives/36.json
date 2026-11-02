@@ -1,8 +1,8 @@
 {
-  "chapter": 35,
+  "chapter": 36,
   "items": [
     {
-      "id": "ch35-negative-event",
+      "id": "ch36-negative-event",
       "kind": "contrast",
       "anchor": "the-verb-inside-the-phrase",
       "title": "Put the not-word inside the event",
@@ -26,7 +26,7 @@
       "caption": "The word inside the phrase is still a verb, so it can take the not-word. No tense particle stands inside a le-phrase."
     },
     {
-      "id": "ch35-read-event",
+      "id": "ch36-read-event",
       "kind": "pick",
       "anchor": "the-verb-inside-the-phrase",
       "title": "Which event does the phrase name?",
@@ -67,7 +67,7 @@
       "intro": "Read the English carefully, including whether the event is denied."
     },
     {
-      "id": "ch35-number-event",
+      "id": "ch36-number-event",
       "kind": "contrast",
       "anchor": "number-inside-the-phrase",
       "title": "Number stays inside the verb",

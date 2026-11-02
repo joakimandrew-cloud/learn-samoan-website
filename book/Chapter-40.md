@@ -1,4 +1,4 @@
-# Chapter 39: Conditionals and When-Clauses
+# Chapter 40: Conditionals and When-Clauses
 
 This chapter adds the condition clause, which says what has to be true before
 the rest of the sentence can happen, and teaches its two shapes: the one opened
@@ -58,7 +58,7 @@ The word *tonu*, met earlier as "right, correct", stands here as a noun meaning
 > **Preview:** Sāmoan has a second if-word for a condition the speaker knows did
 > not come true and is only imagining, which is the kind of sentence English
 > builds with "if I had" and "if I were". That word is not *ʻāfai*, and it works
-> differently. It is taught in Chapter 49. The conditions in this chapter are the
+> differently. It is taught in Chapter 50. The conditions in this chapter are the
 > real kind, not imagined ones.
 
 ---
@@ -153,7 +153,7 @@ one thing happened, another used to follow.
 > **Preview:** A condition clause opened by *ʻā* says what has to happen first.
 > English says how long something goes on before that point with "until", and
 > Sāmoan says it with a particle of its own. That particle belongs with the mood
-> particles and is taught in Chapter 48.
+> particles and is taught in Chapter 49.
 
 ---
 

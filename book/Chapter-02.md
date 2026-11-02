@@ -148,11 +148,11 @@ later in this book; *ʻia te aʻu* and *ʻia te ʻoe* are the pieces you need no
 
 > **Preview:** Alongside the everyday "I", Sāmoan carries other first-person
 > forms that colour a sentence with feeling, often used to show humility or to
-> appeal for help. You meet them in Chapter 51.
+> appeal for help. You meet them in Chapter 52.
 
 > **Preview:** A middle-slot pronoun can be paired with its independent twin in
 > the same sentence for emphasis, the way English leans on "I myself". The full
-> pattern is taught in Chapter 34.
+> pattern is taught in Chapter 35.
 
 ---
 

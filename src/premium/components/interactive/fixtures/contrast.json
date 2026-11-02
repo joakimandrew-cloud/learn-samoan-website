@@ -1,5 +1,5 @@
 {
-  "chapter": 28,
+  "chapter": 29,
   "items": [
     {
       "id": "ch1-tune",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "id": "ch28-make-sleep",
+      "id": "ch29-make-sleep",
       "kind": "contrast",
       "anchor": "making-something-happen",
       "title": "From sleeping to putting to sleep",

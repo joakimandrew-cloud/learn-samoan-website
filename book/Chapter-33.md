@@ -1,4 +1,4 @@
-# Chapter 32: Short and Long Verb Forms
+# Chapter 33: Short and Long Verb Forms
 
 This chapter introduces the long form of the verb, a second shape that verbs
 taking the agent marker carry beside the plain one, and shows you how to build
@@ -198,8 +198,8 @@ sentence puts weight on the doer.
 > **Preview:** The long form is preferred in other places too, and in most of
 > them the weight is on the doer. Two of those come later in this book: a
 > sentence that moves a named doer to the front, standing where the question
-> word stood above, taught in Chapter 34, and a clause that describes the doer,
-> taught in Chapter 43. The long form is also usual where the thing acted on is
+> word stood above, taught in Chapter 35, and a clause that describes the doer,
+> taught in Chapter 44. The long form is also usual where the thing acted on is
 > not affected, as in a not-sentence like the first pair of this chapter. Until
 > then, the two command rules above are what to build on.
 

@@ -10,7 +10,7 @@ import '../../styles/drill.css'
 import '../../styles/quiz.css'
 import '../../styles/cards.css'
 
-// Every sentence, option and note is read from the Chapter 4 tense figure.
+// Every sentence, option and note is read from the Chapter 5 tense figure.
 function DrillScene({ frame, cards, still }) {
   const card = cards[frame.exampleIndex]
   const correct = card.options[card.t]
@@ -70,9 +70,9 @@ export default function PracticeFilm({ surface, autoCycle, playing, setPlaying, 
 
   useEffect(() => {
     let live = true
-    if (surface.id === 'drills') import('@app/data/interactives/04.json').then(data => {
+    if (surface.id === 'drills') import('@app/data/interactives/05.json').then(data => {
       const cards = drillPreviewCards(findDrillPreviewItem(data.default))
-      if (!cards.length) throw new Error('Missing the Chapter 4 tense figure')
+      if (!cards.length) throw new Error('Missing the Chapter 5 tense figure')
       if (live) setSample(cards)
     }).catch(() => { if (live) setFailed(true) })
     if (surface.id === 'quizzes') import('@app/data/quizzes.json').then(data => { if (live) setSample(data.default['1'].questions.find(question => question.id === 'q2')) }).catch(() => { if (live) setFailed(true) })

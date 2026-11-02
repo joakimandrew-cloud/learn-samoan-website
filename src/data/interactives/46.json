@@ -1,8 +1,8 @@
 {
-  "chapter": 45,
+  "chapter": 46,
   "items": [
     {
-      "id": "ch45-intentional-hearing",
+      "id": "ch46-intentional-hearing",
       "kind": "contrast",
       "anchor": "hearing-and-seeing",
       "title": "Listening on purpose or hearing by accident",
@@ -26,7 +26,7 @@
       "caption": "The same verb takes both belonging words with different readings. Hearing and seeing are the pair the chapter shows doing this."
     },
     {
-      "id": "ch45-forced-o",
+      "id": "ch46-forced-o",
       "kind": "pick",
       "anchor": "when-the-choice-is-made-for-you",
       "title": "What closes the choice?",
@@ -67,7 +67,7 @@
       "intro": "Find the word inside the event that settles the belonging word before the doer test can run."
     },
     {
-      "id": "ch45-two-participants",
+      "id": "ch46-two-participants",
       "kind": "contrast",
       "anchor": "the-doer-that-keeps-e",
       "title": "Two participants, either order",

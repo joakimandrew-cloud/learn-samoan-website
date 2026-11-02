@@ -2,7 +2,7 @@
 
 Each chapter page can carry figures (they illustrate a point) and practice
 (the learner answers). They live here, one file per chapter: `NN.json`
-(`01.json` to `51.json`). The chapter page places each one after a heading of
+(`01.json` to `52.json`). The chapter page places each one after a heading of
 the chapter, numbers the figures (Figure 7.1, 7.2...) and wraps practice in
 the "Interactive practice" band, the same frames the Tongan site uses.
 

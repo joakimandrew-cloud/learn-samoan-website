@@ -1,8 +1,8 @@
 {
-  "chapter": 26,
+  "chapter": 27,
   "items": [
     {
-      "id": "ch4-tense-line",
+      "id": "ch5-tense-line",
       "kind": "scale",
       "anchor": "the-spatial-noun-frame",
       "title": "The tense line",
@@ -19,7 +19,7 @@
             "label": "sā",
             "gloss": "past",
             "sm": "Sā ʻou alu.",
-            "en": "I went.",
+            "en": "I went (how things were: I was going, I used to go).",
             "note": "The past of how things were: states and habits that held over a stretch of time."
           },
           {
@@ -27,8 +27,8 @@
             "label": "na",
             "gloss": "second past",
             "sm": "Na ʻou alu.",
-            "en": "I went.",
-            "note": "The past of a single, bounded event, a thing that happened once. The plain English \"I went\" fits both pasts."
+            "en": "I went (one trip, begun and finished).",
+            "note": "It happened: one event, a moment you could point to."
           },
           {
             "x": 58,
@@ -50,7 +50,7 @@
       }
     },
     {
-      "id": "ch26-compass",
+      "id": "ch27-compass",
       "kind": "scale",
       "anchor": "the-directions",
       "title": "The compass",

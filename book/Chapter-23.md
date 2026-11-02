@@ -1,4 +1,4 @@
-# Chapter 22: Numbers, Prices, and Time of Day
+# Chapter 23: Numbers, Prices, and Time of Day
 
 This chapter teaches the counting construction: a Sāmoan number is a kind of
 verb, so the number of particular things is set after the noun with the general
@@ -144,7 +144,7 @@ people: *fia* becomes *toʻafia*.
 > **Preview:** Sāmoan also has number forms that mean "so many each", the shape
 > that spreads a number over each thing or each person in a group, as in "five
 > each" or "each day". They are made by a piece added to the front of the number,
-> introduced in a later chapter and completed in Chapter 50. This chapter counts
+> introduced in a later chapter and completed in Chapter 51. This chapter counts
 > how many there are, not how many each.
 
 ---

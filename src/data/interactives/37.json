@@ -1,8 +1,8 @@
 {
-  "chapter": 36,
+  "chapter": 37,
   "items": [
     {
-      "id": "ch36-matching-tense",
+      "id": "ch37-matching-tense",
       "kind": "contrast",
       "anchor": "matching-the-tense-particle",
       "title": "Repeat the tense particle or leave it out",
@@ -26,7 +26,7 @@
       "caption": "Both shapes are printed and both are good Sāmoan. The chapter treats the choice as style rather than meaning."
     },
     {
-      "id": "ch36-clause-links",
+      "id": "ch37-clause-links",
       "kind": "sort",
       "anchor": "holding-two-events-together-with-ao",
       "title": "Sort the links between clauses",
@@ -75,7 +75,7 @@
       "intro": "Choose the kind of link the joining word makes between the two clauses."
     },
     {
-      "id": "ch36-before-pair",
+      "id": "ch37-before-pair",
       "kind": "contrast",
       "anchor": "saying-what-came-before",
       "title": "Two ways to say before",

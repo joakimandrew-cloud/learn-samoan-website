@@ -89,7 +89,7 @@ function page(route) {
     `<meta property="og:image" content="${esc(socialImage)}" />`,
     `<meta property="og:image:width" content="1200" />`,
     `<meta property="og:image:height" content="630" />`,
-    `<meta property="og:image:alt" content="Learn Sāmoan, a free course in 51 chapters" />`,
+    `<meta property="og:image:alt" content="Learn Sāmoan, a free course in 52 chapters" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${esc(route.title)}" />`,
     `<meta name="twitter:description" content="${esc(route.description)}" />`,

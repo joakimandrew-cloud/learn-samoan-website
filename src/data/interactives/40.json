@@ -1,8 +1,8 @@
 {
-  "chapter": 39,
+  "chapter": 40,
   "items": [
     {
-      "id": "ch39-if-when",
+      "id": "ch40-if-when",
       "kind": "contrast",
       "anchor": "the-condition-clause-without-a-joining-word",
       "title": "Two ways to open a condition",
@@ -26,7 +26,7 @@
       "caption": "The condition comes first in both. The second shape has no separate joining word before its short future particle."
     },
     {
-      "id": "ch39-condition-certainty",
+      "id": "ch40-condition-certainty",
       "kind": "contrast",
       "anchor": "the-tense-particle-in-a-condition-clause",
       "title": "An open condition or an expected one",
@@ -50,7 +50,7 @@
       "caption": "The if-word stays in place. The tense particle inside the condition changes how expected the condition is."
     },
     {
-      "id": "ch39-condition-location",
+      "id": "ch40-condition-location",
       "kind": "pick",
       "anchor": "putting-the-condition-second",
       "title": "Find the condition in the sentence",

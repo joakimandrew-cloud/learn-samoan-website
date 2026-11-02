@@ -1,4 +1,4 @@
-# Chapter 40: Modifiers in Depth
+# Chapter 41: Modifiers in Depth
 
 This chapter takes the describing verb into the noun phrase, where it stands
 after the name of a thing instead of after an action, and adds the two compound
@@ -67,7 +67,7 @@ have died.
 > **Preview:** The phrase with *e* in it above is a full clause standing inside a
 > noun phrase. Sāmoan builds those with a tense particle, and in some of them,
 > depending on the part the noun plays inside the clause, with a pointing-back
-> word as well. That whole construction is taught in Chapter 43.
+> word as well. That whole construction is taught in Chapter 44.
 
 The describing slot holds more than a single word. A describing verb can carry a
 place phrase behind it, and the whole of it still stands in the one position.

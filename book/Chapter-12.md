@@ -1,4 +1,4 @@
-# Chapter 11: Location and Direction
+# Chapter 12: Location and Direction
 
 This chapter introduces the place word *ʻi*, which sets an action in a place or
 sends it toward one, and the from-word *mai*, which marks where something
@@ -95,7 +95,7 @@ sits or is headed, the from-word for where it began.
 
 > **Preview:** Sāmoan also has words that name a spot on their own, like "up" and
 > "down" and "inside". They work together with the place word *ʻi*, and they are
-> completed in Chapter 26.
+> completed in Chapter 27.
 
 ---
 

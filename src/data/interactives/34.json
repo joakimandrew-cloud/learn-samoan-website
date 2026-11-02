@@ -1,8 +1,8 @@
 {
-  "chapter": 33,
+  "chapter": 34,
   "items": [
     {
-      "id": "ch33-report-time",
+      "id": "ch34-report-time",
       "kind": "contrast",
       "anchor": "reporting-what-someone-knew",
       "title": "Move the report, keep its clause",
@@ -26,7 +26,7 @@
       "caption": "The first tense particle changes. The reported clause stays word for word the same, while English changes has come to had come."
     },
     {
-      "id": "ch33-ongoing-report",
+      "id": "ch34-ongoing-report",
       "kind": "contrast",
       "anchor": "the-tense-particle-inside-the-report",
       "title": "Staying at the time of the report",
@@ -48,7 +48,7 @@
       "caption": "The happening-now particle inside the report places the staying at the same time as the knowing, whether that knowing is now or in the past."
     },
     {
-      "id": "ch33-kind-of-report",
+      "id": "ch34-kind-of-report",
       "kind": "pick",
       "anchor": "asking-in-a-report-pe",
       "title": "What is being passed on?",

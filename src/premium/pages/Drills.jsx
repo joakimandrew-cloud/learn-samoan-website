@@ -99,7 +99,7 @@ export default function Drills() {
         <div className="catalog-tools">
           <label className="catalog-search">
             <span>Search drills</span>
-            <input ref={searchRef} type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Try question, tense, chapter 4" />
+            <input ref={searchRef} type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Try question, tense, chapter 5" />
           </label>
           <div className="catalog-filters" role="group" aria-label="Filter drills by level">
             {LEVEL_FILTERS.map(([key, label]) => (

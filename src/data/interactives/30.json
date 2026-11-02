@@ -1,8 +1,8 @@
 {
-  "chapter": 29,
+  "chapter": 30,
   "items": [
     {
-      "id": "ch29-wait-direction",
+      "id": "ch30-wait-direction",
       "kind": "contrast",
       "anchor": "the-six-direction-words",
       "title": "The same verb, a different direction",
@@ -26,7 +26,7 @@
       "caption": "The last word turns the waiting toward or away from the speaker. The English translations include the situation in which each phrase is used."
     },
     {
-      "id": "ch29-event-directions",
+      "id": "ch30-event-directions",
       "kind": "scale",
       "anchor": "up-and-down-ae-and-ifo",
       "title": "Directions measured from the event",
@@ -59,7 +59,7 @@
       "caption": "These three words take their bearings from the event or thing itself. This is a schematic map of their directions, not a compass."
     },
     {
-      "id": "ch29-read-direction",
+      "id": "ch30-read-direction",
       "kind": "pick",
       "anchor": "a-direction-word-inside-a-spatial-noun",
       "title": "Hear the direction",

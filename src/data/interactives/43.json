@@ -1,8 +1,8 @@
 {
-  "chapter": 42,
+  "chapter": 43,
   "items": [
     {
-      "id": "ch42-belonging-forms",
+      "id": "ch43-belonging-forms",
       "kind": "grid",
       "anchor": "the-belonging-forms",
       "title": "The owner keeps a belonging word",
@@ -107,7 +107,7 @@
       "caption": "Every owner here has both types, and the belonging word is required in the belonging-sentence. This book does not teach a form for one person addressed."
     },
     {
-      "id": "ch42-predication-phrase",
+      "id": "ch43-predication-phrase",
       "kind": "contrast",
       "anchor": "the-belonging-word-stays-in",
       "title": "The belonging-sentence must show the type",
@@ -131,7 +131,7 @@
       "caption": "The two printed forms put ownership in different slots. Only the belonging-sentence requires the type to be printed for every owner."
     },
     {
-      "id": "ch42-whose-question",
+      "id": "ch43-whose-question",
       "kind": "pick",
       "anchor": "asking-whose",
       "title": "Keep the type in the whose-question",

@@ -6,12 +6,12 @@
     "drills": [
       "ch1-order",
       "ch1-which",
-      "ch7-pick-naming-sentence",
-      "ch12-order-two-participants",
-      "ch17-pick-location-negative",
-      "ch23-pick-sentence-type",
-      "ch34-first-phrase",
-      "ch37-recognise-pair"
+      "ch8-pick-naming-sentence",
+      "ch13-order-two-participants",
+      "ch18-pick-location-negative",
+      "ch24-pick-sentence-type",
+      "ch35-first-phrase",
+      "ch38-recognise-pair"
     ],
     "inChapters": []
   },
@@ -20,17 +20,17 @@
     "name": "Tense and the verb",
     "note": "The particles in front of the verb, commands, and the verb's own forms.",
     "drills": [
-      "ch4-type-state-verbs",
-      "ch4-pick-fill-the-word",
-      "ch5-type-commands",
-      "ch13-sort-general-now",
-      "ch15-sort-negative",
-      "ch19-type-plural-forms",
-      "ch24-pick-aua-soia",
-      "ch30-read-complement",
-      "ch32-command-rules",
-      "ch48-mood-reading",
-      "ch48-pick-let-or-may"
+      "ch5-type-state-verbs",
+      "ch5-pick-fill-the-word",
+      "ch6-type-commands",
+      "ch14-sort-general-now",
+      "ch16-sort-negative",
+      "ch20-type-plural-forms",
+      "ch25-pick-aua-soia",
+      "ch31-read-complement",
+      "ch33-command-rules",
+      "ch49-mood-reading",
+      "ch49-pick-let-or-may"
     ],
     "inChapters": []
   },
@@ -39,13 +39,13 @@
     "name": "Articles, markers and counting",
     "note": "Which one, who did it, and how many.",
     "drills": [
-      "ch6-sort-article-phrases",
-      "ch6-pick-one-or-many",
-      "ch20-pick-nofo-nonofo",
-      "ch22-sort-number-phrases",
-      "ch27-doer-choice",
-      "ch27-pick-read-it-back",
-      "ch51-pick-feeling-article"
+      "ch7-sort-article-phrases",
+      "ch7-pick-one-or-many",
+      "ch21-pick-nofo-nonofo",
+      "ch23-sort-number-phrases",
+      "ch28-doer-choice",
+      "ch28-pick-read-it-back",
+      "ch52-pick-feeling-article"
     ],
     "inChapters": []
   },
@@ -56,15 +56,15 @@
     "drills": [
       "ch2-type-independent-forms",
       "ch2-pick-which-we",
-      "ch10-sort-a-o-words",
-      "ch14-sort-there-is",
-      "ch25-sort-a-o",
-      "ch25-sort-possessive-number",
-      "ch25-pick-owner-after-thing",
-      "ch25-pick-family-a-o",
-      "ch42-whose-question",
-      "ch45-forced-o",
-      "ch51-read-belonging"
+      "ch11-sort-a-o-words",
+      "ch15-sort-there-is",
+      "ch26-sort-a-o",
+      "ch26-sort-possessive-number",
+      "ch26-pick-owner-after-thing",
+      "ch26-pick-family-a-o",
+      "ch43-whose-question",
+      "ch46-forced-o",
+      "ch52-read-belonging"
     ],
     "inChapters": []
   },
@@ -73,13 +73,13 @@
     "name": "Questions, place and direction",
     "note": "Asking, locating, and pointing the verb the right way.",
     "drills": [
-      "ch8-match-question-words",
-      "ch11-sort-place-direction",
-      "ch16-sort-ai-i-ai",
-      "ch21-pick-question-word",
-      "ch21-pick-question-answer",
-      "ch26-sort-space-direction",
-      "ch29-read-direction"
+      "ch9-match-question-words",
+      "ch12-sort-place-direction",
+      "ch17-sort-ai-i-ai",
+      "ch22-pick-question-word",
+      "ch22-pick-question-answer",
+      "ch27-sort-space-direction",
+      "ch30-read-direction"
     ],
     "inChapters": []
   },
@@ -88,14 +88,14 @@
     "name": "Joining clauses",
     "note": "Reasons, purposes, conditions, time and reports: how one clause leans on another.",
     "drills": [
-      "ch33-kind-of-report",
-      "ch36-clause-links",
-      "ch38-purpose-reason",
-      "ch39-condition-location",
-      "ch41-clause-review",
-      "ch43-missing-spot",
-      "ch44-time-tools",
-      "ch49-relations"
+      "ch34-kind-of-report",
+      "ch37-clause-links",
+      "ch39-purpose-reason",
+      "ch40-condition-location",
+      "ch42-clause-review",
+      "ch44-missing-spot",
+      "ch45-time-tools",
+      "ch50-relations"
     ],
     "inChapters": []
   },
@@ -104,15 +104,15 @@
     "name": "Shaping words and phrases",
     "note": "Built words, describing words, comparisons and event phrases.",
     "drills": [
-      "ch28-read-built",
-      "ch31-alike-or-agree",
-      "ch35-read-event",
-      "ch40-description-kinds",
-      "ch40-order-describing-words",
-      "ch46-phrase-use",
-      "ch47-read-slot",
-      "ch50-built-meaning",
-      "ch50-pick-one-another"
+      "ch29-read-built",
+      "ch32-alike-or-agree",
+      "ch36-read-event",
+      "ch41-description-kinds",
+      "ch41-order-describing-words",
+      "ch47-phrase-use",
+      "ch48-read-slot",
+      "ch51-built-meaning",
+      "ch51-pick-one-another"
     ],
     "inChapters": []
   },
@@ -123,11 +123,11 @@
     "drills": [
       "daily-words",
       "ch3-match-verb-jobs",
-      "ch9-match-courtesy",
-      "ch9-pick-first-meeting",
-      "ch18-sort-time-words",
-      "ch31-comparison-words",
-      "ch37-story-words"
+      "ch10-match-courtesy",
+      "ch10-pick-first-meeting",
+      "ch19-sort-time-words",
+      "ch32-comparison-words",
+      "ch38-story-words"
     ],
     "inChapters": []
   }

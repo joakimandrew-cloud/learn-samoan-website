@@ -1,8 +1,8 @@
 {
-  "chapter": 37,
+  "chapter": 38,
   "items": [
     {
-      "id": "ch37-then-shapes",
+      "id": "ch38-then-shapes",
       "kind": "contrast",
       "anchor": "the-shorter-shapes-of-the-then-construction",
       "title": "The full pair and its shorter shapes",
@@ -32,7 +32,7 @@
       "caption": "These are next-event examples from a story: a text needs something before them. Modern writing keeps the full pair; speech also uses the shorter shapes."
     },
     {
-      "id": "ch37-recognise-pair",
+      "id": "ch38-recognise-pair",
       "kind": "pick",
       "anchor": "the-shorter-shapes-of-the-then-construction",
       "title": "Which parts of the pair remain?",
@@ -73,7 +73,7 @@
       "intro": "Find the opening and closing words, without treating the extra then-word as part of the pair."
     },
     {
-      "id": "ch37-story-words",
+      "id": "ch38-story-words",
       "kind": "match",
       "anchor": "words-to-learn",
       "title": "Recall the story words",

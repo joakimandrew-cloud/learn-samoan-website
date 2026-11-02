@@ -1,4 +1,4 @@
-# Chapter 21: Question Words
+# Chapter 22: Question Words
 
 This chapter adds the set of question words for the verb sentence, with who,
 when (future and past) and how put to use, and what and where recalled from
@@ -51,13 +51,13 @@ recognize when you meet it; this chapter does not drill it.
 
 > **Preview:** The word *fia* asks "how many". It belongs with the counting
 > words, so its full use, as in *E fia aso?* ("How many days are there?"), is
-> taught with the numbers in Chapter 22.
+> taught with the numbers in Chapter 23.
 
 > *Note:* The *fia* that asks "how many" is a different word from the *fia*
 > "want" met earlier in this book. Same spelling, different job.
 
 > **Preview:** The word *ʻaiseā* asks "why". Asking why leans on machinery that
-> arrives later, so *ʻaiseā* is completed in Chapter 38.
+> arrives later, so *ʻaiseā* is completed in Chapter 39.
 
 ---
 

@@ -1,8 +1,8 @@
 {
-  "chapter": 7,
+  "chapter": 8,
   "items": [
     {
-      "id": "ch7-naming-articles",
+      "id": "ch8-naming-articles",
       "kind": "contrast",
       "anchor": "naming-without-a-verb",
       "title": "The naming part chooses its article",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "ch7-pointing-builder",
+      "id": "ch8-pointing-builder",
       "kind": "builder",
       "anchor": "pointing-something-out",
       "title": "Point to the thing in view",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "ch7-pick-naming-sentence",
+      "id": "ch8-pick-naming-sentence",
       "kind": "pick",
       "anchor": "naming-a-person",
       "title": "Choose the naming sentence",

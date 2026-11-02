@@ -1,4 +1,4 @@
-# Chapter 41: Checkpoint 2: The Intermediate Consolidation
+# Chapter 42: Checkpoint 2: The Intermediate Consolidation
 
 This chapter adds no new grammar and no new words, and consolidates the
 Intermediate band, from the do-not verbs and the agent marker to the condition
@@ -176,7 +176,7 @@ ordinary slot empty, and the English stays the same. When the thing acted on
 goes first, the verb mostly keeps its short form. When the doer goes first, the
 verb usually takes the long form. Both are tendencies, unlike the two command
 rules. What moves is the whole phrase, however many words it runs to. Other
-fronting patterns from Chapter 34 work differently, such as a phrase headed by
+fronting patterns from Chapter 35 work differently, such as a phrase headed by
 "only" or "any", which goes first with no *ʻo*, and they are not drilled here.
 
 ### Exercise 6: Put the phrase in brackets first
@@ -209,7 +209,7 @@ has two forms, use the one speakers usually choose.
 
 The with-word *ma* joins two clauses, and when the second clause carries a
 tense particle it repeats the one in front of the first. The exception is the
-one Chapter 36 set aside in a Note: a pointing phrase standing straight after
+one Chapter 37 set aside in a Note: a pointing phrase standing straight after
 *ma*. The but-word *ʻae*
 opens the second of two contrasted clauses and never the first. *ʻAʻo* holds two
 events together in time, very often as "while", and can open either clause. To

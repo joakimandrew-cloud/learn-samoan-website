@@ -1,4 +1,4 @@
-# Chapter 9: Greetings and Courtesy
+# Chapter 10: Greetings and Courtesy
 
 This chapter gathers the common formulas of greeting, thanks, farewell, and
 good wishes. It shows the command's tense-particle-free shape, already taught,
@@ -70,9 +70,9 @@ A greeting often turns at once to names. Asking a person's name, and giving your
 own, is part of every first meeting.
 
 > **Preview:** The name question is *ʻO ai lou igoa?* ("What is your name?";
-> Lit. "Who is your name?", asked with the who-word *ai* of Chapter 8).
+> Lit. "Who is your name?", asked with the who-word *ai* of Chapter 9).
 > It carries the word for "your", a possessive form. Possessive forms are
-> taught in Chapter 10, where this question becomes real grammar you can build.
+> taught in Chapter 11, where this question becomes real grammar you can build.
 > For now, take it whole, as a set phrase like the greetings above.
 
 ---
@@ -120,7 +120,7 @@ The describing verb *mānaia* fills the same frame to praise a thing outright:
 > is reacting, as in *ʻO le fefe o Ulika!* ("Look how scared Ulika is!", Lit.
 > "The fear of Ulika!"). It is
 > a fixed expression here; the machinery that builds it, an event packed into a
-> thing, is taught later in this book and completed in Chapter 46.
+> thing, is taught later in this book and completed in Chapter 47.
 
 ---
 

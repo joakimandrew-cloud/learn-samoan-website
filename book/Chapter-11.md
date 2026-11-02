@@ -1,4 +1,4 @@
-# Chapter 10: Possessives
+# Chapter 11: Possessives
 
 This chapter introduces the two belonging words *a* and *o*, which join a thing
 to the person it belongs to, and the singular possessive forms *laʻu* (my),
@@ -77,7 +77,7 @@ can say something you did not mean.
 > **Preview:** You are learning which words are *a*-words and which are
 > *o*-words one word at a time. The reason behind the sort, stated as a rule you
 > can lean on, and the forms for plural and for our, your (more than one person),
-> and their things, are completed in Chapter 25.
+> and their things, are completed in Chapter 26.
 
 ---
 
@@ -155,7 +155,7 @@ like any other naming part:
 
 > **Preview:** Saying that a thing is mine, on its own, and asking whose
 > something is, use belonging in a different sentence shape. That shape is
-> completed in Chapter 42.
+> completed in Chapter 43.
 
 ---
 

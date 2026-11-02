@@ -34,34 +34,34 @@
       ]
     }
   ],
-  "25": [
+  "26": [
     {
-      "id": "ch25-qp-a",
+      "id": "ch26-qp-a",
       "letter": "A",
       "title": "Quick Practice A",
       "instructions": "Give the Sāmoan.",
       "type": "reveal",
       "items": [
         {
-          "id": "ch25-qp-a-1",
+          "id": "ch26-qp-a-1",
           "n": 1,
           "prompt": "my spoon",
           "answer": "*laʻu sipuni*"
         },
         {
-          "id": "ch25-qp-a-2",
+          "id": "ch26-qp-a-2",
           "n": 2,
           "prompt": "my spoons",
           "answer": "*aʻu sipuni*"
         },
         {
-          "id": "ch25-qp-a-3",
+          "id": "ch26-qp-a-3",
           "n": 3,
           "prompt": "my kilt",
           "answer": "*loʻu ʻie*"
         },
         {
-          "id": "ch25-qp-a-4",
+          "id": "ch26-qp-a-4",
           "n": 4,
           "prompt": "my kilts",
           "answer": "*oʻu ʻie*"

@@ -1,4 +1,4 @@
-# Chapter 36: Conjunctions
+# Chapter 37: Conjunctions
 
 This chapter adds the words that join two whole clauses, *ma* (and), *ʻae* (but)
 and *ʻaʻo* (while), together with the rule that settles the tense particle of the
@@ -180,7 +180,7 @@ and *leʻi*.
 > **Preview:** A tense particle left out after *ma* is the first step toward
 > something Sāmoan does at length: a run of clauses that all sit under the one
 > particle standing at the front of the first. Those chains are taught in
-> Chapter 37.
+> Chapter 38.
 
 ---
 
@@ -202,7 +202,6 @@ and *leʻi*.
 
 | Word | Meaning |
 |---|---|
-| *ala* | be awake, wake up |
 | *lolo* | overflow |
 | *māfaufau* | think, consider |
 | *mānatunatu* | reflect, think about |

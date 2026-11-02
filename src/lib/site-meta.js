@@ -2,11 +2,11 @@
 // useTitle and scripts/prerender.mjs (which writes them into each route's
 // static HTML file so links and search results name the page).
 export const COURSE = 'Learn Sāmoan'
-export const HOME_TITLE = 'Learn Sāmoan · A free course in 51 chapters'
-export const DEFAULT_DESCRIPTION = 'Learn Sāmoan, free. A complete 51-chapter course with worked examples, exercises, quizzes and flip cards.'
+export const HOME_TITLE = 'Learn Sāmoan · A free course in 52 chapters'
+export const DEFAULT_DESCRIPTION = 'Learn Sāmoan, free. A complete 52-chapter course with worked examples, exercises, quizzes and flip cards.'
 
 export const HUBS = {
-  '/chapters': { title: 'All 51 chapters', description: 'The whole Sāmoan course in 51 chapters, Beginner to Advanced. Every chapter has worked examples, exercises with answers and a 10-question quiz.' },
+  '/chapters': { title: 'All 52 chapters', description: 'The whole Sāmoan course in 52 chapters, Beginner to Advanced. Every chapter has worked examples, exercises with answers and a 10-question quiz.' },
   '/drills': { title: 'Practice drills', description: '68 drills grouped by skill, each built only from Sāmoan printed in the course, with a Words to Learn recall deck.' },
   '/quizzes': { title: 'Chapter quizzes', description: 'A ten-question quiz for every chapter of the Sāmoan course, with every answer explained.' },
   '/cards': { title: 'Vocabulary flip cards', description: 'Flip cards for every Words to Learn list in the Sāmoan course, by chapter or by band.' },

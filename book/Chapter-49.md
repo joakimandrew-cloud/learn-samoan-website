@@ -1,4 +1,4 @@
-# Chapter 48: The Mood Particles
+# Chapter 49: The Mood Particles
 
 This chapter completes the tense particles with the four mood particles,
 polite-command *ʻia*, wish-and-permission *seʻi*, until *seʻia* and warning

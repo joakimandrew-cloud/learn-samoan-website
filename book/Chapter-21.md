@@ -1,4 +1,4 @@
-# Chapter 20: The With-Word *Ma*
+# Chapter 21: The With-Word *Ma*
 
 This chapter adds the with-word *ma*, a single word that joins a companion to an
 action as "with" and joins two doers as "and". Whether *ma* means "with" or
@@ -82,7 +82,7 @@ companion and a second doer.
 
 > **Preview:** The for-word *mo* means "for", as in *mo le vaiaso* (for a week).
 > Its full story, including the way it partly echoes the a-word and o-word split
-> you met earlier, is told in Chapter 25. Until then, keep *ma* for "with" and
+> you met earlier, is told in Chapter 26. Until then, keep *ma* for "with" and
 > "and".
 
 > *Note:* Do not mix the with-word *ma* with the for-word *mo*, one vowel apart.

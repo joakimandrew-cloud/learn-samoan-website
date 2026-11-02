@@ -1,8 +1,8 @@
 {
-  "chapter": 15,
+  "chapter": 16,
   "items": [
     {
-      "id": "ch15-negative-slot",
+      "id": "ch16-negative-slot",
       "kind": "contrast",
       "anchor": "the-not-word-le",
       "title": "The not-word fills one slot",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "ch15-habit-or-now",
+      "id": "ch16-habit-or-now",
       "kind": "contrast",
       "anchor": "denying-a-change-denying-a-habit",
       "title": "Deny a habit or deny this moment",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": "ch15-sort-negative",
+      "id": "ch16-sort-negative",
       "kind": "sort",
       "anchor": "the-not-yet-word-lei",
       "title": "Sort not and not yet",

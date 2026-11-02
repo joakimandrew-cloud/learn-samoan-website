@@ -1,8 +1,8 @@
 {
-  "chapter": 47,
+  "chapter": 48,
   "items": [
     {
-      "id": "ch47-friend-slot",
+      "id": "ch48-friend-slot",
       "kind": "contrast",
       "anchor": "one-word-in-two-slots",
       "title": "The slot decides the class",
@@ -26,7 +26,7 @@
       "caption": "The word brings the ability to fill either slot. The sentence decides which slot it fills and therefore its class."
     },
     {
-      "id": "ch47-read-slot",
+      "id": "ch48-read-slot",
       "kind": "pick",
       "anchor": "one-word-in-two-slots",
       "title": "Classify from the slot",
@@ -72,7 +72,7 @@
       "intro": "Read the word named with each sentence, then use what stands in front of it."
     },
     {
-      "id": "ch47-name-reference",
+      "id": "ch48-name-reference",
       "kind": "contrast",
       "anchor": "names-and-the-place-word-ia",
       "title": "One name, place or people",

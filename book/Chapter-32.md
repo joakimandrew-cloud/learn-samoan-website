@@ -1,4 +1,4 @@
-# Chapter 31: Comparison and Degree
+# Chapter 32: Comparison and Degree
 
 This chapter adds the comparison patterns: the direction word *atu* carrying the
 comparative degree, the than-word *i lo* naming what a thing is measured
@@ -113,7 +113,7 @@ front of the clause in this one.
 > **Preview:** Speakers often build a comparison inside a clause that describes
 > the thing compared rather than stating it flat, so that "her brothers are
 > older than she is" comes out as "her brothers who are older than she is".
-> That kind of clause is taught in Chapter 43, and comparison is one of the
+> That kind of clause is taught in Chapter 44, and comparison is one of the
 > places Sāmoan prefers it.
 
 ---

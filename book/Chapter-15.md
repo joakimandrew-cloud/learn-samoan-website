@@ -1,4 +1,4 @@
-# Chapter 14: The There-Is Verbs
+# Chapter 15: The There-Is Verbs
 
 This chapter adds the two there-is verbs, *iai* (there is) and its built-in
 negative *leai* (there is none), each a full verb that carries its own tense
@@ -43,7 +43,7 @@ in front and the specific naming part *le ulugāliʻi*, it opens a story:
 
 > **Preview:** The there-is verb *iai* has a close look-alike, a two-word phrase
 > that says a thing is located in a particular place rather than that it exists
-> at all. The two are set side by side in Chapter 17, where the where-sentence is
+> at all. The two are set side by side in Chapter 18, where the where-sentence is
 > taught. In this chapter *iai* always means "there is".
 
 ---

@@ -1,4 +1,4 @@
-# Chapter 47: Word Class Flexibility
+# Chapter 48: Word Class Flexibility
 
 This chapter completes the principle set out in the Introduction as the slot
 rule, under which a word such as *uō* (friend) is a verb when it fills the verb

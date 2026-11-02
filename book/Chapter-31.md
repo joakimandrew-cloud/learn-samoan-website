@@ -1,4 +1,4 @@
-# Chapter 30: The Complement Clause: Can and Must
+# Chapter 31: The Complement Clause: Can and Must
 
 This chapter introduces the complement clause, a whole clause that stands where
 a noun phrase would otherwise stand, and the one word that opens it, *ona*
@@ -151,7 +151,7 @@ is named.
 > after *ona*. Later in this book you will meet a word meaning "since" that is
 > built the same way: it stands in the predicate slot, and the thing that has
 > been true since then follows as a clause opened by *ona*. That construction is
-> taught in Chapter 44.
+> taught in Chapter 45.
 
 ---
 
@@ -188,7 +188,7 @@ takes the *ona* kind of complement.
 > opens a clause of reason and means "because". One test separates them: a
 > clause meaning "because" carries a tense particle of its own, while the
 > complement clause of this chapter carries none. That second job is taught in
-> Chapter 38.
+> Chapter 39.
 
 ---
 

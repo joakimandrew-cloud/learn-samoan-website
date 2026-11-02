@@ -1,8 +1,8 @@
 {
-  "chapter": 9,
+  "chapter": 10,
   "items": [
     {
-      "id": "ch9-greeting-and-farewell",
+      "id": "ch10-greeting-and-farewell",
       "kind": "contrast",
       "anchor": "greetings-and-farewells",
       "title": "Recognize a greeting and two farewells",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": "ch9-pick-first-meeting",
+      "id": "ch10-pick-first-meeting",
       "kind": "pick",
       "anchor": "thanks-and-asking-politely",
       "title": "A first meeting, start to finish",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "id": "ch9-careful-everyday",
+      "id": "ch10-careful-everyday",
       "kind": "grid",
       "anchor": "the-everyday-style",
       "title": "Hear the careful form through everyday speech",
@@ -209,7 +209,7 @@
       }
     },
     {
-      "id": "ch9-match-courtesy",
+      "id": "ch10-match-courtesy",
       "kind": "match",
       "anchor": "words-to-learn",
       "title": "Match the courtesy formulas",

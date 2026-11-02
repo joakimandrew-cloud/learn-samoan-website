@@ -1,8 +1,8 @@
 {
-  "chapter": 19,
+  "chapter": 20,
   "items": [
     {
-      "id": "ch19-number-in-two-places",
+      "id": "ch20-number-in-two-places",
       "kind": "contrast",
       "anchor": "the-verb-shows-number",
       "title": "Number appears on the article slot and the verb",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "id": "ch19-verb-pairs",
+      "id": "ch20-verb-pairs",
       "kind": "grid",
       "anchor": "learning-each-plural-form",
       "title": "Learn each singular and plural pair",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "ch19-type-plural-forms",
+      "id": "ch20-type-plural-forms",
       "kind": "type",
       "anchor": "describing-a-group",
       "title": "Type the plural forms",

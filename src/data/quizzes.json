@@ -919,35 +919,341 @@
   },
   "4": {
     "chapter": 4,
-    "title": "The Tense Particles",
+    "title": "The Two Pasts",
     "questions": [
       {
         "id": "q1",
-        "prompt": "Which pair of jobs belongs to the second past *na*?",
+        "prompt": "Which of these states the rule for choosing between the two pasts?",
         "options": [
           {
             "label": "A",
-            "text": "How things were over a stretch of time, and an event reported as unexpected.",
+            "text": "The second past *na* is how things were over a stretch of time, and *sā* is one event you could point to.",
             "correct": false,
-            "explanation": "The unexpected event is right, but how things were over time is the job of *sā*, not *na*."
+            "explanation": "The two jobs are swapped: one event you could point to takes *na*, and how things were takes *sā*."
           },
           {
             "label": "B",
-            "text": "A single, bounded event, and an event reported as unexpected.",
+            "text": "The second past *na* says it happened, one event with a moment you could point to, and *sā* says that's how it was, a stretch of time back then.",
             "correct": true,
-            "explanation": "Correct: *na* is the past of the single event, as in *na alofa*, \"fell in love\", and it can report an event as unexpected."
+            "explanation": "Correct: *na* is for something that happened, and *sā* is for a state, something going on, or a regular pattern back then."
           },
           {
             "label": "C",
-            "text": "How things were over a stretch of time, and an event that is common and nothing out of the ordinary.",
+            "text": "The second past *na* is for something long ago, and *sā* is for something that happened recently.",
             "correct": false,
-            "explanation": "Both of these jobs belong to the other past, *sā*."
+            "explanation": "How long ago it happened does not decide the past; the test does, \"at that moment\" for *na* and \"back then\" for *sā*."
           },
           {
             "label": "D",
-            "text": "A single, bounded event, and an event that is common and nothing out of the ordinary.",
+            "text": "The second past *na* says it happened and is over, and *sā* says it happened and still goes on today.",
             "correct": false,
-            "explanation": "The single event is right, but the common, expected event is reported with *sā*; *na* can report one as unexpected."
+            "explanation": "A *sā* sentence is about back then and makes no statement about today, so it never adds \"and still goes on\"."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Which of these words means \"fall\"?",
+        "options": [
+          {
+            "label": "A",
+            "text": "*ala*",
+            "correct": false,
+            "explanation": "This is the waking word, the one you would use for \"I woke up\" or \"I was awake\"."
+          },
+          {
+            "label": "B",
+            "text": "*ʻuma*",
+            "correct": false,
+            "explanation": "This word names the end of something, so it does not mean \"fall\"."
+          },
+          {
+            "label": "C",
+            "text": "*paʻū*",
+            "correct": true,
+            "explanation": "Correct: *paʻū* is \"fall\", one of the chapter's new verbs."
+          },
+          {
+            "label": "D",
+            "text": "*tāuaso*",
+            "correct": false,
+            "explanation": "This word names a state of the eyes, not a movement, so it does not mean \"fall\"."
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "A storyteller tells the run of events with *sā* and then switches to *na* for one line. What does that line usually mark?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The moment it happened, the point the story turns on.",
+            "correct": true,
+            "explanation": "Correct: the *sā* lines tell how things went, and *na* sets the turning moment apart, so \"at that moment\" fits it."
+          },
+          {
+            "label": "B",
+            "text": "The background, how things were before the story began.",
+            "correct": false,
+            "explanation": "How things were is what the *sā* lines tell; \"back then\" fits them, not the *na* line."
+          },
+          {
+            "label": "C",
+            "text": "The oldest event in the story, because *na* is for long ago.",
+            "correct": false,
+            "explanation": "How long ago something happened does not decide the past, so *na* does not mark the oldest event."
+          },
+          {
+            "label": "D",
+            "text": "A habit the people in the story still keep today.",
+            "correct": false,
+            "explanation": "A habit has no single moment to point to, and neither past makes a statement about today."
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "prompt": "What does *Sā ʻou fāgota.* mean?",
+        "options": [
+          {
+            "label": "A",
+            "text": "I went fishing.",
+            "correct": false,
+            "explanation": "That one trip is *Na ʻou fāgota.*; with *sā* the fishing is a regular pattern, so \"in those days\" fits."
+          },
+          {
+            "label": "B",
+            "text": "I used to go fishing, and I still go.",
+            "correct": false,
+            "explanation": "The sentence is about back then and makes no statement about today, so it never adds \"and I still go\"."
+          },
+          {
+            "label": "C",
+            "text": "I go fishing these days.",
+            "correct": false,
+            "explanation": "That is a sentence about now, and a *sā* sentence describes back then, not today."
+          },
+          {
+            "label": "D",
+            "text": "I used to go fishing.",
+            "correct": true,
+            "explanation": "Correct: fishing as a regular pattern is how things were, so \"in those days\" fits and the past is *sā*."
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "prompt": "How do you say \"I fell sick\", the moment the sickness began, in Sāmoan?",
+        "options": [
+          {
+            "label": "A",
+            "text": "*Sā ʻou maʻi.*",
+            "correct": false,
+            "explanation": "The word is right, but with *sā* this is \"I was sick\", the state itself, where \"all that time\" fits."
+          },
+          {
+            "label": "B",
+            "text": "*Na ʻou maʻi.*",
+            "correct": true,
+            "explanation": "Correct: \"at that moment\" fits the start of the sickness, so the past is *na*."
+          },
+          {
+            "label": "C",
+            "text": "*Na ʻou ala.*",
+            "correct": false,
+            "explanation": "The past is right for a start, but *ala* is the waking word, so this is \"I woke up\"."
+          },
+          {
+            "label": "D",
+            "text": "*Sā ʻou ala.*",
+            "correct": false,
+            "explanation": "Both parts are off: *ala* is the waking word, and with *sā* this is \"I was awake\"."
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "prompt": "You want to say \"We stayed\", through the whole holiday. Which test phrase fits, and which past does it take?",
+        "options": [
+          {
+            "label": "A",
+            "text": "\"At that moment\" fits, so it takes *na*.",
+            "correct": false,
+            "explanation": "Staying through a holiday has no single moment to point to, so \"at that moment\" does not fit it."
+          },
+          {
+            "label": "B",
+            "text": "\"That one time\" fits, so it takes *sā*.",
+            "correct": false,
+            "explanation": "The past is right, but \"that one time\" is a phrase for *na*; the phrase that fits a stay is \"all that time\"."
+          },
+          {
+            "label": "C",
+            "text": "\"All that time\" fits, so it takes *sā*.",
+            "correct": true,
+            "explanation": "Correct: the staying went on through the holiday, so the sentence is *Sā mātou nofo.*"
+          },
+          {
+            "label": "D",
+            "text": "\"All that time\" fits, so it takes *na*.",
+            "correct": false,
+            "explanation": "The phrase is right, but \"all that time\" points to *sā*, not *na*."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "prompt": "Three of these sentences carry English that shows the right past. Which one does not?",
+        "options": [
+          {
+            "label": "A",
+            "text": "*Na mātou nofo.* We sat down.",
+            "correct": false,
+            "explanation": "The particle *na* names the moment of sitting down, so the English matches."
+          },
+          {
+            "label": "B",
+            "text": "*Sā mātou siva.* We were dancing.",
+            "correct": false,
+            "explanation": "The particle *sā* tells the dancing as something going on, so the English matches."
+          },
+          {
+            "label": "C",
+            "text": "*Na ʻuma.* It came to an end.",
+            "correct": false,
+            "explanation": "An end is a moment you could point to, so *na* and this English match."
+          },
+          {
+            "label": "D",
+            "text": "*Sā ʻou iloa.* I noticed.",
+            "correct": true,
+            "explanation": "Correct: with *sā* the knowing went on, so this is \"I knew\"; \"I noticed\", the moment it clicked, is *Na ʻou iloa.*"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "prompt": "A learner reads *Sā lātou alu.*, \"They used to go\", and asks whether it means they still go. What is the answer?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Neither yes nor no: the sentence is about back then and makes no statement about today.",
+            "correct": true,
+            "explanation": "Correct: \"in those days\" fits, and to talk about how things are now Sāmoan uses a different particle."
+          },
+          {
+            "label": "B",
+            "text": "Yes: a *sā* sentence says the habit goes on today.",
+            "correct": false,
+            "explanation": "A *sā* sentence describes back then, so it says nothing about whether they go today."
+          },
+          {
+            "label": "C",
+            "text": "No: a *sā* sentence always says the habit is over.",
+            "correct": false,
+            "explanation": "A *sā* sentence makes no statement about today, so it does not say the habit is over either."
+          },
+          {
+            "label": "D",
+            "text": "It depends on how long ago the going was.",
+            "correct": false,
+            "explanation": "How long ago something happened does not decide the past or what it says about today."
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "prompt": "The broadcasts began at the same hour every Saturday night. Which sentence fits that, and why?",
+        "options": [
+          {
+            "label": "A",
+            "text": "*Na ʻāmata.*, because a beginning is always a moment you could point to.",
+            "correct": false,
+            "explanation": "One beginning takes *na*, as for the year the broadcasts first started, but a beginning that came round every week is a pattern."
+          },
+          {
+            "label": "B",
+            "text": "*Sā ʻāmata.*, because a beginning that came round week after week is a regular pattern, and \"in those days\" fits it.",
+            "correct": true,
+            "explanation": "Correct: this is \"It used to begin\", and a regular pattern back then takes *sā*."
+          },
+          {
+            "label": "C",
+            "text": "*Na ʻuma.*, because the broadcast came to an end each week.",
+            "correct": false,
+            "explanation": "This sentence names an end, \"It came to an end\", and the question is about a beginning."
+          },
+          {
+            "label": "D",
+            "text": "*Sā ʻāmata.*, because the beginning verb *ʻāmata* always takes *sā*.",
+            "correct": false,
+            "explanation": "The sentence is right, but the reason is wrong: the beginning verb is typically met with *na*, and *sā* comes here from the weekly pattern."
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "prompt": "In *Na ʻāmata.* nothing stands between the particle and the verb, and the English has to add an \"it\". Why can the Sāmoan do without a word there?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The particle *na* fills the middle slot itself.",
+            "correct": false,
+            "explanation": "The particle *na* stands in the first slot, and nothing stands in the middle slot."
+          },
+          {
+            "label": "B",
+            "text": "It is like the weather sentences met earlier, where there is nothing there to name at all.",
+            "correct": false,
+            "explanation": "The weather sentences are a different case, with no doer to name at all; here there is one, and it goes unsaid."
+          },
+          {
+            "label": "C",
+            "text": "A doer can be left unsaid when what has already been said lets the listener work out who or what is meant.",
+            "correct": true,
+            "explanation": "Correct: the \"it\" belongs to the English, and the listener works out who or what is meant from what came before."
+          },
+          {
+            "label": "D",
+            "text": "A Sāmoan sentence can leave its doer unsaid at any time, whatever has been said before it.",
+            "correct": false,
+            "explanation": "Leaving the doer unsaid depends on the listener being able to work it out from what has already been said."
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "chapter": 5,
+    "title": "The Change and Future Particles",
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "What does *ʻOleʻā mātou siva.* mean?",
+        "options": [
+          {
+            "label": "A",
+            "text": "We were dancing.",
+            "correct": false,
+            "explanation": "That would take the past *sā*, telling the dancing as something going on back then; *ʻoleʻā* places it ahead of now."
+          },
+          {
+            "label": "B",
+            "text": "We will dance.",
+            "correct": true,
+            "explanation": "Correct: the future particle *ʻoleʻā* in the first slot places the dancing ahead of now."
+          },
+          {
+            "label": "C",
+            "text": "We danced, that one time.",
+            "correct": false,
+            "explanation": "One past event would take the second past *na*; *ʻoleʻā* places the dancing ahead of now."
+          },
+          {
+            "label": "D",
+            "text": "We have started dancing, and still are.",
+            "correct": false,
+            "explanation": "A change with a new state in place would take *ʻua*; *ʻoleʻā* places the dancing ahead of now."
           }
         ]
       },
@@ -995,7 +1301,7 @@
             "label": "B",
             "text": "*Sā ʻou maʻi.*",
             "correct": false,
-            "explanation": "The word is right, but *sā* reports a past state, so this is \"I was sick\"."
+            "explanation": "The word is right, but *sā* places the state back then, so this is \"I was sick\"."
           },
           {
             "label": "C",
@@ -1007,7 +1313,7 @@
             "label": "D",
             "text": "*Sā ʻou alu.*",
             "correct": false,
-            "explanation": "This is the past sentence \"I went\", with neither the change particle nor the word for \"sick\"."
+            "explanation": "This is a past sentence about going, with neither the change particle nor the word for \"sick\"."
           }
         ]
       },
@@ -1025,13 +1331,13 @@
             "label": "B",
             "text": "She has become blind; she saw.",
             "correct": false,
-            "explanation": "The words are right, but the particles are swapped: *sā* closes a past state off, and *ʻua* usually opens a new state that holds now."
+            "explanation": "The words are right, but the particles are swapped: *sā* places a state back then, and *ʻua* usually opens a new state that holds now."
           },
           {
             "label": "C",
             "text": "She was blind; now she sees.",
             "correct": true,
-            "explanation": "Correct: *sā* reports a past state that is over, and *ʻua* reports the change and the new state that holds now. The middle word *ia* is \"he\" or \"she\", so \"He was blind; now he sees\" is right too."
+            "explanation": "Correct: *sā* describes the blindness back then, and *ʻua* reports the change and the new state that holds now, so together they tell you the blindness is over. The middle word *ia* is \"he\" or \"she\", so \"He was blind; now he sees\" is right too."
           },
           {
             "label": "D",
@@ -1109,25 +1415,25 @@
             "label": "A",
             "text": "*Sā ʻou maʻi.* I was sick.",
             "correct": false,
-            "explanation": "The particle *sā* reports a past state and *maʻi* is \"sick\", so the English matches."
+            "explanation": "The particle *sā* places the state back then and *maʻi* is \"sick\", so the English matches."
           },
           {
             "label": "B",
-            "text": "*ʻOleʻā mātou siva.* We will dance.",
+            "text": "*ʻOleʻā ia sau.* She will come.",
             "correct": false,
-            "explanation": "The particle *ʻoleʻā* places the dancing ahead of now, so the English matches."
+            "explanation": "The particle *ʻoleʻā* places the coming ahead of now, so the English matches."
           },
           {
             "label": "C",
-            "text": "*Na ʻāmata.* It ended.",
+            "text": "*ʻUa ʻou alu.* I will go.",
             "correct": true,
-            "explanation": "Correct: *ʻāmata* is \"begin, start\", so this says \"It began\", not \"It ended\"."
+            "explanation": "Correct: *ʻua* is the change particle, so this says \"I have gone\"; \"I will go\" is *ʻOleʻā ʻou alu.*"
           },
           {
             "label": "D",
-            "text": "*ʻUa vevela.* It has become hot.",
+            "text": "*Sā ʻou alu.* I went.",
             "correct": false,
-            "explanation": "The particle *ʻua* reports the change and *vevela* is \"hot\", so the English matches."
+            "explanation": "The particle *sā* places the going in the past, so the English matches."
           }
         ]
       },
@@ -1179,52 +1485,52 @@
           },
           {
             "label": "C",
-            "text": "It marks a single, bounded past event, and the state that follows is usually still in place, though it need not be.",
+            "text": "It reports one past event with a moment you could point to, and the state that follows is usually still in place.",
             "correct": false,
-            "explanation": "The single, bounded past event is the job of *na*; *ʻua* marks a change."
+            "explanation": "One past event with a moment you could point to is the job of *na*; *ʻua* marks a change."
           },
           {
             "label": "D",
-            "text": "It marks a single, bounded past event, and the state that follows must still hold as you speak.",
+            "text": "It reports one past event with a moment you could point to, and the state that follows must still hold as you speak.",
             "correct": false,
-            "explanation": "The single past event belongs to *na*, and the state *ʻua* leaves need not still hold."
+            "explanation": "One past event belongs to *na*, and the state *ʻua* leaves need not still hold."
           }
         ]
       },
       {
         "id": "q10",
-        "prompt": "In *Na ʻāmata.* nothing stands between the particle and the verb, and the English has to add an \"it\". Why can the Sāmoan do without a word there?",
+        "prompt": "Both *Na ʻou maʻi.* and *ʻUa ʻou maʻi.* can be put into English with a beginning. What is the difference between them?",
         "options": [
           {
             "label": "A",
-            "text": "The particle *na* fills the middle slot itself.",
-            "correct": false,
-            "explanation": "The particle *na* stands in the first slot, and nothing stands in the middle slot."
+            "text": "The second past *na* reports the start as a past event, marked off by its limits; *ʻua* reports that a change has happened and something new is now the case.",
+            "correct": true,
+            "explanation": "Correct: \"I fell sick\" looks at the start as one event back then, and \"I have become sick\" looks at the change and the new state it leaves."
           },
           {
             "label": "B",
-            "text": "It is like the weather sentences met earlier, where there is nothing there to name at all.",
+            "text": "The second past *na* reports that something new is now the case; *ʻua* reports the start as a past event, marked off by its limits.",
             "correct": false,
-            "explanation": "The weather sentences are a different case, with no doer to name at all; here there is one, and it goes unsaid."
+            "explanation": "The two jobs are swapped: the start as a past event is *na*, and the change with a new state is *ʻua*."
           },
           {
             "label": "C",
-            "text": "A doer can be left unsaid when what has already been said lets the listener work out who or what is meant.",
-            "correct": true,
-            "explanation": "Correct: the \"it\" belongs to the English, and the listener works out who or what is meant from what came before."
+            "text": "There is no difference; the two sentences mean the same.",
+            "correct": false,
+            "explanation": "They look at the same beginning from different sides, so they do not mean the same."
           },
           {
             "label": "D",
-            "text": "A Sāmoan sentence can leave its doer unsaid at any time, whatever has been said before it.",
+            "text": "The second past *na* is for a sickness long ago, and *ʻua* is for one that began recently.",
             "correct": false,
-            "explanation": "Leaving the doer unsaid depends on the listener being able to work it out from what has already been said."
+            "explanation": "How long ago it happened does not decide the particle; the two report different things about the beginning."
           }
         ]
       }
     ]
   },
-  "5": {
-    "chapter": 5,
+  "6": {
+    "chapter": 6,
     "title": "Commands",
     "questions": [
       {
@@ -1529,8 +1835,8 @@
       }
     ]
   },
-  "6": {
-    "chapter": 6,
+  "7": {
+    "chapter": 7,
     "title": "Articles and Plurals",
     "questions": [
       {
@@ -1835,8 +2141,8 @@
       }
     ]
   },
-  "7": {
-    "chapter": 7,
+  "8": {
+    "chapter": 8,
     "title": "The Naming Sentence",
     "questions": [
       {
@@ -2141,8 +2447,8 @@
       }
     ]
   },
-  "8": {
-    "chapter": 8,
+  "9": {
+    "chapter": 9,
     "title": "Who and What Questions",
     "questions": [
       {
@@ -2447,8 +2753,8 @@
       }
     ]
   },
-  "9": {
-    "chapter": 9,
+  "10": {
+    "chapter": 10,
     "title": "Greetings and Courtesy",
     "questions": [
       {
@@ -2753,8 +3059,8 @@
       }
     ]
   },
-  "10": {
-    "chapter": 10,
+  "11": {
+    "chapter": 11,
     "title": "Possessives",
     "questions": [
       {
@@ -3059,8 +3365,8 @@
       }
     ]
   },
-  "11": {
-    "chapter": 11,
+  "12": {
+    "chapter": 12,
     "title": "Location and Direction",
     "questions": [
       {
@@ -3365,8 +3671,8 @@
       }
     ]
   },
-  "12": {
-    "chapter": 12,
+  "13": {
+    "chapter": 13,
     "title": "Verbs of Wanting and Seeing",
     "questions": [
       {
@@ -3671,8 +3977,8 @@
       }
     ]
   },
-  "13": {
-    "chapter": 13,
+  "14": {
+    "chapter": 14,
     "title": "The General Particle *E*",
     "questions": [
       {
@@ -3977,8 +4283,8 @@
       }
     ]
   },
-  "14": {
-    "chapter": 14,
+  "15": {
+    "chapter": 15,
     "title": "The There-Is Verbs",
     "questions": [
       {
@@ -4283,8 +4589,8 @@
       }
     ]
   },
-  "15": {
-    "chapter": 15,
+  "16": {
+    "chapter": 16,
     "title": "The Negative",
     "questions": [
       {
@@ -4589,8 +4895,8 @@
       }
     ]
   },
-  "16": {
-    "chapter": 16,
+  "17": {
+    "chapter": 17,
     "title": "The Pointing-Back Word *Ai*",
     "questions": [
       {
@@ -4895,8 +5201,8 @@
       }
     ]
   },
-  "17": {
-    "chapter": 17,
+  "18": {
+    "chapter": 18,
     "title": "The Where-Sentence",
     "questions": [
       {
@@ -5201,8 +5507,8 @@
       }
     ]
   },
-  "18": {
-    "chapter": 18,
+  "19": {
+    "chapter": 19,
     "title": "Time Words",
     "questions": [
       {
@@ -5507,8 +5813,8 @@
       }
     ]
   },
-  "19": {
-    "chapter": 19,
+  "20": {
+    "chapter": 20,
     "title": "Plural Verb Forms",
     "questions": [
       {
@@ -5813,8 +6119,8 @@
       }
     ]
   },
-  "20": {
-    "chapter": 20,
+  "21": {
+    "chapter": 21,
     "title": "The With-Word *Ma*",
     "questions": [
       {
@@ -6119,8 +6425,8 @@
       }
     ]
   },
-  "21": {
-    "chapter": 21,
+  "22": {
+    "chapter": 22,
     "title": "Question Words",
     "questions": [
       {
@@ -6425,8 +6731,8 @@
       }
     ]
   },
-  "22": {
-    "chapter": 22,
+  "23": {
+    "chapter": 23,
     "title": "Numbers, Prices, and Time of Day",
     "questions": [
       {
@@ -6731,8 +7037,8 @@
       }
     ]
   },
-  "23": {
-    "chapter": 23,
+  "24": {
+    "chapter": 24,
     "title": "Checkpoint 1: The Beginner Consolidation",
     "questions": [
       {
@@ -7037,8 +7343,8 @@
       }
     ]
   },
-  "24": {
-    "chapter": 24,
+  "25": {
+    "chapter": 25,
     "title": "Prohibitions",
     "questions": [
       {
@@ -7343,8 +7649,8 @@
       }
     ]
   },
-  "25": {
-    "chapter": 25,
+  "26": {
+    "chapter": 26,
     "title": "The Possessive System in Full",
     "questions": [
       {
@@ -7649,8 +7955,8 @@
       }
     ]
   },
-  "26": {
-    "chapter": 26,
+  "27": {
+    "chapter": 27,
     "title": "Spatial Nouns",
     "questions": [
       {
@@ -7955,8 +8261,8 @@
       }
     ]
   },
-  "27": {
-    "chapter": 27,
+  "28": {
+    "chapter": 28,
     "title": "The Agent Marker *E*",
     "questions": [
       {
@@ -8261,8 +8567,8 @@
       }
     ]
   },
-  "28": {
-    "chapter": 28,
+  "29": {
+    "chapter": 29,
     "title": "The Maker-Prefix *Faʻa-*",
     "questions": [
       {
@@ -8567,8 +8873,8 @@
       }
     ]
   },
-  "29": {
-    "chapter": 29,
+  "30": {
+    "chapter": 30,
     "title": "Directional Particles",
     "questions": [
       {
@@ -8873,8 +9179,8 @@
       }
     ]
   },
-  "30": {
-    "chapter": 30,
+  "31": {
+    "chapter": 31,
     "title": "The Complement Clause: Can and Must",
     "questions": [
       {
@@ -9179,8 +9485,8 @@
       }
     ]
   },
-  "31": {
-    "chapter": 31,
+  "32": {
+    "chapter": 32,
     "title": "Comparison and Degree",
     "questions": [
       {
@@ -9485,8 +9791,8 @@
       }
     ]
   },
-  "32": {
-    "chapter": 32,
+  "33": {
+    "chapter": 33,
     "title": "Short and Long Verb Forms",
     "questions": [
       {
@@ -9791,8 +10097,8 @@
       }
     ]
   },
-  "33": {
-    "chapter": 33,
+  "34": {
+    "chapter": 34,
     "title": "Reported Speech",
     "questions": [
       {
@@ -10097,8 +10403,8 @@
       }
     ]
   },
-  "34": {
-    "chapter": 34,
+  "35": {
+    "chapter": 35,
     "title": "Putting Things First",
     "questions": [
       {
@@ -10403,8 +10709,8 @@
       }
     ]
   },
-  "35": {
-    "chapter": 35,
+  "36": {
+    "chapter": 36,
     "title": "The Le-Phrase",
     "questions": [
       {
@@ -10709,8 +11015,8 @@
       }
     ]
   },
-  "36": {
-    "chapter": 36,
+  "37": {
+    "chapter": 37,
     "title": "Conjunctions",
     "questions": [
       {
@@ -11015,8 +11321,8 @@
       }
     ]
   },
-  "37": {
-    "chapter": 37,
+  "38": {
+    "chapter": 38,
     "title": "Narrative Chains",
     "questions": [
       {
@@ -11321,8 +11627,8 @@
       }
     ]
   },
-  "38": {
-    "chapter": 38,
+  "39": {
+    "chapter": 39,
     "title": "Purpose and Reason",
     "questions": [
       {
@@ -11627,8 +11933,8 @@
       }
     ]
   },
-  "39": {
-    "chapter": 39,
+  "40": {
+    "chapter": 40,
     "title": "Conditionals and When-Clauses",
     "questions": [
       {
@@ -11933,8 +12239,8 @@
       }
     ]
   },
-  "40": {
-    "chapter": 40,
+  "41": {
+    "chapter": 41,
     "title": "Modifiers in Depth",
     "questions": [
       {
@@ -12239,8 +12545,8 @@
       }
     ]
   },
-  "41": {
-    "chapter": 41,
+  "42": {
+    "chapter": 42,
     "title": "Checkpoint 2: The Intermediate Consolidation",
     "questions": [
       {
@@ -12545,8 +12851,8 @@
       }
     ]
   },
-  "42": {
-    "chapter": 42,
+  "43": {
+    "chapter": 43,
     "title": "The Belonging Sentence",
     "questions": [
       {
@@ -12851,8 +13157,8 @@
       }
     ]
   },
-  "43": {
-    "chapter": 43,
+  "44": {
+    "chapter": 44,
     "title": "Relative Clauses",
     "questions": [
       {
@@ -13157,8 +13463,8 @@
       }
     ]
   },
-  "44": {
-    "chapter": 44,
+  "45": {
+    "chapter": 45,
     "title": "Time Expressions",
     "questions": [
       {
@@ -13463,8 +13769,8 @@
       }
     ]
   },
-  "45": {
-    "chapter": 45,
+  "46": {
+    "chapter": 46,
     "title": "The Le-Phrase in Full",
     "questions": [
       {
@@ -13769,8 +14075,8 @@
       }
     ]
   },
-  "46": {
-    "chapter": 46,
+  "47": {
+    "chapter": 47,
     "title": "Uses of the Le-Phrase",
     "questions": [
       {
@@ -14075,8 +14381,8 @@
       }
     ]
   },
-  "47": {
-    "chapter": 47,
+  "48": {
+    "chapter": 48,
     "title": "Word Class Flexibility",
     "questions": [
       {
@@ -14381,8 +14687,8 @@
       }
     ]
   },
-  "48": {
-    "chapter": 48,
+  "49": {
+    "chapter": 49,
     "title": "The Mood Particles",
     "questions": [
       {
@@ -14687,8 +14993,8 @@
       }
     ]
   },
-  "49": {
-    "chapter": 49,
+  "50": {
+    "chapter": 50,
     "title": "Counterfactuals and Concessives",
     "questions": [
       {
@@ -14993,8 +15299,8 @@
       }
     ]
   },
-  "50": {
-    "chapter": 50,
+  "51": {
+    "chapter": 51,
     "title": "Affixes and Doubling",
     "questions": [
       {
@@ -15299,8 +15605,8 @@
       }
     ]
   },
-  "51": {
-    "chapter": 51,
+  "52": {
+    "chapter": 52,
     "title": "Emotional Articles and Pronouns",
     "questions": [
       {

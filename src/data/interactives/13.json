@@ -1,8 +1,8 @@
 {
-  "chapter": 12,
+  "chapter": 13,
   "items": [
     {
-      "id": "ch12-reaching-with-i",
+      "id": "ch13-reaching-with-i",
       "kind": "grid",
       "anchor": "the-two-participant-sentence",
       "title": "Different verbs point at what they reach",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "ch12-two-kinds-of-wanting",
+      "id": "ch13-two-kinds-of-wanting",
       "kind": "contrast",
       "anchor": "wanting",
       "title": "Want an action or want a thing",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "ch12-order-two-participants",
+      "id": "ch13-order-two-participants",
       "kind": "order",
       "anchor": "asking-and-calling",
       "title": "Build the two-participant sentence",

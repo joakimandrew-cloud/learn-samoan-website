@@ -1,8 +1,8 @@
 {
-  "chapter": 46,
+  "chapter": 47,
   "items": [
     {
-      "id": "ch46-state-while-acting",
+      "id": "ch47-state-while-acting",
       "kind": "contrast",
       "anchor": "saying-how-someone-acts",
       "title": "The feeling while staying",
@@ -26,7 +26,7 @@
       "caption": "The main action stays the same. The phrase after the with-word describes the person doing it."
     },
     {
-      "id": "ch46-judging-verbs",
+      "id": "ch47-judging-verbs",
       "kind": "grid",
       "anchor": "judging-an-event",
       "title": "Ways to judge an event",
@@ -96,7 +96,7 @@
       "caption": "These verbs often take a le-phrase as what the sentence is about. The verb passes judgement on the event named by the phrase."
     },
     {
-      "id": "ch46-phrase-use",
+      "id": "ch47-phrase-use",
       "kind": "sort",
       "anchor": "exclaiming-with-a-le-phrase",
       "title": "What is the whole le-phrase doing?",

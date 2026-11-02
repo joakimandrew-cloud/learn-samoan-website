@@ -1,4 +1,4 @@
-# Chapter 26: Spatial Nouns
+# Chapter 27: Spatial Nouns
 
 This chapter adds the spatial nouns, the closed set of words that name the
 regions around a thing, its inside, its top, its back, together with the words

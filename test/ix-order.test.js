@@ -12,9 +12,9 @@ const fixture = path.join(APP, 'src', 'premium', 'components', 'interactive', 'f
 
 const went = { en: 'I went.', sm: 'Sā ʻou alu.', extra: ['ia'] } // Chapter 1
 const rained = { en: 'Did it rain?', sm: 'Sā timu?' } // Chapter 1
-const sawFish = { en: 'The girl saw the fish.', sm: 'Sā vaʻai le teine i le iʻa.', extra: ['tama'], accept: ['Sā vaʻai i le iʻa le teine'] } // Chapter 12
-const friend = { en: 'He is a friend.', sm: 'ʻO ia ʻo se uō.' } // Chapter 7
-const bus = { en: 'The bus goes to the village.', sm: 'E alu le pasi i le nuʻu.', tiles: ['E', 'alu', 'le pasi', 'i le nuʻu'] } // Chapter 13
+const sawFish = { en: 'The girl saw the fish.', sm: 'Sā vaʻai le teine i le iʻa.', extra: ['tama'], accept: ['Sā vaʻai i le iʻa le teine'] } // Chapter 13
+const friend = { en: 'He is a friend.', sm: 'ʻO ia ʻo se uō.' } // Chapter 8
+const bus = { en: 'The bus goes to the village.', sm: 'E alu le pasi i le nuʻu.', tiles: ['E', 'alu', 'le pasi', 'i le nuʻu'] } // Chapter 14
 
 const split = s => s.split(' ')
 

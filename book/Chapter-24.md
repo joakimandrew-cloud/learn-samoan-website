@@ -1,4 +1,4 @@
-# Chapter 23: Checkpoint 1: The Beginner Consolidation
+# Chapter 24: Checkpoint 1: The Beginner Consolidation
 
 This checkpoint adds no new grammar. It gathers the whole Beginner band into one
 place and puts the systems to work together. By now you have built three
@@ -201,7 +201,7 @@ built it before moving into the Intermediate band.
 
 ### Exercise 7
 
-1. *tama e tolu* (Counting people with the prefix *toʻa* in front of the number is also right for boys, as Chapter 22 teaches.)
+1. *tama e tolu* (Counting people with the prefix *toʻa* in front of the number is also right for boys, as Chapter 23 teaches.)
 2. *Teine e toʻalua.*
 3. *ʻi le itūlā e tolu*
 4. *le fale lona lua*

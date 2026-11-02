@@ -1,4 +1,4 @@
-# Chapter 28: The Maker-Prefix *Faʻa-*
+# Chapter 29: The Maker-Prefix *Faʻa-*
 
 This chapter introduces the maker-prefix *faʻa-*, which stands in front of a
 noun or a verb and builds a new word out of it, and shows you how to read a
@@ -47,7 +47,7 @@ on its own.
 
 > **Preview:** *Faʻa-* is the most common of a set of prefixes Sāmoan uses
 > to build new words from old ones. The rest of that set is taught in Chapter
-> 50. Every built word in this chapter uses this one.
+> 51. Every built word in this chapter uses this one.
 
 ---
 
@@ -244,7 +244,6 @@ The verbs:
 | *aogā* | use, useful |
 | *faʻailoa* | show, make known |
 | *goto* | sink, set |
-| *iloa* | know, see, notice |
 | *tatalo* | pray |
 | *tatau* | fit, proper |
 | *tonu* | right, correct |

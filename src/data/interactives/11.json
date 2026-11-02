@@ -1,8 +1,8 @@
 {
-  "chapter": 10,
+  "chapter": 11,
   "items": [
     {
-      "id": "ch10-house-meaning",
+      "id": "ch11-house-meaning",
       "kind": "contrast",
       "anchor": "when-one-word-takes-both",
       "title": "The belonging word changes the relationship",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "id": "ch10-possessive-grid",
+      "id": "ch11-possessive-grid",
       "kind": "grid",
       "anchor": "my-your-and-her",
       "title": "Possessive forms in two columns",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "id": "ch10-sort-a-o-words",
+      "id": "ch11-sort-a-o-words",
       "kind": "sort",
       "anchor": "the-belonging-words-a-and-o",
       "title": "Sort the things by belonging type",

@@ -1,8 +1,8 @@
 {
-  "chapter": 8,
+  "chapter": 9,
   "items": [
     {
-      "id": "ch8-who-and-what",
+      "id": "ch9-who-and-what",
       "kind": "grid",
       "anchor": "asking-what",
       "title": "Who and what take different shapes",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "ch8-question-tune",
+      "id": "ch9-question-tune",
       "kind": "contrast",
       "anchor": "asking-yes-or-no",
       "title": "The same words become a question",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "ch8-match-question-words",
+      "id": "ch9-match-question-words",
       "kind": "match",
       "anchor": "words-to-learn",
       "title": "Match the question words",

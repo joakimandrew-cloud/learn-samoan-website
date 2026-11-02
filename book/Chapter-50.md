@@ -1,4 +1,4 @@
-# Chapter 49: Counterfactuals and Concessives
+# Chapter 50: Counterfactuals and Concessives
 
 This chapter completes the condition clause with the second if-word, *ʻana*,
 which opens a condition that did not come true, and shows you how to say what

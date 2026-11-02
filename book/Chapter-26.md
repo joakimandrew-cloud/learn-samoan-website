@@ -1,4 +1,4 @@
-# Chapter 25: The Possessive System in Full
+# Chapter 26: The Possessive System in Full
 
 This chapter completes the two belonging words *a* and *o*, adding the rule of
 control that decides between them, the four sets of possessive forms that track
@@ -234,7 +234,7 @@ of names belonging to the two of us.
 > **Preview:** An action can be named as a thing, the working, the telling, and
 > the person who does it is then joined to it with a belonging word. Which of
 > *a* and *o* is used there is settled by its own rule, not the rule for
-> owners, and that use is completed in Chapter 45.
+> owners, and that use is completed in Chapter 46.
 
 ---
 

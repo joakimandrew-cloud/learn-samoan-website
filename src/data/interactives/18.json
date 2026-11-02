@@ -1,8 +1,8 @@
 {
-  "chapter": 17,
+  "chapter": 18,
   "items": [
     {
-      "id": "ch17-location-through-time",
+      "id": "ch18-location-through-time",
       "kind": "contrast",
       "anchor": "the-tense-particle-on-a-place",
       "title": "The particle moves the location through time",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": "ch17-existence-location",
+      "id": "ch18-existence-location",
       "kind": "contrast",
       "anchor": "the-where-sentence-and-the-there-is-verb",
       "title": "Deny existence or deny a location",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "ch17-pick-location-negative",
+      "id": "ch18-pick-location-negative",
       "kind": "pick",
       "anchor": "the-where-sentence-and-the-there-is-verb",
       "title": "Choose absence or not there",

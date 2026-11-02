@@ -36,9 +36,9 @@ const COLLECTIONS = [
   { id: 'vocabulary', label: 'Vocabulary', group: 'By list', test: card => card.list === 'vocabulary' },
   { id: 'grammar', label: 'Grammar words', group: 'By list', test: card => card.list === 'grammar' },
   { id: 'carry', label: 'Words to carry', group: 'By list', test: card => card.list === 'carry' },
-  { id: 'beginner', label: 'Beginner (Chapters 1 to 23)', group: 'By band', test: card => BAND[card.chapter] === 'beginner' },
-  { id: 'intermediate', label: 'Intermediate (Chapters 24 to 41)', group: 'By band', test: card => BAND[card.chapter] === 'intermediate' },
-  { id: 'advanced', label: 'Advanced (Chapters 42 to 51)', group: 'By band', test: card => BAND[card.chapter] === 'advanced' },
+  { id: 'beginner', label: 'Beginner (Chapters 1 to 24)', group: 'By band', test: card => BAND[card.chapter] === 'beginner' },
+  { id: 'intermediate', label: 'Intermediate (Chapters 25 to 42)', group: 'By band', test: card => BAND[card.chapter] === 'intermediate' },
+  { id: 'advanced', label: 'Advanced (Chapters 43 to 52)', group: 'By band', test: card => BAND[card.chapter] === 'advanced' },
 ]
 
 // Same Samoan word, another card in the course with a different meaning.

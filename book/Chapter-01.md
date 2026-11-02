@@ -118,7 +118,7 @@ To answer no, here is a new word. *Leai* means "no", and you can use it
 on its own from your very first day.
 
 > **Preview:** *Leai* has a grammar of its own, and a story that is told later,
-> in Chapter 14, and completed in Chapter 15. Until then, use it only on its
+> in Chapter 15, and completed in Chapter 16. Until then, use it only on its
 > own, as the one-word answer "no".
 
 > *Note:* Only questions carry the falling arrow in this book, and only in the

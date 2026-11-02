@@ -1,8 +1,8 @@
 {
-  "chapter": 20,
+  "chapter": 21,
   "items": [
     {
-      "id": "ch20-with-and-and",
+      "id": "ch21-with-and-and",
       "kind": "contrast",
       "anchor": "the-number-of-the-verb-tells-you-which",
       "title": "The verb tells with from and",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "id": "ch20-ma-jobs",
+      "id": "ch21-ma-jobs",
       "kind": "grid",
       "anchor": "joining-two-doers",
       "title": "One word, two jobs",
@@ -31,7 +31,7 @@
       }
     },
     {
-      "id": "ch20-pick-nofo-nonofo",
+      "id": "ch21-pick-nofo-nonofo",
       "kind": "pick",
       "anchor": "the-number-of-the-verb-tells-you-which",
       "title": "Choose one doer or two",

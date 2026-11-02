@@ -1,8 +1,8 @@
 // Presentation selection and timing only. Wording and answers come from the
-// real quiz, the real Chapter 1 word table and the Chapter 4 tense figure
-// (src/data/interactives/04.json, item ch4-tense-line). No Samoan is typed here.
+// real quiz, the real Chapter 1 word table and the Chapter 5 tense figure
+// (src/data/interactives/05.json, item ch5-tense-line). No Samoan is typed here.
 export const FILM_DURATION = 3000
-export const DRILL_PREVIEW_ITEM = 'ch4-tense-line'
+export const DRILL_PREVIEW_ITEM = 'ch5-tense-line'
 
 // The drill cards for the home preview, read from the printed figure. A state
 // is a target only when its English is unique among the states, so the answer

@@ -1,4 +1,4 @@
-# Chapter 50: Affixes and Doubling
+# Chapter 51: Affixes and Doubling
 
 This chapter completes the word-building pieces it names, the two endings *=ga* and
 *=a*, the prefixes *fe-*, *taʻi-*, *toʻa-*, *ʻā-* and *ana-*, and the doubling

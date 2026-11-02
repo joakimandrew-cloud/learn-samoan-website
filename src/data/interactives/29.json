@@ -1,8 +1,8 @@
 {
-  "chapter": 28,
+  "chapter": 29,
   "items": [
     {
-      "id": "ch28-built-words",
+      "id": "ch29-built-words",
       "kind": "grid",
       "anchor": "building-a-word-with-faa",
       "title": "Read the word inside",
@@ -83,7 +83,7 @@
       "caption": "Tap a base word and its built partner. The same prefix serves five jobs, and the gentle negative also has *lē* inside it."
     },
     {
-      "id": "ch28-make-sleep",
+      "id": "ch29-make-sleep",
       "kind": "contrast",
       "anchor": "making-something-happen",
       "title": "From sleeping to putting to sleep",
@@ -113,7 +113,7 @@
       }
     },
     {
-      "id": "ch28-read-built",
+      "id": "ch29-read-built",
       "kind": "pick",
       "anchor": "saying-a-negative-gently",
       "title": "Read the built meaning",

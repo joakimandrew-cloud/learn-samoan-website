@@ -1,4 +1,4 @@
-# Chapter 37: Narrative Chains
+# Chapter 38: Narrative Chains
 
 This chapter adds two of the ways Sāmoan sets one event after another, the
 then-construction built out of *ona* and *lea* and the run of clauses that carry
@@ -108,7 +108,7 @@ the hiding, and at everything the story has said up to that moment.
 > the then-construction and is answered by *lea*, which, when it is there, marks
 > this *ona* as the then-construction. There is a third *ona*, meaning "because",
 > and the test that tells the "that" *ona* from the "because" *ona* is taught in
-> Chapter 38.
+> Chapter 39.
 
 ---
 
@@ -205,7 +205,7 @@ clauses.
 
 > **Preview:** Sāmoan can open a sentence by putting a whole when-clause at the
 > front of everything else, setting the background the events run against. That
-> opening is taught in Chapter 44.
+> opening is taught in Chapter 45.
 
 ---
 

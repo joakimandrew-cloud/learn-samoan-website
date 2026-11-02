@@ -1,8 +1,8 @@
 {
-  "chapter": 25,
+  "chapter": 26,
   "items": [
     {
-      "id": "ch25-pick-owner-after-thing",
+      "id": "ch26-pick-owner-after-thing",
       "kind": "pick",
       "anchor": "the-meaning-behind-a-and-o",
       "title": "The owner after the thing: *a* or *o*?",
@@ -54,7 +54,7 @@
       }
     },
     {
-      "id": "ch25-possessive-grid",
+      "id": "ch26-possessive-grid",
       "kind": "grid",
       "anchor": "the-four-sets-of-possessive-forms",
       "title": "Four article choices inside possessive forms",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "ch25-sort-a-o",
+      "id": "ch26-sort-a-o",
       "kind": "sort",
       "anchor": "what-takes-a-and-what-takes-o",
       "title": "Sort the belonging types",
@@ -194,7 +194,7 @@
       }
     },
     {
-      "id": "ch25-pick-family-a-o",
+      "id": "ch26-pick-family-a-o",
       "kind": "pick",
       "anchor": "where-the-rule-runs-out",
       "title": "Family words: *a* or *o*?",
@@ -246,7 +246,7 @@
       }
     },
     {
-      "id": "ch25-sort-possessive-number",
+      "id": "ch26-sort-possessive-number",
       "kind": "sort",
       "anchor": "the-four-sets-of-possessive-forms",
       "title": "Sort the possessive forms by article choice",

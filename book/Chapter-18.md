@@ -1,4 +1,4 @@
-# Chapter 17: The Where-Sentence
+# Chapter 18: The Where-Sentence
 
 This chapter adds the where-sentence, the third kind of Sāmoan sentence, in
 which a tense particle sits in front of a place or a time, standing where a verb
@@ -159,7 +159,7 @@ tell the two apart.
 
 > **Preview:** The same frame has a second flavour that says a thing belongs to
 > someone, the belonging-sentence, which answers "whose is it?". That use is
-> taught in Chapter 42.
+> taught in Chapter 43.
 
 ---
 

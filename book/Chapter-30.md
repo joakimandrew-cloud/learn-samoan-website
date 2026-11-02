@@ -1,4 +1,4 @@
-# Chapter 29: Directional Particles
+# Chapter 30: Directional Particles
 
 This chapter introduces the direction words, the six particles that stand after
 a verb and say which way its action is turned, toward the speaker, away from the
@@ -151,7 +151,7 @@ of taking with *mai* fused onto the end of it: take, toward me.
 
 > **Preview:** *Atu* has one more job. Set on a quality word, it says that one
 > thing has more of that quality than another, which is how Sāmoan compares two
-> things. That use is taught in Chapter 31. In this chapter *atu* only points
+> things. That use is taught in Chapter 32. In this chapter *atu* only points
 > away from the speaker.
 
 ---

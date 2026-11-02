@@ -1,8 +1,8 @@
 {
-  "chapter": 11,
+  "chapter": 12,
   "items": [
     {
-      "id": "ch11-place-word-range",
+      "id": "ch12-place-word-range",
       "kind": "grid",
       "anchor": "the-place-word-i",
       "title": "One place word, several English readings",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "ch11-to-and-from",
+      "id": "ch12-to-and-from",
       "kind": "contrast",
       "anchor": "the-from-word-mai",
       "title": "The end phrase points to or from",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "id": "ch11-sort-place-direction",
+      "id": "ch12-sort-place-direction",
       "kind": "sort",
       "anchor": "the-from-word-mai",
       "title": "Sort the place phrases by their job",

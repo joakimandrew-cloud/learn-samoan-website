@@ -1,4 +1,4 @@
-# Chapter 44: Time Expressions
+# Chapter 45: Time Expressions
 
 This chapter completes the time-expression system with the since-word *talu* and
 the clause that follows it, the when-word *ina ʻua*, the le-phrase set at the

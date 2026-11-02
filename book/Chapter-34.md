@@ -1,4 +1,4 @@
-# Chapter 33: Reported Speech
+# Chapter 34: Reported Speech
 
 This chapter adds reported speech, which Sāmoan builds from machinery already
 in place: after a knowing word the report is an ordinary clause keeping a tense

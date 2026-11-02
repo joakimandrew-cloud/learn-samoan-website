@@ -1,8 +1,8 @@
 {
-  "chapter": 16,
+  "chapter": 17,
   "items": [
     {
-      "id": "ch16-place-to-ai",
+      "id": "ch17-place-to-ai",
       "kind": "contrast",
       "anchor": "pointing-back-to-a-place",
       "title": "Replace the named place with *ai*",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "ch16-fronted-place",
+      "id": "ch17-fronted-place",
       "kind": "contrast",
       "anchor": "putting-the-place-first",
       "title": "A fronted place can be copied inside",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": "ch16-sort-ai-i-ai",
+      "id": "ch17-sort-ai-i-ai",
       "kind": "sort",
       "anchor": "going-there-i-ai",
       "title": "Sort there and to there",

@@ -1,4 +1,4 @@
-# Chapter 46: Uses of the Le-Phrase
+# Chapter 47: Uses of the Le-Phrase
 
 This chapter teaches three uses of the le-phrase: after the with-word *ma*,
 after a verb that passes judgement such as *lelei* (good), and standing on its

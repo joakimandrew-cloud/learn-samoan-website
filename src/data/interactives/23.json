@@ -1,8 +1,8 @@
 {
-  "chapter": 22,
+  "chapter": 23,
   "items": [
     {
-      "id": "ch22-number-line",
+      "id": "ch23-number-line",
       "kind": "scale",
       "anchor": "counting-things",
       "title": "The numbers from one to ten",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "ch22-count-things-people",
+      "id": "ch23-count-things-people",
       "kind": "contrast",
       "anchor": "counting-people",
       "title": "Counting people adds the people prefix",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "ch22-sort-number-phrases",
+      "id": "ch23-sort-number-phrases",
       "kind": "sort",
       "anchor": "putting-things-in-order",
       "title": "Sort three jobs for numbers",

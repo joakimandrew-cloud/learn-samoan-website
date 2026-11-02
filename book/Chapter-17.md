@@ -1,4 +1,4 @@
-# Chapter 16: The Pointing-Back Word *Ai*
+# Chapter 17: The Pointing-Back Word *Ai*
 
 This chapter adds the pointing-back word *ai*, a word that sits inside the verb
 phrase and stands in for a place already named, so that a place mentioned once
@@ -58,7 +58,7 @@ naming is enough; *ai* carries it forward.
 
 > **Preview:** When you tell a story, one event after another, *ai* threads the
 > clauses together, pointing back to a place or a scene set at the start. That
-> fuller storytelling role is taught in Chapter 37.
+> fuller storytelling role is taught in Chapter 38.
 
 ---
 
@@ -93,7 +93,7 @@ back to it or may be left out.
 
 > **Preview:** This same pointing-back copy does the work inside the kind of
 > phrase that picks out "the village where they lived" or "the day it happened".
-> That use is taught in Chapter 43.
+> That use is taught in Chapter 44.
 
 ---
 

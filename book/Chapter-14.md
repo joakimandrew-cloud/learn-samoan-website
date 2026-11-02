@@ -1,4 +1,4 @@
-# Chapter 13: The General Particle *E*
+# Chapter 14: The General Particle *E*
 
 This chapter adds the general particle *e*, the tense particle for what holds in
 general rather than at one moment (a habit, a lasting quality, a plain truth, or
@@ -53,7 +53,7 @@ the standing habit.
 
 > **Preview:** The general particle also states a quantity, such as how many
 > there are or how old someone is. Counting has a shape of its own, met later in
-> this book and completed in Chapter 22. This chapter states qualities, truths,
+> this book and completed in Chapter 23. This chapter states qualities, truths,
 > and habits; the counting sentences wait for that chapter.
 
 ---

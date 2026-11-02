@@ -85,7 +85,7 @@ describe('drill pages', () => {
 
   it('give every drill an eyebrow of Chapter N and its level', () => {
     expect(drillEyebrow('ch1-order', chapters)).toBe('Chapter 1 · Beginner')
-    expect(drillEyebrow('ch50-built-meaning', chapters)).toMatch(/^Chapter 50 · (Intermediate|Advanced)$/)
+    expect(drillEyebrow('ch51-built-meaning', chapters)).toMatch(/^Chapter 51 · (Intermediate|Advanced)$/)
     expect(drillEyebrow(DAILY_WORDS_ID, chapters)).toBe('Every chapter · Words to Learn')
     expect(drillEyebrow('not-a-drill', chapters)).toBe('')
   })
@@ -105,8 +105,8 @@ describe('hub search and filters', () => {
     expect(count('zzzzqq', 'all')).toBe(0)
   })
   it('finds a drill by its chapter', () => {
-    const hits = filterDrillGroups(groups, 'chapter 4', 'all').flatMap(g => g.visible)
-    expect(hits.some(d => d.id === 'ch4-type-state-verbs')).toBe(true)
+    const hits = filterDrillGroups(groups, 'chapter 5', 'all').flatMap(g => g.visible)
+    expect(hits.some(d => d.id === 'ch5-type-state-verbs')).toBe(true)
     expect(matchesDrill({ title: 'x', blurb: '', action: 'Pick', ch: null }, 'chapter null')).toBe(false)
   })
   it('searches a title without its italic stars', () => {

@@ -7,9 +7,9 @@ The Samoan course as a website, built the way the Tongan site at leafakatonga.or
 | Route | Page |
 |---|---|
 | `/` | Home: hero, Chapter 1 sentence builder, quiz and card preview, learning path |
-| `/chapters` | All 51 chapters, searchable, by band |
+| `/chapters` | All 52 chapters, searchable, by band |
 | `/chapters/:n` | A chapter: reading, interactive exercises, Words to Learn table and cards, finish |
-| `/quizzes`, `/quizzes/:n` | The 51 ten-question quizzes |
+| `/quizzes`, `/quizzes/:n` | The 52 ten-question quizzes |
 | `/cards` | Flip cards: by chapter, by list, by band |
 | `/glossary` | The Glossary appendix, searchable |
 | `/reference` | Hub for the Introduction and the appendices |

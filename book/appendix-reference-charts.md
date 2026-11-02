@@ -27,7 +27,7 @@ Taught in Chapter 2. The independent forms *aʻu*, *ʻoe* are a separate, bounde
 
 ## Possessives: one owner, singular pronoun forms
 
-The singular possessive pronouns, for one thing possessed by one owner, taught in Chapter 10.
+The singular possessive pronouns, for one thing possessed by one owner, taught in Chapter 11.
 
 | person | *a*-word | *o*-word |
 |---|---|---|
@@ -35,11 +35,11 @@ The singular possessive pronouns, for one thing possessed by one owner, taught i
 | your | *lau* | *lou* |
 | his, her, its | *lana* | *lona* |
 
-Taught in Chapter 10.
+Taught in Chapter 11.
 
 ## Possessives: my things, by number and specificity
 
-The four forms of "my", crossing one thing against more than one, and a particular thing against any thing, taught in Chapter 25.
+The four forms of "my", crossing one thing against more than one, and a particular thing against any thing, taught in Chapter 26.
 
 | The thing possessed | *a*-word form | *o*-word form | English |
 |---|---|---|---|
@@ -48,11 +48,11 @@ The four forms of "my", crossing one thing against more than one, and a particul
 | more than one, particular | *aʻu* | *oʻu* | my |
 | more than one, any ones | *ni aʻu* | *ni oʻu* | some ... of mine |
 
-Taught in Chapter 25.
+Taught in Chapter 26.
 
 ## Possessives: the belonging sentence, every owner
 
-The belonging word fused (singular) or standing beside (pair, group) the owner, across every person the book teaches, from Chapter 42.
+The belonging word fused (singular) or standing beside (pair, group) the owner, across every person the book teaches, from Chapter 43.
 
 | Owner | *a*-word form | *o*-word form |
 |---|---|---|
@@ -65,11 +65,11 @@ The belonging word fused (singular) or standing beside (pair, group) the owner, 
 | you (all of you) | *a ʻoutou* | *o ʻoutou* |
 | they | *a lātou* | *o lātou* |
 
-Taught in Chapter 42. The book prints no row for one person addressed ("yours", to one person): that form is not taught in this book.
+Taught in Chapter 43. The book prints no row for one person addressed ("yours", to one person): that form is not taught in this book.
 
 ## Possessives: said with feeling
 
-The emotional (feeling-marked) possessive forms, standing beside the ordinary set they echo, from Chapter 51.
+The emotional (feeling-marked) possessive forms, standing beside the ordinary set they echo, from Chapter 52.
 
 | The thing possessed | *a*-word form | *o*-word form | Ordinary pair |
 |---|---|---|---|
@@ -85,22 +85,22 @@ The emotional (feeling-marked) possessive forms, standing beside the ordinary se
 | your (one person) | *sinau* | *sinou* |
 | his, her | *sinana* | *sinona* |
 
-Taught in Chapter 51.
+Taught in Chapter 52.
 
 ## Articles
 
-The specific/non-specific, one/many article grid, taught whole in Chapter 6.
+The specific/non-specific, one/many article grid, taught whole in Chapter 7.
 
 |  | one | many |
 |---|---|---|
 | **specific** (a particular one) | *le* | (no article) |
 | **non-specific** (any at all) | *se* | *ni* |
 
-Taught in Chapter 6.
+Taught in Chapter 7.
 
 ## Articles: the plural feeling articles
 
-Which singular feeling article a plural feeling article answers to, taught in Chapter 51.
+Which singular feeling article a plural feeling article answers to, taught in Chapter 52.
 
 | Singular | Plural | Reference |
 |---|---|---|
@@ -108,11 +108,11 @@ Which singular feeling article a plural feeling article answers to, taught in Ch
 | *sina* | *nāi* | a particular portion |
 | *sina* | *ni nāi* | any portion at all |
 
-Taught in Chapter 51.
+Taught in Chapter 52.
 
 ## Tense-aspect-mood particles
 
-The same sentence run across the four tense-aspect-mood particles this book teaches, from Chapter 4.
+The same sentence run across the four tense-aspect-mood particles this book teaches, from Chapters 4 and 5.
 
 | Sāmoan | English |
 |---|---|
@@ -121,11 +121,11 @@ The same sentence run across the four tense-aspect-mood particles this book teac
 | *ʻUa ʻou alu.* | I have gone. |
 | *ʻOleʻā ʻou alu.* | I will go. |
 
-Taught in Chapter 4. This is the four-particle set Chapter 4 teaches; the general particle *e*/*te* and the progressive *ʻoloʻo*, taught later in this book, are not folded into this grid by any chapter.
+Taught in Chapters 4 and 5. This is the four-particle set Chapters 4 and 5 teaches; the general particle *e*/*te* and the progressive *ʻoloʻo*, taught later in this book, are not folded into this grid by any chapter.
 
 ## Demonstrative
 
-This book teaches one demonstrative, *lenā* ("that"), drilled in Chapter 7 against five naming sentences. Sāmoan has a fuller set of demonstratives beyond this one; that fuller set is outside this book.
+This book teaches one demonstrative, *lenā* ("that"), drilled in Chapter 8 against five naming sentences. Sāmoan has a fuller set of demonstratives beyond this one; that fuller set is outside this book.
 
 | Sāmoan | English |
 |---|---|
@@ -135,4 +135,4 @@ This book teaches one demonstrative, *lenā* ("that"), drilled in Chapter 7 agai
 | *ʻO le ʻāiga lenā.* | That is the family. |
 | *ʻO se uō lenā.* | That is a friend. |
 
-Taught in Chapter 7.
+Taught in Chapter 8.

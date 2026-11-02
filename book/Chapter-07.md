@@ -1,4 +1,4 @@
-# Chapter 6: Articles and Plurals
+# Chapter 7: Articles and Plurals
 
 This chapter introduces the article system, the words that stand in front of a
 noun to mark whether the speaker means one particular thing or just any thing,
@@ -172,7 +172,7 @@ speaks of many:
 
 > **Preview:** Sāmoan has one more small set of articles, used to add warmth,
 > tenderness, or a sense of smallness to a noun. They round out the article
-> system and are taught in Chapter 51. The four articles in this chapter are the
+> system and are taught in Chapter 52. The four articles in this chapter are the
 > everyday set you will use constantly.
 
 ---

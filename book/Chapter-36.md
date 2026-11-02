@@ -1,4 +1,4 @@
-# Chapter 35: The Le-Phrase
+# Chapter 36: The Le-Phrase
 
 This chapter introduces the le-phrase, an article standing in front of a verb so
 that the two of them together work as a noun phrase, and shows you how to pack a
@@ -50,7 +50,7 @@ still the verb *nofo*, and only the article in front of it has changed what the
 phrase can do.
 
 > **Preview:** Sāmoan has a second way of making an event into a word, by adding
-> an ending to the verb itself. That system is taught in Chapter 50. Every event
+> an ending to the verb itself. That system is taught in Chapter 51. Every event
 > word in this chapter is made the first way, with the article.
 
 ---
@@ -96,7 +96,7 @@ too.
 
 > **Preview:** A le-phrase can also stand at the head of a sentence, where it
 > sets the time for what follows, the way an English sentence can open with
-> "when". That use is taught in Chapter 44.
+> "when". That use is taught in Chapter 45.
 
 ---
 
@@ -142,7 +142,7 @@ it, and both are taught later in this book.
 > **Preview:** A le-phrase can name the person who does the event as well as the
 > thing it is done to. How each of them is marked follows a rule of its own, not
 > the rule you learned for belonging, and part of it turns on whether both of
-> them are named at once. That rule is taught in Chapter 45.
+> them are named at once. That rule is taught in Chapter 46.
 
 ---
 
@@ -193,7 +193,6 @@ inside it would be the singular *nofo*.
 | *manatu* | think; feel lonely |
 | *māumau* | waste |
 | *lavea* | be hurt, be wounded |
-| *paʻū* | fall |
 | *taʻatia* | lie down |
 | *vāivai* | be weak, be tired |
 | *velo* | hurl a spear (at someone) |

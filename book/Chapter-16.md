@@ -1,4 +1,4 @@
-# Chapter 15: The Negative
+# Chapter 16: The Negative
 
 This chapter adds Sāmoan's two negative words for the statement: the not-word
 *lē*, which denies that something happened, and the not-yet word *leʻi*, which

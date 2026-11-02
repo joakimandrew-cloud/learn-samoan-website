@@ -1,8 +1,8 @@
 {
-  "chapter": 18,
+  "chapter": 19,
   "items": [
     {
-      "id": "ch18-time-slot",
+      "id": "ch19-time-slot",
       "kind": "contrast",
       "anchor": "the-time-word-slot",
       "title": "The time word sits at the end",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "ch18-morning-directions",
+      "id": "ch19-morning-directions",
       "kind": "contrast",
       "anchor": "time-past-and-time-to-come",
       "title": "The front of the word points through time",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": "ch18-sort-time-words",
+      "id": "ch19-sort-time-words",
       "kind": "sort",
       "anchor": "words-to-learn",
       "title": "Sort time gone by and time ahead",

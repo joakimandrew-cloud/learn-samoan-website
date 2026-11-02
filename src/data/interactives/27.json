@@ -1,8 +1,8 @@
 {
-  "chapter": 26,
+  "chapter": 27,
   "items": [
     {
-      "id": "ch26-spatial-frame",
+      "id": "ch27-spatial-frame",
       "kind": "grid",
       "anchor": "the-spatial-noun-frame",
       "title": "The spatial noun changes the position",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "ch26-compass",
+      "id": "ch27-compass",
       "kind": "scale",
       "anchor": "the-directions",
       "title": "The compass directions",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "ch26-sort-space-direction",
+      "id": "ch27-sort-space-direction",
       "kind": "sort",
       "anchor": "words-to-learn",
       "title": "Sort regions and directions",

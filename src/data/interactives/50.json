@@ -1,8 +1,8 @@
 {
-  "chapter": 49,
+  "chapter": 50,
   "items": [
     {
-      "id": "ch49-real-unreal",
+      "id": "ch50-real-unreal",
       "kind": "contrast",
       "anchor": "the-second-if-word-ana",
       "title": "A possible condition or an imagined opposite",
@@ -26,7 +26,7 @@
       "caption": "Three things change together: the if-word, the missing *te* in the condition, and *sēmanū* in the main clause. The condition after *ʻana* usually has no tense particle."
     },
     {
-      "id": "ch49-condition-second",
+      "id": "ch50-condition-second",
       "kind": "contrast",
       "anchor": "putting-the-condition-second",
       "title": "Put the imagined condition second",
@@ -48,7 +48,7 @@
       "caption": "When the condition follows the main clause, *pē* stands in front of *ʻana*. The imagined situation stays the same."
     },
     {
-      "id": "ch49-relations",
+      "id": "ch50-relations",
       "kind": "sort",
       "anchor": "saying-although-with-tiga",
       "title": "Does the second situation stop the first?",
@@ -93,7 +93,7 @@
       "intro": "Choose between a condition that makes an exception and a contrast that still holds."
     },
     {
-      "id": "ch49-tusa-readings",
+      "id": "ch50-tusa-readings",
       "kind": "contrast",
       "anchor": "even-if-whether-or-not-and-whatever-with-tusa",
       "title": "The question clause decides the reading",

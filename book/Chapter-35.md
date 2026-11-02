@@ -1,4 +1,4 @@
-# Chapter 34: Putting Things First
+# Chapter 35: Putting Things First
 
 This chapter teaches putting things first, the pattern that moves a noun phrase
 out of its ordinary place to the head of the sentence under the presenting
@@ -237,7 +237,7 @@ place phrases in the section above were doing.
 > **Preview:** The contrasting pair can also be read a second way, as a sentence
 > that begins by naming somebody, "it is me", and then describes what that
 > person did. That second reading is the shape behind phrases like "the one who
-> saw it", and it is taught in Chapter 43.
+> saw it", and it is taught in Chapter 44.
 
 ---
 
@@ -305,7 +305,6 @@ it, every time.
 |---|---|
 | *tapē* | kill |
 | *lagona* | hear, feel |
-| *ʻuma* | be finished |
 | *leaga* | bad |
 | *falaoa* | bread |
 | *faleoʻo* | a small house |

@@ -1,9 +1,9 @@
 // The home practice preview's Drills tab (src/premium/lib/practice-film.js).
-// Every Samoan string it shows must come whole from the Chapter 4 tense figure
-// in src/data/interactives/04.json; nothing is typed into the preview code.
+// Every Samoan string it shows must come whole from the Chapter 5 tense figure
+// in src/data/interactives/05.json; nothing is typed into the preview code.
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import chapter4 from '../src/data/interactives/04.json'
+import chapter4 from '../src/data/interactives/05.json'
 import { DRILL_PREVIEW_ITEM, drillPreviewCards, findDrillPreviewItem, practiceDuration, practiceFrame, practiceTabIndex } from '../src/premium/lib/practice-film.js'
 
 const item = findDrillPreviewItem(chapter4)
@@ -11,7 +11,7 @@ const states = item?.data?.states || []
 const cards = drillPreviewCards(item)
 
 describe('home drills preview', () => {
-  it('reads the Chapter 4 tense figure', () => {
+  it('reads the Chapter 5 tense figure', () => {
     expect(item?.id).toBe(DRILL_PREVIEW_ITEM)
     expect(states.length).toBe(4)
     expect(cards.length).toBeGreaterThan(0)

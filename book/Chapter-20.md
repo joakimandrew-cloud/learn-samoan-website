@@ -1,4 +1,4 @@
-# Chapter 19: Plural Verb Forms
+# Chapter 20: Plural Verb Forms
 
 This chapter adds the plural verb form, the shape a verb takes when what it is
 about is more than one, so that *nofo* (one person stays) becomes *nonofo*
@@ -46,7 +46,7 @@ place at the end, yet the plural verb still answers to the subject, the pigs.
 > something the action is done to, the verb counts the thing it is done to, not
 > the doer. An English speaker meets those sentences expecting a passive, and
 > Sāmoan has none: leaving the doer out is what does that work. The marking that
-> builds those two-participant sentences is taught in Chapter 27; until then,
+> builds those two-participant sentences is taught in Chapter 28; until then,
 > every plural sentence here has a single participant.
 
 ---
@@ -70,7 +70,7 @@ singular, so each plural is learned with its word.
 
 > **Preview:** Doubling a piece of a word is a tool Sāmoan uses for more than
 > plurals. The full account of doubling, and of the other small changes that
-> build these plural forms, is gathered together in Chapter 50. Here each plural
+> build these plural forms, is gathered together in Chapter 51. Here each plural
 > form is met as a word to learn.
 
 > *Note:* A verb's plural form belongs to the verb; the noun it is about keeps

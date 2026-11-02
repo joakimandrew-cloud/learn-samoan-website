@@ -1,4 +1,4 @@
-# Chapter 38: Purpose and Reason
+# Chapter 39: Purpose and Reason
 
 This chapter adds the three because-words *ʻauā*, *leaga* and *ʻona*, each of
 which opens a clause giving the reason for what was just said, and the purpose
@@ -228,7 +228,7 @@ general particle.
 
 > **Preview:** Sāmoan marks purpose a second way, with the joining word *ʻina*
 > standing in front of the mood particle *ʻia*. That combination belongs with the
-> rest of the mood particles and is taught in Chapter 48.
+> rest of the mood particles and is taught in Chapter 49.
 
 ---
 

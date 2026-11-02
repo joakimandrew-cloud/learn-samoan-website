@@ -1,8 +1,8 @@
 {
-  "chapter": 34,
+  "chapter": 35,
   "items": [
     {
-      "id": "ch34-fronted-participant",
+      "id": "ch35-fronted-participant",
       "kind": "contrast",
       "anchor": "the-shape-of-the-verb",
       "title": "Put either participant first",
@@ -32,7 +32,7 @@
       "caption": "The three printed forms have the same English. Short and long forms here follow tendencies; the two command rules remain the only exceptionless ones."
     },
     {
-      "id": "ch34-first-phrase",
+      "id": "ch35-first-phrase",
       "kind": "pick",
       "anchor": "putting-the-setting-first",
       "title": "What has been put first?",
@@ -73,7 +73,7 @@
       "intro": "Look at the whole phrase before the rest of the sentence begins."
     },
     {
-      "id": "ch34-naming-order",
+      "id": "ch35-naming-order",
       "kind": "contrast",
       "anchor": "order-in-the-naming-sentence",
       "title": "Two orders for the same naming sentence",

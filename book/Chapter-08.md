@@ -1,4 +1,4 @@
-# Chapter 7: The Naming Sentence
+# Chapter 8: The Naming Sentence
 
 This chapter introduces the naming sentence, a second sentence type that sets
 two naming parts side by side with the presenting particle *ʻo* and no verb, and
@@ -103,7 +103,7 @@ he is, a person with a strong body. After *tagata* come *tino* ("body") and
 
 > **Preview:** In *se tagata tino mālosi*, the words after *tagata* say what the
 > person is like by naming a body part and its quality. That structure, a noun
-> followed by a part and its quality, is taught in Chapter 40. Until then, take the
+> followed by a part and its quality, is taught in Chapter 41. Until then, take the
 > whole phrase as one piece.
 
 > *Note:* When it is already clear who or what you mean, the part the sentence is
@@ -114,7 +114,7 @@ he is, a person with a strong body. After *tagata* come *tino* ("body") and
 > **Preview:** A naming sentence can be turned into its opposite, "the boy is
 > not a friend". Sāmoan does that by wrapping the whole naming sentence inside a
 > longer structure, so it waits until the words that make sentences negative are
-> in place. That is taught in Chapter 15. For now, build naming sentences only
+> in place. That is taught in Chapter 16. For now, build naming sentences only
 > in the positive.
 
 ---

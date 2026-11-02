@@ -1,4 +1,4 @@
-# Chapter 12: Verbs of Wanting and Seeing
+# Chapter 13: Verbs of Wanting and Seeing
 
 This chapter introduces the two-participant sentence: a verb of seeing,
 feeling, wanting, or asking, then the one who does it, then the thing it
@@ -163,7 +163,7 @@ getting it wrong changes what the sentence says.
 > **Preview:** The verbs in this chapter point at their target with the place
 > word *ʻi*, and a sentence built this way never takes the marker that sets apart
 > the doer in a sentence where the thing is wholly affected. That marker, and the contrast it draws
-> with *ʻi*, are completed in Chapter 27. For now, every sentence in this pattern
+> with *ʻi*, are completed in Chapter 28. For now, every sentence in this pattern
 > uses *ʻi*.
 
 ---

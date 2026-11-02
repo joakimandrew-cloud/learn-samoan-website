@@ -1,8 +1,8 @@
 {
-  "chapter": 32,
+  "chapter": 33,
   "items": [
     {
-      "id": "ch32-verb-shapes",
+      "id": "ch33-verb-shapes",
       "kind": "grid",
       "anchor": "the-two-shapes-of-the-verb",
       "title": "One short form, two long choices",
@@ -90,7 +90,7 @@
       "caption": "Both long forms are printed for every verb here. The equals sign keeps the join visible in this book; ordinary writing joins the parts without it."
     },
     {
-      "id": "ch32-ending-position",
+      "id": "ch33-ending-position",
       "kind": "contrast",
       "anchor": "the-ending-on-a-direction-word",
       "title": "The ending has two possible homes",
@@ -114,7 +114,7 @@
       "caption": "The ending moves; the meaning stays the same. Both printed forms ask the same question."
     },
     {
-      "id": "ch32-command-rules",
+      "id": "ch33-command-rules",
       "kind": "pick",
       "anchor": "when-the-choice-is-yours",
       "title": "Which rule settles the shape?",

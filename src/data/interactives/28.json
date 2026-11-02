@@ -1,8 +1,8 @@
 {
-  "chapter": 27,
+  "chapter": 28,
   "items": [
     {
-      "id": "ch27-agent-parts",
+      "id": "ch28-agent-parts",
       "kind": "anatomy",
       "anchor": "the-agent-marker-e",
       "title": "Find the marked doer",
@@ -35,7 +35,7 @@
       "caption": "Tap each part. The agent marker marks the doer; the one the action happened to is unmarked."
     },
     {
-      "id": "ch27-doer-choice",
+      "id": "ch28-doer-choice",
       "kind": "pick",
       "anchor": "the-two-words-spelled-e",
       "title": "Who does the action?",
@@ -76,7 +76,7 @@
       "intro": "Look for the marker after the verb, then choose the person it marks."
     },
     {
-      "id": "ch27-omit-doer",
+      "id": "ch28-omit-doer",
       "kind": "contrast",
       "anchor": "leaving-the-doer-out",
       "title": "The doer can disappear",
@@ -100,7 +100,7 @@
       "caption": "Switch between the printed sentences. Removing the doer adds no replacement word and makes no change to the verb."
     },
     {
-      "id": "ch27-pick-read-it-back",
+      "id": "ch28-pick-read-it-back",
       "kind": "pick",
       "anchor": "leaving-words-out",
       "place": "end",

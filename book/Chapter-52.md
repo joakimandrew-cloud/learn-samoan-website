@@ -1,4 +1,4 @@
-# Chapter 51: Emotional Articles and Pronouns
+# Chapter 52: Emotional Articles and Pronouns
 
 This chapter completes the article system with the four articles that carry
 feeling, *si*, *sina*, *nāi* and *ni nāi*, and completes the first person with

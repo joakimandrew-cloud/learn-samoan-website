@@ -1,8 +1,8 @@
 {
-  "chapter": 38,
+  "chapter": 39,
   "items": [
     {
-      "id": "ch38-reason-position",
+      "id": "ch39-reason-position",
       "kind": "contrast",
       "anchor": "the-because-word-ona",
       "title": "Put the reason before or after",
@@ -25,7 +25,7 @@
       "caption": "The because-clause keeps its own tense particle in both places. When it comes first, the other clause usually carries *ai*."
     },
     {
-      "id": "ch38-that-because",
+      "id": "ch39-that-because",
       "kind": "contrast",
       "anchor": "telling-ona-and-ona-apart",
       "title": "Read the particle after the joining word",
@@ -49,7 +49,7 @@
       "caption": "Ordinary print often spells these joining words alike. The tense particle after them is the test; the then-construction is told apart by its closing *lea*."
     },
     {
-      "id": "ch38-purpose-reason",
+      "id": "ch39-purpose-reason",
       "kind": "sort",
       "anchor": "the-purpose-clause",
       "title": "A reason or a purpose?",
@@ -94,7 +94,7 @@
       "intro": "Choose whether the added clause explains a reason or names a purpose."
     },
     {
-      "id": "ch38-ask-why",
+      "id": "ch39-ask-why",
       "kind": "dialogue",
       "anchor": "asking-why",
       "title": "A why-question and its answer",

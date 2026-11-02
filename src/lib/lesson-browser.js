@@ -1,11 +1,11 @@
 // The three bands of the ratified chapter spine (design/Book-Structure.md,
-// "Level boundaries"): Beginner 1 to 23, Intermediate 24 to 41, Advanced 42 to 51.
+// "Level boundaries"): Beginner 1 to 24, Intermediate 25 to 42, Advanced 43 to 52.
 // The sync script writes each chapter's band into chapters.json.
 
 export const LESSON_GROUPS = [
-  { key: 'beginner', name: 'Beginner', verbPhrase: 'Chapters 1 to 23', lead: 'From the basic sentence to numbers and the time, closing with Checkpoint 1.' },
-  { key: 'intermediate', name: 'Intermediate', verbPhrase: 'Chapters 24 to 41', lead: 'Combining clauses, closing with Checkpoint 2.' },
-  { key: 'advanced', name: 'Advanced', verbPhrase: 'Chapters 42 to 51', lead: 'Finish the full system, then bring the course together in Checkpoint 3.' },
+  { key: 'beginner', name: 'Beginner', verbPhrase: 'Chapters 1 to 24', lead: 'From the basic sentence to numbers and the time, closing with Checkpoint 1.' },
+  { key: 'intermediate', name: 'Intermediate', verbPhrase: 'Chapters 25 to 42', lead: 'Combining clauses, closing with Checkpoint 2.' },
+  { key: 'advanced', name: 'Advanced', verbPhrase: 'Chapters 43 to 52', lead: 'Finish the full system, then bring the course together in Checkpoint 3.' },
 ]
 
 export const LESSON_TIERS = [

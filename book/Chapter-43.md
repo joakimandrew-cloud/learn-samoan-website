@@ -1,4 +1,4 @@
-# Chapter 42: The Belonging Sentence
+# Chapter 43: The Belonging Sentence
 
 This chapter adds the belonging-sentence, in which a tense particle sits in
 front of an owner joined to a belonging word, so the sentence says who a thing

@@ -1,4 +1,4 @@
-# Chapter 5: Commands
+# Chapter 6: Commands
 
 This chapter introduces the command: a bare verb with no tense particle in front
 of it, and shows you how to tell one person to do something.
@@ -20,7 +20,7 @@ The verb stands on its own.
 Read this pair aloud:
 
 ::: {.examples}
-*Sā ia nofo.* She sat down.
+*Sā ia nofo.* She stayed.
 
 *Nofo.* Sit down.
 :::
@@ -47,7 +47,8 @@ part: the verb, with nothing in front of it.
 | *Fesoasoani.* | Help. |
 | *Alu.* | Go. |
 
-The commands in this chapter draw on seven new action verbs: *nofo* (sit, stay),
+The commands in this chapter draw on *nofo* (sit, stay), already met in an
+earlier chapter, and on six new action verbs:
 *faʻatali* (wait), *salu* (sweep), *fufulu* (wash), *ʻaumai* (bring), *tāpuni*
 (shut), and *fesoasoani* (help).
 
@@ -55,14 +56,14 @@ Every command here speaks to one person.
 
 > **Preview:** Telling more than one person to do something (a plural command)
 > uses a special plural form of the verb, where the verb has one. You meet it in
-> Chapter 19. Until then, every command in this book speaks to one person.
+> Chapter 20. Until then, every command in this book speaks to one person.
 
 A command tells someone what to do. Telling someone what not to do is a separate
 pattern, because the words that negate a statement do not attach to a command.
 
 > **Preview:** To tell someone not to do something (a prohibition), Sāmoan uses
 > its own do-not verbs rather than adding a negative word to the command. That
-> pattern is taught in Chapter 24.
+> pattern is taught in Chapter 25.
 
 ---
 
@@ -109,7 +110,7 @@ These words add force or friendliness; the command is complete without them.
 
 > **Preview:** A softer, more polite way to ask someone to do something, a
 > request rather than a flat command, uses a mood particle. You meet it in
-> Chapter 48.
+> Chapter 49.
 
 ---
 
@@ -127,7 +128,6 @@ These words add force or friendliness; the command is complete without them.
 | Word | Meaning |
 |---|---|
 | *faʻatali* | wait |
-| *nofo* | sit, stay |
 | *vave* | quick, soon |
 | *ʻaumai* | bring, take (hither) |
 | *tāpuni* | shut |

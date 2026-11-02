@@ -1,8 +1,8 @@
 {
-  "chapter": 21,
+  "chapter": 22,
   "items": [
     {
-      "id": "ch21-question-word-grid",
+      "id": "ch22-question-word-grid",
       "kind": "grid",
       "anchor": "asking-who",
       "title": "The question-word set",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "ch21-when-past-future",
+      "id": "ch22-when-past-future",
       "kind": "contrast",
       "anchor": "asking-when-past-and-future",
       "title": "The when-word and tense particle move together",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "ch21-pick-question-word",
+      "id": "ch22-pick-question-word",
       "kind": "pick",
       "anchor": "asking-how",
       "title": "Choose the missing question word",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "id": "ch21-pick-question-answer",
+      "id": "ch22-pick-question-answer",
       "kind": "pick",
       "anchor": "yes-or-no-questions",
       "title": "Find the answer to the question",

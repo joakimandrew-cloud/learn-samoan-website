@@ -53,8 +53,8 @@ describe('chapter interactives', () => {
 
 describe('printed translation pairing boundaries', () => {
   it('rejects a word fragment at either English endpoint', () => {
-    expect(pairedIn(10, 'lana', 'hi')).toBe(false)
-    expect(pairedIn(10, 'lona', 'hi')).toBe(false)
+    expect(pairedIn(11, 'lana', 'hi')).toBe(false)
+    expect(pairedIn(11, 'lona', 'hi')).toBe(false)
     const isolated = { chapters: new Map([[1, plainText('| his | lana |')]]), intro: '' }
     expect(pairedIn(1, 'lana', 'is', isolated)).toBe(false)
     expect(pairedIn(1, 'lana', 'his', isolated)).toBe(true)
@@ -73,6 +73,6 @@ describe('printed translation pairing boundaries', () => {
     expect(pairedIn(2, 'ʻoutou', 'you two', isolated)).toBe(false)
   })
   it('keeps the literal column paired to its own sentence', () => {
-    expect(pairedIn(27, 'e le tama', 'the boy')).toBe(true)
+    expect(pairedIn(28, 'e le tama', 'the boy')).toBe(true)
   })
 })

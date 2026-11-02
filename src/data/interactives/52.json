@@ -1,8 +1,8 @@
 {
-  "chapter": 51,
+  "chapter": 52,
   "items": [
     {
-      "id": "ch51-feeling-articles",
+      "id": "ch52-feeling-articles",
       "kind": "grid",
       "anchor": "the-article-sina",
       "title": "Feeling and a small portion are different jobs",
@@ -37,7 +37,7 @@
       "caption": "The first article always marks a particular one. The portion article can go either way; politeness is frequent with it, rather than guaranteed."
     },
     {
-      "id": "ch51-plural-feeling",
+      "id": "ch52-plural-feeling",
       "kind": "contrast",
       "anchor": "the-plural-articles-nai-and-ni-nai",
       "title": "Feeling stays while reference changes",
@@ -61,7 +61,7 @@
       "caption": "Both forms carry feeling. Only *nāi* answers to the always-specific *si*, while *sina* can answer to either plural."
     },
     {
-      "id": "ch51-emotional-speaker",
+      "id": "ch52-emotional-speaker",
       "kind": "contrast",
       "anchor": "the-emotional-first-person",
       "title": "The English stays I",
@@ -90,7 +90,7 @@
       "caption": "The emotional middle-slot form is *ta*, with a short vowel. *Tā*, with a long vowel, is the middle-slot word for we two, you and I."
     },
     {
-      "id": "ch51-emotional-belonging",
+      "id": "ch52-emotional-belonging",
       "kind": "grid",
       "anchor": "the-emotional-belonging-forms",
       "title": "The same four belonging choices",
@@ -159,7 +159,7 @@
       "caption": "The article element changes for number and reference, while the emotional person stays joined behind the belonging word. The English is the same as for the ordinary forms."
     },
     {
-      "id": "ch51-read-belonging",
+      "id": "ch52-read-belonging",
       "kind": "sort",
       "anchor": "the-emotional-belonging-forms",
       "title": "Keep number and reference apart",
@@ -212,7 +212,7 @@
       "intro": "Choose both how many things are named and whether particular ones are meant."
     },
     {
-      "id": "ch51-pick-feeling-article",
+      "id": "ch52-pick-feeling-article",
       "kind": "pick",
       "anchor": "the-article-sina",
       "place": "end",

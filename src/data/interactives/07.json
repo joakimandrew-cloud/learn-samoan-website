@@ -1,8 +1,8 @@
 {
-  "chapter": 6,
+  "chapter": 7,
   "items": [
     {
-      "id": "ch6-article-grid",
+      "id": "ch7-article-grid",
       "kind": "grid",
       "anchor": "one-and-many-the-article-carries-the-number",
       "title": "Four article choices",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": "ch6-one-and-many",
+      "id": "ch7-one-and-many",
       "kind": "contrast",
       "anchor": "one-and-many-the-article-carries-the-number",
       "title": "The article carries the number",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": "ch6-sort-article-phrases",
+      "id": "ch7-sort-article-phrases",
       "kind": "sort",
       "anchor": "the-non-specific-articles-se-and-ni",
       "title": "Specific or non-specific",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "id": "ch6-pick-one-or-many",
+      "id": "ch7-pick-one-or-many",
       "kind": "pick",
       "anchor": "words-to-learn",
       "title": "One or many?",

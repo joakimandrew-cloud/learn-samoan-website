@@ -12,7 +12,7 @@
  *                                  cut filters/strip-verification.lua makes for
  *                                  the PDF and EPUB). No other character changes.
  *   src/data/chapters.json         number, title, level, sections, first example
- *   src/data/quizzes.json          the 51 ten-question quizzes
+ *   src/data/quizzes.json          the 52 ten-question quizzes
  *   src/data/book-vocabulary.json  every Words to Learn row, with its chapter
  *   src/data/glossary.json         the Glossary appendix rows
  *   src/data/book-exercises.json   exercises with their answer-key entries
@@ -37,9 +37,9 @@ const DATA_OUT = path.join(APP, 'src', 'data')
 const CHECK = process.argv.includes('--check')
 
 const LEVELS = [
-  { key: 'beginner', from: 1, to: 23 },
-  { key: 'intermediate', from: 24, to: 41 },
-  { key: 'advanced', from: 42, to: 51 },
+  { key: 'beginner', from: 1, to: 24 },
+  { key: 'intermediate', from: 25, to: 42 },
+  { key: 'advanced', from: 43, to: 52 },
 ]
 
 const problems = []
@@ -129,7 +129,7 @@ function tables(body) {
 
 // The chapter's sample sentence for the catalog and the resume card: the
 // first whole-sentence pair in its example blocks that no earlier chapter
-// already shows (Chapters 2, 4 and 23 open on Chapter 1's sentence). Word and
+// already shows (Chapters 2, 5 and 24 open on Chapter 1's sentence; 5 until Step 4 rewrites it). Word and
 // phrase pairs ("*le teine*. the girl") are passed over. The literal reading
 // in brackets stays in the chapter; the sample keeps the plain translation.
 const shownExamples = new Set()

@@ -1,8 +1,8 @@
 {
-  "chapter": 5,
+  "chapter": 6,
   "items": [
     {
-      "id": "ch5-statement-to-command",
+      "id": "ch6-statement-to-command",
       "kind": "contrast",
       "anchor": "the-command",
       "title": "A command leaves the bare verb",
@@ -13,7 +13,7 @@
           {
             "label": "Statement",
             "sm": "Sā ia nofo.",
-            "en": "She sat down."
+            "en": "She stayed."
           },
           {
             "label": "Command",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "id": "ch5-urging-word",
+      "id": "ch6-urging-word",
       "kind": "contrast",
       "anchor": "the-urging-words-ia-and-ea",
       "title": "An urging word follows the command",
@@ -47,7 +47,7 @@
       }
     },
     {
-      "id": "ch5-type-commands",
+      "id": "ch6-type-commands",
       "kind": "type",
       "anchor": "words-to-learn",
       "title": "Type the command verbs",

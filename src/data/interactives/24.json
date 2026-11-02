@@ -1,8 +1,8 @@
 {
-  "chapter": 23,
+  "chapter": 24,
   "items": [
     {
-      "id": "ch23-three-sentence-types",
+      "id": "ch24-three-sentence-types",
       "kind": "grid",
       "anchor": "the-three-sentence-types",
       "title": "Three sentence frames",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "ch23-pick-sentence-type",
+      "id": "ch24-pick-sentence-type",
       "kind": "pick",
       "anchor": "the-three-sentence-types",
       "title": "Name the sentence type",

@@ -1,4 +1,4 @@
-# Chapter 18: Time Words
+# Chapter 19: Time Words
 
 This chapter adds the time-word slot at the end of the sentence, a set of words
 such as *ananafi* (yesterday) and *ātaeao* (tomorrow morning) that fix a

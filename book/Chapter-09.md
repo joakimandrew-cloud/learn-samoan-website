@@ -1,4 +1,4 @@
-# Chapter 8: Who and What Questions
+# Chapter 9: Who and What Questions
 
 This chapter introduces the question words of the naming sentence, *ai* ("who")
 and *ā* ("what"), together with the optional question markers *po* and *ʻea*,
@@ -45,7 +45,7 @@ answer is about, the presented part can stand alone:
 
 > **Preview:** Alongside who and what stands whose: asking whose house or whose
 > word something is. That question rides on the belonging words, and it is
-> completed in Chapter 42.
+> completed in Chapter 43.
 
 ---
 

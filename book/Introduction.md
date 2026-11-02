@@ -176,7 +176,7 @@ you learned. You never need to produce the everyday style yourself. This book
 teaches one Sāmoan; your ear will learn to recognize two.
 
 > **Preview:** The two styles, and the respect vocabulary that formal speech
-> carries with it, are taken up properly in Chapter 9. Until then, every
+> carries with it, are taken up properly in Chapter 10. Until then, every
 > Sāmoan word in this book is in the careful style.
 
 ---
@@ -193,7 +193,7 @@ dictionary. So when this book says "the verb of this sentence", it is
 describing the job the word is doing there, not a permanent badge the word
 wears.
 
-> **Preview:** This principle is taken up properly in Chapter 47, where the
+> **Preview:** This principle is taken up properly in Chapter 48, where the
 > word-class system of the whole book is reviewed in one place.
 
 ---

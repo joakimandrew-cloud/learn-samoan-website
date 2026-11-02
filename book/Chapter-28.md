@@ -1,4 +1,4 @@
-# Chapter 27: The Agent Marker *E*
+# Chapter 28: The Agent Marker *E*
 
 This chapter adds the agent marker *e*, the word that sets apart the doer of an
 action done to something else, and shows you how to say who did what to whom.
@@ -97,7 +97,7 @@ The two words meet again in the sentence promised when *vili*, *masini* and
 
 > **Preview:** Some verbs have a second, longer shape, and agent-marked
 > sentences are one of the places where it turns up. Those forms are taught in
-> Chapter 32. Every verb in this chapter keeps its short shape.
+> Chapter 33. Every verb in this chapter keeps its short shape.
 
 ---
 
@@ -224,7 +224,7 @@ take the surrounding context as part of what you are reading.
 > so the words themselves say whose
 > milk was drunk rather than who drank it. Where no other doer is named, the
 > owner is usually the one who did it. The construction is taught in full in
-> Chapter 45. Until then, build these sentences with the agent marker.
+> Chapter 46. Until then, build these sentences with the agent marker.
 
 ---
 
