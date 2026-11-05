@@ -293,15 +293,20 @@ function Finish({ n, meta, next, exStats, vocabCount, firstUnfinishedHref }) {
 
 /** The hero: where the chapter sits in the course, the title, the intro and one length line. No art, no motion. */
 function Hero({ n, meta, lesson, ctx, length }) {
+  // The length line sits under the intro, above a closing rule the book prints there.
+  const intro = lesson?.intro || []
+  const closing = intro.at(-1)?.type === 'hr'
+  const body = closing ? intro.slice(0, -1) : intro
   return (
     <header className="ls-hero pl-hero">
       <div className="pl-col">
         <p className="pl-kicker">{`Chapter ${n} of ${CHAPTER_COUNT}`}</p>
         <h1 className="ls-h1 display"><Md text={meta.title} /></h1>
-        {lesson && lesson.intro.map((block, i) => (block.type === 'p'
+        {body.map((block, i) => (block.type === 'p'
           ? <p key={i} className="ls-intro"><Md text={block.text} /></p>
           : block.type === 'hr' ? <hr key={i} className="ls-intro-rule" /> : <div key={i} className="ls-intro-block"><RenderBlock block={block} n={n} ctx={ctx} /></div>))}
         {length && <p className="pl-length">{length}</p>}
+        {closing && <hr className="ls-intro-rule pl-intro-rule" />}
       </div>
     </header>
   )

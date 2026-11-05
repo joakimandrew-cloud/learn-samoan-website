@@ -42,7 +42,12 @@ npm run sync:check   # needs the parent vault
 npm run lint
 npm test             # data guards; runs without the parent vault
 npm run build
+npm run gates        # the ship gates: lint, test, check:interactives, check:bloom, check:figures
 ```
+
+`npm run check:figures [-- N]` holds every string on a chapter's moving figures (`src/premium/figures/NN.js`) word for word to that chapter's `book/Chapter-NN.md`, and checks their joins, beats, roles, anchors and `REPLACES` ids. It runs in `npm run gates` and deliberately never in `build` or `prebuild` (`test/gates.test.js` holds that), so a later book repair can fail it and be fixed but can never fail a deploy. A book repair may need a figure repair; this check names which. The authoring card is `spec/Chapter-Figures-Method.md` in the course vault.
+
+A test build (`npx vite --port 4191`, or `LS_TEST_BUILD=1 npm run build`) adds the capture flags (`?still`, `?solo=N.K`), the `/__proto/chapter/N` route and the `/scrub` figure scrubber. A production build leaves them out of the bundle.
 
 ## Local preview
 

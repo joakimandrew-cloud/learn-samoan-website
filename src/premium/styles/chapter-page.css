@@ -26,6 +26,7 @@
 .wr-inner .pl .ls-h1 { margin: 12px 0 0; font-size: clamp(50px, 6.5vw, 84px); line-height: .92; text-wrap: balance; }
 .wr-inner .pl .ls-intro { max-width: none; margin: 24px 0 0; font-size: clamp(19px, 1.5vw, 21px); line-height: 1.55; text-wrap: pretty; }
 .pl-length { margin: 20px 0 0; color: var(--muted); font: 450 14px/20px var(--f-ui); font-variant-numeric: tabular-nums; }
+.wr-inner .pl .pl-intro-rule { margin: 24px 0 0; }
 
 /* ───────── Reading column ───────── */
 .pl-body { padding-bottom: 64px; }
@@ -260,13 +261,16 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 
 /* ───────── Exercises, one set at a time ───────── */
 .px-list { margin-top: 8px; border-bottom: 1px solid var(--line); font-family: var(--f-ui); }
-.px-row { border-top: 1px solid var(--line); scroll-margin-top: calc(var(--chapter-control-h) + 8px); }
+.pl .px-row.xs { margin: 0; padding: 0; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: none; scroll-margin-top: calc(var(--chapter-control-h) + 8px); }
 .px-sum { display: grid; grid-template-columns: minmax(0, 1fr) auto 16px; align-items: center; gap: 12px; min-height: 64px; padding: 12px 0; cursor: pointer; list-style: none; }
 .px-sum::-webkit-details-marker { display: none; }
 .px-sum-main { display: block; min-width: 0; }
 .px-sum .xs-k { display: block; color: var(--muted); font-size: 12px; letter-spacing: .14em; }
 .px-sum .xs-t { margin: 2px 0 0; font-size: 18px; font-weight: 650; line-height: 24px; letter-spacing: -.01em; text-wrap: pretty; }
 .px-sum .xs-i { margin: 2px 0 0; font-size: 15px; line-height: 21px; }
+/* A closed row shows its number, title and count; its instructions show once it opens. The text stays
+   in the DOM, so anchors and the reading-text comparison hold (Direction.md part 2). */
+.px-row:not([open]) .px-sum .xs-i { display: none; }
 .px-sum-c { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .px-chev { width: 8px; height: 8px; justify-self: center; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: translateY(-2px) rotate(45deg); }
 .px-row[open] .px-chev { transform: translateY(2px) rotate(-135deg); }
@@ -282,7 +286,8 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 .pl .xs.is-stepped .xi.is-current .xi-prompt, .pl .xs.is-stepped .xi.is-open .xi-prompt, .pl .xs.is-stepped .xi.is-given .xi-prompt { color: var(--ink); }
 .pl .xs.is-stepped .xi.is-current .xi-prompt .to, .pl .xs.is-stepped .xi.is-open .xi-prompt .to, .pl .xs.is-stepped .xi.is-given .xi-prompt .to { color: var(--red) !important; }
 .pl .xs.is-stepped .xi.is-current .xi-n { color: var(--ink); }
-.pl .xs.is-stepped .xi-tap { display: block; width: 100%; padding: 0; border: 0; color: inherit; background: none; text-align: left; font: inherit; cursor: pointer; }
+.pl .xs.is-stepped .xi-prompt.is-tap { padding-block: 9px; margin-block: -9px; border-radius: 6px; cursor: pointer; }
+.pl .xs.is-stepped .xi-prompt.is-tap:hover { color: var(--ink); }
 .xi-now { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
 .xi-go { font-family: var(--f-ui); }
 .xi-skip { min-height: 44px; min-width: 44px; padding: 0 12px; border: 0; color: var(--muted); background: none; font: 500 14px/1 var(--f-ui); }
@@ -292,6 +297,17 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 .pl .reveal-a { margin-top: 8px; }
 .pl .self-b { min-height: 44px; }
 .pl .match-head button { min-height: 44px; min-width: 44px; }
+
+/* The loading bars hold still (Direction.md, E28). */
+.pl .ls-skel i { animation: none; }
+
+/* The site footer's tile band is decoration, so on a chapter page it is drawn at rest: it would
+   otherwise be "seen" behind the short loading page and still be fading in after load. The flag is
+   set only while a chapter page is mounted, so other pages keep their band as it is. */
+html[data-past-hero] .ftr-band .kp-tile { opacity: 1; transform: none; transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  html[data-past-hero] .hdr-progress { transition: none; }
+}
 
 /* ───────── Finish: the ask and its one primary, quieter ───────── */
 .wr-inner .pl .finish-h { font-size: 40px; line-height: 1; }

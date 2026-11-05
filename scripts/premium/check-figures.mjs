@@ -7,6 +7,7 @@
 //   node scripts/premium/check-figures.mjs        every file in src/premium/figures
 //   node scripts/premium/check-figures.mjs 14     one chapter
 //   npm run check:figures [-- 14]
+//   node scripts/premium/check-figures.mjs 14 --figures DIR   a copy of the figure files, for the mutation proof
 //
 // For each src/premium/figures/NN.js it fails when:
 //   1. any string on a figure is not word for word in book/Chapter-NN.md (emphasis marks and
@@ -42,7 +43,9 @@ import { KEY_LABELS, PEOPLE_LABELS, ROLES } from '../../src/premium/figure-engin
 import { pairedIn, plainText } from '../check-interactives.mjs'
 
 const app = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
-const figuresDir = path.join(app, 'src/premium/figures')
+const figuresFlag = process.argv.indexOf('--figures')
+const figuresDir = figuresFlag >= 0 ? path.resolve(process.argv[figuresFlag + 1]) : path.join(app, 'src/premium/figures')
+const args = process.argv.slice(2).filter((value, i, all) => value !== '--figures' && all[i - 1] !== '--figures')
 const readJson = relative => JSON.parse(fs.readFileSync(path.join(app, relative), 'utf8'))
 const quickPractice = readJson('src/data/quick-practice.json')
 const bookExercises = readJson('src/data/book-exercises.json')
@@ -75,8 +78,8 @@ const foundFold1 = (text, needle) => {
   return new RegExp(`(^|[^${LETTER}])${head}${esc(needle.slice(1))}(?=$|[^${LETTER}])`).test(text)
 }
 
-const requested = process.argv[2] ? Number(process.argv[2]) : null
-if (process.argv[2] && (!Number.isInteger(requested) || requested < 1 || requested > 52)) {
+const requested = args[0] ? Number(args[0]) : null
+if (args[0] && (!Number.isInteger(requested) || requested < 1 || requested > 52)) {
   console.error('usage: node scripts/premium/check-figures.mjs [chapter 1 to 52]')
   process.exit(2)
 }
