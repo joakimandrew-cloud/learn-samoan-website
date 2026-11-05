@@ -37,13 +37,14 @@ export const FIGURES = [
       {
         key: 'alu',
         tiles: {
-          alu: [face('Na alu', 'quiet')],
+          na: [{ text: 'Na', role: 'tense', label: '' }],
+          alu: [face('alu', 'verb')],
           dir: [dir('atu'), dir('ane'), dir('aʻe'), dir('ifo'), dir('ʻese')],
           tama: [face('le tama', 'noun')],
         },
         before: { say: 'Na alu atu le tama.', en: 'The boy went off (away from me, toward you).' },
         after: { say: 'Na alu ʻese le tama.', en: 'The boy went away.' },
-        states: [0, 1, 2, 3, 4].map(k => [['alu', 0], ['dir', k], ['tama', 0]]),
+        states: [0, 1, 2, 3, 4].map(k => [['na', 0], ['alu', 0], ['dir', k], ['tama', 0]]),
         beats: [
           { kind: 'swap', tile: 'dir', to: 1 },
           { kind: 'swap', tile: 'dir', to: 2 },
@@ -56,6 +57,30 @@ export const FIGURES = [
   },
   {
     id: '30.2',
+    kind: 'path',
+    types: ['path'],
+    title: 'The Pair *Mai* and *Atu*',
+    caption: 'Talk swings between the two constantly, because every exchange has a speaker and a person spoken to.',
+    // After the paragraph on popole, before "The two turn up on all sorts of verb".
+    after: { section: 'the-pair-mai-and-atu', block: b => b.type === 'p' && b.text.includes('Talk swings between') },
+    marks: ['speaker', 'listener'],
+    alt: [
+      '*ʻE te lē popole mai.* You do not worry about me. (Lit. "You do not worry, toward me.")',
+      '*ʻOu te lē popole atu ʻia te ʻoe.* I do not worry about you.',
+      'Talk swings between the two constantly, because every exchange has a speaker and a person spoken to.',
+    ],
+    scenes: [
+      {
+        key: 'popole',
+        cases: [
+          { from: 'listener', to: 'speaker', particle: 'mai', dirText: 'toward the speaker', say: 'ʻE te lē popole mai.', en: 'You do not worry about me. (Lit. "You do not worry, toward me.")' },
+          { from: 'speaker', to: 'listener', particle: 'atu', dirText: 'away from the speaker', say: 'ʻOu te lē popole atu ʻia te ʻoe.', en: 'I do not worry about you.' },
+        ],
+      },
+    ],
+  },
+  {
+    id: '30.3',
     kind: 'fork',
     types: ['fork-readings'],
     title: 'What follows the word tells the two jobs apart.',
@@ -88,7 +113,7 @@ export const FIGURES = [
     ],
   },
   {
-    id: '30.3',
+    id: '30.4',
     kind: 'row',
     types: ['add'],
     title: 'The direction word goes directly after the spatial noun, and it keeps its direction',

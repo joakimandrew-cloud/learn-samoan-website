@@ -50,6 +50,7 @@ export const FIGURES = [
     alt: [
       '*Sā tapē e le tama le puaʻa.* The boy killed the pig.',
       '*ʻO le puaʻa sā tapē e le tama.* The boy killed the pig.',
+      '*ʻO le tama sā tapē=ina le puaʻa.* The boy killed the pig.',
       'In the pattern practised here, putting a participant first moves its noun phrase to the head of the sentence behind the presenting particle *ʻo* and leaves its ordinary slot empty, and the English stays the same.',
     ],
     scenes: [
@@ -66,6 +67,22 @@ export const FIGURES = [
           [['done', 1], ['rest', 1], ['GHOST', 0]],
         ],
         beats: [{ kind: 'move', tile: 'done', to: 1, arc: true, roll: 'rest' }, { kind: 'en' }],
+      },
+      {
+        key: 'tama',
+        caption: 'When the doer goes first, the verb usually takes the long form.',
+        tiles: {
+          rest: [face('Sā tapē', 'quiet'), face('sā tapē=ina', 'quiet')],
+          doer: [face('e le tama', 'noun', 'the doer'), face('ʻO le tama', 'noun', 'the doer')],
+          done: [face('le puaʻa', 'quiet')],
+        },
+        before: { say: 'Sā tapē e le tama le puaʻa.', en: 'The boy killed the pig.' },
+        after: { say: 'ʻO le tama sā tapē=ina le puaʻa.', en: 'The boy killed the pig.' },
+        states: [
+          [['rest', 0], ['doer', 0], ['done', 0]],
+          [['doer', 1], ['rest', 1], ['GHOST', 0], ['done', 0]],
+        ],
+        beats: [{ kind: 'move', tile: 'doer', to: 1, arc: true, roll: 'rest' }, { kind: 'en' }],
       },
     ],
   },

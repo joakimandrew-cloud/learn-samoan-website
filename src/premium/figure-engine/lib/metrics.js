@@ -167,15 +167,18 @@ export function labelWidth(text, phone) {
   return uiWidth(t, `600 ${fs}px 'Barlow Condensed', 'Arial Narrow', sans-serif`) + t.length * fs * track
 }
 
-/** The width a label needs on two lines, split at the space that balances them best. */
+/** The width a label needs on two lines, split where it balances them best: at a space, or after
+ *  the hyphen of a long compound (POINTING- / BACK WORD), where the browser breaks it too. A hyphen
+ *  after fewer than five letters (NOT-, FROM-) never splits, so short compounds stay whole. */
 export function labelTwoLineWidth(text, phone) {
-  const words = String(text).split(' ')
-  if (words.length < 2) return labelWidth(text, phone)
-  let best = Infinity
-  for (let i = 1; i < words.length; i++) {
-    best = Math.min(best, Math.max(labelWidth(words.slice(0, i).join(' '), phone), labelWidth(words.slice(i).join(' '), phone)))
+  const t = String(text)
+  const splits = []
+  for (let i = 1; i < t.length; i++) {
+    if (t[i] === ' ') splits.push([t.slice(0, i), t.slice(i + 1)])
+    else if (t[i - 1] === '-' && /\p{L}{5}-$/u.test(t.slice(0, i))) splits.push([t.slice(0, i), t.slice(i)])
   }
-  return best
+  if (!splits.length) return labelWidth(text, phone)
+  return Math.min(...splits.map(([a, b]) => Math.max(labelWidth(a, phone), labelWidth(b, phone))))
 }
 
 /** Width of a figure's English line, in the font .ft-en sets at this stage width. */

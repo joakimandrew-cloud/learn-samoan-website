@@ -13,7 +13,7 @@ import { useFigureClock } from './lib/clock.js'
 import { enLineCount, enWidth, textWidth, uiWidth, useTileFont, useWidth } from './lib/metrics.js'
 import { land, ramp, travel } from './lib/motion.js'
 import { labelBox, rowFrame, rowGeometry, rowLayouts, rowSizes, rowStateAt, rowTimeline } from './row.js'
-import { forkFrame, forkGeometry, forkLayouts, forkLines, forkSizes, forkTimeline } from './fork.js'
+import { forkFrame, forkGeometry, forkLabelOf, forkLayouts, forkLines, forkSizes, forkTimeline } from './fork.js'
 import { gridTimeline } from './grid-timeline.js'
 import { pathTimeline } from './path.js'
 import { OUTLINE_SKEW, buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline } from './build.js'
@@ -276,9 +276,9 @@ function ForkStage({ def, scene, timeline, t, width, onLane, epoch }) {
         ))}
       </div>
       <svg className="ft-over" width={width} height={geometry.height} aria-hidden="true">
-        {frame.branches.map(branch => (
+        {frame.branches.filter(branch => branch.d).map(branch => (
           <g key={branch.lane}>
-            <path d={branch.d} className="ff-branch" />
+            {branch.track && <path d={branch.d} className="ff-branch" />}
             {branch.progress > 0 && <path d={branch.d} className="ff-branch is-lit" pathLength="1" strokeDasharray={`${branch.progress} 1`} />}
           </g>
         ))}
@@ -286,11 +286,12 @@ function ForkStage({ def, scene, timeline, t, width, onLane, epoch }) {
       <div className={`ff-row ${lines > 1 ? 'is-wrapped' : ''}`} aria-hidden="true" style={{ opacity: frame.rowOpacity }}>
         {frame.row.items.map((item, i) => {
           const style = { width: item.w, top: geometry.rowTop, height: s.h, transform: `translate3d(${item.x}px, ${item.y}px, 0)` }
+          const shown = forkLabelOf(item)
           if (item.slot) {
             return (
               <span key={i} className="ft-tile" style={style}>
                 <span className="ft-ghost is-slot" style={{ opacity: frame.slotOpacity }} />
-                {item.label && <TileLabel role={item.form.role} label={item.label === true ? undefined : item.label} s={s} tileW={item.w} style={{ top: s.h + 7 }} />}
+                {shown && <TileLabel role={shown.role} label={shown.label} s={s} tileW={item.w} style={{ top: s.h + 7 }} />}
               </span>
             )
           }
@@ -310,8 +311,9 @@ function ForkStage({ def, scene, timeline, t, width, onLane, epoch }) {
           return (
             <span key={i} className="ft-tile" style={style}>
               <span className="ft-box"><TileFace face={item} /></span>
-              {item.ring && (
-                <TileLabel role={item.role} label={item.label === true ? undefined : item.label} s={s} tileW={item.w} style={{ top: s.h + 7, opacity: frame.ringLabel }} />
+              {/* A ringed word's label arrives with the ring; any other label it names (a marker's) stands from the start. */}
+              {shown && (
+                <TileLabel role={shown.role} label={shown.label} s={s} tileW={item.w} style={{ top: s.h + 7, opacity: item.ring ? frame.ringLabel : 1 }} />
               )}
             </span>
           )

@@ -1,7 +1,22 @@
-// Chapter 51: Affixes and Doubling. Three Builds, each a word changing inside itself.
+// Chapter 51: Affixes and Doubling. Four Builds, each a word changing inside itself.
 export const FIGURES = [
   {
     id: '51.1',
+    kind: 'build',
+    title: 'The Ending *=ga*',
+    caption: 'The vowel of the first syllable grew long.',
+    after: { section: 'the-ending-ga', block: b => b.type === 'p' && b.text.includes('The vowel of the first syllable grew long.') },
+    alt: ['*savaliga*. a walk, a march', '*sāvaliga*. people on the march', 'The vowel of the first syllable grew long.'],
+    scenes: [{
+      key: 'savaliga',
+      role: 'noun',
+      from: { say: 'savaliga', en: 'a walk, a march' },
+      to: { say: 'sāvaliga', en: 'people on the march' },
+      pieces: [{ text: 's' }, { text: 'ā', was: 'a' }, { text: 'valiga' }],
+    }],
+  },
+  {
+    id: '51.2',
     kind: 'build',
     title: 'The Prefix *fe-*',
     caption: '*Feiloaʻi*, the word for meeting somebody, is the perceiving verb *ilo* with the prefix in front of it and the ending behind it.',
@@ -16,7 +31,7 @@ export const FIGURES = [
     }],
   },
   {
-    id: '51.2',
+    id: '51.3',
     kind: 'build',
     title: 'Doubling a Piece of the Word',
     caption: '*Nonofo* is *nofo* with its second-to-last syllable repeated in front of itself, and that is the whole of the form.',
@@ -31,7 +46,7 @@ export const FIGURES = [
     }],
   },
   {
-    id: '51.3',
+    id: '51.4',
     kind: 'build',
     title: 'Doubling the Whole Word',
     caption: 'The meaning of *solisoli* states the repetition outright.',

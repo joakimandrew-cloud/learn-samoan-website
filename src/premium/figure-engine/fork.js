@@ -14,6 +14,8 @@ import { labelBox } from './row.js'
 
 const FIRST = { enter: [500, 200], ring: [800, 300], lane: [500, 200], drop: [800, 200], en: [350, 500] }
 const SECOND = { enter: [400, 150], ring: [600, 200], lane: [350, 150], drop: [600, 150], en: [300, 300] }
+// A third case and on: the reader knows the shape by now, so a three-case scene stays under 8 s (5.2 ran 8.2 s).
+const LATER = { enter: [350, 150], ring: [500, 150], lane: [300, 150], drop: [500, 150], en: [250, 250] }
 const ORDER = ['enter', 'ring', 'lane', 'drop', 'en']
 
 /** A case with nothing to ring has no ring beat worth waiting through: the question is about meaning. */
@@ -25,7 +27,7 @@ export function forkTimeline(scene, withLimit = false) {
   const beats = []
   const spans = []
   scene.cases.forEach((c, index) => {
-    const timing = index === 0 ? FIRST : SECOND
+    const timing = index === 0 ? FIRST : index === 1 ? SECOND : LATER
     const spanStart = at
     ORDER.forEach(kind => {
       const [go, hold] = kind === 'ring' && !hasRing(c) ? [0, 0] : timing[kind]
@@ -46,6 +48,20 @@ export function forkTimeline(scene, withLimit = false) {
   }
 }
 
+/** The label a case-row tile shows, or null for none. A ring or a reading shows its role's label
+ *  unless it names one; a slot shows the label set on it or on its form (`label: true` is the
+ *  form's role label); any other tile shows a label it names, so a marker always shows its own. */
+export function forkLabelOf(item) {
+  const face = item.slot ? item.form : item
+  if (item.slot) {
+    const named = typeof item.label === 'string' ? item.label : typeof face?.label === 'string' ? face.label : null
+    if (named) return { role: face.role, label: named }
+    return item.label === true ? { role: face.role, label: undefined } : null
+  }
+  if (item.ring || item.reads) return { role: item.role, label: typeof item.label === 'string' ? item.label : undefined }
+  return typeof item.label === 'string' && item.label ? { role: item.role, label: item.label } : null
+}
+
 /** One scene's rows at one size. Tiles wrap to a new line only when `limit` is passed, as a plain row's do. */
 function placeCases(scene, s, limit = Infinity) {
   const lineH = lineHeightOfRow(s)
@@ -56,10 +72,10 @@ function placeCases(scene, s, limit = Infinity) {
     const items = c.row.map(item => {
       const face = item.slot ? item.form : item
       const w = textWidth(face.text, s.fs) + s.pad * 2
-      // A tile whose label shows (a ring, a reading or a labelled slot) gets a column as wide as its label.
-      const shows = item.ring || item.reads || (item.slot && item.label)
-      const box = shows ? labelBox({ role: face.role, label: typeof item.label === 'string' ? item.label : undefined }, s, w) : null
-      const col = shows ? Math.max(w, box.room) : w
+      // A tile whose label shows (forkLabelOf) gets a column as wide as its label.
+      const shown = forkLabelOf(item)
+      const box = shown ? labelBox(shown, s, w) : null
+      const col = shown ? Math.max(w, box.room) : w
       if (x > 0 && x + col > limit) { line += 1; x = 0 }
       const placed = { ...item, w, x: x + (col - w) / 2, y: line * lineH, labelLines: box?.lines ?? 1, labelW: box?.width ?? 0 }
       total = Math.max(total, x + col)
@@ -122,7 +138,9 @@ export function forkGeometry(s, width, def, lines = 1, enLines = 1) {
   const labelTop = rowTop + (lines - 1) * lineHeightOfRow(s) + s.h + 7
   const enTop = labelTop + s.label + (s.labelExtra || 0) + 4
   const laneX = i => i * (laneW + laneGap) + laneW / 2
-  return { count, peopleH, laneH, laneGap, laneW, laneX, branchH, laneBottom, rowTop, labelTop, enTop, height: enTop + 30 + (enLines - 1) * EN_WRAP_LINE }
+  // `ownSlots`: each lane owns the slot of its own cases, wherever it stands in the row, so only the
+  // lit lane draws a branch, and only once it lights (Chapter 3: one form after the verb, one before).
+  return { ownSlots: Boolean(def.ownSlots), count, peopleH, laneH, laneGap, laneW, laneX, branchH, laneBottom, rowTop, labelTop, enTop, height: enTop + 30 + (enLines - 1) * EN_WRAP_LINE }
 }
 
 /** A branch from a lane's foot to the slot. A slot on a wrapped line is reached down the side of
@@ -186,11 +204,18 @@ export function forkFrame(scene, timeline, t, layout, geometry, width = Infinity
   const reading = row.items.find(item => item.reads) || null
   const slot = row.items.find(item => item.slot) || reading
   const target = row.items.find(item => item.ring)
+  // Where the branches end: the slot, else the ringed word, else the middle of the sentence's first
+  // line. A case with no slot and no reading (a ring alone, or nothing to point at) never crashes.
+  const firstLine = row.items.filter(item => item.y === 0)
+  const middle = firstLine.length ? (Math.min(...firstLine.map(i => i.x)) + Math.max(...firstLine.map(i => i.x + i.w))) / 2 : width / 2
+  const anchor = slot || target || { x: Number.isFinite(middle) ? middle : 0, y: 0, w: 0 }
   const ringE = travel(ramp(ringP, 0.05, 1))
-  const ring = target && slot ? {
-    x: lerp(slot.x, target.x, ringE),
-    y: lerp(slot.y, target.y, ringE),
-    w: lerp(slot.w, target.w, ringE),
+  // The ring travels from the slot to the word that decides; with no slot it fades in on that word.
+  const ringFrom = slot || target
+  const ring = target ? {
+    x: lerp(ringFrom.x, target.x, ringE),
+    y: lerp(ringFrom.y, target.y, ringE),
+    w: lerp(ringFrom.w, target.w, ringE),
     opacity: ramp(ringP, 0, 0.12),
   } : null
 
@@ -216,10 +241,14 @@ export function forkFrame(scene, timeline, t, layout, geometry, width = Infinity
   } : null
 
   const branches = Array.from({ length: geometry.count }, (_, lane) => {
+    const progress = lane === litNow ? travel(laneP) * (previous ? 1 - ramp(enter, 0, 0.4) : 1) : 0
+    // A lane that owns its own slot draws nothing into another lane's slot, lit or not.
+    if (geometry.ownSlots && lane !== litNow) return { lane, d: null, progress: 0, track: false }
     return {
       lane,
-      d: branchPath(geometry.laneX(lane), geometry.laneBottom, slot, row, geometry, width),
-      progress: lane === litNow ? travel(laneP) * (previous ? 1 - ramp(enter, 0, 0.4) : 1) : 0,
+      d: branchPath(geometry.laneX(lane), geometry.laneBottom, anchor, row, geometry, width),
+      progress,
+      track: !geometry.ownSlots || progress > 0,
     }
   })
 

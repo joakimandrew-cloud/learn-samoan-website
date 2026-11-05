@@ -136,12 +136,21 @@ export const FIGURES = [
       '*Sā tatala e le teine le pusa.* The girl opened the box.',
       '*Sā tatala le pusa.* The box was opened.',
       'The doer has gone, and nothing has moved in to fill the gap: the verb keeps its shape, no word has been added, and the box still stands bare after the verb.',
+      '*Sā fafaga e le tama le moa.* The boy fed the hen.',
+      '*Sā fafaga le moa.* The hen was fed.',
+      'The agent phrase is never required in the first place, because a verb of this kind needs only the one the action happened to.',
     ],
     scenes: [
       dropDoer('tatala', 'Sā', 'tatala', 'e le teine', 'le pusa',
         { say: 'Sā tatala e le teine le pusa.', en: 'The girl opened the box.' },
         { say: 'Sā tatala le pusa.', en: 'The box was opened.' }),
-      // One scene only: the caption names the box, so a second example would put it under the hen.
+      // The figure's caption names the box, so the hen scene carries its own caption.
+      {
+        ...dropDoer('fafaga', 'Sā', 'fafaga', 'e le tama', 'le moa',
+          { say: 'Sā fafaga e le tama le moa.', en: 'The boy fed the hen.' },
+          { say: 'Sā fafaga le moa.', en: 'The hen was fed.' }),
+        caption: 'The agent phrase is never required in the first place, because a verb of this kind needs only the one the action happened to.',
+      },
     ],
   },
 ]

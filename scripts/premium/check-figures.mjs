@@ -295,6 +295,8 @@ for (const name of wanted) {
           const readings = (c.row || []).filter(tile => tile.reads)
           if (readings.length > 1) fail(here, 'has more than one reading tile')
           if (readings.length && !(c.row || []).some(tile => tile.ring)) fail(here, 'a reading needs the ring on the neighbour that decides it')
+          // ownSlots: each lane's cases carry the slot that lane fills, wherever it stands in the row.
+          if (def.ownSlots && (c.row || []).filter(tile => tile.slot).length !== 1) fail(here, 'ownSlots needs exactly one slot in every case, the one its lane fills')
         })
       } else if (def.kind === 'path') {
         ;(scene.cases || []).forEach((c, ci) => {
