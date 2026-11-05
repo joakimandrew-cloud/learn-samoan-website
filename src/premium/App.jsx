@@ -19,6 +19,10 @@ const Drill = lazy(() => import('./pages/Drill.jsx'))
 const BookPage = lazy(() => import('./pages/BookPage.jsx'))
 // The widget lab exists only in development builds.
 const Lab = import.meta.env.DEV ? lazy(() => import('./pages/Lab.jsx')) : null
+// The figure scrubber and the /__proto/chapter route are test-build tools. A production build
+// folds __TEST_BUILD__ to false and drops these imports, so neither is public
+// (plan 2026-11-06-chapter-page-simplify).
+const ScrubPage = __TEST_BUILD__ ? lazy(() => import('./pages/ScrubPage.jsx')) : null
 const scrollPositions = new Map()
 
 class PageErrorBoundary extends Component {
@@ -45,7 +49,7 @@ function ScrollManager() {
   return null
 }
 
-function Page({ children }) {
+function Page({ children, still = false }) {
   const pageRef = useRef(null)
   const loc = useLocation()
   const mountedPath = useRef(loc.pathname)
@@ -77,9 +81,9 @@ function Page({ children }) {
       id="main"
       className={loc.pathname === '/' ? undefined : 'wr-inner'}
       ref={pageRef}
-      initial={{ opacity: 0, y: 14 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -8 }}
+      initial={still ? false : { opacity: 0, y: 14 }}
+      animate={still ? undefined : { opacity: 1, y: 0 }}
+      exit={still ? undefined : { opacity: 0, y: -8 }}
       transition={{ duration: .45, ease: [.16, 1, .3, 1] }}
     >
       <PageErrorBoundary><Suspense fallback={<div style={{ minHeight: '100vh' }} />}>{children}</Suspense></PageErrorBoundary>
@@ -89,7 +93,8 @@ function Page({ children }) {
 
 export default function App() {
   const loc = useLocation()
-  const reading = /^\/(chapters\/\d+|introduction|pronunciation|charts)/.test(loc.pathname)
+  const proto = __TEST_BUILD__ && /^\/__proto\/chapter\/\d+/.test(loc.pathname)
+  const reading = proto || /^\/(chapters\/\d+|introduction|pronunciation|charts)/.test(loc.pathname)
   const focus = /^\/quizzes\//.test(loc.pathname) || loc.pathname === '/cards' || /^\/drill\//.test(loc.pathname)
 
   return (
@@ -100,7 +105,9 @@ export default function App() {
         <Routes location={loc} key={loc.pathname}>
           <Route path="/" element={<Page><Home /></Page>} />
           <Route path="/chapters" element={<Page><Lessons /></Page>} />
-          <Route path="/chapters/:num" element={<Page><Lesson /></Page>} />
+          <Route path="/chapters/:num" element={<Page still><Lesson /></Page>} />
+          {__TEST_BUILD__ && <Route path="/__proto/chapter/:num" element={<Page still><Lesson /></Page>} />}
+          {__TEST_BUILD__ && <Route path="/scrub" element={<Page still><ScrubPage /></Page>} />}
           <Route path="/lessons" element={<Navigate to="/chapters" replace />} />
           <Route path="/lessons/:num" element={<LegacyChapter />} />
           <Route path="/quizzes" element={<Page><Quizzes /></Page>} />

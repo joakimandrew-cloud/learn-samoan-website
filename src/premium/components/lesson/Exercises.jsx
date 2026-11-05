@@ -142,7 +142,7 @@ function McqItem({ item, n, tries, activeItemId, onInteract, onTriesChange }) {
   return <McqPresentation item={item} n={n} tries={tries} onPick={pick} feedback={feedback} announce={activeItemId === item.id} />
 }
 
-function GivenItem({ item, n }) {
+export function GivenItem({ item, n }) {
   return (
     <li className="xi is-given">
       <span className="xi-n">{n}</span>
@@ -188,7 +188,7 @@ function RevealItem({ item, n, record, onChange }) {
   )
 }
 
-function MatchingItems({ items, matchedIds, onChange }) {
+export function MatchingItems({ items, matchedIds, onChange }) {
   const [rights, setRights] = useState(() => shuffle(items.map(item => ({ id: item.id, answer: item.answer }))))
   const [selected, setSelected] = useState(null)
   const [wrong, setWrong] = useState(null)

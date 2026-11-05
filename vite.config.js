@@ -43,10 +43,14 @@ function spaFallback() {
   }
 }
 
-export default defineConfig({
+// A test build is the dev server, or a build made with LS_TEST_BUILD=1. It carries the capture
+// flags (?still, ?solo), the /__proto/chapter route and the /scrub hub. A production build leaves
+// __TEST_BUILD__ false, so that code is dropped (plan 2026-11-06-chapter-page-simplify).
+export default defineConfig(({ command }) => ({
   base,
+  define: { __TEST_BUILD__: JSON.stringify(command === 'serve' || process.env.LS_TEST_BUILD === '1') },
   plugins: [react(), spaFallback()],
   resolve: { alias: { '@app': src, '@book': path.join(root, 'book') } },
   server: { host: '127.0.0.1' },
-  test: { exclude: ['**/node_modules/**', '**/dist/**'] },
-})
+  test: { exclude: ['**/node_modules/**', '**/dist/**', '**/dist-test/**'] },
+}))

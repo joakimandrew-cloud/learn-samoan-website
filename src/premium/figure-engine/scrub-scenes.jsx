@@ -1,0 +1,61 @@
+// Every chapter's figures as /scrub scenes (the contract the hub in pages/ScrubPage.jsx reads),
+// found from src/premium/figures/NN.js, so a new chapter's file adds its scene with no edit
+// here. The /scrub hub itself exists in a test build only (see App.jsx). A figure is already
+// a pure function of time, so its seek only hands the time to the figure's own clock. One
+// scene per chapter, one variant per figure.
+import { useEffect } from 'react'
+import Figure from './Figure.jsx'
+import { rowTimeline } from './row.js'
+import { forkTimeline } from './fork.js'
+import { gridTimeline } from './grid-timeline.js'
+import { pathTimeline } from './path.js'
+import { buildTimeline } from './build.js'
+
+// The hub's beat bar, in this site's tokens (--red, --ink, --orange, --faint, --red-deep, --muted).
+const COLOURS = ['#1e449c', '#121212', '#6d8fe0', '#8c867f', '#14295e', '#5d5852']
+
+function timelineOf(def) {
+  const scene = def.scenes[0]
+  if (def.kind === 'row') return rowTimeline(scene)
+  if (def.kind === 'fork') return forkTimeline(scene)
+  if (def.kind === 'path') return pathTimeline(scene)
+  if (def.kind === 'build') return buildTimeline(scene)
+  return gridTimeline(def)
+}
+
+function sceneFor(id, label, figures) {
+  const Stage = ({ variantIndex }) => {
+    const def = figures[variantIndex]
+    useEffect(() => { document.documentElement.dataset.scrubFigure = def.id }, [def])
+    return (
+      <div className="pl" style={{ background: 'white', padding: 16, maxWidth: 760, margin: '0 auto' }}>
+        <Figure key={def.id} def={def} autoplay={false} />
+      </div>
+    )
+  }
+  return {
+    id,
+    label,
+    variants: figures.map(def => ({ id: def.id, label: `Figure ${def.id}. ${def.title.replace(/\*/g, '')}` })),
+    defaults: () => ({ speed: { label: 'Speed', min: 0.5, max: 1.5, step: 0.05, unit: '×', value: 1 } }),
+    duration: (vals, vi) => Math.round(timelineOf(figures[vi]).duration / vals.speed),
+    parts: (vals, vi) => timelineOf(figures[vi]).beats.map((beat, i) => ({
+      name: beat.kind + (beat.mark ? ` ${beat.mark}` : ''),
+      color: COLOURS[i % COLOURS.length],
+      end: Math.round(beat.end / vals.speed),
+    })),
+    readout: (vals, vi, env, t) => `figure ${((t * vals.speed) / 1000).toFixed(2)} s`,
+    Stage,
+    seek(root, t, { vals }) {
+      root.querySelector('[data-figure]')?.__figure?.seek(t * vals.speed)
+    },
+  }
+}
+
+const FIGURE_FILES = import.meta.glob('../figures/[0-9][0-9].js', { eager: true })
+
+export const FIGURE_SCENES = Object.entries(FIGURE_FILES)
+  .map(([file, mod]) => ({ n: Number(file.match(/(\d\d)\.js$/)[1]), figures: mod.FIGURES || [] }))
+  .filter(({ figures }) => figures.length > 0)
+  .sort((a, b) => a.n - b.n)
+  .map(({ n, figures }) => sceneFor(`chapter-${n}-figures`, `Chapter ${n} figures`, figures))

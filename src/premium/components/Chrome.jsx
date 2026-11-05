@@ -41,7 +41,12 @@ export function Header({ progress = false }) {
     const onScroll = () => {
       const y = window.scrollY
       setScrolled(y > 8)
-      if (!open && !headerRef.current?.contains(document.activeElement)) setHidden(y > 240 && y > last + 2 ? true : y < last - 2 ? false : hidden)
+      // A chapter page: the site header stays away until the top of the page, so a scroll back
+      // up to re-read adds no chrome (reviews/lesson-simplify-2026-11-06/Direction.md, E02).
+      const stays = /\/(?:__proto\/chapter|chapters)\/\d+\/?$/.test(window.location.pathname)
+      if (!open && !headerRef.current?.contains(document.activeElement)) {
+        setHidden(stays ? y > 240 : y > 240 && y > last + 2 ? true : y < last - 2 ? false : hidden)
+      }
       last = y
     }
     window.addEventListener('scroll', onScroll, { passive: true })
@@ -91,7 +96,7 @@ export function Header({ progress = false }) {
   const { done, last } = useProgress()
   const next = last ? (done.has(last) ? Math.min(CHAPTER_COUNT, last + 1) : last) : 1
   const ctaLabel = !last ? 'Start Chapter 1' : done.has(last) ? `Start Chapter ${next}` : `Continue Chapter ${next}`
-  const hideCta = /^\/(chapters\/\d+|quizzes)/.test(loc.pathname)
+  const hideCta = /^\/(chapters\/\d+|__proto\/chapter\/\d+|quizzes)/.test(loc.pathname)
   const toggleMenu = () => {
     if (!open) setHidden(false)
     setMenuPath(open ? null : loc.pathname)

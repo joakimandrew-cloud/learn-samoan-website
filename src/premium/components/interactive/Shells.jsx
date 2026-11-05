@@ -11,18 +11,25 @@ import { motion as Motion } from 'motion/react'
 import { DrillEndLinks } from '../../drills/drill-end-links.js'
 import { Md } from '../lesson/InlineMarkdown.jsx'
 import { keepControlKeysLocal } from './engine.js'
+import { RevealOff } from '../lesson/Blocks.jsx'
+
+const ENTRANCE = {
+  initial: { opacity: 0, y: 24 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: '-10% 0px' },
+  transition: { duration: .8, ease: [.16, 1, .3, 1] },
+}
 
 export function Figure({ label, title, caption, children }) {
   const titleId = useId()
+  // On the calm chapter page the panel is at rest when reached (Direction.md, E19).
+  const still = useContext(RevealOff)
   return (
     <Motion.figure
       className="fig ix-fig"
       aria-labelledby={titleId}
       onKeyDown={keepControlKeysLocal}
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-10% 0px' }}
-      transition={{ duration: .8, ease: [.16, 1, .3, 1] }}
+      {...(still ? {} : ENTRANCE)}
     >
       <div className="fig-head">
         {label && <span className="fig-k">{label}</span>}

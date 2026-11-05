@@ -1,6 +1,6 @@
 import EntryMotif from '../EntryMotif.jsx'
 import { okinafy } from '@app/lib/okinafy.js'
-import { useEffect, useId, useMemo, useRef, useState } from 'react'
+import { createContext, useContext, useEffect, useId, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, motion as Motion } from 'motion/react'
 import { Link } from 'react-router-dom'
 import { plainInline } from '../../lib/lesson-content.js'
@@ -20,6 +20,14 @@ const reveal = {
   viewport: { once: true, margin: '-8% 0px' },
   transition: { duration: .7, ease: [.16, 1, .3, 1] },
 }
+
+// The calm chapter page (plan 2026-11-06-chapter-page-simplify) has no decorative entrances: a
+// block is on the page at rest when the student reaches it. It turns the reveal off for its
+// blocks and its Interactive shells; other pages (the book pages) are unchanged.
+// eslint-disable-next-line react-refresh/only-export-components
+export const RevealOff = createContext(false)
+// eslint-disable-next-line react-refresh/only-export-components
+export const useReveal = () => (useContext(RevealOff) ? null : reveal)
 
 function Pair({ p, big }) {
   if (p.line) {
@@ -44,16 +52,18 @@ function Pair({ p, big }) {
 }
 
 export function Examples({ pairs }) {
+  const motion = useReveal()
   return (
-    <Motion.div className="ex-block" {...reveal}>
+    <Motion.div className="ex-block" {...motion}>
       {pairs.map((p, i) => <Pair key={i} p={p} big={pairs.length <= 2} />)}
     </Motion.div>
   )
 }
 
 export function Pairs({ pairs }) {
+  const motion = useReveal()
   return (
-    <Motion.div className="ex-inline" {...reveal}>
+    <Motion.div className="ex-inline" {...motion}>
       {pairs.map((p, i) => <Pair key={i} p={p} />)}
     </Motion.div>
   )
@@ -65,9 +75,10 @@ function Cell({ text, header }) {
 }
 
 export function Table({ head, body }) {
+  const motion = useReveal()
   const wide = head.length > 2 || head.some(value => plainInline(value).length > 16)
   return (
-    <Motion.div className={`tbl-wrap ${wide ? 'is-wide' : ''}`} {...reveal}>
+    <Motion.div className={`tbl-wrap ${wide ? 'is-wide' : ''}`} {...motion}>
       <div className="tbl-scroll" tabIndex={wide ? 0 : undefined} role={wide ? 'region' : undefined} aria-label={wide ? 'Scrollable table' : undefined}>
         <table className="tbl">
           <thead><tr>{head.map((h, i) => <Cell key={i} text={h} header />)}</tr></thead>
@@ -79,9 +90,10 @@ export function Table({ head, body }) {
 }
 
 export function Note({ label, text }) {
+  const motion = useReveal()
   // Cross-references like "Chapter 14" become links.
   return (
-    <Motion.div role="note" className={`note ${label ? '' : 'is-unlabelled'}`} {...reveal}>
+    <Motion.div role="note" className={`note ${label ? '' : 'is-unlabelled'}`} {...motion}>
       {label && <span className="note-k">{label}:</span>}
       <p><Linked text={text} /></p>
     </Motion.div>
@@ -113,7 +125,8 @@ export function Linked({ text }) {
 }
 
 export function Para({ text }) {
-  return <Motion.p className="para" {...reveal}><Linked text={text} /></Motion.p>
+  const motion = useReveal()
+  return <Motion.p className="para" {...motion}><Linked text={text} /></Motion.p>
 }
 
 export function List({ ordered, items }) {
