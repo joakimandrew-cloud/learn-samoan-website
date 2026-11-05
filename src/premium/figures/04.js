@@ -53,4 +53,67 @@ export const FIGURES = [
       },
     ],
   },
+  {
+    // Something that goes on for a while, the kind 4.1's scenes do not show (a state, a habit):
+    // nofo and siva, with the English the book prints for each line.
+    id: '4.2',
+    kind: 'fork',
+    types: ['fork-meaning'],
+    title: 'Things Going On',
+    caption: 'English "was ...ing" and "stayed" show a *sā* line of this kind.',
+    after: { section: 'things-going-on', block: b => b.type === 'p' && b.text.includes('all that time, I stayed') },
+    lanes: [
+      { label: 'it happened', forms: ['na'] },
+      { label: "that's how it was", forms: ['sā'] },
+    ],
+    alt: [
+      '*Na ʻou nofo.* I sat down.',
+      '*Sā ʻou nofo.* I stayed.',
+      'A simple past that names the event, "sat down" or "danced", shows a *na* line.',
+      'English "was ...ing" and "stayed" show a *sā* line of this kind.',
+    ],
+    scenes: [
+      {
+        key: 'nofo',
+        cases: [
+          { lane: 0, say: 'Na ʻou nofo.', en: 'I sat down.', row: [past('Na'), face('ʻou', 'pronoun'), face('nofo', 'verb')] },
+          { lane: 1, say: 'Sā ʻou nofo.', en: 'I stayed.', row: [past('Sā'), face('ʻou', 'pronoun'), face('nofo', 'verb')] },
+        ],
+      },
+      {
+        key: 'siva',
+        cases: [
+          { lane: 0, say: 'Na mātou siva.', en: 'We danced.', row: [past('Na'), face('mātou', 'pronoun'), face('siva', 'verb')] },
+          { lane: 1, say: 'Sā mātou siva.', en: 'We were dancing.', row: [past('Sā'), face('mātou', 'pronoun'), face('siva', 'verb')] },
+        ],
+      },
+    ],
+  },
+  {
+    // The same verb, ʻāmata, both ways: the book prints Na ʻāmata at the head of the section and
+    // Sā ʻāmata after the paragraph that follows, so the reader would otherwise compare two places.
+    id: '4.3',
+    kind: 'fork',
+    types: ['fork-meaning'],
+    title: 'Beginnings and Ends',
+    caption: 'A beginning that came round again and again is a regular pattern, and a regular pattern takes *sā*',
+    after: { section: 'beginnings-and-ends', block: b => b.type === 'p' && b.text.includes('week after week') },
+    lanes: [
+      { label: 'it happened', forms: ['na'] },
+      { label: "that's how it was", forms: ['sā'] },
+    ],
+    alt: [
+      '*Na ʻāmata.* It began. (Lit. "past begin")',
+      '*Sā ʻāmata.* It used to begin. (Lit. "past begin")',
+    ],
+    scenes: [
+      {
+        key: 'amata',
+        cases: [
+          { lane: 0, say: 'Na ʻāmata.', en: 'It began.', row: [past('Na'), face('ʻāmata', 'verb')] },
+          { lane: 1, say: 'Sā ʻāmata.', en: 'It used to begin.', row: [past('Sā'), face('ʻāmata', 'verb')] },
+        ],
+      },
+    ],
+  },
 ]

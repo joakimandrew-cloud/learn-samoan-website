@@ -22,13 +22,17 @@ import { PathChips, PathStage } from './PathStage.jsx'
 import { PersonMark } from './Marks.jsx'
 import '../styles/chapter-page.css'
 
+/** A short Sāmoan phrase (three words, 20 letters at most: *ʻi ai*, *lē ʻi ai*) never breaks across
+ *  lines in a title or caption; a longer one wraps as text does (Step 9 batch 2, Chapter 18). */
+const isShortPhrase = text => text.length <= 20 && text.trim().split(/\s+/).length <= 3
+
 /** Marks Sāmoan in a rich string (*like this*); each piece carries data-samoan for the sweep. */
 export function Rich({ text }) {
-  return String(text).split(/(\*[^*]+\*)/g).filter(Boolean).map((part, i) => (
-    part.startsWith('*') && part.endsWith('*')
-      ? <span key={i} className="fx-sm" lang="sm" data-samoan={part.slice(1, -1)}>{part.slice(1, -1)}</span>
-      : <span key={i}>{part}</span>
-  ))
+  return String(text).split(/(\*[^*]+\*)/g).filter(Boolean).map((part, i) => {
+    if (!(part.startsWith('*') && part.endsWith('*'))) return <span key={i}>{part}</span>
+    const sm = part.slice(1, -1)
+    return <span key={i} className={`fx-sm${/\s/.test(sm) && isShortPhrase(sm) ? ' is-whole' : ''}`} lang="sm" data-samoan={sm}>{sm}</span>
+  })
 }
 
 export function Label({ role, label }) {
@@ -63,15 +67,23 @@ function beforeWidth(before) {
   return textWidth(before.say, 17) + en
 }
 
-/** The muted starting line: any word whose tile leaves is struck through as it goes (Direction.md part 8). */
+/** The muted starting line: a tile that leaves is struck through as it goes, its whole text at its own
+ *  place in the line (Direction.md part 8; rowFrame's `struck` ranges). Words with no strike stay as
+ *  they were, one span a word. */
 function BeforeSay({ say, struck }) {
-  const parts = String(say).split(/(\s+)/)
-  return parts.map((part, i) => {
-    const bare = part.replace(/[.,!?]+$/, '')
-    const p = struck.get(bare)
-    if (!p) return <span key={i}>{part}</span>
-    return <span key={i}><span className="ft-strike" style={{ '--strike': p }}>{bare}</span>{part.slice(bare.length)}</span>
+  const text = String(say)
+  const live = struck.filter(range => range.p > 0).sort((a, b) => a.start - b.start)
+  const plain = (chunk, key) => chunk.split(/(\s+)/).filter(Boolean).map((part, i) => <span key={`${key}-${i}`}>{part}</span>)
+  const out = []
+  let at = 0
+  live.forEach((range, i) => {
+    if (range.start < at) return
+    out.push(...plain(text.slice(at, range.start), `p${i}`))
+    out.push(<span key={`s${i}`} className="ft-strike" style={{ '--strike': range.p }}>{text.slice(range.start, range.end)}</span>)
+    at = range.end
   })
+  out.push(...plain(text.slice(at), 'end'))
+  return out
 }
 
 /** Every English line a Row scene can show. */
@@ -444,7 +456,7 @@ function BuildStage({ def, scene, timeline, t, width, epoch }) {
       </p>
       <span className={`fb-tile role-${scene.role}`} style={{ left: frame.tileX, width: frame.tileW, top: geometry.rowTop, height: s.h, opacity: frame.merged }} />
       {frame.pieces.map((piece, i) => (
-        <span key={`box-${i}`} className={`fb-tile role-${scene.role} ${piece.added ? 'is-added' : ''}`} style={{ left: piece.openX, width: piece.openW, top: geometry.rowTop + piece.y, height: s.h, opacity: frame.split * piece.opacity }} />
+        <span key={`box-${i}`} className={`fb-tile role-${scene.role} ${piece.added || piece.removed ? 'is-added' : ''}`} style={{ left: piece.openX, width: piece.openW, top: geometry.rowTop + piece.y, height: s.h, opacity: frame.split * piece.opacity }} />
       ))}
       {/* The outline leans with the italic letters it marks and keeps to their own advance, so it lines up
           with them and never reaches into a neighbour's letters (OUTLINE_SKEW). */}

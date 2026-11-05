@@ -50,13 +50,21 @@ function clearOfLabels(arrow, frame, mid) {
   }).filter(Boolean)
   const clear = p => boxes.every(b => p.x + w / 2 < b.x0 || p.x - w / 2 > b.x1 || p.y + h / 2 < b.y0 || p.y - h / 2 > b.y1)
   if (clear(mid)) return mid
+  // Clear space, not a touch (Step 9 batch 2, Figure 30.2 at 390): of the points along the arc that
+  // cover no label, the one with the most room to its nearest label, so the particle sits centred
+  // in the gap between two labels rather than against one.
+  const room = p => Math.min(...boxes.map(b => {
+    if (p.y + h / 2 < b.y0 || p.y - h / 2 > b.y1) return Infinity
+    return Math.max(b.x0 - (p.x + w / 2), p.x - w / 2 - b.x1)
+  }))
+  let best = null
   for (let k = 1; k <= 30; k++) {
     for (const q of [0.5 + k * 0.01, 0.5 - k * 0.01]) {
       const p = line.at(q)
-      if (clear(p)) return p
+      if (clear(p) && (!best || room(p) > best.room + 0.01)) best = { p, room: room(p) }
     }
   }
-  return mid
+  return best ? best.p : mid
 }
 
 export function PathStage({ def, scene, timeline, t, width, picked }) {

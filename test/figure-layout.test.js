@@ -180,3 +180,69 @@ describe('Fork slots and labels (Step 9 batch 1 fixes)', () => {
     expect(forkLabelOf({ text: 'x', role: 'verb' })).toBe(null)
   })
 })
+
+describe('Step 9 batch 2 engine fixes (Engine-Limits.md rows 19 to 27)', () => {
+  it('a Fork of readings with ownSlots draws only the lit lane, onto its own reading tile; a lone reading tile lays out', async () => {
+    const { forkFrame, forkGeometry, forkLayouts, forkLines, forkSizes, forkTimeline } = await import('../src/premium/figure-engine/fork.js')
+    const def = {
+      id: 'T.3', kind: 'fork', title: 't', ownSlots: true,
+      lanes: [{ label: 'one', forms: [] }, { label: 'two', forms: [] }],
+      scenes: [{ key: 'k', cases: [
+        { lane: 0, say: 'a', en: null, row: [{ text: 'a', role: 'verb', reads: true }] },
+        { lane: 1, say: 'b a c.', en: 'B.', row: [{ text: 'b', role: 'tense' }, { text: 'a', role: 'marker', label: 'place word', reads: true }, { text: 'c', role: 'noun', ring: true }] },
+      ] }],
+    }
+    for (const width of WIDTHS) {
+      await layOut(def, width)
+      const s = forkSizes(def, width)
+      const geometry = forkGeometry(s, width, def, forkLines(def, width, s))
+      const scene = def.scenes[0]
+      const timeline = forkTimeline(scene)
+      const rest = forkFrame(scene, timeline, timeline.duration, forkLayouts(scene, width, s), geometry, width)
+      expect(rest.branches.filter(b => b.d).map(b => b.lane)).toEqual([1])
+    }
+  })
+  it('an add beat may place two tiles at once, and a dropped phrase tile is struck whole at its own place', async () => {
+    const { rowFrame, rowGeometry, rowLayouts, rowSizes, rowTimeline, tilePlaces } = await import('../src/premium/figure-engine/row.js')
+    const scene = {
+      key: 'k',
+      tiles: { a: [{ text: 'a', role: 'tense' }], b: [{ text: 'le b', role: 'noun' }], c: [{ text: 'x le c', role: 'noun' }], d: [{ text: 'd', role: 'tense' }], e: [{ text: 'e', role: 'marker', label: 'not-word' }] },
+      before: { say: 'a le b x le c.', en: 'A.' },
+      after: { say: 'd e a le b.', en: 'B.' },
+      states: [[['a', 0], ['b', 0], ['c', 0]], [['a', 0], ['b', 0]], [['d', 0], ['e', 0], ['a', 0], ['b', 0]]],
+      beats: [{ kind: 'drop', tile: 'c', to: 1 }, { kind: 'add', tile: ['d', 'e'], to: 2 }, { kind: 'en' }],
+    }
+    expect(tilePlaces(scene).c).toEqual({ start: 7, end: 13 })
+    const def = { id: 'T.4', kind: 'row', scenes: [scene] }
+    for (const width of WIDTHS) {
+      await layOut(def, width)
+      const s = rowSizes(def, width)
+      const layout = rowLayouts(scene, width, s)
+      const timeline = rowTimeline(scene)
+      const geometry = rowGeometry(s, [scene], false, layout.lines, true)
+      const add = timeline.beats[1]
+      const mid = rowFrame(scene, timeline, (add.start + add.travelEnd) / 2, layout, geometry)
+      expect(mid.struck).toEqual([{ start: 7, end: 13, p: 1 }])
+      const d = mid.tiles.find(tile => tile.id === 'd')
+      const e = mid.tiles.find(tile => tile.id === 'e')
+      expect(d.opacity).toBeCloseTo(e.opacity, 5)
+      expect(d.y).toBeCloseTo(e.y, 5)
+    }
+  })
+  it('a Build can take a piece away', async () => {
+    const def = { id: 'T.5', kind: 'build', scenes: [{ key: 'k', role: 'verb', from: { say: 'abab', en: 'A.' }, to: { say: 'ab', en: 'B.' }, pieces: [{ text: 'ab' }, { text: 'ab', removed: true, of: 0 }] }] }
+    const { buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline } = await import('../src/premium/figure-engine/build.js')
+    for (const width of WIDTHS) {
+      await layOut(def, width)
+      const s = buildSizes(width)
+      const scene = def.scenes[0]
+      const layout = buildLayout(scene, width, s)
+      const timeline = buildTimeline(scene)
+      expect(timeline.beats.map(b => b.kind)).toEqual(['open', 'remove', 'close', 'en'])
+      const rest = buildFrame(scene, timeline, timeline.duration, layout, buildGeometry(s, def.scenes), s)
+      expect(rest.pieces[1].opacity).toBe(0)
+      expect(rest.tileW).toBeCloseTo(layout.closedW, 5)
+      expect(layout.closedW).toBeLessThan(layout.fromW)
+    }
+  })
+})

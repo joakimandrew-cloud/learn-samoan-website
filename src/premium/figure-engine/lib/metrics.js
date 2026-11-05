@@ -119,23 +119,40 @@ export function fitRow(base, widthsAt, width, twoLines, partial = false) {
   const widest = s => Math.max(...widthsAt(s))
   const first = fitSizes(base, widest(base), width)
   if (!width || width >= 480 || widest(first) <= width) return first
-  const wrap = { ...base, wrapLabels: true }
-  const at = k => (k >= 1 ? wrap : { ...scaleSizes(wrap, k), wrapLabels: true })
-  const fitsAt = k => widthsAt(at(k)).filter(w => w <= width).length
-  const kMin = PHONE_MIN_FS / base.fs
-  // The lines worth fitting: those that fit at the smallest type.
-  const floorWidths = widthsAt(at(kMin))
-  const want = floorWidths.map((w, i) => (w <= width ? i : -1)).filter(i => i >= 0)
-  if (!want.length || (!partial && want.length < floorWidths.length) || want.length <= widthsAt(first).filter(w => w <= width).length) return first
-  let k = 1
-  for (let i = 0; i < 10; i++) {
-    const widths = widthsAt(at(k))
-    const w = Math.max(...want.map(j => widths[j]))
-    if (w <= width) break
-    k = Math.max(kMin, Math.min(1, k) * (width / w) * 0.99)
+  const fitting = s => widthsAt(s).filter(w => w <= width).length
+  const total = widthsAt(base).length
+  // One try at a set of phone sizes: the type steps down to 17 px until the lines worth fitting fit.
+  const tier = extra => {
+    const wrap = { ...base, ...extra }
+    const at = k => (k >= 1 ? wrap : { ...scaleSizes(wrap, k), ...extra })
+    const kMin = PHONE_MIN_FS / base.fs
+    // The lines worth fitting: those that fit at the smallest type.
+    const floorWidths = widthsAt(at(kMin))
+    const want = floorWidths.map((w, i) => (w <= width ? i : -1)).filter(i => i >= 0)
+    if (!want.length || (!partial && want.length < floorWidths.length)) return null
+    let k = 1
+    for (let i = 0; i < 10; i++) {
+      const widths = widthsAt(at(k))
+      const w = Math.max(...want.map(j => widths[j]))
+      if (w <= width) break
+      k = Math.max(kMin, Math.min(1, k) * (width / w) * 0.99)
+    }
+    const s = fitting(at(k)) >= want.length ? at(k) : at(kMin)
+    return twoLines(s) ? { ...s, labelExtra: LABEL_LINE } : s
   }
-  const s = fitsAt(k) >= want.length ? at(k) : at(kMin)
-  return twoLines(s) ? { ...s, labelExtra: LABEL_LINE } : s
+  const best = [first]
+  const second = tier({ wrapLabels: true })
+  if (second) best.push(second)
+  // Step 9 batch 2 (Engine-Limits.md row 26): where two-line labels in their own columns still
+  // leave a line too wide, the labels may reach past their tile over a neighbour whose label is
+  // narrower (`pack`), and every label that can take two lines does (`wrapLabels: 'all'`). Tried
+  // only after the tier above, so a figure that fit before keeps its sizes exactly.
+  if (!second || fitting(second) < total) {
+    const third = tier({ wrapLabels: 'all', pack: true })
+    if (third) best.push(third)
+  }
+  // The try that puts the most lines on one line; on a tie, the earlier one.
+  return best.reduce((a, b) => (fitting(b) > fitting(a) ? b : a))
 }
 
 /** The height a label's second line adds (.ft-label.is-two sets 13 px lines). */
@@ -170,12 +187,14 @@ export function labelWidth(text, phone) {
 /** The width a label needs on two lines, split where it balances them best: at a space, or after
  *  the hyphen of a long compound (POINTING- / BACK WORD), where the browser breaks it too. A hyphen
  *  after fewer than five letters (NOT-, FROM-) never splits, so short compounds stay whole. */
-export function labelTwoLineWidth(text, phone) {
+export function labelTwoLineWidth(text, phone, anyHyphen = false) {
   const t = String(text)
   const splits = []
+  // `anyHyphen`: the packed phone fit (fitRow's last try) may split a short compound too (NOT- / WORD).
+  const longEnough = anyHyphen ? /\p{L}{2}-$/u : /\p{L}{5}-$/u
   for (let i = 1; i < t.length; i++) {
     if (t[i] === ' ') splits.push([t.slice(0, i), t.slice(i + 1)])
-    else if (t[i - 1] === '-' && /\p{L}{5}-$/u.test(t.slice(0, i))) splits.push([t.slice(0, i), t.slice(i)])
+    else if (t[i - 1] === '-' && longEnough.test(t.slice(0, i))) splits.push([t.slice(0, i), t.slice(i)])
   }
   if (!splits.length) return labelWidth(text, phone)
   return Math.min(...splits.map(([a, b]) => Math.max(labelWidth(a, phone), labelWidth(b, phone))))

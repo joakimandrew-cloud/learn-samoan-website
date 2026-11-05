@@ -82,11 +82,12 @@ export const FIGURES = [
         cases: [
           {
             lane: 0, say: 'E tausi pepe e le fafine.', en: 'The woman takes care of the babies.',
-            row: [{ ...face('E', 'tense', 'general particle'), reads: true }, { ...face('tausi', 'verb'), ring: true }, face('pepe', 'noun'), face('e', 'marker', 'agent marker'), face('le fafine', 'noun')],
+            // The second e stays quiet in this lane; it takes its role and label when lane 1 lights.
+            row: [{ ...face('E', 'tense', 'general particle'), reads: true }, { ...face('tausi', 'verb', 'bare verb'), ring: true }, face('pepe', 'noun'), face('e', 'quiet'), face('le fafine', 'noun')],
           },
           {
             lane: 1, say: 'E tausi pepe e le fafine.', en: 'The woman takes care of the babies.',
-            row: [face('E', 'tense', 'general particle'), face('tausi', 'verb'), face('pepe', 'noun'), { ...face('e', 'marker', 'agent marker'), reads: true }, { ...face('le fafine', 'noun'), ring: true }],
+            row: [face('E', 'tense', 'general particle'), face('tausi', 'verb'), face('pepe', 'noun'), { ...face('e', 'marker', 'agent marker'), reads: true }, { ...face('le fafine', 'noun', 'noun after the verb'), ring: true }],
           },
         ],
       },

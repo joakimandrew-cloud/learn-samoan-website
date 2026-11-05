@@ -59,8 +59,9 @@ export function labelBox(face, s, tileW = 0) {
   if (!text) return { room: 0, lines: 1, width: 0 }
   const phone = s.fs < 28
   const one = labelWidth(text, phone) + 6
-  if (!s.wrapLabels || one <= tileW + LABEL_SLACK) return { room: one, lines: 1, width: one }
-  const two = labelTwoLineWidth(text, phone) + 6
+  const all = s.wrapLabels === 'all'
+  if (!s.wrapLabels || (!all && one <= tileW + LABEL_SLACK)) return { room: one, lines: 1, width: one }
+  const two = labelTwoLineWidth(text, phone, all) + 6
   return two < one ? { room: two, lines: 2, width: two } : { room: one, lines: 1, width: one }
 }
 
@@ -81,8 +82,27 @@ function rowTwoLines(def, s) {
   })
 }
 
+/** The least room between two labels' boxes in a packed row (each box already carries 3 px a side). */
+const LABEL_GAP = 2
+
+/** Packs a line of tiles: each tile centre as close to the last as its tile and its label allow, so a
+ *  long label may reach over a neighbour whose own label is narrower. `items` are { w, room }, with
+ *  room the label's width; gives each item's tile x, and the line's width. */
+export function packLine(items, gap) {
+  let prev = null
+  let widest = 0
+  const xs = items.map(item => {
+    const c = prev ? prev.c + Math.max((prev.w + item.w) / 2 + gap, prev.room && item.room ? (prev.room + item.room) / 2 + LABEL_GAP : 0) : Math.max(item.w, item.room) / 2
+    prev = { ...item, c }
+    widest = Math.max(widest, c + Math.max(item.w, item.room) / 2)
+    return c - item.w / 2
+  })
+  return { xs, widest }
+}
+
 /** One scene's rows at one size. Tiles wrap to a new line only when `limit` is passed. Each tile
- *  sits centred in a column as wide as the tile or its label, whichever is wider. */
+ *  sits centred in a column as wide as the tile or its label, whichever is wider; at packed phone
+ *  sizes (`s.pack`, fitRow's last try) a label may reach over a neighbour instead (packLine). */
 function placeStates(scene, s, limit = Infinity) {
   const held = heldIds(scene)
   const lineH = lineHeightOfRow(s)
@@ -91,11 +111,26 @@ function placeStates(scene, s, limit = Infinity) {
     let x = 0
     let line = 0
     let widest = 0
+    let packed = []
     state.forEach(([id, faceIndex]) => {
       const face = id === 'GHOST' || id === 'SLOT' ? null : scene.tiles[id][faceIndex]
       const w = tileWidth(id, face, s, scene, held)
       const faces = face ? scene.tiles[id] : []
-      const col = Math.max(w, ...faces.map(item => labelRoom(item, s, w)))
+      const room = Math.max(0, ...faces.map(item => labelRoom(item, s, w)))
+      const col = Math.max(w, room)
+      if (s.pack) {
+        const next = packLine([...packed.map(p => p.item), { w, room }], s.gap)
+        if (packed.length && next.widest > limit) {
+          line += 1
+          packed = []
+        }
+        packed.push({ id, item: { w, room } })
+        const { xs, widest: lineW } = packLine(packed.map(p => p.item), s.gap)
+        packed.forEach((p, i) => { if (map[p.id]) map[p.id].x = xs[i] })
+        map[id] = { x: xs[xs.length - 1], y: line * lineH, w, face, faceIndex }
+        widest = Math.max(widest, lineW)
+        return
+      }
       if (x > 0 && x + col > limit) { line += 1; x = 0 }
       map[id] = { x: x + (col - w) / 2, y: line * lineH, w, face, faceIndex }
       widest = Math.max(widest, x + col)
@@ -157,6 +192,23 @@ export function rowStateAt(timeline, t, override = null) {
   let state = 0
   for (const b of timeline.beats) if (t >= b.travelEnd && b.to != null) state = b.toState
   return state
+}
+
+/** Where each tile of the first state stands in the starting line, as [start, end) offsets: the
+ *  first state joins to before.say, so each tile's text is found in order from the last one's end. */
+export function tilePlaces(scene) {
+  const say = String(scene.before?.say ?? '')
+  const places = {}
+  let from = 0
+  for (const [id, f] of scene.states[0] || []) {
+    const text = scene.tiles[id]?.[f ?? 0]?.text
+    if (!text) continue
+    const at = say.indexOf(text, from)
+    if (at < 0) continue
+    places[id] = { start: at, end: at + text.length }
+    from = at + text.length
+  }
+  return places
 }
 
 export function rowFrame(scene, timeline, t, layout, geometry, override = null) {
@@ -369,13 +421,15 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
     v: ramp(t, b.start - 120, b.start + 160) * (1 - ramp(t, b.end - 80, b.end + 120)),
   }))
 
-  // The starting line strikes each word whose tile leaves, as it leaves (Direction.md part 8).
-  const struck = new Map()
+  // The starting line strikes each tile's whole text as the tile leaves, at the tile's own place in
+  // the line (Direction.md part 8; Step 9 batch 2: a phrase tile such as *ʻi le nuʻu* is struck
+  // whole, and *le* in another tile stays unstruck). A range is [start, end) in before.say.
+  const struck = []
+  const places = scene.before ? tilePlaces(scene) : {}
   for (const b of beats) {
     if (b.kind !== 'drop') continue
     for (const id of [].concat(b.tile || [])) {
-      const word = scene.tiles[id]?.[0]?.text
-      if (word) struck.set(word, ramp(t, b.start, b.travelEnd))
+      if (places[id]) struck.push({ ...places[id], p: ramp(t, b.start, b.travelEnd) })
     }
   }
 

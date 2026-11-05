@@ -10,7 +10,11 @@
 // letters joined with the other kept pieces are from.say's word. A scene that only changes
 // letters never opens: the changed piece turns over inside the closed word while every other
 // letter holds still, its slot as wide as the wider of its two forms (pilot fix, Engine-Limits.md).
-import { clamp01, land, lerp, ramp, travel } from './lib/motion.js'
+// A piece with `removed` is in from.say's word and not in to.say's (*uliuli* to *uli*, Step 9 batch 2):
+// the word opens, that piece leaves (back into the piece `of` names, or down and out), and the word
+// closes on the rest. The pieces without `removed` joined are to.say's word.
+import { clamp01, land, leave, lerp, ramp, travel } from './lib/motion.js'
+const leaveY = r => leave(ramp(r, 0.1, 1))
 import { textWidth } from './lib/metrics.js'
 
 const OPEN = [700, 250]
@@ -25,7 +29,7 @@ export const ITALIC_LEAN = 0.2
 const LEAN_DEG = (Math.atan(ITALIC_LEAN) * 180) / Math.PI
 export const OUTLINE_SKEW = `skewX(${-LEAN_DEG.toFixed(2)}deg)`
 
-const opens = scene => (scene.pieces || []).some(piece => piece.added)
+const opens = scene => (scene.pieces || []).some(piece => piece.added || piece.removed)
 
 export function buildTimeline(scene) {
   let at = 500
@@ -37,6 +41,7 @@ export function buildTimeline(scene) {
   const open = opens(scene)
   if (open) push('open', OPEN)
   ;(scene.pieces || []).forEach((piece, index) => { if (piece.added) push('add', ADD, { piece: index }) })
+  ;(scene.pieces || []).forEach((piece, index) => { if (piece.removed) push('remove', ADD, { piece: index }) })
   ;(scene.pieces || []).forEach((piece, index) => { if (piece.was != null) push('change', CHANGE, { piece: index }) })
   if (open) push('close', CLOSE)
   push('en', EN)
@@ -65,7 +70,7 @@ export function buildLayout(scene, width, s) {
     return { ...piece, textW, wasW, w: Math.max(textW, wasW) }
   })
   const kept = pieces.filter(piece => !piece.added)
-  const closedW = pieces.reduce((a, p) => a + p.w, 0) + s.pad * 2
+  const closedW = pieces.filter(piece => !piece.removed).reduce((a, p) => a + p.w, 0) + s.pad * 2
   const fromW = kept.reduce((a, p) => a + p.w, 0) + s.pad * 2
   const openW = pieces.reduce((a, p) => a + p.w + s.pad * 2, 0) + s.gap * (pieces.length - 1)
   const x0 = Math.max(0, (width - Math.max(openW, closedW)) / 2)
@@ -77,8 +82,8 @@ export function buildLayout(scene, width, s) {
     piece.openX = ox
     piece.openW = piece.w + s.pad * 2
     ox += piece.openW + s.gap
-    piece.closedX = cx
-    cx += piece.w
+    piece.closedX = piece.removed ? null : cx
+    if (!piece.removed) cx += piece.w
     piece.fromX = piece.added ? null : fx
     if (!piece.added) fx += piece.w
   }
@@ -98,8 +103,11 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
     const add = beats.find(b => b.kind === 'add' && b.piece === index)
     const addP = add ? P(add) : 1
     // A kept piece goes from its place in the old word to its own box, then into the new word.
+    const remove = piece.removed ? beats.find(b => b.kind === 'remove' && b.piece === index) : null
+    const r = remove ? P(remove) : 0
     let x
-    if (piece.added) x = lerp(piece.openX + s.pad, piece.closedX, closeP)
+    if (piece.removed) x = r >= 1 ? piece.openX + s.pad : lerp(piece.fromX, piece.openX + s.pad, openP)
+    else if (piece.added) x = lerp(piece.openX + s.pad, piece.closedX, closeP)
     else if (closeP > 0) x = lerp(piece.openX + s.pad, piece.closedX, closeP)
     else x = lerp(piece.fromX, piece.openX + s.pad, openP)
     let y = 0
@@ -119,6 +127,20 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
         newOpacity: ramp(q, 0.4, 0.8),
       }
     }
+    if (r > 0) {
+      // The piece leaves its gap: back into the piece it doubled (the add run backwards), or down and out.
+      const q = travel(r)
+      const source = Number.isInteger(piece.of) ? layout.pieces[piece.of] : null
+      if (source) {
+        x = lerp(piece.openX + s.pad, source.openX + s.pad, q)
+        y = -Math.sin(Math.PI * q) * s.h * 0.7
+        opacity = 1 - ramp(r, 0.8, 1)
+      } else {
+        y = leaveY(r) * s.h * 0.6
+        opacity = 1 - ramp(r, 0.4, 0.85)
+      }
+      if (r >= 1) opacity = 0
+    }
     if (piece.added) {
       const q = travel(addP)
       const source = Number.isInteger(piece.of) ? layout.pieces[piece.of] : null
@@ -132,7 +154,7 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
         opacity = ramp(addP, 0.15, 0.5)
       }
     }
-    return { ...piece, x, y, opacity, addP, change, boxX: piece.added ? piece.openX : lerp(piece.openX, piece.openX, 1) }
+    return { ...piece, x, y, opacity, addP, change, boxX: piece.openX }
   })
 
   // The whole tile: the old word's width at the start, the new word's at the end.

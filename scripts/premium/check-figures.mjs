@@ -18,8 +18,9 @@
 //      or label, and for a section heading used as a title. Exempt: only the role labels of the
 //      fixed key and the two key people-mark labels (src/premium/figure-engine/key.js);
 //   2. an English line is not printed beside its Sāmoan sentence (the pairing of
-//      scripts/check-interactives.mjs, with this chapter's text only, plus one prose form the
-//      book uses: the Sāmoan and the English in one sentence joined by "means");
+//      scripts/check-interactives.mjs, with this chapter's text only, plus the prose forms the
+//      book uses: the Sāmoan and the English in one sentence joined by "means", or by "say" or
+//      "says" with the English in quotes, as in Both *X* and *Y* say "the girl saw the fish");
 //   3. a state's tiles do not join to its sentence;
 //   4. English sits on an in-between state (a change after the English beat);
 //   5. a beat names a tile or a state the scene does not have;
@@ -151,11 +152,16 @@ for (const name of wanted) {
     const s = bare(say)
     const e = squash(english)
     if (pairedIn(n, s, e, onlyThisChapter) || pairedIn(n, squash(say), e, onlyThisChapter)) return
-    // The book's prose form: "X, with no te, means he went".
+    // The book's prose forms, inside one sentence: "X, with no te, means he went", and
+    // Both *X* and *Y* say "the girl saw the fish" (Chapter 13's Note; Step 9 batch 2). The quoted
+    // English may differ from the figure's line only in its first letter's case and its full stop.
     const re = new RegExp(`(^|[^${LETTER}])${esc(s)}(?=$|[^${LETTER}])`, 'g')
+    const said = bare(e)
+    const saidHead = said ? `[${esc(said[0].toLowerCase())}${esc(said[0].toUpperCase())}]${esc(said.slice(1)).replace(/ /g, '\\s+')}` : ''
     for (const m of book.matchAll(re)) {
       const rest = book.slice(m.index + m[0].length, m.index + m[0].length + 200)
       if (new RegExp(`^[^.?!]*?\\bmeans\\s+${esc(e)}(?![A-Za-z])`).test(rest)) return
+      if (said && new RegExp(`^[^.?!"]*?\\bsays?\\s+"${saidHead}[.!?]?"`).test(rest)) return
     }
     fail(where, `the English ${JSON.stringify(english)} is not printed beside ${JSON.stringify(say)} in book/Chapter-${nn}.md`)
   }
@@ -294,9 +300,13 @@ for (const name of wanted) {
           else if (c.en !== null) { en(here, c.en, 'English'); paired(here, c.say, c.en) }
           const readings = (c.row || []).filter(tile => tile.reads)
           if (readings.length > 1) fail(here, 'has more than one reading tile')
-          if (readings.length && !(c.row || []).some(tile => tile.ring)) fail(here, 'a reading needs the ring on the neighbour that decides it')
-          // ownSlots: each lane's cases carry the slot that lane fills, wherever it stands in the row.
-          if (def.ownSlots && (c.row || []).filter(tile => tile.slot).length !== 1) fail(here, 'ownSlots needs exactly one slot in every case, the one its lane fills')
+          // A reading needs the ring on the neighbour that decides it, unless the book prints the
+          // word alone (Chapter 15's *Sau.*): a case whose row is the reading tile and nothing else.
+          if (readings.length && !(c.row || []).some(tile => tile.ring) && (c.row || []).length > 1) fail(here, 'a reading needs the ring on the neighbour that decides it (or the word alone, as the book prints it)')
+          // ownSlots: each lane's cases carry the slot that lane fills, wherever it stands in the row;
+          // in a Fork of readings, the one reading tile that lane reads (Step 9 batch 2: Figure 28.2).
+          const owned = (c.row || []).filter(tile => tile.slot).length + readings.length
+          if (def.ownSlots && owned !== 1) fail(here, 'ownSlots needs exactly one slot or one reading tile in every case, the one its lane fills or reads')
         })
       } else if (def.kind === 'path') {
         ;(scene.cases || []).forEach((c, ci) => {
@@ -318,13 +328,15 @@ for (const name of wanted) {
           sm(`${where} ${side}`, line.say, 'word')
           if (line.en != null) { en(`${where} ${side}`, line.en, 'English'); paired(`${where} ${side}`, line.say, line.en) }
         }
-        const joined = pieces.map(piece => piece.text).join('')
+        // A removed piece is in the from word only (uliuli to uli); an added one in the to word only.
+        const joined = pieces.filter(piece => !piece.removed).map(piece => piece.text).join('')
         const kept = pieces.filter(piece => !piece.added).map(piece => piece.was ?? piece.text).join('')
         if (scene.to && bare(joined) !== bare(scene.to.say)) fail(where, `the pieces join to ${JSON.stringify(joined)}, not ${JSON.stringify(scene.to.say)}`)
         if (scene.from && bare(kept) !== bare(scene.from.say)) fail(where, `the kept pieces join to ${JSON.stringify(kept)}, not ${JSON.stringify(scene.from.say)}`)
         pieces.forEach((piece, pi) => {
           if (piece.was != null && (piece.added || typeof piece.was !== 'string' || piece.was === piece.text)) fail(where, `piece ${pi} changes from ${JSON.stringify(piece.was)}: a changed piece is a kept piece whose letters differ`)
-          if (piece.of != null && !(Number.isInteger(piece.of) && pieces[piece.of] && !pieces[piece.of].added && pieces[piece.of].text === piece.text)) fail(where, `piece ${pi} doubles piece ${piece.of}, which is not a kept piece with the same text`)
+          if (piece.added && piece.removed) fail(where, `piece ${pi} is both added and removed`)
+          if (piece.of != null && !(Number.isInteger(piece.of) && pieces[piece.of] && !pieces[piece.of].added && !pieces[piece.of].removed && pieces[piece.of].text === piece.text)) fail(where, `piece ${pi} doubles piece ${piece.of}, which is not a kept piece with the same text`)
           if (piece.label != null) {
             label(`${where} piece ${pi}`, piece.label, 'piece label')
             // A named prefix or ending is printed alone, as the book prints it (=ga).
@@ -332,7 +344,7 @@ for (const name of wanted) {
             if (![t, `=${t}`, `${t}=`, `-${t}`, `${t}-`].some(form => foundExact(book, form) || book.includes(form))) fail(`${where} piece ${pi}`, `the ${piece.label} ${JSON.stringify(piece.text)} is not printed alone in book/Chapter-${nn}.md`)
           }
         })
-        if (!pieces.some(piece => piece.added || piece.was != null)) fail(where, 'adds or changes no piece')
+        if (!pieces.some(piece => piece.added || piece.removed || piece.was != null)) fail(where, 'adds, removes or changes no piece')
       }
     })
   })

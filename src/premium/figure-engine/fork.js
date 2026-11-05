@@ -10,7 +10,7 @@
 // and the reading tile takes its role and label in place of a form dropping in.
 import { clamp01, land, lerp, ramp, travel } from './lib/motion.js'
 import { EN_WRAP_LINE, fitRow, lineHeightOfRow, textWidth, tileSizes } from './lib/metrics.js'
-import { labelBox } from './row.js'
+import { labelBox, packLine } from './row.js'
 
 const FIRST = { enter: [500, 200], ring: [800, 300], lane: [500, 200], drop: [800, 200], en: [350, 500] }
 const SECOND = { enter: [400, 150], ring: [600, 200], lane: [350, 150], drop: [600, 150], en: [300, 300] }
@@ -69,6 +69,7 @@ function placeCases(scene, s, limit = Infinity) {
     let x = 0
     let line = 0
     let total = 0
+    let packed = []
     const items = c.row.map(item => {
       const face = item.slot ? item.form : item
       const w = textWidth(face.text, s.fs) + s.pad * 2
@@ -76,8 +77,24 @@ function placeCases(scene, s, limit = Infinity) {
       const shown = forkLabelOf(item)
       const box = shown ? labelBox(shown, s, w) : null
       const col = shown ? Math.max(w, box.room) : w
+      const placed = { ...item, w, x: 0, y: 0, labelLines: box?.lines ?? 1, labelW: box?.width ?? 0 }
+      if (s.pack) {
+        // Packed phone sizes (fitRow's last try): a label may reach over a neighbour (packLine).
+        const room = box?.room ?? 0
+        if (packed.length && packLine([...packed.map(p => p.item), { w, room }], s.gap).widest > limit) {
+          line += 1
+          packed = []
+        }
+        packed.push({ placed, item: { w, room } })
+        const { xs, widest } = packLine(packed.map(p => p.item), s.gap)
+        packed.forEach((p, i) => { p.placed.x = xs[i] })
+        placed.y = line * lineH
+        total = Math.max(total, widest)
+        return placed
+      }
       if (x > 0 && x + col > limit) { line += 1; x = 0 }
-      const placed = { ...item, w, x: x + (col - w) / 2, y: line * lineH, labelLines: box?.lines ?? 1, labelW: box?.width ?? 0 }
+      placed.x = x + (col - w) / 2
+      placed.y = line * lineH
       total = Math.max(total, x + col)
       x += col + s.gap
       return placed

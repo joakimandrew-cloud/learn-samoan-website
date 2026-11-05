@@ -106,6 +106,8 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 .fx .fig-head { flex-wrap: wrap; gap: 4px 14px; margin-bottom: 20px; }
 .fx .fig-t .fx-sm { font-family: var(--f-serif); font-style: italic; font-weight: 500; text-transform: none; letter-spacing: 0; font-size: 1.04em; }
 .fx-sm { font-family: var(--f-serif); font-style: italic; font-weight: 500; letter-spacing: 0; text-transform: none; }
+/* A short Sāmoan phrase in a title or caption stays on one line (Rich marks it). */
+.fx-sm.is-whole { white-space: nowrap; }
 .fx-stage { position: relative; }
 .fx-caption { margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font: 450 14.5px/1.55 var(--f-ui); }
 .fx-caption .fx-sm { color: var(--ink); font-size: 1.08em; }
