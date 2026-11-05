@@ -63,7 +63,7 @@ export const FIGURES = [
     ],
     alt: [
       'In *Na te alu*, *na* is the word for he or she and *te* is the general particle, so the sentence means he goes.',
-      'The same shape *na* also serves as a past particle from earlier in this book, so *Na alu*, with no *te*, means he went',
+      'The same shape *na* also serves as a past particle from earlier in this book, so *Na alu*, with no *te*, means he went (Lit. “past go”).',
     ],
     scenes: [
       {

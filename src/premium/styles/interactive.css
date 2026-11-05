@@ -4,6 +4,10 @@
 .ix-fig { scroll-margin-top: 96px; }
 .ix-fig .fig-t .to { color: inherit !important; font-family: var(--f-serif); text-transform: none; font-weight: 500; }
 .ix-fig figcaption .to { font-size: 1em; }
+/* One caption treatment for new and Interactive figures: the hairline, muted UI type (look note 4; matches .fx-caption). */
+.ix-fig figcaption { margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font: 450 14.5px/1.55 var(--f-ui); }
+.ix-fig figcaption .to { color: var(--ink) !important; font-family: var(--f-serif); font-style: italic; font-size: 1.08em; }
+@media (max-width: 640px) { .ix-fig figcaption { font-size: 14px; } }
 .ix-practice { scroll-margin-top: 96px; }
 .ix-practice > header h3 .to { color: var(--ink-2); font-size: 1em; }
 .ix-practice > header p .to { color: var(--ink-2); }
