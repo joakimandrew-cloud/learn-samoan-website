@@ -4,7 +4,8 @@
  * inside itself), and grid (kept so engine fixes port; no new chapter figure uses it).
  * The shell holds the number, title, caption, text alternative and controls; a stage
  * draws one exact frame from (scene, t). Nothing on a stage uses a CSS transition or
- * animation. Copied from the Lea-Faka-Tonga engine and rid of everything Tongan
+ * animation. Copied from the sister course's engine at the commit Build-Notes.md names, with
+ * every word, colour and motif of that course taken out
  * (reviews/lesson-simplify-2026-11-06/Build-Notes.md).
  */
 import { useCallback, useId, useMemo, useRef, useState } from 'react'

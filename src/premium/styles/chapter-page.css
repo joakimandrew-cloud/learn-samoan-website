@@ -1,6 +1,6 @@
 /* The calm chapter page and its figures (reviews/lesson-simplify-2026-11-06/Direction.md
-   parts 2 to 5). Copied from the Lea-Faka-Tonga lesson-page.css and fitted to this site's
-   tokens in base.css: no Tongan colour, motif or word. Spacing scale: 4 8 12 16 24 32 40 48
+   parts 2 to 5). Copied from the sister course's lesson-page.css and fitted to this site's
+   tokens in base.css, with none of that course's colours, motifs or words. Spacing scale: 4 8 12 16 24 32 40 48
    64 80. Nothing on a figure's stage uses a CSS transition or animation: every frame comes
    from a pure function of time. A chapter's figure file carries no colour, size, style or
    class; the whole look lives here and in the engine. */
