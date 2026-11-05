@@ -167,7 +167,8 @@ for (const name of wanted) {
   const tileOk = (where, tile) => {
     if (!ROLE_SET.has(tile.role)) fail(where, `role ${JSON.stringify(tile.role)} is not in the fixed key (${ROLES.join(', ')})`)
     sm(where, tile.text, 'tile')
-    if (tile.label != null && tile.label !== true) label(where, tile.label, 'tile label')
+    // A blank label ('') hides that tile's label, as the card's key allows; it makes no claim to check.
+    if (tile.label != null && tile.label !== true && tile.label !== '') label(where, tile.label, 'tile label')
   }
   // 9. No look in a chapter file.
   const noLook = (value, trail) => {
@@ -231,6 +232,8 @@ for (const name of wanted) {
 
     def.scenes.forEach((scene, si) => {
       const where = `${at} scene ${scene.key ?? si}`
+      // A scene's own book caption, shown under the figure while that scene plays.
+      if (scene.caption != null) en(`${where} caption`, scene.caption, 'caption')
       if (def.kind === 'row') {
         const tiles = scene.tiles || {}
         const states = scene.states || []
@@ -314,10 +317,11 @@ for (const name of wanted) {
           if (line.en != null) { en(`${where} ${side}`, line.en, 'English'); paired(`${where} ${side}`, line.say, line.en) }
         }
         const joined = pieces.map(piece => piece.text).join('')
-        const kept = pieces.filter(piece => !piece.added).map(piece => piece.text).join('')
+        const kept = pieces.filter(piece => !piece.added).map(piece => piece.was ?? piece.text).join('')
         if (scene.to && bare(joined) !== bare(scene.to.say)) fail(where, `the pieces join to ${JSON.stringify(joined)}, not ${JSON.stringify(scene.to.say)}`)
         if (scene.from && bare(kept) !== bare(scene.from.say)) fail(where, `the kept pieces join to ${JSON.stringify(kept)}, not ${JSON.stringify(scene.from.say)}`)
         pieces.forEach((piece, pi) => {
+          if (piece.was != null && (piece.added || typeof piece.was !== 'string' || piece.was === piece.text)) fail(where, `piece ${pi} changes from ${JSON.stringify(piece.was)}: a changed piece is a kept piece whose letters differ`)
           if (piece.of != null && !(Number.isInteger(piece.of) && pieces[piece.of] && !pieces[piece.of].added && pieces[piece.of].text === piece.text)) fail(where, `piece ${pi} doubles piece ${piece.of}, which is not a kept piece with the same text`)
           if (piece.label != null) {
             label(`${where} piece ${pi}`, piece.label, 'piece label')
@@ -326,7 +330,7 @@ for (const name of wanted) {
             if (![t, `=${t}`, `${t}=`, `-${t}`, `${t}-`].some(form => foundExact(book, form) || book.includes(form))) fail(`${where} piece ${pi}`, `the ${piece.label} ${JSON.stringify(piece.text)} is not printed alone in book/Chapter-${nn}.md`)
           }
         })
-        if (!pieces.some(piece => piece.added)) fail(where, 'adds no piece')
+        if (!pieces.some(piece => piece.added || piece.was != null)) fail(where, 'adds or changes no piece')
       }
     })
   })

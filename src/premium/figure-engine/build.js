@@ -6,6 +6,10 @@
 // A scene: { from: { say, en }, to: { say, en }, role, pieces: [{ text, added?, of?, label? }] }.
 // The pieces joined are to.say's word; the pieces without `added` joined are from.say's word.
 // `of` names the piece a doubled piece copies, so it rises from that piece.
+// A piece with `was` changes in place (a vowel growing long: { text: 'ā', was: 'a' }): its old
+// letters joined with the other kept pieces are from.say's word. A scene that only changes
+// letters never opens: the changed piece turns over inside the closed word while every other
+// letter holds still, its slot as wide as the wider of its two forms (pilot fix, Engine-Limits.md).
 import { clamp01, land, lerp, ramp, travel } from './lib/motion.js'
 import { textWidth } from './lib/metrics.js'
 
@@ -13,6 +17,15 @@ const OPEN = [700, 250]
 const ADD = [900, 350]
 const CLOSE = [650, 300]
 const EN = [420, 380]
+const CHANGE = [900, 350]
+
+/** The italic lean of the tile face (Source Serif 4 Italic, measured: 0.2 across per 1 up), so an
+ *  outline around letters leans with them and lines up with the letters it marks. */
+export const ITALIC_LEAN = 0.2
+const LEAN_DEG = (Math.atan(ITALIC_LEAN) * 180) / Math.PI
+export const OUTLINE_SKEW = `skewX(${-LEAN_DEG.toFixed(2)}deg)`
+
+const opens = scene => (scene.pieces || []).some(piece => piece.added)
 
 export function buildTimeline(scene) {
   let at = 500
@@ -21,9 +34,11 @@ export function buildTimeline(scene) {
     beats.push({ kind, start: at, travelEnd: at + go, end: at + go + hold, ...extra })
     at += go + hold
   }
-  push('open', OPEN)
+  const open = opens(scene)
+  if (open) push('open', OPEN)
   ;(scene.pieces || []).forEach((piece, index) => { if (piece.added) push('add', ADD, { piece: index }) })
-  push('close', CLOSE)
+  ;(scene.pieces || []).forEach((piece, index) => { if (piece.was != null) push('change', CHANGE, { piece: index }) })
+  if (open) push('close', CLOSE)
   push('en', EN)
   return { beats, duration: at, rests: beats.filter(b => b.kind !== 'open').map(b => b.end) }
 }
@@ -44,7 +59,11 @@ export function buildGeometry(s, scenes) {
 
 /** Where each piece sits, closed (one word) and open (pieces apart), centred on the stage. */
 export function buildLayout(scene, width, s) {
-  const pieces = scene.pieces.map(piece => ({ ...piece, w: textWidth(piece.text, s.fs) }))
+  const pieces = scene.pieces.map(piece => {
+    const textW = textWidth(piece.text, s.fs)
+    const wasW = piece.was != null ? textWidth(piece.was, s.fs) : textW
+    return { ...piece, textW, wasW, w: Math.max(textW, wasW) }
+  })
   const kept = pieces.filter(piece => !piece.added)
   const closedW = pieces.reduce((a, p) => a + p.w, 0) + s.pad * 2
   const fromW = kept.reduce((a, p) => a + p.w, 0) + s.pad * 2
@@ -70,6 +89,7 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
   const { beats } = timeline
   const beat = kind => beats.find(b => b.kind === kind)
   const P = b => (b ? ramp(t, b.start, b.travelEnd) : 0)
+  const firstBeat = beats[0]
   const openP = travel(P(beat('open')))
   const closeP = travel(P(beat('close')))
   const split = clamp01(openP) * (1 - closeP)
@@ -84,6 +104,21 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
     else x = lerp(piece.fromX, piece.openX + s.pad, openP)
     let y = 0
     let opacity = 1
+    let change = null
+    if (piece.was != null) {
+      // The old letters lift away and the new ones settle into the same slot; nothing else moves.
+      const b = beats.find(item => item.kind === 'change' && item.piece === index)
+      const q = P(b)
+      change = {
+        q,
+        oldX: x + (piece.w - piece.wasW) / 2,
+        newX: x + (piece.w - piece.textW) / 2,
+        oldY: -travel(ramp(q, 0.05, 0.6)) * s.h * 0.34,
+        newY: (1 - land(ramp(q, 0.35, 1))) * s.h * 0.34,
+        oldOpacity: 1 - ramp(q, 0.05, 0.45),
+        newOpacity: ramp(q, 0.4, 0.8),
+      }
+    }
     if (piece.added) {
       const q = travel(addP)
       const source = Number.isInteger(piece.of) ? layout.pieces[piece.of] : null
@@ -97,7 +132,7 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
         opacity = ramp(addP, 0.15, 0.5)
       }
     }
-    return { ...piece, x, y, opacity, addP, boxX: piece.added ? piece.openX : lerp(piece.openX, piece.openX, 1) }
+    return { ...piece, x, y, opacity, addP, change, boxX: piece.added ? piece.openX : lerp(piece.openX, piece.openX, 1) }
   })
 
   // The whole tile: the old word's width at the start, the new word's at the end.
@@ -108,10 +143,13 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
   const enBeat = beat('en')
   const enP = enBeat ? ramp(t, enBeat.start, enBeat.travelEnd) : 0
   let en = null
-  if (scene.from?.en && t < beat('open').start + 220) en = { text: scene.from.en, opacity: 1 - ramp(t, beat('open').start, beat('open').start + 220), y: 0 }
+  if (scene.from?.en && t < firstBeat.start + 220) en = { text: scene.from.en, opacity: 1 - ramp(t, firstBeat.start, firstBeat.start + 220), y: 0 }
   if (enP > 0) en = { text: scene.to.en, opacity: enP, y: (1 - land(enP)) * 8 }
 
-  const beforeOpacity = ramp(t, beat('open').start, beat('open').start + 400)
+  const beforeOpacity = ramp(t, firstBeat.start, firstBeat.start + 400)
+  // Added pieces are outlined as the word closes; a changed piece is outlined as it starts to turn.
   const outline = ramp(closeP, 0.8, 1)
-  return { pieces, split, merged: clamp01(merged), tileX, tileW, en, beforeOpacity, outline, labelP: 1 - ramp(openP, 0, 0.2) + ramp(closeP, 0.6, 1), s }
+  const change = beats.find(b => b.kind === 'change')
+  const changeOutline = change ? ramp(t, change.start, change.start + 0.3 * (change.travelEnd - change.start)) : 0
+  return { pieces, split, merged: clamp01(merged), tileX, tileW, en, beforeOpacity, outline, changeOutline, labelP: 1 - ramp(openP, 0, 0.2) + ramp(closeP, 0.6, 1), s }
 }

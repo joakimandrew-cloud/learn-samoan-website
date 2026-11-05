@@ -1,0 +1,48 @@
+// Chapter 51: Affixes and Doubling. Three Builds, each a word changing inside itself.
+export const FIGURES = [
+  {
+    id: '51.1',
+    kind: 'build',
+    title: 'The Prefix *fe-*',
+    caption: '*Feiloaʻi*, the word for meeting somebody, is the perceiving verb *ilo* with the prefix in front of it and the ending behind it.',
+    after: { section: 'the-prefix-fe', block: b => b.type === 'p' && b.text.includes('You already use the third of these') },
+    alt: ['*Feiloaʻi*, the word for meeting somebody, is the perceiving verb *ilo* with the prefix in front of it and the ending behind it.'],
+    scenes: [{
+      key: 'feiloai',
+      role: 'verb',
+      from: { say: 'ilo', en: 'perceive, sort out' },
+      to: { say: 'feiloaʻi', en: 'meet' },
+      pieces: [{ text: 'fe', added: true, label: 'prefix' }, { text: 'ilo' }, { text: 'aʻi', added: true, label: 'ending' }],
+    }],
+  },
+  {
+    id: '51.2',
+    kind: 'build',
+    title: 'Doubling a Piece of the Word',
+    caption: '*Nonofo* is *nofo* with its second-to-last syllable repeated in front of itself, and that is the whole of the form.',
+    after: { section: 'doubling-a-piece-of-the-word', block: b => b.type === 'p' && b.text.includes('repeated in front of itself') },
+    alt: ['*Nonofo* is *nofo* with its second-to-last syllable repeated in front of itself, and that is the whole of the form.'],
+    scenes: [{
+      key: 'nonofo',
+      role: 'verb',
+      from: { say: 'nofo', en: null },
+      to: { say: 'nonofo', en: null },
+      pieces: [{ text: 'no', added: true, of: 1 }, { text: 'no' }, { text: 'fo' }],
+    }],
+  },
+  {
+    id: '51.3',
+    kind: 'build',
+    title: 'Doubling the Whole Word',
+    caption: 'The meaning of *solisoli* states the repetition outright.',
+    after: { section: 'doubling-the-whole-word', block: b => b.type === 'p' && b.text.includes('Say a two-syllable word twice') },
+    alt: ['*soli*. tread on', '*solisoli*. tread repeatedly on', 'The meaning of *solisoli* states the repetition outright.'],
+    scenes: [{
+      key: 'solisoli',
+      role: 'verb',
+      from: { say: 'soli', en: 'tread on' },
+      to: { say: 'solisoli', en: 'tread repeatedly on' },
+      pieces: [{ text: 'soli' }, { text: 'soli', added: true, of: 0 }],
+    }],
+  },
+]

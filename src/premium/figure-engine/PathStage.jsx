@@ -4,6 +4,7 @@
 import { PersonMark } from './Marks.jsx'
 import { pathFrame } from './path.js'
 import { PERSON_LABEL } from './key.js'
+import { labelWidth, textWidth } from './lib/metrics.js'
 
 function ArrowHead({ end, tan, size = 8 }) {
   const len = Math.hypot(tan.x, tan.y) || 1
@@ -30,11 +31,36 @@ function tilePlace(arrow, frame) {
   // On its arc like mai and atu, so a student reads one picture; the arc is drawn in path.js so its middle is clear of both marks.
   if (c.to === 'third') return line.at(geo.phone ? 0.44 : 0.5)
   if (c.to === 'away') return { x: mid.x + (geo.phone ? 4 : 0), y: mid.y - (geo.tile.h / 2 + (geo.phone ? 5 : 6)) }
+  return clearOfLabels(arrow, frame, mid)
+}
+
+/** The middle of the arc, or, where the particle there would cover a mark's label (the lower bow on
+ *  a phone, pilot fix in Engine-Limits.md), the nearest point along the arc where it covers none. */
+function clearOfLabels(arrow, frame, mid) {
+  const { line, c } = arrow
+  const { geo, marks, thirdLabel } = frame
+  const w = textWidth(c.particle, geo.tile.fs) + geo.tile.pad * 2
+  const h = geo.tile.h
+  const boxes = (marks || []).map(who => {
+    const text = who === 'third' ? thirdLabel : PERSON_LABEL[who]
+    if (!text) return null
+    const lw = labelWidth(text, geo.phone)
+    const place = geo.places[who]
+    return { x0: place.x - lw / 2 - 3, x1: place.x + lw / 2 + 3, y0: place.y + geo.mh + 4, y1: place.y + geo.mh + 24 }
+  }).filter(Boolean)
+  const clear = p => boxes.every(b => p.x + w / 2 < b.x0 || p.x - w / 2 > b.x1 || p.y + h / 2 < b.y0 || p.y - h / 2 > b.y1)
+  if (clear(mid)) return mid
+  for (let k = 1; k <= 30; k++) {
+    for (const q of [0.5 + k * 0.01, 0.5 - k * 0.01]) {
+      const p = line.at(q)
+      if (clear(p)) return p
+    }
+  }
   return mid
 }
 
 export function PathStage({ def, scene, timeline, t, width, picked }) {
-  const frame = pathFrame(def, scene, timeline, t, width, picked)
+  const frame = { ...pathFrame(def, scene, timeline, t, width, picked), marks: def.marks, thirdLabel: def.thirdLabel }
   const { geo, space, arrows, c, say } = frame
   const marks = def.marks || []
   return (

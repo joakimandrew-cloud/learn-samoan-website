@@ -76,17 +76,19 @@ export function tileSizes(width) {
  *  nearly fills it, up to 38 px type, and shrinks a long row a little, to no less than 24 px, so
  *  it stays on one line. A phone shrinks to no less than 20 px type. A row that would still not
  *  fit stays at full size and wraps to a second line. */
+const scaleSizes = (base, k) => ({
+  ...base,
+  fs: Math.round(base.fs * k * 10) / 10,
+  h: Math.round(base.h * k),
+  pad: Math.round(base.pad * k),
+  gap: Math.max(4, Math.round(base.gap * k)),
+  ghost: Math.round(base.ghost * k),
+  arc: Math.round(base.arc * Math.max(k, 1)),
+})
+
 export function fitSizes(base, widest, width) {
   if (!widest || !width) return base
-  const scale = k => ({
-    ...base,
-    fs: Math.round(base.fs * k * 10) / 10,
-    h: Math.round(base.h * k),
-    pad: Math.round(base.pad * k),
-    gap: Math.max(4, Math.round(base.gap * k)),
-    ghost: Math.round(base.ghost * k),
-    arc: Math.round(base.arc * Math.max(k, 1)),
-  })
+  const scale = k => scaleSizes(base, k)
   if (width >= 480) {
     const grow = Math.min(38 / base.fs, (width * 0.92) / widest)
     if (grow > 1.02) return scale(grow)
@@ -100,8 +102,47 @@ export function fitSizes(base, widest, width) {
   return k < 20 / base.fs ? base : scale(k * 0.985)
 }
 
+/** The smallest tile type on a phone when a row fits one line only with its labels on two lines. */
+const PHONE_MIN_FS = 17
+
+/** Fits a Row's or a Fork's sizes to a phone stage (pilot fix, Engine-Limits.md rows 1 and 6).
+ *  `widthsAt(s)` gives the width of each of the figure's lines (each state or case) at sizes `s`.
+ *  The first try is fitSizes as it always was; a figure whose lines all fit that way is unchanged.
+ *  Otherwise its role labels may take two lines (each column then about its tile plus a little)
+ *  and the type may step down to 17 px, so every line fits one line where it can. A Fork's cases
+ *  are separate sentences (`partial`): when one cannot fit even so, the cases that can are fitted
+ *  and the rest wrap as before. A Row's states are one sentence changing, so a Row is fitted whole
+ *  or not at all. When the new fit puts no more lines on one line than the first try, the first try
+ *  stands. `twoLines(s)` says whether any label takes two lines at `s`. One size holds for the
+ *  whole figure. */
+export function fitRow(base, widthsAt, width, twoLines, partial = false) {
+  const widest = s => Math.max(...widthsAt(s))
+  const first = fitSizes(base, widest(base), width)
+  if (!width || width >= 480 || widest(first) <= width) return first
+  const wrap = { ...base, wrapLabels: true }
+  const at = k => (k >= 1 ? wrap : { ...scaleSizes(wrap, k), wrapLabels: true })
+  const fitsAt = k => widthsAt(at(k)).filter(w => w <= width).length
+  const kMin = PHONE_MIN_FS / base.fs
+  // The lines worth fitting: those that fit at the smallest type.
+  const floorWidths = widthsAt(at(kMin))
+  const want = floorWidths.map((w, i) => (w <= width ? i : -1)).filter(i => i >= 0)
+  if (!want.length || (!partial && want.length < floorWidths.length) || want.length <= widthsAt(first).filter(w => w <= width).length) return first
+  let k = 1
+  for (let i = 0; i < 10; i++) {
+    const widths = widthsAt(at(k))
+    const w = Math.max(...want.map(j => widths[j]))
+    if (w <= width) break
+    k = Math.max(kMin, Math.min(1, k) * (width / w) * 0.99)
+  }
+  const s = fitsAt(k) >= want.length ? at(k) : at(kMin)
+  return twoLines(s) ? { ...s, labelExtra: LABEL_LINE } : s
+}
+
+/** The height a label's second line adds (.ft-label.is-two sets 13 px lines). */
+export const LABEL_LINE = 13
+
 /** The distance from one wrapped row of tiles to the next: a Row's and a Fork's alike. */
-export const lineHeightOfRow = s => s.h + 40
+export const lineHeightOfRow = s => s.h + 40 + (s.labelExtra || 0)
 
 /** One line of wrapped English. A single line keeps its 30 px; see .ft-en.is-wrap. */
 export const EN_WRAP_LINE = 22
@@ -124,6 +165,17 @@ export function labelWidth(text, phone) {
   const fs = phone ? 10.5 : 11.5
   const track = phone ? 0.08 : 0.12
   return uiWidth(t, `600 ${fs}px 'Barlow Condensed', 'Arial Narrow', sans-serif`) + t.length * fs * track
+}
+
+/** The width a label needs on two lines, split at the space that balances them best. */
+export function labelTwoLineWidth(text, phone) {
+  const words = String(text).split(' ')
+  if (words.length < 2) return labelWidth(text, phone)
+  let best = Infinity
+  for (let i = 1; i < words.length; i++) {
+    best = Math.min(best, Math.max(labelWidth(words.slice(0, i).join(' '), phone), labelWidth(words.slice(i).join(' '), phone)))
+  }
+  return best
 }
 
 /** Width of a figure's English line, in the font .ft-en sets at this stage width. */

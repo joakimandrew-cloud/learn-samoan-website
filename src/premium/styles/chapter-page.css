@@ -109,6 +109,10 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 .fx-stage { position: relative; }
 .fx-caption { margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font: 450 14.5px/1.55 var(--f-ui); }
 .fx-caption .fx-sm { color: var(--ink); font-size: 1.08em; }
+/* Per-scene captions share one cell, so Another example never changes the figure's height. */
+.fx-caption.is-set { display: grid; }
+.fx-caption.is-set > span { grid-area: 1 / 1; }
+.fx-caption.is-set > .is-sizer { visibility: hidden; }
 .fx-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .fx-b { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding: 0 16px; border: 1.5px solid var(--line-strong); border-radius: 999px; color: var(--ink); background: transparent; font: 600 14px/1 var(--f-ui); }
 .fx-b:hover { border-color: var(--ink); }
@@ -139,6 +143,8 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 .ft-ghost.is-slot { inset: 0; }
 .ft-label { position: absolute; left: 50%; display: block; color: var(--muted); font: 600 11.5px/16px var(--f-display); letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; transform: translateX(-50%); }
 .ft-label .fx-sm { font-size: 13.5px; line-height: 1; }
+/* A label on two lines, only where its phone row fits one line no other way (row.js labelBox). */
+.ft-label.is-two { white-space: normal; text-align: center; line-height: 14px; text-wrap: balance; }
 .ft-before { position: absolute; left: 0; top: 0; display: flex; align-items: baseline; gap: 8px; margin: 0; line-height: 24px; white-space: nowrap; }
 .ft-before.is-two { flex-wrap: wrap; gap: 0 8px; }
 .ft-before.is-two .ft-before-en { flex-basis: 100%; line-height: 20px; }

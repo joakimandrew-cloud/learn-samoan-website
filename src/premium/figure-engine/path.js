@@ -35,7 +35,9 @@ export function peopleGeometry(width) {
   const top = phone ? 80 : 104
   const places = {
     speaker: { x: width * (phone ? 0.125 : 0.13), y: top },
-    listener: { x: width * (phone ? 0.56 : 0.58), y: top },
+    // On a phone the listener stands a little further right, so a particle on the lower bow has room
+    // between the two marks' labels (pilot fix, Engine-Limits.md; no Path figure stood on 0.56).
+    listener: { x: width * (phone ? 0.6 : 0.58), y: top },
     third: { x: width * (phone ? 0.9 : 0.89), y: 0 },
   }
   return { phone, mw, mh, places, height: top + mh + (phone ? 40 : 44), tile: phone ? { h: 30, fs: 18, pad: 9 } : { h: 36, fs: 21, pad: 12 } }

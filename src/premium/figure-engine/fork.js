@@ -9,8 +9,8 @@
 // jobs), the ring travels from it to the neighbour that decides, the lane lights,
 // and the reading tile takes its role and label in place of a form dropping in.
 import { clamp01, land, lerp, ramp, travel } from './lib/motion.js'
-import { EN_WRAP_LINE, fitSizes, lineHeightOfRow, textWidth, tileSizes } from './lib/metrics.js'
-import { labelRoom } from './row.js'
+import { EN_WRAP_LINE, fitRow, lineHeightOfRow, textWidth, tileSizes } from './lib/metrics.js'
+import { labelBox } from './row.js'
 
 const FIRST = { enter: [500, 200], ring: [800, 300], lane: [500, 200], drop: [800, 200], en: [350, 500] }
 const SECOND = { enter: [400, 150], ring: [600, 200], lane: [350, 150], drop: [600, 150], en: [300, 300] }
@@ -58,9 +58,10 @@ function placeCases(scene, s, limit = Infinity) {
       const w = textWidth(face.text, s.fs) + s.pad * 2
       // A tile whose label shows (a ring, a reading or a labelled slot) gets a column as wide as its label.
       const shows = item.ring || item.reads || (item.slot && item.label)
-      const col = shows ? Math.max(w, labelRoom({ role: face.role, label: typeof item.label === 'string' ? item.label : undefined }, s)) : w
+      const box = shows ? labelBox({ role: face.role, label: typeof item.label === 'string' ? item.label : undefined }, s, w) : null
+      const col = shows ? Math.max(w, box.room) : w
       if (x > 0 && x + col > limit) { line += 1; x = 0 }
-      const placed = { ...item, w, x: x + (col - w) / 2, y: line * lineH }
+      const placed = { ...item, w, x: x + (col - w) / 2, y: line * lineH, labelLines: box?.lines ?? 1, labelW: box?.width ?? 0 }
       total = Math.max(total, x + col)
       x += col + s.gap
       return placed
@@ -72,8 +73,9 @@ function placeCases(scene, s, limit = Infinity) {
 /** One size for the whole figure, so Another example never changes the tile size. */
 export function forkSizes(def, width) {
   const base = tileSizes(width)
-  const widest = Math.max(...def.scenes.flatMap(scene => placeCases(scene, base).map(c => c.total)))
-  return fitSizes(base, widest, width)
+  const widthsAt = s => def.scenes.flatMap(scene => placeCases(scene, s).map(c => c.total))
+  const twoLines = s => def.scenes.some(scene => placeCases(scene, s).some(c => c.items.some(item => item.labelLines > 1)))
+  return fitRow(base, widthsAt, width, twoLines, true)
 }
 
 /** The most lines any case in the figure needs, so Another example never changes the stage's height. */
@@ -118,7 +120,7 @@ export function forkGeometry(s, width, def, lines = 1, enLines = 1) {
   const laneBottom = peopleH + laneH
   const rowTop = laneBottom + branchH
   const labelTop = rowTop + (lines - 1) * lineHeightOfRow(s) + s.h + 7
-  const enTop = labelTop + s.label + 4
+  const enTop = labelTop + s.label + (s.labelExtra || 0) + 4
   const laneX = i => i * (laneW + laneGap) + laneW / 2
   return { count, peopleH, laneH, laneGap, laneW, laneX, branchH, laneBottom, rowTop, labelTop, enTop, height: enTop + 30 + (enLines - 1) * EN_WRAP_LINE }
 }

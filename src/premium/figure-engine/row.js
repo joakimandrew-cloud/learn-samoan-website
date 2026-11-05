@@ -3,7 +3,7 @@
 // same scene, time and layout always give the same frame, with no state and no
 // CSS animation, so any frame can be rendered exactly.
 import { HOLD_MS, OPEN_MS, ROLL_MS, TRAVEL_MS, clamp01, land, leave, lerp, ramp, travel } from './lib/motion.js'
-import { EN_WRAP_LINE, fitSizes, labelWidth, lineHeightOfRow, textWidth, tileSizes } from './lib/metrics.js'
+import { EN_WRAP_LINE, fitRow, labelTwoLineWidth, labelWidth, lineHeightOfRow, textWidth, tileSizes } from './lib/metrics.js'
 import { ROLE_LABEL } from './key.js'
 
 const TRAVEL = { move: TRAVEL_MS, add: TRAVEL_MS, drop: TRAVEL_MS, swap: ROLL_MS, en: 420, limit: 620, slot: 620, line: TRAVEL_MS }
@@ -48,11 +48,37 @@ function tileWidth(id, face, s, scene, held) {
   return textWidth(face.text, s.fs) + s.pad * 2
 }
 
+/** A label wider than its tile by more than this may take two lines, on a phone row that needs it. */
+const LABEL_SLACK = 10
+
+/** A tile's label: the room its column needs, and whether it takes two lines. A blank label
+ *  (`label: ''`) hides that tile's label and takes no room. Labels go onto two lines only when the
+ *  sizes allow it (fitRow sets `wrapLabels` for a phone row that fits one line no other way). */
+export function labelBox(face, s, tileW = 0) {
+  const text = face ? face.label ?? ROLE_LABEL[face.role] : null
+  if (!text) return { room: 0, lines: 1, width: 0 }
+  const phone = s.fs < 28
+  const one = labelWidth(text, phone) + 6
+  if (!s.wrapLabels || one <= tileW + LABEL_SLACK) return { room: one, lines: 1, width: one }
+  const two = labelTwoLineWidth(text, phone) + 6
+  return two < one ? { room: two, lines: 2, width: two } : { room: one, lines: 1, width: one }
+}
+
 /** The room a tile's label needs: its column is at least this wide, so no two labels meet. */
-export function labelRoom(face, s) {
-  if (!face) return 0
-  const text = face.label ?? ROLE_LABEL[face.role]
-  return text ? labelWidth(text, s.fs < 28) + 6 : 0
+export function labelRoom(face, s, tileW = 0) {
+  return labelBox(face, s, tileW).room
+}
+
+/** Does any tile of the figure take a two-line label at these sizes? */
+function rowTwoLines(def, s) {
+  return def.scenes.some(scene => {
+    const held = heldIds(scene)
+    return scene.states.some(state => state.some(([id, f]) => {
+      if (id === 'GHOST' || id === 'SLOT') return false
+      const w = tileWidth(id, scene.tiles[id][f], s, scene, held)
+      return labelBox(scene.tiles[id][f], s, w).lines > 1
+    }))
+  })
 }
 
 /** One scene's rows at one size. Tiles wrap to a new line only when `limit` is passed. Each tile
@@ -69,7 +95,7 @@ function placeStates(scene, s, limit = Infinity) {
       const face = id === 'GHOST' || id === 'SLOT' ? null : scene.tiles[id][faceIndex]
       const w = tileWidth(id, face, s, scene, held)
       const faces = face ? scene.tiles[id] : []
-      const col = Math.max(w, ...faces.map(item => labelRoom(item, s)))
+      const col = Math.max(w, ...faces.map(item => labelRoom(item, s, w)))
       if (x > 0 && x + col > limit) { line += 1; x = 0 }
       map[id] = { x: x + (col - w) / 2, y: line * lineH, w, face, faceIndex }
       widest = Math.max(widest, x + col)
@@ -84,8 +110,8 @@ function placeStates(scene, s, limit = Infinity) {
 /** One size for the whole figure, so Another example never changes the tile size. */
 export function rowSizes(def, width) {
   const base = tileSizes(width)
-  const widest = Math.max(...def.scenes.map(scene => Math.max(...placeStates(scene, base).map(m => m.__w))))
-  return fitSizes(base, widest, width)
+  const widthsAt = s => def.scenes.flatMap(scene => placeStates(scene, s).map(m => m.__w))
+  return fitRow(base, widthsAt, width, s => rowTwoLines(def, s))
 }
 
 /** Each state's tile positions. The block is centred on the stage at the width of its widest
@@ -108,12 +134,16 @@ export function rowGeometry(s, scenes, twoLineBefore = false, lines = 1, reserve
   const all = [].concat(scenes)
   const beforeH = all.some(scene => scene.before) || reserveBefore ? (twoLineBefore ? 48 : 26) : 0
   const hasArc = all.some(scene => scene.beats.some(b => b.kind === 'move' && b.arc))
-  const hasLane = all.some(scene => scene.beats.some(b => b.mark || b.old))
+  // A drop that leaves a GHOST puts its struck word in the lane above that gap, as an old form does,
+  // so it reserves the lane too (pilot fix, Engine-Limits.md: struck text never lands on the English
+  // line). A drop with no gap left strikes the word only in the starting line, and needs no lane.
+  const leavesGap = (scene, b) => b.kind === 'drop' && (scene.states[b.to] || []).some(([id]) => id === 'GHOST')
+  const hasLane = all.some(scene => scene.beats.some(b => b.mark || b.old || leavesGap(scene, b)))
   const headroom = hasArc ? s.arc + 16 : hasLane ? 34 : 4
   const rowTop = beforeH + headroom
   const lineH = lineHeightOfRow(s)
   const labelTop = rowTop + (lines - 1) * lineH + s.h + 7
-  const enTop = labelTop + s.label + (all.some(scene => scene.enFirstWord) ? 24 : 4)
+  const enTop = labelTop + s.label + (s.labelExtra || 0) + (all.some(scene => scene.enFirstWord) ? 24 : 4)
   const enH = 30
   return { beforeH, rowTop, labelTop, enTop, lineH, height: enTop + enH + (enLines - 1) * EN_WRAP_LINE }
 }
@@ -223,10 +253,15 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
     const q = inTravel ? travel((t - arcBeat.start) / (arcBeat.travelEnd - arcBeat.start)) : 1
     const midX = (startX + endX) / 2
     const dir = endX >= startX ? 1 : -1
+    // The bottom of a line's labels: an arc across a wrap runs below it, never through a label
+    // (pilot fix, Engine-Limits.md). `line` is a line's y offset, as lineY is.
+    const labelFoot = line => geometry.rowTop + line + s.h + 23 + (s.labelExtra || 0)
+    const lineH = geometry.lineH
+    const adjacent = Math.abs(endLine - startLine) <= lineH + 1
     if (startLine === endLine) {
       // The arc rises over the row. Below the first line it stays under the labels of the line above.
       const y0 = top(startLine)
-      const apex = startLine > 0 ? 14 : s.arc - 6
+      const apex = startLine > 0 ? Math.max(4, Math.min(14, y0 - labelFoot(startLine - lineH) - 3)) : s.arc - 6
       const ctrlY = y0 - apex * 2
       arc = {
         d: `M ${startX} ${y0} Q ${midX} ${ctrlY} ${endX} ${y0}`,
@@ -240,6 +275,28 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
         // Tangent at the end of a quadratic: from the control point to the end.
         tx: endX - midX,
         ty: y0 - ctrlY,
+      }
+    } else if (adjacent) {
+      // Across one wrap the arc runs along the clear band between the upper line's labels and the
+      // lower line's tiles, then turns onto its end: down onto the tile it reaches, or up to just
+      // under the label of the tile it reaches. It crosses no label on the way.
+      const down = endLine > startLine
+      const upper = Math.min(startLine, endLine)
+      const band = labelFoot(upper) + 4
+      const y0 = down ? band : top(startLine)
+      const y1 = down ? top(endLine) : labelFoot(endLine) + 3
+      const run = y0
+      arc = {
+        d: `M ${startX} ${y0} C ${midX} ${run}, ${endX} ${run}, ${endX} ${y1}`,
+        progress: q,
+        arrow: q > 0.97,
+        endX,
+        y0: y1,
+        dir,
+        midX,
+        apexY: 0.875 * run + 0.125 * y1,
+        tx: 0,
+        ty: y1 - run,
       }
     } else {
       // Across a wrap the arc leaves one line's edge and reaches the other's, running in the band

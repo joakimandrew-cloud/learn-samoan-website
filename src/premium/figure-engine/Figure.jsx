@@ -12,11 +12,11 @@ import { useCallback, useId, useMemo, useRef, useState } from 'react'
 import { useFigureClock } from './lib/clock.js'
 import { enLineCount, enWidth, textWidth, uiWidth, useTileFont, useWidth } from './lib/metrics.js'
 import { land, ramp, travel } from './lib/motion.js'
-import { rowFrame, rowGeometry, rowLayouts, rowSizes, rowStateAt, rowTimeline } from './row.js'
+import { labelBox, rowFrame, rowGeometry, rowLayouts, rowSizes, rowStateAt, rowTimeline } from './row.js'
 import { forkFrame, forkGeometry, forkLayouts, forkLines, forkSizes, forkTimeline } from './fork.js'
 import { gridTimeline } from './grid-timeline.js'
 import { pathTimeline } from './path.js'
-import { buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline } from './build.js'
+import { OUTLINE_SKEW, buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline } from './build.js'
 import { PERSON_LABEL, ROLE_LABEL } from './key.js'
 import { PathChips, PathStage } from './PathStage.jsx'
 import { PersonMark } from './Marks.jsx'
@@ -171,6 +171,17 @@ function AbsenceLine({ frame, geometry, left }) {
   )
 }
 
+/** A tile's label, on two lines where its row fits one line only that way (labelBox). */
+function TileLabel({ role, label, s, tileW, style }) {
+  const box = labelBox({ role, label }, s, tileW)
+  const two = box.lines > 1
+  return (
+    <span className={`ft-label label-${role} ${two ? 'is-two' : ''}`} style={two ? { ...style, width: Math.ceil(box.width) + 2 } : style}>
+      <Label role={role} label={label} />
+    </span>
+  )
+}
+
 function RowTile({ tile, frame, geometry, s, slotLabel = 'no subject' }) {
   const style = {
     width: tile.w,
@@ -207,9 +218,7 @@ function RowTile({ tile, frame, geometry, s, slotLabel = 'no subject' }) {
           <TileFace face={finalFace} />
         )}
       </span>
-      <span className={`ft-label label-${tile.labelFace.role}`} style={{ opacity: tile.labelOpacity, top: s.h + 7 }}>
-        <Label role={tile.labelFace.role} label={tile.labelFace.label} />
-      </span>
+      <TileLabel role={tile.labelFace.role} label={tile.labelFace.label} s={s} tileW={tile.w} style={{ opacity: tile.labelOpacity, top: s.h + 7 }} />
     </span>
   )
 }
@@ -281,7 +290,7 @@ function ForkStage({ def, scene, timeline, t, width, onLane, epoch }) {
             return (
               <span key={i} className="ft-tile" style={style}>
                 <span className="ft-ghost is-slot" style={{ opacity: frame.slotOpacity }} />
-                {item.label && <span className={`ft-label label-${item.form.role}`} style={{ top: s.h + 7 }}><Label role={item.form.role} label={item.label === true ? undefined : item.label} /></span>}
+                {item.label && <TileLabel role={item.form.role} label={item.label === true ? undefined : item.label} s={s} tileW={item.w} style={{ top: s.h + 7 }} />}
               </span>
             )
           }
@@ -294,7 +303,7 @@ function ForkStage({ def, scene, timeline, t, width, onLane, epoch }) {
                   <TileFace face={item} style={{ opacity: frame.readP }} />
                   <TileFace face={{ ...item, role: 'quiet' }} style={{ opacity: 1 - frame.readP }} />
                 </span>
-                <span className={`ft-label label-${item.role}`} style={{ top: s.h + 7, opacity: frame.readP }}><Label role={item.role} label={item.label} /></span>
+                <TileLabel role={item.role} label={item.label} s={s} tileW={item.w} style={{ top: s.h + 7, opacity: frame.readP }} />
               </span>
             )
           }
@@ -302,7 +311,7 @@ function ForkStage({ def, scene, timeline, t, width, onLane, epoch }) {
             <span key={i} className="ft-tile" style={style}>
               <span className="ft-box"><TileFace face={item} /></span>
               {item.ring && (
-                <span className={`ft-label label-${item.role}`} style={{ top: s.h + 7, opacity: frame.ringLabel }}><Label role={item.role} label={item.label === true ? undefined : item.label} /></span>
+                <TileLabel role={item.role} label={item.label === true ? undefined : item.label} s={s} tileW={item.w} style={{ top: s.h + 7, opacity: frame.ringLabel }} />
               )}
             </span>
           )
@@ -424,6 +433,7 @@ function BuildStage({ def, scene, timeline, t, width, epoch }) {
   const geometry = useMemo(() => buildGeometry(s, def.scenes), [s, def])
   const frame = buildFrame(scene, timeline, t, layout, geometry, s)
   const added = frame.pieces.filter(piece => piece.added)
+  const changed = frame.pieces.filter(piece => piece.was != null)
   const labelled = added.filter(piece => piece.label)
   return (
     <div className={`fb text-${scene.role}`} style={{ '--fs': `${s.fs}px`, '--h': `${s.h}px`, height: geometry.height }}>
@@ -434,12 +444,22 @@ function BuildStage({ def, scene, timeline, t, width, epoch }) {
       {frame.pieces.map((piece, i) => (
         <span key={`box-${i}`} className={`fb-tile role-${scene.role} ${piece.added ? 'is-added' : ''}`} style={{ left: piece.openX, width: piece.openW, top: geometry.rowTop + piece.y, height: s.h, opacity: frame.split * piece.opacity }} />
       ))}
+      {/* The outline leans with the italic letters it marks and keeps to their own advance, so it lines up
+          with them and never reaches into a neighbour's letters (OUTLINE_SKEW). */}
       {added.map((piece, i) => (
-        <span key={`ring-${i}`} className="fb-outline" style={{ left: piece.closedX - 3, width: piece.w + 6, top: geometry.rowTop + 8, height: s.h - 16, opacity: frame.outline }} />
+        <span key={`ring-${i}`} className="fb-outline" style={{ left: piece.closedX - 1, width: piece.w + 2, top: geometry.rowTop + 8, height: s.h - 16, opacity: frame.outline, transform: OUTLINE_SKEW }} />
       ))}
-      {frame.pieces.map((piece, i) => (
+      {changed.map((piece, i) => (
+        <span key={`changed-${i}`} className="fb-outline" style={{ left: piece.closedX - 1, width: piece.w + 2, top: geometry.rowTop + 8, height: s.h - 16, opacity: frame.changeOutline, transform: OUTLINE_SKEW }} />
+      ))}
+      {frame.pieces.map((piece, i) => (piece.change ? (
+        <span key={`w-${i}`}>
+          {piece.change.oldOpacity > 0 && <span className="fb-word ft-word" lang="sm" style={{ top: geometry.rowTop, height: s.h, transform: `translate3d(${piece.change.oldX}px, ${piece.change.oldY}px, 0)`, opacity: piece.change.oldOpacity }}>{piece.was}</span>}
+          {piece.change.newOpacity > 0 && <span className="fb-word ft-word" lang="sm" style={{ top: geometry.rowTop, height: s.h, transform: `translate3d(${piece.change.newX}px, ${piece.change.newY}px, 0)`, opacity: piece.change.newOpacity }}>{piece.text}</span>}
+        </span>
+      ) : (
         <span key={`w-${i}`} className="fb-word ft-word" lang="sm" style={{ top: geometry.rowTop, height: s.h, transform: `translate3d(${piece.x}px, ${piece.y}px, 0)`, opacity: piece.opacity }}>{piece.text}</span>
-      ))}
+      )))}
       <span className={`ft-label label-${scene.role}`} style={{ left: layout.centre, top: geometry.labelTop, opacity: clampLabel(frame.labelP) }}>
         <Label role={scene.role} label={scene.label} />
       </span>
@@ -479,6 +499,22 @@ function LimitRow({ limit, p }) {
       </div>
       <p className="ft-limit-cap">{limit.caption}</p>
     </div>
+  )
+}
+
+/** The book caption under the figure. A scene may carry its own (`scene.caption`); the others
+ *  fall back to the figure's. Every caption is laid in one cell, so the height holds. */
+function Caption({ def, scene }) {
+  const own = def.scenes.map(item => item.caption ?? def.caption ?? null)
+  if (!own.some(Boolean)) return null
+  if (!def.scenes.some(item => item.caption)) return <figcaption className="fx-caption"><Rich text={def.caption} /></figcaption>
+  const shown = own[scene]
+  const others = [...new Set(own.filter(text => text && text !== shown))]
+  return (
+    <figcaption className="fx-caption is-set">
+      {others.map(text => <span key={text} className="is-sizer" aria-hidden="true"><Rich text={text} /></span>)}
+      <span>{shown && <Rich text={shown} />}</span>
+    </figcaption>
   )
 }
 
@@ -600,7 +636,7 @@ export default function Figure({ def, number = null, external = null, autoplay =
         </div>
       ) : null}
       {def.limit && <LimitRow limit={def.limit} p={limitP} />}
-      {def.caption && <figcaption className="fx-caption"><Rich text={def.caption} /></figcaption>}
+      <Caption def={def} scene={clock.scene} />
     </figure>
   )
 }
