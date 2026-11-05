@@ -77,7 +77,7 @@ export const FIGURES = [
       tiles: {
         o: [face('ʻO', 'marker', 'presenting particle')],
         place: [face('fea', 'marker', 'where-word'), face('le fale', 'noun', 'place')],
-        e: [face('e', 'tense', '')],
+        e: [face('e', 'tense', 'general particle')],
         iai: [face('ʻi ai', 'marker', 'the place where')],
         teine: [face('le teine', 'noun')],
       },

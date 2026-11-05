@@ -13,6 +13,10 @@
 // A piece with `removed` is in from.say's word and not in to.say's (*uliuli* to *uli*, Step 9 batch 2):
 // the word opens, that piece leaves (back into the piece `of` names, or down and out), and the word
 // closes on the rest. The pieces without `removed` joined are to.say's word.
+// A kept or removed piece may hold spaces (Step 9 batch 3): a Build can start from a phrase and show
+// words leaving as it fuses (*tua o le fale* to *tuāfale*: the piece ' o le ' is removed). Spaces are
+// measured and drawn (.fb-word keeps them); an open piece's box fits its letters, not its spaces.
+// buildSizes(width, def) shrinks the type so the open, old and new words all fit the stage.
 import { clamp01, land, leave, lerp, ramp, travel } from './lib/motion.js'
 const leaveY = r => leave(ramp(r, 0.1, 1))
 import { textWidth } from './lib/metrics.js'
@@ -48,12 +52,40 @@ export function buildTimeline(scene) {
   return { beats, duration: at, rests: beats.filter(b => b.kind !== 'open').map(b => b.end) }
 }
 
-/** Sizes on this stage: the tile type of a Row, a touch larger since a Build shows one word. */
-export function buildSizes(width) {
+/** Sizes on this stage: the tile type of a Row, a touch larger since a Build shows one word. Given
+ *  the figure (`def`), the type steps down where a scene's open pieces, or its old or new word, would
+ *  run past the stage (a phrase that fuses is long: Step 9 batch 3); one size holds for every scene. */
+export function buildSizes(width, def = null) {
   const phone = width > 0 && width < 480
-  return phone
+  const base = phone
     ? { fs: 30, h: 54, pad: 14, gap: 10, label: 22, before: 26 }
     : { fs: 38, h: 68, pad: 18, gap: 14, label: 24, before: 30 }
+  if (!def || !width) return base
+  const room = width - 8
+  const widest = Math.max(...def.scenes.map(scene => {
+    const layout = buildLayout(scene, width, base)
+    return Math.max(layout.openW, layout.closedW, layout.fromW)
+  }))
+  if (widest <= room) return base
+  const k = (room / widest) * 0.98
+  return { ...base, fs: Math.round(base.fs * k * 10) / 10, h: Math.round(base.h * k), pad: Math.round(base.pad * k), gap: Math.max(4, Math.round(base.gap * k)) }
+}
+
+/** The room between the dashed outlines of two neighbouring outlined pieces (faʻa and lē in
+ *  faʻalētonu), so two boxes never read as one double line (Step 9 batch 3). */
+export const OUTLINE_GAP = 4
+
+/** Each outlined piece's outline box in the closed word: its letters' advance plus 1 px a side, drawn
+ *  in by OUTLINE_GAP / 2 on a side that meets another outlined piece. `which` picks the pieces. */
+export function outlineBoxes(pieces, which) {
+  const closed = pieces.filter(piece => !piece.removed)
+  const lit = piece => which(piece)
+  return closed.map((piece, i) => {
+    if (!lit(piece)) return null
+    const left = i > 0 && lit(closed[i - 1]) ? OUTLINE_GAP / 2 : -1
+    const right = i < closed.length - 1 && lit(closed[i + 1]) ? OUTLINE_GAP / 2 : -1
+    return { piece, left: piece.closedX + left, width: piece.w - left - right }
+  }).filter(Boolean)
 }
 
 export function buildGeometry(s, scenes) {
@@ -67,12 +99,15 @@ export function buildLayout(scene, width, s) {
   const pieces = scene.pieces.map(piece => {
     const textW = textWidth(piece.text, s.fs)
     const wasW = piece.was != null ? textWidth(piece.was, s.fs) : textW
-    return { ...piece, textW, wasW, w: Math.max(textW, wasW) }
+    // A piece with spaces: its open box fits its letters, and its text starts `lead` in.
+    const lead = /^\s/.test(piece.text) ? textWidth(piece.text.match(/^\s+/)[0], s.fs) : 0
+    const letters = piece.text.trim() !== piece.text ? textWidth(piece.text.trim(), s.fs) : Math.max(textW, wasW)
+    return { ...piece, textW, wasW, w: Math.max(textW, wasW), lead, letters }
   })
   const kept = pieces.filter(piece => !piece.added)
   const closedW = pieces.filter(piece => !piece.removed).reduce((a, p) => a + p.w, 0) + s.pad * 2
   const fromW = kept.reduce((a, p) => a + p.w, 0) + s.pad * 2
-  const openW = pieces.reduce((a, p) => a + p.w + s.pad * 2, 0) + s.gap * (pieces.length - 1)
+  const openW = pieces.reduce((a, p) => a + p.letters + s.pad * 2, 0) + s.gap * (pieces.length - 1)
   const x0 = Math.max(0, (width - Math.max(openW, closedW)) / 2)
   const centre = x0 + Math.max(openW, closedW) / 2
   let ox = centre - openW / 2
@@ -80,7 +115,9 @@ export function buildLayout(scene, width, s) {
   let fx = centre - fromW / 2 + s.pad
   for (const piece of pieces) {
     piece.openX = ox
-    piece.openW = piece.w + s.pad * 2
+    piece.openW = piece.letters + s.pad * 2
+    // Where its text stands when the word is open: its letters start one pad into its box.
+    piece.openTextX = ox + s.pad - piece.lead
     ox += piece.openW + s.gap
     piece.closedX = piece.removed ? null : cx
     if (!piece.removed) cx += piece.w
@@ -106,10 +143,10 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
     const remove = piece.removed ? beats.find(b => b.kind === 'remove' && b.piece === index) : null
     const r = remove ? P(remove) : 0
     let x
-    if (piece.removed) x = r >= 1 ? piece.openX + s.pad : lerp(piece.fromX, piece.openX + s.pad, openP)
-    else if (piece.added) x = lerp(piece.openX + s.pad, piece.closedX, closeP)
-    else if (closeP > 0) x = lerp(piece.openX + s.pad, piece.closedX, closeP)
-    else x = lerp(piece.fromX, piece.openX + s.pad, openP)
+    if (piece.removed) x = r >= 1 ? piece.openTextX : lerp(piece.fromX, piece.openTextX, openP)
+    else if (piece.added) x = lerp(piece.openTextX, piece.closedX, closeP)
+    else if (closeP > 0) x = lerp(piece.openTextX, piece.closedX, closeP)
+    else x = lerp(piece.fromX, piece.openTextX, openP)
     let y = 0
     let opacity = 1
     let change = null
@@ -132,7 +169,7 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
       const q = travel(r)
       const source = Number.isInteger(piece.of) ? layout.pieces[piece.of] : null
       if (source) {
-        x = lerp(piece.openX + s.pad, source.openX + s.pad, q)
+        x = lerp(piece.openTextX, source.openTextX, q)
         y = -Math.sin(Math.PI * q) * s.h * 0.7
         opacity = 1 - ramp(r, 0.8, 1)
       } else {
@@ -146,7 +183,7 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
       const source = Number.isInteger(piece.of) ? layout.pieces[piece.of] : null
       if (source && addP < 1) {
         // A doubled piece copies itself out of the piece it doubles and lands in its gap.
-        x = lerp(source.openX + s.pad, piece.openX + s.pad, q)
+        x = lerp(source.openTextX, piece.openTextX, q)
         y = -Math.sin(Math.PI * q) * s.h * 0.7
         opacity = ramp(addP, 0, 0.2)
       } else if (addP < 1) {

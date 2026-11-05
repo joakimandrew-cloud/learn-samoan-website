@@ -38,13 +38,15 @@ export const FIGURES = [
         after: { say: 'ʻOu te alu.', en: 'I go.' },
         states: [
           [['sa', 0], ['ou', 0], ['alu', 0]],
-          [['ou', 1], ['alu', 0]],
+          [['GHOST'], ['ou', 0], ['alu', 0]],
           [['ou', 1], ['te', 0], ['alu', 0]],
         ],
-        // Sā leaves and the pronoun closes up to lead; te rises in after it; then the English.
+        // Sā leaves its place open; then the pronoun closes up to lead and te rises in after it;
+        // then the English. The gap stays drawn until te lands, so no held frame reads as a
+        // sentence the book never prints (the in-between rule, Step 9 batch 3).
         beats: [
-          { kind: 'drop', tile: 'sa', roll: 'ou', to: 1 },
-          { kind: 'add', tile: 'te', to: 2 },
+          { kind: 'drop', tile: 'sa', to: 1 },
+          { kind: 'add', tile: 'te', roll: 'ou', to: 2 },
           { kind: 'en' },
         ],
       },

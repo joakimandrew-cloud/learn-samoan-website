@@ -54,11 +54,12 @@ export const FIGURES = [
   {
     id: '20.2',
     kind: 'build',
-    title: 'One way of building it is to double a piece of the singular',
+    title: 'Learning Each Plural Form',
     caption: 'There is no way to read the plural form off the singular, so each plural is learned with its word.',
     after: { section: 'learning-each-plural-form', block: b => b.type === 'p' && b.text.includes('The pair *uliuli* and *uli* runs the other way') },
     alt: [
       'One way of building it is to double a piece of the singular, the way *nofo* doubles its first part to make *nonofo*:',
+      'Here the singular *uliuli* is the longer word and the plural *uli* is the shorter one: a few words drop a piece instead of doubling one.',
       'There is no way to read the plural form off the singular, so each plural is learned with its word.',
     ],
     scenes: [
@@ -68,6 +69,14 @@ export const FIGURES = [
         from: { say: 'nofo', en: 'one person stays' },
         to: { say: 'nonofo', en: 'several stay' },
         pieces: [{ text: 'no' }, { text: 'no', added: true, of: 0 }, { text: 'fo' }],
+      },
+      {
+        key: 'uli',
+        role: 'verb',
+        caption: 'Here the singular *uliuli* is the longer word and the plural *uli* is the shorter one: a few words drop a piece instead of doubling one.',
+        from: { say: 'uliuli', en: 'black' },
+        to: { say: 'uli', en: 'black' },
+        pieces: [{ text: 'uli' }, { text: 'uli', removed: true, of: 0 }],
       },
     ],
   },

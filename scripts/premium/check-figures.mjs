@@ -19,15 +19,19 @@
 //      fixed key and the two key people-mark labels (src/premium/figure-engine/key.js);
 //   2. an English line is not printed beside its Sāmoan sentence (the pairing of
 //      scripts/check-interactives.mjs, with this chapter's text only, plus the prose forms the
-//      book uses: the Sāmoan and the English in one sentence joined by "means", or by "say" or
-//      "says" with the English in quotes, as in Both *X* and *Y* say "the girl saw the fish");
+//      book uses: the Sāmoan and the English in one sentence joined by "means", or by "say",
+//      "says" or "is also" with the English in quotes, as in Both *X* and *Y* say "the girl saw
+//      the fish" and *le uluaʻi tama* is also "the first boy");
 //   3. a state's tiles do not join to its sentence;
 //   4. English sits on an in-between state (a change after the English beat);
 //   5. a beat names a tile or a state the scene does not have;
 //   6. a role is outside the key, or a kind outside the set (row, fork, path, build);
 //   7. an anchor block is missing, or matches in two sections;
 //   8. a REPLACES id is not in the chapter's Interactive file;
-//   9. a chapter file carries a colour, a style, a class or a size.
+//   9. a chapter file carries a colour, a style, a class or a size;
+//  10. a row the student can be held on (every state of a Row, every Fork case row) joins to text this
+//      chapter does not print, unless the engine draws an open place in it (a GHOST gap or a SLOT):
+//      the in-between rule, Step 9 batch 3.
 // It exits 1 on any failure and prints each one. A figure that moves the wrong way cannot be
 // seen by a script; a separate judge reads each chapter's figures against its book section.
 //
@@ -78,6 +82,10 @@ const foundFold1 = (text, needle) => {
   const head = first.toLowerCase() !== first.toUpperCase() ? `[${esc(first.toLowerCase())}${esc(first.toUpperCase())}]` : esc(first)
   return new RegExp(`(^|[^${LETTER}])${head}${esc(needle.slice(1))}(?=$|[^${LETTER}])`).test(text)
 }
+
+/** A row's text: tiles joined with a space, except a tile marked `attach` (an ending such as =a),
+ *  which joins the tile before it with none, as the engine draws it. */
+const joinTiles = tiles => tiles.reduce((out, tile, i) => (i === 0 ? tile.text : `${out}${tile.attach ? '' : ' '}${tile.text}`), '')
 
 const requested = args[0] ? Number(args[0]) : null
 if (args[0] && (!Number.isInteger(requested) || requested < 1 || requested > 52)) {
@@ -153,7 +161,8 @@ for (const name of wanted) {
     const e = squash(english)
     if (pairedIn(n, s, e, onlyThisChapter) || pairedIn(n, squash(say), e, onlyThisChapter)) return
     // The book's prose forms, inside one sentence: "X, with no te, means he went", and
-    // Both *X* and *Y* say "the girl saw the fish" (Chapter 13's Note; Step 9 batch 2). The quoted
+    // Both *X* and *Y* say "the girl saw the fish" (Chapter 13's Note; Step 9 batch 2), and *X* is also
+    // "the first boy" (Chapter 23, line 217; Step 9 batch 3). The quoted
     // English may differ from the figure's line only in its first letter's case and its full stop.
     const re = new RegExp(`(^|[^${LETTER}])${esc(s)}(?=$|[^${LETTER}])`, 'g')
     const said = bare(e)
@@ -161,14 +170,25 @@ for (const name of wanted) {
     for (const m of book.matchAll(re)) {
       const rest = book.slice(m.index + m[0].length, m.index + m[0].length + 200)
       if (new RegExp(`^[^.?!]*?\\bmeans\\s+${esc(e)}(?![A-Za-z])`).test(rest)) return
-      if (said && new RegExp(`^[^.?!"]*?\\bsays?\\s+"${saidHead}[.!?]?"`).test(rest)) return
+      if (said && new RegExp(`^[^.?!"]*?\\b(?:says?|is\\s+also)\\s+"${saidHead}[.!?]?"`).test(rest)) return
     }
     fail(where, `the English ${JSON.stringify(english)} is not printed beside ${JSON.stringify(say)} in book/Chapter-${nn}.md`)
   }
   const join = (where, tiles, say, what) => {
     if (!say) return
-    const read = tiles.map(tile => tile.text).join(' ')
+    const read = joinTiles(tiles)
     if (bare(read) !== bare(say)) fail(where, `${what} tiles read ${JSON.stringify(squash(read))}, which does not join to ${JSON.stringify(say)}`)
+  }
+  // 10. The in-between rule (Step 9 batch 3): a row the student can be held on reads as a sentence or
+  // phrase this chapter prints, or visibly reads as unfinished. Next change stops on every state, so a
+  // state that joins to a complete Sāmoan line the book never prints is composed Sāmoan on screen
+  // (Figure 25.2 stopped on *ʻAua tātou te nofo*, a plural pronoun with a singular verb). A state reads
+  // as unfinished when the engine draws an open place in it: a GHOST (the dashed gap) or a SLOT (the
+  // dashed slot). Found at word edges, the first letter in either case, final stop ignored.
+  const printedOrOpen = (where, items, what) => {
+    if (items.some(item => item === 'GHOST' || item === 'SLOT')) return
+    const read = bare(joinTiles(items))
+    if (read && !foundFold1(book, read)) fail(where, `${what} holds ${JSON.stringify(read)}, which book/Chapter-${nn}.md does not print; land the changes in one beat, or keep a gap open until the last tile lands`)
   }
   const tileOk = (where, tile) => {
     if (!ROLE_SET.has(tile.role)) fail(where, `role ${JSON.stringify(tile.role)} is not in the fixed key (${ROLES.join(', ')})`)
@@ -260,6 +280,8 @@ for (const name of wanted) {
           sm(`${where} ${side}`, line.say, 'sentence')
           if (line.en != null) { en(`${where} ${side}`, line.en, 'English'); paired(`${where} ${side}`, line.say, line.en) }
         }
+        // 10. Every held state is printed, or open.
+        states.forEach((state, i) => printedOrOpen(where, state.map(item => (item[0] === 'GHOST' || item[0] === 'SLOT' ? item[0] : faceOf(item))).filter(Boolean), `state ${i}`))
         // 3. States that have a sentence join to it.
         if (scene.before) join(where, stateTiles(0), scene.before.say, 'first state')
         if (scene.after) join(where, stateTiles(states.length - 1), scene.after.say, 'last state')
@@ -290,11 +312,16 @@ for (const name of wanted) {
         ;(scene.cases || []).forEach((c, ci) => {
           const here = `${where} case ${ci}`
           if (!Number.isInteger(c.lane) || c.lane < 0 || c.lane >= lanes.length) fail(here, `lane ${c.lane} is not one of the ${lanes.length} lanes`)
-          const row = (c.row || []).map(tile => (tile.slot ? tile.form : tile))
+          // An empty slot ({ slot: true } with no form) holds a place open and adds no word (Step 9 batch 3).
+          const row = (c.row || []).map(tile => (tile.slot ? tile.form : tile)).filter(Boolean)
           row.forEach((tile, ti) => tileOk(`${here} tile ${ti}`, tile))
+          // Two or more rings go round neighbours only: the engine draws them as one ring.
+          const ringAt = (c.row || []).map((tile, ti) => (tile.ring ? ti : -1)).filter(ti => ti >= 0)
+          if (ringAt.length > 1 && ringAt.some((ti, k) => k > 0 && ti !== ringAt[k - 1] + 1)) fail(here, 'rings more than one tile, and they are not neighbours')
           for (const tile of c.row || []) if (tile.slot && typeof tile.label === 'string') label(here, tile.label, 'slot label')
           sm(here, c.say, 'sentence')
           join(here, row, c.say, 'row')
+          printedOrOpen(here, row, 'the case row')
           // A sentence the book gives no English gets none: say so with en: null, never by leaving it out.
           if (c.en === undefined) fail(here, 'has no English; write en: null where the book gives none')
           else if (c.en !== null) { en(here, c.en, 'English'); paired(here, c.say, c.en) }
@@ -336,6 +363,8 @@ for (const name of wanted) {
         pieces.forEach((piece, pi) => {
           if (piece.was != null && (piece.added || typeof piece.was !== 'string' || piece.was === piece.text)) fail(where, `piece ${pi} changes from ${JSON.stringify(piece.was)}: a changed piece is a kept piece whose letters differ`)
           if (piece.added && piece.removed) fail(where, `piece ${pi} is both added and removed`)
+          // Spaces belong to kept or removed pieces (a phrase fusing, Step 9 batch 3); an outlined piece is letters only.
+          if ((piece.added || piece.was != null) && /\s/.test(piece.text)) fail(where, `piece ${pi} holds a space; an added or changed piece is letters only`)
           if (piece.of != null && !(Number.isInteger(piece.of) && pieces[piece.of] && !pieces[piece.of].added && !pieces[piece.of].removed && pieces[piece.of].text === piece.text)) fail(where, `piece ${pi} doubles piece ${piece.of}, which is not a kept piece with the same text`)
           if (piece.label != null) {
             label(`${where} piece ${pi}`, piece.label, 'piece label')

@@ -104,6 +104,10 @@ export function fitSizes(base, widest, width) {
 
 /** The smallest tile type on a phone when a row fits one line only with its labels on two lines. */
 const PHONE_MIN_FS = 17
+/** The smallest tile type on a wide stage when a long row fits one line only by shrinking further
+ *  than fitSizes allows (24 px): 20 px, a touch above the chapter's reading text at that width
+ *  (.ls-intro is 19 to 21 px), so a tile word never reads smaller than the prose beside it. */
+const DESKTOP_MIN_FS = 20
 
 /** Fits a Row's or a Fork's sizes to a phone stage (pilot fix, Engine-Limits.md rows 1 and 6).
  *  `widthsAt(s)` gives the width of each of the figure's lines (each state or case) at sizes `s`.
@@ -118,14 +122,16 @@ const PHONE_MIN_FS = 17
 export function fitRow(base, widthsAt, width, twoLines, partial = false) {
   const widest = s => Math.max(...widthsAt(s))
   const first = fitSizes(base, widest(base), width)
-  if (!width || width >= 480 || widest(first) <= width) return first
+  if (!width || widest(first) <= width) return first
+  const desktop = width >= 480
   const fitting = s => widthsAt(s).filter(w => w <= width).length
   const total = widthsAt(base).length
-  // One try at a set of phone sizes: the type steps down to 17 px until the lines worth fitting fit.
+  // One try at a set of sizes: the type steps down to the floor (17 px on a phone, 20 px on a wide
+  // stage) until the lines worth fitting fit.
   const tier = extra => {
     const wrap = { ...base, ...extra }
     const at = k => (k >= 1 ? wrap : { ...scaleSizes(wrap, k), ...extra })
-    const kMin = PHONE_MIN_FS / base.fs
+    const kMin = (desktop ? DESKTOP_MIN_FS : PHONE_MIN_FS) / base.fs
     // The lines worth fitting: those that fit at the smallest type.
     const floorWidths = widthsAt(at(kMin))
     const want = floorWidths.map((w, i) => (w <= width ? i : -1)).filter(i => i >= 0)
@@ -141,6 +147,14 @@ export function fitRow(base, widthsAt, width, twoLines, partial = false) {
     return twoLines(s) ? { ...s, labelExtra: LABEL_LINE } : s
   }
   const best = [first]
+  // Step 9 batch 3 (Engine-Limits.md): a wide stage shrinks a long row as a phone does, labels on one
+  // line, so an eight-tile row sits on one line at 1440 where it can (32.3). A row that fit before
+  // keeps its sizes exactly: this runs only for a row fitSizes left wrapping.
+  if (desktop) {
+    const wide = tier({})
+    if (wide) best.push(wide)
+    return best.reduce((a, b) => (fitting(b) > fitting(a) ? b : a))
+  }
   const second = tier({ wrapLabels: true })
   if (second) best.push(second)
   // Step 9 batch 2 (Engine-Limits.md row 26): where two-line labels in their own columns still

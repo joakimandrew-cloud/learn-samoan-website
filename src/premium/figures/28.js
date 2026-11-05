@@ -65,6 +65,7 @@ export const FIGURES = [
     id: '28.2',
     kind: 'fork',
     types: ['fork-readings'],
+    ownSlots: true,
     title: 'Position separates them every time',
     // After the paragraph that tells the two apart, before "The two words meet again".
     after: { section: 'the-agent-marker-e', block: b => b.type === 'p' && b.text.includes('Position separates') },

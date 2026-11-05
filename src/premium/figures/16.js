@@ -122,9 +122,8 @@ export const FIGURES = [
     scenes: [{
       key: 'uo',
       tiles: {
-        // The shell lands whole: the book's "general particle *e* with the not-word *lē*" is
-        // one unit around the front, and the engine adds one tile per beat.
-        shell: [face('E lē', 'marker', 'shell')],
+        e: [face('E', 'tense', 'general particle')],
+        le: [face('lē', 'marker', 'not-word')],
         o: [face('ʻO', 'marker', 'presenting particle'), face('ʻo', 'marker', 'presenting particle')],
         uo: [face('se uō', 'noun')],
         tama: [face('le tama', 'noun')],
@@ -133,9 +132,9 @@ export const FIGURES = [
       after: { say: 'E lē ʻo se uō le tama.', en: 'The boy is not a friend.' },
       states: [
         [['o', 0], ['uo', 0], ['tama', 0]],
-        [['shell', 0], ['o', 1], ['uo', 0], ['tama', 0]],
+        [['e', 0], ['le', 0], ['o', 1], ['uo', 0], ['tama', 0]],
       ],
-      beats: [{ kind: 'add', tile: 'shell', roll: 'o', to: 1 }, { kind: 'en' }],
+      beats: [{ kind: 'add', tile: ['e', 'le'], roll: 'o', to: 1 }, { kind: 'en' }],
     }],
   },
 ]

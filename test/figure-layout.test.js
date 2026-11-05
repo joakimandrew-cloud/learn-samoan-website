@@ -246,3 +246,134 @@ describe('Step 9 batch 2 engine fixes (Engine-Limits.md rows 19 to 27)', () => {
     }
   })
 })
+
+describe('Step 9 batch 3 engine fixes (Engine-Limits.md, batch 3 rows)', () => {
+  it('a swap beat may turn two tiles over at once, so no in-between frame is held', async () => {
+    const { rowFrame, rowGeometry, rowLayouts, rowSizes, rowTimeline } = await import('../src/premium/figure-engine/row.js')
+    const scene = {
+      key: 'k',
+      tiles: { a: [{ text: 'a', role: 'verb' }], p: [{ text: 'x', role: 'pronoun' }, { text: 'yyyy', role: 'pronoun' }], v: [{ text: 'n', role: 'verb' }, { text: 'nnnn', role: 'verb' }] },
+      before: { say: 'a x n.', en: 'A.' },
+      after: { say: 'a yyyy nnnn.', en: 'B.' },
+      states: [[['a', 0], ['p', 0], ['v', 0]], [['a', 0], ['p', 1], ['v', 1]]],
+      beats: [{ kind: 'swap', tile: ['p', 'v'], to: 1 }, { kind: 'en' }],
+    }
+    const def = { id: 'T.6', kind: 'row', scenes: [scene] }
+    for (const width of WIDTHS) {
+      await layOut(def, width)
+      const s = rowSizes(def, width)
+      const layout = rowLayouts(scene, width, s)
+      const timeline = rowTimeline(scene)
+      const geometry = rowGeometry(s, [scene], false, layout.lines, true)
+      const swap = timeline.beats[0]
+      const mid = rowFrame(scene, timeline, (swap.start + swap.travelEnd) / 2, layout, geometry)
+      const p = mid.tiles.find(tile => tile.id === 'p')
+      const v = mid.tiles.find(tile => tile.id === 'v')
+      expect(p.roll).toBeGreaterThan(0)
+      expect(p.roll).toBeLessThan(1)
+      expect(p.roll).toBeCloseTo(v.roll, 5)
+      const rest = rowFrame(scene, timeline, timeline.duration, layout, geometry)
+      expect(rest.tiles.find(tile => tile.id === 'p').labelFace.text).toBe('yyyy')
+      expect(rest.tiles.find(tile => tile.id === 'v').labelFace.text).toBe('nnnn')
+      // Only two states: nothing between them to stop on.
+      expect(timeline.rests.length).toBe(2)
+    }
+  })
+
+  it('a Fork lane under ownSlots may hold an empty place, and two neighbouring tiles take one ring', async () => {
+    const { forkFrame, forkGeometry, forkLayouts, forkLines, forkSizes, forkTimeline } = await import('../src/premium/figure-engine/fork.js')
+    const def = {
+      id: 'T.7', kind: 'fork', title: 't', ownSlots: true,
+      lanes: [{ label: 'front' }, { label: 'end' }],
+      scenes: [{ key: 'k', cases: [
+        { lane: 0, say: 'w n m a t.', en: 'A.', row: [{ text: 'w', role: 'marker', label: 'place word', ring: true }, { text: 'n', role: 'tense' }, { text: 'm', role: 'verb' }, { slot: true, form: { text: 'a', role: 'marker', label: 'pointing-back word' } }, { text: 't', role: 'noun' }] },
+        { lane: 1, say: 'n m w.', en: 'B.', row: [{ text: 'n', role: 'tense', ring: true }, { text: 'm', role: 'verb', ring: true }, { slot: true }, { text: 'w', role: 'marker', label: 'place word' }] },
+      ] }],
+    }
+    for (const width of WIDTHS) {
+      await layOut(def, width)
+      const s = forkSizes(def, width)
+      const geometry = forkGeometry(s, width, def, forkLines(def, width, s))
+      const scene = def.scenes[0]
+      const timeline = forkTimeline(scene)
+      const layout = forkLayouts(scene, width, s)
+      const rest = forkFrame(scene, timeline, timeline.duration, layout, geometry, width)
+      expect(rest.caseIndex).toBe(1)
+      expect(rest.form).toBe(null)
+      expect(rest.slotOpacity).toBe(1)
+      expect(rest.branches.filter(b => b.d).map(b => b.lane)).toEqual([1])
+      const [n, m] = layout.rows[1].items
+      expect(rest.ring.x).toBeCloseTo(n.x, 5)
+      expect(rest.ring.w).toBeCloseTo(m.x + m.w - n.x, 5)
+    }
+  })
+
+  it('an attached tile sits against its host with its label clear of the host label, and moves as its own tile', async () => {
+    const { ATTACH_GAP, labelBox, rowLayouts, rowSizes } = await import('../src/premium/figure-engine/row.js')
+    const scene = {
+      key: 'k',
+      tiles: { o: [{ text: 'ʻO', role: 'marker', label: 'presenting particle' }], v: [{ text: 'faʻatau', role: 'verb' }], a: [{ text: '=a', role: 'marker', label: 'ending', attach: true }], m: [{ text: 'mai', role: 'marker', label: 'direction word' }], t: [{ text: 'le tusi', role: 'noun' }] },
+      before: { say: 'ʻO faʻatau=a mai le tusi?', en: null },
+      after: { say: 'ʻO faʻatau mai=a le tusi?', en: null },
+      states: [[['o', 0], ['v', 0], ['a', 0], ['m', 0], ['t', 0]], [['o', 0], ['v', 0], ['GHOST'], ['m', 0], ['a', 0], ['t', 0]]],
+      beats: [{ kind: 'move', tile: 'a', to: 1, arc: true }],
+    }
+    const def = { id: 'T.8', kind: 'row', scenes: [scene] }
+    for (const width of WIDTHS) {
+      await layOut(def, width)
+      const s = rowSizes(def, width)
+      const { layouts } = rowLayouts(scene, width, s)
+      const [first, last] = layouts
+      expect(first.a.x).toBeCloseTo(first.v.x + first.v.w + ATTACH_GAP, 5)
+      expect(last.a.x).toBeCloseTo(last.m.x + last.m.w + ATTACH_GAP, 5)
+      expect(first.a.y).toBe(first.v.y)
+      // The ending's label clears the direction word's label it now stands beside.
+      const half = face => labelBox(face, s, 0).width / 2
+      const mRight = last.m.x + last.m.w / 2 + (last.m.ldx || 0) + half(scene.tiles.m[0])
+      const aLeft = last.a.x + last.a.w / 2 + (last.a.ldx || 0) - half(scene.tiles.a[0])
+      expect(aLeft).toBeGreaterThanOrEqual(mRight - 0.5)
+    }
+  })
+
+  it('a Build may start from a phrase whose spaced piece leaves, and its open pieces fit a phone stage', async () => {
+    const { buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline } = await import('../src/premium/figure-engine/build.js')
+    const def = { id: 'T.9', kind: 'build', scenes: [{ key: 'k', role: 'noun', from: { say: 'tua o le fale', en: 'A.' }, to: { say: 'tuāfale', en: 'A.' }, pieces: [{ text: 'tu' }, { text: 'ā', was: 'a' }, { text: ' o le ', removed: true }, { text: 'fale' }] }] }
+    for (const width of [308, 700]) {
+      await layOut(def, width)
+      const s = buildSizes(width, def)
+      const scene = def.scenes[0]
+      const layout = buildLayout(scene, width, s)
+      expect(Math.max(layout.openW, layout.fromW, layout.closedW)).toBeLessThanOrEqual(width - 8)
+      const spaced = layout.pieces[2]
+      expect(spaced.openW).toBeLessThan(spaced.w + s.pad * 2)
+      const timeline = buildTimeline(scene)
+      const rest = buildFrame(scene, timeline, timeline.duration, layout, buildGeometry(s, def.scenes), s)
+      expect(rest.pieces[2].opacity).toBe(0)
+    }
+  })
+
+  it('two outlined pieces side by side keep a gap between their outlines', async () => {
+    const { OUTLINE_GAP, buildLayout, buildSizes, outlineBoxes } = await import('../src/premium/figure-engine/build.js')
+    const scene = { key: 'k', role: 'verb', from: { say: 'tonu', en: null }, to: { say: 'faʻalētonu', en: null }, pieces: [{ text: 'faʻa', added: true }, { text: 'lē', added: true }, { text: 'tonu' }] }
+    const s = buildSizes(390)
+    const boxes = outlineBoxes(buildLayout(scene, 390, s).pieces, piece => piece.added)
+    expect(boxes.length).toBe(2)
+    expect(boxes[1].left - (boxes[0].left + boxes[0].width)).toBeCloseTo(OUTLINE_GAP, 5)
+  })
+
+  it('a wide stage shrinks a long row to one line where it can, and leaves a row that fits alone', async () => {
+    const { rowLayouts, rowSizes } = await import('../src/premium/figure-engine/row.js')
+    const { tileSizes } = await import('../src/premium/figure-engine/lib/metrics.js')
+    const words = ['E', 'sili', 'atu', 'ona', 'mālosi', 'le maile', 'i lo', 'le manulele']
+    const tiles = Object.fromEntries(words.map((text, i) => [`w${i}`, [{ text, role: 'verb', label: '' }]]))
+    const scene = { key: 'k', tiles, states: [words.map((_, i) => [`w${i}`, 0])], beats: [] }
+    const def = { id: 'T.10', kind: 'row', scenes: [scene] }
+    const width = 700
+    const s = rowSizes(def, width)
+    expect(s.fs).toBeLessThan(24)
+    expect(s.fs).toBeGreaterThanOrEqual(20)
+    expect(rowLayouts(scene, width, s).lines).toBe(1)
+    const short = { id: 'T.11', kind: 'row', scenes: [{ ...scene, states: [[['w0', 0], ['w1', 0]]] }] }
+    expect(rowSizes(short, width).fs).toBeGreaterThanOrEqual(tileSizes(width).fs)
+  })
+})

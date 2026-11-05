@@ -8,6 +8,11 @@
 // lanes carry labels, not forms; one tile is marked `reads` (the same shape, two
 // jobs), the ring travels from it to the neighbour that decides, the lane lights,
 // and the reading tile takes its role and label in place of a form dropping in.
+//
+// Step 9 batch 3: a slot with no form (`{ slot: true }`) is an empty place that stays open, so a
+// lane under `ownSlots` can show that its sentence holds no word there (Chapter 22: *ai* fills the
+// fronted lane's slot, the end lane's stays empty); and `ring: true` on two neighbouring tiles
+// rings the pair as one (Chapter 33: *ʻAua* and *le*).
 import { clamp01, land, lerp, ramp, travel } from './lib/motion.js'
 import { EN_WRAP_LINE, fitRow, lineHeightOfRow, textWidth, tileSizes } from './lib/metrics.js'
 import { labelBox, packLine } from './row.js'
@@ -55,11 +60,22 @@ export function forkLabelOf(item) {
   const face = item.slot ? item.form : item
   if (item.slot) {
     const named = typeof item.label === 'string' ? item.label : typeof face?.label === 'string' ? face.label : null
-    if (named) return { role: face.role, label: named }
-    return item.label === true ? { role: face.role, label: undefined } : null
+    if (named) return { role: face?.role ?? 'quiet', label: named }
+    return item.label === true && face ? { role: face.role, label: undefined } : null
   }
   if (item.ring || item.reads) return { role: item.role, label: typeof item.label === 'string' ? item.label : undefined }
   return typeof item.label === 'string' && item.label ? { role: item.role, label: item.label } : null
+}
+
+/** The box the ring goes round: the ringed tile, or two or more neighbouring ringed tiles on one
+ *  line taken as one (Step 9 batch 3). check:figures holds ringed tiles to neighbours. */
+export function ringBox(items) {
+  const ringed = items.filter(item => item.ring)
+  if (ringed.length <= 1) return ringed[0] || null
+  const line = ringed.filter(item => item.y === ringed[0].y)
+  const left = Math.min(...line.map(item => item.x))
+  const right = Math.max(...line.map(item => item.x + item.w))
+  return { x: left, y: ringed[0].y, w: right - left, ring: true }
 }
 
 /** One scene's rows at one size. Tiles wrap to a new line only when `limit` is passed, as a plain row's do. */
@@ -72,7 +88,8 @@ function placeCases(scene, s, limit = Infinity) {
     let packed = []
     const items = c.row.map(item => {
       const face = item.slot ? item.form : item
-      const w = textWidth(face.text, s.fs) + s.pad * 2
+      // An empty slot (no form) is a place held open: as wide as a short word.
+      const w = face ? textWidth(face.text, s.fs) + s.pad * 2 : Math.round(s.h * 1.25)
       // A tile whose label shows (forkLabelOf) gets a column as wide as its label.
       const shown = forkLabelOf(item)
       const box = shown ? labelBox(shown, s, w) : null
@@ -220,7 +237,7 @@ export function forkFrame(scene, timeline, t, layout, geometry, width = Infinity
 
   const reading = row.items.find(item => item.reads) || null
   const slot = row.items.find(item => item.slot) || reading
-  const target = row.items.find(item => item.ring)
+  const target = ringBox(row.items)
   // Where the branches end: the slot, else the ringed word, else the middle of the sentence's first
   // line. A case with no slot and no reading (a ring alone, or nothing to point at) never crashes.
   const firstLine = row.items.filter(item => item.y === 0)
@@ -248,7 +265,7 @@ export function forkFrame(scene, timeline, t, layout, geometry, width = Infinity
   // The form travels from the foot of its lane to the slot.
   const laneX = geometry.laneX(c.lane)
   const dropE = travel(ramp(dropP, 0.05, 1))
-  const form = slot && !reading ? {
+  const form = slot && !reading && slot.form ? {
     face: slot.form,
     x: lerp(laneX - slot.w / 2, slot.x, dropE),
     y: lerp(geometry.laneBottom - s.h * 0.55, geometry.rowTop + slot.y, dropE),
@@ -282,7 +299,8 @@ export function forkFrame(scene, timeline, t, layout, geometry, width = Infinity
     form,
     branches,
     en,
-    slotOpacity: clamp01(1 - ramp(dropP, 0.8, 1)),
+    // A slot a form fills fades as the form lands; an empty slot stays drawn.
+    slotOpacity: slot?.slot && !slot.form ? 1 : clamp01(1 - ramp(dropP, 0.8, 1)),
     readP: reading ? travel(ramp(dropP, 0, 0.7)) : 1,
     ringLabel: ramp(ringP, 0.7, 1),
     personRing,

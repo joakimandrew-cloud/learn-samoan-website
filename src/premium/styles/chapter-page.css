@@ -228,7 +228,7 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 .fb-before .fx-sm { color: var(--muted); font-size: 19px; }
 .fb-tile { position: absolute; display: block; border-radius: var(--tile-r); }
 .fb-tile.is-added { box-shadow: inset 0 0 0 1.5px currentColor; }
-.fb-word { position: absolute; left: 0; z-index: 2; display: flex; align-items: center; white-space: nowrap; }
+.fb-word { position: absolute; left: 0; z-index: 2; display: flex; align-items: center; white-space: pre; }
 .fb.text-tense .fb-word, .fb.text-verb .fb-word { color: #fff; }
 .fb.text-noun .fb-word { color: var(--tile-noun-ink); }
 .fb.text-pronoun .fb-word, .fb.text-quiet .fb-word { color: var(--ink); }
@@ -355,6 +355,8 @@ html[data-solo='true'] .hdr, html[data-solo='true'] .ftr, html[data-solo='true']
   .fp-say .fx-sm { font-size: 22px; line-height: 28px; }
   .fp-en { font-size: 15.5px; line-height: 22px; }
   .fx-chip { padding-inline: 4px; }
+  /* Chips too narrow for their longest word take two rows on a phone (chipsCrowded in Figure.jsx). */
+  .fx-chips.is-many { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .fx-chip-sm { font-size: 18px; }
   .fx-chip-en { font-size: 12px; line-height: 15px; }
   .px-sum { grid-template-columns: minmax(0, 1fr) 16px; }

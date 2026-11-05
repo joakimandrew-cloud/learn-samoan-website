@@ -85,19 +85,38 @@ function rowTwoLines(def, s) {
 /** The least room between two labels' boxes in a packed row (each box already carries 3 px a side). */
 const LABEL_GAP = 2
 
+/** The room between a tile and an attached tile that joins it with no space (Step 9 batch 3: an
+ *  ending such as *=a*, `attach: true` on its face): the two boxes nearly touch, so they read as one
+ *  word in two pieces, and the ending can still move as its own tile. */
+export const ATTACH_GAP = 2
+
+/** Where an attached tile's label sits: under its tile, or pushed right just far enough to clear the
+ *  label of the tile it joins. `prevLabelRight` is that label's right edge, `centre` the tile's. */
+const attachLabelDx = (prevLabelRight, room, centre) => (room ? Math.max(0, prevLabelRight + LABEL_GAP + room / 2 - centre) : 0)
+
 /** Packs a line of tiles: each tile centre as close to the last as its tile and its label allow, so a
  *  long label may reach over a neighbour whose own label is narrower. `items` are { w, room }, with
  *  room the label's width; gives each item's tile x, and the line's width. */
 export function packLine(items, gap) {
   let prev = null
   let widest = 0
+  const ldxs = []
   const xs = items.map(item => {
-    const c = prev ? prev.c + Math.max((prev.w + item.w) / 2 + gap, prev.room && item.room ? (prev.room + item.room) / 2 + LABEL_GAP : 0) : Math.max(item.w, item.room) / 2
-    prev = { ...item, c }
-    widest = Math.max(widest, c + Math.max(item.w, item.room) / 2)
+    let c
+    let ldx = 0
+    if (prev && item.attach) {
+      // An attached tile sits against the one before it; its label clears that tile's label.
+      c = prev.c + (prev.w + item.w) / 2 + ATTACH_GAP
+      ldx = prev.room ? attachLabelDx(prev.c + prev.ldx + prev.room / 2, item.room, c) : 0
+    } else {
+      c = prev ? prev.c + Math.max((prev.w + item.w) / 2 + gap, prev.room && item.room ? prev.ldx + (prev.room + item.room) / 2 + LABEL_GAP : 0) : Math.max(item.w, item.room) / 2
+    }
+    prev = { ...item, c, ldx }
+    ldxs.push(ldx)
+    widest = Math.max(widest, c + item.w / 2, c + ldx + item.room / 2)
     return c - item.w / 2
   })
-  return { xs, widest }
+  return { xs, ldxs, widest }
 }
 
 /** One scene's rows at one size. Tiles wrap to a new line only when `limit` is passed. Each tile
@@ -112,27 +131,55 @@ function placeStates(scene, s, limit = Infinity) {
     let line = 0
     let widest = 0
     let packed = []
-    state.forEach(([id, faceIndex]) => {
+    let prev = null
+    const measure = ([id, faceIndex]) => {
       const face = id === 'GHOST' || id === 'SLOT' ? null : scene.tiles[id][faceIndex]
       const w = tileWidth(id, face, s, scene, held)
       const faces = face ? scene.tiles[id] : []
       const room = Math.max(0, ...faces.map(item => labelRoom(item, s, w)))
+      return { face, w, room, attach: Boolean(face?.attach) }
+    }
+    const sized = state.map(measure)
+    /** The tiles attached after index i: they wrap with it, so the wrap test counts them. */
+    const followers = i => {
+      const out = []
+      for (let k = i + 1; k < sized.length && sized[k].attach; k++) out.push(sized[k])
+      return out
+    }
+    state.forEach(([id, faceIndex], i) => {
+      const { face, w, room } = sized[i]
       const col = Math.max(w, room)
+      // An attached tile (an ending, `attach: true`) stays on its host's line, against it.
+      const attach = sized[i].attach && prev != null && prev.line === line
       if (s.pack) {
-        const next = packLine([...packed.map(p => p.item), { w, room }], s.gap)
-        if (packed.length && next.widest > limit) {
+        const item = { w, room, attach }
+        const next = packLine([...packed.map(p => p.item), item, ...followers(i).map(f => ({ w: f.w, room: f.room, attach: true }))], s.gap)
+        if (packed.length && !attach && next.widest > limit) {
           line += 1
           packed = []
         }
-        packed.push({ id, item: { w, room } })
-        const { xs, widest: lineW } = packLine(packed.map(p => p.item), s.gap)
-        packed.forEach((p, i) => { if (map[p.id]) map[p.id].x = xs[i] })
-        map[id] = { x: xs[xs.length - 1], y: line * lineH, w, face, faceIndex }
+        packed.push({ id, item })
+        const { xs, ldxs, widest: lineW } = packLine(packed.map(p => p.item), s.gap)
+        packed.forEach((p, i) => { if (map[p.id]) { map[p.id].x = xs[i]; map[p.id].ldx = ldxs[i] } })
+        map[id] = { x: xs[xs.length - 1], y: line * lineH, w, face, faceIndex, ldx: ldxs[ldxs.length - 1] }
+        prev = { line }
         widest = Math.max(widest, lineW)
         return
       }
-      if (x > 0 && x + col > limit) { line += 1; x = 0 }
+      if (attach) {
+        const tx = prev.x + prev.w + ATTACH_GAP
+        const ldx = prev.room ? attachLabelDx(prev.labelRight, room, tx + w / 2) : 0
+        map[id] = { x: tx, y: line * lineH, w, face, faceIndex, ldx }
+        const right = Math.max(tx + w, tx + w / 2 + ldx + room / 2)
+        widest = Math.max(widest, right)
+        x = Math.max(x, right + s.gap)
+        prev = { line, x: tx, w, room, labelRight: room ? tx + w / 2 + ldx + room / 2 : prev.labelRight }
+        return
+      }
+      const tail = followers(i).reduce((sum, f) => sum + ATTACH_GAP + Math.max(f.w, f.room), 0)
+      if (x > 0 && x + col + tail > limit) { line += 1; x = 0 }
       map[id] = { x: x + (col - w) / 2, y: line * lineH, w, face, faceIndex }
+      prev = { line, x: x + (col - w) / 2, w, room, labelRight: x + col / 2 + room / 2 }
       widest = Math.max(widest, x + col)
       x += col + s.gap
     })
@@ -197,6 +244,7 @@ export function rowStateAt(timeline, t, override = null) {
 /** Where each tile of the first state stands in the starting line, as [start, end) offsets: the
  *  first state joins to before.say, so each tile's text is found in order from the last one's end. */
 export function tilePlaces(scene) {
+  // An attached tile (=a) is found right after its host's text, with no space between.
   const say = String(scene.before?.say ?? '')
   const places = {}
   let from = 0
@@ -245,6 +293,7 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
     let faceA = (a ?? b).face
     let faceB = (b ?? a).face
     let labelOpacity = 1
+    const ldx = lerp(a?.ldx ?? b?.ldx ?? 0, b?.ldx ?? a?.ldx ?? 0, posE)
 
     if (cur?.kind === 'move' && isMain) {
       const e = travel(p)
@@ -284,7 +333,7 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
     const face = roll >= 0.5 ? faceB : faceA
 
     frames[id] = { x, y, w, lineY }
-    tiles.push({ id, x, y: y + lineY, w, z, opacity, outline, roll, faceA, faceB, labelFace: face, labelOpacity: clamp01(labelOpacity), kind: id })
+    tiles.push({ id, x, y: y + lineY, w, z, opacity, outline, roll, faceA, faceB, labelFace: face, labelOpacity: clamp01(labelOpacity), ldx, kind: id })
   }
 
   // Arc from where the tile was to where it landed.

@@ -16,7 +16,7 @@ import { labelBox, rowFrame, rowGeometry, rowLayouts, rowSizes, rowStateAt, rowT
 import { forkFrame, forkGeometry, forkLabelOf, forkLayouts, forkLines, forkSizes, forkTimeline } from './fork.js'
 import { gridTimeline } from './grid-timeline.js'
 import { pathTimeline } from './path.js'
-import { OUTLINE_SKEW, buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline } from './build.js'
+import { OUTLINE_SKEW, buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline, outlineBoxes } from './build.js'
 import { PERSON_LABEL, ROLE_LABEL } from './key.js'
 import { PathChips, PathStage } from './PathStage.jsx'
 import { PersonMark } from './Marks.jsx'
@@ -230,7 +230,7 @@ function RowTile({ tile, frame, geometry, s, slotLabel = 'no subject' }) {
           <TileFace face={finalFace} />
         )}
       </span>
-      <TileLabel role={tile.labelFace.role} label={tile.labelFace.label} s={s} tileW={tile.w} style={{ opacity: tile.labelOpacity, top: s.h + 7 }} />
+      <TileLabel role={tile.labelFace.role} label={tile.labelFace.label} s={s} tileW={tile.w} style={{ opacity: tile.labelOpacity, top: s.h + 7, ...(tile.ldx ? { left: `calc(50% + ${tile.ldx}px)` } : null) }} />
     </span>
   )
 }
@@ -442,12 +442,11 @@ function GridStage({ def, timeline, t, picked, onPick, width }) {
 
 /** A word that changes inside itself: open into pieces, the added piece arrives, close, English. */
 function BuildStage({ def, scene, timeline, t, width, epoch }) {
-  const s = useMemo(() => buildSizes(width), [width])
+  const s = useMemo(() => buildSizes(width, def), [width, def, epoch]) // eslint-disable-line react-hooks/exhaustive-deps
   const layout = useMemo(() => buildLayout(scene, width, s), [scene, width, s, epoch]) // eslint-disable-line react-hooks/exhaustive-deps
   const geometry = useMemo(() => buildGeometry(s, def.scenes), [s, def])
   const frame = buildFrame(scene, timeline, t, layout, geometry, s)
   const added = frame.pieces.filter(piece => piece.added)
-  const changed = frame.pieces.filter(piece => piece.was != null)
   const labelled = added.filter(piece => piece.label)
   return (
     <div className={`fb text-${scene.role}`} style={{ '--fs': `${s.fs}px`, '--h': `${s.h}px`, height: geometry.height }}>
@@ -460,11 +459,9 @@ function BuildStage({ def, scene, timeline, t, width, epoch }) {
       ))}
       {/* The outline leans with the italic letters it marks and keeps to their own advance, so it lines up
           with them and never reaches into a neighbour's letters (OUTLINE_SKEW). */}
-      {added.map((piece, i) => (
-        <span key={`ring-${i}`} className="fb-outline" style={{ left: piece.closedX - 1, width: piece.w + 2, top: geometry.rowTop + 8, height: s.h - 16, opacity: frame.outline, transform: OUTLINE_SKEW }} />
-      ))}
-      {changed.map((piece, i) => (
-        <span key={`changed-${i}`} className="fb-outline" style={{ left: piece.closedX - 1, width: piece.w + 2, top: geometry.rowTop + 8, height: s.h - 16, opacity: frame.changeOutline, transform: OUTLINE_SKEW }} />
+      {/* Two outlined pieces side by side keep a small gap between their outlines (outlineBoxes). */}
+      {outlineBoxes(frame.pieces, piece => piece.added || piece.was != null).map(({ piece, left, width: w }, i) => (
+        <span key={`ring-${i}`} className="fb-outline" style={{ left: piece.added ? left : left + piece.x - piece.closedX, width: w, top: geometry.rowTop + 8, height: s.h - 16, opacity: piece.added ? frame.outline : frame.changeOutline, transform: OUTLINE_SKEW }} />
       ))}
       {frame.pieces.map((piece, i) => (piece.change ? (
         <span key={`w-${i}`}>
@@ -487,6 +484,15 @@ function BuildStage({ def, scene, timeline, t, width, epoch }) {
       </p>
     </div>
   )
+}
+
+/** On a phone, chips whose longest word would leave under 6 px a side in one row of chips (taumafai
+ *  in four) take two rows instead (Step 9 batch 3). 18 px is .fx-chip-sm's phone size; each chip
+ *  loses 8 px of padding and 3 px of border, and the chips stand 8 px apart. */
+function chipsCrowded(chips, width) {
+  if (!width || width >= 480 || chips.length < 3) return false
+  const inner = (width - 8 * (chips.length - 1)) / chips.length - 3
+  return chips.some(chip => textWidth(chip.sm, 18) + 12 > inner)
 }
 
 const clampLabel = v => (v < 0 ? 0 : v > 1 ? 1 : v)
@@ -633,7 +639,7 @@ export default function Figure({ def, number = null, external = null, autoplay =
       </div>
       <Alt def={def} scene={scene} />
       {def.chips && (
-        <div className="fx-chips" style={{ '--n': def.chips.length }}>
+        <div className={`fx-chips ${chipsCrowded(def.chips, width) ? 'is-many' : ''}`} style={{ '--n': def.chips.length }}>
           {def.chips.map(chip => (
             <button key={chip.state} type="button" className={`fx-chip ${swapState === chip.state ? 'is-on' : ''}`} aria-pressed={swapState === chip.state} onClick={() => onSwapChip(chip.state)}>
               <span className="fx-chip-sm" lang="sm" data-samoan={chip.sm}>{chip.sm}</span>

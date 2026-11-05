@@ -32,16 +32,12 @@ export const FIGURES = [
           reached: [face('le iʻa', 'noun', 'the thing reached')],
         },
         before: { say: 'Sā vaʻai le teine ʻi le iʻa.', en: 'The girl saw the fish.' },
-        // The Note gives both orders one English ('say "the girl saw the fish"'), but the pairing
-        // check reads only the 'means' prose form, so this line carries none and there is no
-        // empty English beat; the caption gives it. Restore en: 'The girl saw the fish.' and an
-        // { kind: 'en' } beat once the check reads 'say'. Reported as compromised.
-        after: { say: 'Sā vaʻai ʻi le iʻa le teine', en: null },
+        after: { say: 'Sā vaʻai ʻi le iʻa le teine', en: 'The girl saw the fish.' },
         states: [
           [['sa', 0], ['verb', 0], ['doer', 0], ['i', 0], ['reached', 0]],
           [['sa', 0], ['verb', 0], ['i', 0], ['reached', 0], ['doer', 0]],
         ],
-        beats: [{ kind: 'move', tile: 'doer', to: 1, arc: true }],
+        beats: [{ kind: 'move', tile: 'doer', to: 1, arc: true }, { kind: 'en' }],
       },
     ],
   },

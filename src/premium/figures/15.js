@@ -7,6 +7,45 @@ export const REPLACES = ['ch15-there-is-or-none']
 export const FIGURES = [
   {
     id: '15.1',
+    kind: 'fork',
+    types: ['fork-readings'],
+    ownSlots: true,
+    title: 'Same string, two jobs',
+    // After the Note on sau, before the table of having sentences.
+    after: { section: 'saying-what-you-have', block: b => b.type === 'note' && b.text.includes('Same string, two jobs') },
+    lanes: [
+      { label: 'the come-word', forms: [] },
+      { label: 'possessive form', forms: [] },
+    ],
+    alt: [
+      'This *sau* has the same shape as the word for "come" met earlier, as in the command *Sau* (come).',
+      'Same string, two jobs: the come-word is the verb of its sentence, in the verb\'s place or alone as a command, while this one sits in front of a noun and says whose it is.',
+      'What the word sits next to tells you which job it is doing.',
+      '*E iai sau tusi?* Do you have a book?',
+    ],
+    scenes: [
+      {
+        key: 'sau',
+        cases: [
+          {
+            lane: 0, say: 'Sau', en: 'come',
+            row: [{ ...face('Sau', 'verb'), reads: true }],
+          },
+          {
+            lane: 1, say: 'E iai sau tusi?', en: 'Do you have a book?',
+            row: [
+              face('E', 'tense', 'general particle'),
+              face('iai', 'verb', 'there-is verb'),
+              { ...face('sau', 'marker', 'possessive form'), reads: true },
+              { ...face('tusi', 'noun'), ring: true },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: '15.2',
     kind: 'row',
     title: 'Compare them. Which word changed?',
     caption: 'Only the verb. *Iai* became *leai*, and "there is" became "there is not".',
