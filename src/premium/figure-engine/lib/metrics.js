@@ -68,8 +68,8 @@ export function useWidth() {
 export function tileSizes(width) {
   const phone = width > 0 && width < 480
   return phone
-    ? { fs: 24, h: 44, pad: 11, gap: 6, r: 10, arc: 32, label: 22, ghost: 22, mark: 20 }
-    : { fs: 30, h: 56, pad: 15, gap: 8, r: 10, arc: 40, label: 24, ghost: 30, mark: 22 }
+    ? { fs: 24, h: 44, pad: 11, gap: 6, r: 10, arc: 32, label: 22, ghost: 22, mark: 20, phone: true }
+    : { fs: 30, h: 56, pad: 15, gap: 8, r: 10, arc: 40, label: 24, ghost: 30, mark: 22, phone: false }
 }
 
 /** Fits a figure's size set to its stage. A wide stage grows the tiles until the widest row
@@ -119,7 +119,7 @@ const DESKTOP_MIN_FS = 20
  *  or not at all. When the new fit puts no more lines on one line than the first try, the first try
  *  stands. `twoLines(s)` says whether any label takes two lines at `s`. One size holds for the
  *  whole figure. */
-export function fitRow(base, widthsAt, width, twoLines, partial = false) {
+export function fitRow(base, widthsAt, width, twoLines, partial = false, wrapAt = null) {
   const widest = s => Math.max(...widthsAt(s))
   const first = fitSizes(base, widest(base), width)
   if (!width || widest(first) <= width) return first
@@ -153,7 +153,19 @@ export function fitRow(base, widthsAt, width, twoLines, partial = false) {
   if (desktop) {
     const wide = tier({})
     if (wide) best.push(wide)
-    return best.reduce((a, b) => (fitting(b) > fitting(a) ? b : a))
+    // Step 9 batch 4: desktop labels are now measured in the face they are drawn in (row.js labelBox),
+    // so a long row that fit only on under-measured labels (37.2 case 2) may take two-line labels, then
+    // packed ones, as a phone does, before it wraps. Tried only where the tries above leave a line wrapping.
+    const most = () => best.reduce((a, b) => (fitting(b) > fitting(a) ? b : a))
+    if (fitting(most()) < total) {
+      const two = tier({ wrapLabels: true })
+      if (two) best.push(two)
+    }
+    if (fitting(most()) < total) {
+      const packed = tier({ wrapLabels: 'all', pack: true })
+      if (packed) best.push(packed)
+    }
+    return most()
   }
   const second = tier({ wrapLabels: true })
   if (second) best.push(second)
@@ -166,7 +178,44 @@ export function fitRow(base, widthsAt, width, twoLines, partial = false) {
     if (third) best.push(third)
   }
   // The try that puts the most lines on one line; on a tie, the earlier one.
-  return best.reduce((a, b) => (fitting(b) > fitting(a) ? b : a))
+  const chosen = best.reduce((a, b) => (fitting(b) > fitting(a) ? b : a))
+  if (!wrapAt || fitting(chosen) >= total) return chosen
+  return shrinkBeforeWrap(base, chosen, width, twoLines, wrapAt, fitting)
+}
+
+/** Step 9 batch 4 (Engine-Limits.md): a phone row that still wraps shrinks first, toward the 17 px
+ *  floor, and only then wraps. Before this a row that could not fit one line even at the floor
+ *  wrapped at full size (41.3, 47.1, 37.2). The type steps down only as far as it still saves a
+ *  line: the largest size whose wrapped lines are as few as the floor's. And a single tile wider
+ *  than the stage even at the floor (a long phrase tile, 36.1) shrinks the figure below the floor
+ *  until it fits, since a tile that runs off the card cannot be read at all.
+ *  `wrapAt(s)` gives { lines, widest }: the figure's lines when wrapped at this stage, and its
+ *  widest wrapped line. One size still holds for the whole figure. */
+function shrinkBeforeWrap(base, chosen, width, twoLines, wrapAt, fitting) {
+  const extra = { wrapLabels: 'all', pack: true }
+  const at = k => {
+    const s = { ...scaleSizes({ ...base, ...extra }, k), ...extra }
+    return twoLines(s) ? { ...s, labelExtra: LABEL_LINE } : s
+  }
+  const kMin = PHONE_MIN_FS / base.fs
+  const kNow = Math.min(1, chosen.fs / base.fs)
+  let pick = chosen
+  const now = wrapAt(chosen)
+  const low = wrapAt(at(kMin))
+  if (low.lines < now.lines) {
+    let lo = kMin
+    let hi = kNow
+    for (let i = 0; i < 9; i++) {
+      const mid = (lo + hi) / 2
+      if (wrapAt(at(mid)).lines <= low.lines) lo = mid
+      else hi = mid
+    }
+    const s = at(lo)
+    if (fitting(s) >= fitting(chosen)) pick = s
+  }
+  const spill = wrapAt(pick).widest
+  if (spill > width) pick = at((pick.fs / base.fs) * (width / spill) * 0.98)
+  return pick
 }
 
 /** The height a label's second line adds (.ft-label.is-two sets 13 px lines). */

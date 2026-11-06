@@ -280,6 +280,18 @@ for (const name of wanted) {
           sm(`${where} ${side}`, line.say, 'sentence')
           if (line.en != null) { en(`${where} ${side}`, line.en, 'English'); paired(`${where} ${side}`, line.say, line.en) }
         }
+        // A whole line (Step 9 batch 4, 49.1): where the book gives English only for the whole sentence
+        // the row's two halves make, `whole: { say, en }` is that printed sentence and its English, shown
+        // at rest. Its English is paired with it, and the row's before and after must each stand inside it.
+        if (scene.whole) {
+          sm(`${where} whole`, scene.whole.say, 'sentence')
+          if (scene.whole.en == null) fail(where, 'whole has no English')
+          else { en(`${where} whole`, scene.whole.en, 'English'); paired(`${where} whole`, scene.whole.say, scene.whole.en) }
+          if (scene.after?.en != null) fail(where, 'whole is for a row whose after line has no English of its own')
+          for (const side of ['before', 'after']) {
+            if (scene[side] && !bare(scene.whole.say).toLowerCase().includes(bare(scene[side].say).toLowerCase())) fail(where, `the ${side} line ${JSON.stringify(scene[side].say)} is not part of the whole line`)
+          }
+        }
         // 10. Every held state is printed, or open.
         states.forEach((state, i) => printedOrOpen(where, state.map(item => (item[0] === 'GHOST' || item[0] === 'SLOT' ? item[0] : faceOf(item))).filter(Boolean), `state ${i}`))
         // 3. States that have a sentence join to it.
@@ -353,6 +365,8 @@ for (const name of wanted) {
           const line = scene[side]
           if (!line) { fail(where, `has no ${side}`); continue }
           sm(`${where} ${side}`, line.say, 'word')
+          // A label for one side only (Step 9 batch 4, 27.1): '' hides it on that side; any other is checked.
+          if (line.label != null && line.label !== '') label(`${where} ${side}`, line.label, 'label')
           if (line.en != null) { en(`${where} ${side}`, line.en, 'English'); paired(`${where} ${side}`, line.say, line.en) }
         }
         // A removed piece is in the from word only (uliuli to uli); an added one in the to word only.

@@ -11,7 +11,6 @@ export const FIGURES = [
       '*E mālosi le tama.* The boy is strong.',
       '*E tolu tama.* There are three boys.',
       'It stands exactly where *mālosi* stands, in the place a verb takes.',
-      'Notice that the noun carries no article: a particular plural drops *le*, exactly as it did when you first met plurals earlier in this book, so *tama e tolu* is "the three boys", not "three of some boys".',
     ],
     scenes: [{
       key: 'tolu',
@@ -56,7 +55,8 @@ export const FIGURES = [
         [['e', 0], ['tolu', 0], ['tama', 0]],
         [['tama', 0], ['e', 1], ['tolu', 0]],
       ],
-      beats: [{ kind: 'move', tile: 'tama', roll: 'e', to: 1 }, { kind: 'en' }],
+      // the piece *e tolu* is set in behind the noun (book line 52), so the pair travels, not the noun.
+      beats: [{ kind: 'move', tile: ['e', 'tolu'], roll: 'e', to: 1 }, { kind: 'en' }],
     }],
   },
   {
@@ -92,17 +92,17 @@ export const FIGURES = [
       tiles: {
         le: [face('le', 'quiet')],
         tama: [face('tama', 'noun')],
-        muamua: [face('muamua', 'marker', 'first')],
-        uluai: [face('uluaʻi', 'marker', 'first')],
+        muamua: [face('muamua', 'verb', 'first')],
+        uluai: [face('uluaʻi', 'verb', 'first')],
       },
       before: { say: 'le tama muamua', en: 'the first boy' },
-      after: { say: 'le uluaʻi tama', en: null },
+      after: { say: 'le uluaʻi tama', en: 'the first boy' },
       states: [
         [['le', 0], ['tama', 0], ['muamua', 0]],
         [['le', 0], ['tama', 0]],
         [['le', 0], ['uluai', 0], ['tama', 0]],
       ],
-      beats: [{ kind: 'drop', tile: 'muamua', to: 1 }, { kind: 'add', tile: 'uluai', to: 2 }],
+      beats: [{ kind: 'drop', tile: 'muamua', to: 1 }, { kind: 'add', tile: 'uluai', to: 2 }, { kind: 'en' }],
     }],
   },
 ]

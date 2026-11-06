@@ -101,4 +101,55 @@ export const FIGURES = [
       ],
     }],
   },
+  {
+    // Added in the rework pass: the section had no picture, and the stretch from 32.3 to the
+    // Exercises ran past the page limit. The point is the book's own: after *e pei* comes one of
+    // two things in this chapter, a clause with its own tense particle or a noun phrase opened by *o*.
+    // The finished sentence *pei* hangs on is one quiet tile, as the book treats it, so each case
+    // fits one line at 390. A Fork by meaning (no ring); each lane fills its own slot. The Interactive on this section asks
+    // *pei* or *tusa ma*, which this figure does not show.
+    id: '32.4',
+    kind: 'fork',
+    title: 'What follows *pei* in this chapter is one of two things.',
+    caption: 'It heads a clause of its own that hangs on the end of a finished sentence, and it takes the general particle *e* in front of it.',
+    after: { section: 'saying-two-things-are-alike', block: b => b.type === 'p' && b.text.includes('It heads a clause of its own') },
+    alt: [
+      '*Sā tautala le tama e pei sā ʻi ai.* The boy spoke as if he had been there. (Lit. "Past speak the boy, as if past there.")',
+      '*Sā tagi le pepe e pei o se manulele.* The baby cried like a bird.',
+      'What follows *pei* in this chapter is one of two things.',
+      'In the first sentence it is a clause with a tense particle of its own, *sā ʻi ai* (had been there).',
+    ],
+    ownSlots: true,
+    lanes: [
+      { label: 'a clause with a tense particle of its own', forms: ['sā ʻi ai'] },
+      { label: 'a noun phrase opened by *o*', forms: ['o se manulele'] },
+    ],
+    scenes: [{
+      key: 'pei',
+      cases: [
+        {
+          lane: 0,
+          say: 'Sā tautala le tama e pei sā ʻi ai.',
+          en: 'The boy spoke as if he had been there.',
+          row: [
+            face('Sā tautala le tama', 'quiet'),
+            face('e', 'tense', 'general particle'),
+            face('pei', 'verb'),
+            { slot: true, form: face('sā ʻi ai', 'quiet') },
+          ],
+        },
+        {
+          lane: 1,
+          say: 'Sā tagi le pepe e pei o se manulele.',
+          en: 'The baby cried like a bird.',
+          row: [
+            face('Sā tagi le pepe', 'quiet'),
+            face('e', 'tense', 'general particle'),
+            face('pei', 'verb'),
+            { slot: true, form: face('o se manulele', 'quiet') },
+          ],
+        },
+      ],
+    }],
+  },
 ]

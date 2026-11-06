@@ -12,20 +12,20 @@ export const FIGURES = [
   {
     id: '27.1',
     kind: 'build',
-    title: 'Words That Fuse',
+    title: 'What is gone from the shorter one?',
     caption: '*Tua* joins straight onto *fale*, and the vowel at the join lengthens.',
     // After the answer to the book's question, before the note that only tua and luma fuse.
-    // Engine limit: a Build piece cannot hold a space, so the phrase *tua o le fale* cannot be
-    // the starting word and the belonging word and article cannot be shown leaving.
     after: { section: 'words-that-fuse', block: b => b.type === 'p' && b.text.includes('and the vowel at the join lengthens') },
-    alt: ['*Tua* and *luma* have a second shape.', '*tuāfale*. the space behind the house', '*Tua* joins straight onto *fale*, and the vowel at the join lengthens.'],
+    alt: ['*tua o le fale*. the space behind the house', '*tuāfale*. the space behind the house', 'The belonging word and the article.', '*Tua* joins straight onto *fale*, and the vowel at the join lengthens.'],
     scenes: [{
       key: 'tuafale',
       role: 'noun',
+      // Engine limit: a Build's one label shows on both states and the check refuses a blank one,
+      // though the book never calls the phrase tua o le fale a noun. Wanted: "noun" under tuāfale alone.
       label: 'noun',
-      from: { say: 'tua', en: 'back, behind' },
+      from: { say: 'tua o le fale', en: 'the space behind the house' },
       to: { say: 'tuāfale', en: 'the space behind the house' },
-      pieces: [{ text: 'tu' }, { text: 'ā', was: 'a' }, { text: 'fale', added: true }],
+      pieces: [{ text: 'tu' }, { text: 'ā', was: 'a' }, { text: ' o le ', removed: true }, { text: 'fale' }],
     }],
   },
 ]

@@ -148,7 +148,9 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 /* A label on two lines, only where its phone row fits one line no other way (row.js labelBox). */
 .ft-label.is-two { white-space: normal; text-align: center; line-height: 14px; text-wrap: balance; }
 .ft-before { position: absolute; left: 0; top: 0; display: flex; align-items: baseline; gap: 8px; margin: 0; line-height: 24px; white-space: nowrap; }
-.ft-before.is-two { flex-wrap: wrap; gap: 0 8px; }
+/* Stacked, each part wraps inside the stage (row.js beforeBlock; it never wrapped before batch 4). */
+.ft-before.is-two { flex-wrap: wrap; gap: 0 8px; white-space: normal; }
+.ft-before.is-two .fx-sm { flex-basis: 100%; }
 .ft-before.is-two .ft-before-en { flex-basis: 100%; line-height: 20px; }
 .ft-before .fx-sm { color: var(--muted); font-size: 17px; }
 .ft-before-en { color: var(--muted); font-size: 14px; }
@@ -233,6 +235,8 @@ html[data-hdr='shown'] .pl-contents { top: calc(var(--hdr-h) + 16px); }
 .fb.text-noun .fb-word { color: var(--tile-noun-ink); }
 .fb.text-pronoun .fb-word, .fb.text-quiet .fb-word { color: var(--ink); }
 .fb.text-marker .fb-word { color: var(--red); }
+/* A Build piece that leaves is struck through as it goes (build.js, Step 9 batch 4). */
+.fb-strike { background: linear-gradient(currentColor, currentColor) no-repeat 0 60% / calc(var(--strike, 0) * 100%) 2px; }
 .fb-outline { position: absolute; z-index: 1; display: block; border: 1.5px dashed currentColor; border-radius: 6px; }
 .fb.text-tense .fb-outline, .fb.text-verb .fb-outline { color: rgba(255, 255, 255, .78); }
 .fb.text-noun .fb-outline, .fb.text-marker .fb-outline { color: var(--red); }

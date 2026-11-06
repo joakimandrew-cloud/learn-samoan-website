@@ -1,0 +1,140 @@
+const face = (text, role, label) => (label != null ? { text, role, label } : { text, role })
+
+export const FIGURES = [
+  {
+    id: '43.1',
+    kind: 'row',
+    title: 'Naming the Owner',
+    caption: 'The frame has not moved.',
+    after: { section: 'naming-the-owner', block: b => b.type === 'p' && b.text.includes('The frame has not moved') },
+    alt: [
+      '*E aʻu le naifi.* The knife is mine.',
+      '*E a le fafine le naifi.* The knife belongs to the woman. (Lit. "The woman\'s, the knife.")',
+      '*E oʻu le fale.*',
+      'The house is mine.',
+      '*E o le aliʻi le fale.* The house belongs to the chief.',
+      'The frame has not moved. *A le fafine* stands where *aʻu* stood, and *o le aliʻi* stands where *oʻu* stood.',
+    ],
+    scenes: [
+      {
+        key: 'naifi',
+        tiles: {
+          e: [face('E', 'tense')],
+          own: [face('aʻu', 'pronoun', 'owner'), face('a le fafine', 'noun', 'owner')],
+          thing: [face('le naifi', 'noun', 'thing owned')],
+        },
+        before: { say: 'E aʻu le naifi.', en: 'The knife is mine.' },
+        after: { say: 'E a le fafine le naifi.', en: 'The knife belongs to the woman.' },
+        states: [[['e', 0], ['own', 0], ['thing', 0]], [['e', 0], ['own', 1], ['thing', 0]]],
+        beats: [{ kind: 'swap', tile: 'own', to: 1 }, { kind: 'en' }],
+      },
+      {
+        key: 'fale',
+        tiles: {
+          e: [face('E', 'tense')],
+          own: [face('oʻu', 'pronoun', 'owner'), face('o le aliʻi', 'noun', 'owner')],
+          thing: [face('le fale', 'noun', 'thing owned')],
+        },
+        before: { say: 'E oʻu le fale.', en: 'The house is mine.' },
+        after: { say: 'E o le aliʻi le fale.', en: 'The house belongs to the chief.' },
+        states: [[['e', 0], ['own', 0], ['thing', 0]], [['e', 0], ['own', 1], ['thing', 0]]],
+        beats: [{ kind: 'swap', tile: 'own', to: 1 }, { kind: 'en' }],
+      },
+    ],
+  },
+  {
+    id: '43.2',
+    kind: 'row',
+    title: 'Asking Whose',
+    caption: 'The question opens with *ʻO ai*, the who-question met earlier in this book, and then runs the belonging-sentence behind it with the third person form *ana* or *ona* standing where the owner would stand.',
+    after: { section: 'asking-whose', block: b => b.type === 'p' && b.text.includes('That form points back at the') },
+    alt: [
+      '*E ana le taʻavale?* Is the car his?',
+      '*ʻO ai e ana le taʻavale?* Whose is the car? (Lit. "Who, the car is his?")',
+      '*E ona le fale.*',
+      'The house is his.',
+      '*ʻO ai e ona le fale?* Whose is the house?',
+      'The type still has to be chosen: a car is an *a*-word, so the question about a car uses *ana*, and a house is an *o*-word, so the question about a house uses *ona*.',
+    ],
+    scenes: [
+      {
+        key: 'taavale',
+        tiles: {
+          o: [face('ʻO', 'marker', 'presenting particle')],
+          ai: [face('ai', 'pronoun', 'who-word')],
+          e: [face('E', 'tense'), face('e', 'tense')],
+          f: [face('ana', 'pronoun', 'belonging form')],
+          thing: [face('le taʻavale', 'noun', 'thing owned')],
+        },
+        before: { say: 'E ana le taʻavale?', en: 'Is the car his?' },
+        after: { say: 'ʻO ai e ana le taʻavale?', en: 'Whose is the car?' },
+        states: [[['e', 0], ['f', 0], ['thing', 0]], [['o', 0], ['ai', 0], ['e', 1], ['f', 0], ['thing', 0]]],
+        beats: [{ kind: 'add', tile: ['o', 'ai'], roll: 'e', to: 1 }, { kind: 'en' }],
+      },
+      {
+        key: 'fale',
+        tiles: {
+          o: [face('ʻO', 'marker', 'presenting particle')],
+          ai: [face('ai', 'pronoun', 'who-word')],
+          e: [face('E', 'tense'), face('e', 'tense')],
+          f: [face('ona', 'pronoun', 'belonging form')],
+          thing: [face('le fale', 'noun', 'thing owned')],
+        },
+        before: { say: 'E ona le fale.', en: 'The house is his.' },
+        after: { say: 'ʻO ai e ona le fale?', en: 'Whose is the house?' },
+        states: [[['e', 0], ['f', 0], ['thing', 0]], [['o', 0], ['ai', 0], ['e', 1], ['f', 0], ['thing', 0]]],
+        beats: [{ kind: 'add', tile: ['o', 'ai'], roll: 'e', to: 1 }, { kind: 'en' }],
+      },
+    ],
+  },
+  {
+    id: '43.3',
+    kind: 'row',
+    title: 'Putting the Thing First',
+    caption: 'Here it is the thing owned that moves, not the owner.',
+    after: { section: 'putting-the-thing-first', block: b => b.type === 'p' && b.text.includes('Here it is the thing owned that moves') },
+    alt: [
+      '*E a le fafine le naifi.* The knife belongs to the woman. (Lit. "The woman\'s, the knife.")',
+      '*ʻO le naifi e a le fafine.* This is the woman\'s knife. (Lit. "The knife, the woman\'s.")',
+      '*E o le aliʻi le fale.* The house belongs to the chief.',
+      '*ʻO le fale e o le aliʻi.* This is the chief\'s house. (Lit. "The house, the chief\'s.")',
+      'The belonging word and its owner stay where they stood, so nothing is left behind to answer.',
+    ],
+    scenes: [
+      {
+        key: 'naifi',
+        tiles: {
+          o: [face('ʻO', 'marker', 'presenting particle')],
+          e: [face('E', 'tense'), face('e', 'tense')],
+          own: [face('a le fafine', 'noun', 'owner')],
+          thing: [face('le naifi', 'noun', 'thing owned')],
+        },
+        before: { say: 'E a le fafine le naifi.', en: 'The knife belongs to the woman.' },
+        after: { say: 'ʻO le naifi e a le fafine.', en: 'This is the woman\'s knife.' },
+        states: [
+          [['e', 0], ['own', 0], ['thing', 0]],
+          [['GHOST'], ['thing', 0], ['e', 1], ['own', 0]],
+          [['o', 0], ['thing', 0], ['e', 1], ['own', 0]],
+        ],
+        beats: [{ kind: 'move', tile: 'thing', roll: 'e', to: 1 }, { kind: 'add', tile: 'o', to: 2 }, { kind: 'en' }],
+      },
+      {
+        key: 'fale',
+        tiles: {
+          o: [face('ʻO', 'marker', 'presenting particle')],
+          e: [face('E', 'tense'), face('e', 'tense')],
+          own: [face('o le aliʻi', 'noun', 'owner')],
+          thing: [face('le fale', 'noun', 'thing owned')],
+        },
+        before: { say: 'E o le aliʻi le fale.', en: 'The house belongs to the chief.' },
+        after: { say: 'ʻO le fale e o le aliʻi.', en: 'This is the chief\'s house.' },
+        states: [
+          [['e', 0], ['own', 0], ['thing', 0]],
+          [['GHOST'], ['thing', 0], ['e', 1], ['own', 0]],
+          [['o', 0], ['thing', 0], ['e', 1], ['own', 0]],
+        ],
+        beats: [{ kind: 'move', tile: 'thing', roll: 'e', to: 1 }, { kind: 'add', tile: 'o', to: 2 }, { kind: 'en' }],
+      },
+    ],
+  },
+]

@@ -3,7 +3,7 @@
 // same scene, time and layout always give the same frame, with no state and no
 // CSS animation, so any frame can be rendered exactly.
 import { HOLD_MS, OPEN_MS, ROLL_MS, TRAVEL_MS, clamp01, land, leave, lerp, ramp, travel } from './lib/motion.js'
-import { EN_WRAP_LINE, fitRow, labelTwoLineWidth, labelWidth, lineHeightOfRow, textWidth, tileSizes } from './lib/metrics.js'
+import { EN_WRAP_LINE, fitRow, labelTwoLineWidth, labelWidth, lineHeightOfRow, textWidth, tileSizes, uiWidth } from './lib/metrics.js'
 import { ROLE_LABEL } from './key.js'
 
 const TRAVEL = { move: TRAVEL_MS, add: TRAVEL_MS, drop: TRAVEL_MS, swap: ROLL_MS, en: 420, limit: 620, slot: 620, line: TRAVEL_MS }
@@ -57,7 +57,9 @@ const LABEL_SLACK = 10
 export function labelBox(face, s, tileW = 0) {
   const text = face ? face.label ?? ROLE_LABEL[face.role] : null
   if (!text) return { room: 0, lines: 1, width: 0 }
-  const phone = s.fs < 28
+  // The label face follows the stage, not the tile type: a desktop row shrunk under 28 px still draws
+  // its labels at the desktop size (Step 9 batch 4: at 1440 Chapter 37's labels ran together).
+  const phone = s.phone ?? s.fs < 28
   const one = labelWidth(text, phone) + 6
   const all = s.wrapLabels === 'all'
   if (!s.wrapLabels || (!all && one <= tileW + LABEL_SLACK)) return { room: one, lines: 1, width: one }
@@ -193,7 +195,12 @@ function placeStates(scene, s, limit = Infinity) {
 export function rowSizes(def, width) {
   const base = tileSizes(width)
   const widthsAt = s => def.scenes.flatMap(scene => placeStates(scene, s).map(m => m.__w))
-  return fitRow(base, widthsAt, width, s => rowTwoLines(def, s))
+  // The figure's lines once wrapped at this stage, for shrink-before-wrap (Step 9 batch 4).
+  const wrapAt = s => {
+    const maps = def.scenes.flatMap(scene => placeStates(scene, s, width))
+    return { lines: maps.reduce((a, m) => a + m.__lines, 0), widest: Math.max(...maps.map(m => m.__w)) }
+  }
+  return fitRow(base, widthsAt, width, s => rowTwoLines(def, s), false, wrapAt)
 }
 
 /** Each state's tile positions. The block is centred on the stage at the width of its widest
@@ -206,7 +213,40 @@ export function rowLayouts(scene, width, s) {
   layouts.forEach(map => {
     Object.keys(map).forEach(id => { if (!id.startsWith('__')) map[id].x += x0 })
   })
-  return { layouts, s, widest, x0, lines }
+  return { layouts, s, widest, x0, lines, stageW: width }
+}
+
+/** The lines a run of words takes when it wraps at `room`, each word measured by `measure`. */
+function wrapLines(text, measure, room) {
+  let lines = 1
+  let current = ''
+  String(text).split(/\s+/).filter(Boolean).forEach(word => {
+    const next = current ? `${current} ${word}` : word
+    if (current && measure(next) > room) { lines += 1; current = word } else current = next
+  })
+  return lines
+}
+
+const BEFORE_EN_FONT = `400 14px 'Inter Variable', Inter, sans-serif`
+
+/** The muted starting line above a Row (Step 9 batch 4, Engine-Limits.md): on one line when it fits,
+ *  else stacked, the Sāmoan over its English, each wrapping inside the stage (it never wrapped
+ *  before, so a long line ran off the card: 38.1, 39.1, 45.1). On a phone a sentence over 40 letters
+ *  stacks as it always did. One block for every scene, so the stage never changes height. Gives
+ *  { two, height }: whether it stacks, and the room it takes above the row (26 px a line before). */
+export function beforeBlock(def, width, left = 8) {
+  const scenes = def.scenes.filter(scene => scene.before)
+  if (!scenes.length) return { two: false, height: 0 }
+  const sayW = text => textWidth(text, 17)
+  const enW = text => uiWidth(text, BEFORE_EN_FONT)
+  const oneLine = scene => sayW(scene.before.say) + (scene.before.en ? 8 + enW(scene.before.en) : 0)
+  const phone = width < 480
+  const two = scenes.some(scene => (phone && scene.before.say.length + (scene.before.en ?? '').length > 40) || oneLine(scene) > width)
+  if (!two) return { two: false, height: 26 }
+  // The stacked block starts `left` px in (at most 8: Figure.jsx), and keeps 1 px clear of the right edge.
+  const room = width - Math.min(8, Math.max(0, left)) - 1
+  const height = Math.max(...scenes.map(scene => wrapLines(scene.before.say, sayW, room) * 24 + (scene.before.en ? wrapLines(scene.before.en, enW, room) * 20 : 0) + 4))
+  return { two: true, height }
 }
 
 /** Geometry of the stage's rows, shared with the render. `scenes` is one scene or all of a
@@ -214,7 +254,9 @@ export function rowLayouts(scene, width, s) {
  *  the figure keeps one height and its row at one place. */
 export function rowGeometry(s, scenes, twoLineBefore = false, lines = 1, reserveBefore = false, enLines = 1) {
   const all = [].concat(scenes)
-  const beforeH = all.some(scene => scene.before) || reserveBefore ? (twoLineBefore ? 48 : 26) : 0
+  // `twoLineBefore` is the stacked starting line's height in px (beforeBlock), or true for 48 as before.
+  const stackedH = typeof twoLineBefore === 'number' ? twoLineBefore : 48
+  const beforeH = all.some(scene => scene.before) || reserveBefore ? (twoLineBefore ? stackedH : 26) : 0
   const hasArc = all.some(scene => scene.beats.some(b => b.kind === 'move' && b.arc))
   // A drop that leaves a GHOST puts its struck word in the lane above that gap, as an old form does,
   // so it reserves the lane too (pilot fix, Engine-Limits.md: struck text never lands on the English
@@ -428,6 +470,15 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
   const laneY = f => geometry.rowTop - 15 + (f?.lineY ?? 0)
   const marks = []
   const olds = []
+  // A beat may name two tiles (`tile: ['afai', 'e']`); its struck word is their texts in row order,
+  // each as the first state showed it (Step 9 batch 4: a two-tile drop into a GHOST crashed, Chapter 40).
+  const firstFaces = Object.fromEntries((scene.states[0] || []).map(([id, f]) => [id, f ?? 0]))
+  const oldText = tile => [].concat(tile).map(id => {
+    const face = scene.tiles[id]?.[firstFaces[id] ?? 0]
+    return face ? `${face.attach ? '' : ' '}${face.text}` : ''
+  }).join('').trim()
+  // Several drops into one GHOST stand side by side above it, in beat order, never on top of each other.
+  const dropOlds = []
   for (const b of beats) {
     const f = b.kind === 'drop' ? frames.GHOST : b.tile ? frames[[].concat(b.tile)[0]] : null
     const oldAt = b.start + 0.3 * (b.travelEnd - b.start)
@@ -440,9 +491,24 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
       }
     }
     if ((b.old || b.kind === 'drop') && f && t >= oldAt) {
-      const x = b.kind === 'drop' ? f.x + f.w / 2 + 3 : f.x + 26
-      olds.push({ text: scene.tiles[b.tile][0].text, x, y: laneY(f) - 9, opacity: ramp(t, oldAt, b.travelEnd) })
+      const old = { text: oldText(b.tile), y: laneY(f) - 9, opacity: ramp(t, oldAt, b.travelEnd) }
+      if (b.kind === 'drop') dropOlds.push({ ...old, centre: f.x + f.w / 2 + 3 })
+      else olds.push({ ...old, x: f.x + 26 })
     }
+  }
+  if (dropOlds.length) {
+    // One run of struck words from where a single drop's word always starts (.ft-old's x is its left
+    // edge), each next word after the last, kept inside the stage.
+    const font = `italic 500 ${(s.phone ?? s.fs < 28) ? 14 : 15}px 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif`
+    const ws = dropOlds.map(old => uiWidth(old.text, font) || old.text.length * 7)
+    const space = 5
+    const total = ws.reduce((a, w) => a + w, 0) + space * (ws.length - 1)
+    let left = Math.max(0, Math.min(dropOlds[0].centre, (layout.stageW ?? Infinity) - total))
+    if (dropOlds.length === 1) left = dropOlds[0].centre
+    dropOlds.forEach((old, i) => {
+      olds.push({ text: old.text, x: left, y: old.y, opacity: old.opacity })
+      left += ws[i] + space
+    })
   }
 
   // Sentence lines. In-between states carry no English.
@@ -453,7 +519,8 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
   if (scene.before && t < first.start + 220) en = { text: scene.before.en, opacity: 1 - ramp(t, first.start, first.start + 220), y: 0 }
   if (enBeat && t >= enBeat.start) {
     const q = ramp(t, enBeat.start, enBeat.travelEnd)
-    en = { text: scene.after.en, opacity: q, y: (1 - land(q)) * 8 }
+    // A row whose halves the book glosses only as a whole (`whole`, 49.1) shows that line at rest.
+    en = { text: scene.after.en ?? scene.whole?.en ?? null, opacity: q, y: (1 - land(q)) * 8 }
   }
 
   // A figure whose every state is a whole sentence the book prints: its line turns with the tile.

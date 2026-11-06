@@ -82,10 +82,21 @@ export function outlineBoxes(pieces, which) {
   const lit = piece => which(piece)
   return closed.map((piece, i) => {
     if (!lit(piece)) return null
-    const left = i > 0 && lit(closed[i - 1]) ? OUTLINE_GAP / 2 : -1
-    const right = i < closed.length - 1 && lit(closed[i + 1]) ? OUTLINE_GAP / 2 : -1
+    // A changed piece (`was`) is one or two letters inside a closed word: its outline also keeps 1 px
+    // in from a plain neighbour's letters (Step 9 batch 4: 27.1's outline crossed the f of tuāfale).
+    const plain = piece.was != null && !piece.added ? 1 : -1
+    const left = i > 0 ? (lit(closed[i - 1]) ? OUTLINE_GAP / 2 : plain) : -1
+    const right = i < closed.length - 1 ? (lit(closed[i + 1]) ? OUTLINE_GAP / 2 : plain) : -1
     return { piece, left: piece.closedX + left, width: piece.w - left - right }
   }).filter(Boolean)
+}
+
+/** The outline's top and height inside the tile row. An added piece's box runs the tile's height
+ *  less 8 px a side; a changed piece's (`was`) keeps to its letters' body, below a neighbour's
+ *  ascender and above its descender, so its leaning corners clear the next letter (27.1, 52.3). */
+export function outlineBand(piece, s) {
+  if (piece.was != null && !piece.added) return { top: Math.round(s.h * 0.27), height: Math.round(s.h * 0.5) }
+  return { top: 8, height: s.h - 16 }
 }
 
 export function buildGeometry(s, scenes) {
@@ -143,7 +154,7 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
     const remove = piece.removed ? beats.find(b => b.kind === 'remove' && b.piece === index) : null
     const r = remove ? P(remove) : 0
     let x
-    if (piece.removed) x = r >= 1 ? piece.openTextX : lerp(piece.fromX, piece.openTextX, openP)
+    if (piece.removed) x = lerp(piece.fromX, piece.openTextX, openP)
     else if (piece.added) x = lerp(piece.openTextX, piece.closedX, closeP)
     else if (closeP > 0) x = lerp(piece.openTextX, piece.closedX, closeP)
     else x = lerp(piece.fromX, piece.openTextX, openP)
@@ -164,19 +175,25 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
         newOpacity: ramp(q, 0.4, 0.8),
       }
     }
-    if (r > 0) {
-      // The piece leaves its gap: back into the piece it doubled (the add run backwards), or down and out.
-      const q = travel(r)
-      const source = Number.isInteger(piece.of) ? layout.pieces[piece.of] : null
-      if (source) {
-        x = lerp(piece.openTextX, source.openTextX, q)
-        y = -Math.sin(Math.PI * q) * s.h * 0.7
-        opacity = 1 - ramp(r, 0.8, 1)
-      } else {
-        y = leaveY(r) * s.h * 0.6
-        opacity = 1 - ramp(r, 0.4, 0.85)
+    let strike = 0
+    if (piece.removed) {
+      // Step 9 batch 4 (52.2): the piece is struck through in its own gap and stays there, dimmed, while
+      // the word is open, so a still between the beats shows what left; it goes as the word closes:
+      // back into the piece it doubled (the add run backwards), or down and out.
+      strike = travel(ramp(r, 0, 0.7))
+      opacity = 1 - 0.45 * ramp(r, 0.3, 1)
+      if (closeP > 0) {
+        const q = travel(closeP)
+        const source = Number.isInteger(piece.of) ? layout.pieces[piece.of] : null
+        if (source) {
+          x = lerp(piece.openTextX, source.openTextX, q)
+          y = -Math.sin(Math.PI * q) * s.h * 0.5
+        } else {
+          x = piece.openTextX
+          y = leaveY(closeP) * s.h * 0.6
+        }
+        opacity *= 1 - ramp(closeP, 0, 0.6)
       }
-      if (r >= 1) opacity = 0
     }
     if (piece.added) {
       const q = travel(addP)
@@ -191,7 +208,7 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
         opacity = ramp(addP, 0.15, 0.5)
       }
     }
-    return { ...piece, x, y, opacity, addP, change, boxX: piece.openX }
+    return { ...piece, x, y, opacity, addP, change, strike, boxX: piece.openX }
   })
 
   // The whole tile: the old word's width at the start, the new word's at the end.
@@ -210,5 +227,9 @@ export function buildFrame(scene, timeline, t, layout, geometry, s) {
   const outline = ramp(closeP, 0.8, 1)
   const change = beats.find(b => b.kind === 'change')
   const changeOutline = change ? ramp(t, change.start, change.start + 0.3 * (change.travelEnd - change.start)) : 0
-  return { pieces, split, merged: clamp01(merged), tileX, tileW, en, beforeOpacity, outline, changeOutline, labelP: 1 - ramp(openP, 0, 0.2) + ramp(closeP, 0.6, 1), s }
+  // Which word the label speaks for: the old one until the word closes (or, in a word that never
+  // opens, until its letter has turned over), then the new one.
+  const changeP = change ? ramp(t, change.start, change.travelEnd) : 0
+  const side = (beat('open') ? closeP > 0 : changeP >= 0.5) ? 'to' : 'from'
+  return { pieces, split, merged: clamp01(merged), tileX, tileW, en, beforeOpacity, outline, changeOutline, side, labelP: 1 - ramp(openP, 0, 0.2) + ramp(closeP, 0.6, 1), s }
 }

@@ -74,4 +74,53 @@ export const FIGURES = [
       },
     ],
   },
+  // 26.3 (rework, 2026-11-06): added last in the file so 26.1 and 26.2 keep their ids; it stands first
+  // in reading order, in What Takes A and What Takes O. The thing decides the form: a kilt (clothes
+  // worn) takes loʻu, a spoon (things got and used) takes laʻu. The sort Interactive places words in
+  // bins; it never shows the possessive form following the sort. Placed after the sentence that states
+  // the point, so the examples block stands between it and the sort Interactive at the section's end.
+  {
+    id: '26.3',
+    kind: 'fork',
+    title: 'The possessive forms follow the same sort they always have',
+    caption: 'A kilt is worn, and clothes worn are *o*-words. A spoon is got and used, and things got and used are *a*-words.',
+    after: { section: 'what-takes-a-and-what-takes-o', block: b => b.type === 'p' && b.text.includes('they always have') },
+    alt: [
+      'A kilt is worn, and clothes worn are *o*-words.',
+      'A spoon is got and used, and things got and used are *a*-words.',
+      '*ʻO loʻu ʻie.* My kilt.',
+      '*ʻO laʻu sipuni.* My spoon.',
+    ],
+    lanes: [
+      { label: 'clothes worn', forms: ['loʻu'] },
+      { label: 'things got and used', forms: ['laʻu'] },
+    ],
+    scenes: [
+      {
+        key: 'ie-sipuni',
+        cases: [
+          {
+            lane: 0,
+            say: 'ʻO loʻu ʻie.',
+            en: 'My kilt.',
+            row: [
+              face('ʻO', 'quiet'),
+              { slot: true, form: face('loʻu', 'marker', 'possessive form') },
+              { ...face('ʻie', 'noun', 'the thing'), ring: true },
+            ],
+          },
+          {
+            lane: 1,
+            say: 'ʻO laʻu sipuni.',
+            en: 'My spoon.',
+            row: [
+              face('ʻO', 'quiet'),
+              { slot: true, form: face('laʻu', 'marker', 'possessive form') },
+              { ...face('sipuni', 'noun', 'the thing'), ring: true },
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ]

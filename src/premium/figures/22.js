@@ -3,8 +3,8 @@
 // 22.1 replaces the Interactive ch22-when-past-future: the toggle shows the two questions,
 // but the figure answers the book's own question (which words changed?) by turning over the
 // when-word and the tense particle together while ʻO, moe, ai and le tama hold still.
-// 22.2 is a Fork by position: fronted, the when-word is copied by ai inside the verb; left
-// at the end, no ai. Each lane fills its own slot with anafea, at the front or at the end.
+// 22.2 is a Fork by position: anafea is ringed in both lanes. Fronted, the lane fills an ai slot
+// straight after the verb; left at the end, the same place stays an empty slot (no ai).
 const face = (text, role, label) => (label != null ? { text, role, label } : { text, role })
 
 export const REPLACES = ['ch22-when-past-future']
@@ -62,8 +62,8 @@ export const FIGURES = [
     scenes: [{
       key: 'anafea',
       cases: [
-        { lane: 0, say: 'ʻO anafea na moe ai le tama?', en: 'When did the boy sleep?', row: [face('ʻO', 'quiet'), { slot: true, form: face('anafea', 'marker', 'past when-word') }, face('na', 'tense', ''), face('moe', 'verb', ''), face('ai', 'marker', 'pointing-back word'), face('le tama', 'noun', '')] },
-        { lane: 1, say: 'Na lā faʻaipoipo anafea?', en: 'When did the two of them get married?', row: [face('Na', 'tense', ''), face('lā', 'pronoun', ''), face('faʻaipoipo', 'verb', ''), { slot: true, form: face('anafea', 'marker', 'past when-word') }] },
+        { lane: 0, say: 'ʻO anafea na moe ai le tama?', en: 'When did the boy sleep?', row: [face('ʻO', 'quiet'), { ...face('anafea', 'marker', 'past when-word'), ring: true }, face('na', 'tense', ''), face('moe', 'verb', ''), { slot: true, form: face('ai', 'marker', 'pointing-back word') }, face('le tama', 'noun', '')] },
+        { lane: 1, say: 'Na lā faʻaipoipo anafea?', en: 'When did the two of them get married?', row: [face('Na', 'tense', ''), face('lā', 'pronoun', ''), face('faʻaipoipo', 'verb', ''), { slot: true }, { ...face('anafea', 'marker', 'past when-word'), ring: true }] },
       ],
     }],
   },

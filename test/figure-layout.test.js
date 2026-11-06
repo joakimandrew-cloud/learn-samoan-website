@@ -59,8 +59,9 @@ async function layOut(def, width) {
     const lines = Math.max(...def.scenes.map(scene => rowLayouts(scene, width, sizes).lines))
     const english = scene => [scene.before?.en, scene.after?.en, ...(scene.lines ?? []).map(line => line.en ?? line.note)].filter(Boolean)
     const enLines = Math.max(1, ...def.scenes.flatMap(english).map(text => enLineCount(text, width)))
-    const twoLineBefore = width < 480 && def.scenes.some(item => item.before && item.before.say.length + (item.before.en ?? '').length > 40)
-    const geometry = rowGeometry(sizes, def.scenes, twoLineBefore, lines, def.scenes.some(item => item.before), enLines)
+    const { beforeBlock } = await import('../src/premium/figure-engine/row.js')
+    const before = beforeBlock(def, width)
+    const geometry = rowGeometry(sizes, def.scenes, before.two ? before.height : false, lines, def.scenes.some(item => item.before), enLines)
     def.scenes.forEach(scene => {
       const timeline = rowTimeline(scene)
       const layout = rowLayouts(scene, width, sizes)
@@ -125,6 +126,48 @@ describe('every chapter figure lays out without a throw', () => {
     it(`Chapter ${chapter}, figure ${def.id}: every scene runs under 8 s`, async () => {
       for (const ms of await durations(def)) expect(ms).toBeLessThan(8000)
     })
+  }
+})
+
+/** Each beat's end and its mid-travel, in every scene, as the /scrub hub and the clip tools seek. */
+function seekPoints(timeline) {
+  const ts = new Set([0, timeline.duration])
+  ;(timeline.beats || []).forEach(b => {
+    if (Number.isFinite(b.end)) ts.add(b.end)
+    if (Number.isFinite(b.travelEnd)) ts.add((b.start + b.travelEnd) / 2)
+  })
+  return [...ts].sort((a, b) => a - b)
+}
+
+// Step 9 batch 4: the stages themselves are drawn at every beat's end and mid-travel of every scene,
+// at 390 and 1440, so a throw anywhere between the data and the markup fails here, not on the page
+// (a two-tile drop into a GHOST crashed Chapter 40 in the browser while check:figures passed).
+describe('every chapter figure draws at every beat of every scene', () => {
+  for (const [chapter, def] of figures) {
+    for (const width of WIDTHS) {
+      it(`Chapter ${chapter}, figure ${def.id} draws at ${width}`, async () => {
+        const { createElement } = await import('react')
+        const { renderToStaticMarkup } = await import('react-dom/server')
+        const { FigureStageAt } = await import('../src/premium/figure-engine/Figure.jsx')
+        const { rowTimeline } = await import('../src/premium/figure-engine/row.js')
+        const { forkTimeline } = await import('../src/premium/figure-engine/fork.js')
+        const { pathTimeline } = await import('../src/premium/figure-engine/path.js')
+        const { buildTimeline } = await import('../src/premium/figure-engine/build.js')
+        const make = { row: rowTimeline, fork: scene => forkTimeline(scene, Boolean(def.limit)), path: pathTimeline, build: buildTimeline }[def.kind]
+        def.scenes.forEach((scene, sceneIndex) => {
+          const points = make ? seekPoints(make(scene)) : [0]
+          points.forEach(t => {
+            let html
+            try {
+              html = renderToStaticMarkup(createElement(FigureStageAt, { def, sceneIndex, t, width }))
+            } catch (error) {
+              throw new Error(`Figure ${def.id} scene ${sceneIndex} at ${width}, t=${Math.round(t)}: ${error.message}`)
+            }
+            expect(html.length).toBeGreaterThan(0)
+          })
+        })
+      })
+    }
   }
 })
 
@@ -375,5 +418,79 @@ describe('Step 9 batch 3 engine fixes (Engine-Limits.md, batch 3 rows)', () => {
     expect(rowLayouts(scene, width, s).lines).toBe(1)
     const short = { id: 'T.11', kind: 'row', scenes: [{ ...scene, states: [[['w0', 0], ['w1', 0]]] }] }
     expect(rowSizes(short, width).fs).toBeGreaterThanOrEqual(tileSizes(width).fs)
+  })
+})
+
+describe('Step 9 batch 4 engine fixes (Engine-Limits.md, batch 4 rows)', () => {
+  const face = (text, role, label) => (label != null ? { text, role, label } : { text, role })
+  it('two tiles may drop into one GHOST in one beat, and two drops into one GHOST stand side by side', async () => {
+    const { rowFrame, rowGeometry, rowLayouts, rowSizes, rowTimeline } = await import('../src/premium/figure-engine/row.js')
+    const scene = {
+      key: 'k',
+      tiles: { a: [face('ʻĀfai', 'marker', 'if-word')], e: [face('e', 'tense')], v: [face('timu', 'verb')] },
+      before: { say: 'ʻĀfai e timu', en: null },
+      states: [[['a', 0], ['e', 0], ['v', 0]], [['GHOST'], ['v', 0]]],
+      beats: [{ kind: 'drop', tile: ['a', 'e'], to: 1 }],
+    }
+    const two = { ...scene, states: [[['a', 0], ['e', 0], ['v', 0]], [['GHOST'], ['e', 0], ['v', 0]], [['GHOST'], ['v', 0]]], beats: [{ kind: 'drop', tile: 'a', to: 1 }, { kind: 'drop', tile: 'e', to: 2 }] }
+    for (const sc of [scene, two]) {
+      const def = { id: 'T.4', kind: 'row', scenes: [sc] }
+      for (const width of WIDTHS) {
+        const sizes = rowSizes(def, width)
+        const layout = rowLayouts(sc, width, sizes)
+        const timeline = rowTimeline(sc)
+        const frame = rowFrame(sc, timeline, timeline.duration, layout, rowGeometry(sizes, def.scenes, false, layout.lines, true))
+        if (sc === scene) expect(frame.olds.map(o => o.text)).toEqual(['ʻĀfai e'])
+        else {
+          expect(frame.olds.map(o => o.text)).toEqual(['ʻĀfai', 'e'])
+          expect(frame.olds[1].x).toBeGreaterThan(frame.olds[0].x + 10)
+        }
+        expect(frame.struck.length).toBe(2)
+      }
+    }
+  })
+  it('a phone row that cannot fit one line shrinks toward the floor before it wraps, and a long tile never spills', async () => {
+    const { rowLayouts, rowSizes } = await import('../src/premium/figure-engine/row.js')
+    const ids = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+    const long = { key: 'k', tiles: Object.fromEntries(ids.map(id => [id, [face(id.repeat(6), 'noun', '')]])), states: [ids.map(id => [id, 0])], beats: [] }
+    const def = { scenes: [long] }
+    const sizes = rowSizes(def, 308)
+    expect(sizes.fs).toBeLessThan(24)
+    expect(rowLayouts(long, 308, sizes).lines).toBeLessThan(rowLayouts(long, 308, { ...sizes, fs: 24, h: 44, pad: 11, gap: 6, pack: false, wrapLabels: false }).lines)
+    const phrase = { key: 'p', tiles: { a: [face('le leai o se mea ʻi loʻu manava ma isi', 'noun', 'le-phrase')] }, states: [[['a', 0]]], beats: [] }
+    const s2 = rowSizes({ scenes: [phrase] }, 308)
+    expect(rowLayouts(phrase, 308, s2).widest).toBeLessThanOrEqual(308)
+  })
+  it('a desktop row shrunk under 28 px measures its labels in the desktop face', async () => {
+    const { labelBox } = await import('../src/premium/figure-engine/row.js')
+    const { tileSizes } = await import('../src/premium/figure-engine/lib/metrics.js')
+    const desk = { ...tileSizes(1440), fs: 24 }
+    const phone = tileSizes(390)
+    expect(labelBox(face('ʻou', 'pronoun', 'preverbal pronoun'), desk).width).toBeGreaterThan(labelBox(face('ʻou', 'pronoun', 'preverbal pronoun'), phone).width)
+  })
+  it('a long starting line stacks and takes more than one line at either width', async () => {
+    const { beforeBlock } = await import('../src/premium/figure-engine/row.js')
+    const def = { scenes: [{ before: { say: 'Na alu le tama ʻi le fale ʻona ʻua maʻi le teine.', en: 'The boy went to the house because the girl was sick.' } }] }
+    expect(beforeBlock(def, 308)).toMatchObject({ two: true })
+    expect(beforeBlock(def, 308).height).toBeGreaterThan(48)
+    expect(beforeBlock(def, 700).two).toBe(true)
+    expect(beforeBlock({ scenes: [{ before: { say: 'Sā ʻou alu.', en: 'I went.' } }] }, 1100)).toEqual({ two: false, height: 26 })
+  })
+  it('a Build labels one side only, and a removed piece stays struck through in its gap until the word closes', async () => {
+    const { buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline } = await import('../src/premium/figure-engine/build.js')
+    const scene = { role: 'noun', from: { say: 'tua o le fale', en: 'x', label: '' }, to: { say: 'tuāfale', en: 'x' }, pieces: [{ text: 'tu' }, { text: 'ā', was: 'a' }, { text: ' o le ', removed: true }, { text: 'fale' }] }
+    const def = { scenes: [scene] }
+    const s = buildSizes(390, def)
+    const timeline = buildTimeline(scene)
+    const layout = buildLayout(scene, 390, s)
+    const geometry = buildGeometry(s, def.scenes)
+    const remove = timeline.beats.find(b => b.kind === 'remove')
+    const mid = buildFrame(scene, timeline, remove.end, layout, geometry, s)
+    expect(mid.side).toBe('from')
+    expect(mid.pieces[2].strike).toBe(1)
+    expect(mid.pieces[2].opacity).toBeGreaterThan(0.4)
+    const rest = buildFrame(scene, timeline, timeline.duration, layout, geometry, s)
+    expect(rest.side).toBe('to')
+    expect(rest.pieces[2].opacity).toBe(0)
   })
 })

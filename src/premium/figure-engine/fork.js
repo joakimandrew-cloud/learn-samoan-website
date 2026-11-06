@@ -125,7 +125,12 @@ export function forkSizes(def, width) {
   const base = tileSizes(width)
   const widthsAt = s => def.scenes.flatMap(scene => placeCases(scene, s).map(c => c.total))
   const twoLines = s => def.scenes.some(scene => placeCases(scene, s).some(c => c.items.some(item => item.labelLines > 1)))
-  return fitRow(base, widthsAt, width, twoLines, true)
+  // The cases' lines once wrapped at this stage, for shrink-before-wrap (Step 9 batch 4).
+  const wrapAt = s => {
+    const rows = def.scenes.flatMap(scene => placeCases(scene, s, width))
+    return { lines: rows.reduce((a, r) => a + r.lines, 0), widest: Math.max(...rows.map(r => r.total)) }
+  }
+  return fitRow(base, widthsAt, width, twoLines, true, wrapAt)
 }
 
 /** The most lines any case in the figure needs, so Another example never changes the stage's height. */

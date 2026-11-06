@@ -12,11 +12,11 @@ import { useCallback, useId, useMemo, useRef, useState } from 'react'
 import { useFigureClock } from './lib/clock.js'
 import { enLineCount, enWidth, textWidth, uiWidth, useTileFont, useWidth } from './lib/metrics.js'
 import { land, ramp, travel } from './lib/motion.js'
-import { labelBox, rowFrame, rowGeometry, rowLayouts, rowSizes, rowStateAt, rowTimeline } from './row.js'
+import { beforeBlock, labelBox, rowFrame, rowGeometry, rowLayouts, rowSizes, rowStateAt, rowTimeline } from './row.js'
 import { forkFrame, forkGeometry, forkLabelOf, forkLayouts, forkLines, forkSizes, forkTimeline } from './fork.js'
 import { gridTimeline } from './grid-timeline.js'
 import { pathTimeline } from './path.js'
-import { OUTLINE_SKEW, buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline, outlineBoxes } from './build.js'
+import { OUTLINE_SKEW, buildFrame, buildGeometry, buildLayout, buildSizes, buildTimeline, outlineBand, outlineBoxes } from './build.js'
 import { PERSON_LABEL, ROLE_LABEL } from './key.js'
 import { PathChips, PathStage } from './PathStage.jsx'
 import { PersonMark } from './Marks.jsx'
@@ -88,7 +88,7 @@ function BeforeSay({ say, struck }) {
 
 /** Every English line a Row scene can show. */
 function rowEnglish(scene) {
-  return [scene.before?.en, scene.after?.en, ...(scene.lines ?? []).map(line => line.en ?? line.note)].filter(Boolean)
+  return [scene.before?.en, scene.after?.en, scene.whole?.en, ...(scene.lines ?? []).map(line => line.en ?? line.note)].filter(Boolean)
 }
 
 function RowStage({ scene, timeline, t, width, def, override, epoch }) {
@@ -96,13 +96,15 @@ function RowStage({ scene, timeline, t, width, def, override, epoch }) {
   const sizes = useMemo(() => rowSizes(def, width), [def, width, epoch]) // eslint-disable-line react-hooks/exhaustive-deps
   const layout = useMemo(() => rowLayouts(scene, width, sizes), [scene, width, sizes])
   // On a phone a long sentence takes two lines, in every scene, so the stage never changes height.
-  const twoLineBefore = width < 480 && def.scenes.some(item => item.before && item.before.say.length + (item.before.en ?? '').length > 40)
+  // A starting line too long for one line stacks, and each part wraps inside the stage (beforeBlock).
+  const before = useMemo(() => beforeBlock(def, width, Math.max(...def.scenes.map(item => rowLayouts(item, width, sizes).x0))), [def, width, sizes, epoch]) // eslint-disable-line react-hooks/exhaustive-deps
+  const twoLineBefore = before.two
   const lines = useMemo(() => Math.max(...def.scenes.map(item => rowLayouts(item, width, sizes).lines)), [def, width, sizes])
   const reserveBefore = def.scenes.some(item => item.before)
   // A long English line wraps; the stage keeps room for it in every scene, so its height holds.
   const enLines = Math.max(1, ...def.scenes.flatMap(rowEnglish).map(text => enLineCount(text, width)))
   // One height for the figure: the headroom and the English gap of its tallest scene, in every scene.
-  const geometry = useMemo(() => rowGeometry(sizes, def.scenes, twoLineBefore, lines, reserveBefore, enLines), [sizes, def, twoLineBefore, lines, reserveBefore, enLines])
+  const geometry = useMemo(() => rowGeometry(sizes, def.scenes, twoLineBefore ? before.height : false, lines, reserveBefore, enLines), [sizes, def, twoLineBefore, before, lines, reserveBefore, enLines])
   const frame = rowFrame(scene, timeline, t, layout, geometry, override)
   const { s } = frame
   const vars = { '--fs': `${s.fs}px`, '--h': `${s.h}px`, '--pad': `${s.pad}px`, height: geometry.height }
@@ -115,7 +117,7 @@ function RowStage({ scene, timeline, t, width, def, override, epoch }) {
   return (
     <div className="ft-row" style={vars}>
       {scene.before && (
-        <p className={`ft-before ${twoLineBefore ? 'is-two' : ''}`} style={{ opacity: frame.beforeOpacity, left: beforeLeft }}>
+        <p className={`ft-before ${twoLineBefore ? 'is-two' : ''}`} style={{ opacity: frame.beforeOpacity, left: beforeLeft, right: twoLineBefore ? 0 : undefined }}>
           <span className="fx-sm" lang="sm" data-samoan={scene.before.say}><BeforeSay say={scene.before.say} struck={frame.struck} /></span>
           {scene.before.en && <span className="ft-before-en" data-en={scene.before.en}>{scene.before.en}</span>}
         </p>
@@ -461,7 +463,7 @@ function BuildStage({ def, scene, timeline, t, width, epoch }) {
           with them and never reaches into a neighbour's letters (OUTLINE_SKEW). */}
       {/* Two outlined pieces side by side keep a small gap between their outlines (outlineBoxes). */}
       {outlineBoxes(frame.pieces, piece => piece.added || piece.was != null).map(({ piece, left, width: w }, i) => (
-        <span key={`ring-${i}`} className="fb-outline" style={{ left: piece.added ? left : left + piece.x - piece.closedX, width: w, top: geometry.rowTop + 8, height: s.h - 16, opacity: piece.added ? frame.outline : frame.changeOutline, transform: OUTLINE_SKEW }} />
+        <span key={`ring-${i}`} className="fb-outline" style={{ left: piece.added ? left : left + piece.x - piece.closedX, width: w, top: geometry.rowTop + outlineBand(piece, s).top, height: outlineBand(piece, s).height, opacity: piece.added ? frame.outline : frame.changeOutline, transform: OUTLINE_SKEW }} />
       ))}
       {frame.pieces.map((piece, i) => (piece.change ? (
         <span key={`w-${i}`}>
@@ -469,10 +471,10 @@ function BuildStage({ def, scene, timeline, t, width, epoch }) {
           {piece.change.newOpacity > 0 && <span className="fb-word ft-word" lang="sm" style={{ top: geometry.rowTop, height: s.h, transform: `translate3d(${piece.change.newX}px, ${piece.change.newY}px, 0)`, opacity: piece.change.newOpacity }}>{piece.text}</span>}
         </span>
       ) : (
-        <span key={`w-${i}`} className="fb-word ft-word" lang="sm" style={{ top: geometry.rowTop, height: s.h, transform: `translate3d(${piece.x}px, ${piece.y}px, 0)`, opacity: piece.opacity }}>{piece.text}</span>
+        <span key={`w-${i}`} className="fb-word ft-word" lang="sm" style={{ top: geometry.rowTop, height: s.h, transform: `translate3d(${piece.x}px, ${piece.y}px, 0)`, opacity: piece.opacity }}>{piece.strike > 0 ? <StruckPiece text={piece.text} strike={piece.strike} /> : piece.text}</span>
       )))}
       <span className={`ft-label label-${scene.role}`} style={{ left: layout.centre, top: geometry.labelTop, opacity: clampLabel(frame.labelP) }}>
-        <Label role={scene.role} label={scene.label} />
+        <Label role={scene.role} label={buildLabel(scene, frame.side)} />
       </span>
       {labelled.map((piece, i) => (
         <span key={`l-${i}`} className="ft-label fb-piece-l" style={{ left: lerpLabel(piece, frame), top: geometry.labelTop, opacity: Math.min(piece.addP, 1 - clampLabel(frame.labelP) * 0.999) }}>
@@ -496,6 +498,17 @@ function chipsCrowded(chips, width) {
 }
 
 const clampLabel = v => (v < 0 ? 0 : v > 1 ? 1 : v)
+
+/** A Build's label for the side showing (Step 9 batch 4, 27.1): `from.label` or `to.label` where the
+ *  scene sets one (a blank one hides the label on that side), else the scene's label for both. */
+const buildLabel = (scene, side) => (scene[side] && scene[side].label !== undefined ? scene[side].label : scene.label)
+
+/** A piece that leaves, struck through across its letters (not its spaces) as it goes. */
+function StruckPiece({ text, strike }) {
+  const lead = text.match(/^\s*/)[0]
+  const trail = text.match(/\s*$/)[0]
+  return <>{lead}<span className="fb-strike" style={{ '--strike': strike }}>{text.trim()}</span>{trail}</>
+}
 const lerpLabel = piece => piece.openX + piece.openW / 2
 
 /* ──────────── Shell ──────────── */
@@ -553,6 +566,18 @@ function useListLink(def, rootRef) {
       if (v > 0) items[b.li].style.setProperty('--lit', v.toFixed(3))
     })
   }, [def, rootRef])
+}
+
+/** One stage drawn at one moment, with no clock: what the layout guard renders at every beat's end
+ *  and mid-travel of every scene (Step 9 batch 4), so a throw inside a stage fails `npm test`. */
+export function FigureStageAt({ def, sceneIndex = 0, t = 0, width }) {
+  const scene = def.scenes[sceneIndex]
+  const timeline = def.kind === 'row' ? rowTimeline(scene) : def.kind === 'fork' ? forkTimeline(scene, Boolean(def.limit)) : def.kind === 'path' ? pathTimeline(scene) : def.kind === 'build' ? buildTimeline(scene) : gridTimeline(def)
+  if (def.kind === 'row') return <RowStage def={def} scene={scene} timeline={timeline} t={t} width={width} override={null} epoch={0} />
+  if (def.kind === 'fork') return <ForkStage def={def} scene={scene} timeline={timeline} t={t} width={width} onLane={() => {}} epoch={0} />
+  if (def.kind === 'path') return <PathStage def={def} scene={scene} timeline={timeline} t={t} width={width} picked={null} />
+  if (def.kind === 'build') return <BuildStage def={def} scene={scene} timeline={timeline} t={t} width={width} epoch={0} />
+  return <GridStage def={def} timeline={timeline} t={t} picked={null} onPick={() => {}} width={width} />
 }
 
 /** `number` is the figure's place in the chapter's one figure sequence (Direction.md part 5); it

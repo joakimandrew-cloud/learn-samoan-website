@@ -112,7 +112,7 @@ export const FIGURES = [
     kind: 'fork',
     ownSlots: true,
     title: 'Compare them. Which sentence carries two tense particles?',
-    caption: 'One sets the clause down with nothing between, and in the sentences this chapter shows, that clause keeps a tense particle of its own, read against the time of the first half.',
+    caption: 'One sets the clause down with nothing between, and in the sentences this chapter shows, that clause keeps a tense particle of its own',
     // Lane 0 names the join, not the tense rule: the book limits that rule to this chapter's sentences (line 170-172), so the caption carries it with its limit.
     // After the paragraph naming the two ways, before the table of tense particles.
     after: { section: 'when-the-second-verb-keeps-its-own-tense', block: b => b.type === 'p' && b.text.includes('Sāmoan has two ways') },
