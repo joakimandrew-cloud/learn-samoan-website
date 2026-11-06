@@ -97,7 +97,7 @@ export const FIGURES = [
         cases: [
           {
             lane: 0, say: 'Sā ʻou alu', en: 'I went',
-            row: [{ ...face('Sā', 'tense', 'past particle'), reads: true }, { ...face('ʻou', 'pronoun', 'the person'), ring: true }, face('alu', 'verb')],
+            row: [{ slot: true, ring: true, label: 'tense particle' }, { ...face('Sā', 'tense', 'past particle'), reads: true }, face('ʻou', 'pronoun', 'the person'), face('alu', 'verb')],
           },
           {
             lane: 1, say: 'E sā ona ulaula.', en: 'It is forbidden to smoke.',
@@ -112,12 +112,12 @@ export const FIGURES = [
     kind: 'fork',
     ownSlots: true,
     title: 'Compare them. Which sentence carries two tense particles?',
-    caption: 'One sets the clause down with nothing between, and in the sentences this chapter shows, that clause keeps a tense particle of its own',
-    // Lane 0 names the join, not the tense rule: the book limits that rule to this chapter's sentences (line 170-172), so the caption carries it with its limit.
+    caption: 'Sāmoan has two ways of joining a complement clause to the word that takes it.',
+    // The figure teaches the join only. The tense half for the bare join is hedged in the book ("in the sentences this chapter shows", line 171), so no lane form or slot states it: lane 0's slot stays open and empty, and its ʻua is just a tile of the printed sentence.
     // After the paragraph naming the two ways, before the table of tense particles.
     after: { section: 'when-the-second-verb-keeps-its-own-tense', block: b => b.type === 'p' && b.text.includes('Sāmoan has two ways') },
     lanes: [
-      { label: 'sets the clause down with nothing between', forms: ['ʻua'] },
+      { label: 'sets the clause down with nothing between', forms: [] },
       { label: 'opens the clause with *ona*', forms: ['ona'] },
     ],
     alt: [
@@ -134,7 +134,7 @@ export const FIGURES = [
             lane: 0,
             say: 'ʻUa iloa e le tama ʻua sau le teine.',
             en: 'The boy knows that the girl has come.',
-            row: [face('ʻUa', 'tense'), face('iloa', 'verb'), face('e le tama', 'noun'), { slot: true, label: 'tense particle', form: face('ʻua', 'tense', 'tense particle') }, face('sau', 'verb'), face('le teine', 'noun')],
+            row: [face('ʻUa', 'tense'), face('iloa', 'verb'), face('e le tama', 'noun'), { slot: true }, face('ʻua', 'tense', ''), face('sau', 'verb'), face('le teine', 'noun')],
           },
           {
             lane: 1,

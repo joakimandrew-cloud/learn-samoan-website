@@ -36,6 +36,36 @@ export const FIGURES = [
   {
     id: '45.2',
     kind: 'row',
+    title: 'What follows it comes in two shapes.',
+    caption: 'One puts the main predication on the but-word *ʻae*.',
+    after: { section: 'the-le-phrase-at-the-head-of-a-sentence', block: b => b.type === 'p' && b.text.includes('What follows it comes in two shapes') },
+    alt: [
+      '*ʻO le vivini a moa, e ʻāmata sāuni ai faiva.* When the roosters crow, people begin preparing for fishing trips. (Lit. "The crowing of the fowls, begin prepare then fishing trips.")',
+      '*ʻO le vivini a moa, ʻae ʻāmata le pese.* When the roosters crow, the song begins. (Lit. "The crowing of the fowls, but begins the song.")',
+      'What follows it comes in two shapes.',
+      'One puts the main predication on the but-word *ʻae*.',
+    ],
+    scenes: [{
+      key: 'vivini',
+      tiles: {
+        o: [face('ʻO', 'marker', 'presenting particle')],
+        phrase: [face('le vivini a moa,', 'quiet', 'the fronted le-phrase')],
+        p: [face('e', 'tense'), face('ʻae', 'marker', 'but-word')],
+        amata: [face('ʻāmata', 'verb', '')],
+        rest: [face('sāuni ai faiva', 'quiet'), face('le pese', 'quiet')],
+      },
+      before: { say: 'ʻO le vivini a moa, e ʻāmata sāuni ai faiva.', en: 'When the roosters crow, people begin preparing for fishing trips.' },
+      after: { say: 'ʻO le vivini a moa, ʻae ʻāmata le pese.', en: 'When the roosters crow, the song begins.' },
+      states: [
+        [['o', 0], ['phrase', 0], ['p', 0], ['amata', 0], ['rest', 0]],
+        [['o', 0], ['phrase', 0], ['p', 1], ['amata', 0], ['rest', 1]],
+      ],
+      beats: [{ kind: 'swap', tile: ['p', 'rest'], to: 1 }, { kind: 'en' }],
+    }],
+  },
+  {
+    id: '45.3',
+    kind: 'row',
     title: '*Soʻo* means "often", and it stands behind the verb it is about.',
     caption: 'The second of those is an ordinary sentence, with the general particle at the front and *soʻo* in the same place, straight behind the verb.',
     after: { section: 'saying-how-often', block: b => b.type === 'p' && b.text.includes('The second of those is an ordinary sentence') },
@@ -62,7 +92,7 @@ export const FIGURES = [
     }],
   },
   {
-    id: '45.3',
+    id: '45.4',
     kind: 'build',
     title: '*Taʻi=* goes on the front of a number word',
     caption: '*Taʻi=* goes on the front of a number word, and *tasi* is the word for one, so *taʻi=tasi* is one by one, one to each.',

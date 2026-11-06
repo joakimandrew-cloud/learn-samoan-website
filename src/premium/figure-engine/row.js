@@ -124,10 +124,43 @@ export function packLine(items, gap) {
 /** One scene's rows at one size. Tiles wrap to a new line only when `limit` is passed. Each tile
  *  sits centred in a column as wide as the tile or its label, whichever is wider; at packed phone
  *  sizes (`s.pack`, fitRow's last try) a label may reach over a neighbour instead (packLine). */
-function placeStates(scene, s, limit = Infinity) {
+function placeStates(scene, s, limit = Infinity, hold = true) {
+  const greedy = scene.states.map(state => placeState(scene, s, limit, state))
+  if (!hold || limit === Infinity || scene.states.length < 2) return greedy
+  // Step 10 (Engine-Limits.md row 54): a Row holds its wrap decision across the states of a scene,
+  // so no tile jumps from one line to the next as the sentence changes (40.1 at 390: the main
+  // clause rose to line one in the GHOST state and dropped back when ʻĀ landed). The plans tried:
+  // each state's own line breaks applied to every state (the rest state's first, so a judged last
+  // frame keeps its lines where it can), then all of them together. The first plan under which
+  // every tile that stays (a Move's tile may change line) keeps its line, with no line added to the
+  // scene, is used; with none, each state wraps on its own as before.
+  const stable = maps => {
+    if (maps.every(m => m.__breaks.length === 0)) return true
+    const moved = new Set((scene.beats || []).filter(b => b.kind === 'move').flatMap(b => [].concat(b.tile)))
+    const ys = {}
+    maps.forEach(m => Object.keys(m).forEach(id => {
+      if (id.startsWith('__') || id === 'GHOST' || id === 'SLOT' || moved.has(id)) return
+      ;(ys[id] = ys[id] || new Set()).add(m[id].y)
+    }))
+    return Object.values(ys).every(set => set.size === 1)
+  }
+  if (stable(greedy)) return greedy
+  const most = maps => Math.max(...maps.map(m => m.__lines))
+  const plans = [...greedy].reverse().map(m => m.__breaks.join('\u0000'))
+  plans.push(greedy.flatMap(m => m.__breaks).join('\u0000'))
+  for (const plan of new Set(plans)) {
+    const forced = new Set(plan ? plan.split('\u0000') : [])
+    const held = scene.states.map(state => placeState(scene, s, limit, state, forced))
+    if (most(held) <= most(greedy) && stable(held)) return held
+  }
+  return greedy
+}
+
+function placeState(scene, s, limit, state, forced = null) {
   const held = heldIds(scene)
   const lineH = lineHeightOfRow(s)
-  return scene.states.map(state => {
+  const breaks = []
+  {
     const map = {}
     let x = 0
     let line = 0
@@ -156,9 +189,10 @@ function placeStates(scene, s, limit = Infinity) {
       if (s.pack) {
         const item = { w, room, attach }
         const next = packLine([...packed.map(p => p.item), item, ...followers(i).map(f => ({ w: f.w, room: f.room, attach: true }))], s.gap)
-        if (packed.length && !attach && next.widest > limit) {
+        if (packed.length && !attach && (next.widest > limit || forced?.has(id))) {
           line += 1
           packed = []
+          breaks.push(id)
         }
         packed.push({ id, item })
         const { xs, ldxs, widest: lineW } = packLine(packed.map(p => p.item), s.gap)
@@ -179,7 +213,7 @@ function placeStates(scene, s, limit = Infinity) {
         return
       }
       const tail = followers(i).reduce((sum, f) => sum + ATTACH_GAP + Math.max(f.w, f.room), 0)
-      if (x > 0 && x + col + tail > limit) { line += 1; x = 0 }
+      if (x > 0 && (x + col + tail > limit || forced?.has(id))) { line += 1; x = 0; breaks.push(id) }
       map[id] = { x: x + (col - w) / 2, y: line * lineH, w, face, faceIndex }
       prev = { line, x: x + (col - w) / 2, w, room, labelRight: x + col / 2 + room / 2 }
       widest = Math.max(widest, x + col)
@@ -187,8 +221,9 @@ function placeStates(scene, s, limit = Infinity) {
     })
     map.__w = widest
     map.__lines = line + 1
+    map.__breaks = breaks
     return map
-  })
+  }
 }
 
 /** One size for the whole figure, so Another example never changes the tile size. */
@@ -197,7 +232,9 @@ export function rowSizes(def, width) {
   const widthsAt = s => def.scenes.flatMap(scene => placeStates(scene, s).map(m => m.__w))
   // The figure's lines once wrapped at this stage, for shrink-before-wrap (Step 9 batch 4).
   const wrapAt = s => {
-    const maps = def.scenes.flatMap(scene => placeStates(scene, s, width))
+    // Sized on each state's own wrap, as before Step 10, so holding the wrap (placeStates) never
+    // changes a figure's type size: it only keeps a staying tile on its line.
+    const maps = def.scenes.flatMap(scene => placeStates(scene, s, width, false))
     return { lines: maps.reduce((a, m) => a + m.__lines, 0), widest: Math.max(...maps.map(m => m.__w)) }
   }
   return fitRow(base, widthsAt, width, s => rowTwoLines(def, s), false, wrapAt)

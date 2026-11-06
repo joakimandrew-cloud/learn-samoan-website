@@ -449,6 +449,22 @@ describe('Step 9 batch 4 engine fixes (Engine-Limits.md, batch 4 rows)', () => {
       }
     }
   })
+  it('Step 10: a Row holds its wrap across states, so a tile that stays never changes line (40.1)', async () => {
+    const { rowLayouts, rowSizes } = await import('../src/premium/figure-engine/row.js')
+    // 40.1's shape: two words leave into a GHOST, then one word lands; the main clause must not
+    // rise to the first line in the GHOST state and drop back.
+    const t = (s, label = '') => [face(s, 'noun', label)]
+    const scene = {
+      key: 'k',
+      tiles: { a: t('aaaaaa'), e: t('e'), v: t('vvvvvvvv'), w: t('wwwwwwww'), m: t('mmmmmmmmmmmmmmmmmm'), x: t('xxxxxx') },
+      states: [[['a', 0], ['e', 0], ['v', 0], ['w', 0], ['m', 0]], [['GHOST'], ['v', 0], ['w', 0], ['m', 0]], [['x', 0], ['v', 0], ['w', 0], ['m', 0]]],
+      beats: [{ kind: 'drop', tile: ['a', 'e'], to: 1 }, { kind: 'add', tile: 'x', to: 2 }],
+    }
+    const sizes = rowSizes({ scenes: [scene] }, 308)
+    const { layouts } = rowLayouts(scene, 308, sizes)
+    expect(layouts[0].m.y).toBeGreaterThan(0)
+    for (const id of ['v', 'w', 'm']) expect(new Set(layouts.map(m => m[id].y)).size).toBe(1)
+  })
   it('a phone row that cannot fit one line shrinks toward the floor before it wraps, and a long tile never spills', async () => {
     const { rowLayouts, rowSizes } = await import('../src/premium/figure-engine/row.js')
     const ids = ['a', 'b', 'c', 'd', 'e', 'f', 'g']

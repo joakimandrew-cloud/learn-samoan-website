@@ -15,14 +15,20 @@ export const FIGURES = [
     id: '38.1',
     kind: 'row',
     types: ['add'],
-    title: 'Which word was added to the second sentence, and what did the English do?',
+    // The section heading, the first author's title for the two-scene figure; the book's
+    // question stands three blocks above the figure's new place and is 1 px too tall at 390.
+    title: 'Adding *Loa* and the Pointing-Back Word',
     caption: 'It carries the succession by itself, so putting it inside a construction that already carries the succession changes little if anything.',
-    // After the paragraph that answers the question, before the paragraph on *ai*.
-    after: { section: 'adding-loa', block: b => b.type === 'p' && b.text.includes('The added word is') },
+    // After the paragraph on what *ai* points back to, so both scenes follow their points
+    // (the first author's placement, restored with the *ai* scene; Engine-Limits rows 41, 42).
+    after: { section: 'adding-loa', block: b => b.type === 'p' && b.text.includes('is usually read as pointing not at the branches') },
     alt: [
       '*Ona alu lea ʻo le tama.* Then the boy went.',
       '*Ona alu loa lea ʻo le tama.* Then the boy went.',
       'The added word is *loa*, and the English did nothing at all.',
+      '*ʻUa lilo atu ʻi le toga lālā le teine, ona oso lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.',
+      '*ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.* The girl hid in the cluster of branches and then the boy jumped down.',
+      '*Ai* here is usually read as pointing not at the branches or at the girl but at the hiding, and at everything the story has said up to that moment.',
     ],
     scenes: [
       {
@@ -41,6 +47,25 @@ export const FIGURES = [
           [['ona', 0], ['alu', 0], ['loa', 0], ['lea', 0], ['rest', 0]],
         ],
         beats: [{ kind: 'add', tile: 'loa', to: 1 }, { kind: 'en' }],
+      },
+      {
+        key: 'ai',
+        caption: '*Ai* here is usually read as pointing not at the branches or at the girl but at the hiding, and at everything the story has said up to that moment.',
+        tiles: {
+          first: [face('ʻUa lilo atu ʻi le toga lālā le teine,', 'quiet')],
+          ona: [face('ona', 'marker', 'opening word')],
+          oso: [face('oso', 'verb', '')],
+          ai: [face('ai', 'marker', 'pointing-back word')],
+          lea: [face('lea', 'marker', 'closing word')],
+          rest: [face('ʻi lalo le tama', 'quiet')],
+        },
+        before: { say: 'ʻUa lilo atu ʻi le toga lālā le teine, ona oso lea ʻi lalo le tama.', en: 'The girl hid in the cluster of branches and then the boy jumped down.' },
+        after: { say: 'ʻUa lilo atu ʻi le toga lālā le teine, ona oso ai lea ʻi lalo le tama.', en: 'The girl hid in the cluster of branches and then the boy jumped down.' },
+        states: [
+          [['first', 0], ['ona', 0], ['oso', 0], ['lea', 0], ['rest', 0]],
+          [['first', 0], ['ona', 0], ['oso', 0], ['ai', 0], ['lea', 0], ['rest', 0]],
+        ],
+        beats: [{ kind: 'add', tile: 'ai', to: 1 }, { kind: 'en' }],
       },
     ],
   },

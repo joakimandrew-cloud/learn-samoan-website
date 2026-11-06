@@ -13,9 +13,9 @@ export const FIGURES = [
   {
     id: '36.1',
     kind: 'row',
-    types: ['drop', 'add'],
+    types: ['swap'],
     title: 'What stands after the place word *ʻi* in each?',
-    caption: 'In the second it is an event, the speaker having nothing in the stomach.',
+    caption: 'Everything before *ʻi* is the same in both, so whatever Sāmoan has done to that event, it has left it able to stand exactly where the thing stood.',
     // After the paragraph that answers the question, before "What it has done is put an article in front of a verb."
     after: { section: 'making-a-le-phrase', block: b => b.type === 'p' && b.text.includes('exactly') },
     alt: [
@@ -29,18 +29,15 @@ export const FIGURES = [
         tiles: {
           head: [face('ʻOu te lē fia manatu', 'quiet')],
           i: [face('ʻi', 'marker', 'place word')],
-          np: [face('le mea lea', 'noun', 'noun phrase')],
-          lp: [face('le leai o se mea', 'noun', 'le-phrase')],
-          man: [face('ʻi loʻu manava', 'quiet')],
+          np: [face('le mea lea', 'noun', 'noun phrase'), face('le leai o se mea ʻi loʻu manava', 'noun', 'le-phrase')],
         },
         before: { say: 'ʻOu te lē fia manatu ʻi le mea lea.', en: 'I do not want to think about that.' },
         after: { say: 'ʻOu te lē fia manatu ʻi le leai o se mea ʻi loʻu manava.', en: 'I do not want to think about having nothing in my stomach.' },
         states: [
           [['head', 0], ['i', 0], ['np', 0]],
-          [['head', 0], ['i', 0], ['GHOST']],
-          [['head', 0], ['i', 0], ['lp', 0], ['man', 0]],
+          [['head', 0], ['i', 0], ['np', 1]],
         ],
-        beats: [{ kind: 'drop', tile: 'np', to: 1 }, { kind: 'add', tile: ['lp', 'man'], to: 2 }, { kind: 'en' }],
+        beats: [{ kind: 'swap', tile: 'np', to: 1 }, { kind: 'en' }],
       },
     ],
   },

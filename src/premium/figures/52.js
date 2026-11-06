@@ -30,7 +30,7 @@ export const FIGURES = [
   {
     id: '52.2',
     kind: 'build',
-    title: '*Sinaʻu* is *sina* and *aʻu* run together.',
+    title: 'The Article *Sina*',
     caption: 'When the belonging form for one owner (my, your, his or her) follows *sina*, the two can run together into one word, though they are also found written apart.',
     after: { section: 'the-article-sina', block: b => b.text && b.text.includes('can run together into one word') },
     alt: ['*Sinaʻu* is *sina* and *aʻu* run together.', 'When the belonging form for one owner (my, your, his or her) follows *sina*, the two can run together into one word, though they are also found written apart.'],
@@ -40,6 +40,12 @@ export const FIGURES = [
         from: { say: 'sina aʻu', en: null },
         to: { say: 'sinaʻu', en: null },
         pieces: [{ text: 'sin' }, { text: 'a ', removed: true }, { text: 'aʻu' }],
+      },
+      {
+        role: 'marker',
+        from: { say: 'sina oʻu', en: null },
+        to: { say: 'sinoʻu', en: null },
+        pieces: [{ text: 'sin' }, { text: 'a ', removed: true }, { text: 'oʻu' }],
       },
     ],
   },

@@ -60,4 +60,45 @@ export const FIGURES = [
       beats: [{ kind: 'move', tile: 'cond', roll: 'main', to: 1 }, { kind: 'add', tile: 'pe', to: 2 }, { kind: 'en' }],
     }],
   },
+  {
+    id: '50.3',
+    kind: 'fork',
+    title: 'Saying Although with *Tīgā*',
+    after: { section: 'saying-although-with-tiga', block: b => b.type === 'p' && b.text.includes('sets two situations against each other') },
+    alt: [
+      '*E ui ina laʻitiiti ʻo ia, ʻae poto.* Although he is young, he knows a great deal. (Lit. "Granted ina young he, but clever.")',
+      '*Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.* However much I begged my mother, I could not go. (Lit. "Painful that I beg away to my mother, but past not able that I go.")',
+      'Besides taking a clause opened by *ona* where *ui* takes one opened by *ina*, *tīgā* differs from *ui* in meaning: unlike *ui*, *tīgā* builds a clause that expresses a negative idea.',
+    ],
+    ownSlots: true,
+    lanes: [{ label: '*e ui*', forms: ['ina'] }, { label: '*tīgā*', forms: ['ona'] }],
+    scenes: [{
+      key: 'ina-ona',
+      cases: [
+        {
+          lane: 0,
+          say: 'E ui ina laʻitiiti ʻo ia, ʻae poto.',
+          en: 'Although he is young, he knows a great deal.',
+          row: [
+            { text: 'E', role: 'tense', label: '' },
+            { text: 'ui', role: 'verb', ring: true },
+            { slot: true, form: { text: 'ina', role: 'marker', label: 'joining word' } },
+            { text: 'laʻitiiti ʻo ia,', role: 'quiet' },
+            { text: 'ʻae poto', role: 'quiet' },
+          ],
+        },
+        {
+          lane: 1,
+          say: 'Tīgā ona ʻou ole atu ʻi loʻu tinā, ʻae na lē mafai ona ʻou alu.',
+          en: 'However much I begged my mother, I could not go.',
+          row: [
+            { text: 'Tīgā', role: 'verb', ring: true },
+            { slot: true, form: { text: 'ona', role: 'marker', label: 'that-word' } },
+            { text: 'ʻou ole atu ʻi loʻu tinā,', role: 'quiet' },
+            { text: 'ʻae na lē mafai ona ʻou alu', role: 'quiet' },
+          ],
+        },
+      ],
+    }],
+  },
 ]

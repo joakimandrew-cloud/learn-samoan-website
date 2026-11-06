@@ -56,6 +56,7 @@ export const FIGURES = [
     id: '14.2',
     kind: 'fork',
     types: ['fork-readings'],
+    ownSlots: true,
     title: 'The general particle *te* is what tells the two apart.',
     // After the Note on na, before "The general particle carries the same four senses".
     after: { section: 'when-a-pronoun-comes-in-te', block: b => b.type === 'note' && b.text.includes('is what tells the two apart') },
@@ -71,9 +72,12 @@ export const FIGURES = [
       {
         key: 'na',
         cases: [
+          // No te in this lane: an empty slot drawn open where te would sit, ringed as the decider,
+          // and no ring on alu, because the book's test is the absent te ("Na alu, with no te,
+          // means he went").
           {
             lane: 0, say: 'Na alu', en: 'he went',
-            row: [{ ...face('Na', 'tense', 'past particle'), reads: true }, { ...face('alu', 'verb'), ring: true }],
+            row: [{ ...face('Na', 'tense', 'past particle'), reads: true }, { slot: true, ring: true }, face('alu', 'verb')],
           },
           {
             lane: 1, say: 'Na te alu.', en: 'He goes. She goes.',

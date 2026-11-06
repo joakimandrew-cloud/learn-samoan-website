@@ -344,8 +344,12 @@ for (const name of wanted) {
           if (readings.length && !(c.row || []).some(tile => tile.ring) && (c.row || []).length > 1) fail(here, 'a reading needs the ring on the neighbour that decides it (or the word alone, as the book prints it)')
           // ownSlots: each lane's cases carry the slot that lane fills, wherever it stands in the row;
           // in a Fork of readings, the one reading tile that lane reads (Step 9 batch 2: Figure 28.2).
-          const owned = (c.row || []).filter(tile => tile.slot).length + readings.length
-          if (def.ownSlots && owned !== 1) fail(here, 'ownSlots needs exactly one slot or one reading tile in every case, the one its lane fills or reads')
+          const slots = (c.row || []).filter(tile => tile.slot)
+          const owned = slots.length + readings.length
+          // Step 10 (Figure 14.2): a reading lane whose sentence lacks the deciding word may hold its
+          // reading tile and one empty slot; the engine anchors the lit branch on the slot (fork.js).
+          const readingWithGap = owned === 2 && readings.length === 1 && slots.length === 1 && !slots[0].form
+          if (def.ownSlots && owned !== 1 && !readingWithGap) fail(here, 'ownSlots needs exactly one slot or one reading tile in every case, the one its lane fills or reads (or one reading tile and one empty slot)')
         })
       } else if (def.kind === 'path') {
         ;(scene.cases || []).forEach((c, ci) => {

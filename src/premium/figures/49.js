@@ -6,7 +6,7 @@
 //
 // 49.1 answers the book's own question at "How Firm the Request Is": which word changed. Seʻi
 // turns over to ʻia while alofa and atu hold still. The book prints English only for the whole
-// plea, so each half carries en: null.
+// plea, so each half carries en: null and the scene's whole line shows that English at rest.
 // 49.2 replaces the toggle ch49-warning-order: te drops out behind ʻe, its gap held open, and
 // neʻi lands in front of ʻe, so the pronoun is seen to change sides. Placed after the
 // two-row table, never between it and the paragraph above it.
@@ -42,11 +42,12 @@ export const FIGURES = [
       },
       before: { say: 'Seʻi alofa atu', en: null },
       after: { say: 'ʻIa alofa atu', en: null },
+      whole: { say: 'Seʻi alofa atu, ʻia alofa atu.', en: 'Please take pity on me, take pity on me.' },
       states: [
         [['mood', 0], ['alofa', 0], ['atu', 0]],
         [['mood', 1], ['alofa', 0], ['atu', 0]],
       ],
-      beats: [{ kind: 'swap', tile: 'mood', to: 1 }],
+      beats: [{ kind: 'swap', tile: 'mood', to: 1 }, { kind: 'en' }],
     }],
   },
   {

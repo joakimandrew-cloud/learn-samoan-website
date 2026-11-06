@@ -78,6 +78,27 @@ describe('check:figures, Step 9 batch 2 rules', () => {
     expect(run.code).toBe(1)
     expect(run.out).toMatch(/ownSlots needs exactly one slot or one reading tile/)
   })
+
+  // Step 10: Chapter 14's Figure 14.2, lane 0 holding its reading tile and an empty slot where te would sit.
+  const gap = slot => `
+const face = (text, role, label) => (label != null ? { text, role, label } : { text, role })
+export const FIGURES = [{
+  id: '14.2', kind: 'fork', ownSlots: true, title: 'The general particle *te* is what tells the two apart.',
+  after: { section: 'when-a-pronoun-comes-in-te', block: b => b.type === 'note' && b.text.includes('is what tells the two apart') },
+  lanes: [{ label: 'past particle', forms: [] }, { label: 'the word for he or she', forms: [] }],
+  alt: ['In *Na te alu*, *na* is the word for he or she and *te* is the general particle, so the sentence means he goes.'],
+  scenes: [{ key: 'na', cases: [
+    { lane: 0, say: 'Na alu', en: 'he went', row: [{ ...face('Na', 'tense', 'past particle'), reads: true }, ${slot}, face('alu', 'verb')] },
+    { lane: 1, say: 'Na te alu.', en: 'He goes. She goes.', row: [{ ...face('Na', 'pronoun', 'the word for he or she'), reads: true }, { ...face('te', 'tense'), ring: true }, face('alu', 'verb')] },
+  ] }],
+}]
+`
+  it('accepts ownSlots with one reading tile and one empty slot in a case, and fails a filled slot beside a reading', () => {
+    expect(check(14, gap('{ slot: true, ring: true }')).code).toBe(0)
+    const run = check(14, gap("{ slot: true, ring: true, form: face('te', 'tense') }"))
+    expect(run.code).toBe(1)
+    expect(run.out).toMatch(/ownSlots needs exactly one slot or one reading tile/)
+  })
 })
 
 // Chapter 25's Figure 25.2: 'two' holds the plural pronoun with the singular verb between two swaps

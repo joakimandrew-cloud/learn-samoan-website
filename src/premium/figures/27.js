@@ -20,10 +20,8 @@ export const FIGURES = [
     scenes: [{
       key: 'tuafale',
       role: 'noun',
-      // Engine limit: a Build's one label shows on both states and the check refuses a blank one,
-      // though the book never calls the phrase tua o le fale a noun. Wanted: "noun" under tuāfale alone.
       label: 'noun',
-      from: { say: 'tua o le fale', en: 'the space behind the house' },
+      from: { say: 'tua o le fale', en: 'the space behind the house', label: '' },
       to: { say: 'tuāfale', en: 'the space behind the house' },
       pieces: [{ text: 'tu' }, { text: 'ā', was: 'a' }, { text: ' o le ', removed: true }, { text: 'fale' }],
     }],

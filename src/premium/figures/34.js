@@ -36,7 +36,7 @@ export const FIGURES = [
     id: '34.3',
     kind: 'fork',
     title: 'Reporting a Command',
-    caption: '*ʻIa* fills that same first slot',
+    caption: '*ʻIa* fills that same first slot, and what stands after it is what somebody is to do.',
     after: { section: 'reporting-a-command', block: b => b.type === 'p' && b.text.includes('rather than with a tense particle') },
     alt: [
       '*ʻUa iloa e le tama ʻua sau le teine.* The boy knows that the girl has come.',

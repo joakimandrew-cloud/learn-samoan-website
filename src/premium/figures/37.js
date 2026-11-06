@@ -43,8 +43,8 @@ export const FIGURES = [
     scenes: [{
       key: 'lei',
       cases: [
-        { lane: 0, say: 'Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.', en: 'The bus arrived before six o\'clock.', row: [face('Na', 'tense', ''), face('taunuʻu', 'verb', ''), face('mai', 'quiet'), face('le pasi', 'quiet'), face('ʻae', 'marker', 'but-word'), { slot: true }, face('leʻi', 'quiet'), face('tā=ina', 'quiet'), face('le ono', 'quiet')] },
-        { lane: 1, say: 'Na sele laʻu ʻava ʻae ʻou te leʻi tuʻu=a loʻu fale.', en: 'I shaved before I left the house.', row: [face('Na', 'tense', ''), face('sele', 'verb', ''), face('laʻu ʻava', 'quiet'), face('ʻae', 'marker', 'but-word'), { ...face('ʻou', 'pronoun', ''), ring: true }, { slot: true, form: face('te', 'tense', 'general particle') }, face('leʻi', 'quiet'), face('tuʻu=a', 'quiet'), face('loʻu fale', 'quiet')] },
+        { lane: 0, say: 'Na taunuʻu mai le pasi ʻae leʻi tā=ina le ono.', en: 'The bus arrived before six o\'clock.', row: [face('Na', 'tense', ''), face('taunuʻu', 'verb', ''), face('mai', 'quiet'), face('le pasi', 'quiet'), face('ʻae', 'marker', 'but-word'), { slot: true }, face('leʻi', 'marker', 'not-yet word'), face('tā=ina', 'quiet'), face('le ono', 'quiet')] },
+        { lane: 1, say: 'Na sele laʻu ʻava ʻae ʻou te leʻi tuʻu=a loʻu fale.', en: 'I shaved before I left the house.', row: [face('Na', 'tense', ''), face('sele', 'verb', ''), face('laʻu ʻava', 'quiet'), face('ʻae', 'marker', 'but-word'), { ...face('ʻou', 'pronoun', 'preverbal pronoun'), ring: true }, { slot: true, form: face('te', 'tense', 'general particle') }, face('leʻi', 'marker', 'not-yet word'), face('tuʻu=a', 'quiet'), face('loʻu fale', 'quiet')] },
       ],
     }],
   },

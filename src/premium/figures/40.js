@@ -10,7 +10,9 @@ export const FIGURES = [
     id: '40.1',
     kind: 'row',
     title: 'The Condition Clause Without a Joining Word',
-    caption: 'The if-word and the tense particle behind it are both gone from the second sentence, and one word stands where the two of them were: *ʻā*, the short form of the future particle.',
+    // Caption is the book's hedge, not the slot sentence: the final English beat must not read as
+    // ʻā meaning "when" (judge finding 1). The slot sentence is the paragraph the figure follows.
+    caption: 'English renders it "if", "when" or "whenever", according to how expected the speaker thinks the condition is, and Sāmoan does not mark that difference anywhere in the sentence.',
     after: { section: 'the-condition-clause-without-a-joining-word', block: b => b.type === 'p' && b.text.includes('one word stands where the two of them were') },
     alt: [
       '*ʻĀfai e timu taeao, e lē alu le malaga.* If it rains tomorrow, the trip will not go.',
@@ -33,16 +35,10 @@ export const FIGURES = [
         after: { say: 'ʻĀ timu taeao, e lē alu le malaga.', en: 'When it rains tomorrow, the trip will not go.' },
         states: [
           [['afai', 0], ['e', 0], ['timu', 0], ['taeao', 0], ['main', 0]],
-          [['SLOT'], ['timu', 0], ['taeao', 0], ['main', 0]],
+          [['GHOST'], ['timu', 0], ['taeao', 0], ['main', 0]],
           [['a', 0], ['timu', 0], ['taeao', 0], ['main', 0]],
         ],
-        slotLabel: 'one word',
-        // The two words leave in a slot beat, so the open place is drawn (with the book's phrase as
-        // its label) from the moment they go until ʻĀ lands. Engine limit: a drop beat draws no SLOT,
-        // a two-tile drop into a GHOST stops the engine (row.js reads scene.tiles[b.tile] for the
-        // struck word's lane), and two drops into one GHOST stack both struck words. With a two-tile
-        // drop into a GHOST fixed, this becomes that drop, striking ʻĀfai and e in the line above.
-        beats: [{ kind: 'slot', tile: ['afai', 'e'], to: 1 }, { kind: 'add', tile: 'a', to: 2 }, { kind: 'en' }],
+        beats: [{ kind: 'drop', tile: ['afai', 'e'], to: 1 }, { kind: 'add', tile: 'a', to: 2 }, { kind: 'en' }],
       },
     ],
   },

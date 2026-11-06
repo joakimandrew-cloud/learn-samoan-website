@@ -75,7 +75,7 @@ export const FIGURES = [
             face('ʻou', 'pronoun', ''),
             face('alu', 'verb', ''),
             { ...face('ʻou', 'pronoun', 'preverbal pronoun'), ring: true },
-            { slot: true, form: face('te', 'tense', '') },
+            { slot: true, form: face('te', 'tense', 'general particle') },
             face('ʻaumai', 'verb', ''),
             face('le niu', 'noun', ''),
           ],
