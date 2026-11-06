@@ -81,7 +81,7 @@ export const FIGURES = [
           },
           {
             lane: 1, say: 'Na te alu.', en: 'He goes. She goes.',
-            row: [{ ...face('Na', 'pronoun', 'the word for he or she'), reads: true }, { ...face('te', 'tense'), ring: true }, face('alu', 'verb')],
+            row: [{ ...face('Na', 'pronoun', 'the word for he or she'), reads: true }, { ...face('te', 'tense', 'general particle'), ring: true }, face('alu', 'verb')],
           },
         ],
       },
