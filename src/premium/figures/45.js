@@ -77,7 +77,7 @@ export const FIGURES = [
     scenes: [{
       key: 'talatalanoa',
       tiles: {
-        le: [face('le', 'quiet'), face('E', 'tense', 'general particle')],
+        le: [face('le', 'marker', 'specific article'), face('E', 'tense', 'general particle')],
         verb: [face('talatalanoa', 'verb')],
         soo: [face('soʻo', 'quiet', 'often')],
         matua: [face('o oʻu mātua', 'noun'), face('oʻu mātua', 'noun')],

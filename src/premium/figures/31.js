@@ -62,7 +62,7 @@ export const FIGURES = [
         label: 'word that takes a clause',
         from: { say: 'sā', en: 'forbidden' },
         to: { say: 'faʻasā', en: 'forbid' },
-        pieces: [{ text: 'faʻa', added: true }, { text: 'sā' }],
+        pieces: [{ text: 'faʻa', added: true, label: 'prefix' }, { text: 'sā' }],
       },
       {
         key: 'faataga',
@@ -70,7 +70,7 @@ export const FIGURES = [
         label: 'word that takes a clause',
         from: { say: 'taga', en: 'allowed' },
         to: { say: 'faʻataga', en: 'allow' },
-        pieces: [{ text: 'faʻa', added: true }, { text: 'taga' }],
+        pieces: [{ text: 'faʻa', added: true, label: 'prefix' }, { text: 'taga' }],
       },
     ],
   },

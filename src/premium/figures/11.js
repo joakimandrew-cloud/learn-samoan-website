@@ -17,7 +17,7 @@ export const FIGURES = [
     scenes: [{
       key: 'fale',
       tiles: {
-        o: [face('ʻO', 'quiet')],
+        o: [face('ʻO', 'marker', 'presenting particle')],
         fale: [face('le fale', 'noun')],
         bw: [face('a', 'marker', 'belonging word'), face('o', 'marker', 'belonging word')],
         tama: [face('le tama', 'noun')],

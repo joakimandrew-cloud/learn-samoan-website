@@ -34,7 +34,8 @@ export const FIGURES = [
         states: [
           [['sa', 0], ['nofo', 0], ['le', 0], ['teine', 0]],
           [['sa', 0], ['nofo', 0], ['GHOST'], ['teine', 0]],
-          [['sa', 0], ['nofo', 1], ['teine', 0]],
+          // Step 12: the empty article slot is held at rest, as in 7.2, 20.1, 26.2 and 41.2.
+          [['sa', 0], ['nofo', 1], ['GHOST'], ['teine', 0]],
         ],
         beats: [{ kind: 'drop', tile: 'le', to: 1 }, { kind: 'swap', tile: 'nofo', to: 2 }, { kind: 'en' }],
       },

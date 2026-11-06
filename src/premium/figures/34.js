@@ -68,7 +68,7 @@ export const FIGURES = [
             face('ʻUa', 'tense', ''),
             { ...face('faʻatonu mai', 'verb', 'ordering word'), ring: true },
             face('e le tama', 'quiet'),
-            { slot: true, form: face('ʻia', 'marker', 'mood particle') },
+            { slot: true, form: face('ʻia', 'tense', 'mood particle') },
             face('sau le teine', 'quiet'),
           ],
         },

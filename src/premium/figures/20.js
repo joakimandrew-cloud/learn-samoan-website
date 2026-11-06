@@ -68,7 +68,8 @@ export const FIGURES = [
         role: 'verb',
         from: { say: 'nofo', en: 'one person stays' },
         to: { say: 'nonofo', en: 'several stay' },
-        pieces: [{ text: 'no' }, { text: 'no', added: true, of: 0 }, { text: 'fo' }],
+        // Step 12: the copy stands in front, as Chapter 51 line 237 prints and 51.3 draws.
+        pieces: [{ text: 'no', added: true, of: 1 }, { text: 'no' }, { text: 'fo' }],
       },
       {
         key: 'uli',

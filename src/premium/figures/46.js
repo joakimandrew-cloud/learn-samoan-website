@@ -6,7 +6,7 @@ const pointsAt = (key, verb, who, aim, before, after) => ({
   key,
   tiles: {
     e: [face('E', 'tense', '')],
-    O: [face('ʻO', 'quiet')],
+    O: [face('ʻO', 'marker', 'presenting particle')],
     le: [face('le', 'marker', 'the article')],
     v: [face(verb, 'verb')],
     o: [face('o', 'marker', 'belonging word')],

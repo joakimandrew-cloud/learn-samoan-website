@@ -13,7 +13,7 @@ export const FIGURES = [
       role: 'verb',
       from: { say: 'fai', en: null },
       to: { say: 'fai=a', en: null },
-      pieces: [{ text: 'fai' }, { text: '=a', added: true }],
+      pieces: [{ text: 'fai' }, { text: '=a', added: true, label: 'ending' }],
     }],
   },
   {

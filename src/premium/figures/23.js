@@ -17,7 +17,7 @@ export const FIGURES = [
       tiles: {
         e: [face('E', 'tense', 'general particle')],
         verb: [face('mālosi', 'verb'), face('tolu', 'verb')],
-        le: [face('le', 'quiet')],
+        le: [face('le', 'marker', 'specific article')],
         tama: [face('tama', 'noun')],
       },
       before: { say: 'E mālosi le tama.', en: 'The boy is strong.' },
@@ -90,7 +90,7 @@ export const FIGURES = [
     scenes: [{
       key: 'uluai',
       tiles: {
-        le: [face('le', 'quiet')],
+        le: [face('le', 'marker', 'specific article')],
         tama: [face('tama', 'noun')],
         muamua: [face('muamua', 'verb', 'first')],
         uluai: [face('uluaʻi', 'verb', 'first')],

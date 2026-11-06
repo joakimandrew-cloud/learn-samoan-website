@@ -24,7 +24,7 @@ export const FIGURES = [
       {
         key: 'taavale',
         tiles: {
-          o: [face('ʻO', 'quiet')],
+          o: [face('ʻO', 'marker', 'presenting particle')],
           pf: [face('laʻu', 'marker', 'possessive form'), face('aʻu', 'marker', 'possessive form')],
           n: [face('taʻavale', 'noun')],
         },
@@ -50,7 +50,7 @@ export const FIGURES = [
       {
         key: 'matou',
         tiles: {
-          o: [face('ʻO', 'quiet')],
+          o: [face('ʻO', 'marker', 'presenting particle')],
           le: [face('le', 'marker', 'specific article')],
           p: [face('mātou', 'pronoun', 'pronoun')],
           n: [face('fale', 'noun')],
@@ -104,7 +104,7 @@ export const FIGURES = [
             say: 'ʻO loʻu ʻie.',
             en: 'My kilt.',
             row: [
-              face('ʻO', 'quiet'),
+              face('ʻO', 'marker', 'presenting particle'),
               { slot: true, form: face('loʻu', 'marker', 'possessive form') },
               { ...face('ʻie', 'noun', 'the thing'), ring: true },
             ],
@@ -114,7 +114,7 @@ export const FIGURES = [
             say: 'ʻO laʻu sipuni.',
             en: 'My spoon.',
             row: [
-              face('ʻO', 'quiet'),
+              face('ʻO', 'marker', 'presenting particle'),
               { slot: true, form: face('laʻu', 'marker', 'possessive form') },
               { ...face('sipuni', 'noun', 'the thing'), ring: true },
             ],

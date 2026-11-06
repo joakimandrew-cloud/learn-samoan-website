@@ -26,7 +26,7 @@ export const FIGURES = [
     scenes: [{
       key: 'moe',
       tiles: {
-        o: [face('ʻO', 'quiet')],
+        o: [face('ʻO', 'marker', 'presenting particle')],
         w: [face('āfea', 'marker', 'future when-word'), face('anafea', 'marker', 'past when-word')],
         tp: [face('ʻoleʻā', 'tense', 'future particle'), face('na', 'tense', 'past particle')],
         moe: [face('moe', 'verb', '')],
@@ -62,7 +62,7 @@ export const FIGURES = [
     scenes: [{
       key: 'anafea',
       cases: [
-        { lane: 0, say: 'ʻO anafea na moe ai le tama?', en: 'When did the boy sleep?', row: [face('ʻO', 'quiet'), { ...face('anafea', 'marker', 'past when-word'), ring: true }, face('na', 'tense', ''), face('moe', 'verb', ''), { slot: true, form: face('ai', 'marker', 'pointing-back word') }, face('le tama', 'noun', '')] },
+        { lane: 0, say: 'ʻO anafea na moe ai le tama?', en: 'When did the boy sleep?', row: [face('ʻO', 'marker', 'presenting particle'), { ...face('anafea', 'marker', 'past when-word'), ring: true }, face('na', 'tense', ''), face('moe', 'verb', ''), { slot: true, form: face('ai', 'marker', 'pointing-back word') }, face('le tama', 'noun', '')] },
         { lane: 1, say: 'Na lā faʻaipoipo anafea?', en: 'When did the two of them get married?', row: [face('Na', 'tense', ''), face('lā', 'pronoun', ''), face('faʻaipoipo', 'verb', ''), { slot: true }, { ...face('anafea', 'marker', 'past when-word'), ring: true }] },
       ],
     }],

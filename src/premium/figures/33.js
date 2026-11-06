@@ -47,8 +47,8 @@ export const FIGURES = [
     scenes: [{
       key: 'faatau',
       tiles: {
-        o: [face('ʻO', 'quiet')],
-        ai: [face('ai', 'quiet')],
+        o: [face('ʻO', 'marker', 'presenting particle')],
+        ai: [face('ai', 'pronoun', 'question word')],
         na: [face('na', 'tense', '')],
         verb: [face('faʻatau', 'verb', '')],
         a: [{ ...face('=a', 'marker', 'ending'), attach: true }],
@@ -79,7 +79,8 @@ export const FIGURES = [
     ],
     lanes: [
       { label: 'a command', forms: ['ʻAi'] },
-      { label: 'forbidding', forms: ['ʻaia'] },
+      // Step 12: the lane carries the book's limit (line 372), so it does not read as every forbidding.
+      { label: 'a forbidding sentence with *ʻaua le*', forms: ['ʻaia'] },
     ],
     scenes: [{
       key: 'ai',
