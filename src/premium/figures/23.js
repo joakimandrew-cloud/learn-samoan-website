@@ -45,7 +45,7 @@ export const FIGURES = [
     scenes: [{
       key: 'tama',
       tiles: {
-        tama: [face('tama', 'noun'), face('Tama', 'noun')],
+        tama: [face('tama', 'noun')],
         e: [face('E', 'tense', 'general particle'), face('e', 'tense', 'general particle')],
         tolu: [face('tolu', 'verb')],
       },
@@ -93,7 +93,8 @@ export const FIGURES = [
         le: [face('le', 'marker', 'specific article')],
         tama: [face('tama', 'noun')],
         muamua: [face('muamua', 'verb', 'first')],
-        uluai: [face('uluaʻi', 'verb', 'first')],
+        // the book gives *uluaʻi* no kind (lines 216, 235), so it stays quiet (card section 4).
+        uluai: [face('uluaʻi', 'quiet')],
       },
       before: { say: 'le tama muamua', en: 'the first boy' },
       after: { say: 'le uluaʻi tama', en: 'the first boy' },

@@ -11,7 +11,7 @@ export const FIGURES = [
     id: '42.1',
     kind: 'row',
     types: ['swap'],
-    title: 'That particle is read against the time the first half names, not against the moment of speaking',
+    title: 'After a knowing word, the report is an ordinary clause with a tense particle of its own, and nothing joins the two halves.',
     caption: '*ʻua sau le teine* stays word for word the same while the English moves from "has come" to "had come".',
     // After the paragraph on the report after a knowing word, before Exercise 5.
     after: { section: 'reported-speech', block: b => b.type === 'p' && b.text.includes('read against the time the first half names') },
@@ -77,7 +77,7 @@ export const FIGURES = [
         tiles: {
           rest: [face('Sā tapē', 'quiet'), face('sā tapē=ina', 'quiet')],
           doer: [face('e le tama', 'noun', 'the doer'), face('le tama', 'noun', 'the doer')],
-          done: [face('le puaʻa', 'quiet')],
+          done: [{ text: 'le puaʻa', role: 'noun', label: '' }],
           o: [face('ʻO', 'marker', 'presenting particle')],
         },
         before: { say: 'Sā tapē e le tama le puaʻa.', en: 'The boy killed the pig.' },

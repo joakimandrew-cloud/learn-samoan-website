@@ -27,7 +27,7 @@ export const FIGURES = [
       {
         key: 'tatau',
         tiles: {
-          ua: [face('ʻUa', 'tense', '')],
+          ua: [face('ʻUa', 'tense', 'tense particle')],
           tatau: [face('tatau', 'verb', 'obligation word')],
           ona: [face('ona', 'marker', 'that-word')],
           ou: [face('ʻou', 'pronoun')],
@@ -62,7 +62,7 @@ export const FIGURES = [
         label: 'word that takes a clause',
         from: { say: 'sā', en: 'forbidden' },
         to: { say: 'faʻasā', en: 'forbid' },
-        pieces: [{ text: 'faʻa', added: true, label: 'prefix' }, { text: 'sā' }],
+        pieces: [{ text: 'faʻa', added: true, label: 'maker-prefix' }, { text: 'sā' }],
       },
       {
         key: 'faataga',
@@ -70,7 +70,7 @@ export const FIGURES = [
         label: 'word that takes a clause',
         from: { say: 'taga', en: 'allowed' },
         to: { say: 'faʻataga', en: 'allow' },
-        pieces: [{ text: 'faʻa', added: true, label: 'prefix' }, { text: 'taga' }],
+        pieces: [{ text: 'faʻa', added: true, label: 'maker-prefix' }, { text: 'taga' }],
       },
     ],
   },
@@ -134,13 +134,13 @@ export const FIGURES = [
             lane: 0,
             say: 'ʻUa iloa e le tama ʻua sau le teine.',
             en: 'The boy knows that the girl has come.',
-            row: [face('ʻUa', 'tense'), face('iloa', 'verb'), face('e le tama', 'noun'), { slot: true }, face('ʻua', 'tense', ''), face('sau', 'verb'), face('le teine', 'noun')],
+            row: [face('ʻUa', 'tense'), face('iloa', 'verb'), face('e le tama', 'quiet'), { slot: true }, face('ʻua', 'tense', ''), face('sau', 'verb'), face('le teine', 'quiet')],
           },
           {
             lane: 1,
             say: 'ʻUa mafai ona sau le teine.',
             en: 'The girl can come.',
-            row: [face('ʻUa', 'tense'), face('mafai', 'verb'), { slot: true, label: 'that-word', form: face('ona', 'marker', 'that-word') }, face('sau', 'verb'), face('le teine', 'noun')],
+            row: [face('ʻUa', 'tense'), face('mafai', 'verb'), { slot: true, label: 'that-word', form: face('ona', 'marker', 'that-word') }, face('sau', 'verb'), face('le teine', 'quiet')],
           },
         ],
       },
