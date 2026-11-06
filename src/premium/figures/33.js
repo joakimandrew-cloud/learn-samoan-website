@@ -59,10 +59,9 @@ export const FIGURES = [
       after: { say: 'ʻO ai na faʻatau mai=a le tusi?', en: 'Who bought the book?' },
       states: [
         [['o', 0], ['ai', 0], ['na', 0], ['verb', 0], ['a', 0], ['mai', 0], ['tusi', 0]],
-        // No GHOST (repair pass): with the gap held open, line two at 390 could not take faʻatau in
-        // the second state, so the verb changed line while the ending moved. Without it both
-        // states wrap before faʻatau and only =a travels.
-        [['o', 0], ['ai', 0], ['na', 0], ['verb', 0], ['mai', 0], ['a', 0], ['tusi', 0]],
+        // The empty place on the verb shows where the ending left. The engine now sizes a wrapped
+        // row so its breaks hold with the gap in place (quality round after Step 12).
+        [['o', 0], ['ai', 0], ['na', 0], ['verb', 0], ['GHOST'], ['mai', 0], ['a', 0], ['tusi', 0]],
       ],
       beats: [{ kind: 'move', tile: 'a', to: 1, arc: true }, { kind: 'en' }],
     }],

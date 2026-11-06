@@ -170,3 +170,21 @@ describe('check:figures, Step 9 batch 3 rules', () => {
     expect(bad.out).toMatch(/the English "There are three boys\." is not printed beside "le uluaʻi tama"/)
   })
 })
+
+describe('check:figures, quality round after Step 12', () => {
+  // Figure 45.2 as made: one swap beat that also drops ai and faiva (the real file, its strings copied from the book).
+  const real = fs.readFileSync(path.join(APP, 'src/premium/figures/45.js'), 'utf8')
+  const BEAT = "{ kind: 'swap', tile: ['p', 'sauni'], drop: ['ai', 'faiva'], to: 1 }"
+  it('passes a swap that drops tiles in the same beat, and fails a drop the states do not show or a drop on another beat', () => {
+    expect(real).toContain(BEAT)
+    const ok = check(45, real)
+    expect(ok.out).toContain('0 misses')
+    expect(ok.code).toBe(0)
+    const kept = check(45, real.replace(BEAT, "{ kind: 'swap', tile: ['p', 'sauni'], drop: ['ai', 'amata'], to: 1 }"))
+    expect(kept.code).toBe(1)
+    expect(kept.out).toContain('drops tile "amata", which is not in the state it leaves or is still in the state it reaches')
+    const other = check(45, real.replace("{ kind: 'en' }],\n    }],\n  },\n  {\n    id: '45.3'", "{ kind: 'en', drop: ['ai'] }],\n    }],\n  },\n  {\n    id: '45.3'"))
+    expect(other.code).toBe(1)
+    expect(other.out).toContain('(en) has drop; only a swap beat drops tiles as it swaps')
+  })
+})

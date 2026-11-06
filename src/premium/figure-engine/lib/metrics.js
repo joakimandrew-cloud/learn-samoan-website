@@ -218,6 +218,29 @@ function shrinkBeforeWrap(base, chosen, width, twoLines, wrapAt, fitting) {
   return pick
 }
 
+/** Quality round after Step 12: sizes `chosen` stand when `holds(chosen)` (every scene keeps its
+ *  line breaks across its states). Otherwise the type steps down, in the same label tier, to the
+ *  largest size at which every scene holds, no lower than the floor and no more than a tenth below
+ *  `chosen` (35.2 and 35.3 would hold only a fifth smaller, 24 to 18.5 px, which reads worse than the
+ *  jump it cures); past that, `chosen` stands and each state wraps on its own as before. */
+export function shrinkToHold(base, chosen, width, twoLines, holds) {
+  if (!width || holds(chosen)) return chosen
+  const extra = { wrapLabels: chosen.wrapLabels, pack: chosen.pack }
+  const at = k => {
+    const s = { ...scaleSizes({ ...base, ...extra }, k), ...extra }
+    return twoLines(s) ? { ...s, labelExtra: LABEL_LINE } : s
+  }
+  let hi = chosen.fs / base.fs
+  let lo = Math.max((width >= 480 ? DESKTOP_MIN_FS : PHONE_MIN_FS) / base.fs, hi * 0.9)
+  if (hi <= lo || !holds(at(lo))) return chosen
+  for (let i = 0; i < 9; i++) {
+    const mid = (lo + hi) / 2
+    if (holds(at(mid))) lo = mid
+    else hi = mid
+  }
+  return at(lo)
+}
+
 /** The height a label's second line adds (.ft-label.is-two sets 13 px lines). */
 export const LABEL_LINE = 13
 

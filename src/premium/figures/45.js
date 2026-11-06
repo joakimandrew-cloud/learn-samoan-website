@@ -52,15 +52,20 @@ export const FIGURES = [
         phrase: [face('le vivini a moa,', 'quiet', 'the fronted le-phrase')],
         p: [face('e', 'tense'), face('ʻae', 'marker', 'but-word')],
         amata: [face('ʻāmata', 'verb', '')],
-        rest: [face('sāuni ai faiva', 'quiet'), face('le pese', 'quiet')],
+        sauni: [face('sāuni', 'verb', ''), face('le pese', 'noun', '')],
+        // The shape the table calls "a tense particle and *ai*" (lines 152, 162): ai shown and named.
+        ai: [face('ai', 'marker', 'pointing-back word')],
+        faiva: [face('faiva', 'noun', '')],
       },
       before: { say: 'ʻO le vivini a moa, e ʻāmata sāuni ai faiva.', en: 'When the roosters crow, people begin preparing for fishing trips.' },
       after: { say: 'ʻO le vivini a moa, ʻae ʻāmata le pese.', en: 'When the roosters crow, the song begins.' },
       states: [
-        [['o', 0], ['phrase', 0], ['p', 0], ['amata', 0], ['rest', 0]],
-        [['o', 0], ['phrase', 0], ['p', 1], ['amata', 0], ['rest', 1]],
+        [['o', 0], ['phrase', 0], ['p', 0], ['amata', 0], ['sauni', 0], ['ai', 0], ['faiva', 0]],
+        [['o', 0], ['phrase', 0], ['p', 1], ['amata', 0], ['sauni', 1]],
       ],
-      beats: [{ kind: 'swap', tile: ['p', 'rest'], to: 1 }, { kind: 'en' }],
+      // One beat, so no state between the two printed shapes: e turns to ʻae and sāuni to le pese
+      // while ai and faiva leave (quality round after Step 12).
+      beats: [{ kind: 'swap', tile: ['p', 'sauni'], drop: ['ai', 'faiva'], to: 1 }, { kind: 'en' }],
     }],
   },
   {

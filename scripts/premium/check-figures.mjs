@@ -312,6 +312,18 @@ for (const name of wanted) {
           if (!ROW_BEATS.has(beat.kind)) fail(where, `beat ${bi} has kind ${JSON.stringify(beat.kind)}`)
           for (const id of [].concat(beat.tile ?? [])) if (!tiles[id]) fail(where, `beat ${bi} (${beat.kind}) names tile ${JSON.stringify(id)}, which the scene does not have`)
           if (beat.roll && !tiles[beat.roll]) fail(where, `beat ${bi} rolls tile ${JSON.stringify(beat.roll)}, which the scene does not have`)
+          // A swap may drop tiles in the same beat (quality round after Step 12, 45.2): each a real
+          // tile of the state the beat leaves, gone from the state it reaches.
+          if (beat.drop != null) {
+            if (beat.kind !== 'swap') fail(where, `beat ${bi} (${beat.kind}) has drop; only a swap beat drops tiles as it swaps`)
+            const ids = state => new Set((states[state] || []).map(item => item[0]))
+            const from = ids(beats.slice(0, bi).reduce((at, b) => (b.to != null ? b.to : at), 0))
+            const to = ids(beat.to)
+            for (const id of [].concat(beat.drop)) {
+              if (!tiles[id]) fail(where, `beat ${bi} drops tile ${JSON.stringify(id)}, which the scene does not have`)
+              else if (!from.has(id) || to.has(id)) fail(where, `beat ${bi} drops tile ${JSON.stringify(id)}, which is not in the state it leaves or is still in the state it reaches`)
+            }
+          }
           if (beat.to != null && !(Number.isInteger(beat.to) && beat.to >= 0 && beat.to < states.length)) fail(where, `beat ${bi} goes to state ${beat.to}, and the scene has ${states.length}`)
         })
         // 4. English comes after the changes. A scene whose every state is a printed sentence is exempt.

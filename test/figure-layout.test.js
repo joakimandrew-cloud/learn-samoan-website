@@ -510,3 +510,57 @@ describe('Step 9 batch 4 engine fixes (Engine-Limits.md, batch 4 rows)', () => {
     expect(rest.pieces[2].opacity).toBe(0)
   })
 })
+
+describe('Quality round after Step 12 (Engine-Limits.md, "Still open after Step 10")', () => {
+  const face = (text, role, label) => (label != null ? { text, role, label } : { text, role })
+  it('a wrapped row holds its breaks with a GHOST in place: only the moving tile changes line (33.2)', async () => {
+    const { rowLayouts, rowSizes } = await import('../src/premium/figure-engine/row.js')
+    const def = files['../src/premium/figures/33.js'].FIGURES.find(f => f.id === '33.2')
+    const scene = def.scenes[0]
+    expect(scene.states[1].some(([id]) => id === 'GHOST')).toBe(true)
+    for (const width of [308, 330, 350]) {
+      const { layouts } = rowLayouts(scene, width, rowSizes(def, width))
+      for (const id of ['o', 'ai', 'na', 'verb', 'mai', 'tusi']) expect(new Set(layouts.map(m => m[id].y)).size).toBe(1)
+      // The gap stands on the verb's line, where the ending left.
+      expect(layouts[1].GHOST.y).toBe(layouts[1].verb.y)
+    }
+  })
+  it('a swap beat may drop tiles in the same beat, so the row never stops between the two shapes (45.2)', async () => {
+    const { rowFrame, rowGeometry, rowLayouts, rowSizes, rowTimeline } = await import('../src/premium/figure-engine/row.js')
+    const scene = {
+      key: 'k',
+      tiles: { a: [face('a', 'verb')], p: [face('x', 'tense'), face('yyyy', 'marker', 'but-word')], v: [face('vv', 'verb', ''), face('le nn', 'noun', '')], d: [face('dd', 'marker', 'pointing-back word')], f: [face('ff', 'noun', '')] },
+      before: { say: 'a x vv dd ff.', en: 'A.' },
+      after: { say: 'a yyyy le nn.', en: 'B.' },
+      states: [[['a', 0], ['p', 0], ['v', 0], ['d', 0], ['f', 0]], [['a', 0], ['p', 1], ['v', 1]]],
+      beats: [{ kind: 'swap', tile: ['p', 'v'], drop: ['d', 'f'], to: 1 }, { kind: 'en' }],
+    }
+    const def = { id: 'T.9', kind: 'row', scenes: [scene] }
+    for (const width of WIDTHS) {
+      await layOut(def, width)
+      const s = rowSizes(def, width)
+      const layout = rowLayouts(scene, width, s)
+      const timeline = rowTimeline(scene)
+      const geometry = rowGeometry(s, [scene], false, layout.lines, true)
+      const swap = timeline.beats[0]
+      // It takes a drop's time, so the dropped words leave as a drop's do.
+      expect(swap.travelEnd - swap.start).toBe(900)
+      const mid = rowFrame(scene, timeline, (swap.start + swap.travelEnd) / 2, layout, geometry)
+      const tile = id => mid.tiles.find(item => item.id === id)
+      expect(tile('p').roll).toBeGreaterThan(0)
+      expect(tile('p').roll).toBeCloseTo(tile('v').roll, 5)
+      const late = rowFrame(scene, timeline, swap.start + 0.8 * (swap.travelEnd - swap.start), layout, geometry)
+      for (const id of ['d', 'f']) {
+        expect(tile(id).y).toBeGreaterThan(0)
+        expect(tile(id).outline).toBeGreaterThan(0)
+        expect(late.tiles.find(item => item.id === id).opacity).toBeLessThan(1)
+      }
+      // Both dropped words are struck in the starting line, at their own places.
+      expect(mid.struck.map(r => scene.before.say.slice(r.start, r.end))).toEqual(['dd', 'ff'])
+      const after = rowFrame(scene, timeline, timeline.duration, layout, geometry)
+      expect(after.tiles.find(item => item.id === 'd')).toBeUndefined()
+      expect(after.tiles.find(item => item.id === 'v').labelFace.text).toBe('le nn')
+      expect(timeline.rests.length).toBe(2)
+    }
+  })
+})

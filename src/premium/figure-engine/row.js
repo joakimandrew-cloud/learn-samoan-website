@@ -3,7 +3,7 @@
 // same scene, time and layout always give the same frame, with no state and no
 // CSS animation, so any frame can be rendered exactly.
 import { HOLD_MS, OPEN_MS, ROLL_MS, TRAVEL_MS, clamp01, land, leave, lerp, ramp, travel } from './lib/motion.js'
-import { EN_WRAP_LINE, fitRow, labelTwoLineWidth, labelWidth, lineHeightOfRow, textWidth, tileSizes, uiWidth } from './lib/metrics.js'
+import { EN_WRAP_LINE, fitRow, labelTwoLineWidth, labelWidth, lineHeightOfRow, shrinkToHold, textWidth, tileSizes, uiWidth } from './lib/metrics.js'
 import { ROLE_LABEL } from './key.js'
 
 const TRAVEL = { move: TRAVEL_MS, add: TRAVEL_MS, drop: TRAVEL_MS, swap: ROLL_MS, en: 420, limit: 620, slot: 620, line: TRAVEL_MS }
@@ -15,13 +15,15 @@ export function rowTimeline(scene) {
   const beats = scene.beats.map(beat => {
     const from = state
     if (beat.to != null) state = beat.to
+    // A swap that also drops tiles (`drop: [...]`) takes a drop's time, so the dropped words leave as a drop's do.
+    const travelMs = beat.drop ? Math.max(TRAVEL[beat.kind] ?? TRAVEL_MS, TRAVEL.drop) : TRAVEL[beat.kind] ?? TRAVEL_MS
     const b = {
       ...beat,
       from,
       toState: state,
       start: at,
-      travelEnd: at + (TRAVEL[beat.kind] ?? TRAVEL_MS),
-      end: at + (TRAVEL[beat.kind] ?? TRAVEL_MS) + (HOLD[beat.kind] ?? HOLD_MS),
+      travelEnd: at + travelMs,
+      end: at + travelMs + (HOLD[beat.kind] ?? HOLD_MS),
     }
     at = b.end
     return b
@@ -153,8 +155,12 @@ function placeStates(scene, s, limit = Infinity, hold = true) {
     const held = scene.states.map(state => placeState(scene, s, limit, state, forced))
     if (most(held) <= most(greedy) && stable(held)) return held
   }
-  return greedy
+  // No plan holds at this size; rowSizes then steps the type down until one does (heldAt).
+  return Object.assign(greedy, { unheld: true })
 }
+
+/** Does every scene of the figure hold its line breaks at sizes `s` on a stage `width` wide? */
+const heldAt = (def, width) => s => def.scenes.every(scene => !placeStates(scene, s, width).unheld)
 
 function placeState(scene, s, limit, state, forced = null) {
   const held = heldIds(scene)
@@ -237,7 +243,12 @@ export function rowSizes(def, width) {
     const maps = def.scenes.flatMap(scene => placeStates(scene, s, width, false))
     return { lines: maps.reduce((a, m) => a + m.__lines, 0), widest: Math.max(...maps.map(m => m.__w)) }
   }
-  return fitRow(base, widthsAt, width, s => rowTwoLines(def, s), false, wrapAt)
+  const twoLines = s => rowTwoLines(def, s)
+  // Quality round after Step 12 (Engine-Limits.md): a wrapped row whose widest state holds a gap
+  // (33.2: =a leaves a GHOST on faʻatau) could find no breaks that every state keeps at the size
+  // sized on each state's own wrap, so a staying tile changed line. Such a figure, and only such a
+  // figure, steps its type down until the breaks decided with the gap in place hold in every state.
+  return shrinkToHold(base, fitRow(base, widthsAt, width, twoLines, false, wrapAt), width, twoLines, heldAt(def, width))
 }
 
 /** Each state's tile positions. The block is centred on the stage at the width of its widest
@@ -353,6 +364,9 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
 
   const posE = !cur ? 1 : cur.kind === 'add' ? travel(ramp(p, 0, 0.55)) : cur.kind === 'drop' ? travel(ramp(p, 0.35, 1)) : travel(p)
   const mains = cur ? [].concat(cur.tile || []) : []
+  // Quality round after Step 12: a swap beat may drop tiles in the same beat (`drop: ['ai', 'faiva']`,
+  // 45.2), so the row never stops on a sentence the book does not print. They leave as a drop's do.
+  const drops = cur?.kind === 'swap' ? [].concat(cur.drop || []) : []
 
   const ids = new Set([...Object.keys(A), ...Object.keys(B)].filter(k => !k.startsWith('__')))
   const tiles = []
@@ -389,7 +403,7 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
       labelOpacity = ramp(q, 0.4, 1)
       x = b.x
       w = b.w
-    } else if (cur?.kind === 'drop' && isMain) {
+    } else if ((cur?.kind === 'drop' && isMain) || (drops.includes(id) && a)) {
       const q = ramp(p, 0.16, 1)
       outline = ramp(p, 0, 0.22)
       y = leave(q) * s.h * 0.72
@@ -580,8 +594,8 @@ export function rowFrame(scene, timeline, t, layout, geometry, override = null) 
   const struck = []
   const places = scene.before ? tilePlaces(scene) : {}
   for (const b of beats) {
-    if (b.kind !== 'drop') continue
-    for (const id of [].concat(b.tile || [])) {
+    if (b.kind !== 'drop' && !b.drop) continue
+    for (const id of [].concat(b.kind === 'drop' ? b.tile || [] : b.drop)) {
       if (places[id]) struck.push({ ...places[id], p: ramp(t, b.start, b.travelEnd) })
     }
   }
