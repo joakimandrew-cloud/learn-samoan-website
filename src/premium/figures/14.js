@@ -31,7 +31,7 @@ export const FIGURES = [
         tiles: {
           sa: [face('Sā', 'tense')],
           ou: [face('ʻou', 'pronoun'), face('ʻOu', 'pronoun')],
-          te: [face('te', 'tense')],
+          te: [face('te', 'tense', 'general particle')],
           alu: [face('alu', 'verb')],
         },
         before: { say: 'Sā ʻou alu.', en: 'I went.' },
