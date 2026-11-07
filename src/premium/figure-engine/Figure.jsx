@@ -693,7 +693,7 @@ export default function Figure({ def, number = null, external = null, autoplay =
       </div>
       <Alt def={def} scene={scene} />
       {def.chips && (
-        <div className={`fx-chips ${chipsCrowded(def.chips, width) ? 'is-many' : ''}`} style={{ '--n': def.chips.length }}>
+        <div className={`fx-chips ${chipsCrowded(def.chips, width) ? 'is-many' : ''}`} style={{ '--n': def.chips.length, '--half': Math.max(2, Math.ceil(def.chips.length / 2)) }}>
           {def.chips.map(chip => (
             <button key={chip.state} type="button" className={`fx-chip ${swapState === chip.state ? 'is-on' : ''}`} aria-pressed={swapState === chip.state} onClick={() => onSwapChip(chip.state)}>
               <span className="fx-chip-sm" lang="sm" data-samoan={chip.sm}>{chip.sm}</span>
