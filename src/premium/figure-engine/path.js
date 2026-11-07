@@ -40,7 +40,11 @@ export function peopleGeometry(width) {
     listener: { x: width * (phone ? 0.6 : 0.58), y: top },
     third: { x: width * (phone ? 0.9 : 0.89), y: 0 },
   }
-  return { phone, mw, mh, places, height: top + mh + (phone ? 40 : 44), tile: phone ? { h: 30, fs: 18, pad: 9 } : { h: 36, fs: 21, pad: 12 } }
+  const tile = phone ? { h: 30, fs: 18, pad: 9 } : { h: 36, fs: 21, pad: 12 }
+  // Polish round 2026-11-07 (30.2): the return arrow (listener to speaker) has its own band under the
+  // marks' labels, so its particle never sits on the label row. `low` is that bow's lowest point.
+  const low = top + mh + 24 + tile.h / 2 + 4
+  return { phone, mw, mh, places, low, height: Math.max(top + mh + (phone ? 40 : 44), low + tile.h / 2 + 8), tile }
 }
 
 /** A quadratic curve with its point at t and the tangent at its end. */
@@ -63,7 +67,9 @@ function peopleCurve(c, geo, width) {
   // The two sides of the line never share an end, so each arrowhead belongs to one arrow.
   const apart = geo.phone ? 10 : 13
   if (c.from === 'listener' && c.to === 'speaker') {
-    return curve({ x: L.x - mw / 2 - gap, y: L.y + mid + apart }, { x: (S.x + L.x) / 2, y: L.y + mid + apart + bow }, { x: S.x + mw / 2 + gap, y: S.y + mid + apart })
+    // A quadratic's lowest point is half its control's depth: deep enough to reach the band (geo.low).
+    const y0 = L.y + mid + apart
+    return curve({ x: L.x - mw / 2 - gap, y: y0 }, { x: (S.x + L.x) / 2, y: y0 + Math.max(bow, 2 * (geo.low - y0)) }, { x: S.x + mw / 2 + gap, y: S.y + mid + apart })
   }
   if (c.from === 'speaker' && c.to === 'listener') {
     return curve({ x: S.x + mw / 2 + gap, y: S.y + mid - apart }, { x: (S.x + L.x) / 2, y: S.y + mid - apart - bow }, { x: L.x - mw / 2 - gap, y: L.y + mid - apart })

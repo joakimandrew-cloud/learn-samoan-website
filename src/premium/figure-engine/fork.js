@@ -82,6 +82,10 @@ export function ringBox(items) {
 function placeCases(scene, s, limit = Infinity) {
   const lineH = lineHeightOfRow(s)
   return scene.cases.map(c => {
+    // `breakBefore: true` on a tile (31.4's second *ʻua*): a case that wraps anyway breaks there, so a
+    // word is never stranded from its clause (polish round 2026-11-07).
+    const soft = limit !== Infinity && c.row.some(item => item.breakBefore)
+      && placeCases({ cases: [{ ...c, row: c.row.map(({ breakBefore, ...rest }) => rest) }] }, s, limit)[0].lines > 1 // eslint-disable-line no-unused-vars
     let x = 0
     let line = 0
     let total = 0
@@ -98,7 +102,7 @@ function placeCases(scene, s, limit = Infinity) {
       if (s.pack) {
         // Packed phone sizes (fitRow's last try): a label may reach over a neighbour (packLine).
         const room = box?.room ?? 0
-        if (packed.length && packLine([...packed.map(p => p.item), { w, room }], s.gap).widest > limit) {
+        if (packed.length && (packLine([...packed.map(p => p.item), { w, room }], s.gap).widest > limit || (soft && item.breakBefore))) {
           line += 1
           packed = []
         }
@@ -109,7 +113,7 @@ function placeCases(scene, s, limit = Infinity) {
         total = Math.max(total, widest)
         return placed
       }
-      if (x > 0 && x + col > limit) { line += 1; x = 0 }
+      if (x > 0 && (x + col > limit || (soft && item.breakBefore))) { line += 1; x = 0 }
       placed.x = x + (col - w) / 2
       placed.y = line * lineH
       total = Math.max(total, x + col)
@@ -122,7 +126,14 @@ function placeCases(scene, s, limit = Infinity) {
 
 /** One size for the whole figure, so Another example never changes the tile size. */
 export function forkSizes(def, width) {
-  const base = tileSizes(width)
+  // Compounds held whole unless that adds a line or shrinks the type (polish round 2026-11-07).
+  const whole = forkSizesAs(def, width, false)
+  const split = forkSizesAs(def, width, true)
+  return forkLines(def, width, whole) > forkLines(def, width, split) || whole.fs < split.fs ? split : whole
+}
+
+function forkSizesAs(def, width, hyphen) {
+  const base = { ...tileSizes(width), hyphen }
   const widthsAt = s => def.scenes.flatMap(scene => placeCases(scene, s).map(c => c.total))
   const twoLines = s => def.scenes.some(scene => placeCases(scene, s).some(c => c.items.some(item => item.labelLines > 1)))
   // The cases' lines once wrapped at this stage, for shrink-before-wrap (Step 9 batch 4).
@@ -307,6 +318,8 @@ export function forkFrame(scene, timeline, t, layout, geometry, width = Infinity
     // A slot a form fills fades as the form lands; an empty slot stays drawn.
     slotOpacity: slot?.slot && !slot.form ? 1 : clamp01(1 - ramp(dropP, 0.8, 1)),
     readP: reading ? travel(ramp(dropP, 0, 0.7)) : 1,
+    // A filled slot's label arrives as its form lands (Figure.jsx).
+    slotLabel: ramp(dropP, 0.75, 1),
     ringLabel: ramp(ringP, 0.7, 1),
     personRing,
     frames,

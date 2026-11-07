@@ -270,17 +270,18 @@ export function labelWidth(text, phone) {
   return uiWidth(t, `600 ${fs}px 'Barlow Condensed', 'Arial Narrow', sans-serif`) + t.length * fs * track
 }
 
-/** The width a label needs on two lines, split where it balances them best: at a space, or after
- *  the hyphen of a long compound (POINTING- / BACK WORD), where the browser breaks it too. A hyphen
- *  after fewer than five letters (NOT-, FROM-) never splits, so short compounds stay whole. */
-export function labelTwoLineWidth(text, phone, anyHyphen = false) {
+/** The width a label needs on two lines, split where it balances them best: at a space, or, where
+ *  `hyphen` is set, after the hyphen of a long compound (POINTING- / BACK WORD). A hyphen after fewer
+ *  than five letters (NOT-, FROM-) splits only in the packed phone fit (`anyHyphen`). Polish round
+ *  2026-11-07: a figure holds its compounds whole (no `hyphen`) unless that costs it a line; the row
+ *  and fork sizes choose (wholeOrHyphen), and the render follows the choice (Label's `whole`). */
+export function labelTwoLineWidth(text, phone, anyHyphen = false, hyphen = false) {
   const t = String(text)
   const splits = []
-  // `anyHyphen`: the packed phone fit (fitRow's last try) may split a short compound too (NOT- / WORD).
   const longEnough = anyHyphen ? /\p{L}{2}-$/u : /\p{L}{5}-$/u
   for (let i = 1; i < t.length; i++) {
     if (t[i] === ' ') splits.push([t.slice(0, i), t.slice(i + 1)])
-    else if (t[i - 1] === '-' && longEnough.test(t.slice(0, i))) splits.push([t.slice(0, i), t.slice(i)])
+    else if (hyphen && t[i - 1] === '-' && longEnough.test(t.slice(0, i))) splits.push([t.slice(0, i), t.slice(i)])
   }
   if (!splits.length) return labelWidth(text, phone)
   return Math.min(...splits.map(([a, b]) => Math.max(labelWidth(a, phone), labelWidth(b, phone))))

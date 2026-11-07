@@ -32,7 +32,8 @@ export const FIGURES = [
       },
       before: { say: 'ʻO le mea ʻou te manaʻo ai.', en: 'The thing I want.' },
       after: { say: 'ʻO le mea ʻou te manaʻo ʻi ai.', en: 'The thing I want.' },
-      states: [[['mea', 0], ['manao', 0], ['ai', 0]], [['mea', 0], ['manao', 0], ['i', 0], ['ai', 0]]],
+      // The dashed place where ʻi will land is drawn from the start, as every pending slot is (polish round 2026-11-07).
+      states: [[['mea', 0], ['manao', 0], ['GHOST'], ['ai', 0]], [['mea', 0], ['manao', 0], ['i', 0], ['ai', 0]]],
       beats: [{ kind: 'add', tile: 'i', to: 1 }, { kind: 'en' }],
     }],
   },

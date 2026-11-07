@@ -105,7 +105,8 @@ export const FIGURES = [
           sa: [face('Sā', 'tense', ''), face('sā', 'tense', '')],
           galue: [face('galue', 'verb', '')],
           tama: [face('le tama', 'quiet')],
-          i: [face('ʻi', 'marker', 'place word'), face('ʻI', 'marker', 'place word')],
+          // A wrapped row breaks before ʻi, so ʻi le faʻatoʻaga stands together (polish round 2026-11-07).
+          i: [{ ...face('ʻi', 'marker', 'place word'), breakBefore: true }, face('ʻI', 'marker', 'place word')],
           fa: [face('le faʻatoʻaga', 'noun', '')],
           ai: [face('ai', 'marker', 'pointing-back word')],
         },

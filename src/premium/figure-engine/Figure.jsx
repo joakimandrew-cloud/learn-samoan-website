@@ -8,7 +8,7 @@
  * every word, colour and motif of that course taken out
  * (reviews/lesson-simplify-2026-11-06/Build-Notes.md).
  */
-import { useCallback, useId, useMemo, useRef, useState } from 'react'
+import { useCallback, useId, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useFigureClock } from './lib/clock.js'
 import { enLineCount, enWidth, textWidth, uiWidth, useTileFont, useWidth } from './lib/metrics.js'
 import { land, ramp, travel } from './lib/motion.js'
@@ -26,19 +26,32 @@ import '../styles/chapter-page.css'
  *  lines in a title or caption; a longer one wraps as text does (Step 9 batch 2, Chapter 18). */
 const isShortPhrase = text => text.length <= 20 && text.trim().split(/\s+/).length <= 3
 
-/** Marks Sāmoan in a rich string (*like this*); each piece carries data-samoan for the sweep. */
-export function Rich({ text }) {
+/** A hyphenated compound in a label or title (POINTING-BACK, THE NOT-WORD) never breaks at its hyphen:
+ *  it is held whole and the line wraps at spaces (polish round 2026-11-07). The text keeps the book's
+ *  hyphen; only the wrap changes. */
+const noBreak = (part, key) => part.split(/(\S+-\S+)/g).filter(Boolean)
+  .map((bit, i) => (/\S-\S/.test(bit) ? <span key={`${key}-${i}`} className="fx-nobr">{bit}</span> : bit))
+
+/** Marks Sāmoan in a rich string (*like this*); each piece carries data-samoan for the sweep. `whole`
+ *  holds hyphenated compounds whole (labels and titles). */
+export function Rich({ text, whole = false }) {
   return String(text).split(/(\*[^*]+\*)/g).filter(Boolean).map((part, i) => {
-    if (!(part.startsWith('*') && part.endsWith('*'))) return <span key={i}>{part}</span>
+    if (!(part.startsWith('*') && part.endsWith('*'))) return <span key={i}>{whole ? noBreak(part, i) : part}</span>
     const sm = part.slice(1, -1)
     return <span key={i} className={`fx-sm${/\s/.test(sm) && isShortPhrase(sm) ? ' is-whole' : ''}`} lang="sm" data-samoan={sm}>{sm}</span>
   })
 }
 
-export function Label({ role, label }) {
+/** `whole` holds a hyphenated compound on one line; a figure whose sizes split compounds (s.hyphen,
+ *  where holding them would cost a line) lets them break at the hyphen as before. */
+export function Label({ role, label, whole = true }) {
   const text = label ?? ROLE_LABEL[role] ?? null
-  return text == null ? null : <Rich text={text} />
+  return text == null ? null : <Rich text={text} whole={whole} />
 }
+
+/** A title that is a full sentence is shown without its full stop, as most are; a question keeps its
+ *  mark. Draw time only: the chapter file keeps the book's text (polish round 2026-11-07). */
+const titleText = title => String(title).replace(/\.(\*?)$/, '$1')
 
 function TileFace({ face, style }) {
   return (
@@ -91,7 +104,7 @@ function rowEnglish(scene) {
   return [scene.before?.en, scene.after?.en, scene.whole?.en, ...(scene.lines ?? []).map(line => line.en ?? line.note)].filter(Boolean)
 }
 
-function RowStage({ scene, timeline, t, width, def, override, epoch }) {
+function RowStage({ scene, timeline, t, width, def, override, epoch, onSpare }) {
   // Every measure is taken again once the tile font has loaded (epoch), so no scene wraps on stale widths.
   const sizes = useMemo(() => rowSizes(def, width), [def, width, epoch]) // eslint-disable-line react-hooks/exhaustive-deps
   const layout = useMemo(() => rowLayouts(scene, width, sizes), [scene, width, sizes])
@@ -99,12 +112,19 @@ function RowStage({ scene, timeline, t, width, def, override, epoch }) {
   // A starting line too long for one line stacks, and each part wraps inside the stage (beforeBlock).
   const before = useMemo(() => beforeBlock(def, width, Math.max(...def.scenes.map(item => rowLayouts(item, width, sizes).x0))), [def, width, sizes, epoch]) // eslint-disable-line react-hooks/exhaustive-deps
   const twoLineBefore = before.two
-  const lines = useMemo(() => Math.max(...def.scenes.map(item => rowLayouts(item, width, sizes).lines)), [def, width, sizes])
   const reserveBefore = def.scenes.some(item => item.before)
-  // A long English line wraps; the stage keeps room for it in every scene, so its height holds.
-  const enLines = Math.max(1, ...def.scenes.flatMap(rowEnglish).map(text => enLineCount(text, width)))
-  // One height for the figure: the headroom and the English gap of its tallest scene, in every scene.
-  const geometry = useMemo(() => rowGeometry(sizes, def.scenes, twoLineBefore ? before.height : false, lines, reserveBefore, enLines), [sizes, def, twoLineBefore, before, lines, reserveBefore, enLines])
+  // The headroom is the tallest scene's in every scene, so the row stands at one place. Each scene's
+  // English sits under its own tiles (polish round 2026-11-07: a one-line example under a two-line one
+  // left a hole between tiles and English, 47.1), and the figure keeps its tallest scene's height:
+  // the shell puts the difference once at the foot of the card, so Another example moves no page.
+  const perScene = useMemo(() => def.scenes.map(item => {
+    const own = rowLayouts(item, width, sizes)
+    const enLines = Math.max(1, ...rowEnglish(item).map(text => enLineCount(text, width)))
+    return rowGeometry(sizes, def.scenes, twoLineBefore ? before.height : false, own.lines, reserveBefore, enLines, own.lastLabels)
+  }), [sizes, def, width, twoLineBefore, before, reserveBefore])
+  const geometry = perScene[Math.max(0, def.scenes.indexOf(scene))]
+  const spare = Math.max(...perScene.map(item => item.height)) - geometry.height
+  useLayoutEffect(() => { onSpare?.(spare) }, [onSpare, spare])
   const frame = rowFrame(scene, timeline, t, layout, geometry, override)
   const { s } = frame
   const vars = { '--fs': `${s.fs}px`, '--h': `${s.h}px`, '--pad': `${s.pad}px`, height: geometry.height }
@@ -191,7 +211,7 @@ function TileLabel({ role, label, s, tileW, style }) {
   const two = box.lines > 1
   return (
     <span className={`ft-label label-${role} ${two ? 'is-two' : ''}`} style={two ? { ...style, width: Math.ceil(box.width) + 2 } : style}>
-      <Label role={role} label={label} />
+      <Label role={role} label={label} whole={!s.hyphen} />
     </span>
   )
 }
@@ -280,7 +300,7 @@ function ForkStage({ def, scene, timeline, t, width, onLane, epoch }) {
       <div className="ff-lanes" style={{ gap: geometry.laneGap, height: geometry.laneH, gridTemplateColumns: `repeat(${geometry.count}, minmax(0, 1fr))` }}>
         {def.lanes.map((lane, i) => (
           <button key={lane.label} type="button" className="ff-lane" style={{ '--lit': frame.lit[i] ?? 0 }} onClick={() => onLane(i)} aria-pressed={(frame.lit[i] ?? 0) > 0.5}>
-            <span className="ff-lane-l"><Rich text={lane.label} /></span>
+            <span className="ff-lane-l"><Rich text={lane.label} whole /></span>
             {lane.forms?.length > 0 && (
               <span className="ff-lane-f">
                 {lane.forms.map(form => <span key={form} className="ft-word" lang="sm" data-samoan={form}>{form}</span>)}
@@ -305,7 +325,9 @@ function ForkStage({ def, scene, timeline, t, width, onLane, epoch }) {
             return (
               <span key={i} className="ft-tile" style={style}>
                 <span className="ft-ghost is-slot" style={{ opacity: frame.slotOpacity }} />
-                {shown && <TileLabel role={shown.role} label={shown.label} s={s} tileW={item.w} style={{ top: s.h + 7 }} />}
+                {/* An empty slot is never labelled alone: a slot a form fills takes its label as the form
+                    lands, a ringed one with the ring (polish round 2026-11-07: 33.3, 34.4, 31.3). */}
+                {shown && <TileLabel role={shown.role} label={shown.label} s={s} tileW={item.w} style={{ top: s.h + 7, opacity: item.form ? frame.slotLabel : item.ring ? frame.ringLabel : 1 }} />}
               </span>
             )
           }
@@ -494,7 +516,13 @@ function BuildStage({ def, scene, timeline, t, width, epoch }) {
 function chipsCrowded(chips, width) {
   if (!width || width >= 480 || chips.length < 3) return false
   const inner = (width - 8 * (chips.length - 1)) / chips.length - 3
-  return chips.some(chip => textWidth(chip.sm, 18) + 12 > inner)
+  // Polish round 2026-11-07 (30.1): a gloss that would run past two lines in its chip also takes two
+  // rows (12.5 px .fx-chip-en, 4 px of phone padding a side).
+  const glossLines = text => String(text).split(/\s+/).reduce((acc, word) => {
+    const next = acc.cur ? `${acc.cur} ${word}` : word
+    return acc.cur && uiWidth(next, `500 12.5px 'Inter Variable', Inter, sans-serif`) > inner - 8 ? { n: acc.n + 1, cur: word } : { n: acc.n, cur: next }
+  }, { n: 1, cur: '' }).n
+  return chips.some(chip => textWidth(chip.sm, 18) + 12 > inner || (chip.en && glossLines(chip.en) > 2))
 }
 
 const clampLabel = v => (v < 0 ? 0 : v > 1 ? 1 : v)
@@ -589,6 +617,7 @@ export default function Figure({ def, number = null, external = null, autoplay =
   const [picked, setPicked] = useState(null)
   const [chipOverride, setChipOverride] = useState(null)
   const [pathPick, setPathPick] = useState(null)
+  const [spare, setSpare] = useState(0)
   const timelines = useMemo(() => def.scenes.map(scene => (
     def.kind === 'row' ? rowTimeline(scene) : def.kind === 'fork' ? forkTimeline(scene, Boolean(def.limit)) : def.kind === 'path' ? pathTimeline(scene) : def.kind === 'build' ? buildTimeline(scene) : gridTimeline(def)
   )), [def])
@@ -653,10 +682,10 @@ export default function Figure({ def, number = null, external = null, autoplay =
       {/* The same head as an Interactive figure's (Shells.jsx), so the page has one figure system. */}
       <div className="fig-head fx-head">
         <span className="fig-k fx-k">{`Figure ${number ?? def.id}`}</span>
-        <span className="fig-t fx-t" id={headingId}><Rich text={def.title} /></span>
+        <span className="fig-t fx-t" id={headingId}><Rich text={titleText(def.title)} whole /></span>
       </div>
       <div className="fx-stage" ref={stageRef} aria-hidden={def.kind === 'row' || def.kind === 'path' || def.kind === 'build' ? 'true' : undefined}>
-        {width > 0 && def.kind === 'row' && <RowStage def={def} scene={scene} timeline={clock.timeline} t={clock.t} width={width} override={chipOverride} epoch={epoch} />}
+        {width > 0 && def.kind === 'row' && <RowStage def={def} scene={scene} timeline={clock.timeline} t={clock.t} width={width} override={chipOverride} epoch={epoch} onSpare={setSpare} />}
         {width > 0 && def.kind === 'path' && <PathStage def={def} scene={scene} timeline={clock.timeline} t={clock.t} width={width} picked={pathPick} />}
         {width > 0 && def.kind === 'fork' && <ForkStage def={def} scene={scene} timeline={clock.timeline} t={clock.t} width={width} onLane={onLane} epoch={epoch} />}
         {width > 0 && def.kind === 'grid' && <GridStage def={def} timeline={clock.timeline} t={clock.t} picked={picked} onPick={setPicked} width={width} />}
@@ -682,6 +711,8 @@ export default function Figure({ def, number = null, external = null, autoplay =
       ) : null}
       {def.limit && <LimitRow limit={def.limit} p={limitP} />}
       <Caption def={def} scene={clock.scene} />
+      {/* A shorter example's spare height, once, at the foot of the card (RowStage). */}
+      {def.kind === 'row' && spare > 0 && <div className="fx-spare" aria-hidden="true" style={{ height: spare }} />}
     </figure>
   )
 }

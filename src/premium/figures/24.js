@@ -12,6 +12,8 @@ export const FIGURES = [
     kind: 'row',
     types: ['swap'],
     title: 'A where-sentence puts a place, with a tense particle in front of it, where a verb would stand.',
+    // The book's sentence at this point, whole (polish round 2026-11-07): it sets the where-sentence beside the other two types.
+    caption: 'The three sentence types are the frame everything else hangs on: a verb sentence puts a tense particle in front of an action or a describing verb, a naming sentence sets two naming parts side by side with the presenting particle *ʻo*, and a where-sentence puts a place, with a tense particle in front of it, where a verb would stand.',
     // After the paragraph that names the three types, before Exercise 1; the two
     // Interactives sit at the end of the section, after Exercise 1.
     after: { section: 'the-three-sentence-types', block: b => b.type === 'p' && b.text.includes('where a verb would stand') },

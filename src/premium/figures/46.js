@@ -11,7 +11,8 @@ const pointsAt = (key, verb, who, aim, before, after) => ({
     v: [face(verb, 'verb')],
     o: [face('o', 'marker', 'belonging word')],
     who: [face(who, 'noun', '')],
-    i: [face('ʻi', 'marker', 'place word')],
+    // A wrapped row breaks before ʻi, so ʻi le teine stands together on row 2 (polish round 2026-11-07).
+    i: [{ ...face('ʻi', 'marker', 'place word'), breakBefore: true }],
     aim: [face(aim, 'noun', '')],
   },
   before,

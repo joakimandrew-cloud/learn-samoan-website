@@ -134,7 +134,8 @@ export const FIGURES = [
             lane: 0,
             say: 'ʻUa iloa e le tama ʻua sau le teine.',
             en: 'The boy knows that the girl has come.',
-            row: [face('ʻUa', 'tense'), face('iloa', 'verb'), face('e le tama', 'quiet'), { slot: true }, face('ʻua', 'tense', ''), face('sau', 'verb'), face('le teine', 'quiet')],
+            // A wrapped row breaks before ʻua, so ʻua sau le teine stays together (polish round 2026-11-07).
+            row: [face('ʻUa', 'tense'), face('iloa', 'verb'), face('e le tama', 'quiet'), { slot: true }, { ...face('ʻua', 'tense', ''), breakBefore: true }, face('sau', 'verb'), face('le teine', 'quiet')],
           },
           {
             lane: 1,

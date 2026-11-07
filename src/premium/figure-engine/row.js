@@ -65,7 +65,7 @@ export function labelBox(face, s, tileW = 0) {
   const one = labelWidth(text, phone) + 6
   const all = s.wrapLabels === 'all'
   if (!s.wrapLabels || (!all && one <= tileW + LABEL_SLACK)) return { room: one, lines: 1, width: one }
-  const two = labelTwoLineWidth(text, phone, all) + 6
+  const two = labelTwoLineWidth(text, phone, all, Boolean(s.hyphen)) + 6
   return two < one ? { room: two, lines: 2, width: two } : { room: one, lines: 1, width: one }
 }
 
@@ -127,7 +127,16 @@ export function packLine(items, gap) {
  *  sits centred in a column as wide as the tile or its label, whichever is wider; at packed phone
  *  sizes (`s.pack`, fitRow's last try) a label may reach over a neighbour instead (packLine). */
 function placeStates(scene, s, limit = Infinity, hold = true) {
-  const greedy = scene.states.map(state => placeState(scene, s, limit, state))
+  let greedy = scene.states.map(state => placeState(scene, s, limit, state))
+  // Polish round 2026-11-07: `breakBefore: true` on a tile's face (35.3's *ʻi*, 46.2's *ʻi*) says where
+  // a row that wraps should break, so a word is never stranded from its phrase. It applies only when
+  // the scene wraps anyway, and only if it adds no line.
+  const soft = new Set(Object.keys(scene.tiles || {}).filter(id => scene.tiles[id].some(face => face.breakBefore)))
+  if (soft.size && limit !== Infinity && greedy.some(m => m.__lines > 1)) {
+    const most = maps => Math.max(...maps.map(m => m.__lines))
+    const broken = scene.states.map(state => placeState(scene, s, limit, state, soft))
+    if (most(broken) <= most(greedy)) greedy = broken
+  }
   if (!hold || limit === Infinity || scene.states.length < 2) return greedy
   // Step 10 (Engine-Limits.md row 54): a Row holds its wrap decision across the states of a scene,
   // so no tile jumps from one line to the next as the sentence changes (40.1 at 390: the main
@@ -234,7 +243,15 @@ function placeState(scene, s, limit, state, forced = null) {
 
 /** One size for the whole figure, so Another example never changes the tile size. */
 export function rowSizes(def, width) {
-  const base = tileSizes(width)
+  // Compounds held whole unless that adds a line to the figure (polish round 2026-11-07).
+  const linesAt = s => def.scenes.reduce((sum, scene) => sum + Math.max(...placeStates(scene, s, width).map(m => m.__lines)), 0)
+  const whole = rowSizesAs(def, width, false)
+  const split = rowSizesAs(def, width, true)
+  return linesAt(whole) > linesAt(split) || whole.fs < split.fs ? split : whole
+}
+
+function rowSizesAs(def, width, hyphen) {
+  const base = { ...tileSizes(width), hyphen }
   const widthsAt = s => def.scenes.flatMap(scene => placeStates(scene, s).map(m => m.__w))
   // The figure's lines once wrapped at this stage, for shrink-before-wrap (Step 9 batch 4).
   const wrapAt = s => {
@@ -261,7 +278,12 @@ export function rowLayouts(scene, width, s) {
   layouts.forEach(map => {
     Object.keys(map).forEach(id => { if (!id.startsWith('__')) map[id].x += x0 })
   })
-  return { layouts, s, widest, x0, lines, stageW: width }
+  // Polish round 2026-11-07: does any tile on the scene's last line carry a label, in any state? If
+  // none does (50.1's *ʻou te alu atu*), the English sits under the tiles, with no empty label band.
+  const lastY = (lines - 1) * lineHeightOfRow(s)
+  const lastLabels = layouts.some(map => Object.keys(map).some(id => !id.startsWith('__') && map[id].y === lastY
+    && (id === 'SLOT' || (scene.tiles[id] || []).some(face => labelRoom(face, s, map[id].w) > 0))))
+  return { layouts, s, widest, x0, lines, lastLabels, stageW: width }
 }
 
 /** The lines a run of words takes when it wraps at `room`, each word measured by `measure`. */
@@ -300,7 +322,7 @@ export function beforeBlock(def, width, left = 8) {
 /** Geometry of the stage's rows, shared with the render. `scenes` is one scene or all of a
  *  figure's: given all, the headroom and English gap are the tallest scene's, so every scene of
  *  the figure keeps one height and its row at one place. */
-export function rowGeometry(s, scenes, twoLineBefore = false, lines = 1, reserveBefore = false, enLines = 1) {
+export function rowGeometry(s, scenes, twoLineBefore = false, lines = 1, reserveBefore = false, enLines = 1, lastLabels = true) {
   const all = [].concat(scenes)
   // `twoLineBefore` is the stacked starting line's height in px (beforeBlock), or true for 48 as before.
   const stackedH = typeof twoLineBefore === 'number' ? twoLineBefore : 48
@@ -315,7 +337,9 @@ export function rowGeometry(s, scenes, twoLineBefore = false, lines = 1, reserve
   const rowTop = beforeH + headroom
   const lineH = lineHeightOfRow(s)
   const labelTop = rowTop + (lines - 1) * lineH + s.h + 7
-  const enTop = labelTop + s.label + (s.labelExtra || 0) + (all.some(scene => scene.enFirstWord) ? 24 : 4)
+  const enFirst = all.some(scene => scene.enFirstWord)
+  // A last line with no label anywhere keeps no label band (lastLabels: rowLayouts).
+  const enTop = !lastLabels && !enFirst ? labelTop + 5 : labelTop + s.label + (s.labelExtra || 0) + (enFirst ? 24 : 4)
   const enH = 30
   return { beforeH, rowTop, labelTop, enTop, lineH, height: enTop + enH + (enLines - 1) * EN_WRAP_LINE }
 }

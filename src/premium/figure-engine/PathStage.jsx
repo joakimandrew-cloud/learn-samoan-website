@@ -114,10 +114,20 @@ export function PathStage({ def, scene, timeline, t, width, picked }) {
           )
         })}
       </div>
-      <p className="fp-say" style={{ opacity: say.opacity, transform: `translateY(${say.y}px)` }}>
-        <span className="fx-sm" lang="sm" data-samoan={c.say}>{c.say}</span>
-        <span className="fp-en" data-en={c.en}>{c.en}</span>
-      </p>
+      {/* Every case's sentence in one cell, so the card keeps its height from case to case (polish
+          round 2026-11-07, 30.2 frame 3); the others are unseen sizers. */}
+      <div className="fp-says">
+        {scene.cases.filter(item => item !== c).map(item => (
+          <p key={item.particle} className="fp-say is-sizer" aria-hidden="true">
+            <span className="fx-sm">{item.say}</span>
+            <span className="fp-en">{item.en}</span>
+          </p>
+        ))}
+        <p className="fp-say" style={{ opacity: say.opacity, transform: `translateY(${say.y}px)` }}>
+          <span className="fx-sm" lang="sm" data-samoan={c.say}>{c.say}</span>
+          <span className="fp-en" data-en={c.en}>{c.en}</span>
+        </p>
+      </div>
     </div>
   )
 }
