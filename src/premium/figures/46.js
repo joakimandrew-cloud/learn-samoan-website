@@ -9,10 +9,10 @@ const pointsAt = (key, verb, who, aim, before, after) => ({
     O: [face('ʻO', 'marker', 'presenting particle')],
     le: [face('le', 'marker', 'the article')],
     v: [face(verb, 'verb')],
-    o: [face('o', 'marker', 'belonging word')],
+    // A wrapped row breaks before the belonging word, so o le tama stands together on row 2.
+    o: [{ ...face('o', 'marker', 'belonging word'), breakBefore: true }],
     who: [face(who, 'noun', '')],
-    // A wrapped row breaks before ʻi, so ʻi le teine stands together on row 2 (polish round 2026-11-07).
-    i: [{ ...face('ʻi', 'marker', 'place word'), breakBefore: true }],
+    i: [face('ʻi', 'marker', 'place word')],
     aim: [face(aim, 'noun', '')],
   },
   before,
@@ -110,7 +110,7 @@ export const FIGURES = [
       key: 'fagu',
       tiles: {
         E: [face('E', 'tense', '')],
-        lelei: [face('faʻa=lē=lelei', 'quiet')],
+        lelei: [face('faʻa=lē=lelei', 'verb', '')],
         le: [face('le', 'marker', 'the article')],
         v: [face('faʻa=susu fagu', 'verb')],
         ea: [face('e', 'marker', 'agent marker'), face('a', 'marker', 'belonging word')],
