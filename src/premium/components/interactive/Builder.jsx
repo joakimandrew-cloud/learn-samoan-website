@@ -2,24 +2,29 @@
  * Figure: build a sentence by choosing one option per slot. Only sentences the
  * chapter prints can appear: choosing an option shows the printed sentence
  * that uses it, keeping as many of the other choices as the chapter allows.
- * Options that need another slot to move are drawn lighter. The Tongan site's
- * Lesson 1 "build any sentence" figure, made general.
+ * Options that need another slot to move are drawn lighter. Until the student
+ * chooses, it shows the printed sentences one after another, in their own
+ * order, in the same one-at-a-time queue as the moving figures (loop.js).
+ * The Tongan site's Lesson 1 "build any sentence" figure, made general.
  *
  * data: {
  *   slots: [{ key, label, options: [{ id, sm, en }] }],
  *   sentences: [{ pick: { <slot key>: <option id> }, sm, en }]
  * }
  */
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { AnimatePresence, motion as Motion } from 'motion/react'
 import T from '../T.jsx'
 import { Md } from '../lesson/InlineMarkdown.jsx'
+import { nextTurn, useLoop } from './loop.js'
 import '../../styles/ix-builder.css'
 
-export default function Builder({ data }) {
+export default function Builder({ data, id }) {
   const { slots, sentences } = data
   const [at, setAt] = useState(0)
   const current = sentences[at]
+  const ref = useRef(null)
+  const auto = useLoop({ id, rootRef: ref, count: sentences.length, at, play: nextTurn(() => setAt(a => (a + 1) % sentences.length)) })
 
   // For every option: is there a printed sentence with it and every other
   // current choice? If not, choosing it moves another slot.
@@ -46,7 +51,7 @@ export default function Builder({ data }) {
   }
 
   return (
-    <div className="cb ix-builder">
+    <div className="cb ix-builder" ref={ref}>
       <div className="cb-out">
         <div className="cb-sentence">
           <AnimatePresence mode="popLayout" initial={false}>
@@ -55,7 +60,8 @@ export default function Builder({ data }) {
             </Motion.span>
           </AnimatePresence>
         </div>
-        <div className="cb-en" aria-live="polite">{current.en}</div>
+        {/* Read out only when the student chooses, never on every turn of the loop. */}
+        <div className="cb-en" aria-live={auto ? 'off' : 'polite'}>{current.en}</div>
       </div>
       <div className="cb-controls">
         {slots.map(slot => (

@@ -4,6 +4,8 @@
  * Tap a form to read it: its meaning, a note and a printed example. With
  * `quiz`, a second mode, Find the form, asks for every form once by its
  * meaning, in a fresh order each round, and counts the ones found first time.
+ * Until the student takes over, it reads one form after another, in reading
+ * order, in the same one-at-a-time queue as the moving figures (loop.js).
  * The Tongan site's pronoun paradigm drill and clusivity matrix, made a
  * figure and fed from chapter data.
  *
@@ -20,6 +22,7 @@ import T from '../T.jsx'
 import { Md } from '../lesson/InlineMarkdown.jsx'
 import { keepControlKeysLocal, reshuffle, shuffle } from './engine.js'
 import { curly, gridCells, newRound, plain, promptsFor, quizReducer, stepCell, stop, verdictParts } from './grid-logic.js'
+import { nextTurn, useLoop } from './loop.js'
 import '../../styles/ix-grid.css'
 
 const ARROWS = { ArrowUp: [-1, 0], ArrowDown: [1, 0], ArrowLeft: [0, -1], ArrowRight: [0, 1] }
@@ -47,17 +50,20 @@ function Meaning({ entry, rows, cols }) {
   return <><Md text={rows[entry.r].label} />, <Md text={cols[entry.c]} /></>
 }
 
-function Detail({ entry, rows, cols }) {
+// `size`: an unseen copy that only holds the panel's height (ix-hold).
+function Detail({ entry, rows, cols, size = false }) {
   const { cell } = entry
   return (
-    <div className="cb-out ix-grid-panel ix-grid-detail">
+    <div className={`cb-out ix-grid-panel ix-grid-detail${size ? ' ix-hold-size' : ''}`} aria-hidden={size || undefined}>
       <div className="ix-grid-k"><Where entry={entry} rows={rows} cols={cols} /></div>
       <div className="cb-sentence ix-grid-form">
-        <AnimatePresence mode="popLayout" initial={false}>
-          <Motion.span key={entry.key} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -14 }} transition={{ duration: .3, ease: [.16, 1, .3, 1] }}>
-            <T>{cell.sm}</T>
-          </Motion.span>
-        </AnimatePresence>
+        {size ? <span><T>{cell.sm}</T></span> : (
+          <AnimatePresence mode="popLayout" initial={false}>
+            <Motion.span key={entry.key} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -14 }} transition={{ duration: .3, ease: [.16, 1, .3, 1] }}>
+              <T>{cell.sm}</T>
+            </Motion.span>
+          </AnimatePresence>
+        )}
       </div>
       {cell.en && <div className="cb-en"><Md text={curly(cell.en)} /></div>}
       {cell.note && <p className="ix-grid-note"><Md text={cell.note} /></p>}
@@ -79,7 +85,7 @@ function Status({ last, byKey }) {
   )
 }
 
-export default function Grid({ data }) {
+export default function Grid({ data, id }) {
   const { cols, rows } = data
   const uid = useId()
   const entries = useMemo(() => gridCells(rows, cols.length), [rows, cols.length])
@@ -93,6 +99,16 @@ export default function Grid({ data }) {
   const buttons = useRef(new Map())
   const exploreRef = useRef(null)
   const quizRef = useRef(null)
+  const rootRef = useRef(null)
+  // Each turn reads the next form in reading order, and round again.
+  const at = Math.max(0, entries.findIndex(e => e.key === selected))
+  const auto = useLoop({
+    id,
+    rootRef,
+    count: entries.length,
+    at,
+    play: nextTurn(() => setSelected(key => entries[(entries.findIndex(e => e.key === key) + 1) % entries.length].key)),
+  })
 
   const asking = Boolean(data.quiz) && mode === 'quiz'
   const total = quiz.order.length
@@ -176,7 +192,7 @@ export default function Grid({ data }) {
   const tableName = [data.rowLabel, data.colLabel].filter(Boolean).map(plain).join(' by ') || undefined
 
   return (
-    <div className="ix-grid" style={{ '--cols': cols.length }} onKeyDownCapture={keepControlKeysLocal}>
+    <div className="ix-grid" ref={rootRef} style={{ '--cols': cols.length }} onKeyDownCapture={keepControlKeysLocal}>
       {data.quiz && (
         <div className="ix-grid-bar">
           <div className="into-toggle ix-grid-mode" role="radiogroup" aria-label="Mode" onKeyDown={onModeKey}>
@@ -269,8 +285,16 @@ export default function Grid({ data }) {
         ))}
       </div>
 
-      {!asking && chosen && <Detail entry={chosen} rows={rows} cols={cols} />}
-      <p className="visually-hidden" aria-live="polite">{announce}</p>
+      {/* Every form's panel is laid in the same place, unseen, so the page below never moves when
+          the loop, or a tap, changes the form (ix-hold). */}
+      {!asking && chosen && (
+        <div className="ix-hold">
+          {entries.filter(e => e.key !== chosen.key).map(e => <Detail key={e.key} entry={e} rows={rows} cols={cols} size />)}
+          <Detail entry={chosen} rows={rows} cols={cols} />
+        </div>
+      )}
+      {/* Read out only when the student taps, never on every turn of the loop. */}
+      <p className="visually-hidden" aria-live={auto ? 'off' : 'polite'}>{announce}</p>
     </div>
   )
 }

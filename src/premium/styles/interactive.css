@@ -2,6 +2,11 @@
    need beyond lesson.css and source-core.css. Each widget keeps its own
    ix-<kind>.css. */
 .ix-fig { scroll-margin-top: 96px; }
+/* A panel that holds its tallest example (plan 2026-11-09-figure-loops): every example is laid in
+   the one place, unseen, so the page below never moves when the loop, or a tap, changes it. */
+.ix-hold { display: grid; }
+.ix-hold > * { grid-area: 1 / 1; min-width: 0; }
+.ix-hold > .ix-hold-size { visibility: hidden; pointer-events: none; }
 .ix-fig .fig-t .to { color: inherit !important; font-family: var(--f-serif); text-transform: none; font-weight: 500; }
 .ix-fig figcaption .to { font-size: 1em; }
 /* One caption treatment for new and Interactive figures: the hairline, muted UI type (look note 4; matches .fx-caption). */

@@ -2,7 +2,9 @@
  * Figure: printed forms placed along a line (time, distance, degree) or on a
  * small map (directions, positions). Choose a form, by tapping it or with
  * the arrow keys, to read its printed example in the panel underneath. One
- * form is chosen at a time; nothing moves by itself.
+ * form is chosen at a time. Until the student chooses, it reads one form after
+ * another, in order along the line, in the same one-at-a-time queue as the
+ * moving figures (loop.js).
  *
  * A line runs left to right, from `axis.from` to `axis.to`. When the figure
  * is too narrow for its labels to sit side by side, it stands the line on
@@ -19,6 +21,7 @@ import { AnimatePresence, motion as Motion } from 'motion/react'
 import T from '../T.jsx'
 import { Md } from '../lesson/InlineMarkdown.jsx'
 import { anchorFor, gaps, lineFits, orderPoints, stepOnLine, stepOnMap } from './scale-logic.js'
+import { nextTurn, useLoop } from './loop.js'
 import '../../styles/ix-scale.css'
 
 // Kept in step with ix-scale.css: the rail before 0 and after 100 (more at
@@ -45,6 +48,8 @@ export default function Scale({ data, id }) {
   const rootRef = useRef(null)
   const rulerRef = useRef(null)
   const buttons = useRef([])
+  // Each turn reads the next form along the line, and round again.
+  const auto = useLoop({ id, rootRef, count: points.length, at: chosen, play: nextTurn(() => setChosen(i => (i + 1) % points.length)) })
 
   // Measure the labels (in a hidden ruler, so the answer never depends on
   // which way the line is drawn) and stand the line on end when they would
@@ -104,7 +109,7 @@ export default function Scale({ data, id }) {
             ))}
           </div>
         </div>
-        <Detail point={current} />
+        <Detail point={current} points={points} quiet={auto} />
       </div>
     )
   }
@@ -150,35 +155,46 @@ export default function Scale({ data, id }) {
           </span>
         ))}
       </div>
-      <Detail point={current} />
+      <Detail point={current} points={points} quiet={auto} />
     </div>
   )
 }
 
 /* The chosen form's printed example, large, with its English and the note.
-   A form with no example shows itself and its gloss. */
-function Detail({ point }) {
+   A form with no example shows itself and its gloss. Read out only when the
+   student chooses, never on every turn of the loop (quiet). Every form's panel
+   is laid in the same place, unseen, so the page below never moves (ix-hold). */
+function Detail({ point, points, quiet }) {
   return (
-    <div className="ix-scale-detail" aria-live="polite" aria-atomic="true">
+    <div className="ix-scale-detail ix-hold" aria-live={quiet ? 'off' : 'polite'} aria-atomic="true">
+      {points.filter(p => p.key !== point.key).map(p => (
+        <div key={p.key} className="ix-hold-size" aria-hidden="true"><Out point={p} /></div>
+      ))}
       <AnimatePresence mode="wait" initial={false}>
         <Motion.div key={point.key} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} transition={{ duration: .22, ease }}>
-          <div className="cb-out ix-scale-out">
-            {point.sm ? (
-              <>
-                <p className="ix-scale-kicker"><T>{point.label}</T> <span>{point.gloss}</span></p>
-                <p className="cb-sentence ix-scale-sentence"><T>{point.sm}</T></p>
-                <p className="cb-en ix-scale-en">{point.en}</p>
-              </>
-            ) : (
-              <>
-                <p className="cb-sentence ix-scale-sentence"><T>{point.label}</T></p>
-                <p className="cb-en ix-scale-en">{point.gloss}</p>
-              </>
-            )}
-            {point.note && <p className="ix-scale-note"><Md text={point.note} /></p>}
-          </div>
+          <Out point={point} />
         </Motion.div>
       </AnimatePresence>
+    </div>
+  )
+}
+
+function Out({ point }) {
+  return (
+    <div className="cb-out ix-scale-out">
+      {point.sm ? (
+        <>
+          <p className="ix-scale-kicker"><T>{point.label}</T> <span>{point.gloss}</span></p>
+          <p className="cb-sentence ix-scale-sentence"><T>{point.sm}</T></p>
+          <p className="cb-en ix-scale-en">{point.en}</p>
+        </>
+      ) : (
+        <>
+          <p className="cb-sentence ix-scale-sentence"><T>{point.label}</T></p>
+          <p className="cb-en ix-scale-en">{point.gloss}</p>
+        </>
+      )}
+      {point.note && <p className="ix-scale-note"><Md text={point.note} /></p>}
     </div>
   )
 }

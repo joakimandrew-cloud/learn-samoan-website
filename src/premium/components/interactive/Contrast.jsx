@@ -6,7 +6,9 @@
  * first form (toggle) or from the step before (steps) are marked in the
  * accent colour; inside a word built from an earlier one, only the letters it
  * adds. A form with a tune draws its pitch contour over the words: the Tongan
- * site's Lesson 1 intonation figure, made general.
+ * site's Lesson 1 intonation figure, made general. Until the student takes
+ * over, it goes through its forms by itself and back to the first, and keeps
+ * going, in the same one-at-a-time queue as the moving figures (loop.js).
  *
  * data: {
  *   mode?: 'toggle' | 'steps',      default toggle
@@ -19,6 +21,7 @@ import { AnimatePresence, motion as Motion, useReducedMotion } from 'motion/reac
 import T from '../T.jsx'
 import { Md } from '../lesson/InlineMarkdown.jsx'
 import { englishWords, isTune, stageWords, TUNE_BASE, TUNE_VIEW, TUNES } from './contrast-logic.js'
+import { roundTurn, useLoop } from './loop.js'
 import '../../styles/ix-contrast.css'
 
 const EASE = [.16, 1, .3, 1]
@@ -53,7 +56,7 @@ function Sizer({ states }) {
   )
 }
 
-export default function Contrast({ data }) {
+export default function Contrast({ data, id }) {
   const states = data.states
   const n = states.length
   const steps = data.mode === 'steps'
@@ -62,8 +65,11 @@ export default function Contrast({ data }) {
   const cur = states[at]
   const still = useReducedMotion()
   const radios = useRef([])
+  const rootRef = useRef(null)
 
   const go = i => setView(v => (i === v.at || i < 0 || i >= n ? v : { at: i, from: v.at }))
+  // One turn goes through every form and back to the first; scrolled away, it starts again from the first.
+  const auto = useLoop({ id, rootRef, count: n, at, play: roundTurn(n, go), away: () => setView({ at: 0, from: null }) })
   const step = d => setView(v => {
     const i = v.at + d
     return i < 0 || i >= n ? v : { at: i, from: v.at }
@@ -116,7 +122,7 @@ export default function Contrast({ data }) {
   )
 
   return (
-    <div className={`ix-contrast${tuned ? ' is-tuned' : ''}${longest > 22 ? ' is-long' : ''}${steps ? ' is-steps' : ''}`}>
+    <div ref={rootRef} className={`ix-contrast${tuned ? ' is-tuned' : ''}${longest > 22 ? ' is-long' : ''}${steps ? ' is-steps' : ''}`}>
       {steps ? (
         <ol className={`ix-ct-track${n > 4 ? ' is-many' : ''}`} style={{ '--n': n }} aria-label="Steps">
           {states.map((s, i) => (
@@ -222,7 +228,8 @@ export default function Contrast({ data }) {
 
       <div className={`ix-ct-notes${notes ? '' : ' is-empty'}`}>
         {states.map((s, i) => (s.note ? <p key={i} className="ix-ct-note-size" aria-hidden="true"><Md text={s.note} /></p> : null))}
-        <div className="ix-ct-note" aria-live="polite">
+        {/* Read out only when the student changes the form, never on every turn of the loop. */}
+        <div className="ix-ct-note" aria-live={auto ? 'off' : 'polite'}>
           <span className="visually-hidden">
             {steps ? `Step ${at + 1} of ${n}: ` : ''}{plain(cur.label)}{stopAfter(plain(cur.label))}
             {cur.sm != null && <><span lang="sm">{cur.sm}</span>{stopAfter(cur.sm)}</>}
