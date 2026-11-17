@@ -14,7 +14,7 @@
  * and Open Graph tags. It only adds files; the bundles Vite made are untouched.
  * Also writes dist/sitemap.xml and dist/robots.txt.
  *
- * SITE_ORIGIN (default https://joakimandrew-cloud.github.io) and VITE_BASE
+ * SITE_ORIGIN (default https://learnsamoan.org) and VITE_BASE
  * (the build's base path) give the absolute URLs.
  */
 import fs from 'node:fs'
@@ -27,7 +27,7 @@ import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS, stripStars } from '.
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DIST = path.join(APP, 'dist')
 const base = (process.env.VITE_BASE || '/').replace(/\/?$/, '/')
-const origin = (process.env.SITE_ORIGIN || 'https://joakimandrew-cloud.github.io').replace(/\/$/, '')
+const origin = (process.env.SITE_ORIGIN || 'https://learnsamoan.org').replace(/\/$/, '')
 const site = `${origin}${base}`
 const socialImage = `${site}social/learn-samoan.png`
 

@@ -61,7 +61,7 @@ then open http://127.0.0.1:4190/
 
 `.github/workflows/deploy.yml` deploys to GitHub Pages on a push to `main`, as the Tongan site does. It builds with `VITE_BASE=/<repo name>/` for a project site; set it to `/` for a custom domain. `vite.config.js` writes the matching `404.html` so deep links survive a page refresh.
 
-This folder is its own git repository, `joakimandrew-cloud/learn-samoan-website`, published at https://joakimandrew-cloud.github.io/learn-samoan-website/. After a course change, run `npm run sync`, `npm test` and `npm run lint`, commit here and push to deploy.
+This folder is its own git repository, `joakimandrew-cloud/learn-samoan-website`, published at https://learnsamoan.org (GitHub Pages, custom domain). After a course change, run `npm run sync`, `npm test` and `npm run lint`, commit here and push to deploy.
 
 ## What differs from the Tongan site, and why
 

@@ -26,8 +26,9 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          # Project site at https://<owner>.github.io/<repo>/; set to / for a custom domain.
-          VITE_BASE: /${{ github.event.repository.name }}/
+          # Custom domain https://learnsamoan.org serves from the root path.
+          VITE_BASE: /
+          SITE_ORIGIN: https://learnsamoan.org
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

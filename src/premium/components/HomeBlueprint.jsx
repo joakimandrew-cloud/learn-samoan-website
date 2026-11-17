@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 // in development (mount, cleanup, mount): each run owns its own `cancelled` flag, so a module that arrives after its run was cleaned
 // up never mounts, and only the live run does.
 const NEAR = '200px 0px'
-// The site is served under a base path on GitHub Pages (/learn-samoan-website/); the router's basename is the same value
+// The site is served from the root path of https://learnsamoan.org (base /); the router's basename is the same value
 // (main.jsx). The card's link carries it, so a new-tab or modified click lands on the chapter; a plain click routes without it.
 const BASE = import.meta.env.BASE_URL
 
