@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import EntryMotif from '../components/EntryMotif.jsx'
 import { Link } from 'react-router-dom'
 import { useTitle } from '../lib/title.js'
@@ -9,17 +10,42 @@ import { CHAPTER_COUNT } from '@app/lib/course.js'
 import '../styles/white-red-home.css'
 import '../styles/home-practice-film.css'
 
+const COVER_COLOURS = [
+  { id: 'charcoal', label: 'Charcoal', description: 'Textured charcoal cover with ivory lettering and blue diagonal stripes.' },
+  { id: 'white', label: 'White', description: 'Textured white cover with black lettering and blue diagonal stripes.' },
+]
+const COVER_PATH = `${import.meta.env.BASE_URL}covers/2026-11-19-textured/`
+
 function CourseBook() {
+  const [colour, setColour] = useState(COVER_COLOURS[0])
+  const cover = `${COVER_PATH}cover-${colour.id}-3d`
+
   return (
-    <img
-      className="sm-book-cover"
-      src={`${import.meta.env.BASE_URL}covers/2026-10-28-charcoal/cover-blue-3d.webp`}
-      alt="Learn Sāmoan by Andrew Joakim, First Edition. Black cover with blue diagonal stripes."
-      width={1280}
-      height={1740}
-      fetchPriority="high"
-      decoding="async"
-    />
+    <>
+      <img
+        className="sm-book-cover"
+        src={`${cover}.webp`}
+        srcSet={`${cover}-640.webp 640w, ${cover}.webp 1280w`}
+        sizes="(max-width: 760px) 190px, 400px"
+        alt={`Learn Sāmoan by Andrew Joakim, First Edition. ${colour.description}`}
+        width={1280}
+        height={1740}
+        fetchPriority="high"
+        decoding="async"
+      />
+      <div className="sm-cover-colours" role="group" aria-label="Book cover colour">
+        {COVER_COLOURS.map(option => (
+          <button
+            key={option.id}
+            type="button"
+            aria-pressed={colour.id === option.id}
+            onClick={() => setColour(option)}
+          >
+            {option.label}
+          </button>
+        ))}
+      </div>
+    </>
   )
 }
 

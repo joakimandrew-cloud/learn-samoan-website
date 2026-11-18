@@ -11,6 +11,33 @@
   filter: none;
 }
 
+.sm-cover-colours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 12px auto 16px;
+}
+.sm-cover-colours button {
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid #b8b8b8;
+  border-radius: 4px;
+  color: var(--wr-ink);
+  background: #fff;
+  font: 600 .875rem/1.2 var(--f-ui);
+}
+.sm-cover-colours button:hover { border-color: var(--wr-red); }
+.sm-cover-colours button[aria-pressed="true"] {
+  color: #fff;
+  background: var(--wr-red);
+  border-color: var(--wr-red);
+}
+.sm-cover-colours button:focus-visible {
+  outline: 3px solid var(--wr-red);
+  outline-offset: 3px;
+}
+
 /* The band under the hero, in place of the Tongan kupesi band. */
 .wr-home__band, .ftr-band { background: var(--band); }
 .kp-band .kp-tile { color: #4a72d4; --kp-ground: var(--band); }
