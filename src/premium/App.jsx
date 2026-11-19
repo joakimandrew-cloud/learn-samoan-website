@@ -5,6 +5,7 @@ import { Header, Footer } from './components/Chrome.jsx'
 import Home from './pages/Home.jsx'
 import NotBuilt from './pages/NotBuilt.jsx'
 import LoadFailure from './components/LoadFailure.jsx'
+import RouteChrome from './components/RouteChrome.jsx'
 
 // Each inner page loads with its own data, so the homepage stays light.
 const Lessons = lazy(() => import('./pages/Lessons.jsx'))
@@ -100,6 +101,7 @@ export default function App() {
   return (
     <>
       <ScrollManager />
+      <RouteChrome />
       <Header progress={reading} />
       <AnimatePresence mode="wait">
         <Routes location={loc} key={loc.pathname}>

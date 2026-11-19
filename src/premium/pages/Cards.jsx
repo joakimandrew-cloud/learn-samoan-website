@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useTitle } from '../lib/title.js'
+import { STATIC_META, withTail } from '@app/seo/meta.js'
 import { Link, useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion as Motion } from 'motion/react'
 import chapters from '@app/data/chapters.json'
@@ -187,7 +188,7 @@ export default function Cards() {
   const globalWords = useMemo(() => ALL_CARDS.filter(chosen.test), [chosen])
   const globalKey = `collection:${chosen.id}`
   const lesson = chapters.find(chapter => chapter.chapter === lessonNumber)
-  useTitle(mode === 'global' ? 'Vocabulary flip cards' : `Flip cards: Chapter ${lessonNumber}`)
+  useTitle(mode === 'global' ? STATIC_META['/cards'].title : withTail(`Flip cards: Chapter ${lessonNumber}`))
   const groups = [...new Set(COLLECTIONS.map(entry => entry.group))]
 
   return (

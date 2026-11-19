@@ -17,6 +17,7 @@ import { filterDrillGroups } from '../lib/catalog-query.js'
 import { buildDeck } from '../lib/daily-words.js'
 import { LEVELS, LEVEL_FILTERS, buildDrillGroups, catalogIds, drillChapter, practiceItemsById } from '../lib/drills-catalog.js'
 import { useTitle } from '../lib/title.js'
+import { STATIC_META } from '@app/seo/meta.js'
 import '../styles/catalog.css'
 
 const DECK = buildDeck(VOCAB)
@@ -61,7 +62,7 @@ function DrillGroup({ section, filtering }) {
 }
 
 export default function Drills() {
-  useTitle('Practice drills')
+  useTitle(STATIC_META['/drills'].title)
   const searchRef = useRef(null)
   const [query, setQuery] = useState('')
   const [level, setLevel] = useState('all')

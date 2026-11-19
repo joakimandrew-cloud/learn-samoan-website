@@ -2,10 +2,11 @@ import EntryMotif from '../components/EntryMotif.jsx'
 import { Link } from 'react-router-dom'
 import { TileBand } from '../components/Tile.jsx'
 import { useTitle } from '../lib/title.js'
+import { withTail } from '@app/seo/meta.js'
 
 // Unknown addresses keep a clear route back into the course.
 export default function NotBuilt() {
-  useTitle('Page not found')
+  useTitle(withTail('Page not found'))
   return (
     <section className="wr-missing">
       <div className="wrap wr-missing-copy">

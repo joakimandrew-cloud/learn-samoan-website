@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import EntryMotif from '../components/EntryMotif.jsx'
 import glossary from '@app/data/glossary.json'
 import { useTitle } from '../lib/title.js'
+import { STATIC_META } from '@app/seo/meta.js'
 import '../styles/catalog.css'
 import '../styles/reference.css'
 import '../styles/topics.css'
@@ -31,7 +32,7 @@ const GROUPS = [
 ]
 
 export default function Reference() {
-  useTitle('Reference')
+  useTitle(STATIC_META['/reference'].title)
   return (
     <div className="catalog-page reference-catalog premium-reference premium-reference-topics">
       <header className="catalog-hero band grain">

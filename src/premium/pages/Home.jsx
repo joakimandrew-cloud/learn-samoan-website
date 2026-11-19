@@ -2,6 +2,7 @@ import { useState } from 'react'
 import EntryMotif from '../components/EntryMotif.jsx'
 import { Link } from 'react-router-dom'
 import { useTitle } from '../lib/title.js'
+import { HOME_TITLE } from '@app/seo/meta.js'
 import { TileBand } from '../components/Tile.jsx'
 import HomeBlueprint from '../components/HomeBlueprint.jsx'
 import HomePracticePreview from '../components/HomePracticePreview.jsx'
@@ -50,7 +51,7 @@ function CourseBook() {
 }
 
 export default function Home() {
-  useTitle(null)
+  useTitle(HOME_TITLE)
 
   return (
     <div className="wr-home">

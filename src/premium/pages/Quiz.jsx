@@ -1,6 +1,7 @@
 import EntryMotif from '../components/EntryMotif.jsx'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useTitle } from '../lib/title.js'
+import { quizTitle, withTail } from '@app/seo/meta.js'
 import { Link, useParams } from 'react-router-dom'
 import { AnimatePresence, motion as Motion, useReducedMotion } from 'motion/react'
 import quizzes from '@app/data/quizzes.json'
@@ -92,7 +93,7 @@ export default function Quiz() {
   const n = Number(num)
   const quiz = quizzes[String(n)]
   const lesson = chapters.find(c => c.chapter === n)
-  useTitle(quiz ? `Chapter ${n} quiz` : 'Quiz not found')
+  useTitle(quiz && lesson ? quizTitle(n, lesson.title) : withTail(quiz ? `Chapter ${n} Quiz` : 'Quiz not found'))
   const [idx, setIdx] = useState(0)
   const [answers, setAnswers] = useState([])
   const [finished, setFinished] = useState(false)

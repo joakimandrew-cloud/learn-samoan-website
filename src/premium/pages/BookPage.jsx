@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { motion as Motion } from 'motion/react'
 import { loadBookPage } from '../lib/book.js'
 import { useTitle } from '../lib/title.js'
+import { STATIC_META } from '@app/seo/meta.js'
 import { BOOK_PAGES } from '@app/lib/book-pages.js'
 import { Md } from '../components/lesson/Blocks.jsx'
 import MobileCompass from '../components/lesson/MobileCompass.jsx'
@@ -31,7 +32,7 @@ const READ_ON = [
 
 export default function BookPage({ page }) {
   const meta = BOOK_PAGES[page]
-  useTitle(meta.title)
+  useTitle(STATIC_META[`/${page}`].title)
   const [doc, setDoc] = useState(null)
   const [loadError, setLoadError] = useState(false)
   const [active, setActive] = useState(null)

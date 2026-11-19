@@ -1,9 +1,10 @@
 import { useEffect } from 'react'
-import { COURSE_NAME } from '@app/lib/course.js'
-import { HOME_TITLE } from '@app/lib/site-meta.js'
+import { HOME_TITLE } from '@app/seo/meta.js'
 
+// `title` is a full title as src/seo/meta.js builds it, tail included; a falsy
+// title means the home title. RouteChrome sets the same strings on navigation.
 export function useTitle(title) {
   useEffect(() => {
-    document.title = title ? `${title} · ${COURSE_NAME}` : HOME_TITLE
+    document.title = title || HOME_TITLE
   }, [title])
 }

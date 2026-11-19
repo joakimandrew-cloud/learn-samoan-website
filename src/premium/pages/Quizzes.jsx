@@ -5,6 +5,7 @@ import chapters from '@app/data/chapters.json'
 import quizzes from '@app/data/quizzes.json'
 import { useProgress } from '../lib/progress.js'
 import { useTitle } from '../lib/title.js'
+import { STATIC_META } from '@app/seo/meta.js'
 import '../styles/catalog.css'
 import { Md } from '../components/lesson/Blocks.jsx'
 import { CHAPTER_COUNT } from '@app/lib/course.js'
@@ -27,7 +28,7 @@ function quizEntries(query) {
 }
 
 export default function Quizzes() {
-  useTitle('Chapter quizzes')
+  useTitle(STATIC_META['/quizzes'].title)
   const searchRef = useRef(null)
   const [query, setQuery] = useState('')
   const { quiz: scores } = useProgress()

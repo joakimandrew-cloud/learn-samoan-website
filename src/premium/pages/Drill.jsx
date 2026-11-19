@@ -21,6 +21,7 @@ import { DrillEndLinks } from '../drills/drill-end-links.js'
 import { loadInteractives } from '../lib/book.js'
 import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS, drillChapter, drillEyebrow, stripStars } from '../lib/drills-catalog.js'
 import { useTitle } from '../lib/title.js'
+import { drillTitle } from '@app/seo/meta.js'
 import chapters from '@app/data/chapters.json'
 import '../styles/interactive.css'
 import '../styles/source-core.css'
@@ -98,7 +99,7 @@ export default function Drill() {
   const item = daily || !settled ? null : loaded.item
   const missing = !daily && settled && !item
   const title = daily ? DAILY_WORDS_ENTRY.title : item ? stripStars(item.title) : missing ? 'Drill not found' : ''
-  useTitle(title)
+  useTitle(title ? drillTitle(title) : null)
   const eyebrow = useMemo(() => drillEyebrow(id, chapters), [id])
 
   if (missing) return <Missing />

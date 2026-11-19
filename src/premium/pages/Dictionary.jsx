@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import glossary from '@app/data/glossary.json'
 import { browseDictionary, buildDictionary, dictionaryGroups, searchDictionary } from '../lib/course-dictionary.js'
 import { useTitle } from '../lib/title.js'
+import { STATIC_META } from '@app/seo/meta.js'
 import { Md } from '../components/lesson/Blocks.jsx'
 import T from '../components/T.jsx'
 import '../styles/catalog.css'
@@ -14,7 +15,7 @@ const ENTRIES = buildDictionary(glossary)
 const GROUPS = dictionaryGroups(ENTRIES)
 
 export default function Dictionary() {
-  useTitle('Glossary')
+  useTitle(STATIC_META['/glossary'].title)
   const searchRef = useRef(null)
   const [query, setQuery] = useState('')
   const [letter, setLetter] = useState('')

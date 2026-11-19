@@ -21,6 +21,7 @@ import EntryMotif from '../components/EntryMotif.jsx'
 import LessonFish from '../components/LessonFish.jsx'
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { useTitle } from '../lib/title.js'
+import { chapterTitle, withTail } from '@app/seo/meta.js'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion as Motion } from 'motion/react'
 import chapters from '@app/data/chapters.json'
@@ -337,7 +338,7 @@ export default function Lesson() {
   const [params] = useSearchParams()
   const n = Number(num)
   const meta = chapters.find(c => c.chapter === n)
-  useTitle(meta ? `Chapter ${n}: ${meta.title.replace(/\*/g, '')}` : 'Chapter not found')
+  useTitle(meta ? chapterTitle(n, meta.title) : withTail('Chapter not found'))
   const solo = __TEST_BUILD__ ? params.get('solo') : null
   const [loaded, setLoaded] = useState(null)
   const [loadError, setLoadError] = useState(false)

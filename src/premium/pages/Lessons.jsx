@@ -1,6 +1,7 @@
 import EntryMotif from '../components/EntryMotif.jsx'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTitle } from '../lib/title.js'
+import { STATIC_META } from '@app/seo/meta.js'
 import { Link } from 'react-router-dom'
 import { AnimatePresence, motion as Motion } from 'motion/react'
 import chapters from '@app/data/chapters.json'
@@ -108,7 +109,7 @@ function normalizeForDisplay(value) {
 }
 
 export default function Lessons() {
-  useTitle(`All ${CHAPTER_COUNT} chapters`)
+  useTitle(STATIC_META['/chapters'].title)
   const [query, setQuery] = useState('')
   const [level, setLevel] = useState('all')
   const inputRef = useRef(null)
