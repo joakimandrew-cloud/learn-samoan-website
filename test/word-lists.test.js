@@ -143,8 +143,11 @@ describe('word lists: the check catches a broken data file', () => {
 })
 
 describe('word lists: each word is its vocabulary row, linked to its dictionary page and its chapter', () => {
-  const themes = buildWordLists(data, vocabulary)
+  // Built inside the run, so a broken data file fails the tests above by name
+  // and these by the builder's own sentence, instead of stopping the file.
+  let themes
   const dictionary = loadDictionaryIndex(APP)
+  beforeAll(() => { themes = buildWordLists(data, vocabulary) })
 
   it('keeps the themes and the words in the order of the data file', () => {
     expect(themes.map(theme => theme.id)).toEqual(data.themes.map(theme => theme.id))
