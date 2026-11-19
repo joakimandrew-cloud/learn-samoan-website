@@ -11,7 +11,7 @@ const PAGES = [
   { to: '/introduction', group: 'sounds', kicker: 'Before Chapter 1', title: 'Sounds, Spelling, and How Words Work', text: 'How to say any written word aloud, where the stress falls, the two marks that carry meaning, and which style of spoken Sāmoan this book teaches.' },
   { to: '/pronunciation', group: 'sounds', kicker: 'Appendix', title: 'Pronunciation Guide', text: 'The sound system in one place: vowels, long vowels, stress, the ʻ mark, the consonants, and the everyday style.' },
   { to: '/charts', group: 'lookup', kicker: 'Appendix', title: 'Reference Charts', text: 'Pronouns, possessives, articles, the tense-aspect-mood particles and the demonstratives, reproduced from the chapters that print them.' },
-  { to: '/glossary', group: 'lookup', kicker: 'Appendix', title: 'Glossary', text: `All ${glossary.length} glossary entries, searchable in Sāmoan or English, each with the chapter that first teaches it.` },
+  { to: '/dictionary', group: 'lookup', kicker: 'Appendix', title: 'Dictionary', text: `All ${glossary.length} glossary entries as a dictionary, searchable in Sāmoan or English, each word with its own page and the chapter that teaches it.` },
 ]
 
 // The Tongan /topics card groups (src/pages/Topics.jsx), holding the four
@@ -25,9 +25,9 @@ const GROUPS = [
   },
   {
     key: 'lookup',
-    name: 'Charts & glossary',
+    name: 'Charts & dictionary',
     verbPhrase: 'Look it up',
-    lead: 'The grammar charts and the glossary, for checking a form while you work through the chapters.',
+    lead: 'The grammar charts and the dictionary, for checking a form while you work through the chapters.',
   },
 ]
 
@@ -39,7 +39,7 @@ export default function Reference() {
         <div className="wrap">
           <p className="eyebrow">Reference · From the back of the book</p>
           <h1 className="display">Keep it<br />nearby.</h1>
-          <p>The sound guide, the grammar charts and the glossary, for looking things up while you work through the chapters.</p>
+          <p>The sound guide, the grammar charts and the dictionary, for looking things up while you work through the chapters.</p>
         </div>
       </header>
       <div className="topics-page topics-index">

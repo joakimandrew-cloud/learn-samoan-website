@@ -20,7 +20,7 @@ const STEPS = [
     number: '03',
     title: 'Keep references nearby',
     text: 'Look up every word the course teaches, or the pronoun, possessive and particle charts, whenever you need them.',
-    links: [{ to: '/glossary', label: 'Glossary' }, { to: '/charts', label: 'Reference charts' }, { to: '/cards', label: 'Flip cards' }],
+    links: [{ to: '/dictionary', label: 'Dictionary' }, { to: '/charts', label: 'Reference charts' }, { to: '/cards', label: 'Flip cards' }],
   },
 ]
 

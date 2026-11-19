@@ -16,7 +16,7 @@ import { CHAPTER_COUNT } from '@app/lib/course.js'
 const nn = number => String(number).padStart(2, '0')
 const SITE = [
   ['/', 'Home'], ['/chapters', 'Chapters'], ['/drills', 'Drills'], ['/quizzes', 'Quizzes'],
-  ['/cards', 'Flip cards'], ['/glossary', 'Glossary'], ['/reference', 'Reference'],
+  ['/cards', 'Flip cards'], ['/dictionary', 'Dictionary'], ['/reference', 'Reference'],
 ]
 
 function reduced() {

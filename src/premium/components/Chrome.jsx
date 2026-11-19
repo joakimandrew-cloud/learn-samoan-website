@@ -11,7 +11,7 @@ const NAV = [
   { to: '/drills', label: 'Drills' },
   { to: '/quizzes', label: 'Quizzes' },
   { to: '/cards', label: 'Flip cards' },
-  { to: '/glossary', label: 'Glossary' },
+  { to: '/dictionary', label: 'Dictionary' },
   { to: '/reference', label: 'Reference' },
 ]
 
@@ -181,7 +181,7 @@ export function Footer() {
           <Link to="/introduction">Sounds and spelling</Link>
           <Link to="/pronunciation">Pronunciation guide</Link>
           <Link to="/charts">Reference charts</Link>
-          <Link to="/glossary">Glossary</Link>
+          <Link to="/dictionary">Dictionary</Link>
         </div>
         <div className="ftr-col">
           <h2>The course</h2>

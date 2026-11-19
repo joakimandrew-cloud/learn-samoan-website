@@ -14,6 +14,8 @@ const Quiz = lazy(() => import('./pages/Quiz.jsx'))
 const Quizzes = lazy(() => import('./pages/Quizzes.jsx'))
 const Cards = lazy(() => import('./pages/Cards.jsx'))
 const Dictionary = lazy(() => import('./pages/Dictionary.jsx'))
+const DictionaryWord = lazy(() => import('./pages/DictionaryWord.jsx'))
+const DictionaryEnglish = lazy(() => import('./pages/DictionaryEnglish.jsx'))
 const Reference = lazy(() => import('./pages/Reference.jsx'))
 const Drills = lazy(() => import('./pages/Drills.jsx'))
 const Drill = lazy(() => import('./pages/Drill.jsx'))
@@ -117,7 +119,10 @@ export default function App() {
           <Route path="/cards" element={<Page><Cards /></Page>} />
           <Route path="/drills" element={<Page><Drills /></Page>} />
           <Route path="/drill/:id" element={<Page><Drill /></Page>} />
-          <Route path="/glossary" element={<Page><Dictionary /></Page>} />
+          <Route path="/glossary" element={<Navigate to="/dictionary" replace />} />
+          <Route path="/dictionary" element={<Page><Dictionary /></Page>} />
+          <Route path="/dictionary/english/:slug" element={<Page><DictionaryEnglish /></Page>} />
+          <Route path="/dictionary/:slug" element={<Page><DictionaryWord /></Page>} />
           <Route path="/reference" element={<Page><Reference /></Page>} />
           <Route path="/introduction" element={<Page><BookPage page="introduction" /></Page>} />
           <Route path="/pronunciation" element={<Page><BookPage page="pronunciation" /></Page>} />
