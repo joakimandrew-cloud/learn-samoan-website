@@ -17,6 +17,7 @@ const Dictionary = lazy(() => import('./pages/Dictionary.jsx'))
 const DictionaryWord = lazy(() => import('./pages/DictionaryWord.jsx'))
 const DictionaryEnglish = lazy(() => import('./pages/DictionaryEnglish.jsx'))
 const Reference = lazy(() => import('./pages/Reference.jsx'))
+const WordLists = lazy(() => import('./pages/WordLists.jsx'))
 const Drills = lazy(() => import('./pages/Drills.jsx'))
 const Drill = lazy(() => import('./pages/Drill.jsx'))
 const BookPage = lazy(() => import('./pages/BookPage.jsx'))
@@ -130,6 +131,7 @@ export default function App() {
           <Route path="/dictionary/english/:slug" element={<Page><DictionaryEnglish /></Page>} />
           <Route path="/dictionary/:slug" element={<Page><DictionaryWord /></Page>} />
           <Route path="/reference" element={<Page><Reference /></Page>} />
+          <Route path="/word-lists" element={<Page><WordLists /></Page>} />
           <Route path="/introduction" element={<Page><BookPage page="introduction" /></Page>} />
           <Route path="/pronunciation" element={<Page><BookPage page="pronunciation" /></Page>} />
           <Route path="/charts" element={<Page><BookPage page="charts" /></Page>} />

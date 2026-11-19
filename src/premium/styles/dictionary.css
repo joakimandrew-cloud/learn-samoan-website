@@ -29,8 +29,8 @@ a.dictionary-lesson:hover { text-decoration: underline; text-underline-offset: 4
 /* /word-lists. Built from the dictionary rows and catalog groups above. */
 .word-list-index { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 24px; }
 .word-list-index .catalog-count { margin: 0; }
-.word-list-index ul { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 0; padding: 0; list-style: none; }
-.word-list-index a { color: var(--red); font: 750 14px var(--f-ui); text-decoration: none; }
+.word-list-index ul { display: flex; flex-wrap: wrap; gap: 0 22px; margin: 0; padding: 0; list-style: none; }
+.word-list-index a { display: inline-flex; align-items: center; min-height: 32px; color: var(--red); font: 750 14px var(--f-ui); text-decoration: none; }
 .word-list-index a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .word-list-group { scroll-margin-top: calc(var(--hdr-h) + 16px); }
 .word-list-group > header { align-items: center; }
@@ -43,6 +43,8 @@ a.dictionary-lesson:hover { text-decoration: underline; text-underline-offset: 4
 }
 .word-list-other { display: block; margin-top: 4px; color: var(--muted); font: 14px/1.5 var(--f-ui); }
 .word-list-other a { color: var(--red); font-weight: 700; }
+/* The two closing sentences under the last theme. */
+.word-list-notes { margin-top: 46px; }
 
 @media (max-width: 640px) {
   .dictionary-alphabet { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; }
