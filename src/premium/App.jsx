@@ -21,6 +21,7 @@ const Drills = lazy(() => import('./pages/Drills.jsx'))
 const Drill = lazy(() => import('./pages/Drill.jsx'))
 const BookPage = lazy(() => import('./pages/BookPage.jsx'))
 const TopicArticle = lazy(() => import('./pages/TopicArticle.jsx'))
+const GrandmotherQuiz = lazy(() => import('./pages/GrandmotherQuiz.jsx'))
 const Games = lazy(() => import('./pages/Games.jsx'))
 const WordBalloons = lazy(() => import('./pages/WordBalloons.jsx'))
 const SentenceTiles = lazy(() => import('./pages/SentenceTiles.jsx'))
@@ -120,6 +121,7 @@ export default function App() {
           <Route path="/lessons/:num" element={<LegacyChapter />} />
           <Route path="/quizzes" element={<Page><Quizzes /></Page>} />
           <Route path="/quizzes/:num" element={<Page><Quiz /></Page>} />
+          <Route path="/quiz" element={<Page><GrandmotherQuiz /></Page>} />
           <Route path="/cards" element={<Page><Cards /></Page>} />
           <Route path="/drills" element={<Page><Drills /></Page>} />
           <Route path="/drill/:id" element={<Page><Drill /></Page>} />

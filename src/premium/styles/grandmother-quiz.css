@@ -1,0 +1,30 @@
+/* /quiz: the grandmother test. Layout only. The hero is catalog.css, the card, the answer
+   buttons, the feedback and the result ring are quiz.css, and every colour and font is a
+   token of base.css. The hero is kept short so the first sentence shows on a phone's first screen. */
+.wr-inner .gq .gq-hero { padding: clamp(30px, 5vw, 56px) 0 clamp(26px, 4vw, 48px); }
+.wr-inner .gq .gq-hero h1 { margin: 14px 0 16px; font-size: clamp(40px, 6vw, 84px); }
+.gq-body { padding-top: clamp(22px, 4vw, 44px); padding-bottom: clamp(72px, 9vw, 120px); }
+.gq-stage { max-width: 780px; scroll-margin-top: calc(var(--hdr-h) + 14px); }
+.gq-progress { display: flex; align-items: center; gap: 18px; margin-bottom: 16px; }
+.gq-progress .qz-count { flex: none; margin: 0; }
+.gq .gq-card { max-width: none; margin: 0; }
+.gq-phrase { margin: 8px 0 18px; color: var(--red); font-size: clamp(30px, 5.4vw, 46px); font-weight: 600; line-height: 1.14; overflow-wrap: anywhere; }
+.gq-prompt { margin: 0 0 16px; font: 650 17px/1.4 var(--f-ui); }
+.gq .qz-why-p strong { font-weight: 650; }
+.gq .qz-foot { justify-content: flex-end; }
+.gq-skip { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; margin-top: 18px; color: var(--muted); font-size: 14px; font-weight: 650; text-decoration: none; }
+.gq-skip:hover { color: var(--red); }
+.gq .gq-result { max-width: none; align-items: flex-start; text-align: left; }
+.gq-result .qz-res-h { font-size: clamp(38px, 5.4vw, 68px); }
+.gq-result-body { max-width: 58ch; margin: 18px 0 0; color: var(--muted); font: 18px/1.65 var(--f-serif); }
+.gq-result .qz-res-actions { justify-content: flex-start; }
+.gq-result .qz-review { margin-top: 52px; }
+.gq-result .qz-rv-q { margin-bottom: 8px; color: var(--red); }
+.gq-result .qz-rv-why { margin-top: 6px; }
+.gq-result .qz-rv-why a { color: var(--red); font: 650 14px var(--f-ui); }
+
+@media (max-width: 640px) {
+  /* The Next button shows once a choice is made and sits under the feedback, so it never covers a choice. */
+  .gq .qz-foot { position: static; margin-top: 18px; padding: 0; background: none; }
+  .gq-result .qz-res-actions .btn { width: 100%; }
+}
