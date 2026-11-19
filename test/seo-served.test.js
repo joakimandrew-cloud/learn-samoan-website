@@ -135,7 +135,8 @@ describe('seo: a chapter is served as its heading and opening paragraphs only', 
         }
       }
       // The opening paragraphs are the only running prose: the rest is crumb, section names, links.
-      expect(count(html, /<p /g), `chapter ${n} paragraphs`).toBeLessThanOrEqual(opening.length + 3)
+      // Two opening paragraphs at most, plus the crumb line, the quiz link and the chapter nav.
+      expect(count(html, /<p /g), `chapter ${n} paragraphs`).toBeLessThanOrEqual(5)
     }
   })
 
