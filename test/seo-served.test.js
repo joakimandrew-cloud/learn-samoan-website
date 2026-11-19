@@ -93,7 +93,7 @@ describe('seo: structured data', () => {
       expect(blocks, r.path).toHaveLength(1)
       const graph = blocks[0]['@graph']
       const own = r.path === '/' ? `${ORIGIN}/` : `${ORIGIN}${r.path}`
-      expect(graph.some(n => n.url === own), `${r.path} has a node with its own URL`).toBe(true)
+      expect(graph.some(n => n.url === own || (n.itemListElement || []).some(i => i.item === own)), `${r.path} has a node with its own URL`).toBe(true)
       expect(graph.some(n => n['@type'] === 'Organization'), r.path).toBe(true)
       const raw = JSON.stringify(graph)
       expect(raw, r.path).not.toMatch(/"offers"|"price"|isAccessibleForFree/)

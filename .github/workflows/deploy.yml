@@ -32,6 +32,11 @@ jobs:
           # Custom domain https://learnsamoan.org serves from the root path.
           VITE_BASE: /
           SITE_ORIGIN: https://learnsamoan.org
+      # The page check reads the built dist/: every dictionary page, its title, its
+      # canonical, its structured data and its sitemap entry.
+      - run: npm run check:dictionary
+        env:
+          SITE_ORIGIN: https://learnsamoan.org
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

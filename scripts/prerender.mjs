@@ -28,13 +28,14 @@ import path from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import {
   DEFAULT_DESCRIPTION, SITE_NAME, STATIC_META,
-  chapterDescription, chapterTitle, drillDescription, drillTitle, quizDescription, quizTitle, withTail,
+  chapterDescription, dictionaryPageMeta, chapterTitle, drillDescription, drillTitle, quizDescription, quizTitle, withTail,
 } from '../src/seo/meta.js'
 import { BOOK_PAGES } from '../src/lib/book-pages.js'
 import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS, stripStars } from '../src/premium/lib/drills-catalog.js'
 import { esc } from './lib/book-html.mjs'
 import { createServed } from './lib/served-text.mjs'
 import { createGraphs } from './lib/jsonld.mjs'
+import { loadDictionaryIndex } from './lib/dictionary-data.mjs'
 
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -69,7 +70,7 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
 
   const chapters = readJson(app, 'src', 'data', 'chapters.json')
   const quizzes = readJson(app, 'src', 'data', 'quizzes.json')
-  const glossary = readJson(app, 'src', 'data', 'glossary.json')
+  const dictionary = loadDictionaryIndex(app)
   const vocabulary = readJson(app, 'src', 'data', 'book-vocabulary.json')
   const drillCatalog = readJson(app, 'src', 'premium', 'data', 'drills-catalog.json')
   const readBook = file => fs.readFileSync(path.join(app, 'book', file), 'utf8')
@@ -82,7 +83,7 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
     }
   }
 
-  const served = createServed({ base, chapters, quizzes, glossary, vocabulary, drillCatalog, practiceItems, readBook })
+  const served = createServed({ base, chapters, quizzes, dictionary, vocabulary, drillCatalog, practiceItems, readBook })
   const graphFor = createGraphs({ site, chapters })
 
   const routes = []
@@ -93,7 +94,7 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
   add({ path: '/drills', kind: 'page', ...STATIC_META['/drills'] }, served.drills())
   add({ path: '/quizzes', kind: 'page', ...STATIC_META['/quizzes'] }, served.quizzes())
   add({ path: '/cards', kind: 'page', ...STATIC_META['/cards'] }, served.cards())
-  add({ path: '/glossary', kind: 'page', ...STATIC_META['/glossary'] }, served.glossary())
+  add({ path: '/dictionary', kind: 'dictionary', ...STATIC_META['/dictionary'] }, served.dictionaryHub())
   add({ path: '/reference', kind: 'page', ...STATIC_META['/reference'] }, served.reference())
   for (const c of chapters) {
     const file = `Chapter-${String(c.chapter).padStart(2, '0')}.md`
@@ -112,6 +113,15 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
     const c = chapters.find(x => x.chapter === n)
     add({ path: `/quizzes/${n}`, kind: 'quiz', chapter: n, title: quizTitle(n, c?.title), description: quizDescription(n, c?.title) }, served.quiz(n))
   }
+  // One page per word spelling and one per English word, from the course's own
+  // glossary: titles and descriptions come from dictionaryPageMeta(), the
+  // function the app reads, so a page and its prerender never disagree.
+  for (const wordPage of dictionary.pages) {
+    add({ path: wordPage.path, kind: 'word', ...dictionaryPageMeta(wordPage), page: wordPage }, served.dictionaryWord(wordPage))
+  }
+  dictionary.english.forEach((englishPage, at) => {
+    add({ path: englishPage.path, kind: 'english', ...dictionaryPageMeta(englishPage), page: englishPage }, served.dictionaryEnglish(englishPage, dictionary.english[at - 1], dictionary.english[at + 1]))
+  })
   for (const [key, meta] of Object.entries(BOOK_PAGES)) {
     add({ path: `/${key}`, kind: 'page', ...STATIC_META[`/${key}`] }, served.book(`/${key}`, meta.file))
   }
@@ -153,11 +163,14 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
     return html
   }
 
-  // The old /lessons addresses: redirect shells so the host answers 200 (no 404
-  // before the client redirect). They point at the chapter pages, are marked
-  // noindex and are kept out of the sitemap.
-  const legacy = [{ path: '/lessons', to: '/chapters' }, ...chapters.map(c => ({ path: `/lessons/${c.chapter}`, to: `/chapters/${c.chapter}` }))]
-    .map(r => ({ path: r.path, to: r.to, title: withTail('Chapters'), description: DEFAULT_DESCRIPTION, noindex: true }))
+  // The old /lessons addresses and /glossary: redirect shells so the host answers
+  // 200 (no 404 before the client redirect). They point at the chapter pages and
+  // at the dictionary, are marked noindex and are kept out of the sitemap.
+  const legacy = [
+    ...[{ path: '/lessons', to: '/chapters' }, ...chapters.map(c => ({ path: `/lessons/${c.chapter}`, to: `/chapters/${c.chapter}` }))]
+      .map(r => ({ path: r.path, to: r.to, title: withTail('Chapters'), description: DEFAULT_DESCRIPTION, noindex: true })),
+    { path: '/glossary', to: '/dictionary', title: withTail('Dictionary'), description: STATIC_META['/dictionary'].description, noindex: true },
+  ]
 
   let written = 0
   const write = (route, html) => {
@@ -184,7 +197,11 @@ ${routes.map(r => `  <url><loc>${esc(urlOf(r.path))}</loc><lastmod>${today}</las
   const robots = `User-agent: *\nAllow: /\n${TEST_ONLY_PATHS.map(p => `Disallow: ${base}${p}`).join('\n')}\n\nSitemap: ${site}sitemap.xml\n`
   fs.writeFileSync(path.join(dist, 'robots.txt'), robots)
   if (!quiet) console.log(`prerender: ${routes.length} routes, ${written} files, sitemap.xml and robots.txt for ${site}`)
-  return { routes: routes.map(({ rootHtml: _root, ...r }) => r), site, base }
+  return {
+    routes: routes.map(({ rootHtml: _root, page: _page, ...r }) => r),
+    dictionary: { entries: dictionary.entries.length, wordPages: dictionary.pages.length, englishPages: dictionary.english.length },
+    site, base,
+  }
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

@@ -33,6 +33,16 @@ export function createGraphs({ site, chapters }) {
     itemListElement: trail.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, item: url(t.path) })),
   })
 
+  // The dictionary as a defined term set; every word page's DefinedTerm points here.
+  const termSet = {
+    '@type': 'DefinedTermSet',
+    '@id': `${url('/dictionary')}#termset`,
+    name: `${SITE_NAME} Dictionary`,
+    url: url('/dictionary'),
+    inLanguage: 'en',
+    isPartOf: { '@id': SITE_ID },
+  }
+
   const graph = nodes => ({ '@context': 'https://schema.org', '@graph': nodes.filter(Boolean) })
 
   /** route: { path, title, description, kind, chapter? } */
@@ -112,6 +122,31 @@ export function createGraphs({ site, chapters }) {
             provider: { '@id': ORG_ID },
           },
           breadcrumb([home, { name: 'Drills', path: '/drills' }, { name: route.name, path }]),
+        ])
+      case 'dictionary':
+        return graph([
+          organization, website,
+          { '@type': 'WebPage', '@id': `${self}#webpage`, name: title, description, url: self, inLanguage: 'en', isPartOf: { '@id': SITE_ID } },
+          termSet,
+          breadcrumb([home, { name: 'Dictionary', path }]),
+        ])
+      case 'word':
+        return graph([
+          organization, website, termSet,
+          ...route.page.entries.map(entry => ({
+            '@type': 'DefinedTerm',
+            '@id': `${self}#${entry.id}`,
+            name: entry.display,
+            description: plain(entry.english),
+            url: self,
+            inDefinedTermSet: { '@id': termSet['@id'] },
+          })),
+          breadcrumb([home, { name: 'Dictionary', path: '/dictionary' }, { name: route.page.words.join(', '), path }]),
+        ])
+      case 'english':
+        return graph([
+          organization, website,
+          breadcrumb([home, { name: 'Dictionary', path: '/dictionary' }, { name: `How to say ${route.page.headword} in Sāmoan`, path }]),
         ])
       default:
         return graph([

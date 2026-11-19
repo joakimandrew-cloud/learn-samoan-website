@@ -11,7 +11,10 @@ The Samoan course as a website, built the way the Tongan site at leafakatonga.or
 | `/chapters/:n` | A chapter: reading, interactive exercises, Words to Learn table and cards, finish |
 | `/quizzes`, `/quizzes/:n` | The 52 ten-question quizzes |
 | `/cards` | Flip cards: by chapter, by list, by band |
-| `/glossary` | The Glossary appendix, searchable |
+| `/dictionary` | The words the course teaches, searchable in Samoan or English, with the glossary's own letter groups (search and letter live in the address fragment, `#q=`, `#letter=`) |
+| `/dictionary/<slug>` | One page per word spelling: each entry with its printed meaning, the chapter that teaches it and up to three printed sentences |
+| `/dictionary/english/<slug>` | "How to say X in Samoan": every word whose meaning holds that English word |
+| `/glossary` | Sends the visitor to `/dictionary`; its built file is noindex with a canonical to `/dictionary` and it is not in the sitemap |
 | `/reference` | Hub for the Introduction and the appendices |
 | `/introduction`, `/pronunciation`, `/charts` | The Introduction, Pronunciation Guide and Reference Charts |
 
@@ -24,6 +27,7 @@ The Samoan course as a website, built the way the Tongan site at leafakatonga.or
 | `../book/Chapter-NN.md`, `Introduction.md`, `appendix-*.md` | `book/` (learner copy) |
 | the same chapters | `src/data/chapters.json`, `book-vocabulary.json`, `book-exercises.json`, `quick-practice.json` |
 | `../book/appendix-glossary.md` | `src/data/glossary.json` |
+| `book/Chapter-NN.md` (the website's copy) | `src/premium/data/dictionary-examples.json` (`npm run build:dictionary-data`, run by `npm run sync` after the course sync) |
 | `../quizzes/samoan_grammar_quiz_chNN.md` | `src/data/quizzes.json` |
 
 The learner copy removes HTML comments and each "Author Verification Required (removed at publication)" block, the same cut `filters/strip-verification.lua` makes for the PDF and EPUB. Nothing else changes: no spelling, diacritic or punctuation normalisation. Every Samoan string on the site is a substring of a course file.
@@ -42,12 +46,15 @@ npm run sync:check   # needs the parent vault
 npm run lint
 npm test             # data guards; runs without the parent vault
 npm run build
+npm run check:dictionary   # reads the built dist/
 npm run gates        # the ship gates: lint, test, check:interactives, check:bloom, check:figures
 ```
 
 `npm run check:figures [-- N]` holds every string on a chapter's moving figures (`src/premium/figures/NN.js`) word for word to that chapter's `book/Chapter-NN.md`, and checks their joins, beats, roles, anchors and `REPLACES` ids. It runs in `npm run gates` and deliberately never in `build` or `prebuild` (`test/gates.test.js` holds that), so a later book repair can fail it and be fixed but can never fail a deploy. A book repair may need a figure repair; this check names which. The authoring card is `spec/Chapter-Figures-Method.md` in the course vault.
 
 A test build (`npx vite --port 4191`, or `LS_TEST_BUILD=1 npm run build`) adds the capture flags (`?still`, `?solo=N.K`), the `/__proto/chapter/N` route and the `/scrub` figure scrubber. A production build leaves them out of the bundle.
+
+`npm run check:dictionary` runs over the built `dist/` after `npm run build` and the deploy runs it too. It fails when any count is zero, a glossary entry is on no page or on two, two indexable pages share a title, a dictionary page lacks exactly one canonical or one `<h1>`, its structured data does not parse or holds the wrong number of DefinedTerm nodes, its title or description differs from what `src/seo/meta.js` returns, it holds U+2014 or "Page not found", a dictionary address is missing from the sitemap, or a `lang="sm"` string is not found in the course data or `book/*.md`. It prints the counts of rows, word pages and English pages and how many senses each English rule dropped. `npm run build:dictionary-data -- --check` writes nothing and fails when `dictionary-examples.json` is stale; `npm test` fails on a stale file too.
 
 ## Local preview
 
@@ -66,6 +73,7 @@ This folder is its own git repository, `joakimandrew-cloud/learn-samoan-website`
 ## What differs from the Tongan site, and why
 
 - Drills are the course's own practice, not Tongan decks: `/drills` lists the 55 chapter practice items (the same `src/data/interactives/NN.json` items the chapters show) plus Daily words, and `/drill/<id>` plays one. The groups are in `src/premium/data/drills-catalog.json`; every card and page is derived at run time from the item, so no Samoan is typed into a new file. `scripts/check-interactives.mjs` (run by `prebuild` and `npm test`) fails the build if the catalogue or the Daily words deck (rows of `book-vocabulary.json`) shows Samoan the course does not print. No tense machine, sentence builder or terminal build: they would compose Samoan.
+- The dictionary is the course's own glossary and nothing else: no word from outside the course, and no text of any published dictionary. Words that fold to one address (`tama` and `tamā`) share a page as separate entries under their own marked headwords; a bound form (`=a`) has its own address (`a-form`). English pages are made only from entries in the Vocabulary and Words to carry lists whose meaning holds no colon, with a leading "also" stripped and a sense that opens with "of" dropped. Sentences come from the chapter that teaches the word or a later one, only where the English printed beside the sentence holds the word's sense.
 - No topic articles, word lists or membership: they are built from Tongan-only data or are Tongan business pages.
 - The homepage uses Andrew's approved Samoan Blue cover with the bolder author name, tactile matte finish and lighter charcoal paper (`public/covers/2026-10-28-charcoal/cover-blue-3d.webp`). The lossless asset preserves the approved mockup's lettering, geometry and transparency. Other site decoration still uses plain squares (`src/premium/components/Tile.jsx`).
 - "Chapter", never "Lesson" (Samoan DECISIONS).
