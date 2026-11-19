@@ -107,7 +107,8 @@ export function splitSenses(english) {
     .map(part => {
       const text = part.replace(/\s+/g, ' ').trim()
       const withoutAlso = text.replace(/^also\s+(?=\S)/i, '')
-      return { text, sense: normaliseSense(withoutAlso), alsoStripped: withoutAlso !== text }
+      // `counted` is the sense before its article or "to" comes off: the words the three-word limit counts.
+      return { text, sense: normaliseSense(withoutAlso), counted: withoutAlso, alsoStripped: withoutAlso !== text }
     })
     .filter(item => item.sense)
 }
@@ -147,11 +148,11 @@ const GRAMMATICAL_NOTE = /^(?:marks|makes|adds|softens|replaces|emphasi[sz]ing|p
 const PLAIN_WORDS = /^[A-Za-z]+(?:['-][A-Za-z]+)*(?: [A-Za-z]+(?:['-][A-Za-z]+)*)*$/
 
 // Why a sense is not a plain English word or phrase, or '' when it is one.
-export function senseDropReason(samoan, sense) {
+export function senseDropReason(samoan, sense, counted = sense) {
   if (isBoundForm(samoan)) return 'bound form: the meaning describes the form'
   if (/^of\b/i.test(sense)) return 'qualifier opening with "of"'
   if (!PLAIN_WORDS.test(sense)) return 'not plain words'
-  if (sense.split(' ').length > ENGLISH_HEADWORD_MAX_WORDS) return 'more than three words'
+  if (counted.split(' ').length > ENGLISH_HEADWORD_MAX_WORDS) return 'more than three words'
   if (GRAMMATICAL_NOTE.test(sense)) return 'grammatical note'
   return ''
 }

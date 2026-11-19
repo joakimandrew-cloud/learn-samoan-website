@@ -108,10 +108,10 @@ export function deriveEnglishHeadwords(entries) {
   let alsoStripped = 0
   for (const entry of entries) {
     const entryReason = entryDropReason(entry)
-    for (const { text, sense, alsoStripped: stripped } of splitSenses(entry.english)) {
+    for (const { text, sense, counted, alsoStripped: stripped } of splitSenses(entry.english)) {
       if (entryReason) { dropped.push({ rowId: entry.id, samoan: entry.samoan, senseText: text, reason: entryReason }); continue }
       if (stripped) alsoStripped += 1
-      const reason = senseDropReason(entry.samoan, sense)
+      const reason = senseDropReason(entry.samoan, sense, counted)
       if (reason) { dropped.push({ rowId: entry.id, samoan: entry.samoan, senseText: text, reason }); continue }
       const slug = englishSlug(sense)
       if (!kept.has(slug)) kept.set(slug, { slug, headword: sense, sources: [] })
@@ -153,7 +153,9 @@ export function buildDictionaryIndex({ glossary, vocabulary = [], chapters = [],
   const chapterWords = new Map()
   for (const page of pages) {
     page.words = [...new Set(page.entries.map(entry => entry.display))]
-    page.typed = plainTyping(withoutNotes(page.entries[0].samoan)).toLowerCase()
+    // One typing is named only when every entry on the page is typed that way; otherwise ''.
+    const typings = new Set(page.entries.map(entry => plainTyping(withoutNotes(entry.samoan)).toLowerCase()))
+    page.typed = typings.size === 1 ? [...typings][0] : ''
     page.rowIds = page.entries.map(entry => entry.id)
     for (const entry of page.entries) {
       for (const chapter of entry.chapters) {

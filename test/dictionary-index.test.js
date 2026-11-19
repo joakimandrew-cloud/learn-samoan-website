@@ -11,7 +11,8 @@ import vocabulary from '../src/data/book-vocabulary.json'
 import chapters from '../src/data/chapters.json'
 import examplesFile from '../src/premium/data/dictionary-examples.json'
 import { buildDictionaryIndex, deriveEnglishHeadwords, entryDropReason, matchVocabulary } from '../src/premium/lib/dictionary-pages.js'
-import { isBoundHeadword, plainTyping, splitSenses, wordSlug } from '../src/premium/lib/dictionary-text.js'
+import { isBoundHeadword, plainTyping, splitSenses, withoutNotes, wordSlug } from '../src/premium/lib/dictionary-text.js'
+import { meaningShowsIn, plainSenses } from '../src/premium/lib/dictionary-examples.js'
 import { dictionaryWordTitle } from '../src/seo/meta.js'
 import { EXAMPLES_FILE, drawExamples, examplesFileText } from '../scripts/lib/dictionary-data.mjs'
 
@@ -219,5 +220,50 @@ describe('dictionary: examples', () => {
     // npm run build:dictionary-data rewrites it; this fails the moment the book or the glossary moves on without it.
     const current = fs.readFileSync(path.join(APP, EXAMPLES_FILE), 'utf8')
     expect(current).toBe(examplesFileText(drawExamples(APP)))
+  })
+})
+
+describe('dictionary: rules mended after the page judge', () => {
+  it('names one typing for a shared page only when every entry on it is typed that way', () => {
+    const several = index.pages.filter(page => page.entries.length > 1)
+    const typings = page => new Set(page.entries.map(entry => plainTyping(withoutNotes(entry.samoan)).toLowerCase()))
+    expect(several.filter(page => typings(page).size > 1).length).toBeGreaterThan(0)
+    expect(several.filter(page => typings(page).size === 1).length).toBeGreaterThan(0)
+    for (const page of several) expect(page.typed, page.slug).toBe(typings(page).size === 1 ? [...typings(page)][0] : '')
+  })
+
+  it('counts the words of an English sense before its leading article or "to" comes off', () => {
+    // Every sense on an English page, as the glossary prints it (a leading "also" off), is at most three words.
+    let longer = 0
+    for (const page of index.english) {
+      for (const source of page.sources) {
+        expect(source.senseText.replace(/^also\s+/i, '').split(/\s+/).length, `${page.slug}: ${source.senseText}`).toBeLessThanOrEqual(3)
+      }
+    }
+    // The rule bites: some sense is three words once its article is off and four with it.
+    for (const entry of index.entries) {
+      for (const item of splitSenses(entry.english)) {
+        if (item.sense.split(' ').length === 3 && item.text.replace(/^also\s+/i, '').split(/\s+/).length === 4) longer += 1
+      }
+    }
+    expect(longer).toBeGreaterThan(0)
+  })
+
+  it('prints examples only for an entry with a plain sense, and only where that sense shows in the English', () => {
+    let without = 0
+    let withExamples = 0
+    for (const entry of index.entries) {
+      const senses = plainSenses(entry.samoan, entry.english)
+      if (!senses.length) {
+        if (entry.examples.length) without += 1
+        continue
+      }
+      for (const pair of entry.examples) {
+        withExamples += 1
+        expect(meaningShowsIn(senses, pair.english), `${entry.samoan}: ${pair.english}`).toBe(true)
+      }
+    }
+    expect(without).toBe(0)
+    expect(withExamples).toBeGreaterThan(300)
   })
 })

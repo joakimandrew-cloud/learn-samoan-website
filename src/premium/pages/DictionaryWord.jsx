@@ -76,7 +76,9 @@ export default function DictionaryWord() {
             ))}
           </h1>
           {several
-            ? <p>{page.entries.length} entries are typed <T>{page.typed}</T>. Each is shown with its own marks, meaning and chapter.</p>
+            ? (page.typed
+              ? <p>{page.entries.length} entries are typed <T>{page.typed}</T>. Each is shown with its own marks, meaning and chapter.</p>
+              : <p>{page.entries.length} entries share this page. Each is shown with its own marks, meaning and chapter.</p>)
             : <p className="dictionary-word-lead"><Md text={page.entries[0].english} /></p>}
         </div>
       </header>

@@ -148,7 +148,7 @@ function hasFormOf(words, base) {
 // The entry's plain English senses, lowercased; empty when its meaning only
 // describes what the word does.
 export function plainSenses(samoan, english) {
-  return splitSenses(english).map(item => item.sense).filter(sense => !senseDropReason(samoan, sense)).map(sense => sense.toLowerCase())
+  return splitSenses(english).filter(item => !senseDropReason(samoan, item.sense, item.counted)).map(item => item.sense.toLowerCase())
 }
 
 // Does a form of one of the senses stand in the printed English?
@@ -196,7 +196,8 @@ export function selectExamples({ entries, chapters, max = MAX_EXAMPLES }) {
         if (pair.kind === 'phrase' && tokens.length <= hit.length) continue
         // Another entry of the same word page is spelled here too: nobody gets it.
         if (hits.some(other => other.entry.id !== hit.entry.id && other.entry.slug === hit.entry.slug)) continue
-        if (hit.entry.senses.length && !meaningShowsIn(hit.entry.senses, pair.english)) continue
+        // No plain sense, no test, no examples: only a sense that shows in the English earns a pair.
+        if (!hit.entry.senses.length || !meaningShowsIn(hit.entry.senses, pair.english)) continue
         const list = candidates.get(hit.entry.id) || []
         if (list.some(item => item.samoan === pair.samoan)) continue
         const last = tokens[hit.start + hit.length - 1]

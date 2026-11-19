@@ -34,6 +34,22 @@ afterAll(() => {
   fs.rmSync(dist, { recursive: true, force: true })
 })
 
+describe('dictionary pages: the line under a shared page', () => {
+  it('says "are typed" only where every entry is typed the same, and "share this page" where they are not', () => {
+    const several = index.pages.filter(page => page.entries.length > 1)
+    const mixed = several.filter(page => !page.typed)
+    const same = several.filter(page => page.typed)
+    expect(mixed.length).toBeGreaterThan(0)
+    expect(same.length).toBeGreaterThan(0)
+    for (const page of mixed) {
+      const text = article(read(page.path))
+      expect(text, page.path).toContain(`${page.entries.length} entries share this page.`)
+      expect(text, page.path).not.toContain('entries are typed')
+    }
+    for (const page of same) expect(article(read(page.path)), page.path).toContain(`${page.entries.length} entries are typed`)
+  })
+})
+
 describe('dictionary pages: what is built', () => {
   it('builds the hub, a page per word and a page per English word, in both file forms', () => {
     expect(result.dictionary).toEqual({ entries: index.entries.length, wordPages: index.pages.length, englishPages: index.english.length })

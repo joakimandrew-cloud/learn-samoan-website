@@ -193,7 +193,9 @@ export function createServed({ base, chapters, quizzes, dictionary, vocabulary, 
     dictionaryWord(page) {
       const several = page.entries.length > 1
       const lead = several
-        ? `${page.entries.length} entries are typed ${sm(page.typed)}. Each is shown with its own marks, meaning and chapter.`
+        ? (page.typed
+          ? `${page.entries.length} entries are typed ${sm(page.typed)}. Each is shown with its own marks, meaning and chapter.`
+          : `${page.entries.length} entries share this page. Each is shown with its own marks, meaning and chapter.`)
         : inlineMarkdownToHtml(page.entries[0].english)
       const entryHtml = entry => {
         const facts = []
