@@ -9,6 +9,8 @@
 //   - The three book pages (Introduction, Pronunciation, Charts) are served whole.
 //   - The dictionary hub links every word page; a word page serves its entries,
 //     printed meanings, chapters and up to three printed sentences (Build-Spec part f).
+//   - The grandmother test (/quiz) is served as its headline, its lead-in and its
+//     six sentences with their chapters. Its answers are not served.
 //   - A topic page (src/seo/pages/) is served whole, from the same blocks the app
 //     renders (Build-Spec part g). Its Sāmoan is typed there and held to the book
 //     by test/topic-pages.test.js.
@@ -17,6 +19,7 @@ import { SITE_NAME, STATIC_META, DEFAULT_DESCRIPTION, headingFor } from '../../s
 import { englishPageLead } from '../../src/premium/lib/dictionary-pages.js'
 import { tokenizeInline } from '../../src/seo/inline.js'
 import { TOPIC_PAGES } from '../../src/seo/pages/index.js'
+import { COPY as QUIZ_COPY, QUESTIONS as QUIZ_QUESTIONS } from '../../src/seo/pages/grandmother-quiz.js'
 import { esc, inlineMarkdownToHtml, introParagraphs, markdownToHtml } from './book-html.mjs'
 
 // The article sits outside the app's own stylesheet scope for the moment before
@@ -198,6 +201,21 @@ export function createServed({ base, chapters, quizzes, dictionary, vocabulary, 
       return wrap(
         h1(esc(headingFor(route))) +
         p(`${esc(STATIC_META[route].description)} ${textLink('/games', 'All the games')}`),
+      )
+    },
+
+    // /quiz: the headline, the lead-in and the six sentences, each with the chapter
+    // that prints it. The answers are not served: the page asks for them. The
+    // Sāmoan is typed in src/seo/pages/grandmother-quiz.js and held to the book
+    // by test/grandmother-quiz.test.js.
+    grandmotherQuiz() {
+      return wrap(
+        crumbs(textLink('/quizzes', 'Quizzes')) +
+        h1(esc(QUIZ_COPY.h1.join(' '))) +
+        p(esc(QUIZ_COPY.lead)) +
+        h2(esc(QUIZ_COPY.servedList)) +
+        `<ol style="${LIST_STYLE}">${QUIZ_QUESTIONS.map(q => `<li>${sm(q.sm)} ${textLink(`/chapters/${q.chapter}`, `Chapter ${q.chapter}`)}</li>`).join('')}</ol>` +
+        p(textLink('/chapters/1', QUIZ_COPY.start)),
       )
     },
 

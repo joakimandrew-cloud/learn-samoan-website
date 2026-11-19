@@ -33,6 +33,7 @@ import {
 import { BOOK_PAGES } from '../src/lib/book-pages.js'
 import { plainInline } from '../src/seo/inline.js'
 import { TOPIC_PAGES } from '../src/seo/pages/index.js'
+import { QUIZ_PATH } from '../src/seo/pages/grandmother-quiz.js'
 import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS, stripStars } from '../src/premium/lib/drills-catalog.js'
 import { esc } from './lib/book-html.mjs'
 import { createServed, GAME_ROUTES } from './lib/served-text.mjs'
@@ -134,6 +135,9 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
     if (!STATIC_META[route]) throw new Error(`prerender: game page "${route}" has no row in STATIC_META`)
     add({ path: route, kind: 'page', ...STATIC_META[route] }, served.game(route))
   }
+
+  // The grandmother test: its headline, its lead-in and the six sentences, without their answers.
+  add({ path: QUIZ_PATH, kind: 'page', ...STATIC_META[QUIZ_PATH] }, served.grandmotherQuiz())
 
   // The topic pages: each is served whole, from the blocks the app renders.
   for (const doc of TOPIC_PAGES) {

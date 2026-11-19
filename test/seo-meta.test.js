@@ -41,6 +41,11 @@ const SPEC = {
     `Sāmoan Alphabet: The Letters and How They Sound${T}`,
     'The Sāmoan alphabet has five vowels and thirteen consonants, one of them the ʻ mark. The letters, how they sound, what the long-vowel mark does, and where the stress falls.',
   ],
+  // The grandmother test (plans/2026-11-20-samoan-scribbles-site-tour.md, Step 1).
+  '/quiz': [
+    `Can You Still Understand Your Grandmother? A Sāmoan Test${T}`,
+    'Six sentences a Sāmoan grandmother might say at home, each printed in the course book. Choose what each one means in English and see how much you still understand.',
+  ],
   // The games: the hub and the two games (Step 16).
   '/games': [
     `Sāmoan Word Games${T}`,
