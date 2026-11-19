@@ -245,7 +245,7 @@ export default {
       k: 'p',
       text:
         'In between, the two speakers ask and answer questions, and the exercise has the learner ' +
-        'write those lines out as whole Sāmoan sentences.',
+        'fill each blank with a whole Sāmoan sentence.',
     },
 
     { k: 'h2', text: 'Practice them, then read the chapter' },

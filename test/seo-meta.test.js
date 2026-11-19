@@ -38,7 +38,7 @@ const SPEC = {
     'Tālofa is the Sāmoan hello, and the reply is tālofa back. The goodbyes, thank you and please, the good wishes and the lighter hi, each as the course teaches it.',
   ],
   '/alphabet': [
-    `Sāmoan Alphabet: The Letters and How Each One Sounds${T}`,
+    `Sāmoan Alphabet: The Letters and How They Sound${T}`,
     'The Sāmoan alphabet has five vowels and thirteen consonants, one of them the ʻ mark. The letters, how they sound, what the long-vowel mark does, and where the stress falls.',
   ],
 }

@@ -27,7 +27,7 @@
 export default {
   path: '/alphabet',
   eyebrow: 'Sounds and spelling',
-  h1: 'The Sāmoan alphabet: the letters and how each one sounds',
+  h1: 'The Sāmoan alphabet: the letters and how they sound',
   chips: ['Five vowels', 'Thirteen consonants', 'The ʻ mark', 'The long-vowel mark'],
   blocks: [
     { k: 'h2', text: 'The letters of the Sāmoan alphabet' },
