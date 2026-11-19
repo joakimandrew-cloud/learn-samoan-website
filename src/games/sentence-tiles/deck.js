@@ -68,10 +68,15 @@ export function splitAnswer(text) {
   return { words: words.filter(Boolean), end }
 }
 
-/** A word with its first letter in capitals (the sentence's capital, shown in the answer line). */
+/**
+ * A word with its capital put back (the sentence's capital, shown in the answer
+ * line). The capital goes on the first character that HAS one: the glottal-stop
+ * mark is a letter with no capital, so a word that opens with it takes the
+ * capital on the letter after.
+ */
 export function capitalFirst(word) {
   const w = String(word ?? '')
-  const i = [...w].findIndex(c => /\p{L}/u.test(c))
+  const i = [...w].findIndex(c => c.toLowerCase() !== c.toUpperCase())
   if (i < 0) return w
   const cs = [...w]
   cs[i] = cs[i].toUpperCase()

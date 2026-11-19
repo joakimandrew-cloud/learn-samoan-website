@@ -106,6 +106,9 @@ describe('Sentence Tiles: the deck is the book\'s', () => {
     expect(splitAnswer('Alpha beta, gamma.')).toEqual({ words: ['alpha', 'beta,', 'gamma'], end: '.' })
     expect(splitAnswer('Alpha beta gamma?')).toEqual({ words: ['alpha', 'beta', 'gamma'], end: '?' })
     expect(capitalFirst('alpha')).toBe('Alpha')
+    // A mark with no capital of its own is stepped over: the capital goes on the first letter that has one.
+    expect(capitalFirst('\u02BBalpha')).toBe('\u02BBAlpha')
+    expect(capitalFirst('\u02BB')).toBe('\u02BB')
     expect(sentenceText({ words: ['alpha', 'beta'], end: '.', capital: true })).toBe('Alpha beta.')
     expect(sentenceText({ words: ['alpha', 'beta'], end: '', capital: false })).toBe('alpha beta')
   })
@@ -114,6 +117,8 @@ describe('Sentence Tiles: the deck is the book\'s', () => {
     expect(sentenceProblems(SENTENCES)).toEqual([])
     // The title and the prompt are the book's, as printed.
     for (const s of SENTENCES) expect(answers.get(s.id).prompt).toBe(s.prompt)
+    // The sentence the game prints ("The book prints ...", the end card) is the book's answer, capital and all.
+    for (const s of SENTENCES) expect(sentenceText(s), s.id).toBe(s.answer)
   })
 
   it('can fail: the same check on a broken copy names the break', () => {
