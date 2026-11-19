@@ -1,0 +1,233 @@
+/* ==========================================================================
+   Sentence Tiles (/games/sentence-tiles).
+
+   The page wears Word Balloons' own look (word-balloons.css, loaded first): the
+   sky, the HUD, the mute button, the sheets and the end card. This file adds
+   only what the sentence game needs: the English prompt card, the answer line,
+   the word tiles, the chapter menu and the note a tap off the book's order
+   shows. There is no clock. Site tokens only (base.css); no new colours and no
+   new typefaces. Nothing here uses the error colour: another order is not a
+   wrong sentence.
+   ========================================================================== */
+
+/* ── the board: prompt and answer line ────────────────────────────────── */
+.sentence-tiles .tiles-field { display: flex; flex-direction: column; }
+.tiles-board {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 0;
+  padding: 6px clamp(14px, 4vw, 40px) 22px;
+}
+
+.tiles-card {
+  position: relative;
+  width: min(100%, 720px);
+  padding: 20px clamp(16px, 3vw, 30px) 22px;
+  border-radius: 20px;
+  background: var(--paper);
+  box-shadow: var(--shadow-2);
+  text-align: center;
+  animation: rain-card-in 0.3s var(--ease-out) both;
+}
+.tiles-prompt {
+  margin: 0 0 16px;
+  color: var(--ink);
+  font: 600 clamp(20px, 2.6vw, 26px)/1.3 var(--f-ui);
+}
+.tiles-prompt .font-samoan { font: italic 500 1.05em/1.2 var(--f-serif); }
+
+.tiles-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px 10px;
+  min-height: 48px;
+}
+/* One place in the line: the word, or its blank. */
+.tiles-cell { display: inline-flex; flex-direction: column; align-items: center; gap: 4px; }
+.tiles-cell > .tiles-slot { align-self: stretch; justify-content: center; }
+.tiles-slot {
+  display: inline-flex;
+  align-items: flex-end;
+  min-width: 46px;
+  min-height: 40px;
+  padding: 0 4px 4px;
+  border-bottom: 2px dashed var(--line-strong);
+  color: var(--ink);
+}
+.tiles-slot .font-samoan { font: italic 500 26px/1.15 var(--f-serif); }
+.tiles-slot.is-placed { border-bottom: 2px solid var(--ink); animation: tiles-land 0.22s var(--ease-out) both; }
+.tiles-slot.is-filled { border-bottom-style: dotted; border-bottom-color: var(--line-strong); color: var(--muted); }
+.tiles-slot-gap { display: block; width: 30px; height: 26px; }
+/* The end mark sits in a box the height of a place, so it lines up with the words. */
+.tiles-end { display: inline-flex; align-items: flex-end; min-height: 40px; margin-left: -6px; padding-bottom: 4px; border-bottom: 2px solid transparent; color: var(--ink); font: italic 500 26px/1.15 var(--f-serif); }
+.tiles-card.is-done { box-shadow: 0 0 0 3px var(--success), var(--shadow-2); }
+.tiles-card.is-done .tiles-slot:not(.is-filled) { border-bottom-color: var(--success); }
+@keyframes tiles-land {
+  from { transform: translateY(10px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+.tiles-gain { left: 86%; top: 6px; }
+.tiles-gain small { white-space: nowrap; }
+
+/* ── the tray: the help, then the tiles ──────────────────────────── */
+.tiles-tray {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 150px;
+  padding: 10px 14px 16px;
+}
+.tiles-helps { display: flex; justify-content: center; gap: 8px; }
+.tiles-helps .rain-chip { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); }
+.tiles-helps .rain-chip.is-active { color: var(--paper); }
+.tiles-helps .rain-chip:disabled { cursor: default; opacity: 0.5; }
+.tiles-helps kbd {
+  min-width: 18px;
+  padding: 1px 5px;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--muted);
+  font: 600 11px/1.4 var(--f-ui);
+  text-align: center;
+}
+.tiles-set {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+.tiles-tile {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 64px;
+  min-height: 56px;
+  padding: 8px 18px;
+  border: 2px solid var(--line-strong);
+  border-radius: 14px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 4px 0 var(--line-strong);
+  cursor: pointer;
+  transition: transform 0.08s, box-shadow 0.08s, background-color 0.15s, border-color 0.15s, opacity 0.15s;
+}
+.tiles-tile .font-samoan { font: italic 500 23px/1.15 var(--f-serif); }
+.tiles-tray.is-live .tiles-tile { animation: rain-opt-in 0.22s var(--ease-out) both; }
+.tiles-tile .rain-opt-key { top: 4px; left: 5px; width: 16px; height: 16px; font-size: 10px; line-height: 16px; }
+@media (hover: hover) {
+  .tiles-tile:hover:not(:disabled):not(.is-used) { border-color: var(--red); box-shadow: 0 4px 0 var(--red); }
+}
+.tiles-tile:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 var(--line-strong); }
+.tiles-tile:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.tiles-tile:disabled { cursor: default; }
+.rain-scene.is-frozen .tiles-tile { opacity: 0.55; }
+/* A tile in the line leaves its place empty, so the others never move under a finger. */
+.tiles-tile.is-used { border-style: dashed; background: transparent; box-shadow: none; cursor: default; }
+.tiles-tile.is-used .font-samoan { visibility: hidden; }
+.tiles-tile.is-waiting { min-width: 120px; border-style: dashed; box-shadow: none; opacity: 0.35; }
+
+/* ── title screen: a real sentence's tiles, scattered ─────────────────── */
+.tiles-idle {
+  position: absolute;
+  top: 8%;
+  right: clamp(14px, 6%, 90px);
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  width: min(46%, 430px);
+  pointer-events: none;
+}
+.tiles-idle-tile {
+  cursor: default;
+  rotate: calc((var(--i) - 2) * 2.5deg);
+  animation: rain-bob 3.4s ease-in-out infinite alternate;
+  animation-delay: calc(var(--i) * -0.6s);
+}
+
+/* ── the chapter grid on the title screen: every chapter with a game, finished ones ticked ── */
+.tiles-setup { display: flex; flex-direction: column; align-items: stretch; gap: 10px; padding: 12px 20px 14px; }
+.tiles-choose { margin: 0; color: var(--muted); font: 700 11px/1 var(--f-ui); letter-spacing: 0.18em; text-transform: uppercase; }
+.tiles-chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  column-gap: 14px;
+  max-height: 132px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-top: 1px dotted var(--line-strong);
+}
+.tiles-chapter-done { margin-left: 8px; color: var(--success); font-weight: 800; }
+.rain-menu-item.is-active .tiles-chapter-done { color: var(--paper); }
+.tiles-setup .rain-go-col { gap: 6px; }
+
+/* ── the end card: next chapter first, then the quieter ways on ───────── */
+.sentence-tiles .rain-over-links { flex-wrap: wrap; }
+
+.tiles-missed-row { flex-direction: column; align-items: flex-start; gap: 2px; }
+.tiles-missed-row .rain-missed-en { color: var(--muted); font-size: 14px; }
+
+/* ── the how-to on the title screen, and the note a tap off the book's order shows ── */
+.tiles-howto {
+  max-width: 52ch;
+  margin: 10px auto 0;
+  color: var(--ink-2);
+  font: 500 14px/1.45 var(--f-ui);
+  text-align: center;
+}
+.tiles-off {
+  margin: 14px 0 0;
+  padding: 10px 14px;
+  border: 1px solid var(--line-strong);
+  border-left: 4px solid var(--red);
+  border-radius: 10px;
+  background: var(--paper-soft);
+  color: var(--ink);
+  font: 500 14px/1.45 var(--f-ui);
+  text-align: left;
+  animation: rain-fade-in 0.2s ease-out both;
+}
+.tiles-off strong { color: var(--red-deep); font-weight: 750; }
+.tiles-off .font-samoan { font: italic 500 1.1em/1.3 var(--f-serif); }
+.tiles-off-note { color: var(--muted); }
+
+/* ── phones ───────────────────────────────────────────────────────────── */
+@media (max-width: 560px) {
+  .tiles-board { gap: 12px; padding: 4px 10px 14px; }
+  .tiles-card { padding: 16px 14px 18px; border-radius: 16px; }
+  .tiles-prompt { margin-bottom: 12px; font-size: 19px; }
+  .tiles-slot .font-samoan,
+  .tiles-end { font-size: 22px; }
+  .tiles-slot,
+  .tiles-end { min-height: 34px; }
+  .tiles-slot { min-width: 36px; }
+  .tiles-tray { gap: 8px; min-height: 136px; padding: 8px 10px 12px; }
+  .tiles-set { gap: 8px; }
+  .tiles-tile { min-width: 56px; min-height: 52px; padding: 6px 14px; }
+  .tiles-tile .font-samoan { font-size: 21px; }
+  .tiles-idle { top: 6%; right: 12px; left: 12px; width: auto; justify-content: center; }
+  .tiles-setup { padding: 10px 14px 12px; }
+  .tiles-chapter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-height: 150px; }
+  .tiles-setup .rain-play { min-height: 54px; padding: 12px 24px; font-size: 24px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tiles-idle-tile,
+  .tiles-tray.is-live .tiles-tile,
+  .tiles-slot.is-placed,
+  .tiles-card { animation: none; }
+  .tiles-tile:active:not(:disabled) { transform: none; }
+}

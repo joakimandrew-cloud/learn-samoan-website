@@ -69,6 +69,19 @@ export const STATIC_META = {
     title: withTail('Sāmoan Alphabet: The Letters and How They Sound'),
     description: 'The Sāmoan alphabet has five vowels and thirteen consonants, one of them the ʻ mark. The letters, how they sound, what the long-vowel mark does, and where the stress falls.',
   },
+  // The games (src/games/): the hub and the two games. The strings are Build-Spec part (b).
+  '/games': {
+    title: withTail('Sāmoan Word Games'),
+    description: 'Short games over the words the Sāmoan course teaches and the book’s own sentences. Pick a game and play a round.',
+  },
+  '/games/word-balloons': {
+    title: withTail('Word Balloons: A Sāmoan Vocabulary Game'),
+    description: 'Tap the meaning before the word gets away. A game over the words the Sāmoan course teaches, played in your browser.',
+  },
+  '/games/sentence-tiles': {
+    title: withTail('Sentence Tiles: Put Sāmoan Sentences in Order'),
+    description: 'Put the words of a sentence from the Sāmoan course book in the order the book prints, chapter by chapter. Played in your browser.',
+  },
 }
 
 // The hub pages as src/lib/site-meta.js has always exported them (title without the tail).

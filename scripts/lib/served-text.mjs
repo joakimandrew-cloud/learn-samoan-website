@@ -37,6 +37,9 @@ const NOTE_STYLE = 'margin:0 0 1rem;padding:.4rem 0 .4rem 1rem;border-left:3px s
 const EX_STYLE = 'margin:0 0 1rem;padding-left:1rem;border-left:3px solid var(--line-strong,#d3cdc4)'
 const TABLE_CSS = 'article table{border-collapse:collapse;margin:0 0 1.25rem}article th,article td{border:1px solid var(--line-strong,#d3cdc4);padding:.3rem .6rem;text-align:left}'
 
+/** The game pages, as the hub links them. */
+export const GAME_ROUTES = ['/games/word-balloons', '/games/sentence-tiles']
+
 export function createServed({ base, chapters, quizzes, dictionary, vocabulary, drillCatalog, practiceItems, readBook }) {
   const href = route => (route === '/' ? base : `${base}${route.slice(1)}`)
   const link = (route, labelHtml) => `<a href="${esc(href(route))}" style="${LINK_STYLE}">${labelHtml}</a>`
@@ -175,6 +178,26 @@ export function createServed({ base, chapters, quizzes, dictionary, vocabulary, 
           ...['/introduction', '/pronunciation', '/charts', '/dictionary'].map(r => textLink(r, headingFor(r))),
           ...TOPIC_PAGES.map(doc => link(doc.path, inl(doc.h1))),
         ]),
+      )
+    },
+
+    // /games: the description, then a link to each game (the game pages are
+    // played in the browser, so what is served is the page's own description).
+    games() {
+      return wrap(
+        h1(esc(headingFor('/games'))) +
+        p(esc(STATIC_META['/games'].description)) +
+        ul(GAME_ROUTES.map(r => textLink(r, headingFor(r)))),
+      )
+    },
+
+    // /games/word-balloons and /games/sentence-tiles: one paragraph, the page's
+    // description and a link back to /games. No word, meaning or sentence of a
+    // game is served: they are shown by the game, drawn from the course data.
+    game(route) {
+      return wrap(
+        h1(esc(headingFor(route))) +
+        p(`${esc(STATIC_META[route].description)} ${textLink('/games', 'All the games')}`),
       )
     },
 

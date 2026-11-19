@@ -35,7 +35,7 @@ import { plainInline } from '../src/seo/inline.js'
 import { TOPIC_PAGES } from '../src/seo/pages/index.js'
 import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS, stripStars } from '../src/premium/lib/drills-catalog.js'
 import { esc } from './lib/book-html.mjs'
-import { createServed } from './lib/served-text.mjs'
+import { createServed, GAME_ROUTES } from './lib/served-text.mjs'
 import { createGraphs } from './lib/jsonld.mjs'
 import { loadDictionaryIndex } from './lib/dictionary-data.mjs'
 
@@ -126,6 +126,13 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
   })
   for (const [key, meta] of Object.entries(BOOK_PAGES)) {
     add({ path: `/${key}`, kind: 'page', ...STATIC_META[`/${key}`] }, served.book(`/${key}`, meta.file))
+  }
+
+  // The games: the hub and one page per game (Build-Spec part h).
+  add({ path: '/games', kind: 'page', ...STATIC_META['/games'] }, served.games())
+  for (const route of GAME_ROUTES) {
+    if (!STATIC_META[route]) throw new Error(`prerender: game page "${route}" has no row in STATIC_META`)
+    add({ path: route, kind: 'page', ...STATIC_META[route] }, served.game(route))
   }
 
   // The topic pages: each is served whole, from the blocks the app renders.

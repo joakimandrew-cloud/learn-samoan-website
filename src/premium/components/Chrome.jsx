@@ -11,9 +11,16 @@ const NAV = [
   { to: '/drills', label: 'Drills' },
   { to: '/quizzes', label: 'Quizzes' },
   { to: '/cards', label: 'Flip cards' },
+  { to: '/games', label: 'Games' },
   { to: '/dictionary', label: 'Dictionary' },
   { to: '/reference', label: 'Reference' },
 ]
+
+// Games sits in the header: measured in a browser at 881, 960, 1024, 1100, 1260 and 1280 wide,
+// with the longest button ("Continue Chapter 52"), the seven links stay on one line. The full-screen
+// menu lists every header link and adds Games only if the header does not carry it.
+const GAMES_LINK = { to: '/games', label: 'Games' }
+const MENU_NAV = NAV.some(n => n.to === GAMES_LINK.to) ? NAV : [...NAV, GAMES_LINK]
 
 // Text-only wordmark: the logo is still to be chosen (DECISIONS, logo pending).
 export function Wordmark({ compact = false }) {
@@ -141,7 +148,7 @@ export function Header({ progress = false }) {
             transition={{ duration: .55, ease: [.76, 0, .24, 1] }}
           >
             <nav className="sheet-nav" aria-label="Menu">
-              {[{ to: '/', label: 'Home' }, ...NAV].map((n, i) => (
+              {[{ to: '/', label: 'Home' }, ...MENU_NAV].map((n, i) => (
                 <Motion.div key={n.to} initial={{ y: 40, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: .18 + i * .05, duration: .6, ease: [.16, 1, .3, 1] }}>
                   <Link to={n.to} className="sheet-link display">{n.label}</Link>
                 </Motion.div>
@@ -175,6 +182,7 @@ export function Footer() {
           <Link to="/drills">Drills</Link>
           <Link to="/quizzes">Quizzes</Link>
           <Link to="/cards">Flip cards</Link>
+          <Link to="/games">Games</Link>
         </div>
         <div className="ftr-col">
           <h2>Reference</h2>

@@ -21,6 +21,9 @@ const Drills = lazy(() => import('./pages/Drills.jsx'))
 const Drill = lazy(() => import('./pages/Drill.jsx'))
 const BookPage = lazy(() => import('./pages/BookPage.jsx'))
 const TopicArticle = lazy(() => import('./pages/TopicArticle.jsx'))
+const Games = lazy(() => import('./pages/Games.jsx'))
+const WordBalloons = lazy(() => import('./pages/WordBalloons.jsx'))
+const SentenceTiles = lazy(() => import('./pages/SentenceTiles.jsx'))
 // The widget lab exists only in development builds.
 const Lab = import.meta.env.DEV ? lazy(() => import('./pages/Lab.jsx')) : null
 // The figure scrubber and the /__proto/chapter route are test-build tools. A production build
@@ -99,7 +102,7 @@ export default function App() {
   const loc = useLocation()
   const proto = __TEST_BUILD__ && /^\/__proto\/chapter\/\d+/.test(loc.pathname)
   const reading = proto || /^\/(chapters\/\d+|introduction|pronunciation|charts)/.test(loc.pathname)
-  const focus = /^\/quizzes\//.test(loc.pathname) || loc.pathname === '/cards' || /^\/drill\//.test(loc.pathname)
+  const focus = /^\/quizzes\//.test(loc.pathname) || loc.pathname === '/cards' || /^\/drill\//.test(loc.pathname) || /^\/games\/[a-z-]+$/.test(loc.pathname)
 
   return (
     <>
@@ -128,6 +131,9 @@ export default function App() {
           <Route path="/introduction" element={<Page><BookPage page="introduction" /></Page>} />
           <Route path="/pronunciation" element={<Page><BookPage page="pronunciation" /></Page>} />
           <Route path="/charts" element={<Page><BookPage page="charts" /></Page>} />
+          <Route path="/games" element={<Page><Games /></Page>} />
+          <Route path="/games/word-balloons" element={<Page><WordBalloons /></Page>} />
+          <Route path="/games/sentence-tiles" element={<Page><SentenceTiles /></Page>} />
           <Route path="/greetings" element={<Page><TopicArticle path="/greetings" /></Page>} />
           <Route path="/alphabet" element={<Page><TopicArticle path="/alphabet" /></Page>} />
           {Lab && <Route path="/lab/:kind?" element={<Page><Lab /></Page>} />}
