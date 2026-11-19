@@ -46,6 +46,11 @@ const SPEC = {
     `Can You Still Understand Your Grandmother? A Sāmoan Test${T}`,
     'Six sentences a Sāmoan grandmother might say at home, each printed in the course book. Choose what each one means in English and see how much you still understand.',
   ],
+  // The word lists (plans/2026-11-20-samoan-scribbles-site-tour.md, Step 2).
+  '/word-lists': [
+    `Sāmoan Words by Theme: Family, Food, the Body and More${T}`,
+    'Lists of the words the Sāmoan course teaches, sorted by theme: family, food and drink, the body, the house, animals, time, numbers and more. Each word shows its English and the chapter that teaches it.',
+  ],
   // The games: the hub and the two games (Step 16).
   '/games': [
     `Sāmoan Word Games${T}`,

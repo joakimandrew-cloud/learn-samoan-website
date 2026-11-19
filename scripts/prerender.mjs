@@ -34,6 +34,7 @@ import { BOOK_PAGES } from '../src/lib/book-pages.js'
 import { plainInline } from '../src/seo/inline.js'
 import { TOPIC_PAGES } from '../src/seo/pages/index.js'
 import { QUIZ_PATH } from '../src/seo/pages/grandmother-quiz.js'
+import { WORD_LISTS_PATH } from '../src/premium/lib/word-lists.js'
 import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS, stripStars } from '../src/premium/lib/drills-catalog.js'
 import { esc } from './lib/book-html.mjs'
 import { createServed, GAME_ROUTES } from './lib/served-text.mjs'
@@ -76,6 +77,7 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
   const dictionary = loadDictionaryIndex(app)
   const vocabulary = readJson(app, 'src', 'data', 'book-vocabulary.json')
   const drillCatalog = readJson(app, 'src', 'premium', 'data', 'drills-catalog.json')
+  const wordLists = readJson(app, 'src', 'premium', 'data', 'word-lists.json')
   const readBook = file => fs.readFileSync(path.join(app, 'book', file), 'utf8')
 
   const practiceItems = new Map()
@@ -86,7 +88,7 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
     }
   }
 
-  const served = createServed({ base, chapters, quizzes, dictionary, vocabulary, drillCatalog, practiceItems, readBook })
+  const served = createServed({ base, chapters, quizzes, dictionary, vocabulary, drillCatalog, practiceItems, readBook, wordLists })
   const graphFor = createGraphs({ site, chapters })
 
   const routes = []
@@ -138,6 +140,9 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
 
   // The grandmother test: its headline, its lead-in and the six sentences, without their answers.
   add({ path: QUIZ_PATH, kind: 'page', ...STATIC_META[QUIZ_PATH] }, served.grandmotherQuiz())
+
+  // The word lists: every theme and every word, each word as its vocabulary row has it.
+  add({ path: WORD_LISTS_PATH, kind: 'page', ...STATIC_META[WORD_LISTS_PATH] }, served.wordLists())
 
   // The topic pages: each is served whole, from the blocks the app renders.
   for (const doc of TOPIC_PAGES) {

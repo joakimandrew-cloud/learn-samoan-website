@@ -11,6 +11,8 @@
 //     printed meanings, chapters and up to three printed sentences (Build-Spec part f).
 //   - The grandmother test (/quiz) is served as its headline, its lead-in and its
 //     six sentences with their chapters. Its answers are not served.
+//   - The word lists (/word-lists) are served whole: every theme and every word,
+//     each word and its English as its row of book-vocabulary.json has them.
 //   - A topic page (src/seo/pages/) is served whole, from the same blocks the app
 //     renders (Build-Spec part g). Its Sāmoan is typed there and held to the book
 //     by test/topic-pages.test.js.
@@ -20,6 +22,7 @@ import { englishPageLead } from '../../src/premium/lib/dictionary-pages.js'
 import { tokenizeInline } from '../../src/seo/inline.js'
 import { TOPIC_PAGES } from '../../src/seo/pages/index.js'
 import { COPY as QUIZ_COPY, QUESTIONS as QUIZ_QUESTIONS } from '../../src/seo/pages/grandmother-quiz.js'
+import { COPY as LISTS_COPY, WORD_LISTS_PATH, buildWordLists, countWords } from '../../src/premium/lib/word-lists.js'
 import { esc, inlineMarkdownToHtml, introParagraphs, markdownToHtml } from './book-html.mjs'
 
 // The article sits outside the app's own stylesheet scope for the moment before
@@ -43,7 +46,7 @@ const TABLE_CSS = 'article table{border-collapse:collapse;margin:0 0 1.25rem}art
 /** The game pages, as the hub links them. */
 export const GAME_ROUTES = ['/games/word-balloons', '/games/sentence-tiles']
 
-export function createServed({ base, chapters, quizzes, dictionary, vocabulary, drillCatalog, practiceItems, readBook }) {
+export function createServed({ base, chapters, quizzes, dictionary, vocabulary, drillCatalog, practiceItems, readBook, wordLists }) {
   const href = route => (route === '/' ? base : `${base}${route.slice(1)}`)
   const link = (route, labelHtml) => `<a href="${esc(href(route))}" style="${LINK_STYLE}">${labelHtml}</a>`
   const textLink = (route, label) => link(route, esc(label))
@@ -178,7 +181,7 @@ export function createServed({ base, chapters, quizzes, dictionary, vocabulary, 
         h1(esc(headingFor('/reference'))) +
         p(esc(STATIC_META['/reference'].description)) +
         ul([
-          ...['/introduction', '/pronunciation', '/charts', '/dictionary'].map(r => textLink(r, headingFor(r))),
+          ...['/introduction', '/pronunciation', '/charts', '/dictionary', WORD_LISTS_PATH].map(r => textLink(r, headingFor(r))),
           ...TOPIC_PAGES.map(doc => link(doc.path, inl(doc.h1))),
         ]),
       )
@@ -216,6 +219,23 @@ export function createServed({ base, chapters, quizzes, dictionary, vocabulary, 
         h2(esc(QUIZ_COPY.servedList)) +
         `<ol style="${LIST_STYLE}">${QUIZ_QUESTIONS.map(q => `<li>${sm(q.sm)} ${textLink(`/chapters/${q.chapter}`, `Chapter ${q.chapter}`)}</li>`).join('')}</ol>` +
         p(textLink('/chapters/1', QUIZ_COPY.start)),
+      )
+    },
+
+    // /word-lists: the heading, the lead-in, then every theme with its words. Each
+    // word links to its dictionary page and is followed by its English and its
+    // chapter, all three from its row of book-vocabulary.json. No word is typed here.
+    wordLists() {
+      const themes = buildWordLists(wordLists, vocabulary)
+      const row = word => `${smLink(word.path, word.samoan)}: ${inlineMarkdownToHtml(word.english)} ${textLink(`/chapters/${word.chapter}`, `Chapter ${word.chapter}`)}`
+      return wrap(
+        crumbs(textLink('/reference', 'Reference')) +
+        h1(esc(LISTS_COPY.h1.join(' '))) +
+        p(esc(LISTS_COPY.lead)) +
+        p(esc(LISTS_COPY.served(themes.length, countWords(themes)))) +
+        themes.map(theme => h2(esc(theme.label)) + (theme.note ? p(esc(theme.note)) : '') + ul(theme.rows.map(row))).join('') +
+        p(`${esc(LISTS_COPY.closing)} ${textLink('/dictionary', LISTS_COPY.dictionaryLink)}.`) +
+        p(`${esc(LISTS_COPY.greetingsLead)} ${textLink('/greetings', LISTS_COPY.greetingsLink)}.`),
       )
     },
 

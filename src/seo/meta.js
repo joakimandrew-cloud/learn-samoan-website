@@ -69,6 +69,11 @@ export const STATIC_META = {
     title: withTail('Sāmoan Alphabet: The Letters and How They Sound'),
     description: 'The Sāmoan alphabet has five vowels and thirteen consonants, one of them the ʻ mark. The letters, how they sound, what the long-vowel mark does, and where the stress falls.',
   },
+  // The word lists (src/premium/lib/word-lists.js): words the course teaches, by theme.
+  '/word-lists': {
+    title: withTail('Sāmoan Words by Theme: Family, Food, the Body and More'),
+    description: 'Lists of the words the Sāmoan course teaches, sorted by theme: family, food and drink, the body, the house, animals, time, numbers and more. Each word shows its English and the chapter that teaches it.',
+  },
   // The grandmother test (src/seo/pages/grandmother-quiz.js): six sentences of the book.
   '/quiz': {
     title: withTail('Can You Still Understand Your Grandmother? A Sāmoan Test'),
