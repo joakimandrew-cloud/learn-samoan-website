@@ -41,6 +41,19 @@ const SPEC = {
     `Sāmoan Alphabet: The Letters and How They Sound${T}`,
     'The Sāmoan alphabet has five vowels and thirteen consonants, one of them the ʻ mark. The letters, how they sound, what the long-vowel mark does, and where the stress falls.',
   ],
+  // The games: the hub and the two games (Step 16).
+  '/games': [
+    `Sāmoan Word Games${T}`,
+    'Short games over the words the Sāmoan course teaches and the book’s own sentences. Pick a game and play a round.',
+  ],
+  '/games/word-balloons': [
+    `Word Balloons: A Sāmoan Vocabulary Game${T}`,
+    'Tap the meaning before the word gets away. A game over the words the Sāmoan course teaches, played in your browser.',
+  ],
+  '/games/sentence-tiles': [
+    `Sentence Tiles: Put Sāmoan Sentences in Order${T}`,
+    'Put the words of a sentence from the Sāmoan course book in the order the book prints, chapter by chapter. Played in your browser.',
+  ],
 }
 
 // What src/lib/site-meta.js and scripts/prerender.mjs held before src/seo/meta.js existed.
