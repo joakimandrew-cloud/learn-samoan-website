@@ -18,8 +18,11 @@ const SPEC = {
   '/quizzes': [`Sāmoan Quizzes: One for Every Chapter${T}`, null],
   '/drills': [`Sāmoan Grammar Drills, Practice by Skill${T}`, null],
   '/cards': [`Sāmoan Vocabulary Flip Cards${T}`, null],
-  '/glossary': [`Sāmoan Glossary: Every Word the Course Teaches${T}`, null],
-  '/reference': [`Sāmoan Reference: Pronunciation, Charts and Glossary${T}`, null],
+  '/dictionary': [
+    `Sāmoan Dictionary: Search in Sāmoan or English${T}`,
+    'Look up the words the Sāmoan course teaches. Search in Sāmoan or English, with or without macrons and the glottal stop, or browse by letter. Each word shows its meaning and the chapter that teaches it.',
+  ],
+  '/reference': [`Sāmoan Reference: Pronunciation, Charts and Dictionary${T}`, null],
   '/introduction': [`Introduction to Sāmoan: Sounds, Spelling and How Words Work${T}`, null],
   '/pronunciation': [
     `Sāmoan Pronunciation Guide: Vowels, Stress and the ʻ Mark${T}`,
@@ -38,7 +41,6 @@ const UNCHANGED_DESCRIPTIONS = {
   '/quizzes': 'A ten-question quiz for every chapter of the Sāmoan course, with every answer explained.',
   '/drills': '68 drills grouped by skill, each built only from Sāmoan printed in the course, with a Words to Learn recall deck.',
   '/cards': 'Flip cards for every Words to Learn list in the Sāmoan course, by chapter or by band.',
-  '/glossary': 'Every Sāmoan word the course teaches, with its meaning. Search with or without macrons and the glottal stop.',
   '/reference': 'The Introduction, the Pronunciation Guide and the Reference Charts of the Sāmoan course.',
   '/introduction': 'Sounds, Spelling, and How Words Work: the Introduction to the free Sāmoan course, read before Chapter 1.',
 }
@@ -61,7 +63,7 @@ describe('seo meta: the strings of the spec', () => {
   it('keeps src/lib/site-meta.js exporting what other files import', () => {
     expect(COURSE).toBe('Learn Sāmoan')
     expect(HOME_VIA_SITE_META).toBe(HOME_TITLE)
-    expect(Object.keys(HUBS).sort()).toEqual(['/cards', '/chapters', '/drills', '/glossary', '/quizzes', '/reference'])
+    expect(Object.keys(HUBS).sort()).toEqual(['/cards', '/chapters', '/dictionary', '/drills', '/quizzes', '/reference'])
     expect(HUBS['/drills'].description).toBe(UNCHANGED_DESCRIPTIONS['/drills'])
   })
 

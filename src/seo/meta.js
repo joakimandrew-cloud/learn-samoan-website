@@ -35,7 +35,7 @@ const DESCRIPTIONS = {
   drills: '68 drills grouped by skill, each built only from Sāmoan printed in the course, with a Words to Learn recall deck.',
   quizzes: 'A ten-question quiz for every chapter of the Sāmoan course, with every answer explained.',
   cards: 'Flip cards for every Words to Learn list in the Sāmoan course, by chapter or by band.',
-  glossary: 'Every Sāmoan word the course teaches, with its meaning. Search with or without macrons and the glottal stop.',
+  dictionary: 'Look up the words the Sāmoan course teaches. Search in Sāmoan or English, with or without macrons and the glottal stop, or browse by letter. Each word shows its meaning and the chapter that teaches it.',
   reference: 'The Introduction, the Pronunciation Guide and the Reference Charts of the Sāmoan course.',
 }
 
@@ -46,8 +46,8 @@ export const STATIC_META = {
   '/quizzes': { title: withTail('Sāmoan Quizzes: One for Every Chapter'), description: DESCRIPTIONS.quizzes },
   '/drills': { title: withTail('Sāmoan Grammar Drills, Practice by Skill'), description: DESCRIPTIONS.drills },
   '/cards': { title: withTail('Sāmoan Vocabulary Flip Cards'), description: DESCRIPTIONS.cards },
-  '/glossary': { title: withTail('Sāmoan Glossary: Every Word the Course Teaches'), description: DESCRIPTIONS.glossary },
-  '/reference': { title: withTail('Sāmoan Reference: Pronunciation, Charts and Glossary'), description: DESCRIPTIONS.reference },
+  '/dictionary': { title: withTail('Sāmoan Dictionary: Search in Sāmoan or English'), description: DESCRIPTIONS.dictionary },
+  '/reference': { title: withTail('Sāmoan Reference: Pronunciation, Charts and Dictionary'), description: DESCRIPTIONS.reference },
   '/introduction': {
     title: withTail('Introduction to Sāmoan: Sounds, Spelling and How Words Work'),
     description: 'Sounds, Spelling, and How Words Work: the Introduction to the free Sāmoan course, read before Chapter 1.',
@@ -64,7 +64,7 @@ export const STATIC_META = {
 
 // The hub pages as src/lib/site-meta.js has always exported them (title without the tail).
 export const HUBS = Object.fromEntries(
-  ['/chapters', '/drills', '/quizzes', '/cards', '/glossary', '/reference'].map(route => [
+  ['/chapters', '/drills', '/quizzes', '/cards', '/dictionary', '/reference'].map(route => [
     route,
     { title: STATIC_META[route].title.slice(0, -TITLE_TAIL.length), description: STATIC_META[route].description },
   ]),
@@ -85,6 +85,67 @@ export const quizDescription = (n, title) =>
 
 export const drillTitle = title => withTail(stripStars(title))
 export const drillDescription = intro => clip(intro) || DESCRIPTIONS.drills
+
+// ---------------------------------------------------------------------------
+// The dictionary's pages (Build-Spec part b). One function, dictionaryPageMeta(page),
+// used by the React pages and by the prerender. `page` is a page object from
+// buildDictionaryIndex() in src/premium/lib/dictionary-pages.js. Every string is
+// built from the page's own fields (the headword as the course prints it, the
+// meaning in full, the chapter title); nothing is written about a word here.
+
+export const DICTIONARY_PAGE_PATH = /^\/dictionary\/(?:english\/)?[a-z0-9-]+$/
+export const DICTIONARY_TITLE_MAX = 60
+export const DICTIONARY_DESCRIPTION_MAX = 220
+const DICTIONARY_TITLE_TAIL = ' · Sāmoan Dictionary'
+
+// Trim to a word boundary so a description never ends mid-word.
+export function clamp(text, max) {
+  const flat = String(text || '').replace(/\s+/g, ' ').trim()
+  if (flat.length <= max) return flat
+  const cut = flat.slice(0, max - 1)
+  const space = cut.lastIndexOf(' ')
+  return `${(space > 40 ? cut.slice(0, space) : cut).replace(/[,;:.]$/, '')}…`
+}
+
+const meaningOf = entry => plain(entry.english).replace(/[.]+$/, '')
+
+// The word with the word "meaning"; the meaning itself only when the page has
+// one headword and the whole title still fits in 60 characters. A page that
+// holds two headwords never runs their meanings together.
+export function dictionaryWordTitle(page) {
+  const word = page.words.join(', ')
+  if (page.words.length === 1) {
+    const meanings = [...new Set(page.entries.map(meaningOf))].join('; ')
+    const full = `${word} meaning: ${meanings}${DICTIONARY_TITLE_TAIL}`
+    if (meanings && full.length <= DICTIONARY_TITLE_MAX) return full
+  }
+  return `${word} meaning${DICTIONARY_TITLE_TAIL}`
+}
+
+function chapterPlace(entry) {
+  if (!entry.chapters.length) return ''
+  return ` Taught in ${entry.chapters.map(chapter => chapter.label).join(' and ')}.`
+}
+
+export function dictionaryWordDescription(page) {
+  const parts = page.entries.map(entry => `${entry.display} in Sāmoan: ${meaningOf(entry)}.${chapterPlace(entry)}`)
+  return clamp(parts.join(' '), DICTIONARY_DESCRIPTION_MAX)
+}
+
+export function dictionaryEnglishTitle(page) {
+  return withTail(`How to say ${page.headword} in Sāmoan`)
+}
+
+export function dictionaryEnglishDescription(page) {
+  const list = page.entries.map(entry => `${entry.display}, ${meaningOf(entry)}`).join('; ')
+  return clamp(`${page.headword} in Sāmoan: ${list}.`, DICTIONARY_DESCRIPTION_MAX)
+}
+
+export function dictionaryPageMeta(page) {
+  return page.kind === 'english'
+    ? { title: dictionaryEnglishTitle(page), description: dictionaryEnglishDescription(page) }
+    : { title: dictionaryWordTitle(page), description: dictionaryWordDescription(page) }
+}
 
 export function normalisePath(pathname) {
   const p = String(pathname || '/').split(/[?#]/)[0].replace(/\/+$/, '')
