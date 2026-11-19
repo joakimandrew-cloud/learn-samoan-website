@@ -44,11 +44,17 @@ const NOT_A_TRANSLATION = /[↗↘→=+|\\_]|^\(/
 const SAMOAN_ONLY = /^[\p{L}\p{M}'‘’ʼ`ʻ ,.?!;:"“”-]+$/u
 // A literal reading in brackets at the end of a printed English line.
 const LITERAL_READING = /\s*\(Lit\.[^)]*\)\s*$/
+// A bracket the printed line never closes: the rest of the note is not on the line.
+const UNCLOSED_NOTE = /\s*\([^)]*$/
 
 // The printed example pairs of one chapter, in order.
 export function chapterExampleLines(markdown) {
   const out = []
   let inFence = false
+  // The book wraps a long pair onto the next line (the English, or its literal
+  // reading, carries on under the sentence). Inside a block, a line that does
+  // not open with * and is not blank carries on the pair before it.
+  const logical = []
   const lines = String(markdown || '').split('\n')
   for (let index = 0; index < lines.length; index += 1) {
     const raw = lines[index].trim()
@@ -58,12 +64,21 @@ export function chapterExampleLines(markdown) {
       continue
     }
     if (FENCE_CLOSE.test(raw)) { inFence = false; continue }
+    const last = logical.at(-1)
+    if (raw && !/^[*|]/.test(raw) && last && !last.blank && last.end === index - 1) {
+      last.raw += ` ${raw}`
+      last.end = index
+    } else {
+      logical.push({ line: index, raw, end: index, blank: !raw })
+    }
+  }
+  for (const { line: index, raw } of logical) {
     const sentence = SENTENCE_LINE.exec(raw)
     const phrase = sentence ? null : PHRASE_LINE.exec(raw)
     const found = sentence || phrase
     if (!found) continue
     const samoan = found[1].trim()
-    const english = found[2].replace(LITERAL_READING, '').trim()
+    const english = found[2].replace(LITERAL_READING, '').replace(UNCLOSED_NOTE, '').trim()
     if (!english || !SAMOAN_ONLY.test(samoan) || NOT_A_TRANSLATION.test(english)) continue
     out.push({ line: index + 1, kind: sentence ? 'sentence' : 'phrase', samoan, english, printed: raw })
   }

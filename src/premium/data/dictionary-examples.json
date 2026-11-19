@@ -829,17 +829,6 @@
   ],
   "g126": [
    {
-    "samoan": "Sā fafaga e le tama le moa.",
-    "english": "The boy fed the hen. (Lit. \"Past feed, doer the",
-    "line": 15,
-    "kind": "sentence",
-    "chapter": 28,
-    "at": [
-     3,
-     9
-    ]
-   },
-   {
     "samoan": "ʻO le fafaga o le pepe ʻi le fagu susu.",
     "english": "The feeding of the baby with a bottle of milk.",
     "line": 302,
@@ -1050,7 +1039,7 @@
    },
    {
     "samoan": "ʻO le fale a le tama.",
-    "english": "The house the boy built. (Lit. \"The house belonging to",
+    "english": "The house the boy built.",
     "line": 57,
     "kind": "sentence",
     "chapter": 11,
@@ -2886,7 +2875,7 @@
   "g350": [
    {
     "samoan": "Sā fafaga e le tama le moa.",
-    "english": "The boy fed the hen. (Lit. \"Past feed, doer the",
+    "english": "The boy fed the hen.",
     "line": 15,
     "kind": "sentence",
     "chapter": 28,
@@ -3211,7 +3200,7 @@
    },
    {
     "samoan": "ʻI le nuʻu sā nofo ai le teine.",
-    "english": "In the village the girl lived. (Lit. \"In the",
+    "english": "In the village the girl lived.",
     "line": 71,
     "kind": "sentence",
     "chapter": 17,
@@ -4519,7 +4508,7 @@
    },
    {
     "samoan": "ʻO le fale a le tama.",
-    "english": "The house the boy built. (Lit. \"The house belonging to",
+    "english": "The house the boy built.",
     "line": 57,
     "kind": "sentence",
     "chapter": 11,
@@ -5615,7 +5604,7 @@
   "g652": [
    {
     "samoan": "ʻI le vasega sā fiafia ai le teine.",
-    "english": "In the class the girl was happy. (Lit. \"In",
+    "english": "In the class the girl was happy.",
     "line": 74,
     "kind": "sentence",
     "chapter": 17,
