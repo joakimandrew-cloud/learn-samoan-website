@@ -10,6 +10,7 @@ The Samoan course as a website, built the way the Tongan site at leafakatonga.or
 | `/chapters` | All 52 chapters, searchable, by band |
 | `/chapters/:n` | A chapter: reading, interactive exercises, Words to Learn table and cards, finish |
 | `/quizzes`, `/quizzes/:n` | The 52 ten-question quizzes |
+| `/quiz` | "Can you still understand your grandmother?": six sentences of the book, one at a time, each with four English choices, and a result |
 | `/cards` | Flip cards: by chapter, by list, by band |
 | `/dictionary` | The words the course teaches, searchable in Samoan or English, with the glossary's own letter groups (search and letter live in the address fragment, `#q=`, `#letter=`) |
 | `/dictionary/<slug>` | One page per word spelling: each entry with its printed meaning, the chapter that teaches it and up to three printed sentences |
@@ -55,6 +56,10 @@ npm run gates        # the ship gates: lint, test, check:interactives, check:blo
 A test build (`npx vite --port 4191`, or `LS_TEST_BUILD=1 npm run build`) adds the capture flags (`?still`, `?solo=N.K`), the `/__proto/chapter/N` route and the `/scrub` figure scrubber. A production build leaves them out of the bundle.
 
 `npm run check:dictionary` runs over the built `dist/` after `npm run build` and the deploy runs it too. It fails when any count is zero, a glossary entry is on no page or on two, two indexable pages share a title, a dictionary page lacks exactly one canonical or one `<h1>`, its structured data does not parse or holds the wrong number of DefinedTerm nodes, its title or description differs from what `src/seo/meta.js` returns, it holds U+2014 or "Page not found", a dictionary address is missing from the sitemap, or a `lang="sm"` string is not found in the course data or `book/*.md`. It prints the counts of rows, word pages and English pages and how many senses each English rule dropped. `npm run build:dictionary-data -- --check` writes nothing and fails when `dictionary-examples.json` is stale; `npm test` fails on a stale file too.
+
+## The grandmother test
+
+`/quiz` shows six sentences a grandmother could say at home, one at a time, each with four English choices, then one of three results by score with a link to Chapter 1. Everything it shows is in `src/seo/pages/grandmother-quiz.js`: each question names the line of `book/Chapter-NN.md` that prints its sentence, the right answer is the English that line prints, and the three wrong choices are English written for the page. The six sentences were copied from the book by a script, and `test/grandmother-quiz.test.js` fails when a named line no longer reads `*<the sentence>* <the right answer>` character for character, so a book repair that touches one of the six lines shows up there. The page is `src/premium/pages/GrandmotherQuiz.jsx`, drawn with the quiz stylesheet; the prerender serves its headline, its lead-in and the six sentences with their chapters, without the answers. It is linked from the top of `/quizzes`.
 
 ## Local preview
 
