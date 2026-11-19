@@ -180,6 +180,8 @@ export function Footer() {
           <h2>Reference</h2>
           <Link to="/introduction">Sounds and spelling</Link>
           <Link to="/pronunciation">Pronunciation guide</Link>
+          <Link to="/alphabet">The alphabet</Link>
+          <Link to="/greetings">Greetings</Link>
           <Link to="/charts">Reference charts</Link>
           <Link to="/dictionary">Dictionary</Link>
         </div>
