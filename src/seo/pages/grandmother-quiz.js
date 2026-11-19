@@ -65,7 +65,7 @@ export const QUESTIONS = [
     source: { file: 'Chapter-40.md', line: 127 },
     chapter: 40,
     prompt: 'She gives you a job. What is it?',
-    options: ['When you go to the beach, bring the basket.', 'When you go to the village, bring the towel.', 'When you go to the beach, leave the towel.', 'When you go to the beach, bring the towel.'],
+    options: ['When you go to the beach, bring the basket.', 'When you go to the village, bring the towel.', 'When you go to the village, bring the basket.', 'When you go to the beach, bring the towel.'],
     answer: 3,
   },
   {
@@ -130,7 +130,7 @@ export const RESULTS = [
     min: 5,
     band: 'You still understand her.',
     body:
-      'A score of five or six means her everyday sentences still reach you. The next step is answering ' +
+      'A score of five or six means her sentences still reach you. The next step is answering ' +
       'her, and the course teaches you to build sentences of your own, starting in Chapter 1.',
   },
 ]
