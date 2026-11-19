@@ -32,6 +32,15 @@ const SPEC = {
     `Sāmoan Grammar Charts: Pronouns, Possessives, Articles${T}`,
     'Reference charts from the Sāmoan course: pronouns, possessives, articles and the tense-aspect-mood particles.',
   ],
+  // The two topic pages. The alphabet's description carries the count a shelf source prints (Step 12).
+  '/greetings': [
+    `Hello in Sāmoan: Tālofa, the Reply and the Goodbyes${T}`,
+    'Tālofa is the Sāmoan hello, and the reply is tālofa back. The goodbyes, thank you and please, the good wishes and the lighter hi, each as the course teaches it.',
+  ],
+  '/alphabet': [
+    `Sāmoan Alphabet: The Letters and How Each One Sounds${T}`,
+    'The Sāmoan alphabet has five vowels and thirteen consonants, one of them the ʻ mark. The letters, how they sound, what the long-vowel mark does, and where the stress falls.',
+  ],
 }
 
 // What src/lib/site-meta.js and scripts/prerender.mjs held before src/seo/meta.js existed.

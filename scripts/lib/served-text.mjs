@@ -9,9 +9,14 @@
 //   - The three book pages (Introduction, Pronunciation, Charts) are served whole.
 //   - The dictionary hub links every word page; a word page serves its entries,
 //     printed meanings, chapters and up to three printed sentences (Build-Spec part f).
+//   - A topic page (src/seo/pages/) is served whole, from the same blocks the app
+//     renders (Build-Spec part g). Its Sāmoan is typed there and held to the book
+//     by test/topic-pages.test.js.
 import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, drillChapter, stripStars } from '../../src/premium/lib/drills-catalog.js'
 import { SITE_NAME, STATIC_META, DEFAULT_DESCRIPTION, headingFor } from '../../src/seo/meta.js'
 import { englishPageLead } from '../../src/premium/lib/dictionary-pages.js'
+import { tokenizeInline } from '../../src/seo/inline.js'
+import { TOPIC_PAGES } from '../../src/seo/pages/index.js'
 import { esc, inlineMarkdownToHtml, introParagraphs, markdownToHtml } from './book-html.mjs'
 
 // The article sits outside the app's own stylesheet scope for the moment before
@@ -28,6 +33,8 @@ const DT_STYLE = 'font-weight:700;margin:.5rem 0 0'
 const P_STYLE = 'margin:0 0 1rem'
 const LIST_STYLE = 'margin:0 0 1.25rem;padding-left:1.35rem'
 const LINK_STYLE = 'color:var(--red,#1e449c);text-decoration:underline'
+const NOTE_STYLE = 'margin:0 0 1rem;padding:.4rem 0 .4rem 1rem;border-left:3px solid var(--line-strong,#d3cdc4)'
+const EX_STYLE = 'margin:0 0 1rem;padding-left:1rem;border-left:3px solid var(--line-strong,#d3cdc4)'
 const TABLE_CSS = 'article table{border-collapse:collapse;margin:0 0 1.25rem}article th,article td{border:1px solid var(--line-strong,#d3cdc4);padding:.3rem .6rem;text-align:left}'
 
 export function createServed({ base, chapters, quizzes, dictionary, vocabulary, drillCatalog, practiceItems, readBook }) {
@@ -45,6 +52,10 @@ export function createServed({ base, chapters, quizzes, dictionary, vocabulary, 
   const crumbs = (...trail) => p([textLink('/', SITE_NAME), ...trail].join(' &middot; '))
   const chapterRow = c => `${link(`/chapters/${c.chapter}`, `Chapter ${c.chapter}: ${inlineMarkdownToHtml(c.title)}`)}`
   const byChapter = n => chapters.find(c => c.chapter === n)
+  // A string of a topic page (src/seo/inline.js): `*…*` is Sāmoan, `**…**` bold.
+  const inl = text => tokenizeInline(text).map(tok => (
+    tok.t === 'strong' ? `<strong>${esc(tok.v)}</strong>` : tok.t === 'em' ? `<em lang="sm">${esc(tok.v)}</em>` : esc(tok.v)
+  )).join('')
 
   return {
     home() {
@@ -160,13 +171,40 @@ export function createServed({ base, chapters, quizzes, dictionary, vocabulary, 
         crumbs() +
         h1(esc(headingFor('/reference'))) +
         p(esc(STATIC_META['/reference'].description)) +
-        ul(['/introduction', '/pronunciation', '/charts', '/dictionary'].map(r => textLink(r, headingFor(r)))),
+        ul([
+          ...['/introduction', '/pronunciation', '/charts', '/dictionary'].map(r => textLink(r, headingFor(r))),
+          ...TOPIC_PAGES.map(doc => link(doc.path, inl(doc.h1))),
+        ]),
       )
     },
 
     // The Introduction and the two appendices, whole.
     book(route, file) {
       return wrap(crumbs() + h1(esc(headingFor(route))) + markdownToHtml(readBook(file)))
+    },
+
+    // /greetings and /alphabet: one of the documents in src/seo/pages/, block for
+    // block as src/premium/components/ArticlePage.jsx renders it. `*…*` is Sāmoan.
+    topic(doc) {
+      const blockHtml = block => {
+        switch (block.k) {
+          case 'h2': return h2(inl(block.text))
+          case 'h3': return h3(inl(block.text))
+          case 'p': return p(inl(block.text))
+          case 'note': return `<blockquote style="${NOTE_STYLE}">${inl(block.text)}</blockquote>`
+          case 'ex': return `<div style="${EX_STYLE}">${block.items.map(item => p(`<em lang="sm">${esc(item.sm)}</em><br>${esc(item.en)}`)).join('')}</div>`
+          case 'table': return `<table><thead><tr>${block.headers.map(c => `<th>${inl(c)}</th>`).join('')}</tr></thead><tbody>${block.rows.map(row => `<tr>${row.map(c => `<td>${inl(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`
+          case 'next': return ul(block.items.map(item => link(item.to, inl(item.label))))
+          default: throw new Error(`served-text: no renderer for topic block "${block.k}"`)
+        }
+      }
+      return wrap(
+        crumbs(textLink('/reference', 'Reference')) +
+        (doc.eyebrow ? p(esc(doc.eyebrow)) : '') +
+        h1(inl(doc.h1)) +
+        (doc.chips?.length ? p(doc.chips.map(inl).join(' &middot; ')) : '') +
+        doc.blocks.map(blockHtml).join(''),
+      )
     },
 
     // /dictionary: the hub's opening words, then a link to every word page under

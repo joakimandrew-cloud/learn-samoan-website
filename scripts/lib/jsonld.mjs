@@ -45,7 +45,7 @@ export function createGraphs({ site, chapters }) {
 
   const graph = nodes => ({ '@context': 'https://schema.org', '@graph': nodes.filter(Boolean) })
 
-  /** route: { path, title, description, kind, chapter? } */
+  /** route: { path, title, description, kind, chapter?, name? } */
   return function graphFor(route) {
     const { path, title, description, kind } = route
     const self = url(path)
@@ -83,6 +83,25 @@ export function createGraphs({ site, chapters }) {
             provider: { '@id': ORG_ID },
           },
           breadcrumb([home, { name: 'Chapters', path: '/chapters' }, { name: `Chapter ${route.chapter}`, path }]),
+        ])
+      // A topic page teaches one subject in full, so it carries the shape a chapter does.
+      case 'topic':
+        return graph([
+          organization, website, course(path),
+          {
+            '@type': 'LearningResource',
+            '@id': `${self}#article`,
+            name: route.name,
+            description,
+            url: self,
+            inLanguage: 'en',
+            teaches: 'Sāmoan language',
+            learningResourceType: 'Article',
+            about,
+            isPartOf: { '@id': COURSE_ID },
+            provider: { '@id': ORG_ID },
+          },
+          breadcrumb([home, { name: 'Reference', path: '/reference' }, { name: route.name, path }]),
         ])
       case 'quiz':
         return graph([

@@ -31,6 +31,8 @@ import {
   chapterDescription, dictionaryPageMeta, chapterTitle, drillDescription, drillTitle, quizDescription, quizTitle, withTail,
 } from '../src/seo/meta.js'
 import { BOOK_PAGES } from '../src/lib/book-pages.js'
+import { plainInline } from '../src/seo/inline.js'
+import { TOPIC_PAGES } from '../src/seo/pages/index.js'
 import { DAILY_WORDS_ENTRY, DAILY_WORDS_ID, PRACTICE_KINDS, stripStars } from '../src/premium/lib/drills-catalog.js'
 import { esc } from './lib/book-html.mjs'
 import { createServed } from './lib/served-text.mjs'
@@ -124,6 +126,12 @@ export function prerender({ app = APP, dist = path.join(app, 'dist'), origin = p
   })
   for (const [key, meta] of Object.entries(BOOK_PAGES)) {
     add({ path: `/${key}`, kind: 'page', ...STATIC_META[`/${key}`] }, served.book(`/${key}`, meta.file))
+  }
+
+  // The topic pages: each is served whole, from the blocks the app renders.
+  for (const doc of TOPIC_PAGES) {
+    if (!STATIC_META[doc.path]) throw new Error(`prerender: topic page "${doc.path}" has no row in STATIC_META`)
+    add({ path: doc.path, kind: 'topic', type: 'article', name: plainInline(doc.h1), ...STATIC_META[doc.path] }, served.topic(doc))
   }
 
   const rawTemplate = fs.readFileSync(path.join(dist, 'index.html'), 'utf8')

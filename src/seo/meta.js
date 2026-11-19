@@ -60,6 +60,15 @@ export const STATIC_META = {
     title: withTail('Sāmoan Grammar Charts: Pronouns, Possessives, Articles'),
     description: 'Reference charts from the Sāmoan course: pronouns, possessives, articles and the tense-aspect-mood particles.',
   },
+  // The two topic pages (src/seo/pages/). The alphabet's count is the one a shelf source prints: see that file's head.
+  '/greetings': {
+    title: withTail('Hello in Sāmoan: Tālofa, the Reply and the Goodbyes'),
+    description: 'Tālofa is the Sāmoan hello, and the reply is tālofa back. The goodbyes, thank you and please, the good wishes and the lighter hi, each as the course teaches it.',
+  },
+  '/alphabet': {
+    title: withTail('Sāmoan Alphabet: The Letters and How Each One Sounds'),
+    description: 'The Sāmoan alphabet has five vowels and thirteen consonants, one of them the ʻ mark. The letters, how they sound, what the long-vowel mark does, and where the stress falls.',
+  },
 }
 
 // The hub pages as src/lib/site-meta.js has always exported them (title without the tail).
