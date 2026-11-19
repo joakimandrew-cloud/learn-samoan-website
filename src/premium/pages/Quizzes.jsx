@@ -58,7 +58,22 @@ export default function Quizzes() {
             <p>Try another chapter number or topic.</p>
             <button type="button" className="btn btn-primary" onClick={() => { setQuery(''); requestAnimationFrame(() => searchRef.current?.focus()) }}>Clear search</button>
           </div>
-        ) : GROUPS.map(([key, name]) => {
+        ) : (<>
+          {!query && (
+            <section className="catalog-group quiz-group" aria-labelledby="quiz-grandmother">
+              <header><div><p className="catalog-kicker">Before the chapters</p><h2 id="quiz-grandmother">A short test</h2></div></header>
+              <ol className="quiz-list">
+                <li>
+                  <Link to="/quiz">
+                    <span className="quiz-num" aria-hidden="true">?</span>
+                    <span className="quiz-copy"><strong>Can you still understand your grandmother?</strong><span>Six sentences from the course book</span></span>
+                    <EntryMotif size={20} />
+                  </Link>
+                </li>
+              </ol>
+            </section>
+          )}
+          {GROUPS.map(([key, name]) => {
           const rows = byGroup[key]
           if (!rows.length) return null
           return (
@@ -81,7 +96,8 @@ export default function Quizzes() {
               </ol>
             </section>
           )
-        })}
+          })}
+        </>)}
       </div>
     </div>
   )
