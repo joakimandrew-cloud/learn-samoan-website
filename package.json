@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "sync": "node scripts/sync-course.mjs && node scripts/build-sentence-bloom.mjs",
+    "sync": "node scripts/sync-course.mjs && node scripts/build-sentence-bloom.mjs && node scripts/build-dictionary-data.mjs",
     "sync:check": "node scripts/sync-course.mjs --check",
     "prebuild": "npm run check:interactives && npm run check:bloom",
     "build": "vite build && node scripts/prerender.mjs",
@@ -16,6 +16,8 @@
     "check:interactives": "node scripts/check-interactives.mjs",
     "bloom": "node scripts/build-sentence-bloom.mjs",
     "check:bloom": "node scripts/build-sentence-bloom.mjs --check",
+    "build:dictionary-data": "node scripts/build-dictionary-data.mjs",
+    "check:dictionary": "node scripts/check-dictionary-pages.mjs",
     "check:figures": "node scripts/premium/check-figures.mjs",
     "gates": "npm run lint && npm test && npm run check:interactives && npm run check:bloom && npm run check:figures"
   },
