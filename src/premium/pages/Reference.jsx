@@ -13,6 +13,7 @@ const PAGES = [
   { to: '/alphabet', group: 'sounds', kicker: 'Topic page', title: 'The Sāmoan Alphabet', text: 'The vowels, the consonants and the ʻ mark, how the letters sound, and what the line over a vowel does.' },
   { to: '/charts', group: 'lookup', kicker: 'Appendix', title: 'Reference Charts', text: 'Pronouns, possessives, articles, the tense-aspect-mood particles and the demonstratives, reproduced from the chapters that print them.' },
   { to: '/dictionary', group: 'lookup', kicker: 'Appendix', title: 'Dictionary', text: `All ${glossary.length} glossary entries as a dictionary, searchable in Sāmoan or English, each word with its own page and the chapter that teaches it.` },
+  { to: '/word-lists', group: 'lookup', kicker: 'By theme', title: 'Word Lists', text: 'Words the course teaches, sorted by theme: family, food and drink, the body, the house, animals, time, numbers and more.' },
   { to: '/greetings', group: 'phrases', kicker: 'From Chapter 10', title: 'Hello in Sāmoan', text: 'Hello and the reply, the goodbyes, thank you and please, and the good wishes, each as the course teaches it.' },
 ]
 
@@ -30,7 +31,7 @@ const GROUPS = [
     key: 'lookup',
     name: 'Charts & dictionary',
     verbPhrase: 'Look it up',
-    lead: 'The grammar charts and the dictionary, for checking a form while you work through the chapters.',
+    lead: 'The grammar charts, the dictionary and the word lists, for checking a form or finding a word while you work through the chapters.',
   },
   {
     key: 'phrases',

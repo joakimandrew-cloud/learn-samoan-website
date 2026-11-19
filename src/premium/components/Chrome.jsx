@@ -192,6 +192,7 @@ export function Footer() {
           <Link to="/greetings">Greetings</Link>
           <Link to="/charts">Reference charts</Link>
           <Link to="/dictionary">Dictionary</Link>
+          <Link to="/word-lists">Word lists</Link>
         </div>
         <div className="ftr-col">
           <h2>The course</h2>
