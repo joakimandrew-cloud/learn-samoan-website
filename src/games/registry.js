@@ -1,0 +1,43 @@
+import { ALL_WORDS } from './shared/lists.js'
+import { makeRng } from './shared/fair.js'
+import { makeRound as makeWordRound } from './word-balloons/rounds.js'
+import { SENTENCES, makeTiles } from './sentence-tiles/index.js'
+
+// Every game on the site, in one array. The /games page reads it, so a game
+// added later is one entry here (plus its route in src/premium/App.jsx).
+//
+// Each entry: key, route, title, blurb, action (the card's button word), words
+// (the count shown on the card), unit (what it counts; words when left out) and
+// sample() (the lines on the card, built from the game's own deck with a fixed
+// seed, so nothing is typed in code).
+export const GAMES = [
+  {
+    key: 'word-balloons',
+    route: '/games/word-balloons',
+    title: 'Word Balloons',
+    blurb: 'Tap the meaning before the word gets away.',
+    action: 'Play',
+    words: ALL_WORDS.length,
+    sample: () => ({
+      q: 'Tap the meaning',
+      sm: makeWordRound(ALL_WORDS, makeRng(2026)).mover,
+    }),
+  },
+  // Sentence Tiles: the count is the book's sentences the game keeps. The card
+  // shows one short sentence, with its tiles shuffled, chosen with a fixed seed.
+  {
+    key: 'sentence-tiles',
+    route: '/games/sentence-tiles',
+    title: 'Sentence Tiles',
+    blurb: 'Put the words of a book sentence in the book’s order, chapter by chapter.',
+    action: 'Play',
+    words: SENTENCES.length,
+    unit: 'sentences',
+    sample: () => {
+      const rng = makeRng(2026)
+      const short = SENTENCES.filter(s => s.words.length <= 4 && !s.prompt.includes('*'))
+      const s = short[Math.floor(rng() * short.length)]
+      return { q: s.prompt, sm: makeTiles(s, rng).map(t => t.text).join(' · ') }
+    },
+  },
+]
