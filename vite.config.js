@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { GOATCOUNTER_CODE } from './src/seo/meta.js'
+import { withCounter } from './src/seo/counter.js'
 
 const root = path.dirname(fileURLToPath(import.meta.url))
 const src = path.join(root, 'src')
@@ -43,13 +45,20 @@ function spaFallback() {
   }
 }
 
+// The visit counter's script tag goes into index.html only when GOATCOUNTER_CODE
+// (src/seo/meta.js) is not empty. The prerender reads dist/index.html as its
+// template, so every page then carries it.
+function visitCounter() {
+  return { name: 'visit-counter', transformIndexHtml: html => withCounter(html, GOATCOUNTER_CODE) }
+}
+
 // A test build is the dev server, or a build made with LS_TEST_BUILD=1. It carries the capture
 // flags (?still, ?solo), the /__proto/chapter route and the /scrub hub. A production build leaves
 // __TEST_BUILD__ false, so that code is dropped (plan 2026-11-06-chapter-page-simplify).
 export default defineConfig(({ command }) => ({
   base,
   define: { __TEST_BUILD__: JSON.stringify(command === 'serve' || process.env.LS_TEST_BUILD === '1') },
-  plugins: [react(), spaFallback()],
+  plugins: [react(), spaFallback(), visitCounter()],
   resolve: { alias: { '@app': src, '@book': path.join(root, 'book') } },
   server: { host: '127.0.0.1' },
   test: { exclude: ['**/node_modules/**', '**/dist/**', '**/dist-test/**'] },

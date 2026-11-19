@@ -24,6 +24,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Lint and tests run before the build, so a red check stops the deploy.
+      - run: npm run lint
+      - run: npm test
       - run: npm run build
         env:
           # Custom domain https://learnsamoan.org serves from the root path.
