@@ -61,6 +61,12 @@ A test build (`npx vite --port 4191`, or `LS_TEST_BUILD=1 npm run build`) adds t
 
 `/quiz` shows six sentences a grandmother could say at home, one at a time, each with four English choices, then one of three results by score with a link to Chapter 1. Everything it shows is in `src/seo/pages/grandmother-quiz.js`: each question names the line of `book/Chapter-NN.md` that prints its sentence, the right answer is the English that line prints, and the three wrong choices are English written for the page. The six sentences were copied from the book by a script, and `test/grandmother-quiz.test.js` fails when a named line no longer reads `*<the sentence>* <the right answer>` character for character, so a book repair that touches one of the six lines shows up there. The page is `src/premium/pages/GrandmotherQuiz.jsx`, drawn with the quiz stylesheet; the prerender serves its headline, its lead-in and the six sentences with their chapters, without the answers. It is linked from the top of `/quizzes`.
 
+## The word lists
+
+`/word-lists` shows words the course teaches, sorted by theme. Its data file, `src/premium/data/word-lists.json`, holds theme ids, theme labels and the ids of rows of `src/data/book-vocabulary.json`, and nothing else: no Sāmoan and no meaning is typed. The page (`src/premium/pages/WordLists.jsx`) shows each word and its English exactly as its row has them, drawn with the dictionary's own row, so each word links to its dictionary page through `wordSlug` and `wordPagePath` and each chapter number links to `/chapters/N`. The English a visitor reads is in `src/premium/lib/word-lists.js`, which the prerender reads too; it serves every theme and every word. A theme has at least eight words, a word sits in one theme, grammar-list rows are not themed, and a word that fits no theme is left off. To move or add a word, edit the ids in the data file, keeping each theme in id order.
+
+`test/word-lists.test.js` fails on an id that is not a vocabulary row, an id listed twice, a Sāmoan mark typed into the data file, a word whose dictionary address is not a page of the dictionary, and on the copy's house rules, the wiring and the served page. `buildWordLists` throws on the same faults, so `npm run build` stops on them too. To see the test fail on a broken copy of the data: `WORD_LISTS_DATA=/path/to/copy.json npx vitest run test/word-lists.test.js`. The page is linked from `/reference` and from the footer's Reference column.
+
 ## Local preview
 
 ```sh
