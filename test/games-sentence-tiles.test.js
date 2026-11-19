@@ -150,9 +150,12 @@ describe('Sentence Tiles: the deck is the book\'s', () => {
     expect(SENTENCES.every(x => x.orders.length === 1)).toBe(true)
   })
 
-  it('counts its sentences on the hub card from the deck', () => {
+  it('counts on the hub card only the sentences a player can reach, and samples one of them', () => {
     const game = GAMES.find(g => g.key === 'sentence-tiles')
-    expect(game.words).toBe(SENTENCES.length)
+    const playable = CHAPTERS.flatMap(ch => ch.cards)
+    expect(game.words).toBe(playable.length)
+    expect(game.words).toBe(196)
+    expect(playable.map(s => s.prompt)).toContain(game.sample().q)
     expect(game.unit).toBe('sentences')
     expect(game.route).toBe('/games/sentence-tiles')
     expect(game.sample().q).toBeTruthy()

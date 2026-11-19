@@ -1,7 +1,11 @@
 import { ALL_WORDS } from './shared/lists.js'
 import { makeRng } from './shared/fair.js'
 import { makeRound as makeWordRound } from './word-balloons/rounds.js'
-import { SENTENCES, makeTiles } from './sentence-tiles/index.js'
+import { CHAPTERS, makeTiles } from './sentence-tiles/index.js'
+
+// The sentences a player can reach: those of the chapters that have a game. The
+// deck also holds the sentences of chapters with one or two, which join none.
+const PLAYABLE = CHAPTERS.flatMap(c => c.cards)
 
 // Every game on the site, in one array. The /games page reads it, so a game
 // added later is one entry here (plus its route in src/premium/App.jsx).
@@ -23,7 +27,7 @@ export const GAMES = [
       sm: makeWordRound(ALL_WORDS, makeRng(2026)).mover,
     }),
   },
-  // Sentence Tiles: the count is the book's sentences the game keeps. The card
+  // Sentence Tiles: the count is the book's sentences a player can reach. The card
   // shows one short sentence, with its tiles shuffled, chosen with a fixed seed.
   {
     key: 'sentence-tiles',
@@ -31,11 +35,11 @@ export const GAMES = [
     title: 'Sentence Tiles',
     blurb: 'Put the words of a book sentence in the book’s order, chapter by chapter.',
     action: 'Play',
-    words: SENTENCES.length,
+    words: PLAYABLE.length,
     unit: 'sentences',
     sample: () => {
       const rng = makeRng(2026)
-      const short = SENTENCES.filter(s => s.words.length <= 4 && !s.prompt.includes('*'))
+      const short = PLAYABLE.filter(s => s.words.length <= 4 && !s.prompt.includes('*'))
       const s = short[Math.floor(rng() * short.length)]
       return { q: s.prompt, sm: makeTiles(s, rng).map(t => t.text).join(' · ') }
     },
